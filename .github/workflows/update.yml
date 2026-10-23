@@ -15,12 +15,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main                    # always the newest main, even when re-running an old run
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - run: pip install requests
-      - run: python build_data.py          # if NSE blocks this server, the script keeps the cached data
+      - run: python build_data.py      # if NSE or BSE blocks this server, the script keeps the cached data
       - name: Commit if changed
         run: |
-          git config user.name "ipo-bot"; git config user.email "bot@users.noreply.github.com"
+          git config user.name "ipo-bot"
+          git config user.email "bot@users.noreply.github.com"
           git add -A -- ipos.json data
-          git diff --staged --quiet || (git commit -m "Update IPO data" && git push)
+          if git diff --staged --quiet; then echo "Nothing changed, nothing to commit."; exit 0; fi
+          git commit -m "Update IPO data"
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin main && git push && exit 0
+            echo "Push attempt $i failed, retrying in 5 seconds"
+            sleep 5
+          done
+          exit 1

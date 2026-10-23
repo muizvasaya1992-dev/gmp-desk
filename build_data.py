@@ -16,7 +16,7 @@ Data sources
 
 Works from the project folder or from a scripts/ subfolder.
 """
-import csv, io, json, re, sys, time, pathlib, datetime as dt
+import copy, csv, io, json, re, sys, time, pathlib, datetime as dt
 from collections import defaultdict
 
 HERE = pathlib.Path(__file__).resolve().parent
@@ -105,6 +105,23 @@ def load_json(path, default):
         if pathlib.Path(path).exists():
             print(f"  ({pathlib.Path(path).name} was unreadable, starting it fresh)")
         return default
+
+
+def strip_ts(o):
+    """Ignore clock-only changes when deciding whether a file really changed."""
+    if isinstance(o, dict):
+        return {k: (v[:10] if k in ("details_at", "fetched_at") and isinstance(v, str) else strip_ts(v))
+                for k, v in o.items() if k != "last_seen"}
+    if isinstance(o, list):
+        return [strip_ts(x) for x in o]
+    return o
+
+
+def hours_between(a, b):
+    try:
+        return abs((dt.datetime.fromisoformat(b) - dt.datetime.fromisoformat(a)).total_seconds()) / 3600
+    except (TypeError, ValueError):
+        return 99
 
 
 def nse_date(s):
@@ -530,37 +547,46 @@ def enrich(ipo, today):
 # ----------------------------------------------------------------- main
 def main():
     now = dt.datetime.now(IST)
+    stamp = now.isoformat(timespec="minutes")
     if SAMPLE:
         doc = json.loads((DATA / "ipos_sample.json").read_text(encoding="utf-8"))
         recs, sources, dataset, out = doc["ipos"], [], "sample", "ipos_sample.json"
+        status = new_status = {}
     else:
         doc = json.loads((DATA / "ipos_manual.json").read_text(encoding="utf-8"))
-        cache_path = DATA / "nse_cache.json"
+        cache_path, bse_path = DATA / "nse_cache.json", DATA / "bse_cache.json"
         status_path = DATA / "status.json"          # when each exchange last actually answered
         status = load_json(status_path, {})
+        new_status = dict(status)
         cache = load_json(cache_path, {})
+        before = copy.deepcopy(cache)
         if "--offline" not in ARGS:
             try:
                 raw = load_probe() if "--from-probe" in ARGS else fetch_nse(cache, now)
                 update_cache(raw, cache, now)
-                cache_path.write_text(json.dumps(cache, indent=1, ensure_ascii=False), encoding="utf-8")
-                status["nse_ok_at"] = now.isoformat(timespec="minutes")
+                new_status["nse_ok_at"] = stamp
                 print(f"NSE: {len(cache)} IPOs in cache")
             except Exception as e:                      # a blocked or broken source must never break the build
                 print("NSE fetch FAILED, using cached data:", e)
+        if strip_ts(cache) == strip_ts(before):         # nothing new: keep old timestamps, leave the file alone
+            cache = before
+        else:
+            cache_path.write_text(json.dumps(cache, indent=1, ensure_ascii=False), encoding="utf-8")
         recs = merge(doc["ipos"], cache)
-        bse_path = DATA / "bse_cache.json"
         bsec = load_json(bse_path, {"ipos": {}})
+        bbefore = copy.deepcopy(bsec)
         if "--offline" not in ARGS:
             try:
                 rawb = load_probe_bse() if "--from-probe" in ARGS else fetch_bse(bsec, now)
                 update_bse(rawb, bsec, now)
-                bse_path.write_text(json.dumps(bsec, indent=1, ensure_ascii=False), encoding="utf-8")
-                status["bse_ok_at"] = now.isoformat(timespec="minutes")
+                new_status["bse_ok_at"] = stamp
                 print(f"BSE: {len(bsec['ipos'])} IPOs in cache")
             except Exception as e:                          # BSE sometimes refuses: keep going with what we have
                 print("BSE fetch FAILED, using cached data:", e)
-        status_path.write_text(json.dumps(status, indent=1), encoding="utf-8")
+        if strip_ts(bsec) == strip_ts(bbefore):
+            bsec = bbefore
+        else:
+            bse_path.write_text(json.dumps(bsec, indent=1, ensure_ascii=False), encoding="utf-8")
         recs = merge_bse(recs, bsec)
         feeds_ok = bool(cache) and bool(bsec.get("ipos"))
         try:
@@ -588,11 +614,27 @@ def main():
     if not SAMPLE:                                          # upcoming/open but on neither exchange's official list
         for i in ipos:
             i["unconfirmed"] = bool(feeds_ok and not i.get("official") and i["status"] in ("upcoming", "open", "closing_today"))
-    payload = {"generated_at": now.isoformat(timespec="minutes"), "dataset": dataset, "sources": sources,
-               "market_stats": (bsec.get("tracker") if not SAMPLE else None),
-               "feeds": (None if SAMPLE else {"nse_ok_at": status.get("nse_ok_at"), "bse_ok_at": status.get("bse_ok_at")}), "ipos": ipos}
-    (ROOT / out).write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(f"Wrote {out} ({dataset}) with {len(ipos)} IPOs, {sum(1 for i in ipos if i['gmp'] is not None)} with GMP")
+    payload = {"generated_at": stamp, "dataset": dataset, "sources": sources,
+               "market_stats": (bsec.get("tracker") if not SAMPLE else None), "feeds": None, "ipos": ipos}
+
+    # ---- quiet runs write nothing, so the repository only changes when the data does
+    core = lambda p: {k: v for k, v in p.items() if k not in ("generated_at", "feeds")}
+    old = load_json(ROOT / out, None)
+    changed = old is None or core(old) != core(payload)
+    persist_status = False
+    if not SAMPLE:
+        drift = any(new_status.get(k) and (not status.get(k) or hours_between(status[k], new_status[k]) > 2)
+                    for k in ("nse_ok_at", "bse_ok_at"))
+        persist_status = changed or drift               # freshness is recorded lazily: at most ~2 h behind
+        final = new_status if persist_status else status
+        payload["feeds"] = {"nse_ok_at": final.get("nse_ok_at"), "bse_ok_at": final.get("bse_ok_at")}
+        if persist_status:
+            status_path.write_text(json.dumps(final, indent=1), encoding="utf-8")
+    if changed or persist_status:
+        (ROOT / out).write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+        print(f"Wrote {out} ({dataset}) with {len(ipos)} IPOs, {sum(1 for i in ipos if i['gmp'] is not None)} with GMP")
+    else:
+        print(f"No change since last run: {out} left as it was ({len(ipos)} IPOs)")
 
 
 if __name__ == "__main__":
