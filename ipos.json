@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T14:02+05:30",
+  "generated_at": "2026-10-23T14:06+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-10-23T13:03+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-10-23T14:02+05:30",
+    "nse_ok_at": "2026-10-23T14:06+05:30",
     "bse_ok_at": "2026-10-23T13:40+05:30"
   },
   "ipos": [
@@ -73,14 +73,14 @@
       "price": 1119,
       "segment": "MAIN",
       "sub": {
-        "qib": 23.47,
-        "nii": 12.0,
-        "bnii": 13.88,
-        "snii": 8.23,
+        "qib": 23.82,
+        "nii": 12.01,
+        "bnii": 13.89,
+        "snii": 8.24,
         "retail": 2.28,
         "employee": 2.65,
         "shareholders": 6.55,
-        "total": 9.82
+        "total": 9.91
       },
       "sub_basis": "NSE+BSE",
       "sub_asof": "2026-10-23T13:57",
@@ -158,12 +158,23 @@
           "employee": 2.65,
           "shareholders": 6.55,
           "total": 9.82
+        },
+        {
+          "at": "2026-10-23T14:06+05:30",
+          "qib": 23.82,
+          "nii": 12.01,
+          "bnii": 13.89,
+          "snii": 8.24,
+          "retail": 2.28,
+          "employee": 2.65,
+          "shareholders": 6.55,
+          "total": 9.91
         }
       ],
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 197525934.0,
-      "updated_on": "2026-10-23T14:02+05:30",
+      "updated_on": "2026-10-23T14:06+05:30",
       "bse_ipo_no": "8047",
       "gmp_sources": [],
       "gmp_history": [],
@@ -273,7 +284,7 @@
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 12083331.0,
-      "updated_on": "2026-10-23T14:02+05:30",
+      "updated_on": "2026-10-23T14:06+05:30",
       "bse_ipo_no": "8048",
       "gmp_sources": [],
       "gmp_history": [],
@@ -310,7 +321,7 @@
       "series": "EQ",
       "nse_status": "Forthcoming",
       "shares_offered": 17000000.0,
-      "updated_on": "2026-10-23T14:02+05:30",
+      "updated_on": "2026-10-23T14:06+05:30",
       "bse_ipo_no": "8056",
       "gmp_sources": [],
       "gmp_history": [],
@@ -347,7 +358,7 @@
       "series": "EQ",
       "nse_status": "Forthcoming",
       "shares_offered": 20475082.0,
-      "updated_on": "2026-10-23T14:02+05:30",
+      "updated_on": "2026-10-23T14:06+05:30",
       "bse_ipo_no": "8060",
       "gmp_sources": [],
       "gmp_history": [],
@@ -384,7 +395,7 @@
       "series": "EQ",
       "nse_status": "Forthcoming",
       "shares_offered": 7570977.0,
-      "updated_on": "2026-10-23T14:02+05:30",
+      "updated_on": "2026-10-23T14:06+05:30",
       "bse_ipo_no": "8054",
       "gmp_sources": [],
       "gmp_history": [],
