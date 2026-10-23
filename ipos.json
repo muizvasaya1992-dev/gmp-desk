@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T18:43+05:30",
+  "generated_at": "2026-10-23T18:44+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -9,10 +9,6 @@
     {
       "name": "BSE India",
       "url": "https://www.bseindia.com/markets/PublicIssues/IPOIssues_new.aspx?id=1&Type=p"
-    },
-    {
-      "name": "IPO Ji (GMP)",
-      "url": "https://www.ipoji.com/ipo-gmp"
     }
   ],
   "market_stats": {
@@ -27,7 +23,7 @@
     "fetched_at": "2026-10-23T13:03+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-10-23T18:43+05:30",
+    "nse_ok_at": "2026-10-23T18:44+05:30",
     "bse_ok_at": "2026-10-23T18:43+05:30"
   },
   "ipos": [
@@ -87,7 +83,7 @@
         "total": 21.58
       },
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-10-23T18:39",
+      "sub_asof": "2026-10-23T18:42",
       "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_JPL.zip",
       "retail_max": 200000,
       "anchor_shares": 72474066,
@@ -255,28 +251,12 @@
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 197525934.0,
-      "updated_on": "2026-10-23T18:43+05:30",
+      "updated_on": "2026-10-23T18:44+05:30",
       "bse_ipo_no": "8047",
-      "gmp_sources": [
-        {
-          "source": "IPO Ji",
-          "gmp": 245,
-          "at": "2026-10-23T17:45"
-        }
-      ],
-      "gmp_history": [
-        {
-          "date": "2026-10-23",
-          "gmp": 245
-        }
-      ],
-      "history_source": "IPO Ji",
-      "gmp_low": 245,
-      "gmp_high": 245,
-      "gmp": 245,
-      "gmp_asof": "2026-10-23T17:45",
-      "gmp_source_latest": "IPO Ji",
-      "gmp_pct": 21.89,
+      "gmp_sources": [],
+      "gmp_history": [],
+      "gmp": null,
+      "gmp_pct": null,
       "status": "closing_today",
       "unconfirmed": false
     },
@@ -314,7 +294,7 @@
         "total": 2.23
       },
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-10-23T18:39",
+      "sub_asof": "2026-10-23T18:42",
       "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_PARASHLTH.zip",
       "retail_max": 200000,
       "price_low": 660,
@@ -426,28 +406,12 @@
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 12083331.0,
-      "updated_on": "2026-10-23T18:43+05:30",
+      "updated_on": "2026-10-23T18:44+05:30",
       "bse_ipo_no": "8048",
-      "gmp_sources": [
-        {
-          "source": "IPO Ji",
-          "gmp": 8,
-          "at": "2026-10-23T16:15"
-        }
-      ],
-      "gmp_history": [
-        {
-          "date": "2026-10-23",
-          "gmp": 8
-        }
-      ],
-      "history_source": "IPO Ji",
-      "gmp_low": 8,
-      "gmp_high": 8,
-      "gmp": 8,
-      "gmp_asof": "2026-10-23T16:15",
-      "gmp_source_latest": "IPO Ji",
-      "gmp_pct": 1.15,
+      "gmp_sources": [],
+      "gmp_history": [],
+      "gmp": null,
+      "gmp_pct": null,
       "status": "closing_today",
       "unconfirmed": false
     },
@@ -479,28 +443,12 @@
       "series": "EQ",
       "nse_status": "Forthcoming",
       "shares_offered": 17000000.0,
-      "updated_on": "2026-10-23T18:43+05:30",
+      "updated_on": "2026-10-23T18:44+05:30",
       "bse_ipo_no": "8056",
-      "gmp_sources": [
-        {
-          "source": "IPO Ji",
-          "gmp": 24,
-          "at": "2026-10-23T13:45"
-        }
-      ],
-      "gmp_history": [
-        {
-          "date": "2026-10-23",
-          "gmp": 24
-        }
-      ],
-      "history_source": "IPO Ji",
-      "gmp_low": 24,
-      "gmp_high": 24,
-      "gmp": 24,
-      "gmp_asof": "2026-10-23T13:45",
-      "gmp_source_latest": "IPO Ji",
-      "gmp_pct": 16.0,
+      "gmp_sources": [],
+      "gmp_history": [],
+      "gmp": null,
+      "gmp_pct": null,
       "status": "upcoming",
       "unconfirmed": false
     },
@@ -532,28 +480,12 @@
       "series": "EQ",
       "nse_status": "Forthcoming",
       "shares_offered": 20475082.0,
-      "updated_on": "2026-10-23T18:43+05:30",
+      "updated_on": "2026-10-23T18:44+05:30",
       "bse_ipo_no": "8060",
-      "gmp_sources": [
-        {
-          "source": "IPO Ji",
-          "gmp": 21,
-          "at": "2026-10-23T13:45"
-        }
-      ],
-      "gmp_history": [
-        {
-          "date": "2026-10-23",
-          "gmp": 21
-        }
-      ],
-      "history_source": "IPO Ji",
-      "gmp_low": 21,
-      "gmp_high": 21,
-      "gmp": 21,
-      "gmp_asof": "2026-10-23T13:45",
-      "gmp_source_latest": "IPO Ji",
-      "gmp_pct": 6.36,
+      "gmp_sources": [],
+      "gmp_history": [],
+      "gmp": null,
+      "gmp_pct": null,
       "status": "upcoming",
       "unconfirmed": false
     },
@@ -585,7 +517,7 @@
       "series": "EQ",
       "nse_status": "Forthcoming",
       "shares_offered": 7570977.0,
-      "updated_on": "2026-10-23T18:43+05:30",
+      "updated_on": "2026-10-23T18:44+05:30",
       "bse_ipo_no": "8054",
       "gmp_sources": [],
       "gmp_history": [],
@@ -782,13 +714,12 @@
       ],
       "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_MKSONS.zip",
       "retail_max": 200000,
-      "cutoff_time": "5:00 PM",
       "price_low": 153,
       "sub_history": null,
       "series": "EQ",
       "nse_status": "Forthcoming",
       "shares_offered": 17000000.0,
-      "updated_on": "2026-10-23T18:43+05:30",
+      "updated_on": "2026-10-23T18:44+05:30",
       "gmp_sources": [],
       "gmp_history": [],
       "gmp": null,
