@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T14:19+05:30",
+  "generated_at": "2026-10-23T14:22+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-10-23T13:03+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-10-23T14:19+05:30",
+    "nse_ok_at": "2026-10-23T14:22+05:30",
     "bse_ok_at": "2026-10-23T14:16+05:30"
   },
   "ipos": [
@@ -74,16 +74,16 @@
       "segment": "MAIN",
       "sub": {
         "qib": 26.57,
-        "nii": 12.28,
-        "bnii": 14.19,
-        "snii": 8.46,
-        "retail": 2.32,
+        "nii": 12.48,
+        "bnii": 14.43,
+        "snii": 8.56,
+        "retail": 2.33,
         "employee": 2.68,
-        "shareholders": 6.67,
-        "total": 10.67
+        "shareholders": 6.72,
+        "total": 10.72
       },
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-10-23T14:15",
+      "sub_asof": "2026-10-23T14:18",
       "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_JPL.zip",
       "retail_max": 200000,
       "anchor_shares": 72474066,
@@ -191,12 +191,23 @@
           "employee": 2.68,
           "shareholders": 6.67,
           "total": 10.67
+        },
+        {
+          "at": "2026-10-23T14:22+05:30",
+          "qib": 26.57,
+          "nii": 12.48,
+          "bnii": 14.43,
+          "snii": 8.56,
+          "retail": 2.33,
+          "employee": 2.68,
+          "shareholders": 6.72,
+          "total": 10.72
         }
       ],
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 197525934.0,
-      "updated_on": "2026-10-23T14:19+05:30",
+      "updated_on": "2026-10-23T14:22+05:30",
       "bse_ipo_no": "8047",
       "gmp_sources": [],
       "gmp_history": [],
@@ -239,7 +250,7 @@
         "total": 0.67
       },
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-10-23T14:15",
+      "sub_asof": "2026-10-23T14:18",
       "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_PARASHLTH.zip",
       "retail_max": 200000,
       "price_low": 660,
@@ -333,7 +344,7 @@
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 12083331.0,
-      "updated_on": "2026-10-23T14:19+05:30",
+      "updated_on": "2026-10-23T14:22+05:30",
       "bse_ipo_no": "8048",
       "gmp_sources": [],
       "gmp_history": [],
@@ -370,7 +381,7 @@
       "series": "EQ",
       "nse_status": "Forthcoming",
       "shares_offered": 17000000.0,
-      "updated_on": "2026-10-23T14:19+05:30",
+      "updated_on": "2026-10-23T14:22+05:30",
       "bse_ipo_no": "8056",
       "gmp_sources": [],
       "gmp_history": [],
@@ -407,7 +418,7 @@
       "series": "EQ",
       "nse_status": "Forthcoming",
       "shares_offered": 20475082.0,
-      "updated_on": "2026-10-23T14:19+05:30",
+      "updated_on": "2026-10-23T14:22+05:30",
       "bse_ipo_no": "8060",
       "gmp_sources": [],
       "gmp_history": [],
@@ -444,7 +455,7 @@
       "series": "EQ",
       "nse_status": "Forthcoming",
       "shares_offered": 7570977.0,
-      "updated_on": "2026-10-23T14:19+05:30",
+      "updated_on": "2026-10-23T14:22+05:30",
       "bse_ipo_no": "8054",
       "gmp_sources": [],
       "gmp_history": [],
