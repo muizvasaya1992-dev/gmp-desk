@@ -3,7 +3,8 @@ GMP Desk data pipeline.  Reads official NSE data + your own facts + your own GMP
 and writes ipos.json for the website.
 
   python build_data.py                 normal run (fetch NSE, merge, write ipos.json)
-  python build_data.py --offline       skip NSE, use the saved cache only
+  python build_data.py --offline       skip NSE and BSE, use the saved caches only
+  python build_data.py --no-bse        fetch NSE but not BSE (what the cloud job uses: BSE blocks cloud servers)
   python build_data.py --from-probe    use the saved files in data/probe/ instead of calling NSE
   python build_data.py --sample        build the made-up sample set -> ipos_sample.json
   python build_data.py --local-test    also load data/gmp_local_testing.csv -> ipos_localtest.json
@@ -575,7 +576,7 @@ def main():
         recs = merge(doc["ipos"], cache)
         bsec = load_json(bse_path, {"ipos": {}})
         bbefore = copy.deepcopy(bsec)
-        if "--offline" not in ARGS:
+        if "--offline" not in ARGS and "--no-bse" not in ARGS:
             try:
                 rawb = load_probe_bse() if "--from-probe" in ARGS else fetch_bse(bsec, now)
                 update_bse(rawb, bsec, now)

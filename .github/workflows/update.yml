@@ -20,7 +20,8 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - run: pip install requests
-      - run: python build_data.py      # if NSE or BSE blocks this server, the script keeps the cached data
+      # BSE refuses cloud servers (403), so only NSE is fetched here. BSE is refreshed from your PC (update_from_pc.bat).
+      - run: python build_data.py --no-bse
       - name: Commit if changed
         run: |
           git config user.name "ipo-bot"

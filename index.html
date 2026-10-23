@@ -447,9 +447,14 @@ function renderFaq(){
 }
 function renderStale(){
   const f=state.feeds, el=$("stale"); el.hidden=true;
-  if(!f||!f.nse_ok_at||state.tab==="CMP"||state.tab==="TRK") return;
-  const h=(Date.now()-new Date(f.nse_ok_at))/36e5, live=state.all.some(i=>i.status==="open"||i.status==="closing_today");
-  if((live&&h>6)||h>48){ el.hidden=false; el.textContent="Exchange data was last refreshed "+tt(f.nse_ok_at)+". Subscription numbers and new listings may be behind."; }
+  if(!f||state.tab==="CMP"||state.tab==="TRK") return;
+  const sme=state.tab==="SME", ok=sme?f.bse_ok_at:f.nse_ok_at; if(!ok) return;
+  const h=(Date.now()-new Date(ok))/36e5, live=!sme && state.all.some(i=>i.status==="open"||i.status==="closing_today");
+  if(sme ? h>72 : ((live&&h>6)||h>48)){
+    el.hidden=false;
+    el.textContent = sme ? "SME data from BSE was last refreshed "+tt(ok)+". New SME issues and date changes may be missing."
+                         : "Exchange data was last refreshed "+tt(ok)+". Subscription numbers and new listings may be behind.";
+  }
 }
 function renderYear(){
   const t=state.stats; if(!t||!t.total){ $("yearline").innerHTML=""; return; }
