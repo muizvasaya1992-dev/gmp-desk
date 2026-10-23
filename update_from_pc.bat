@@ -1,40 +1,41 @@
 @echo off
-rem GMP Desk: refresh from THIS PC (BSE only answers home connections), then publish.
-rem Double-click it, or schedule it in Windows Task Scheduler. It also publishes any edits you made to data\gmp.csv.
+rem GMP Desk: one-click publish. Double-click this file.
+rem It refreshes the data, then puts everything on the live website.
 cd /d "%~dp0"
 
-echo [1/4] Getting the latest from GitHub...
-git pull --rebase --autostash origin main
-if errorlevel 1 goto fail
-
-echo [2/4] Building (NSE and BSE, from this PC)...
+echo [1/4] Refreshing the data...
 python build_data.py
 if errorlevel 1 goto fail
 
-git diff --quiet -- build_data.py index.html .github update_from_pc.bat
-if errorlevel 1 echo NOTE: you have unpublished edits to code files. They are NOT published by this script. Commit them yourself when ready.
-
-echo [3/4] Looking for changes...
-git add -A -- ipos.json history.json data
-git diff --staged --quiet
+echo.
+echo [2/4] Collecting your changes...
+git add -A
+git status --short
+git diff --cached --quiet
 if not errorlevel 1 (
-  echo Nothing changed. Nothing to publish.
+  echo Nothing new to publish.
   goto end
 )
-git commit -m "Update IPO data from PC"
+git commit -m "Site update %date% %time%"
 if errorlevel 1 goto fail
 
-echo [4/4] Publishing...
+echo.
+echo [3/4] Syncing with GitHub...
 git pull --rebase --autostash -X theirs origin main
 if errorlevel 1 goto fail
+
+echo.
+echo [4/4] Publishing...
 git push
 if errorlevel 1 goto fail
-echo Done. The site updates in a minute or two.
+
+echo.
+echo Done! Your live site updates in 1 to 2 minutes.
 goto end
 
 :fail
 echo.
-echo Something went wrong. Read the messages above, and send them to Claude if you are not sure.
+echo Something went wrong. Copy the messages above and send them to Claude.
 pause
 exit /b 1
 

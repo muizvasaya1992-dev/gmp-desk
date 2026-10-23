@@ -1,0 +1,7 @@
+# YOUR OWN GMP readings. One row per reading, newest last. Lines starting with # are ignored.
+# ipo    = NSE symbol (e.g. JPL), or the IPO id / name
+# gmp    = premium in rupees (negative if at a discount)
+# at     = OPTIONAL. When you saw it, e.g. 2026-10-23 11:30. Leave it empty and the site notes the time itself
+# source = optional label, defaults to "GMP Desk"
+# Example (delete the # to use):  JPL,240,2026-10-23 11:30,
+ipo,gmp,at,source

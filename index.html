@@ -3,7 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>GMP Desk: IPO and SME IPO tracker</title>
+<title>GMP Desk: every IPO in India in one place</title>
+<meta name="theme-color" content="#111735">
+<meta property="og:type" content="website">
+<meta property="og:title" content="GMP Desk: every IPO in India in one place">
+<meta property="og:description" content="See what is open today, what is coming next and how past IPOs did. Official NSE and BSE data in plain English.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%232f6fed'/%3E%3Ctext x='50' y='70' font-size='62' text-anchor='middle'%3E%F0%9F%93%88%3C/text%3E%3C/svg%3E">
 <meta name="description" content="Upcoming, open and recently listed Mainboard and SME IPOs in India with price band, lot size, subscription and grey market premium.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,14 +43,15 @@ button{font:inherit;color:inherit}
     radial-gradient(1000px 420px at 86% -25%, var(--glow), transparent 64%),
     radial-gradient(520px 260px at 6% 120%, rgba(47,111,237,.16), transparent 70%),
     linear-gradient(180deg,var(--navy-900),var(--navy-800));
-  color:#fff;padding-bottom:58px;transition:background .3s}
+  color:#fff;padding-bottom:34px;transition:background .3s}
 .bar{display:flex;align-items:center;gap:28px;height:60px}
 .brand{display:flex;align-items:center;gap:11px;font-weight:700;font-size:18px;letter-spacing:-.01em;text-decoration:none;color:#fff}
 .mark{width:34px;height:34px;border-radius:10px;background:linear-gradient(145deg,var(--blue-500),var(--blue-700));display:grid;place-items:center;box-shadow:0 4px 14px rgba(47,111,237,.45)}
 .mark svg{width:19px;height:19px}
 .brand b{color:var(--blue-500)}
-.nav{display:flex;gap:4px;margin-left:8px}
-.nav button{all:unset;cursor:pointer;display:flex;align-items:center;gap:8px;padding:9px 14px;border-radius:10px;font-weight:500;color:#b9c3e6;transition:background .15s,color .15s}
+.nav{display:flex;gap:4px;margin-left:8px;min-width:0;flex:0 1 auto;overflow-x:auto;scrollbar-width:none}
+.nav::-webkit-scrollbar{display:none}
+.nav button{all:unset;flex:none;cursor:pointer;display:flex;align-items:center;gap:8px;padding:9px 14px;border-radius:10px;font-weight:500;color:#b9c3e6;transition:background .15s,color .15s}
 .nav button:hover{background:rgba(255,255,255,.07);color:#fff}
 .nav button[aria-selected="true"]{background:var(--navy-700);color:#fff}
 .nav button:focus-visible{outline:2px solid #fff;outline-offset:1px}
@@ -53,17 +59,17 @@ button{font:inherit;color:inherit}
 .nav button[aria-selected="true"] .n{background:var(--blue-500)}
 .meta{margin-left:auto;display:flex;align-items:center;gap:10px;color:#9fabd3;font-size:12.5px}
 .badge{font-weight:600;font-size:12px;padding:3px 10px;border-radius:99px;background:rgba(255,255,255,.1);color:#fff;border:1px solid rgba(255,255,255,.14)}
-.hero{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:10px 32px;padding-top:2px}
-.hl{min-width:0;flex:1 1 380px}
+.hero{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 28px;padding-top:6px}
+.hl{min-width:0;display:flex;align-items:baseline;gap:4px 16px;flex-wrap:wrap;flex:1 1 380px}
 .hr{display:flex;flex-direction:column;align-items:flex-end;gap:8px;flex:0 1 640px;max-width:100%}
 .eyebrow{display:none!important;align-items:center;gap:8px;font-size:12px;font-weight:600;letter-spacing:.09em;text-transform:uppercase;color:#9fb6f5}
 .eyebrow i{width:6px;height:6px;border-radius:50%;background:var(--blue-500);box-shadow:0 0 0 4px rgba(59,130,246,.25)}
 body.sme .eyebrow{color:#8fe0bd} body.sme .eyebrow i{background:#2fc58a;box-shadow:0 0 0 4px rgba(47,197,138,.25)}
-h1{margin:0 0 4px;font-size:clamp(22px,3vw,30px);line-height:1.1;letter-spacing:-.025em;font-weight:700}
-.hero p{margin:0;color:#b9c3e6;font-size:13.5px}
+h1{margin:0;font-size:clamp(20px,2.4vw,26px);line-height:1.1;letter-spacing:-.025em;font-weight:700}
+.hero p{display:none}
 
 /* ---------- stat cards (overlap the hero) ---------- */
-main{margin-top:-34px;position:relative}
+main{margin-top:-24px;position:relative}
 .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
 .stat{all:unset;box-sizing:border-box;cursor:pointer;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:18px 20px;display:flex;gap:16px;align-items:center;box-shadow:var(--shadow-md);transition:transform .15s,border-color .15s,box-shadow .15s}
 .stat:hover{transform:translateY(-2px)}
@@ -191,17 +197,10 @@ dialog[open]{animation:slide .2s ease-out}
 .dtl .done i{background:var(--blue-600);border-color:var(--blue-600)}
 .fine{font-size:12px;color:var(--muted);margin-top:22px}
 
-/* ---------- today strip ---------- */
-.today{display:flex;flex-wrap:wrap;gap:8px;margin-top:0;align-items:center;justify-content:flex-end}
-.today .lbl{font-size:11px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:#9fb6f5;margin-right:4px}
-.today button{all:unset;cursor:pointer;font-size:12.5px;font-weight:500;padding:5px 12px;border-radius:99px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);color:#fff}
-.today button:hover{background:rgba(255,255,255,.18)} .today button:focus-visible{outline:2px solid #fff;outline-offset:2px}
-.today .none{color:#aab6dd;font-size:12.5px}
-.yearline{margin-top:0;text-align:right;color:#aab6dd;font-size:12.5px}
+/* ---------- header notes ---------- */
+.yearline{margin-top:0;text-align:right;color:#aab6dd;font-size:12.5px;padding-bottom:2px}
 .yearline b{color:#fff;font-weight:600} .yearline .src2{opacity:.7;margin-left:6px}
 .chip.warn{background:var(--amber-100);color:var(--amber-700)}
-.stale{display:flex;gap:12px;align-items:flex-start;background:var(--amber-100);border:1px solid #f0d9a4;color:var(--amber-700);border-radius:var(--r);padding:12px 16px;margin:0 0 16px;font-weight:500}
-.stale[hidden]{display:none}
 
 /* ---------- drawer extras ---------- */
 .acts{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:6px}
@@ -263,20 +262,106 @@ a.btn{text-decoration:none}
 .ylist td.nm b{font-size:14.5px}
 .ylist .gv b{font-size:14.5px}
 
+/* ---------- calendar ---------- */
+.cal-wrap{display:grid;grid-template-columns:minmax(0,600px) minmax(0,1fr);gap:16px;align-items:start;margin-top:26px}
+.cal{padding:18px 18px 14px}
+.cal-head{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:14px}
+.cal-head .tile{width:38px;height:38px;border-radius:11px}
+.cal-head .tile svg{width:19px;height:19px}
+.cal-head h2{margin:0;font-size:17px;letter-spacing:-.01em}
+.cal-nav{margin-left:auto;display:flex;align-items:center;gap:6px}
+.cal-nav b{min-width:128px;text-align:center;font-size:15px}
+.cal-nav button,.cal-today{all:unset;cursor:pointer;border:1px solid var(--line);border-radius:9px;padding:5px 11px;font-weight:600;font-size:13px;background:#fff;color:var(--slate-700)}
+.cal-nav button:hover,.cal-today:hover{background:var(--blue-50)}
+.cal-nav button:focus-visible,.cal-today:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:4px}
+.cal-dow{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--slate-500);text-align:center;padding:6px 0}
+.cal-cell{all:unset;box-sizing:border-box;cursor:pointer;height:60px;border-radius:12px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;font-weight:600;font-size:15px;position:relative}
+.cal-cell.empty{cursor:default}
+.cal-cell:not(.empty):hover{background:var(--blue-50)}
+.cal-cell.sel{box-shadow:inset 0 0 0 2px var(--blue-500)}
+.cal-cell.today{background:var(--green-700);color:#fff}
+.cal-cell.today:hover{background:var(--green-700)}
+.cal-cell:focus-visible{outline:2px solid var(--focus);outline-offset:1px}
+.cal-cell .dots{display:flex;gap:4px;height:7px}
+.cal-cell .dots i{width:7px;height:7px;border-radius:50%}
+.cal-cell.today .dots i{box-shadow:0 0 0 1.5px rgba(255,255,255,.9)}
+.k-open{background:#1e9e6a} .k-up{background:#3b82f6} .k-done{background:#7b5cd6} .k-due{background:#d08a1d}
+.cal-legend{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:12px;padding-top:12px;border-top:1px solid var(--line);font-size:12.5px;color:var(--slate-700)}
+.cal-legend span{display:inline-flex;align-items:center;gap:7px}
+.cal-legend i{width:9px;height:9px;border-radius:50%}
+.cal-day{padding:18px}
+.cal-day h3{margin:0 0 4px;font-size:16px;letter-spacing:-.01em}
+.cal-day .sub2{color:var(--muted);font-size:13px;margin-bottom:12px}
+.cal-ev{all:unset;box-sizing:border-box;cursor:pointer;display:flex;align-items:center;gap:12px;width:100%;padding:11px 12px;border:1px solid var(--line);border-radius:12px;margin-bottom:8px;background:#fff;border-left:4px solid var(--ev,var(--slate-500))}
+.cal-ev:hover{background:var(--blue-50)}
+.cal-ev:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.cal-ev .t{font-weight:600;display:block;line-height:1.25}
+.cal-ev .m{font-size:12.5px;color:var(--muted)}
+.cal-ev .tag{margin-left:auto;flex:none;font-size:11.5px;font-weight:700;padding:3px 10px;border-radius:99px;background:var(--ev-bg,var(--slate-100));color:var(--ev,var(--slate-700));white-space:nowrap}
+@media (max-width:900px){.cal-wrap{grid-template-columns:1fr}.cal-cell{height:52px}}
+
+/* ---------- ticker ---------- */
+.ticker{display:flex;align-items:stretch;margin:0 0 12px;border-top:1px solid rgba(255,255,255,.09);border-bottom:1px solid rgba(255,255,255,.09);background:rgba(7,11,32,.5)}
+.ticker[hidden]{display:none}
+.ticker .live{flex:none;display:flex;align-items:center;gap:8px;padding:0 16px;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;background:var(--navy-950);color:#fff;position:relative;z-index:2}
+.ticker .live i{width:8px;height:8px;border-radius:50%;background:#2fc58a;animation:pulse 1.8s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(47,197,138,.55)}70%{box-shadow:0 0 0 7px rgba(47,197,138,0)}100%{box-shadow:0 0 0 0 rgba(47,197,138,0)}}
+.tk-view{flex:1;min-width:0;overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 22px,#000 calc(100% - 22px),transparent);mask-image:linear-gradient(90deg,transparent,#000 22px,#000 calc(100% - 22px),transparent)}
+.tk-track{display:inline-flex;white-space:nowrap;animation:tk var(--dur,60s) linear infinite;will-change:transform}
+.ticker:hover .tk-track,.ticker:focus-within .tk-track{animation-play-state:paused}
+@keyframes tk{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.tk-g{display:inline-flex}
+.tk-lane{display:inline-flex;align-items:center;margin:0 6px 0 14px;align-self:center;font-size:10.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:3px 10px;border-radius:99px;background:rgba(255,255,255,.12);color:#fff}
+.tk-lane.l-open{background:#0f7b4f} .tk-lane.l-up{background:#2f6fed} .tk-lane.l-done{background:#c07a0b}
+.tk-item{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:10px;padding:10px 20px;font-size:13px;color:#b9c3e6;border-right:1px solid rgba(255,255,255,.1)}
+.tk-item:focus-visible{outline:2px solid #fff;outline-offset:-2px}
+.tk-item b{color:#fff;font-weight:600}
+.tk-item .dot{width:7px;height:7px;border-radius:50%;flex:none}
+.tk-item .p{color:#7be0b4;font-weight:600}
+.tk-item .g{font-weight:700} .tk-item .g.up{color:#7be0b4} .tk-item .g.dn{color:#ff9a93}
+.tk-chip{font-size:11px;font-weight:600;padding:2px 9px;border-radius:99px;background:rgba(255,255,255,.12);color:#e6ecff}
+@media (prefers-reduced-motion:reduce){.tk-track{animation:none}.tk-view{overflow-x:auto;-webkit-mask-image:none;mask-image:none}.ticker .live i{animation:none}}
+@media (max-width:640px){.ticker .live{padding:0 12px} .ticker .live span{display:none} .tk-item{padding:9px 14px;font-size:12.5px}}
+
+/* ---------- friendly extras ---------- */
+.glance{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:0 0 4px}
+.glance>div{border:1px solid var(--line);border-radius:12px;padding:11px 13px;background:#fafbfe}
+.glance .k{font-size:10.5px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--slate-500)}
+.glance .v{font-size:17px;font-weight:700;margin-top:2px;line-height:1.25}
+.glance .s{font-size:12px;color:var(--muted);min-height:16px}
+.chance{margin:12px 0 0;padding:12px 14px;border-radius:12px;background:var(--blue-50);border:1px solid var(--blue-200);color:var(--slate-700);font-size:13.5px}
+.chance b{color:var(--ink)}
+details.how{border:1px solid var(--line);border-radius:12px;background:#fff;margin-top:12px}
+details.how summary{cursor:pointer;padding:12px 14px;font-weight:600;list-style:none;display:flex;justify-content:space-between}
+details.how summary::after{content:"+";color:var(--blue-600);font-weight:700}
+details.how[open] summary::after{content:"−"}
+details.how summary::-webkit-details-marker{display:none}
+details.how summary:focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:12px}
+details.how ol{margin:0;padding:0 16px 14px 34px;color:var(--slate-700);font-size:13.5px}
+details.how li{margin:6px 0}
+.star{all:unset;cursor:pointer;font-size:19px;line-height:1;color:#c3cbdb;padding:4px;border-radius:8px}
+.star:hover{color:var(--amber-600)}
+.star[aria-pressed="true"]{color:var(--amber-600)}
+.star:focus-visible{outline:2px solid var(--focus);outline-offset:1px}
+.tbl td.stc{padding-right:0;width:34px}
+.tbl th.stc{width:34px;padding-right:0}
+.card .head .star{margin:-4px -4px -4px 0}
+
 /* ---------- footer ---------- */
 footer{margin:34px 0 56px;color:var(--muted);font-size:12.5px;max-width:86ch}
 footer a{color:var(--blue-700)}
 footer .src{margin-bottom:8px;font-weight:500}
 
 /* ---------- responsive ---------- */
-@media (max-width:980px){ .stats{grid-template-columns:repeat(2,1fr)} .stats.three{grid-template-columns:1fr} }
-@media (max-width:860px){
+@media (max-width:1250px){ .stats{grid-template-columns:repeat(2,1fr)} .stats.three{grid-template-columns:1fr} }
+@media (max-width:1100px){
   .tbl-wrap{display:none} .cards-m{display:grid}
   .meta .t{display:none}
   .hr{align-items:flex-start} .today{justify-content:flex-start} .yearline{text-align:left}
 }
 @media (max-width:640px){
-  .bar{gap:12px;height:62px} .nav{margin-left:0} .nav button{padding:8px 11px}
+  .bar{gap:10px;height:62px} .nav{margin-left:0;flex:1 1 0;gap:2px} .nav button{padding:8px 9px;font-size:13.5px} .nav .n{display:none}
   .brand span.w{display:none}
   .meta{display:none}
   .stats{gap:10px} .stat{padding:14px;gap:12px} .tile{width:40px;height:40px} .stat .num{font-size:24px}
@@ -286,36 +371,353 @@ footer .src{margin-bottom:8px;font-weight:500}
   .db{padding:18px}
   .top{padding-bottom:48px} .hero p{display:none} main{margin-top:-28px}
 }
+@media (max-width:380px){ .nav button{padding:8px 6px;font-size:12.5px} .bar{gap:8px} .brand .mark{width:30px;height:30px} .yearline{font-size:11.5px} }
+@media (max-width:340px){ .stats,.stats.three{grid-template-columns:1fr} .cal-cell{height:46px;font-size:14px} }
+/* ---------- layout: left menu ---------- */
+.app{display:grid;grid-template-columns:232px minmax(0,1fr);min-height:100vh}
+.side{position:sticky;top:0;height:100vh;overflow-y:auto;display:flex;flex-direction:column;gap:6px;padding:20px 12px 16px;background:var(--navy-950);border-right:1px solid rgba(255,255,255,.06);color:#fff}
+.side .brand{padding:2px 10px 14px}
+.side-label{font-size:10.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#7d89b5;padding:6px 12px}
+.side .nav{flex-direction:column;gap:3px;margin:0;overflow:visible;min-width:0;flex:0 0 auto}
+.side .nav button{width:100%;box-sizing:border-box;gap:12px;padding:11px 12px;font-size:14.5px;border-radius:11px}
+.side .nav button svg{width:18px;height:18px;flex:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;opacity:.9}
+.side .nav button[aria-selected="true"]{box-shadow:inset 3px 0 0 var(--blue-500)}
+.side .nav .n{margin-left:auto}
+.side-foot{margin-top:auto;display:flex;flex-direction:column;gap:7px;padding:14px 12px 4px;border-top:1px solid rgba(255,255,255,.08);color:#9fabd3;font-size:12px}
+.side-foot .badge{align-self:flex-start}
+.side-foot .note2{opacity:.7}
+.content{min-width:0}
+.top .hero{padding-top:16px}
+.content .wrap{max-width:1240px}
+.tbl-wrap{overflow-x:auto}
+@media (max-width:900px){
+  .app{display:block}
+  .side{position:static;height:auto;flex-direction:row;align-items:center;gap:10px;padding:10px 12px;overflow:visible;border-right:0}
+  .side .brand{padding:0}
+  .side-label,.side-foot{display:none}
+  .side .nav{flex-direction:row;flex:1 1 0;gap:2px;overflow-x:auto;scrollbar-width:none}
+  .side .nav button{width:auto;flex:none;padding:8px 10px;font-size:13.5px;box-shadow:none!important}
+  .side .nav button svg,.side .nav .n{display:none}
+  .top .hero{padding-top:12px}
+}
+@media (max-width:380px){ .side .nav button{padding:8px 6px;font-size:12.5px} .side{gap:8px} }
+/* ---------- table fit ---------- */
+.tbl-wrap .tbl th,.tbl-wrap .tbl td{padding-left:12px;padding-right:12px}
+.tbl-wrap .tbl th:nth-child(2),.tbl-wrap .tbl td:nth-child(2){padding-left:6px}
+.ylist .tbl th,.ylist .tbl td{padding-left:10px;padding-right:10px}
+.ylist .tbl th:first-child,.ylist .tbl td:first-child{padding-left:16px;white-space:normal}
+.ylist .tbl th:last-child,.ylist .tbl td:last-child{padding-right:16px}
+.app{grid-template-columns:216px minmax(0,1fr)}
+@media (max-width:1320px){
+  .tbl-wrap .tbl th,.tbl-wrap .tbl td{padding-left:9px;padding-right:9px}
+  .tbl-wrap .tbl td{font-size:13.5px} .tbl-wrap .co b{font-size:14px}
+  .ylist .tbl th,.ylist .tbl td{padding-left:8px;padding-right:8px;font-size:13.5px}
+}
+@media (max-width:1270px){ .tbl-wrap{display:none} .cards-m{display:grid} }
+
+/* ---------- fun layer ---------- */
+@keyframes wiggle{0%,100%{transform:rotate(0)}20%{transform:rotate(-12deg) scale(1.08)}45%{transform:rotate(10deg) scale(1.08)}70%{transform:rotate(-6deg)}}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+@keyframes pop{0%{transform:scale(1)}45%{transform:scale(1.45) rotate(-12deg)}100%{transform:scale(1)}}
+.h-emo{display:inline-block;margin-left:2px;animation:bob 3.2s ease-in-out infinite}
+.pill{gap:5px;font-size:12.5px;padding:4px 12px}
+.pill::before{display:none}
+
+/* bigger, brighter summary cards */
+.stats{gap:18px}
+.stat{all:unset;box-sizing:border-box;position:relative;overflow:hidden;display:flex;align-items:center;gap:18px;min-height:138px;padding:24px 24px 22px;border-radius:22px;border:1px solid var(--st-line,#e4e8f1);background:linear-gradient(135deg,var(--st-a,#fff) 0%,#fff 78%);box-shadow:0 10px 28px rgba(15,23,54,.08);transition:transform .18s,box-shadow .18s}
+.stat:hover{transform:translateY(-4px);box-shadow:0 16px 36px rgba(15,23,54,.13)}
+.stat .emo{flex:none;width:66px;height:66px;border-radius:21px;display:grid;place-items:center;font-size:33px;background:var(--st-b,#e7f0fe);box-shadow:0 8px 18px var(--st-sh,rgba(47,111,237,.22))}
+.stat:hover .emo{animation:wiggle .7s}
+.stat .st-body{position:relative;z-index:1;min-width:0}
+.stat .num{font-size:44px;font-weight:800;letter-spacing:-.035em;line-height:1;color:var(--ink)}
+.stat .lab{margin-top:9px;font-size:12px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--st-ink,#3d4a6b)}
+.stat .cap{font-size:13px;color:var(--muted);margin-top:2px}
+.stat .wm{position:absolute;right:-8px;bottom:-16px;font-size:92px;line-height:1;opacity:.11;transform:rotate(-14deg);pointer-events:none;user-select:none}
+.s-blue{--st-a:#e8f1ff;--st-b:#cfe1ff;--st-sh:rgba(47,111,237,.28);--st-line:#d3e3ff;--st-ink:#1f55c9}
+.s-green{--st-a:#e4f7ee;--st-b:#c4efd9;--st-sh:rgba(20,144,93,.26);--st-line:#c9ecd9;--st-ink:#0f7b4f}
+.s-amber{--st-a:#fff3d8;--st-b:#ffe4a8;--st-sh:rgba(192,122,11,.26);--st-line:#f6e0ac;--st-ink:#9a5b00}
+.s-purple{--st-a:#efe9ff;--st-b:#ddd2ff;--st-sh:rgba(123,92,214,.26);--st-line:#e0d7fb;--st-ink:#5b3fb3}
+
+/* bigger, friendlier IPO cards */
+.grid{grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:20px}
+.card{gap:16px;padding:24px;border-radius:22px;box-shadow:0 8px 24px rgba(15,23,54,.07);background:linear-gradient(180deg,var(--tint,#f4f8ff) 0,#fff 150px)}
+.card[data-s="open"],.card[data-s="closing_today"]{--tint:#e9f8f0}
+.card[data-s="closing_today"]{--tint:#fff4dc}
+.card[data-s="upcoming"]{--tint:#eaf2ff} .card[data-s="listed"]{--tint:#efeaff} .card[data-s="closed"]{--tint:#f1f3f8}
+.card:hover{transform:translateY(-5px);box-shadow:0 18px 38px rgba(15,23,54,.14)}
+.c-top{display:flex;align-items:center;gap:14px}
+.c-id{min-width:0;flex:1}
+.c-top h3{margin:0;font-size:20px;line-height:1.2;letter-spacing:-.015em;font-weight:800}
+.c-top .sub{margin:3px 0 0;color:var(--muted);font-size:13px}
+.c-top .star{margin-left:auto;font-size:22px}
+.c-chips{display:flex;flex-wrap:wrap;gap:7px}
+.chip.cd{background:#fff3d8;color:#8a5200;font-weight:700}
+.c-price{display:flex;flex-direction:column;gap:2px}
+.c-price .k{font-size:10.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--slate-500)}
+.c-price .big{font-size:28px;font-weight:800;letter-spacing:-.025em;line-height:1.1}
+.card .kv{grid-template-columns:1fr 1fr}
+.card .kv dd{font-size:16px}
+.av.lg{width:54px;height:54px;border-radius:17px;font-size:17px;box-shadow:0 8px 18px rgba(15,23,54,.2)}
+
+/* friendly empty states */
+.empty .big{font-size:56px;line-height:1;margin-bottom:8px;animation:bob 3s ease-in-out infinite}
+
+/* star pops when switched on */
+.star[aria-pressed="true"]{animation:pop .45s}
+
+/* mascot tip in the menu */
+.tip{display:flex;gap:12px;align-items:flex-start;margin:14px 2px 0;padding:14px;border-radius:16px;background:linear-gradient(135deg,rgba(59,130,246,.2),rgba(47,197,138,.14));border:1px solid rgba(255,255,255,.1)}
+.tip-emo{font-size:30px;line-height:1;animation:bob 3.6s ease-in-out infinite}
+.tip b{display:block;font-size:12.5px;margin-bottom:3px;color:#fff}
+.tip span#tipText{display:block;font-size:12.5px;line-height:1.45;color:#c4cdee;transition:opacity .25s}
+
+@media (max-width:900px){ .tip{display:none} }
+@media (max-width:640px){
+  .stat{min-height:112px;padding:16px;gap:12px;border-radius:18px}
+  .stat .emo{width:50px;height:50px;font-size:25px;border-radius:16px}
+  .stat .num{font-size:32px} .stat .wm{font-size:64px} .stat .cap{display:block;font-size:12px}
+  .grid{grid-template-columns:1fr} .card{padding:20px}
+}
+@media (prefers-reduced-motion:reduce){ .h-emo,.tip-emo,.empty .big,.stat:hover .emo,.star[aria-pressed="true"]{animation:none} .stat:hover,.card:hover{transform:none} }
+.stat .num{white-space:nowrap}
+.stat .num.frac{font-size:28px}
+.stat .wm{right:-10px;bottom:-22px;font-size:84px;opacity:.10}
+main{margin-top:-36px}
+@media (max-width:640px){ .stat .num.frac{font-size:24px} main{margin-top:-30px} }
+@media (max-width:1360px){
+  .stat{padding:20px;gap:14px}
+  .stat .emo{width:56px;height:56px;font-size:28px;border-radius:18px}
+  .stat .num{font-size:40px} .stat .num.frac{font-size:26px}
+}
+@media (max-width:640px){
+  .stat{flex-direction:column;align-items:flex-start;gap:10px;min-height:0;padding:16px}
+  .stat .emo{width:44px;height:44px;font-size:22px;border-radius:14px}
+  .stat .num{font-size:32px} .stat .num.frac{font-size:26px}
+  .stat .lab{margin-top:6px;font-size:11px}
+}
+
+/* =====================  WEBSITE LAYER  ===================== */
+.skip{position:absolute;left:-9999px;top:8px;z-index:100;background:#fff;color:var(--ink);padding:8px 14px;border-radius:10px;font-weight:600}
+.skip:focus{left:12px}
+body{background:var(--bg)}
+
+/* header */
+.site{position:sticky;top:0;z-index:60;background:rgba(255,255,255,.92);-webkit-backdrop-filter:saturate(1.5) blur(12px);backdrop-filter:saturate(1.5) blur(12px);border-bottom:1px solid var(--line)}
+.hdr{display:flex;align-items:center;gap:22px;height:68px}
+.site .brand{color:var(--ink);font-size:19px;padding:0} .site .brand b{color:var(--blue-600)}
+.site .nav{flex-direction:row;margin:0 auto 0 8px;gap:2px;flex:1 1 auto;min-width:0;overflow-x:auto;scrollbar-width:none}
+.site .nav::-webkit-scrollbar{display:none}
+.site .nav button{padding:9px 15px;font-size:14.5px;font-weight:600;color:var(--slate-700);border-radius:11px;background:transparent;box-shadow:none}
+.site .nav button svg,.site .nav .n{display:none}
+.site .nav button:hover{background:var(--blue-50);color:var(--ink)}
+.site .nav button[aria-selected="true"]{background:var(--blue-100);color:var(--blue-700);box-shadow:none}
+.site .nav button:focus-visible{outline:2px solid var(--focus);outline-offset:1px}
+.watch-btn{display:inline-flex;align-items:center;gap:7px;padding:9px 15px;border-radius:99px;background:var(--navy-800);color:#fff;font-weight:700;font-size:14px;text-decoration:none;white-space:nowrap}
+.watch-btn .wn{background:rgba(255,255,255,.18);border-radius:99px;padding:0 8px;font-size:12px}
+.watch-btn:hover{background:var(--navy-700)} .watch-btn:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.ticker{margin:0;background:var(--navy-900);border-top:0;border-bottom:1px solid rgba(255,255,255,.08)}
+
+/* home hero */
+.hero-home{background:radial-gradient(900px 420px at 85% -10%,rgba(59,130,246,.45),transparent 62%),radial-gradient(600px 300px at 0% 110%,rgba(47,197,138,.18),transparent 70%),linear-gradient(180deg,var(--navy-900),var(--navy-800));color:#fff;overflow:hidden}
+.hh{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:30px;align-items:center;padding-top:58px;padding-bottom:70px}
+.hh-eyebrow{display:inline-block;padding:6px 13px;border-radius:99px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.16);font-size:13px;font-weight:600;margin-bottom:18px}
+.hero-home h1{margin:0 0 16px;font-size:clamp(34px,4.8vw,58px);line-height:1.04;letter-spacing:-.035em;font-weight:800;color:#fff}
+.hero-home h1 span{background:linear-gradient(90deg,#7bb0ff,#5ee0b0);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hh-text p{margin:0 0 26px;font-size:clamp(15px,1.5vw,18px);line-height:1.6;color:#c4cdee;max-width:54ch}
+.hh-search{position:relative;display:flex;align-items:center;max-width:560px;background:#fff;border-radius:18px;padding:7px 7px 7px 18px;box-shadow:0 18px 40px rgba(5,10,40,.45)}
+.hh-search>svg{width:20px;height:20px;stroke:var(--slate-500);fill:none;stroke-width:2;stroke-linecap:round;flex:none}
+.hh-search input{flex:1;min-width:0;border:0;outline:0;font:inherit;font-size:16px;padding:12px;background:transparent;color:var(--ink)}
+.hh-search button{border:0;cursor:pointer;font:inherit;font-weight:700;color:#fff;background:linear-gradient(135deg,var(--blue-500),var(--blue-700));padding:12px 22px;border-radius:13px}
+.hh-search:focus-within{box-shadow:0 0 0 3px rgba(123,176,255,.55),0 18px 40px rgba(5,10,40,.45)}
+.hh-sug{position:absolute;left:0;right:0;top:calc(100% + 8px);background:#fff;border-radius:16px;box-shadow:0 20px 44px rgba(5,10,40,.4);overflow:hidden;z-index:20}
+.hh-sug button{all:unset;box-sizing:border-box;display:flex;justify-content:space-between;gap:12px;width:100%;padding:13px 16px;cursor:pointer;color:var(--ink);font-size:14.5px;border-top:1px solid var(--line)}
+.hh-sug button:first-child{border-top:0}
+.hh-sug button:hover,.hh-sug button.on{background:var(--blue-50)}
+.hh-sug .sg-n{font-weight:600} .hh-sug .sg-s{color:var(--muted);font-size:12.5px;white-space:nowrap}
+.hh-sug .sg-none{padding:14px 16px;color:var(--muted)}
+.hh-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}
+.btn-primary,.btn-ghost{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:8px;padding:13px 20px;border-radius:14px;font-weight:700;font-size:15px;transition:transform .15s}
+.btn-primary{background:#fff;color:var(--navy-900);box-shadow:0 10px 24px rgba(5,10,40,.3)}
+.btn-ghost{background:rgba(255,255,255,.1);color:#fff;border:1px solid rgba(255,255,255,.22)}
+.btn-primary:hover,.btn-ghost:hover{transform:translateY(-2px)} .btn-ghost:hover{background:rgba(255,255,255,.18)}
+.btn-primary:focus-visible,.btn-ghost:focus-visible{outline:2px solid #fff;outline-offset:2px}
+.hh-art{position:relative;min-height:340px}
+.mascot{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:236px;height:236px;border-radius:50%;display:grid;place-items:center;font-size:124px;background:radial-gradient(circle at 30% 24%,#6ea1ff,#2f6fed 55%,#1c3aa0);box-shadow:0 34px 70px rgba(10,24,90,.55),inset 0 -14px 34px rgba(0,0,0,.22)}
+.bubble{position:absolute;padding:12px 18px;border-radius:18px;background:#fff;color:var(--ink);font-weight:800;font-size:22px;box-shadow:0 16px 34px rgba(8,14,40,.4);animation:bob 4s ease-in-out infinite;white-space:nowrap}
+.bubble small{display:block;font-weight:600;color:var(--muted);font-size:12px;margin-top:2px}
+.b1{left:0;top:12%} .b2{right:-4px;top:4%;animation-delay:.8s} .b3{right:4%;bottom:4%;animation-delay:1.6s}
+.sparkle{position:absolute;font-size:24px;animation:bob 3s ease-in-out infinite} .sp1{left:14%;bottom:12%} .sp2{right:22%;top:30%;animation-delay:1s}
+
+/* inner page header */
+.pagehead{background:linear-gradient(180deg,#e8efff,var(--bg))}
+body.sme .pagehead{background:linear-gradient(180deg,#e3f6ec,var(--bg))}
+.ph{display:flex;align-items:flex-end;justify-content:space-between;gap:10px 24px;flex-wrap:wrap;padding:28px 20px 50px}
+.pagehead h1{margin:0;font-size:clamp(26px,3.2vw,38px);letter-spacing:-.03em;font-weight:800;color:var(--ink)}
+.pagehead p{display:none}
+.pagehead .yearline{margin:0;color:var(--slate-700);font-size:13.5px;text-align:right}
+.pagehead .yearline b{color:var(--ink)} .pagehead .yearline .src2{opacity:.6}
+body.is-home main{margin-top:0;padding-top:2px}
+main{margin-top:-26px}
+
+/* home sections */
+.sec{margin:58px 0}
+.sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:12px 20px;margin-bottom:22px;flex-wrap:wrap}
+.sec-head h2{margin:0;font-size:clamp(23px,2.7vw,32px);letter-spacing:-.028em;font-weight:800}
+.sec-head p{margin:6px 0 0;color:var(--muted);font-size:15px}
+.more{all:unset;cursor:pointer;font-weight:700;font-size:14px;color:var(--blue-700);padding:9px 16px;border-radius:99px;background:var(--blue-100);white-space:nowrap}
+.more:hover{background:var(--blue-200)} .more:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.lcard{all:unset;box-sizing:border-box;cursor:pointer;display:flex;flex-direction:column;gap:16px;padding:24px;border-radius:22px;border:1px solid var(--line);background:linear-gradient(180deg,#eef1f7 0,#fff 130px);box-shadow:0 8px 24px rgba(15,23,54,.07);transition:transform .15s,box-shadow .15s}
+.lcard.up{background:linear-gradient(180deg,#e3f6ec 0,#fff 140px)} .lcard.dn{background:linear-gradient(180deg,#fdebe9 0,#fff 140px)}
+.lcard:hover{transform:translateY(-5px);box-shadow:0 18px 38px rgba(15,23,54,.14)} .lcard:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.l-big{font-size:40px;font-weight:800;letter-spacing:-.03em;line-height:1}
+.lcard.up .l-big{color:var(--green-700)} .lcard.dn .l-big{color:var(--red-600)}
+.l-big span{display:block;font-size:13px;font-weight:600;color:var(--muted);letter-spacing:0;margin-top:7px}
+.l-row{display:flex;justify-content:space-between;gap:10px;font-size:13px;color:var(--muted)} .l-row b{color:var(--ink)}
+.wk{display:flex;flex-direction:column;gap:12px}
+.wk-row{display:flex;gap:16px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:18px;padding:14px 18px;box-shadow:var(--shadow-sm)}
+.wk-date{flex:none;width:60px;height:60px;border-radius:16px;background:var(--slate-100);display:flex;flex-direction:column;align-items:center;justify-content:center;line-height:1.1}
+.wk-date small{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--slate-500)} .wk-date b{font-size:21px}
+.wk-date.now{background:var(--green-700);color:#fff} .wk-date.now small{color:#d3f2e3}
+.wk-evs{display:flex;flex-wrap:wrap;gap:8px;align-items:center;min-width:0}
+.wk-ev{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border-radius:12px;background:var(--ev-bg);border-left:4px solid var(--ev);font-size:13.5px}
+.wk-ev span{font-weight:700;color:var(--ev);font-size:12px} .wk-ev:hover{filter:brightness(.96)} .wk-ev:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.step{position:relative;background:#fff;border:1px solid var(--line);border-radius:22px;padding:28px 24px 24px;box-shadow:var(--shadow-sm)}
+.step .st-n{position:absolute;right:20px;top:14px;font-size:48px;font-weight:800;color:var(--slate-100);line-height:1}
+.step .st-e{font-size:40px;display:block;margin-bottom:10px;line-height:1}
+.step h3{margin:0 0 6px;font-size:19px} .step p{margin:0;color:var(--slate-700);line-height:1.6;font-size:14.5px}
+.mascot-tip{display:flex;gap:16px;align-items:center;margin-top:20px;padding:18px 22px;border-radius:20px;background:linear-gradient(135deg,#e8f1ff,#e4f7ee);border:1px solid #d3e3ff}
+.mascot-tip .tip-emo{font-size:42px;line-height:1;flex:none;animation:bob 3.6s ease-in-out infinite}
+.mascot-tip b{display:block;font-size:14px;margin-bottom:2px} .mascot-tip span#tipText{display:block;color:var(--slate-700);line-height:1.5;transition:opacity .25s}
+.trust{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;padding:36px;border-radius:26px;background:linear-gradient(135deg,var(--navy-900),var(--navy-800));color:#fff}
+.tr>span{font-size:34px;line-height:1} .tr h3{margin:10px 0 6px;font-size:18px} .tr p{margin:0;color:#c4cdee;line-height:1.6;font-size:14.5px}
+
+/* footer */
+.site-foot{background:var(--navy-950);color:#aab6dd;margin:70px 0 0;max-width:none;padding:52px 0 26px;font-size:14px}
+.sf{display:grid;grid-template-columns:1.3fr 1fr 1.1fr 1.4fr;gap:34px}
+.site-foot h4{margin:0 0 12px;color:#fff;font-size:12.5px;letter-spacing:.09em;text-transform:uppercase}
+.site-foot a{display:block;color:#c4cdee;text-decoration:none;padding:4px 0}.site-foot a:hover{color:#fff}
+.site-foot p{margin:8px 0 0;line-height:1.6} .site-foot .src{margin:0;font-weight:400}
+.site-foot .src span{display:block;padding:4px 0}
+.site-foot .brand{color:#fff;font-size:19px;padding:0} .site-foot .brand b{color:var(--blue-500)}
+.sf-live{display:flex;gap:10px;align-items:center;margin-top:14px;font-size:12.5px}
+.sf-bottom{margin-top:34px;padding-top:20px;border-top:1px solid rgba(255,255,255,.1);font-size:12.5px;color:#8f9bc4;line-height:1.6}
+
+/* breakpoints for the website layout */
+@media (min-width:1101px) and (max-width:1270px){ .tbl-wrap{display:block} .cards-m{display:none} }
+@media (min-width:1101px) and (max-width:1250px){ .stats{grid-template-columns:repeat(4,1fr)} }
+@media (max-width:980px){ .hh{grid-template-columns:1fr} .hh-art{display:none} .hh{padding-top:40px;padding-bottom:48px} .steps,.trust{grid-template-columns:1fr} .sf{grid-template-columns:1fr 1fr} }
+@media (max-width:860px){
+  .hdr{flex-wrap:wrap;height:auto;padding-top:10px;padding-bottom:6px;gap:8px 12px}
+  .site .nav{order:3;flex:1 0 100%;margin:0;padding-bottom:4px}
+  .site .brand{margin-right:auto} .watch-btn .wl{display:none}
+  .sec{margin:44px 0} .trust{padding:26px}
+}
+@media (max-width:560px){ .sf{grid-template-columns:1fr} .hh-search button{padding:12px 16px} .ph{padding-bottom:44px} .wk-row{padding:12px} .wk-date{width:52px;height:52px} }
+.site-foot .brand{display:flex}
+.site .brand span.w,.site-foot .brand span.w{display:inline!important}
+@media (max-width:420px){ .site .brand{font-size:17px} .site .brand .mark{width:30px;height:30px} .watch-btn{padding:8px 12px} }
+
+/* =====================  COMPACT + ROUND CARDS  ===================== */
+.panel{border-radius:26px}
+.av,.av.lg{border-radius:50%}
+.stats{gap:14px}
+.stat{min-height:0;padding:14px 20px;border-radius:28px;gap:14px;box-shadow:0 6px 18px rgba(15,23,54,.07)}
+.stat .emo{width:54px;height:54px;border-radius:50%;font-size:27px;box-shadow:0 5px 12px var(--st-sh,rgba(47,111,237,.22))}
+.stat .num{font-size:34px;font-weight:800} .stat .num.frac{font-size:24px}
+.stat .lab{margin-top:4px;font-size:11px} .stat .cap{font-size:12px;margin-top:1px}
+.stat .wm{font-size:60px;right:-2px;bottom:-12px}
+@media (max-width:1100px){ .stat{padding:12px 16px;gap:12px} .stat .emo{width:46px;height:46px;font-size:23px} .stat .num{font-size:28px} .stat .num.frac{font-size:20px} }
+@media (max-width:640px){ .stat{padding:12px 14px;border-radius:24px} .stat .emo{width:40px;height:40px;font-size:20px} .stat .num{font-size:26px} .stat .num.frac{font-size:20px} }
+
+.grid{grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
+.card{padding:18px;gap:11px;border-radius:28px;box-shadow:0 6px 20px rgba(15,23,54,.07)}
+.card:hover{transform:translateY(-4px)}
+.c-top{gap:12px} .c-top h3{font-size:17px;font-weight:700} .c-top .sub{font-size:12.5px;margin-top:2px}
+.c-top .star{font-size:20px;border-radius:50%}
+.av.lg{width:46px;height:46px;font-size:15px;box-shadow:0 5px 12px rgba(15,23,54,.18)}
+.c-chips{gap:6px} .c-chips .pill{font-size:12px;padding:3px 10px} .chip{font-size:11px}
+.c-price{gap:3px} .c-price .big{font-size:23px;font-weight:800}
+.c-line{font-size:12.5px;color:var(--muted)}
+.c-dates{padding-top:2px}
+.card .foot{padding-top:11px;gap:10px;align-items:center}
+.card .foot .k{font-size:10px;margin-bottom:3px}
+.ringbox{display:flex;align-items:center;gap:9px}
+.ring{width:42px;height:42px;flex:none}
+.ring .rt{fill:none;stroke:var(--slate-100);stroke-width:5}
+.ring .rf{fill:none;stroke-width:5;stroke-linecap:round}
+.ringbox .subv{font-size:15px;font-weight:800;line-height:1.1} .ringbox .micro{font-size:11px;line-height:1.25}
+.card .gv b{font-size:15px}
+.lcard{padding:18px;gap:12px;border-radius:28px} .l-big{font-size:30px}
+.sec{margin:46px 0}
+.step,.wk-row{border-radius:24px} .trust{border-radius:30px}
+@media (max-width:640px){ .grid{grid-template-columns:1fr} .card{padding:16px} }
+
+/* =====================  SLIMMER HOME HERO  ===================== */
+.hh{grid-template-columns:minmax(0,1.35fr) minmax(0,.65fr);gap:18px;padding-top:26px;padding-bottom:30px}
+.hh-eyebrow{padding:4px 11px;font-size:12px;margin-bottom:12px}
+.hero-home h1{font-size:clamp(26px,3vw,38px);line-height:1.1;margin:0 0 10px;letter-spacing:-.03em}
+.hh-text p{font-size:15px;line-height:1.55;margin:0 0 16px;max-width:62ch}
+.hh-search{max-width:520px;border-radius:16px;padding:5px 5px 5px 14px;box-shadow:0 12px 28px rgba(5,10,40,.4)}
+.hh-search>svg{width:18px;height:18px}
+.hh-search input{font-size:15px;padding:9px 10px}
+.hh-search button{padding:9px 18px;border-radius:11px;font-size:14px}
+.hh-cta{margin-top:14px;gap:10px}
+.btn-primary,.btn-ghost{padding:9px 15px;font-size:13.5px;border-radius:12px}
+.hh-art{min-height:190px}
+.mascot{width:132px;height:132px;font-size:68px;box-shadow:0 18px 38px rgba(10,24,90,.5),inset 0 -8px 20px rgba(0,0,0,.2)}
+.bubble{padding:7px 12px;font-size:16px;border-radius:14px;box-shadow:0 10px 22px rgba(8,14,40,.38)}
+.bubble small{font-size:10.5px}
+.b1{left:2%;top:10%} .b2{right:0;top:2%} .b3{right:6%;bottom:2%}
+.sparkle{font-size:18px}
+@media (max-width:980px){ .hh{padding-top:22px;padding-bottom:26px} }
+.gmp-note{display:flex;gap:10px;align-items:flex-start;margin:0 0 14px;padding:10px 14px;border-radius:16px;background:#fff;border:1px solid var(--line);color:var(--slate-700);font-size:13px;line-height:1.5}
+.gmp-note a{color:var(--blue-700);font-weight:600;text-decoration:none;white-space:nowrap} .gmp-note a:hover{text-decoration:underline}
 </style>
 </head>
 <body>
-<div class="top">
-  <div class="wrap">
-    <div class="bar">
-      <a class="brand" href="#mainboard" aria-label="GMP Desk home">
-        <span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg></span>
-        <span class="w">GMP <b>Desk</b></span>
-      </a>
-      <nav class="nav" role="tablist" aria-label="Sections" id="nav"></nav>
-      <div class="meta"><span class="badge" id="badge">…</span><span class="t" id="asof"></span></div>
-    </div>
-    <section class="hero">
-      <div class="hl">
-        <div class="eyebrow"><i></i><span id="eyebrow"></span></div>
-        <h1 id="h1">Mainboard IPOs</h1>
-        <p id="lede">Upcoming, open and recently listed issues from the last 12 months.</p>
-      </div>
-      <div class="hr">
-        <div class="today" id="today" aria-label="IPO events today"></div>
-        <div class="yearline" id="yearline"></div>
-      </div>
-    </section>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site" id="siteHeader">
+  <div class="wrap hdr">
+    <a class="brand" href="#home" aria-label="GMP Desk home">
+      <span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg></span>
+      <span class="w">GMP <b>Desk</b></span>
+    </a>
+    <nav class="nav" role="tablist" aria-label="Sections" id="nav"></nav>
+    <a class="watch-btn" id="watchBtn" href="#watchlist">★ <span class="wl">Watchlist</span> <span class="wn" id="watchN">0</span></a>
   </div>
+</header>
+<div class="ticker" id="ticker" role="region" aria-label="Live IPO ticker" hidden>
+  <div class="live"><i></i><span>Live</span></div>
+  <div class="tk-view" id="tkview"><div class="tk-track" id="tktrack"></div></div>
 </div>
 
-<main class="wrap">
+<section class="hero-home" id="homeHero" hidden>
+  <div class="wrap hh">
+    <div class="hh-text">
+      <div class="hh-eyebrow">🇮🇳 India's IPO tracker</div>
+      <h1>Every IPO in India, <span>in one place</span></h1>
+      <p>See what is open today, what is coming next and how past IPOs have done. Official NSE and BSE data, explained in plain English.</p>
+      <div class="hh-search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+        <input id="heroQ" type="search" placeholder="Search any IPO…" aria-label="Search any IPO" autocomplete="off">
+        <button id="heroGo" type="button">Search</button><div class="hh-sug" id="heroSug" role="listbox" hidden></div></div>
+      <div class="hh-cta"><button class="btn-primary" data-scroll="s-open" type="button">🟢 See what is open now</button><button class="btn-ghost" data-go="CAL" type="button">🗓️ Open the calendar</button></div>
+    </div>
+    <div class="hh-art" id="heroArt" aria-hidden="true"></div>
+  </div>
+</section>
+
+<section class="pagehead" id="pageHead" hidden>
+  <div class="wrap ph">
+    <div><div class="eyebrow"><i></i><span id="eyebrow"></span></div><h1 id="h1">Mainboard IPOs</h1><p id="lede"></p></div>
+    <div class="yearline" id="yearline"></div>
+  </div>
+</section>
+
+<main id="main" class="wrap">
   <div class="stale" id="stale" role="status" hidden></div>
-  <div class="stats" id="stats" role="group" aria-label="Filter by status"></div>
+  <div class="stats" id="stats" role="group" aria-label="Summary"></div>
 
   <div class="tools">
     <label class="search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg><input id="q" type="search" placeholder="Search IPOs" aria-label="Search IPOs"></label>
@@ -324,12 +726,21 @@ footer .src{margin-bottom:8px;font-weight:500}
   </div>
 
   <div id="view"></div>
-
-  <footer>
-    <div class="src" id="srcs"></div>
-    GMP (grey market premium) is unofficial, comes from informal markets and is not regulated by SEBI or the exchanges. It changes quickly and often differs from the actual listing price. This site shows data for information only and is not investment advice. Read the offer document (RHP) and speak to a SEBI-registered advisor before investing.
-  </footer>
 </main>
+
+<footer class="site-foot">
+  <div class="wrap sf">
+    <div class="sf-brand">
+      <a class="brand" href="#home"><span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg></span><span class="w">GMP <b>Desk</b></span></a>
+      <p>Open, upcoming and listed IPOs in India, from official NSE and BSE data.</p>
+      <div class="sf-live"><span class="badge" id="badge">…</span><span id="asof"></span></div>
+    </div>
+    <div><h4>Explore</h4><a href="#home">Home</a><a href="#mainboard">Mainboard IPOs</a><a href="#sme">SME IPOs</a><a href="#year">All 2026 IPOs</a><a href="#calendar">IPO calendar</a></div>
+    <div><h4>Where the data comes from</h4><div class="src" id="srcs"></div><p>Refreshed about every 20 minutes on weekdays.</p></div>
+    <div><h4>Good to know</h4><p>GMP (grey market premium) is unofficial, comes from informal markets and is not regulated by SEBI or the exchanges. It changes quickly and often differs from the actual listing price.</p></div>
+  </div>
+  <div class="wrap sf-bottom">This site shows data for information only and is not investment advice. Read the offer document (RHP) and speak to a SEBI-registered advisor before investing.</div>
+</footer>
 
 <dialog id="drawer" aria-labelledby="dtitle">
   <div class="dh"><div><span class="pill" id="dpill"></span><h2 id="dtitle"></h2><div class="micro" id="dsub"></div></div><button class="x" id="dclose" aria-label="Close details">Close</button></div>
@@ -339,9 +750,10 @@ footer .src{margin-bottom:8px;font-weight:500}
 <script>
 /* ============ config ============ */
 const STATUS = {
-  upcoming:{label:"Upcoming",cls:"s-up"}, open:{label:"Open",cls:"s-open"},
-  closing_today:{label:"Closing today",cls:"s-ct"}, closed:{label:"Closed",cls:"s-closed"}, listed:{label:"Listed",cls:"s-listed"}
+  upcoming:{label:"Upcoming",cls:"s-up",emo:"🚀"}, open:{label:"Open",cls:"s-open",emo:"🟢"},
+  closing_today:{label:"Closing today",cls:"s-ct",emo:"⏰"}, closed:{label:"Closed",cls:"s-closed",emo:"🔒"}, listed:{label:"Listed",cls:"s-listed",emo:"🎉"}
 };
+const stText=k=>((STATUS[k]||STATUS.listed).emo+" "+(STATUS[k]||STATUS.listed).label);
 const RANK = {closing_today:0, open:1, upcoming:2, closed:3, listed:4};
 const ICON = {
   cal:'<svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="3"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>',
@@ -352,19 +764,35 @@ const ICON = {
 };
 const GROUPS = [
   {k:"upcoming", label:"Upcoming", icon:"cal", tone:"t-blue", test:i=>i.status==="upcoming"},
-  {k:"open", label:"Open now", icon:"bolt", tone:"t-green", test:i=>i.status==="open"},
+  {k:"open", label:"Open now", icon:"bolt", tone:"t-green", test:i=>i.status==="open"||i.status==="closing_today"},
   {k:"closing_today", label:"Closing today", icon:"bell", tone:"t-amber", test:i=>i.status==="closing_today"},
   {k:"done", label:"Closed & listed", icon:"check", tone:"t-slate", test:i=>i.status==="closed"||i.status==="listed"}
 ];
 const TEXT = {
-  MAIN:{eyebrow:"India · Mainboard",h1:"Mainboard IPOs",lede:"Upcoming, open and recently listed issues."},
-  SME:{eyebrow:"India · SME platforms",h1:"SME IPOs",lede:"Smaller companies on BSE SME and NSE Emerge. Bigger lots, thinner trading."},
-  CMP:{eyebrow:"Local test only",h1:"Compare sources",lede:"GMP readings from different sources, side by side."},
-  YR:{eyebrow:"All of the year",h1:"All 2026 IPOs",lede:"Every Mainboard and SME issue this year, and how each one has done."},
-  TRK:{eyebrow:"GMP track record",h1:"GMP vs actual listing",lede:"How the last grey market premium before listing compared with the real listing price."}
+  HOME:{emo:"🏠",eyebrow:"",h1:"GMP Desk",lede:""},
+  MAIN:{emo:"🏛️",eyebrow:"India · Mainboard",h1:"Mainboard IPOs",lede:"Upcoming, open and recently listed issues."},
+  SME:{emo:"🌱",eyebrow:"India · SME platforms",h1:"SME IPOs",lede:"Smaller companies on BSE SME and NSE Emerge. Bigger lots, thinner trading."},
+  CMP:{emo:"🔍",eyebrow:"Local test only",h1:"Compare sources",lede:"GMP readings from different sources, side by side."},
+  YR:{emo:"📚",eyebrow:"All of the year",h1:"All 2026 IPOs",lede:"Every Mainboard and SME issue this year, and how each one has done."},
+  CAL:{emo:"🗓️",eyebrow:"Calendar",h1:"IPO Calendar",lede:"Every open, upcoming and listing day."},
+  TRK:{emo:"🎯",eyebrow:"GMP track record",h1:"GMP vs actual listing",lede:"How the last grey market premium before listing compared with the real listing price."}
 };
 const DATASET = ({sample:"ipos_sample.json",local:"ipos_localtest.json"})[new URLSearchParams(location.search).get("data")] || "ipos.json";
 const state = {all:[], stats:null, feeds:null, dataset:"", hist:null, histErr:"", yf:{seg:"ALL",q:"",show:"all",sort:"new",limit:40}, tab:"MAIN", filter:null, q:"", onlyGmp:false, openId:null};
+const WKEY="gmpdesk.watch";
+function loadWatch(){ try{ return new Set(JSON.parse(localStorage.getItem(WKEY)||"[]")); }catch(e){ return new Set(); } }
+state.watch=loadWatch();
+const isW=id=>state.watch.has(id);
+const watchLabel=id=>isW(id)?"★ Watching":"☆ Watch";
+const starBtn=i=>`<button class="star" data-watch="${esc(i.id)}" aria-pressed="${isW(i.id)}" aria-label="${isW(i.id)?"Remove":"Add"} ${esc(i.name)} ${isW(i.id)?"from":"to"} your watchlist" title="${isW(i.id)?"On your watchlist":"Add to your watchlist"}">★</button>`;
+const starSpan=i=>`<span class="star" role="button" tabindex="0" data-watch="${esc(i.id)}" aria-pressed="${isW(i.id)}" aria-label="${isW(i.id)?"Remove":"Add"} ${esc(i.name)} ${isW(i.id)?"from":"to"} your watchlist" title="${isW(i.id)?"On your watchlist":"Add to your watchlist"}">★</span>`;
+function toggleWatch(id){
+  if(state.watch.has(id)) state.watch.delete(id); else state.watch.add(id);
+  $("watchN").textContent=state.watch.size;
+  try{ localStorage.setItem(WKEY,JSON.stringify([...state.watch])); }catch(e){}
+  if(state.tab==="MAIN"||state.tab==="SME") renderBody();
+  const b=document.querySelector('[data-act="watch"]'); if(b&&state.openId===id) b.textContent=watchLabel(id);
+}
 
 /* ============ helpers ============ */
 const $ = id => document.getElementById(id);
@@ -381,36 +809,51 @@ const reached = iso => !!iso && new Date(iso+"T00:00:00") <= today0();
 const group = i => i.segment==="SME" ? "SME" : "MAIN";
 
 const AV=["#2f6fed","#0f7b4f","#20306b","#c07a0b","#7b5cd6","#0e8a9a","#b83b34","#3d4a6b"];
-function avatar(name){
+function avatar(name,big){
   const w=String(name).replace(/[^A-Za-z0-9 ]/g," ").trim().split(/\s+/).filter(Boolean);
   const ini=((w[0]||"?")[0]+((w[1]||"")[0]||(w[0]||"")[1]||"")).toUpperCase();
   let h=0; for(const ch of String(name)) h=(h*31+ch.charCodeAt(0))>>>0;
-  return `<span class="av" style="background:${AV[h%AV.length]}" aria-hidden="true">${esc(ini)}</span>`;
+  return `<span class="av${big?" lg":""}" style="background:${AV[h%AV.length]}" aria-hidden="true">${esc(ini)}</span>`;
 }
 function stateSub(i){
   switch(i.status){
     case "upcoming": return "Opens "+dd(i.open);
-    case "open": return "Closes "+dd(i.close);
-    case "closing_today": return "Closes today";
+    case "open": return "Closes "+dd(i.close)+(i.cutoff_time?", "+i.cutoff_time:"");
+    case "closing_today": return "Closes today"+(i.cutoff_time?", "+i.cutoff_time:"");
     case "closed": return i.boa ? "Allotment "+dd(i.boa) : "Closed "+dd(i.close);
     case "listed": return "Listed "+dd(i.listing);
   }
   return "";
 }
-const pill = i => `<span class="pill ${STATUS[i.status].cls}">${STATUS[i.status].label}</span>`;
+const pill = i => `<span class="pill ${STATUS[i.status].cls}">${stText(i.status)}</span>`;
 const band = i => i.price==null ? "Price TBA" : (i.price_low!=null && i.price_low!==i.price ? `₹${inr(i.price_low)} – ${inr(i.price)}` : "₹"+inr(i.price));
 const oneLot = i => (i.price!=null && i.lot!=null) ? "₹"+inr(i.price*i.lot) : "–";
 
 function gmpBlock(i){
   if(i.gmp==null) return `<span class="muted">Not reported</span>`;
   return `<div class="gv ${i.gmp>=0?"pos":"neg"}"><b>${rs(i.gmp)}</b>${i.gmp_pct!=null?`<span class="delta">${pct(i.gmp_pct)}</span>`:""}</div>`+
-         (i.price!=null?`<div class="micro">Est. listing ${rs(i.price+i.gmp)}</div>`:"");
+         (i.price!=null?`<div class="micro">Est. listing ${rs(i.price+i.gmp)}${i.gmp_source_latest&&i.gmp_source_latest!=="GMP Desk"?" · via "+esc(i.gmp_source_latest):""}</div>`:"");
 }
+const demand=t=>t>=10?"🔥 Heavily subscribed":t>=1?"📈 Oversubscribed":"🌱 Filling up";
 function subBlock(i){
   const t = i.sub && i.sub.total;
   if(t==null) return `<span class="muted">${i.status==="upcoming"?"Not open yet":"–"}</span>`;
-  return `<div class="subv">${t.toFixed(2)}x</div><div class="bar2"><i class="${t>=1?"full":""}" style="width:${Math.min(100,t/2*100)}%"></i></div>`;
+  return `<div class="subv">${t.toFixed(2)}x</div><div class="bar2"><i class="${t>=1?"full":""}" style="width:${Math.min(100,t/2*100)}%"></i></div><div class="micro" style="margin-top:4px">${demand(t)}</div>`;
 }
+function cdText(i){
+  const now=new Date(), today=new Date(now.getFullYear(),now.getMonth(),now.getDate(),12);
+  if(i.status==="upcoming"&&i.open){ const d=Math.round((D(i.open)-today)/864e5); return d<=0?"🚀 opens today":d===1?"🚀 opens tomorrow":`🚀 opens in ${d} days`; }
+  if((i.status==="open"||i.status==="closing_today")&&i.close){
+    const m=/^(\d{1,2}):(\d{2})\s*([AP])M$/i.exec(i.cutoff_time||"");
+    if(m){ const end=D(i.close); end.setHours((+m[1]%12)+(m[3].toUpperCase()==="P"?12:0),+m[2],0,0); const ms=end-now;
+      if(ms<=0) return "⌛ bidding closed"; const h=Math.floor(ms/36e5), mi=Math.floor(ms%36e5/6e4);
+      return ms<48*36e5?`⏳ closes in ${h}h ${String(mi).padStart(2,"0")}m`:`⏳ closes in ${Math.ceil(ms/864e5)} days`; }
+    const d=Math.round((D(i.close)-today)/864e5); return d<=0?"⏳ last day to apply":d===1?"⏳ closes tomorrow":`⏳ closes in ${d} days`;
+  }
+  return "";
+}
+const cdChip=i=>{ const t=cdText(i); return t?`<span class="chip cd" data-cd="${esc(i.id)}">${t}</span>`:""; };
+setInterval(()=>document.querySelectorAll("[data-cd]").forEach(el=>{ const i=state.all.find(x=>x.id===el.dataset.cd); if(i) el.textContent=cdText(i); }),30000);
 function miniTimeline(i){
   const steps=[["Opens",i.open],["Closes",i.close],["Lists",i.listing]];
   return `<div class="tl">${steps.map(([l,d])=>`<div class="${reached(d)?"done":""}"><i></i><b>${l}</b>${dd(d)}</div>`).join("")}</div>`;
@@ -477,7 +920,7 @@ function trackBlock(i){
 }
 function renderStale(){
   const f=state.feeds, el=$("stale"); el.hidden=true;
-  if(!f||state.tab==="CMP"||state.tab==="TRK"||state.tab==="YR") return;
+  if(!f||state.tab==="CMP"||state.tab==="TRK"||state.tab==="YR"||state.tab==="CAL") return;
   const sme=state.tab==="SME", ok=sme?f.bse_ok_at:f.nse_ok_at; if(!ok) return;
   const h=(Date.now()-new Date(ok))/36e5, live=!sme && state.all.some(i=>i.status==="open"||i.status==="closing_today");
   if(sme ? h>72 : ((live&&h>6)||h>48)){
@@ -491,26 +934,112 @@ function renderYearLine(){
   const judged=(t.listing_gain||0)+(t.listing_loss||0), share=judged?Math.round(t.listing_gain/judged*100):null;
   $("yearline").innerHTML=`<b>${t.year} so far</b> · ${t.total} IPOs (${t.mainboard} Mainboard, ${t.sme} SME)${share!=null?` · ${share}% listed above the issue price`:""}<span class="src2">BSE IPO tracker</span>`;
 }
-function renderToday(){
-  const t=today0(), iso=t.toLocaleDateString("en-CA");
-  const ev=[]; state.all.filter(i=>state.tab==="CMP"||state.tab==="TRK"||state.tab==="YR"||group(i)===state.tab).forEach(i=>
-    [["open","opens"],["close","closes"],["boa","allotment"],["listing","lists"]].forEach(([f,v])=>{ if(i[f]) ev.push({d:i[f],i,v}); }));
-  const now=ev.filter(e=>e.d===iso);
-  let html;
-  if(now.length) html=`<span class="lbl">Today</span>`+now.slice(0,3).map(e=>`<button data-id="${esc(e.i.id)}">${esc(e.i.name)} ${e.v}</button>`).join("")+(now.length>3?`<span class="none">+${now.length-3} more</span>`:"");
-  else{
-    const future=ev.filter(e=>e.d>iso).sort((a,b)=>a.d.localeCompare(b.d)), nd=future[0]&&future[0].d;
-    html = nd ? `<span class="lbl">Next</span>`+future.filter(e=>e.d===nd).slice(0,3).map(e=>`<button data-id="${esc(e.i.id)}">${esc(e.i.name)} ${e.v} ${dd(e.d)}</button>`).join("") : `<span class="none">No IPO dates coming up.</span>`;
-  }
-  $("today").innerHTML=html;
+/* ============ home page ============ */
+function goTab(tab,fil){ state.tab=tab; state.filter=fil||null; history.replaceState(null,"",TABHASH[tab]||"#home"); render(); window.scrollTo({top:0,behavior:"smooth"}); }
+function secHead(emo,title,sub,more){ return `<div class="sec-head"><div><h2><span class="se">${emo}</span> ${title}</h2>${sub?`<p>${sub}</p>`:""}</div>${more?`<button class="more" data-go="${more[0]}" ${more[1]?`data-fil="${more[1]}"`:""} type="button">${more[2]} →</button>`:""}</div>`; }
+function listedCard(r){
+  const v=r.listing_gain_pct!=null?r.listing_gain_pct:r.gain_pct, lab=r.listing_gain_pct!=null?"on listing day":"since issue", up=v!=null&&v>=0;
+  return `<button class="lcard ${v==null?"":up?"up":"dn"}" data-yid="${esc(r.id)}">
+    <div class="c-top">${avatar(r.name,true)}<div class="c-id"><h3>${esc(r.name)}</h3><p class="sub">Listed ${dd(r.listing)} · ${esc(r.segment==="SME"?(r.exchange||"SME"):"Mainboard")}</p></div></div>
+    <div class="l-big">${v!=null?(up?"▲ ":"▼ ")+pct(v).replace("+","").replace("-",""):"–"}<span>${lab}</span></div>
+    <div class="l-row"><span>Issue price <b>₹${inr(r.price)}</b></span>${r.listing_close!=null?`<span>Day close <b>₹${inr2(r.listing_close)}</b></span>`:""}</div></button>`;
 }
+function weekBlock(){
+  const idx=calIndex(), out=[];
+  for(let n=0;n<7;n++){
+    const d=new Date(); d.setDate(d.getDate()+n); const k=ISO(d), today=ISO(new Date());
+    const evs=(idx[k]||[]).filter(e=>e.kind!=="bid"&&(e.kind!=="list"||k>=today)&&!(e.kind==="open"&&k<today));
+    if(!evs.length) continue;
+    const chips=evs.slice(0,4).map(ev=>{ const [lab,c]=evLabel(ev,k,today), [col,bg]=EVSTYLE[c]||EVSTYLE.plain, r=ev.r;
+      return `<button class="wk-ev" ${state.all.some(i=>i.id===r.id)?`data-id="${esc(r.id)}"`:`data-yid="${esc(r.id)}"`} style="--ev:${col};--ev-bg:${bg}"><b>${esc(r.name)}</b><span>${esc(lab)}</span></button>`; }).join("");
+    out.push(`<div class="wk-row"><div class="wk-date${n===0?" now":""}"><small>${n===0?"Today":d.toLocaleDateString("en-GB",{weekday:"short"})}</small><b>${d.getDate()}</b></div><div class="wk-evs">${chips}${evs.length>4?`<span class="micro">+${evs.length-4} more</span>`:""}</div></div>`);
+  }
+  return out.length?`<div class="wk">${out.join("")}</div>`:`<div class="panel"><div class="empty"><div class="big">🌤️</div><b>A quiet week</b>No IPO dates in the next 7 days.</div></div>`;
+}
+function renderHome(){
+  const by=(k)=>(a,b)=>String(a[k]||"").localeCompare(String(b[k]||""));
+  const live=state.all.filter(i=>i.status==="open"||i.status==="closing_today").sort(by("close"));
+  const up=state.all.filter(i=>i.status==="upcoming").sort(by("open"));
+  let listed=[]; if(state.hist){ const cut=new Date(); cut.setDate(cut.getDate()-14); const c=ISO(cut);
+    listed=state.hist.rows.filter(r=>r.status==="listed"&&r.listing&&r.listing>=c&&(r.listing_gain_pct!=null||r.gain_pct!=null)).sort(by("listing")).reverse().slice(0,6); }
+  const next=up[0];
+  const open=secHead("🟢","Open for bidding", live.length?`${live.length} IPO${live.length>1?"s":""} you can apply for right now. Deadlines are in Indian time.`:"", live.length?["MAIN","open","See all open"]:null)
+    +(live.length?`<div class="grid">${live.map(card).join("")}</div>`:`<div class="panel"><div class="empty"><div class="big">🌙</div><b>No IPO is open right now</b>${next?`Next up: <b>${esc(next.name)}</b> opens ${dd(next.open)}.`:"Check back soon."}</div></div>`);
+  const upc=up.length?secHead("🚀","Coming up next","Get ready before they open.",["MAIN","upcoming","See all upcoming"])+`<div class="grid">${up.slice(0,6).map(card).join("")}</div>`:"";
+  const lst=state.dataset!=="live"?"":secHead("🎉","Just listed","How the latest IPOs did when they started trading.",["YR",null,"See all of 2026"])
+    +(state.hist?(listed.length?`<div class="grid lgrid">${listed.map(listedCard).join("")}</div>`:`<div class="panel"><div class="empty"><div class="big">🔔</div><b>Nothing listed in the last two weeks</b></div></div>`):`<div class="panel"><div class="empty"><div class="big">⏳</div>Loading the latest listings…</div></div>`);
+  $("view").innerHTML=`
+    <section class="sec" id="s-open">${open}</section>
+    ${upc?`<section class="sec">${upc}</section>`:""}
+    ${lst?`<section class="sec">${lst}</section>`:""}
+    <section class="sec">${secHead("🗓️","This week","What is happening in the next seven days.",["CAL",null,"Open the calendar"])}${weekBlock()}</section>
+    <section class="sec">${secHead("🧭","How an IPO works","Three steps, no jargon.")}
+      <div class="steps">
+        <div class="step"><span class="st-n">1</span><span class="st-e">📱</span><h3>Apply</h3><p>Open your broker or bank app, pick the IPO, choose the number of lots and approve the UPI request before the deadline.</p></div>
+        <div class="step"><span class="st-n">2</span><span class="st-e">🎲</span><h3>Allotment</h3><p>If more people apply than there are shares, they are given out by lottery. You can check your result with the registrar.</p></div>
+        <div class="step"><span class="st-n">3</span><span class="st-e">🔔</span><h3>Listing</h3><p>The shares reach your demat account and start trading a few working days after the issue closes.</p></div>
+      </div>
+      <div class="mascot-tip"><span class="tip-emo" aria-hidden="true">🐂</span><div><b>Did you know?</b><span id="tipText"></span></div></div>
+    </section>
+    <section class="sec trust">
+      <div class="tr"><span>📡</span><h3>Official data</h3><p>Dates, prices and subscription come straight from NSE and BSE, refreshed about every 20 minutes on weekdays.</p></div>
+      <div class="tr"><span>🧪</span><h3>Plain English</h3><p>Open any IPO for the full story in plain words: what it costs, when to apply and what the numbers mean.</p></div>
+      <div class="tr"><span>🚫</span><h3>No hype</h3><p>No ads, no tips and no "buy" calls. We show facts and clearly label what is only an estimate.</p></div>
+    </section>`;
+  const el=document.getElementById("tipText"); if(el){ el.textContent=TIPS[tipN%TIPS.length]; el.style.opacity=1; }
+  // hero art: three live bubbles around the mascot
+  const done=state.hist?state.hist.rows.filter(r=>r.status==="listed").length:(state.stats&&state.stats.total)||"";
+  $("heroArt").innerHTML=`<span class="sparkle sp1">✨</span><span class="sparkle sp2">✨</span><div class="mascot">🐂</div>
+    <div class="bubble b1">🟢 ${live.length}<small>open now</small></div>
+    <div class="bubble b2">🚀 ${up.length}<small>coming up</small></div>
+    <div class="bubble b3">🎉 ${done||"–"}<small>listed in 2026</small></div>`;
+}
+
+/* ============ ticker ============ */
+const TIPS=["Retail investors can apply for up to ₹2 lakh in a single IPO.","GMP is an unofficial premium. It is never a promise of a listing gain.","Money for an IPO is only blocked in your account until allotment.","SME IPOs usually have bigger lots, so one lot can cost over ₹1 lakh.","When the retail portion is over-subscribed, shares are given out by lottery.","Listing usually happens a few working days after the issue closes.","You can apply for more than one lot, but the ₹2 lakh retail limit still applies.","A subscription of 1x means every share on offer has been applied for."];
+let tipN=Math.floor(Math.random()*TIPS.length);
+function showTip(){ const el=document.getElementById("tipText"); if(!el) return; el.style.opacity=0; setTimeout(()=>{ el.textContent=TIPS[tipN%TIPS.length]; el.style.opacity=1; tipN++; },250); }
+showTip(); if(!matchMedia("(prefers-reduced-motion: reduce)").matches) setInterval(showTip,14000);
+let tickerKey="";
+const tkChip=i=>`<span class="tk-chip">${esc(i.segment==="SME"?(i.exchange||"SME"):"Mainboard")}</span>`;
+function tickerItems(){
+  const out=[], lane=(cls,label,list,fn)=>{ if(!list.length) return; out.push(`<span class="tk-lane ${cls}">${label}</span>`); list.forEach(x=>out.push(fn(x))); };
+  const by=(k,dir=1)=>(a,b)=>dir*String(a[k]||"").localeCompare(String(b[k]||""));
+  const live=state.all.filter(i=>i.status==="open"||i.status==="closing_today").sort(by("close"));
+  lane("l-open","Open now",live,i=>`<button class="tk-item" data-id="${esc(i.id)}"><i class="dot" style="background:#2fc58a"></i><b>${esc(i.name)}</b><span>${esc(stateSub(i))}</span>${i.sub&&i.sub.total!=null?`<span class="p">${i.sub.total.toFixed(2)}x subscribed</span>`:""}<span class="p">${band(i)}</span>${tkChip(i)}</button>`);
+  const up=state.all.filter(i=>i.status==="upcoming").sort(by("open")).slice(0,10);
+  lane("l-up","Upcoming",up,i=>`<button class="tk-item" data-id="${esc(i.id)}"><i class="dot" style="background:#5b93ff"></i><b>${esc(i.name)}</b><span>${dd(i.open)} – ${dd(i.close)}</span><span class="p">${band(i)}</span>${tkChip(i)}</button>`);
+  if(state.dataset==="live"&&state.hist){
+    const since=new Date(); since.setDate(since.getDate()-7); const cut=since.toLocaleDateString("en-CA");
+    const done=state.hist.rows.filter(r=>r.status==="listed"&&r.listing&&r.listing>=cut&&(r.listing_gain_pct!=null||r.gain_pct!=null)).sort(by("listing",-1)).slice(0,10);
+    lane("l-done","Just listed",done,r=>{ const v=r.listing_gain_pct!=null?r.listing_gain_pct:r.gain_pct, lab=r.listing_gain_pct!=null?"day 1":"now";
+      return `<button class="tk-item" data-yid="${esc(r.id)}"><i class="dot" style="background:#e0a43f"></i><b>${esc(r.name)}</b><span>listed ${dd(r.listing)}</span><span class="g ${v>=0?"up":"dn"}">${lab} ${pct(v)}</span>${tkChip(r)}</button>`; });
+  }
+  return out;
+}
+function renderTicker(){
+  const el=$("ticker"), items=tickerItems();
+  if(!items.some(x=>x.startsWith("<button"))){ el.hidden=true; tickerKey=""; return; }
+  const key=items.join("")+"|"+Math.round(($("tkview").clientWidth||0)/50); if(key===tickerKey&&!el.hidden) return; tickerKey=key;
+  el.hidden=false;
+  const track=$("tktrack"), A=items.join("");
+  track.innerHTML=`<span class="tk-g">${A}</span>`;
+  const w=track.firstElementChild.getBoundingClientRect().width||1, n=Math.max(1,Math.ceil((($("tkview").clientWidth)||1200)*1.1/w));
+  const G=A.repeat(n), dup=G.replace(/<button class="tk-item"/g,'<span class="tk-item" aria-hidden="true"').replace(/<\/button>/g,"</span>");
+  track.innerHTML=`<span class="tk-g">${G}</span><span class="tk-g" aria-hidden="true">${dup}</span>`;
+  track.style.setProperty("--dur",Math.max(30,Math.round(w*n/70))+"s");
+}
+let tkResize; window.addEventListener("resize",()=>{ clearTimeout(tkResize); tkResize=setTimeout(renderTicker,250); });
 /* ============ all of 2026 ============ */
-function statCard(tone,icon,num,lab,cap){ return `<div class="stat static"><span class="tile ${tone}">${ICON[icon]}</span><span><div class="num">${num}</div><div class="lab">${lab}</div><div class="cap">${cap}</div></span></div>`; }
+const EMO={cal:"🚀",bolt:"⚡",bell:"⏰",check:"🎉",trend:"📈",target:"🎯",ruler:"📏"};
+const TONE={"t-blue":"s-blue","t-green":"s-green","t-amber":"s-amber","t-slate":"s-purple"};
+function statCard(tone,icon,num,lab,cap){ const e=EMO[icon]||"✨"; return `<div class="stat static ${TONE[tone]||"s-blue"}"><span class="emo" aria-hidden="true">${e}</span><span class="st-body"><div class="num${String(num).includes("/")?" frac":""}">${num}</div><div class="lab">${lab}</div><div class="cap">${cap}</div></span><span class="wm" aria-hidden="true">${e}</span></div>`; }
 async function ensureHistory(){
   if(state.hist||state.histErr) return;
   try{ const r=await fetch("history.json?"+Date.now(),{cache:"no-store"}); if(!r.ok) throw new Error("HTTP "+r.status); state.hist=await r.json(); }
   catch(e){ state.histErr=e.message; }
-  if(state.tab==="YR") render();
+  renderTicker();
+  if(state.tab==="YR"||state.tab==="CAL"||state.tab==="HOME") render();
 }
 const pctChip = (v,c) => v==null ? `<span class="muted">–</span>` : `<div class="gv ${v>=0?"pos":"neg"}"><b>₹${inr(c)}</b><span class="delta">${pct(v)}</span></div>`;
 function yearRows(){
@@ -525,14 +1054,15 @@ function yearRows(){
   rows.sort(sorters[f.sort]||sorters.new);
   return rows;
 }
-function yearRow(r){
+function yearRow(r,n){
+  const medal=(state.yf.sort==='lbest'||state.yf.sort==='nbest')&&!state.yf.q&&n<3?['🥇 ','🥈 ','🥉 '][n]:'';
   const listed=r.status==="listed";
   const when = listed ? `<div class="a">${dd(r.listing)}</div>` : `<div>${pill(r)}</div>`;
   const sub = r.open&&r.close ? `${dd(r.open)} → ${dd(r.close)}` : (!listed ? stateSub(r) : "");
   const money=(v)=>v==null?`<span class="muted">–</span>`:`<span class="${v>=0?"pos2":"neg2"}">${v<0?"−":""}₹${inr2(Math.abs(v))}</span>`;
   const ret=(v)=>v==null?`<span class="muted">–</span>`:`<span class="${v>=0?"pos2":"neg2"}">${pct(v)}</span>`;
   return `<tr tabindex="0" data-yid="${esc(r.id)}" aria-label="${esc(r.name)}">
-    <td><div class="co">${avatar(r.name)}<span><b>${esc(r.name)}</b><span class="micro">${esc([r.exchange,r.symbol].filter(Boolean).join(" · "))}${r.unconfirmed?` <span class="chip warn">Unconfirmed</span>`:""}</span></span></div></td>
+    <td><div class="co">${avatar(r.name)}<span><b>${medal}${esc(r.name)}</b><span class="micro">${esc([r.exchange,r.symbol].filter(Boolean).join(" · "))}${r.unconfirmed?` <span class="chip warn">Unconfirmed</span>`:""}</span></span></div></td>
     <td class="two">${when}<div class="b">${sub}</div></td>
     <td class="num">${r.price!=null?"₹"+inr(r.price):"–"}</td>
     <td class="num">${r.listing_close!=null?"₹"+inr2(r.listing_close):`<span class="muted">–</span>`}</td>
@@ -547,17 +1077,18 @@ function renderYearBody(){
   const L=base.filter(r=>r.listing_gain_pct!=null), N=base.filter(r=>r.gain_pct!=null);
   $("stats").innerHTML = statCard("t-blue","check",listed,"Listed this year",base.length+" issues in total")
     +statCard("t-amber","cal",open,"Not yet listed","open, upcoming or awaiting listing")
-    +statCard("t-green","bolt",L.length?L.filter(r=>r.listing_gain_pct>0).length+" / "+L.length:"–","Up on listing day","closed above the issue price")
-    +statCard("t-slate","bell",N.length?N.filter(r=>r.gain_pct>0).length+" / "+N.length:"–","Above issue price","where they trade now");
+    +statCard("t-green","bolt",L.length?L.filter(r=>r.listing_gain_pct>0).length+"/"+L.length:"–","Up on listing day","closed above the issue price")
+    +statCard("t-slate","trend",N.length?N.filter(r=>r.gain_pct>0).length+"/"+N.length:"–","Above issue price","where they trade now");
   $("count2").textContent=all.length+" "+(all.length===1?"IPO":"IPOs");
   const asof=state.hist.bse_as_of?tt(state.hist.bse_as_of):"";
-  $("ybody").innerHTML = all.length ? `<div class="panel ylist"><div style="overflow-x:auto"><table class="tbl"><thead><tr><th>Company</th><th>Listed / status</th><th class="r" title="Issue price">Issue ₹</th><th class="r" title="Closing price on the day of listing">Day close</th><th class="r" title="Listing-day close minus issue price">Day gain</th><th class="r" title="Listing-day gain as a percentage of the issue price">Day %</th><th class="r" title="Latest price">Now ₹</th><th class="r" title="Latest price against the issue price">Now %</th></tr></thead><tbody>${shown.map(yearRow).join("")}</tbody></table></div></div>
+  $("ybody").innerHTML = all.length ? `<div class="panel ylist"><div style="overflow-x:auto"><table class="tbl"><thead><tr><th>Company</th><th>Listed / status</th><th class="r" title="Issue price">Issue ₹</th><th class="r" title="Closing price on the day of listing">Day close</th><th class="r" title="Listing-day close minus issue price">Day gain</th><th class="r" title="Listing-day gain as a percentage of the issue price">Day %</th><th class="r" title="Latest price">Now ₹</th><th class="r" title="Latest price against the issue price">Now %</th></tr></thead><tbody>${shown.map((r,n)=>yearRow(r,n)).join("")}</tbody></table></div></div>
       ${all.length>shown.length?`<button class="btn more" id="ymore">Show ${Math.min(40,all.length-shown.length)} more (${shown.length} of ${all.length})</button>`:""}
       <p class="micro" style="margin-top:12px">Listing-day close is the closing price on the day of listing, and “Now” is the latest price BSE reports, both measured against the issue price. NSE Emerge SME issues show dates and prices only. Data from NSE and BSE${asof?`, performance as of ${asof}`:""}.</p>`
-    : `<div class="panel"><div class="empty"><b>Nothing to show</b>No issues match these filters.</div></div>`;
+    : `<div class="panel"><div class="empty"><div class="big">🔭</div><b>Nothing here right now</b>No issues match these filters.</div></div>`;
   $("ymore")&&($("ymore").onclick=()=>{ f.limit+=40; renderYearBody(); });
 }
 function renderYear(){
+  if(state.hist&&state.yf.q&&!document.getElementById("yq")){ /* first paint with a query */ }
   if(!state.hist){
     $("stats").innerHTML="";
     $("view").innerHTML = state.histErr ? `<div class="panel"><div class="err">The full-year list is not published yet (${esc(state.histErr)}). It appears after the next data update.</div></div>` : `<div class="panel"><div class="empty">Loading the full-year list…</div></div>`;
@@ -580,7 +1111,7 @@ function openYear(id){
   if(state.all.some(i=>i.id===id)) return openDrawer(id);
   const r=state.hist&&state.hist.rows.find(x=>x.id===id); if(!r) return;
   state.openId=null;
-  const p=$("dpill"); p.className="pill "+(STATUS[r.status]||STATUS.listed).cls; p.textContent=(STATUS[r.status]||STATUS.listed).label;
+  const p=$("dpill"); p.className="pill "+(STATUS[r.status]||STATUS.listed).cls; p.textContent=stText(r.status);
   $("dtitle").textContent=r.name; $("dsub").textContent=[r.segment==="SME"?"SME":"Mainboard",r.exchange,r.symbol].filter(Boolean).join(" · ");
   const row=(l,v)=>v?`<div><dt>${l}</dt><dd>${v}</dd></div>`:"";
   $("db").innerHTML=`<h3>Key facts</h3><dl class="facts">
@@ -594,35 +1125,113 @@ function openYear(id){
     <p class="fine">${r.gain_pct==null?"Price data is not available for this issue from the sources used here. ":""}Prices come from BSE and are measured against the issue price. This is information, not advice.</p>`;
   const d=$("drawer"); if(!d.open) d.showModal();
 }
+/* ============ GMP: where else to look ============ */
+const GMP_SITES=[["IPO Watch","https://ipowatch.live/all-ipo"],["StockeZee","https://www.stockezee.com/ipo-gmp"],["IPOji","https://www.ipoji.com/ipo-gmp"]];
+const gmpLinks=()=>GMP_SITES.map(([n,u])=>`<a class="btn" href="${u}" target="_blank" rel="noopener noreferrer">${n} ↗</a>`).join("");
+const gmpNote=()=>`<p class="gmp-note"><span>📊</span><span>GMP is unofficial and changes quickly. Readings come from public trackers (credited on each number) and our own checks, so some IPOs may show "Not reported". More trackers: ${GMP_SITES.map(([n,u])=>`<a href="${u}" target="_blank" rel="noopener noreferrer">${n} ↗</a>`).join(" · ")}</span></p>`;
+
+/* ============ calendar ============ */
+const ISO=d=>d.toLocaleDateString("en-CA");
+const D=iso=>{ const [y,m,d]=iso.split("-").map(Number); return new Date(y,m-1,d,12); };
+state.cal={y:new Date().getFullYear(),m:new Date().getMonth(),sel:ISO(new Date())};
+function calRows(){
+  const map=new Map();
+  (state.hist?state.hist.rows:[]).forEach(r=>map.set(r.id,{...r}));
+  state.all.forEach(i=>map.set(i.id,{...(map.get(i.id)||{}),...i,live:true}));
+  return [...map.values()];
+}
+function calIndex(){
+  const idx={}, add=(k,ev)=>{ (idx[k]=idx[k]||[]).push(ev); };
+  calRows().forEach(r=>{
+    if(r.open&&r.close&&r.open<=r.close){
+      let n=0; for(const d=D(r.open); ISO(d)<=r.close&&n<15; d.setDate(d.getDate()+1),n++){ const k=ISO(d); add(k,{r,kind:k===r.close?"close":k===r.open?"open":"bid"}); }
+    }
+    if(r.listing) add(r.listing,{r,kind:"list"});
+    if(r.boa) add(r.boa,{r,kind:"allot"});
+  });
+  return idx;
+}
+function calDots(evs,today,k){
+  const set=new Set();
+  (evs||[]).forEach(({r,kind})=>{
+    if(kind==="open"||kind==="close"||kind==="bid"){ if(r.status==="open"||r.status==="closing_today") set.add("open"); else if(r.status==="upcoming") set.add("up"); }
+    else if(kind==="list") set.add(k<=today?"done":"due");
+  });
+  return ["open","up","done","due"].filter(x=>set.has(x));
+}
+const EVSTYLE={open:["#1e9e6a","#e3f6ec"],up:["#2f6fed","#e7f0fe"],done:["#7b5cd6","#efeaff"],due:["#b8760f","#fff3d6"],plain:["#66728f","#eef1f7"]};
+function evLabel(ev,k,today){
+  const r=ev.r;
+  if(ev.kind==="list") return k<=today?["Listed","done"]:["Listing day","due"];
+  if(ev.kind==="allot") return ["Allotment","plain"];
+  const live=r.status==="open"||r.status==="closing_today", upc=r.status==="upcoming", c=live?"open":upc?"up":"plain";
+  if(ev.kind==="open") return [k===today?"Opens today":(k>today||upc?"Opens":"Opened"),c];
+  if(ev.kind==="close") return [k===today?"Closes today"+(r.cutoff_time?", "+r.cutoff_time:""):(k>today?"Closes":"Closed"),c];
+  return ["Open for bidding",c];
+}
+function renderCalendar(){
+  $("stats").innerHTML="";
+  if(state.dataset==="live"&&!state.hist&&!state.histErr) ensureHistory();
+  const {y,m}=state.cal, today=ISO(new Date()), idx=calIndex();
+  const first=new Date(y,m,1,12), lead=(first.getDay()+6)%7, days=new Date(y,m+1,0).getDate();
+  const title=first.toLocaleDateString("en-GB",{month:"long",year:"numeric"});
+  let cells=["Mon","Tue","Wed","Thu","Fri","Sat","Sun"].map(d=>`<div class="cal-dow">${d}</div>`).join("")+'<span class="cal-cell empty"></span>'.repeat(lead);
+  for(let d=1;d<=days;d++){
+    const k=ISO(new Date(y,m,d,12)), dots=calDots(idx[k],today,k), n=(idx[k]||[]).length;
+    cells+=`<button class="cal-cell${k===today?" today":""}${k===state.cal.sel?" sel":""}" data-d="${k}" aria-label="${d} ${title}${n?`, ${n} IPO event${n>1?"s":""}`:""}"><span>${d}</span><span class="dots">${dots.map(x=>`<i class="k-${x}"></i>`).join("")}</span></button>`;
+  }
+  const sel=state.cal.sel, evs=(idx[sel]||[]).slice().sort((a,b)=>["close","open","bid","list","allot"].indexOf(a.kind)-["close","open","bid","list","allot"].indexOf(b.kind));
+  const dayTitle=D(sel).toLocaleDateString("en-GB",{weekday:"long",day:"numeric",month:"long"});
+  const list=evs.length?evs.map(ev=>{ const [lab,c]=evLabel(ev,sel,today), [col,bg]=EVSTYLE[c]||EVSTYLE.plain, r=ev.r;
+      return `<button class="cal-ev" ${state.all.some(i=>i.id===r.id)?`data-id="${esc(r.id)}"`:`data-yid="${esc(r.id)}"`} style="--ev:${col};--ev-bg:${bg}"><span><span class="t">${esc(r.name)}</span><span class="m">${esc([r.segment==="SME"?(r.exchange||"SME"):"Mainboard",r.price!=null?"₹"+inr(r.price):null].filter(Boolean).join(" · "))}</span></span><span class="tag">${esc(lab)}</span></button>`; }).join("")
+    : `<p class="micro">No IPO events on this day.</p>`;
+  const leg=[["open","Open now"],["up","Upcoming"],["due","Listing due"],["done","Listed"]].map(([c,l])=>`<span><i class="k-${c}"></i>${l}</span>`).join("");
+  $("view").innerHTML=`<div class="cal-wrap">
+    <div class="panel cal"><div class="cal-head"><span class="tile t-green">${ICON.cal}</span><h2>IPO Calendar</h2>
+      <div class="cal-nav"><button data-cal="prev" aria-label="Previous month">‹</button><b>${title}</b><button data-cal="next" aria-label="Next month">›</button></div><button class="cal-today" data-cal="today">Today</button></div>
+      <div class="cal-grid">${cells}</div><div class="cal-legend">${leg}</div></div>
+    <div class="panel cal-day"><h3>${dayTitle}</h3><div class="sub2">${evs.length?evs.length+" event"+(evs.length>1?"s":""):"Nothing scheduled"}</div>${list}</div></div>`;
+}
+function calStep(delta){
+  const c=state.cal; const d=new Date(c.y,c.m+delta,1,12); c.y=d.getFullYear(); c.m=d.getMonth();
+  const k=ISO(new Date()); c.sel=(d.getFullYear()===+k.slice(0,4)&&d.getMonth()===+k.slice(5,7)-1)?k:ISO(d);
+  renderCalendar();
+}
 function trackRows(){ return state.all.filter(i=>i.listing_price&&i.gmp!=null&&i.price); }
 function renderTrack(){
   const rows=trackRows().sort((a,b)=>(b.listing||"").localeCompare(a.listing||""));
   const m=rows.map(i=>{const imp=i.gmp/i.price*100, act=(i.listing_price/i.price-1)*100; return {i,imp,act,gap:act-imp,hit:(imp>=0)===(act>=0)};});
   const hits=m.filter(x=>x.hit).length, avg=m.length?m.reduce((a,x)=>a+Math.abs(x.gap),0)/m.length:0;
   $("stats").classList.add("three");
-  const card=(tone,icon,num,lab,cap)=>`<div class="stat static"><span class="tile ${tone}">${ICON[icon]}</span><span><div class="num">${num}</div><div class="lab">${lab}</div><div class="cap">${cap}</div></span></div>`;
-  $("stats").innerHTML = card("t-blue","check",m.length,"IPOs tracked","with GMP and a listing price")+card("t-green","bolt",m.length?hits+" / "+m.length:"–","Direction right","gain or loss matched")+card("t-amber","bell",m.length?avg.toFixed(1)+" pts":"–","Average gap","between GMP and actual gain");
+  const card=statCard;
+  $("stats").innerHTML = card("t-blue","target",m.length,"IPOs tracked","with GMP and a listing price")+card("t-green","trend",m.length?hits+"/"+m.length:"–","Direction right","gain or loss matched")+card("t-amber","ruler",m.length?avg.toFixed(1)+" pts":"–","Average gap","between GMP and actual gain");
   $("view").innerHTML = `<div class="panel"><div style="overflow-x:auto"><table class="tbl"><thead><tr><th>IPO</th><th>Issue price</th><th>Last GMP</th><th>GMP-implied gain</th><th>Listed at</th><th>Actual gain</th><th>Gap</th></tr></thead><tbody>${m.map(x=>`<tr tabindex="0" data-id="${esc(x.i.id)}"><td class="nm"><b>${esc(x.i.name)}</b><span class="micro">Listed ${dd(x.i.listing)}</span></td><td>₹${inr(x.i.price)}</td><td><b>${rs(x.i.gmp)}</b></td><td>${pct(x.imp)}</td><td><b>${rs(x.i.listing_price)}</b></td><td class="${x.act>=0?"pos2":"neg2"}">${pct(x.act)}</td><td>${(x.gap>=0?"+":"")+x.gap.toFixed(1)} pts</td></tr>`).join("")}</tbody></table></div></div>
   <p class="micro" style="margin-top:10px">Gap = actual listing gain minus the gain the last GMP implied, in percentage points of the issue price.</p>`;
   $("count").textContent="";
 }
 
 /* ============ renderers ============ */
+function ring(t){
+  const v=Math.min(1,t/2), C=2*Math.PI*17, col=t>=1?"#14905d":"#3b82f6";
+  return `<svg class="ring" viewBox="0 0 44 44" aria-hidden="true"><circle cx="22" cy="22" r="17" class="rt"/><circle cx="22" cy="22" r="17" class="rf" style="stroke:${col};stroke-dasharray:${C.toFixed(1)};stroke-dashoffset:${(C*(1-v)).toFixed(1)}" transform="rotate(-90 22 22)"/></svg>`;
+}
 function card(i){
-  const sub = [i.size_cr!=null?"Issue "+cr(i.size_cr):null, i.symbol||null].filter(Boolean).join(" · ");
+  const sub=[i.size_cr!=null?cr(i.size_cr)+" issue":null, i.symbol||null].filter(Boolean).join(" · ");
+  const t=i.sub&&i.sub.total;
+  const subHtml=t!=null?`<div class="ringbox">${ring(t)}<div><div class="subv">${t.toFixed(2)}x</div><div class="micro">${demand(t)}</div></div></div>`:`<span class="muted">${i.status==="upcoming"?"Not open yet":"–"}</span>`;
   return `<button class="card" data-id="${esc(i.id)}" data-s="${i.status}" aria-label="${esc(i.name)}, ${STATUS[i.status].label}">
-    <div class="head">${pill(i)}<span style="display:flex;gap:6px">${i.unconfirmed?`<span class="chip warn" title="Not on NSE's or BSE's official lists yet">Unconfirmed</span>`:""}<span class="chip">${esc(i.exchange|| (i.segment==="SME"?"SME":"Mainboard"))}</span></span></div>
-    <div><h3>${esc(i.name)}</h3><p class="sub">${esc(sub||stateSub(i))}</p></div>
-    <dl class="kv"><div><dt>Price</dt><dd>${band(i)}</dd></div><div><dt>Lot</dt><dd>${i.lot!=null?inr(i.lot):"–"}</dd></div><div><dt>1 lot</dt><dd>${oneLot(i)}</dd></div></dl>
-    ${miniTimeline(i)}
-    <div class="foot"><div><div class="k">GMP</div>${gmpBlock(i)}</div><div><div class="k">Subscription</div>${subBlock(i)}</div></div>
+    <div class="c-top">${avatar(i.name,true)}<div class="c-id"><h3>${esc(i.name)}</h3><p class="sub">${esc(sub||stateSub(i))}</p></div>${starSpan(i)}</div>
+    <div class="c-chips">${pill(i)}${cdChip(i)}<span class="chip">${esc(i.exchange|| (i.segment==="SME"?"SME":"Mainboard"))}</span>${i.unconfirmed?`<span class="chip warn" title="Not on NSE's or BSE's official lists yet">Unconfirmed</span>`:""}</div>
+    <div class="c-price"><span class="big">${band(i)}</span><span class="c-line">${i.lot!=null?`Lot ${inr(i.lot)} · ${oneLot(i)} per lot`:"Lot to be announced"}</span></div>
+    <div class="c-line c-dates">📅 ${dd(i.open)} – ${dd(i.close)}${i.listing?` · lists ${dd(i.listing)}`:""}</div>
+    <div class="foot"><div><div class="k">GMP</div>${gmpBlock(i)}</div><div><div class="k">Subscription</div>${subHtml}</div></div>
   </button>`;
 }
 function row(i){
   const typ = i.segment==="SME" ? (i.exchange||"SME") : "Mainboard";
   return `<tr tabindex="0" data-id="${esc(i.id)}" aria-label="${esc(i.name)}">
+    <td class="stc">${starBtn(i)}</td>
     <td><div class="co">${avatar(i.name)}<span><b>${esc(i.name)}</b><span class="micro">${esc([i.symbol, i.size_cr!=null?cr(i.size_cr)+" issue":null].filter(Boolean).join(" · "))}${i.unconfirmed?` <span class="chip warn" title="Not on NSE's or BSE's official lists yet">Unconfirmed</span>`:""}</span>${pill(i)}</span></div></td>
-    <td><span class="chip">${esc(typ)}</span></td>
     <td class="two"><div class="a">${band(i)}</div></td>
     <td class="two"><div class="a">${i.lot!=null?inr(i.lot)+" shares":"–"}</div><div class="b">${i.lot!=null&&i.price!=null?"₹"+inr(i.price*i.lot)+" per lot":""}</div></td>
     <td class="two"><div class="a">${dd(i.open)} – ${dd(i.close)}</div><div class="b">${i.listing?"Lists "+dd(i.listing):stateSub(i)}</div></td>
@@ -639,47 +1248,54 @@ function sortList(a){
     return dx*((x.open||"").localeCompare(y.open||""));
   });
 }
-const FILTERS={open:i=>i.status==="open"||i.status==="closing_today", upcoming:i=>i.status==="upcoming", closed:i=>i.status==="closed"||i.status==="listed"};
+const FILTERS={open:i=>i.status==="open"||i.status==="closing_today", upcoming:i=>i.status==="upcoming", closed:i=>i.status==="closed"||i.status==="listed", watch:i=>state.watch.has(i.id)};
 function filtered(){
   const q=state.q.trim().toLowerCase(), g=FILTERS[state.filter];
   return sortList(scoped().filter(i=>(!g||g(i)) && (!state.onlyGmp||i.gmp!=null) && (!q||i.name.toLowerCase().includes(q)||(i.symbol||"").toLowerCase().includes(q))));
 }
 
 function renderNav(){
-  const main=state.all.filter(i=>group(i)==="MAIN").length, sme=state.all.filter(i=>group(i)==="SME").length;
-  const tabs=[["MAIN","Mainboard",main],["SME","SME",sme]];
-  if(state.dataset==="live") tabs.push(["YR","All 2026",null]);
-  if(trackRows().length) tabs.push(["TRK","Track record",null]);
-  if(state.all.some(i=>(i.gmp_sources||[]).length>1)) tabs.push(["CMP","Compare",null]);
-  $("nav").innerHTML = tabs.map(([k,l,n])=>`<button role="tab" data-t="${k}" aria-selected="${state.tab===k}">${l}${n!=null?`<span class="n">${n}</span>`:""}</button>`).join("");
+  const tabs=[["HOME","Home"],["MAIN","Mainboard"],["SME","SME"]];
+  if(state.dataset==="live") tabs.push(["YR","All 2026"]);
+  tabs.push(["CAL","Calendar"]);
+  if(trackRows().length) tabs.push(["TRK","Track record"]);
+  if(state.all.some(i=>(i.gmp_sources||[]).length>1)) tabs.push(["CMP","Compare"]);
+  $("nav").innerHTML = tabs.map(([k,l])=>`<button role="tab" data-t="${k}" aria-selected="${state.tab===k}">${l}</button>`).join("");
+  $("watchN").textContent=state.watch.size;
 }
 function renderHero(){
-  const t=TEXT[state.tab]; $("eyebrow").textContent=t.eyebrow; $("h1").textContent=t.h1; $("lede").textContent=t.lede;
+  const home=state.tab==="HOME";
+  $("homeHero").hidden=!home; $("pageHead").hidden=home;
+  document.body.classList.toggle("is-home",home);
   document.body.classList.toggle("sme", state.tab==="SME");
-  document.title = ({SME:"SME IPOs",CMP:"Compare sources",TRK:"GMP track record",YR:"All 2026 IPOs",MAIN:"Mainboard IPOs"})[state.tab]+" · GMP Desk";
+  if(!home){ const t=TEXT[state.tab]; $("eyebrow").textContent=t.eyebrow; $("h1").innerHTML=esc(t.h1)+` <span class="h-emo" aria-hidden="true">${t.emo||""}</span>`; $("lede").textContent=t.lede; }
+  document.title = home ? "GMP Desk: every IPO in India in one place" : ({SME:"SME IPOs",CMP:"Compare sources",TRK:"GMP track record",YR:"All 2026 IPOs",CAL:"IPO Calendar",MAIN:"Mainboard IPOs"})[state.tab]+" · GMP Desk";
 }
 function renderStats(){
   const base=scoped(), sum=l=>l.reduce((a,b)=>a+(b.size_cr||0),0);
   $("stats").innerHTML = GROUPS.map(g=>{
     const l=base.filter(g.test);
-    return `<div class="stat static"><span class="tile ${g.tone}">${ICON[g.icon]}</span><span><div class="num">${l.length}</div><div class="lab">${g.label}</div><div class="cap">${l.length===0?"none right now":sum(l)?cr(sum(l)):"size not listed"}</div></span></div>`;
+    const today=g.k==="open"?l.filter(i=>i.status==="closing_today").length:0;
+    const cap = l.length===0 ? "none right now" : (sum(l)?cr(sum(l)):"size not listed")+(today?` · ${today} close${today===1?"s":""} today`:"");
+    return statCard(g.tone,g.icon,l.length,g.label,cap);
   }).join("");
 }
 function subtabs(){
   const base=scoped(), n=f=>base.filter(FILTERS[f]).length;
-  const tabs=[[null,"All",base.length,""],["open","Open",n("open"),"d-open"],["upcoming","Upcoming",n("upcoming"),"d-up"],["closed","Closed",n("closed"),"d-closed"]];
+  const tabs=[[null,"All",base.length,""],["open","Open",n("open"),"d-open"],["upcoming","Upcoming",n("upcoming"),"d-up"],["closed","Closed",n("closed"),"d-closed"],["watch","★ Watchlist",n("watch"),""]];
   return `<div class="subtabs" role="group" aria-label="Show">${tabs.map(([k,l,c,d])=>`<button data-sub="${k||""}" aria-pressed="${(state.filter||null)===k}">${d?`<span class="dot ${d}"></span>`:""}${l}<span class="c">${c}</span></button>`).join("")}</div>`;
 }
 function renderBody(){
   const list=filtered();
   $("clear").hidden = !(state.q||state.onlyGmp);
   $("count").textContent = list.length+" "+(list.length===1?"IPO":"IPOs");
-  const empty = `<div class="panel"><div class="empty"><b>Nothing to show</b>No IPOs match these filters. Try another tab or clear the search.</div></div>`;
+  const w=state.filter==="watch";
+  const empty = `<div class="panel"><div class="empty"><div class="big">${w?"⭐":"🔭"}</div><b>${w?"Your watchlist is empty":"Nothing here right now"}</b>${w?"Tap the ☆ next to any IPO to keep an eye on it here.":"No IPOs match these filters. Try another tab or clear the search."}</div></div>`;
   if(state.tab==="SME"){
-    $("view").innerHTML = subtabs()+`<div class="note">${ICON.info}<div><b>Read SME issues with extra care</b><span>SME IPOs list on platforms like BSE SME and NSE Emerge. Lot sizes are larger (the cards show what one lot costs), trading is thinner and prices can move sharply.</span></div></div>`+
+    $("view").innerHTML = subtabs()+gmpNote()+`<div class="note">${ICON.info}<div><b>Read SME issues with extra care</b><span>SME IPOs list on platforms like BSE SME and NSE Emerge. Lot sizes are larger (the cards show what one lot costs), trading is thinner and prices can move sharply.</span></div></div>`+
       (list.length?`<div class="grid">${list.map(card).join("")}</div>`:empty);
   }else{
-    $("view").innerHTML = subtabs()+(list.length ? `<div class="panel tbl-wrap"><table class="tbl"><thead><tr><th>Company</th><th>Type</th><th>Price band</th><th>Lot size</th><th>Open – Close</th><th>Subscription</th><th>GMP</th></tr></thead><tbody>${list.map(row).join("")}</tbody></table></div>
+    $("view").innerHTML = subtabs()+gmpNote()+(list.length ? `<div class="panel tbl-wrap"><table class="tbl"><thead><tr><th class="stc"></th><th>Company</th><th title="The range you can bid within">Price band</th><th title="The smallest number of shares you can apply for, and what that costs">Lot size</th><th title="The days you can apply">Open – Close</th><th title="How many times the shares on offer have been applied for. Above 1x means more demand than shares">Subscription</th><th title="Grey market premium: an unofficial price above the issue price. Not guaranteed">GMP</th></tr></thead><tbody>${list.map(row).join("")}</tbody></table></div>
       <div class="grid cards-m">${list.map(card).join("")}</div>` : empty);
   }
 }
@@ -693,22 +1309,50 @@ function renderCompare(){
 }
 function render(){
   renderNav(); renderHero();
-  const wide = state.tab==="CMP"||state.tab==="TRK"||state.tab==="YR";
+  const wide = state.tab==="HOME"||state.tab==="CMP"||state.tab==="TRK"||state.tab==="YR"||state.tab==="CAL";
   document.querySelector(".tools").style.display = wide ? "none" : "";
   $("view").style.marginTop = (state.tab==="CMP"||state.tab==="TRK") ? "24px" : "";
   $("stats").classList.remove("three");
-  renderToday(); renderYearLine(); renderStale();
+  renderYearLine(); renderStale();
+  if(state.tab==="HOME"){ $("stats").innerHTML=""; renderHome(); return; }
   if(state.tab==="CMP"){ renderCompare(); return; }
   if(state.tab==="TRK"){ renderTrack(); return; }
   if(state.tab==="YR"){ renderYear(); return; }
+  if(state.tab==="CAL"){ renderCalendar(); return; }
   renderStats(); renderBody();
 }
 
 /* ============ drawer ============ */
+function glance(i){
+  const open=i.status==="open"||i.status==="closing_today";
+  const when = open ? ["Apply by",(i.status==="closing_today"?"Today":dd(i.close))+(i.cutoff_time?", "+i.cutoff_time:""),i.status==="closing_today"?"last day to apply":"issue closes "+dd(i.close)]
+    : i.status==="upcoming" ? ["Opens",dd(i.open),"closes "+dd(i.close)]
+    : i.status==="listed" ? ["Listed",dd(i.listing),""] : ["Closed",dd(i.close),i.listing?"lists "+dd(i.listing):""];
+  const minInv = (i.price!=null&&i.lot!=null) ? ["Minimum to apply","₹"+inr(i.price*i.lot),inr(i.lot)+" shares, at the top of the band"] : ["Minimum to apply","–",""];
+  const subT = i.sub&&i.sub.total!=null ? ["Subscribed",i.sub.total.toFixed(2)+"x",i.sub.total>=1?"more demand than shares on offer":"not fully subscribed yet"] : ["Subscribed",i.status==="upcoming"?"Not open yet":"–",""];
+  const gm = i.gmp!=null ? ["GMP (unofficial)",rs(i.gmp),i.gmp_pct!=null?pct(i.gmp_pct):""] : ["GMP (unofficial)","Not reported",""];
+  return `<div class="glance">${[minInv,when,subT,gm].map(([k,v,s])=>`<div><div class="k">${k}</div><div class="v">${esc(v)}</div><div class="s">${esc(s)}</div></div>`).join("")}</div>`;
+}
+function chanceBlock(i){
+  const r=i.sub&&i.sub.retail; if(r==null||!(i.status==="open"||i.status==="closing_today"||i.status==="closed")) return "";
+  const live=i.status!=="closed"?" These numbers keep changing until the issue closes.":"";
+  const txt = r<1 ? `The retail portion is subscribed <b>${r.toFixed(2)}x</b>, so it is not full yet: right now everyone who applies would get shares.${live}`
+    : `The retail portion is subscribed <b>${r.toFixed(2)}x</b>. When an issue is over-subscribed, shares are given out by lottery, so a rough guide is <b>about 1 in ${r.toFixed(1)}</b> applicants getting a lot. This is only an estimate.${live}`;
+  return `<p class="chance">${txt}</p>`;
+}
+function howBlock(i){
+  if(!(i.status==="upcoming"||i.status==="open"||i.status==="closing_today")) return "";
+  const cap=i.retail_max?`₹${inr(i.retail_max)}`:"₹2 lakh";
+  return `<details class="how" ${i.status==="upcoming"?"":"open"}><summary>How to apply</summary><ol>
+    <li>Open the IPO section of your broker or bank app (any app that offers IPOs).</li>
+    <li>Pick this IPO, choose the number of lots and enter your UPI ID. Retail applications can go up to ${cap}.</li>
+    <li>Approve the payment request in your UPI app${i.cutoff_time?` before ${esc(i.cutoff_time)} on the last day`:" before the cut-off on the last day"}. The money is only blocked in your account until allotment, it is not paid to anyone.</li>
+    <li>After the issue closes, check your allotment with the registrar. The links appear in this panel once it has closed.</li></ol></details>`;
+}
 function openDrawer(id, quiet){
   const i=state.all.find(x=>x.id===id); if(!i) return;
   state.openId=id;
-  const p=$("dpill"); p.className="pill "+STATUS[i.status].cls; p.textContent=STATUS[i.status].label;
+  const p=$("dpill"); p.className="pill "+STATUS[i.status].cls; p.textContent=stText(i.status);
   $("dtitle").textContent=i.name;
   $("dsub").textContent=[i.segment==="SME"?(i.exchange||"SME"):"Mainboard", i.symbol].filter(Boolean).join(" · ");
   const steps=[["Opens",i.open],["Closes",i.close],["Allotment",i.boa],["Listing",i.listing]];
@@ -722,7 +1366,8 @@ function openDrawer(id, quiet){
   const perLot = (i.gmp!=null && i.lot!=null) ? `<div><dt>Est. gain per lot at GMP</dt><dd class="${i.gmp>=0?"pos2":"neg2"}">${rs(i.gmp*i.lot)}</dd></div>` : "";
   $("db").innerHTML = `
     ${i.unconfirmed?`<p class="verdict" style="margin:0 0 14px"><b>Not on an official list yet.</b> NSE and BSE don't list this issue, so its dates and price come from other sources and may change.</p>`:""}
-    <div class="acts"><button class="btn" data-act="copy">Copy link</button><button class="btn" data-act="ics">Add dates to calendar</button>${i.rhp_url?`<a class="btn" href="${esc(i.rhp_url)}" target="_blank" rel="noopener">Offer document (RHP) ↗</a>`:""}</div>
+    <div class="acts"><button class="btn" data-act="watch">${watchLabel(i.id)}</button><button class="btn" data-act="copy">Copy link</button><button class="btn" data-act="ics">Add dates to calendar</button>${i.rhp_url?`<a class="btn" href="${esc(i.rhp_url)}" target="_blank" rel="noopener">Offer document (RHP) ↗</a>`:""}</div>
+    ${glance(i)}${chanceBlock(i)}${howBlock(i)}
     <h3>Key facts</h3>
     <dl class="facts">
       <div><dt>Price band</dt><dd>${band(i)}</dd></div>
@@ -743,6 +1388,7 @@ function openDrawer(id, quiet){
     ${(i.gmp_sources&&i.gmp_sources.length)||(i.gmp_history&&i.gmp_history.length)
       ? `<h3>GMP readings</h3>${sourcesTable(i)}<h3>GMP history${i.history_source?" · "+esc(i.history_source):""}</h3>${gmpChart(i)}`
       : `<h3>GMP</h3><div class="micro">No GMP reported yet.</div>`}
+    <h3>Check GMP on other trackers</h3><div class="links" style="margin-top:0">${gmpLinks()}</div><p class="micro" style="margin-top:8px">Different sites can show different numbers, and GMP is never a promise.</p>
     <h3>Subscription</h3>${sub}${subNote}
     ${subHistoryBlock(i)}
     ${reservationBlock(i)}
@@ -771,11 +1417,13 @@ function gmpChart(i){
 }
 
 /* ============ data + events ============ */
-const TABHASH={MAIN:"#mainboard",SME:"#sme",YR:"#year",CMP:"#compare",TRK:"#track"};
+const TABHASH={HOME:"#home",MAIN:"#mainboard",SME:"#sme",YR:"#year",CAL:"#calendar",CMP:"#compare",TRK:"#track"};
 function readHash(){
   const h=decodeURIComponent(location.hash.replace("#","")); state.openId=null;
   if(h.toLowerCase().startsWith("ipo=")){ const id=h.slice(4), i=state.all.find(x=>x.id===id); if(i){ state.tab=group(i); state.openId=id; return; } }
-  state.tab = ({sme:"SME",compare:"CMP",track:"TRK",year:"YR"})[h.toLowerCase()] || "MAIN";
+  const k=h.toLowerCase();
+  if(k==="watchlist"){ state.tab="MAIN"; state.filter="watch"; return; }
+  state.tab = ({home:"HOME",mainboard:"MAIN",sme:"SME",compare:"CMP",track:"TRK",year:"YR",calendar:"CAL"})[k] || "HOME";
 }
 async function load(){
   try{
@@ -783,8 +1431,8 @@ async function load(){
     const data=await r.json(); state.all=data.ipos; state.stats=data.market_stats||null; state.feeds=data.feeds||null; state.dataset=data.dataset||"";
     $("badge").textContent=({sample:"Sample data","local-test":"Local test data"})[data.dataset]||"Live";
     $("asof").textContent="Updated "+tt(data.generated_at);
-    $("srcs").innerHTML=(data.sources&&data.sources.length)?"Sources: "+data.sources.map(x=>x.url?`<a href="${esc(x.url)}" rel="noopener" target="_blank">${esc(x.name)}</a>`:esc(x.name)).join(", ")+".":"";
-    readHash(); render(); if(state.openId) openDrawer(state.openId,true);
+    $("srcs").innerHTML=(data.sources&&data.sources.length)?data.sources.map(x=>x.url?`<a href="${esc(x.url)}" rel="noopener" target="_blank">${esc(x.name)} ↗</a>`:`<span>${esc(x.name)}</span>`).join(""):"";
+    readHash(); render(); renderTicker(); if(state.dataset==="live") ensureHistory(); if(state.openId) openDrawer(state.openId,true);
   }catch(e){
     $("view").innerHTML=`<div class="panel"><div class="err">Could not load ${esc(DATASET)} (${esc(e.message)}). If you opened this file directly, run <code>python -m http.server 8000</code> in this folder and visit http://localhost:8000.</div></div>`;
   }
@@ -792,9 +1440,10 @@ async function load(){
 $("nav").addEventListener("click",e=>{const b=e.target.closest("button"); if(!b) return; const t=b.dataset.t; state.tab=t; state.filter=null;
   history.replaceState(null,"", TABHASH[t]||"#mainboard"); render(); window.scrollTo({top:0,behavior:"smooth"});});
 window.addEventListener("hashchange",()=>{readHash(); render(); if(state.openId) openDrawer(state.openId,true); else closeDrawer();});
-$("today").addEventListener("click",e=>{const b=e.target.closest("[data-id]"); if(b) openDrawer(b.dataset.id);});
+$("ticker").addEventListener("click",e=>{ const t=e.target.closest("[data-id],[data-yid]"); if(!t) return; if(t.dataset.yid) openYear(t.dataset.yid); else openDrawer(t.dataset.id); });
 $("db").addEventListener("click",e=>{
   const b=e.target.closest("[data-act]"); if(!b) return; const i=state.all.find(x=>x.id===state.openId); if(!i) return;
+  if(b.dataset.act==="watch") toggleWatch(i.id);
   if(b.dataset.act==="ics") downloadIcs(i);
   if(b.dataset.act==="copy"){
     const done=()=>{ b.textContent="Link copied"; setTimeout(()=>{b.textContent="Copy link";},1800); };
@@ -807,8 +1456,35 @@ $("view").addEventListener("click",e=>{const b=e.target.closest("[data-sub]"); i
 $("q").addEventListener("input",e=>{state.q=e.target.value; renderBody();});
 $("onlyGmp").addEventListener("change",e=>{state.onlyGmp=e.target.checked; renderBody();});
 $("clear").addEventListener("click",()=>{state.q=""; state.onlyGmp=false; $("q").value=""; $("onlyGmp").checked=false; render();});
-$("view").addEventListener("click",e=>{const y=e.target.closest("[data-yid]"); if(y){ openYear(y.dataset.yid); return; } const t=e.target.closest("[data-id]"); if(t) openDrawer(t.dataset.id);});
-$("view").addEventListener("keydown",e=>{ if(e.key!=="Enter"&&e.key!==" ") return; if(e.target.matches("tr[data-yid]")){ e.preventDefault(); openYear(e.target.dataset.yid); } else if(e.target.matches("tr[data-id]")){ e.preventDefault(); openDrawer(e.target.dataset.id);} });
+$("view").addEventListener("click",e=>{
+  const cn=e.target.closest("[data-cal]"); if(cn){ if(cn.dataset.cal==="today"){ const n=new Date(); state.cal={y:n.getFullYear(),m:n.getMonth(),sel:ISO(n)}; renderCalendar(); } else calStep(cn.dataset.cal==="next"?1:-1); return; }
+  const dc=e.target.closest("[data-d]"); if(dc){ state.cal.sel=dc.dataset.d; renderCalendar(); return; }
+  const w=e.target.closest("[data-watch]"); if(w){ toggleWatch(w.dataset.watch); return; } const y=e.target.closest("[data-yid]"); if(y){ openYear(y.dataset.yid); return; } const t=e.target.closest("[data-id]"); if(t) openDrawer(t.dataset.id);});
+$("view").addEventListener("keydown",e=>{ if(e.key!=="Enter"&&e.key!==" ") return; if(e.target.matches("[data-watch]")){ if(e.target.tagName!=="BUTTON"){ e.preventDefault(); toggleWatch(e.target.dataset.watch); } return; } if(e.target.matches("tr[data-yid]")){ e.preventDefault(); openYear(e.target.dataset.yid); } else if(e.target.matches("tr[data-id]")){ e.preventDefault(); openDrawer(e.target.dataset.id);} });
+/* hero search with suggestions */
+let sugN=-1, sugList=[];
+function showSug(){
+  const q=$("heroQ").value.trim().toLowerCase(), box=$("heroSug"); sugN=-1;
+  if(!q){ box.hidden=true; return; }
+  sugList=calRows().filter(r=>r.name.toLowerCase().includes(q)||(r.symbol||"").toLowerCase().includes(q)).sort((a,b)=>RANK[a.status]-RANK[b.status]).slice(0,6);
+  box.innerHTML=sugList.length?sugList.map((r,n)=>`<button type="button" role="option" data-sug="${n}"><span class="sg-n">${esc(r.name)}</span><span class="sg-s">${stText(r.status)}</span></button>`).join(""):`<div class="sg-none">No IPO found. Try a shorter name.</div>`;
+  box.hidden=false;
+}
+function pickSug(n){ const r=sugList[n]; if(!r) return; $("heroSug").hidden=true; if(state.all.some(i=>i.id===r.id)) openDrawer(r.id); else openYear(r.id); }
+$("heroQ").addEventListener("input",()=>{ if(state.dataset==="live") ensureHistory(); showSug(); });
+$("heroQ").addEventListener("keydown",e=>{
+  const items=$("heroSug").querySelectorAll("[data-sug]");
+  if(e.key==="ArrowDown"||e.key==="ArrowUp"){ e.preventDefault(); if(!items.length) return; sugN=(sugN+(e.key==="ArrowDown"?1:-1)+items.length)%items.length; items.forEach((b,n)=>b.classList.toggle("on",n===sugN)); }
+  else if(e.key==="Enter"){ e.preventDefault(); if(sugN>=0) pickSug(sugN); else if(sugList.length) pickSug(0); else if($("heroQ").value.trim()){ state.yf.q=$("heroQ").value.trim(); goTab("YR"); } }
+  else if(e.key==="Escape"){ $("heroSug").hidden=true; }
+});
+$("heroGo").addEventListener("click",()=>{ if(sugList.length) pickSug(0); else if($("heroQ").value.trim()){ state.yf.q=$("heroQ").value.trim(); goTab("YR"); } });
+$("heroSug").addEventListener("click",e=>{ const b=e.target.closest("[data-sug]"); if(b) pickSug(+b.dataset.sug); });
+document.addEventListener("click",e=>{
+  if(!e.target.closest(".hh-search")) $("heroSug").hidden=true;
+  const sc=e.target.closest("[data-scroll]"); if(sc){ const t=document.getElementById(sc.dataset.scroll); if(t) t.scrollIntoView({behavior:"smooth",block:"start"}); return; }
+  const go=e.target.closest("[data-go]"); if(go){ goTab(go.dataset.go,go.dataset.fil||null); }
+});
 $("dclose").addEventListener("click",closeDrawer);
 $("drawer").addEventListener("click",e=>{ if(e.target===$("drawer")) closeDrawer(); });
 $("drawer").addEventListener("close",()=>{ state.openId=null; history.replaceState(null,"",TABHASH[state.tab]||"#mainboard"); });

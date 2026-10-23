@@ -216,6 +216,8 @@ def parse_detail(det):
     if managers: out["lead_managers"] = [re.sub(r"\s+", " ", x).strip() for x in managers]
     m = re.search(r"\d[\d,]*", info.get("Maximum Subscription Amount for Retail Investor") or "")
     if m: out["retail_max"] = int(m.group(0).replace(",", ""))
+    m = re.search(r"upto\s*(\d{1,2}:\d{2}\s*[APap][Mm])", info.get("Cut-off time for UPI Mandate Confirmation") or "")
+    if m: out["cutoff_time"] = re.sub(r"\s+", " ", m.group(1)).upper().replace("  ", " ")
     rhp = info.get("Red Herring Prospectus") or ""
     m = re.search(r"https?://[^\s\"'<>]+", rhp)
     if m: out["rhp_url"] = m.group(0)
@@ -559,7 +561,7 @@ def merge(manual, cache):
         if e.get("sub"):
             r["sub"] = dict(e["sub"])
             r["sub_basis"], r["sub_asof"] = e.get("sub_basis"), e.get("sub_asof")
-        for k in ("lot", "registrar", "lead_managers", "reservation", "rhp_url", "retail_max", "anchor_shares"):
+        for k in ("lot", "registrar", "lead_managers", "reservation", "rhp_url", "retail_max", "anchor_shares", "cutoff_time"):
             if e.get(k) not in (None, [], {}):
                 r[k] = e[k]
         r["price_low"] = e.get("price_low")
@@ -603,13 +605,109 @@ def parse_gmp_csv(text, default_source="GMP Desk"):
         at = row.get("at", "").replace(" ", "T")
         why = ("no IPO name/symbol" if not row.get("ipo")
                else "gmp is not a number" if g is None
-               else "'at' should look like 2026-10-23 11:30" if len(at) < 10 else "")
+               else "'at' should look like 2026-10-23 11:30, or be left empty" if (at and len(at) < 10) else "")
         if why:
             print(f"  GMP: skipped row [{raw}] -> {why}")
             continue
         if len(at) == 10:
             at += "T17:00"
-        rows.append({"ipo": row["ipo"], "gmp": tidy(g), "at": at[:16], "source": row.get("source") or default_source})
+        rows.append({"ipo": row["ipo"], "gmp": tidy(g), "at": (at[:16] if at else None), "source": row.get("source") or default_source})
+    return rows
+
+
+# ----------------------------------------------------------------- GMP from a public tracker (IPO Ji)
+GMP_UA = "GMPDeskBot/1.0 (+https://muizvasaya1992-dev.github.io/gmp-desk/)"
+IPOJI_URL = "https://www.ipoji.com/ipo-gmp"
+
+
+def parse_ipoji_html(html):
+    """Read the GMP table: one quote per row, taken from the link to /ipo-gmp/<ipo-name> and the row's own timestamp."""
+    import html as H
+    out = []
+    for seg in re.split(r"<tr\b", html)[1:]:
+        seg = seg.split("</tr>")[0]
+        m = re.search(r'href="(?:https?://www\.ipoji\.com)?/ipo-gmp/([a-z0-9\-]+)"[^>]*>(.*?)</a>', seg, re.S | re.I)
+        if not m:
+            continue
+        slug, inner = m.group(1), H.unescape(re.sub(r"<[^>]+>", "", m.group(2))).strip()
+        v = re.search(r"([+\-\u2212\u2013]?)\s*\u20b9\s*([\d,]+(?:\.\d+)?)", inner)
+        if not v:
+            continue
+        val = float(v.group(2).replace(",", ""))
+        if v.group(1) in ("-", "\u2212", "\u2013"):
+            val = -val
+        text = H.unescape(re.sub(r"<[^>]+>", " ", seg))
+        t = re.search(r"(\d{1,2}\s+[A-Za-z]{3}\s+\d{4}),?\s+(\d{1,2}:\d{2}\s*[AP]M)", text)
+        if not t:
+            continue                                   # no reliable time: do not guess
+        try:
+            at = dt.datetime.strptime(t.group(1) + " " + t.group(2).replace(" ", ""), "%d %b %Y %I:%M%p").strftime("%Y-%m-%dT%H:%M")
+        except ValueError:
+            continue
+        out.append({"ipo": re.sub(r"-ipo$", "", slug), "gmp": tidy(val), "at": at, "source": "IPO Ji"})
+    return out
+
+
+def fetch_ipoji():
+    import requests, urllib.robotparser as rp
+    robots = rp.RobotFileParser()
+    robots.set_url("https://www.ipoji.com/robots.txt")
+    robots.read()
+    if not robots.can_fetch(GMP_UA, IPOJI_URL):
+        print("  IPO Ji: its robots.txt does not allow this, so we skip it")
+        return None
+    r = requests.get(IPOJI_URL, headers={"User-Agent": GMP_UA, "Accept": "text/html"}, timeout=25)
+    r.raise_for_status()
+    return r.text
+
+
+def web_gmp_rows(cfg):
+    """GMP readings from IPO Ji (credited as the source). Remembers what it has seen so a failed fetch never loses data."""
+    if not ((cfg.get("gmp_autofill") or {}).get("ipoji")) or SAMPLE:
+        return []
+    path = DATA / "gmp_web.json"
+    store = load_json(path, {"rows": []})
+    html = None
+    if "--from-probe" in ARGS:
+        f = DATA / "probe" / "ipoji_gmp.html"
+        html = f.read_text(encoding="utf-8") if f.exists() else None
+    elif "--offline" not in ARGS and "--no-web-gmp" not in ARGS:
+        try:
+            html = fetch_ipoji()
+        except Exception as e:
+            print("IPO Ji GMP fetch failed (using the last saved readings):", e)
+    if html:
+        quotes = parse_ipoji_html(html)
+        print(f"IPO Ji: {len(quotes)} GMP readings found")
+        if not quotes:
+            (DATA / "probe").mkdir(exist_ok=True)
+            (DATA / "probe" / "ipoji_gmp_last.html").write_text(html, encoding="utf-8")
+            print("  none could be read: saved the page to data/probe/ipoji_gmp_last.html so the reader can be adjusted")
+        seen = {(r["ipo"], r["gmp"], r["at"]) for r in store["rows"]}
+        new = [q for q in quotes if (q["ipo"], q["gmp"], q["at"]) not in seen]
+        if new:
+            store["rows"] = (store["rows"] + new)[-3000:]
+            path.write_text(json.dumps(store, indent=1, ensure_ascii=False), encoding="utf-8")
+    return store["rows"]
+
+
+def stamp_unseen(rows):
+    """Rows without a time (just 'ipo, gmp'): remember when this exact value first appeared, so an old
+    reading never looks fresh. The memory lives in data/gmp_seen.json and only changes when a value changes."""
+    path = DATA / "gmp_seen.json"
+    seen = load_json(path, {})
+    now = dt.datetime.now(IST).strftime("%Y-%m-%dT%H:%M")
+    changed = False
+    for r in rows:
+        if r["at"]:
+            continue
+        k = f'{norm(r["ipo"])}|{r["gmp"]}|{r["source"]}'
+        if k not in seen:
+            seen[k] = now
+            changed = True
+        r["at"] = seen[k]
+    if changed:
+        path.write_text(json.dumps(seen, indent=1, sort_keys=True), encoding="utf-8")
     return rows
 
 
@@ -632,7 +730,8 @@ def load_gmp_rows():
         rows += parse_gmp_csv(read_text_any(DATA / "gmp.csv"))
     if LOCAL_TEST and (DATA / "gmp_local_testing.csv").exists():
         rows += parse_gmp_csv(read_text_any(DATA / "gmp_local_testing.csv"))
-    return rows
+    rows = stamp_unseen(rows)
+    return rows + web_gmp_rows(cfg)
 
 
 def attach_gmp(recs, rows):
@@ -775,6 +874,8 @@ def main():
         if unmatched:
             print("GMP: no matching IPO for:", ", ".join(sorted(unmatched)))
         sources = list(doc.get("sources", []))
+        if any(x.get("source") == "IPO Ji" for x in rows):
+            sources.append({"name": "IPO Ji (GMP)", "url": "https://www.ipoji.com/ipo-gmp"})
         if LOCAL_TEST:
             sources.append({"name": "Third-party GMP readings (local testing only, do not publish)", "url": ""})
         dataset = "local-test" if LOCAL_TEST else "live"
