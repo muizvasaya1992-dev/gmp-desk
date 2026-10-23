@@ -17,7 +17,7 @@ Data sources
 
 Works from the project folder or from a scripts/ subfolder.
 """
-import copy, csv, io, json, re, sys, time, pathlib, datetime as dt
+import copy, csv, difflib, io, json, re, sys, time, pathlib, datetime as dt
 from collections import defaultdict
 
 HERE = pathlib.Path(__file__).resolve().parent
@@ -83,6 +83,11 @@ def fetch_nse(cache, now):
         d = one(f"/api/ipo-detail?symbol={sym}&series={ser}", f"details for {sym}")
         if d:
             got["detail"][sym] = d
+    year = now.year
+    if load_json(DATA / "nse_history.json", {}).get("fetched_at", "")[:10] != today:     # whole-year list: once a day
+        d = one(f"/api/public-past-issues?from_date=01-01-{year}&to_date=31-12-{year}&security_type=all", "full-year list")
+        if d:
+            got["history"] = d
     return got
 
 
@@ -91,6 +96,9 @@ def load_probe():
     files = {"current": "nse_api_ipo-current-issue.json",
              "upcoming": "nse_api_all-upcoming-issues_category_ipo.json"}
     out = {k: json.loads((d / f).read_text(encoding="utf-8")) for k, f in files.items() if (d / f).exists()}
+    h = d / "hist_nse_api_public-past-issues_236.json"
+    if h.exists():
+        out["history"] = json.loads(h.read_text(encoding="utf-8"))
     for key, fname in (("active_category", "v2_api_ipo-active-category_symbol_JPL.json"),
                        ("detail", "v2_api_ipo-detail_symbol_JPL_series_EQ.json")):
         if (d / fname).exists():
@@ -106,6 +114,16 @@ def load_json(path, default):
         if pathlib.Path(path).exists():
             print(f"  ({pathlib.Path(path).name} was unreadable, starting it fresh)")
         return default
+
+
+def rows_of(data):
+    if isinstance(data, list):
+        return data
+    if isinstance(data, dict):
+        for v in data.values():
+            if isinstance(v, list):
+                return v
+    return []
 
 
 def strip_ts(o):
@@ -302,6 +320,19 @@ def fetch_bse(bsec, now):
             out["tracker"] = r.json()
         except Exception as e:
             print(f"  (BSE year statistics skipped: {e})")
+    year = now.year
+    if load_json(DATA / "bse_history.json", {}).get("fetched_at", "")[:10] != now.date().isoformat():   # performance list: once a day
+        h = {}
+        for key, flag in (("mainboard", 1), ("sme", 2)):
+            time.sleep(2)
+            try:
+                r = s.get(BSE + f"MoreCompanyN/w?Fromdt={year}&company=&flag={flag}&type=2", timeout=30)
+                r.raise_for_status()
+                h[key] = rows_of(r.json())
+            except Exception as e:
+                print(f"  (BSE {key} performance list skipped: {e})")
+        if h:
+            out["history"] = h
     return out
 
 
@@ -310,6 +341,13 @@ def load_probe_bse():
     for key, fname in (("issues", "bse_GetPublicIssue_par_w.json"), ("tracker", "bse_IPOTrackerN_w.json")):
         if (d / fname).exists():
             out[key] = json.loads((d / fname).read_text(encoding="utf-8"))
+    hist = {}
+    for f in sorted(d.glob("hist_bse_MoreCompanyN_w_*.json")):       # mainboard rows carry a short name, SME rows do not
+        rows = rows_of(json.loads(f.read_text(encoding="utf-8")))
+        if rows:
+            hist["mainboard" if "Company_Short_Name" in rows[0] else "sme"] = rows
+    if hist:
+        out["history"] = hist
     return out
 
 
@@ -371,6 +409,131 @@ def merge_bse(recs, bsec):
                 r["exchange"] = "BSE SME"
         r["updated_on"] = r.get("updated_on") or e["last_seen"]
     return recs
+
+
+# ----------------------------------------------------------------- full-year list
+BAD_NAME = re.compile(r"issue\s*(postponed|withdrawn|cancel)|withdraw|postponed", re.I)
+
+
+def slim_nse_history(rows):
+    keep = ("company", "symbol", "securityType", "ipoStartDate", "ipoEndDate", "listingDate", "issuePrice", "priceRange")
+    notes = re.compile(r"ncd|bond|debenture|debt", re.I)       # NSE tags some debentures as equity: their page code gives them away
+    return [{k: r.get(k) for k in keep} for r in rows
+            if (r.get("securityType") or "").upper() in ("EQ", "BE", "SME") and not notes.search(r.get("htmSym") or "")]
+
+
+def pct_of(x, base):
+    return round(x / base * 100, 2) if x is not None and base else None
+
+
+def history_rows(nse_hist, bse_hist):
+    """Every issue of the year that has listed: NSE for dates and prices, BSE for how each one performed."""
+    key = lambda n: norm(clean_name(n or ""))
+    bse = []
+    for seg, bucket in (("MAIN", "mainboard"), ("SME", "sme")):
+        for b in bse_hist.get(bucket) or []:
+            bse.append((seg, b))
+    used, rows = set(), []
+
+    def perf(b):
+        price = to_num(b.get("IssuePrice"))
+        return {"listing_close": b.get("ListingDayClose"), "listing_gain_pct": pct_of(to_num(b.get("ListingDayGain")), price),
+                "current": b.get("CurrentPrice"), "gain_pct": pct_of(to_num(b.get("GainLoss")), price),
+                "listing_gain": b.get("ListingDayGain"), "gain": b.get("GainLoss"), "bse_url": b.get("IMAGE")}
+
+    def find_bse(seg, name, listing):
+        k = key(name)
+        for i, (sg, b) in enumerate(bse):
+            if i not in used and sg == seg and key(b.get("CompanyName")) == k:
+                return i
+        if seg == "MAIN" and listing:                       # same listing day and nearly the same name
+            for i, (sg, b) in enumerate(bse):
+                if i in used or sg != seg:
+                    continue
+                bd = (b.get("ListedOn") or "")[:10]
+                if bd and abs((dt.date.fromisoformat(bd) - dt.date.fromisoformat(listing)).days) <= 1 and \
+                        difflib.SequenceMatcher(None, k, key(b.get("CompanyName"))).ratio() >= 0.82:
+                    return i
+        return None
+
+    for r in nse_hist.get("rows") or []:
+        raw_name = r.get("company") or ""
+        if BAD_NAME.search(raw_name):
+            continue                                        # postponed / withdrawn
+        seg = "SME" if (r.get("securityType") or "").upper() == "SME" else "MAIN"
+        listing = nse_date((r.get("listingDate") or "").strip().title())
+        j = find_bse(seg, raw_name, listing)
+        if listing is None and j is None:
+            continue                                        # no listing date and not on BSE: never listed
+        lo, hi = nse_price(r.get("priceRange"))
+        row = {"name": clean_name(raw_name), "segment": seg, "symbol": r.get("symbol"),
+               "open": nse_date((r.get("ipoStartDate") or "").strip().title()), "close": nse_date((r.get("ipoEndDate") or "").strip().title()),
+               "listing": listing, "price": tidy(to_num((r.get("issuePrice") or "").strip())) or hi, "price_low": lo,
+               "exchange": "NSE Emerge" if seg == "SME" else "NSE"}
+        if j is not None:
+            used.add(j)
+            b = bse[j][1]
+            row.update(perf(b))
+            row["exchange"] = "NSE · BSE" if seg == "MAIN" else "BSE SME"
+            row["listing"] = row["listing"] or (b.get("ListedOn") or "")[:10] or None
+        rows.append(row)
+    for i, (seg, b) in enumerate(bse):                      # listed on BSE only
+        if i in used:
+            continue
+        price = to_num(b.get("IssuePrice"))
+        row = {"name": nice_name(b.get("CompanyName") or ""), "segment": seg, "symbol": None, "open": None, "close": None,
+               "listing": (b.get("ListedOn") or "")[:10] or None, "price": tidy(price), "price_low": None,
+               "exchange": "BSE SME" if seg == "SME" else "BSE"}
+        row.update(perf(b))
+        rows.append(row)
+
+    return rows
+
+
+def finish_history(rows, ipos, nse_hist, bse_hist, now):
+    """Add today's open and upcoming issues, give every row an id and a status, newest first."""
+    today = now.date().isoformat()
+    key = lambda n: norm(clean_name(n or ""))
+    index = {}
+    for row in rows:
+        index[(row["segment"], key(row["name"]))] = row
+    for i in ipos:
+        seg = "SME" if i.get("segment") == "SME" else "MAIN"
+        row = index.get((seg, key(i["name"])))
+        if row is None:
+            row = {"name": i["name"], "segment": seg, "symbol": i.get("symbol"), "listing": None, "exchange": i.get("exchange") or ("NSE · BSE" if seg == "MAIN" else "SME")}
+            rows.append(row)
+            index[(seg, key(i["name"]))] = row
+        row.update({"live": True, "id": i["id"], "status": i["status"], "open": i.get("open") or row.get("open"), "close": i.get("close") or row.get("close"),
+                    "listing": i.get("listing") or row.get("listing"), "price": i.get("price") or row.get("price"),
+                    "price_low": i.get("price_low") or row.get("price_low"), "symbol": i.get("symbol") or row.get("symbol")})
+        if i.get("unconfirmed"):
+            row["unconfirmed"] = True
+    taken = {r["id"] for r in rows if r.get("id")}
+    for row in rows:                                        # ids and status
+        if not row.get("id"):
+            base = slug(row["name"]) or "ipo"
+            n, cand = 1, base
+            while cand in taken:
+                n += 1
+                cand = f"{base}-{n}"
+            row["id"] = cand
+            taken.add(cand)
+        if not row.get("status"):
+            row["status"] = "listed" if row.get("listing") and row["listing"] <= today else "closed"
+    rows.sort(key=lambda r: r.get("listing") or r.get("close") or r.get("open") or "", reverse=True)
+    return {"year": now.year, "bse_as_of": bse_hist.get("fetched_at"), "nse_as_of": nse_hist.get("fetched_at"), "rows": rows}
+
+
+def fill_listing_dates(recs, hrows):
+    """NSE/BSE know the listing date of every closed issue: use it instead of a hand-typed one."""
+    key = lambda n: norm(clean_name(n or ""))
+    idx = {(r["segment"], key(r["name"])): r for r in hrows if r.get("listing")}
+    for r in recs:
+        seg = "SME" if r.get("segment") == "SME" else "MAIN"
+        h = idx.get((seg, key(r["name"])))
+        if h:
+            r["listing"] = h["listing"]
 
 
 # ----------------------------------------------------------------- merge
@@ -561,6 +724,7 @@ def main():
         new_status = dict(status)
         cache = load_json(cache_path, {})
         before = copy.deepcopy(cache)
+        raw = rawb = None
         if "--offline" not in ARGS:
             try:
                 raw = load_probe() if "--from-probe" in ARGS else fetch_nse(cache, now)
@@ -573,6 +737,13 @@ def main():
             cache = before
         else:
             cache_path.write_text(json.dumps(cache, indent=1, ensure_ascii=False), encoding="utf-8")
+        nh_path, bh_path = DATA / "nse_history.json", DATA / "bse_history.json"
+        nse_hist, bse_hist = load_json(nh_path, {}), load_json(bh_path, {})
+        if raw and raw.get("history") is not None:
+            new = {"fetched_at": stamp, "year": now.year, "rows": slim_nse_history(rows_of(raw["history"]))}
+            if new["rows"] and strip_ts(new) != strip_ts(nse_hist):
+                nse_hist = new
+                nh_path.write_text(json.dumps(nse_hist, indent=1, ensure_ascii=False), encoding="utf-8")
         recs = merge(doc["ipos"], cache)
         bsec = load_json(bse_path, {"ipos": {}})
         bbefore = copy.deepcopy(bsec)
@@ -584,6 +755,11 @@ def main():
                 print(f"BSE: {len(bsec['ipos'])} IPOs in cache")
             except Exception as e:                          # BSE sometimes refuses: keep going with what we have
                 print("BSE fetch FAILED, using cached data:", e)
+        if rawb and rawb.get("history"):
+            new = {"fetched_at": stamp, "year": now.year, **{k: v for k, v in rawb["history"].items() if v}}
+            if (new.get("mainboard") or new.get("sme")) and strip_ts(new) != strip_ts(bse_hist):
+                bse_hist = new
+                bh_path.write_text(json.dumps(bse_hist, indent=1, ensure_ascii=False), encoding="utf-8")
         if strip_ts(bsec) == strip_ts(bbefore):
             bsec = bbefore
         else:
@@ -611,12 +787,27 @@ def main():
     for r in recs:                                     # where does an SME issue list?
         if r.get("segment") == "SME" and not r.get("exchange"):
             r["exchange"] = "NSE Emerge" if (r.get("series") or "").upper() in ("SM", "ST") else "SME"
+    hrows = []
+    if not SAMPLE:
+        hrows = history_rows(nse_hist, bse_hist)
+        fill_listing_dates(recs, hrows)
     ipos = [enrich(r, now.date()) for r in recs]
     if not SAMPLE:                                          # upcoming/open but on neither exchange's official list
         for i in ipos:
             i["unconfirmed"] = bool(feeds_ok and not i.get("official") and i["status"] in ("upcoming", "open", "closing_today"))
     payload = {"generated_at": stamp, "dataset": dataset, "sources": sources,
                "market_stats": (bsec.get("tracker") if not SAMPLE else None), "feeds": None, "ipos": ipos}
+
+    if not SAMPLE and not LOCAL_TEST:                       # the whole-year list the "All 2026" tab reads
+        hist = finish_history(hrows, ipos, nse_hist, bse_hist, now)
+        old_h = load_json(ROOT / "history.json", None)
+        hcore = lambda p: {k: v for k, v in (p or {}).items() if k != "generated_at"}
+        if old_h is None or hcore(old_h) != hcore(hist):
+            hist["generated_at"] = stamp
+            (ROOT / "history.json").write_text(json.dumps(hist, indent=1, ensure_ascii=False), encoding="utf-8")
+            print(f"Wrote history.json: {len(hist['rows'])} IPOs this year")
+        else:
+            print(f"history.json unchanged ({len(hist['rows'])} IPOs)")
 
     # ---- quiet runs write nothing, so the repository only changes when the data does
     core = lambda p: {k: v for k, v in p.items() if k not in ("generated_at", "feeds")}

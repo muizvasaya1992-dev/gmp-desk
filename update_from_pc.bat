@@ -15,7 +15,7 @@ git diff --quiet -- build_data.py index.html .github update_from_pc.bat
 if errorlevel 1 echo NOTE: you have unpublished edits to code files. They are NOT published by this script. Commit them yourself when ready.
 
 echo [3/4] Looking for changes...
-git add -A -- ipos.json data
+git add -A -- ipos.json history.json data
 git diff --staged --quiet
 if not errorlevel 1 (
   echo Nothing changed. Nothing to publish.
