@@ -10,15 +10,15 @@
   "series": "EQ",
   "nse_status": "Active",
   "shares_offered": 12083331.0,
-  "last_seen": "2026-10-23T14:12+05:30",
+  "last_seen": "2026-10-23T14:16+05:30",
   "segment": "MAIN",
   "sub": {
    "qib": 0.41,
-   "nii": 0.46,
-   "bnii": 0.43,
+   "nii": 0.47,
+   "bnii": 0.44,
    "snii": 0.52,
    "retail": 1.74,
-   "total": 0.66
+   "total": 0.67
   },
   "sub_hist": [
    {
@@ -87,10 +87,19 @@
     "snii": 0.52,
     "retail": 1.74,
     "total": 0.66
+   },
+   {
+    "at": "2026-10-23T14:16+05:30",
+    "qib": 0.41,
+    "nii": 0.47,
+    "bnii": 0.44,
+    "snii": 0.52,
+    "retail": 1.74,
+    "total": 0.67
    }
   ],
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-10-23T14:09",
+  "sub_asof": "2026-10-23T14:12",
   "lot": 21,
   "registrar": "MUFG Intime India Private Limited",
   "lead_managers": [
@@ -116,17 +125,17 @@
   "series": "EQ",
   "nse_status": "Active",
   "shares_offered": 197525934.0,
-  "last_seen": "2026-10-23T14:12+05:30",
+  "last_seen": "2026-10-23T14:16+05:30",
   "segment": "MAIN",
   "sub": {
-   "qib": 26.52,
-   "nii": 12.2,
-   "bnii": 14.11,
-   "snii": 8.38,
-   "retail": 2.3,
-   "employee": 2.67,
-   "shareholders": 6.63,
-   "total": 10.64
+   "qib": 26.57,
+   "nii": 12.28,
+   "bnii": 14.19,
+   "snii": 8.46,
+   "retail": 2.32,
+   "employee": 2.68,
+   "shareholders": 6.67,
+   "total": 10.67
   },
   "sub_hist": [
    {
@@ -220,10 +229,21 @@
     "employee": 2.67,
     "shareholders": 6.63,
     "total": 10.64
+   },
+   {
+    "at": "2026-10-23T14:16+05:30",
+    "qib": 26.57,
+    "nii": 12.28,
+    "bnii": 14.19,
+    "snii": 8.46,
+    "retail": 2.32,
+    "employee": 2.68,
+    "shareholders": 6.67,
+    "total": 10.67
    }
   ],
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-10-23T14:09",
+  "sub_asof": "2026-10-23T14:15",
   "lot": 12,
   "registrar": "Kfin Technologies Limited",
   "lead_managers": [
@@ -270,7 +290,7 @@
   "series": "EQ",
   "nse_status": "Forthcoming",
   "shares_offered": 17000000.0,
-  "last_seen": "2026-10-23T14:12+05:30",
+  "last_seen": "2026-10-23T14:16+05:30",
   "segment": "MAIN",
   "lot": 100,
   "registrar": "KFin Technologies Limited",
@@ -292,7 +312,7 @@
   "series": "EQ",
   "nse_status": "Forthcoming",
   "shares_offered": 20475082.0,
-  "last_seen": "2026-10-23T14:12+05:30",
+  "last_seen": "2026-10-23T14:16+05:30",
   "segment": "MAIN",
   "lot": 45,
   "registrar": "MUFG Intime India Private Limited",
@@ -314,7 +334,7 @@
   "series": "EQ",
   "nse_status": "Forthcoming",
   "shares_offered": 7570977.0,
-  "last_seen": "2026-10-23T14:12+05:30",
+  "last_seen": "2026-10-23T14:16+05:30",
   "segment": "MAIN",
   "lot": 9,
   "registrar": "MUFG Intime India Private Limited",
