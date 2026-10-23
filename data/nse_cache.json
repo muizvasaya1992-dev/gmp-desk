@@ -1,0 +1,257 @@
+{
+ "PARASHLTH": {
+  "symbol": "PARASHLTH",
+  "first_seen": "2026-10-23T11:24+05:30",
+  "name": "Paras Healthcare",
+  "open": "2026-10-21",
+  "close": "2026-10-23",
+  "price": 693,
+  "price_low": 660,
+  "series": "EQ",
+  "nse_status": "Active",
+  "shares_offered": 12083331.0,
+  "last_seen": "2026-10-23T13:40+05:30",
+  "segment": "MAIN",
+  "sub": {
+   "qib": 0.38,
+   "nii": 0.42,
+   "bnii": 0.38,
+   "snii": 0.51,
+   "retail": 1.71,
+   "total": 0.64
+  },
+  "sub_hist": [
+   {
+    "at": "2026-10-23T12:35+05:30",
+    "total": 0.39
+   },
+   {
+    "at": "2026-10-23T12:46+05:30",
+    "qib": 0.26,
+    "nii": 0.39,
+    "bnii": 0.35,
+    "snii": 0.47,
+    "retail": 1.66,
+    "total": 0.55
+   },
+   {
+    "at": "2026-10-23T13:03+05:30",
+    "qib": 0.38,
+    "nii": 0.4,
+    "bnii": 0.36,
+    "snii": 0.49,
+    "retail": 1.67,
+    "total": 0.62
+   },
+   {
+    "at": "2026-10-23T13:27+05:30",
+    "qib": 0.38,
+    "nii": 0.42,
+    "bnii": 0.38,
+    "snii": 0.5,
+    "retail": 1.7,
+    "total": 0.63
+   },
+   {
+    "at": "2026-10-23T13:40+05:30",
+    "qib": 0.38,
+    "nii": 0.42,
+    "bnii": 0.38,
+    "snii": 0.51,
+    "retail": 1.71,
+    "total": 0.64
+   }
+  ],
+  "sub_basis": "NSE+BSE",
+  "sub_asof": "2026-10-23T13:36",
+  "lot": 21,
+  "registrar": "MUFG Intime India Private Limited",
+  "lead_managers": [
+   "JM Financial Limited, BofA Securities India Limited, Nuvama Wealth Management Limited"
+  ],
+  "retail_max": 200000,
+  "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_PARASHLTH.zip",
+  "reservation": {
+   "qib": 54.55,
+   "nii": 27.27,
+   "retail": 18.18
+  },
+  "details_at": "2026-10-23T12:46+05:30"
+ },
+ "JPL": {
+  "symbol": "JPL",
+  "first_seen": "2026-10-23T11:24+05:30",
+  "name": "Jio Platforms",
+  "open": "2026-10-21",
+  "close": "2026-10-23",
+  "price": 1119,
+  "price_low": 1065,
+  "series": "EQ",
+  "nse_status": "Active",
+  "shares_offered": 197525934.0,
+  "last_seen": "2026-10-23T13:40+05:30",
+  "segment": "MAIN",
+  "sub": {
+   "qib": 20.76,
+   "nii": 11.69,
+   "bnii": 13.55,
+   "snii": 7.99,
+   "retail": 2.24,
+   "employee": 2.63,
+   "shareholders": 6.42,
+   "total": 9.06
+  },
+  "sub_hist": [
+   {
+    "at": "2026-10-23T12:35+05:30",
+    "total": 4.22
+   },
+   {
+    "at": "2026-10-23T12:46+05:30",
+    "qib": 16.2,
+    "nii": 10.24,
+    "bnii": 11.74,
+    "snii": 7.22,
+    "retail": 2.11,
+    "employee": 2.55,
+    "shareholders": 5.99,
+    "total": 7.55
+   },
+   {
+    "at": "2026-10-23T13:03+05:30",
+    "qib": 16.42,
+    "nii": 10.57,
+    "bnii": 12.12,
+    "snii": 7.48,
+    "retail": 2.15,
+    "employee": 2.58,
+    "shareholders": 6.14,
+    "total": 7.71
+   },
+   {
+    "at": "2026-10-23T13:27+05:30",
+    "qib": 17.73,
+    "nii": 11.51,
+    "bnii": 13.35,
+    "snii": 7.83,
+    "retail": 2.21,
+    "employee": 2.61,
+    "shareholders": 6.33,
+    "total": 8.25
+   },
+   {
+    "at": "2026-10-23T13:40+05:30",
+    "qib": 20.76,
+    "nii": 11.69,
+    "bnii": 13.55,
+    "snii": 7.99,
+    "retail": 2.24,
+    "employee": 2.63,
+    "shareholders": 6.42,
+    "total": 9.06
+   }
+  ],
+  "sub_basis": "NSE+BSE",
+  "sub_asof": "2026-10-23T13:36",
+  "lot": 12,
+  "registrar": "Kfin Technologies Limited",
+  "lead_managers": [
+   "Kotak Mahindra Capital Company Limited",
+   "Morgan Stanley India Company Private Limited",
+   "BofA Securities India Limited",
+   "Axis Capital Limited",
+   "BNP Paribas",
+   "Citigroup Global Markets India Private Limited",
+   "CLSA India Private Limited",
+   "DAM Capital Advisors Limited",
+   "Goldman Sachs (India) Private Limited",
+   "HDFC Bank Limited",
+   "HSBC Securities and Capital Markets (India) Private Limited",
+   "ICICI Securities Limited",
+   "IIFL Capital Services Limited",
+   "Jeffries India Private Limited",
+   "JM Financial Limited",
+   "J.P. Morgan India Private Limited",
+   "SBI Capital Markets Limited",
+   "UBS Securities India Private Limited",
+   "360 ONE WAM Limited"
+  ],
+  "retail_max": 200000,
+  "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_JPL.zip",
+  "anchor_shares": 72474066,
+  "reservation": {
+   "qib": 44.99,
+   "nii": 13.5,
+   "retail": 31.5,
+   "employee": 1.74,
+   "shareholders": 8.27
+  },
+  "details_at": "2026-10-23T12:46+05:30"
+ },
+ "BLSPOLY": {
+  "symbol": "BLSPOLY",
+  "first_seen": "2026-10-23T11:24+05:30",
+  "name": "BLS Polymers",
+  "open": "2026-10-27",
+  "close": "2026-10-29",
+  "price": 150,
+  "price_low": 142,
+  "series": "EQ",
+  "nse_status": "Forthcoming",
+  "shares_offered": 17000000.0,
+  "last_seen": "2026-10-23T13:40+05:30",
+  "segment": "MAIN",
+  "lot": 100,
+  "registrar": "KFin Technologies Limited",
+  "lead_managers": [
+   "Unistone Capital Private Limited"
+  ],
+  "retail_max": 200000,
+  "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_BLSPOLY.zip",
+  "details_at": "2026-10-23T12:46+05:30"
+ },
+ "SFCTECH": {
+  "symbol": "SFCTECH",
+  "first_seen": "2026-10-23T11:24+05:30",
+  "name": "SFC Environmental Technologies",
+  "open": "2026-10-27",
+  "close": "2026-10-29",
+  "price": 330,
+  "price_low": 313,
+  "series": "EQ",
+  "nse_status": "Forthcoming",
+  "shares_offered": 20475082.0,
+  "last_seen": "2026-10-23T13:40+05:30",
+  "segment": "MAIN",
+  "lot": 45,
+  "registrar": "MUFG Intime India Private Limited",
+  "lead_managers": [
+   "IIFL Capital Services Limited, JM Financial Limited and Nuvama Wealth Management Limited"
+  ],
+  "retail_max": 200000,
+  "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_SFCTECH.zip",
+  "details_at": "2026-10-23T12:46+05:30"
+ },
+ "EDELALTS": {
+  "symbol": "EDELALTS",
+  "first_seen": "2026-10-23T11:24+05:30",
+  "name": "EAAA India Alternatives",
+  "open": "2026-10-26",
+  "close": "2026-10-28",
+  "price": 1665,
+  "price_low": 1585,
+  "series": "EQ",
+  "nse_status": "Forthcoming",
+  "shares_offered": 7570977.0,
+  "last_seen": "2026-10-23T13:40+05:30",
+  "segment": "MAIN",
+  "lot": 9,
+  "registrar": "MUFG Intime India Private Limited",
+  "lead_managers": [
+   "Axis Capital Limited, Jefferies India Private Limited, Motilal Oswal Investment Advisors Limited, Nuvama Wealth Management Limited"
+  ],
+  "retail_max": 200000,
+  "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_EDELALTS.zip",
+  "details_at": "2026-10-23T12:46+05:30"
+ }
+}

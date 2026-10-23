@@ -1,0 +1,315 @@
+{
+  "generated_at": "2026-10-22T19:02+05:30",
+  "dataset": "sample",
+  "sources": [],
+  "ipos": [
+    {
+      "id": "aarav-polymers",
+      "name": "Aarav Polymers",
+      "segment": "MAIN",
+      "price": 150,
+      "lot": 100,
+      "size_cr": 255.0,
+      "open": "2026-10-27",
+      "close": "2026-10-29",
+      "boa": "2026-10-30",
+      "listing": "2026-11-03",
+      "anchor": true,
+      "rating": 4,
+      "sub": null,
+      "gmp_history": [
+        {
+          "date": "2026-10-20",
+          "gmp": 18
+        },
+        {
+          "date": "2026-10-21",
+          "gmp": 24
+        },
+        {
+          "date": "2026-10-22",
+          "gmp": 30
+        }
+      ],
+      "updated_on": "2026-10-22T17:37",
+      "gmp": 30,
+      "gmp_low": 18,
+      "gmp_high": 30,
+      "gmp_pct": 20.0,
+      "status": "upcoming"
+    },
+    {
+      "id": "nimbus-environmental",
+      "name": "Nimbus Environmental Technologies",
+      "segment": "MAIN",
+      "price": 330,
+      "lot": 45,
+      "size_cr": 667.53,
+      "open": "2026-10-27",
+      "close": "2026-10-29",
+      "boa": "2026-10-30",
+      "listing": "2026-11-03",
+      "anchor": true,
+      "rating": 2,
+      "sub": null,
+      "gmp_history": [
+        {
+          "date": "2026-10-20",
+          "gmp": 31
+        },
+        {
+          "date": "2026-10-21",
+          "gmp": 26
+        },
+        {
+          "date": "2026-10-22",
+          "gmp": 21
+        }
+      ],
+      "updated_on": "2026-10-22T17:37",
+      "gmp": 21,
+      "gmp_low": 21,
+      "gmp_high": 31,
+      "gmp_pct": 6.36,
+      "status": "upcoming"
+    },
+    {
+      "id": "veda-healthcare",
+      "name": "Veda Healthcare",
+      "segment": "MAIN",
+      "price": 693,
+      "lot": 21,
+      "size_cr": 1450.0,
+      "open": "2026-10-21",
+      "close": "2026-10-23",
+      "boa": "2026-10-26",
+      "listing": "2026-10-28",
+      "anchor": true,
+      "rating": 1,
+      "sub": {
+        "total": 0.36,
+        "qib": 0.02,
+        "nii": 0.41,
+        "retail": 0.88
+      },
+      "gmp_history": [
+        {
+          "date": "2026-10-19",
+          "gmp": 55
+        },
+        {
+          "date": "2026-10-20",
+          "gmp": 25
+        },
+        {
+          "date": "2026-10-21",
+          "gmp": 25
+        },
+        {
+          "date": "2026-10-22",
+          "gmp": 10
+        }
+      ],
+      "updated_on": "2026-10-22T17:37",
+      "gmp": 10,
+      "gmp_low": 10,
+      "gmp_high": 55,
+      "gmp_pct": 1.44,
+      "status": "open"
+    },
+    {
+      "id": "orbit-platforms",
+      "name": "Orbit Platforms",
+      "segment": "MAIN",
+      "price": 1119,
+      "lot": 12,
+      "size_cr": 30213.0,
+      "open": "2026-10-21",
+      "close": "2026-10-23",
+      "boa": "2026-10-26",
+      "listing": "2026-10-28",
+      "anchor": true,
+      "rating": 4,
+      "sub": {
+        "total": 5.38,
+        "qib": 9.1,
+        "nii": 4.2,
+        "retail": 2.6
+      },
+      "gmp_history": [
+        {
+          "date": "2026-10-19",
+          "gmp": 148
+        },
+        {
+          "date": "2026-10-20",
+          "gmp": 205
+        },
+        {
+          "date": "2026-10-21",
+          "gmp": 246
+        },
+        {
+          "date": "2026-10-22",
+          "gmp": 240
+        }
+      ],
+      "updated_on": "2026-10-22T17:37",
+      "gmp": 240,
+      "gmp_low": 148,
+      "gmp_high": 246,
+      "gmp_pct": 21.45,
+      "status": "open"
+    },
+    {
+      "id": "zenith-logistics",
+      "name": "Zenith Logistics",
+      "segment": "MAIN",
+      "price": 540,
+      "lot": 27,
+      "size_cr": 920.0,
+      "open": "2026-10-20",
+      "close": "2026-10-22",
+      "boa": "2026-10-23",
+      "listing": "2026-10-27",
+      "anchor": true,
+      "rating": 3,
+      "sub": {
+        "total": 12.7,
+        "qib": 21.3,
+        "nii": 9.8,
+        "retail": 4.9
+      },
+      "gmp_history": [
+        {
+          "date": "2026-10-18",
+          "gmp": 30
+        },
+        {
+          "date": "2026-10-20",
+          "gmp": 44
+        },
+        {
+          "date": "2026-10-21",
+          "gmp": 52
+        },
+        {
+          "date": "2026-10-22",
+          "gmp": 55
+        }
+      ],
+      "updated_on": "2026-10-22T17:37",
+      "gmp": 55,
+      "gmp_low": 30,
+      "gmp_high": 55,
+      "gmp_pct": 10.19,
+      "status": "closing_today"
+    },
+    {
+      "id": "kaveri-foods",
+      "name": "Kaveri Foods",
+      "segment": "MAIN",
+      "price": 210,
+      "lot": 70,
+      "size_cr": 480.0,
+      "open": "2026-10-15",
+      "close": "2026-10-19",
+      "boa": "2026-10-22",
+      "listing": "2026-10-26",
+      "anchor": true,
+      "rating": 3,
+      "sub": {
+        "total": 45.2,
+        "qib": 88.0,
+        "nii": 52.4,
+        "retail": 11.3
+      },
+      "gmp_history": [
+        {
+          "date": "2026-10-14",
+          "gmp": 20
+        },
+        {
+          "date": "2026-10-17",
+          "gmp": 34
+        },
+        {
+          "date": "2026-10-19",
+          "gmp": 41
+        },
+        {
+          "date": "2026-10-22",
+          "gmp": 38
+        }
+      ],
+      "updated_on": "2026-10-22T17:37",
+      "gmp": 38,
+      "gmp_low": 20,
+      "gmp_high": 41,
+      "gmp_pct": 18.1,
+      "status": "closed"
+    },
+    {
+      "id": "sunrise-pack",
+      "name": "Sunrise Pack",
+      "segment": "SME",
+      "price": 95,
+      "lot": 1200,
+      "size_cr": 38.0,
+      "open": "2026-10-14",
+      "close": "2026-10-16",
+      "boa": "2026-10-19",
+      "listing": "2026-10-21",
+      "anchor": false,
+      "rating": 2,
+      "sub": {
+        "total": 120.4,
+        "qib": null,
+        "nii": 160.2,
+        "retail": 82.0
+      },
+      "listing_price": 142.0,
+      "gmp_history": [
+        {
+          "date": "2026-10-14",
+          "gmp": 30
+        },
+        {
+          "date": "2026-10-16",
+          "gmp": 48
+        },
+        {
+          "date": "2026-10-20",
+          "gmp": 52
+        }
+      ],
+      "updated_on": "2026-10-21T10:05",
+      "gmp": 52,
+      "gmp_low": 30,
+      "gmp_high": 52,
+      "gmp_pct": 54.74,
+      "status": "listed",
+      "listing_gain_pct": 49.47
+    },
+    {
+      "id": "tidal-marine",
+      "name": "Tidal Marine",
+      "segment": "SME",
+      "price": 72,
+      "lot": 1600,
+      "size_cr": 24.0,
+      "open": "2026-10-28",
+      "close": "2026-10-30",
+      "boa": "2026-11-02",
+      "listing": "2026-11-04",
+      "anchor": false,
+      "rating": 0,
+      "sub": null,
+      "gmp_history": [],
+      "updated_on": "2026-10-22T17:37",
+      "gmp": null,
+      "gmp_pct": null,
+      "status": "upcoming"
+    }
+  ]
+}
