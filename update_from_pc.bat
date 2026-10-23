@@ -1,31 +1,42 @@
 @echo off
 rem GMP Desk: one-click publish. Double-click this file.
-rem It refreshes the data, then puts everything on the live website.
+rem It refreshes the data, syncs with GitHub, rebuilds once more on the synced files, then publishes.
 cd /d "%~dp0"
 
-echo [1/4] Refreshing the data...
+echo [1/5] Refreshing the data...
 python build_data.py
 if errorlevel 1 goto fail
 
 echo.
-echo [2/4] Collecting your changes...
+echo [2/5] Collecting your changes...
 git add -A
 git status --short
 git diff --cached --quiet
-if not errorlevel 1 (
-  echo Nothing new to publish.
-  goto end
+if errorlevel 1 (
+  git commit -m "Site update %date% %time%"
+  if errorlevel 1 goto fail
+) else (
+  echo No new changes on this PC.
 )
-git commit -m "Site update %date% %time%"
-if errorlevel 1 goto fail
 
 echo.
-echo [3/4] Syncing with GitHub...
+echo [3/5] Syncing with GitHub...
 git pull --rebase --autostash -X theirs origin main
 if errorlevel 1 goto fail
 
 echo.
-echo [4/4] Publishing...
+echo [4/5] Rebuilding on the synced files, so nothing gets mixed up...
+python build_data.py
+if errorlevel 1 goto fail
+git add -A
+git diff --cached --quiet
+if errorlevel 1 (
+  git commit -m "Rebuild after sync %date% %time%"
+  if errorlevel 1 goto fail
+)
+
+echo.
+echo [5/5] Publishing...
 git push
 if errorlevel 1 goto fail
 

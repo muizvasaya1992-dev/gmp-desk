@@ -2,9 +2,10 @@ name: Update IPO data
 on:
   schedule:
     - cron: "*/20 3-12 * * 1-5"      # every 20 min, about 08:30-18:30 IST, Mon-Fri (GitHub cron is UTC)
+    - cron: "23 * * * *"             # plus once an hour, every day and night, so GMP keeps moving on weekends and evenings
   workflow_dispatch: {}              # "Run workflow" button
   push:
-    paths: ["data/ipos_manual.json", "data/gmp.csv", "data/config.json"]
+    paths: ["data/ipos_manual.json", "data/gmp.csv", "data/config.json", "build_data.py"]   # new code gets used straight away
 permissions:
   contents: write
 concurrency:
@@ -13,6 +14,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
         with:
