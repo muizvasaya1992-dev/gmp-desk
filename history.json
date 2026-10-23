@@ -104,6 +104,20 @@
    "price_low": 88
   },
   {
+   "name": "M. K. Sons Fine Jewels",
+   "segment": "MAIN",
+   "symbol": "MKSONS",
+   "listing": null,
+   "exchange": "NSE · BSE",
+   "live": true,
+   "id": "mksons",
+   "status": "upcoming",
+   "open": "2026-10-28",
+   "close": "2026-10-30",
+   "price": 162,
+   "price_low": 153
+  },
+  {
    "name": "Jio Platforms",
    "segment": "MAIN",
    "symbol": "JPL",
@@ -5413,5 +5427,5 @@
    "status": "listed"
   }
  ],
- "generated_at": "2026-10-23T15:10+05:30"
+ "generated_at": "2026-10-23T17:34+05:30"
 }

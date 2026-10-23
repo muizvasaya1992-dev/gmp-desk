@@ -10,15 +10,15 @@
   "series": "EQ",
   "nse_status": "Active",
   "shares_offered": 12083331.0,
-  "last_seen": "2026-10-23T15:43+05:30",
+  "last_seen": "2026-10-23T18:43+05:30",
   "segment": "MAIN",
   "sub": {
-   "qib": 2.21,
-   "nii": 0.62,
-   "bnii": 0.58,
-   "snii": 0.7,
-   "retail": 1.86,
-   "total": 1.71
+   "qib": 3.09,
+   "nii": 0.66,
+   "bnii": 0.59,
+   "snii": 0.8,
+   "retail": 2.0,
+   "total": 2.23
   },
   "sub_hist": [
    {
@@ -114,10 +114,19 @@
     "snii": 0.7,
     "retail": 1.86,
     "total": 1.71
+   },
+   {
+    "at": "2026-10-23T17:34+05:30",
+    "qib": 3.09,
+    "nii": 0.66,
+    "bnii": 0.59,
+    "snii": 0.8,
+    "retail": 2.0,
+    "total": 2.23
    }
   ],
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-10-23T15:39",
+  "sub_asof": "2026-10-23T18:39",
   "lot": 21,
   "registrar": "MUFG Intime India Private Limited",
   "lead_managers": [
@@ -143,17 +152,17 @@
   "series": "EQ",
   "nse_status": "Active",
   "shares_offered": 197525934.0,
-  "last_seen": "2026-10-23T15:43+05:30",
+  "last_seen": "2026-10-23T18:43+05:30",
   "segment": "MAIN",
   "sub": {
-   "qib": 37.72,
-   "nii": 13.78,
-   "bnii": 15.85,
-   "snii": 9.65,
-   "retail": 2.53,
-   "employee": 2.8,
-   "shareholders": 7.26,
-   "total": 13.88
+   "qib": 68.13,
+   "nii": 14.0,
+   "bnii": 15.89,
+   "snii": 10.21,
+   "retail": 2.71,
+   "employee": 2.92,
+   "shareholders": 7.59,
+   "total": 21.58
   },
   "sub_hist": [
    {
@@ -280,10 +289,43 @@
     "employee": 2.8,
     "shareholders": 7.26,
     "total": 13.88
+   },
+   {
+    "at": "2026-10-23T17:34+05:30",
+    "qib": 60.59,
+    "nii": 13.9,
+    "bnii": 15.8,
+    "snii": 10.11,
+    "retail": 2.67,
+    "employee": 2.88,
+    "shareholders": 7.53,
+    "total": 19.67
+   },
+   {
+    "at": "2026-10-23T18:30+05:30",
+    "qib": 65.4,
+    "nii": 13.99,
+    "bnii": 15.89,
+    "snii": 10.19,
+    "retail": 2.7,
+    "employee": 2.91,
+    "shareholders": 7.58,
+    "total": 20.9
+   },
+   {
+    "at": "2026-10-23T18:43+05:30",
+    "qib": 68.13,
+    "nii": 14.0,
+    "bnii": 15.89,
+    "snii": 10.21,
+    "retail": 2.71,
+    "employee": 2.92,
+    "shareholders": 7.59,
+    "total": 21.58
    }
   ],
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-10-23T15:39",
+  "sub_asof": "2026-10-23T18:39",
   "lot": 12,
   "registrar": "Kfin Technologies Limited",
   "lead_managers": [
@@ -330,7 +372,7 @@
   "series": "EQ",
   "nse_status": "Forthcoming",
   "shares_offered": 17000000.0,
-  "last_seen": "2026-10-23T15:43+05:30",
+  "last_seen": "2026-10-23T18:43+05:30",
   "segment": "MAIN",
   "lot": 100,
   "registrar": "KFin Technologies Limited",
@@ -352,7 +394,7 @@
   "series": "EQ",
   "nse_status": "Forthcoming",
   "shares_offered": 20475082.0,
-  "last_seen": "2026-10-23T15:43+05:30",
+  "last_seen": "2026-10-23T18:43+05:30",
   "segment": "MAIN",
   "lot": 45,
   "registrar": "MUFG Intime India Private Limited",
@@ -374,7 +416,7 @@
   "series": "EQ",
   "nse_status": "Forthcoming",
   "shares_offered": 7570977.0,
-  "last_seen": "2026-10-23T15:43+05:30",
+  "last_seen": "2026-10-23T18:43+05:30",
   "segment": "MAIN",
   "lot": 9,
   "registrar": "MUFG Intime India Private Limited",
@@ -384,5 +426,28 @@
   "retail_max": 200000,
   "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_EDELALTS.zip",
   "details_at": "2026-10-23T12:46+05:30"
+ },
+ "MKSONS": {
+  "symbol": "MKSONS",
+  "first_seen": "2026-10-23T17:34+05:30",
+  "name": "M. K. Sons Fine Jewels",
+  "open": "2026-10-28",
+  "close": "2026-10-30",
+  "price": 162,
+  "price_low": 153,
+  "series": "EQ",
+  "nse_status": "Forthcoming",
+  "shares_offered": 17000000.0,
+  "last_seen": "2026-10-23T18:43+05:30",
+  "segment": "MAIN",
+  "lot": 91,
+  "registrar": "Bigshare Services Private Limited",
+  "lead_managers": [
+   "Aryaman Financial Services Limited"
+  ],
+  "retail_max": 200000,
+  "cutoff_time": "5:00 PM",
+  "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_MKSONS.zip",
+  "details_at": "2026-10-23T17:34+05:30"
  }
 }
