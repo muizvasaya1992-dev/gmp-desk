@@ -752,7 +752,7 @@ main{margin-top:-26px}
       <p>Open, upcoming and listed IPOs in India, from official NSE and BSE data.</p>
       <div class="sf-live"><span class="badge" id="badge">…</span><span id="asof" title="The time the data last changed. The site is checked more often than this, but only saves when something is new."></span></div>
     </div>
-    <div><h4>Explore</h4><a href="#home">Home</a><a href="#mainboard">Mainboard IPOs</a><a href="#sme">SME IPOs</a><a href="#year">All 2026 IPOs</a><a href="#calendar">IPO calendar</a><a href="#contact">Contact us</a></div>
+    <div><h4>Explore</h4><a href="#home">Home</a><a href="#mainboard">Mainboard IPOs</a><a href="#sme">SME IPOs</a><a href="#year">All 2026 IPOs</a><a href="#calendar">IPO calendar</a><a href="ipo/">All IPO pages</a><a href="#contact">Contact us</a></div>
     <div><h4>Good to know</h4><p>GMP (grey market premium) is unofficial, comes from informal markets and is not regulated by SEBI or the exchanges. It changes quickly and often differs from the actual listing price.</p></div>
   </div>
   <div class="wrap sf-bottom">IPO Shop is an information website. It does not sell, apply for or recommend IPOs, and nothing here is investment advice. Read the offer document (RHP) and speak to a SEBI-registered advisor before investing.</div>
@@ -1406,7 +1406,7 @@ function openDrawer(id, quiet){
   const perLot = (i.gmp!=null && i.lot!=null) ? `<div><dt>Est. gain per lot at GMP</dt><dd class="${i.gmp>=0?"pos2":"neg2"}">${rs(i.gmp*i.lot)}</dd></div>` : "";
   $("db").innerHTML = `
     ${i.unconfirmed?`<p class="verdict" style="margin:0 0 14px"><b>Not on an official list yet.</b> NSE and BSE don't list this issue, so its dates and price come from other sources and may change.</p>`:""}
-    <div class="acts"><button class="btn" data-act="watch">${watchLabel(i.id)}</button><button class="btn" data-act="copy">Copy link</button><button class="btn" data-act="ics">Add dates to calendar</button>${i.rhp_url?`<a class="btn" href="${esc(i.rhp_url)}" target="_blank" rel="noopener">Offer document (RHP) ↗</a>`:""}</div>
+    <div class="acts"><a class="btn" href="ipo/${esc(i.id)}/">Full page ↗</a><button class="btn" data-act="watch">${watchLabel(i.id)}</button><button class="btn" data-act="copy">Copy link</button><button class="btn" data-act="ics">Add dates to calendar</button>${i.rhp_url?`<a class="btn" href="${esc(i.rhp_url)}" target="_blank" rel="noopener">Offer document (RHP) ↗</a>`:""}</div>
     ${glance(i)}${chanceBlock(i)}${howBlock(i)}
     <h3>Key facts</h3>
     <dl class="facts">

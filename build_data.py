@@ -909,6 +909,11 @@ def main():
             print(f"Wrote history.json: {len(hist['rows'])} IPOs this year")
         else:
             print(f"history.json unchanged ({len(hist['rows'])} IPOs)")
+        try:                                                # one crawlable page per IPO, plus the hub and the sitemap
+            import pages
+            pages.write_all(hist["rows"], ipos, ROOT)
+        except Exception as e:                              # never let the pages stop the data from publishing
+            print("IPO pages skipped:", e)
 
     # ---- quiet runs write nothing, so the repository only changes when the data does
     core = lambda p: {k: v for k, v in p.items() if k not in ("generated_at", "feeds")}

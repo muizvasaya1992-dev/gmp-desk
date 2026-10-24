@@ -5,7 +5,7 @@ on:
     - cron: "23 * * * *"             # plus once an hour, every day and night, so GMP keeps moving on weekends and evenings
   workflow_dispatch: {}              # "Run workflow" button
   push:
-    paths: ["data/ipos_manual.json", "data/gmp.csv", "data/config.json", "build_data.py"]   # new code gets used straight away
+    paths: ["data/ipos_manual.json", "data/gmp.csv", "data/config.json", "build_data.py", "pages.py"]   # new code gets used straight away
 permissions:
   contents: write
 concurrency:
@@ -28,7 +28,7 @@ jobs:
         run: |
           git config user.name "ipo-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add -A -- ipos.json history.json data
+          git add -A -- ipos.json history.json data ipo sitemap.xml
           if git diff --staged --quiet; then echo "Nothing changed, nothing to commit."; exit 0; fi
           git commit -m "Update IPO data"
           for i in 1 2 3; do
