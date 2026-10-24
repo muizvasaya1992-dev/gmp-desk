@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T10:51+05:30",
+  "generated_at": "2026-10-24T11:29+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -27,8 +27,8 @@
     "fetched_at": "2026-10-24T10:51+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-10-24T10:51+05:30",
-    "bse_ok_at": "2026-10-24T10:51+05:30"
+    "nse_ok_at": "2026-10-24T11:29+05:30",
+    "bse_ok_at": "2026-10-24T11:29+05:30"
   },
   "ipos": [
     {
@@ -273,7 +273,7 @@
         {
           "source": "IPO Ji",
           "gmp": 246,
-          "at": "2026-10-24T10:00"
+          "at": "2026-10-24T11:15"
         }
       ],
       "gmp_history": [
@@ -290,7 +290,7 @@
       "gmp_low": 240,
       "gmp_high": 246,
       "gmp": 246,
-      "gmp_asof": "2026-10-24T10:00",
+      "gmp_asof": "2026-10-24T11:15",
       "gmp_source_latest": "IPO Ji",
       "gmp_pct": 21.98,
       "status": "closed",
@@ -561,12 +561,16 @@
         {
           "source": "IPO Ji",
           "gmp": 21,
-          "at": "2026-10-23T22:00"
+          "at": "2026-10-24T11:15"
         }
       ],
       "gmp_history": [
         {
           "date": "2026-10-23",
+          "gmp": 21
+        },
+        {
+          "date": "2026-10-24",
           "gmp": 21
         }
       ],
@@ -574,7 +578,7 @@
       "gmp_low": 21,
       "gmp_high": 21,
       "gmp": 21,
-      "gmp_asof": "2026-10-23T22:00",
+      "gmp_asof": "2026-10-24T11:15",
       "gmp_source_latest": "IPO Ji",
       "gmp_pct": 6.36,
       "status": "upcoming",

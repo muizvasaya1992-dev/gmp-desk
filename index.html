@@ -3,17 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>IPO Shop: window-shop every IPO in India</title>
+<title>IPO Shop: details of every IPO in India</title>
 <meta name="theme-color" content="#111735">
 <meta property="og:type" content="website">
-<meta property="og:title" content="IPO Shop: window-shop every IPO in India">
+<meta property="og:title" content="IPO Shop: details of every IPO in India">
 <meta property="og:site_name" content="IPO Shop">
 <meta property="og:url" content="https://iposhop.in/">
 <meta name="twitter:card" content="summary">
 <link rel="canonical" href="https://iposhop.in/">
-<meta property="og:description" content="Browse and compare every IPO in India: what is open today, what is coming next and how past IPOs did. Official NSE and BSE data in plain English. Information only, not a broker.">
+<meta property="og:description" content="Details of every IPO in India: dates, price band, lot size, subscription, GMP, allotment and listing for open, upcoming and listed IPOs. Official NSE and BSE data in plain English. Information only, not a broker.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%232f6fed'/%3E%3Ctext x='50' y='70' font-size='62' text-anchor='middle'%3E%F0%9F%93%88%3C/text%3E%3C/svg%3E">
-<meta name="description" content="Browse and compare every IPO in India: upcoming, open and listed Mainboard and SME IPOs with price band, lot size, subscription and grey market premium. Information only, not a broker.">
+<meta name="description" content="Details of every IPO in India: dates, price band, lot size, subscription, GMP, allotment and listing for open, upcoming and listed Mainboard and SME IPOs. Official NSE and BSE data in plain English. Information only, not a broker.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -599,7 +599,7 @@ main{margin-top:-26px}
 
 /* footer */
 .site-foot{background:var(--navy-950);color:#aab6dd;margin:70px 0 0;max-width:none;padding:52px 0 26px;font-size:14px}
-.sf{display:grid;grid-template-columns:1.3fr 1fr 1.1fr 1.4fr;gap:34px}
+.sf{display:grid;grid-template-columns:1.4fr 1fr 1.7fr;gap:40px}
 .site-foot h4{margin:0 0 12px;color:#fff;font-size:12.5px;letter-spacing:.09em;text-transform:uppercase}
 .site-foot a{display:block;color:#c4cdee;text-decoration:none;padding:4px 0}.site-foot a:hover{color:#fff}
 .site-foot p{margin:8px 0 0;line-height:1.6} .site-foot .src{margin:0;font-weight:400}
@@ -678,6 +678,19 @@ main{margin-top:-26px}
 @media (max-width:980px){ .hh{padding-top:22px;padding-bottom:26px} }
 .gmp-note{display:flex;gap:10px;align-items:flex-start;margin:0 0 14px;padding:10px 14px;border-radius:16px;background:#fff;border:1px solid var(--line);color:var(--slate-700);font-size:13px;line-height:1.5}
 .gmp-note a{color:var(--blue-700);font-weight:600;text-decoration:none;white-space:nowrap} .gmp-note a:hover{text-decoration:underline}
+
+/* contact */
+.btn-dark{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:8px;padding:11px 18px;border-radius:14px;font-weight:700;font-size:14.5px;background:var(--navy-800);color:#fff;box-shadow:0 8px 20px rgba(17,23,53,.25);transition:transform .15s}
+.btn-dark:hover{transform:translateY(-2px);background:var(--navy-700)} .btn-dark:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.contact-grid{display:grid;grid-template-columns:1.15fr 1fr;gap:16px;margin-top:6px}
+.c-card{padding:26px}
+.c-main{grid-column:1/-1;background:linear-gradient(135deg,#e8f1ff,#e4f7ee);border-color:#d3e3ff}
+.c-card h2{margin:0 0 8px;font-size:24px;letter-spacing:-.02em} .c-card h3{margin:0 0 10px;font-size:18px}
+.c-card p{margin:0 0 14px;color:var(--slate-700);line-height:1.65}
+.c-list{margin:0;padding-left:20px;color:var(--slate-700);line-height:1.65} .c-list li{margin:8px 0}
+.contact-band{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:24px 28px;border-radius:28px;background:linear-gradient(135deg,#e8f1ff,#e4f7ee);border:1px solid #d3e3ff}
+.contact-band h3{margin:0 0 4px;font-size:19px} .contact-band p{margin:0;color:var(--slate-700)}
+@media (max-width:760px){ .contact-grid{grid-template-columns:1fr} .c-card{padding:20px} }
 </style>
 </head>
 <body>
@@ -700,9 +713,9 @@ main{margin-top:-26px}
 <section class="hero-home" id="homeHero" hidden>
   <div class="wrap hh">
     <div class="hh-text">
-      <div class="hh-eyebrow">🇮🇳 India's IPO tracker</div>
-      <h1>Window-shop <span>every IPO in India</span></h1>
-      <p>Browse and compare what is open today, what is coming next and how past IPOs have done. Official NSE and BSE data in plain English. You look here, then apply through your own broker.</p>
+      <div class="hh-eyebrow">🇮🇳 India's IPO information site</div>
+      <h1>Details of <span>every IPO in India</span></h1>
+      <p>Dates, price band, lot size, subscription, GMP, allotment and listing for every open, upcoming and listed IPO. Official NSE and BSE data in plain English. You look here, then apply through your own broker.</p>
       <div class="hh-search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
         <input id="heroQ" type="search" placeholder="Search any IPO…" aria-label="Search any IPO" autocomplete="off">
         <button id="heroGo" type="button">Search</button><div class="hh-sug" id="heroSug" role="listbox" hidden></div></div>
@@ -739,8 +752,7 @@ main{margin-top:-26px}
       <p>Open, upcoming and listed IPOs in India, from official NSE and BSE data.</p>
       <div class="sf-live"><span class="badge" id="badge">…</span><span id="asof"></span></div>
     </div>
-    <div><h4>Explore</h4><a href="#home">Home</a><a href="#mainboard">Mainboard IPOs</a><a href="#sme">SME IPOs</a><a href="#year">All 2026 IPOs</a><a href="#calendar">IPO calendar</a></div>
-    <div><h4>Where the data comes from</h4><div class="src" id="srcs"></div><p>Refreshed about every 20 minutes on weekdays.</p></div>
+    <div><h4>Explore</h4><a href="#home">Home</a><a href="#mainboard">Mainboard IPOs</a><a href="#sme">SME IPOs</a><a href="#year">All 2026 IPOs</a><a href="#calendar">IPO calendar</a><a href="#contact">Contact us</a></div>
     <div><h4>Good to know</h4><p>GMP (grey market premium) is unofficial, comes from informal markets and is not regulated by SEBI or the exchanges. It changes quickly and often differs from the actual listing price.</p></div>
   </div>
   <div class="wrap sf-bottom">IPO Shop is an information website. It does not sell, apply for or recommend IPOs, and nothing here is investment advice. Read the offer document (RHP) and speak to a SEBI-registered advisor before investing.</div>
@@ -772,7 +784,9 @@ const GROUPS = [
   {k:"closing_today", label:"Closing today", icon:"bell", tone:"t-amber", test:i=>i.status==="closing_today"},
   {k:"done", label:"Closed & listed", icon:"check", tone:"t-slate", test:i=>i.status==="closed"||i.status==="listed"}
 ];
+const CONTACT_EMAIL = "";   // put the public contact address here, for example "name@example.com"
 const TEXT = {
+  CONTACT:{emo:"✉️",eyebrow:"Contact",h1:"Contact us",lede:""},
   HOME:{emo:"🏠",eyebrow:"",h1:"IPO Shop",lede:""},
   MAIN:{emo:"🏛️",eyebrow:"India · Mainboard",h1:"Mainboard IPOs",lede:"Upcoming, open and recently listed issues."},
   SME:{emo:"🌱",eyebrow:"India · SME platforms",h1:"SME IPOs",lede:"Smaller companies on BSE SME and NSE Emerge. Bigger lots, thinner trading."},
@@ -924,7 +938,7 @@ function trackBlock(i){
 }
 function renderStale(){
   const f=state.feeds, el=$("stale"); el.hidden=true;
-  if(!f||state.tab==="CMP"||state.tab==="TRK"||state.tab==="YR"||state.tab==="CAL") return;
+  if(!f||state.tab==="CMP"||state.tab==="TRK"||state.tab==="YR"||state.tab==="CAL"||state.tab==="CONTACT") return;
   const sme=state.tab==="SME", ok=sme?f.bse_ok_at:f.nse_ok_at; if(!ok) return;
   const h=(Date.now()-new Date(ok))/36e5, live=!sme && state.all.some(i=>i.status==="open"||i.status==="closing_today");
   if(sme ? h>72 : ((live&&h>6)||h>48)){
@@ -938,6 +952,23 @@ function renderYearLine(){
   const judged=(t.listing_gain||0)+(t.listing_loss||0), share=judged?Math.round(t.listing_gain/judged*100):null;
   $("yearline").innerHTML=`<b>${t.year} so far</b> · ${t.total} IPOs (${t.mainboard} Mainboard, ${t.sme} SME)${share!=null?` · ${share}% listed above the issue price`:""}<span class="src2">BSE IPO tracker</span>`;
 }
+/* ============ contact page ============ */
+const mailLink=(cls="btn-dark")=>CONTACT_EMAIL?`<a class="${cls}" href="mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent("IPO Shop enquiry")}">✉️ ${esc(CONTACT_EMAIL)}</a>`:`<p class="micro">Our email address will appear here very soon.</p>`;
+function renderContact(){
+  $("view").innerHTML=`<div class="contact-grid">
+    <div class="panel c-card c-main"><h2>✉️ Write to us</h2>
+      <p>Spotted a mistake in an IPO's details, have a question, or an idea for the site? Send us a message and we will read it.</p>
+      ${mailLink()}
+      <p class="micro" style="margin-top:14px">Please do not send personal or financial details such as card, bank or demat numbers. We never need them.</p></div>
+    <div class="panel c-card"><h3>📝 What to include</h3>
+      <ul class="c-list"><li><b>A mistake in the data:</b> the IPO's name and what looks wrong, with a link if you have one.</li>
+      <li><b>A question about how something works:</b> tell us which page you were on.</li>
+      <li><b>Business or data enquiries:</b> a line about who you are and what you have in mind.</li></ul></div>
+    <div class="panel c-card"><h3>🛍️ About IPO Shop</h3>
+      <p>IPO Shop is a free information website with the details of every IPO in India: dates, price band, lot size, subscription, grey market premium, allotment and listing. Dates, prices and subscription come from NSE and BSE. GMP comes from public trackers, which are credited on each number, and is unofficial.</p>
+      <p>We are not a broker, we do not sell or apply for IPOs, and nothing here is investment advice.</p></div></div>`;
+}
+
 /* ============ home page ============ */
 function goTab(tab,fil){ state.tab=tab; state.filter=fil||null; history.replaceState(null,"",TABHASH[tab]||"#home"); render(); window.scrollTo({top:0,behavior:"smooth"}); }
 function secHead(emo,title,sub,more){ return `<div class="sec-head"><div><h2><span class="se">${emo}</span> ${title}</h2>${sub?`<p>${sub}</p>`:""}</div>${more?`<button class="more" data-go="${more[0]}" ${more[1]?`data-fil="${more[1]}"`:""} type="button">${more[2]} →</button>`:""}</div>`; }
@@ -985,6 +1016,7 @@ function renderHome(){
       </div>
       <div class="mascot-tip"><span class="tip-emo" aria-hidden="true">🐂</span><div><b>Did you know?</b><span id="tipText"></span></div></div>
     </section>
+    <section class="sec contact-band"><div><h3>📬 Spotted a mistake, or have a question?</h3><p>We read every message and fix data errors as quickly as we can.</p></div><button class="btn-dark" data-go="CONTACT" type="button">Contact us →</button></section>
     <section class="sec trust">
       <div class="tr"><span>📡</span><h3>Official data</h3><p>Dates, prices and subscription come straight from NSE and BSE, refreshed about every 20 minutes on weekdays.</p></div>
       <div class="tr"><span>🧪</span><h3>Plain English</h3><p>Open any IPO for the full story in plain words: what it costs, when to apply and what the numbers mean.</p></div>
@@ -1262,6 +1294,7 @@ function renderNav(){
   const tabs=[["HOME","Home"],["MAIN","Mainboard"],["SME","SME"]];
   if(state.dataset==="live") tabs.push(["YR","All 2026"]);
   tabs.push(["CAL","Calendar"]);
+  tabs.push(["CONTACT","Contact"]);
   if(trackRows().length) tabs.push(["TRK","Track record"]);
   if(state.all.some(i=>(i.gmp_sources||[]).length>1)) tabs.push(["CMP","Compare"]);
   $("nav").innerHTML = tabs.map(([k,l])=>`<button role="tab" data-t="${k}" aria-selected="${state.tab===k}">${l}</button>`).join("");
@@ -1271,9 +1304,10 @@ function renderHero(){
   const home=state.tab==="HOME";
   $("homeHero").hidden=!home; $("pageHead").hidden=home;
   document.body.classList.toggle("is-home",home);
+  $("yearline").style.display = state.tab==="CONTACT" ? "none" : "";
   document.body.classList.toggle("sme", state.tab==="SME");
   if(!home){ const t=TEXT[state.tab]; $("eyebrow").textContent=t.eyebrow; $("h1").innerHTML=esc(t.h1)+` <span class="h-emo" aria-hidden="true">${t.emo||""}</span>`; $("lede").textContent=t.lede; }
-  document.title = home ? "IPO Shop: window-shop every IPO in India" : ({SME:"SME IPOs",CMP:"Compare sources",TRK:"GMP track record",YR:"All 2026 IPOs",CAL:"IPO Calendar",MAIN:"Mainboard IPOs"})[state.tab]+" · IPO Shop";
+  document.title = home ? "IPO Shop: details of every IPO in India" : ({SME:"SME IPOs",CMP:"Compare sources",TRK:"GMP track record",YR:"All 2026 IPOs",CAL:"IPO Calendar",CONTACT:"Contact us",MAIN:"Mainboard IPOs"})[state.tab]+" · IPO Shop";
 }
 function renderStats(){
   const base=scoped(), sum=l=>l.reduce((a,b)=>a+(b.size_cr||0),0);
@@ -1313,12 +1347,13 @@ function renderCompare(){
 }
 function render(){
   renderNav(); renderHero();
-  const wide = state.tab==="HOME"||state.tab==="CMP"||state.tab==="TRK"||state.tab==="YR"||state.tab==="CAL";
+  const wide = state.tab==="CONTACT"||state.tab==="HOME"||state.tab==="CMP"||state.tab==="TRK"||state.tab==="YR"||state.tab==="CAL";
   document.querySelector(".tools").style.display = wide ? "none" : "";
   $("view").style.marginTop = (state.tab==="CMP"||state.tab==="TRK") ? "24px" : "";
   $("stats").classList.remove("three");
   renderYearLine(); renderStale();
   if(state.tab==="HOME"){ $("stats").innerHTML=""; renderHome(); return; }
+  if(state.tab==="CONTACT"){ $("stats").innerHTML=""; renderContact(); return; }
   if(state.tab==="CMP"){ renderCompare(); return; }
   if(state.tab==="TRK"){ renderTrack(); return; }
   if(state.tab==="YR"){ renderYear(); return; }
@@ -1421,13 +1456,13 @@ function gmpChart(i){
 }
 
 /* ============ data + events ============ */
-const TABHASH={HOME:"#home",MAIN:"#mainboard",SME:"#sme",YR:"#year",CAL:"#calendar",CMP:"#compare",TRK:"#track"};
+const TABHASH={HOME:"#home",CONTACT:"#contact",MAIN:"#mainboard",SME:"#sme",YR:"#year",CAL:"#calendar",CMP:"#compare",TRK:"#track"};
 function readHash(){
   const h=decodeURIComponent(location.hash.replace("#","")); state.openId=null;
   if(h.toLowerCase().startsWith("ipo=")){ const id=h.slice(4), i=state.all.find(x=>x.id===id); if(i){ state.tab=group(i); state.openId=id; return; } }
   const k=h.toLowerCase();
   if(k==="watchlist"){ state.tab="MAIN"; state.filter="watch"; return; }
-  state.tab = ({home:"HOME",mainboard:"MAIN",sme:"SME",compare:"CMP",track:"TRK",year:"YR",calendar:"CAL"})[k] || "HOME";
+  state.tab = ({home:"HOME",mainboard:"MAIN",sme:"SME",compare:"CMP",track:"TRK",year:"YR",calendar:"CAL",contact:"CONTACT"})[k] || "HOME";
 }
 async function load(){
   try{
@@ -1435,7 +1470,6 @@ async function load(){
     const data=await r.json(); state.all=data.ipos; state.stats=data.market_stats||null; state.feeds=data.feeds||null; state.dataset=data.dataset||"";
     $("badge").textContent=({sample:"Sample data","local-test":"Local test data"})[data.dataset]||"Live";
     $("asof").textContent="Updated "+tt(data.generated_at);
-    $("srcs").innerHTML=(data.sources&&data.sources.length)?data.sources.map(x=>x.url?`<a href="${esc(x.url)}" rel="noopener" target="_blank">${esc(x.name)} ↗</a>`:`<span>${esc(x.name)}</span>`).join(""):"";
     readHash(); render(); renderTicker(); if(state.dataset==="live") ensureHistory(); if(state.openId) openDrawer(state.openId,true);
   }catch(e){
     $("view").innerHTML=`<div class="panel"><div class="err">Could not load ${esc(DATASET)} (${esc(e.message)}). If you opened this file directly, run <code>python -m http.server 8000</code> in this folder and visit http://localhost:8000.</div></div>`;
