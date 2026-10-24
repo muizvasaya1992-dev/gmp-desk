@@ -3,13 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>GMP Desk: every IPO in India in one place</title>
+<title>IPO Shop: window-shop every IPO in India</title>
 <meta name="theme-color" content="#111735">
 <meta property="og:type" content="website">
-<meta property="og:title" content="GMP Desk: every IPO in India in one place">
-<meta property="og:description" content="See what is open today, what is coming next and how past IPOs did. Official NSE and BSE data in plain English.">
+<meta property="og:title" content="IPO Shop: window-shop every IPO in India">
+<meta property="og:site_name" content="IPO Shop">
+<meta property="og:url" content="https://iposhop.in/">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="https://iposhop.in/">
+<meta property="og:description" content="Browse and compare every IPO in India: what is open today, what is coming next and how past IPOs did. Official NSE and BSE data in plain English. Information only, not a broker.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%232f6fed'/%3E%3Ctext x='50' y='70' font-size='62' text-anchor='middle'%3E%F0%9F%93%88%3C/text%3E%3C/svg%3E">
-<meta name="description" content="Upcoming, open and recently listed Mainboard and SME IPOs in India with price band, lot size, subscription and grey market premium.">
+<meta name="description" content="Browse and compare every IPO in India: upcoming, open and listed Mainboard and SME IPOs with price band, lot size, subscription and grey market premium. Information only, not a broker.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -680,9 +684,9 @@ main{margin-top:-26px}
 <a class="skip" href="#main">Skip to content</a>
 <header class="site" id="siteHeader">
   <div class="wrap hdr">
-    <a class="brand" href="#home" aria-label="GMP Desk home">
+    <a class="brand" href="#home" aria-label="IPO Shop home">
       <span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg></span>
-      <span class="w">GMP <b>Desk</b></span>
+      <span class="w">IPO <b>Shop</b></span>
     </a>
     <nav class="nav" role="tablist" aria-label="Sections" id="nav"></nav>
     <a class="watch-btn" id="watchBtn" href="#watchlist">★ <span class="wl">Watchlist</span> <span class="wn" id="watchN">0</span></a>
@@ -697,8 +701,8 @@ main{margin-top:-26px}
   <div class="wrap hh">
     <div class="hh-text">
       <div class="hh-eyebrow">🇮🇳 India's IPO tracker</div>
-      <h1>Every IPO in India, <span>in one place</span></h1>
-      <p>See what is open today, what is coming next and how past IPOs have done. Official NSE and BSE data, explained in plain English.</p>
+      <h1>Window-shop <span>every IPO in India</span></h1>
+      <p>Browse and compare what is open today, what is coming next and how past IPOs have done. Official NSE and BSE data in plain English. You look here, then apply through your own broker.</p>
       <div class="hh-search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
         <input id="heroQ" type="search" placeholder="Search any IPO…" aria-label="Search any IPO" autocomplete="off">
         <button id="heroGo" type="button">Search</button><div class="hh-sug" id="heroSug" role="listbox" hidden></div></div>
@@ -731,7 +735,7 @@ main{margin-top:-26px}
 <footer class="site-foot">
   <div class="wrap sf">
     <div class="sf-brand">
-      <a class="brand" href="#home"><span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg></span><span class="w">GMP <b>Desk</b></span></a>
+      <a class="brand" href="#home"><span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg></span><span class="w">IPO <b>Shop</b></span></a>
       <p>Open, upcoming and listed IPOs in India, from official NSE and BSE data.</p>
       <div class="sf-live"><span class="badge" id="badge">…</span><span id="asof"></span></div>
     </div>
@@ -739,7 +743,7 @@ main{margin-top:-26px}
     <div><h4>Where the data comes from</h4><div class="src" id="srcs"></div><p>Refreshed about every 20 minutes on weekdays.</p></div>
     <div><h4>Good to know</h4><p>GMP (grey market premium) is unofficial, comes from informal markets and is not regulated by SEBI or the exchanges. It changes quickly and often differs from the actual listing price.</p></div>
   </div>
-  <div class="wrap sf-bottom">This site shows data for information only and is not investment advice. Read the offer document (RHP) and speak to a SEBI-registered advisor before investing.</div>
+  <div class="wrap sf-bottom">IPO Shop is an information website. It does not sell, apply for or recommend IPOs, and nothing here is investment advice. Read the offer document (RHP) and speak to a SEBI-registered advisor before investing.</div>
 </footer>
 
 <dialog id="drawer" aria-labelledby="dtitle">
@@ -769,7 +773,7 @@ const GROUPS = [
   {k:"done", label:"Closed & listed", icon:"check", tone:"t-slate", test:i=>i.status==="closed"||i.status==="listed"}
 ];
 const TEXT = {
-  HOME:{emo:"🏠",eyebrow:"",h1:"GMP Desk",lede:""},
+  HOME:{emo:"🏠",eyebrow:"",h1:"IPO Shop",lede:""},
   MAIN:{emo:"🏛️",eyebrow:"India · Mainboard",h1:"Mainboard IPOs",lede:"Upcoming, open and recently listed issues."},
   SME:{emo:"🌱",eyebrow:"India · SME platforms",h1:"SME IPOs",lede:"Smaller companies on BSE SME and NSE Emerge. Bigger lots, thinner trading."},
   CMP:{emo:"🔍",eyebrow:"Local test only",h1:"Compare sources",lede:"GMP readings from different sources, side by side."},
@@ -779,7 +783,7 @@ const TEXT = {
 };
 const DATASET = ({sample:"ipos_sample.json",local:"ipos_localtest.json"})[new URLSearchParams(location.search).get("data")] || "ipos.json";
 const state = {all:[], stats:null, feeds:null, dataset:"", hist:null, histErr:"", yf:{seg:"ALL",q:"",show:"all",sort:"new",limit:40}, tab:"MAIN", filter:null, q:"", onlyGmp:false, openId:null};
-const WKEY="gmpdesk.watch";
+const WKEY="iposhop.watch";
 function loadWatch(){ try{ return new Set(JSON.parse(localStorage.getItem(WKEY)||"[]")); }catch(e){ return new Set(); } }
 state.watch=loadWatch();
 const isW=id=>state.watch.has(id);
@@ -832,7 +836,7 @@ const oneLot = i => (i.price!=null && i.lot!=null) ? "₹"+inr(i.price*i.lot) : 
 function gmpBlock(i){
   if(i.gmp==null) return `<span class="muted">Not reported</span>`;
   return `<div class="gv ${i.gmp>=0?"pos":"neg"}"><b>${rs(i.gmp)}</b>${i.gmp_pct!=null?`<span class="delta">${pct(i.gmp_pct)}</span>`:""}</div>`+
-         (i.price!=null?`<div class="micro">Est. listing ${rs(i.price+i.gmp)}${i.gmp_source_latest&&i.gmp_source_latest!=="GMP Desk"?" · via "+esc(i.gmp_source_latest):""}</div>`:"");
+         (i.price!=null?`<div class="micro">Est. listing ${rs(i.price+i.gmp)}${i.gmp_source_latest&&i.gmp_source_latest!=="IPO Shop"&&i.gmp_source_latest!=="GMP Desk"?" · via "+esc(i.gmp_source_latest):""}</div>`:"");
 }
 const demand=t=>t>=10?"🔥 Heavily subscribed":t>=1?"📈 Oversubscribed":"🌱 Filling up";
 function subBlock(i){
@@ -875,11 +879,11 @@ function allotBlock(i){
 function icsFor(i){
   const esc2=t=>String(t).replace(/[,;]/g,"\\$&"), ymd=d=>d.replace(/-/g,"");
   const stamp=new Date().toISOString().replace(/[-:]/g,"").slice(0,15)+"Z";
-  const out=["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//GMP Desk//IPO dates//EN","CALSCALE:GREGORIAN"];
+  const out=["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//IPO Shop//IPO dates//EN","CALSCALE:GREGORIAN"];
   [["opens",i.open],["closes",i.close],["allotment",i.boa],["listing",i.listing]].filter(e=>e[1]).forEach(([k,d])=>{
     const nx=new Date(d+"T00:00:00"); nx.setDate(nx.getDate()+1);
     const end=nx.getFullYear()+String(nx.getMonth()+1).padStart(2,"0")+String(nx.getDate()).padStart(2,"0");
-    out.push("BEGIN:VEVENT",`UID:${i.id}-${k}@gmpdesk`,`DTSTAMP:${stamp}`,`DTSTART;VALUE=DATE:${ymd(d)}`,`DTEND;VALUE=DATE:${end}`,`SUMMARY:${esc2(i.name)} IPO ${k}`,"END:VEVENT");
+    out.push("BEGIN:VEVENT",`UID:${i.id}-${k}@iposhop.in`,`DTSTAMP:${stamp}`,`DTSTART;VALUE=DATE:${ymd(d)}`,`DTEND;VALUE=DATE:${end}`,`SUMMARY:${esc2(i.name)} IPO ${k}`,"END:VEVENT");
   });
   out.push("END:VCALENDAR"); return out.join("\r\n");
 }
@@ -1269,7 +1273,7 @@ function renderHero(){
   document.body.classList.toggle("is-home",home);
   document.body.classList.toggle("sme", state.tab==="SME");
   if(!home){ const t=TEXT[state.tab]; $("eyebrow").textContent=t.eyebrow; $("h1").innerHTML=esc(t.h1)+` <span class="h-emo" aria-hidden="true">${t.emo||""}</span>`; $("lede").textContent=t.lede; }
-  document.title = home ? "GMP Desk: every IPO in India in one place" : ({SME:"SME IPOs",CMP:"Compare sources",TRK:"GMP track record",YR:"All 2026 IPOs",CAL:"IPO Calendar",MAIN:"Mainboard IPOs"})[state.tab]+" · GMP Desk";
+  document.title = home ? "IPO Shop: window-shop every IPO in India" : ({SME:"SME IPOs",CMP:"Compare sources",TRK:"GMP track record",YR:"All 2026 IPOs",CAL:"IPO Calendar",MAIN:"Mainboard IPOs"})[state.tab]+" · IPO Shop";
 }
 function renderStats(){
   const base=scoped(), sum=l=>l.reduce((a,b)=>a+(b.size_cr||0),0);

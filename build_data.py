@@ -1,5 +1,5 @@
 """
-GMP Desk data pipeline.  Reads official NSE data + your own facts + your own GMP readings,
+IPO Shop data pipeline.  Reads official NSE data + your own facts + your own GMP readings,
 and writes ipos.json for the website.
 
   python build_data.py                 normal run (fetch NSE, merge, write ipos.json)
@@ -585,7 +585,7 @@ def read_text_any(path):
         return b.decode("cp1252", errors="replace")
 
 
-def parse_gmp_csv(text, default_source="GMP Desk"):
+def parse_gmp_csv(text, default_source="IPO Shop"):
     """Forgiving reader: ignores # lines, a BOM, extra commas, a missing header line."""
     rows = []
     text = text.lstrip("\ufeff")
@@ -616,7 +616,7 @@ def parse_gmp_csv(text, default_source="GMP Desk"):
 
 
 # ----------------------------------------------------------------- GMP from a public tracker (IPO Ji)
-GMP_UA = "GMPDeskBot/1.0 (+https://muizvasaya1992-dev.github.io/gmp-desk/)"
+GMP_UA = "IPOShopBot/1.0 (+https://iposhop.in/)"
 IPOJI_URL = "https://www.ipoji.com/ipo-gmp"
 
 

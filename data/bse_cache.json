@@ -40,7 +40,7 @@
    "face_value": 5.0,
    "scrip": 4901,
    "bse_status": "F",
-   "last_seen": "2026-10-23T13:40+05:30"
+   "last_seen": "2026-10-24T10:51+05:30"
   },
   "8055": {
    "ipo_no": "8055",
@@ -54,7 +54,7 @@
    "face_value": 10.0,
    "scrip": 4902,
    "bse_status": "L",
-   "last_seen": "2026-10-23T13:40+05:30"
+   "last_seen": "2026-10-24T10:51+05:30"
   },
   "8056": {
    "ipo_no": "8056",
@@ -68,7 +68,7 @@
    "face_value": 10.0,
    "scrip": 4905,
    "bse_status": "F",
-   "last_seen": "2026-10-23T13:40+05:30"
+   "last_seen": "2026-10-24T10:51+05:30"
   },
   "8060": {
    "ipo_no": "8060",
@@ -82,7 +82,7 @@
    "face_value": 2.0,
    "scrip": 4906,
    "bse_status": "F",
-   "last_seen": "2026-10-23T13:40+05:30"
+   "last_seen": "2026-10-24T10:51+05:30"
   },
   "8061": {
    "ipo_no": "8061",
@@ -96,7 +96,21 @@
    "face_value": 10.0,
    "scrip": 4907,
    "bse_status": "F",
-   "last_seen": "2026-10-23T13:40+05:30"
+   "last_seen": "2026-10-24T10:51+05:30"
+  },
+  "8062": {
+   "ipo_no": "8062",
+   "first_seen": "2026-10-24T10:51+05:30",
+   "name": "M. K. Sons Fine Jewels",
+   "segment": "MAIN",
+   "open": "2026-10-28",
+   "close": "2026-10-30",
+   "price": 162,
+   "price_low": 153,
+   "face_value": 10.0,
+   "scrip": 4908,
+   "bse_status": "F",
+   "last_seen": "2026-10-24T10:51+05:30"
   }
  },
  "tracker": {
@@ -104,11 +118,11 @@
   "total": 223,
   "mainboard": 102,
   "sme": 121,
-  "listing_gain": 160,
+  "listing_gain": 165,
   "listing_loss": 58,
-  "day_gain": 140,
-  "day_loss": 78,
-  "fetched_at": "2026-10-23T13:03+05:30"
+  "day_gain": 142,
+  "day_loss": 81,
+  "fetched_at": "2026-10-24T10:51+05:30"
  },
- "fetched_at": "2026-10-23T13:40+05:30"
+ "fetched_at": "2026-10-24T10:51+05:30"
 }
