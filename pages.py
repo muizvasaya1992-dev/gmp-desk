@@ -185,7 +185,7 @@ def facts(d):
 
 
 CSS = """
-:root{--ink:#111735;--muted:#66728f;--line:#e4e8f1;--bg:#f4f6fb;--blue:#2f6fed;--navy:#111735}
+:root{--ink:#111735;--muted:#59647f;--line:#e4e8f1;--bg:#f4f6fb;--blue:#2f6fed;--navy:#111735}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
 a{color:var(--blue)}header{background:#fff;border-bottom:1px solid var(--line)}
 .w{max-width:900px;margin:0 auto;padding:0 20px}.bar{display:flex;align-items:center;gap:18px;flex-wrap:wrap;min-height:64px}
@@ -242,6 +242,7 @@ if(live){
   var t=live.sub.total,l=t>=50?5:t>=10?4:t>=3?3:t>=1?2:1,m='<span class="meter" title="Demand '+l+' of 5: how heavily subscribed. Not a rating of the IPO.">';
   for(var k=1;k<=5;k++)m+='<i'+(k<=l?' class="on"':'')+'></i>';
   out.push(["Demand meter",m+"</span>"+l+" of 5"]);}
+ if((live.status==="open"||live.status==="closing_today")&&!(live.sub&&live.sub.total!=null))out.push(["Demand meter","Not available yet for this issue"]);
  if(live.gmp!=null)out.push(["GMP (unofficial)","₹"+n(live.gmp)+(live.gmp_pct!=null?" ("+p(live.gmp_pct)+")":"")+(live.gmp_source_latest&&live.gmp_source_latest!=="IPO Shop"?" via "+live.gmp_source_latest:"")]);
  if(live.gmp!=null&&live.price!=null)out.push(["Estimated listing price","₹"+n(live.price+live.gmp)]);
 }
@@ -314,6 +315,14 @@ def render_hub(ds):
     return head("All IPOs in India: open, upcoming and listed | IPO Shop", desc, SITE + "/ipo/") + body + HUB_JS + FOOT
 
 
+def render_404():
+    body = ('<main class="w"><h1 style="margin-top:40px">That page is not here</h1>'
+            '<p class="lead">The address may be old or mistyped. Here are some good places to go next.</p>'
+            '<section class="card"><a class="btn" href="/">Home</a><a class="btn alt" href="/ipo/">All IPOs</a>'
+            '<a class="btn alt" href="/#calendar">Calendar</a><a class="btn alt" href="/#contact">Contact us</a></section></main>')
+    return head("Page not found | IPO Shop", "This page could not be found. Browse every IPO in India on IPO Shop.", SITE + "/404.html", robots="noindex,follow") + body + FOOT
+
+
 def write_sitemap(root, ds):
     urls = [SITE + "/", SITE + "/ipo/"] + [f"{SITE}/ipo/{d['id']}/" for d in sorted(ds, key=lambda d: d["id"])]
     xml = ('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
@@ -345,6 +354,7 @@ def write_all(hist_rows, ipos, root, log=print):
         keep.add(d["id"])
         save(base / d["id"] / "index.html", render_page(d))
     save(base / "index.html", render_hub(ds))
+    save(root / "404.html", render_404())
     removed = 0
     for sub in base.iterdir():
         if sub.is_dir() and sub.name not in keep:
