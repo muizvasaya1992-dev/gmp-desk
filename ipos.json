@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T14:07+05:30",
+  "generated_at": "2026-10-24T14:17+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -9,10 +9,6 @@
     {
       "name": "BSE India",
       "url": "https://www.bseindia.com/markets/PublicIssues/IPOIssues_new.aspx?id=1&Type=p"
-    },
-    {
-      "name": "IPO Ji (GMP)",
-      "url": "https://www.ipoji.com/ipo-gmp"
     }
   ],
   "market_stats": {
@@ -27,8 +23,8 @@
     "fetched_at": "2026-10-24T10:51+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-10-24T14:07+05:30",
-    "bse_ok_at": "2026-10-24T14:07+05:30"
+    "nse_ok_at": "2026-10-24T14:17+05:30",
+    "bse_ok_at": "2026-10-24T14:17+05:30"
   },
   "ipos": [
     {
@@ -271,7 +267,7 @@
       "bse_ipo_no": "8047",
       "gmp_sources": [
         {
-          "source": "IPO Ji",
+          "source": "Public trackers",
           "gmp": 246,
           "at": "2026-10-24T11:15"
         }
@@ -286,12 +282,12 @@
           "gmp": 246
         }
       ],
-      "history_source": "IPO Ji",
+      "history_source": "Public trackers",
       "gmp_low": 240,
       "gmp_high": 246,
       "gmp": 246,
       "gmp_asof": "2026-10-24T11:15",
-      "gmp_source_latest": "IPO Ji",
+      "gmp_source_latest": "Public trackers",
       "gmp_pct": 21.98,
       "status": "closed",
       "unconfirmed": false
@@ -447,7 +443,7 @@
       "bse_ipo_no": "8048",
       "gmp_sources": [
         {
-          "source": "IPO Ji",
+          "source": "Public trackers",
           "gmp": 10,
           "at": "2026-10-24T06:30"
         }
@@ -462,12 +458,12 @@
           "gmp": 10
         }
       ],
-      "history_source": "IPO Ji",
+      "history_source": "Public trackers",
       "gmp_low": 8,
       "gmp_high": 10,
       "gmp": 10,
       "gmp_asof": "2026-10-24T06:30",
-      "gmp_source_latest": "IPO Ji",
+      "gmp_source_latest": "Public trackers",
       "gmp_pct": 1.44,
       "status": "closed",
       "unconfirmed": false
@@ -505,7 +501,7 @@
       "bse_ipo_no": "8056",
       "gmp_sources": [
         {
-          "source": "IPO Ji",
+          "source": "Public trackers",
           "gmp": 24,
           "at": "2026-10-23T22:00"
         }
@@ -516,12 +512,12 @@
           "gmp": 24
         }
       ],
-      "history_source": "IPO Ji",
+      "history_source": "Public trackers",
       "gmp_low": 24,
       "gmp_high": 24,
       "gmp": 24,
       "gmp_asof": "2026-10-23T22:00",
-      "gmp_source_latest": "IPO Ji",
+      "gmp_source_latest": "Public trackers",
       "gmp_pct": 16.0,
       "status": "upcoming",
       "unconfirmed": false
@@ -559,7 +555,7 @@
       "bse_ipo_no": "8060",
       "gmp_sources": [
         {
-          "source": "IPO Ji",
+          "source": "Public trackers",
           "gmp": 21,
           "at": "2026-10-24T11:15"
         }
@@ -574,12 +570,12 @@
           "gmp": 21
         }
       ],
-      "history_source": "IPO Ji",
+      "history_source": "Public trackers",
       "gmp_low": 21,
       "gmp_high": 21,
       "gmp": 21,
       "gmp_asof": "2026-10-24T11:15",
-      "gmp_source_latest": "IPO Ji",
+      "gmp_source_latest": "Public trackers",
       "gmp_pct": 6.36,
       "status": "upcoming",
       "unconfirmed": false
@@ -617,7 +613,7 @@
       "bse_ipo_no": "8054",
       "gmp_sources": [
         {
-          "source": "IPO Ji",
+          "source": "Public trackers",
           "gmp": 120,
           "at": "2026-10-24T06:30"
         }
@@ -628,12 +624,12 @@
           "gmp": 120
         }
       ],
-      "history_source": "IPO Ji",
+      "history_source": "Public trackers",
       "gmp_low": 120,
       "gmp_high": 120,
       "gmp": 120,
       "gmp_asof": "2026-10-24T06:30",
-      "gmp_source_latest": "IPO Ji",
+      "gmp_source_latest": "Public trackers",
       "gmp_pct": 7.21,
       "status": "upcoming",
       "unconfirmed": false
@@ -659,7 +655,7 @@
       "listing_price": null,
       "gmp_sources": [
         {
-          "source": "IPO Ji",
+          "source": "Public trackers",
           "gmp": 8,
           "at": "2026-10-23T22:00"
         }
@@ -670,12 +666,12 @@
           "gmp": 8
         }
       ],
-      "history_source": "IPO Ji",
+      "history_source": "Public trackers",
       "gmp_low": 8,
       "gmp_high": 8,
       "gmp": 8,
       "gmp_asof": "2026-10-23T22:00",
-      "gmp_source_latest": "IPO Ji",
+      "gmp_source_latest": "Public trackers",
       "gmp_pct": null,
       "status": "upcoming",
       "unconfirmed": true

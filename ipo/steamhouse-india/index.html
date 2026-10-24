@@ -4,7 +4,9 @@
 <link rel="canonical" href="https://iposhop.in/ipo/steamhouse-india/">
 <meta property="og:type" content="article"><meta property="og:site_name" content="IPO Shop"><meta property="og:title" content="Steamhouse India IPO: dates, price band, lot size, GMP | IPO Shop">
 <meta property="og:description" content="Steamhouse India IPO (Mainboard): listed 17 Sep 2026, issue price ₹81. Dates, subscription, GMP and listing details."><meta property="og:url" content="https://iposhop.in/ipo/steamhouse-india/">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%232f6fed'/%3E%3Ctext x='50' y='70' font-size='62' text-anchor='middle'%3E%F0%9F%93%88%3C/text%3E%3C/svg%3E"><style>
+<link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%232f6fed'/%3E%3Ctext x='50' y='70' font-size='62' text-anchor='middle'%3E%F0%9F%93%88%3C/text%3E%3C/svg%3E"><style>
+@font-face{font-family:Inter;font-style:normal;font-weight:400 700;font-display:optional;src:url(/fonts/inter-latin.woff2) format("woff2");unicode-range:U+0000-00FF,U+00B7,U+2013-2014,U+2018-201D,U+2022,U+2026,U+2039-203A,U+2212}
+@font-face{font-family:Inter;font-style:normal;font-weight:400 700;font-display:swap;src:url(/fonts/inter-rupee.woff2) format("woff2");unicode-range:U+20B9}
 :root{--ink:#111735;--muted:#59647f;--line:#e4e8f1;--bg:#f4f6fb;--blue:#2f6fed;--navy:#111735}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
 a{color:var(--blue)}header{background:#fff;border-bottom:1px solid var(--line)}
@@ -39,14 +41,14 @@ ul.list li{padding:6px 0;border-bottom:1px solid var(--line)}ul.list small{color
 <noscript><p class="muted">Turn on JavaScript to see live subscription and GMP.</p></noscript>
 <a class="btn" href="/#year">Open in the live tracker</a><a class="btn alt" href="/ipo/">All IPOs</a></section>
 <section class="card"><h2>Check your allotment</h2><p style="margin:0 0 8px">The registrar is named in the offer document. Enter your PAN, application number or demat (DP) ID on the registrar's page and pick this IPO. IPO Shop never sees your application details.</p><a class="btn" href="https://kosmic.kfintech.com/ipostatus/" target="_blank" rel="noopener noreferrer">Check on KFintech ↗</a><a class="btn" href="https://linkintime.co.in/initial_offer/public-issues.html" target="_blank" rel="noopener noreferrer">Check on MUFG Intime ↗</a><a class="btn" href="https://ipo.bigshareonline.com/IPO_Status.html" target="_blank" rel="noopener noreferrer">Check on Bigshare ↗</a></section>
-<section class="card"><h2>About this page</h2><p class="muted" style="margin:0 0 10px">Facts on this page come from NSE and BSE and are refreshed automatically. GMP is unofficial and comes from public trackers, credited where shown. This is information, not advice. See the offer document before you invest.</p>
+<section class="card"><h2>About this page</h2><p class="muted" style="margin:0 0 10px">Facts on this page come from NSE and BSE and are refreshed automatically. GMP is unofficial and comes from public trackers and our own checks. This is information, not advice. See the offer document before you invest.</p>
 <p class="muted" style="margin:0"><b>Demand meter:</b> 1 means under 1x subscribed, 2 is 1x to 3x, 3 is 3x to 10x, 4 is 10x to 50x and 5 is 50x or more. It shows how much demand there is. It does not say whether the IPO is a good one.</p></section>
 </main><script>
-(function(){var id="steamhouse-india",box=document.getElementById("live-body");
+(function(){var id="steamhouse-india",st="listed",box=document.getElementById("live-body");
 function n(v,d){return Number(v).toLocaleString("en-IN",{maximumFractionDigits:d==null?2:d})}
 function p(v){return(v>=0?"+":"")+Number(v).toFixed(2)+"%"}
 function get(u){return fetch(u+"?"+Date.now(),{cache:"no-store"}).then(function(r){return r.json()}).catch(function(){return null})}
-Promise.all([get("/ipos.json"),get("/history.json")]).then(function(r){
+Promise.all([get("/ipos.json"),st==="listed"?get("/history.json"):Promise.resolve(null)]).then(function(r){
 var a=r[0],b=r[1],live=a&&a.ipos&&a.ipos.filter(function(x){return x.id===id})[0],row=b&&b.rows&&b.rows.filter(function(x){return x.id===id})[0],out=[];
 if(live){
  if(live.sub&&live.sub.total!=null){out.push(["Subscription",n(live.sub.total)+"x"+(live.sub.retail!=null?" (retail "+n(live.sub.retail)+"x)":"")]);
@@ -54,7 +56,7 @@ if(live){
   for(var k=1;k<=5;k++)m+='<i'+(k<=l?' class="on"':'')+'></i>';
   out.push(["Demand meter",m+"</span>"+l+" of 5"]);}
  if((live.status==="open"||live.status==="closing_today")&&!(live.sub&&live.sub.total!=null))out.push(["Demand meter","Not available yet for this issue"]);
- if(live.gmp!=null)out.push(["GMP (unofficial)","₹"+n(live.gmp)+(live.gmp_pct!=null?" ("+p(live.gmp_pct)+")":"")+(live.gmp_source_latest&&live.gmp_source_latest!=="IPO Shop"?" via "+live.gmp_source_latest:"")]);
+ if(live.gmp!=null)out.push(["GMP (unofficial)","₹"+n(live.gmp)+(live.gmp_pct!=null?" ("+p(live.gmp_pct)+")":"")+(live.gmp_source_latest&&live.gmp_source_latest!=="IPO Shop"?" via "+live.gmp_source_latest.toLowerCase():"")]);
  if(live.gmp!=null&&live.price!=null)out.push(["Estimated listing price","₹"+n(live.price+live.gmp)]);
 }
 if(row&&row.gain_pct!=null)out.push(["Latest price","₹"+n(row.current)+" ("+p(row.gain_pct)+" since issue)"]);

@@ -24,6 +24,8 @@ jobs:
       - run: pip install requests
       # BSE refuses cloud servers (403), so only NSE is fetched here. BSE is refreshed from your PC (update_from_pc.bat).
       - run: python build_data.py --no-bse
+        env:
+          GMP_TRACKER_URL: ${{ secrets.GMP_TRACKER_URL }}     # kept secret, so the public repository never names the source
       - name: Commit if changed
         run: |
           git config user.name "ipo-bot"

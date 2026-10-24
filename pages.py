@@ -185,6 +185,8 @@ def facts(d):
 
 
 CSS = """
+@font-face{font-family:Inter;font-style:normal;font-weight:400 700;font-display:optional;src:url(/fonts/inter-latin.woff2) format("woff2");unicode-range:U+0000-00FF,U+00B7,U+2013-2014,U+2018-201D,U+2022,U+2026,U+2039-203A,U+2212}
+@font-face{font-family:Inter;font-style:normal;font-weight:400 700;font-display:swap;src:url(/fonts/inter-rupee.woff2) format("woff2");unicode-range:U+20B9}
 :root{--ink:#111735;--muted:#59647f;--line:#e4e8f1;--bg:#f4f6fb;--blue:#2f6fed;--navy:#111735}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
 a{color:var(--blue)}header{background:#fff;border-bottom:1px solid var(--line)}
@@ -219,7 +221,7 @@ def head(title, desc, url, robots=None, extra=""):
 <link rel="canonical" href="{url}">
 {r}<meta property="og:type" content="article"><meta property="og:site_name" content="IPO Shop"><meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(desc)}"><meta property="og:url" content="{url}">
-<link rel="icon" href="{ICON}"><style>{CSS}</style>{extra}</head><body>
+<link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin><link rel="icon" href="{ICON}"><style>{CSS}</style>{extra}</head><body>
 <header><div class="w bar"><a class="brand" href="/"><span class="mark">📈</span><span>IPO <b>Shop</b></span></a>
 <nav aria-label="Main"><a href="/">Home</a><a href="/ipo/">All IPOs</a><a href="/#mainboard">Mainboard</a><a href="/#sme">SME</a><a href="/#calendar">Calendar</a><a href="/#contact">Contact</a></nav></div></header>
 """
@@ -231,11 +233,11 @@ GMP (grey market premium) is unofficial and often differs from the actual listin
 {BEACON}</body></html>"""
 
 LIVE_JS = """<script>
-(function(){var id="__ID__",box=document.getElementById("live-body");
+(function(){var id="__ID__",st="__ST__",box=document.getElementById("live-body");
 function n(v,d){return Number(v).toLocaleString("en-IN",{maximumFractionDigits:d==null?2:d})}
 function p(v){return(v>=0?"+":"")+Number(v).toFixed(2)+"%"}
 function get(u){return fetch(u+"?"+Date.now(),{cache:"no-store"}).then(function(r){return r.json()}).catch(function(){return null})}
-Promise.all([get("/ipos.json"),get("/history.json")]).then(function(r){
+Promise.all([get("/ipos.json"),st==="listed"?get("/history.json"):Promise.resolve(null)]).then(function(r){
 var a=r[0],b=r[1],live=a&&a.ipos&&a.ipos.filter(function(x){return x.id===id})[0],row=b&&b.rows&&b.rows.filter(function(x){return x.id===id})[0],out=[];
 if(live){
  if(live.sub&&live.sub.total!=null){out.push(["Subscription",n(live.sub.total)+"x"+(live.sub.retail!=null?" (retail "+n(live.sub.retail)+"x)":"")]);
@@ -243,7 +245,7 @@ if(live){
   for(var k=1;k<=5;k++)m+='<i'+(k<=l?' class="on"':'')+'></i>';
   out.push(["Demand meter",m+"</span>"+l+" of 5"]);}
  if((live.status==="open"||live.status==="closing_today")&&!(live.sub&&live.sub.total!=null))out.push(["Demand meter","Not available yet for this issue"]);
- if(live.gmp!=null)out.push(["GMP (unofficial)","₹"+n(live.gmp)+(live.gmp_pct!=null?" ("+p(live.gmp_pct)+")":"")+(live.gmp_source_latest&&live.gmp_source_latest!=="IPO Shop"?" via "+live.gmp_source_latest:"")]);
+ if(live.gmp!=null)out.push(["GMP (unofficial)","₹"+n(live.gmp)+(live.gmp_pct!=null?" ("+p(live.gmp_pct)+")":"")+(live.gmp_source_latest&&live.gmp_source_latest!=="IPO Shop"?" via "+live.gmp_source_latest.toLowerCase():"")]);
  if(live.gmp!=null&&live.price!=null)out.push(["Estimated listing price","₹"+n(live.price+live.gmp)]);
 }
 if(row&&row.gain_pct!=null)out.push(["Latest price","₹"+n(row.current)+" ("+p(row.gain_pct)+" since issue)"]);
@@ -278,9 +280,9 @@ def render_page(d):
 <noscript><p class="muted">Turn on JavaScript to see live subscription and GMP.</p></noscript>
 <a class="btn" href="{live_link}">Open in the live tracker</a><a class="btn alt" href="/ipo/">All IPOs</a></section>
 {allot_card(d)}{apply_card}
-<section class="card"><h2>About this page</h2><p class="muted" style="margin:0 0 10px">Facts on this page come from NSE and BSE and are refreshed automatically. GMP is unofficial and comes from public trackers, credited where shown. This is information, not advice. See the offer document before you invest.</p>
+<section class="card"><h2>About this page</h2><p class="muted" style="margin:0 0 10px">Facts on this page come from NSE and BSE and are refreshed automatically. GMP is unofficial and comes from public trackers and our own checks. This is information, not advice. See the offer document before you invest.</p>
 <p class="muted" style="margin:0"><b>Demand meter:</b> 1 means under 1x subscribed, 2 is 1x to 3x, 3 is 3x to 10x, 4 is 10x to 50x and 5 is 50x or more. It shows how much demand there is. It does not say whether the IPO is a good one.</p></section>
-</main>{LIVE_JS.replace("__ID__", d['id'])}"""
+</main>{LIVE_JS.replace("__ID__", d['id']).replace("__ST__", st)}"""
     return head(title, description(d), url, extra=f'<script type="application/ld+json">{ld}</script>') + body + FOOT
 
 

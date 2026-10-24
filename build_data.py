@@ -615,18 +615,25 @@ def parse_gmp_csv(text, default_source="IPO Shop"):
     return rows
 
 
-# ----------------------------------------------------------------- GMP from a public tracker (IPO Ji)
+# ----------------------------------------------------------------- GMP from a public tracker
 GMP_UA = "IPOShopBot/1.0 (+https://iposhop.in/)"
-IPOJI_URL = "https://www.ipoji.com/ipo-gmp"
+GMP_WEB_LABEL = "Public trackers"
 
 
-def parse_ipoji_html(html):
+def tracker_url():
+    """The tracker's address is kept out of the public code: set GMP_TRACKER_URL (a GitHub secret) or put
+    {"gmp_tracker_url": "..."} in data/private.json, which is never published."""
+    import os
+    return (os.environ.get("GMP_TRACKER_URL") or (load_json(DATA / "private.json", {}) or {}).get("gmp_tracker_url") or "").strip()
+
+
+def parse_tracker_html(html):
     """Read the GMP table: one quote per row, taken from the link to /ipo-gmp/<ipo-name> and the row's own timestamp."""
     import html as H
     out = []
     for seg in re.split(r"<tr\b", html)[1:]:
         seg = seg.split("</tr>")[0]
-        m = re.search(r'href="(?:https?://www\.ipoji\.com)?/ipo-gmp/([a-z0-9\-]+)"[^>]*>(.*?)</a>', seg, re.S | re.I)
+        m = re.search(r'href="(?:https?://[^/"]+)?/ipo-gmp/([a-z0-9\-]+)"[^>]*>(.*?)</a>', seg, re.S | re.I)
         if not m:
             continue
         slug, inner = m.group(1), H.unescape(re.sub(r"<[^>]+>", "", m.group(2))).strip()
@@ -644,50 +651,65 @@ def parse_ipoji_html(html):
             at = dt.datetime.strptime(t.group(1) + " " + t.group(2).replace(" ", ""), "%d %b %Y %I:%M%p").strftime("%Y-%m-%dT%H:%M")
         except ValueError:
             continue
-        out.append({"ipo": re.sub(r"-ipo$", "", slug), "gmp": tidy(val), "at": at, "source": "IPO Ji"})
+        out.append({"ipo": re.sub(r"-ipo$", "", slug), "gmp": tidy(val), "at": at, "source": GMP_WEB_LABEL})
     return out
 
 
-def fetch_ipoji():
+def fetch_tracker(url):
     import requests, urllib.robotparser as rp
+    from urllib.parse import urlparse
+    u = urlparse(url)
     robots = rp.RobotFileParser()
-    robots.set_url("https://www.ipoji.com/robots.txt")
+    robots.set_url(f"{u.scheme}://{u.netloc}/robots.txt")
     robots.read()
-    if not robots.can_fetch(GMP_UA, IPOJI_URL):
-        print("  IPO Ji: its robots.txt does not allow this, so we skip it")
+    if not robots.can_fetch(GMP_UA, url):
+        print("  GMP tracker: its robots.txt does not allow this, so we skip it")
         return None
-    r = requests.get(IPOJI_URL, headers={"User-Agent": GMP_UA, "Accept": "text/html"}, timeout=25)
+    r = requests.get(url, headers={"User-Agent": GMP_UA, "Accept": "text/html"}, timeout=25)
     r.raise_for_status()
     return r.text
 
 
 def web_gmp_rows(cfg):
-    """GMP readings from IPO Ji (credited as the source). Remembers what it has seen so a failed fetch never loses data."""
-    if not ((cfg.get("gmp_autofill") or {}).get("ipoji")) or SAMPLE:
+    """GMP readings from a public tracker. Remembers what it has seen so a failed fetch never loses data.
+    Log lines never print the tracker's address (logs on GitHub are public)."""
+    flags = cfg.get("gmp_autofill") or {}
+    if not any(flags.values()) or SAMPLE:
         return []
     path = DATA / "gmp_web.json"
     store = load_json(path, {"rows": []})
+    changed = False
+    for r in store["rows"]:                              # everything in this file came from the tracker: keep the label neutral
+        if r.get("source") != GMP_WEB_LABEL:
+            r["source"] = GMP_WEB_LABEL
+            changed = True
     html = None
     if "--from-probe" in ARGS:
-        f = DATA / "probe" / "ipoji_gmp.html"
-        html = f.read_text(encoding="utf-8") if f.exists() else None
+        files = [f for f in sorted((DATA / "probe").glob("*gmp*.html")) if not f.name.endswith("_last.html")]
+        html = files[0].read_text(encoding="utf-8") if files else None
     elif "--offline" not in ARGS and "--no-web-gmp" not in ARGS:
-        try:
-            html = fetch_ipoji()
-        except Exception as e:
-            print("IPO Ji GMP fetch failed (using the last saved readings):", e)
+        url = tracker_url()
+        if not url:
+            print("GMP tracker: no address set, using the last saved readings")
+        else:
+            try:
+                html = fetch_tracker(url)
+            except Exception as e:
+                print("GMP tracker fetch failed (using the last saved readings):", type(e).__name__)
     if html:
-        quotes = parse_ipoji_html(html)
-        print(f"IPO Ji: {len(quotes)} GMP readings found")
+        quotes = parse_tracker_html(html)
+        print(f"GMP tracker: {len(quotes)} readings found")
         if not quotes:
             (DATA / "probe").mkdir(exist_ok=True)
-            (DATA / "probe" / "ipoji_gmp_last.html").write_text(html, encoding="utf-8")
-            print("  none could be read: saved the page to data/probe/ipoji_gmp_last.html so the reader can be adjusted")
+            (DATA / "probe" / "tracker_gmp_last.html").write_text(html, encoding="utf-8")
+            print("  none could be read: saved the page to data/probe/tracker_gmp_last.html so the reader can be adjusted")
         seen = {(r["ipo"], r["gmp"], r["at"]) for r in store["rows"]}
         new = [q for q in quotes if (q["ipo"], q["gmp"], q["at"]) not in seen]
         if new:
             store["rows"] = (store["rows"] + new)[-3000:]
-            path.write_text(json.dumps(store, indent=1, ensure_ascii=False), encoding="utf-8")
+            changed = True
+    if changed:
+        path.write_text(json.dumps(store, indent=1, ensure_ascii=False), encoding="utf-8")
     return store["rows"]
 
 
@@ -874,8 +896,6 @@ def main():
         if unmatched:
             print("GMP: no matching IPO for:", ", ".join(sorted(unmatched)))
         sources = list(doc.get("sources", []))
-        if any(x.get("source") == "IPO Ji" for x in rows):
-            sources.append({"name": "IPO Ji (GMP)", "url": "https://www.ipoji.com/ipo-gmp"})
         if LOCAL_TEST:
             sources.append({"name": "Third-party GMP readings (local testing only, do not publish)", "url": ""})
         dataset = "local-test" if LOCAL_TEST else "live"
