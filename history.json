@@ -168,12 +168,12 @@
   {
    "name": "Sahajanand Medical Technologies",
    "segment": "MAIN",
-   "symbol": "BONFIG",
+   "symbol": "SMT",
    "open": "2026-10-15",
    "close": "2026-10-19",
    "listing": "2026-10-23",
-   "price": 586,
-   "price_low": 558,
+   "price": 344,
+   "price_low": 327,
    "exchange": "NSE · BSE",
    "listing_close": 378.2,
    "listing_gain_pct": 9.94,
@@ -183,7 +183,7 @@
    "gain": 34.2,
    "bse_url": "https://www.bseindia.com/stock-share-price/sahajanand-medical-technologies-ltd/smt/545001/",
    "live": true,
-   "id": "bonfiglioli-transmissions",
+   "id": "sahajanand-medical-technologies",
    "status": "listed"
   },
   {
@@ -728,12 +728,12 @@
   {
    "name": "AceVector",
    "segment": "MAIN",
-   "symbol": "RUNWALENTR",
+   "symbol": "ACEVECTOR",
    "open": "2026-09-25",
    "close": "2026-09-29",
    "listing": "2026-10-05",
-   "price": 305,
-   "price_low": 290,
+   "price": 32,
+   "price_low": 30,
    "exchange": "NSE · BSE",
    "listing_close": 26.1,
    "listing_gain_pct": -18.44,
@@ -849,19 +849,6 @@
    "gain": 53.75,
    "bse_url": "https://www.bseindia.com/stock-share-price/sai-urja-indo-ventures-ltd/saiurja/544958/",
    "id": "sai-urja-indo-ventures",
-   "status": "listed"
-  },
-  {
-   "name": "Himalayan Solar",
-   "segment": "SME",
-   "symbol": "HIMALAYAN",
-   "open": "2026-09-25",
-   "close": "2026-09-29",
-   "listing": "2026-10-05",
-   "price": 103,
-   "price_low": 98,
-   "exchange": "NSE Emerge",
-   "id": "himalayan-solar",
    "status": "listed"
   },
   {
@@ -5440,5 +5427,5 @@
    "status": "listed"
   }
  ],
- "generated_at": "2026-10-24T10:51+05:30"
+ "generated_at": "2026-10-24T10:53+05:30"
 }
