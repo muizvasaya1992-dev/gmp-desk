@@ -966,7 +966,8 @@ function renderContact(){
       <li><b>Business or data enquiries:</b> a line about who you are and what you have in mind.</li></ul></div>
     <div class="panel c-card"><h3>🛍️ About IPO Shop</h3>
       <p>IPO Shop is a free information website with the details of every IPO in India: dates, price band, lot size, subscription, grey market premium, allotment and listing. Dates, prices and subscription come from NSE and BSE. GMP comes from public trackers, which are credited on each number, and is unofficial.</p>
-      <p>We are not a broker, we do not sell or apply for IPOs, and nothing here is investment advice.</p></div></div>`;
+      <p>We are not a broker, we do not sell or apply for IPOs, and nothing here is investment advice.</p>
+      <p class="micro">We count visits with Cloudflare Web Analytics, which does not use cookies and does not follow people from site to site.</p></div></div>`;
 }
 
 /* ============ home page ============ */
@@ -1528,5 +1529,6 @@ $("drawer").addEventListener("click",e=>{ if(e.target===$("drawer")) closeDrawer
 $("drawer").addEventListener("close",()=>{ state.openId=null; history.replaceState(null,"",TABHASH[state.tab]||"#mainboard"); });
 load(); setInterval(load, 5*60*1000);
 </script>
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d53dfd3e4bc94b64b0e2312949a8a61e"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
