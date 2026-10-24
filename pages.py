@@ -15,6 +15,11 @@ ICON = ("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0
         "fill='%232f6fed'/%3E%3Ctext x='50' y='70' font-size='62' text-anchor='middle'%3E%F0%9F%93%88%3C/text%3E%3C/svg%3E")
 STATUS = {"upcoming": ("🚀", "Upcoming"), "open": ("🟢", "Open"), "closing_today": ("⏰", "Closing today"),
           "closed": ("🔒", "Closed"), "listed": ("🎉", "Listed")}
+REG = {"kfin": ("KFintech", "https://kosmic.kfintech.com/ipostatus/"),
+       "mufg": ("MUFG Intime", "https://linkintime.co.in/initial_offer/public-issues.html"),
+       "bigshare": ("Bigshare", "https://ipo.bigshareonline.com/IPO_Status.html"),
+       "skyline": ("Skyline", "https://www.skylinerta.com/ipo.php"),
+       "cameo": ("Cameo", "https://ipostatus.cameoindia.com")}
 MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
 
@@ -73,6 +78,27 @@ def merge(row, rec):
     return d
 
 
+def reg_key(name):
+    t = (name or "").lower()
+    for k, pats in (("kfin", ("kfin", "karvy")), ("mufg", ("mufg", "intime")), ("bigshare", ("bigshare",)), ("skyline", ("skyline",)), ("cameo", ("cameo",))):
+        if any(x in t for x in pats):
+            return k
+    return None
+
+
+def allot_card(d):
+    """After bidding closes, the thing most people search for: where to check their allotment."""
+    if d.get("status") not in ("closed", "listed"):
+        return ""
+    k = reg_key(d.get("registrar"))
+    regs = [REG[k]] if k else [REG[x] for x in ("kfin", "mufg", "bigshare")]
+    who = f"The registrar is {esc(d['registrar'])}." if d.get("registrar") else "The registrar is named in the offer document."
+    when = f" Allotment is expected on {dl(d['boa'])}." if d.get("boa") and d.get("status") == "closed" else ""
+    btns = "".join(f'<a class="btn" href="{u}" target="_blank" rel="noopener noreferrer">Check on {n} ↗</a>' for n, u in regs)
+    return (f'<section class="card"><h2>Check your allotment</h2><p style="margin:0 0 8px">{who}{when} Enter your PAN, application number or demat (DP) ID '
+            f"on the registrar's page and pick this IPO. IPO Shop never sees your application details.</p>{btns}</section>")
+
+
 def story(d):
     """A short plain-English summary: the first thing a reader (and a search engine) sees."""
     n, st, seg = d["name"], d.get("status"), seg_label(d)
@@ -83,6 +109,8 @@ def story(d):
         s = f"{n} IPO is open for bidding" + (f" until {c}" if c else "") + (f" ({cut})" if cut else "") + "."
     elif st == "closed":
         s = f"{n} IPO closed" + (f" on {c}" if c else "") + (f" and is due to list on {li}." if li else ".")
+        if d.get("boa"):
+            s += f" Allotment is expected on {dl(d['boa'])}."
     else:
         s = f"{n} was listed" + (f" on {li}" if li else "") + "."
     if d.get("price") is not None:
@@ -101,6 +129,11 @@ def story(d):
 
 def description(d):
     st, n = d.get("status"), d["name"]
+    if st == "closed":
+        t = f"{n} IPO ({'SME' if d.get('segment') == 'SME' else 'Mainboard'}) allotment status: bidding closed {dl(d.get('close'))}"
+        t += (f", allotment {dl(d['boa'])}" if d.get("boa") else "") + (f", listing {dl(d['listing'])}" if d.get("listing") else "")
+        t += ". Registrar link, subscription and GMP."
+        return t if len(t) <= 158 else t[:155].rstrip(" ,.") + "..."
     bits = [f"{n} IPO ({'SME' if d.get('segment') == 'SME' else 'Mainboard'})"]
     if st == "listed" and d.get("listing"):
         bits.append(f"listed {dl(d['listing'])}")
@@ -167,6 +200,7 @@ h1{font-size:clamp(26px,4vw,38px);line-height:1.15;letter-spacing:-.03em;margin:
 .card h2{font-size:19px;margin:0 0 12px;letter-spacing:-.01em}
 dl{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px 24px;margin:0}dt{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}dd{margin:2px 0 0;font-weight:600}
 .live{background:linear-gradient(135deg,#e8f1ff,#e4f7ee);border-color:#d3e3ff}.live dl{grid-template-columns:repeat(auto-fill,minmax(200px,1fr))}
+.meter{display:inline-flex;gap:3px;vertical-align:middle;margin-right:6px}.meter i{width:10px;height:10px;border-radius:50%;background:#e4e8f1}.meter i.on{background:#14905d}
 .btn{display:inline-block;padding:10px 18px;border-radius:12px;background:var(--navy);color:#fff;font-weight:700;text-decoration:none;margin:4px 8px 0 0}
 .btn.alt{background:#fff;color:var(--ink);border:1px solid var(--line)}
 .muted{color:var(--muted);font-size:14px}footer{margin-top:36px;background:var(--navy);color:#aab6dd;padding:28px 0;font-size:13.5px;line-height:1.6}
@@ -203,7 +237,10 @@ function get(u){return fetch(u+"?"+Date.now(),{cache:"no-store"}).then(function(
 Promise.all([get("/ipos.json"),get("/history.json")]).then(function(r){
 var a=r[0],b=r[1],live=a&&a.ipos&&a.ipos.filter(function(x){return x.id===id})[0],row=b&&b.rows&&b.rows.filter(function(x){return x.id===id})[0],out=[];
 if(live){
- if(live.sub&&live.sub.total!=null)out.push(["Subscription",n(live.sub.total)+"x"+(live.sub.retail!=null?" (retail "+n(live.sub.retail)+"x)":"")]);
+ if(live.sub&&live.sub.total!=null){out.push(["Subscription",n(live.sub.total)+"x"+(live.sub.retail!=null?" (retail "+n(live.sub.retail)+"x)":"")]);
+  var t=live.sub.total,l=t>=50?5:t>=10?4:t>=3?3:t>=1?2:1,m='<span class="meter" title="Demand '+l+' of 5: how heavily subscribed. Not a rating of the IPO.">';
+  for(var k=1;k<=5;k++)m+='<i'+(k<=l?' class="on"':'')+'></i>';
+  out.push(["Demand meter",m+"</span>"+l+" of 5"]);}
  if(live.gmp!=null)out.push(["GMP (unofficial)","₹"+n(live.gmp)+(live.gmp_pct!=null?" ("+p(live.gmp_pct)+")":"")+(live.gmp_source_latest&&live.gmp_source_latest!=="IPO Shop"?" via "+live.gmp_source_latest:"")]);
  if(live.gmp!=null&&live.price!=null)out.push(["Estimated listing price","₹"+n(live.price+live.gmp)]);
 }
@@ -218,7 +255,8 @@ def render_page(d):
     url = f"{SITE}/ipo/{d['id']}/"
     st = d.get("status") or "listed"
     emo, lab = STATUS.get(st, STATUS["listed"])
-    title = next((t for t in (f"{d['name']} IPO: dates, price band, lot size, GMP | IPO Shop", f"{d['name']} IPO: dates, price band, GMP | IPO Shop",
+    first = f"{d['name']} IPO allotment status, dates, GMP | IPO Shop" if st == "closed" else f"{d['name']} IPO: dates, price band, lot size, GMP | IPO Shop"
+    title = next((t for t in (first, f"{d['name']} IPO: dates, price band, GMP | IPO Shop",
                               f"{d['name']} IPO | IPO Shop") if len(t) <= 66), f"{d['name'][:48].rstrip()}... IPO | IPO Shop")
     ld = json.dumps({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "IPO Shop", "item": SITE + "/"},
@@ -237,8 +275,9 @@ def render_page(d):
 <section class="card live"><h2>Live numbers</h2><div id="live-body"><p class="muted">Loading live subscription, GMP and price…</p></div>
 <noscript><p class="muted">Turn on JavaScript to see live subscription and GMP.</p></noscript>
 <a class="btn" href="{live_link}">Open in the live tracker</a><a class="btn alt" href="/ipo/">All IPOs</a></section>
-{apply_card}
-<section class="card"><h2>About this page</h2><p class="muted" style="margin:0">Facts on this page come from NSE and BSE and are refreshed automatically. GMP is unofficial and comes from public trackers, credited where shown. This is information, not advice. See the offer document before you invest.</p></section>
+{allot_card(d)}{apply_card}
+<section class="card"><h2>About this page</h2><p class="muted" style="margin:0 0 10px">Facts on this page come from NSE and BSE and are refreshed automatically. GMP is unofficial and comes from public trackers, credited where shown. This is information, not advice. See the offer document before you invest.</p>
+<p class="muted" style="margin:0"><b>Demand meter:</b> 1 means under 1x subscribed, 2 is 1x to 3x, 3 is 3x to 10x, 4 is 10x to 50x and 5 is 50x or more. It shows how much demand there is. It does not say whether the IPO is a good one.</p></section>
 </main>{LIVE_JS.replace("__ID__", d['id'])}"""
     return head(title, description(d), url, extra=f'<script type="application/ld+json">{ld}</script>') + body + FOOT
 

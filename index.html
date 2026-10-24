@@ -691,6 +691,10 @@ main{margin-top:-26px}
 .contact-band{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:24px 28px;border-radius:28px;background:linear-gradient(135deg,#e8f1ff,#e4f7ee);border:1px solid #d3e3ff}
 .contact-band h3{margin:0 0 4px;font-size:19px} .contact-band p{margin:0;color:var(--slate-700)}
 @media (max-width:760px){ .contact-grid{grid-template-columns:1fr} .c-card{padding:20px} }
+.meter{display:inline-flex;gap:3px;vertical-align:middle;margin-left:4px}
+.meter i{width:9px;height:9px;border-radius:50%;background:var(--slate-100);box-shadow:inset 0 0 0 1px var(--line)}
+.meter i.on{background:var(--green-600);box-shadow:none}
+.glance .s .meter{margin:0 8px 0 0}
 </style>
 </head>
 <body>
@@ -852,11 +856,13 @@ function gmpBlock(i){
   return `<div class="gv ${i.gmp>=0?"pos":"neg"}"><b>${rs(i.gmp)}</b>${i.gmp_pct!=null?`<span class="delta">${pct(i.gmp_pct)}</span>`:""}</div>`+
          (i.price!=null?`<div class="micro">Est. listing ${rs(i.price+i.gmp)}${i.gmp_source_latest&&i.gmp_source_latest!=="IPO Shop"&&i.gmp_source_latest!=="GMP Desk"?" · via "+esc(i.gmp_source_latest):""}</div>`:"");
 }
+const meterLevel=t=>t>=50?5:t>=10?4:t>=3?3:t>=1?2:1;
+const meter=t=>{ const n=meterLevel(t); return `<span class="meter" role="img" aria-label="Demand ${n} out of 5" title="Demand ${n} of 5: how heavily the IPO is subscribed. It is not a rating of the IPO.">${[1,2,3,4,5].map(k=>`<i class="${k<=n?"on":""}"></i>`).join("")}</span>`; };
 const demand=t=>t>=10?"🔥 Heavily subscribed":t>=1?"📈 Oversubscribed":"🌱 Filling up";
 function subBlock(i){
   const t = i.sub && i.sub.total;
   if(t==null) return `<span class="muted">${i.status==="upcoming"?"Not open yet":"–"}</span>`;
-  return `<div class="subv">${t.toFixed(2)}x</div><div class="bar2"><i class="${t>=1?"full":""}" style="width:${Math.min(100,t/2*100)}%"></i></div><div class="micro" style="margin-top:4px">${demand(t)}</div>`;
+  return `<div class="subv">${t.toFixed(2)}x ${meter(t)}</div><div class="bar2"><i class="${t>=1?"full":""}" style="width:${Math.min(100,t/2*100)}%"></i></div><div class="micro" style="margin-top:4px">${demand(t)}</div>`;
 }
 function cdText(i){
   const now=new Date(), today=new Date(now.getFullYear(),now.getMonth(),now.getDate(),12);
@@ -879,11 +885,13 @@ function miniTimeline(i){
 
 /* ============ extras ============ */
 const REG = {
-  kfin:{name:"KFintech",url:"https://www.kfintech.com/"},
-  mufg:{name:"MUFG Intime",url:"https://in.mpms.mufg.com/"},
-  bigshare:{name:"Bigshare",url:"https://www.bigshareonline.com/"}
+  kfin:{name:"KFintech",url:"https://kosmic.kfintech.com/ipostatus/"},
+  mufg:{name:"MUFG Intime",url:"https://linkintime.co.in/initial_offer/public-issues.html"},
+  bigshare:{name:"Bigshare",url:"https://ipo.bigshareonline.com/IPO_Status.html"},
+  skyline:{name:"Skyline",url:"https://www.skylinerta.com/ipo.php"},
+  cameo:{name:"Cameo",url:"https://ipostatus.cameoindia.com"}
 };
-function regKey(s){ const t=(s||"").toLowerCase(); if(/kfin|karvy/.test(t)) return "kfin"; if(/mufg|intime/.test(t)) return "mufg"; if(/bigshare/.test(t)) return "bigshare"; return null; }
+function regKey(s){ const t=(s||"").toLowerCase(); if(/kfin|karvy/.test(t)) return "kfin"; if(/mufg|intime/.test(t)) return "mufg"; if(/bigshare/.test(t)) return "bigshare"; if(/skyline/.test(t)) return "skyline"; if(/cameo/.test(t)) return "cameo"; return null; }
 function allotBlock(i){
   if(i.status!=="closed" && i.status!=="listed") return "";
   const k=regKey(i.registrar), list=k?[REG[k]]:Object.values(REG);
@@ -1255,7 +1263,7 @@ function ring(t){
 function card(i){
   const sub=[i.size_cr!=null?cr(i.size_cr)+" issue":null, i.symbol||null].filter(Boolean).join(" · ");
   const t=i.sub&&i.sub.total;
-  const subHtml=t!=null?`<div class="ringbox">${ring(t)}<div><div class="subv">${t.toFixed(2)}x</div><div class="micro">${demand(t)}</div></div></div>`:`<span class="muted">${i.status==="upcoming"?"Not open yet":"–"}</span>`;
+  const subHtml=t!=null?`<div class="ringbox">${ring(t)}<div><div class="subv">${t.toFixed(2)}x ${meter(t)}</div><div class="micro">${demand(t)}</div></div></div>`:`<span class="muted">${i.status==="upcoming"?"Not open yet":"–"}</span>`;
   return `<button class="card" data-id="${esc(i.id)}" data-s="${i.status}" aria-label="${esc(i.name)}, ${STATUS[i.status].label}">
     <div class="c-top">${avatar(i.name,true)}<div class="c-id"><h3>${esc(i.name)}</h3><p class="sub">${esc(sub||stateSub(i))}</p></div>${starSpan(i)}</div>
     <div class="c-chips">${pill(i)}${cdChip(i)}<span class="chip">${esc(i.exchange|| (i.segment==="SME"?"SME":"Mainboard"))}</span>${i.unconfirmed?`<span class="chip warn" title="Not on NSE's or BSE's official lists yet">Unconfirmed</span>`:""}</div>
@@ -1369,10 +1377,11 @@ function glance(i){
     : i.status==="upcoming" ? ["Opens",dd(i.open),"closes "+dd(i.close)]
     : i.status==="listed" ? ["Listed",dd(i.listing),""] : ["Closed",dd(i.close),i.listing?"lists "+dd(i.listing):""];
   const minInv = (i.price!=null&&i.lot!=null) ? ["Minimum to apply","₹"+inr(i.price*i.lot),inr(i.lot)+" shares, at the top of the band"] : ["Minimum to apply","–",""];
-  const subT = i.sub&&i.sub.total!=null ? ["Subscribed",i.sub.total.toFixed(2)+"x",i.sub.total>=1?"more demand than shares on offer":"not fully subscribed yet"] : ["Subscribed",i.status==="upcoming"?"Not open yet":"–",""];
+  const subT = i.sub&&i.sub.total!=null ? ["Subscribed",i.sub.total.toFixed(2)+"x",{html:`${meter(i.sub.total)}Demand ${meterLevel(i.sub.total)} of 5`}] : ["Subscribed",i.status==="upcoming"?"Not open yet":"–",""];
   const gm = i.gmp!=null ? ["GMP (unofficial)",rs(i.gmp),i.gmp_pct!=null?pct(i.gmp_pct):""] : ["GMP (unofficial)","Not reported",""];
-  return `<div class="glance">${[minInv,when,subT,gm].map(([k,v,s])=>`<div><div class="k">${k}</div><div class="v">${esc(v)}</div><div class="s">${esc(s)}</div></div>`).join("")}</div>`;
+  return `<div class="glance">${[minInv,when,subT,gm].map(([k,v,s])=>`<div><div class="k">${k}</div><div class="v">${esc(v)}</div><div class="s">${s&&s.html?s.html:esc(s)}</div></div>`).join("")}</div>`;
 }
+const meterNote=i=>i.sub&&i.sub.total!=null?`<p class="micro" style="margin:8px 0 0"><b>Demand meter:</b> 1 means under 1x subscribed, 2 is 1x to 3x, 3 is 3x to 10x, 4 is 10x to 50x and 5 is 50x or more. It shows demand, not whether the IPO is good.</p>`:"";
 function chanceBlock(i){
   const r=i.sub&&i.sub.retail; if(r==null||!(i.status==="open"||i.status==="closing_today"||i.status==="closed")) return "";
   const live=i.status!=="closed"?" These numbers keep changing until the issue closes.":"";
@@ -1407,7 +1416,7 @@ function openDrawer(id, quiet){
   $("db").innerHTML = `
     ${i.unconfirmed?`<p class="verdict" style="margin:0 0 14px"><b>Not on an official list yet.</b> NSE and BSE don't list this issue, so its dates and price come from other sources and may change.</p>`:""}
     <div class="acts"><a class="btn" href="ipo/${esc(i.id)}/">Full page ↗</a><button class="btn" data-act="watch">${watchLabel(i.id)}</button><button class="btn" data-act="copy">Copy link</button><button class="btn" data-act="ics">Add dates to calendar</button>${i.rhp_url?`<a class="btn" href="${esc(i.rhp_url)}" target="_blank" rel="noopener">Offer document (RHP) ↗</a>`:""}</div>
-    ${glance(i)}${chanceBlock(i)}${howBlock(i)}
+    ${glance(i)}${meterNote(i)}${chanceBlock(i)}${howBlock(i)}
     <h3>Key facts</h3>
     <dl class="facts">
       <div><dt>Price band</dt><dd>${band(i)}</dd></div>

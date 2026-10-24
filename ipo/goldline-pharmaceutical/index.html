@@ -20,6 +20,7 @@ h1{font-size:clamp(26px,4vw,38px);line-height:1.15;letter-spacing:-.03em;margin:
 .card h2{font-size:19px;margin:0 0 12px;letter-spacing:-.01em}
 dl{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px 24px;margin:0}dt{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}dd{margin:2px 0 0;font-weight:600}
 .live{background:linear-gradient(135deg,#e8f1ff,#e4f7ee);border-color:#d3e3ff}.live dl{grid-template-columns:repeat(auto-fill,minmax(200px,1fr))}
+.meter{display:inline-flex;gap:3px;vertical-align:middle;margin-right:6px}.meter i{width:10px;height:10px;border-radius:50%;background:#e4e8f1}.meter i.on{background:#14905d}
 .btn{display:inline-block;padding:10px 18px;border-radius:12px;background:var(--navy);color:#fff;font-weight:700;text-decoration:none;margin:4px 8px 0 0}
 .btn.alt{background:#fff;color:var(--ink);border:1px solid var(--line)}
 .muted{color:var(--muted);font-size:14px}footer{margin-top:36px;background:var(--navy);color:#aab6dd;padding:28px 0;font-size:13.5px;line-height:1.6}
@@ -36,8 +37,9 @@ ul.list li{padding:6px 0;border-bottom:1px solid var(--line)}ul.list small{color
 <section class="card live"><h2>Live numbers</h2><div id="live-body"><p class="muted">Loading live subscription, GMP and price…</p></div>
 <noscript><p class="muted">Turn on JavaScript to see live subscription and GMP.</p></noscript>
 <a class="btn" href="/#year">Open in the live tracker</a><a class="btn alt" href="/ipo/">All IPOs</a></section>
-
-<section class="card"><h2>About this page</h2><p class="muted" style="margin:0">Facts on this page come from NSE and BSE and are refreshed automatically. GMP is unofficial and comes from public trackers, credited where shown. This is information, not advice. See the offer document before you invest.</p></section>
+<section class="card"><h2>Check your allotment</h2><p style="margin:0 0 8px">The registrar is named in the offer document. Enter your PAN, application number or demat (DP) ID on the registrar's page and pick this IPO. IPO Shop never sees your application details.</p><a class="btn" href="https://kosmic.kfintech.com/ipostatus/" target="_blank" rel="noopener noreferrer">Check on KFintech ↗</a><a class="btn" href="https://linkintime.co.in/initial_offer/public-issues.html" target="_blank" rel="noopener noreferrer">Check on MUFG Intime ↗</a><a class="btn" href="https://ipo.bigshareonline.com/IPO_Status.html" target="_blank" rel="noopener noreferrer">Check on Bigshare ↗</a></section>
+<section class="card"><h2>About this page</h2><p class="muted" style="margin:0 0 10px">Facts on this page come from NSE and BSE and are refreshed automatically. GMP is unofficial and comes from public trackers, credited where shown. This is information, not advice. See the offer document before you invest.</p>
+<p class="muted" style="margin:0"><b>Demand meter:</b> 1 means under 1x subscribed, 2 is 1x to 3x, 3 is 3x to 10x, 4 is 10x to 50x and 5 is 50x or more. It shows how much demand there is. It does not say whether the IPO is a good one.</p></section>
 </main><script>
 (function(){var id="goldline-pharmaceutical",box=document.getElementById("live-body");
 function n(v,d){return Number(v).toLocaleString("en-IN",{maximumFractionDigits:d==null?2:d})}
@@ -46,7 +48,10 @@ function get(u){return fetch(u+"?"+Date.now(),{cache:"no-store"}).then(function(
 Promise.all([get("/ipos.json"),get("/history.json")]).then(function(r){
 var a=r[0],b=r[1],live=a&&a.ipos&&a.ipos.filter(function(x){return x.id===id})[0],row=b&&b.rows&&b.rows.filter(function(x){return x.id===id})[0],out=[];
 if(live){
- if(live.sub&&live.sub.total!=null)out.push(["Subscription",n(live.sub.total)+"x"+(live.sub.retail!=null?" (retail "+n(live.sub.retail)+"x)":"")]);
+ if(live.sub&&live.sub.total!=null){out.push(["Subscription",n(live.sub.total)+"x"+(live.sub.retail!=null?" (retail "+n(live.sub.retail)+"x)":"")]);
+  var t=live.sub.total,l=t>=50?5:t>=10?4:t>=3?3:t>=1?2:1,m='<span class="meter" title="Demand '+l+' of 5: how heavily subscribed. Not a rating of the IPO.">';
+  for(var k=1;k<=5;k++)m+='<i'+(k<=l?' class="on"':'')+'></i>';
+  out.push(["Demand meter",m+"</span>"+l+" of 5"]);}
  if(live.gmp!=null)out.push(["GMP (unofficial)","₹"+n(live.gmp)+(live.gmp_pct!=null?" ("+p(live.gmp_pct)+")":"")+(live.gmp_source_latest&&live.gmp_source_latest!=="IPO Shop"?" via "+live.gmp_source_latest:"")]);
  if(live.gmp!=null&&live.price!=null)out.push(["Estimated listing price","₹"+n(live.price+live.gmp)]);
 }
