@@ -750,7 +750,7 @@ main{margin-top:-26px}
     <div class="sf-brand">
       <a class="brand" href="#home"><span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg></span><span class="w">IPO <b>Shop</b></span></a>
       <p>Open, upcoming and listed IPOs in India, from official NSE and BSE data.</p>
-      <div class="sf-live"><span class="badge" id="badge">…</span><span id="asof"></span></div>
+      <div class="sf-live"><span class="badge" id="badge">…</span><span id="asof" title="The time the data last changed. The site is checked more often than this, but only saves when something is new."></span></div>
     </div>
     <div><h4>Explore</h4><a href="#home">Home</a><a href="#mainboard">Mainboard IPOs</a><a href="#sme">SME IPOs</a><a href="#year">All 2026 IPOs</a><a href="#calendar">IPO calendar</a><a href="#contact">Contact us</a></div>
     <div><h4>Good to know</h4><p>GMP (grey market premium) is unofficial, comes from informal markets and is not regulated by SEBI or the exchanges. It changes quickly and often differs from the actual listing price.</p></div>
@@ -784,7 +784,7 @@ const GROUPS = [
   {k:"closing_today", label:"Closing today", icon:"bell", tone:"t-amber", test:i=>i.status==="closing_today"},
   {k:"done", label:"Closed & listed", icon:"check", tone:"t-slate", test:i=>i.status==="closed"||i.status==="listed"}
 ];
-const CONTACT_EMAIL = "";   // put the public contact address here, for example "name@example.com"
+const CONTACT_EMAIL = ["muizvasaya19","yahoo.in"].join("@");   // the public contact address
 const TEXT = {
   CONTACT:{emo:"✉️",eyebrow:"Contact",h1:"Contact us",lede:""},
   HOME:{emo:"🏠",eyebrow:"",h1:"IPO Shop",lede:""},
@@ -1470,7 +1470,7 @@ async function load(){
     const r=await fetch(DATASET+"?"+Date.now(),{cache:"no-store"}); if(!r.ok) throw new Error("HTTP "+r.status);
     const data=await r.json(); state.all=data.ipos; state.stats=data.market_stats||null; state.feeds=data.feeds||null; state.dataset=data.dataset||"";
     $("badge").textContent=({sample:"Sample data","local-test":"Local test data"})[data.dataset]||"Live";
-    $("asof").textContent="Updated "+tt(data.generated_at);
+    $("asof").textContent="Data last changed "+tt(data.generated_at);
     readHash(); render(); renderTicker(); if(state.dataset==="live") ensureHistory(); if(state.openId) openDrawer(state.openId,true);
   }catch(e){
     $("view").innerHTML=`<div class="panel"><div class="err">Could not load ${esc(DATASET)} (${esc(e.message)}). If you opened this file directly, run <code>python -m http.server 8000</code> in this folder and visit http://localhost:8000.</div></div>`;
