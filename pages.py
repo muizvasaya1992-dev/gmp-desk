@@ -206,6 +206,7 @@ dl{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14
 .muted{color:var(--muted);font-size:14px}footer{margin-top:36px;background:var(--navy);color:#aab6dd;padding:28px 0;font-size:13.5px;line-height:1.6}
 ul.list{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:8px 22px}
 ul.list li{padding:6px 0;border-bottom:1px solid var(--line)}ul.list small{color:var(--muted);display:block}
+.dm{display:none;margin-left:10px;font-size:12.5px;font-weight:700;color:#2a3558;white-space:nowrap}.dm .meter{margin-right:4px}
 @media(max-width:560px){.card{padding:18px}nav{margin-left:0}}
 """
 
@@ -282,11 +283,20 @@ def render_page(d):
     return head(title, description(d), url, extra=f'<script type="application/ld+json">{ld}</script>') + body + FOOT
 
 
+HUB_JS = """<script>
+(function(){fetch("/ipos.json?"+Date.now(),{cache:"no-store"}).then(function(r){return r.json()}).then(function(a){
+var m={};(a.ipos||[]).forEach(function(i){if(i.sub&&i.sub.total!=null)m[i.id]=i.sub.total});
+document.querySelectorAll(".dm").forEach(function(el){var t=m[el.getAttribute("data-id")];if(t==null)return;
+var l=t>=50?5:t>=10?4:t>=3?3:t>=1?2:1,h='<span class="meter" title="Demand '+l+' of 5: how heavily subscribed. Not a rating of the IPO.">';
+for(var k=1;k<=5;k++)h+='<i'+(k<=l?' class="on"':'')+'></i>';el.innerHTML=h+'</span>'+t.toFixed(1)+'x';el.style.display='inline-block'})}).catch(function(){})})();
+</script>"""
+
+
 def render_hub(ds):
     def item(d):
         emo, lab = STATUS.get(d.get("status") or "listed", STATUS["listed"])
         when = dl(d.get("listing")) if d.get("status") == "listed" else (f"{dl(d.get('open'))} to {dl(d.get('close'))}" if d.get("open") and d.get("close") else lab)
-        return f'<li><a href="/ipo/{esc(d["id"])}/">{esc(d["name"])}</a><small>{emo} {lab} · {esc(when)}</small></li>'
+        return f'<li><a href="/ipo/{esc(d["id"])}/">{esc(d["name"])}</a><span class="dm" data-id="{esc(d["id"])}"></span><small>{emo} {lab} · {esc(when)}</small></li>'
     key = lambda d: d.get("listing") or d.get("close") or d.get("open") or ""
     live = sorted([d for d in ds if d.get("status") in ("open", "closing_today")], key=lambda d: d.get("close") or "")
     up = sorted([d for d in ds if d.get("status") == "upcoming"], key=lambda d: d.get("open") or "")
@@ -298,9 +308,10 @@ def render_hub(ds):
     desc = "Every IPO in India: open, upcoming and listed Mainboard and SME IPOs, with dates, price band, lot size, subscription and GMP. Official NSE and BSE data."
     body = (f'<main class="w"><div class="crumbs"><a href="/">Home</a> › All IPOs</div><h1>All IPOs in India</h1>'
             f'<p class="lead">{len(ds)} IPOs with their dates, price band, lot size, subscription, GMP and listing details. Pick any IPO to see its page.</p>'
+            '<p class="muted" style="margin:-8px 0 16px">The dots next to an IPO are its <b>demand meter</b>, from 1 to 5, showing how heavily it is subscribed. They appear for IPOs that have live subscription numbers.</p>'
             + block("🟢 Open now", live) + block("🚀 Coming up", up) + block("🔒 Closed, awaiting listing", closed)
             + block("🎉 Listed Mainboard IPOs", main) + block("🎉 Listed SME IPOs", sme) + "</main>")
-    return head("All IPOs in India: open, upcoming and listed | IPO Shop", desc, SITE + "/ipo/") + body + FOOT
+    return head("All IPOs in India: open, upcoming and listed | IPO Shop", desc, SITE + "/ipo/") + body + HUB_JS + FOOT
 
 
 def write_sitemap(root, ds):

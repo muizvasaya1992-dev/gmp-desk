@@ -1100,6 +1100,7 @@ function yearRows(){
   return rows;
 }
 function yearRow(r,n){
+  const lv=state.all.find(i=>i.id===r.id), dm=lv&&lv.sub&&lv.sub.total!=null?`<span class="micro">Demand ${meter(lv.sub.total)} ${lv.sub.total.toFixed(1)}x</span>`:"";
   const medal=(state.yf.sort==='lbest'||state.yf.sort==='nbest')&&!state.yf.q&&n<3?['🥇 ','🥈 ','🥉 '][n]:'';
   const listed=r.status==="listed";
   const when = listed ? `<div class="a">${dd(r.listing)}</div>` : `<div>${pill(r)}</div>`;
@@ -1107,7 +1108,7 @@ function yearRow(r,n){
   const money=(v)=>v==null?`<span class="muted">–</span>`:`<span class="${v>=0?"pos2":"neg2"}">${v<0?"−":""}₹${inr2(Math.abs(v))}</span>`;
   const ret=(v)=>v==null?`<span class="muted">–</span>`:`<span class="${v>=0?"pos2":"neg2"}">${pct(v)}</span>`;
   return `<tr tabindex="0" data-yid="${esc(r.id)}" aria-label="${esc(r.name)}">
-    <td><div class="co">${avatar(r.name)}<span><b>${medal}${esc(r.name)}</b><span class="micro">${esc([r.exchange,r.symbol].filter(Boolean).join(" · "))}${r.unconfirmed?` <span class="chip warn">Unconfirmed</span>`:""}</span></span></div></td>
+    <td><div class="co">${avatar(r.name)}<span><b>${medal}${esc(r.name)}</b><span class="micro">${esc([r.exchange,r.symbol].filter(Boolean).join(" · "))}${r.unconfirmed?` <span class="chip warn">Unconfirmed</span>`:""}</span>${dm}</span></div></td>
     <td class="two">${when}<div class="b">${sub}</div></td>
     <td class="num">${r.price!=null?"₹"+inr(r.price):"–"}</td>
     <td class="num">${r.listing_close!=null?"₹"+inr2(r.listing_close):`<span class="muted">–</span>`}</td>
