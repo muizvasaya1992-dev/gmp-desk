@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T18:17+05:30",
+  "generated_at": "2026-10-24T22:13+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-10-24T10:51+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-10-24T18:17+05:30",
+    "nse_ok_at": "2026-10-24T22:13+05:30",
     "bse_ok_at": "2026-10-24T14:17+05:30"
   },
   "ipos": [
@@ -268,8 +268,8 @@
       "gmp_sources": [
         {
           "source": "Public trackers",
-          "gmp": 246,
-          "at": "2026-10-24T15:30"
+          "gmp": 243,
+          "at": "2026-10-24T21:30"
         }
       ],
       "gmp_history": [
@@ -279,16 +279,16 @@
         },
         {
           "date": "2026-10-24",
-          "gmp": 246
+          "gmp": 243
         }
       ],
       "history_source": "Public trackers",
       "gmp_low": 240,
       "gmp_high": 246,
-      "gmp": 246,
-      "gmp_asof": "2026-10-24T15:30",
+      "gmp": 243,
+      "gmp_asof": "2026-10-24T21:30",
       "gmp_source_latest": "Public trackers",
-      "gmp_pct": 21.98,
+      "gmp_pct": 21.72,
       "status": "closed",
       "unconfirmed": false
     },
@@ -445,7 +445,7 @@
         {
           "source": "Public trackers",
           "gmp": 10,
-          "at": "2026-10-24T06:30"
+          "at": "2026-10-24T21:30"
         }
       ],
       "gmp_history": [
@@ -462,7 +462,7 @@
       "gmp_low": 8,
       "gmp_high": 10,
       "gmp": 10,
-      "gmp_asof": "2026-10-24T06:30",
+      "gmp_asof": "2026-10-24T21:30",
       "gmp_source_latest": "Public trackers",
       "gmp_pct": 1.44,
       "status": "closed",
@@ -502,23 +502,27 @@
       "gmp_sources": [
         {
           "source": "Public trackers",
-          "gmp": 24,
-          "at": "2026-10-23T22:00"
+          "gmp": 25,
+          "at": "2026-10-24T21:30"
         }
       ],
       "gmp_history": [
         {
           "date": "2026-10-23",
           "gmp": 24
+        },
+        {
+          "date": "2026-10-24",
+          "gmp": 25
         }
       ],
       "history_source": "Public trackers",
       "gmp_low": 24,
-      "gmp_high": 24,
-      "gmp": 24,
-      "gmp_asof": "2026-10-23T22:00",
+      "gmp_high": 25,
+      "gmp": 25,
+      "gmp_asof": "2026-10-24T21:30",
       "gmp_source_latest": "Public trackers",
-      "gmp_pct": 16.0,
+      "gmp_pct": 16.67,
       "status": "upcoming",
       "unconfirmed": false
     },
@@ -556,8 +560,8 @@
       "gmp_sources": [
         {
           "source": "Public trackers",
-          "gmp": 21,
-          "at": "2026-10-24T11:15"
+          "gmp": 24,
+          "at": "2026-10-24T21:30"
         }
       ],
       "gmp_history": [
@@ -567,16 +571,16 @@
         },
         {
           "date": "2026-10-24",
-          "gmp": 21
+          "gmp": 24
         }
       ],
       "history_source": "Public trackers",
       "gmp_low": 21,
-      "gmp_high": 21,
-      "gmp": 21,
-      "gmp_asof": "2026-10-24T11:15",
+      "gmp_high": 24,
+      "gmp": 24,
+      "gmp_asof": "2026-10-24T21:30",
       "gmp_source_latest": "Public trackers",
-      "gmp_pct": 6.36,
+      "gmp_pct": 7.27,
       "status": "upcoming",
       "unconfirmed": false
     },
@@ -614,23 +618,23 @@
       "gmp_sources": [
         {
           "source": "Public trackers",
-          "gmp": 120,
-          "at": "2026-10-24T06:30"
+          "gmp": 50,
+          "at": "2026-10-24T21:30"
         }
       ],
       "gmp_history": [
         {
           "date": "2026-10-24",
-          "gmp": 120
+          "gmp": 50
         }
       ],
       "history_source": "Public trackers",
-      "gmp_low": 120,
+      "gmp_low": 50,
       "gmp_high": 120,
-      "gmp": 120,
-      "gmp_asof": "2026-10-24T06:30",
+      "gmp": 50,
+      "gmp_asof": "2026-10-24T21:30",
       "gmp_source_latest": "Public trackers",
-      "gmp_pct": 7.21,
+      "gmp_pct": 3.0,
       "status": "upcoming",
       "unconfirmed": false
     },
@@ -657,12 +661,16 @@
         {
           "source": "Public trackers",
           "gmp": 8,
-          "at": "2026-10-23T22:00"
+          "at": "2026-10-24T21:30"
         }
       ],
       "gmp_history": [
         {
           "date": "2026-10-23",
+          "gmp": 8
+        },
+        {
+          "date": "2026-10-24",
           "gmp": 8
         }
       ],
@@ -670,7 +678,7 @@
       "gmp_low": 8,
       "gmp_high": 8,
       "gmp": 8,
-      "gmp_asof": "2026-10-23T22:00",
+      "gmp_asof": "2026-10-24T21:30",
       "gmp_source_latest": "Public trackers",
       "gmp_pct": null,
       "status": "upcoming",
@@ -846,10 +854,26 @@
       "shares_offered": 17000000.0,
       "updated_on": "2026-10-24T10:51+05:30",
       "bse_ipo_no": "8062",
-      "gmp_sources": [],
-      "gmp_history": [],
-      "gmp": null,
-      "gmp_pct": null,
+      "gmp_sources": [
+        {
+          "source": "Public trackers",
+          "gmp": 7,
+          "at": "2026-10-24T21:30"
+        }
+      ],
+      "gmp_history": [
+        {
+          "date": "2026-10-24",
+          "gmp": 7
+        }
+      ],
+      "history_source": "Public trackers",
+      "gmp_low": 7,
+      "gmp_high": 7,
+      "gmp": 7,
+      "gmp_asof": "2026-10-24T21:30",
+      "gmp_source_latest": "Public trackers",
+      "gmp_pct": 4.32,
       "status": "upcoming",
       "unconfirmed": false
     }
