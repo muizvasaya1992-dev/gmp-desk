@@ -1,7 +1,7 @@
 {
  "year": 2026,
  "bse_as_of": "2026-10-24T10:51+05:30",
- "nse_as_of": "2026-10-25T01:04+05:30",
+ "nse_as_of": "2026-10-26T01:17+05:30",
  "rows": [
   {
    "name": "Bombay Coated and Special Steels",
@@ -83,7 +83,7 @@
    "exchange": "NSE · BSE",
    "live": true,
    "id": "eaaa-india-alternatives",
-   "status": "upcoming",
+   "status": "open",
    "open": "2026-10-26",
    "close": "2026-10-28",
    "price": 1665,
@@ -146,26 +146,6 @@
    "price_low": 660
   },
   {
-   "name": "Tonbo Imaging India",
-   "segment": "MAIN",
-   "symbol": "TONBO",
-   "open": "2026-10-15",
-   "close": "2026-10-19",
-   "listing": "2026-10-23",
-   "price": 700,
-   "price_low": 665,
-   "exchange": "NSE · BSE",
-   "listing_close": 1133.65,
-   "listing_gain_pct": 61.95,
-   "current": 1133.65,
-   "gain_pct": 61.95,
-   "listing_gain": 433.65,
-   "gain": 433.65,
-   "bse_url": "https://www.bseindia.com/stock-share-price/tonbo-imaging-india-ltd/tonbo/544999/",
-   "id": "tonbo-imaging-india",
-   "status": "listed"
-  },
-  {
    "name": "Sahajanand Medical Technologies",
    "segment": "MAIN",
    "symbol": "SMT",
@@ -225,6 +205,26 @@
    "bse_url": "https://www.bseindia.com/stock-share-price/bonfiglioli-transmissions-ltd/bonfig/544996/",
    "live": true,
    "id": "bonfiglioli-transmissions",
+   "status": "listed"
+  },
+  {
+   "name": "Tonbo Imaging India",
+   "segment": "MAIN",
+   "symbol": "TONBO",
+   "open": "2026-10-15",
+   "close": "2026-10-19",
+   "listing": "2026-10-23",
+   "price": 700,
+   "price_low": 665,
+   "exchange": "NSE · BSE",
+   "listing_close": 1133.65,
+   "listing_gain_pct": 61.95,
+   "current": 1133.65,
+   "gain_pct": 61.95,
+   "listing_gain": 433.65,
+   "gain": 433.65,
+   "bse_url": "https://www.bseindia.com/stock-share-price/tonbo-imaging-india-ltd/tonbo/544999/",
+   "id": "tonbo-imaging-india",
    "status": "listed"
   },
   {
@@ -766,26 +766,6 @@
    "status": "listed"
   },
   {
-   "name": "Orient Cables (India)",
-   "segment": "MAIN",
-   "symbol": "ORIENTCABL",
-   "open": "2026-09-25",
-   "close": "2026-09-29",
-   "listing": "2026-10-05",
-   "price": 272,
-   "price_low": 258,
-   "exchange": "NSE · BSE",
-   "listing_close": 403.3,
-   "listing_gain_pct": 48.27,
-   "current": 341.15,
-   "gain_pct": 25.42,
-   "listing_gain": 131.3,
-   "gain": 69.15,
-   "bse_url": "https://www.bseindia.com/stock-share-price/orient-cables-(india)-ltd/orientcabl/544960/",
-   "id": "orient-cables-india",
-   "status": "listed"
-  },
-  {
    "name": "Runwal Enterprises",
    "segment": "MAIN",
    "symbol": "RUNWALENTR",
@@ -803,6 +783,26 @@
    "gain": -91.35,
    "bse_url": "https://www.bseindia.com/stock-share-price/runwal-enterprises-ltd/runwalentr/544959/",
    "id": "runwal-enterprises",
+   "status": "listed"
+  },
+  {
+   "name": "Orient Cables (India)",
+   "segment": "MAIN",
+   "symbol": "ORIENTCABL",
+   "open": "2026-09-25",
+   "close": "2026-09-29",
+   "listing": "2026-10-05",
+   "price": 272,
+   "price_low": 258,
+   "exchange": "NSE · BSE",
+   "listing_close": 403.3,
+   "listing_gain_pct": 48.27,
+   "current": 341.15,
+   "gain_pct": 25.42,
+   "listing_gain": 131.3,
+   "gain": 69.15,
+   "bse_url": "https://www.bseindia.com/stock-share-price/orient-cables-(india)-ltd/orientcabl/544960/",
+   "id": "orient-cables-india",
    "status": "listed"
   },
   {
@@ -5427,5 +5427,5 @@
    "status": "listed"
   }
  ],
- "generated_at": "2026-10-25T01:04+05:30"
+ "generated_at": "2026-10-26T01:17+05:30"
 }

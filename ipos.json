@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T22:06+05:30",
+  "generated_at": "2026-10-26T01:17+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-10-24T10:51+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-10-25T22:06+05:30",
+    "nse_ok_at": "2026-10-26T01:17+05:30",
     "bse_ok_at": "2026-10-24T14:17+05:30"
   },
   "ipos": [
@@ -505,7 +505,7 @@
       "series": "EQ",
       "nse_status": "Forthcoming",
       "shares_offered": 17000000.0,
-      "updated_on": "2026-10-25T01:04+05:30",
+      "updated_on": "2026-10-26T01:17+05:30",
       "bse_ipo_no": "8056",
       "gmp_sources": [
         {
@@ -567,7 +567,7 @@
       "series": "EQ",
       "nse_status": "Forthcoming",
       "shares_offered": 20475082.0,
-      "updated_on": "2026-10-25T01:04+05:30",
+      "updated_on": "2026-10-26T01:17+05:30",
       "bse_ipo_no": "8060",
       "gmp_sources": [
         {
@@ -621,15 +621,25 @@
       "close": "2026-10-28",
       "price": 1665,
       "segment": "MAIN",
+      "sub": {
+        "total": 0.0
+      },
+      "sub_basis": "NSE+BSE",
+      "sub_asof": null,
       "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_EDELALTS.zip",
       "retail_max": 200000,
       "cutoff_time": "5:00 PM",
       "price_low": 1585,
-      "sub_history": null,
+      "sub_history": [
+        {
+          "at": "2026-10-26T01:17+05:30",
+          "total": 0.0
+        }
+      ],
       "series": "EQ",
-      "nse_status": "Forthcoming",
+      "nse_status": "Active",
       "shares_offered": 5299684.0,
-      "updated_on": "2026-10-25T01:04+05:30",
+      "updated_on": "2026-10-26T01:17+05:30",
       "bse_ipo_no": "8054",
       "gmp_sources": [
         {
@@ -655,7 +665,7 @@
       "gmp_asof": "2026-10-25T21:15",
       "gmp_source_latest": "Public trackers",
       "gmp_pct": 2.1,
-      "status": "upcoming",
+      "status": "open",
       "unconfirmed": false
     },
     {
@@ -876,7 +886,7 @@
       "series": "EQ",
       "nse_status": "Forthcoming",
       "shares_offered": 17000000.0,
-      "updated_on": "2026-10-25T01:04+05:30",
+      "updated_on": "2026-10-26T01:17+05:30",
       "bse_ipo_no": "8062",
       "gmp_sources": [
         {
