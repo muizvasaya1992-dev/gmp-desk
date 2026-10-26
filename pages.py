@@ -74,7 +74,7 @@ def merge(row, rec):
     d = dict(row)
     for k, v in (rec or {}).items():
         if k in ("lot", "registrar", "lead_managers", "size_cr", "boa", "cutoff_time", "retail_max", "rhp_url",
-                 "open", "close", "listing", "price", "price_low", "status", "symbol") and v not in (None, "", []):
+                 "open", "close", "listing", "price", "price_low", "status", "symbol", "sub", "gmp", "gmp_pct", "listing_price", "reservation") and v not in (None, "", []):
             d[k] = v
     return d
 
@@ -212,13 +212,21 @@ dl{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14
 ul.list{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:8px 22px}
 ul.list li{padding:6px 0;border-bottom:1px solid var(--line)}ul.list small{color:var(--muted);display:block}
 .dm{display:none;margin-left:10px;font-size:12.5px;font-weight:700;color:#2a3558;white-space:nowrap}.dm .meter{margin-right:4px}
+.w.wide{max-width:1100px}.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.card h3{font-size:16px;margin:16px 0 4px}.card h3:first-of-type{margin-top:0}.card p{margin:0 0 8px}
+ol.tl{list-style:none;margin:0;padding:0;display:grid;gap:10px}ol.tl li{display:flex;justify-content:space-between;gap:12px;padding:10px 14px;background:#f4f6fb;border-radius:12px}
+.tw{overflow-x:auto;border:1px solid var(--line);border-radius:14px;background:#fff;margin:0 0 6px}
+table.t{border-collapse:collapse;width:100%;font-size:14.5px}table.t th{background:#f4f6fb;text-align:left;font-size:12px;letter-spacing:.05em;text-transform:uppercase;color:#3d4a6b}
+table.t th,table.t td{padding:10px 12px;border-bottom:1px solid var(--line);white-space:nowrap;vertical-align:top}table.t td:first-child{white-space:normal;min-width:190px;font-weight:600}
+table.t small{display:block;color:var(--muted);font-weight:400}table.t tr:last-child td{border-bottom:0}
+.links a{display:inline-block;margin:0 14px 6px 0}.swipe{display:none;margin:0 0 6px!important}@media(max-width:700px){.swipe{display:block}}
 @media(max-width:560px){.card{padding:18px}nav{margin-left:0}}
 """
 
 
 def head(title, desc, url, robots=None, extra=""):
     r = f'<meta name="robots" content="{robots}">\n' if robots else ""
-    return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+    return f"""<!doctype html><html lang="en-IN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
 <link rel="canonical" href="{url}">
@@ -233,6 +241,7 @@ def head(title, desc, url, robots=None, extra=""):
 
 FOOT = f"""<footer><div class="w">IPO Shop is an information website. It does not sell, apply for or recommend IPOs, and nothing here is investment advice.
 GMP (grey market premium) is unofficial and often differs from the actual listing price. Read the offer document (RHP) and speak to a SEBI-registered advisor before investing.
+<br>Browse: <a href="/open-ipos/" style="color:#c4cdee">Open IPOs</a> · <a href="/upcoming-ipos/" style="color:#c4cdee">Upcoming IPOs</a> · <a href="/ipo-gmp-today/" style="color:#c4cdee">IPO GMP today</a> · <a href="/ipo-allotment-status/" style="color:#c4cdee">Allotment status</a> · <a href="/sme-ipos/" style="color:#c4cdee">SME IPOs</a> · <a href="/mainboard-ipos/" style="color:#c4cdee">Mainboard IPOs</a> · <a href="/ipo-calendar/" style="color:#c4cdee">IPO calendar</a> · <a href="/listed-ipos-2026/" style="color:#c4cdee">Listed IPOs 2026</a>
 <br>Dates, prices and subscription come from NSE and BSE. <a href="/#contact" style="color:#c4cdee">Spotted a mistake? Tell us.</a> · <a href="{WA_CHANNEL}" target="_blank" rel="noopener" style="color:#c4cdee">WhatsApp channel</a></div></footer>
 {BEACON}</body></html>"""
 
@@ -269,7 +278,50 @@ def wa_share(d):
     return "https://wa.me/?text=" + quote(text, safe="")
 
 
-def render_page(d):
+def timeline(d):
+    ev = [(k, dl(d.get(f))) for k, f in (("Opens", "open"), ("Closes", "close"), ("Allotment", "boa"), ("Listing", "listing")) if d.get(f)]
+    if len(ev) < 2:
+        return ""
+    return (f'<section class="card"><h2>{esc(d["name"])} IPO timeline</h2><ol class="tl">'
+            + "".join(f"<li><b>{k}</b><span>{esc(v)}</span></li>" for k, v in ev) + "</ol></section>")
+
+
+def faq(d):
+    n, st = d["name"], d.get("status")
+    qa = []
+    if st == "listed":
+        if d.get("price") is not None:
+            qa.append((f"What was the {n} IPO issue price?", f"The issue price of {n} was {rs(d['price'])} per share."))
+    else:
+        qa.append((f"What is the {n} IPO price band?", f"The price band is {band(d)}." if band(d) else "The price band has not been announced yet. It is usually announced a few days before the IPO opens."))
+    if d.get("lot"):
+        a = f"The lot size is {inr(d['lot'])} shares."
+        if d.get("price") is not None:
+            a += f" At {rs(d['price'])} per share, one lot costs about {rs(d['lot'] * d['price'])}."
+        qa.append((f"What is the {n} IPO lot size?", a))
+    if d.get("open") and d.get("close"):
+        qa.append((f"When does the {n} IPO open and close?", f"The {n} IPO opens on {dl(d['open'])} and closes on {dl(d['close'])}" + (f" at {d['cutoff_time']}" if d.get("cutoff_time") else "") + "."))
+    if d.get("boa") or d.get("listing"):
+        bits = ([f"allotment is expected on {dl(d['boa'])}"] if d.get("boa") else []) + ([f"the shares are due to list on {dl(d['listing'])}"] if d.get("listing") else [])
+        qa.append((f"When is the {n} IPO allotment and listing date?", "For this IPO, " + " and ".join(bits) + "."))
+    if st in ("closed", "listed") and d.get("registrar"):
+        qa.append((f"How do I check {n} IPO allotment status?", f"{d['registrar']} is the registrar. Open its IPO allotment page, choose {n}, and enter your PAN, application number or demat (DP) ID."))
+    if not qa:
+        return ""
+    return (f'<section class="card"><h2>{esc(n)} IPO: common questions</h2>'
+            + "".join(f"<h3>{esc(q)}</h3><p>{esc(a)}</p>" for q, a in qa) + "</section>")
+
+
+def near_block(near):
+    if not near:
+        return ""
+    def li(d):
+        emo, lab = STATUS.get(d.get("status") or "listed", STATUS["listed"])
+        return f'<li><a href="/ipo/{esc(d["id"])}/">{esc(d["name"])} IPO</a><small>{emo} {lab}</small></li>'
+    return f'<section class="card"><h2>Other IPOs around the same time</h2><ul class="list">{"".join(li(d) for d in near)}</ul></section>'
+
+
+def render_page(d, near=()):
     url = f"{SITE}/ipo/{d['id']}/"
     st = d.get("status") or "listed"
     emo, lab = STATUS.get(st, STATUS["listed"])
@@ -294,6 +346,7 @@ def render_page(d):
 <noscript><p class="muted">Turn on JavaScript to see live subscription and GMP.</p></noscript>
 <a class="btn" href="{live_link}">Open in the live tracker</a><a class="btn alt" href="/ipo/">All IPOs</a></section>
 {allot_card(d)}{apply_card}
+{timeline(d)}{faq(d)}{near_block(near)}
 <section class="card"><h2>Share or follow</h2><a class="btn wa" href="{wa_share(d)}" target="_blank" rel="noopener">Share this IPO on WhatsApp ↗</a><a class="btn alt" href="{WA_CHANNEL}" target="_blank" rel="noopener">Follow our WhatsApp channel ↗</a></section>
 <section class="card"><h2>About this page</h2><p class="muted" style="margin:0 0 10px">Facts on this page come from NSE and BSE and are refreshed automatically. GMP is unofficial and comes from public trackers and our own checks. This is information, not advice. See the offer document before you invest.</p>
 <p class="muted" style="margin:0"><b>Demand meter:</b> 1 means under 1x subscribed, 2 is 1x to 3x, 3 is 3x to 10x, 4 is 10x to 50x and 5 is 50x or more. It shows how much demand there is. It does not say whether the IPO is a good one.</p></section>
@@ -412,8 +465,255 @@ def render_alert():
                 extra='<meta name="apple-mobile-web-app-title" content="IPO Alert"><meta name="theme-color" content="#111735"><link rel="manifest" href="/alert/manifest.webmanifest">') + body + js + FOOT
 
 
+# ============================================================ landing pages for the searches people actually make
+SLUGS = ("open-ipos", "upcoming-ipos", "ipo-gmp-today", "ipo-allotment-status", "sme-ipos", "mainboard-ipos", "ipo-calendar", "listed-ipos-2026")
+ASOF_JS = """<script>(function(){var el=document.getElementById("asof");if(!el)return;fetch("/ipos.json?"+Date.now(),{cache:"no-store"}).then(function(r){return r.json()}).then(function(a){if(!a.generated_at)return;var t=new Date(a.generated_at);el.textContent="Live data last changed "+t.toLocaleString("en-GB",{timeZone:"Asia/Kolkata",day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"})+" IST. This page refreshes automatically."}).catch(function(){})})();</script>"""
+ORDER = {"closing_today": 0, "open": 1, "upcoming": 2, "closed": 3, "listed": 4}
+
+
+def dsh(iso):
+    return f"{int(iso[8:10])} {MONTHS[int(iso[5:7]) - 1]}" if iso else ""
+
+
+def link(d):
+    return f'<a href="/ipo/{esc(d["id"])}/">{esc(d["name"])}</a>' + ("<small>SME IPO</small>" if d.get("segment") == "SME" else "<small>Mainboard IPO</small>")
+
+
+def C_dates(d):
+    return f"{dsh(d.get('open'))} – {dsh(d.get('close'))}" if d.get("open") and d.get("close") else "–"
+
+
+def C_band(d):
+    return esc(band(d)) or "To be announced"
+
+
+def C_lot(d):
+    if d.get("lot") and d.get("price") is not None:
+        return f"{inr(d['lot'])} shares<small>One lot {rs(d['lot'] * d['price'])}</small>"
+    return "–"
+
+
+def C_sub(d):
+    t = (d.get("sub") or {}).get("total")
+    return f"{t:.2f}x" if t is not None else "–"
+
+
+def srs(n):
+    return ("−" if n < 0 else "") + rs(abs(n))
+
+
+def spct(p):
+    return ("−" if p < 0 else "+") + f"{abs(p):.1f}%"
+
+
+def C_gmp(d):
+    if d.get("gmp") is None:
+        return "–"
+    pct = d.get("gmp_pct")
+    return srs(d["gmp"]) + (f"<small>{spct(pct)} of price</small>" if pct is not None else "")
+
+
+def C_est(d):
+    return rs(d["price"] + d["gmp"]) if d.get("gmp") is not None and d.get("price") is not None else "–"
+
+
+def C_status(d):
+    emo, lab = STATUS.get(d.get("status") or "listed", STATUS["listed"])
+    return f"{emo} {lab}"
+
+
+def C_size(d):
+    return f"₹{inr(d['size_cr'])} Cr" if d.get("size_cr") is not None else "–"
+
+
+def C_allot(d):
+    return dsh(d.get("boa")) or ("–" if d.get("status") == "listed" else "To be announced")
+
+
+def C_listing(d):
+    return dsh(d.get("listing")) or "–"
+
+
+def C_reg(d):
+    return esc(d.get("registrar") or "–")
+
+
+def C_closed(d):
+    return dsh(d.get("close")) or "–"
+
+
+def C_type(d):
+    return "SME" if d.get("segment") == "SME" else "Mainboard"
+
+
+def C_gain(d):
+    g = d.get("listing_gain_pct")
+    return (f"{rs(d['listing_close'])}<small>{'−' if g < 0 else '+'}{abs(g):.2f}% vs issue price</small>" if g is not None and d.get("listing_close") is not None else "–")
+
+
+def C_issue(d):
+    return rs(d["price"]) if d.get("price") is not None else "–"
+
+
+def table(rows, cols, caption):
+    return (f'<div class="tw"><table class="t"><caption class="sr">{esc(caption)}</caption><thead><tr>'
+            + "".join(f'<th scope="col">{esc(h)}</th>' for h, _ in cols) + "</tr></thead><tbody>"
+            + "".join("<tr>" + "".join(f"<td>{fn(d)}</td>" for _, fn in cols) + "</tr>" for d in rows) + "</tbody></table></div>")
+
+
+def block(title, rows, cols, note=""):
+    return (f'<section class="card"><h2>{esc(title)} ({len(rows)})</h2>' + (f'<p class="muted">{note}</p>' if note else "") + '<p class="muted swipe">Swipe the table sideways to see every column.</p>' + table(rows, cols, title) + "</section>") if rows else ""
+
+
+NAME = ("IPO", link)
+COLS_LIVE = [NAME, ("Opens – closes", C_dates), ("Price band", C_band), ("Lot size", C_lot), ("Subscribed", C_sub), ("GMP (unofficial)", C_gmp)]
+COLS_UP = [NAME, ("Opens – closes", C_dates), ("Price band", C_band), ("Lot size", C_lot), ("Issue size", C_size), ("GMP (unofficial)", C_gmp)]
+COLS_CLOSED = [NAME, ("Closed", C_closed), ("Allotment", C_allot), ("Listing", C_listing), ("Registrar", C_reg), ("Subscribed", C_sub)]
+COLS_LISTED = [NAME, ("Issue price", C_issue), ("Listed on", C_listing), ("Listing-day close", C_gain)]
+
+PAGE_LINKS = (("/open-ipos/", "Open IPOs"), ("/upcoming-ipos/", "Upcoming IPOs"), ("/ipo-gmp-today/", "IPO GMP today"), ("/ipo-allotment-status/", "Allotment status"),
+              ("/sme-ipos/", "SME IPOs"), ("/mainboard-ipos/", "Mainboard IPOs"), ("/ipo-calendar/", "IPO calendar"), ("/listed-ipos-2026/", "Listed IPOs 2026"), ("/ipo/", "All IPOs"))
+HOWTO = ("Open the IPO section of your broker or bank app, pick the IPO, choose the number of lots and enter your UPI ID. Approve the payment request in your UPI app before the cut-off on the last day. "
+         "The money stays blocked in your account until allotment. IPO Shop does not take applications.")
+SUBQ = "Subscription shows how many times the shares on offer have been bid for. 5x means investors asked for five times the shares available. It measures demand and does not predict the listing price."
+GMPQ = "GMP, the grey market premium, is an unofficial price in the grey market. The exchanges do not publish it, it can change quickly, and it often differs from the real listing price."
+
+
+def landing(slug, title, h1, desc, intro, blocks, faqs, items):
+    url = f"{SITE}/{slug}/"
+    ld = json.dumps({"@context": "https://schema.org", "@graph": [
+        {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "IPO Shop", "item": SITE + "/"}, {"@type": "ListItem", "position": 2, "name": h1, "item": url}]},
+        {"@type": "ItemList", "name": h1, "itemListElement": [{"@type": "ListItem", "position": k + 1, "name": d["name"] + " IPO", "url": f"{SITE}/ipo/{d['id']}/"} for k, d in enumerate(items[:40])]}]}, ensure_ascii=False)
+    more = "".join(f'<a href="{u}">{esc(t)}</a>' for u, t in PAGE_LINKS if u != f"/{slug}/")
+    body = (f'<main class="w wide"><div class="crumbs"><a href="/">Home</a> › {esc(h1)}</div><h1>{esc(h1)}</h1><p class="lead">{intro}</p>'
+            '<p class="muted" id="asof">Figures refresh automatically through the day.</p>' + blocks
+            + '<section class="card"><h2>Common questions</h2>' + "".join(f"<h3>{esc(q)}</h3><p>{esc(a)}</p>" for q, a in faqs) + "</section>"
+            + f'<section class="card links"><h2>More on IPO Shop</h2>{more}</section>'
+            '<p class="muted">Facts only, not investment advice. GMP is unofficial. Read the offer document (RHP) before investing.</p></main>')
+    return head(title, desc, url, extra=f'<script type="application/ld+json">{ld}</script>') + body + ASOF_JS + FOOT
+
+
+def by(ds, f, key=None):
+    return sorted([d for d in ds if f(d)], key=key or (lambda d: (d.get("close") or d.get("open") or "", d["name"])))
+
+
+def lp_open(ds):
+    rows = by(ds, lambda d: d.get("status") in ("open", "closing_today"))
+    nxt = by(ds, lambda d: d.get("status") == "upcoming", lambda d: (d.get("open") or "9999", d["name"]))[:4]
+    if rows:
+        n = len(rows)
+        intro = f"{n} IPO{'s are' if n > 1 else ' is'} open for bidding in India right now: " + ", ".join(esc(d["name"]) for d in rows[:6]) + (" and more" if n > 6 else "") + ". See the price band, lot size, how many times each issue is subscribed so far and the unofficial GMP."
+    else:
+        intro = "No IPO is open for bidding in India at the moment. The IPOs that open next are listed below with their dates and price band."
+    blocks = block("Open for bidding", rows, COLS_LIVE) + block("Opening next", nxt, COLS_UP)
+    return landing("open-ipos", "Open IPOs Today in India: Price Band, GMP, Subscription | IPO Shop", "Open IPOs today in India",
+                   "IPOs open for bidding today in India with price band, lot size, live subscription, GMP and closing date. Mainboard and SME, from NSE and BSE data.",
+                   intro, blocks, [("How do I apply for an open IPO?", HOWTO), ("What does subscription mean?", SUBQ), ("Is the GMP reliable?", GMPQ)], rows + nxt)
+
+
+def lp_upcoming(ds):
+    rows = by(ds, lambda d: d.get("status") == "upcoming", lambda d: (d.get("open") or "9999", d["name"]))
+    intro = (f"{len(rows)} upcoming IPO{'s' if len(rows) != 1 else ''} in India: " + ", ".join(esc(d["name"]) for d in rows[:6]) + (" and more" if len(rows) > 6 else "") + ". Check the opening and closing dates, price band and lot size before the bidding starts.") if rows else "No upcoming IPO has been announced at the moment. Check back soon, this page updates automatically."
+    return landing("upcoming-ipos", "Upcoming IPOs in India: Dates, Price Band, Lot Size | IPO Shop", "Upcoming IPOs in India",
+                   "Upcoming Mainboard and SME IPOs in India with opening and closing dates, price band, lot size, issue size and unofficial GMP. From NSE and BSE data.",
+                   intro, block("Upcoming IPOs", rows, COLS_UP),
+                   [("How are the price band and lot size decided?", "The company announces the price band a few days before the IPO opens. The lot size is the minimum number of shares you must bid for, so the minimum investment is the lot size times the price."),
+                    ("How do I apply when an IPO opens?", HOWTO), ("Where do the dates come from?", "Dates, price band and lot size come from NSE and BSE and are refreshed automatically. Always confirm in the offer document (RHP).")], rows)
+
+
+def lp_gmp(ds):
+    rows = by(ds, lambda d: d.get("gmp") is not None and d.get("status") in ("upcoming", "open", "closing_today", "closed"), lambda d: (ORDER.get(d.get("status"), 9), d.get("close") or "", d["name"]))
+    cols = [NAME, ("Status", C_status), ("Price band", C_band), ("GMP (unofficial)", C_gmp), ("Price + GMP (unofficial)", C_est), ("Subscribed", C_sub)]
+    intro = (f"The grey market premium is being reported for {len(rows)} IPO{'s' if len(rows) != 1 else ''} right now. GMP is unofficial and is not a promise of the listing price." if rows
+             else "No grey market premium is being reported for open or upcoming IPOs right now. GMP is unofficial, and it appears here when a public tracker reports it.")
+    return landing("ipo-gmp-today", "IPO GMP Today: Grey Market Premium of Open IPOs | IPO Shop", "IPO GMP today",
+                   "IPO GMP today: grey market premium of open and upcoming IPOs in India with price band and subscription. GMP is unofficial and not a listing guarantee.",
+                   intro, block("IPOs with a reported GMP", rows, cols, "GMP is unofficial and changes quickly. Price + GMP is a simple sum, not a forecast."),
+                   [("What is GMP in an IPO?", GMPQ), ("Does a high GMP guarantee a listing gain?", "No. The GMP can fall or rise before listing, and the final price depends on how the shares trade on the first day."),
+                    ("Where does the GMP on IPO Shop come from?", "GMP figures come from public trackers and our own checks. They are unofficial and shown for information only.")], rows)
+
+
+def lp_allot(ds):
+    closed = by(ds, lambda d: d.get("status") == "closed", lambda d: (d.get("boa") or d.get("close") or "9999", d["name"]))
+    recent = by(ds, lambda d: d.get("status") == "listed" and d.get("listing"), lambda d: d["listing"])[-10:][::-1]
+    reg = ('<section class="card"><h2>Check your allotment on the registrar website</h2><p class="muted">Each IPO has one registrar. Its name is on the IPO page.</p><ul class="list">'
+           + "".join(f'<li><a href="{u}" target="_blank" rel="noopener noreferrer">{esc(n)} ↗</a></li>' for n, u in REG.values()) + "</ul></section>")
+    cols = [NAME, ("Closed", C_closed), ("Allotment", C_allot), ("Listing", C_listing), ("Registrar", C_reg)]
+    cols_done = [NAME, ("Closed", C_closed), ("Listed on", C_listing), ("Registrar", C_reg)]
+    intro = ("Find out how to check your IPO allotment status, and see the latest IPOs with their allotment and listing dates. " + (f"{len(closed)} IPO{'s are' if len(closed) != 1 else ' is'} closed and waiting for allotment or listing." if closed else "Open any IPO page for its registrar and dates."))
+    return landing("ipo-allotment-status", "IPO Allotment Status: How to Check, Latest IPOs | IPO Shop", "IPO allotment status",
+                   "How to check IPO allotment status with the registrar, plus allotment and listing dates of the latest IPOs in India. Mainboard and SME.",
+                   intro, block("Closed IPOs, allotment and listing", closed, cols) + reg + block("Recently listed IPOs", recent, cols_done),
+                   [("How do I check my IPO allotment status?", "Open the registrar's IPO allotment page named for your IPO, choose the IPO, and enter your PAN, application number or demat (DP) ID. Your broker app may also show the result."),
+                    ("When will I get the shares or the refund?", "Allotment is usually finalised a day after the IPO closes. Shares are credited to your demat account and unused money is released, usually about a day before listing."),
+                    ("What if I did not get any shares?", "Many IPOs are oversubscribed, so not every applicant is allotted shares. The money blocked through UPI is released after allotment.")], closed + recent)
+
+
+def lp_segment(ds, seg):
+    sme = seg == "SME"
+    mine = [d for d in ds if (d.get("segment") == "SME") == sme]
+    live = by(mine, lambda d: d.get("status") in ("open", "closing_today"))
+    up = by(mine, lambda d: d.get("status") == "upcoming", lambda d: (d.get("open") or "9999", d["name"]))
+    closed = by(mine, lambda d: d.get("status") == "closed", lambda d: (d.get("boa") or d.get("close") or "9999", d["name"]))
+    listed = by(mine, lambda d: d.get("status") == "listed" and d.get("listing"), lambda d: d["listing"])[-15:][::-1]
+    word, slug = ("SME", "sme-ipos") if sme else ("Mainboard", "mainboard-ipos")
+    intro = (f"{word} IPOs in India: {len(live)} open now, {len(up)} upcoming and {len(closed)} waiting for listing. " + ("SME IPOs come from smaller companies on BSE SME and NSE Emerge, with bigger lots and thinner trading." if sme else "Mainboard IPOs come from larger companies that list on the main boards of NSE and BSE."))
+    q1 = ("What is an SME IPO?", "An SME IPO is a public issue by a small or medium company that lists on the SME platform of BSE (BSE SME) or NSE (NSE Emerge). The lot size is bigger, so the minimum investment is usually higher than for Mainboard IPOs, and trading can be thinner.") if sme else \
+         ("What is a Mainboard IPO?", "A Mainboard IPO is a public issue by a larger company that lists on the main boards of NSE and BSE. Retail investors can bid for up to ₹2 lakh in one application.")
+    return landing(slug, f"{word} IPOs in India: Open, Upcoming and Listed | IPO Shop", f"{word} IPOs in India",
+                   f"{word} IPOs in India: open, upcoming and recently listed, with dates, price band, lot size, subscription and GMP. From NSE and BSE data.",
+                   intro, block(f"Open {word} IPOs", live, COLS_LIVE) + block(f"Upcoming {word} IPOs", up, COLS_UP) + block("Closed, waiting to list", closed, COLS_CLOSED) + block(f"Recently listed {word} IPOs", listed, COLS_LISTED),
+                   [q1, ("How do I apply?", HOWTO), ("What does subscription mean?", SUBQ)], live + up + closed + listed)
+
+
+def lp_calendar(ds):
+    ev = []
+    for d in ds:
+        st = d.get("status")
+        if st == "upcoming":
+            fields = (("open", "Opens"), ("close", "Closes"), ("boa", "Allotment"), ("listing", "Listing"))
+        elif st in ("open", "closing_today"):
+            fields = (("close", "Closes"), ("boa", "Allotment"), ("listing", "Listing"))
+        elif st == "closed":
+            fields = (("boa", "Allotment"), ("listing", "Listing"))
+        else:
+            continue
+        ev += [(d[f], lab, d) for f, lab in fields if d.get(f)]
+    ev.sort(key=lambda e: (e[0], e[1], e[2]["name"]))
+    rows = "".join(f"<tr><td>{esc(dl(dt_))}</td><td>{lab}</td><td>{link(d)}</td></tr>" for dt_, lab, d in ev)
+    tbl = (f'<section class="card"><h2>Key dates ({len(ev)})</h2><div class="tw"><table class="t"><caption class="sr">IPO key dates</caption><thead><tr><th scope="col">Date</th><th scope="col">Event</th><th scope="col">IPO</th></tr></thead><tbody>{rows}</tbody></table></div></section>') if ev else ""
+    items, seen = [], set()
+    for _, _, d in ev:
+        if d["id"] not in seen:
+            seen.add(d["id"]); items.append(d)
+    intro = "Opening, closing, allotment and listing dates of the IPOs that are open, upcoming or waiting to list in India, in date order." if ev else "No IPO dates are scheduled at the moment. This calendar fills in when new IPOs are announced."
+    return landing("ipo-calendar", "IPO Calendar India: Opening, Closing and Listing Dates | IPO Shop", "IPO calendar India",
+                   "IPO calendar for India: opening, closing, allotment and listing dates of open and upcoming Mainboard and SME IPOs, in date order.",
+                   intro, tbl, [("How do I read the calendar?", "Each row is one date for one IPO: when bidding opens, when it closes, the expected allotment date or the listing date."),
+                                ("Are the dates final?", "Dates come from NSE and BSE and can change if the company or the exchange revises them. Check the IPO page and the offer document before you plan."),
+                                ("How do I apply?", HOWTO)], items)
+
+
+def lp_listed(ds):
+    rows = by(ds, lambda d: d.get("status") == "listed" and d.get("listing"), lambda d: (d["listing"], d["name"]))[::-1]
+    with_g = [d for d in rows if d.get("listing_gain_pct") is not None]
+    up = sum(1 for d in with_g if d["listing_gain_pct"] > 0)
+    intro = (f"{len(rows)} IPOs have listed in 2026 so far." + (f" Of the {len(with_g)} with listing-day data, {up} closed above the issue price on the first day and {len(with_g) - up} closed at or below it." if with_g else "")
+             + " The table shows each IPO's issue price and its close on the listing day.")
+    return landing("listed-ipos-2026", "IPOs Listed in 2026: Listing-Day Gain and Loss | IPO Shop", "IPOs listed in 2026",
+                   "All IPOs listed in India in 2026 with issue price, listing date and listing-day close, gain or loss. Mainboard and SME, from NSE and BSE data.",
+                   intro, block("Listed in 2026", rows, COLS_LISTED),
+                   [("What does listing-day gain mean?", "It compares the share's close on the first trading day with the IPO issue price. A positive figure means it closed above the issue price."),
+                    ("Does the listing-day result show how the share did later?", "No. It covers the first day only. Prices keep moving after listing."),
+                    ("Where does this data come from?", "Listing details come from NSE and BSE. Some IPOs have no listing-day figure yet.")], rows)
+
+
+LANDERS = (("open-ipos", lp_open), ("upcoming-ipos", lp_upcoming), ("ipo-gmp-today", lp_gmp), ("ipo-allotment-status", lp_allot),
+           ("sme-ipos", lambda ds: lp_segment(ds, "SME")), ("mainboard-ipos", lambda ds: lp_segment(ds, "MAIN")), ("ipo-calendar", lp_calendar), ("listed-ipos-2026", lp_listed))
+
+
 def write_sitemap(root, ds):
-    urls = [SITE + "/", SITE + "/ipo/"] + [f"{SITE}/ipo/{d['id']}/" for d in sorted(ds, key=lambda d: d["id"])]
+    urls = [SITE + "/", SITE + "/ipo/"] + [f"{SITE}/{sl}/" for sl in SLUGS] + [f"{SITE}/ipo/{d['id']}/" for d in sorted(ds, key=lambda d: d["id"])]
     xml = ('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
            + "".join(f"  <url><loc>{esc(u)}</loc></url>\n" for u in urls) + "</urlset>\n")
     p = root / "sitemap.xml"
@@ -439,9 +739,18 @@ def write_all(hist_rows, ipos, root, log=print):
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(text, encoding="utf-8", newline="\n")
         wrote += 1
+    by_seg = {}
+    for d in sorted(ds, key=lambda d: (d.get("open") or d.get("listing") or "", d["id"])):
+        by_seg.setdefault(d.get("segment") or "MAIN", []).append(d)
+    near = {}
+    for lst in by_seg.values():
+        for i, d in enumerate(lst):
+            near[d["id"]] = lst[max(0, i - 3):i] + lst[i + 1:i + 4]
     for d in ds:
         keep.add(d["id"])
-        save(base / d["id"] / "index.html", render_page(d))
+        save(base / d["id"] / "index.html", render_page(d, near.get(d["id"], [])))
+    for slug, fn in LANDERS:
+        save(root / slug / "index.html", fn(ds))
     save(base / "index.html", render_hub(ds))
     save(root / "404.html", render_404())
     save(root / "alert" / "index.html", render_alert())
