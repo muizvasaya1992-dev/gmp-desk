@@ -377,12 +377,14 @@ function show(off){mode=off;box.value=data?build(data,off):"Could not load the I
   document.getElementById("b0").setAttribute("aria-pressed",off===0);document.getElementById("b1").setAttribute("aria-pressed",off===1)}
 function ok(t){var s=document.getElementById("done");s.textContent=t;setTimeout(function(){s.textContent=""},2500)}
 document.getElementById("b0").onclick=function(){show(0)};document.getElementById("b1").onclick=function(){show(1)};
-document.getElementById("copy").onclick=function(){var t=box.value;
+function copyNow(){var t=box.value;
   function fb(){box.select();try{document.execCommand("copy");ok("Copied. Now paste it into your Channel.")}catch(e){ok("Select the text and copy it by hand.")}}
-  if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(t).then(function(){ok("Copied. Now paste it into your Channel.")},fb);else fb()};
+  if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(t).then(function(){ok("Copied. Now paste it into your Channel.")},fb);else fb()}
+document.getElementById("copy").onclick=copyNow;
+document.getElementById("copyopen").addEventListener("click",copyNow);
 document.getElementById("share").onclick=function(){window.open("https://wa.me/?text="+encodeURIComponent(box.value),"_blank","noopener")};
 fetch("/ipos.json?"+Date.now(),{cache:"no-store"}).then(function(r){return r.json()}).then(function(a){
-  data=a.ipos||[];
+  data=(a.ipos||[]).filter(function(i){return !i.unconfirmed});
   if(a.generated_at){var t=new Date(a.generated_at);note.textContent="Data last changed "+t.toLocaleString("en-GB",{timeZone:"Asia/Kolkata",day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"})+" IST."}
   var h=Number(new Intl.DateTimeFormat("en-GB",{timeZone:"Asia/Kolkata",hour:"2-digit",hour12:false}).format(new Date(Date.now())));
   show(h>=17?1:0)}).catch(function(){data=null;show(0)});
@@ -397,16 +399,17 @@ def render_alert():
             "<button class=\"btn alt\" id=\"b1\" type=\"button\" aria-pressed=\"false\">Tomorrow</button></div>"
             "<label for=\"msg\" class=\"muted\" style=\"display:block;margin:14px 0 6px\">Message (you can edit it before copying)</label>"
             "<textarea id=\"msg\" rows=\"18\" spellcheck=\"false\" style=\"width:100%;box-sizing:border-box;padding:14px;border:1px solid var(--line);border-radius:12px;font:15px/1.5 Inter,system-ui,sans-serif;color:var(--ink);background:#fff\"></textarea>"
-            "<div style=\"margin-top:10px\"><button class=\"btn wa\" id=\"copy\" type=\"button\">Copy message</button>"
-            f"<a class=\"btn alt\" href=\"{WA_CHANNEL}\" target=\"_blank\" rel=\"noopener\">Open my Channel ↗</a>"
+            f"<div style=\"margin-top:10px\"><a class=\"btn wa\" id=\"copyopen\" href=\"{WA_CHANNEL}\" target=\"_blank\" rel=\"noopener\">Copy and open my Channel ↗</a>"
+            "<button class=\"btn alt\" id=\"copy\" type=\"button\">Copy message</button>"
             "<button class=\"btn alt\" id=\"share\" type=\"button\">Send to a chat ↗</button></div>"
             "<p id=\"done\" class=\"muted\" role=\"status\" style=\"min-height:1.4em;margin:10px 0 0\"></p>"
             "<p id=\"stamp\" class=\"muted\" style=\"margin:4px 0 0\"></p></section>"
-            "<section class=\"card\"><h2>How to post it</h2><p style=\"margin:0\">1. Tap <b>Copy message</b>. 2. Tap <b>Open my Channel</b> and open the Channel in WhatsApp. "
+            "<section class=\"card\"><h2>How to post it</h2><p style=\"margin:0\">1. Read the message above. 2. Tap <b>Copy and open my Channel</b>. WhatsApp opens your Channel. "
             "3. Paste the message and send. The bold text uses WhatsApp's own formatting, so it looks right once pasted. "
             "The message states facts only. Read it once before you send, because the data comes from public sources.</p></section></main>")
     js = ALERT_JS.replace("__CH__", WA_CHANNEL)
-    return head("Daily alert | IPO Shop", "A private page that writes the daily IPO message for the WhatsApp channel.", SITE + "/alert/", robots="noindex,nofollow") + body + js + FOOT
+    return head("Daily alert | IPO Shop", "A private page that writes the daily IPO message for the WhatsApp channel.", SITE + "/alert/", robots="noindex,nofollow",
+                extra='<meta name="apple-mobile-web-app-title" content="IPO Alert"><meta name="theme-color" content="#111735"><link rel="manifest" href="/alert/manifest.webmanifest">') + body + js + FOOT
 
 
 def write_sitemap(root, ds):
@@ -442,6 +445,9 @@ def write_all(hist_rows, ipos, root, log=print):
     save(base / "index.html", render_hub(ds))
     save(root / "404.html", render_404())
     save(root / "alert" / "index.html", render_alert())
+    save(root / "alert" / "manifest.webmanifest", json.dumps({"name": "IPO Shop daily alert", "short_name": "IPO Alert", "start_url": "/alert/", "scope": "/alert/",
+        "display": "standalone", "background_color": "#ffffff", "theme_color": "#111735",
+        "icons": [{"src": "/brand/icon-192.png", "sizes": "192x192", "type": "image/png"}, {"src": "/brand/icon-512.png", "sizes": "512x512", "type": "image/png"}]}, indent=2) + "\n")
     removed = 0
     for sub in base.iterdir():
         if sub.is_dir() and sub.name not in keep:

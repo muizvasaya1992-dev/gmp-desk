@@ -745,6 +745,7 @@ html[data-p] body.is-home main{margin-top:-26px}
 /* the new logo mark */
 .mark{background:none;box-shadow:0 4px 14px rgba(47,111,237,.35)}
 .mark svg{width:100%;height:100%;display:block}
+.c-wa{background:linear-gradient(135deg,#e4f7ee,#d9f2e5)!important;border-color:#bfe6d0!important}
 </style>
 </head>
 <body class="is-home">
@@ -838,7 +839,7 @@ const GROUPS = [
   {k:"closing_today", label:"Closing today", icon:"bell", tone:"t-amber", test:i=>i.status==="closing_today"},
   {k:"done", label:"Closed & listed", icon:"check", tone:"t-slate", test:i=>i.status==="closed"||i.status==="listed"}
 ];
-const CONTACT_EMAIL = ["muizvasaya19","yahoo.in"].join("@");   // the public contact address
+const CONTACT_EMAIL = ["contactiposhop","yahoo.com"].join("@");   // the public contact address
 const TEXT = {
   WATCH:{emo:"⭐",eyebrow:"Watchlist",h1:"Your watchlist",lede:""},
   CONTACT:{emo:"✉️",eyebrow:"Contact",h1:"Contact us",lede:""},
@@ -1032,11 +1033,13 @@ function renderWatch(){
 const mailLink=(cls="btn-dark")=>CONTACT_EMAIL?`<a class="${cls}" href="mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent("IPO Shop enquiry")}">✉️ ${esc(CONTACT_EMAIL)}</a>`:`<p class="micro">Our email address will appear here very soon.</p>`;
 function renderContact(){
   $("view").innerHTML=`<div class="contact-grid">
+    <div class="panel c-card c-main c-wa"><h2>📲 Get IPO updates on WhatsApp</h2>
+      <p>Follow our free WhatsApp channel for IPO dates and price bands. It costs nothing, following is private, and we never see your number.</p>
+      <a class="btn-wa" href="${WA_CHANNEL}" target="_blank" rel="noopener">Follow on WhatsApp ↗</a></div>
     <div class="panel c-card c-main"><h2>✉️ Write to us</h2>
       <p>Spotted a mistake in an IPO's details, have a question, or an idea for the site? Send us a message and we will read it.</p>
       ${mailLink()}
       <p class="micro" style="margin-top:14px">Please do not send personal or financial details such as card, bank or demat numbers. We never need them.</p></div>
-    <div class="panel c-card"><h3>📲 Follow on WhatsApp</h3><p>Our free channel shares IPO updates. Following is private and we never see your number.</p><a class="btn-wa" href="${WA_CHANNEL}" target="_blank" rel="noopener">Follow on WhatsApp ↗</a></div>
     <div class="panel c-card"><h3>📝 What to include</h3>
       <ul class="c-list"><li><b>A mistake in the data:</b> the IPO's name and what looks wrong, with a link if you have one.</li>
       <li><b>A question about how something works:</b> tell us which page you were on.</li>

@@ -22,6 +22,17 @@ for %%F in (logo.svg favicon.svg apple-touch-icon.png icon-192.png icon-512.png 
   )
 )
 
+for %%P in (alert.py alert.yml) do (
+  if exist "%%P" (
+    del "%%P"
+    echo   removed %%P, which is not needed
+  )
+)
+if exist ".github\workflows\alert.yml" (
+  del ".github\workflows\alert.yml"
+  echo   removed .github\workflows\alert.yml, which is not needed
+)
+
 if exist config.json (
   move /Y config.json data\config.json >nul
   echo   moved config.json into the data folder
