@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T17:19+05:30",
+  "generated_at": "2026-10-26T20:29+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,8 +23,8 @@
     "fetched_at": "2026-10-26T11:18+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-10-26T17:19+05:30",
-    "bse_ok_at": "2026-10-26T17:19+05:30"
+    "nse_ok_at": "2026-10-26T20:29+05:30",
+    "bse_ok_at": "2026-10-26T20:29+05:30"
   },
   "ipos": [
     {
@@ -268,8 +268,8 @@
       "gmp_sources": [
         {
           "source": "Public trackers",
-          "gmp": 244,
-          "at": "2026-10-26T14:30"
+          "gmp": 245,
+          "at": "2026-10-26T17:30"
         }
       ],
       "gmp_history": [
@@ -283,16 +283,16 @@
         },
         {
           "date": "2026-10-26",
-          "gmp": 244
+          "gmp": 245
         }
       ],
       "history_source": "Public trackers",
       "gmp_low": 240,
       "gmp_high": 248,
-      "gmp": 244,
-      "gmp_asof": "2026-10-26T14:30",
+      "gmp": 245,
+      "gmp_asof": "2026-10-26T17:30",
       "gmp_source_latest": "Public trackers",
-      "gmp_pct": 21.81,
+      "gmp_pct": 21.89,
       "status": "closed",
       "unconfirmed": false
     },
@@ -448,8 +448,8 @@
       "gmp_sources": [
         {
           "source": "Public trackers",
-          "gmp": 9,
-          "at": "2026-10-26T09:15"
+          "gmp": 10,
+          "at": "2026-10-26T18:30"
         }
       ],
       "gmp_history": [
@@ -463,16 +463,16 @@
         },
         {
           "date": "2026-10-26",
-          "gmp": 9
+          "gmp": 10
         }
       ],
       "history_source": "Public trackers",
       "gmp_low": 8,
       "gmp_high": 10,
-      "gmp": 9,
-      "gmp_asof": "2026-10-26T09:15",
+      "gmp": 10,
+      "gmp_asof": "2026-10-26T18:30",
       "gmp_source_latest": "Public trackers",
-      "gmp_pct": 1.3,
+      "gmp_pct": 1.44,
       "status": "closed",
       "unconfirmed": false
     },
@@ -504,14 +504,14 @@
       "sub_history": null,
       "series": "EQ",
       "nse_status": "Forthcoming",
-      "shares_offered": 17000000.0,
-      "updated_on": "2026-10-26T17:19+05:30",
+      "shares_offered": 11900000.0,
+      "updated_on": "2026-10-26T20:29+05:30",
       "bse_ipo_no": "8056",
       "gmp_sources": [
         {
           "source": "Public trackers",
           "gmp": 28,
-          "at": "2026-10-26T16:15"
+          "at": "2026-10-26T18:30"
         }
       ],
       "gmp_history": [
@@ -528,7 +528,7 @@
       "gmp_low": 24,
       "gmp_high": 28,
       "gmp": 28,
-      "gmp_asof": "2026-10-26T16:15",
+      "gmp_asof": "2026-10-26T18:30",
       "gmp_source_latest": "Public trackers",
       "gmp_pct": 18.67,
       "status": "upcoming",
@@ -563,13 +563,13 @@
       "series": "EQ",
       "nse_status": "Forthcoming",
       "shares_offered": 20475082.0,
-      "updated_on": "2026-10-26T17:19+05:30",
+      "updated_on": "2026-10-26T20:29+05:30",
       "bse_ipo_no": "8060",
       "gmp_sources": [
         {
           "source": "Public trackers",
-          "gmp": 28,
-          "at": "2026-10-26T16:15"
+          "gmp": 27,
+          "at": "2026-10-26T18:30"
         }
       ],
       "gmp_history": [
@@ -583,16 +583,16 @@
         },
         {
           "date": "2026-10-26",
-          "gmp": 28
+          "gmp": 27
         }
       ],
       "history_source": "Public trackers",
       "gmp_low": 21,
       "gmp_high": 30,
-      "gmp": 28,
-      "gmp_asof": "2026-10-26T16:15",
+      "gmp": 27,
+      "gmp_asof": "2026-10-26T18:30",
       "gmp_source_latest": "Public trackers",
-      "gmp_pct": 8.48,
+      "gmp_pct": 8.18,
       "status": "upcoming",
       "unconfirmed": false
     },
@@ -685,13 +685,13 @@
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 5299684.0,
-      "updated_on": "2026-10-26T17:19+05:30",
+      "updated_on": "2026-10-26T20:29+05:30",
       "bse_ipo_no": "8054",
       "gmp_sources": [
         {
           "source": "Public trackers",
-          "gmp": 36,
-          "at": "2026-10-26T16:15"
+          "gmp": 27,
+          "at": "2026-10-26T19:00"
         }
       ],
       "gmp_history": [
@@ -701,16 +701,16 @@
         },
         {
           "date": "2026-10-26",
-          "gmp": 36
+          "gmp": 27
         }
       ],
       "history_source": "Public trackers",
-      "gmp_low": 36,
+      "gmp_low": 27,
       "gmp_high": 120,
-      "gmp": 36,
-      "gmp_asof": "2026-10-26T16:15",
+      "gmp": 27,
+      "gmp_asof": "2026-10-26T19:00",
       "gmp_source_latest": "Public trackers",
-      "gmp_pct": 2.16,
+      "gmp_pct": 1.62,
       "status": "open",
       "unconfirmed": false
     },
@@ -718,8 +718,8 @@
       "id": "bombay-coated-special-steels",
       "name": "Bombay Coated and Special Steels",
       "segment": "MAIN",
-      "price": null,
-      "lot": null,
+      "price": 82,
+      "lot": 182,
       "size_cr": 183.06,
       "open": "2026-10-29",
       "close": "2026-11-02",
@@ -728,11 +728,23 @@
       "anchor": null,
       "rating": null,
       "sub": null,
-      "updated_on": "2026-10-22T11:10",
-      "registrar": null,
-      "lead_managers": null,
+      "updated_on": "2026-10-26T20:29+05:30",
+      "registrar": "KFin Technologies Limited",
+      "lead_managers": [
+        "Smart Horizon Capital Advisors Private Limited"
+      ],
       "reservation": null,
       "listing_price": null,
+      "symbol": "BCSSL",
+      "official": true,
+      "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_BCSSL.zip",
+      "retail_max": 200000,
+      "cutoff_time": "5:00 PM",
+      "price_low": 78,
+      "sub_history": null,
+      "series": "EQ",
+      "nse_status": "Forthcoming",
+      "shares_offered": 23468846.0,
       "gmp_sources": [
         {
           "source": "Public trackers",
@@ -756,9 +768,9 @@
       "gmp": 9,
       "gmp_asof": "2026-10-26T16:15",
       "gmp_source_latest": "Public trackers",
-      "gmp_pct": null,
+      "gmp_pct": 10.98,
       "status": "upcoming",
-      "unconfirmed": true
+      "unconfirmed": false
     },
     {
       "id": "bonfiglioli-transmissions",
@@ -931,7 +943,7 @@
       "series": "EQ",
       "nse_status": "Forthcoming",
       "shares_offered": 17000000.0,
-      "updated_on": "2026-10-26T17:19+05:30",
+      "updated_on": "2026-10-26T20:29+05:30",
       "bse_ipo_no": "8062",
       "gmp_sources": [
         {

@@ -6,7 +6,7 @@
   {
    "name": "Bombay Coated and Special Steels",
    "segment": "MAIN",
-   "symbol": null,
+   "symbol": "BCSSL",
    "listing": "2026-11-05",
    "exchange": "NSE · BSE",
    "live": true,
@@ -14,9 +14,8 @@
    "status": "upcoming",
    "open": "2026-10-29",
    "close": "2026-11-02",
-   "price": null,
-   "price_low": null,
-   "unconfirmed": true
+   "price": 82,
+   "price_low": 78
   },
   {
    "name": "Carver Roboweld",
@@ -5439,5 +5438,5 @@
    "status": "listed"
   }
  ],
- "generated_at": "2026-10-26T15:14+05:30"
+ "generated_at": "2026-10-26T20:29+05:30"
 }

@@ -33,6 +33,12 @@ if exist ".github\workflows\alert.yml" (
   echo   removed .github\workflows\alert.yml, which is not needed
 )
 
+if exist update.yml (
+  if not exist ".github\workflows" mkdir ".github\workflows"
+  move /Y update.yml ".github\workflows\update.yml" >nul
+  echo   moved update.yml into .github\workflows
+)
+
 if exist config.json (
   move /Y config.json data\config.json >nul
   echo   moved config.json into the data folder
