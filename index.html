@@ -682,7 +682,7 @@ main{margin-top:-26px}
 .bubble small{font-size:10.5px}
 .b1{left:2%;top:10%} .b2{right:0;top:2%} .b3{right:6%;bottom:2%}
 .sparkle{font-size:18px}
-@media (max-width:980px){ .hh{padding-top:22px;padding-bottom:26px} }
+@media (max-width:980px){ .hh{grid-template-columns:minmax(0,1fr);padding-top:22px;padding-bottom:26px} }
 .gmp-note{display:flex;gap:10px;align-items:flex-start;margin:0 0 14px;padding:10px 14px;border-radius:16px;background:#fff;border:1px solid var(--line);color:var(--slate-700);font-size:13px;line-height:1.5}
 .gmp-note a{color:var(--blue-700);font-weight:600;text-decoration:none;white-space:nowrap} .gmp-note a:hover{text-decoration:underline}
 
@@ -746,6 +746,10 @@ html[data-p] body.is-home main{margin-top:-26px}
 .mark{background:none;box-shadow:0 4px 14px rgba(47,111,237,.35)}
 .mark svg{width:100%;height:100%;display:block}
 .c-wa{background:linear-gradient(135deg,#e4f7ee,#d9f2e5)!important;border-color:#bfe6d0!important}
+.wa-top{display:flex;align-items:center;justify-content:space-between;gap:12px 18px;flex-wrap:wrap;padding:14px 20px;border-radius:20px;background:linear-gradient(135deg,#e4f7ee,#e8f1ff);border:1px solid #cfe9dc;margin:16px 0 6px}
+.wa-top b{display:block;font-size:16px;color:var(--ink)}
+.wa-top span{display:block;color:var(--slate-700);font-size:14px;margin-top:2px}
+@media (max-width:560px){ .wa-top{padding:12px 14px;border-radius:16px} .wa-top .btn-wa{width:100%;justify-content:center;padding:11px 16px} }
 </style>
 </head>
 <body class="is-home">
@@ -1085,6 +1089,7 @@ function renderHome(){
   const lst=state.dataset!=="live"?"":secHead("🎉","Just listed","How the latest IPOs did when they started trading.",["YR",null,"See all of 2026"])
     +(state.hist?(listed.length?`<div class="grid lgrid">${listed.map(listedCard).join("")}</div>`:`<div class="panel"><div class="empty"><div class="big">🔔</div><b>Nothing listed in the last two weeks</b></div></div>`):`<div class="panel"><div class="empty"><div class="big">⏳</div>Loading the latest listings…</div></div>`);
   $("view").innerHTML=`
+    <section class="wa-top" aria-label="WhatsApp channel"><div><b>📲 IPO updates on WhatsApp</b><span>Free channel with IPO dates and price bands. We never see your number.</span></div><a class="btn-wa" href="${WA_CHANNEL}" target="_blank" rel="noopener">Follow on WhatsApp ↗</a></section>
     <section class="sec" id="s-open">${open}</section>
     ${upc?`<section class="sec">${upc}</section>`:""}
     ${lst?`<section class="sec">${lst}</section>`:""}
@@ -1097,7 +1102,6 @@ function renderHome(){
       </div>
       <div class="mascot-tip"><span class="tip-emo" aria-hidden="true">🐂</span><div><b>Did you know?</b><span id="tipText"></span></div></div>
     </section>
-    <section class="sec contact-band wa-band"><div><h3>📲 IPO updates on WhatsApp</h3><p>Follow our free WhatsApp channel for IPO dates and price bands. It costs nothing and we do not collect your number.</p></div><a class="btn-wa" href="${WA_CHANNEL}" target="_blank" rel="noopener">Follow on WhatsApp ↗</a></section>
     <section class="sec contact-band"><div><h3>📬 Spotted a mistake, or have a question?</h3><p>We read every message and fix data errors as quickly as we can.</p></div><button class="btn-dark" data-go="CONTACT" type="button">Contact us →</button></section>
     <section class="sec trust">
       <div class="tr"><span>📡</span><h3>Official data</h3><p>Dates, prices and subscription come straight from NSE and BSE, refreshed about every 20 minutes on weekdays.</p></div>
