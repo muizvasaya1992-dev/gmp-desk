@@ -9,6 +9,7 @@ import pathlib
 import shutil
 
 SITE = "https://iposhop.in"
+WA_CHANNEL = "https://whatsapp.com/channel/0029VbEHHkoCcW4ped17YH0r"
 BEACON = ("<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' "
           "data-cf-beacon='{\"token\": \"d53dfd3e4bc94b64b0e2312949a8a61e\"}'></script><!-- End Cloudflare Web Analytics -->")
 ICON = ("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' "
@@ -205,6 +206,8 @@ dl{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14
 .meter{display:inline-flex;gap:3px;vertical-align:middle;margin-right:6px}.meter i{width:10px;height:10px;border-radius:50%;background:#e4e8f1}.meter i.on{background:#14905d}
 .btn{display:inline-block;padding:10px 18px;border-radius:12px;background:var(--navy);color:#fff;font-weight:700;text-decoration:none;margin:4px 8px 0 0}
 .btn.alt{background:#fff;color:var(--ink);border:1px solid var(--line)}
+.btn.wa{background:#0e7a4b}
+.mark{background:none;overflow:visible;box-shadow:0 4px 14px rgba(47,111,237,.3)}.mark svg{width:100%;height:100%;display:block}
 .muted{color:var(--muted);font-size:14px}footer{margin-top:36px;background:var(--navy);color:#aab6dd;padding:28px 0;font-size:13.5px;line-height:1.6}
 ul.list{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:8px 22px}
 ul.list li{padding:6px 0;border-bottom:1px solid var(--line)}ul.list small{color:var(--muted);display:block}
@@ -221,15 +224,16 @@ def head(title, desc, url, robots=None, extra=""):
 <link rel="canonical" href="{url}">
 {r}<meta property="og:type" content="article"><meta property="og:site_name" content="IPO Shop"><meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(desc)}"><meta property="og:url" content="{url}">
-<link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin><link rel="icon" href="{ICON}"><style>{CSS}</style>{extra}</head><body>
-<header><div class="w bar"><a class="brand" href="/"><span class="mark">📈</span><span>IPO <b>Shop</b></span></a>
+<meta property="og:image" content="https://iposhop.in/brand/og-image.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="IPO Shop: details of every IPO in India"><meta name="twitter:image" content="https://iposhop.in/brand/og-image.jpg"><meta name="twitter:card" content="summary_large_image">
+<link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin><link rel="icon" type="image/svg+xml" href="/brand/favicon.svg"><link rel="icon" type="image/png" sizes="192x192" href="/brand/icon-192.png"><link rel="apple-touch-icon" href="/brand/apple-touch-icon.png"><style>{CSS}</style>{extra}</head><body>
+<header><div class="w bar"><a class="brand" href="/"><span class="mark" aria-hidden="true"><svg viewBox="0 0 96 96" focusable="false"><defs><linearGradient id="mg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4b86f5"/><stop offset="1" stop-color="#1f4fc4"/></linearGradient></defs><rect width="96" height="96" rx="22" fill="url(#mg)"/><path d="M34 38v-6a14 14 0 0 1 28 0v6" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round"/><path d="M24 38h48a3 3 0 0 1 3 3.3l-3.3 33a6 6 0 0 1-6 5.4H30.3a6 6 0 0 1-6-5.4L21 41.3A3 3 0 0 1 24 38z" fill="#fff"/><path d="M34 66l10-10 7 6 12-14" fill="none" stroke="#0f7b4f" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M54 48h9v9" fill="none" stroke="#0f7b4f" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>IPO <b>Shop</b></span></a>
 <nav aria-label="Main"><a href="/">Home</a><a href="/ipo/">All IPOs</a><a href="/#mainboard">Mainboard</a><a href="/#sme">SME</a><a href="/#calendar">Calendar</a><a href="/#contact">Contact</a></nav></div></header>
 """
 
 
 FOOT = f"""<footer><div class="w">IPO Shop is an information website. It does not sell, apply for or recommend IPOs, and nothing here is investment advice.
 GMP (grey market premium) is unofficial and often differs from the actual listing price. Read the offer document (RHP) and speak to a SEBI-registered advisor before investing.
-<br>Dates, prices and subscription come from NSE and BSE. <a href="/#contact" style="color:#c4cdee">Spotted a mistake? Tell us.</a></div></footer>
+<br>Dates, prices and subscription come from NSE and BSE. <a href="/#contact" style="color:#c4cdee">Spotted a mistake? Tell us.</a> · <a href="{WA_CHANNEL}" target="_blank" rel="noopener" style="color:#c4cdee">WhatsApp channel</a></div></footer>
 {BEACON}</body></html>"""
 
 LIVE_JS = """<script>
@@ -253,6 +257,16 @@ if(!out.length){box.innerHTML='<p class="muted">No live numbers for this IPO yet
 box.innerHTML="<dl>"+out.map(function(x){return"<div><dt>"+x[0]+"</dt><dd>"+x[1]+"</dd></div>"}).join("")+"</dl>"+(a&&a.generated_at?'<p class="muted" style="margin:12px 0 0">Data last changed '+new Date(a.generated_at).toLocaleString("en-IN",{day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"})+".</p>":"");
 });})();
 </script>"""
+
+
+def wa_share(d):
+    """A ready-to-send WhatsApp message about this IPO (facts only), as a wa.me link."""
+    from urllib.parse import quote
+    o, c = dl(d.get("open")), dl(d.get("close"))
+    when = f"Bidding {o} to {c}" if o and c else ""
+    bits = [b for b in (when, band(d), f"Lot {d['lot']}" if d.get("lot") is not None else "") if b]
+    text = "\n".join([f"{d['name']} IPO", " · ".join(bits), f"Details: {SITE}/ipo/{d['id']}/"])
+    return "https://wa.me/?text=" + quote(text, safe="")
 
 
 def render_page(d):
@@ -280,6 +294,7 @@ def render_page(d):
 <noscript><p class="muted">Turn on JavaScript to see live subscription and GMP.</p></noscript>
 <a class="btn" href="{live_link}">Open in the live tracker</a><a class="btn alt" href="/ipo/">All IPOs</a></section>
 {allot_card(d)}{apply_card}
+<section class="card"><h2>Share or follow</h2><a class="btn wa" href="{wa_share(d)}" target="_blank" rel="noopener">Share this IPO on WhatsApp ↗</a><a class="btn alt" href="{WA_CHANNEL}" target="_blank" rel="noopener">Follow our WhatsApp channel ↗</a></section>
 <section class="card"><h2>About this page</h2><p class="muted" style="margin:0 0 10px">Facts on this page come from NSE and BSE and are refreshed automatically. GMP is unofficial and comes from public trackers and our own checks. This is information, not advice. See the offer document before you invest.</p>
 <p class="muted" style="margin:0"><b>Demand meter:</b> 1 means under 1x subscribed, 2 is 1x to 3x, 3 is 3x to 10x, 4 is 10x to 50x and 5 is 50x or more. It shows how much demand there is. It does not say whether the IPO is a good one.</p></section>
 </main>{LIVE_JS.replace("__ID__", d['id']).replace("__ST__", st)}"""
@@ -325,6 +340,75 @@ def render_404():
     return head("Page not found | IPO Shop", "This page could not be found. Browse every IPO in India on IPO Shop.", SITE + "/404.html", robots="noindex,follow") + body + FOOT
 
 
+ALERT_JS = r"""<script>
+(function(){
+var CH="__CH__", box=document.getElementById("msg"), note=document.getElementById("stamp"), mode=null;
+function n(v,d){return Number(v).toLocaleString("en-IN",{maximumFractionDigits:d==null?2:d})}
+function ist(off){return new Intl.DateTimeFormat("en-CA",{timeZone:"Asia/Kolkata"}).format(new Date(Date.now()+off*864e5))}
+function add(iso,k){var a=iso.split("-").map(Number);return new Date(Date.UTC(a[0],a[1]-1,a[2]+k)).toISOString().slice(0,10)}
+function dd(iso){return new Date(iso+"T12:00:00Z").toLocaleDateString("en-GB",{day:"numeric",month:"short",timeZone:"UTC"})}
+function wd(iso){return new Date(iso+"T12:00:00Z").toLocaleDateString("en-GB",{weekday:"short",day:"numeric",month:"short",timeZone:"UTC"})}
+function money(i){if(i.price==null)return"";var lo=i.price_low,hi=i.price;return lo!=null&&lo!==hi?"\u20b9"+n(lo)+"\u2013"+n(hi):"\u20b9"+n(hi)}
+function seg(i){return i.segment==="SME"?" (SME)":""}
+function line(i,extra,live){
+  var bits=[money(i)];if(i.lot!=null)bits.push("Lot "+n(i.lot));if(extra)bits.push(extra);
+  if(live){if(i.sub&&i.sub.total!=null)bits.push("Subscribed "+n(i.sub.total)+"x");if(i.gmp!=null)bits.push("GMP \u20b9"+n(i.gmp)+" (unofficial)")}
+  bits=bits.filter(Boolean);return "\u2022 "+i.name+seg(i)+(bits.length?" \u00b7 "+bits.join(" \u00b7 "):"")}
+function order(a,b){return (a.segment==="SME")-(b.segment==="SME")||a.name.localeCompare(b.name)}
+function build(list,off){
+  var D=ist(off),when=off?"tomorrow":"today",out=[];
+  function pick(f){return list.filter(f).sort(order)}
+  function sec(title,items,fn){if(items.length){out.push("","*"+title+"*");items.forEach(function(i){out.push(fn(i))})}}
+  sec("\u23f0 Closing "+when,pick(function(i){return i.close===D}),function(i){return line(i,"closes "+when+(i.cutoff_time?", "+i.cutoff_time:""),true)});
+  sec("\ud83d\udfe2 Open for bidding",pick(function(i){return i.open&&i.close&&i.open<D&&i.close>D}),function(i){return line(i,"closes "+dd(i.close),true)});
+  sec("\ud83d\ude80 Opening "+when,pick(function(i){return i.open===D}),function(i){return line(i,"closes "+dd(i.close||D))});
+  sec("\ud83d\udd1c Coming up",pick(function(i){return i.open&&i.open>D&&i.open<=add(D,4)}),function(i){return line(i,"opens "+dd(i.open))});
+  sec("\ud83d\udccb Allotment "+when,pick(function(i){return i.boa===D}),function(i){return line(i,"")+"\n  Check status: https://iposhop.in/ipo/"+i.id+"/"});
+  sec("\ud83d\udd14 Listing "+when,pick(function(i){return i.listing===D}),function(i){return line(i,"lists "+when)});
+  var head="\ud83d\udcc5 *IPO Shop* \u00b7 "+wd(D)+(off?" (tomorrow)":"");
+  if(!out.length){
+    out.push("","No IPO closes, opens, lists or gets allotment "+when+".");
+    var nx=list.filter(function(i){return i.open&&i.open>D}).sort(function(a,b){return a.open.localeCompare(b.open)||order(a,b)}).slice(0,3);
+    if(nx.length){out.push("","*Next to open*");nx.forEach(function(i){out.push(line(i,"opens "+dd(i.open)))})}
+  }
+  return [head].concat(out,["","More: https://iposhop.in","_Facts only, not investment advice. GMP is unofficial._"]).join("\n")}
+var data=null;
+function show(off){mode=off;box.value=data?build(data,off):"Could not load the IPO data. Try again in a minute.";
+  document.getElementById("b0").setAttribute("aria-pressed",off===0);document.getElementById("b1").setAttribute("aria-pressed",off===1)}
+function ok(t){var s=document.getElementById("done");s.textContent=t;setTimeout(function(){s.textContent=""},2500)}
+document.getElementById("b0").onclick=function(){show(0)};document.getElementById("b1").onclick=function(){show(1)};
+document.getElementById("copy").onclick=function(){var t=box.value;
+  function fb(){box.select();try{document.execCommand("copy");ok("Copied. Now paste it into your Channel.")}catch(e){ok("Select the text and copy it by hand.")}}
+  if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(t).then(function(){ok("Copied. Now paste it into your Channel.")},fb);else fb()};
+document.getElementById("share").onclick=function(){window.open("https://wa.me/?text="+encodeURIComponent(box.value),"_blank","noopener")};
+fetch("/ipos.json?"+Date.now(),{cache:"no-store"}).then(function(r){return r.json()}).then(function(a){
+  data=a.ipos||[];
+  if(a.generated_at){var t=new Date(a.generated_at);note.textContent="Data last changed "+t.toLocaleString("en-GB",{timeZone:"Asia/Kolkata",day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"})+" IST."}
+  var h=Number(new Intl.DateTimeFormat("en-GB",{timeZone:"Asia/Kolkata",hour:"2-digit",hour12:false}).format(new Date(Date.now())));
+  show(h>=17?1:0)}).catch(function(){data=null;show(0)});
+})();
+</script>"""
+
+
+def render_alert():
+    body = ("<main class=\"w\"><h1>Your daily alert</h1>"
+            "<p class=\"lead\">The message for your WhatsApp Channel, written from today's IPO data. Check it, tap Copy, then paste it into your Channel.</p>"
+            "<section class=\"card\"><div role=\"group\" aria-label=\"Which day\"><button class=\"btn alt\" id=\"b0\" type=\"button\" aria-pressed=\"true\">Today</button>"
+            "<button class=\"btn alt\" id=\"b1\" type=\"button\" aria-pressed=\"false\">Tomorrow</button></div>"
+            "<label for=\"msg\" class=\"muted\" style=\"display:block;margin:14px 0 6px\">Message (you can edit it before copying)</label>"
+            "<textarea id=\"msg\" rows=\"18\" spellcheck=\"false\" style=\"width:100%;box-sizing:border-box;padding:14px;border:1px solid var(--line);border-radius:12px;font:15px/1.5 Inter,system-ui,sans-serif;color:var(--ink);background:#fff\"></textarea>"
+            "<div style=\"margin-top:10px\"><button class=\"btn wa\" id=\"copy\" type=\"button\">Copy message</button>"
+            f"<a class=\"btn alt\" href=\"{WA_CHANNEL}\" target=\"_blank\" rel=\"noopener\">Open my Channel ↗</a>"
+            "<button class=\"btn alt\" id=\"share\" type=\"button\">Send to a chat ↗</button></div>"
+            "<p id=\"done\" class=\"muted\" role=\"status\" style=\"min-height:1.4em;margin:10px 0 0\"></p>"
+            "<p id=\"stamp\" class=\"muted\" style=\"margin:4px 0 0\"></p></section>"
+            "<section class=\"card\"><h2>How to post it</h2><p style=\"margin:0\">1. Tap <b>Copy message</b>. 2. Tap <b>Open my Channel</b> and open the Channel in WhatsApp. "
+            "3. Paste the message and send. The bold text uses WhatsApp's own formatting, so it looks right once pasted. "
+            "The message states facts only. Read it once before you send, because the data comes from public sources.</p></section></main>")
+    js = ALERT_JS.replace("__CH__", WA_CHANNEL)
+    return head("Daily alert | IPO Shop", "A private page that writes the daily IPO message for the WhatsApp channel.", SITE + "/alert/", robots="noindex,nofollow") + body + js + FOOT
+
+
 def write_sitemap(root, ds):
     urls = [SITE + "/", SITE + "/ipo/"] + [f"{SITE}/ipo/{d['id']}/" for d in sorted(ds, key=lambda d: d["id"])]
     xml = ('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
@@ -357,6 +441,7 @@ def write_all(hist_rows, ipos, root, log=print):
         save(base / d["id"] / "index.html", render_page(d))
     save(base / "index.html", render_hub(ds))
     save(root / "404.html", render_404())
+    save(root / "alert" / "index.html", render_alert())
     removed = 0
     for sub in base.iterdir():
         if sub.is_dir() and sub.name not in keep:

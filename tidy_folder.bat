@@ -14,6 +14,14 @@ for %%F in (inter-latin.woff2 inter-rupee.woff2 OFL.txt) do (
   )
 )
 
+if not exist brand mkdir brand
+for %%F in (logo.svg favicon.svg apple-touch-icon.png icon-192.png icon-512.png channel-icon.png og-image.jpg) do (
+  if exist "%%F" (
+    move /Y "%%F" "brand\%%F" >nul
+    echo   moved %%F into the brand folder
+  )
+)
+
 if exist config.json (
   move /Y config.json data\config.json >nul
   echo   moved config.json into the data folder
@@ -48,6 +56,9 @@ type .gitignore
 echo.
 echo ---- the fonts folder holds:
 dir /b fonts
+echo.
+echo ---- the brand folder holds:
+dir /b brand
 echo.
 echo Done. Tell Claude what this window shows.
 pause

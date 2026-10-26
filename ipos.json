@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T14:15+05:30",
+  "generated_at": "2026-10-26T15:14+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,8 +23,8 @@
     "fetched_at": "2026-10-26T11:18+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-10-26T14:15+05:30",
-    "bse_ok_at": "2026-10-26T11:20+05:30"
+    "nse_ok_at": "2026-10-26T15:14+05:30",
+    "bse_ok_at": "2026-10-26T15:14+05:30"
   },
   "ipos": [
     {
@@ -268,8 +268,8 @@
       "gmp_sources": [
         {
           "source": "Public trackers",
-          "gmp": 247,
-          "at": "2026-10-26T12:30"
+          "gmp": 244,
+          "at": "2026-10-26T14:30"
         }
       ],
       "gmp_history": [
@@ -283,16 +283,16 @@
         },
         {
           "date": "2026-10-26",
-          "gmp": 247
+          "gmp": 244
         }
       ],
       "history_source": "Public trackers",
       "gmp_low": 240,
       "gmp_high": 248,
-      "gmp": 247,
-      "gmp_asof": "2026-10-26T12:30",
+      "gmp": 244,
+      "gmp_asof": "2026-10-26T14:30",
       "gmp_source_latest": "Public trackers",
-      "gmp_pct": 22.07,
+      "gmp_pct": 21.81,
       "status": "closed",
       "unconfirmed": false
     },
@@ -505,7 +505,7 @@
       "series": "EQ",
       "nse_status": "Forthcoming",
       "shares_offered": 17000000.0,
-      "updated_on": "2026-10-26T14:15+05:30",
+      "updated_on": "2026-10-26T15:14+05:30",
       "bse_ipo_no": "8056",
       "gmp_sources": [
         {
@@ -563,7 +563,7 @@
       "series": "EQ",
       "nse_status": "Forthcoming",
       "shares_offered": 20475082.0,
-      "updated_on": "2026-10-26T14:15+05:30",
+      "updated_on": "2026-10-26T15:14+05:30",
       "bse_ipo_no": "8060",
       "gmp_sources": [
         {
@@ -623,14 +623,14 @@
       "segment": "MAIN",
       "sub": {
         "qib": 0.08,
-        "nii": 0.16,
-        "bnii": 0.23,
+        "nii": 0.21,
+        "bnii": 0.31,
         "snii": 0.02,
         "retail": 0.03,
-        "total": 0.07
+        "total": 0.08
       },
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-10-26T14:12",
+      "sub_asof": "2026-10-26T15:12",
       "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_EDELALTS.zip",
       "retail_max": 200000,
       "cutoff_time": "5:00 PM",
@@ -646,28 +646,19 @@
           "total": 0.02
         },
         {
-          "at": "2026-10-26T12:09+05:30",
-          "qib": 0.0,
-          "nii": 0.06,
-          "bnii": 0.09,
-          "snii": 0.01,
-          "retail": 0.02,
-          "total": 0.02
-        },
-        {
-          "at": "2026-10-26T14:15+05:30",
+          "at": "2026-10-26T15:14+05:30",
           "qib": 0.08,
-          "nii": 0.16,
-          "bnii": 0.23,
+          "nii": 0.21,
+          "bnii": 0.31,
           "snii": 0.02,
           "retail": 0.03,
-          "total": 0.07
+          "total": 0.08
         }
       ],
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 5299684.0,
-      "updated_on": "2026-10-26T14:15+05:30",
+      "updated_on": "2026-10-26T15:14+05:30",
       "bse_ipo_no": "8054",
       "gmp_sources": [
         {
@@ -860,7 +851,7 @@
       "id": "carver-roboweld",
       "name": "Carver Roboweld",
       "segment": "SME",
-      "price": null,
+      "price": 80,
       "lot": null,
       "size_cr": null,
       "open": "2026-10-28",
@@ -876,12 +867,15 @@
       "lead_managers": null,
       "reservation": null,
       "listing_price": null,
+      "bse_ipo_no": "8063",
+      "official": true,
+      "price_low": 76,
       "gmp_sources": [],
       "gmp_history": [],
       "gmp": null,
       "gmp_pct": null,
       "status": "upcoming",
-      "unconfirmed": true
+      "unconfirmed": false
     },
     {
       "id": "mksons",
@@ -910,7 +904,7 @@
       "series": "EQ",
       "nse_status": "Forthcoming",
       "shares_offered": 17000000.0,
-      "updated_on": "2026-10-26T14:15+05:30",
+      "updated_on": "2026-10-26T15:14+05:30",
       "bse_ipo_no": "8062",
       "gmp_sources": [
         {

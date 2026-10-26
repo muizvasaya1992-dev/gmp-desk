@@ -29,9 +29,8 @@
    "status": "upcoming",
    "open": "2026-10-28",
    "close": "2026-10-30",
-   "price": null,
-   "price_low": null,
-   "unconfirmed": true
+   "price": 80,
+   "price_low": 76
   },
   {
    "name": "BLS Polymers",
@@ -5440,5 +5439,5 @@
    "status": "listed"
   }
  ],
- "generated_at": "2026-10-26T11:20+05:30"
+ "generated_at": "2026-10-26T15:14+05:30"
 }
