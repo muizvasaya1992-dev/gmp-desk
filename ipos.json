@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T12:05+05:30",
+  "generated_at": "2026-10-27T12:06+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-10-27T11:24+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-10-27T12:05+05:30",
+    "nse_ok_at": "2026-10-27T12:06+05:30",
     "bse_ok_at": "2026-10-27T12:05+05:30"
   },
   "ipos": [
@@ -511,14 +511,14 @@
       "segment": "MAIN",
       "sub": {
         "qib": 7.52,
-        "nii": 3.0,
-        "bnii": 1.95,
-        "snii": 5.1,
-        "retail": 2.34,
-        "total": 3.96
+        "nii": 3.08,
+        "bnii": 2.0,
+        "snii": 5.25,
+        "retail": 2.42,
+        "total": 4.02
       },
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-10-27T12:00",
+      "sub_asof": "2026-10-27T12:03",
       "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_BLSPOLY.zip",
       "retail_max": 200000,
       "cutoff_time": "5:00 PM",
@@ -550,12 +550,21 @@
           "snii": 5.1,
           "retail": 2.34,
           "total": 3.96
+        },
+        {
+          "at": "2026-10-27T12:06+05:30",
+          "qib": 7.52,
+          "nii": 3.08,
+          "bnii": 2.0,
+          "snii": 5.25,
+          "retail": 2.42,
+          "total": 4.02
         }
       ],
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 11900000.0,
-      "updated_on": "2026-10-27T12:05+05:30",
+      "updated_on": "2026-10-27T12:06+05:30",
       "bse_ipo_no": "8056",
       "gmp_sources": [
         {
@@ -650,7 +659,7 @@
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 14159744.0,
-      "updated_on": "2026-10-27T12:05+05:30",
+      "updated_on": "2026-10-27T12:06+05:30",
       "bse_ipo_no": "8060",
       "gmp_sources": [
         {
@@ -794,7 +803,7 @@
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 5299684.0,
-      "updated_on": "2026-10-27T12:05+05:30",
+      "updated_on": "2026-10-27T12:06+05:30",
       "bse_ipo_no": "8054",
       "gmp_sources": [
         {
@@ -841,7 +850,7 @@
       "anchor": null,
       "rating": null,
       "sub": null,
-      "updated_on": "2026-10-27T12:05+05:30",
+      "updated_on": "2026-10-27T12:06+05:30",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "Smart Horizon Capital Advisors Private Limited"
@@ -1061,7 +1070,7 @@
       "series": "EQ",
       "nse_status": "Forthcoming",
       "shares_offered": 17000000.0,
-      "updated_on": "2026-10-27T12:05+05:30",
+      "updated_on": "2026-10-27T12:06+05:30",
       "bse_ipo_no": "8062",
       "gmp_sources": [
         {
