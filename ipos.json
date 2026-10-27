@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T20:46+05:30",
+  "generated_at": "2026-10-28T00:59+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-10-27T11:24+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-10-27T20:46+05:30",
+    "nse_ok_at": "2026-10-28T00:59+05:30",
     "bse_ok_at": "2026-10-27T18:42+05:30"
   },
   "ipos": [
@@ -268,8 +268,8 @@
       "gmp_sources": [
         {
           "source": "Public trackers",
-          "gmp": 244,
-          "at": "2026-10-27T20:00"
+          "gmp": 248,
+          "at": "2026-10-27T21:15"
         }
       ],
       "gmp_history": [
@@ -287,17 +287,17 @@
         },
         {
           "date": "2026-10-27",
-          "gmp": 244
+          "gmp": 248
         }
       ],
       "history_source": "Public trackers",
       "gmp_low": 240,
       "gmp_high": 260,
-      "gmp": 244,
-      "gmp_asof": "2026-10-27T20:00",
+      "gmp": 248,
+      "gmp_asof": "2026-10-27T21:15",
       "gmp_source_latest": "Public trackers",
-      "gmp_pct": 21.81,
-      "status": "closed",
+      "gmp_pct": 22.16,
+      "status": "listed",
       "unconfirmed": false
     },
     {
@@ -481,7 +481,7 @@
       "gmp_asof": "2026-10-27T18:00",
       "gmp_source_latest": "Public trackers",
       "gmp_pct": 2.02,
-      "status": "closed",
+      "status": "listed",
       "unconfirmed": false
     },
     {
@@ -600,13 +600,13 @@
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 11900000.0,
-      "updated_on": "2026-10-27T18:42+05:30",
+      "updated_on": "2026-10-28T00:59+05:30",
       "bse_ipo_no": "8056",
       "gmp_sources": [
         {
           "source": "Public trackers",
           "gmp": 34,
-          "at": "2026-10-27T18:00"
+          "at": "2026-10-27T21:00"
         }
       ],
       "gmp_history": [
@@ -620,14 +620,14 @@
         },
         {
           "date": "2026-10-27",
-          "gmp": 20
+          "gmp": 34
         }
       ],
       "history_source": "Public trackers",
       "gmp_low": 20,
       "gmp_high": 34,
       "gmp": 34,
-      "gmp_asof": "2026-10-27T18:00",
+      "gmp_asof": "2026-10-27T21:00",
       "gmp_source_latest": "Public trackers",
       "gmp_pct": 22.67,
       "status": "open",
@@ -749,7 +749,7 @@
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 14159744.0,
-      "updated_on": "2026-10-27T18:42+05:30",
+      "updated_on": "2026-10-28T00:59+05:30",
       "bse_ipo_no": "8060",
       "gmp_sources": [
         {
@@ -938,7 +938,7 @@
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 5299684.0,
-      "updated_on": "2026-10-27T18:42+05:30",
+      "updated_on": "2026-10-28T00:59+05:30",
       "bse_ipo_no": "8054",
       "gmp_sources": [
         {
@@ -968,7 +968,7 @@
       "gmp_asof": "2026-10-27T18:00",
       "gmp_source_latest": "Public trackers",
       "gmp_pct": 0.6,
-      "status": "open",
+      "status": "closing_today",
       "unconfirmed": false
     },
     {
@@ -985,7 +985,7 @@
       "anchor": null,
       "rating": null,
       "sub": null,
-      "updated_on": "2026-10-27T18:42+05:30",
+      "updated_on": "2026-10-28T00:59+05:30",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "Smart Horizon Capital Advisors Private Limited"
@@ -1145,7 +1145,7 @@
       "gmp_history": [],
       "gmp": null,
       "gmp_pct": null,
-      "status": "closing_today",
+      "status": "closed",
       "unconfirmed": false
     },
     {
@@ -1175,7 +1175,7 @@
       "gmp_history": [],
       "gmp": null,
       "gmp_pct": null,
-      "status": "upcoming",
+      "status": "open",
       "unconfirmed": false
     },
     {
@@ -1193,6 +1193,11 @@
       "close": "2026-10-30",
       "price": 162,
       "segment": "MAIN",
+      "sub": {
+        "total": 0.0
+      },
+      "sub_basis": "NSE+BSE",
+      "sub_asof": null,
       "registrar": "Bigshare Services Private Limited",
       "lead_managers": [
         "Aryaman Financial Services Limited"
@@ -1201,11 +1206,16 @@
       "retail_max": 200000,
       "cutoff_time": "5:00 PM",
       "price_low": 153,
-      "sub_history": null,
+      "sub_history": [
+        {
+          "at": "2026-10-28T00:59+05:30",
+          "total": 0.0
+        }
+      ],
       "series": "EQ",
-      "nse_status": "Forthcoming",
+      "nse_status": "Active",
       "shares_offered": 11900000.0,
-      "updated_on": "2026-10-27T18:42+05:30",
+      "updated_on": "2026-10-28T00:59+05:30",
       "bse_ipo_no": "8062",
       "gmp_sources": [
         {
@@ -1231,7 +1241,7 @@
       "gmp_asof": "2026-10-27T17:30",
       "gmp_source_latest": "Public trackers",
       "gmp_pct": 4.32,
-      "status": "upcoming",
+      "status": "open",
       "unconfirmed": false
     }
   ]
