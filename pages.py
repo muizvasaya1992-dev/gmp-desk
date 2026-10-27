@@ -214,6 +214,18 @@ ul.list{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:re
 ul.list li{padding:6px 0;border-bottom:1px solid var(--line)}ul.list small{color:var(--muted);display:block}
 .dm{font-size:12.5px;font-weight:700;color:#2a3558;margin-left:auto}.dm .meter{margin-right:4px}
 .hub [hidden]{display:none!important}
+.tick{display:flex;align-items:stretch;height:40px;overflow:hidden;background:#111735;border-bottom:1px solid rgba(255,255,255,.08);visibility:hidden}.tick.on{visibility:visible}.tick.off{display:none}
+.tk-live{flex:none;display:flex;align-items:center;gap:8px;padding:0 16px;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;background:#070b20;color:#fff;position:relative;z-index:1}
+.tk-live i{width:8px;height:8px;border-radius:50%;background:#2fc58a;animation:tkp 1.8s infinite}@keyframes tkp{0%{box-shadow:0 0 0 0 rgba(47,197,138,.6)}70%{box-shadow:0 0 0 7px rgba(47,197,138,0)}100%{box-shadow:0 0 0 0 rgba(47,197,138,0)}}
+.tk-view{flex:1;min-width:0;overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 22px,#000 calc(100% - 22px),transparent);mask-image:linear-gradient(90deg,transparent,#000 22px,#000 calc(100% - 22px),transparent)}
+.tk-track{display:inline-flex;height:100%;white-space:nowrap;animation:tkm var(--dur,60s) linear infinite;will-change:transform}
+.tick:hover .tk-track,.tick:focus-within .tk-track{animation-play-state:paused}@keyframes tkm{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.tk-g{display:inline-flex;align-items:center}
+.tk-lane{display:inline-flex;align-items:center;margin:0 6px 0 14px;font-size:10.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:3px 10px;border-radius:99px;background:#2f6fed;color:#fff}.tk-lane.l-open{background:#0f7b4f}.tk-lane.l-up{background:#2f6fed}
+.tk-item{display:inline-flex;align-items:center;gap:10px;padding:0 20px;font-size:13px;color:#b9c3e6;border-right:1px solid rgba(255,255,255,.1);text-decoration:none;height:100%}.tk-item:hover{text-decoration:none;background:rgba(255,255,255,.06)}.tk-item:focus-visible{outline:2px solid #fff;outline-offset:-2px}
+.tk-item b{color:#fff;font-weight:600}.tk-item .p{color:#7be0b4;font-weight:600}.tk-chip{font-size:11px;font-weight:600;padding:2px 9px;border-radius:99px;background:rgba(255,255,255,.12);color:#e6ecff}
+@media(prefers-reduced-motion:reduce){.tk-track{animation:none}.tk-view{overflow-x:auto;-webkit-mask-image:none;mask-image:none}.tk-live i{animation:none}}
+@media(max-width:640px){.tk-live{padding:0 12px}.tk-live span{display:none}.tk-item{padding:0 14px;font-size:12.5px}}
 .hub .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:18px 0 14px}
 .hub .stat{background:#fff;border:1px solid var(--line);border-radius:16px;padding:14px 16px;text-decoration:none;color:var(--ink)}.hub .stat:hover{border-color:#b9c6ee}
 .hub .stat b{display:block;font-size:28px;line-height:1.1}.hub .stat span{color:var(--muted);font-size:13px}
@@ -244,7 +256,30 @@ table.t small{display:block;color:var(--muted);font-weight:400}table.t tr:last-c
 """
 
 
-def head(title, desc, url, robots=None, extra=""):
+TICK = r"""<div class="tick" id="tick" role="region" aria-label="Live IPO ticker"><div class="tk-live"><i></i><span>Live</span></div><div class="tk-view"><div class="tk-track" id="tktrack"></div></div></div>
+<noscript><style>.tick{display:none}</style></noscript>
+<script>(function(){var el=document.getElementById("tick");if(!el)return;
+function esc(t){return String(t).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+function dd(iso){return new Date(iso+"T12:00:00Z").toLocaleDateString("en-GB",{day:"numeric",month:"short",timeZone:"UTC"})}
+function n(v){return Number(v).toLocaleString("en-IN",{maximumFractionDigits:2})}
+function band(i){if(i.price==null)return"";return i.price_low!=null&&i.price_low!==i.price?"\u20b9"+n(i.price_low)+" \u2013 "+n(i.price):"\u20b9"+n(i.price)}
+fetch("/ipos.json?"+Date.now(),{cache:"no-store"}).then(function(r){return r.json()}).then(function(a){
+  var L=(a.ipos||[]).filter(function(i){return !i.unconfirmed});
+  var open=L.filter(function(i){return i.status==="open"||i.status==="closing_today"}).sort(function(x,y){return (x.close||"").localeCompare(y.close||"")||x.name.localeCompare(y.name)}).slice(0,10);
+  var up=L.filter(function(i){return i.status==="upcoming"}).sort(function(x,y){return (x.open||"").localeCompare(y.open||"")||x.name.localeCompare(y.name)}).slice(0,6);
+  if(!open.length&&!up.length){el.classList.add("off");return}
+  function item(i,txt){var b=band(i);return '<a class="tk-item" href="/ipo/'+esc(i.id)+'/"><b>'+esc(i.name)+'</b><span>'+txt+'</span>'+(b?'<span class="p">'+b+'</span>':'')+'<span class="tk-chip">'+(i.segment==="SME"?"SME":"Mainboard")+'</span></a>'}
+  var h="";
+  if(open.length)h+='<span class="tk-lane l-open">Open now</span>'+open.map(function(i){return item(i,i.status==="closing_today"?"Closes today":"Closes "+dd(i.close))}).join("");
+  if(up.length)h+='<span class="tk-lane l-up">Upcoming</span>'+up.map(function(i){return item(i,i.open?"Opens "+dd(i.open):"Soon")}).join("");
+  var track=document.getElementById("tktrack");track.innerHTML='<span class="tk-g">'+h+'</span>';
+  var w=track.firstElementChild.getBoundingClientRect().width||1,vw=(track.parentNode.clientWidth)||1200,k=Math.max(1,Math.ceil(vw*1.1/w)),G=new Array(k+1).join(h),
+      dup=G.replace(/<a class="tk-item" href="[^"]*"/g,'<span class="tk-item" aria-hidden="true"').replace(/<\/a>/g,"</span>");
+  track.innerHTML='<span class="tk-g">'+G+'</span><span class="tk-g" aria-hidden="true">'+dup+'</span>';
+  track.style.setProperty("--dur",Math.max(30,Math.round(w*k/70))+"s");el.classList.add("on")}).catch(function(){el.classList.add("off")})})();
+</script>"""
+
+def head(title, desc, url, robots=None, extra="", tick=False):
     r = f'<meta name="robots" content="{robots}">\n' if robots else ""
     return f"""<!doctype html><html lang="en-IN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{esc(title)}</title>
@@ -255,7 +290,7 @@ def head(title, desc, url, robots=None, extra=""):
 <meta property="og:image" content="https://iposhop.in/brand/og-image.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="IPO Shop: details of every IPO in India"><meta name="twitter:image" content="https://iposhop.in/brand/og-image.jpg"><meta name="twitter:card" content="summary_large_image">
 <link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin><link rel="icon" type="image/svg+xml" href="/brand/favicon.svg"><link rel="icon" type="image/png" sizes="192x192" href="/brand/icon-192.png"><link rel="apple-touch-icon" href="/brand/apple-touch-icon.png"><style>{CSS}</style>{extra}</head><body>
 <header><div class="w bar"><a class="brand" href="/"><span class="mark" aria-hidden="true"><svg viewBox="0 0 96 96" focusable="false"><defs><linearGradient id="mg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4b86f5"/><stop offset="1" stop-color="#1f4fc4"/></linearGradient></defs><rect width="96" height="96" rx="22" fill="url(#mg)"/><path d="M34 38v-6a14 14 0 0 1 28 0v6" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round"/><path d="M24 38h48a3 3 0 0 1 3 3.3l-3.3 33a6 6 0 0 1-6 5.4H30.3a6 6 0 0 1-6-5.4L21 41.3A3 3 0 0 1 24 38z" fill="#fff"/><path d="M34 66l10-10 7 6 12-14" fill="none" stroke="#0f7b4f" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M54 48h9v9" fill="none" stroke="#0f7b4f" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>IPO <b>Shop</b></span></a>
-<nav aria-label="Main"><a href="/">Home</a><a href="/ipo/">All IPOs</a><a href="/#mainboard">Mainboard</a><a href="/#sme">SME</a><a href="/#calendar">Calendar</a><a href="/#contact">Contact</a></nav></div></header>
+<nav aria-label="Main"><a href="/">Home</a><a href="/ipo/">All IPOs</a><a href="/#mainboard">Mainboard</a><a href="/#sme">SME</a><a href="/#calendar">Calendar</a><a href="/#contact">Contact</a></nav></div></header>{TICK if tick else ""}
 """
 
 
@@ -371,7 +406,7 @@ def render_page(d, near=()):
 <section class="card"><h2>About this page</h2><p class="muted" style="margin:0 0 10px">Facts on this page come from NSE and BSE and are refreshed automatically. GMP is unofficial and comes from public trackers and our own checks. This is information, not advice. See the offer document before you invest.</p>
 <p class="muted" style="margin:0"><b>Demand meter:</b> 1 means under 1x subscribed, 2 is 1x to 3x, 3 is 3x to 10x, 4 is 10x to 50x and 5 is 50x or more. It shows how much demand there is. It does not say whether the IPO is a good one.</p></section>
 </main>{LIVE_JS.replace("__ID__", d['id']).replace("__ST__", st)}"""
-    return head(title, description(d), url, extra=f'<script type="application/ld+json">{ld}</script>') + body + FOOT
+    return head(title, description(d), url, extra=f'<script type="application/ld+json">{ld}</script>', tick=True) + body + FOOT
 
 
 HUB_JS = r"""<script>
@@ -457,7 +492,7 @@ def render_hub(ds):
             + sec("open", "🟢 Open now", live) + sec("soon", "🚀 Coming up", up) + sec("closed", "🔒 Closed, awaiting listing", closed)
             + sec("listed", "🎉 Listed IPOs", listed, 30, "Show all listed IPOs")
             + '<p class="muted">The dots show the <b>demand meter</b> from 1 to 5: how heavily an IPO is subscribed, not a rating. GMP is unofficial. Facts only, not investment advice.</p></main>')
-    return head("All IPOs in India: open, upcoming and listed | IPO Shop", desc, SITE + "/ipo/", extra=f'<script type="application/ld+json">{ld}</script>') + body + HUB_JS + FOOT
+    return head("All IPOs in India: open, upcoming and listed | IPO Shop", desc, SITE + "/ipo/", extra=f'<script type="application/ld+json">{ld}</script>', tick=True) + body + HUB_JS + FOOT
 
 
 def render_404():
@@ -665,7 +700,7 @@ def landing(slug, title, h1, desc, intro, blocks, faqs, items):
             + '<section class="card"><h2>Common questions</h2>' + "".join(f"<h3>{esc(q)}</h3><p>{esc(a)}</p>" for q, a in faqs) + "</section>"
             + f'<section class="card links"><h2>More on IPO Shop</h2>{more}</section>'
             '<p class="muted">Facts only, not investment advice. GMP is unofficial. Read the offer document (RHP) before investing.</p></main>')
-    return head(title, desc, url, extra=f'<script type="application/ld+json">{ld}</script>') + body + ASOF_JS + FOOT
+    return head(title, desc, url, extra=f'<script type="application/ld+json">{ld}</script>', tick=True) + body + ASOF_JS + FOOT
 
 
 def by(ds, f, key=None):
