@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T14:20+05:30",
+  "generated_at": "2026-10-27T15:55+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,8 +23,8 @@
     "fetched_at": "2026-10-27T11:24+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-10-27T14:20+05:30",
-    "bse_ok_at": "2026-10-27T12:29+05:30"
+    "nse_ok_at": "2026-10-27T15:55+05:30",
+    "bse_ok_at": "2026-10-27T15:55+05:30"
   },
   "ipos": [
     {
@@ -268,8 +268,8 @@
       "gmp_sources": [
         {
           "source": "Public trackers",
-          "gmp": 260,
-          "at": "2026-10-27T13:15"
+          "gmp": 257,
+          "at": "2026-10-27T15:30"
         }
       ],
       "gmp_history": [
@@ -287,16 +287,16 @@
         },
         {
           "date": "2026-10-27",
-          "gmp": 260
+          "gmp": 257
         }
       ],
       "history_source": "Public trackers",
       "gmp_low": 240,
       "gmp_high": 260,
-      "gmp": 260,
-      "gmp_asof": "2026-10-27T13:15",
+      "gmp": 257,
+      "gmp_asof": "2026-10-27T15:30",
       "gmp_source_latest": "Public trackers",
-      "gmp_pct": 23.24,
+      "gmp_pct": 22.97,
       "status": "closed",
       "unconfirmed": false
     },
@@ -510,15 +510,15 @@
       "price": 150,
       "segment": "MAIN",
       "sub": {
-        "qib": 11.62,
-        "nii": 7.33,
-        "bnii": 5.38,
-        "snii": 11.23,
-        "retail": 4.66,
-        "total": 7.22
+        "qib": 12.02,
+        "nii": 10.08,
+        "bnii": 7.52,
+        "snii": 15.21,
+        "retail": 5.95,
+        "total": 8.57
       },
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-10-27T14:18",
+      "sub_asof": "2026-10-27T15:51",
       "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_BLSPOLY.zip",
       "retail_max": 200000,
       "cutoff_time": "5:00 PM",
@@ -561,28 +561,19 @@
           "total": 4.41
         },
         {
-          "at": "2026-10-27T12:30+05:30",
-          "qib": 8.01,
-          "nii": 3.79,
-          "bnii": 2.54,
-          "snii": 6.31,
-          "retail": 2.87,
-          "total": 4.54
-        },
-        {
-          "at": "2026-10-27T14:20+05:30",
-          "qib": 11.62,
-          "nii": 7.33,
-          "bnii": 5.38,
-          "snii": 11.23,
-          "retail": 4.66,
-          "total": 7.22
+          "at": "2026-10-27T15:55+05:30",
+          "qib": 12.02,
+          "nii": 10.08,
+          "bnii": 7.52,
+          "snii": 15.21,
+          "retail": 5.95,
+          "total": 8.57
         }
       ],
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 11900000.0,
-      "updated_on": "2026-10-27T14:20+05:30",
+      "updated_on": "2026-10-27T15:55+05:30",
       "bse_ipo_no": "8056",
       "gmp_sources": [
         {
@@ -642,14 +633,14 @@
       "segment": "MAIN",
       "sub": {
         "qib": 0.0,
-        "nii": 0.05,
-        "bnii": 0.02,
-        "snii": 0.1,
-        "retail": 0.12,
-        "total": 0.07
+        "nii": 0.06,
+        "bnii": 0.03,
+        "snii": 0.13,
+        "retail": 0.14,
+        "total": 0.09
       },
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-10-27T14:18",
+      "sub_asof": "2026-10-27T15:51",
       "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_SFCTECH.zip",
       "retail_max": 200000,
       "cutoff_time": "5:00 PM",
@@ -683,28 +674,19 @@
           "total": 0.05
         },
         {
-          "at": "2026-10-27T12:30+05:30",
+          "at": "2026-10-27T15:55+05:30",
           "qib": 0.0,
-          "nii": 0.03,
-          "bnii": 0.02,
-          "snii": 0.07,
-          "retail": 0.1,
-          "total": 0.05
-        },
-        {
-          "at": "2026-10-27T14:20+05:30",
-          "qib": 0.0,
-          "nii": 0.05,
-          "bnii": 0.02,
-          "snii": 0.1,
-          "retail": 0.12,
-          "total": 0.07
+          "nii": 0.06,
+          "bnii": 0.03,
+          "snii": 0.13,
+          "retail": 0.14,
+          "total": 0.09
         }
       ],
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 14159744.0,
-      "updated_on": "2026-10-27T14:20+05:30",
+      "updated_on": "2026-10-27T15:55+05:30",
       "bse_ipo_no": "8060",
       "gmp_sources": [
         {
@@ -768,14 +750,14 @@
       "segment": "MAIN",
       "sub": {
         "qib": 0.45,
-        "nii": 0.37,
-        "bnii": 0.52,
-        "snii": 0.08,
-        "retail": 0.09,
-        "total": 0.25
+        "nii": 0.43,
+        "bnii": 0.6,
+        "snii": 0.1,
+        "retail": 0.1,
+        "total": 0.27
       },
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-10-27T14:18",
+      "sub_asof": "2026-10-27T15:51",
       "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_EDELALTS.zip",
       "retail_max": 200000,
       "cutoff_time": "5:00 PM",
@@ -854,19 +836,19 @@
           "total": 0.14
         },
         {
-          "at": "2026-10-27T14:20+05:30",
+          "at": "2026-10-27T15:55+05:30",
           "qib": 0.45,
-          "nii": 0.37,
-          "bnii": 0.52,
-          "snii": 0.08,
-          "retail": 0.09,
-          "total": 0.25
+          "nii": 0.43,
+          "bnii": 0.6,
+          "snii": 0.1,
+          "retail": 0.1,
+          "total": 0.27
         }
       ],
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 5299684.0,
-      "updated_on": "2026-10-27T14:20+05:30",
+      "updated_on": "2026-10-27T15:55+05:30",
       "bse_ipo_no": "8054",
       "gmp_sources": [
         {
@@ -913,7 +895,7 @@
       "anchor": null,
       "rating": null,
       "sub": null,
-      "updated_on": "2026-10-27T14:20+05:30",
+      "updated_on": "2026-10-27T15:55+05:30",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "Smart Horizon Capital Advisors Private Limited"
@@ -1133,7 +1115,7 @@
       "series": "EQ",
       "nse_status": "Forthcoming",
       "shares_offered": 17000000.0,
-      "updated_on": "2026-10-27T14:20+05:30",
+      "updated_on": "2026-10-27T15:55+05:30",
       "bse_ipo_no": "8062",
       "gmp_sources": [
         {
