@@ -385,7 +385,7 @@
   "series": "EQ",
   "nse_status": "Active",
   "shares_offered": 11900000.0,
-  "last_seen": "2026-10-27T11:24+05:30",
+  "last_seen": "2026-10-27T11:26+05:30",
   "segment": "MAIN",
   "lot": 100,
   "registrar": "KFin Technologies Limited",
@@ -398,14 +398,14 @@
   "cutoff_time": "5:00 PM",
   "sub": {
    "qib": 3.99,
-   "nii": 1.87,
-   "bnii": 1.17,
-   "snii": 3.25,
-   "retail": 1.59,
-   "total": 2.33
+   "nii": 1.94,
+   "bnii": 1.22,
+   "snii": 3.38,
+   "retail": 1.64,
+   "total": 2.38
   },
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-10-27T11:21",
+  "sub_asof": "2026-10-27T11:24",
   "reservation": {
    "qib": 28.57,
    "nii": 21.43,
@@ -420,6 +420,15 @@
     "snii": 3.25,
     "retail": 1.59,
     "total": 2.33
+   },
+   {
+    "at": "2026-10-27T11:26+05:30",
+    "qib": 3.99,
+    "nii": 1.94,
+    "bnii": 1.22,
+    "snii": 3.38,
+    "retail": 1.64,
+    "total": 2.38
    }
   ]
  },
@@ -434,7 +443,7 @@
   "series": "EQ",
   "nse_status": "Active",
   "shares_offered": 14159744.0,
-  "last_seen": "2026-10-27T11:24+05:30",
+  "last_seen": "2026-10-27T11:26+05:30",
   "segment": "MAIN",
   "lot": 45,
   "registrar": "MUFG Intime India Private Limited",
@@ -483,7 +492,7 @@
   "series": "EQ",
   "nse_status": "Active",
   "shares_offered": 5299684.0,
-  "last_seen": "2026-10-27T11:24+05:30",
+  "last_seen": "2026-10-27T11:26+05:30",
   "segment": "MAIN",
   "lot": 9,
   "registrar": "MUFG Intime India Private Limited",
@@ -503,7 +512,7 @@
    "total": 0.13
   },
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-10-27T11:21",
+  "sub_asof": "2026-10-27T11:24",
   "reservation": {
    "qib": 28.57,
    "nii": 21.43,
@@ -577,7 +586,7 @@
   "series": "EQ",
   "nse_status": "Forthcoming",
   "shares_offered": 17000000.0,
-  "last_seen": "2026-10-27T11:24+05:30",
+  "last_seen": "2026-10-27T11:26+05:30",
   "segment": "MAIN",
   "lot": 91,
   "registrar": "Bigshare Services Private Limited",
@@ -600,7 +609,7 @@
   "series": "EQ",
   "nse_status": "Forthcoming",
   "shares_offered": 23468846.0,
-  "last_seen": "2026-10-27T11:24+05:30",
+  "last_seen": "2026-10-27T11:26+05:30",
   "segment": "MAIN",
   "lot": 182,
   "registrar": "KFin Technologies Limited",
