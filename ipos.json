@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T12:28+05:30",
+  "generated_at": "2026-10-27T12:29+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,8 +23,8 @@
     "fetched_at": "2026-10-27T11:24+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-10-27T12:28+05:30",
-    "bse_ok_at": "2026-10-27T12:28+05:30"
+    "nse_ok_at": "2026-10-27T12:29+05:30",
+    "bse_ok_at": "2026-10-27T12:29+05:30"
   },
   "ipos": [
     {
@@ -564,7 +564,7 @@
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 11900000.0,
-      "updated_on": "2026-10-27T12:28+05:30",
+      "updated_on": "2026-10-27T12:29+05:30",
       "bse_ipo_no": "8056",
       "gmp_sources": [
         {
@@ -668,7 +668,7 @@
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 14159744.0,
-      "updated_on": "2026-10-27T12:28+05:30",
+      "updated_on": "2026-10-27T12:29+05:30",
       "bse_ipo_no": "8060",
       "gmp_sources": [
         {
@@ -739,7 +739,7 @@
         "total": 0.14
       },
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-10-27T12:24",
+      "sub_asof": "2026-10-27T12:27",
       "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_EDELALTS.zip",
       "retail_max": 200000,
       "cutoff_time": "5:00 PM",
@@ -821,7 +821,7 @@
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 5299684.0,
-      "updated_on": "2026-10-27T12:28+05:30",
+      "updated_on": "2026-10-27T12:29+05:30",
       "bse_ipo_no": "8054",
       "gmp_sources": [
         {
@@ -868,7 +868,7 @@
       "anchor": null,
       "rating": null,
       "sub": null,
-      "updated_on": "2026-10-27T12:28+05:30",
+      "updated_on": "2026-10-27T12:29+05:30",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "Smart Horizon Capital Advisors Private Limited"
@@ -1088,7 +1088,7 @@
       "series": "EQ",
       "nse_status": "Forthcoming",
       "shares_offered": 17000000.0,
-      "updated_on": "2026-10-27T12:28+05:30",
+      "updated_on": "2026-10-27T12:29+05:30",
       "bse_ipo_no": "8062",
       "gmp_sources": [
         {
