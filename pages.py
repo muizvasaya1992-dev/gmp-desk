@@ -245,6 +245,7 @@ li.hc:hover{box-shadow:0 8px 22px rgba(17,23,53,.10);transform:translateY(-2px)}
 @media(max-width:700px){.hub .stats{grid-template-columns:repeat(2,1fr)}ul.hgrid{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){li.hc:hover{transform:none}}
 .w.wide,body:has(main.wide) .w{max-width:1100px}.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.dist{display:flex;height:14px;border-radius:7px;overflow:hidden;margin:10px 0 8px;background:#eef0f6}.dist i{display:block;height:100%}.distkey{list-style:none;margin:0 0 4px;padding:0;display:flex;flex-wrap:wrap;gap:4px 16px;font-size:13px;color:var(--muted)}.distkey span{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px}.distkey b{color:var(--ink,#111735)}
 .card h3{font-size:16px;margin:16px 0 4px}.card h3:first-of-type{margin-top:0}.card p{margin:0 0 8px}
 ol.tl{list-style:none;margin:0;padding:0;display:grid;gap:10px}ol.tl li{display:flex;justify-content:space-between;gap:12px;padding:10px 14px;background:#f4f6fb;border-radius:12px}
 .tw{overflow-x:auto;border:1px solid var(--line);border-radius:14px;background:#fff;margin:0 0 6px}
@@ -376,7 +377,56 @@ def near_block(near):
     return f'<section class="card"><h2>Other IPOs around the same time</h2><ul class="list">{"".join(li(d) for d in near)}</ul></section>'
 
 
-def render_page(d, near=()):
+BUCKETS = [("Fell 10%+", None, -10, "#e5484d"), ("Down 0 to 10%", -10, 0, "#f5a3a6"), ("Up 0 to 10%", 0, 10, "#9ad7b3"),
+           ("Up 10 to 30%", 10, 30, "#3fb97a"), ("Up 30%+", 30, None, "#12805c")]
+
+
+def base_stats(rows):
+    """Plain history: how this year's listed IPOs closed on day one, split by SME / mainboard. No forecast, no score."""
+    import statistics
+    out = {}
+    for seg in ("SME", "MAIN"):
+        r = sorted([x for x in rows if (x.get("segment") or "MAIN") == seg and x.get("listing_gain_pct") is not None and x.get("listing")],
+                   key=lambda x: x["listing"])
+        if len(r) < 15:
+            continue
+        def pack(g):
+            n = len(g)
+            return {"n": n, "up": round(100 * sum(1 for v in g if v > 0) / n), "med": round(statistics.median(g), 1),
+                    "deep": round(100 * sum(1 for v in g if v <= -10) / n),
+                    "b": [round(100 * sum(1 for v in g if (lo is None or v >= lo) and (hi is None or v < hi)) / n) for _, lo, hi, _c in BUCKETS]}
+        allg = [x["listing_gain_pct"] for x in r]
+        out[seg] = {"all": pack(allg), "recent": pack(allg[-30:]), "first": r[0]["listing"], "last": r[-1]["listing"]}
+    return out
+
+
+def mon(iso):
+    import datetime as _dt
+    return _dt.date.fromisoformat(iso[:10]).strftime("%B %Y")
+
+
+def base_card(d, stats):
+    """Shown on IPOs that have not listed yet. Most useful where no GMP exists, so the wording says what is missing."""
+    if (d.get("status") or "listed") == "listed" or not stats:
+        return ""
+    seg = d.get("segment") or "MAIN"
+    b = stats.get(seg)
+    if not b:
+        return ""
+    name = "SME" if seg == "SME" else "mainboard"
+    a, rc = b["all"], b["recent"]
+    miss = ""
+    if d.get("gmp") is None:
+        miss = f"<p>No grey-market (GMP) quote has been reported for {esc(d['name'])} yet, and this is common for {name} issues. Here is what actually happened to {name} IPOs this year instead.</p>"
+    bar = "".join(f'<i style="width:{v}%;background:{c}" title="{esc(l)}: {v}%"></i>' for (l, _lo, _hi, c), v in zip(BUCKETS, a["b"]) if v)
+    leg = "".join(f'<li><span style="background:{c}"></span>{esc(l)} <b>{v}%</b></li>' for (l, _lo, _hi, c), v in zip(BUCKETS, a["b"]))
+    return f"""<section class="card"><h2>How {name} IPOs have listed this year</h2>{miss}
+<p>Across <b>{a['n']}</b> {name} IPOs that listed between {mon(b['first'])} and {mon(b['last'])}, <b>{a['up']}%</b> closed their first day above the issue price. The middle result was <b>{a['med']:+.1f}%</b>, and <b>{a['deep']}%</b> closed 10% or more below it.</p>
+<div class="dist" role="img" aria-label="Share of {name} IPOs by first-day result">{bar}</div><ul class="distkey">{leg}</ul>
+<p class="muted" style="margin:10px 0 0">In the last {rc['n']} {name} listings, {rc['up']}% closed up and the middle result was {rc['med']:+.1f}%. This is past data about other companies. It does not predict how {esc(d['name'])} will list, and it is not advice or a rating.</p></section>"""
+
+
+def render_page(d, near=(), base=None):
     url = f"{SITE}/ipo/{d['id']}/"
     st = d.get("status") or "listed"
     emo, lab = STATUS.get(st, STATUS["listed"])
@@ -401,7 +451,7 @@ def render_page(d, near=()):
 <noscript><p class="muted">Turn on JavaScript to see live subscription and GMP.</p></noscript>
 <a class="btn" href="{live_link}">Open in the live tracker</a><a class="btn alt" href="/ipo/">All IPOs</a></section>
 {allot_card(d)}{apply_card}
-{timeline(d)}{faq(d)}{near_block(near)}
+{base_card(d, base)}{timeline(d)}{faq(d)}{near_block(near)}
 <section class="card"><h2>Share or follow</h2><a class="btn wa" href="{wa_share(d)}" target="_blank" rel="noopener">Share this IPO on WhatsApp ↗</a><a class="btn alt" href="{WA_CHANNEL}" target="_blank" rel="noopener">Follow our WhatsApp channel ↗</a></section>
 <section class="card"><h2>About this page</h2><p class="muted" style="margin:0 0 10px">Facts on this page come from NSE and BSE and are refreshed automatically. GMP is unofficial and comes from public trackers and our own checks. This is information, not advice. See the offer document before you invest.</p>
 <p class="muted" style="margin:0"><b>Demand meter:</b> 1 means under 1x subscribed, 2 is 1x to 3x, 3 is 3x to 10x, 4 is 10x to 50x and 5 is 50x or more. It shows how much demand there is. It does not say whether the IPO is a good one.</p></section>
@@ -856,9 +906,10 @@ def write_all(hist_rows, ipos, root, log=print):
     for lst in by_seg.values():
         for i, d in enumerate(lst):
             near[d["id"]] = lst[max(0, i - 3):i] + lst[i + 1:i + 4]
+    bstats = base_stats(ds)
     for d in ds:
         keep.add(d["id"])
-        save(base / d["id"] / "index.html", render_page(d, near.get(d["id"], [])))
+        save(base / d["id"] / "index.html", render_page(d, near.get(d["id"], []), bstats))
     for slug, fn in LANDERS:
         save(root / slug / "index.html", fn(ds))
     save(base / "index.html", render_hub(ds))

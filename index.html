@@ -49,6 +49,7 @@ button{font:inherit;color:inherit}
 .wrap{max-width:1200px;margin:0 auto;padding:0 20px}
 .muted{color:var(--muted)}
 .micro{font-size:12px;color:var(--muted)}
+.dist{display:flex;height:14px;border-radius:7px;overflow:hidden;margin:10px 0 8px;background:#eef0f6}.dist i{display:block;height:100%}.distkey{list-style:none;margin:0 0 6px;padding:0;display:flex;flex-wrap:wrap;gap:4px 14px;font-size:12px;color:var(--muted)}.distkey span{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px}
 
 /* ---------- header + hero ---------- */
 .top{background:
@@ -917,7 +918,7 @@ const band = i => i.price==null ? "Price TBA" : (i.price_low!=null && i.price_lo
 const oneLot = i => (i.price!=null && i.lot!=null) ? "₹"+inr(i.price*i.lot) : "–";
 
 function gmpBlock(i){
-  if(i.gmp==null) return `<span class="muted">Not reported</span>`;
+  if(i.gmp==null) return `<span class="muted">No quote yet</span>`;
   return `<div class="gv ${i.gmp>=0?"pos":"neg"}"><b>${rs(i.gmp)}</b>${i.gmp_pct!=null?`<span class="delta">${pct(i.gmp_pct)}</span>`:""}</div>`+
          (i.price!=null?`<div class="micro">Est. listing ${rs(i.price+i.gmp)}${i.gmp_source_latest&&i.gmp_source_latest!=="IPO Shop"&&i.gmp_source_latest!=="GMP Desk"?" · via "+esc(i.gmp_source_latest.toLowerCase()):""}</div>`:"");
 }
@@ -1009,6 +1010,24 @@ function trackBlock(i){
   if(!i.listing_price||i.gmp==null||!i.price) return "";
   const implied=i.price+i.gmp, gap=(i.listing_price-implied)/i.price*100;
   return `<h3>GMP vs actual listing</h3><dl class="facts"><div><dt>Last GMP</dt><dd>${rs(i.gmp)} (${pct(i.gmp/i.price*100)})</dd></div><div><dt>GMP-implied price</dt><dd>${rs(implied)}</dd></div><div><dt>Actual listing price</dt><dd>${rs(i.listing_price)} (${pct(i.listing_gain_pct)})</dd></div><div><dt>Difference</dt><dd class="${gap>=0?"pos2":"neg2"}">${(gap>=0?"+":"")+gap.toFixed(1)} pts</dd></div></dl>`;
+}
+
+const BKT=[["Fell 10%+",null,-10,"#e5484d"],["Down 0 to 10%",-10,0,"#f5a3a6"],["Up 0 to 10%",0,10,"#9ad7b3"],["Up 10 to 30%",10,30,"#3fb97a"],["Up 30%+",30,null,"#12805c"]];
+function baseBlock(i){
+  if(i.status==="listed"||!state.hist) return "";
+  const seg=i.segment==="SME"?"SME":"MAIN", nm=seg==="SME"?"SME":"mainboard";
+  const r=state.hist.rows.filter(x=>(x.segment||"MAIN")===seg&&x.listing_gain_pct!=null&&x.listing).sort((a,b)=>a.listing<b.listing?-1:1);
+  if(r.length<15) return "";
+  const g=r.map(x=>x.listing_gain_pct), med=a=>{const s=a.slice().sort((x,y)=>x-y),m=s.length>>1;return s.length%2?s[m]:(s[m-1]+s[m])/2;};
+  const up=a=>Math.round(100*a.filter(v=>v>0).length/a.length), rc=g.slice(-30);
+  const bs=BKT.map(([l,lo,hi,c])=>[l,Math.round(100*g.filter(v=>(lo==null||v>=lo)&&(hi==null||v<hi)).length/g.length),c]);
+  const mon=d=>new Date(d+"T00:00:00").toLocaleDateString("en-GB",{month:"long",year:"numeric"});
+  const miss=i.gmp==null?`<p class="micro" style="margin:0 0 8px">No GMP has been reported for this ${nm} IPO yet, which is common. Here is how ${nm} IPOs actually did this year.</p>`:"";
+  return `<h3>How ${nm} IPOs have listed this year</h3>${miss}
+    <p style="margin:0 0 6px">Of <b>${g.length}</b> ${nm} IPOs listed between ${mon(r[0].listing)} and ${mon(r[r.length-1].listing)}, <b>${up(g)}%</b> closed their first day above the issue price. The middle result was <b>${(med(g)>=0?"+":"")+med(g).toFixed(1)}%</b>, and <b>${Math.round(100*g.filter(v=>v<=-10).length/g.length)}%</b> closed 10% or more below it.</p>
+    <div class="dist" role="img" aria-label="Share of ${nm} IPOs by first-day result">${bs.filter(b=>b[1]).map(([l,v,c])=>`<i style="width:${v}%;background:${c}" title="${l}: ${v}%"></i>`).join("")}</div>
+    <ul class="distkey">${bs.map(([l,v,c])=>`<li><span style="background:${c}"></span>${l} <b>${v}%</b></li>`).join("")}</ul>
+    <p class="micro">Last ${rc.length} ${nm} listings: ${up(rc)}% closed up, middle result ${(med(rc)>=0?"+":"")+med(rc).toFixed(1)}%. Past data about other companies, not a forecast, advice or rating.</p>`;
 }
 function renderStale(){
   const f=state.feeds, el=$("stale"); el.hidden=true;
@@ -1163,6 +1182,7 @@ async function ensureHistory(){
   try{ const r=await fetch("history.json?"+Date.now(),{cache:"no-store"}); if(!r.ok) throw new Error("HTTP "+r.status); state.hist=await r.json(); }
   catch(e){ state.histErr=e.message; }
   renderTicker();
+  if(state.openId&&$("drawer").open) openDrawer(state.openId,true);
   if(state.tab==="YR"||state.tab==="CAL"||state.tab==="HOME") render();
 }
 const pctChip = (v,c) => v==null ? `<span class="muted">–</span>` : `<div class="gv ${v>=0?"pos":"neg"}"><b>₹${inr(c)}</b><span class="delta">${pct(v)}</span></div>`;
@@ -1251,7 +1271,7 @@ function openYear(id){
   const d=$("drawer"); if(!d.open) d.showModal();
 }
 /* ============ GMP: where else to look ============ */
-const gmpNote=()=>`<p class="gmp-note"><span>📊</span><span>GMP is unofficial and changes quickly. Readings come from public trackers and our own checks, so some IPOs may show "Not reported".</span></p>`;
+const gmpNote=()=>`<p class="gmp-note"><span>📊</span><span>GMP is unofficial and changes quickly. Readings come from public trackers and our own checks, so some IPOs, mostly SME ones, show "No quote yet".</span></p>`;
 
 /* ============ calendar ============ */
 const ISO=d=>d.toLocaleDateString("en-CA");
@@ -1458,7 +1478,7 @@ function glance(i){
     : i.status==="listed" ? ["Listed",dd(i.listing),""] : ["Closed",dd(i.close),i.listing?"lists "+dd(i.listing):""];
   const minInv = (i.price!=null&&i.lot!=null) ? ["Minimum to apply","₹"+inr(i.price*i.lot),inr(i.lot)+" shares, at the top of the band"] : ["Minimum to apply","–",""];
   const subT = i.sub&&i.sub.total!=null ? ["Subscribed",i.sub.total.toFixed(2)+"x",{html:`${meter(i.sub.total)}Demand ${meterLevel(i.sub.total)} of 5`}] : ["Subscribed",i.status==="upcoming"?"Not open yet":"–",(i.status==="open"||i.status==="closing_today"||i.status==="closed")?{html:`${meterNA()}Demand not available yet`}:""];
-  const gm = i.gmp!=null ? ["GMP (unofficial)",rs(i.gmp),i.gmp_pct!=null?pct(i.gmp_pct):""] : ["GMP (unofficial)","Not reported",""];
+  const gm = i.gmp!=null ? ["GMP (unofficial)",rs(i.gmp),i.gmp_pct!=null?pct(i.gmp_pct):""] : ["GMP (unofficial)","No quote yet",""];
   return `<div class="glance">${[minInv,when,subT,gm].map(([k,v,s])=>`<div><div class="k">${k}</div><div class="v">${esc(v)}</div><div class="s">${s&&s.html?s.html:esc(s)}</div></div>`).join("")}</div>`;
 }
 const meterNote=i=>i.sub&&i.sub.total!=null?`<p class="micro" style="margin:8px 0 0"><b>Demand meter:</b> 1 means under 1x subscribed, 2 is 1x to 3x, 3 is 3x to 10x, 4 is 10x to 50x and 5 is 50x or more. It shows demand, not whether the IPO is good.</p>`:"";
@@ -1480,6 +1500,7 @@ function howBlock(i){
 }
 function openDrawer(id, quiet){
   const i=state.all.find(x=>x.id===id); if(!i) return;
+  if(state.dataset==="live"&&!state.hist&&!state.histErr) ensureHistory();
   state.openId=id;
   const p=$("dpill"); p.className="pill "+STATUS[i.status].cls; p.textContent=stText(i.status);
   $("dtitle").textContent=i.name;
@@ -1512,11 +1533,12 @@ function openDrawer(id, quiet){
     </dl>
     <h3>Timeline</h3>${tl}
     ${trackBlock(i)}
+    ${baseBlock(i)}
     ${allotBlock(i)}
     ${calcBlock(i)}
     ${(i.gmp_sources&&i.gmp_sources.length)||(i.gmp_history&&i.gmp_history.length)
       ? `<h3>GMP readings</h3>${sourcesTable(i)}<h3>GMP history${i.history_source?" · "+esc(i.history_source):""}</h3>${gmpChart(i)}`
-      : `<h3>GMP</h3><div class="micro">No GMP reported yet.</div>`}
+      : `<h3>GMP</h3><div class="micro">No GMP reported yet. SME IPOs often have none: see how SME IPOs have listed above.</div>`}
     <p class="micro" style="margin-top:8px">Different sources can show different numbers, and GMP is never a promise.</p>
     <h3>Subscription</h3>${sub}${subNote}
     ${subHistoryBlock(i)}
