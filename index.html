@@ -1251,9 +1251,7 @@ function openYear(id){
   const d=$("drawer"); if(!d.open) d.showModal();
 }
 /* ============ GMP: where else to look ============ */
-const GMP_SITES=[["IPO Watch","https://ipowatch.live/all-ipo"],["StockeZee","https://www.stockezee.com/ipo-gmp"]];
-const gmpLinks=()=>GMP_SITES.map(([n,u])=>`<a class="btn" href="${u}" target="_blank" rel="noopener noreferrer">${n} ↗</a>`).join("");
-const gmpNote=()=>`<p class="gmp-note"><span>📊</span><span>GMP is unofficial and changes quickly. Readings come from public trackers and our own checks, so some IPOs may show "Not reported". More trackers: ${GMP_SITES.map(([n,u])=>`<a href="${u}" target="_blank" rel="noopener noreferrer">${n} ↗</a>`).join(" · ")}</span></p>`;
+const gmpNote=()=>`<p class="gmp-note"><span>📊</span><span>GMP is unofficial and changes quickly. Readings come from public trackers and our own checks, so some IPOs may show "Not reported".</span></p>`;
 
 /* ============ calendar ============ */
 const ISO=d=>d.toLocaleDateString("en-CA");
@@ -1519,7 +1517,7 @@ function openDrawer(id, quiet){
     ${(i.gmp_sources&&i.gmp_sources.length)||(i.gmp_history&&i.gmp_history.length)
       ? `<h3>GMP readings</h3>${sourcesTable(i)}<h3>GMP history${i.history_source?" · "+esc(i.history_source):""}</h3>${gmpChart(i)}`
       : `<h3>GMP</h3><div class="micro">No GMP reported yet.</div>`}
-    <h3>Check GMP on other trackers</h3><div class="links" style="margin-top:0">${gmpLinks()}</div><p class="micro" style="margin-top:8px">Different sites can show different numbers, and GMP is never a promise.</p>
+    <p class="micro" style="margin-top:8px">Different sources can show different numbers, and GMP is never a promise.</p>
     <h3>Subscription</h3>${sub}${subNote}
     ${subHistoryBlock(i)}
     ${reservationBlock(i)}
