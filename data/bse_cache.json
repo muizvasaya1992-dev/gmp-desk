@@ -39,8 +39,8 @@
    "price_low": 1585,
    "face_value": 5.0,
    "scrip": 4901,
-   "bse_status": "F",
-   "last_seen": "2026-10-27T11:26+05:30"
+   "bse_status": "L",
+   "last_seen": "2026-10-27T12:04+05:30"
   },
   "8055": {
    "ipo_no": "8055",
@@ -54,7 +54,7 @@
    "face_value": 10.0,
    "scrip": 4902,
    "bse_status": "L",
-   "last_seen": "2026-10-27T11:26+05:30"
+   "last_seen": "2026-10-27T12:04+05:30"
   },
   "8056": {
    "ipo_no": "8056",
@@ -67,8 +67,8 @@
    "price_low": 142,
    "face_value": 10.0,
    "scrip": 4905,
-   "bse_status": "F",
-   "last_seen": "2026-10-27T11:26+05:30"
+   "bse_status": "L",
+   "last_seen": "2026-10-27T12:04+05:30"
   },
   "8060": {
    "ipo_no": "8060",
@@ -81,8 +81,8 @@
    "price_low": 313,
    "face_value": 2.0,
    "scrip": 4906,
-   "bse_status": "F",
-   "last_seen": "2026-10-27T11:26+05:30"
+   "bse_status": "L",
+   "last_seen": "2026-10-27T12:04+05:30"
   },
   "8061": {
    "ipo_no": "8061",
@@ -95,8 +95,8 @@
    "price_low": 194,
    "face_value": 10.0,
    "scrip": 4907,
-   "bse_status": "F",
-   "last_seen": "2026-10-27T11:26+05:30"
+   "bse_status": "L",
+   "last_seen": "2026-10-27T12:04+05:30"
   },
   "8062": {
    "ipo_no": "8062",
@@ -110,7 +110,7 @@
    "face_value": 10.0,
    "scrip": 4908,
    "bse_status": "F",
-   "last_seen": "2026-10-27T11:26+05:30"
+   "last_seen": "2026-10-27T12:04+05:30"
   },
   "8063": {
    "ipo_no": "8063",
@@ -124,7 +124,7 @@
    "face_value": 10.0,
    "scrip": 4909,
    "bse_status": "F",
-   "last_seen": "2026-10-27T11:24+05:30"
+   "last_seen": "2026-10-27T12:04+05:30"
   },
   "8065": {
    "ipo_no": "8065",
@@ -138,7 +138,7 @@
    "face_value": 10.0,
    "scrip": 4911,
    "bse_status": "F",
-   "last_seen": "2026-10-27T11:24+05:30"
+   "last_seen": "2026-10-27T12:04+05:30"
   }
  },
  "tracker": {
@@ -152,5 +152,5 @@
   "day_loss": 81,
   "fetched_at": "2026-10-27T11:24+05:30"
  },
- "fetched_at": "2026-10-27T11:26+05:30"
+ "fetched_at": "2026-10-27T12:04+05:30"
 }

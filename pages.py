@@ -6,6 +6,7 @@ script in the page, so the repository does not change every 20 minutes."""
 import html as H
 import json
 import pathlib
+import re
 import shutil
 
 SITE = "https://iposhop.in"
@@ -211,8 +212,27 @@ dl{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14
 .muted{color:var(--muted);font-size:14px}footer{margin-top:36px;background:var(--navy);color:#aab6dd;padding:28px 0;font-size:13.5px;line-height:1.6}
 ul.list{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:8px 22px}
 ul.list li{padding:6px 0;border-bottom:1px solid var(--line)}ul.list small{color:var(--muted);display:block}
-.dm{display:none;margin-left:10px;font-size:12.5px;font-weight:700;color:#2a3558;white-space:nowrap}.dm .meter{margin-right:4px}
-.w.wide{max-width:1100px}.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.dm{font-size:12.5px;font-weight:700;color:#2a3558;margin-left:auto}.dm .meter{margin-right:4px}
+.hub [hidden]{display:none!important}
+.hub .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:18px 0 14px}
+.hub .stat{background:#fff;border:1px solid var(--line);border-radius:16px;padding:14px 16px;text-decoration:none;color:var(--ink)}.hub .stat:hover{border-color:#b9c6ee}
+.hub .stat b{display:block;font-size:28px;line-height:1.1}.hub .stat span{color:var(--muted);font-size:13px}
+.hub .quick{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}.hub .qlink{padding:8px 14px;border-radius:999px;background:#eaf0ff;color:#1f4fc4;font-weight:600;font-size:14px;text-decoration:none}.hub .qlink:hover{background:#dbe6ff}
+.hub .tools{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:6px}
+.hub input[type=search]{flex:1 1 280px;padding:13px 16px;border:1px solid var(--line);border-radius:14px;font:inherit;background:#fff;color:var(--ink)}
+.hub .fchips{display:flex;gap:8px}.hub .fchip{border:1px solid var(--line);background:#fff;border-radius:999px;padding:11px 16px;font:inherit;font-weight:600;color:var(--ink);cursor:pointer;min-height:44px}
+.hub .fchip[aria-pressed=true]{background:#111735;border-color:#111735;color:#fff}
+ul.hgrid{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:12px}
+li.hc{position:relative;display:flex;flex-direction:column;gap:9px;background:#fff;border:1px solid var(--line);border-radius:16px;padding:14px;transition:box-shadow .15s,transform .15s}
+li.hc:hover{box-shadow:0 8px 22px rgba(17,23,53,.10);transform:translateY(-2px)}li.hc:focus-within{outline:3px solid #2f6fed;outline-offset:2px}.hc-main:focus,.hc-main:focus-visible{outline:none}
+.hc-main{display:flex;gap:12px;align-items:center;text-decoration:none;color:var(--ink)}.hc-main::after{content:"";position:absolute;inset:0;border-radius:16px}
+.av{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;color:#fff;font-weight:700;font-size:14px;flex:none}
+.hc-t b{display:block;font-size:16px;line-height:1.25}.hc-t small{display:block;color:var(--muted);font-size:13px;margin-top:2px}
+.hc-s{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:4px 10px;min-height:34px;border-top:1px dashed var(--line);padding-top:8px;font-size:13.5px;color:#2a3558}
+.hubsec{scroll-margin-top:14px}details.more{margin-top:14px}details.more summary{cursor:pointer;font-weight:700;color:#1f4fc4;padding:10px 0;margin-bottom:8px}
+@media(max-width:700px){.hub .stats{grid-template-columns:repeat(2,1fr)}ul.hgrid{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){li.hc:hover{transform:none}}
+.w.wide,body:has(main.wide) .w{max-width:1100px}.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .card h3{font-size:16px;margin:16px 0 4px}.card h3:first-of-type{margin-top:0}.card p{margin:0 0 8px}
 ol.tl{list-style:none;margin:0;padding:0;display:grid;gap:10px}ol.tl li{display:flex;justify-content:space-between;gap:12px;padding:10px 14px;background:#f4f6fb;border-radius:12px}
 .tw{overflow-x:auto;border:1px solid var(--line);border-radius:14px;background:#fff;margin:0 0 6px}
@@ -354,35 +374,90 @@ def render_page(d, near=()):
     return head(title, description(d), url, extra=f'<script type="application/ld+json">{ld}</script>') + body + FOOT
 
 
-HUB_JS = """<script>
-(function(){fetch("/ipos.json?"+Date.now(),{cache:"no-store"}).then(function(r){return r.json()}).then(function(a){
-var m={};(a.ipos||[]).forEach(function(i){if(i.sub&&i.sub.total!=null)m[i.id]=i.sub.total});
-document.querySelectorAll(".dm").forEach(function(el){var t=m[el.getAttribute("data-id")];if(t==null)return;
-var l=t>=50?5:t>=10?4:t>=3?3:t>=1?2:1,h='<span class="meter" title="Demand '+l+' of 5: how heavily subscribed. Not a rating of the IPO.">';
-for(var k=1;k<=5;k++)h+='<i'+(k<=l?' class="on"':'')+'></i>';el.innerHTML=h+'</span>'+t.toFixed(1)+'x';el.style.display='inline-block'})}).catch(function(){})})();
+HUB_JS = r"""<script>
+(function(){
+var q=document.getElementById("hq"),chips=[].slice.call(document.querySelectorAll(".fchip")),items=[].slice.call(document.querySelectorAll("li.hc")),secs=[].slice.call(document.querySelectorAll("[data-sec]")),det=[].slice.call(document.querySelectorAll("details.more")),cnt=document.getElementById("hcount"),none=document.getElementById("hnone"),seg="all",was=det.map(function(d){return d.open});
+function apply(){
+  var t=q.value.trim().toLowerCase(),act=!!t||seg!=="all",shown=0;
+  items.forEach(function(li){var ok=(!t||li.getAttribute("data-name").indexOf(t)>-1)&&(seg==="all"||li.getAttribute("data-seg")===seg);li.hidden=!ok;if(ok)shown++});
+  det.forEach(function(d,i){d.open=act?true:was[i]});
+  secs.forEach(function(s){s.hidden=!s.querySelector("li.hc:not([hidden])")});
+  cnt.textContent=act?("Showing "+shown+" of "+items.length+" IPOs"):(items.length+" IPOs");
+  none.hidden=shown>0}
+q.addEventListener("input",apply);
+chips.forEach(function(c){c.addEventListener("click",function(){seg=c.getAttribute("data-f");chips.forEach(function(x){x.setAttribute("aria-pressed",x===c?"true":"false")});apply()})});
+fetch("/ipos.json?"+Date.now(),{cache:"no-store"}).then(function(r){return r.json()}).then(function(a){
+  var m={};(a.ipos||[]).forEach(function(i){m[i.id]=i});
+  document.querySelectorAll(".dm").forEach(function(el){
+    var i=m[el.getAttribute("data-id")];if(!i)return;var h="",t=i.sub&&i.sub.total!=null?i.sub.total:null;
+    if(t!=null){var l=t>=50?5:t>=10?4:t>=3?3:t>=1?2:1,x='<span class="meter" title="Demand '+l+' of 5: how heavily subscribed. Not a rating of the IPO.">';for(var k=1;k<=5;k++)x+='<i'+(k<=l?' class="on"':'')+'></i>';h+=x+'</span>'+t.toFixed(1)+'x subscribed'}
+    if(i.gmp!=null)h+=(h?' \u00b7 ':'')+'<span title="GMP is unofficial">GMP '+(i.gmp<0?'\u2212':'')+'\u20b9'+Math.abs(i.gmp).toLocaleString("en-IN")+'</span>';
+    el.innerHTML=h})}).catch(function(){})})();
 </script>"""
+
+AVC = ("#2f6fed", "#0f7b4f", "#20306b", "#9a5b00", "#7b5cd6", "#0b6f7c", "#b83b34", "#3d4a6b")
+
+
+def initials(name):
+    w = re.findall(r"[A-Za-z0-9]+", name)
+    t = (w[0][0] + w[1][0]) if len(w) > 1 else (w[0][:2] if w else "IP")
+    return t.upper()
 
 
 def render_hub(ds):
-    def item(d):
-        emo, lab = STATUS.get(d.get("status") or "listed", STATUS["listed"])
-        when = dl(d.get("listing")) if d.get("status") == "listed" else (f"{dl(d.get('open'))} to {dl(d.get('close'))}" if d.get("open") and d.get("close") else lab)
-        return f'<li><a href="/ipo/{esc(d["id"])}/">{esc(d["name"])}</a><span class="dm" data-id="{esc(d["id"])}"></span><small>{emo} {lab} · {esc(when)}</small></li>'
-    key = lambda d: d.get("listing") or d.get("close") or d.get("open") or ""
-    live = sorted([d for d in ds if d.get("status") in ("open", "closing_today")], key=lambda d: d.get("close") or "")
-    up = sorted([d for d in ds if d.get("status") == "upcoming"], key=lambda d: d.get("open") or "")
-    closed = [d for d in ds if d.get("status") == "closed"]
-    main = sorted([d for d in ds if d.get("segment") != "SME" and d.get("status") == "listed"], key=key, reverse=True)
-    sme = sorted([d for d in ds if d.get("segment") == "SME" and d.get("status") == "listed"], key=key, reverse=True)
-    def block(title, lst):
-        return f'<section class="card"><h2>{title} ({len(lst)})</h2><ul class="list">{"".join(item(d) for d in lst)}</ul></section>' if lst else ""
+    def card(d):
+        st = d.get("status") or "listed"
+        emo, lab = STATUS.get(st, STATUS["listed"])
+        seg = "SME" if d.get("segment") == "SME" else "MAIN"
+        kind = "SME" if seg == "SME" else "Mainboard"
+        if st == "listed":
+            when = f"Listed {dl(d.get('listing'))}" if d.get("listing") else "Listed"
+            g = d.get("listing_gain_pct")
+            foot = (f"Issue price {rs(d['price'])}" if d.get("price") is not None else "") + (f' · <b>{"−" if g < 0 else "+"}{abs(g):.1f}%</b> on day one' if g is not None else "")
+        elif st == "closed":
+            when = f"Closed {dl(d.get('close'))}" if d.get("close") else "Closed"
+            foot = " · ".join(x for x in ((f"Allotment {dsh(d['boa'])}" if d.get("boa") else ""), (f"Listing {dsh(d['listing'])}" if d.get("listing") else "")) if x)
+        else:
+            when = f"{dsh(d.get('open'))} to {dl(d.get('close'))}" if d.get("open") and d.get("close") else lab
+            foot = " · ".join(x for x in ((band(d) or ""), (f"Lot {inr(d['lot'])}" if d.get("lot") else "")) if x)
+        col = AVC[sum(map(ord, d["name"])) % len(AVC)]
+        return (f'<li class="hc" data-name="{esc(d["name"].lower())}" data-seg="{seg}"><a class="hc-main" href="/ipo/{esc(d["id"])}/">'
+                f'<span class="av" style="background:{col}" aria-hidden="true">{esc(initials(d["name"]))}</span>'
+                f'<span class="hc-t"><b>{esc(d["name"])}</b><small>{kind} · {emo} {lab} · {esc(when)}</small></span></a>'
+                f'<div class="hc-s"><span>{foot}</span><span class="dm" data-id="{esc(d["id"])}"></span></div></li>')
+    key = lambda d: (d.get("listing") or d.get("close") or d.get("open") or "", d["name"])
+    live = sorted([d for d in ds if d.get("status") in ("open", "closing_today")], key=lambda d: (d.get("close") or "", d["name"]))
+    up = sorted([d for d in ds if d.get("status") == "upcoming"], key=lambda d: (d.get("open") or "", d["name"]))
+    closed = sorted([d for d in ds if d.get("status") == "closed"], key=lambda d: (d.get("boa") or d.get("close") or "", d["name"]))
+    listed = sorted([d for d in ds if d.get("status") == "listed"], key=key, reverse=True)
+
+    def sec(sid, title, lst, more_after=None, more_label=""):
+        if not lst:
+            return ""
+        shown, rest = (lst, []) if more_after is None else (lst[:more_after], lst[more_after:])
+        h = f'<section class="card hubsec" id="{sid}" data-sec><h2>{title} ({len(lst)})</h2><ul class="hgrid">{"".join(card(d) for d in shown)}</ul>'
+        if rest:
+            h += f'<details class="more"><summary>{more_label} ({len(rest)} more)</summary><ul class="hgrid">{"".join(card(d) for d in rest)}</ul></details>'
+        return h + "</section>"
+    stat = lambda href, n, t: (f'<a class="stat" href="{href}">' if n else '<div class="stat">') + f'<b>{n}</b><span>{t}</span>' + ('</a>' if n else '</div>')
+    quick = "".join(f'<a class="qlink" href="{u}">{esc(t)}</a>' for u, t in PAGE_LINKS if u != "/ipo/")
     desc = "Every IPO in India: open, upcoming and listed Mainboard and SME IPOs, with dates, price band, lot size, subscription and GMP. Official NSE and BSE data."
-    body = (f'<main class="w"><div class="crumbs"><a href="/">Home</a> › All IPOs</div><h1>All IPOs in India</h1>'
-            f'<p class="lead">{len(ds)} IPOs with their dates, price band, lot size, subscription, GMP and listing details. Pick any IPO to see its page.</p>'
-            '<p class="muted" style="margin:-8px 0 16px">The dots next to an IPO are its <b>demand meter</b>, from 1 to 5, showing how heavily it is subscribed. They appear for IPOs that have live subscription numbers.</p>'
-            + block("🟢 Open now", live) + block("🚀 Coming up", up) + block("🔒 Closed, awaiting listing", closed)
-            + block("🎉 Listed Mainboard IPOs", main) + block("🎉 Listed SME IPOs", sme) + "</main>")
-    return head("All IPOs in India: open, upcoming and listed | IPO Shop", desc, SITE + "/ipo/") + body + HUB_JS + FOOT
+    ld = json.dumps({"@context": "https://schema.org", "@graph": [
+        {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "IPO Shop", "item": SITE + "/"}, {"@type": "ListItem", "position": 2, "name": "All IPOs", "item": SITE + "/ipo/"}]},
+        {"@type": "ItemList", "name": "All IPOs in India", "itemListElement": [{"@type": "ListItem", "position": k + 1, "name": d["name"] + " IPO", "url": f"{SITE}/ipo/{d['id']}/"} for k, d in enumerate((live + up + closed)[:40])]}]}, ensure_ascii=False)
+    body = (f'<main class="w wide hub"><div class="crumbs"><a href="/">Home</a> › All IPOs</div><h1>All IPOs in India</h1>'
+            f'<p class="lead">{len(ds)} IPOs with their dates, price band, lot size, subscription, GMP and listing details. Search, filter, or pick any IPO to open its page.</p>'
+            '<div class="tools"><label class="sr" for="hq">Search IPOs by name</label><input id="hq" type="search" placeholder="Search any IPO…" autocomplete="off">'
+            '<div class="fchips" role="group" aria-label="Filter by type"><button class="fchip" type="button" data-f="all" aria-pressed="true">All</button>'
+            '<button class="fchip" type="button" data-f="MAIN" aria-pressed="false">Mainboard</button><button class="fchip" type="button" data-f="SME" aria-pressed="false">SME</button></div></div>'
+            f'<p class="muted" id="hcount" role="status" aria-live="polite">{len(ds)} IPOs</p>'
+            '<p class="muted" id="hnone" hidden>No IPO matches. Try a shorter name.</p>'
+            '<div class="stats">' + stat("#open", len(live), "Open now") + stat("#soon", len(up), "Coming up") + stat("#closed", len(closed), "Closed, awaiting listing") + stat("#listed", len(listed), "Listed so far") + "</div>"
+            f'<nav class="quick" aria-label="Browse IPO pages">{quick}</nav>'
+            + sec("open", "🟢 Open now", live) + sec("soon", "🚀 Coming up", up) + sec("closed", "🔒 Closed, awaiting listing", closed)
+            + sec("listed", "🎉 Listed IPOs", listed, 30, "Show all listed IPOs")
+            + '<p class="muted">The dots show the <b>demand meter</b> from 1 to 5: how heavily an IPO is subscribed, not a rating. GMP is unofficial. Facts only, not investment advice.</p></main>')
+    return head("All IPOs in India: open, upcoming and listed | IPO Shop", desc, SITE + "/ipo/", extra=f'<script type="application/ld+json">{ld}</script>') + body + HUB_JS + FOOT
 
 
 def render_404():
