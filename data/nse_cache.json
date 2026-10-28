@@ -385,7 +385,7 @@
   "series": "EQ",
   "nse_status": "Active",
   "shares_offered": 11900000.0,
-  "last_seen": "2026-10-28T11:01+05:30",
+  "last_seen": "2026-10-28T11:03+05:30",
   "segment": "MAIN",
   "lot": 100,
   "registrar": "KFin Technologies Limited",
@@ -398,14 +398,14 @@
   "cutoff_time": "5:00 PM",
   "sub": {
    "qib": 12.04,
-   "nii": 25.04,
-   "bnii": 21.28,
-   "snii": 32.56,
-   "retail": 12.17,
-   "total": 14.89
+   "nii": 25.29,
+   "bnii": 21.49,
+   "snii": 32.89,
+   "retail": 12.28,
+   "total": 15.0
   },
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-10-28T10:57",
+  "sub_asof": "2026-10-28T11:00",
   "reservation": {
    "qib": 28.57,
    "nii": 21.43,
@@ -492,6 +492,15 @@
     "snii": 32.56,
     "retail": 12.17,
     "total": 14.89
+   },
+   {
+    "at": "2026-10-28T11:03+05:30",
+    "qib": 12.04,
+    "nii": 25.29,
+    "bnii": 21.49,
+    "snii": 32.89,
+    "retail": 12.28,
+    "total": 15.0
    }
   ]
  },
@@ -506,7 +515,7 @@
   "series": "EQ",
   "nse_status": "Active",
   "shares_offered": 14159744.0,
-  "last_seen": "2026-10-28T11:01+05:30",
+  "last_seen": "2026-10-28T11:03+05:30",
   "segment": "MAIN",
   "lot": 45,
   "registrar": "MUFG Intime India Private Limited",
@@ -526,7 +535,7 @@
    "total": 0.14
   },
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-10-28T10:57",
+  "sub_asof": "2026-10-28T11:00",
   "reservation": {
    "qib": 28.57,
    "nii": 21.43,
@@ -627,7 +636,7 @@
   "series": "EQ",
   "nse_status": "Active",
   "shares_offered": 5299684.0,
-  "last_seen": "2026-10-28T11:01+05:30",
+  "last_seen": "2026-10-28T11:03+05:30",
   "segment": "MAIN",
   "lot": 9,
   "registrar": "MUFG Intime India Private Limited",
@@ -647,7 +656,7 @@
    "total": 0.5
   },
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-10-28T10:57",
+  "sub_asof": "2026-10-28T11:00",
   "reservation": {
    "qib": 28.57,
    "nii": 21.43,
@@ -784,7 +793,7 @@
   "series": "EQ",
   "nse_status": "Active",
   "shares_offered": 11900000.0,
-  "last_seen": "2026-10-28T11:01+05:30",
+  "last_seen": "2026-10-28T11:03+05:30",
   "segment": "MAIN",
   "lot": 91,
   "registrar": "Bigshare Services Private Limited",
@@ -797,14 +806,14 @@
   "details_at": "2026-10-28T11:01+05:30",
   "sub": {
    "qib": 0.0,
-   "nii": 0.21,
-   "bnii": 0.3,
+   "nii": 0.22,
+   "bnii": 0.32,
    "snii": 0.02,
-   "retail": 0.06,
+   "retail": 0.07,
    "total": 0.08
   },
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-10-28T10:57",
+  "sub_asof": "2026-10-28T11:00",
   "reservation": {
    "qib": 28.57,
    "nii": 21.43,
@@ -818,6 +827,15 @@
     "bnii": 0.3,
     "snii": 0.02,
     "retail": 0.06,
+    "total": 0.08
+   },
+   {
+    "at": "2026-10-28T11:03+05:30",
+    "qib": 0.0,
+    "nii": 0.22,
+    "bnii": 0.32,
+    "snii": 0.02,
+    "retail": 0.07,
     "total": 0.08
    }
   ]
@@ -833,7 +851,7 @@
   "series": "EQ",
   "nse_status": "Forthcoming",
   "shares_offered": 23468846.0,
-  "last_seen": "2026-10-28T11:01+05:30",
+  "last_seen": "2026-10-28T11:03+05:30",
   "segment": "MAIN",
   "lot": 182,
   "registrar": "KFin Technologies Limited",
