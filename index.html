@@ -814,8 +814,8 @@ html[data-p] body.is-home main{margin-top:-26px}
       <div class="sf-live"><span class="badge" id="badge">…</span><span id="asof" title="The time the data last changed. The site is checked more often than this, but only saves when something is new."></span></div>
     </div>
     <div><p class="fh">Explore</p><a href="#home">Home</a><a href="#mainboard">Mainboard IPOs</a><a href="#sme">SME IPOs</a><a href="#year">All 2026 IPOs</a><a href="#calendar">IPO calendar</a><a href="ipo/">All IPO pages</a><a href="#contact">Contact us</a><a href="https://whatsapp.com/channel/0029VbEHHkoCcW4ped17YH0r" target="_blank" rel="noopener">WhatsApp channel ↗</a></div>
-    <div><p class="fh">Browse IPOs</p><a href="/open-ipos/">Open IPOs</a><a href="/upcoming-ipos/">Upcoming IPOs</a><a href="/ipo-gmp-today/">IPO GMP today</a><a href="/ipo-allotment-status/">Allotment status</a><a href="/sme-ipos/">SME IPOs</a><a href="/mainboard-ipos/">Mainboard IPOs</a><a href="/ipo-calendar/">IPO calendar</a><a href="/listed-ipos-2026/">Listed IPOs 2026</a></div>
-    <div><p class="fh">Good to know</p><p>GMP (grey market premium) is unofficial, comes from informal markets and is not regulated by SEBI or the exchanges. It changes quickly and often differs from the actual listing price.</p><p style="margin-top:8px">Some GMP and SME subscription figures also come from <a href="https://ipogyani.com/" target="_blank" rel="noopener">IPOGyani</a> and <a href="https://www.investorgain.com/" target="_blank" rel="noopener">InvestorGain</a>, used with their permission.</p></div>
+    <div><p class="fh">Browse IPOs</p><a href="/open-ipos/">Open IPOs</a><a href="/upcoming-ipos/">Upcoming IPOs</a><a href="/ipo-gmp-today/">IPO GMP today</a><a href="/ipo-allotment-status/">Allotment status</a><a href="/sme-ipos/">SME IPOs</a><a href="/mainboard-ipos/">Mainboard IPOs</a><a href="/ipo-calendar/">IPO calendar</a><a href="/listed-ipos-2026/">Listed IPOs 2026</a><a href="/ipo-subscription-status/">Subscription status</a><a href="/gmp-accuracy/">GMP accuracy</a><a href="/compare-ipos/">Compare IPOs</a><a href="/learn/">Learn</a></div>
+    <div><p class="fh">Good to know</p><p>GMP (grey market premium) is unofficial, comes from informal markets and is not regulated by SEBI or the exchanges. It changes quickly and often differs from the actual listing price.</p><p style="margin-top:8px">Dates, prices and subscription come from NSE and BSE. Where the exchanges have no figure yet, GMP and SME subscription are taken from public trackers and labelled as such.</p></div>
   </div>
   <div class="wrap sf-bottom">IPO Shop is an information website. It does not sell, apply for or recommend IPOs, and nothing here is investment advice. Read the offer document (RHP) and speak to a SEBI-registered advisor before investing.</div>
 </footer>
@@ -915,14 +915,16 @@ function stateSub(i){
 }
 const pill = i => `<span class="pill ${STATUS[i.status].cls}">${stText(i.status)}</span>`;
 const band = i => i.price==null ? "Price TBA" : (i.price_low!=null && i.price_low!==i.price ? `₹${inr(i.price_low)} – ${inr(i.price)}` : "₹"+inr(i.price));
+const minLots = i => i.segment==="SME" ? 2 : 1;
 const oneLot = i => (i.price!=null && i.lot!=null) ? "₹"+inr(i.price*i.lot) : "–";
 
+const trendChip=i=>{ const t=i.gmp_trend; if(!t) return ""; const m={rising:["▲","rising","pos2"],steady:["▬","steady",""],falling:["▼","falling","neg2"]}[t.dir]; return ` · <span class="${m[2]}" title="GMP moved ${t.change>=0?"+":""}₹${t.change} over the last ${t.days} daily readings">${m[0]} ${m[1]}</span>`; };
 const gmpLevel=p=>p>=30?5:p>=15?4:p>=5?3:p>0?2:1;
 const gmpMeter=i=>{ if(i.gmp==null||i.gmp_pct==null) return ""; const n=gmpLevel(i.gmp_pct); return `<span class="meter" role="img" aria-label="GMP strength ${n} out of 5" title="GMP strength ${n} of 5, from the GMP as a share of the issue price. It is not a rating of the IPO.">${[1,2,3,4,5].map(k=>`<i class="${k<=n?"on":""}"></i>`).join("")}</span>`; };
 function gmpBlock(i){
   if(i.gmp==null) return `<span class="muted">No quote yet</span>`;
   return `<div class="gv ${i.gmp>=0?"pos":"neg"}"><b>${rs(i.gmp)}</b>${i.gmp_pct!=null?`<span class="delta">${pct(i.gmp_pct)}</span>`:""}</div>`+(i.gmp_pct!=null?`<div class="micro" style="margin-top:2px">GMP strength ${gmpMeter(i)}</div>`:"")+
-         (i.price!=null?`<div class="micro">Est. listing ${rs(i.price+i.gmp)}${i.gmp_source_latest&&i.gmp_source_latest!=="IPO Shop"&&i.gmp_source_latest!=="GMP Desk"?" · via "+esc(i.gmp_source_latest.toLowerCase()):""}</div>`:"");
+         (i.price!=null?`<div class="micro">Est. listing ${rs(i.price+i.gmp)}${i.gmp_source_latest&&i.gmp_source_latest!=="IPO Shop"&&i.gmp_source_latest!=="GMP Desk"?" · via "+(/^Tracker /.test(i.gmp_source_latest)?"a public tracker":esc(i.gmp_source_latest.toLowerCase())):""}${trendChip(i)}</div>`:"");
 }
 const meterLevel=t=>t>=50?5:t>=10?4:t>=3?3:t>=1?2:1;
 const meter=t=>{ const n=meterLevel(t); return `<span class="meter" role="img" aria-label="Demand ${n} out of 5" title="Demand ${n} of 5: how heavily the IPO is subscribed. It is not a rating of the IPO.">${[1,2,3,4,5].map(k=>`<i class="${k<=n?"on":""}"></i>`).join("")}</span>`; };
@@ -983,7 +985,7 @@ function downloadIcs(i){
   document.body.appendChild(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(a.href),1500);
 }
 function calcOut(i,n){
-  n=Math.max(1,Math.floor(n)||1); const shares=n*i.lot, amt=shares*i.price;
+  n=Math.max(minLots(i),Math.floor(n)||minLots(i)); const shares=n*i.lot, amt=shares*i.price;
   let h=`<div><dt>Shares</dt><dd>${inr(shares)}</dd></div><div><dt>Amount to apply</dt><dd>₹${inr(amt)}</dd></div>`;
   if(i.gmp!=null) h+=`<div><dt>Est. value at GMP</dt><dd>₹${inr(shares*(i.price+i.gmp))}</dd></div><div><dt>Est. gain at GMP</dt><dd class="${i.gmp>=0?"pos2":"neg2"}">${rs(shares*i.gmp)}</dd></div>`;
   return `<dl class="facts">${h}</dl>`;
@@ -991,8 +993,8 @@ function calcOut(i,n){
 function calcBlock(i){
   if(i.price==null||i.lot==null) return "";
   const lim = i.retail_max||200000, cap = i.segment==="SME" ? null : Math.max(1,Math.floor(lim/(i.price*i.lot)));
-  return `<h3>Application calculator</h3><div class="calc"><label>Lots <input type="number" min="1" ${cap?`max="${cap}"`:""} value="1" inputmode="numeric" data-calc="${esc(i.id)}" aria-label="Number of lots"></label><div id="calcOut">${calcOut(i,1)}</div></div>
-    <p class="micro" style="margin-top:8px">${cap?`Retail applications can go up to ₹${inr(lim)} (about ${cap} lot${cap>1?"s":""} at this price). `:""}Allotment is not guaranteed and GMP is not a promise of a listing gain.</p>`;
+  return `<h3>Application calculator</h3><div class="calc"><label>Lots <input type="number" min="${minLots(i)}" ${cap?`max="${cap}"`:""} value="${minLots(i)}" inputmode="numeric" data-calc="${esc(i.id)}" aria-label="Number of lots"></label><div id="calcOut">${calcOut(i,minLots(i))}</div></div>
+    <p class="micro" style="margin-top:8px">${minLots(i)>1?`SME applications need at least ${minLots(i)} lots. `:""}${cap?`Retail applications can go up to ₹${inr(lim)} (about ${cap} lot${cap>1?"s":""} at this price). `:""}Allotment is not guaranteed and GMP is not a promise of a listing gain.</p>`;
 }
 function reservationBlock(i){
   const r=i.reservation; if(!r) return "";
@@ -1478,7 +1480,7 @@ function glance(i){
   const when = open ? ["Apply by",(i.status==="closing_today"?"Today":dd(i.close))+(i.cutoff_time?", "+i.cutoff_time:""),i.status==="closing_today"?"last day to apply":"issue closes "+dd(i.close)]
     : i.status==="upcoming" ? ["Opens",dd(i.open),"closes "+dd(i.close)]
     : i.status==="listed" ? ["Listed",dd(i.listing),""] : ["Closed",dd(i.close),i.listing?"lists "+dd(i.listing):""];
-  const minInv = (i.price!=null&&i.lot!=null) ? ["Minimum to apply","₹"+inr(i.price*i.lot),inr(i.lot)+" shares, at the top of the band"] : ["Minimum to apply","–",""];
+  const minInv = (i.price!=null&&i.lot!=null) ? ["Minimum to apply","₹"+inr(i.price*i.lot*minLots(i)),(minLots(i)>1?minLots(i)+" lots · ":"")+inr(i.lot*minLots(i))+" shares, at the top of the band"] : ["Minimum to apply","–",""];
   const subT = i.sub&&i.sub.total!=null ? ["Subscribed",i.sub.total.toFixed(2)+"x",{html:`${meter(i.sub.total)}Demand ${meterLevel(i.sub.total)} of 5`}] : ["Subscribed",i.status==="upcoming"?"Not open yet":"–",(i.status==="open"||i.status==="closing_today"||i.status==="closed")?{html:`${meterNA()}Demand not available yet`}:""];
   const gm = i.gmp!=null ? ["GMP (unofficial)",rs(i.gmp),i.gmp_pct!=null?{html:`${gmpMeter(i)}${pct(i.gmp_pct)} · strength ${gmpLevel(i.gmp_pct)} of 5`}:""] : ["GMP (unofficial)","No quote yet",""];
   return `<div class="glance">${[minInv,when,subT,gm].map(([k,v,s])=>`<div><div class="k">${k}</div><div class="v">${esc(v)}</div><div class="s">${s&&s.html?s.html:esc(s)}</div></div>`).join("")}</div>`;
@@ -1514,7 +1516,7 @@ function openDrawer(id, quiet){
   const subRows = i.sub ? SUBL.map(([k,l])=>[l,i.sub[k]]).filter(r=>r[1]!=null) : [];
   const mx = Math.max(1,...subRows.map(r=>r[1]));
   const sub = subRows.length ? `<div class="bars">${subRows.map(([l,v])=>`<div class="row"><span>${l}</span><div class="track"><div class="fill" style="width:${Math.min(100,v/mx*100)}%"></div></div><b>${v.toFixed(2)}x</b></div>`).join("")}</div>` : `<div class="micro">Subscription numbers appear once bidding opens.</div>`;
-  const subNote = subRows.length && i.sub_basis ? `<p class="micro" style="margin-top:6px">${i.sub_basis==="NSE+BSE"?"NSE and BSE combined":i.sub_basis==="IPOGyani"?`Total and retail figures via <a href="https://ipogyani.com/" target="_blank" rel="noopener">IPOGyani</a> (the exchanges do not give us this issue's numbers)`:"NSE only (BSE not included yet)"}${i.sub_asof?", as of "+tt(i.sub_asof):""}.</p>` : "";
+  const subNote = subRows.length && i.sub_basis ? `<p class="micro" style="margin-top:6px">${i.sub_basis==="NSE+BSE"?"NSE and BSE combined":i.sub_basis==="Tracker B"?`Total and retail figures from a public tracker (the exchanges do not give us this issue's numbers)`:"NSE only (BSE not included yet)"}${i.sub_asof?", as of "+tt(i.sub_asof):""}.</p>` : "";
   const lm=(i.lead_managers||[]).map(n=>n.replace(/\s+(Private\s+)?(Limited|Ltd\.?)$/i,"")); 
   const perLot = (i.gmp!=null && i.lot!=null) ? `<div><dt>Est. gain per lot at GMP</dt><dd class="${i.gmp>=0?"pos2":"neg2"}">${rs(i.gmp*i.lot)}</dd></div>` : "";
   $("db").innerHTML = `
@@ -1525,9 +1527,9 @@ function openDrawer(id, quiet){
     <dl class="facts">
       <div><dt>Price band</dt><dd>${band(i)}</dd></div>
       <div><dt>Lot size</dt><dd>${i.lot!=null?inr(i.lot)+" shares":"–"}</dd></div>
-      <div><dt>Cost of one lot</dt><dd>${oneLot(i)}</dd></div>
+      <div><dt>Cost of one lot</dt><dd>${oneLot(i)}</dd></div>${minLots(i)>1&&i.price!=null&&i.lot!=null?`<div><dt>Minimum to apply</dt><dd>${minLots(i)} lots · ₹${inr(i.price*i.lot*minLots(i))}</dd></div>`:""}
       <div><dt>Issue size</dt><dd>${cr(i.size_cr)}</dd></div>
-      <div><dt>Current GMP</dt><dd>${i.gmp==null?"–":rs(i.gmp)+(i.gmp_pct!=null?" ("+pct(i.gmp_pct)+")":"")}</dd></div>
+      <div><dt>Current GMP</dt><dd>${i.gmp==null?"–":rs(i.gmp)+(i.gmp_pct!=null?" ("+pct(i.gmp_pct)+")":"")}</dd></div>${i.gmp_trend?`<div><dt>GMP trend</dt><dd>${i.gmp_trend.dir==="rising"?"▲ Rising":i.gmp_trend.dir==="falling"?"▼ Falling":"▬ Steady"} <span class="muted" style="font-weight:400">(${i.gmp_trend.change>=0?"+":""}₹${i.gmp_trend.change} since ${dd(i.gmp_trend.since)})</span></dd></div>`:""}
       <div><dt>Implied listing price</dt><dd>${i.gmp==null||i.price==null?"–":rs(i.price+i.gmp)}</dd></div>
       ${perLot}
       ${i.listing_price?`<div><dt>Actual listing price</dt><dd>${rs(i.listing_price)} (${pct(i.listing_gain_pct)})</dd></div>`:""}

@@ -5,7 +5,7 @@ on:
     - cron: "23 * * * *"             # plus once an hour, every day and night, so GMP keeps moving on weekends and evenings
   workflow_dispatch: {}              # "Run workflow" button
   push:
-    paths: ["data/ipos_manual.json", "data/gmp.csv", "data/config.json", "build_data.py", "pages.py", "peers.py"]   # new code gets used straight away
+    paths: ["data/ipos_manual.json", "data/gmp.csv", "data/config.json", "build_data.py", "pages.py", "peers.py", "extras.py"]   # new code gets used straight away
 permissions:
   contents: write
 concurrency:
@@ -26,12 +26,14 @@ jobs:
       - run: python build_data.py --no-bse
         env:
           GMP_TRACKER_URL: ${{ secrets.GMP_TRACKER_URL }}     # kept secret, so the public repository never names the source
+          PEER_B_URL: ${{ secrets.PEER_B_URL }}
+          PEER_C_URL: ${{ secrets.PEER_C_URL }}
       - name: Commit if changed
         run: |
           git config user.name "ipo-bot"
           git config user.email "bot@users.noreply.github.com"
           # every folder the build writes: the data, the IPO pages, and the landing pages (open-ipos, upcoming-ipos, ...)
-          for p in ipos.json history.json data ipo sitemap.xml open-ipos upcoming-ipos ipo-gmp-today ipo-allotment-status sme-ipos mainboard-ipos ipo-calendar listed-ipos-2026 404.html alert; do
+          for p in ipos.json history.json data ipo sitemap.xml open-ipos upcoming-ipos ipo-gmp-today ipo-allotment-status sme-ipos mainboard-ipos ipo-calendar listed-ipos-2026 ipo-subscription-status gmp-accuracy compare-ipos learn 404.html alert; do
             if [ -e "$p" ]; then git add -A -- "$p"; fi
           done
           if git diff --staged --quiet; then echo "Nothing changed, nothing to commit."; exit 0; fi

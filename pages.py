@@ -59,6 +59,11 @@ def dl(iso):
     return f"{int(d)} {MONTHS[int(m) - 1]} {y}"
 
 
+def min_lots(d):
+    """SME issues need at least 2 lots from a retail applicant; Mainboard needs 1."""
+    return 2 if d.get("segment") == "SME" else 1
+
+
 def band(d):
     lo, hi = d.get("price_low"), d.get("price")
     if lo is not None and hi is not None and lo != hi:
@@ -124,6 +129,8 @@ def story(d):
             s += f" The price band is {band(d)}."
             if d.get("lot"):
                 s += f" The lot size is {inr(d['lot'])} shares, so one lot costs about {rs(d['lot'] * d['price'])} at the top of the band."
+                if min_lots(d) > 1:
+                    s += f" SME issues need at least {min_lots(d)} lots, so the minimum application is about {rs(min_lots(d) * d['lot'] * d['price'])}."
     elif st in ("upcoming", "open", "closing_today"):
         s += " The price band has not been announced yet."
     return s
@@ -171,6 +178,8 @@ def facts(d):
         rows.append(("Lot size", f"{inr(d['lot'])} shares"))
         if d.get("price") is not None and st != "listed":
             rows.append(("One lot costs", rs(d["lot"] * d["price"]) + " at the top of the band"))
+            if min_lots(d) > 1:
+                rows.append(("Minimum to apply", f"{min_lots(d)} lots, about {rs(min_lots(d) * d['lot'] * d['price'])}"))
     if d.get("size_cr") is not None:
         rows.append(("Issue size", f"₹{inr(d['size_cr'])} Cr"))
     rows += [("Opens", dl(d.get("open"))), ("Closes", dl(d.get("close")) + (f", {d['cutoff_time']}" if d.get("cutoff_time") and d.get("close") else "")),
@@ -297,8 +306,8 @@ def head(title, desc, url, robots=None, extra="", tick=False):
 
 FOOT = f"""<footer><div class="w">IPO Shop is an information website. It does not sell, apply for or recommend IPOs, and nothing here is investment advice.
 GMP (grey market premium) is unofficial and often differs from the actual listing price. Read the offer document (RHP) and speak to a SEBI-registered advisor before investing.
-<br>Browse: <a href="/open-ipos/" style="color:#c4cdee">Open IPOs</a> · <a href="/upcoming-ipos/" style="color:#c4cdee">Upcoming IPOs</a> · <a href="/ipo-gmp-today/" style="color:#c4cdee">IPO GMP today</a> · <a href="/ipo-allotment-status/" style="color:#c4cdee">Allotment status</a> · <a href="/sme-ipos/" style="color:#c4cdee">SME IPOs</a> · <a href="/mainboard-ipos/" style="color:#c4cdee">Mainboard IPOs</a> · <a href="/ipo-calendar/" style="color:#c4cdee">IPO calendar</a> · <a href="/listed-ipos-2026/" style="color:#c4cdee">Listed IPOs 2026</a>
-<br>Dates, prices and subscription come from NSE and BSE. Some GMP and SME subscription figures also come from <a href="https://ipogyani.com/" target="_blank" rel="noopener" style="color:#c4cdee">IPOGyani</a> and <a href="https://www.investorgain.com/" target="_blank" rel="noopener" style="color:#c4cdee">InvestorGain</a>, with their permission. <a href="/#contact" style="color:#c4cdee">Spotted a mistake? Tell us.</a> · <a href="{WA_CHANNEL}" target="_blank" rel="noopener" style="color:#c4cdee">WhatsApp channel</a></div></footer>
+<br>Browse: <a href="/open-ipos/" style="color:#c4cdee">Open IPOs</a> · <a href="/upcoming-ipos/" style="color:#c4cdee">Upcoming IPOs</a> · <a href="/ipo-gmp-today/" style="color:#c4cdee">IPO GMP today</a> · <a href="/ipo-allotment-status/" style="color:#c4cdee">Allotment status</a> · <a href="/sme-ipos/" style="color:#c4cdee">SME IPOs</a> · <a href="/mainboard-ipos/" style="color:#c4cdee">Mainboard IPOs</a> · <a href="/ipo-calendar/" style="color:#c4cdee">IPO calendar</a> · <a href="/listed-ipos-2026/" style="color:#c4cdee">Listed IPOs 2026</a> · <a href="/ipo-subscription-status/" style="color:#c4cdee">Subscription status</a> · <a href="/gmp-accuracy/" style="color:#c4cdee">GMP accuracy</a> · <a href="/compare-ipos/" style="color:#c4cdee">Compare IPOs</a> · <a href="/learn/" style="color:#c4cdee">Learn</a>
+<br>Dates, prices and subscription come from NSE and BSE; where they have no figure yet, GMP and SME subscription come from public trackers and are labelled. <a href="/#contact" style="color:#c4cdee">Spotted a mistake? Tell us.</a> · <a href="{WA_CHANNEL}" target="_blank" rel="noopener" style="color:#c4cdee">WhatsApp channel</a></div></footer>
 {BEACON}</body></html>"""
 
 LIVE_JS = """<script>
@@ -314,7 +323,8 @@ if(live){
   for(var k=1;k<=5;k++)m+='<i'+(k<=l?' class="on"':'')+'></i>';
   out.push(["Demand meter",m+"</span>"+l+" of 5"]);}
  if((live.status==="open"||live.status==="closing_today")&&!(live.sub&&live.sub.total!=null))out.push(["Demand meter","Not available yet for this issue"]);
- if(live.gmp!=null)out.push(["GMP (unofficial)","₹"+n(live.gmp)+(live.gmp_pct!=null?" ("+p(live.gmp_pct)+")":"")+(live.gmp_source_latest&&live.gmp_source_latest!=="IPO Shop"?" via "+live.gmp_source_latest.toLowerCase():"")]);
+ if(live.gmp!=null)out.push(["GMP (unofficial)","₹"+n(live.gmp)+(live.gmp_pct!=null?" ("+p(live.gmp_pct)+")":"")+(live.gmp_source_latest&&live.gmp_source_latest!=="IPO Shop"?" via "+(/^Tracker /.test(live.gmp_source_latest)?"a public tracker":live.gmp_source_latest.toLowerCase()):"")]);
+ if(live.gmp!=null&&live.gmp_trend){var gt=live.gmp_trend;out.push(["GMP trend",(gt.dir==="rising"?"▲ Rising":gt.dir==="falling"?"▼ Falling":"▬ Steady")+" ("+(gt.change>=0?"+":"")+"₹"+n(gt.change)+" over the last "+gt.days+" daily readings)"]);}
  if(live.gmp!=null&&live.price!=null)out.push(["Estimated listing price","₹"+n(live.price+live.gmp)]);
 }
 if(row&&row.gain_pct!=null)out.push(["Latest price","₹"+n(row.current)+" ("+p(row.gain_pct)+" since issue)"]);
@@ -354,6 +364,8 @@ def faq(d):
         a = f"The lot size is {inr(d['lot'])} shares."
         if d.get("price") is not None:
             a += f" At {rs(d['price'])} per share, one lot costs about {rs(d['lot'] * d['price'])}."
+            if min_lots(d) > 1:
+                a += f" SME issues need at least {min_lots(d)} lots, so the minimum application is about {rs(min_lots(d) * d['lot'] * d['price'])}."
         qa.append((f"What is the {n} IPO lot size?", a))
     if d.get("open") and d.get("close"):
         qa.append((f"When does the {n} IPO open and close?", f"The {n} IPO opens on {dl(d['open'])} and closes on {dl(d['close'])}" + (f" at {d['cutoff_time']}" if d.get("cutoff_time") else "") + "."))
@@ -649,7 +661,8 @@ def C_band(d):
 
 def C_lot(d):
     if d.get("lot") and d.get("price") is not None:
-        return f"{inr(d['lot'])} shares<small>One lot {rs(d['lot'] * d['price'])}</small>"
+        extra = f", min {min_lots(d)} lots {rs(min_lots(d) * d['lot'] * d['price'])}" if min_lots(d) > 1 else ""
+        return f"{inr(d['lot'])} shares<small>One lot {rs(d['lot'] * d['price'])}{extra}</small>"
     return "–"
 
 
@@ -732,7 +745,8 @@ COLS_CLOSED = [NAME, ("Closed", C_closed), ("Allotment", C_allot), ("Listing", C
 COLS_LISTED = [NAME, ("Issue price", C_issue), ("Listed on", C_listing), ("Listing-day close", C_gain)]
 
 PAGE_LINKS = (("/open-ipos/", "Open IPOs"), ("/upcoming-ipos/", "Upcoming IPOs"), ("/ipo-gmp-today/", "IPO GMP today"), ("/ipo-allotment-status/", "Allotment status"),
-              ("/sme-ipos/", "SME IPOs"), ("/mainboard-ipos/", "Mainboard IPOs"), ("/ipo-calendar/", "IPO calendar"), ("/listed-ipos-2026/", "Listed IPOs 2026"), ("/ipo/", "All IPOs"))
+              ("/sme-ipos/", "SME IPOs"), ("/mainboard-ipos/", "Mainboard IPOs"), ("/ipo-calendar/", "IPO calendar"), ("/listed-ipos-2026/", "Listed IPOs 2026"),
+              ("/ipo-subscription-status/", "Subscription status"), ("/gmp-accuracy/", "GMP accuracy"), ("/compare-ipos/", "Compare IPOs"), ("/learn/", "Learn"), ("/ipo/", "All IPOs"))
 HOWTO = ("Open the IPO section of your broker or bank app, pick the IPO, choose the number of lots and enter your UPI ID. Approve the payment request in your UPI app before the cut-off on the last day. "
          "The money stays blocked in your account until allotment. IPO Shop does not take applications.")
 SUBQ = "Subscription shows how many times the shares on offer have been bid for. 5x means investors asked for five times the shares available. It measures demand and does not predict the listing price."
@@ -818,11 +832,11 @@ def lp_segment(ds, seg):
     listed = by(mine, lambda d: d.get("status") == "listed" and d.get("listing"), lambda d: d["listing"])[-15:][::-1]
     word, slug = ("SME", "sme-ipos") if sme else ("Mainboard", "mainboard-ipos")
     intro = (f"{word} IPOs in India: {len(live)} open now, {len(up)} upcoming and {len(closed)} waiting for listing. " + ("SME IPOs come from smaller companies on BSE SME and NSE Emerge, with bigger lots and thinner trading." if sme else "Mainboard IPOs come from larger companies that list on the main boards of NSE and BSE."))
-    q1 = ("What is an SME IPO?", "An SME IPO is a public issue by a small or medium company that lists on the SME platform of BSE (BSE SME) or NSE (NSE Emerge). The lot size is bigger, so the minimum investment is usually higher than for Mainboard IPOs, and trading can be thinner.") if sme else \
+    q1 = ("What is an SME IPO?", "An SME IPO is a public issue by a small or medium company that lists on the SME platform of BSE (BSE SME) or NSE (NSE Emerge). The lot size is bigger and a retail application needs at least 2 lots, so the minimum investment is usually higher than for Mainboard IPOs, and trading can be thinner.") if sme else \
          ("What is a Mainboard IPO?", "A Mainboard IPO is a public issue by a larger company that lists on the main boards of NSE and BSE. Retail investors can bid for up to ₹2 lakh in one application.")
     return landing(slug, f"{word} IPOs in India: Open, Upcoming and Listed | IPO Shop", f"{word} IPOs in India",
                    f"{word} IPOs in India: open, upcoming and recently listed, with dates, price band, lot size, subscription and GMP. From NSE and BSE data.",
-                   intro, block(f"Open {word} IPOs", live, COLS_LIVE) + block(f"Upcoming {word} IPOs", up, COLS_UP) + block("Closed, waiting to list", closed, COLS_CLOSED) + block(f"Recently listed {word} IPOs", listed, COLS_LISTED),
+                   intro, extras.dashboard(ds, seg) + block(f"Open {word} IPOs", live, COLS_LIVE) + block(f"Upcoming {word} IPOs", up, COLS_UP) + block("Closed, waiting to list", closed, COLS_CLOSED) + block(f"Recently listed {word} IPOs", listed, COLS_LISTED),
                    [q1, ("How do I apply?", HOWTO), ("What does subscription mean?", SUBQ)], live + up + closed + listed)
 
 
@@ -873,7 +887,7 @@ LANDERS = (("open-ipos", lp_open), ("upcoming-ipos", lp_upcoming), ("ipo-gmp-tod
 
 
 def write_sitemap(root, ds):
-    urls = [SITE + "/", SITE + "/ipo/"] + [f"{SITE}/{sl}/" for sl in SLUGS] + [f"{SITE}/ipo/{d['id']}/" for d in sorted(ds, key=lambda d: d["id"])]
+    urls = [SITE + "/", SITE + "/ipo/"] + [f"{SITE}/{sl}/" for sl in SLUGS + tuple(extras.SLUGS)] + [f"{SITE}/ipo/{d['id']}/" for d in sorted(ds, key=lambda d: d["id"])]
     xml = ('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
            + "".join(f"  <url><loc>{esc(u)}</loc></url>\n" for u in urls) + "</urlset>\n")
     p = root / "sitemap.xml"
@@ -913,6 +927,8 @@ def write_all(hist_rows, ipos, root, log=print):
     for slug, fn in LANDERS:
         save(root / slug / "index.html", fn(ds))
     save(base / "index.html", render_hub(ds))
+    for slug, html in extras.pages(ds, root):
+        save(root / slug / "index.html", html)
     save(root / "404.html", render_404())
     save(root / "alert" / "index.html", render_alert())
     save(root / "alert" / "manifest.webmanifest", json.dumps({"name": "IPO Shop daily alert", "short_name": "IPO Alert", "start_url": "/alert/", "scope": "/alert/",
@@ -926,3 +942,6 @@ def write_all(hist_rows, ipos, root, log=print):
     sm = write_sitemap(root, ds)
     log(f"IPO pages: {len(ds)} pages ({wrote} written, {same} unchanged, {removed} removed); sitemap {'updated' if sm else 'unchanged'}")
     return len(ds)
+
+
+import extras  # noqa: E402  (imported last: extras reads names from this module)

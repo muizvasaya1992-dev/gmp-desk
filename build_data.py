@@ -823,6 +823,13 @@ def enrich(ipo, today):
         diff = max(vals) - min(vals)
         ipo["gmp_spread"] = {"min": min(vals), "max": max(vals), "diff": diff, "n": len(vals),
                              "diff_pct_of_price": round(diff / ipo["price"] * 100, 2) if ipo.get("price") else None}
+    ipo.pop("gmp_trend", None)
+    if len(hist) >= 2 and ipo.get("price"):
+        last = hist[-3:]                                   # the last few daily readings
+        delta = last[-1]["gmp"] - last[0]["gmp"]
+        pct = delta / ipo["price"] * 100
+        ipo["gmp_trend"] = {"dir": "rising" if pct >= 1 else "falling" if pct <= -1 else "steady",
+                            "change": delta, "days": len(last), "since": last[0]["date"]}
     ipo["status"] = status_for(ipo, today)
     if ipo.get("listing_price") and ipo.get("price"):
         ipo["listing_gain_pct"] = round((ipo["listing_price"] / ipo["price"] - 1) * 100, 2)
@@ -887,7 +894,7 @@ def main():
             bse_path.write_text(json.dumps(bsec, indent=1, ensure_ascii=False), encoding="utf-8")
         recs = merge_bse(recs, bsec)
         feeds_ok = bool(cache) and bool(bsec.get("ipos"))
-        peer_rows = []                                      # IPOGyani and InvestorGain, used with their owners' permission
+        peer_rows = []                                      # extra public trackers, used with their owners' permission
         try:
             pflag = ((load_json(DATA / "config.json", {}) or {}).get("gmp_autofill") or {}).get("peers", True)
             if pflag and not LOCAL_TEST and "--no-peers" not in ARGS:
@@ -941,6 +948,11 @@ def main():
             print(f"history.json unchanged ({len(hist['rows'])} IPOs)")
         try:                                                # one crawlable page per IPO, plus the hub and the sitemap
             import pages
+            try:                                            # remember each IPO's last GMP before it lists (for the accuracy page)
+                import extras
+                extras.update_final(ROOT, ipos, hist["rows"], now.date(), stamp)
+            except Exception as e:
+                print("GMP record skipped:", type(e).__name__, e)
             pages.write_all(hist["rows"], ipos, ROOT)
         except Exception as e:                              # never let the pages stop the data from publishing
             print("IPO pages skipped:", e)

@@ -1,4 +1,5 @@
-"""Extra sources, used with the owners' permission: IPOGyani and InvestorGain.
+"""Two extra public sources, used with their owners' permission. Their addresses live in data/private.json
+(or the PEER_B_URL / PEER_C_URL secrets), never in this file, and they are only ever called "Tracker B" and "Tracker C".
 
 What we take: GMP values and when they were updated, subscription totals, and the basic facts (name, dates, price band, size)
 of an IPO that the exchange feeds do not list yet. What we leave out: their AI predictions, ratings, flags and any text.
@@ -12,9 +13,7 @@ import pathlib
 import re
 
 UA = "IPOShopBot/1.0 (+https://iposhop.in/)"
-GYANI_URL = "https://ipogyani.com/ipo-subscription"
-GAIN_URL = "https://www.investorgain.com/report/live-ipo-gmp/331/"
-GYANI, GAIN = "IPOGyani", "InvestorGain"
+B, C = "Tracker B", "Tracker C"
 IST = dt.timezone(dt.timedelta(hours=5, minutes=30))
 MAX_AGE_HOURS = 12                                  # a cached copy older than this is not used
 
@@ -93,7 +92,7 @@ def fetch(url):
     return r.text
 
 
-# ------------------------------------------------------------------ IPOGyani: records are embedded in the page
+# ------------------------------------------------------------------ source B: the records are embedded in the page
 def _next_text(page):
     out = []
     for m in re.finditer(r'self\.__next_f\.push\(\[1,"(.*?)"\]\)', page, re.S):
@@ -104,7 +103,7 @@ def _next_text(page):
     return "".join(out)
 
 
-def parse_gyani(page):
+def parse_b(page):
     s, dec, seen = _next_text(page), json.JSONDecoder(), {}
     for m in re.finditer(r'"ipos":\[', s):
         try:
@@ -120,7 +119,7 @@ def parse_gyani(page):
         sub = und(r.get("subscription")) if isinstance(und(r.get("subscription")), dict) else {}
         exch = und(r.get("exchange")) or ""
         out.append({
-            "src": GYANI, "slug": re.sub(r"-ipo$", "", r["slug"]), "name": r["name"],
+            "src": B, "slug": re.sub(r"-ipo$", "", r["slug"]), "name": r["name"],
             "segment": "SME" if "SME" in exch.upper() else "MAIN",
             "exchange": exch if "SME" in exch.upper() else None,
             "open": und(r.get("openDate")), "close": und(r.get("closeDate")), "boa": und(r.get("allotmentDate")), "listing": und(r.get("listDate")),
@@ -133,7 +132,7 @@ def parse_gyani(page):
     return out
 
 
-# ------------------------------------------------------------------ InvestorGain: the report table is in the page
+# ------------------------------------------------------------------ source C: the report table is in the page
 def _date(txt, today):
     m = re.match(r"\s*(\d{1,2})-([A-Za-z]{3})", txt or "")
     if not m:
@@ -149,7 +148,7 @@ def _date(txt, today):
     return d.isoformat()
 
 
-def parse_gain(page, today):
+def parse_c(page, today):
     i = page.find('<table class="report-data-table"')
     if i < 0:
         return []
@@ -173,7 +172,7 @@ def parse_gain(page, today):
         flag = next((b for b in badges if b in ("U", "O", "C", "CT")), None)
         size = re.search(r"([\d,]+(?:\.\d+)?)\s*Cr", cells.get("IPO Size", ""))
         out.append({
-            "src": GAIN, "slug": re.sub(r"-ipo$", "", href.group(1)), "name": H.unescape(href.group(2)).strip(),
+            "src": C, "slug": re.sub(r"-ipo$", "", href.group(1)), "name": H.unescape(href.group(2)).strip(),
             "segment": "SME" if seg_badge else "MAIN",
             "exchange": ("NSE Emerge" if "NSE" in seg_badge.upper() else "BSE SME") if seg_badge else None,
             "open": _date(cells.get("Open"), today), "close": _date(cells.get("Close"), today),
@@ -188,6 +187,16 @@ def parse_gain(page, today):
 
 
 # ------------------------------------------------------------------ one call for the build
+def _urls(root):
+    import os
+    try:
+        pj = json.loads((pathlib.Path(root) / "data" / "private.json").read_text(encoding="utf-8")) or {}
+    except Exception:
+        pj = {}
+    return {"b": (os.environ.get("PEER_B_URL") or pj.get("peer_b_url") or "").strip(),
+            "c": (os.environ.get("PEER_C_URL") or pj.get("peer_c_url") or "").strip()}
+
+
 def load(root, today, offline=False, fixtures=None):
     """Returns the list of records from both sources (fresh, or the saved copy if a fetch failed)."""
     root = pathlib.Path(root)
@@ -199,13 +208,20 @@ def load(root, today, offline=False, fixtures=None):
         pass
     now = dt.datetime.now(IST)
     out, changed = [], False
-    for key, url, parser in (("gyani", GYANI_URL, lambda p: parse_gyani(p)), ("gain", GAIN_URL, lambda p: parse_gain(p, today))):
-        recs, page = None, None
+    stale = [k for k in cache if k not in ("b", "c")]          # an earlier layout: drop it so older labels do not stay published
+    for k in stale:
+        cache.pop(k)
+        changed = True
+    urls = _urls(root)
+    for key, parser in (("b", lambda p: parse_b(p)), ("c", lambda p: parse_c(p, today))):
+        url, recs, page = urls[key], None, None
+        if not url and not fixtures and not offline:
+            print(f"  peers: source {key.upper()}: no address set, using the saved copy")
         try:
             if fixtures:
                 f = pathlib.Path(fixtures) / f"{key}.html"
                 page = f.read_text(encoding="utf-8") if f.exists() else None
-            elif not offline:
+            elif not offline and url:
                 page = fetch(url)
             if page:
                 recs = parser(page)
@@ -239,7 +255,7 @@ def apply(recs, peers, today, stamp):
     for r in recs:
         for k in _keys(r.get("id"), r.get("symbol"), r.get("name")):
             idx[k] = r
-    order = {GYANI: 0, GAIN: 1}
+    order = {B: 0, C: 1}
     by_key, rows, added, subs = {}, [], 0, 0
     for p in sorted(peers, key=lambda x: order.get(x["src"], 9)):
         mine = None
@@ -265,12 +281,12 @@ def apply(recs, peers, today, stamp):
         by_key.setdefault(mine["id"], mine)
         if p.get("gmp") not in (None, 0):                                   # 0 means "no quote yet" on these sites
             rows.append({"ipo": mine["id"], "gmp": _tidy(p["gmp"]), "at": p["gmp_at"] or stamp[:16], "source": p["src"]})
-        if p["src"] == GYANI and p.get("sub_total"):
-            if not mine.get("sub") or mine.get("sub_basis") == GYANI:        # never replace the exchanges' own figures
+        if p["src"] == B and p.get("sub_total"):
+            if not mine.get("sub") or mine.get("sub_basis") == B:        # never replace the exchanges' own figures
                 sub = {"total": round(p["sub_total"], 2)}
                 if p.get("sub_retail") is not None:
                     sub["retail"] = round(p["sub_retail"], 2)
-                mine["sub"], mine["sub_basis"], mine["sub_asof"] = sub, GYANI, p.get("sub_at")
+                mine["sub"], mine["sub_basis"], mine["sub_asof"] = sub, B, p.get("sub_at")
                 subs += 1
     if added or subs or rows:
         print(f"  peers: {added} IPO(s) added from them, {subs} subscription figure(s) filled, {len(rows)} GMP reading(s)")
@@ -282,8 +298,14 @@ def tidy_price(v):
 
 
 def keep_new(root, rows):
-    """Append to data/gmp_peers.json only when a value changed or 3 hours passed, so the file stays small."""
-    path = pathlib.Path(root) / "data" / "gmp_peers.json"
+    """Append to data/gmp_extra.json only when a value changed or 3 hours passed, so the file stays small."""
+    old = pathlib.Path(root) / "data" / "gmp_peers.json"      # an earlier name: remove it so the older labels do not stay published
+    if old.exists():
+        try:
+            old.unlink()
+        except OSError:
+            pass
+    path = pathlib.Path(root) / "data" / "gmp_extra.json"
     try:
         store = json.loads(path.read_text(encoding="utf-8"))
     except Exception:

@@ -1,9 +1,9 @@
 {
- "gyani": {
-  "fetched_at": "2026-10-28T14:24+05:30",
+ "b": {
+  "fetched_at": "2026-10-28T14:50+05:30",
   "records": [
    {
-    "src": "IPOGyani",
+    "src": "Tracker B",
     "slug": "eaaa-india-alternatives",
     "name": "EAAA India Alternatives",
     "segment": "MAIN",
@@ -16,34 +16,14 @@
     "price_low": 1585.0,
     "size_cr": 1200.0,
     "gmp": 9.0,
-    "gmp_at": "2026-10-28T14:21",
-    "sub_total": 1.69,
-    "sub_retail": 0.22,
-    "sub_at": "2026-10-28T14:23",
+    "gmp_at": "2026-10-28T14:46",
+    "sub_total": 2.01,
+    "sub_retail": 0.25,
+    "sub_at": "2026-10-28T14:50",
     "live": true
    },
    {
-    "src": "IPOGyani",
-    "slug": "bls-polymers",
-    "name": "BLS Polymers",
-    "segment": "MAIN",
-    "exchange": null,
-    "open": "2026-10-27",
-    "close": "2026-10-29",
-    "boa": "2026-10-30",
-    "listing": "2026-11-03",
-    "price": 150.0,
-    "price_low": 142.0,
-    "size_cr": 255.0,
-    "gmp": 42.0,
-    "gmp_at": "2026-10-28T14:21",
-    "sub_total": 25.37,
-    "sub_retail": 22.39,
-    "sub_at": "2026-10-28T14:23",
-    "live": true
-   },
-   {
-    "src": "IPOGyani",
+    "src": "Tracker B",
     "slug": "sfc-environmental-technologies",
     "name": "SFC Environmental Technologies",
     "segment": "MAIN",
@@ -56,14 +36,34 @@
     "price_low": 313.0,
     "size_cr": 668.0,
     "gmp": 17.0,
-    "gmp_at": "2026-10-28T14:20",
-    "sub_total": 0.19,
-    "sub_retail": 0.29,
-    "sub_at": "2026-10-28T14:23",
+    "gmp_at": "2026-10-28T14:46",
+    "sub_total": 0.2,
+    "sub_retail": 0.3,
+    "sub_at": "2026-10-28T14:49",
     "live": true
    },
    {
-    "src": "IPOGyani",
+    "src": "Tracker B",
+    "slug": "bls-polymers",
+    "name": "BLS Polymers",
+    "segment": "MAIN",
+    "exchange": null,
+    "open": "2026-10-27",
+    "close": "2026-10-29",
+    "boa": "2026-10-30",
+    "listing": "2026-11-03",
+    "price": 150.0,
+    "price_low": 142.0,
+    "size_cr": 255.0,
+    "gmp": 42.0,
+    "gmp_at": "2026-10-28T14:46",
+    "sub_total": 26.75,
+    "sub_retail": 23.72,
+    "sub_at": "2026-10-28T14:49",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
     "slug": "mk-sons-fine-jewels",
     "name": "M.K. Sons Fine Jewels",
     "segment": "MAIN",
@@ -76,14 +76,14 @@
     "price_low": 153.0,
     "size_cr": 330.48,
     "gmp": 11.5,
-    "gmp_at": "2026-10-28T14:21",
-    "sub_total": 0.35,
-    "sub_retail": 0.16,
-    "sub_at": "2026-10-28T14:24",
+    "gmp_at": "2026-10-28T14:46",
+    "sub_total": 0.51,
+    "sub_retail": 0.18,
+    "sub_at": "2026-10-28T14:50",
     "live": true
    },
    {
-    "src": "IPOGyani",
+    "src": "Tracker B",
     "slug": "wiscon-industries",
     "name": "Wiscon Industries",
     "segment": "SME",
@@ -96,14 +96,14 @@
     "price_low": 194.0,
     "size_cr": 110.0,
     "gmp": 0.0,
-    "gmp_at": "2026-10-28T14:16",
+    "gmp_at": "2026-10-28T14:46",
     "sub_total": 0.84,
     "sub_retail": 0.39,
-    "sub_at": "2026-10-28T14:21",
+    "sub_at": "2026-10-28T14:46",
     "live": true
    },
    {
-    "src": "IPOGyani",
+    "src": "Tracker B",
     "slug": "ajwa-projects",
     "name": "Ajwa Projects Limited",
     "segment": "SME",
@@ -116,14 +116,14 @@
     "price_low": 203.0,
     "size_cr": 38.05,
     "gmp": 38.0,
-    "gmp_at": "2026-10-28T14:21",
+    "gmp_at": "2026-10-28T14:46",
     "sub_total": 0.23,
     "sub_retail": 0.39,
-    "sub_at": "2026-10-28T14:23",
+    "sub_at": "2026-10-28T14:48",
     "live": true
    },
    {
-    "src": "IPOGyani",
+    "src": "Tracker B",
     "slug": "carver-roboweld",
     "name": "Carver Roboweld",
     "segment": "SME",
@@ -136,14 +136,14 @@
     "price_low": 76.0,
     "size_cr": 28.29,
     "gmp": 0.0,
-    "gmp_at": "2026-10-28T14:20",
+    "gmp_at": "2026-10-28T14:45",
     "sub_total": 0.09,
     "sub_retail": 0.11,
-    "sub_at": "2026-10-28T14:21",
+    "sub_at": "2026-10-28T14:45",
     "live": true
    },
    {
-    "src": "IPOGyani",
+    "src": "Tracker B",
     "slug": "core4-engineers",
     "name": "Core4 Engineers Ltd.",
     "segment": "SME",
@@ -156,7 +156,7 @@
     "price_low": 88.0,
     "size_cr": 54.82,
     "gmp": 0.0,
-    "gmp_at": "2026-10-28T14:21",
+    "gmp_at": "2026-10-28T14:46",
     "sub_total": 5.41,
     "sub_retail": 2.68,
     "sub_at": "2026-10-27T19:05",
@@ -164,11 +164,11 @@
    }
   ]
  },
- "gain": {
-  "fetched_at": "2026-10-28T14:24+05:30",
+ "c": {
+  "fetched_at": "2026-10-28T14:50+05:30",
   "records": [
    {
-    "src": "InvestorGain",
+    "src": "Tracker C",
     "slug": "vedant-poly-fabs",
     "name": "Vedant Poly Fabs",
     "segment": "SME",
@@ -188,7 +188,7 @@
     "live": true
    },
    {
-    "src": "InvestorGain",
+    "src": "Tracker C",
     "slug": "hgs-india",
     "name": "HGS (India)",
     "segment": "SME",
@@ -201,14 +201,14 @@
     "price_low": null,
     "size_cr": 34.56,
     "gmp": null,
-    "gmp_at": "2026-10-28T12:00",
+    "gmp_at": "2026-10-28T13:59",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
     "live": true
    },
    {
-    "src": "InvestorGain",
+    "src": "Tracker C",
     "slug": "johnsoncab-electricals",
     "name": "Johnsoncab Electricals",
     "segment": "SME",
@@ -221,14 +221,14 @@
     "price_low": null,
     "size_cr": 56.02,
     "gmp": null,
-    "gmp_at": "2026-10-28T11:54",
+    "gmp_at": "2026-10-28T14:01",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
     "live": true
    },
    {
-    "src": "InvestorGain",
+    "src": "Tracker C",
     "slug": "vectras-enprocon",
     "name": "Vectras Enprocon",
     "segment": "SME",
@@ -241,14 +241,14 @@
     "price_low": null,
     "size_cr": 53.05,
     "gmp": null,
-    "gmp_at": "2026-10-28T12:01",
+    "gmp_at": "2026-10-28T13:58",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
     "live": true
    },
    {
-    "src": "InvestorGain",
+    "src": "Tracker C",
     "slug": "maxwell-engineering-solutions",
     "name": "Maxwell Engineering Solutions",
     "segment": "SME",
@@ -261,14 +261,14 @@
     "price_low": null,
     "size_cr": 57.64,
     "gmp": 27.0,
-    "gmp_at": "2026-10-28T12:02",
+    "gmp_at": "2026-10-28T14:02",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
     "live": true
    },
    {
-    "src": "InvestorGain",
+    "src": "Tracker C",
     "slug": "antala-industries",
     "name": "Antala Industries",
     "segment": "SME",
@@ -281,14 +281,14 @@
     "price_low": null,
     "size_cr": 23.33,
     "gmp": null,
-    "gmp_at": "2026-10-28T11:55",
+    "gmp_at": "2026-10-28T13:59",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
     "live": true
    },
    {
-    "src": "InvestorGain",
+    "src": "Tracker C",
     "slug": "bombay-coated-and-special-steels",
     "name": "Bombay Coated and Special Steels",
     "segment": "MAIN",
@@ -301,14 +301,14 @@
     "price_low": null,
     "size_cr": 183.06,
     "gmp": 9.0,
-    "gmp_at": "2026-10-28T12:02",
+    "gmp_at": "2026-10-28T14:02",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
     "live": true
    },
    {
-    "src": "InvestorGain",
+    "src": "Tracker C",
     "slug": "mksons-fine-jewels",
     "name": "M.K.Sons Fine Jewels",
     "segment": "MAIN",
@@ -320,15 +320,15 @@
     "price": 162.0,
     "price_low": null,
     "size_cr": 275.4,
-    "gmp": 10.0,
-    "gmp_at": "2026-10-28T12:02",
+    "gmp": 11.5,
+    "gmp_at": "2026-10-28T14:02",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
     "live": true
    },
    {
-    "src": "InvestorGain",
+    "src": "Tracker C",
     "slug": "ajwa-projects",
     "name": "Ajwa Projects",
     "segment": "SME",
@@ -341,14 +341,14 @@
     "price_low": null,
     "size_cr": 38.05,
     "gmp": 38.0,
-    "gmp_at": "2026-10-28T12:02",
+    "gmp_at": "2026-10-28T14:02",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
     "live": true
    },
    {
-    "src": "InvestorGain",
+    "src": "Tracker C",
     "slug": "carver-roboweld",
     "name": "Carver Roboweld",
     "segment": "SME",
@@ -361,14 +361,14 @@
     "price_low": null,
     "size_cr": 28.29,
     "gmp": null,
-    "gmp_at": "2026-10-28T11:58",
+    "gmp_at": "2026-10-28T13:53",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
     "live": true
    },
    {
-    "src": "InvestorGain",
+    "src": "Tracker C",
     "slug": "wiscon-industries",
     "name": "Wiscon Industries",
     "segment": "SME",
@@ -381,14 +381,14 @@
     "price_low": null,
     "size_cr": 110.0,
     "gmp": null,
-    "gmp_at": "2026-10-28T12:01",
+    "gmp_at": "2026-10-28T13:57",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
     "live": true
    },
    {
-    "src": "InvestorGain",
+    "src": "Tracker C",
     "slug": "sfc-environmental-technologies",
     "name": "SFC Environmental Technologies",
     "segment": "MAIN",
@@ -400,15 +400,15 @@
     "price": 330.0,
     "price_low": null,
     "size_cr": 667.53,
-    "gmp": 16.0,
-    "gmp_at": "2026-10-28T12:02",
+    "gmp": 15.0,
+    "gmp_at": "2026-10-28T14:02",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
     "live": true
    },
    {
-    "src": "InvestorGain",
+    "src": "Tracker C",
     "slug": "bls-polymers",
     "name": "BLS Polymers",
     "segment": "MAIN",
@@ -420,15 +420,15 @@
     "price": 150.0,
     "price_low": null,
     "size_cr": 255.0,
-    "gmp": 44.5,
-    "gmp_at": "2026-10-28T12:02",
+    "gmp": 46.0,
+    "gmp_at": "2026-10-28T14:02",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
     "live": true
    },
    {
-    "src": "InvestorGain",
+    "src": "Tracker C",
     "slug": "eaaa-india-alternatives",
     "name": "EAAA India Alternatives",
     "segment": "MAIN",
@@ -440,15 +440,15 @@
     "price": 1665.0,
     "price_low": null,
     "size_cr": 1200.0,
-    "gmp": 9.0,
-    "gmp_at": "2026-10-28T12:02",
+    "gmp": 13.0,
+    "gmp_at": "2026-10-28T14:02",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
     "live": true
    },
    {
-    "src": "InvestorGain",
+    "src": "Tracker C",
     "slug": "core4-engineers",
     "name": "Core4 Engineers",
     "segment": "SME",
@@ -461,14 +461,14 @@
     "price_low": null,
     "size_cr": 54.82,
     "gmp": null,
-    "gmp_at": "2026-10-28T11:57",
+    "gmp_at": "2026-10-28T14:01",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
     "live": true
    },
    {
-    "src": "InvestorGain",
+    "src": "Tracker C",
     "slug": "paras-healthcare",
     "name": "Paras Healthcare",
     "segment": "MAIN",
@@ -488,7 +488,7 @@
     "live": false
    },
    {
-    "src": "InvestorGain",
+    "src": "Tracker C",
     "slug": "jio-platforms",
     "name": "Jio Platforms",
     "segment": "MAIN",
@@ -508,7 +508,7 @@
     "live": false
    },
    {
-    "src": "InvestorGain",
+    "src": "Tracker C",
     "slug": "zetwerk",
     "name": "Zetwerk",
     "segment": "MAIN",
@@ -528,7 +528,7 @@
     "live": false
    },
    {
-    "src": "InvestorGain",
+    "src": "Tracker C",
     "slug": "tonbo-imaging-india",
     "name": "Tonbo Imaging India",
     "segment": "MAIN",
@@ -548,7 +548,7 @@
     "live": false
    },
    {
-    "src": "InvestorGain",
+    "src": "Tracker C",
     "slug": "sahajanand-medical-technologies",
     "name": "Sahajanand Medical Technologies",
     "segment": "MAIN",
@@ -568,7 +568,7 @@
     "live": false
    },
    {
-    "src": "InvestorGain",
+    "src": "Tracker C",
     "slug": "bonfiglioli-transmissions",
     "name": "Bonfiglioli Transmissions",
     "segment": "MAIN",
@@ -588,7 +588,7 @@
     "live": false
    },
    {
-    "src": "InvestorGain",
+    "src": "Tracker C",
     "slug": "shellz-india",
     "name": "Shellz India",
     "segment": "SME",
@@ -608,7 +608,7 @@
     "live": false
    },
    {
-    "src": "InvestorGain",
+    "src": "Tracker C",
     "slug": "ravita-engineering-services",
     "name": "Ravita Engineering Services",
     "segment": "SME",
@@ -628,7 +628,7 @@
     "live": false
    },
    {
-    "src": "InvestorGain",
+    "src": "Tracker C",
     "slug": "fusion-cx",
     "name": "Fusion CX",
     "segment": "MAIN",
@@ -648,7 +648,7 @@
     "live": false
    },
    {
-    "src": "InvestorGain",
+    "src": "Tracker C",
     "slug": "hd-fire-protect",
     "name": "HD Fire Protect",
     "segment": "MAIN",
@@ -668,7 +668,7 @@
     "live": false
    },
    {
-    "src": "InvestorGain",
+    "src": "Tracker C",
     "slug": "vaibhav-vyapaar",
     "name": "Vaibhav Vyapaar",
     "segment": "SME",
@@ -688,7 +688,7 @@
     "live": false
    },
    {
-    "src": "InvestorGain",
+    "src": "Tracker C",
     "slug": "rkfashion-accessories",
     "name": "R.K.Fashion Accessories",
     "segment": "SME",
@@ -708,7 +708,7 @@
     "live": false
    },
    {
-    "src": "InvestorGain",
+    "src": "Tracker C",
     "slug": "paramount-syntex",
     "name": "Paramount Syntex",
     "segment": "SME",
@@ -728,7 +728,7 @@
     "live": false
    },
    {
-    "src": "InvestorGain",
+    "src": "Tracker C",
     "slug": "acme-india-industries",
     "name": "Acme India Industries",
     "segment": "SME",
@@ -748,7 +748,7 @@
     "live": false
    },
    {
-    "src": "InvestorGain",
+    "src": "Tracker C",
     "slug": "tna-solutions",
     "name": "TNA Solutions",
     "segment": "SME",

@@ -60,7 +60,7 @@ if exist gitignore (
   echo   removed the stray file called gitignore
 )
 
-for %%P in (probe_bse_demand.py probe_bse_demand2.py probe_bse_demand3.py) do (
+for %%P in (probe_bse_demand.py probe_bse_demand2.py probe_bse_demand3.py probe_site.py probe_gain.py data\gmp_peers.json) do (
   if exist "%%P" (
     del "%%P"
     echo   removed %%P
