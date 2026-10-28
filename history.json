@@ -19,21 +19,6 @@
    "unconfirmed": true
   },
   {
-   "name": "HGS (India)",
-   "segment": "SME",
-   "symbol": null,
-   "listing": "2026-11-06",
-   "exchange": "NSE Emerge",
-   "live": true,
-   "id": "hgs-india",
-   "status": "upcoming",
-   "open": "2026-10-30",
-   "close": "2026-11-03",
-   "price": 120,
-   "price_low": null,
-   "unconfirmed": true
-  },
-  {
    "name": "Johnsoncab Electricals",
    "segment": "SME",
    "symbol": null,
@@ -161,6 +146,20 @@
    "close": "2026-11-03",
    "price": 158,
    "price_low": 150
+  },
+  {
+   "name": "HGS (India)",
+   "segment": "SME",
+   "symbol": "HGSINDIALT",
+   "listing": null,
+   "exchange": "SME",
+   "live": true,
+   "id": "hgsindialt",
+   "status": "upcoming",
+   "open": "2026-10-30",
+   "close": "2026-11-03",
+   "price": 120,
+   "price_low": 114
   },
   {
    "name": "EAAA India Alternatives",
@@ -5555,5 +5554,5 @@
    "status": "listed"
   }
  ],
- "generated_at": "2026-10-28T18:42+05:30"
+ "generated_at": "2026-10-28T22:15+05:30"
 }
