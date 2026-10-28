@@ -815,7 +815,7 @@ html[data-p] body.is-home main{margin-top:-26px}
     </div>
     <div><p class="fh">Explore</p><a href="#home">Home</a><a href="#mainboard">Mainboard IPOs</a><a href="#sme">SME IPOs</a><a href="#year">All 2026 IPOs</a><a href="#calendar">IPO calendar</a><a href="ipo/">All IPO pages</a><a href="#contact">Contact us</a><a href="https://whatsapp.com/channel/0029VbEHHkoCcW4ped17YH0r" target="_blank" rel="noopener">WhatsApp channel ↗</a></div>
     <div><p class="fh">Browse IPOs</p><a href="/open-ipos/">Open IPOs</a><a href="/upcoming-ipos/">Upcoming IPOs</a><a href="/ipo-gmp-today/">IPO GMP today</a><a href="/ipo-allotment-status/">Allotment status</a><a href="/sme-ipos/">SME IPOs</a><a href="/mainboard-ipos/">Mainboard IPOs</a><a href="/ipo-calendar/">IPO calendar</a><a href="/listed-ipos-2026/">Listed IPOs 2026</a></div>
-    <div><p class="fh">Good to know</p><p>GMP (grey market premium) is unofficial, comes from informal markets and is not regulated by SEBI or the exchanges. It changes quickly and often differs from the actual listing price.</p></div>
+    <div><p class="fh">Good to know</p><p>GMP (grey market premium) is unofficial, comes from informal markets and is not regulated by SEBI or the exchanges. It changes quickly and often differs from the actual listing price.</p><p style="margin-top:8px">Some GMP and SME subscription figures also come from <a href="https://ipogyani.com/" target="_blank" rel="noopener">IPOGyani</a> and <a href="https://www.investorgain.com/" target="_blank" rel="noopener">InvestorGain</a>, used with their permission.</p></div>
   </div>
   <div class="wrap sf-bottom">IPO Shop is an information website. It does not sell, apply for or recommend IPOs, and nothing here is investment advice. Read the offer document (RHP) and speak to a SEBI-registered advisor before investing.</div>
 </footer>
@@ -917,9 +917,11 @@ const pill = i => `<span class="pill ${STATUS[i.status].cls}">${stText(i.status)
 const band = i => i.price==null ? "Price TBA" : (i.price_low!=null && i.price_low!==i.price ? `₹${inr(i.price_low)} – ${inr(i.price)}` : "₹"+inr(i.price));
 const oneLot = i => (i.price!=null && i.lot!=null) ? "₹"+inr(i.price*i.lot) : "–";
 
+const gmpLevel=p=>p>=30?5:p>=15?4:p>=5?3:p>0?2:1;
+const gmpMeter=i=>{ if(i.gmp==null||i.gmp_pct==null) return ""; const n=gmpLevel(i.gmp_pct); return `<span class="meter" role="img" aria-label="GMP strength ${n} out of 5" title="GMP strength ${n} of 5, from the GMP as a share of the issue price. It is not a rating of the IPO.">${[1,2,3,4,5].map(k=>`<i class="${k<=n?"on":""}"></i>`).join("")}</span>`; };
 function gmpBlock(i){
   if(i.gmp==null) return `<span class="muted">No quote yet</span>`;
-  return `<div class="gv ${i.gmp>=0?"pos":"neg"}"><b>${rs(i.gmp)}</b>${i.gmp_pct!=null?`<span class="delta">${pct(i.gmp_pct)}</span>`:""}</div>`+
+  return `<div class="gv ${i.gmp>=0?"pos":"neg"}"><b>${rs(i.gmp)}</b>${i.gmp_pct!=null?`<span class="delta">${pct(i.gmp_pct)}</span>`:""}</div>`+(i.gmp_pct!=null?`<div class="micro" style="margin-top:2px">GMP strength ${gmpMeter(i)}</div>`:"")+
          (i.price!=null?`<div class="micro">Est. listing ${rs(i.price+i.gmp)}${i.gmp_source_latest&&i.gmp_source_latest!=="IPO Shop"&&i.gmp_source_latest!=="GMP Desk"?" · via "+esc(i.gmp_source_latest.toLowerCase()):""}</div>`:"");
 }
 const meterLevel=t=>t>=50?5:t>=10?4:t>=3?3:t>=1?2:1;
@@ -1364,7 +1366,7 @@ function card(i){
   const subHtml=t!=null?`<div class="ringbox">${ring(t)}<div><div class="subv">${t.toFixed(2)}x ${meter(t)}</div><div class="micro">${demand(t)}</div></div></div>`:`<span class="muted">${i.status==="upcoming"?"Not open yet":"–"}</span>`+(i.status==="open"||i.status==="closing_today"||i.status==="closed"?`<div class="micro" style="margin-top:4px">Demand ${meterNA()} n/a</div>`:"");
   return `<div class="card-wrap"><button class="card" data-id="${esc(i.id)}" data-s="${i.status}">
     <div class="c-top">${avatar(i.name,true)}<div class="c-id"><h3>${esc(i.name)}</h3><p class="sub">${esc(sub||stateSub(i))}</p></div></div>
-    <div class="c-chips">${pill(i)}${cdChip(i)}<span class="chip">${esc(i.exchange|| (i.segment==="SME"?"SME":"Mainboard"))}</span>${i.unconfirmed?`<span class="chip warn" title="Not on NSE's or BSE's official lists yet">Unconfirmed</span>`:""}</div>
+    <div class="c-chips">${pill(i)}${cdChip(i)}<span class="chip">${esc(i.exchange|| (i.segment==="SME"?"SME":"Mainboard"))}</span>${i.unconfirmed?`<span class="chip warn" title="Not on the exchange lists we read yet">Unconfirmed</span>`:""}</div>
     <div class="c-price"><span class="big">${band(i)}</span><span class="c-line">${i.lot!=null?`Lot ${inr(i.lot)} · ${oneLot(i)} per lot`:"Lot to be announced"}</span></div>
     <div class="c-line c-dates">📅 ${dd(i.open)} – ${dd(i.close)}${i.listing?` · lists ${dd(i.listing)}`:""}</div>
     <div class="foot"><div><div class="k">GMP</div>${gmpBlock(i)}</div><div><div class="k">Subscription</div>${subHtml}</div></div>
@@ -1374,7 +1376,7 @@ function row(i){
   const typ = i.segment==="SME" ? (i.exchange||"SME") : "Mainboard";
   return `<tr tabindex="0" data-id="${esc(i.id)}" aria-label="${esc(i.name)}">
     <td class="stc">${starBtn(i)}</td>
-    <td><div class="co">${avatar(i.name)}<span><b>${esc(i.name)}</b><span class="micro">${esc([i.symbol, i.size_cr!=null?cr(i.size_cr)+" issue":null].filter(Boolean).join(" · "))}${i.unconfirmed?` <span class="chip warn" title="Not on NSE's or BSE's official lists yet">Unconfirmed</span>`:""}</span>${pill(i)}</span></div></td>
+    <td><div class="co">${avatar(i.name)}<span><b>${esc(i.name)}</b><span class="micro">${esc([i.symbol, i.size_cr!=null?cr(i.size_cr)+" issue":null].filter(Boolean).join(" · "))}${i.unconfirmed?` <span class="chip warn" title="Not on the exchange lists we read yet">Unconfirmed</span>`:""}</span>${pill(i)}</span></div></td>
     <td class="two"><div class="a">${band(i)}</div></td>
     <td class="two"><div class="a">${i.lot!=null?inr(i.lot)+" shares":"–"}</div><div class="b">${i.lot!=null&&i.price!=null?"₹"+inr(i.price*i.lot)+" per lot":""}</div></td>
     <td class="two"><div class="a">${dd(i.open)} – ${dd(i.close)}</div><div class="b">${i.listing?"Lists "+dd(i.listing):stateSub(i)}</div></td>
@@ -1478,9 +1480,10 @@ function glance(i){
     : i.status==="listed" ? ["Listed",dd(i.listing),""] : ["Closed",dd(i.close),i.listing?"lists "+dd(i.listing):""];
   const minInv = (i.price!=null&&i.lot!=null) ? ["Minimum to apply","₹"+inr(i.price*i.lot),inr(i.lot)+" shares, at the top of the band"] : ["Minimum to apply","–",""];
   const subT = i.sub&&i.sub.total!=null ? ["Subscribed",i.sub.total.toFixed(2)+"x",{html:`${meter(i.sub.total)}Demand ${meterLevel(i.sub.total)} of 5`}] : ["Subscribed",i.status==="upcoming"?"Not open yet":"–",(i.status==="open"||i.status==="closing_today"||i.status==="closed")?{html:`${meterNA()}Demand not available yet`}:""];
-  const gm = i.gmp!=null ? ["GMP (unofficial)",rs(i.gmp),i.gmp_pct!=null?pct(i.gmp_pct):""] : ["GMP (unofficial)","No quote yet",""];
+  const gm = i.gmp!=null ? ["GMP (unofficial)",rs(i.gmp),i.gmp_pct!=null?{html:`${gmpMeter(i)}${pct(i.gmp_pct)} · strength ${gmpLevel(i.gmp_pct)} of 5`}:""] : ["GMP (unofficial)","No quote yet",""];
   return `<div class="glance">${[minInv,when,subT,gm].map(([k,v,s])=>`<div><div class="k">${k}</div><div class="v">${esc(v)}</div><div class="s">${s&&s.html?s.html:esc(s)}</div></div>`).join("")}</div>`;
 }
+const gmpNote2=i=>i.gmp!=null&&i.gmp_pct!=null?`<p class="micro" style="margin:6px 0 0"><b>GMP strength:</b> from the GMP as a share of the issue price. 1 is no premium, 2 is under 5%, 3 is 5% to 15%, 4 is 15% to 30% and 5 is 30% or more. It is a reading of the grey market, not a rating of the IPO, and GMP can be wrong.</p>`:"";
 const meterNote=i=>i.sub&&i.sub.total!=null?`<p class="micro" style="margin:8px 0 0"><b>Demand meter:</b> 1 means under 1x subscribed, 2 is 1x to 3x, 3 is 3x to 10x, 4 is 10x to 50x and 5 is 50x or more. It shows demand, not whether the IPO is good.</p>`:"";
 function chanceBlock(i){
   const r=i.sub&&i.sub.retail; if(r==null||!(i.status==="open"||i.status==="closing_today"||i.status==="closed")) return "";
@@ -1511,13 +1514,13 @@ function openDrawer(id, quiet){
   const subRows = i.sub ? SUBL.map(([k,l])=>[l,i.sub[k]]).filter(r=>r[1]!=null) : [];
   const mx = Math.max(1,...subRows.map(r=>r[1]));
   const sub = subRows.length ? `<div class="bars">${subRows.map(([l,v])=>`<div class="row"><span>${l}</span><div class="track"><div class="fill" style="width:${Math.min(100,v/mx*100)}%"></div></div><b>${v.toFixed(2)}x</b></div>`).join("")}</div>` : `<div class="micro">Subscription numbers appear once bidding opens.</div>`;
-  const subNote = subRows.length && i.sub_basis ? `<p class="micro" style="margin-top:6px">${i.sub_basis==="NSE+BSE"?"NSE and BSE combined":"NSE only (BSE not included yet)"}${i.sub_asof?", as of "+tt(i.sub_asof):""}.</p>` : "";
+  const subNote = subRows.length && i.sub_basis ? `<p class="micro" style="margin-top:6px">${i.sub_basis==="NSE+BSE"?"NSE and BSE combined":i.sub_basis==="IPOGyani"?`Total and retail figures via <a href="https://ipogyani.com/" target="_blank" rel="noopener">IPOGyani</a> (the exchanges do not give us this issue's numbers)`:"NSE only (BSE not included yet)"}${i.sub_asof?", as of "+tt(i.sub_asof):""}.</p>` : "";
   const lm=(i.lead_managers||[]).map(n=>n.replace(/\s+(Private\s+)?(Limited|Ltd\.?)$/i,"")); 
   const perLot = (i.gmp!=null && i.lot!=null) ? `<div><dt>Est. gain per lot at GMP</dt><dd class="${i.gmp>=0?"pos2":"neg2"}">${rs(i.gmp*i.lot)}</dd></div>` : "";
   $("db").innerHTML = `
-    ${i.unconfirmed?`<p class="verdict" style="margin:0 0 14px"><b>Not on an official list yet.</b> NSE and BSE don't list this issue, so its dates and price come from other sources and may change.</p>`:""}
+    ${i.unconfirmed?`<p class="verdict" style="margin:0 0 14px"><b>Not on the exchange lists we read yet.</b> Its dates and price come from other sources and may change until the exchanges publish them.</p>`:""}
     <div class="acts"><a class="btn" href="ipo/${esc(i.id)}/">Full page ↗</a><button class="btn" data-act="watch">${watchLabel(i.id)}</button><button class="btn" data-act="copy">Copy link</button><a class="btn" href="${waShare(i)}" target="_blank" rel="noopener">Share on WhatsApp ↗</a><button class="btn" data-act="ics">Add dates to calendar</button>${i.rhp_url?`<a class="btn" href="${esc(i.rhp_url)}" target="_blank" rel="noopener">Offer document (RHP) ↗</a>`:""}</div>
-    ${glance(i)}${meterNote(i)}${chanceBlock(i)}${howBlock(i)}
+    ${glance(i)}${meterNote(i)}${gmpNote2(i)}${chanceBlock(i)}${howBlock(i)}
     <h3>Key facts</h3>
     <dl class="facts">
       <div><dt>Price band</dt><dd>${band(i)}</dd></div>

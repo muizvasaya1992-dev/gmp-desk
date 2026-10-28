@@ -887,11 +887,21 @@ def main():
             bse_path.write_text(json.dumps(bsec, indent=1, ensure_ascii=False), encoding="utf-8")
         recs = merge_bse(recs, bsec)
         feeds_ok = bool(cache) and bool(bsec.get("ipos"))
+        peer_rows = []                                      # IPOGyani and InvestorGain, used with their owners' permission
         try:
-            rows = load_gmp_rows()
+            pflag = ((load_json(DATA / "config.json", {}) or {}).get("gmp_autofill") or {}).get("peers", True)
+            if pflag and not LOCAL_TEST and "--no-peers" not in ARGS:
+                import peers
+                fx = next((a.split("=", 1)[1] for a in ARGS if a.startswith("--peers-from=")), None)
+                plist = peers.load(ROOT, now.date(), offline="--offline" in ARGS, fixtures=fx)
+                peer_rows = peers.keep_new(ROOT, peers.apply(recs, plist, now.date(), stamp))
+        except Exception as e:                              # these sources are a bonus: never let them break the build
+            print("Extra sources skipped:", type(e).__name__, e)
+        try:
+            rows = load_gmp_rows() + peer_rows
         except Exception as e:
             print("GMP: could not read GMP data, continuing without it:", e)
-            rows = []
+            rows = list(peer_rows)
         unmatched = attach_gmp(recs, rows)
         if unmatched:
             print("GMP: no matching IPO for:", ", ".join(sorted(unmatched)))

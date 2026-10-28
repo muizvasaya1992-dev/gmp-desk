@@ -4,6 +4,81 @@
  "nse_as_of": "2026-10-28T11:01+05:30",
  "rows": [
   {
+   "name": "Vedant Poly Fabs",
+   "segment": "SME",
+   "symbol": null,
+   "listing": "2026-11-09",
+   "exchange": "NSE Emerge",
+   "live": true,
+   "id": "vedant-poly-fabs",
+   "status": "upcoming",
+   "open": "2026-11-02",
+   "close": "2026-11-04",
+   "price": 94,
+   "price_low": null,
+   "unconfirmed": true
+  },
+  {
+   "name": "HGS (India)",
+   "segment": "SME",
+   "symbol": null,
+   "listing": "2026-11-06",
+   "exchange": "NSE Emerge",
+   "live": true,
+   "id": "hgs-india",
+   "status": "upcoming",
+   "open": "2026-10-30",
+   "close": "2026-11-03",
+   "price": 120,
+   "price_low": null,
+   "unconfirmed": true
+  },
+  {
+   "name": "Johnsoncab Electricals",
+   "segment": "SME",
+   "symbol": null,
+   "listing": "2026-11-06",
+   "exchange": "BSE SME",
+   "live": true,
+   "id": "johnsoncab-electricals",
+   "status": "upcoming",
+   "open": "2026-10-30",
+   "close": "2026-11-03",
+   "price": 200,
+   "price_low": null,
+   "unconfirmed": true
+  },
+  {
+   "name": "Vectras Enprocon",
+   "segment": "SME",
+   "symbol": null,
+   "listing": "2026-11-06",
+   "exchange": "BSE SME",
+   "live": true,
+   "id": "vectras-enprocon",
+   "status": "upcoming",
+   "open": "2026-10-30",
+   "close": "2026-11-03",
+   "price": 105,
+   "price_low": null,
+   "unconfirmed": true
+  },
+  {
+   "name": "Maxwell Engineering Solutions",
+   "segment": "SME",
+   "symbol": null,
+   "listing": "2026-11-06",
+   "exchange": "NSE Emerge",
+   "live": true,
+   "id": "maxwell-engineering-solutions",
+   "status": "upcoming",
+   "open": "2026-10-30",
+   "close": "2026-11-03",
+   "price": 158,
+   "price_low": null,
+   "unconfirmed": true
+  },
+  {
    "name": "Bombay Coated and Special Steels",
    "segment": "MAIN",
    "symbol": "BCSSL",
@@ -30,6 +105,21 @@
    "close": "2026-10-30",
    "price": 80,
    "price_low": 76
+  },
+  {
+   "name": "Ajwa Projects",
+   "segment": "SME",
+   "symbol": null,
+   "listing": "2026-11-04",
+   "exchange": "BSE SME",
+   "live": true,
+   "id": "ajwa-projects",
+   "status": "open",
+   "open": "2026-10-28",
+   "close": "2026-10-30",
+   "price": 203,
+   "price_low": 203,
+   "unconfirmed": true
   },
   {
    "name": "BLS Polymers",
@@ -5466,5 +5556,5 @@
    "status": "listed"
   }
  ],
- "generated_at": "2026-10-28T11:03+05:30"
+ "generated_at": "2026-10-28T14:21+05:30"
 }

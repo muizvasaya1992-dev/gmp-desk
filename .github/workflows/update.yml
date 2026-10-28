@@ -5,7 +5,7 @@ on:
     - cron: "23 * * * *"             # plus once an hour, every day and night, so GMP keeps moving on weekends and evenings
   workflow_dispatch: {}              # "Run workflow" button
   push:
-    paths: ["data/ipos_manual.json", "data/gmp.csv", "data/config.json", "build_data.py", "pages.py"]   # new code gets used straight away
+    paths: ["data/ipos_manual.json", "data/gmp.csv", "data/config.json", "build_data.py", "pages.py", "peers.py"]   # new code gets used straight away
 permissions:
   contents: write
 concurrency:
