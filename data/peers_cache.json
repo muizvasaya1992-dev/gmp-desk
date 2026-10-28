@@ -1,27 +1,7 @@
 {
  "b": {
-  "fetched_at": "2026-10-29T01:31+05:30",
+  "fetched_at": "2026-10-29T01:45+05:30",
   "records": [
-   {
-    "src": "Tracker B",
-    "slug": "sfc-environmental-technologies",
-    "name": "SFC Environmental Technologies",
-    "segment": "MAIN",
-    "exchange": null,
-    "open": "2026-10-27",
-    "close": "2026-10-29",
-    "boa": "2026-10-30",
-    "listing": "2026-11-03",
-    "price": 330.0,
-    "price_low": 313.0,
-    "size_cr": 668.0,
-    "gmp": 10.0,
-    "gmp_at": "2026-10-28T23:56",
-    "sub_total": 0.27,
-    "sub_retail": 0.34,
-    "sub_at": "2026-10-29T01:26",
-    "live": true
-   },
    {
     "src": "Tracker B",
     "slug": "bls-polymers",
@@ -39,7 +19,27 @@
     "gmp_at": "2026-10-28T23:56",
     "sub_total": 35.25,
     "sub_retail": 29.77,
-    "sub_at": "2026-10-29T01:26",
+    "sub_at": "2026-10-29T01:43",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
+    "slug": "sfc-environmental-technologies",
+    "name": "SFC Environmental Technologies",
+    "segment": "MAIN",
+    "exchange": null,
+    "open": "2026-10-27",
+    "close": "2026-10-29",
+    "boa": "2026-10-30",
+    "listing": "2026-11-03",
+    "price": 330.0,
+    "price_low": 313.0,
+    "size_cr": 668.0,
+    "gmp": 10.0,
+    "gmp_at": "2026-10-28T23:56",
+    "sub_total": 0.27,
+    "sub_retail": 0.34,
+    "sub_at": "2026-10-29T01:42",
     "live": true
    },
    {
@@ -59,7 +59,7 @@
     "gmp_at": "2026-10-28T23:56",
     "sub_total": 0.65,
     "sub_retail": 0.23,
-    "sub_at": "2026-10-29T01:26",
+    "sub_at": "2026-10-29T01:44",
     "live": true
    },
    {
@@ -165,7 +165,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-10-29T01:31+05:30",
+  "fetched_at": "2026-10-29T01:45+05:30",
   "records": [
    {
     "src": "Tracker C",
