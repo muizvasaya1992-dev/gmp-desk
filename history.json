@@ -64,21 +64,6 @@
    "unconfirmed": true
   },
   {
-   "name": "Maxwell Engineering Solutions",
-   "segment": "SME",
-   "symbol": null,
-   "listing": "2026-11-06",
-   "exchange": "NSE Emerge",
-   "live": true,
-   "id": "maxwell-engineering-solutions",
-   "status": "upcoming",
-   "open": "2026-10-30",
-   "close": "2026-11-03",
-   "price": 158,
-   "price_low": null,
-   "unconfirmed": true
-  },
-  {
    "name": "Bombay Coated and Special Steels",
    "segment": "MAIN",
    "symbol": "BCSSL",
@@ -162,6 +147,20 @@
    "close": "2026-10-29",
    "price": 204,
    "price_low": 194
+  },
+  {
+   "name": "Maxwell Engineering Solutions",
+   "segment": "SME",
+   "symbol": "MAXENGS",
+   "listing": null,
+   "exchange": "SME",
+   "live": true,
+   "id": "maxengs",
+   "status": "upcoming",
+   "open": "2026-10-30",
+   "close": "2026-11-03",
+   "price": 158,
+   "price_low": 150
   },
   {
    "name": "EAAA India Alternatives",
@@ -5556,5 +5555,5 @@
    "status": "listed"
   }
  ],
- "generated_at": "2026-10-28T14:21+05:30"
+ "generated_at": "2026-10-28T18:42+05:30"
 }
