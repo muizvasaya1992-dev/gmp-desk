@@ -385,7 +385,7 @@
   "series": "EQ",
   "nse_status": "Active",
   "shares_offered": 11900000.0,
-  "last_seen": "2026-10-29T15:14+05:30",
+  "last_seen": "2026-10-29T15:15+05:30",
   "segment": "MAIN",
   "lot": 100,
   "registrar": "KFin Technologies Limited",
@@ -397,15 +397,15 @@
   "details_at": "2026-10-29T00:01+05:30",
   "cutoff_time": "5:00 PM",
   "sub": {
-   "qib": 128.44,
-   "nii": 508.59,
-   "bnii": 543.85,
-   "snii": 438.05,
-   "retail": 107.36,
-   "total": 199.36
+   "qib": 131.73,
+   "nii": 511.92,
+   "bnii": 547.28,
+   "snii": 441.19,
+   "retail": 108.21,
+   "total": 201.44
   },
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-10-29T15:09",
+  "sub_asof": "2026-10-29T15:12",
   "reservation": {
    "qib": 28.57,
    "nii": 21.43,
@@ -744,6 +744,15 @@
     "snii": 438.05,
     "retail": 107.36,
     "total": 199.36
+   },
+   {
+    "at": "2026-10-29T15:15+05:30",
+    "qib": 131.73,
+    "nii": 511.92,
+    "bnii": 547.28,
+    "snii": 441.19,
+    "retail": 108.21,
+    "total": 201.44
    }
   ]
  },
@@ -758,7 +767,7 @@
   "series": "EQ",
   "nse_status": "Active",
   "shares_offered": 14159744.0,
-  "last_seen": "2026-10-29T15:14+05:30",
+  "last_seen": "2026-10-29T15:15+05:30",
   "segment": "MAIN",
   "lot": 45,
   "registrar": "MUFG Intime India Private Limited",
@@ -770,15 +779,15 @@
   "details_at": "2026-10-29T00:01+05:30",
   "cutoff_time": "5:00 PM",
   "sub": {
-   "qib": 8.08,
-   "nii": 5.4,
-   "bnii": 6.48,
-   "snii": 3.24,
-   "retail": 0.88,
-   "total": 3.91
+   "qib": 8.38,
+   "nii": 5.75,
+   "bnii": 6.93,
+   "snii": 3.38,
+   "retail": 0.91,
+   "total": 4.08
   },
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-10-29T15:09",
+  "sub_asof": "2026-10-29T15:12",
   "reservation": {
    "qib": 28.57,
    "nii": 21.43,
@@ -1108,6 +1117,15 @@
     "snii": 3.24,
     "retail": 0.88,
     "total": 3.91
+   },
+   {
+    "at": "2026-10-29T15:15+05:30",
+    "qib": 8.38,
+    "nii": 5.75,
+    "bnii": 6.93,
+    "snii": 3.38,
+    "retail": 0.91,
+    "total": 4.08
    }
   ]
  },
@@ -1122,7 +1140,7 @@
   "series": "EQ",
   "nse_status": "Closed",
   "shares_offered": 5299684.0,
-  "last_seen": "2026-10-29T15:14+05:30",
+  "last_seen": "2026-10-29T15:15+05:30",
   "segment": "MAIN",
   "lot": 9,
   "registrar": "MUFG Intime India Private Limited",
@@ -1333,7 +1351,7 @@
   "series": "EQ",
   "nse_status": "Active",
   "shares_offered": 11900000.0,
-  "last_seen": "2026-10-29T15:14+05:30",
+  "last_seen": "2026-10-29T15:15+05:30",
   "segment": "MAIN",
   "lot": 91,
   "registrar": "Bigshare Services Private Limited",
@@ -1353,7 +1371,7 @@
    "total": 1.03
   },
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-10-29T15:09",
+  "sub_asof": "2026-10-29T15:12",
   "reservation": {
    "qib": 28.57,
    "nii": 21.43,
@@ -1643,7 +1661,7 @@
   "series": "EQ",
   "nse_status": "Active",
   "shares_offered": 16533012.0,
-  "last_seen": "2026-10-29T15:14+05:30",
+  "last_seen": "2026-10-29T15:15+05:30",
   "segment": "MAIN",
   "lot": 182,
   "registrar": "KFin Technologies Limited",
@@ -1658,12 +1676,12 @@
    "qib": 6.55,
    "nii": 0.49,
    "bnii": 0.33,
-   "snii": 0.8,
-   "retail": 0.98,
-   "total": 2.49
+   "snii": 0.81,
+   "retail": 0.99,
+   "total": 2.5
   },
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-10-29T15:09",
+  "sub_asof": "2026-10-29T15:12",
   "sub_hist": [
    {
     "at": "2026-10-29T00:01+05:30",
@@ -1866,6 +1884,15 @@
     "snii": 0.8,
     "retail": 0.98,
     "total": 2.49
+   },
+   {
+    "at": "2026-10-29T15:15+05:30",
+    "qib": 6.55,
+    "nii": 0.49,
+    "bnii": 0.33,
+    "snii": 0.81,
+    "retail": 0.99,
+    "total": 2.5
    }
   ]
  },
@@ -1880,7 +1907,7 @@
   "series": "SME",
   "nse_status": "Forthcoming",
   "shares_offered": 3648000.0,
-  "last_seen": "2026-10-29T15:14+05:30",
+  "last_seen": "2026-10-29T15:15+05:30",
   "segment": "SME",
   "details_at": "2026-10-29T00:01+05:30"
  },
@@ -1895,7 +1922,7 @@
   "series": "SME",
   "nse_status": "Forthcoming",
   "shares_offered": 2880000.0,
-  "last_seen": "2026-10-29T15:14+05:30",
+  "last_seen": "2026-10-29T15:15+05:30",
   "segment": "SME",
   "details_at": "2026-10-29T00:01+05:30",
   "registrar": "Kfin Technologies Limited",
