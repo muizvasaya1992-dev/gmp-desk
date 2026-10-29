@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T09:31+05:30",
+  "generated_at": "2026-10-29T09:45+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-10-28T11:01+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-10-29T09:31+05:30",
+    "nse_ok_at": "2026-10-29T09:45+05:30",
     "bse_ok_at": "2026-10-28T14:51+05:30"
   },
   "ipos": [
@@ -1231,7 +1231,7 @@
         {
           "source": "Public trackers",
           "gmp": 26,
-          "at": "2026-10-29T06:30"
+          "at": "2026-10-29T09:30"
         },
         {
           "source": "Tracker B",
@@ -1505,7 +1505,7 @@
       "official": true,
       "price_low": 194,
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-10-29T09:30",
+      "sub_asof": "2026-10-29T09:40",
       "gmp_sources": [],
       "gmp_history": [],
       "gmp": null,
@@ -1575,7 +1575,7 @@
       "official": true,
       "price_low": 76,
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-10-29T09:30",
+      "sub_asof": "2026-10-29T09:40",
       "gmp_sources": [],
       "gmp_history": [],
       "gmp": null,
@@ -1891,11 +1891,11 @@
         "total": 0.4,
         "retail": 0.65
       },
-      "updated_on": "2026-10-29T09:31+05:30",
+      "updated_on": "2026-10-29T09:45+05:30",
       "from_peers": true,
       "exchange": "BSE SME",
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-10-29T09:30",
+      "sub_asof": "2026-10-29T09:45",
       "gmp_sources": [
         {
           "source": "Tracker B",
@@ -1956,7 +1956,7 @@
       "anchor": null,
       "rating": null,
       "sub": null,
-      "updated_on": "2026-10-29T09:31+05:30",
+      "updated_on": "2026-10-29T09:45+05:30",
       "from_peers": true,
       "exchange": "NSE Emerge",
       "gmp_sources": [],
@@ -1981,7 +1981,7 @@
       "anchor": null,
       "rating": null,
       "sub": null,
-      "updated_on": "2026-10-29T09:31+05:30",
+      "updated_on": "2026-10-29T09:45+05:30",
       "from_peers": true,
       "exchange": "BSE SME",
       "gmp_sources": [
@@ -2032,7 +2032,7 @@
       "anchor": null,
       "rating": null,
       "sub": null,
-      "updated_on": "2026-10-29T09:31+05:30",
+      "updated_on": "2026-10-29T09:45+05:30",
       "from_peers": true,
       "exchange": "BSE SME",
       "gmp_sources": [],
