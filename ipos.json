@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T11:16+05:30",
+  "generated_at": "2026-10-29T11:18+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,8 +23,8 @@
     "fetched_at": "2026-10-29T11:16+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-10-29T11:16+05:30",
-    "bse_ok_at": "2026-10-29T11:16+05:30"
+    "nse_ok_at": "2026-10-29T11:18+05:30",
+    "bse_ok_at": "2026-10-29T11:18+05:30"
   },
   "ipos": [
     {
@@ -753,7 +753,7 @@
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 11900000.0,
-      "updated_on": "2026-10-29T11:16+05:30",
+      "updated_on": "2026-10-29T11:18+05:30",
       "bse_ipo_no": "8056",
       "gmp_sources": [
         {
@@ -843,15 +843,15 @@
       "price": 330,
       "segment": "MAIN",
       "sub": {
-        "qib": 0.08,
+        "qib": 0.09,
         "nii": 0.83,
-        "bnii": 0.79,
-        "snii": 0.89,
+        "bnii": 0.8,
+        "snii": 0.9,
         "retail": 0.46,
-        "total": 0.43
+        "total": 0.44
       },
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-10-29T11:12",
+      "sub_asof": "2026-10-29T11:15",
       "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_SFCTECH.zip",
       "retail_max": 200000,
       "cutoff_time": "5:00 PM",
@@ -1027,12 +1027,21 @@
           "snii": 0.89,
           "retail": 0.46,
           "total": 0.43
+        },
+        {
+          "at": "2026-10-29T11:18+05:30",
+          "qib": 0.09,
+          "nii": 0.83,
+          "bnii": 0.8,
+          "snii": 0.9,
+          "retail": 0.46,
+          "total": 0.44
         }
       ],
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 14159744.0,
-      "updated_on": "2026-10-29T11:16+05:30",
+      "updated_on": "2026-10-29T11:18+05:30",
       "bse_ipo_no": "8060",
       "gmp_sources": [
         {
@@ -1315,7 +1324,7 @@
       "series": "EQ",
       "nse_status": "Closed",
       "shares_offered": 5299684.0,
-      "updated_on": "2026-10-29T11:16+05:30",
+      "updated_on": "2026-10-29T11:18+05:30",
       "bse_ipo_no": "8054",
       "gmp_sources": [
         {
@@ -1395,12 +1404,12 @@
       "sub": {
         "qib": 3.28,
         "nii": 0.09,
-        "bnii": 0.03,
-        "snii": 0.19,
+        "bnii": 0.04,
+        "snii": 0.2,
         "retail": 0.29,
-        "total": 1.11
+        "total": 1.12
       },
-      "updated_on": "2026-10-29T11:16+05:30",
+      "updated_on": "2026-10-29T11:18+05:30",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "Smart Horizon Capital Advisors Private Limited"
@@ -1410,7 +1419,7 @@
       "symbol": "BCSSL",
       "official": true,
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-10-29T11:12",
+      "sub_asof": "2026-10-29T11:15",
       "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_BCSSL.zip",
       "retail_max": 200000,
       "cutoff_time": "5:00 PM",
@@ -1464,6 +1473,15 @@
           "snii": 0.19,
           "retail": 0.29,
           "total": 1.11
+        },
+        {
+          "at": "2026-10-29T11:18+05:30",
+          "qib": 3.28,
+          "nii": 0.09,
+          "bnii": 0.04,
+          "snii": 0.2,
+          "retail": 0.29,
+          "total": 1.12
         }
       ],
       "series": "EQ",
@@ -1742,12 +1760,12 @@
         "qib": 0.96,
         "nii": 1.45,
         "bnii": 1.94,
-        "snii": 0.48,
+        "snii": 0.49,
         "retail": 0.43,
         "total": 0.8
       },
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-10-29T11:12",
+      "sub_asof": "2026-10-29T11:15",
       "registrar": "Bigshare Services Private Limited",
       "lead_managers": [
         "Aryaman Financial Services Limited"
@@ -1878,12 +1896,21 @@
           "snii": 0.48,
           "retail": 0.43,
           "total": 0.8
+        },
+        {
+          "at": "2026-10-29T11:18+05:30",
+          "qib": 0.96,
+          "nii": 1.45,
+          "bnii": 1.94,
+          "snii": 0.49,
+          "retail": 0.43,
+          "total": 0.8
         }
       ],
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 11900000.0,
-      "updated_on": "2026-10-29T11:16+05:30",
+      "updated_on": "2026-10-29T11:18+05:30",
       "bse_ipo_no": "8062",
       "gmp_sources": [
         {
@@ -1963,7 +1990,7 @@
       "series": "SME",
       "nse_status": "Forthcoming",
       "shares_offered": 3648000.0,
-      "updated_on": "2026-10-29T11:16+05:30",
+      "updated_on": "2026-10-29T11:18+05:30",
       "gmp_sources": [
         {
           "source": "Tracker C",
@@ -2024,7 +2051,7 @@
       "series": "SME",
       "nse_status": "Forthcoming",
       "shares_offered": 2880000.0,
-      "updated_on": "2026-10-29T11:16+05:30",
+      "updated_on": "2026-10-29T11:18+05:30",
       "gmp_sources": [],
       "gmp_history": [],
       "exchange": "SME",
@@ -2050,12 +2077,88 @@
       "price_low": 63,
       "segment": "SME",
       "exchange": "BSE SME",
-      "updated_on": "2026-10-29T11:16+05:30",
+      "updated_on": "2026-10-29T11:18+05:30",
       "gmp_sources": [],
       "gmp_history": [],
       "gmp": null,
       "gmp_pct": null,
       "status": "open",
+      "unconfirmed": false
+    },
+    {
+      "id": "johnsoncab-electricals",
+      "name": "Johnsoncab Electricals",
+      "lot": null,
+      "size_cr": null,
+      "boa": null,
+      "listing": null,
+      "anchor": null,
+      "rating": null,
+      "bse_ipo_no": "8071",
+      "official": true,
+      "open": "2026-10-30",
+      "close": "2026-11-03",
+      "price": 200,
+      "price_low": 190,
+      "segment": "SME",
+      "exchange": "BSE SME",
+      "updated_on": "2026-10-29T11:18+05:30",
+      "gmp_sources": [
+        {
+          "source": "Tracker C",
+          "gmp": 10,
+          "at": "2026-10-29T09:37"
+        }
+      ],
+      "gmp_history": [
+        {
+          "date": "2026-10-28",
+          "gmp": 10
+        },
+        {
+          "date": "2026-10-29",
+          "gmp": 10
+        }
+      ],
+      "history_source": "Tracker C",
+      "gmp_low": 9,
+      "gmp_high": 10,
+      "gmp": 10,
+      "gmp_asof": "2026-10-29T09:37",
+      "gmp_source_latest": "Tracker C",
+      "gmp_pct": 5.0,
+      "gmp_trend": {
+        "dir": "steady",
+        "change": 0,
+        "days": 2,
+        "since": "2026-10-28"
+      },
+      "status": "upcoming",
+      "unconfirmed": false
+    },
+    {
+      "id": "vectras-enprocon",
+      "name": "Vectras Enprocon",
+      "lot": null,
+      "size_cr": null,
+      "boa": null,
+      "listing": null,
+      "anchor": null,
+      "rating": null,
+      "bse_ipo_no": "8072",
+      "official": true,
+      "open": "2026-10-30",
+      "close": "2026-11-03",
+      "price": 105,
+      "price_low": 99,
+      "segment": "SME",
+      "exchange": "BSE SME",
+      "updated_on": "2026-10-29T11:18+05:30",
+      "gmp_sources": [],
+      "gmp_history": [],
+      "gmp": null,
+      "gmp_pct": null,
+      "status": "upcoming",
       "unconfirmed": false
     },
     {
@@ -2076,11 +2179,11 @@
         "total": 0.55,
         "retail": 1.02
       },
-      "updated_on": "2026-10-29T11:16+05:30",
+      "updated_on": "2026-10-29T11:18+05:30",
       "from_peers": true,
       "exchange": "BSE SME",
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-10-29T11:15",
+      "sub_asof": "2026-10-29T11:18",
       "gmp_sources": [
         {
           "source": "Tracker B",
@@ -2141,85 +2244,9 @@
       "anchor": null,
       "rating": null,
       "sub": null,
-      "updated_on": "2026-10-29T11:16+05:30",
+      "updated_on": "2026-10-29T11:18+05:30",
       "from_peers": true,
       "exchange": "NSE Emerge",
-      "gmp_sources": [],
-      "gmp_history": [],
-      "gmp": null,
-      "gmp_pct": null,
-      "status": "upcoming",
-      "unconfirmed": true
-    },
-    {
-      "id": "johnsoncab-electricals",
-      "name": "Johnsoncab Electricals",
-      "segment": "SME",
-      "price": 200,
-      "price_low": null,
-      "lot": null,
-      "size_cr": 56.02,
-      "open": "2026-10-30",
-      "close": "2026-11-03",
-      "boa": null,
-      "listing": "2026-11-06",
-      "anchor": null,
-      "rating": null,
-      "sub": null,
-      "updated_on": "2026-10-29T11:16+05:30",
-      "from_peers": true,
-      "exchange": "BSE SME",
-      "gmp_sources": [
-        {
-          "source": "Tracker C",
-          "gmp": 10,
-          "at": "2026-10-29T09:37"
-        }
-      ],
-      "gmp_history": [
-        {
-          "date": "2026-10-28",
-          "gmp": 10
-        },
-        {
-          "date": "2026-10-29",
-          "gmp": 10
-        }
-      ],
-      "history_source": "Tracker C",
-      "gmp_low": 9,
-      "gmp_high": 10,
-      "gmp": 10,
-      "gmp_asof": "2026-10-29T09:37",
-      "gmp_source_latest": "Tracker C",
-      "gmp_pct": 5.0,
-      "gmp_trend": {
-        "dir": "steady",
-        "change": 0,
-        "days": 2,
-        "since": "2026-10-28"
-      },
-      "status": "upcoming",
-      "unconfirmed": true
-    },
-    {
-      "id": "vectras-enprocon",
-      "name": "Vectras Enprocon",
-      "segment": "SME",
-      "price": 105,
-      "price_low": null,
-      "lot": null,
-      "size_cr": 53.05,
-      "open": "2026-10-30",
-      "close": "2026-11-03",
-      "boa": null,
-      "listing": "2026-11-06",
-      "anchor": null,
-      "rating": null,
-      "sub": null,
-      "updated_on": "2026-10-29T11:16+05:30",
-      "from_peers": true,
-      "exchange": "BSE SME",
       "gmp_sources": [],
       "gmp_history": [],
       "gmp": null,

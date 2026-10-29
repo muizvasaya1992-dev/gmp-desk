@@ -19,36 +19,6 @@
    "unconfirmed": true
   },
   {
-   "name": "Johnsoncab Electricals",
-   "segment": "SME",
-   "symbol": null,
-   "listing": "2026-11-06",
-   "exchange": "BSE SME",
-   "live": true,
-   "id": "johnsoncab-electricals",
-   "status": "upcoming",
-   "open": "2026-10-30",
-   "close": "2026-11-03",
-   "price": 200,
-   "price_low": null,
-   "unconfirmed": true
-  },
-  {
-   "name": "Vectras Enprocon",
-   "segment": "SME",
-   "symbol": null,
-   "listing": "2026-11-06",
-   "exchange": "BSE SME",
-   "live": true,
-   "id": "vectras-enprocon",
-   "status": "upcoming",
-   "open": "2026-10-30",
-   "close": "2026-11-03",
-   "price": 105,
-   "price_low": null,
-   "unconfirmed": true
-  },
-  {
    "name": "Bombay Coated and Special Steels",
    "segment": "MAIN",
    "symbol": "BCSSL",
@@ -160,6 +130,34 @@
    "close": "2026-11-03",
    "price": 120,
    "price_low": 114
+  },
+  {
+   "name": "Johnsoncab Electricals",
+   "segment": "SME",
+   "symbol": null,
+   "listing": null,
+   "exchange": "BSE SME",
+   "live": true,
+   "id": "johnsoncab-electricals",
+   "status": "upcoming",
+   "open": "2026-10-30",
+   "close": "2026-11-03",
+   "price": 200,
+   "price_low": 190
+  },
+  {
+   "name": "Vectras Enprocon",
+   "segment": "SME",
+   "symbol": null,
+   "listing": null,
+   "exchange": "BSE SME",
+   "live": true,
+   "id": "vectras-enprocon",
+   "status": "upcoming",
+   "open": "2026-10-30",
+   "close": "2026-11-03",
+   "price": 105,
+   "price_low": 99
   },
   {
    "name": "EAAA India Alternatives",
@@ -5499,5 +5497,5 @@
    "status": "listed"
   }
  ],
- "generated_at": "2026-10-29T11:16+05:30"
+ "generated_at": "2026-10-29T11:18+05:30"
 }

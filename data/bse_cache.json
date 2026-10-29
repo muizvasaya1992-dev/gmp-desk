@@ -68,7 +68,7 @@
    "face_value": 10.0,
    "scrip": 4905,
    "bse_status": "L",
-   "last_seen": "2026-10-29T11:16+05:30"
+   "last_seen": "2026-10-29T11:18+05:30"
   },
   "8060": {
    "ipo_no": "8060",
@@ -82,7 +82,7 @@
    "face_value": 2.0,
    "scrip": 4906,
    "bse_status": "L",
-   "last_seen": "2026-10-29T11:16+05:30"
+   "last_seen": "2026-10-29T11:18+05:30"
   },
   "8061": {
    "ipo_no": "8061",
@@ -96,7 +96,7 @@
    "face_value": 10.0,
    "scrip": 4907,
    "bse_status": "L",
-   "last_seen": "2026-10-29T11:16+05:30"
+   "last_seen": "2026-10-29T11:18+05:30"
   },
   "8062": {
    "ipo_no": "8062",
@@ -110,7 +110,7 @@
    "face_value": 10.0,
    "scrip": 4908,
    "bse_status": "L",
-   "last_seen": "2026-10-29T11:16+05:30"
+   "last_seen": "2026-10-29T11:18+05:30"
   },
   "8063": {
    "ipo_no": "8063",
@@ -124,7 +124,7 @@
    "face_value": 10.0,
    "scrip": 4909,
    "bse_status": "L",
-   "last_seen": "2026-10-29T11:16+05:30"
+   "last_seen": "2026-10-29T11:18+05:30"
   },
   "8065": {
    "ipo_no": "8065",
@@ -137,8 +137,8 @@
    "price_low": 78,
    "face_value": 10.0,
    "scrip": 4911,
-   "bse_status": "F",
-   "last_seen": "2026-10-29T11:16+05:30"
+   "bse_status": "L",
+   "last_seen": "2026-10-29T11:18+05:30"
   },
   "8070": {
    "ipo_no": "8070",
@@ -151,8 +151,36 @@
    "price_low": 63,
    "face_value": 10.0,
    "scrip": 4916,
+   "bse_status": "L",
+   "last_seen": "2026-10-29T11:18+05:30"
+  },
+  "8071": {
+   "ipo_no": "8071",
+   "first_seen": "2026-10-29T11:18+05:30",
+   "name": "Johnsoncab Electricals",
+   "segment": "SME",
+   "open": "2026-10-30",
+   "close": "2026-11-03",
+   "price": 200,
+   "price_low": 190,
+   "face_value": 10.0,
+   "scrip": 4917,
    "bse_status": "F",
-   "last_seen": "2026-10-29T11:16+05:30"
+   "last_seen": "2026-10-29T11:18+05:30"
+  },
+  "8072": {
+   "ipo_no": "8072",
+   "first_seen": "2026-10-29T11:18+05:30",
+   "name": "Vectras Enprocon",
+   "segment": "SME",
+   "open": "2026-10-30",
+   "close": "2026-11-03",
+   "price": 105,
+   "price_low": 99,
+   "face_value": 10.0,
+   "scrip": 4918,
+   "bse_status": "F",
+   "last_seen": "2026-10-29T11:18+05:30"
   }
  },
  "tracker": {
@@ -166,5 +194,5 @@
   "day_loss": 81,
   "fetched_at": "2026-10-29T11:16+05:30"
  },
- "fetched_at": "2026-10-29T11:16+05:30"
+ "fetched_at": "2026-10-29T11:18+05:30"
 }
