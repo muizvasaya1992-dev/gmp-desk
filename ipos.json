@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T15:45+05:30",
+  "generated_at": "2026-10-29T16:01+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-10-29T11:16+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-10-29T15:45+05:30",
+    "nse_ok_at": "2026-10-29T16:01+05:30",
     "bse_ok_at": "2026-10-29T11:18+05:30"
   },
   "ipos": [
@@ -546,15 +546,15 @@
       "price": 150,
       "segment": "MAIN",
       "sub": {
-        "qib": 196.38,
-        "nii": 550.66,
-        "bnii": 588.92,
-        "snii": 474.14,
-        "retail": 116.36,
-        "total": 232.29
+        "qib": 200.25,
+        "nii": 555.79,
+        "bnii": 592.46,
+        "snii": 482.45,
+        "retail": 119.03,
+        "total": 235.83
       },
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-10-29T15:42",
+      "sub_asof": "2026-10-29T15:57",
       "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_BLSPOLY.zip",
       "retail_max": 200000,
       "cutoff_time": "5:00 PM",
@@ -928,12 +928,21 @@
           "snii": 474.14,
           "retail": 116.36,
           "total": 232.29
+        },
+        {
+          "at": "2026-10-29T16:01+05:30",
+          "qib": 200.25,
+          "nii": 555.79,
+          "bnii": 592.46,
+          "snii": 482.45,
+          "retail": 119.03,
+          "total": 235.83
         }
       ],
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 11900000.0,
-      "updated_on": "2026-10-29T15:45+05:30",
+      "updated_on": "2026-10-29T16:01+05:30",
       "bse_ipo_no": "8056",
       "gmp_sources": [
         {
@@ -1023,15 +1032,15 @@
       "price": 330,
       "segment": "MAIN",
       "sub": {
-        "qib": 16.58,
-        "nii": 11.12,
-        "bnii": 13.65,
-        "snii": 6.05,
-        "retail": 1.33,
-        "total": 7.79
+        "qib": 17.81,
+        "nii": 11.94,
+        "bnii": 14.4,
+        "snii": 7.02,
+        "retail": 1.62,
+        "total": 8.46
       },
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-10-29T15:42",
+      "sub_asof": "2026-10-29T15:57",
       "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_SFCTECH.zip",
       "retail_max": 200000,
       "cutoff_time": "5:00 PM",
@@ -1396,23 +1405,32 @@
           "snii": 6.05,
           "retail": 1.33,
           "total": 7.79
+        },
+        {
+          "at": "2026-10-29T16:01+05:30",
+          "qib": 17.81,
+          "nii": 11.94,
+          "bnii": 14.4,
+          "snii": 7.02,
+          "retail": 1.62,
+          "total": 8.46
         }
       ],
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 14159744.0,
-      "updated_on": "2026-10-29T15:45+05:30",
+      "updated_on": "2026-10-29T16:01+05:30",
       "bse_ipo_no": "8060",
       "gmp_sources": [
         {
           "source": "Public trackers",
-          "gmp": 9,
-          "at": "2026-10-29T15:45"
+          "gmp": 11,
+          "at": "2026-10-29T15:52"
         },
         {
           "source": "Tracker B",
-          "gmp": 7,
-          "at": "2026-10-29T15:10"
+          "gmp": 7.5,
+          "at": "2026-10-29T16:00"
         },
         {
           "source": "Tracker C",
@@ -1443,26 +1461,26 @@
         },
         {
           "date": "2026-10-29",
-          "gmp": 9
+          "gmp": 11
         }
       ],
       "history_source": "Public trackers",
       "gmp_low": 6,
       "gmp_high": 30,
-      "gmp": 9,
-      "gmp_asof": "2026-10-29T15:45",
-      "gmp_source_latest": "Public trackers",
-      "gmp_pct": 2.73,
+      "gmp": 7.5,
+      "gmp_asof": "2026-10-29T16:00",
+      "gmp_source_latest": "Tracker B",
+      "gmp_pct": 2.27,
       "gmp_spread": {
         "min": 6.5,
-        "max": 9,
-        "diff": 2.5,
+        "max": 11,
+        "diff": 4.5,
         "n": 3,
-        "diff_pct_of_price": 0.76
+        "diff_pct_of_price": 1.36
       },
       "gmp_trend": {
         "dir": "falling",
-        "change": -6,
+        "change": -4,
         "days": 3,
         "since": "2026-10-27"
       },
@@ -1684,7 +1702,7 @@
       "series": "EQ",
       "nse_status": "Closed",
       "shares_offered": 5299684.0,
-      "updated_on": "2026-10-29T15:45+05:30",
+      "updated_on": "2026-10-29T16:01+05:30",
       "bse_ipo_no": "8054",
       "gmp_sources": [
         {
@@ -1763,13 +1781,13 @@
       "rating": null,
       "sub": {
         "qib": 6.55,
-        "nii": 0.57,
+        "nii": 0.58,
         "bnii": 0.41,
         "snii": 0.9,
-        "retail": 1.07,
-        "total": 2.56
+        "retail": 1.1,
+        "total": 2.57
       },
-      "updated_on": "2026-10-29T15:45+05:30",
+      "updated_on": "2026-10-29T16:01+05:30",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "Smart Horizon Capital Advisors Private Limited"
@@ -1779,7 +1797,7 @@
       "symbol": "BCSSL",
       "official": true,
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-10-29T15:42",
+      "sub_asof": "2026-10-29T15:57",
       "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_BCSSL.zip",
       "retail_max": 200000,
       "cutoff_time": "5:00 PM",
@@ -2022,6 +2040,15 @@
           "snii": 0.9,
           "retail": 1.07,
           "total": 2.56
+        },
+        {
+          "at": "2026-10-29T16:01+05:30",
+          "qib": 6.55,
+          "nii": 0.58,
+          "bnii": 0.41,
+          "snii": 0.9,
+          "retail": 1.1,
+          "total": 2.57
         }
       ],
       "series": "EQ",
@@ -2190,8 +2217,8 @@
       "anchor": null,
       "rating": null,
       "sub": {
-        "total": 0.93,
-        "retail": 0.55
+        "total": 1.14,
+        "retail": 0.63
       },
       "updated_on": "2026-10-22T18:00",
       "exchange": "BSE SME",
@@ -2203,7 +2230,7 @@
       "official": true,
       "price_low": 194,
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-10-29T15:40",
+      "sub_asof": "2026-10-29T15:55",
       "gmp_sources": [],
       "gmp_history": [],
       "gmp": null,
@@ -2273,7 +2300,7 @@
       "official": true,
       "price_low": 76,
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-10-29T15:40",
+      "sub_asof": "2026-10-29T16:00",
       "gmp_sources": [],
       "gmp_history": [],
       "gmp": null,
@@ -2298,14 +2325,14 @@
       "segment": "MAIN",
       "sub": {
         "qib": 0.98,
-        "nii": 1.92,
-        "bnii": 2.33,
-        "snii": 1.11,
-        "retail": 0.74,
-        "total": 1.06
+        "nii": 1.99,
+        "bnii": 2.39,
+        "snii": 1.2,
+        "retail": 0.77,
+        "total": 1.09
       },
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-10-29T15:42",
+      "sub_asof": "2026-10-29T15:57",
       "registrar": "Bigshare Services Private Limited",
       "lead_managers": [
         "Aryaman Financial Services Limited"
@@ -2616,12 +2643,21 @@
           "snii": 1.11,
           "retail": 0.74,
           "total": 1.06
+        },
+        {
+          "at": "2026-10-29T16:01+05:30",
+          "qib": 0.98,
+          "nii": 1.99,
+          "bnii": 2.39,
+          "snii": 1.2,
+          "retail": 0.77,
+          "total": 1.09
         }
       ],
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 11900000.0,
-      "updated_on": "2026-10-29T15:45+05:30",
+      "updated_on": "2026-10-29T16:01+05:30",
       "bse_ipo_no": "8062",
       "gmp_sources": [
         {
@@ -2701,7 +2737,7 @@
       "series": "SME",
       "nse_status": "Forthcoming",
       "shares_offered": 3648000.0,
-      "updated_on": "2026-10-29T15:45+05:30",
+      "updated_on": "2026-10-29T16:01+05:30",
       "gmp_sources": [
         {
           "source": "Tracker C",
@@ -2762,7 +2798,7 @@
       "series": "SME",
       "nse_status": "Forthcoming",
       "shares_offered": 2880000.0,
-      "updated_on": "2026-10-29T15:45+05:30",
+      "updated_on": "2026-10-29T16:01+05:30",
       "gmp_sources": [],
       "gmp_history": [],
       "exchange": "SME",
@@ -2890,11 +2926,11 @@
         "total": 0.77,
         "retail": 1.39
       },
-      "updated_on": "2026-10-29T15:45+05:30",
+      "updated_on": "2026-10-29T16:01+05:30",
       "from_peers": true,
       "exchange": "BSE SME",
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-10-29T15:42",
+      "sub_asof": "2026-10-29T16:00",
       "gmp_sources": [
         {
           "source": "Tracker B",
@@ -2955,7 +2991,7 @@
       "anchor": null,
       "rating": null,
       "sub": null,
-      "updated_on": "2026-10-29T15:45+05:30",
+      "updated_on": "2026-10-29T16:01+05:30",
       "from_peers": true,
       "exchange": "NSE Emerge",
       "gmp_sources": [],
