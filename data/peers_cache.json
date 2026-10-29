@@ -1,27 +1,7 @@
 {
  "b": {
-  "fetched_at": "2026-10-29T14:46+05:30",
+  "fetched_at": "2026-10-29T15:01+05:30",
   "records": [
-   {
-    "src": "Tracker B",
-    "slug": "bls-polymers",
-    "name": "BLS Polymers",
-    "segment": "MAIN",
-    "exchange": null,
-    "open": "2026-10-27",
-    "close": "2026-10-29",
-    "boa": "2026-10-30",
-    "listing": "2026-11-03",
-    "price": 150.0,
-    "price_low": 142.0,
-    "size_cr": 255.0,
-    "gmp": 52.0,
-    "gmp_at": "2026-10-29T14:40",
-    "sub_total": 169.02,
-    "sub_retail": 99.69,
-    "sub_at": "2026-10-29T14:43",
-    "live": true
-   },
    {
     "src": "Tracker B",
     "slug": "sfc-environmental-technologies",
@@ -36,10 +16,30 @@
     "price_low": 313.0,
     "size_cr": 668.0,
     "gmp": 6.5,
-    "gmp_at": "2026-10-29T14:40",
-    "sub_total": 2.39,
-    "sub_retail": 0.74,
-    "sub_at": "2026-10-29T14:43",
+    "gmp_at": "2026-10-29T14:55",
+    "sub_total": 2.67,
+    "sub_retail": 0.8,
+    "sub_at": "2026-10-29T14:58",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
+    "slug": "bls-polymers",
+    "name": "BLS Polymers",
+    "segment": "MAIN",
+    "exchange": null,
+    "open": "2026-10-27",
+    "close": "2026-10-29",
+    "boa": "2026-10-30",
+    "listing": "2026-11-03",
+    "price": 150.0,
+    "price_low": 142.0,
+    "size_cr": 255.0,
+    "gmp": 52.0,
+    "gmp_at": "2026-10-29T14:55",
+    "sub_total": 183.87,
+    "sub_retail": 103.93,
+    "sub_at": "2026-10-29T14:58",
     "live": true
    },
    {
@@ -56,10 +56,10 @@
     "price_low": 153.0,
     "size_cr": 330.48,
     "gmp": 11.0,
-    "gmp_at": "2026-10-29T14:40",
-    "sub_total": 1.01,
-    "sub_retail": 0.67,
-    "sub_at": "2026-10-29T14:43",
+    "gmp_at": "2026-10-29T14:55",
+    "sub_total": 1.02,
+    "sub_retail": 0.69,
+    "sub_at": "2026-10-29T14:58",
     "live": true
    },
    {
@@ -76,10 +76,10 @@
     "price_low": 78.0,
     "size_cr": 183.06,
     "gmp": 9.0,
-    "gmp_at": "2026-10-29T14:40",
-    "sub_total": 2.45,
-    "sub_retail": 0.9,
-    "sub_at": "2026-10-29T14:42",
+    "gmp_at": "2026-10-29T14:55",
+    "sub_total": 2.47,
+    "sub_retail": 0.95,
+    "sub_at": "2026-10-29T14:58",
     "live": true
    },
    {
@@ -96,7 +96,7 @@
     "price_low": 1585.0,
     "size_cr": 1200.0,
     "gmp": 27.0,
-    "gmp_at": "2026-10-29T14:40",
+    "gmp_at": "2026-10-29T14:55",
     "sub_total": 5.25,
     "sub_retail": 1.03,
     "sub_at": "2026-10-28T19:06",
@@ -116,10 +116,10 @@
     "price_low": 194.0,
     "size_cr": 110.0,
     "gmp": 0.0,
-    "gmp_at": "2026-10-29T14:40",
-    "sub_total": 0.91,
-    "sub_retail": 0.53,
-    "sub_at": "2026-10-29T14:40",
+    "gmp_at": "2026-10-29T14:55",
+    "sub_total": 0.93,
+    "sub_retail": 0.55,
+    "sub_at": "2026-10-29T14:55",
     "live": true
    },
    {
@@ -136,10 +136,10 @@
     "price_low": 76.0,
     "size_cr": 28.29,
     "gmp": 0.0,
-    "gmp_at": "2026-10-29T14:40",
+    "gmp_at": "2026-10-29T14:55",
     "sub_total": 0.34,
     "sub_retail": 0.31,
-    "sub_at": "2026-10-29T14:40",
+    "sub_at": "2026-10-29T14:55",
     "live": true
    },
    {
@@ -156,10 +156,10 @@
     "price_low": 203.0,
     "size_cr": 38.05,
     "gmp": 15.0,
-    "gmp_at": "2026-10-29T14:40",
+    "gmp_at": "2026-10-29T14:55",
     "sub_total": 0.64,
     "sub_retail": 1.18,
-    "sub_at": "2026-10-29T14:43",
+    "sub_at": "2026-10-29T14:56",
     "live": true
    },
    {
@@ -176,7 +176,7 @@
     "price_low": 88.0,
     "size_cr": 54.82,
     "gmp": 0.0,
-    "gmp_at": "2026-10-29T14:40",
+    "gmp_at": "2026-10-29T14:55",
     "sub_total": 5.41,
     "sub_retail": 2.68,
     "sub_at": "2026-10-27T19:05",
@@ -185,7 +185,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-10-29T14:46+05:30",
+  "fetched_at": "2026-10-29T15:01+05:30",
   "records": [
    {
     "src": "Tracker C",
