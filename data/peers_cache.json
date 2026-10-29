@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-10-30T00:46+05:30",
+  "fetched_at": "2026-10-30T01:01+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -19,7 +19,7 @@
     "gmp_at": "2026-10-29T23:55",
     "sub_total": 1.18,
     "sub_retail": 0.85,
-    "sub_at": "2026-10-30T00:41",
+    "sub_at": "2026-10-30T01:00",
     "live": true
    },
    {
@@ -39,7 +39,7 @@
     "gmp_at": "2026-10-29T23:55",
     "sub_total": 2.67,
     "sub_retail": 1.24,
-    "sub_at": "2026-10-30T00:41",
+    "sub_at": "2026-10-30T01:00",
     "live": true
    },
    {
@@ -104,6 +104,26 @@
    },
    {
     "src": "Tracker B",
+    "slug": "ajwa-projects",
+    "name": "Ajwa Projects Limited",
+    "segment": "SME",
+    "exchange": "BSE SME",
+    "open": "2026-10-28",
+    "close": "2026-10-30",
+    "boa": "2026-11-02",
+    "listing": "2026-11-04",
+    "price": 203.0,
+    "price_low": 203.0,
+    "size_cr": 38.05,
+    "gmp": 5.0,
+    "gmp_at": "2026-10-29T23:55",
+    "sub_total": 0.87,
+    "sub_retail": 1.57,
+    "sub_at": "2026-10-30T00:59",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
     "slug": "carver-roboweld",
     "name": "Carver Roboweld",
     "segment": "SME",
@@ -120,26 +140,6 @@
     "sub_total": 0.83,
     "sub_retail": 0.65,
     "sub_at": "2026-10-30T00:04",
-    "live": true
-   },
-   {
-    "src": "Tracker B",
-    "slug": "ajwa-projects",
-    "name": "Ajwa Projects Limited",
-    "segment": "SME",
-    "exchange": "BSE SME",
-    "open": "2026-10-28",
-    "close": "2026-10-30",
-    "boa": "2026-11-02",
-    "listing": "2026-11-04",
-    "price": 203.0,
-    "price_low": 203.0,
-    "size_cr": 38.05,
-    "gmp": 5.0,
-    "gmp_at": "2026-10-29T23:55",
-    "sub_total": 0.87,
-    "sub_retail": 1.57,
-    "sub_at": "2026-10-30T00:41",
     "live": true
    },
    {
@@ -185,7 +185,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-10-30T00:46+05:30",
+  "fetched_at": "2026-10-30T01:01+05:30",
   "records": [
    {
     "src": "Tracker C",
