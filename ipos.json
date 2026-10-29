@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T11:15+05:30",
+  "generated_at": "2026-10-29T11:16+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -16,15 +16,15 @@
     "total": 225,
     "mainboard": 104,
     "sme": 121,
-    "listing_gain": 165,
+    "listing_gain": 167,
     "listing_loss": 58,
-    "day_gain": 142,
+    "day_gain": 144,
     "day_loss": 81,
-    "fetched_at": "2026-10-28T11:01+05:30"
+    "fetched_at": "2026-10-29T11:16+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-10-29T11:15+05:30",
-    "bse_ok_at": "2026-10-28T14:51+05:30"
+    "nse_ok_at": "2026-10-29T11:16+05:30",
+    "bse_ok_at": "2026-10-29T11:16+05:30"
   },
   "ipos": [
     {
@@ -741,7 +741,7 @@
           "total": 65.34
         },
         {
-          "at": "2026-10-29T11:15+05:30",
+          "at": "2026-10-29T11:16+05:30",
           "qib": 12.25,
           "nii": 190.82,
           "bnii": 188.73,
@@ -753,7 +753,7 @@
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 11900000.0,
-      "updated_on": "2026-10-29T11:15+05:30",
+      "updated_on": "2026-10-29T11:16+05:30",
       "bse_ipo_no": "8056",
       "gmp_sources": [
         {
@@ -764,7 +764,7 @@
         {
           "source": "Tracker B",
           "gmp": 51,
-          "at": "2026-10-29T11:10"
+          "at": "2026-10-29T11:15"
         },
         {
           "source": "Tracker C",
@@ -798,7 +798,7 @@
       "gmp_low": 24,
       "gmp_high": 51,
       "gmp": 51,
-      "gmp_asof": "2026-10-29T11:10",
+      "gmp_asof": "2026-10-29T11:15",
       "gmp_source_latest": "Tracker B",
       "gmp_pct": 34.0,
       "gmp_spread": {
@@ -1020,7 +1020,7 @@
           "total": 0.41
         },
         {
-          "at": "2026-10-29T11:15+05:30",
+          "at": "2026-10-29T11:16+05:30",
           "qib": 0.08,
           "nii": 0.83,
           "bnii": 0.79,
@@ -1032,7 +1032,7 @@
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 14159744.0,
-      "updated_on": "2026-10-29T11:15+05:30",
+      "updated_on": "2026-10-29T11:16+05:30",
       "bse_ipo_no": "8060",
       "gmp_sources": [
         {
@@ -1315,7 +1315,7 @@
       "series": "EQ",
       "nse_status": "Closed",
       "shares_offered": 5299684.0,
-      "updated_on": "2026-10-29T11:15+05:30",
+      "updated_on": "2026-10-29T11:16+05:30",
       "bse_ipo_no": "8054",
       "gmp_sources": [
         {
@@ -1400,7 +1400,7 @@
         "retail": 0.29,
         "total": 1.11
       },
-      "updated_on": "2026-10-29T11:15+05:30",
+      "updated_on": "2026-10-29T11:16+05:30",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "Smart Horizon Capital Advisors Private Limited"
@@ -1457,7 +1457,7 @@
           "total": 1.09
         },
         {
-          "at": "2026-10-29T11:15+05:30",
+          "at": "2026-10-29T11:16+05:30",
           "qib": 3.28,
           "nii": 0.09,
           "bnii": 0.03,
@@ -1645,7 +1645,7 @@
       "official": true,
       "price_low": 194,
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-10-29T11:11",
+      "sub_asof": "2026-10-29T11:15",
       "gmp_sources": [],
       "gmp_history": [],
       "gmp": null,
@@ -1715,7 +1715,7 @@
       "official": true,
       "price_low": 76,
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-10-29T11:10",
+      "sub_asof": "2026-10-29T11:15",
       "gmp_sources": [],
       "gmp_history": [],
       "gmp": null,
@@ -1871,7 +1871,7 @@
           "total": 0.78
         },
         {
-          "at": "2026-10-29T11:15+05:30",
+          "at": "2026-10-29T11:16+05:30",
           "qib": 0.96,
           "nii": 1.45,
           "bnii": 1.94,
@@ -1883,7 +1883,7 @@
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 11900000.0,
-      "updated_on": "2026-10-29T11:15+05:30",
+      "updated_on": "2026-10-29T11:16+05:30",
       "bse_ipo_no": "8062",
       "gmp_sources": [
         {
@@ -1893,8 +1893,8 @@
         },
         {
           "source": "Tracker B",
-          "gmp": 15,
-          "at": "2026-10-29T09:30"
+          "gmp": 14,
+          "at": "2026-10-29T11:15"
         },
         {
           "source": "Tracker C",
@@ -1923,10 +1923,10 @@
       "history_source": "Public trackers",
       "gmp_low": 7,
       "gmp_high": 16,
-      "gmp": 15,
-      "gmp_asof": "2026-10-29T09:37",
-      "gmp_source_latest": "Tracker C",
-      "gmp_pct": 9.26,
+      "gmp": 14,
+      "gmp_asof": "2026-10-29T11:15",
+      "gmp_source_latest": "Tracker B",
+      "gmp_pct": 8.64,
       "gmp_spread": {
         "min": 11,
         "max": 15,
@@ -1963,7 +1963,7 @@
       "series": "SME",
       "nse_status": "Forthcoming",
       "shares_offered": 3648000.0,
-      "updated_on": "2026-10-29T11:15+05:30",
+      "updated_on": "2026-10-29T11:16+05:30",
       "gmp_sources": [
         {
           "source": "Tracker C",
@@ -2024,7 +2024,7 @@
       "series": "SME",
       "nse_status": "Forthcoming",
       "shares_offered": 2880000.0,
-      "updated_on": "2026-10-29T11:15+05:30",
+      "updated_on": "2026-10-29T11:16+05:30",
       "gmp_sources": [],
       "gmp_history": [],
       "exchange": "SME",
@@ -2050,7 +2050,7 @@
       "price_low": 63,
       "segment": "SME",
       "exchange": "BSE SME",
-      "updated_on": "2026-10-28T11:01+05:30",
+      "updated_on": "2026-10-29T11:16+05:30",
       "gmp_sources": [],
       "gmp_history": [],
       "gmp": null,
@@ -2076,11 +2076,11 @@
         "total": 0.55,
         "retail": 1.02
       },
-      "updated_on": "2026-10-29T11:15+05:30",
+      "updated_on": "2026-10-29T11:16+05:30",
       "from_peers": true,
       "exchange": "BSE SME",
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-10-29T11:12",
+      "sub_asof": "2026-10-29T11:15",
       "gmp_sources": [
         {
           "source": "Tracker B",
@@ -2141,7 +2141,7 @@
       "anchor": null,
       "rating": null,
       "sub": null,
-      "updated_on": "2026-10-29T11:15+05:30",
+      "updated_on": "2026-10-29T11:16+05:30",
       "from_peers": true,
       "exchange": "NSE Emerge",
       "gmp_sources": [],
@@ -2166,7 +2166,7 @@
       "anchor": null,
       "rating": null,
       "sub": null,
-      "updated_on": "2026-10-29T11:15+05:30",
+      "updated_on": "2026-10-29T11:16+05:30",
       "from_peers": true,
       "exchange": "BSE SME",
       "gmp_sources": [
@@ -2217,7 +2217,7 @@
       "anchor": null,
       "rating": null,
       "sub": null,
-      "updated_on": "2026-10-29T11:15+05:30",
+      "updated_on": "2026-10-29T11:16+05:30",
       "from_peers": true,
       "exchange": "BSE SME",
       "gmp_sources": [],
