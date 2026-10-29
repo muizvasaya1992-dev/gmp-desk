@@ -4,21 +4,6 @@
  "nse_as_of": "2026-10-29T00:01+05:30",
  "rows": [
   {
-   "name": "Vedant Poly Fabs",
-   "segment": "SME",
-   "symbol": null,
-   "listing": "2026-11-09",
-   "exchange": "NSE Emerge",
-   "live": true,
-   "id": "vedant-poly-fabs",
-   "status": "upcoming",
-   "open": "2026-11-02",
-   "close": "2026-11-04",
-   "price": 94,
-   "price_low": null,
-   "unconfirmed": true
-  },
-  {
    "name": "Bombay Coated and Special Steels",
    "segment": "MAIN",
    "symbol": "BCSSL",
@@ -45,6 +30,20 @@
    "close": "2026-10-30",
    "price": 80,
    "price_low": 76
+  },
+  {
+   "name": "Vedant Poly Fabs",
+   "segment": "SME",
+   "symbol": "VPFL",
+   "listing": null,
+   "exchange": "SME",
+   "live": true,
+   "id": "vpfl",
+   "status": "upcoming",
+   "open": "2026-11-02",
+   "close": "2026-11-04",
+   "price": 94,
+   "price_low": 88
   },
   {
    "name": "Ajwa Projects",
@@ -5497,5 +5496,5 @@
    "status": "listed"
   }
  ],
- "generated_at": "2026-10-29T11:18+05:30"
+ "generated_at": "2026-10-29T16:31+05:30"
 }

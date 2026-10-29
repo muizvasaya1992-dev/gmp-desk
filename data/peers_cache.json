@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-10-29T16:16+05:30",
+  "fetched_at": "2026-10-29T16:31+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,10 +16,10 @@
     "price_low": 313.0,
     "size_cr": 668.0,
     "gmp": 7.5,
-    "gmp_at": "2026-10-29T16:10",
-    "sub_total": 8.92,
-    "sub_retail": 1.85,
-    "sub_at": "2026-10-29T16:14",
+    "gmp_at": "2026-10-29T16:25",
+    "sub_total": 9.12,
+    "sub_retail": 2.16,
+    "sub_at": "2026-10-29T16:29",
     "live": true
    },
    {
@@ -36,10 +36,10 @@
     "price_low": 142.0,
     "size_cr": 255.0,
     "gmp": 54.0,
-    "gmp_at": "2026-10-29T16:15",
-    "sub_total": 237.26,
-    "sub_retail": 121.27,
-    "sub_at": "2026-10-29T16:13",
+    "gmp_at": "2026-10-29T16:25",
+    "sub_total": 238.64,
+    "sub_retail": 123.68,
+    "sub_at": "2026-10-29T16:28",
     "live": true
    },
    {
@@ -56,10 +56,10 @@
     "price_low": 153.0,
     "size_cr": 330.48,
     "gmp": 11.0,
-    "gmp_at": "2026-10-29T16:15",
-    "sub_total": 1.1,
-    "sub_retail": 0.78,
-    "sub_at": "2026-10-29T16:15",
+    "gmp_at": "2026-10-29T16:25",
+    "sub_total": 1.15,
+    "sub_retail": 0.81,
+    "sub_at": "2026-10-29T16:30",
     "live": true
    },
    {
@@ -76,10 +76,10 @@
     "price_low": 78.0,
     "size_cr": 183.06,
     "gmp": 9.0,
-    "gmp_at": "2026-10-29T16:15",
-    "sub_total": 2.6,
-    "sub_retail": 1.14,
-    "sub_at": "2026-10-29T16:15",
+    "gmp_at": "2026-10-29T16:25",
+    "sub_total": 2.61,
+    "sub_retail": 1.16,
+    "sub_at": "2026-10-29T16:28",
     "live": true
    },
    {
@@ -96,7 +96,7 @@
     "price_low": 1585.0,
     "size_cr": 1200.0,
     "gmp": 27.0,
-    "gmp_at": "2026-10-29T16:15",
+    "gmp_at": "2026-10-29T16:25",
     "sub_total": 5.25,
     "sub_retail": 1.03,
     "sub_at": "2026-10-28T19:06",
@@ -116,30 +116,10 @@
     "price_low": 194.0,
     "size_cr": 110.0,
     "gmp": 0.0,
-    "gmp_at": "2026-10-29T16:10",
+    "gmp_at": "2026-10-29T16:25",
     "sub_total": 1.14,
     "sub_retail": 0.63,
-    "sub_at": "2026-10-29T16:10",
-    "live": true
-   },
-   {
-    "src": "Tracker B",
-    "slug": "carver-roboweld",
-    "name": "Carver Roboweld",
-    "segment": "SME",
-    "exchange": "BSE SME",
-    "open": "2026-10-28",
-    "close": "2026-10-30",
-    "boa": "2026-11-02",
-    "listing": "2026-11-04",
-    "price": 80.0,
-    "price_low": 76.0,
-    "size_cr": 28.29,
-    "gmp": 0.0,
-    "gmp_at": "2026-10-29T16:10",
-    "sub_total": 0.34,
-    "sub_retail": 0.31,
-    "sub_at": "2026-10-29T16:10",
+    "sub_at": "2026-10-29T16:25",
     "live": true
    },
    {
@@ -156,10 +136,30 @@
     "price_low": 203.0,
     "size_cr": 38.05,
     "gmp": 15.0,
-    "gmp_at": "2026-10-29T16:10",
+    "gmp_at": "2026-10-29T16:25",
     "sub_total": 0.77,
     "sub_retail": 1.39,
-    "sub_at": "2026-10-29T16:10",
+    "sub_at": "2026-10-29T16:27",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
+    "slug": "carver-roboweld",
+    "name": "Carver Roboweld",
+    "segment": "SME",
+    "exchange": "BSE SME",
+    "open": "2026-10-28",
+    "close": "2026-10-30",
+    "boa": "2026-11-02",
+    "listing": "2026-11-04",
+    "price": 80.0,
+    "price_low": 76.0,
+    "size_cr": 28.29,
+    "gmp": 0.0,
+    "gmp_at": "2026-10-29T16:25",
+    "sub_total": 0.58,
+    "sub_retail": 0.52,
+    "sub_at": "2026-10-29T16:25",
     "live": true
    },
    {
@@ -176,7 +176,7 @@
     "price_low": 88.0,
     "size_cr": 54.82,
     "gmp": 0.0,
-    "gmp_at": "2026-10-29T16:15",
+    "gmp_at": "2026-10-29T16:25",
     "sub_total": 5.41,
     "sub_retail": 2.68,
     "sub_at": "2026-10-27T19:05",
@@ -185,7 +185,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-10-29T16:16+05:30",
+  "fetched_at": "2026-10-29T16:31+05:30",
   "records": [
    {
     "src": "Tracker C",
