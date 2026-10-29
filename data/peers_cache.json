@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-10-29T23:01+05:30",
+  "fetched_at": "2026-10-29T23:16+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,10 +16,10 @@
     "price_low": 153.0,
     "size_cr": 330.48,
     "gmp": 12.0,
-    "gmp_at": "2026-10-29T23:00",
+    "gmp_at": "2026-10-29T23:10",
     "sub_total": 1.18,
     "sub_retail": 0.85,
-    "sub_at": "2026-10-29T23:00",
+    "sub_at": "2026-10-29T23:13",
     "live": true
    },
    {
@@ -36,10 +36,10 @@
     "price_low": 78.0,
     "size_cr": 183.06,
     "gmp": 9.0,
-    "gmp_at": "2026-10-29T23:00",
+    "gmp_at": "2026-10-29T23:10",
     "sub_total": 2.67,
     "sub_retail": 1.24,
-    "sub_at": "2026-10-29T22:59",
+    "sub_at": "2026-10-29T23:13",
     "live": true
    },
    {
@@ -56,7 +56,7 @@
     "price_low": 142.0,
     "size_cr": 255.0,
     "gmp": 60.67,
-    "gmp_at": "2026-10-29T23:00",
+    "gmp_at": "2026-10-29T23:10",
     "sub_total": 241.22,
     "sub_retail": 128.36,
     "sub_at": "2026-10-29T19:05",
@@ -76,7 +76,7 @@
     "price_low": 313.0,
     "size_cr": 668.0,
     "gmp": 19.0,
-    "gmp_at": "2026-10-29T23:00",
+    "gmp_at": "2026-10-29T23:10",
     "sub_total": 9.47,
     "sub_retail": 2.71,
     "sub_at": "2026-10-29T19:05",
@@ -96,30 +96,10 @@
     "price_low": 1585.0,
     "size_cr": 1200.0,
     "gmp": 37.0,
-    "gmp_at": "2026-10-29T23:00",
+    "gmp_at": "2026-10-29T23:10",
     "sub_total": 5.25,
     "sub_retail": 1.03,
     "sub_at": "2026-10-28T19:06",
-    "live": true
-   },
-   {
-    "src": "Tracker B",
-    "slug": "carver-roboweld",
-    "name": "Carver Roboweld",
-    "segment": "SME",
-    "exchange": "BSE SME",
-    "open": "2026-10-28",
-    "close": "2026-10-30",
-    "boa": "2026-11-02",
-    "listing": "2026-11-04",
-    "price": 80.0,
-    "price_low": 76.0,
-    "size_cr": 28.29,
-    "gmp": 0.0,
-    "gmp_at": "2026-10-29T23:00",
-    "sub_total": 0.83,
-    "sub_retail": 0.65,
-    "sub_at": "2026-10-29T22:50",
     "live": true
    },
    {
@@ -136,10 +116,30 @@
     "price_low": 203.0,
     "size_cr": 38.05,
     "gmp": 5.0,
-    "gmp_at": "2026-10-29T23:00",
+    "gmp_at": "2026-10-29T23:10",
     "sub_total": 0.87,
     "sub_retail": 1.57,
-    "sub_at": "2026-10-29T23:01",
+    "sub_at": "2026-10-29T23:11",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
+    "slug": "carver-roboweld",
+    "name": "Carver Roboweld",
+    "segment": "SME",
+    "exchange": "BSE SME",
+    "open": "2026-10-28",
+    "close": "2026-10-30",
+    "boa": "2026-11-02",
+    "listing": "2026-11-04",
+    "price": 80.0,
+    "price_low": 76.0,
+    "size_cr": 28.29,
+    "gmp": 0.0,
+    "gmp_at": "2026-10-29T23:10",
+    "sub_total": 0.83,
+    "sub_retail": 0.65,
+    "sub_at": "2026-10-29T22:50",
     "live": true
    },
    {
@@ -156,7 +156,7 @@
     "price_low": 194.0,
     "size_cr": 110.0,
     "gmp": 0.0,
-    "gmp_at": "2026-10-29T23:00",
+    "gmp_at": "2026-10-29T23:10",
     "sub_total": 1.17,
     "sub_retail": 0.66,
     "sub_at": "2026-10-29T19:05",
@@ -176,7 +176,7 @@
     "price_low": 88.0,
     "size_cr": 54.82,
     "gmp": 0.0,
-    "gmp_at": "2026-10-29T23:00",
+    "gmp_at": "2026-10-29T23:10",
     "sub_total": 5.41,
     "sub_retail": 2.68,
     "sub_at": "2026-10-27T19:05",
@@ -185,7 +185,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-10-29T23:01+05:30",
+  "fetched_at": "2026-10-29T23:16+05:30",
   "records": [
    {
     "src": "Tracker C",
