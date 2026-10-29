@@ -383,9 +383,9 @@
   "price": 150,
   "price_low": 142,
   "series": "EQ",
-  "nse_status": "Active",
+  "nse_status": "Closed",
   "shares_offered": 11900000.0,
-  "last_seen": "2026-10-29T19:15+05:30",
+  "last_seen": "2026-10-30T00:01+05:30",
   "segment": "MAIN",
   "lot": 100,
   "registrar": "KFin Technologies Limited",
@@ -394,7 +394,7 @@
   ],
   "retail_max": 200000,
   "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_BLSPOLY.zip",
-  "details_at": "2026-10-29T00:01+05:30",
+  "details_at": "2026-10-30T00:01+05:30",
   "cutoff_time": "5:00 PM",
   "sub": {
    "qib": 200.25,
@@ -855,9 +855,9 @@
   "price": 330,
   "price_low": 313,
   "series": "EQ",
-  "nse_status": "Active",
+  "nse_status": "Closed",
   "shares_offered": 14159744.0,
-  "last_seen": "2026-10-29T19:15+05:30",
+  "last_seen": "2026-10-30T00:01+05:30",
   "segment": "MAIN",
   "lot": 45,
   "registrar": "MUFG Intime India Private Limited",
@@ -866,7 +866,7 @@
   ],
   "retail_max": 200000,
   "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_SFCTECH.zip",
-  "details_at": "2026-10-29T00:01+05:30",
+  "details_at": "2026-10-30T00:01+05:30",
   "cutoff_time": "5:00 PM",
   "sub": {
    "qib": 18.81,
@@ -1540,7 +1540,7 @@
   "series": "EQ",
   "nse_status": "Active",
   "shares_offered": 11900000.0,
-  "last_seen": "2026-10-29T19:15+05:30",
+  "last_seen": "2026-10-30T00:01+05:30",
   "segment": "MAIN",
   "lot": 91,
   "registrar": "Bigshare Services Private Limited",
@@ -1550,7 +1550,7 @@
   "retail_max": 200000,
   "cutoff_time": "5:00 PM",
   "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_MKSONS.zip",
-  "details_at": "2026-10-29T00:01+05:30",
+  "details_at": "2026-10-30T00:01+05:30",
   "sub": {
    "qib": 0.99,
    "nii": 2.2,
@@ -1931,7 +1931,7 @@
   "series": "EQ",
   "nse_status": "Active",
   "shares_offered": 16533012.0,
-  "last_seen": "2026-10-29T19:15+05:30",
+  "last_seen": "2026-10-30T00:01+05:30",
   "segment": "MAIN",
   "lot": 182,
   "registrar": "KFin Technologies Limited",
@@ -1941,7 +1941,7 @@
   "retail_max": 200000,
   "cutoff_time": "5:00 PM",
   "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_BCSSL.zip",
-  "details_at": "2026-10-29T00:01+05:30",
+  "details_at": "2026-10-30T00:01+05:30",
   "sub": {
    "qib": 6.55,
    "nii": 0.72,
@@ -2236,7 +2236,12 @@
     "retail": 1.24,
     "total": 2.67
    }
-  ]
+  ],
+  "reservation": {
+   "qib": 29.02,
+   "nii": 21.29,
+   "retail": 49.68
+  }
  },
  "MAXENGS": {
   "symbol": "MAXENGS",
@@ -2244,14 +2249,31 @@
   "name": "Maxwell Engineering Solutions",
   "open": "2026-10-30",
   "close": "2026-11-03",
-  "price": 158,
-  "price_low": 150,
+  "price": null,
+  "price_low": null,
   "series": "SME",
-  "nse_status": "Forthcoming",
-  "shares_offered": 2624000.0,
-  "last_seen": "2026-10-29T19:15+05:30",
+  "nse_status": "Active",
+  "shares_offered": null,
+  "last_seen": "2026-10-30T00:01+05:30",
   "segment": "SME",
-  "details_at": "2026-10-29T00:01+05:30"
+  "details_at": "2026-10-30T00:01+05:30",
+  "sub": {
+   "total": 0.0
+  },
+  "sub_basis": "NSE+BSE",
+  "sub_asof": null,
+  "registrar": "KFin Technologies Limited",
+  "lead_managers": [
+   "JDA CAPITAL SERVICES LIMITED (Formerly Known as Beeline Broking Limited)"
+  ],
+  "cutoff_time": "5:00 PM",
+  "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_MAXENGS.zip",
+  "sub_hist": [
+   {
+    "at": "2026-10-30T00:01+05:30",
+    "total": 0.0
+   }
+  ]
  },
  "HGSINDIALT": {
   "symbol": "HGSINDIALT",
@@ -2259,20 +2281,31 @@
   "name": "HGS (India)",
   "open": "2026-10-30",
   "close": "2026-11-03",
-  "price": 120,
-  "price_low": 114,
+  "price": null,
+  "price_low": null,
   "series": "SME",
-  "nse_status": "Forthcoming",
-  "shares_offered": 2066400.0,
-  "last_seen": "2026-10-29T19:15+05:30",
+  "nse_status": "Active",
+  "shares_offered": null,
+  "last_seen": "2026-10-30T00:01+05:30",
   "segment": "SME",
-  "details_at": "2026-10-29T00:01+05:30",
+  "details_at": "2026-10-30T00:01+05:30",
   "registrar": "Kfin Technologies Limited",
   "lead_managers": [
    "Hem Securities Limited"
   ],
   "cutoff_time": "5:00 PM",
-  "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_HGSINDIALT.zip"
+  "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_HGSINDIALT.zip",
+  "sub": {
+   "total": 0.0
+  },
+  "sub_basis": "NSE+BSE",
+  "sub_asof": null,
+  "sub_hist": [
+   {
+    "at": "2026-10-30T00:01+05:30",
+    "total": 0.0
+   }
+  ]
  },
  "VPFL": {
   "symbol": "VPFL",
@@ -2285,7 +2318,7 @@
   "series": "SME",
   "nse_status": "Forthcoming",
   "shares_offered": 6030000.0,
-  "last_seen": "2026-10-29T19:15+05:30",
+  "last_seen": "2026-10-30T00:01+05:30",
   "segment": "SME",
   "registrar": "Cameo Corporate Services Limited",
   "lead_managers": [
@@ -2293,6 +2326,6 @@
   ],
   "cutoff_time": "5:00 PM",
   "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_VPFL.zip",
-  "details_at": "2026-10-29T16:31+05:30"
+  "details_at": "2026-10-30T00:01+05:30"
  }
 }

@@ -1,7 +1,17 @@
 {
- "fetched_at": "2026-10-29T00:01+05:30",
+ "fetched_at": "2026-10-30T00:01+05:30",
  "year": 2026,
  "rows": [
+  {
+   "company": "EAAA India Alternatives Limited",
+   "symbol": "EDELALTS",
+   "securityType": "EQ",
+   "ipoStartDate": "26-OCT-2026",
+   "ipoEndDate": "28-OCT-2026",
+   "listingDate": "-",
+   "issuePrice": "-",
+   "priceRange": "Rs.1585 to Rs.1665"
+  },
   {
    "company": "Jio Platforms Limited",
    "symbol": "JPL",
@@ -23,14 +33,14 @@
    "priceRange": "Rs.660 to Rs.693"
   },
   {
-   "company": "Sahajanand Medical Technologies Limited",
-   "symbol": "SMT",
+   "company": "Tonbo Imaging India Limited",
+   "symbol": "TONBO",
    "securityType": "EQ",
    "ipoStartDate": "15-OCT-2026",
    "ipoEndDate": "19-OCT-2026",
    "listingDate": "23-OCT-2026",
-   "issuePrice": "   344",
-   "priceRange": "Rs.327 to Rs.344"
+   "issuePrice": "   700",
+   "priceRange": "Rs.665 to Rs.700"
   },
   {
    "company": "Zetwerk Manufacturing Businesses Limited",
@@ -43,6 +53,16 @@
    "priceRange": "Rs.143 to Rs.151"
   },
   {
+   "company": "Sahajanand Medical Technologies Limited",
+   "symbol": "SMT",
+   "securityType": "EQ",
+   "ipoStartDate": "15-OCT-2026",
+   "ipoEndDate": "19-OCT-2026",
+   "listingDate": "23-OCT-2026",
+   "issuePrice": "   344",
+   "priceRange": "Rs.327 to Rs.344"
+  },
+  {
    "company": "Bonfiglioli Transmissions Limited",
    "symbol": "BONFIG",
    "securityType": "EQ",
@@ -51,16 +71,6 @@
    "listingDate": "23-OCT-2026",
    "issuePrice": "   586",
    "priceRange": "Rs.558 to Rs.586"
-  },
-  {
-   "company": "Tonbo Imaging India Limited",
-   "symbol": "TONBO",
-   "securityType": "EQ",
-   "ipoStartDate": "15-OCT-2026",
-   "ipoEndDate": "19-OCT-2026",
-   "listingDate": "23-OCT-2026",
-   "issuePrice": "   700",
-   "priceRange": "Rs.665 to Rs.700"
   },
   {
    "company": "Fusion CX Limited",
@@ -173,16 +183,6 @@
    "priceRange": "Rs.123 to Rs.130"
   },
   {
-   "company": "AceVector Limited",
-   "symbol": "ACEVECTOR",
-   "securityType": "EQ",
-   "ipoStartDate": "25-SEP-2026",
-   "ipoEndDate": "29-SEP-2026",
-   "listingDate": "05-OCT-2026",
-   "issuePrice": "    32",
-   "priceRange": "Rs.30 to Rs.32"
-  },
-  {
    "company": "German Green Steel and Power Limited",
    "symbol": "GERMAN",
    "securityType": "EQ",
@@ -211,6 +211,16 @@
    "listingDate": "05-OCT-2026",
    "issuePrice": "   272",
    "priceRange": "Rs.258 to Rs.272"
+  },
+  {
+   "company": "AceVector Limited",
+   "symbol": "ACEVECTOR",
+   "securityType": "EQ",
+   "ipoStartDate": "25-SEP-2026",
+   "ipoEndDate": "29-SEP-2026",
+   "listingDate": "05-OCT-2026",
+   "issuePrice": "    32",
+   "priceRange": "Rs.30 to Rs.32"
   },
   {
    "company": "Bench Mark Infotech Services Limited",
@@ -273,14 +283,14 @@
    "priceRange": "Rs.175 to Rs.185"
   },
   {
-   "company": "ArMee Infotech Limited",
-   "symbol": "ARMEE",
-   "securityType": "EQ",
+   "company": "Adroit Industries (India) Limited",
+   "symbol": "ADROITIND",
+   "securityType": "BE",
    "ipoStartDate": "23-SEP-2026",
    "ipoEndDate": "25-SEP-2026",
    "listingDate": "30-SEP-2026",
-   "issuePrice": "   375",
-   "priceRange": "Rs.350 to Rs.375"
+   "issuePrice": "   134",
+   "priceRange": "Rs.126 to Rs.134"
   },
   {
    "company": "Elevate Campuses Limited",
@@ -293,14 +303,14 @@
    "priceRange": "Rs.343 to Rs.362"
   },
   {
-   "company": "Adroit Industries (India) Limited",
-   "symbol": "ADROITIND",
-   "securityType": "BE",
+   "company": "ArMee Infotech Limited",
+   "symbol": "ARMEE",
+   "securityType": "EQ",
    "ipoStartDate": "23-SEP-2026",
    "ipoEndDate": "25-SEP-2026",
    "listingDate": "30-SEP-2026",
-   "issuePrice": "   134",
-   "priceRange": "Rs.126 to Rs.134"
+   "issuePrice": "   375",
+   "priceRange": "Rs.350 to Rs.375"
   },
   {
    "company": "Pooja Logistics Limited",

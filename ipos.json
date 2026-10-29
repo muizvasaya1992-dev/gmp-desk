@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T23:45+05:30",
+  "generated_at": "2026-10-30T00:01+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-10-29T11:16+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-10-29T23:45+05:30",
+    "nse_ok_at": "2026-10-30T00:01+05:30",
     "bse_ok_at": "2026-10-29T11:18+05:30"
   },
   "ipos": [
@@ -994,9 +994,9 @@
         }
       ],
       "series": "EQ",
-      "nse_status": "Active",
+      "nse_status": "Closed",
       "shares_offered": 11900000.0,
-      "updated_on": "2026-10-29T19:15+05:30",
+      "updated_on": "2026-10-30T00:01+05:30",
       "bse_ipo_no": "8056",
       "gmp_sources": [
         {
@@ -1057,7 +1057,7 @@
         "days": 3,
         "since": "2026-10-27"
       },
-      "status": "closing_today",
+      "status": "closed",
       "unconfirmed": false
     },
     {
@@ -1534,9 +1534,9 @@
         }
       ],
       "series": "EQ",
-      "nse_status": "Active",
+      "nse_status": "Closed",
       "shares_offered": 14159744.0,
-      "updated_on": "2026-10-29T19:15+05:30",
+      "updated_on": "2026-10-30T00:01+05:30",
       "bse_ipo_no": "8060",
       "gmp_sources": [
         {
@@ -1601,7 +1601,7 @@
         "days": 3,
         "since": "2026-10-27"
       },
-      "status": "closing_today",
+      "status": "closed",
       "unconfirmed": false
     },
     {
@@ -1904,12 +1904,16 @@
         "retail": 1.24,
         "total": 2.67
       },
-      "updated_on": "2026-10-29T19:15+05:30",
+      "updated_on": "2026-10-30T00:01+05:30",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "Smart Horizon Capital Advisors Private Limited"
       ],
-      "reservation": null,
+      "reservation": {
+        "qib": 29.02,
+        "nii": 21.29,
+        "retail": 49.68
+      },
       "listing_price": null,
       "symbol": "BCSSL",
       "official": true,
@@ -2388,7 +2392,7 @@
       "gmp_history": [],
       "gmp": null,
       "gmp_pct": null,
-      "status": "closing_today",
+      "status": "closed",
       "unconfirmed": false
     },
     {
@@ -2423,7 +2427,7 @@
       "gmp_history": [],
       "gmp": null,
       "gmp_pct": null,
-      "status": "closed",
+      "status": "listed",
       "unconfirmed": false
     },
     {
@@ -2458,7 +2462,7 @@
       "gmp_history": [],
       "gmp": null,
       "gmp_pct": null,
-      "status": "open",
+      "status": "closing_today",
       "unconfirmed": false
     },
     {
@@ -2855,7 +2859,7 @@
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 11900000.0,
-      "updated_on": "2026-10-29T19:15+05:30",
+      "updated_on": "2026-10-30T00:01+05:30",
       "bse_ipo_no": "8062",
       "gmp_sources": [
         {
@@ -2912,7 +2916,7 @@
         "days": 3,
         "since": "2026-10-27"
       },
-      "status": "open",
+      "status": "closing_today",
       "unconfirmed": false
     },
     {
@@ -2928,14 +2932,29 @@
       "official": true,
       "open": "2026-10-30",
       "close": "2026-11-03",
-      "price": 158,
       "segment": "SME",
-      "price_low": 150,
-      "sub_history": null,
+      "sub": {
+        "total": 0.0
+      },
+      "sub_basis": "NSE+BSE",
+      "sub_asof": null,
+      "registrar": "KFin Technologies Limited",
+      "lead_managers": [
+        "JDA CAPITAL SERVICES LIMITED (Formerly Known as Beeline Broking Limited)"
+      ],
+      "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_MAXENGS.zip",
+      "cutoff_time": "5:00 PM",
+      "price_low": null,
+      "sub_history": [
+        {
+          "at": "2026-10-30T00:01+05:30",
+          "total": 0.0
+        }
+      ],
       "series": "SME",
-      "nse_status": "Forthcoming",
-      "shares_offered": 2624000.0,
-      "updated_on": "2026-10-29T19:15+05:30",
+      "nse_status": "Active",
+      "shares_offered": null,
+      "updated_on": "2026-10-30T00:01+05:30",
       "gmp_sources": [
         {
           "source": "Tracker C",
@@ -2960,14 +2979,8 @@
       "gmp": 70,
       "gmp_asof": "2026-10-29T21:37",
       "gmp_source_latest": "Tracker C",
-      "gmp_pct": 44.3,
-      "gmp_trend": {
-        "dir": "rising",
-        "change": 27,
-        "days": 2,
-        "since": "2026-10-28"
-      },
-      "status": "upcoming",
+      "gmp_pct": null,
+      "status": "open",
       "unconfirmed": false
     },
     {
@@ -2983,26 +2996,35 @@
       "official": true,
       "open": "2026-10-30",
       "close": "2026-11-03",
-      "price": 120,
       "segment": "SME",
+      "sub": {
+        "total": 0.0
+      },
+      "sub_basis": "NSE+BSE",
+      "sub_asof": null,
       "registrar": "Kfin Technologies Limited",
       "lead_managers": [
         "Hem Securities Limited"
       ],
       "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_HGSINDIALT.zip",
       "cutoff_time": "5:00 PM",
-      "price_low": 114,
-      "sub_history": null,
+      "price_low": null,
+      "sub_history": [
+        {
+          "at": "2026-10-30T00:01+05:30",
+          "total": 0.0
+        }
+      ],
       "series": "SME",
-      "nse_status": "Forthcoming",
-      "shares_offered": 2066400.0,
-      "updated_on": "2026-10-29T19:15+05:30",
+      "nse_status": "Active",
+      "shares_offered": null,
+      "updated_on": "2026-10-30T00:01+05:30",
       "gmp_sources": [],
       "gmp_history": [],
       "exchange": "SME",
       "gmp": null,
       "gmp_pct": null,
-      "status": "upcoming",
+      "status": "open",
       "unconfirmed": false
     },
     {
@@ -3031,7 +3053,7 @@
       "series": "SME",
       "nse_status": "Forthcoming",
       "shares_offered": 6030000.0,
-      "updated_on": "2026-10-29T19:15+05:30",
+      "updated_on": "2026-10-30T00:01+05:30",
       "gmp_sources": [],
       "gmp_history": [],
       "exchange": "SME",
@@ -3113,7 +3135,7 @@
         "days": 2,
         "since": "2026-10-28"
       },
-      "status": "upcoming",
+      "status": "open",
       "unconfirmed": false
     },
     {
@@ -3138,7 +3160,7 @@
       "gmp_history": [],
       "gmp": null,
       "gmp_pct": null,
-      "status": "upcoming",
+      "status": "open",
       "unconfirmed": false
     },
     {
@@ -3159,11 +3181,11 @@
         "total": 0.87,
         "retail": 1.57
       },
-      "updated_on": "2026-10-29T23:45+05:30",
+      "updated_on": "2026-10-30T00:01+05:30",
       "from_peers": true,
       "exchange": "BSE SME",
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-10-29T23:35",
+      "sub_asof": "2026-10-29T23:59",
       "gmp_sources": [
         {
           "source": "Tracker B",
@@ -3206,7 +3228,7 @@
         "days": 2,
         "since": "2026-10-28"
       },
-      "status": "open",
+      "status": "closing_today",
       "unconfirmed": true
     }
   ]
