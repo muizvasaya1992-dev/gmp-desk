@@ -1061,9 +1061,9 @@
   "price": 162,
   "price_low": 153,
   "series": "EQ",
-  "nse_status": "Active",
+  "nse_status": "Closed",
   "shares_offered": 11900000.0,
-  "last_seen": "2026-10-30T19:15+05:30",
+  "last_seen": "2026-10-31T00:01+05:30",
   "segment": "MAIN",
   "lot": 91,
   "registrar": "Bigshare Services Private Limited",
@@ -1073,7 +1073,7 @@
   "retail_max": 200000,
   "cutoff_time": "5:00 PM",
   "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_MKSONS.zip",
-  "details_at": "2026-10-30T09:45+05:30",
+  "details_at": "2026-10-31T00:01+05:30",
   "sub": {
    "qib": 1.84,
    "nii": 14.12,
@@ -1526,7 +1526,7 @@
   "series": "EQ",
   "nse_status": "Active",
   "shares_offered": 16533012.0,
-  "last_seen": "2026-10-30T19:15+05:30",
+  "last_seen": "2026-10-31T00:01+05:30",
   "segment": "MAIN",
   "lot": 182,
   "registrar": "KFin Technologies Limited",
@@ -1536,7 +1536,7 @@
   "retail_max": 200000,
   "cutoff_time": "5:00 PM",
   "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_BCSSL.zip",
-  "details_at": "2026-10-30T09:45+05:30",
+  "details_at": "2026-10-31T00:01+05:30",
   "sub": {
    "qib": 6.56,
    "nii": 1.8,
@@ -1912,9 +1912,9 @@
   "series": "SME",
   "nse_status": "Active",
   "shares_offered": null,
-  "last_seen": "2026-10-30T19:15+05:30",
+  "last_seen": "2026-10-31T00:01+05:30",
   "segment": "SME",
-  "details_at": "2026-10-30T09:45+05:30",
+  "details_at": "2026-10-31T00:01+05:30",
   "sub": {
    "qib": 0.0,
    "nii": 0.0,
@@ -1956,9 +1956,9 @@
   "series": "SME",
   "nse_status": "Active",
   "shares_offered": null,
-  "last_seen": "2026-10-30T19:15+05:30",
+  "last_seen": "2026-10-31T00:01+05:30",
   "segment": "SME",
-  "details_at": "2026-10-30T09:45+05:30",
+  "details_at": "2026-10-31T00:01+05:30",
   "registrar": "Kfin Technologies Limited",
   "lead_managers": [
    "Hem Securities Limited"
@@ -2000,7 +2000,7 @@
   "series": "SME",
   "nse_status": "Forthcoming",
   "shares_offered": 6030000.0,
-  "last_seen": "2026-10-30T19:15+05:30",
+  "last_seen": "2026-10-31T00:01+05:30",
   "segment": "SME",
   "registrar": "Cameo Corporate Services Limited",
   "lead_managers": [
@@ -2008,6 +2008,6 @@
   ],
   "cutoff_time": "5:00 PM",
   "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_VPFL.zip",
-  "details_at": "2026-10-30T09:45+05:30"
+  "details_at": "2026-10-31T00:01+05:30"
  }
 }
