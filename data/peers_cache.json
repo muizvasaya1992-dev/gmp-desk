@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-10-31T03:15+05:30",
+  "fetched_at": "2026-10-31T03:31+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -19,7 +19,7 @@
     "gmp_at": "2026-10-30T23:55",
     "sub_total": 3.79,
     "sub_retail": 3.02,
-    "sub_at": "2026-10-31T03:14",
+    "sub_at": "2026-10-31T03:27",
     "lot_raw": 182.0,
     "sector": "Steel Processing",
     "quota": {
@@ -97,37 +97,6 @@
    },
    {
     "src": "Tracker B",
-    "slug": "sfc-environmental-technologies",
-    "name": "SFC Environmental Technologies",
-    "segment": "MAIN",
-    "exchange": null,
-    "open": "2026-10-27",
-    "close": "2026-10-29",
-    "boa": "2026-10-30",
-    "listing": "2026-11-03",
-    "price": 330.0,
-    "price_low": 313.0,
-    "size_cr": 668.0,
-    "gmp": 19.0,
-    "gmp_at": "2026-10-30T23:55",
-    "sub_total": 9.47,
-    "sub_retail": 2.71,
-    "sub_at": "2026-10-29T19:05",
-    "lot_raw": 45.0,
-    "sector": "Environmental Technology / Wastewater Treatment",
-    "quota": {
-     "qib": 50.0,
-     "nii": 15.0,
-     "retail": 35.0
-    },
-    "fresh_cr": 150.0,
-    "ofs_cr": 517.53,
-    "registrar": "MUFG Intime India Pvt. Ltd.",
-    "lead_manager": "IIFL Capital Services Ltd.; JM Financial Ltd.; Nuvama Wealth Management Ltd.",
-    "live": true
-   },
-   {
-    "src": "Tracker B",
     "slug": "bls-polymers",
     "name": "BLS Polymers",
     "segment": "MAIN",
@@ -155,6 +124,37 @@
     "ofs_cr": 0.0,
     "registrar": "KFin Technologies Ltd.",
     "lead_manager": "Unistone Capital Pvt. Ltd.",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
+    "slug": "sfc-environmental-technologies",
+    "name": "SFC Environmental Technologies",
+    "segment": "MAIN",
+    "exchange": null,
+    "open": "2026-10-27",
+    "close": "2026-10-29",
+    "boa": "2026-10-30",
+    "listing": "2026-11-03",
+    "price": 330.0,
+    "price_low": 313.0,
+    "size_cr": 668.0,
+    "gmp": 19.0,
+    "gmp_at": "2026-10-30T23:55",
+    "sub_total": 9.47,
+    "sub_retail": 2.71,
+    "sub_at": "2026-10-29T19:05",
+    "lot_raw": 45.0,
+    "sector": "Environmental Technology / Wastewater Treatment",
+    "quota": {
+     "qib": 50.0,
+     "nii": 15.0,
+     "retail": 35.0
+    },
+    "fresh_cr": 150.0,
+    "ofs_cr": 517.53,
+    "registrar": "MUFG Intime India Pvt. Ltd.",
+    "lead_manager": "IIFL Capital Services Ltd.; JM Financial Ltd.; Nuvama Wealth Management Ltd.",
     "live": true
    },
    {
@@ -190,6 +190,37 @@
    },
    {
     "src": "Tracker B",
+    "slug": "maxwell-engineering-solutions",
+    "name": "Maxwell Engineering Solutions",
+    "segment": "SME",
+    "exchange": "NSE SME",
+    "open": "2026-10-30",
+    "close": "2026-11-03",
+    "boa": "2026-11-04",
+    "listing": "2026-11-06",
+    "price": 158.0,
+    "price_low": 150.0,
+    "size_cr": 57.64,
+    "gmp": 70.0,
+    "gmp_at": "2026-10-30T23:55",
+    "sub_total": 4.67,
+    "sub_retail": 7.47,
+    "sub_at": "2026-10-31T03:26",
+    "lot_raw": 1600.0,
+    "sector": "Precision Engineering / Industrial Products",
+    "quota": {
+     "qib": 49.84,
+     "nii": 15.13,
+     "retail": 35.03
+    },
+    "fresh_cr": 57.64,
+    "ofs_cr": 0.0,
+    "registrar": "KFin Technologies Limited",
+    "lead_manager": "JDA Capital Services Ltd.",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
     "slug": "vectras-enprocon",
     "name": "Vectras Enprocon",
     "segment": "SME",
@@ -221,33 +252,32 @@
    },
    {
     "src": "Tracker B",
-    "slug": "maxwell-engineering-solutions",
-    "name": "Maxwell Engineering Solutions",
+    "slug": "ajwa-projects",
+    "name": "Ajwa Projects Limited",
     "segment": "SME",
-    "exchange": "NSE SME",
-    "open": "2026-10-30",
-    "close": "2026-11-03",
-    "boa": "2026-11-04",
-    "listing": "2026-11-06",
-    "price": 158.0,
-    "price_low": 150.0,
-    "size_cr": 57.64,
-    "gmp": 70.0,
+    "exchange": "BSE SME",
+    "open": "2026-10-28",
+    "close": "2026-10-30",
+    "boa": "2026-11-02",
+    "listing": "2026-11-04",
+    "price": 203.0,
+    "price_low": 203.0,
+    "size_cr": 38.05,
+    "gmp": 2.0,
     "gmp_at": "2026-10-30T23:55",
-    "sub_total": 4.67,
-    "sub_retail": 7.47,
-    "sub_at": "2026-10-31T03:07",
-    "lot_raw": 1600.0,
-    "sector": "Precision Engineering / Industrial Products",
+    "sub_total": 1.12,
+    "sub_retail": 1.93,
+    "sub_at": "2026-10-30T19:05",
+    "lot_raw": 1200.0,
+    "sector": "Industrial EPC and Infrastructure",
     "quota": {
-     "qib": 49.84,
-     "nii": 15.13,
-     "retail": 35.03
+     "nii": 50.0,
+     "retail": 50.0
     },
-    "fresh_cr": 57.64,
-    "ofs_cr": 0.0,
+    "fresh_cr": 30.45,
+    "ofs_cr": 7.6,
     "registrar": "KFin Technologies Limited",
-    "lead_manager": "JDA Capital Services Ltd.",
+    "lead_manager": "Wealth Mine Networks Private Limited",
     "live": true
    },
    {
@@ -279,36 +309,6 @@
     "ofs_cr": 0.0,
     "registrar": "Bigshare Services Pvt. Ltd.",
     "lead_manager": "Smart Horizon Capital Advisors Pvt. Ltd.",
-    "live": true
-   },
-   {
-    "src": "Tracker B",
-    "slug": "ajwa-projects",
-    "name": "Ajwa Projects Limited",
-    "segment": "SME",
-    "exchange": "BSE SME",
-    "open": "2026-10-28",
-    "close": "2026-10-30",
-    "boa": "2026-11-02",
-    "listing": "2026-11-04",
-    "price": 203.0,
-    "price_low": 203.0,
-    "size_cr": 38.05,
-    "gmp": 2.0,
-    "gmp_at": "2026-10-30T23:55",
-    "sub_total": 1.12,
-    "sub_retail": 1.93,
-    "sub_at": "2026-10-30T19:05",
-    "lot_raw": 1200.0,
-    "sector": "Industrial EPC and Infrastructure",
-    "quota": {
-     "nii": 50.0,
-     "retail": 50.0
-    },
-    "fresh_cr": 30.45,
-    "ofs_cr": 7.6,
-    "registrar": "KFin Technologies Limited",
-    "lead_manager": "Wealth Mine Networks Private Limited",
     "live": true
    },
    {
@@ -376,7 +376,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-10-31T03:15+05:30",
+  "fetched_at": "2026-10-31T03:31+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -1041,7 +1041,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-10-31T03:15+05:30",
+  "fetched_at": "2026-10-31T03:31+05:30",
   "records": [
    {
     "src": "Tracker D",
