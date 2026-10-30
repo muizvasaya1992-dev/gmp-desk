@@ -385,7 +385,7 @@
   "series": "EQ",
   "nse_status": "Closed",
   "shares_offered": 11900000.0,
-  "last_seen": "2026-10-30T12:31+05:30",
+  "last_seen": "2026-10-30T12:45+05:30",
   "segment": "MAIN",
   "lot": 100,
   "registrar": "KFin Technologies Limited",
@@ -623,7 +623,7 @@
   "series": "EQ",
   "nse_status": "Closed",
   "shares_offered": 14159744.0,
-  "last_seen": "2026-10-30T12:31+05:30",
+  "last_seen": "2026-10-30T12:45+05:30",
   "segment": "MAIN",
   "lot": 45,
   "registrar": "MUFG Intime India Private Limited",
@@ -1063,7 +1063,7 @@
   "series": "EQ",
   "nse_status": "Active",
   "shares_offered": 11900000.0,
-  "last_seen": "2026-10-30T12:31+05:30",
+  "last_seen": "2026-10-30T12:45+05:30",
   "segment": "MAIN",
   "lot": 91,
   "registrar": "Bigshare Services Private Limited",
@@ -1076,14 +1076,14 @@
   "details_at": "2026-10-30T09:45+05:30",
   "sub": {
    "qib": 1.04,
-   "nii": 5.92,
-   "bnii": 6.49,
-   "snii": 4.77,
-   "retail": 1.72,
-   "total": 2.42
+   "nii": 6.37,
+   "bnii": 6.95,
+   "snii": 5.21,
+   "retail": 1.8,
+   "total": 2.56
   },
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-10-30T12:27",
+  "sub_asof": "2026-10-30T12:42",
   "reservation": {
    "qib": 28.57,
    "nii": 21.43,
@@ -1314,6 +1314,15 @@
     "snii": 4.77,
     "retail": 1.72,
     "total": 2.42
+   },
+   {
+    "at": "2026-10-30T12:45+05:30",
+    "qib": 1.04,
+    "nii": 6.37,
+    "bnii": 6.95,
+    "snii": 5.21,
+    "retail": 1.8,
+    "total": 2.56
    }
   ]
  },
@@ -1328,7 +1337,7 @@
   "series": "EQ",
   "nse_status": "Active",
   "shares_offered": 16533012.0,
-  "last_seen": "2026-10-30T12:31+05:30",
+  "last_seen": "2026-10-30T12:45+05:30",
   "segment": "MAIN",
   "lot": 182,
   "registrar": "KFin Technologies Limited",
@@ -1341,14 +1350,14 @@
   "details_at": "2026-10-30T09:45+05:30",
   "sub": {
    "qib": 6.55,
-   "nii": 1.12,
-   "bnii": 0.74,
-   "snii": 1.88,
-   "retail": 2.15,
-   "total": 3.21
+   "nii": 1.18,
+   "bnii": 0.81,
+   "snii": 1.93,
+   "retail": 2.21,
+   "total": 3.25
   },
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-10-30T12:27",
+  "sub_asof": "2026-10-30T12:42",
   "sub_hist": [
    {
     "at": "2026-10-29T00:01+05:30",
@@ -1506,6 +1515,15 @@
     "snii": 1.88,
     "retail": 2.15,
     "total": 3.21
+   },
+   {
+    "at": "2026-10-30T12:45+05:30",
+    "qib": 6.55,
+    "nii": 1.18,
+    "bnii": 0.81,
+    "snii": 1.93,
+    "retail": 2.21,
+    "total": 3.25
    }
   ],
   "reservation": {
@@ -1525,7 +1543,7 @@
   "series": "SME",
   "nse_status": "Active",
   "shares_offered": null,
-  "last_seen": "2026-10-30T12:31+05:30",
+  "last_seen": "2026-10-30T12:45+05:30",
   "segment": "SME",
   "details_at": "2026-10-30T09:45+05:30",
   "sub": {
@@ -1536,7 +1554,7 @@
    "total": 0.0
   },
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-10-30T12:27",
+  "sub_asof": "2026-10-30T12:42",
   "registrar": "KFin Technologies Limited",
   "lead_managers": [
    "JDA CAPITAL SERVICES LIMITED (Formerly Known as Beeline Broking Limited)"
@@ -1569,7 +1587,7 @@
   "series": "SME",
   "nse_status": "Active",
   "shares_offered": null,
-  "last_seen": "2026-10-30T12:31+05:30",
+  "last_seen": "2026-10-30T12:45+05:30",
   "segment": "SME",
   "details_at": "2026-10-30T09:45+05:30",
   "registrar": "Kfin Technologies Limited",
@@ -1586,7 +1604,7 @@
    "total": 0.0
   },
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-10-30T12:27",
+  "sub_asof": "2026-10-30T12:42",
   "sub_hist": [
    {
     "at": "2026-10-30T09:45+05:30",
@@ -1613,7 +1631,7 @@
   "series": "SME",
   "nse_status": "Forthcoming",
   "shares_offered": 6030000.0,
-  "last_seen": "2026-10-30T12:31+05:30",
+  "last_seen": "2026-10-30T12:45+05:30",
   "segment": "SME",
   "registrar": "Cameo Corporate Services Limited",
   "lead_managers": [
