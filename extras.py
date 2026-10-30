@@ -104,12 +104,21 @@ def dashboard(ds, seg):
 
 
 # ------------------------------------------------------------------ 2. subscription status
+def odds(r):
+    """Rough share of retail applicants who get a lot, from the retail subscription."""
+    if r is None:
+        return "–"
+    if r < 1:
+        return "not full yet"
+    return f"about 1 in {round(r * 10) / 10 if r < 2 else round(r)}"
+
+
 def _sub_row(d):
     s = d.get("sub") or {}
     nii = s.get("nii")
     if nii is None and (s.get("bnii") is not None or s.get("snii") is not None):
         nii = None
-    cells = [x(s.get("qib")), x(nii), x(s.get("retail")), f"<b>{x(s.get('total'))}</b>"]
+    cells = [x(s.get("qib")), x(nii), x(s.get("retail")), f"<b>{x(s.get('total'))}</b>", odds(s.get("retail"))]
     stamp = fmt_ts(d.get("sub_asof"))
     return (f"<tr><td>{link(d)}</td>"
             + "".join(f"<td>{c}</td>" for c in cells) + f"<td>{esc(stamp) if stamp else '–'}</td></tr>")
@@ -118,7 +127,7 @@ def _sub_row(d):
 def _sub_table(rows, title):
     if not rows:
         return ""
-    head = "".join(f'<th scope="col">{h}</th>' for h in ("IPO", "QIB", "NII (HNI)", "Retail", "Total", "As of"))
+    head = "".join(f'<th scope="col">{h}</th>' for h in ("IPO", "QIB", "NII (HNI)", "Retail", "Total", "Retail chance", "As of"))
     return (f'<section class="card"><h2>{esc(title)} ({len(rows)})</h2><p class="muted swipe">Swipe the table sideways to see every column.</p>'
             f'<div class="tw"><table class="t"><caption class="sr">{esc(title)}</caption><thead><tr>{head}</tr></thead><tbody>'
             + "".join(_sub_row(d) for d in rows) + "</tbody></table></div></section>")
@@ -126,12 +135,13 @@ def _sub_table(rows, title):
 
 SUB_JS = """<script>(function(){
 function x(v){return v==null?"–":v.toFixed(2)+"x"}
+function odds(r){if(r==null)return"–";if(r<1)return"not full yet";return"about 1 in "+(r<2?Math.round(r*10)/10:Math.round(r))}
 function ts(s){if(!s)return"–";var m=/^(\\d{4})-(\\d\\d)-(\\d\\d)T(\\d\\d):(\\d\\d)/.exec(s);if(!m)return"–";var M=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],h=+m[4],a=h<12?"am":"pm";h=h%12||12;return(+m[3])+" "+M[+m[2]-1]+", "+h+":"+m[5]+" "+a}
 function esc(t){return String(t).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
 function tick(){fetch("/ipos.json?"+Date.now(),{cache:"no-store"}).then(function(r){return r.json()}).then(function(a){
   var by={};a.ipos.forEach(function(i){by[i.id]=i});
   document.querySelectorAll("table[data-sub] tbody tr").forEach(function(tr){var a0=tr.querySelector("td a");if(!a0)return;var id=(a0.getAttribute("href")||"").split("/").filter(Boolean).pop(),i=by[id];if(!i)return;var s=i.sub||{},td=tr.children;
-    td[1].textContent=x(s.qib);td[2].textContent=x(s.nii);td[3].textContent=x(s.retail);td[4].innerHTML="<b>"+x(s.total)+"</b>";td[5].textContent=ts(i.sub_asof)});
+    td[1].textContent=x(s.qib);td[2].textContent=x(s.nii);td[3].textContent=x(s.retail);td[4].innerHTML="<b>"+x(s.total)+"</b>";td[5].textContent=odds(s.retail);td[6].textContent=ts(i.sub_asof)});
   var el=document.getElementById("asof");if(el&&a.generated_at){el.textContent="Live data last changed "+new Date(a.generated_at).toLocaleString("en-GB",{timeZone:"Asia/Kolkata",day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"})+" IST. Figures on this page update by themselves every two minutes."}
 }).catch(function(){})}
 setInterval(tick,120000);tick();})();</script>"""
@@ -146,7 +156,8 @@ def lp_subscription(ds, root=None):
     how = ('<section class="card"><h2>How to read these numbers</h2><ul class="list"><li><b>QIB</b>: qualified institutional buyers, such as mutual funds and insurers. Their bids mostly arrive on the last day.</li>'
            '<li><b>NII (HNI)</b>: non-institutional investors, who bid for more than ₹2 lakh in one application.</li>'
            '<li><b>Retail</b>: individuals bidding up to ₹2 lakh. Retail applicants get shares by draw of lots when this part is oversubscribed.</li>'
-           '<li><b>Total</b>: all bids across categories divided by the shares on offer. 1x means fully subscribed.</li></ul>'
+           '<li><b>Total</b>: all bids across categories divided by the shares on offer. 1x means fully subscribed.</li>'
+           '<li><b>Retail chance</b>: when the retail part is oversubscribed, shares are given out by a draw of lots. &quot;About 1 in 5&quot; means roughly one retail application in five receives the minimum lot. It is arithmetic from the retail figure, not a prediction, and applying for more lots does not improve it.</li></ul>'
            '<p class="muted">A dash means the figure is not available for that IPO yet. Subscription measures demand. It does not predict the listing price.</p></section>')
     body = (f'<p class="lead">{esc(intro)}</p><p class="muted" id="asof">Figures update by themselves every two minutes.</p>'
             + _sub_table(live, "Open for bidding").replace("<table", "<table data-sub", 1)
@@ -154,7 +165,8 @@ def lp_subscription(ds, root=None):
     faqs = [("What does 'subscribed 10x' mean?", "It means investors bid for ten times the shares on offer. If you bid for a share you might not get it: the more times an issue is subscribed, the smaller the share of applicants who are allotted shares."),
             ("When do QIB bids come in?", "Institutional investors usually place most of their bids on the last day of the issue, so QIB numbers often jump late on closing day."),
             ("Where do these figures come from?", "Subscription comes from NSE and BSE where they publish it. For some SME issues the exchanges do not give us the figure, so it is taken from public trackers and labelled on the IPO page."),
-            ("Does high subscription mean the share will list higher?", "Not necessarily. Subscription shows demand during the issue. The listing price depends on how the shares trade on the first day.")]
+            ("Does high subscription mean the share will list higher?", "Not necessarily. Subscription shows demand during the issue. The listing price depends on how the shares trade on the first day."),
+            ("What is my chance of getting an allotment?", "In the retail category shares are given out by a draw of lots when the part is oversubscribed, so the rough chance is one divided by the retail subscription. If retail is 10 times subscribed, about one application in ten receives the minimum lot. Applying for more lots does not improve the odds in the retail category.")]
     return shell("ipo-subscription-status", "IPO Subscription Status Today: QIB, NII, Retail | IPO Shop", "IPO subscription status today",
                  "Live IPO subscription status in India: QIB, NII and retail subscription of every open IPO and of IPOs waiting to list, with the time of each figure.",
                  body, faqs, tick=True, script=SUB_JS)

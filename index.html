@@ -49,6 +49,16 @@ button{font:inherit;color:inherit}
 .wrap{max-width:1200px;margin:0 auto;padding:0 20px}
 .muted{color:var(--muted)}
 .micro{font-size:12px;color:var(--muted)}
+.gl{all:unset;box-sizing:border-box;cursor:pointer;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;display:flex;flex-direction:column;gap:3px;box-shadow:var(--shadow-sm);transition:transform .15s,border-color .15s,box-shadow .15s}
+.gl:hover,.gl:focus-visible{transform:translateY(-2px);border-color:var(--blue-200);box-shadow:var(--shadow-md)}
+.gl-k{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--slate-500);font-weight:600;display:flex;align-items:center;gap:6px}
+.gl-n{font-size:15px;font-weight:700;line-height:1.3}
+.gl-v{font-size:13px;color:var(--muted)}
+.gl-v b{color:var(--ink)}
+.glwrap{display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:12px}
+.odds{display:flex;align-items:baseline;gap:10px;margin:2px 0 0}
+.odds b{font-size:26px;line-height:1.1}
+@media(max-width:560px){.glwrap{grid-template-columns:1fr 1fr}.gl-n{font-size:14px}}
 .dist{display:flex;height:14px;border-radius:7px;overflow:hidden;margin:10px 0 8px;background:#eef0f6}.dist i{display:block;height:100%}.distkey{list-style:none;margin:0 0 6px;padding:0;display:flex;flex-wrap:wrap;gap:4px 14px;font-size:12px;color:var(--muted)}.distkey span{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px}
 
 /* ---------- header + hero ---------- */
@@ -1005,6 +1015,36 @@ function finBlock(i){
   if(!tbl&&!rt) return "";
   return `<h3>Financials</h3>${tbl}${rt}<p class="micro" style="margin-top:6px">Taken from the offer document through a public tracker, after consistency checks. The profit margin is worked out by us. P/E and P/BV are at the top of the price band. Always confirm in the RHP: these are facts, not a view on value.</p>`;
 }
+function minLotsFor(i,cat){
+  if(i.price==null||i.lot==null) return null;
+  const L=i.lot*i.price, sme=i.segment==="SME";
+  if(sme) return cat==="rmin"||cat==="rmax" ? 2 : cat==="snii" ? 3 : null;
+  if(cat==="rmin") return 1;
+  const rmax=Math.floor(200000/L); if(cat==="rmax") return Math.max(1,rmax);
+  if(cat==="snii") return Math.max(2,rmax+1);
+  if(cat==="bnii") return Math.floor(1000000/L)+1;
+  return null;
+}
+function applyTable(i){
+  if(i.price==null||i.lot==null||i.status==="listed") return "";
+  const L=i.lot*i.price, sme=i.segment==="SME";
+  const row=(lab,lots,note)=>lots?`<tr><td>${lab}</td><td class="r">${lots} lot${lots>1?"s":""}</td><td class="r">${inr(lots*i.lot)}</td><td class="r"><b>₹${inr(lots*L)}</b></td><td>${note}</td></tr>`:"";
+  const rmin=minLotsFor(i,"rmin"), rmax=minLotsFor(i,"rmax"), sn=minLotsFor(i,"snii"), bn=minLotsFor(i,"bnii");
+  let rows=sme
+    ? row("Retail",rmin,"The minimum, and the most a retail bid can be")+row("HNI (NII), minimum",sn,"Anything larger counts as HNI")
+    : row("Retail, minimum",rmin,"Smallest bid allowed")+(rmax>rmin?row("Retail, maximum",rmax,"Up to the ₹2 lakh retail limit"):"")+row("sNII (small HNI), minimum",sn,"Above ₹2 lakh")+row("bNII (big HNI), minimum",bn,"Above ₹10 lakh");
+  if(!rows) return "";
+  return `<h3>How much to apply</h3><table class="mini-t"><thead><tr><th>Category</th><th class="r">Lots</th><th class="r">Shares</th><th class="r">Amount</th><th>Note</th></tr></thead><tbody>${rows}</tbody></table>
+    <p class="micro" style="margin-top:6px">Worked out from the lot size at the top of the price band. ${sme?"SME issues set the minimum application at 2 lots, and a bid of 3 lots or more is treated as an HNI (NII) application.":"Retail applications are capped at ₹2 lakh by SEBI."}</p>`;
+}
+function oddsBlock(i){
+  const r=i.sub&&i.sub.retail; if(r==null||!["open","closing_today","closed"].includes(i.status)) return "";
+  const done=i.status==="closed", w=done?"was":"is";
+  if(r<1) return `<h3>Chance of allotment</h3><p class="micro" style="margin:0">The retail part ${w} <b>${r.toFixed(2)}x</b> subscribed, so it ${done?"was":"is"} not full. When retail finishes below 1x, valid applications usually receive everything they bid for.</p>`;
+  const n=r<2?Math.round(r*10)/10:Math.round(r);
+  return `<h3>Chance of allotment</h3><div class="odds"><b>about 1 in ${n}</b><span class="micro">retail applications get a lot</span></div>
+    <p class="micro" style="margin:6px 0 0">The retail part ${w} subscribed <b>${r.toFixed(2)}x</b>. Shares are given out by a draw of lots, so this is the rough share of applicants who ${done?"received":"receive"} the minimum lot. Applying for more lots does not improve your odds in the retail category${done?"":", and the figure changes until bidding closes"}.</p>`;
+}
 function reservationBlock(i){
   const r=i.reservation; if(!r) return "";
   const parts=[["QIB",r.qib,"#2f6fed"],["NII",r.nii,"#79a8ff"],["Retail",r.retail,"#14905d"],["Employees",r.employee,"#c07a0b"],["Shareholders",r.shareholders,"#8b96b0"]].filter(p=>p[1]);
@@ -1110,6 +1150,28 @@ function weekBlock(){
   }
   return out.length?`<div class="wk">${out.join("")}</div>`:`<div class="panel"><div class="empty"><div class="big">🌤️</div><b>A quiet week</b>No IPO dates in the next 7 days.</div></div>`;
 }
+function todayStrip(){
+  const live=state.all.filter(i=>i.status==="open"||i.status==="closing_today");
+  const up=state.all.filter(i=>i.status==="upcoming");
+  const pool=live.concat(up), t=[], used=new Set();
+  const tile=(k,i,v)=>{ used.add(i.id); return `<button class="gl" data-id="${esc(i.id)}" type="button"><span class="gl-k">${k}</span><b class="gl-n">${esc(i.name)}</b><span class="gl-v">${v}</span></button>`; };
+  const pick=(arr,f)=>{ const s=arr.filter(i=>f(i)!=null).sort((a,b)=>f(b)-f(a)); return s.find(i=>!used.has(i.id))||s[0]; };
+  const ct=live.filter(i=>i.status==="closing_today").sort((a,b)=>String(a.name).localeCompare(b.name));
+  if(ct.length) t.push(tile("⏳ Closing today",ct[0],ct.length>1?`and ${ct.length-1} more. Last day to apply.`:"Last day to apply."));
+  else { const nx=live.slice().sort((a,b)=>String(a.close||"").localeCompare(String(b.close||"")))[0];
+         if(nx&&nx.close) t.push(tile("⏳ Closes first",nx,`Bidding ends ${dd(nx.close)}.`)); }
+  const hot=pick(live,i=>i.sub&&i.sub.total!=null?i.sub.total:null);
+  if(hot&&!used.has(hot.id)) t.push(tile("📈 Most subscribed so far",hot,`<b>${hot.sub.total.toFixed(2)}x</b> overall${hot.sub.retail!=null?` · retail ${hot.sub.retail.toFixed(2)}x`:""}`));
+  const g=pick(pool,i=>i.gmp!=null&&i.gmp_pct!=null?i.gmp_pct:null);
+  if(g&&g.gmp>0&&!used.has(g.id)) t.push(tile("💹 Highest GMP",g,`<b>${rs(g.gmp)}</b> · ${pct(g.gmp_pct)} of the issue price`));
+  const mvs=pool.filter(i=>i.gmp_trend&&i.gmp_trend.dir!=="steady").sort((a,b)=>Math.abs(b.gmp_trend.change)-Math.abs(a.gmp_trend.change));
+  const mv=mvs.find(i=>!used.has(i.id));
+  if(mv) t.push(tile(mv.gmp_trend.dir==="rising"?"▲ Biggest GMP rise":"▼ Biggest GMP fall",mv,`<b>${mv.gmp_trend.change>=0?"+":"−"}${rs(Math.abs(mv.gmp_trend.change)).replace("₹","₹")}</b> over the last ${mv.gmp_trend.days} daily readings`));
+  if(t.length<4&&up.length){ const n=up.slice().sort((a,b)=>String(a.open||"").localeCompare(String(b.open||""))).find(i=>!used.has(i.id));
+    if(n&&n.open) t.push(tile("🚀 Opens next",n,`Bidding starts ${dd(n.open)}.`)); }
+  if(t.length<2) return "";
+  return `<section class="sec" id="s-glance">${secHead("⚡","Today at a glance","The numbers that moved most. Facts from the latest data, not tips.")}<div class="glwrap">${t.slice(0,4).join("")}</div></section>`;
+}
 function renderHome(){
   const by=(k)=>(a,b)=>String(a[k]||"").localeCompare(String(b[k]||""));
   const live=state.all.filter(i=>i.status==="open"||i.status==="closing_today").sort(by("close"));
@@ -1124,6 +1186,7 @@ function renderHome(){
     +(state.hist?(listed.length?`<div class="grid lgrid">${listed.map(listedCard).join("")}</div>`:`<div class="panel"><div class="empty"><div class="big">🔔</div><b>Nothing listed in the last two weeks</b></div></div>`):`<div class="panel"><div class="empty"><div class="big">⏳</div>Loading the latest listings…</div></div>`);
   $("view").innerHTML=`
     <section class="wa-top" aria-label="WhatsApp channel"><div><b>📲 IPO updates on WhatsApp</b><span>Free channel with IPO dates and price bands. We never see your number.</span></div><a class="btn-wa" href="${WA_CHANNEL}" target="_blank" rel="noopener">Follow on WhatsApp ↗</a></section>
+    ${todayStrip()}
     <section class="sec" id="s-open">${open}</section>
     ${upc?`<section class="sec">${upc}</section>`:""}
     ${lst?`<section class="sec">${lst}</section>`:""}
@@ -1551,6 +1614,8 @@ function openDrawer(id, quiet){
     <h3>Timeline</h3>${tl}
     ${trackBlock(i)}
     ${baseBlock(i)}
+    ${oddsBlock(i)}
+    ${applyTable(i)}
     ${allotBlock(i)}
     ${calcBlock(i)}
     ${(i.gmp_sources&&i.gmp_sources.length)||(i.gmp_history&&i.gmp_history.length)

@@ -329,6 +329,9 @@ if(live){
   var t=live.sub.total,l=t>=50?5:t>=10?4:t>=3?3:t>=1?2:1,m='<span class="meter" title="Demand '+l+' of 5: how heavily subscribed. Not a rating of the IPO.">';
   for(var k=1;k<=5;k++)m+='<i'+(k<=l?' class="on"':'')+'></i>';
   out.push(["Demand meter",m+"</span>"+l+" of 5"]);}
+ if(live.sub&&live.sub.retail!=null&&(live.status==="open"||live.status==="closing_today"||live.status==="closed")){var rr=live.sub.retail;
+  out.push(["Chance of allotment (retail)",rr<1?"Retail is "+n(rr)+"x subscribed, so it is not full yet. Below 1x, valid applications usually get what they bid for."
+   :"About 1 application in "+(rr<2?Math.round(rr*10)/10:Math.round(rr))+" gets a lot (retail "+n(rr)+"x, by draw of lots). Applying for more lots does not improve retail odds."]);}
  if((live.status==="open"||live.status==="closing_today")&&!(live.sub&&live.sub.total!=null))out.push(["Demand meter","Not available yet for this issue"]);
  if(live.gmp!=null)out.push(["GMP (unofficial)","₹"+n(live.gmp)+(live.gmp_pct!=null?" ("+p(live.gmp_pct)+")":"")+(live.gmp_source_latest&&live.gmp_source_latest!=="IPO Shop"?" via "+(/^Tracker /.test(live.gmp_source_latest)?"a public tracker":live.gmp_source_latest.toLowerCase()):"")]);
  if(live.gmp!=null&&live.gmp_trend){var gt=live.gmp_trend;out.push(["GMP trend",(gt.dir==="rising"?"▲ Rising":gt.dir==="falling"?"▼ Falling":"▬ Steady")+" ("+(gt.change>=0?"+":"")+"₹"+n(gt.change)+" over the last "+gt.days+" daily readings)"]);}
@@ -424,6 +427,33 @@ def mon(iso):
     return _dt.date.fromisoformat(iso[:10]).strftime("%B %Y")
 
 
+def sizes_card(d):
+    """How much each kind of applicant must bid. Worked out from the lot size, so no source is needed."""
+    if d.get("price") is None or not d.get("lot") or (d.get("status") or "listed") == "listed":
+        return ""
+    L = d["lot"] * d["price"]
+    sme = d.get("segment") == "SME"
+    def row(lab, lots, note):
+        return f"<tr><td>{esc(lab)}</td><td>{lots} lot{'s' if lots > 1 else ''}</td><td>{inr(lots * d['lot'])}</td><td><b>{rs(lots * L)}</b></td><td>{esc(note)}</td></tr>" if lots else ""
+    if sme:
+        rows = row("Retail", 2, "The minimum, and the most a retail bid can be") + row("HNI (NII), minimum", 3, "Anything larger counts as HNI")
+    else:
+        rmax = max(1, int(200000 // L))
+        rows = (row("Retail, minimum", 1, "Smallest bid allowed")
+                + (row("Retail, maximum", rmax, "Up to the ₹2 lakh retail limit") if rmax > 1 else "")
+                + row("sNII (small HNI), minimum", max(2, rmax + 1), "Above ₹2 lakh")
+                + row("bNII (big HNI), minimum", int(1000000 // L) + 1, "Above ₹10 lakh"))
+    if not rows:
+        return ""
+    return (f'<section class="card"><h2>How much to apply for {esc(d["name"])}</h2><p class="muted swipe">Swipe the table sideways to see every column.</p>'
+            '<div class="tw"><table class="t"><caption class="sr">Application sizes by investor category</caption><thead><tr>'
+            '<th scope="col">Category</th><th scope="col">Lots</th><th scope="col">Shares</th><th scope="col">Amount</th><th scope="col">Note</th></tr></thead>'
+            f'<tbody>{rows}</tbody></table></div>'
+            '<p class="muted" style="margin:10px 0 0">Worked out from the lot size at the top of the price band. '
+            + ("SME issues set the minimum application at 2 lots, and a bid of 3 lots or more is treated as an HNI (NII) application." if sme
+               else "Retail applications are capped at ₹2 lakh by SEBI.") + "</p></section>")
+
+
 def fin_card(d):
     """Offer-document numbers that passed the consistency checks (see peers.parse_detail)."""
     f = d.get("fin")
@@ -490,7 +520,7 @@ def render_page(d, near=(), base=None):
 <noscript><p class="muted">Turn on JavaScript to see live subscription and GMP.</p></noscript>
 <a class="btn" href="{live_link}">Open in the live tracker</a><a class="btn alt" href="/ipo/">All IPOs</a></section>
 {allot_card(d)}{apply_card}
-{base_card(d, base)}{fin_card(d)}{timeline(d)}{faq(d)}{near_block(near)}
+{sizes_card(d)}{base_card(d, base)}{fin_card(d)}{timeline(d)}{faq(d)}{near_block(near)}
 <section class="card"><h2>Share or follow</h2><a class="btn wa" href="{wa_share(d)}" target="_blank" rel="noopener">Share this IPO on WhatsApp ↗</a><a class="btn alt" href="{WA_CHANNEL}" target="_blank" rel="noopener">Follow our WhatsApp channel ↗</a></section>
 <section class="card"><h2>About this page</h2><p class="muted" style="margin:0 0 10px">Facts on this page come from NSE and BSE and are refreshed automatically. GMP is unofficial and comes from public trackers and our own checks. This is information, not advice. See the offer document before you invest.</p>
 <p class="muted" style="margin:0"><b>Demand meter:</b> 1 means under 1x subscribed, 2 is 1x to 3x, 3 is 3x to 10x, 4 is 10x to 50x and 5 is 50x or more. It shows how much demand there is. It does not say whether the IPO is a good one.</p></section>
