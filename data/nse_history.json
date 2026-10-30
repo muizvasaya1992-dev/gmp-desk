@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-30T00:01+05:30",
+ "fetched_at": "2026-10-30T09:45+05:30",
  "year": 2026,
  "rows": [
   {
@@ -13,6 +13,16 @@
    "priceRange": "Rs.1585 to Rs.1665"
   },
   {
+   "company": "Paras Healthcare Limited",
+   "symbol": "PARASHLTH",
+   "securityType": "EQ",
+   "ipoStartDate": "21-OCT-2026",
+   "ipoEndDate": "23-OCT-2026",
+   "listingDate": "28-OCT-2026",
+   "issuePrice": "   693",
+   "priceRange": "Rs.660 to Rs.693"
+  },
+  {
    "company": "Jio Platforms Limited",
    "symbol": "JPL",
    "securityType": "EQ",
@@ -23,14 +33,24 @@
    "priceRange": "Rs.1065 to Rs.1119"
   },
   {
-   "company": "Paras Healthcare Limited",
-   "symbol": "PARASHLTH",
+   "company": "Sahajanand Medical Technologies Limited",
+   "symbol": "SMT",
    "securityType": "EQ",
-   "ipoStartDate": "21-OCT-2026",
-   "ipoEndDate": "23-OCT-2026",
-   "listingDate": "28-OCT-2026",
-   "issuePrice": "   693",
-   "priceRange": "Rs.660 to Rs.693"
+   "ipoStartDate": "15-OCT-2026",
+   "ipoEndDate": "19-OCT-2026",
+   "listingDate": "23-OCT-2026",
+   "issuePrice": "   344",
+   "priceRange": "Rs.327 to Rs.344"
+  },
+  {
+   "company": "Bonfiglioli Transmissions Limited",
+   "symbol": "BONFIG",
+   "securityType": "EQ",
+   "ipoStartDate": "15-OCT-2026",
+   "ipoEndDate": "19-OCT-2026",
+   "listingDate": "23-OCT-2026",
+   "issuePrice": "   586",
+   "priceRange": "Rs.558 to Rs.586"
   },
   {
    "company": "Tonbo Imaging India Limited",
@@ -61,16 +81,6 @@
    "listingDate": "23-OCT-2026",
    "issuePrice": "   344",
    "priceRange": "Rs.327 to Rs.344"
-  },
-  {
-   "company": "Bonfiglioli Transmissions Limited",
-   "symbol": "BONFIG",
-   "securityType": "EQ",
-   "ipoStartDate": "15-OCT-2026",
-   "ipoEndDate": "19-OCT-2026",
-   "listingDate": "23-OCT-2026",
-   "issuePrice": "   586",
-   "priceRange": "Rs.558 to Rs.586"
   },
   {
    "company": "Fusion CX Limited",
@@ -223,16 +233,6 @@
    "priceRange": "Rs.30 to Rs.32"
   },
   {
-   "company": "Bench Mark Infotech Services Limited",
-   "symbol": "BMISL",
-   "securityType": "SME",
-   "ipoStartDate": "25-SEP-2026",
-   "ipoEndDate": "29-SEP-2026",
-   "listingDate": "05-OCT-2026",
-   "issuePrice": "110",
-   "priceRange": "Rs.104 to Rs.110"
-  },
-  {
    "company": "Himalayan Solar Limited",
    "symbol": "HIMALAYAN",
    "securityType": "SME",
@@ -243,14 +243,14 @@
    "priceRange": "Rs.98 to Rs.103"
   },
   {
-   "company": "Moneyview Limited",
-   "symbol": "MONEYVIEW",
-   "securityType": "EQ",
-   "ipoStartDate": "24-SEP-2026",
-   "ipoEndDate": "28-SEP-2026",
-   "listingDate": "01-OCT-2026",
-   "issuePrice": "    34",
-   "priceRange": "Rs.32 to Rs.34"
+   "company": "Bench Mark Infotech Services Limited",
+   "symbol": "BMISL",
+   "securityType": "SME",
+   "ipoStartDate": "25-SEP-2026",
+   "ipoEndDate": "29-SEP-2026",
+   "listingDate": "05-OCT-2026",
+   "issuePrice": "110",
+   "priceRange": "Rs.104 to Rs.110"
   },
   {
    "company": "A-One Steels India Limited",
@@ -263,6 +263,16 @@
    "priceRange": "Rs.385 to Rs.405"
   },
   {
+   "company": "Moneyview Limited",
+   "symbol": "MONEYVIEW",
+   "securityType": "EQ",
+   "ipoStartDate": "24-SEP-2026",
+   "ipoEndDate": "28-SEP-2026",
+   "listingDate": "01-OCT-2026",
+   "issuePrice": "    34",
+   "priceRange": "Rs.32 to Rs.34"
+  },
+  {
    "company": "Green Asia Impex Limited",
    "symbol": "GREENASIA",
    "securityType": "SME",
@@ -271,16 +281,6 @@
    "listingDate": "07-OCT-2026",
    "issuePrice": "89",
    "priceRange": "Rs.84 to Rs.89"
-  },
-  {
-   "company": "Swastika Infra Limited",
-   "symbol": "SWASTIKAIN",
-   "securityType": "BE",
-   "ipoStartDate": "23-SEP-2026",
-   "ipoEndDate": "25-SEP-2026",
-   "listingDate": "30-SEP-2026",
-   "issuePrice": "   185",
-   "priceRange": "Rs.175 to Rs.185"
   },
   {
    "company": "Adroit Industries (India) Limited",
@@ -311,6 +311,16 @@
    "listingDate": "30-SEP-2026",
    "issuePrice": "   375",
    "priceRange": "Rs.350 to Rs.375"
+  },
+  {
+   "company": "Swastika Infra Limited",
+   "symbol": "SWASTIKAIN",
+   "securityType": "BE",
+   "ipoStartDate": "23-SEP-2026",
+   "ipoEndDate": "25-SEP-2026",
+   "listingDate": "30-SEP-2026",
+   "issuePrice": "   185",
+   "priceRange": "Rs.175 to Rs.185"
   },
   {
    "company": "Pooja Logistics Limited",
@@ -353,16 +363,6 @@
    "priceRange": "Rs.51 to Rs.54"
   },
   {
-   "company": "National Stock Exchange of India Limited",
-   "symbol": "NSE",
-   "securityType": "EQ",
-   "ipoStartDate": "17-SEP-2026",
-   "ipoEndDate": "21-SEP-2026",
-   "listingDate": "-",
-   "issuePrice": "-",
-   "priceRange": "Rs.1700 to Rs.1785"
-  },
-  {
    "company": "Sonaselection India Limited",
    "symbol": "SONA",
    "securityType": "BE",
@@ -371,6 +371,16 @@
    "listingDate": "24-SEP-2026",
    "issuePrice": "    99",
    "priceRange": "Rs.94 to Rs.99"
+  },
+  {
+   "company": "National Stock Exchange of India Limited",
+   "symbol": "NSE",
+   "securityType": "EQ",
+   "ipoStartDate": "17-SEP-2026",
+   "ipoEndDate": "21-SEP-2026",
+   "listingDate": "-",
+   "issuePrice": "-",
+   "priceRange": "Rs.1700 to Rs.1785"
   },
   {
    "company": "Kheria Autocomp Limited",
@@ -393,16 +403,6 @@
    "priceRange": "Rs.112 to Rs.118"
   },
   {
-   "company": "Hero Motors Limited",
-   "symbol": "HEROMOTORS",
-   "securityType": "EQ",
-   "ipoStartDate": "16-SEP-2026",
-   "ipoEndDate": "18-SEP-2026",
-   "listingDate": "23-SEP-2026",
-   "issuePrice": "    84",
-   "priceRange": "Rs.79 to Rs.84"
-  },
-  {
    "company": "Jindal Supreme (India) Limited",
    "symbol": "JSIPL",
    "securityType": "BE",
@@ -411,6 +411,16 @@
    "listingDate": "23-SEP-2026",
    "issuePrice": "    93",
    "priceRange": "Rs.88 to Rs.93"
+  },
+  {
+   "company": "Hero Motors Limited",
+   "symbol": "HEROMOTORS",
+   "securityType": "EQ",
+   "ipoStartDate": "16-SEP-2026",
+   "ipoEndDate": "18-SEP-2026",
+   "listingDate": "23-SEP-2026",
+   "issuePrice": "    84",
+   "priceRange": "Rs.79 to Rs.84"
   },
   {
    "company": "SS Retail Limited",
@@ -443,14 +453,14 @@
    "priceRange": "Rs.130 to Rs.140"
   },
   {
-   "company": "Asset Reconstruction Company (India) Limited",
-   "symbol": "ARCIL",
+   "company": "Rentomojo Limited",
+   "symbol": "RENTOMOJO",
    "securityType": "EQ",
    "ipoStartDate": "09-SEP-2026",
    "ipoEndDate": "11-SEP-2026",
    "listingDate": "17-SEP-2026",
-   "issuePrice": "   139",
-   "priceRange": "Rs.132 to Rs.139"
+   "issuePrice": "   404",
+   "priceRange": "Rs.384 to Rs.404"
   },
   {
    "company": "Steamhouse India Limited",
@@ -463,16 +473,6 @@
    "priceRange": "Rs.77 to Rs.81"
   },
   {
-   "company": "Rentomojo Limited",
-   "symbol": "RENTOMOJO",
-   "securityType": "EQ",
-   "ipoStartDate": "09-SEP-2026",
-   "ipoEndDate": "11-SEP-2026",
-   "listingDate": "17-SEP-2026",
-   "issuePrice": "   404",
-   "priceRange": "Rs.384 to Rs.404"
-  },
-  {
    "company": "LCC Projects Limited",
    "symbol": "LCCPROJECT",
    "securityType": "EQ",
@@ -481,16 +481,6 @@
    "listingDate": "17-SEP-2026",
    "issuePrice": "   146",
    "priceRange": "Rs.139 to Rs.146"
-  },
-  {
-   "company": "Manipal Payment and Identity Solutions Limited",
-   "symbol": "MPIMANIPAL",
-   "securityType": "EQ",
-   "ipoStartDate": "09-SEP-2026",
-   "ipoEndDate": "11-SEP-2026",
-   "listingDate": "17-SEP-2026",
-   "issuePrice": "   339",
-   "priceRange": "Rs.322 to Rs.339"
   },
   {
    "company": "Karamtara Engineering Limited",
@@ -503,6 +493,26 @@
    "priceRange": "Rs.241 to Rs.254"
   },
   {
+   "company": "Asset Reconstruction Company (India) Limited",
+   "symbol": "ARCIL",
+   "securityType": "EQ",
+   "ipoStartDate": "09-SEP-2026",
+   "ipoEndDate": "11-SEP-2026",
+   "listingDate": "17-SEP-2026",
+   "issuePrice": "   139",
+   "priceRange": "Rs.132 to Rs.139"
+  },
+  {
+   "company": "Manipal Payment and Identity Solutions Limited",
+   "symbol": "MPIMANIPAL",
+   "securityType": "EQ",
+   "ipoStartDate": "09-SEP-2026",
+   "ipoEndDate": "11-SEP-2026",
+   "listingDate": "17-SEP-2026",
+   "issuePrice": "   339",
+   "priceRange": "Rs.322 to Rs.339"
+  },
+  {
    "company": "Vinod Texworld Limited",
    "symbol": "VINOD",
    "securityType": "SME",
@@ -511,16 +521,6 @@
    "listingDate": "17-SEP-2026",
    "issuePrice": "94",
    "priceRange": "Rs.94"
-  },
-  {
-   "company": "Prasol Chemicals Limited",
-   "symbol": "PRASOLCHEM",
-   "securityType": "EQ",
-   "ipoStartDate": "08-SEP-2026",
-   "ipoEndDate": "10-SEP-2026",
-   "listingDate": "16-SEP-2026",
-   "issuePrice": "   676",
-   "priceRange": "Rs.643 to Rs.676"
   },
   {
    "company": "Glass Wall Systems (India) Limited",
@@ -541,6 +541,16 @@
    "listingDate": "16-SEP-2026",
    "issuePrice": "   632",
    "priceRange": "Rs.601 to Rs.632"
+  },
+  {
+   "company": "Prasol Chemicals Limited",
+   "symbol": "PRASOLCHEM",
+   "securityType": "EQ",
+   "ipoStartDate": "08-SEP-2026",
+   "ipoEndDate": "10-SEP-2026",
+   "listingDate": "16-SEP-2026",
+   "issuePrice": "   676",
+   "priceRange": "Rs.643 to Rs.676"
   },
   {
    "company": "Pranav Constructions Limited",
@@ -663,14 +673,14 @@
    "priceRange": "Rs.95 to Rs.101"
   },
   {
-   "company": "Hy-Tech Engineers Limited",
-   "symbol": "HTEL",
-   "securityType": "BE",
+   "company": "Symbiotec Pharmalab Limited",
+   "symbol": "SYMBIOTEC",
+   "securityType": "EQ",
    "ipoStartDate": "24-AUG-2026",
    "ipoEndDate": "27-AUG-2026",
    "listingDate": "01-SEP-2026",
-   "issuePrice": "    53",
-   "priceRange": "Rs.50 to Rs.53"
+   "issuePrice": "   988",
+   "priceRange": "Rs.938 to Rs.988"
   },
   {
    "company": "Skyways Air Services Limited",
@@ -683,14 +693,14 @@
    "priceRange": "Rs.131 to Rs.138"
   },
   {
-   "company": "Symbiotec Pharmalab Limited",
-   "symbol": "SYMBIOTEC",
-   "securityType": "EQ",
+   "company": "Hy-Tech Engineers Limited",
+   "symbol": "HTEL",
+   "securityType": "BE",
    "ipoStartDate": "24-AUG-2026",
    "ipoEndDate": "27-AUG-2026",
    "listingDate": "01-SEP-2026",
-   "issuePrice": "   988",
-   "priceRange": "Rs.938 to Rs.988"
+   "issuePrice": "    53",
+   "priceRange": "Rs.50 to Rs.53"
   },
   {
    "company": "ABH Healthcare Limited",
@@ -763,16 +773,6 @@
    "priceRange": "Rs.88 to Rs.93"
   },
   {
-   "company": "Horizon Industrial Parks Limited",
-   "symbol": "HORIZONIND",
-   "securityType": "EQ",
-   "ipoStartDate": "17-AUG-2026",
-   "ipoEndDate": "19-AUG-2026",
-   "listingDate": "24-AUG-2026",
-   "issuePrice": "    60",
-   "priceRange": "Rs.57 to Rs.60"
-  },
-  {
    "company": "Lalithaa Jewellery Mart Limited",
    "symbol": "LALITHAA",
    "securityType": "EQ",
@@ -781,6 +781,16 @@
    "listingDate": "24-AUG-2026",
    "issuePrice": "   201",
    "priceRange": "Rs.190 to Rs.201"
+  },
+  {
+   "company": "Horizon Industrial Parks Limited",
+   "symbol": "HORIZONIND",
+   "securityType": "EQ",
+   "ipoStartDate": "17-AUG-2026",
+   "ipoEndDate": "19-AUG-2026",
+   "listingDate": "24-AUG-2026",
+   "issuePrice": "    60",
+   "priceRange": "Rs.57 to Rs.60"
   },
   {
    "company": "Skytech Infinite Platform Limited",
@@ -803,16 +813,6 @@
    "priceRange": "Rs.179 to Rs.189"
   },
   {
-   "company": "Shiprocket Limited",
-   "symbol": "SHIPROCKET",
-   "securityType": "EQ",
-   "ipoStartDate": "12-AUG-2026",
-   "ipoEndDate": "14-AUG-2026",
-   "listingDate": "19-AUG-2026",
-   "issuePrice": "    97",
-   "priceRange": "Rs.92 to Rs.97"
-  },
-  {
    "company": "Behari Lal Engineering Limited",
    "symbol": "BLEL",
    "securityType": "EQ",
@@ -821,6 +821,16 @@
    "listingDate": "19-AUG-2026",
    "issuePrice": "   285",
    "priceRange": "Rs.271 to Rs.285"
+  },
+  {
+   "company": "Shiprocket Limited",
+   "symbol": "SHIPROCKET",
+   "securityType": "EQ",
+   "ipoStartDate": "12-AUG-2026",
+   "ipoEndDate": "14-AUG-2026",
+   "listingDate": "19-AUG-2026",
+   "issuePrice": "    97",
+   "priceRange": "Rs.92 to Rs.97"
   },
   {
    "company": "Pramodini Medicare Limited",
@@ -873,16 +883,6 @@
    "priceRange": "Rs.768 to Rs.807"
   },
   {
-   "company": "Leap India Limited",
-   "symbol": "LEAP",
-   "securityType": "EQ",
-   "ipoStartDate": "07-AUG-2026",
-   "ipoEndDate": "11-AUG-2026",
-   "listingDate": "14-AUG-2026",
-   "issuePrice": "   159",
-   "priceRange": "Rs.151 to Rs.159"
-  },
-  {
    "company": "Technocraft Ventures Limited",
    "symbol": "TECHNOCRAF",
    "securityType": "EQ",
@@ -891,6 +891,16 @@
    "listingDate": "14-AUG-2026",
    "issuePrice": "   212",
    "priceRange": "Rs.200 to Rs.212"
+  },
+  {
+   "company": "Leap India Limited",
+   "symbol": "LEAP",
+   "securityType": "EQ",
+   "ipoStartDate": "07-AUG-2026",
+   "ipoEndDate": "11-AUG-2026",
+   "listingDate": "14-AUG-2026",
+   "issuePrice": "   159",
+   "priceRange": "Rs.151 to Rs.159"
   },
   {
    "company": "Optimystix Entertainment India Limited",
@@ -923,16 +933,6 @@
    "priceRange": "Rs.257 to Rs.270"
   },
   {
-   "company": "MV Electrosystems Limited",
-   "symbol": "MVELECTRO",
-   "securityType": "EQ",
-   "ipoStartDate": "30-JUL-2026",
-   "ipoEndDate": "03-AUG-2026",
-   "listingDate": "06-AUG-2026",
-   "issuePrice": "   425",
-   "priceRange": "Rs.400 to Rs.425"
-  },
-  {
    "company": "Juniper Green Energy Limited",
    "symbol": "JNPR",
    "securityType": "EQ",
@@ -941,6 +941,16 @@
    "listingDate": "06-AUG-2026",
    "issuePrice": "   225",
    "priceRange": "Rs.214 to Rs.225"
+  },
+  {
+   "company": "MV Electrosystems Limited",
+   "symbol": "MVELECTRO",
+   "securityType": "EQ",
+   "ipoStartDate": "30-JUL-2026",
+   "ipoEndDate": "03-AUG-2026",
+   "listingDate": "06-AUG-2026",
+   "issuePrice": "   425",
+   "priceRange": "Rs.400 to Rs.425"
   },
   {
    "company": "Manipal Health Enterprises Limited",
@@ -973,16 +983,6 @@
    "priceRange": "Rs.461 to Rs.485"
   },
   {
-   "company": "Lohia Corp Limited",
-   "symbol": "LCL",
-   "securityType": "EQ",
-   "ipoStartDate": "23-JUL-2026",
-   "ipoEndDate": "27-JUL-2026",
-   "listingDate": "30-JUL-2026",
-   "issuePrice": "   425",
-   "priceRange": "Rs.404 to Rs.425"
-  },
-  {
    "company": "Xtranet Technologies Limited",
    "symbol": "XTRANET",
    "securityType": "BE",
@@ -991,6 +991,16 @@
    "listingDate": "30-JUL-2026",
    "issuePrice": "   127",
    "priceRange": "Rs.120 to Rs.127"
+  },
+  {
+   "company": "Lohia Corp Limited",
+   "symbol": "LCL",
+   "securityType": "EQ",
+   "ipoStartDate": "23-JUL-2026",
+   "ipoEndDate": "27-JUL-2026",
+   "listingDate": "30-JUL-2026",
+   "issuePrice": "   425",
+   "priceRange": "Rs.404 to Rs.425"
   },
   {
    "company": "Metalic Technoforge Limited",
@@ -1083,16 +1093,6 @@
    "priceRange": "Rs.161 to Rs.170"
   },
   {
-   "company": "Teja Engineering Industries Limited",
-   "symbol": "TEJA",
-   "securityType": "SME",
-   "ipoStartDate": "30-JUN-2026",
-   "ipoEndDate": "02-JUL-2026",
-   "listingDate": "07-JUL-2026",
-   "issuePrice": "220",
-   "priceRange": "Rs.220"
-  },
-  {
    "company": "Vinit Mobile Limited",
    "symbol": "VMOBILE",
    "securityType": "SME",
@@ -1101,6 +1101,16 @@
    "listingDate": "07-JUL-2026",
    "issuePrice": "158",
    "priceRange": "Rs.150 to Rs.158"
+  },
+  {
+   "company": "Teja Engineering Industries Limited",
+   "symbol": "TEJA",
+   "securityType": "SME",
+   "ipoStartDate": "30-JUN-2026",
+   "ipoEndDate": "02-JUL-2026",
+   "listingDate": "07-JUL-2026",
+   "issuePrice": "220",
+   "priceRange": "Rs.220"
   },
   {
    "company": "Aastha Spintex Limited",
@@ -1143,16 +1153,6 @@
    "priceRange": "Rs.207 to Rs.212"
   },
   {
-   "company": "Advit Jewels Limited",
-   "symbol": "RAMBHAJO",
-   "securityType": "BE",
-   "ipoStartDate": "23-JUN-2026",
-   "ipoEndDate": "25-JUN-2026",
-   "listingDate": "01-JUL-2026",
-   "issuePrice": "   138",
-   "priceRange": "Rs.130 to Rs.138"
-  },
-  {
    "company": "Waterways Leisure Tourism Limited",
    "symbol": "CORDELIA",
    "securityType": "EQ",
@@ -1161,6 +1161,16 @@
    "listingDate": "01-JUL-2026",
    "issuePrice": "   808",
    "priceRange": "Rs.769 to Rs.808 "
+  },
+  {
+   "company": "Advit Jewels Limited",
+   "symbol": "RAMBHAJO",
+   "securityType": "BE",
+   "ipoStartDate": "23-JUN-2026",
+   "ipoEndDate": "25-JUN-2026",
+   "listingDate": "01-JUL-2026",
+   "issuePrice": "   138",
+   "priceRange": "Rs.130 to Rs.138"
   },
   {
    "company": "Shreedhar Spinners Limited",
@@ -1363,14 +1373,14 @@
    "priceRange": "Rs.528 to Rs.555"
   },
   {
-   "company": "Powerica Limited",
-   "symbol": "POWERICA",
+   "company": "Sai Parenteral's Limited",
+   "symbol": "SAIPARENT",
    "securityType": "EQ",
    "ipoStartDate": "24-MAR-2026",
    "ipoEndDate": "27-MAR-2026",
    "listingDate": "02-APR-2026",
-   "issuePrice": "   395",
-   "priceRange": "Rs.375 to Rs.395"
+   "issuePrice": "   392",
+   "priceRange": "Rs.372 to Rs.392"
   },
   {
    "company": "Amir Chand Jagdish Kumar (Exports) Limited",
@@ -1383,14 +1393,14 @@
    "priceRange": "Rs.201 to Rs.212"
   },
   {
-   "company": "Sai Parenteral's Limited",
-   "symbol": "SAIPARENT",
+   "company": "Powerica Limited",
+   "symbol": "POWERICA",
    "securityType": "EQ",
    "ipoStartDate": "24-MAR-2026",
    "ipoEndDate": "27-MAR-2026",
    "listingDate": "02-APR-2026",
-   "issuePrice": "   392",
-   "priceRange": "Rs.372 to Rs.392"
+   "issuePrice": "   395",
+   "priceRange": "Rs.375 to Rs.395"
   },
   {
    "company": "Central Mine Planning & Design Institute Limited",
@@ -1523,16 +1533,6 @@
    "priceRange": "Rs.367 to Rs.386"
   },
   {
-   "company": "Clean Max Enviro Energy Solutions Limited",
-   "symbol": "CLEANMAX",
-   "securityType": "EQ",
-   "ipoStartDate": "23-FEB-2026",
-   "ipoEndDate": "25-FEB-2026",
-   "listingDate": "02-MAR-2026",
-   "issuePrice": "  1053",
-   "priceRange": "Rs.1000 to Rs.1053"
-  },
-  {
    "company": "Shree Ram Twistex Limited",
    "symbol": "SRTL",
    "securityType": "BE",
@@ -1541,6 +1541,16 @@
    "listingDate": "02-MAR-2026",
    "issuePrice": "   104",
    "priceRange": "Rs.95 to Rs.104"
+  },
+  {
+   "company": "Clean Max Enviro Energy Solutions Limited",
+   "symbol": "CLEANMAX",
+   "securityType": "EQ",
+   "ipoStartDate": "23-FEB-2026",
+   "ipoEndDate": "25-FEB-2026",
+   "listingDate": "02-MAR-2026",
+   "issuePrice": "  1053",
+   "priceRange": "Rs.1000 to Rs.1053"
   },
   {
    "company": "Mobilise App Lab Limited",
@@ -1583,16 +1593,6 @@
    "priceRange": "Rs.111 to Rs.117"
   },
   {
-   "company": "Aye Finance Limited",
-   "symbol": "AYE",
-   "securityType": "EQ",
-   "ipoStartDate": "09-FEB-2026",
-   "ipoEndDate": "11-FEB-2026",
-   "listingDate": "16-FEB-2026",
-   "issuePrice": "   129",
-   "priceRange": "Rs.122 to Rs.129"
-  },
-  {
    "company": "Fractal Analytics Limited",
    "symbol": "FRACTAL",
    "securityType": "EQ",
@@ -1601,6 +1601,16 @@
    "listingDate": "16-FEB-2026",
    "issuePrice": "   900",
    "priceRange": "Rs.857 to Rs.900"
+  },
+  {
+   "company": "Aye Finance Limited",
+   "symbol": "AYE",
+   "securityType": "EQ",
+   "ipoStartDate": "09-FEB-2026",
+   "ipoEndDate": "11-FEB-2026",
+   "listingDate": "16-FEB-2026",
+   "issuePrice": "   129",
+   "priceRange": "Rs.122 to Rs.129"
   },
   {
    "company": "Biopol Chemicals Limited",
@@ -1623,16 +1633,6 @@
    "priceRange": "Rs.83 to Rs.88"
   },
   {
-   "company": "Brandman Retail Limited",
-   "symbol": "BRANDMAN",
-   "securityType": "SME",
-   "ipoStartDate": "04-FEB-2026",
-   "ipoEndDate": "06-FEB-2026",
-   "listingDate": "11-FEB-2026",
-   "issuePrice": "176",
-   "priceRange": "Rs.167 to Rs.176"
-  },
-  {
    "company": "NFP Sampoorna Foods Limited-Issue Withdrawn",
    "symbol": "SAMPOORNA",
    "securityType": "SME",
@@ -1641,6 +1641,16 @@
    "listingDate": "-",
    "issuePrice": "-",
    "priceRange": "Rs.52 to Rs.55"
+  },
+  {
+   "company": "Brandman Retail Limited",
+   "symbol": "BRANDMAN",
+   "securityType": "SME",
+   "ipoStartDate": "04-FEB-2026",
+   "ipoEndDate": "06-FEB-2026",
+   "listingDate": "11-FEB-2026",
+   "issuePrice": "176",
+   "priceRange": "Rs.167 to Rs.176"
   },
   {
    "company": "C K K Retail Mart Limited",
