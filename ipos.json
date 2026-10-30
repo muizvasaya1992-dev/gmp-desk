@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T21:32+05:30",
+  "generated_at": "2026-10-30T21:45+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-10-30T09:45+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-10-30T21:32+05:30",
+    "nse_ok_at": "2026-10-30T21:45+05:30",
     "bse_ok_at": "2026-10-30T11:26+05:30"
   },
   "ipos": [
@@ -1917,7 +1917,7 @@
         {
           "source": "Tracker D",
           "gmp": 7,
-          "at": "2026-10-30T18:45"
+          "at": "2026-10-30T21:45"
         }
       ],
       "gmp_history": [
@@ -1954,8 +1954,8 @@
       "gmp_low": 7,
       "gmp_high": 10,
       "gmp": 7,
-      "gmp_asof": "2026-10-30T19:00",
-      "gmp_source_latest": "Tracker B",
+      "gmp_asof": "2026-10-30T21:45",
+      "gmp_source_latest": "Tracker D",
       "gmp_pct": 8.54,
       "gmp_spread": {
         "min": 7,
@@ -3065,7 +3065,7 @@
         {
           "source": "Tracker D",
           "gmp": 19,
-          "at": "2026-10-30T18:45"
+          "at": "2026-10-30T21:45"
         }
       ],
       "gmp_history": [
@@ -3079,7 +3079,7 @@
       "gmp_high": 19,
       "exchange": "SME",
       "gmp": 19,
-      "gmp_asof": "2026-10-30T18:45",
+      "gmp_asof": "2026-10-30T21:45",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 15.83,
       "gmp_spread": {
@@ -3294,7 +3294,7 @@
         {
           "source": "Tracker D",
           "gmp": 10,
-          "at": "2026-10-30T18:45"
+          "at": "2026-10-30T21:45"
         }
       ],
       "gmp_history": [
@@ -3315,7 +3315,7 @@
       "gmp_low": 9,
       "gmp_high": 13,
       "gmp": 10,
-      "gmp_asof": "2026-10-30T18:45",
+      "gmp_asof": "2026-10-30T21:45",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 5.0,
       "gmp_spread": {
@@ -3428,7 +3428,7 @@
         "total": 1.12,
         "retail": 1.93
       },
-      "updated_on": "2026-10-30T21:32+05:30",
+      "updated_on": "2026-10-30T21:45+05:30",
       "from_peers": true,
       "exchange": "BSE SME",
       "registrar": "KFin Technologies Limited",
