@@ -272,9 +272,15 @@
    "listing": "2026-10-23",
    "price": 344,
    "price_low": 327,
-   "exchange": "NSE",
-   "live": true,
-   "id": "sahajanand-medical-technologies",
+   "exchange": "NSE · BSE",
+   "listing_close": 378.2,
+   "listing_gain_pct": 9.94,
+   "current": 472.0,
+   "gain_pct": 37.21,
+   "listing_gain": 34.2,
+   "gain": 128.0,
+   "bse_url": "https://www.bseindia.com/stock-share-price/sahajanand-medical-technologies-ltd/smt/545001/",
+   "id": "sahajanand-medical-technologies-2",
    "status": "listed"
   },
   {
@@ -347,14 +353,7 @@
    "listing": "2026-10-23",
    "price": 344,
    "price_low": 327,
-   "exchange": "NSE · BSE",
-   "listing_close": 378.2,
-   "listing_gain_pct": 9.94,
-   "current": 472.0,
-   "gain_pct": 37.21,
-   "listing_gain": 34.2,
-   "gain": 128.0,
-   "bse_url": "https://www.bseindia.com/stock-share-price/sahajanand-medical-technologies-ltd/smt/545001/",
+   "exchange": "NSE",
    "live": true,
    "id": "sahajanand-medical-technologies",
    "status": "listed"
@@ -1086,12 +1085,12 @@
   {
    "name": "Adroit Industries (India)",
    "segment": "MAIN",
-   "symbol": "ARMEE",
+   "symbol": "ADROITIND",
    "open": "2026-09-23",
    "close": "2026-09-25",
    "listing": "2026-09-30",
-   "price": 375,
-   "price_low": 350,
+   "price": 134,
+   "price_low": 126,
    "exchange": "NSE · BSE",
    "listing_close": 248.35,
    "listing_gain_pct": 85.34,
@@ -5559,5 +5558,5 @@
    "status": "listed"
   }
  ],
- "generated_at": "2026-10-30T09:45+05:30"
+ "generated_at": "2026-10-30T09:46+05:30"
 }
