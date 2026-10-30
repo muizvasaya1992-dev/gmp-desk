@@ -80,7 +80,7 @@ def merge(row, rec):
     d = dict(row)
     for k, v in (rec or {}).items():
         if k in ("lot", "registrar", "lead_managers", "size_cr", "boa", "cutoff_time", "retail_max", "rhp_url",
-                 "open", "close", "listing", "price", "price_low", "status", "symbol", "sub", "gmp", "gmp_pct", "listing_price", "reservation") and v not in (None, "", []):
+                 "open", "close", "listing", "price", "price_low", "status", "symbol", "sub", "gmp", "gmp_pct", "listing_price", "reservation", "lot_basis", "sector", "issue_split", "tracker_rating") and v not in (None, "", []):
             d[k] = v
     return d
 
@@ -175,13 +175,20 @@ def facts(d):
     else:
         rows.append(("Price band", band(d) or "To be announced"))
     if d.get("lot"):
-        rows.append(("Lot size", f"{inr(d['lot'])} shares"))
+        rows.append(("Lot size", f"{inr(d['lot'])} shares" + (" (from a public tracker)" if d.get("lot_basis") else "")))
         if d.get("price") is not None and st != "listed":
             rows.append(("One lot costs", rs(d["lot"] * d["price"]) + " at the top of the band"))
             if min_lots(d) > 1:
                 rows.append(("Minimum to apply", f"{min_lots(d)} lots, about {rs(min_lots(d) * d['lot'] * d['price'])}"))
     if d.get("size_cr") is not None:
         rows.append(("Issue size", f"₹{inr(d['size_cr'])} Cr"))
+    sp = d.get("issue_split")
+    if sp:
+        rows.append(("Issue structure", f"Fresh issue ₹{inr(sp['fresh_cr'])} Cr, offer for sale ₹{inr(sp['ofs_cr'])} Cr"))
+    if d.get("sector"):
+        rows.append(("Sector", d["sector"]))
+    if d.get("tracker_rating") and st != "listed":
+        rows.append(("Public tracker rating", f"{d['tracker_rating']} of 5 (the tracker's own score, not ours and not advice)"))
     rows += [("Opens", dl(d.get("open"))), ("Closes", dl(d.get("close")) + (f", {d['cutoff_time']}" if d.get("cutoff_time") and d.get("close") else "")),
              ("Allotment", dl(d.get("boa"))), ("Listing date", dl(d.get("listing"))),
              ("Registrar", d.get("registrar")), ("Lead managers", lead(d.get("lead_managers") or []))]

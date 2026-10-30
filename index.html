@@ -1526,9 +1526,12 @@ function openDrawer(id, quiet){
     <h3>Key facts</h3>
     <dl class="facts">
       <div><dt>Price band</dt><dd>${band(i)}</dd></div>
-      <div><dt>Lot size</dt><dd>${i.lot!=null?inr(i.lot)+" shares":"–"}</dd></div>
+      <div><dt>Lot size</dt><dd>${i.lot!=null?inr(i.lot)+" shares"+(i.lot_basis?` <span class="micro">(from a public tracker)</span>`:""):"–"}</dd></div>
       <div><dt>Cost of one lot</dt><dd>${oneLot(i)}</dd></div>${minLots(i)>1&&i.price!=null&&i.lot!=null?`<div><dt>Minimum to apply</dt><dd>${minLots(i)} lots · ₹${inr(i.price*i.lot*minLots(i))}</dd></div>`:""}
       <div><dt>Issue size</dt><dd>${cr(i.size_cr)}</dd></div>
+      ${i.issue_split?`<div style="grid-column:1/-1"><dt>Issue structure</dt><dd>Fresh issue ${cr(i.issue_split.fresh_cr)} · Offer for sale ${cr(i.issue_split.ofs_cr)}</dd></div>`:""}
+      ${i.sector?`<div style="grid-column:1/-1"><dt>Sector</dt><dd>${esc(i.sector)}</dd></div>`:""}
+      ${i.tracker_rating&&i.status!=="listed"?`<div style="grid-column:1/-1"><dt>Public tracker rating</dt><dd>${i.tracker_rating} of 5 <span class="micro">(the tracker's own score, not ours and not advice)</span></dd></div>`:""}
       <div><dt>Current GMP</dt><dd>${i.gmp==null?"–":rs(i.gmp)+(i.gmp_pct!=null?" ("+pct(i.gmp_pct)+")":"")}</dd></div>${i.gmp_trend?`<div><dt>GMP trend</dt><dd>${i.gmp_trend.dir==="rising"?"▲ Rising":i.gmp_trend.dir==="falling"?"▼ Falling":"▬ Steady"} <span class="muted" style="font-weight:400">(${i.gmp_trend.change>=0?"+":""}₹${i.gmp_trend.change} since ${dd(i.gmp_trend.since)})</span></dd></div>`:""}
       <div><dt>Implied listing price</dt><dd>${i.gmp==null||i.price==null?"–":rs(i.price+i.gmp)}</dd></div>
       ${perLot}

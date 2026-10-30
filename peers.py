@@ -118,6 +118,12 @@ def parse_b(page):
         und = lambda v: None if (v is None or (isinstance(v, str) and v.startswith("$"))) else v
         sub = und(r.get("subscription")) if isinstance(und(r.get("subscription")), dict) else {}
         exch = und(r.get("exchange")) or ""
+        det = und(r.get("issueDetails")) if isinstance(und(r.get("issueDetails")), dict) else {}
+        quota = {k: _num(det.get(f)) for k, f in (("qib", "qibQuotaPercent"), ("nii", "niiQuotaPercent"), ("retail", "retailQuotaPercent"),
+                                                  ("employee", "employeeQuotaPercent"), ("shareholders", "shareholderQuotaPercent"))}
+        quota = {k: v for k, v in quota.items() if v} if sum(v or 0 for v in quota.values()) > 0 else None
+        sector = und(r.get("sector"))
+        sector = sector.strip() if isinstance(sector, str) and sector.strip().upper() not in ("", "BSE", "NSE", "SME", "N/A", "NA") else None
         out.append({
             "src": B, "slug": re.sub(r"-ipo$", "", r["slug"]), "name": r["name"],
             "segment": "SME" if "SME" in exch.upper() else "MAIN",
@@ -127,6 +133,10 @@ def parse_b(page):
             "gmp": _num(und(r.get("gmp"))), "gmp_at": _ist_from_iso(und(r.get("gmpLastUpdated")) or ""),
             "sub_total": _num(sub.get("total")), "sub_retail": _num(sub.get("retail")),
             "sub_at": _ist_from_iso(und(r.get("subscriptionLastScraped")) or ""),
+            "lot_raw": _num(und(r.get("lotSize"))), "sector": sector, "quota": quota,
+            "fresh_cr": _num(det.get("freshIssueCr")), "ofs_cr": _num(det.get("ofsCr")),
+            "registrar": und(r.get("registrar")) if isinstance(und(r.get("registrar")), str) else None,
+            "lead_manager": und(r.get("leadManager")) if isinstance(und(r.get("leadManager")), str) else None,
             "live": True,
         })
     return out
@@ -171,6 +181,7 @@ def parse_c(page, today):
             gmp_at = f"{d}T{int(upd.group(3)):02d}:{upd.group(4)}" if d else None
         flag = next((b for b in badges if b in ("U", "O", "C", "CT")), None)
         size = re.search(r"([\d,]+(?:\.\d+)?)\s*Cr", cells.get("IPO Size", ""))
+        fires = next((v.count("\U0001F525") for k, v in cells.items() if "ating" in k), 0)
         out.append({
             "src": C, "slug": re.sub(r"-ipo$", "", href.group(1)), "name": H.unescape(href.group(2)).strip(),
             "segment": "SME" if seg_badge else "MAIN",
@@ -181,6 +192,7 @@ def parse_c(page, today):
             "size_cr": _num(size.group(1)) if size else None,
             "gmp": float(g.group(1)) if g else None, "gmp_at": gmp_at,
             "sub_total": None, "sub_retail": None, "sub_at": None,
+            "lot": _num(cells.get("Lot")), "rating": min(fires, 5) or None,
             "live": flag in ("U", "O", "C", "CT"),
         })
     return out
@@ -256,7 +268,7 @@ def apply(recs, peers, today, stamp):
         for k in _keys(r.get("id"), r.get("symbol"), r.get("name")):
             idx[k] = r
     order = {B: 0, C: 1}
-    by_key, rows, added, subs = {}, [], 0, 0
+    by_key, rows, added, subs, cand = {}, [], 0, 0, {}
     for p in sorted(peers, key=lambda x: order.get(x["src"], 9)):
         mine = None
         for k in _keys(p["slug"], p["name"]):
@@ -279,6 +291,7 @@ def apply(recs, peers, today, stamp):
                 idx[k] = mine
             added += 1
         by_key.setdefault(mine["id"], mine)
+        extra_fill(mine, p, cand)
         if p.get("gmp") not in (None, 0):                                   # 0 means "no quote yet" on these sites
             rows.append({"ipo": mine["id"], "gmp": _tidy(p["gmp"]), "at": p["gmp_at"] or stamp[:16], "source": p["src"]})
         if p["src"] == B and p.get("sub_total"):
@@ -288,9 +301,45 @@ def apply(recs, peers, today, stamp):
                     sub["retail"] = round(p["sub_retail"], 2)
                 mine["sub"], mine["sub_basis"], mine["sub_asof"] = sub, B, p.get("sub_at")
                 subs += 1
-    if added or subs or rows:
-        print(f"  peers: {added} IPO(s) added from them, {subs} subscription figure(s) filled, {len(rows)} GMP reading(s)")
+    lots = 0
+    for k, c in cand.items():                                               # lot size: our own first, then the direct figure, then the doubled one
+        mine = by_key[k]
+        if mine.get("lot"):
+            continue
+        lot = c.get("c") or c.get("b")
+        if lot:
+            mine["lot"], mine["lot_basis"] = _tidy(lot), "tracker"
+            lots += 1
+    if added or subs or rows or lots:
+        print(f"  peers: {added} IPO(s) added from them, {subs} subscription figure(s) filled, {lots} lot size(s) filled, {len(rows)} GMP reading(s)")
     return rows
+
+
+def extra_fill(mine, p, cand):
+    """Fills only what we have no figure for. The exchanges' own numbers are never replaced."""
+    c = cand.setdefault(mine["id"], {})
+    if p["src"] == C and p.get("lot"):
+        c["c"] = p["lot"]                                                   # one lot, as the table shows it
+    if p["src"] == B and p.get("lot_raw"):                                  # SME issues list the 2-lot minimum here
+        c["b"] = p["lot_raw"] / 2 if p["segment"] == "SME" else p["lot_raw"]
+    if mine.get("size_cr") is None and p.get("size_cr"):
+        mine["size_cr"] = p["size_cr"]
+    if mine.get("price") is None and p.get("price"):
+        mine["price"] = tidy_price(p["price"])
+        if mine.get("price_low") is None and p.get("price_low"):
+            mine["price_low"] = tidy_price(p["price_low"])
+    if not mine.get("registrar") and p.get("registrar"):
+        mine["registrar"] = p["registrar"]
+    if not mine.get("lead_managers") and p.get("lead_manager"):
+        mine["lead_managers"] = [p["lead_manager"]]
+    if not mine.get("reservation") and p.get("quota"):
+        mine["reservation"] = p["quota"]
+    if p.get("sector") and not mine.get("sector"):
+        mine["sector"] = p["sector"]
+    if p.get("fresh_cr") is not None and p.get("ofs_cr") is not None and (p["fresh_cr"] or p["ofs_cr"]):
+        mine["issue_split"] = {"fresh_cr": p["fresh_cr"], "ofs_cr": p["ofs_cr"]}
+    if p["src"] == C and p.get("rating"):
+        mine["tracker_rating"] = p["rating"]
 
 
 def tidy_price(v):

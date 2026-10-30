@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-10-30T10:01+05:30",
+  "fetched_at": "2026-10-30T10:08+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,10 +16,21 @@
     "price_low": 153.0,
     "size_cr": 330.48,
     "gmp": 12.5,
-    "gmp_at": "2026-10-30T09:55",
-    "sub_total": 1.18,
-    "sub_retail": 0.85,
-    "sub_at": "2026-10-30T09:58",
+    "gmp_at": "2026-10-30T10:05",
+    "sub_total": 1.28,
+    "sub_retail": 0.92,
+    "sub_at": "2026-10-30T10:08",
+    "lot_raw": 91.0,
+    "sector": "Gems Jewellery and Watches",
+    "quota": {
+     "qib": 50.0,
+     "nii": 15.0,
+     "retail": 35.0
+    },
+    "fresh_cr": 275.4,
+    "ofs_cr": 55.08,
+    "registrar": "Bigshare Services Pvt. Ltd.",
+    "lead_manager": "Aryaman Financial Services Ltd.",
     "live": true
    },
    {
@@ -36,10 +47,21 @@
     "price_low": 78.0,
     "size_cr": 183.06,
     "gmp": 9.0,
-    "gmp_at": "2026-10-30T09:55",
-    "sub_total": 2.67,
-    "sub_retail": 1.24,
-    "sub_at": "2026-10-30T09:58",
+    "gmp_at": "2026-10-30T10:05",
+    "sub_total": 2.75,
+    "sub_retail": 1.37,
+    "sub_at": "2026-10-30T10:08",
+    "lot_raw": 182.0,
+    "sector": "Steel Processing",
+    "quota": {
+     "qib": 50.0,
+     "nii": 15.0,
+     "retail": 35.0
+    },
+    "fresh_cr": 183.06,
+    "ofs_cr": 0.0,
+    "registrar": "KFin Technologies Limited",
+    "lead_manager": "Smart Horizon Capital Advisors Pvt. Ltd.",
     "live": true
    },
    {
@@ -56,10 +78,21 @@
     "price_low": 1585.0,
     "size_cr": 1200.0,
     "gmp": 38.0,
-    "gmp_at": "2026-10-30T09:55",
+    "gmp_at": "2026-10-30T10:05",
     "sub_total": 5.25,
     "sub_retail": 1.03,
     "sub_at": "2026-10-28T19:06",
+    "lot_raw": 9.0,
+    "sector": "Alternative Asset Management",
+    "quota": {
+     "qib": 50.0,
+     "nii": 15.0,
+     "retail": 35.0
+    },
+    "fresh_cr": 0.0,
+    "ofs_cr": 1200.0,
+    "registrar": "MUFG Intime India Pvt. Ltd.",
+    "lead_manager": "Axis Capital Ltd.; Jefferies India Pvt. Ltd.; Motilal Oswal Investment Advisors Ltd.; Nuvama Wealth Management Ltd.",
     "live": true
    },
    {
@@ -76,10 +109,21 @@
     "price_low": 142.0,
     "size_cr": 255.0,
     "gmp": 68.0,
-    "gmp_at": "2026-10-30T09:55",
+    "gmp_at": "2026-10-30T10:05",
     "sub_total": 241.22,
     "sub_retail": 128.36,
     "sub_at": "2026-10-29T19:05",
+    "lot_raw": 100.0,
+    "sector": null,
+    "quota": {
+     "qib": 50.0,
+     "nii": 15.0,
+     "retail": 35.0
+    },
+    "fresh_cr": 255.0,
+    "ofs_cr": 0.0,
+    "registrar": "KFin Technologies Ltd.",
+    "lead_manager": "Unistone Capital Pvt. Ltd.",
     "live": true
    },
    {
@@ -96,10 +140,21 @@
     "price_low": 313.0,
     "size_cr": 668.0,
     "gmp": 19.0,
-    "gmp_at": "2026-10-30T09:55",
+    "gmp_at": "2026-10-30T10:05",
     "sub_total": 9.47,
     "sub_retail": 2.71,
     "sub_at": "2026-10-29T19:05",
+    "lot_raw": 45.0,
+    "sector": "Environmental Technology / Wastewater Treatment",
+    "quota": {
+     "qib": 50.0,
+     "nii": 15.0,
+     "retail": 35.0
+    },
+    "fresh_cr": 150.0,
+    "ofs_cr": 517.53,
+    "registrar": "MUFG Intime India Pvt. Ltd.",
+    "lead_manager": "IIFL Capital Services Ltd.; JM Financial Ltd.; Nuvama Wealth Management Ltd.",
     "live": true
    },
    {
@@ -116,10 +171,21 @@
     "price_low": 76.0,
     "size_cr": 28.29,
     "gmp": 0.0,
-    "gmp_at": "2026-10-30T09:55",
+    "gmp_at": "2026-10-30T10:05",
     "sub_total": 0.83,
     "sub_retail": 0.65,
-    "sub_at": "2026-10-30T09:55",
+    "sub_at": "2026-10-30T10:05",
+    "lot_raw": 3200.0,
+    "sector": "Industrial Manufacturing / Welding Automation",
+    "quota": {
+     "qib": 50.0,
+     "nii": 15.0,
+     "retail": 35.0
+    },
+    "fresh_cr": 28.29,
+    "ofs_cr": 0.0,
+    "registrar": "Bigshare Services Pvt. Ltd.",
+    "lead_manager": "Smart Horizon Capital Advisors Pvt. Ltd.",
     "live": true
    },
    {
@@ -136,10 +202,20 @@
     "price_low": 203.0,
     "size_cr": 38.05,
     "gmp": 5.0,
-    "gmp_at": "2026-10-30T09:55",
+    "gmp_at": "2026-10-30T10:05",
     "sub_total": 0.87,
     "sub_retail": 1.57,
-    "sub_at": "2026-10-30T09:55",
+    "sub_at": "2026-10-30T10:05",
+    "lot_raw": 1200.0,
+    "sector": "Industrial EPC and Infrastructure",
+    "quota": {
+     "nii": 50.0,
+     "retail": 50.0
+    },
+    "fresh_cr": 30.45,
+    "ofs_cr": 7.6,
+    "registrar": "KFin Technologies Limited",
+    "lead_manager": "Wealth Mine Networks Private Limited",
     "live": true
    },
    {
@@ -156,10 +232,21 @@
     "price_low": 194.0,
     "size_cr": 110.0,
     "gmp": 0.0,
-    "gmp_at": "2026-10-30T09:55",
+    "gmp_at": "2026-10-30T10:05",
     "sub_total": 1.17,
     "sub_retail": 0.66,
     "sub_at": "2026-10-29T19:05",
+    "lot_raw": 1200.0,
+    "sector": "Consumer Electronics",
+    "quota": {
+     "qib": 50.0,
+     "nii": 15.0,
+     "retail": 35.0
+    },
+    "fresh_cr": 88.01,
+    "ofs_cr": 22.0,
+    "registrar": "Maashitla Securities Pvt. Ltd.",
+    "lead_manager": "Smart Horizon Capital Advisors Pvt. Ltd.",
     "live": true
    },
    {
@@ -176,16 +263,27 @@
     "price_low": 88.0,
     "size_cr": 54.82,
     "gmp": 0.0,
-    "gmp_at": "2026-10-30T09:55",
+    "gmp_at": "2026-10-30T10:05",
     "sub_total": 5.41,
     "sub_retail": 2.68,
     "sub_at": "2026-10-27T19:05",
+    "lot_raw": 2400.0,
+    "sector": "Infrastructure EPC",
+    "quota": {
+     "qib": 50.0,
+     "nii": 15.0,
+     "retail": 35.0
+    },
+    "fresh_cr": 54.82,
+    "ofs_cr": 0.0,
+    "registrar": "Purva Sharegistry (India) Pvt. Ltd.",
+    "lead_manager": "Socradamus Capital Pvt. Ltd.",
     "live": true
    }
   ]
  },
  "c": {
-  "fetched_at": "2026-10-30T10:01+05:30",
+  "fetched_at": "2026-10-30T10:08+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -205,6 +303,8 @@
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
+    "lot": 1200.0,
+    "rating": 1,
     "live": true
    },
    {
@@ -225,6 +325,8 @@
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
+    "lot": 1200.0,
+    "rating": 1,
     "live": true
    },
    {
@@ -245,6 +347,8 @@
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
+    "lot": 600.0,
+    "rating": 2,
     "live": true
    },
    {
@@ -265,6 +369,8 @@
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
+    "lot": 1200.0,
+    "rating": 1,
     "live": true
    },
    {
@@ -285,6 +391,8 @@
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
+    "lot": 800.0,
+    "rating": 4,
     "live": true
    },
    {
@@ -305,6 +413,8 @@
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
+    "lot": 2000.0,
+    "rating": 1,
     "live": true
    },
    {
@@ -325,6 +435,8 @@
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
+    "lot": 182.0,
+    "rating": 3,
     "live": true
    },
    {
@@ -345,6 +457,8 @@
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
+    "lot": 91.0,
+    "rating": 2,
     "live": true
    },
    {
@@ -365,6 +479,8 @@
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
+    "lot": 600.0,
+    "rating": 1,
     "live": true
    },
    {
@@ -385,6 +501,8 @@
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
+    "lot": 1600.0,
+    "rating": 1,
     "live": true
    },
    {
@@ -405,6 +523,8 @@
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
+    "lot": 600.0,
+    "rating": 1,
     "live": true
    },
    {
@@ -425,6 +545,8 @@
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
+    "lot": 45.0,
+    "rating": 2,
     "live": true
    },
    {
@@ -445,6 +567,8 @@
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
+    "lot": 100.0,
+    "rating": 4,
     "live": true
    },
    {
@@ -465,6 +589,8 @@
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
+    "lot": 9.0,
+    "rating": 1,
     "live": true
    },
    {
@@ -485,6 +611,8 @@
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
+    "lot": 1200.0,
+    "rating": 1,
     "live": true
    },
    {
@@ -505,6 +633,8 @@
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
+    "lot": 21.0,
+    "rating": 1,
     "live": false
    },
    {
@@ -525,6 +655,8 @@
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
+    "lot": 12.0,
+    "rating": 4,
     "live": false
    },
    {
@@ -545,6 +677,8 @@
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
+    "lot": 99.0,
+    "rating": 1,
     "live": false
    },
    {
@@ -565,6 +699,8 @@
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
+    "lot": 21.0,
+    "rating": 5,
     "live": false
    },
    {
@@ -585,6 +721,8 @@
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
+    "lot": 43.0,
+    "rating": 1,
     "live": false
    },
    {
@@ -605,6 +743,8 @@
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
+    "lot": 25.0,
+    "rating": 3,
     "live": false
    },
    {
@@ -625,6 +765,8 @@
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
+    "lot": 800.0,
+    "rating": 1,
     "live": false
    },
    {
@@ -645,6 +787,8 @@
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
+    "lot": 1200.0,
+    "rating": 1,
     "live": false
    },
    {
@@ -665,6 +809,8 @@
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
+    "lot": 51.0,
+    "rating": 1,
     "live": false
    },
    {
@@ -685,6 +831,8 @@
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
+    "lot": 55.0,
+    "rating": 4,
     "live": false
    },
    {
@@ -705,6 +853,8 @@
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
+    "lot": 2000.0,
+    "rating": 2,
     "live": false
    },
    {
@@ -725,6 +875,8 @@
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
+    "lot": 1600.0,
+    "rating": 1,
     "live": false
    },
    {
@@ -745,6 +897,8 @@
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
+    "lot": 1000.0,
+    "rating": 1,
     "live": false
    },
    {
@@ -765,6 +919,8 @@
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
+    "lot": 600.0,
+    "rating": 4,
     "live": false
    },
    {
@@ -785,6 +941,8 @@
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
+    "lot": 2000.0,
+    "rating": 1,
     "live": false
    }
   ]
