@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T12:15+05:30",
+  "generated_at": "2026-10-30T12:31+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-10-30T09:45+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-10-30T12:15+05:30",
+    "nse_ok_at": "2026-10-30T12:31+05:30",
     "bse_ok_at": "2026-10-30T11:26+05:30"
   },
   "ipos": [
@@ -764,7 +764,7 @@
       "series": "EQ",
       "nse_status": "Closed",
       "shares_offered": 11900000.0,
-      "updated_on": "2026-10-30T12:15+05:30",
+      "updated_on": "2026-10-30T12:31+05:30",
       "bse_ipo_no": "8056",
       "issue_split": {
         "fresh_cr": 255.0,
@@ -1070,7 +1070,7 @@
       "series": "EQ",
       "nse_status": "Closed",
       "shares_offered": 14159744.0,
-      "updated_on": "2026-10-30T12:15+05:30",
+      "updated_on": "2026-10-30T12:31+05:30",
       "bse_ipo_no": "8060",
       "sector": "Environmental Technology / Wastewater Treatment",
       "issue_split": {
@@ -1419,7 +1419,7 @@
         {
           "source": "Tracker C",
           "gmp": 38,
-          "at": "2026-10-30T07:37"
+          "at": "2026-10-30T09:37"
         }
       ],
       "gmp_history": [
@@ -1486,13 +1486,13 @@
       "rating": null,
       "sub": {
         "qib": 6.55,
-        "nii": 1.09,
-        "bnii": 0.72,
-        "snii": 1.84,
-        "retail": 2.1,
-        "total": 3.18
+        "nii": 1.12,
+        "bnii": 0.74,
+        "snii": 1.88,
+        "retail": 2.15,
+        "total": 3.21
       },
-      "updated_on": "2026-10-30T12:15+05:30",
+      "updated_on": "2026-10-30T12:31+05:30",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "Smart Horizon Capital Advisors Private Limited"
@@ -1506,7 +1506,7 @@
       "symbol": "BCSSL",
       "official": true,
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-10-30T12:12",
+      "sub_asof": "2026-10-30T12:27",
       "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_BCSSL.zip",
       "retail_max": 200000,
       "cutoff_time": "5:00 PM",
@@ -1659,6 +1659,15 @@
           "snii": 1.84,
           "retail": 2.1,
           "total": 3.18
+        },
+        {
+          "at": "2026-10-30T12:31+05:30",
+          "qib": 6.55,
+          "nii": 1.12,
+          "bnii": 0.74,
+          "snii": 1.88,
+          "retail": 2.15,
+          "total": 3.21
         }
       ],
       "series": "EQ",
@@ -2025,7 +2034,7 @@
         "ofs_cr": 0.0
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-10-30T12:14",
+      "sub_asof": "2026-10-30T12:28",
       "tracker_rating": 1,
       "fin": {
         "years": [
@@ -2088,15 +2097,15 @@
       "price": 162,
       "segment": "MAIN",
       "sub": {
-        "qib": 1.03,
-        "nii": 5.23,
-        "bnii": 5.74,
-        "snii": 4.22,
-        "retail": 1.63,
-        "total": 2.23
+        "qib": 1.04,
+        "nii": 5.92,
+        "bnii": 6.49,
+        "snii": 4.77,
+        "retail": 1.72,
+        "total": 2.42
       },
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-10-30T12:12",
+      "sub_asof": "2026-10-30T12:27",
       "registrar": "Bigshare Services Private Limited",
       "lead_managers": [
         "Aryaman Financial Services Limited"
@@ -2326,12 +2335,21 @@
           "snii": 4.22,
           "retail": 1.63,
           "total": 2.23
+        },
+        {
+          "at": "2026-10-30T12:31+05:30",
+          "qib": 1.04,
+          "nii": 5.92,
+          "bnii": 6.49,
+          "snii": 4.77,
+          "retail": 1.72,
+          "total": 2.42
         }
       ],
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 11900000.0,
-      "updated_on": "2026-10-30T12:15+05:30",
+      "updated_on": "2026-10-30T12:31+05:30",
       "bse_ipo_no": "8062",
       "sector": "Gems Jewellery and Watches",
       "issue_split": {
@@ -2473,7 +2491,7 @@
         "total": 0.0
       },
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-10-30T12:12",
+      "sub_asof": "2026-10-30T12:27",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "JDA CAPITAL SERVICES LIMITED (Formerly Known as Beeline Broking Limited)"
@@ -2498,7 +2516,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": null,
-      "updated_on": "2026-10-30T12:15+05:30",
+      "updated_on": "2026-10-30T12:31+05:30",
       "price": 158,
       "tracker_rating": 4,
       "sector": "Other Industrial Products",
@@ -2579,7 +2597,7 @@
         "total": 0.0
       },
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-10-30T12:12",
+      "sub_asof": "2026-10-30T12:27",
       "registrar": "Kfin Technologies Limited",
       "lead_managers": [
         "Hem Securities Limited"
@@ -2604,7 +2622,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": null,
-      "updated_on": "2026-10-30T12:15+05:30",
+      "updated_on": "2026-10-30T12:31+05:30",
       "price": 120,
       "tracker_rating": 1,
       "sector": "Oil Exploration & Production",
@@ -2643,7 +2661,7 @@
       "series": "SME",
       "nse_status": "Forthcoming",
       "shares_offered": 6030000.0,
-      "updated_on": "2026-10-30T12:15+05:30",
+      "updated_on": "2026-10-30T12:31+05:30",
       "tracker_rating": 1,
       "sector": "Flexible Packaging",
       "fin": {
@@ -2915,7 +2933,7 @@
         "total": 0.99,
         "retail": 1.77
       },
-      "updated_on": "2026-10-30T12:15+05:30",
+      "updated_on": "2026-10-30T12:31+05:30",
       "from_peers": true,
       "exchange": "BSE SME",
       "registrar": "KFin Technologies Limited",
@@ -2932,7 +2950,7 @@
         "ofs_cr": 7.6
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-10-30T12:10",
+      "sub_asof": "2026-10-30T12:25",
       "tracker_rating": 1,
       "fin": {
         "years": [],
