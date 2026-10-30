@@ -80,7 +80,7 @@ def merge(row, rec):
     d = dict(row)
     for k, v in (rec or {}).items():
         if k in ("lot", "registrar", "lead_managers", "size_cr", "boa", "cutoff_time", "retail_max", "rhp_url",
-                 "open", "close", "listing", "price", "price_low", "status", "symbol", "sub", "gmp", "gmp_pct", "listing_price", "reservation", "lot_basis", "sector", "issue_split", "tracker_rating") and v not in (None, "", []):
+                 "open", "close", "listing", "price", "price_low", "status", "symbol", "sub", "gmp", "gmp_pct", "listing_price", "reservation", "lot_basis", "sector", "issue_split", "tracker_rating", "fin") and v not in (None, "", []):
             d[k] = v
     return d
 
@@ -424,6 +424,26 @@ def mon(iso):
     return _dt.date.fromisoformat(iso[:10]).strftime("%B %Y")
 
 
+def fin_card(d):
+    """Offer-document numbers that passed the consistency checks (see peers.parse_detail)."""
+    f = d.get("fin")
+    if not f:
+        return ""
+    ys, r = f.get("years") or [], f.get("ratios") or {}
+    tbl = ""
+    if ys:
+        trs = "".join(f"<tr><td>{esc(y['y'])}</td><td>₹{inr(y['income'])} Cr</td><td>₹{inr(y['pat'])} Cr</td><td>{(y['pat'] / y['income'] * 100 if y['income'] else 0):.1f}%</td></tr>" for y in ys)
+        tbl = ('<div class="tw"><table class="t"><caption class="sr">Income and profit by year</caption><thead><tr><th scope="col">Year</th><th scope="col">Total income</th>'
+               f'<th scope="col">Profit after tax</th><th scope="col">Profit margin</th></tr></thead><tbody>{trs}</tbody></table></div>')
+    items = [(l, r[k], u) for l, k, u in (("P/E", "pe", "x"), ("P/BV", "pbv", "x"), ("Return on net worth", "ronw", "%"), ("ROCE", "roce", "%")) if r.get(k) is not None]
+    dl_ = ('<dl class="facts" style="margin-top:12px">' + "".join(f"<div><dt>{esc(l)}</dt><dd>{v:g}{u}</dd></div>" for l, v, u in items) + "</dl>") if items else ""
+    if not tbl and not dl_:
+        return ""
+    return (f'<section class="card"><h2>{esc(d["name"])} financials</h2>{tbl}{dl_}'
+            '<p class="muted" style="margin:10px 0 0">Taken from the offer document through a public tracker, after consistency checks. The profit margin is worked out by us. '
+            'P/E and P/BV are at the top of the price band. Confirm everything in the RHP. These are facts, not a view on value.</p></section>')
+
+
 def base_card(d, stats):
     """Shown on IPOs that have not listed yet. Most useful where no GMP exists, so the wording says what is missing."""
     if (d.get("status") or "listed") == "listed" or not stats:
@@ -470,7 +490,7 @@ def render_page(d, near=(), base=None):
 <noscript><p class="muted">Turn on JavaScript to see live subscription and GMP.</p></noscript>
 <a class="btn" href="{live_link}">Open in the live tracker</a><a class="btn alt" href="/ipo/">All IPOs</a></section>
 {allot_card(d)}{apply_card}
-{base_card(d, base)}{timeline(d)}{faq(d)}{near_block(near)}
+{base_card(d, base)}{fin_card(d)}{timeline(d)}{faq(d)}{near_block(near)}
 <section class="card"><h2>Share or follow</h2><a class="btn wa" href="{wa_share(d)}" target="_blank" rel="noopener">Share this IPO on WhatsApp ↗</a><a class="btn alt" href="{WA_CHANNEL}" target="_blank" rel="noopener">Follow our WhatsApp channel ↗</a></section>
 <section class="card"><h2>About this page</h2><p class="muted" style="margin:0 0 10px">Facts on this page come from NSE and BSE and are refreshed automatically. GMP is unofficial and comes from public trackers and our own checks. This is information, not advice. See the offer document before you invest.</p>
 <p class="muted" style="margin:0"><b>Demand meter:</b> 1 means under 1x subscribed, 2 is 1x to 3x, 3 is 3x to 10x, 4 is 10x to 50x and 5 is 50x or more. It shows how much demand there is. It does not say whether the IPO is a good one.</p></section>

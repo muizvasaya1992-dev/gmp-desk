@@ -28,6 +28,7 @@ jobs:
           GMP_TRACKER_URL: ${{ secrets.GMP_TRACKER_URL }}     # kept secret, so the public repository never names the source
           PEER_B_URL: ${{ secrets.PEER_B_URL }}
           PEER_C_URL: ${{ secrets.PEER_C_URL }}
+          PEER_D_URL: ${{ secrets.PEER_D_URL }}
       - name: Commit if changed
         run: |
           git config user.name "ipo-bot"

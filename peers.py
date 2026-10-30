@@ -1,8 +1,9 @@
-"""Two extra public sources, used with their owners' permission. Their addresses live in data/private.json
-(or the PEER_B_URL / PEER_C_URL secrets), never in this file, and they are only ever called "Tracker B" and "Tracker C".
+"""Three extra public sources, used with their owners' permission. Their addresses live in data/private.json
+(or the PEER_B_URL / PEER_C_URL / PEER_D_URL secrets), never in this file, and they are only ever called "Tracker B", "C" and "D".
 
-What we take: GMP values and when they were updated, subscription totals, and the basic facts (name, dates, price band, size)
-of an IPO that the exchange feeds do not list yet. What we leave out: their AI predictions, ratings, flags and any text.
+What we take: GMP values and when they were updated, subscription totals, lot size, issue facts, and for source D the
+day-by-day GMP history plus the numbers from each IPO's offer document (revenue, profit, valuation ratios), and only after
+those numbers pass consistency checks. What we leave out: their AI predictions, flags, reviews and any written text.
 A zero GMP from these sites means "no quote yet", so it is ignored. Everything here is optional: a failed fetch or a
 changed page never breaks the build, it just means we keep what we already have.
 """
@@ -13,7 +14,7 @@ import pathlib
 import re
 
 UA = "IPOShopBot/1.0 (+https://iposhop.in/)"
-B, C = "Tracker B", "Tracker C"
+B, C, D = "Tracker B", "Tracker C", "Tracker D"
 IST = dt.timezone(dt.timedelta(hours=5, minutes=30))
 MAX_AGE_HOURS = 12                                  # a cached copy older than this is not used
 
@@ -198,6 +199,167 @@ def parse_c(page, today):
     return out
 
 
+# ------------------------------------------------------------------ source D: cards on the list page, numbers on each IPO page
+def _tx(h):
+    return re.sub(r"\s+", " ", H.unescape(re.sub(r"<[^>]+>", " ", h or ""))).strip()
+
+
+def _dm(txt, today):
+    m = re.search(r"(\d{1,2})\s+([A-Za-z]{3})", txt or "")
+    return _date(f"{m.group(1)}-{m.group(2)}", today) if m else None
+
+
+def parse_d(page, today):
+    out = []
+    for attrs, b in re.findall(r'<article class="hmcardsep-card[^"]*"([^>]*)>(.*?)</article>', page, re.S):
+        a = dict(re.findall(r'data-([a-z\-]+)="([^"]*)"', attrs))
+        h = re.search(r'<h3><a href="([^"]+)">([^<]+)</a>', b)
+        if not h:
+            continue
+        cell = lambda cls: (lambda m: _tx(m.group(1)) if m else "")(re.search(r'class="[^"]*%s[^"]*"[^>]*>(.*?)</div>' % cls, b, re.S))
+        band = [_num(x) for x in re.findall(r"₹\s*([\d,]+(?:\.\d+)?)", cell("hmcardsep-price-band"))]
+        per = re.search(r'hmcardsep-period"><div[^>]*>[^<]*</div><div[^>]*>(.*?)</div>', b, re.S)
+        days = re.findall(r"\d{1,2}\s+[A-Za-z]{3}", _tx(per.group(1)) if per else "")
+        lst = re.search(r'hmcardsep-listing"><div[^>]*>[^<]*</div><div[^>]*>(.*?)</div>', b, re.S)
+        size = re.search(r"([\d,]+(?:\.\d+)?)\s*Cr", cell("hmcardsep-issue"))
+        sub = re.search(r'sub-value">([\d.]+)x', b)
+        key = a.get("status-key", "")
+        out.append({
+            "src": D, "slug": re.sub(r"-(?:sme-)?ipo$", "", h.group(1).rstrip("/").split("/")[-1]), "name": H.unescape(h.group(2)).strip(),
+            "segment": "SME" if a.get("type") == "sme" else "MAIN", "exchange": None,
+            "open": _dm(days[0], today) if days else None, "close": _dm(days[-1], today) if days else None,
+            "boa": None, "listing": _dm(_tx(lst.group(1)), today) if lst else None,
+            "price": max(band) if band else None, "price_low": min(band) if len(band) > 1 else None,
+            "size_cr": _num(size.group(1)) if size else None,
+            "gmp": _num(a.get("gmp")), "gmp_at": None,
+            "sub_total": _num(sub.group(1)) if sub else None, "sub_retail": None, "sub_at": None,
+            "lot": _num(cell("hmcardsep-lot")), "sector": cell("hmcardsep-sector") or None,
+            "detail_url": h.group(1), "live": key in ("open", "closing-today", "upcoming", "closed"),
+        })
+    return out
+
+
+def _after(text, head, span=3000):
+    i = text.find(head)
+    return text[i:i + span] if i >= 0 else ""
+
+
+def parse_detail(page, price):
+    """Day-wise GMP, offer-document numbers and valuation. Anything that fails a check is left out."""
+    t = H.unescape(page)
+    res = {}
+    # day-wise GMP history
+    seg = _tx(_after(t, "Day-wise GMP History", 4000))
+    seg = seg.split("GMP is unofficial")[0]
+    hist = [(dt.datetime.strptime(d, "%d %b %Y").date().isoformat(), float(g.replace(",", "")))
+            for d, g in re.findall(r"(\d{1,2} [A-Za-z]{3} \d{4})\s+₹\s*(-?[\d,.]+)\s+[+\-]?[\d.]+%", seg)]
+    if hist:
+        res["gmp_history"] = hist
+    # offer-document numbers: embedded array, accepted only if the page's own text agrees with it
+    para = _tx(_after(t, "Financial View", 2200)).split("Total Income")[0]
+    said = [float(x.replace(",", "")) for x in re.findall(r"₹\s*([\d,]+(?:\.\d+)?)\s*crore", para)]
+    m = re.search(r'\[\{"year":', t)
+    years = []
+    if m:
+        try:
+            arr, _ = json.JSONDecoder().raw_decode(t[m.start():])
+            years = [y for y in arr if isinstance(y, dict) and y.get("totalIncome") is not None and y.get("pat") is not None]
+        except Exception:
+            years = []
+    close = lambda v, ref, tol: ref is not None and abs(v - ref) <= tol * max(abs(ref), 1e-9)
+    if years and said:
+        last = years[-1]
+        ok_inc = any(close(last["totalIncome"], x, 0.015) for x in said)
+        ok_pat = any(close(last["pat"], x, 0.015) for x in said)
+        if ok_inc and ok_pat:
+            rows = []
+            for y in years[-3:]:
+                rows.append({"y": y.get("year"), "income": round(y["totalIncome"], 2), "pat": round(y["pat"], 2),
+                             "ebitda": round(y["ebitda"], 2) if y.get("ebitda") is not None else None,
+                             "net_worth": round(y["netWorth"], 2) if y.get("netWorth") is not None else None,
+                             "debt": round(y["debt"], 2) if y.get("debt") is not None else None})
+            res["years"] = rows
+    # valuation ratios, each checked against the price
+    val = _tx(_after(t, "IPO Valuation", 1800)).split("Strengths")[0]
+    r = {}
+    pe = re.search(r"price to earnings ratio[^.]*?(\d+(?:\.\d+)?) times based on[^₹]*?(?:(FY\d\d)[^₹]*)?₹\s*(\d+(?:\.\d+)?)", val)
+    if pe and price:
+        v, eps = float(pe.group(1)), float(pe.group(3))
+        if eps and abs(price / eps - v) <= 0.03 * v:
+            r["pe"], r["eps"] = v, eps
+            fy = re.search(r"(FY\d\d)", pe.group(0))
+            if fy:
+                r["fy"] = fy.group(1)
+    pb = re.search(r"price to book value ratio is (\d+(?:\.\d+)?) times[^₹]*₹\s*(\d+(?:\.\d+)?)", val, re.I)
+    if pb and price:
+        v, nav = float(pb.group(1)), float(pb.group(2))
+        if nav and abs(price / nav - v) <= 0.03 * v:
+            r["pbv"], r["nav"] = v, nav
+    ro = re.search(r"return on net worth is (\d+(?:\.\d+)?) percent", val, re.I)
+    if ro:
+        r["ronw"] = float(ro.group(1))
+    rc = re.search(r"(?:ROCE|return on capital employed) is (\d+(?:\.\d+)?) percent", val, re.I)
+    if rc:
+        r["roce"] = float(rc.group(1))
+    if r:
+        res["ratios"] = r
+    return res
+
+
+DETAIL_MAX_AGE_H = 6          # each IPO's page is fetched at most this often
+DETAIL_MAX_PER_RUN = 14       # and never more than this many pages in one run
+DETAIL_PAUSE_S = 2.0          # a pause between pages, so we stay gentle
+
+
+def add_details(root, recs, now, fixtures=None, offline=False):
+    """Attach the checked numbers from each live IPO's own page to its card record. Saved so pages are not asked for twice."""
+    import time
+    path = pathlib.Path(root) / "data" / "peers_detail.json"
+    try:
+        store = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        store = {}
+    live = {r["slug"] for r in recs if r.get("live") and r.get("detail_url")}
+    changed = False
+    for k in [k for k in store if k not in live]:                  # forget IPOs that are no longer live
+        store.pop(k)
+        changed = True
+    fetched = 0
+    for r in recs:
+        if r["slug"] not in live:
+            continue
+        slug = r["slug"]
+        c = store.get(slug)
+        fresh = False
+        if c:
+            try:
+                fresh = now - dt.datetime.fromisoformat(c["at"]) <= dt.timedelta(hours=DETAIL_MAX_AGE_H)
+            except Exception:
+                pass
+        if not fresh and (fixtures or (not offline and fetched < DETAIL_MAX_PER_RUN)):
+            try:
+                if fixtures:
+                    f = pathlib.Path(fixtures) / f"d_{slug}.html"
+                    page = f.read_text(encoding="utf-8") if f.exists() else None
+                else:
+                    if fetched:
+                        time.sleep(DETAIL_PAUSE_S)
+                    page = fetch(r["detail_url"])
+                    fetched += 1
+                if page:
+                    store[slug] = c = {"at": now.isoformat(timespec="minutes"), "detail": parse_detail(page, r.get("price"))}
+                    changed = True
+            except Exception as e:
+                print(f"  peers: d: page for {slug} failed ({type(e).__name__}), using the saved copy")
+        if c and c.get("detail"):
+            r["detail"] = c["detail"]
+    if changed:
+        path.write_text(json.dumps(store, indent=1, ensure_ascii=False, sort_keys=True), encoding="utf-8")
+    if fetched:
+        print(f"  peers: d: {fetched} IPO page(s) read")
+    return recs
+
+
 # ------------------------------------------------------------------ one call for the build
 def _urls(root):
     import os
@@ -206,7 +368,8 @@ def _urls(root):
     except Exception:
         pj = {}
     return {"b": (os.environ.get("PEER_B_URL") or pj.get("peer_b_url") or "").strip(),
-            "c": (os.environ.get("PEER_C_URL") or pj.get("peer_c_url") or "").strip()}
+            "c": (os.environ.get("PEER_C_URL") or pj.get("peer_c_url") or "").strip(),
+            "d": (os.environ.get("PEER_D_URL") or pj.get("peer_d_url") or "").strip()}
 
 
 def load(root, today, offline=False, fixtures=None):
@@ -225,7 +388,7 @@ def load(root, today, offline=False, fixtures=None):
         cache.pop(k)
         changed = True
     urls = _urls(root)
-    for key, parser in (("b", lambda p: parse_b(p)), ("c", lambda p: parse_c(p, today))):
+    for key, parser in (("b", lambda p: parse_b(p)), ("c", lambda p: parse_c(p, today)), ("d", lambda p: parse_d(p, today))):
         url, recs, page = urls[key], None, None
         if not url and not fixtures and not offline:
             print(f"  peers: source {key.upper()}: no address set, using the saved copy")
@@ -237,6 +400,8 @@ def load(root, today, offline=False, fixtures=None):
                 page = fetch(url)
             if page:
                 recs = parser(page)
+                if recs and key == "d":
+                    recs = add_details(root, recs, now, fixtures=fixtures, offline=offline)
                 if recs:
                     cache[key] = {"fetched_at": now.isoformat(timespec="minutes"), "records": recs}
                     changed = True
@@ -267,7 +432,7 @@ def apply(recs, peers, today, stamp):
     for r in recs:
         for k in _keys(r.get("id"), r.get("symbol"), r.get("name")):
             idx[k] = r
-    order = {B: 0, C: 1}
+    order = {B: 0, C: 1, D: 2}
     by_key, rows, added, subs, cand = {}, [], 0, 0, {}
     for p in sorted(peers, key=lambda x: order.get(x["src"], 9)):
         mine = None
@@ -294,6 +459,9 @@ def apply(recs, peers, today, stamp):
         extra_fill(mine, p, cand)
         if p.get("gmp") not in (None, 0):                                   # 0 means "no quote yet" on these sites
             rows.append({"ipo": mine["id"], "gmp": _tidy(p["gmp"]), "at": p["gmp_at"] or stamp[:16], "source": p["src"]})
+        for day, g in (p.get("detail") or {}).get("gmp_history", []):       # earlier days, stamped just after midnight so a live reading wins
+            if g and day < today.isoformat():
+                rows.append({"ipo": mine["id"], "gmp": _tidy(g), "at": f"{day}T00:01", "source": p["src"]})
         if p["src"] == B and p.get("sub_total"):
             if not mine.get("sub") or mine.get("sub_basis") == B:        # never replace the exchanges' own figures
                 sub = {"total": round(p["sub_total"], 2)}
@@ -306,7 +474,7 @@ def apply(recs, peers, today, stamp):
         mine = by_key[k]
         if mine.get("lot"):
             continue
-        lot = c.get("c") or c.get("b")
+        lot = c.get("c") or c.get("d") or c.get("b")
         if lot:
             mine["lot"], mine["lot_basis"] = _tidy(lot), "tracker"
             lots += 1
@@ -318,8 +486,8 @@ def apply(recs, peers, today, stamp):
 def extra_fill(mine, p, cand):
     """Fills only what we have no figure for. The exchanges' own numbers are never replaced."""
     c = cand.setdefault(mine["id"], {})
-    if p["src"] == C and p.get("lot"):
-        c["c"] = p["lot"]                                                   # one lot, as the table shows it
+    if p["src"] in (C, D) and p.get("lot"):
+        c["c" if p["src"] == C else "d"] = p["lot"]                         # one lot, as the table shows it
     if p["src"] == B and p.get("lot_raw"):                                  # SME issues list the 2-lot minimum here
         c["b"] = p["lot_raw"] / 2 if p["segment"] == "SME" else p["lot_raw"]
     if mine.get("size_cr") is None and p.get("size_cr"):
@@ -340,6 +508,9 @@ def extra_fill(mine, p, cand):
         mine["issue_split"] = {"fresh_cr": p["fresh_cr"], "ofs_cr": p["ofs_cr"]}
     if p["src"] == C and p.get("rating"):
         mine["tracker_rating"] = p["rating"]
+    det = p.get("detail") or {}
+    if det.get("years") or det.get("ratios"):                              # offer-document numbers that passed the checks
+        mine["fin"] = {"years": det.get("years") or [], "ratios": det.get("ratios") or {}}
 
 
 def tidy_price(v):
@@ -359,11 +530,19 @@ def keep_new(root, rows):
         store = json.loads(path.read_text(encoding="utf-8"))
     except Exception:
         store = {"rows": []}
-    last = {}
+    last, seen = {}, set()
     for r in store["rows"]:
         last[(r["ipo"], r["source"])] = r
+        seen.add((r["ipo"], r["source"], r["at"]))
     changed = False
     for r in rows:
+        if (r["ipo"], r["source"], r["at"]) in seen:
+            continue
+        seen.add((r["ipo"], r["source"], r["at"]))
+        if r["at"].endswith("T00:01"):                                 # a past day's reading: keep every one, once
+            store["rows"].append(r)
+            changed = True
+            continue
         prev = last.get((r["ipo"], r["source"]))
         if prev and prev["gmp"] == r["gmp"]:
             try:
