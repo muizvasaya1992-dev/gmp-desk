@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T02:15+05:30",
+  "generated_at": "2026-10-31T02:24+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-10-30T09:45+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-10-31T02:01+05:30",
+    "nse_ok_at": "2026-10-31T02:24+05:30",
     "bse_ok_at": "2026-10-30T11:26+05:30"
   },
   "ipos": [
@@ -1496,7 +1496,7 @@
         "retail": 3.02,
         "total": 3.78
       },
-      "updated_on": "2026-10-31T00:01+05:30",
+      "updated_on": "2026-10-31T02:24+05:30",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "Smart Horizon Capital Advisors Private Limited"
@@ -2337,7 +2337,7 @@
         "bnii": 15.33,
         "snii": 11.71,
         "retail": 3.08,
-        "total": 5.09
+        "total": 2.9
       },
       "sub_basis": "NSE+BSE",
       "sub_asof": "2026-10-30T19:00",
@@ -2777,12 +2777,21 @@
           "snii": 11.71,
           "retail": 3.08,
           "total": 5.09
+        },
+        {
+          "at": "2026-10-31T02:24+05:30",
+          "qib": 1.84,
+          "nii": 14.12,
+          "bnii": 15.33,
+          "snii": 11.71,
+          "retail": 3.08,
+          "total": 2.9
         }
       ],
       "series": "EQ",
       "nse_status": "Closed",
       "shares_offered": 11900000.0,
-      "updated_on": "2026-10-31T00:01+05:30",
+      "updated_on": "2026-10-31T02:24+05:30",
       "bse_ipo_no": "8062",
       "sector": "Gems Jewellery and Watches",
       "issue_split": {
@@ -2953,7 +2962,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": null,
-      "updated_on": "2026-10-31T00:01+05:30",
+      "updated_on": "2026-10-31T02:24+05:30",
       "price": 158,
       "reservation": {
         "qib": 49.84,
@@ -3077,7 +3086,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": null,
-      "updated_on": "2026-10-31T00:01+05:30",
+      "updated_on": "2026-10-31T02:24+05:30",
       "price": 120,
       "tracker_rating": 4,
       "sector": "Oil Exploration & Production",
@@ -3154,7 +3163,7 @@
       "series": "SME",
       "nse_status": "Forthcoming",
       "shares_offered": 6030000.0,
-      "updated_on": "2026-10-31T00:01+05:30",
+      "updated_on": "2026-10-31T02:24+05:30",
       "tracker_rating": 1,
       "sector": "Flexible Packaging",
       "fin": {
@@ -3468,7 +3477,7 @@
         "total": 1.12,
         "retail": 1.93
       },
-      "updated_on": "2026-10-31T02:15+05:30",
+      "updated_on": "2026-10-31T02:24+05:30",
       "from_peers": true,
       "exchange": "BSE SME",
       "registrar": "KFin Technologies Limited",
