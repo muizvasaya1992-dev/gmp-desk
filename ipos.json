@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T11:07+05:30",
+  "generated_at": "2026-10-30T11:09+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,8 +23,8 @@
     "fetched_at": "2026-10-30T09:45+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-10-30T11:07+05:30",
-    "bse_ok_at": "2026-10-30T11:07+05:30"
+    "nse_ok_at": "2026-10-30T11:09+05:30",
+    "bse_ok_at": "2026-10-30T11:09+05:30"
   },
   "ipos": [
     {
@@ -764,7 +764,7 @@
       "series": "EQ",
       "nse_status": "Closed",
       "shares_offered": 11900000.0,
-      "updated_on": "2026-10-30T11:07+05:30",
+      "updated_on": "2026-10-30T11:09+05:30",
       "bse_ipo_no": "8056",
       "issue_split": {
         "fresh_cr": 255.0,
@@ -1070,7 +1070,7 @@
       "series": "EQ",
       "nse_status": "Closed",
       "shares_offered": 14159744.0,
-      "updated_on": "2026-10-30T11:07+05:30",
+      "updated_on": "2026-10-30T11:09+05:30",
       "bse_ipo_no": "8060",
       "sector": "Environmental Technology / Wastewater Treatment",
       "issue_split": {
@@ -1081,28 +1081,28 @@
       "fin": {
         "years": [
           {
-            "y": "FY24",
-            "income": 676.74,
-            "pat": 144.17,
+            "debt": 139.16,
             "ebitda": 193.25,
+            "income": 676.74,
             "net_worth": 534.3,
-            "debt": 139.16
+            "pat": 144.17,
+            "y": "FY24"
           },
           {
-            "y": "FY25",
-            "income": 726.96,
-            "pat": 152.01,
+            "debt": 83.71,
             "ebitda": 207.48,
+            "income": 726.96,
             "net_worth": 648.68,
-            "debt": 83.71
+            "pat": 152.01,
+            "y": "FY25"
           },
           {
-            "y": "FY26",
-            "income": 821.27,
-            "pat": 160.21,
+            "debt": 195.64,
             "ebitda": 235.81,
+            "income": 821.27,
             "net_worth": 804.17,
-            "debt": 195.64
+            "pat": 160.21,
+            "y": "FY26"
           }
         ],
         "ratios": {}
@@ -1126,7 +1126,7 @@
         {
           "source": "Tracker D",
           "gmp": 20,
-          "at": "2026-10-30T11:07"
+          "at": "2026-10-30T11:09"
         }
       ],
       "gmp_history": [
@@ -1163,7 +1163,7 @@
       "gmp_low": 10,
       "gmp_high": 32,
       "gmp": 20,
-      "gmp_asof": "2026-10-30T11:07",
+      "gmp_asof": "2026-10-30T11:09",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 6.06,
       "gmp_spread": {
@@ -1419,7 +1419,7 @@
         {
           "source": "Tracker C",
           "gmp": 38,
-          "at": "2026-10-30T09:37"
+          "at": "2026-10-30T07:37"
         }
       ],
       "gmp_history": [
@@ -1488,11 +1488,11 @@
         "qib": 6.55,
         "nii": 1.0,
         "bnii": 0.67,
-        "snii": 1.64,
-        "retail": 1.84,
-        "total": 3.03
+        "snii": 1.66,
+        "retail": 1.85,
+        "total": 3.04
       },
-      "updated_on": "2026-10-30T11:07+05:30",
+      "updated_on": "2026-10-30T11:09+05:30",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "Smart Horizon Capital Advisors Private Limited"
@@ -1506,7 +1506,7 @@
       "symbol": "BCSSL",
       "official": true,
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-10-30T11:03",
+      "sub_asof": "2026-10-30T11:06",
       "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_BCSSL.zip",
       "retail_max": 200000,
       "cutoff_time": "5:00 PM",
@@ -1605,6 +1605,15 @@
           "snii": 1.64,
           "retail": 1.84,
           "total": 3.03
+        },
+        {
+          "at": "2026-10-30T11:09+05:30",
+          "qib": 6.55,
+          "nii": 1.0,
+          "bnii": 0.67,
+          "snii": 1.66,
+          "retail": 1.85,
+          "total": 3.04
         }
       ],
       "series": "EQ",
@@ -1620,28 +1629,28 @@
       "fin": {
         "years": [
           {
-            "y": "FY24",
-            "income": 765.41,
-            "pat": 21.14,
+            "debt": 234.16,
             "ebitda": 49.17,
+            "income": 765.41,
             "net_worth": 54.36,
-            "debt": 234.16
+            "pat": 21.14,
+            "y": "FY24"
           },
           {
-            "y": "FY25",
-            "income": 1058.65,
-            "pat": 28.67,
+            "debt": 276.96,
             "ebitda": 74.09,
+            "income": 1058.65,
             "net_worth": 83.05,
-            "debt": 276.96
+            "pat": 28.67,
+            "y": "FY25"
           },
           {
-            "y": "FY26",
-            "income": 1269.83,
-            "pat": 30.54,
+            "debt": 338.45,
             "ebitda": 86.09,
+            "income": 1269.83,
             "net_worth": 121.58,
-            "debt": 338.45
+            "pat": 30.54,
+            "y": "FY26"
           }
         ],
         "ratios": {}
@@ -1665,7 +1674,7 @@
         {
           "source": "Tracker D",
           "gmp": 9,
-          "at": "2026-10-30T11:07"
+          "at": "2026-10-30T11:09"
         }
       ],
       "gmp_history": [
@@ -1695,14 +1704,14 @@
         },
         {
           "date": "2026-10-30",
-          "gmp": 8
+          "gmp": 9
         }
       ],
       "history_source": "Tracker D",
       "gmp_low": 7.5,
       "gmp_high": 10,
       "gmp": 9,
-      "gmp_asof": "2026-10-30T11:07",
+      "gmp_asof": "2026-10-30T11:09",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 10.98,
       "gmp_spread": {
@@ -1853,28 +1862,28 @@
       "fin": {
         "years": [
           {
-            "y": "FY24",
-            "income": 3.21,
-            "pat": -1.36,
+            "debt": 0,
             "ebitda": -1.73,
+            "income": 3.21,
             "net_worth": 4.17,
-            "debt": 0
+            "pat": -1.36,
+            "y": "FY24"
           },
           {
-            "y": "FY25",
-            "income": 14.49,
-            "pat": 1.25,
+            "debt": 0,
             "ebitda": 1.79,
+            "income": 14.49,
             "net_worth": 0.34,
-            "debt": 0
+            "pat": 1.25,
+            "y": "FY25"
           },
           {
-            "y": "FY26",
-            "income": 197.13,
-            "pat": 20.41,
+            "debt": 25.26,
             "ebitda": 28.09,
+            "income": 197.13,
             "net_worth": 30.61,
-            "debt": 25.26
+            "pat": 20.41,
+            "y": "FY26"
           }
         ],
         "ratios": {}
@@ -1971,43 +1980,43 @@
         "ofs_cr": 0.0
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-10-30T11:05",
+      "sub_asof": "2026-10-30T11:07",
       "tracker_rating": 1,
       "fin": {
         "years": [
           {
-            "y": "FY24",
-            "income": 21.67,
-            "pat": 1.01,
+            "debt": 13.39,
             "ebitda": 4.12,
+            "income": 21.67,
             "net_worth": 3.11,
-            "debt": 13.39
+            "pat": 1.01,
+            "y": "FY24"
           },
           {
-            "y": "FY25",
-            "income": 24.97,
-            "pat": 1.45,
+            "debt": 22.32,
             "ebitda": 4.92,
+            "income": 24.97,
             "net_worth": 4.56,
-            "debt": 22.32
+            "pat": 1.45,
+            "y": "FY25"
           },
           {
-            "y": "FY26",
-            "income": 27.12,
-            "pat": 3.48,
+            "debt": 15.65,
             "ebitda": 8.36,
+            "income": 27.12,
             "net_worth": 16.13,
-            "debt": 15.65
+            "pat": 3.48,
+            "y": "FY26"
           }
         ],
         "ratios": {
-          "pe": 21.16,
           "eps": 3.78,
           "fy": "FY26",
-          "pbv": 4.74,
           "nav": 16.86,
-          "ronw": 21.57,
-          "roce": 24.5
+          "pbv": 4.74,
+          "pe": 21.16,
+          "roce": 24.5,
+          "ronw": 21.57
         }
       },
       "lot_basis": "tracker",
@@ -2035,14 +2044,14 @@
       "segment": "MAIN",
       "sub": {
         "qib": 0.99,
-        "nii": 3.75,
-        "bnii": 4.17,
-        "snii": 2.91,
-        "retail": 1.31,
-        "total": 1.74
+        "nii": 3.79,
+        "bnii": 4.21,
+        "snii": 2.96,
+        "retail": 1.33,
+        "total": 1.76
       },
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-10-30T11:03",
+      "sub_asof": "2026-10-30T11:06",
       "registrar": "Bigshare Services Private Limited",
       "lead_managers": [
         "Aryaman Financial Services Limited"
@@ -2209,12 +2218,21 @@
           "snii": 2.91,
           "retail": 1.31,
           "total": 1.74
+        },
+        {
+          "at": "2026-10-30T11:09+05:30",
+          "qib": 0.99,
+          "nii": 3.79,
+          "bnii": 4.21,
+          "snii": 2.96,
+          "retail": 1.33,
+          "total": 1.76
         }
       ],
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 11900000.0,
-      "updated_on": "2026-10-30T11:07+05:30",
+      "updated_on": "2026-10-30T11:09+05:30",
       "bse_ipo_no": "8062",
       "sector": "Gems Jewellery and Watches",
       "issue_split": {
@@ -2225,38 +2243,38 @@
       "fin": {
         "years": [
           {
-            "y": "FY24",
-            "income": 217.4,
-            "pat": 8.17,
+            "debt": 38.64,
             "ebitda": 12.87,
+            "income": 217.4,
             "net_worth": 22.27,
-            "debt": 38.64
+            "pat": 8.17,
+            "y": "FY24"
           },
           {
-            "y": "FY25",
-            "income": 351.32,
-            "pat": 23.26,
+            "debt": 68.93,
             "ebitda": 38.57,
+            "income": 351.32,
             "net_worth": 116.21,
-            "debt": 68.93
+            "pat": 23.26,
+            "y": "FY25"
           },
           {
-            "y": "FY26",
-            "income": 538.86,
-            "pat": 51.8,
+            "debt": 68.44,
             "ebitda": 82.94,
+            "income": 538.86,
             "net_worth": 167.9,
-            "debt": 68.44
+            "pat": 51.8,
+            "y": "FY26"
           }
         ],
         "ratios": {
-          "pe": 13.36,
           "eps": 12.13,
           "fy": "FY26",
-          "pbv": 4.12,
           "nav": 39.36,
-          "ronw": 30.83,
-          "roce": 39.88
+          "pbv": 4.12,
+          "pe": 13.36,
+          "roce": 39.88,
+          "ronw": 30.83
         }
       },
       "gmp_sources": [
@@ -2278,7 +2296,7 @@
         {
           "source": "Tracker D",
           "gmp": 12,
-          "at": "2026-10-30T11:07"
+          "at": "2026-10-30T11:09"
         }
       ],
       "gmp_history": [
@@ -2315,7 +2333,7 @@
       "gmp_low": 7,
       "gmp_high": 16,
       "gmp": 12,
-      "gmp_asof": "2026-10-30T11:07",
+      "gmp_asof": "2026-10-30T11:09",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 7.41,
       "gmp_spread": {
@@ -2356,7 +2374,7 @@
         "total": 0.0
       },
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-10-30T11:03",
+      "sub_asof": "2026-10-30T11:06",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "JDA CAPITAL SERVICES LIMITED (Formerly Known as Beeline Broking Limited)"
@@ -2381,7 +2399,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": null,
-      "updated_on": "2026-10-30T11:07+05:30",
+      "updated_on": "2026-10-30T11:09+05:30",
       "price": 158,
       "tracker_rating": 4,
       "sector": "Other Industrial Products",
@@ -2395,7 +2413,7 @@
         {
           "source": "Tracker D",
           "gmp": 70,
-          "at": "2026-10-30T11:07"
+          "at": "2026-10-30T11:09"
         }
       ],
       "gmp_history": [
@@ -2421,7 +2439,7 @@
       "gmp_high": 70,
       "exchange": "SME",
       "gmp": 70,
-      "gmp_asof": "2026-10-30T11:07",
+      "gmp_asof": "2026-10-30T11:09",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 44.3,
       "gmp_spread": {
@@ -2462,7 +2480,7 @@
         "total": 0.0
       },
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-10-30T11:03",
+      "sub_asof": "2026-10-30T11:06",
       "registrar": "Kfin Technologies Limited",
       "lead_managers": [
         "Hem Securities Limited"
@@ -2487,7 +2505,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": null,
-      "updated_on": "2026-10-30T11:07+05:30",
+      "updated_on": "2026-10-30T11:09+05:30",
       "price": 120,
       "tracker_rating": 1,
       "sector": "Oil Exploration & Production",
@@ -2526,34 +2544,34 @@
       "series": "SME",
       "nse_status": "Forthcoming",
       "shares_offered": 6030000.0,
-      "updated_on": "2026-10-30T11:07+05:30",
+      "updated_on": "2026-10-30T11:09+05:30",
       "tracker_rating": 1,
       "sector": "Flexible Packaging",
       "fin": {
         "years": [
           {
-            "y": "FY24",
-            "income": 49.53,
-            "pat": 0.63,
+            "debt": 6.34,
             "ebitda": 1.28,
+            "income": 49.53,
             "net_worth": 3.85,
-            "debt": 6.34
+            "pat": 0.63,
+            "y": "FY24"
           },
           {
-            "y": "FY25",
-            "income": 81.02,
-            "pat": 4.56,
+            "debt": 11.31,
             "ebitda": 7.74,
+            "income": 81.02,
             "net_worth": 15.42,
-            "debt": 11.31
+            "pat": 4.56,
+            "y": "FY25"
           },
           {
-            "y": "FY26",
-            "income": 115.13,
-            "pat": 10.97,
+            "debt": 46.8,
             "ebitda": 19,
+            "income": 115.13,
             "net_worth": 42.25,
-            "debt": 46.8
+            "pat": 10.97,
+            "y": "FY26"
           }
         ],
         "ratios": {}
@@ -2590,28 +2608,28 @@
       "fin": {
         "years": [
           {
-            "y": "FY24",
-            "income": 12.59,
-            "pat": 0.89,
+            "debt": 0.36,
             "ebitda": 1.36,
+            "income": 12.59,
             "net_worth": 3.54,
-            "debt": 0.36
+            "pat": 0.89,
+            "y": "FY24"
           },
           {
-            "y": "FY25",
-            "income": 31.98,
-            "pat": 1.82,
+            "debt": 3.85,
             "ebitda": 2.82,
+            "income": 31.98,
             "net_worth": 12.19,
-            "debt": 3.85
+            "pat": 1.82,
+            "y": "FY25"
           },
           {
-            "y": "FY26",
-            "income": 47.53,
-            "pat": 4.24,
+            "debt": 4.19,
             "ebitda": 6.15,
+            "income": 47.53,
             "net_worth": 17.03,
-            "debt": 4.19
+            "pat": 4.24,
+            "y": "FY26"
           }
         ],
         "ratios": {}
@@ -2647,28 +2665,28 @@
       "fin": {
         "years": [
           {
-            "y": "FY24",
-            "income": 88.95,
-            "pat": 2.52,
+            "debt": 32.81,
             "ebitda": 5.42,
+            "income": 88.95,
             "net_worth": 8.88,
-            "debt": 32.81
+            "pat": 2.52,
+            "y": "FY24"
           },
           {
-            "y": "FY25",
-            "income": 140,
-            "pat": 5.46,
+            "debt": 41.79,
             "ebitda": 12.14,
+            "income": 140,
             "net_worth": 14.24,
-            "debt": 41.79
+            "pat": 5.46,
+            "y": "FY25"
           },
           {
-            "y": "FY26",
-            "income": 211.34,
-            "pat": 13.42,
+            "debt": 79.88,
             "ebitda": 24.06,
+            "income": 211.34,
             "net_worth": 31.44,
-            "debt": 79.88
+            "pat": 13.42,
+            "y": "FY26"
           }
         ],
         "ratios": {}
@@ -2683,7 +2701,7 @@
         {
           "source": "Tracker D",
           "gmp": 12,
-          "at": "2026-10-30T11:07"
+          "at": "2026-10-30T11:09"
         }
       ],
       "gmp_history": [
@@ -2704,7 +2722,7 @@
       "gmp_low": 9,
       "gmp_high": 13,
       "gmp": 12,
-      "gmp_asof": "2026-10-30T11:07",
+      "gmp_asof": "2026-10-30T11:09",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 6.0,
       "gmp_spread": {
@@ -2746,28 +2764,28 @@
       "fin": {
         "years": [
           {
-            "y": "FY24",
-            "income": 54.37,
-            "pat": 5.81,
+            "debt": 4.16,
             "ebitda": 8.67,
+            "income": 54.37,
             "net_worth": 12.15,
-            "debt": 4.16
+            "pat": 5.81,
+            "y": "FY24"
           },
           {
-            "y": "FY25",
-            "income": 80.53,
-            "pat": 10.17,
+            "debt": 11.87,
             "ebitda": 15.05,
+            "income": 80.53,
             "net_worth": 22.32,
-            "debt": 11.87
+            "pat": 10.17,
+            "y": "FY25"
           },
           {
-            "y": "FY26",
-            "income": 119.9,
-            "pat": 15.43,
+            "debt": 22.21,
             "ebitda": 24.01,
+            "income": 119.9,
             "net_worth": 37.75,
-            "debt": 22.21
+            "pat": 15.43,
+            "y": "FY26"
           }
         ],
         "ratios": {}
@@ -2798,7 +2816,7 @@
         "total": 0.96,
         "retail": 1.72
       },
-      "updated_on": "2026-10-30T11:07+05:30",
+      "updated_on": "2026-10-30T11:09+05:30",
       "from_peers": true,
       "exchange": "BSE SME",
       "registrar": "KFin Technologies Limited",
@@ -2820,13 +2838,13 @@
       "fin": {
         "years": [],
         "ratios": {
-          "pe": 14.97,
           "eps": 13.56,
           "fy": "FY26",
-          "pbv": 4.58,
           "nav": 44.28,
-          "ronw": 36.15,
-          "roce": 34.75
+          "pbv": 4.58,
+          "pe": 14.97,
+          "roce": 34.75,
+          "ronw": 36.15
         }
       },
       "lot_basis": "tracker",
@@ -2844,7 +2862,7 @@
         {
           "source": "Tracker D",
           "gmp": 2,
-          "at": "2026-10-30T11:07"
+          "at": "2026-10-30T11:09"
         }
       ],
       "gmp_history": [
@@ -2869,7 +2887,7 @@
       "gmp_low": 2,
       "gmp_high": 38,
       "gmp": 2,
-      "gmp_asof": "2026-10-30T11:07",
+      "gmp_asof": "2026-10-30T11:09",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 0.99,
       "gmp_spread": {
