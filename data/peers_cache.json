@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-10-31T02:31+05:30",
+  "fetched_at": "2026-10-31T02:46+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -19,7 +19,7 @@
     "gmp_at": "2026-10-30T23:55",
     "sub_total": 3.98,
     "sub_retail": 3.17,
-    "sub_at": "2026-10-31T02:25",
+    "sub_at": "2026-10-31T02:42",
     "lot_raw": 182.0,
     "sector": "Steel Processing",
     "quota": {
@@ -97,37 +97,6 @@
    },
    {
     "src": "Tracker B",
-    "slug": "bls-polymers",
-    "name": "BLS Polymers",
-    "segment": "MAIN",
-    "exchange": null,
-    "open": "2026-10-27",
-    "close": "2026-10-29",
-    "boa": "2026-10-30",
-    "listing": "2026-11-03",
-    "price": 150.0,
-    "price_low": 142.0,
-    "size_cr": 255.0,
-    "gmp": 68.0,
-    "gmp_at": "2026-10-30T23:55",
-    "sub_total": 241.22,
-    "sub_retail": 128.36,
-    "sub_at": "2026-10-29T19:05",
-    "lot_raw": 100.0,
-    "sector": null,
-    "quota": {
-     "qib": 50.0,
-     "nii": 15.0,
-     "retail": 35.0
-    },
-    "fresh_cr": 255.0,
-    "ofs_cr": 0.0,
-    "registrar": "KFin Technologies Ltd.",
-    "lead_manager": "Unistone Capital Pvt. Ltd.",
-    "live": true
-   },
-   {
-    "src": "Tracker B",
     "slug": "sfc-environmental-technologies",
     "name": "SFC Environmental Technologies",
     "segment": "MAIN",
@@ -155,6 +124,37 @@
     "ofs_cr": 517.53,
     "registrar": "MUFG Intime India Pvt. Ltd.",
     "lead_manager": "IIFL Capital Services Ltd.; JM Financial Ltd.; Nuvama Wealth Management Ltd.",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
+    "slug": "bls-polymers",
+    "name": "BLS Polymers",
+    "segment": "MAIN",
+    "exchange": null,
+    "open": "2026-10-27",
+    "close": "2026-10-29",
+    "boa": "2026-10-30",
+    "listing": "2026-11-03",
+    "price": 150.0,
+    "price_low": 142.0,
+    "size_cr": 255.0,
+    "gmp": 68.0,
+    "gmp_at": "2026-10-30T23:55",
+    "sub_total": 241.22,
+    "sub_retail": 128.36,
+    "sub_at": "2026-10-29T19:05",
+    "lot_raw": 100.0,
+    "sector": null,
+    "quota": {
+     "qib": 50.0,
+     "nii": 15.0,
+     "retail": 35.0
+    },
+    "fresh_cr": 255.0,
+    "ofs_cr": 0.0,
+    "registrar": "KFin Technologies Ltd.",
+    "lead_manager": "Unistone Capital Pvt. Ltd.",
     "live": true
    },
    {
@@ -236,7 +236,7 @@
     "gmp_at": "2026-10-30T23:55",
     "sub_total": 4.67,
     "sub_retail": 7.47,
-    "sub_at": "2026-10-31T02:21",
+    "sub_at": "2026-10-31T02:39",
     "lot_raw": 1600.0,
     "sector": "Precision Engineering / Industrial Products",
     "quota": {
@@ -248,36 +248,6 @@
     "ofs_cr": 0.0,
     "registrar": "KFin Technologies Limited",
     "lead_manager": "JDA Capital Services Ltd.",
-    "live": true
-   },
-   {
-    "src": "Tracker B",
-    "slug": "ajwa-projects",
-    "name": "Ajwa Projects Limited",
-    "segment": "SME",
-    "exchange": "BSE SME",
-    "open": "2026-10-28",
-    "close": "2026-10-30",
-    "boa": "2026-11-02",
-    "listing": "2026-11-04",
-    "price": 203.0,
-    "price_low": 203.0,
-    "size_cr": 38.05,
-    "gmp": 2.0,
-    "gmp_at": "2026-10-30T23:55",
-    "sub_total": 1.12,
-    "sub_retail": 1.93,
-    "sub_at": "2026-10-30T19:05",
-    "lot_raw": 1200.0,
-    "sector": "Industrial EPC and Infrastructure",
-    "quota": {
-     "nii": 50.0,
-     "retail": 50.0
-    },
-    "fresh_cr": 30.45,
-    "ofs_cr": 7.6,
-    "registrar": "KFin Technologies Limited",
-    "lead_manager": "Wealth Mine Networks Private Limited",
     "live": true
    },
    {
@@ -309,6 +279,36 @@
     "ofs_cr": 0.0,
     "registrar": "Bigshare Services Pvt. Ltd.",
     "lead_manager": "Smart Horizon Capital Advisors Pvt. Ltd.",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
+    "slug": "ajwa-projects",
+    "name": "Ajwa Projects Limited",
+    "segment": "SME",
+    "exchange": "BSE SME",
+    "open": "2026-10-28",
+    "close": "2026-10-30",
+    "boa": "2026-11-02",
+    "listing": "2026-11-04",
+    "price": 203.0,
+    "price_low": 203.0,
+    "size_cr": 38.05,
+    "gmp": 2.0,
+    "gmp_at": "2026-10-30T23:55",
+    "sub_total": 1.12,
+    "sub_retail": 1.93,
+    "sub_at": "2026-10-30T19:05",
+    "lot_raw": 1200.0,
+    "sector": "Industrial EPC and Infrastructure",
+    "quota": {
+     "nii": 50.0,
+     "retail": 50.0
+    },
+    "fresh_cr": 30.45,
+    "ofs_cr": 7.6,
+    "registrar": "KFin Technologies Limited",
+    "lead_manager": "Wealth Mine Networks Private Limited",
     "live": true
    },
    {
@@ -376,7 +376,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-10-31T02:31+05:30",
+  "fetched_at": "2026-10-31T02:46+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -1041,7 +1041,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-10-31T02:31+05:30",
+  "fetched_at": "2026-10-31T02:46+05:30",
   "records": [
    {
     "src": "Tracker D",
