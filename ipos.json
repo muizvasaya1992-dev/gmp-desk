@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T11:53+05:30",
+  "generated_at": "2026-10-31T11:54+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,8 +23,8 @@
     "fetched_at": "2026-10-31T11:31+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-10-31T11:53+05:30",
-    "bse_ok_at": "2026-10-31T11:53+05:30"
+    "nse_ok_at": "2026-10-31T11:54+05:30",
+    "bse_ok_at": "2026-10-31T11:54+05:30"
   },
   "ipos": [
     {
@@ -781,7 +781,7 @@
         {
           "source": "Tracker B",
           "gmp": 68,
-          "at": "2026-10-31T11:25"
+          "at": "2026-10-31T11:50"
         },
         {
           "source": "Tracker C",
@@ -847,7 +847,7 @@
       "gmp_low": 19,
       "gmp_high": 70,
       "gmp": 68,
-      "gmp_asof": "2026-10-31T11:25",
+      "gmp_asof": "2026-10-31T11:50",
       "gmp_source_latest": "Tracker B",
       "gmp_pct": 45.33,
       "gmp_spread": {
@@ -1117,7 +1117,7 @@
         {
           "source": "Tracker B",
           "gmp": 20.5,
-          "at": "2026-10-31T11:25"
+          "at": "2026-10-31T11:50"
         },
         {
           "source": "Tracker C",
@@ -1179,10 +1179,10 @@
       "history_source": "Tracker B",
       "gmp_low": 10,
       "gmp_high": 32,
-      "gmp": 21,
-      "gmp_asof": "2026-10-31T11:46",
-      "gmp_source_latest": "Tracker D",
-      "gmp_pct": 6.36,
+      "gmp": 20.5,
+      "gmp_asof": "2026-10-31T11:50",
+      "gmp_source_latest": "Tracker B",
+      "gmp_pct": 6.21,
       "gmp_spread": {
         "min": 20,
         "max": 21,
@@ -1432,7 +1432,7 @@
         {
           "source": "Tracker B",
           "gmp": 52,
-          "at": "2026-10-31T11:25"
+          "at": "2026-10-31T11:50"
         },
         {
           "source": "Tracker C",
@@ -1482,7 +1482,7 @@
       "gmp_low": 9,
       "gmp_high": 120,
       "gmp": 52,
-      "gmp_asof": "2026-10-31T11:25",
+      "gmp_asof": "2026-10-31T11:50",
       "gmp_source_latest": "Tracker B",
       "gmp_pct": 3.12,
       "gmp_spread": {
@@ -1717,7 +1717,7 @@
         {
           "source": "Tracker B",
           "gmp": 7,
-          "at": "2026-10-31T11:25"
+          "at": "2026-10-31T11:50"
         },
         {
           "source": "Tracker D",
@@ -1767,8 +1767,8 @@
       "gmp_low": 7,
       "gmp_high": 10,
       "gmp": 7,
-      "gmp_asof": "2026-10-31T11:34",
-      "gmp_source_latest": "Tracker D",
+      "gmp_asof": "2026-10-31T11:50",
+      "gmp_source_latest": "Tracker B",
       "gmp_pct": 8.54,
       "gmp_spread": {
         "min": 7,
@@ -2393,7 +2393,7 @@
         {
           "source": "Tracker B",
           "gmp": 6,
-          "at": "2026-10-31T11:25"
+          "at": "2026-10-31T11:50"
         },
         {
           "source": "Tracker C",
@@ -2409,7 +2409,7 @@
       "gmp_history": [
         {
           "date": "2026-10-24",
-          "gmp": 8
+          "gmp": 7
         },
         {
           "date": "2026-10-25",
@@ -2417,36 +2417,36 @@
         },
         {
           "date": "2026-10-26",
-          "gmp": 9
-        },
-        {
-          "date": "2026-10-27",
           "gmp": 8
         },
         {
-          "date": "2026-10-28",
-          "gmp": 13
-        },
-        {
-          "date": "2026-10-29",
+          "date": "2026-10-27",
           "gmp": 10
         },
         {
+          "date": "2026-10-28",
+          "gmp": 16
+        },
+        {
+          "date": "2026-10-29",
+          "gmp": 14
+        },
+        {
           "date": "2026-10-30",
-          "gmp": 12
+          "gmp": 12.5
         },
         {
           "date": "2026-10-31",
-          "gmp": 5
+          "gmp": 6
         }
       ],
-      "history_source": "Tracker D",
+      "history_source": "Tracker B",
       "gmp_low": 2,
       "gmp_high": 16,
-      "gmp": 5,
-      "gmp_asof": "2026-10-31T11:46",
-      "gmp_source_latest": "Tracker D",
-      "gmp_pct": 3.09,
+      "gmp": 6,
+      "gmp_asof": "2026-10-31T11:50",
+      "gmp_source_latest": "Tracker B",
+      "gmp_pct": 3.7,
       "gmp_spread": {
         "min": 5,
         "max": 6,
@@ -2456,7 +2456,7 @@
       },
       "gmp_trend": {
         "dir": "falling",
-        "change": -5,
+        "change": -8,
         "days": 3,
         "since": "2026-10-29"
       },
@@ -2536,7 +2536,7 @@
         {
           "source": "Tracker B",
           "gmp": 70,
-          "at": "2026-10-31T11:25"
+          "at": "2026-10-31T11:50"
         }
       ],
       "gmp_history": [
@@ -2566,8 +2566,8 @@
       "gmp_high": 70,
       "exchange": "SME",
       "gmp": 70,
-      "gmp_asof": "2026-10-31T11:34",
-      "gmp_source_latest": "Tracker D",
+      "gmp_asof": "2026-10-31T11:50",
+      "gmp_source_latest": "Tracker B",
       "gmp_pct": 44.3,
       "gmp_spread": {
         "min": 70,
@@ -3057,7 +3057,7 @@
         "nii": 0.32,
         "total": 1.12
       },
-      "updated_on": "2026-10-31T11:53+05:30",
+      "updated_on": "2026-10-31T11:54+05:30",
       "from_peers": true,
       "exchange": "BSE SME",
       "registrar": "KFin Technologies Limited",
@@ -3093,7 +3093,7 @@
         {
           "source": "Tracker B",
           "gmp": 2,
-          "at": "2026-10-31T11:25"
+          "at": "2026-10-31T11:50"
         },
         {
           "source": "Tracker C",
@@ -3132,8 +3132,8 @@
       "gmp_low": 2,
       "gmp_high": 38,
       "gmp": 2,
-      "gmp_asof": "2026-10-31T11:34",
-      "gmp_source_latest": "Tracker D",
+      "gmp_asof": "2026-10-31T11:50",
+      "gmp_source_latest": "Tracker B",
       "gmp_pct": 0.99,
       "gmp_spread": {
         "min": 2,
