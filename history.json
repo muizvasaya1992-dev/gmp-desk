@@ -4,6 +4,76 @@
  "nse_as_of": "2026-10-31T11:31+05:30",
  "rows": [
   {
+   "name": "Vedant Poly Fabs",
+   "segment": "SME",
+   "symbol": "VPFL",
+   "listing": "2026-11-09",
+   "exchange": "SME",
+   "live": true,
+   "id": "vpfl",
+   "status": "upcoming",
+   "open": "2026-11-02",
+   "close": "2026-11-04",
+   "price": 94,
+   "price_low": 88
+  },
+  {
+   "name": "Maxwell Engineering Solutions",
+   "segment": "SME",
+   "symbol": "MAXENGS",
+   "listing": "2026-11-06",
+   "exchange": "SME",
+   "live": true,
+   "id": "maxengs",
+   "status": "open",
+   "open": "2026-10-30",
+   "close": "2026-11-03",
+   "price": 158,
+   "price_low": 150
+  },
+  {
+   "name": "HGS (India)",
+   "segment": "SME",
+   "symbol": "HGSINDIALT",
+   "listing": "2026-11-06",
+   "exchange": "SME",
+   "live": true,
+   "id": "hgsindialt",
+   "status": "open",
+   "open": "2026-10-30",
+   "close": "2026-11-03",
+   "price": 120,
+   "price_low": null
+  },
+  {
+   "name": "Johnsoncab Electricals",
+   "segment": "SME",
+   "symbol": null,
+   "listing": "2026-11-06",
+   "exchange": "BSE SME",
+   "live": true,
+   "id": "johnsoncab-electricals",
+   "status": "open",
+   "open": "2026-10-30",
+   "close": "2026-11-03",
+   "price": 200,
+   "price_low": 190
+  },
+  {
+   "name": "Vectras Enprocon",
+   "segment": "SME",
+   "symbol": null,
+   "listing": "2026-11-06",
+   "exchange": "BSE SME",
+   "live": true,
+   "id": "vectras-enprocon",
+   "status": "open",
+   "open": "2026-10-30",
+   "close": "2026-11-03",
+   "price": 105,
+   "price_low": 99
+  },
+  {
    "name": "Bombay Coated and Special Steels",
    "segment": "MAIN",
    "symbol": "BCSSL",
@@ -16,6 +86,20 @@
    "close": "2026-11-02",
    "price": 82,
    "price_low": 78
+  },
+  {
+   "name": "Antala Industries",
+   "segment": "SME",
+   "symbol": null,
+   "listing": "2026-11-05",
+   "exchange": "BSE SME",
+   "live": true,
+   "id": "antala-industries",
+   "status": "open",
+   "open": "2026-10-29",
+   "close": "2026-11-02",
+   "price": 67,
+   "price_low": 63
   },
   {
    "name": "Carver Roboweld",
@@ -32,18 +116,18 @@
    "price_low": 76
   },
   {
-   "name": "Vedant Poly Fabs",
-   "segment": "SME",
-   "symbol": "VPFL",
-   "listing": null,
-   "exchange": "SME",
+   "name": "M. K. Sons Fine Jewels",
+   "segment": "MAIN",
+   "symbol": "MKSONS",
+   "listing": "2026-11-04",
+   "exchange": "NSE · BSE",
    "live": true,
-   "id": "vpfl",
-   "status": "upcoming",
-   "open": "2026-11-02",
-   "close": "2026-11-04",
-   "price": 94,
-   "price_low": 88
+   "id": "mksons",
+   "status": "closed",
+   "open": "2026-10-28",
+   "close": "2026-10-30",
+   "price": 162,
+   "price_low": 153
   },
   {
    "name": "Ajwa Projects",
@@ -102,62 +186,6 @@
    "price_low": 194
   },
   {
-   "name": "Maxwell Engineering Solutions",
-   "segment": "SME",
-   "symbol": "MAXENGS",
-   "listing": null,
-   "exchange": "SME",
-   "live": true,
-   "id": "maxengs",
-   "status": "open",
-   "open": "2026-10-30",
-   "close": "2026-11-03",
-   "price": 158,
-   "price_low": 150
-  },
-  {
-   "name": "HGS (India)",
-   "segment": "SME",
-   "symbol": "HGSINDIALT",
-   "listing": null,
-   "exchange": "SME",
-   "live": true,
-   "id": "hgsindialt",
-   "status": "open",
-   "open": "2026-10-30",
-   "close": "2026-11-03",
-   "price": 120,
-   "price_low": null
-  },
-  {
-   "name": "Johnsoncab Electricals",
-   "segment": "SME",
-   "symbol": null,
-   "listing": null,
-   "exchange": "BSE SME",
-   "live": true,
-   "id": "johnsoncab-electricals",
-   "status": "open",
-   "open": "2026-10-30",
-   "close": "2026-11-03",
-   "price": 200,
-   "price_low": 190
-  },
-  {
-   "name": "Vectras Enprocon",
-   "segment": "SME",
-   "symbol": null,
-   "listing": null,
-   "exchange": "BSE SME",
-   "live": true,
-   "id": "vectras-enprocon",
-   "status": "open",
-   "open": "2026-10-30",
-   "close": "2026-11-03",
-   "price": 105,
-   "price_low": 99
-  },
-  {
    "name": "EAAA India Alternatives",
    "segment": "MAIN",
    "symbol": "EDELALTS",
@@ -170,20 +198,6 @@
    "close": "2026-10-28",
    "price": 1665,
    "price_low": 1585
-  },
-  {
-   "name": "Antala Industries",
-   "segment": "SME",
-   "symbol": null,
-   "listing": null,
-   "exchange": "BSE SME",
-   "live": true,
-   "id": "antala-industries",
-   "status": "open",
-   "open": "2026-10-29",
-   "close": "2026-11-02",
-   "price": 67,
-   "price_low": 63
   },
   {
    "name": "Core4 Engineers",
@@ -205,20 +219,6 @@
    "live": true,
    "id": "core4-engineers",
    "status": "listed"
-  },
-  {
-   "name": "M. K. Sons Fine Jewels",
-   "segment": "MAIN",
-   "symbol": "MKSONS",
-   "listing": null,
-   "exchange": "NSE · BSE",
-   "live": true,
-   "id": "mksons",
-   "status": "closed",
-   "open": "2026-10-28",
-   "close": "2026-10-30",
-   "price": 162,
-   "price_low": 153
   },
   {
    "name": "Paras Healthcare",
@@ -5544,5 +5544,5 @@
    "status": "listed"
   }
  ],
- "generated_at": "2026-10-31T11:34+05:30"
+ "generated_at": "2026-10-31T11:53+05:30"
 }

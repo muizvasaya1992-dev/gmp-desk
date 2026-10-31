@@ -1045,11 +1045,22 @@ function oddsBlock(i){
   return `<h3>Chance of allotment</h3><div class="odds"><b>about 1 in ${n}</b><span class="micro">retail applications get a lot</span></div>
     <p class="micro" style="margin:6px 0 0">The retail part ${w} subscribed <b>${r.toFixed(2)}x</b>. Shares are given out by a draw of lots, so this is the rough share of applicants who ${done?"received":"receive"} the minimum lot. Applying for more lots does not improve your odds in the retail category${done?"":", and the figure changes until bidding closes"}.</p>`;
 }
+function usesBlock(i){
+  const u=i.uses; if(!u||!u.length) return "";
+  const tot=u.reduce((a,x)=>a+(x.cr||0),0);
+  return `<h3>Where the money goes</h3><table class="mini-t"><thead><tr><th>Use</th><th class="r">Amount</th><th class="r">Share</th></tr></thead><tbody>${u.map(x=>`<tr><td>${esc(x.use)}</td><td class="r">₹${inr(x.cr)} Cr</td><td class="r">${tot?Math.round(x.cr/tot*100):0}%</td></tr>`).join("")}<tr><td><b>Total</b></td><td class="r"><b>₹${inr(Math.round(tot*100)/100)} Cr</b></td><td class="r"></td></tr></tbody></table>
+    <p class="micro" style="margin-top:6px">How the company says it will use the money it raises, from the offer document. Only the fresh-issue part reaches the company; money from an offer for sale goes to the selling shareholders.</p>`;
+}
+function docsBlock(i){
+  const d=[["Red herring prospectus (RHP)",i.rhp_url],["Draft prospectus (DRHP)",i.drhp_url]].filter(x=>x[1]&&String(x[1]).startsWith("http"));
+  if(!d.length) return "";
+  return `<h3>Official documents</h3><p class="micro" style="margin:0">${d.map(x=>`<a href="${esc(x[1])}" target="_blank" rel="noopener noreferrer">${x[0]} ↗</a>`).join(" · ")}</p>`;
+}
 function reservationBlock(i){
-  const r=i.reservation; if(!r) return "";
-  const parts=[["QIB",r.qib,"#2f6fed"],["NII",r.nii,"#79a8ff"],["Retail",r.retail,"#14905d"],["Employees",r.employee,"#c07a0b"],["Shareholders",r.shareholders,"#8b96b0"]].filter(p=>p[1]);
+  const r=i.reservation, rd=i.reservation_detail; if(!r) return "";
+  const parts=[["QIB",r.qib,"#2f6fed"],["NII",r.nii,"#79a8ff"],["Retail",r.retail,"#14905d"],["Employees",r.employee,"#c07a0b"],["Shareholders",r.shareholders,"#8b96b0"],["Market maker",r.market_maker,"#a86bd1"]].filter(p=>p[1]);
   return `<h3>Reservation</h3><div class="resv" role="img" aria-label="Reservation split">${parts.map(p=>`<i style="width:${p[1]}%;background:${p[2]}"></i>`).join("")}</div>
-    <ul class="legend">${parts.map(p=>`<li style="--c:${p[2]}">${p[0]} ${p[1]}%</li>`).join("")}</ul>`;
+    <ul class="legend">${parts.map(p=>`<li style="--c:${p[2]}">${p[0]} ${p[1]}%</li>`).join("")}</ul>${rd&&rd.anchor?`<p class="micro" style="margin:4px 0 0">Anchor investors take ${inr(rd.anchor.shares)} shares (${rd.anchor.pct}% of the issue), out of the QIB part.</p>`:""}`;
 }
 function subHistoryBlock(i){
   const h=i.sub_history||[]; if(!h.length) return "";
@@ -1625,7 +1636,9 @@ function openDrawer(id, quiet){
     <h3>Subscription</h3>${sub}${subNote}
     ${subHistoryBlock(i)}
     ${reservationBlock(i)}
+    ${usesBlock(i)}
     ${finBlock(i)}
+    ${docsBlock(i)}
     <p class="fine">GMP is unofficial and can differ a lot from the final listing price. Facts such as lot size and reservation are entered from offer documents: check them in the RHP.</p>`;
   const d=$("drawer"); if(!d.open) d.showModal();
   if(!quiet) history.replaceState(null,"","#ipo="+encodeURIComponent(id));

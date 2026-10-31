@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T11:48+05:30",
+  "generated_at": "2026-10-31T11:53+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,8 +23,8 @@
     "fetched_at": "2026-10-31T11:31+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-10-31T11:48+05:30",
-    "bse_ok_at": "2026-10-31T11:47+05:30"
+    "nse_ok_at": "2026-10-31T11:53+05:30",
+    "bse_ok_at": "2026-10-31T11:53+05:30"
   },
   "ipos": [
     {
@@ -766,6 +766,7 @@
       "shares_offered": 11900000.0,
       "updated_on": "2026-10-30T19:15+05:30",
       "bse_ipo_no": "8056",
+      "drhp_url": "https://nsearchives.nseindia.com/corporate/Registration_07082025095701_BLS_Polymers_Limited.pdf",
       "issue_split": {
         "fresh_cr": 255.0,
         "ofs_cr": 0.0
@@ -784,42 +785,66 @@
         },
         {
           "source": "Tracker C",
-          "gmp": 70,
-          "at": "2026-10-31T07:37"
+          "gmp": 68,
+          "at": "2026-10-31T11:02"
         }
       ],
       "gmp_history": [
+        {
+          "date": "2026-10-19",
+          "gmp": 19
+        },
+        {
+          "date": "2026-10-20",
+          "gmp": 25
+        },
+        {
+          "date": "2026-10-21",
+          "gmp": 25
+        },
+        {
+          "date": "2026-10-22",
+          "gmp": 25
+        },
         {
           "date": "2026-10-23",
           "gmp": 24
         },
         {
+          "date": "2026-10-24",
+          "gmp": 36.5
+        },
+        {
+          "date": "2026-10-25",
+          "gmp": 33.67
+        },
+        {
           "date": "2026-10-26",
-          "gmp": 28
+          "gmp": 35.33
         },
         {
           "date": "2026-10-27",
-          "gmp": 34
+          "gmp": 39.33
         },
         {
           "date": "2026-10-28",
-          "gmp": 40
+          "gmp": 45
         },
         {
           "date": "2026-10-29",
-          "gmp": 42
+          "gmp": 51
         },
         {
           "date": "2026-10-30",
-          "gmp": 63
+          "gmp": 68
         },
         {
           "date": "2026-10-31",
-          "gmp": 66
+          "gmp": 68
         }
       ],
-      "history_source": "Public trackers",
-      "gmp_low": 24,
+      "history_source": "Tracker B",
+      "gmp_low": 19,
       "gmp_high": 70,
       "gmp": 68,
       "gmp_asof": "2026-10-31T11:25",
@@ -827,14 +852,14 @@
       "gmp_pct": 45.33,
       "gmp_spread": {
         "min": 66,
-        "max": 70,
-        "diff": 4,
+        "max": 68,
+        "diff": 2,
         "n": 3,
-        "diff_pct_of_price": 2.67
+        "diff_pct_of_price": 1.33
       },
       "gmp_trend": {
         "dir": "rising",
-        "change": 24,
+        "change": 17,
         "days": 3,
         "since": "2026-10-29"
       },
@@ -1076,6 +1101,7 @@
       "shares_offered": 14159744.0,
       "updated_on": "2026-10-30T19:15+05:30",
       "bse_ipo_no": "8060",
+      "drhp_url": "https://www.bseindia.com/corporates/download/329313/IPO%20Prior/DRHP_August_25_2025_20250825140721.pdf",
       "sector": "Environmental Technology / Wastewater Treatment",
       "issue_split": {
         "fresh_cr": 150.0,
@@ -1095,8 +1121,8 @@
         },
         {
           "source": "Tracker C",
-          "gmp": 20,
-          "at": "2026-10-31T07:37"
+          "gmp": 21,
+          "at": "2026-10-31T11:02"
         },
         {
           "source": "Tracker D",
@@ -1105,6 +1131,10 @@
         }
       ],
       "gmp_history": [
+        {
+          "date": "2026-10-21",
+          "gmp": 31
+        },
         {
           "date": "2026-10-22",
           "gmp": 21
@@ -1118,12 +1148,20 @@
           "gmp": 32
         },
         {
+          "date": "2026-10-25",
+          "gmp": 32
+        },
+        {
           "date": "2026-10-26",
-          "gmp": 27
+          "gmp": 22
         },
         {
           "date": "2026-10-27",
-          "gmp": 15
+          "gmp": 19
+        },
+        {
+          "date": "2026-10-28",
+          "gmp": 10
         },
         {
           "date": "2026-10-29",
@@ -1135,10 +1173,10 @@
         },
         {
           "date": "2026-10-31",
-          "gmp": 21
+          "gmp": 20.5
         }
       ],
-      "history_source": "Tracker D",
+      "history_source": "Tracker B",
       "gmp_low": 10,
       "gmp_high": 32,
       "gmp": 21,
@@ -1154,7 +1192,7 @@
       },
       "gmp_trend": {
         "dir": "rising",
-        "change": 11,
+        "change": 10.5,
         "days": 3,
         "since": "2026-10-29"
       },
@@ -1166,7 +1204,7 @@
       "name": "EAAA India Alternatives",
       "lot": 9,
       "size_cr": 1200.0,
-      "boa": null,
+      "boa": "2026-10-29",
       "listing": "2026-11-02",
       "anchor": null,
       "rating": null,
@@ -1378,6 +1416,7 @@
       "shares_offered": 5299684.0,
       "updated_on": "2026-10-29T19:15+05:30",
       "bse_ipo_no": "8054",
+      "drhp_url": "https://www.sebi.gov.in/filings/public-issues/jan-2026/eaaa-india-alternatives-limited-drhp_99257.html",
       "sector": "Alternative Asset Management",
       "issue_split": {
         "fresh_cr": 0.0,
@@ -1397,18 +1436,26 @@
         },
         {
           "source": "Tracker C",
-          "gmp": 52,
-          "at": "2026-10-31T07:37"
+          "gmp": 53,
+          "at": "2026-10-31T11:02"
         }
       ],
       "gmp_history": [
         {
+          "date": "2026-10-23",
+          "gmp": 111
+        },
+        {
           "date": "2026-10-24",
-          "gmp": 120
+          "gmp": 45
+        },
+        {
+          "date": "2026-10-25",
+          "gmp": 33
         },
         {
           "date": "2026-10-26",
-          "gmp": 27
+          "gmp": 17
         },
         {
           "date": "2026-10-27",
@@ -1416,11 +1463,11 @@
         },
         {
           "date": "2026-10-28",
-          "gmp": 25
+          "gmp": 28
         },
         {
           "date": "2026-10-29",
-          "gmp": 26
+          "gmp": 28
         },
         {
           "date": "2026-10-30",
@@ -1428,10 +1475,10 @@
         },
         {
           "date": "2026-10-31",
-          "gmp": 50
+          "gmp": 52
         }
       ],
-      "history_source": "Public trackers",
+      "history_source": "Tracker B",
       "gmp_low": 9,
       "gmp_high": 120,
       "gmp": 52,
@@ -1440,10 +1487,10 @@
       "gmp_pct": 3.12,
       "gmp_spread": {
         "min": 50,
-        "max": 52,
-        "diff": 2,
+        "max": 53,
+        "diff": 3,
         "n": 3,
-        "diff_pct_of_price": 0.12
+        "diff_pct_of_price": 0.18
       },
       "gmp_trend": {
         "dir": "rising",
@@ -1463,7 +1510,7 @@
       "size_cr": 183.06,
       "open": "2026-10-29",
       "close": "2026-11-02",
-      "boa": null,
+      "boa": "2026-11-03",
       "listing": "2026-11-05",
       "anchor": null,
       "rating": null,
@@ -1665,7 +1712,7 @@
         {
           "source": "Tracker C",
           "gmp": 7,
-          "at": "2026-10-31T07:37"
+          "at": "2026-10-31T11:02"
         },
         {
           "source": "Tracker B",
@@ -1688,6 +1735,10 @@
           "gmp": 8
         },
         {
+          "date": "2026-10-25",
+          "gmp": 8
+        },
+        {
           "date": "2026-10-26",
           "gmp": 9
         },
@@ -1697,7 +1748,7 @@
         },
         {
           "date": "2026-10-28",
-          "gmp": 10
+          "gmp": 9
         },
         {
           "date": "2026-10-29",
@@ -1705,14 +1756,14 @@
         },
         {
           "date": "2026-10-30",
-          "gmp": 9
+          "gmp": 7.5
         },
         {
           "date": "2026-10-31",
           "gmp": 7
         }
       ],
-      "history_source": "Tracker D",
+      "history_source": "Tracker B",
       "gmp_low": 7,
       "gmp_high": 10,
       "gmp": 7,
@@ -1744,7 +1795,7 @@
       "size_cr": 2533.66,
       "open": "2026-10-15",
       "close": "2026-10-19",
-      "boa": null,
+      "boa": "2026-10-21",
       "listing": "2026-10-23",
       "anchor": null,
       "rating": null,
@@ -1789,7 +1840,7 @@
       "size_cr": 475.5,
       "open": "2026-10-15",
       "close": "2026-10-19",
-      "boa": null,
+      "boa": "2026-10-21",
       "listing": "2026-10-23",
       "anchor": null,
       "rating": null,
@@ -1837,13 +1888,15 @@
       "size_cr": 110.0,
       "open": "2026-10-27",
       "close": "2026-10-29",
-      "boa": null,
+      "boa": "2026-10-30",
       "listing": "2026-11-03",
       "anchor": null,
       "rating": null,
       "sub": {
-        "total": 1.17,
-        "retail": 0.66
+        "retail": 0.66,
+        "nii": 0.62,
+        "qib": 2.24,
+        "total": 1.17
       },
       "updated_on": "2026-10-22T18:00",
       "exchange": "BSE SME",
@@ -1884,13 +1937,15 @@
       "size_cr": 54.82,
       "open": "2026-10-23",
       "close": "2026-10-27",
-      "boa": null,
+      "boa": "2026-10-28",
       "listing": "2026-10-30",
       "anchor": null,
       "rating": null,
       "sub": {
-        "total": 5.41,
-        "retail": 2.68
+        "retail": 2.68,
+        "nii": 12.25,
+        "qib": 5.06,
+        "total": 5.41
       },
       "updated_on": "2026-10-22T17:54",
       "exchange": "BSE SME",
@@ -1931,13 +1986,15 @@
       "size_cr": 28.29,
       "open": "2026-10-28",
       "close": "2026-10-30",
-      "boa": null,
+      "boa": "2026-11-02",
       "listing": "2026-11-04",
       "anchor": null,
       "rating": null,
       "sub": {
-        "total": 25.8,
-        "retail": 19.17
+        "retail": 19.17,
+        "nii": 40.39,
+        "qib": 26.33,
+        "total": 25.8
       },
       "updated_on": "2026-10-22T11:10",
       "exchange": "BSE SME",
@@ -2009,7 +2066,7 @@
         {
           "source": "Tracker C",
           "gmp": 5,
-          "at": "2026-10-31T07:37"
+          "at": "2026-10-31T11:02"
         },
         {
           "source": "Tracker D",
@@ -2055,8 +2112,8 @@
       "name": "M. K. Sons Fine Jewels",
       "lot": 91,
       "size_cr": 330.48,
-      "boa": null,
-      "listing": null,
+      "boa": "2026-11-02",
+      "listing": "2026-11-04",
       "anchor": null,
       "rating": null,
       "symbol": "MKSONS",
@@ -2340,8 +2397,8 @@
         },
         {
           "source": "Tracker C",
-          "gmp": 6,
-          "at": "2026-10-31T07:37"
+          "gmp": 5,
+          "at": "2026-10-31T11:02"
         },
         {
           "source": "Tracker D",
@@ -2411,8 +2468,8 @@
       "name": "Maxwell Engineering Solutions",
       "lot": 800,
       "size_cr": 57.64,
-      "boa": null,
-      "listing": null,
+      "boa": "2026-11-04",
+      "listing": "2026-11-06",
       "anchor": null,
       "rating": null,
       "symbol": "MAXENGS",
@@ -2421,11 +2478,12 @@
       "close": "2026-11-03",
       "segment": "SME",
       "sub": {
-        "total": 4.67,
-        "retail": 7.47
+        "retail": 7.47,
+        "nii": 4.35,
+        "total": 4.67
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-10-31T11:45",
+      "sub_asof": "2026-10-31T11:53",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "JDA CAPITAL SERVICES LIMITED (Formerly Known as Beeline Broking Limited)"
@@ -2468,7 +2526,7 @@
         {
           "source": "Tracker C",
           "gmp": 70,
-          "at": "2026-10-31T07:37"
+          "at": "2026-10-31T11:02"
         },
         {
           "source": "Tracker D",
@@ -2532,8 +2590,8 @@
       "name": "HGS (India)",
       "lot": 1200,
       "size_cr": 34.56,
-      "boa": null,
-      "listing": null,
+      "boa": "2026-11-04",
+      "listing": "2026-11-06",
       "anchor": null,
       "rating": null,
       "symbol": "HGSINDIALT",
@@ -2579,7 +2637,7 @@
         {
           "source": "Tracker C",
           "gmp": 30,
-          "at": "2026-10-31T07:37"
+          "at": "2026-10-31T11:02"
         },
         {
           "source": "Tracker D",
@@ -2626,8 +2684,8 @@
       "name": "Vedant Poly Fabs",
       "lot": 1200,
       "size_cr": 56.68,
-      "boa": null,
-      "listing": null,
+      "boa": "2026-11-05",
+      "listing": "2026-11-09",
       "anchor": null,
       "rating": null,
       "symbol": "VPFL",
@@ -2685,6 +2743,11 @@
           "source": "Tracker D",
           "gmp": 4.5,
           "at": "2026-10-31T11:46"
+        },
+        {
+          "source": "Tracker C",
+          "gmp": 4.25,
+          "at": "2026-10-31T11:02"
         }
       ],
       "gmp_history": [
@@ -2694,13 +2757,20 @@
         }
       ],
       "history_source": "Tracker D",
-      "gmp_low": 4.5,
+      "gmp_low": 4.25,
       "gmp_high": 4.5,
       "exchange": "SME",
       "gmp": 4.5,
       "gmp_asof": "2026-10-31T11:46",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 4.79,
+      "gmp_spread": {
+        "min": 4.25,
+        "max": 4.5,
+        "diff": 0.25,
+        "n": 2,
+        "diff_pct_of_price": 0.27
+      },
       "status": "upcoming",
       "unconfirmed": false
     },
@@ -2709,8 +2779,8 @@
       "name": "Antala Industries",
       "lot": 2000,
       "size_cr": 23.33,
-      "boa": null,
-      "listing": null,
+      "boa": "2026-11-03",
+      "listing": "2026-11-05",
       "anchor": null,
       "rating": null,
       "bse_ipo_no": "8070",
@@ -2767,8 +2837,10 @@
         "ratios": {}
       },
       "sub": {
-        "total": 0.81,
-        "retail": 0.1
+        "retail": 0.1,
+        "nii": 0.02,
+        "qib": 66.72,
+        "total": 0.81
       },
       "sub_basis": "Tracker B",
       "sub_asof": "2026-10-31T10:55",
@@ -2785,8 +2857,8 @@
       "name": "Johnsoncab Electricals",
       "lot": 600,
       "size_cr": 56.02,
-      "boa": null,
-      "listing": null,
+      "boa": "2026-11-04",
+      "listing": "2026-11-06",
       "anchor": null,
       "rating": null,
       "bse_ipo_no": "8071",
@@ -2839,7 +2911,7 @@
         {
           "source": "Tracker C",
           "gmp": 10,
-          "at": "2026-10-31T07:37"
+          "at": "2026-10-31T11:02"
         },
         {
           "source": "Tracker D",
@@ -2893,8 +2965,8 @@
       "name": "Vectras Enprocon",
       "lot": 1200,
       "size_cr": 53.05,
-      "boa": null,
-      "listing": null,
+      "boa": "2026-11-04",
+      "listing": "2026-11-06",
       "anchor": null,
       "rating": null,
       "bse_ipo_no": "8072",
@@ -2951,8 +3023,10 @@
         "ratios": {}
       },
       "sub": {
-        "total": 1.2,
-        "retail": 1.03
+        "retail": 1.03,
+        "nii": 1.3,
+        "qib": 1.42,
+        "total": 1.2
       },
       "sub_basis": "Tracker B",
       "sub_asof": "2026-10-31T08:16",
@@ -2979,10 +3053,11 @@
       "anchor": null,
       "rating": null,
       "sub": {
-        "total": 1.12,
-        "retail": 1.93
+        "retail": 1.93,
+        "nii": 0.32,
+        "total": 1.12
       },
-      "updated_on": "2026-10-31T11:48+05:30",
+      "updated_on": "2026-10-31T11:53+05:30",
       "from_peers": true,
       "exchange": "BSE SME",
       "registrar": "KFin Technologies Limited",
@@ -3023,7 +3098,7 @@
         {
           "source": "Tracker C",
           "gmp": 2,
-          "at": "2026-10-31T07:37"
+          "at": "2026-10-31T11:02"
         },
         {
           "source": "Tracker D",

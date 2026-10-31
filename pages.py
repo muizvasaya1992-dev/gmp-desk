@@ -80,7 +80,7 @@ def merge(row, rec):
     d = dict(row)
     for k, v in (rec or {}).items():
         if k in ("lot", "registrar", "lead_managers", "size_cr", "boa", "cutoff_time", "retail_max", "rhp_url",
-                 "open", "close", "listing", "price", "price_low", "status", "symbol", "sub", "gmp", "gmp_pct", "listing_price", "reservation", "lot_basis", "sector", "issue_split", "tracker_rating", "fin") and v not in (None, "", []):
+                 "open", "close", "listing", "price", "price_low", "status", "symbol", "sub", "gmp", "gmp_pct", "listing_price", "reservation", "lot_basis", "sector", "issue_split", "tracker_rating", "fin", "uses", "reservation_detail", "drhp_url") and v not in (None, "", []):
             d[k] = v
     return d
 
@@ -197,8 +197,10 @@ def facts(d):
         if v:
             wide = ' style="grid-column:1/-1"' if k == "Lead managers" else ""
             out.append(f"<div{wide}><dt>{esc(k)}</dt><dd>{esc(v)}</dd></div>")
-    if d.get("rhp_url") and str(d["rhp_url"]).startswith("http"):
-        out.append(f'<div><dt>Offer document</dt><dd><a href="{esc(d["rhp_url"])}" target="_blank" rel="noopener noreferrer">Read the RHP ↗</a></dd></div>')
+    docs = [(t_, u) for t_, u in (("Read the RHP", d.get("rhp_url")), ("Draft (DRHP)", d.get("drhp_url"))) if u and str(u).startswith("http")]
+    if docs:
+        links = " · ".join(f'<a href="{esc(u)}" target="_blank" rel="noopener noreferrer">{t_} ↗</a>' for t_, u in docs)
+        out.append(f'<div style="grid-column:1/-1"><dt>Offer document</dt><dd>{links}</dd></div>')
     return "".join(out)
 
 
@@ -454,6 +456,18 @@ def sizes_card(d):
                else "Retail applications are capped at ₹2 lakh by SEBI.") + "</p></section>")
 
 
+def uses_card(d):
+    u = d.get("uses")
+    if not u:
+        return ""
+    tot = sum(x.get("cr") or 0 for x in u)
+    trs = "".join(f"<tr><td>{esc(x['use'])}</td><td>₹{inr(x['cr'])} Cr</td><td>{round(x['cr'] / tot * 100) if tot else 0}%</td></tr>" for x in u)
+    return (f'<section class="card"><h2>Where the {esc(d["name"])} IPO money goes</h2>'
+            '<div class="tw"><table class="t"><caption class="sr">Use of the money raised</caption><thead><tr><th scope="col">Use</th><th scope="col">Amount</th><th scope="col">Share</th></tr></thead>'
+            f'<tbody>{trs}<tr><td><b>Total</b></td><td><b>₹{inr(round(tot, 2))} Cr</b></td><td></td></tr></tbody></table></div>'
+            '<p class="muted" style="margin:10px 0 0">How the company says it will use the money it raises, from the offer document. Only the fresh-issue part reaches the company; money from an offer for sale goes to the selling shareholders.</p></section>')
+
+
 def fin_card(d):
     """Offer-document numbers that passed the consistency checks (see peers.parse_detail)."""
     f = d.get("fin")
@@ -520,7 +534,7 @@ def render_page(d, near=(), base=None):
 <noscript><p class="muted">Turn on JavaScript to see live subscription and GMP.</p></noscript>
 <a class="btn" href="{live_link}">Open in the live tracker</a><a class="btn alt" href="/ipo/">All IPOs</a></section>
 {allot_card(d)}{apply_card}
-{sizes_card(d)}{base_card(d, base)}{fin_card(d)}{timeline(d)}{faq(d)}{near_block(near)}
+{sizes_card(d)}{base_card(d, base)}{uses_card(d)}{fin_card(d)}{timeline(d)}{faq(d)}{near_block(near)}
 <section class="card"><h2>Share or follow</h2><a class="btn wa" href="{wa_share(d)}" target="_blank" rel="noopener">Share this IPO on WhatsApp ↗</a><a class="btn alt" href="{WA_CHANNEL}" target="_blank" rel="noopener">Follow our WhatsApp channel ↗</a></section>
 <section class="card"><h2>About this page</h2><p class="muted" style="margin:0 0 10px">Facts on this page come from NSE and BSE and are refreshed automatically. GMP is unofficial and comes from public trackers and our own checks. This is information, not advice. See the offer document before you invest.</p>
 <p class="muted" style="margin:0"><b>Demand meter:</b> 1 means under 1x subscribed, 2 is 1x to 3x, 3 is 3x to 10x, 4 is 10x to 50x and 5 is 50x or more. It shows how much demand there is. It does not say whether the IPO is a good one.</p></section>

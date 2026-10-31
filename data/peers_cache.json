@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-10-31T11:48+05:30",
+  "fetched_at": "2026-10-31T11:53+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,10 +16,54 @@
     "price_low": 78.0,
     "size_cr": 183.06,
     "gmp": 7.0,
-    "gmp_at": "2026-10-31T11:45",
+    "gmp_at": "2026-10-31T11:50",
     "sub_total": 3.79,
     "sub_retail": 3.02,
-    "sub_at": "2026-10-31T11:46",
+    "sub_at": "2026-10-31T11:51",
+    "sub_cats": {
+     "retail": 3.02,
+     "nii": 1.8,
+     "bnii": 1.23,
+     "snii": 2.94,
+     "qib": 6.56,
+     "total": 3.79
+    },
+    "gmp_days": [
+     [
+      "2026-10-23",
+      8.0
+     ],
+     [
+      "2026-10-24",
+      8.0
+     ],
+     [
+      "2026-10-25",
+      8.0
+     ],
+     [
+      "2026-10-26",
+      9.0
+     ],
+     [
+      "2026-10-27",
+      9.0
+     ],
+     [
+      "2026-10-28",
+      9.0
+     ],
+     [
+      "2026-10-29",
+      9.0
+     ],
+     [
+      "2026-10-30",
+      7.0
+     ]
+    ],
+    "rhp_url": null,
+    "drhp_url": null,
     "lot_raw": 182.0,
     "sector": "Steel Processing",
     "quota": {
@@ -47,10 +91,54 @@
     "price_low": 153.0,
     "size_cr": 330.48,
     "gmp": 6.0,
-    "gmp_at": "2026-10-31T11:45",
+    "gmp_at": "2026-10-31T11:50",
     "sub_total": 5.1,
     "sub_retail": 3.08,
     "sub_at": "2026-10-30T19:05",
+    "sub_cats": {
+     "retail": 3.08,
+     "nii": 14.12,
+     "bnii": 15.33,
+     "snii": 11.71,
+     "qib": 1.84,
+     "total": 5.1
+    },
+    "gmp_days": [
+     [
+      "2026-10-23",
+      0.0
+     ],
+     [
+      "2026-10-24",
+      7.0
+     ],
+     [
+      "2026-10-25",
+      7.0
+     ],
+     [
+      "2026-10-26",
+      8.0
+     ],
+     [
+      "2026-10-27",
+      10.0
+     ],
+     [
+      "2026-10-28",
+      16.0
+     ],
+     [
+      "2026-10-29",
+      12.5
+     ],
+     [
+      "2026-10-30",
+      6.0
+     ]
+    ],
+    "rhp_url": null,
+    "drhp_url": null,
     "lot_raw": 91.0,
     "sector": "Gems Jewellery and Watches",
     "quota": {
@@ -78,10 +166,66 @@
     "price_low": 1585.0,
     "size_cr": 1200.0,
     "gmp": 52.0,
-    "gmp_at": "2026-10-31T11:45",
+    "gmp_at": "2026-10-31T11:50",
     "sub_total": 5.25,
     "sub_retail": 1.03,
     "sub_at": "2026-10-28T19:06",
+    "sub_cats": {
+     "retail": 1.03,
+     "nii": 4.58,
+     "bnii": 5.91,
+     "snii": 1.9,
+     "qib": 13.14,
+     "total": 5.25
+    },
+    "gmp_days": [
+     [
+      "2026-10-20",
+      0.0
+     ],
+     [
+      "2026-10-21",
+      0.0
+     ],
+     [
+      "2026-10-22",
+      0.0
+     ],
+     [
+      "2026-10-23",
+      111.0
+     ],
+     [
+      "2026-10-24",
+      45.0
+     ],
+     [
+      "2026-10-25",
+      33.0
+     ],
+     [
+      "2026-10-26",
+      17.0
+     ],
+     [
+      "2026-10-27",
+      10.0
+     ],
+     [
+      "2026-10-28",
+      28.0
+     ],
+     [
+      "2026-10-29",
+      37.0
+     ],
+     [
+      "2026-10-30",
+      52.0
+     ]
+    ],
+    "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_EDELALTS.zip",
+    "drhp_url": "https://www.sebi.gov.in/filings/public-issues/jan-2026/eaaa-india-alternatives-limited-drhp_99257.html",
     "lot_raw": 9.0,
     "sector": "Alternative Asset Management",
     "quota": {
@@ -109,10 +253,70 @@
     "price_low": 313.0,
     "size_cr": 668.0,
     "gmp": 20.5,
-    "gmp_at": "2026-10-31T11:45",
+    "gmp_at": "2026-10-31T11:50",
     "sub_total": 9.47,
     "sub_retail": 2.71,
     "sub_at": "2026-10-29T19:05",
+    "sub_cats": {
+     "retail": 2.71,
+     "nii": 12.81,
+     "bnii": 14.49,
+     "snii": 9.44,
+     "qib": 18.81,
+     "total": 9.47
+    },
+    "gmp_days": [
+     [
+      "2026-10-20",
+      0.0
+     ],
+     [
+      "2026-10-21",
+      31.0
+     ],
+     [
+      "2026-10-22",
+      21.0
+     ],
+     [
+      "2026-10-23",
+      21.0
+     ],
+     [
+      "2026-10-24",
+      32.0
+     ],
+     [
+      "2026-10-25",
+      32.0
+     ],
+     [
+      "2026-10-26",
+      22.0
+     ],
+     [
+      "2026-10-27",
+      19.0
+     ],
+     [
+      "2026-10-28",
+      10.0
+     ],
+     [
+      "2026-10-29",
+      19.0
+     ],
+     [
+      "2026-10-30",
+      19.0
+     ],
+     [
+      "2026-10-31",
+      20.5
+     ]
+    ],
+    "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_SFCTECH.zip",
+    "drhp_url": "https://www.bseindia.com/corporates/download/329313/IPO%20Prior/DRHP_August_25_2025_20250825140721.pdf",
     "lot_raw": 45.0,
     "sector": "Environmental Technology / Wastewater Treatment",
     "quota": {
@@ -140,10 +344,74 @@
     "price_low": 142.0,
     "size_cr": 255.0,
     "gmp": 68.0,
-    "gmp_at": "2026-10-31T11:45",
+    "gmp_at": "2026-10-31T11:50",
     "sub_total": 241.22,
     "sub_retail": 128.36,
     "sub_at": "2026-10-29T19:05",
+    "sub_cats": {
+     "retail": 128.36,
+     "nii": 559.2,
+     "bnii": 592.83,
+     "snii": 491.95,
+     "qib": 200.25,
+     "total": 241.22
+    },
+    "gmp_days": [
+     [
+      "2026-10-19",
+      19.0
+     ],
+     [
+      "2026-10-20",
+      25.0
+     ],
+     [
+      "2026-10-21",
+      25.0
+     ],
+     [
+      "2026-10-22",
+      25.0
+     ],
+     [
+      "2026-10-23",
+      24.0
+     ],
+     [
+      "2026-10-24",
+      36.5
+     ],
+     [
+      "2026-10-25",
+      33.67
+     ],
+     [
+      "2026-10-26",
+      35.33
+     ],
+     [
+      "2026-10-27",
+      39.33
+     ],
+     [
+      "2026-10-28",
+      45.0
+     ],
+     [
+      "2026-10-29",
+      60.67
+     ],
+     [
+      "2026-10-30",
+      68.0
+     ],
+     [
+      "2026-10-31",
+      68.0
+     ]
+    ],
+    "rhp_url": "https://unistonecapital.com/wp-content/uploads/2026/10/BLS-Polymers-Limited.pdf",
+    "drhp_url": "https://nsearchives.nseindia.com/corporate/Registration_07082025095701_BLS_Polymers_Limited.pdf",
     "lot_raw": 100.0,
     "sector": null,
     "quota": {
@@ -171,10 +439,24 @@
     "price_low": 63.0,
     "size_cr": 23.33,
     "gmp": 0.0,
-    "gmp_at": "2026-10-31T11:45",
+    "gmp_at": "2026-10-31T11:50",
     "sub_total": 0.81,
     "sub_retail": 0.1,
     "sub_at": "2026-10-31T10:55",
+    "sub_cats": {
+     "retail": 0.1,
+     "nii": 0.02,
+     "qib": 66.72,
+     "total": 0.81
+    },
+    "gmp_days": [
+     [
+      "2026-10-30",
+      0.0
+     ]
+    ],
+    "rhp_url": null,
+    "drhp_url": null,
     "lot_raw": 4000.0,
     "sector": "Packaging Products",
     "quota": {
@@ -186,37 +468,6 @@
     "ofs_cr": 0.0,
     "registrar": "Bigshare Services Pvt. Ltd.",
     "lead_manager": "Vatsa Capital Venture Pvt. Ltd.",
-    "live": true
-   },
-   {
-    "src": "Tracker B",
-    "slug": "vectras-enprocon",
-    "name": "Vectras Enprocon",
-    "segment": "SME",
-    "exchange": "BSE SME",
-    "open": "2026-10-30",
-    "close": "2026-11-03",
-    "boa": "2026-11-04",
-    "listing": "2026-11-06",
-    "price": 105.0,
-    "price_low": 99.0,
-    "size_cr": 53.05,
-    "gmp": 0.0,
-    "gmp_at": "2026-10-31T11:45",
-    "sub_total": 1.2,
-    "sub_retail": 1.03,
-    "sub_at": "2026-10-31T08:16",
-    "lot_raw": 2400.0,
-    "sector": "Oil & Gas Infrastructure / EPC",
-    "quota": {
-     "qib": 50.0,
-     "nii": 15.0,
-     "retail": 35.0
-    },
-    "fresh_cr": 42.59,
-    "ofs_cr": 10.46,
-    "registrar": "MUFG Intime India Pvt. Ltd.",
-    "lead_manager": "Beeline Capital Advisors Pvt. Ltd.",
     "live": true
    },
    {
@@ -233,10 +484,23 @@
     "price_low": 150.0,
     "size_cr": 57.64,
     "gmp": 70.0,
-    "gmp_at": "2026-10-31T11:45",
+    "gmp_at": "2026-10-31T11:50",
     "sub_total": 4.67,
     "sub_retail": 7.47,
-    "sub_at": "2026-10-31T11:45",
+    "sub_at": "2026-10-31T11:53",
+    "sub_cats": {
+     "retail": 7.47,
+     "nii": 4.35,
+     "total": 4.67
+    },
+    "gmp_days": [
+     [
+      "2026-10-30",
+      70.0
+     ]
+    ],
+    "rhp_url": null,
+    "drhp_url": null,
     "lot_raw": 1600.0,
     "sector": "Precision Engineering / Industrial Products",
     "quota": {
@@ -248,6 +512,51 @@
     "ofs_cr": 0.0,
     "registrar": "KFin Technologies Limited",
     "lead_manager": "JDA Capital Services Ltd.",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
+    "slug": "vectras-enprocon",
+    "name": "Vectras Enprocon",
+    "segment": "SME",
+    "exchange": "BSE SME",
+    "open": "2026-10-30",
+    "close": "2026-11-03",
+    "boa": "2026-11-04",
+    "listing": "2026-11-06",
+    "price": 105.0,
+    "price_low": 99.0,
+    "size_cr": 53.05,
+    "gmp": 0.0,
+    "gmp_at": "2026-10-31T11:50",
+    "sub_total": 1.2,
+    "sub_retail": 1.03,
+    "sub_at": "2026-10-31T08:16",
+    "sub_cats": {
+     "retail": 1.03,
+     "nii": 1.3,
+     "qib": 1.42,
+     "total": 1.2
+    },
+    "gmp_days": [
+     [
+      "2026-10-30",
+      0.0
+     ]
+    ],
+    "rhp_url": null,
+    "drhp_url": null,
+    "lot_raw": 2400.0,
+    "sector": "Oil & Gas Infrastructure / EPC",
+    "quota": {
+     "qib": 50.0,
+     "nii": 15.0,
+     "retail": 35.0
+    },
+    "fresh_cr": 42.59,
+    "ofs_cr": 10.46,
+    "registrar": "MUFG Intime India Pvt. Ltd.",
+    "lead_manager": "Beeline Capital Advisors Pvt. Ltd.",
     "live": true
    },
    {
@@ -264,10 +573,31 @@
     "price_low": 203.0,
     "size_cr": 38.05,
     "gmp": 2.0,
-    "gmp_at": "2026-10-31T11:45",
+    "gmp_at": "2026-10-31T11:50",
     "sub_total": 1.12,
     "sub_retail": 1.93,
     "sub_at": "2026-10-30T19:05",
+    "sub_cats": {
+     "retail": 1.93,
+     "nii": 0.32,
+     "total": 1.12
+    },
+    "gmp_days": [
+     [
+      "2026-10-28",
+      35.0
+     ],
+     [
+      "2026-10-29",
+      5.0
+     ],
+     [
+      "2026-10-30",
+      2.0
+     ]
+    ],
+    "rhp_url": null,
+    "drhp_url": null,
     "lot_raw": 1200.0,
     "sector": "Industrial EPC and Infrastructure",
     "quota": {
@@ -294,10 +624,36 @@
     "price_low": 76.0,
     "size_cr": 28.29,
     "gmp": 5.0,
-    "gmp_at": "2026-10-31T11:45",
+    "gmp_at": "2026-10-31T11:50",
     "sub_total": 25.8,
     "sub_retail": 19.17,
     "sub_at": "2026-10-30T19:05",
+    "sub_cats": {
+     "retail": 19.17,
+     "nii": 40.39,
+     "qib": 26.33,
+     "total": 25.8
+    },
+    "gmp_days": [
+     [
+      "2026-10-28",
+      0.0
+     ],
+     [
+      "2026-10-29",
+      0.0
+     ],
+     [
+      "2026-10-30",
+      0.0
+     ],
+     [
+      "2026-10-31",
+      5.0
+     ]
+    ],
+    "rhp_url": null,
+    "drhp_url": null,
     "lot_raw": 3200.0,
     "sector": "Industrial Manufacturing / Welding Automation",
     "quota": {
@@ -325,10 +681,40 @@
     "price_low": 194.0,
     "size_cr": 110.0,
     "gmp": 0.0,
-    "gmp_at": "2026-10-31T11:45",
+    "gmp_at": "2026-10-31T11:50",
     "sub_total": 1.17,
     "sub_retail": 0.66,
     "sub_at": "2026-10-29T19:05",
+    "sub_cats": {
+     "retail": 0.66,
+     "nii": 0.62,
+     "qib": 2.24,
+     "total": 1.17
+    },
+    "gmp_days": [
+     [
+      "2026-10-26",
+      0.0
+     ],
+     [
+      "2026-10-27",
+      0.0
+     ],
+     [
+      "2026-10-28",
+      0.0
+     ],
+     [
+      "2026-10-29",
+      0.0
+     ],
+     [
+      "2026-10-30",
+      0.0
+     ]
+    ],
+    "rhp_url": null,
+    "drhp_url": null,
     "lot_raw": 1200.0,
     "sector": "Consumer Electronics",
     "quota": {
@@ -360,6 +746,64 @@
     "sub_total": 5.41,
     "sub_retail": 2.68,
     "sub_at": "2026-10-27T19:05",
+    "sub_cats": {
+     "retail": 2.68,
+     "nii": 12.25,
+     "qib": 5.06,
+     "total": 5.41
+    },
+    "gmp_days": [
+     [
+      "2026-10-19",
+      0.0
+     ],
+     [
+      "2026-10-20",
+      0.0
+     ],
+     [
+      "2026-10-21",
+      0.0
+     ],
+     [
+      "2026-10-22",
+      0.0
+     ],
+     [
+      "2026-10-23",
+      0.0
+     ],
+     [
+      "2026-10-24",
+      0.0
+     ],
+     [
+      "2026-10-25",
+      0.0
+     ],
+     [
+      "2026-10-26",
+      0.0
+     ],
+     [
+      "2026-10-27",
+      0.0
+     ],
+     [
+      "2026-10-28",
+      0.0
+     ],
+     [
+      "2026-10-29",
+      0.0
+     ],
+     [
+      "2026-10-30",
+      0.0
+     ]
+    ],
+    "rhp_url": null,
+    "drhp_url": null,
     "lot_raw": 2400.0,
     "sector": "Infrastructure EPC",
     "quota": {
@@ -376,7 +820,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-10-31T11:48+05:30",
+  "fetched_at": "2026-10-31T11:53+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -386,13 +830,13 @@
     "exchange": "NSE Emerge",
     "open": "2026-11-02",
     "close": "2026-11-04",
-    "boa": null,
+    "boa": "2026-11-05",
     "listing": "2026-11-09",
     "price": 94.0,
     "price_low": null,
     "size_cr": 56.68,
-    "gmp": null,
-    "gmp_at": "2026-10-31T07:31",
+    "gmp": 4.25,
+    "gmp_at": "2026-10-31T11:02",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -408,13 +852,13 @@
     "exchange": "NSE Emerge",
     "open": "2026-10-30",
     "close": "2026-11-03",
-    "boa": null,
+    "boa": "2026-11-04",
     "listing": "2026-11-06",
     "price": 120.0,
     "price_low": null,
     "size_cr": 34.56,
     "gmp": 30.0,
-    "gmp_at": "2026-10-31T07:37",
+    "gmp_at": "2026-10-31T11:02",
     "sub_total": 1.16,
     "sub_retail": null,
     "sub_at": null,
@@ -430,13 +874,13 @@
     "exchange": "BSE SME",
     "open": "2026-10-30",
     "close": "2026-11-03",
-    "boa": null,
+    "boa": "2026-11-04",
     "listing": "2026-11-06",
     "price": 200.0,
     "price_low": null,
     "size_cr": 56.02,
     "gmp": 10.0,
-    "gmp_at": "2026-10-31T07:37",
+    "gmp_at": "2026-10-31T11:02",
     "sub_total": 1.14,
     "sub_retail": null,
     "sub_at": null,
@@ -452,13 +896,13 @@
     "exchange": "BSE SME",
     "open": "2026-10-30",
     "close": "2026-11-03",
-    "boa": null,
+    "boa": "2026-11-04",
     "listing": "2026-11-06",
     "price": 105.0,
     "price_low": null,
     "size_cr": 53.05,
     "gmp": null,
-    "gmp_at": "2026-10-31T07:31",
+    "gmp_at": "2026-10-31T10:54",
     "sub_total": 1.2,
     "sub_retail": null,
     "sub_at": null,
@@ -474,13 +918,13 @@
     "exchange": "NSE Emerge",
     "open": "2026-10-30",
     "close": "2026-11-03",
-    "boa": null,
+    "boa": "2026-11-04",
     "listing": "2026-11-06",
     "price": 158.0,
     "price_low": null,
     "size_cr": 57.64,
     "gmp": 70.0,
-    "gmp_at": "2026-10-31T07:37",
+    "gmp_at": "2026-10-31T11:02",
     "sub_total": 4.67,
     "sub_retail": null,
     "sub_at": null,
@@ -496,13 +940,13 @@
     "exchange": "BSE SME",
     "open": "2026-10-29",
     "close": "2026-11-02",
-    "boa": null,
+    "boa": "2026-11-03",
     "listing": "2026-11-05",
     "price": 67.0,
     "price_low": null,
     "size_cr": 23.33,
     "gmp": null,
-    "gmp_at": "2026-10-31T07:35",
+    "gmp_at": "2026-10-31T10:57",
     "sub_total": 0.82,
     "sub_retail": null,
     "sub_at": null,
@@ -518,13 +962,13 @@
     "exchange": null,
     "open": "2026-10-29",
     "close": "2026-11-02",
-    "boa": null,
+    "boa": "2026-11-03",
     "listing": "2026-11-05",
     "price": 82.0,
     "price_low": null,
     "size_cr": 183.06,
     "gmp": 7.0,
-    "gmp_at": "2026-10-31T07:37",
+    "gmp_at": "2026-10-31T11:02",
     "sub_total": 3.98,
     "sub_retail": null,
     "sub_at": null,
@@ -540,13 +984,13 @@
     "exchange": null,
     "open": "2026-10-28",
     "close": "2026-10-30",
-    "boa": null,
+    "boa": "2026-11-02",
     "listing": "2026-11-04",
     "price": 162.0,
     "price_low": null,
     "size_cr": 275.4,
-    "gmp": 6.0,
-    "gmp_at": "2026-10-31T07:37",
+    "gmp": 5.0,
+    "gmp_at": "2026-10-31T11:02",
     "sub_total": 5.09,
     "sub_retail": null,
     "sub_at": null,
@@ -562,13 +1006,13 @@
     "exchange": "BSE SME",
     "open": "2026-10-28",
     "close": "2026-10-30",
-    "boa": null,
+    "boa": "2026-11-02",
     "listing": "2026-11-04",
     "price": 203.0,
     "price_low": null,
     "size_cr": 38.05,
     "gmp": 2.0,
-    "gmp_at": "2026-10-31T07:37",
+    "gmp_at": "2026-10-31T11:02",
     "sub_total": 1.12,
     "sub_retail": null,
     "sub_at": null,
@@ -584,13 +1028,13 @@
     "exchange": "BSE SME",
     "open": "2026-10-28",
     "close": "2026-10-30",
-    "boa": null,
+    "boa": "2026-11-02",
     "listing": "2026-11-04",
     "price": 80.0,
     "price_low": null,
     "size_cr": 28.29,
     "gmp": 5.0,
-    "gmp_at": "2026-10-31T07:37",
+    "gmp_at": "2026-10-31T11:02",
     "sub_total": 25.8,
     "sub_retail": null,
     "sub_at": null,
@@ -606,13 +1050,13 @@
     "exchange": "BSE SME",
     "open": "2026-10-27",
     "close": "2026-10-29",
-    "boa": null,
+    "boa": "2026-10-30",
     "listing": "2026-11-03",
     "price": 204.0,
     "price_low": null,
     "size_cr": 110.0,
     "gmp": null,
-    "gmp_at": "2026-10-31T07:32",
+    "gmp_at": "2026-10-31T11:02",
     "sub_total": 1.17,
     "sub_retail": null,
     "sub_at": null,
@@ -628,13 +1072,13 @@
     "exchange": null,
     "open": "2026-10-27",
     "close": "2026-10-29",
-    "boa": null,
+    "boa": "2026-10-30",
     "listing": "2026-11-03",
     "price": 330.0,
     "price_low": null,
     "size_cr": 667.53,
-    "gmp": 20.0,
-    "gmp_at": "2026-10-31T07:37",
+    "gmp": 21.0,
+    "gmp_at": "2026-10-31T11:02",
     "sub_total": 9.47,
     "sub_retail": null,
     "sub_at": null,
@@ -650,13 +1094,13 @@
     "exchange": null,
     "open": "2026-10-27",
     "close": "2026-10-29",
-    "boa": null,
+    "boa": "2026-10-30",
     "listing": "2026-11-03",
     "price": 150.0,
     "price_low": null,
     "size_cr": 255.0,
-    "gmp": 70.0,
-    "gmp_at": "2026-10-31T07:37",
+    "gmp": 68.0,
+    "gmp_at": "2026-10-31T11:02",
     "sub_total": 241.22,
     "sub_retail": null,
     "sub_at": null,
@@ -672,13 +1116,13 @@
     "exchange": null,
     "open": "2026-10-26",
     "close": "2026-10-28",
-    "boa": null,
+    "boa": "2026-10-29",
     "listing": "2026-11-02",
     "price": 1665.0,
     "price_low": null,
     "size_cr": 1200.0,
-    "gmp": 52.0,
-    "gmp_at": "2026-10-31T07:37",
+    "gmp": 53.0,
+    "gmp_at": "2026-10-31T11:02",
     "sub_total": 5.51,
     "sub_retail": null,
     "sub_at": null,
@@ -694,7 +1138,7 @@
     "exchange": "BSE SME",
     "open": "2026-10-23",
     "close": "2026-10-27",
-    "boa": null,
+    "boa": "2026-10-28",
     "listing": "2026-10-30",
     "price": 93.0,
     "price_low": null,
@@ -716,7 +1160,7 @@
     "exchange": null,
     "open": "2026-10-21",
     "close": "2026-10-23",
-    "boa": null,
+    "boa": "2026-10-26",
     "listing": "2026-10-28",
     "price": 693.0,
     "price_low": null,
@@ -738,7 +1182,7 @@
     "exchange": null,
     "open": "2026-10-21",
     "close": "2026-10-23",
-    "boa": null,
+    "boa": "2026-10-26",
     "listing": "2026-10-28",
     "price": 1119.0,
     "price_low": null,
@@ -760,7 +1204,7 @@
     "exchange": null,
     "open": "2026-10-15",
     "close": "2026-10-19",
-    "boa": null,
+    "boa": "2026-10-21",
     "listing": "2026-10-23",
     "price": 151.0,
     "price_low": null,
@@ -782,7 +1226,7 @@
     "exchange": null,
     "open": "2026-10-15",
     "close": "2026-10-19",
-    "boa": null,
+    "boa": "2026-10-21",
     "listing": "2026-10-23",
     "price": 700.0,
     "price_low": null,
@@ -804,7 +1248,7 @@
     "exchange": null,
     "open": "2026-10-15",
     "close": "2026-10-19",
-    "boa": null,
+    "boa": "2026-10-21",
     "listing": "2026-10-23",
     "price": 344.0,
     "price_low": null,
@@ -826,7 +1270,7 @@
     "exchange": null,
     "open": "2026-10-15",
     "close": "2026-10-19",
-    "boa": null,
+    "boa": "2026-10-21",
     "listing": "2026-10-23",
     "price": 586.0,
     "price_low": null,
@@ -848,7 +1292,7 @@
     "exchange": "BSE SME",
     "open": "2026-10-15",
     "close": "2026-10-19",
-    "boa": null,
+    "boa": "2026-10-21",
     "listing": "2026-10-23",
     "price": 179.0,
     "price_low": null,
@@ -870,7 +1314,7 @@
     "exchange": "NSE Emerge",
     "open": "2026-10-14",
     "close": "2026-10-16",
-    "boa": null,
+    "boa": "2026-10-19",
     "listing": "2026-10-22",
     "price": 112.0,
     "price_low": null,
@@ -892,7 +1336,7 @@
     "exchange": null,
     "open": "2026-10-14",
     "close": "2026-10-16",
-    "boa": null,
+    "boa": "2026-10-19",
     "listing": "2026-10-22",
     "price": 289.0,
     "price_low": null,
@@ -914,7 +1358,7 @@
     "exchange": null,
     "open": "2026-10-13",
     "close": "2026-10-15",
-    "boa": null,
+    "boa": "2026-10-16",
     "listing": "2026-10-21",
     "price": 271.0,
     "price_low": null,
@@ -936,7 +1380,7 @@
     "exchange": "NSE Emerge",
     "open": "2026-10-13",
     "close": "2026-10-15",
-    "boa": null,
+    "boa": "2026-10-16",
     "listing": "2026-10-21",
     "price": 54.0,
     "price_low": null,
@@ -958,7 +1402,7 @@
     "exchange": "NSE Emerge",
     "open": "2026-10-05",
     "close": "2026-10-07",
-    "boa": null,
+    "boa": "2026-10-08",
     "listing": "2026-10-12",
     "price": 82.0,
     "price_low": null,
@@ -980,7 +1424,7 @@
     "exchange": "BSE SME",
     "open": "2026-09-30",
     "close": "2026-10-06",
-    "boa": null,
+    "boa": "2026-10-07",
     "listing": "2026-10-09",
     "price": 127.0,
     "price_low": null,
@@ -1002,7 +1446,7 @@
     "exchange": "BSE SME",
     "open": "2026-09-30",
     "close": "2026-10-06",
-    "boa": null,
+    "boa": "2026-10-07",
     "listing": "2026-10-09",
     "price": 196.0,
     "price_low": null,
@@ -1024,7 +1468,7 @@
     "exchange": "BSE SME",
     "open": "2026-09-30",
     "close": "2026-10-06",
-    "boa": null,
+    "boa": "2026-10-07",
     "listing": "2026-10-09",
     "price": 70.0,
     "price_low": null,
@@ -1041,7 +1485,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-10-31T11:48+05:30",
+  "fetched_at": "2026-10-31T11:53+05:30",
   "records": [
    {
     "src": "Tracker D",

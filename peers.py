@@ -104,6 +104,42 @@ def _next_text(page):
     return "".join(out)
 
 
+CATS = ("total", "qib", "nii", "bnii", "snii", "retail", "employee", "shareholder", "shareholders", "anchor")
+
+
+def _cats(live):
+    """[{category, subscriptionTimes}] -> {qib: 12.11, ...}. Anchor is left out: it is not a bidding category."""
+    if not isinstance(live, list):
+        return None
+    out = {}
+    for x in live:
+        if not isinstance(x, dict):
+            continue
+        k = str(x.get("category") or "").lower()
+        v = _num(x.get("subscriptionTimes"))
+        if k in CATS and k != "anchor" and v is not None:
+            out["shareholders" if k == "shareholder" else k] = round(v, 2)
+    return out or None
+
+
+def _gmp_days(hist):
+    """[{date, gmp}] -> [(YYYY-MM-DD, gmp)], newest kept for each day. Their source labels are not stored."""
+    if not isinstance(hist, list):
+        return []
+    best = {}
+    for x in hist:
+        if not isinstance(x, dict):
+            continue
+        at, g = _ist_from_iso(str(x.get("date") or "")), _num(x.get("gmp"))
+        if at and g is not None and (at[:10] not in best or at > best[at[:10]][0]):
+            best[at[:10]] = (at, g)
+    return sorted((d, v[1]) for d, v in best.items())
+
+
+def _doc(u):
+    return u if isinstance(u, str) and u.startswith("http") else None
+
+
 def parse_b(page):
     s, dec, seen = _next_text(page), json.JSONDecoder(), {}
     for m in re.finditer(r'"ipos":\[', s):
@@ -133,7 +169,9 @@ def parse_b(page):
             "price": _num(und(r.get("priceMax"))), "price_low": _num(und(r.get("priceMin"))), "size_cr": _num(und(r.get("issueSizeCr"))),
             "gmp": _num(und(r.get("gmp"))), "gmp_at": _ist_from_iso(und(r.get("gmpLastUpdated")) or ""),
             "sub_total": _num(sub.get("total")), "sub_retail": _num(sub.get("retail")),
-            "sub_at": _ist_from_iso(und(r.get("subscriptionLastScraped")) or ""),
+            "sub_at": _ist_from_iso(und(r.get("subscriptionLastScraped")) or "") or _ist_from_iso(und(r.get("subscriptionLastUpdated")) or ""),
+            "sub_cats": _cats(und(r.get("subscriptionLive"))), "gmp_days": _gmp_days(und(r.get("gmpHistory"))),
+            "rhp_url": _doc(und(r.get("rhpUrl"))), "drhp_url": _doc(und(r.get("drhpUrl"))),
             "lot_raw": _num(und(r.get("lotSize"))), "sector": sector, "quota": quota,
             "fresh_cr": _num(det.get("freshIssueCr")), "ofs_cr": _num(det.get("ofsCr")),
             "registrar": und(r.get("registrar")) if isinstance(und(r.get("registrar")), str) else None,
@@ -188,7 +226,7 @@ def parse_c(page, today):
             "segment": "SME" if seg_badge else "MAIN",
             "exchange": ("NSE Emerge" if "NSE" in seg_badge.upper() else "BSE SME") if seg_badge else None,
             "open": _date(cells.get("Open"), today), "close": _date(cells.get("Close"), today),
-            "boa": None, "listing": _date(cells.get("Listing"), today),
+            "boa": _date(cells.get("BoA Dt"), today), "listing": _date(cells.get("Listing"), today),
             "price": _num(cells.get("Price (₹)")), "price_low": None,
             "size_cr": _num(size.group(1)) if size else None,
             "gmp": float(g.group(1)) if g else None, "gmp_at": gmp_at,
@@ -280,6 +318,33 @@ def parse_detail(page, price):
                     res["sub_at"] = f"{d0.isoformat()}T{hh:02d}:{ts.group(5)}"
                 except ValueError:
                     pass
+    # reservation as the offer document sets it, including the anchor and SME market-maker portions
+    i = t.find("Reservation")
+    if i >= 0:
+        sec = t[i:i + 12000]
+        names = {"qib": "qib", "qibexclanchor": "qib_ex_anchor", "anchorinvestor": "anchor", "niihni": "nii", "nii": "nii",
+                 "bnii10l": "bnii", "snii10l": "snii", "retail": "retail", "employeereservation": "employee",
+                 "employee": "employee", "shareholder": "shareholders", "marketmaker": "market_maker", "total": "total"}
+        resv = {}
+        pat = r'dt-label[^>]*>((?:(?!</span>).){2,200})</span>\s*<span class="[^"]*dd-value[^"]*"[^>]*>\s*([\d,]+)\s*<span class="[^"]*dd-percent[^"]*">\s*\(([\d.]+)%\)'
+        for lab, sh, pc in re.findall(pat, sec):
+            k = names.get(re.sub(r"[^a-z0-9]", "", _tx(lab).lower()))
+            if k and k != "total":
+                resv[k] = {"shares": int(sh.replace(",", "")), "pct": float(pc)}
+        if resv:
+            res["reservation"] = resv
+    # where the money goes, as the offer document lists it
+    i = t.find("Utilisation of net proceeds")
+    if i >= 0:
+        sec = t[i:i + 7000].split("Total Fund Requirement")[0]
+        uses = []
+        pat = r'object-title">\s*([^<]{2,30}?)\s*</span>.*?object-amount">\s*₹\s*([\d,.]+)'
+        for lab, amt in re.findall(pat, sec, re.S):
+            v = _num(amt)
+            if v:
+                uses.append({"use": lab.strip(), "cr": v})
+        if uses:
+            res["uses"] = uses[:8]
     # offer-document numbers: embedded array, accepted only if the page's own text agrees with it
     para = _tx(_after(t, "Financial View", 2200)).split("Total Income")[0]
     said = [float(x.replace(",", "")) for x in re.findall(r"₹\s*([\d,]+(?:\.\d+)?)\s*crore", para)]
@@ -299,10 +364,10 @@ def parse_detail(page, price):
         if ok_inc and ok_pat:
             rows = []
             for y in years[-3:]:
+                num = lambda k: round(y[k], 2) if y.get(k) is not None else None
                 rows.append({"y": y.get("year"), "income": round(y["totalIncome"], 2), "pat": round(y["pat"], 2),
-                             "ebitda": round(y["ebitda"], 2) if y.get("ebitda") is not None else None,
-                             "net_worth": round(y["netWorth"], 2) if y.get("netWorth") is not None else None,
-                             "debt": round(y["debt"], 2) if y.get("debt") is not None else None})
+                             "ebitda": num("ebitda"), "net_worth": num("netWorth"), "debt": num("debt"),
+                             "assets": num("assets"), "roe": num("roe"), "roce": num("roce")})
             res["years"] = rows
     # valuation ratios, each checked against the price
     val = _tx(_after(t, "IPO Valuation", 1800)).split("Strengths")[0]
@@ -484,13 +549,15 @@ def apply(recs, peers, today, stamp):
         extra_fill(mine, p, cand)
         if p.get("gmp") not in (None, 0):                                   # 0 means "no quote yet" on these sites
             rows.append({"ipo": mine["id"], "gmp": _tidy(p["gmp"]), "at": p["gmp_at"] or stamp[:16], "source": p["src"]})
-        for day, g in (p.get("detail") or {}).get("gmp_history", []):       # earlier days, stamped just after midnight so a live reading wins
+        for day, g in list((p.get("detail") or {}).get("gmp_history", [])) + list(p.get("gmp_days") or []):
+                                                                            # earlier days, stamped just after midnight so a live reading wins
             if g and day < today.isoformat():
                 rows.append({"ipo": mine["id"], "gmp": _tidy(g), "at": f"{day}T00:01", "source": p["src"]})
         cand_sub = sub_from(p, mine, today)
         if cand_sub:
             best = subcand.get(mine["id"])
-            if not best or cand_sub[0] > best[0]:
+            rank = lambda c: (c[0], c[3] or "")                              # richer wins, then the newer reading
+            if not best or rank(cand_sub) > rank(best):
                 subcand[mine["id"]] = cand_sub
     for k, (_score, sub, basis, asof) in subcand.items():
         mine = by_key[k]
@@ -522,6 +589,9 @@ def sub_from(p, mine, today):
         return None
     if det and det.get("total") is not None:
         return (3, {k: round(v, 2) for k, v in det.items()}, p["src"], (p.get("detail") or {}).get("sub_at"))
+    cats = p.get("sub_cats")
+    if cats and cats.get("total") is not None:
+        return (3, cats, p["src"], p.get("sub_at"))
     if p.get("sub_total") is None:
         return None
     sub = {"total": round(p["sub_total"], 2)}
@@ -547,15 +617,32 @@ def extra_fill(mine, p, cand):
         mine["registrar"] = p["registrar"]
     if not mine.get("lead_managers") and p.get("lead_manager"):
         mine["lead_managers"] = [p["lead_manager"]]
-    if not mine.get("reservation") and p.get("quota"):
+    if not mine.get("boa") and p.get("boa"):
+        mine["boa"] = p["boa"]
+    if not mine.get("listing") and p.get("listing"):
+        mine["listing"] = p["listing"]
+    for k, src in (("rhp_url", "rhp_url"), ("drhp_url", "drhp_url")):
+        if not mine.get(k) and p.get(src):
+            mine[k] = p[src]
+    det = p.get("detail") or {}
+    rv = det.get("reservation")
+    if rv:                                                                  # the real split from the offer document
+        mine["reservation_detail"] = rv
+        plain = {k: rv[k]["pct"] for k in ("qib", "nii", "retail", "employee", "shareholders", "market_maker") if k in rv}
+        if plain:
+            mine["reservation"] = plain
+        if rv.get("anchor"):
+            mine.setdefault("anchor_shares", rv["anchor"]["shares"])
+    elif not mine.get("reservation") and p.get("quota"):
         mine["reservation"] = p["quota"]
+    if det.get("uses") and not mine.get("uses"):
+        mine["uses"] = det["uses"]
     if p.get("sector") and not mine.get("sector"):
         mine["sector"] = p["sector"]
     if p.get("fresh_cr") is not None and p.get("ofs_cr") is not None and (p["fresh_cr"] or p["ofs_cr"]):
         mine["issue_split"] = {"fresh_cr": p["fresh_cr"], "ofs_cr": p["ofs_cr"]}
     if p["src"] == C and p.get("rating"):
         mine["tracker_rating"] = p["rating"]
-    det = p.get("detail") or {}
     if det.get("years") or det.get("ratios"):                              # offer-document numbers that passed the checks
         mine["fin"] = {"years": det.get("years") or [], "ratios": det.get("ratios") or {}}
 
