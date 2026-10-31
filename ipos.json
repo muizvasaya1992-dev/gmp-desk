@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T17:15+05:30",
+  "generated_at": "2026-10-31T17:31+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-10-31T11:31+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-10-31T17:15+05:30",
+    "nse_ok_at": "2026-10-31T17:31+05:30",
     "bse_ok_at": "2026-10-31T12:57+05:30"
   },
   "ipos": [
@@ -1129,8 +1129,8 @@
         },
         {
           "source": "Tracker B",
-          "gmp": 25.5,
-          "at": "2026-10-31T17:10"
+          "gmp": 25,
+          "at": "2026-10-31T17:25"
         },
         {
           "source": "Tracker C",
@@ -1186,26 +1186,26 @@
         },
         {
           "date": "2026-10-31",
-          "gmp": 25.5
+          "gmp": 25
         }
       ],
       "history_source": "Tracker B",
       "gmp_low": 10,
       "gmp_high": 32,
-      "gmp": 25.5,
-      "gmp_asof": "2026-10-31T17:10",
+      "gmp": 25,
+      "gmp_asof": "2026-10-31T17:25",
       "gmp_source_latest": "Tracker B",
-      "gmp_pct": 7.73,
+      "gmp_pct": 7.58,
       "gmp_spread": {
         "min": 23,
-        "max": 25.5,
-        "diff": 2.5,
+        "max": 25,
+        "diff": 2,
         "n": 4,
-        "diff_pct_of_price": 0.76
+        "diff_pct_of_price": 0.61
       },
       "gmp_trend": {
         "dir": "rising",
-        "change": 15.5,
+        "change": 15,
         "days": 3,
         "since": "2026-10-29"
       },
@@ -1969,7 +1969,7 @@
       "sub_asof": "2026-10-29T19:05",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-10-31T17:15"
+        "at": "2026-10-31T17:31"
       },
       "gmp_sources": [],
       "gmp_history": [],
@@ -2570,7 +2570,7 @@
         "total": 4.67
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-10-31T17:14",
+      "sub_asof": "2026-10-31T17:28",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "JDA CAPITAL SERVICES LIMITED (Formerly Known as Beeline Broking Limited)"
@@ -2709,7 +2709,7 @@
         "total": 1.16
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-10-31T16:45",
+      "sub_asof": "2026-10-31T17:25",
       "registrar": "Kfin Technologies Limited",
       "lead_managers": [
         "Hem Securities Limited"
@@ -2988,7 +2988,7 @@
       "sub_asof": "2026-10-31T16:36",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-10-31T17:15"
+        "at": "2026-10-31T17:31"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3220,7 +3220,7 @@
       "sub_asof": "2026-10-31T08:16",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-10-31T17:15"
+        "at": "2026-10-31T17:31"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3260,7 +3260,7 @@
         "nii": 0.32,
         "total": 1.12
       },
-      "updated_on": "2026-10-31T17:15+05:30",
+      "updated_on": "2026-10-31T17:31+05:30",
       "from_peers": true,
       "exchange": "BSE SME",
       "registrar": "KFin Technologies Limited",
