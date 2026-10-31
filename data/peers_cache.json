@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-10-31T12:43+05:30",
+  "fetched_at": "2026-10-31T12:46+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -19,7 +19,7 @@
     "gmp_at": "2026-10-31T12:40",
     "sub_total": 3.79,
     "sub_retail": 3.02,
-    "sub_at": "2026-10-31T12:42",
+    "sub_at": "2026-10-31T12:44",
     "sub_cats": {
      "retail": 3.02,
      "nii": 1.8,
@@ -503,7 +503,7 @@
     "gmp_at": "2026-10-31T12:40",
     "sub_total": 4.67,
     "sub_retail": 7.47,
-    "sub_at": "2026-10-31T12:41",
+    "sub_at": "2026-10-31T12:44",
     "sub_cats": {
      "retail": 7.47,
      "nii": 4.35,
@@ -585,6 +585,61 @@
    },
    {
     "src": "Tracker B",
+    "slug": "ajwa-projects",
+    "name": "Ajwa Projects Limited",
+    "segment": "SME",
+    "exchange": "BSE SME",
+    "open": "2026-10-28",
+    "close": "2026-10-30",
+    "boa": "2026-11-02",
+    "listing": "2026-11-04",
+    "price": 203.0,
+    "price_low": 203.0,
+    "size_cr": 38.05,
+    "gmp": 1.0,
+    "gmp_at": "2026-10-31T12:40",
+    "sub_total": 1.12,
+    "sub_retail": 1.93,
+    "sub_at": "2026-10-30T19:05",
+    "sub_cats": {
+     "retail": 1.93,
+     "nii": 0.32,
+     "total": 1.12
+    },
+    "gmp_days": [
+     [
+      "2026-10-28",
+      35.0
+     ],
+     [
+      "2026-10-29",
+      5.0
+     ],
+     [
+      "2026-10-30",
+      2.0
+     ],
+     [
+      "2026-10-31",
+      1.0
+     ]
+    ],
+    "rhp_url": null,
+    "drhp_url": null,
+    "lot_raw": 1200.0,
+    "sector": "Industrial EPC and Infrastructure",
+    "quota": {
+     "nii": 50.0,
+     "retail": 50.0
+    },
+    "fresh_cr": 30.45,
+    "ofs_cr": 7.6,
+    "registrar": "KFin Technologies Limited",
+    "lead_manager": "Wealth Mine Networks Private Limited",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
     "slug": "carver-roboweld",
     "name": "Carver Roboweld",
     "segment": "SME",
@@ -638,61 +693,6 @@
     "ofs_cr": 0.0,
     "registrar": "Bigshare Services Pvt. Ltd.",
     "lead_manager": "Smart Horizon Capital Advisors Pvt. Ltd.",
-    "live": true
-   },
-   {
-    "src": "Tracker B",
-    "slug": "ajwa-projects",
-    "name": "Ajwa Projects Limited",
-    "segment": "SME",
-    "exchange": "BSE SME",
-    "open": "2026-10-28",
-    "close": "2026-10-30",
-    "boa": "2026-11-02",
-    "listing": "2026-11-04",
-    "price": 203.0,
-    "price_low": 203.0,
-    "size_cr": 38.05,
-    "gmp": 1.0,
-    "gmp_at": "2026-10-31T12:40",
-    "sub_total": 1.12,
-    "sub_retail": 1.93,
-    "sub_at": "2026-10-30T19:05",
-    "sub_cats": {
-     "retail": 1.93,
-     "nii": 0.32,
-     "total": 1.12
-    },
-    "gmp_days": [
-     [
-      "2026-10-28",
-      35.0
-     ],
-     [
-      "2026-10-29",
-      5.0
-     ],
-     [
-      "2026-10-30",
-      2.0
-     ],
-     [
-      "2026-10-31",
-      1.0
-     ]
-    ],
-    "rhp_url": null,
-    "drhp_url": null,
-    "lot_raw": 1200.0,
-    "sector": "Industrial EPC and Infrastructure",
-    "quota": {
-     "nii": 50.0,
-     "retail": 50.0
-    },
-    "fresh_cr": 30.45,
-    "ofs_cr": 7.6,
-    "registrar": "KFin Technologies Limited",
-    "lead_manager": "Wealth Mine Networks Private Limited",
     "live": true
    },
    {
@@ -856,7 +856,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-10-31T12:43+05:30",
+  "fetched_at": "2026-10-31T12:46+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -1521,7 +1521,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-10-31T12:43+05:30",
+  "fetched_at": "2026-10-31T12:46+05:30",
   "records": [
    {
     "src": "Tracker D",
