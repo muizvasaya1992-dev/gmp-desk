@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-10-31T12:02+05:30",
+  "fetched_at": "2026-10-31T12:03+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,10 +16,10 @@
     "price_low": 78.0,
     "size_cr": 183.06,
     "gmp": 7.0,
-    "gmp_at": "2026-10-31T11:55",
+    "gmp_at": "2026-10-31T12:00",
     "sub_total": 3.79,
     "sub_retail": 3.02,
-    "sub_at": "2026-10-31T11:59",
+    "sub_at": "2026-10-31T12:02",
     "sub_cats": {
      "retail": 3.02,
      "nii": 1.8,
@@ -170,7 +170,7 @@
     "price_low": 1585.0,
     "size_cr": 1200.0,
     "gmp": 53.0,
-    "gmp_at": "2026-10-31T11:55",
+    "gmp_at": "2026-10-31T12:00",
     "sub_total": 5.25,
     "sub_retail": 1.03,
     "sub_at": "2026-10-28T19:06",
@@ -260,8 +260,8 @@
     "price": 330.0,
     "price_low": 313.0,
     "size_cr": 668.0,
-    "gmp": 20.5,
-    "gmp_at": "2026-10-31T11:55",
+    "gmp": 21.5,
+    "gmp_at": "2026-10-31T12:00",
     "sub_total": 9.47,
     "sub_retail": 2.71,
     "sub_at": "2026-10-29T19:05",
@@ -320,7 +320,7 @@
      ],
      [
       "2026-10-31",
-      20.5
+      21.5
      ]
     ],
     "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_SFCTECH.zip",
@@ -499,7 +499,7 @@
     "gmp_at": "2026-10-31T12:00",
     "sub_total": 4.67,
     "sub_retail": 7.47,
-    "sub_at": "2026-10-31T11:59",
+    "sub_at": "2026-10-31T12:01",
     "sub_cats": {
      "retail": 7.47,
      "nii": 4.35,
@@ -581,57 +581,6 @@
    },
    {
     "src": "Tracker B",
-    "slug": "ajwa-projects",
-    "name": "Ajwa Projects Limited",
-    "segment": "SME",
-    "exchange": "BSE SME",
-    "open": "2026-10-28",
-    "close": "2026-10-30",
-    "boa": "2026-11-02",
-    "listing": "2026-11-04",
-    "price": 203.0,
-    "price_low": 203.0,
-    "size_cr": 38.05,
-    "gmp": 2.0,
-    "gmp_at": "2026-10-31T12:00",
-    "sub_total": 1.12,
-    "sub_retail": 1.93,
-    "sub_at": "2026-10-30T19:05",
-    "sub_cats": {
-     "retail": 1.93,
-     "nii": 0.32,
-     "total": 1.12
-    },
-    "gmp_days": [
-     [
-      "2026-10-28",
-      35.0
-     ],
-     [
-      "2026-10-29",
-      5.0
-     ],
-     [
-      "2026-10-30",
-      2.0
-     ]
-    ],
-    "rhp_url": null,
-    "drhp_url": null,
-    "lot_raw": 1200.0,
-    "sector": "Industrial EPC and Infrastructure",
-    "quota": {
-     "nii": 50.0,
-     "retail": 50.0
-    },
-    "fresh_cr": 30.45,
-    "ofs_cr": 7.6,
-    "registrar": "KFin Technologies Limited",
-    "lead_manager": "Wealth Mine Networks Private Limited",
-    "live": true
-   },
-   {
-    "src": "Tracker B",
     "slug": "carver-roboweld",
     "name": "Carver Roboweld",
     "segment": "SME",
@@ -689,6 +638,57 @@
    },
    {
     "src": "Tracker B",
+    "slug": "ajwa-projects",
+    "name": "Ajwa Projects Limited",
+    "segment": "SME",
+    "exchange": "BSE SME",
+    "open": "2026-10-28",
+    "close": "2026-10-30",
+    "boa": "2026-11-02",
+    "listing": "2026-11-04",
+    "price": 203.0,
+    "price_low": 203.0,
+    "size_cr": 38.05,
+    "gmp": 2.0,
+    "gmp_at": "2026-10-31T12:00",
+    "sub_total": 1.12,
+    "sub_retail": 1.93,
+    "sub_at": "2026-10-30T19:05",
+    "sub_cats": {
+     "retail": 1.93,
+     "nii": 0.32,
+     "total": 1.12
+    },
+    "gmp_days": [
+     [
+      "2026-10-28",
+      35.0
+     ],
+     [
+      "2026-10-29",
+      5.0
+     ],
+     [
+      "2026-10-30",
+      2.0
+     ]
+    ],
+    "rhp_url": null,
+    "drhp_url": null,
+    "lot_raw": 1200.0,
+    "sector": "Industrial EPC and Infrastructure",
+    "quota": {
+     "nii": 50.0,
+     "retail": 50.0
+    },
+    "fresh_cr": 30.45,
+    "ofs_cr": 7.6,
+    "registrar": "KFin Technologies Limited",
+    "lead_manager": "Wealth Mine Networks Private Limited",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
     "slug": "wiscon-industries",
     "name": "Wiscon Industries",
     "segment": "SME",
@@ -701,7 +701,7 @@
     "price_low": 194.0,
     "size_cr": 110.0,
     "gmp": 0.0,
-    "gmp_at": "2026-10-31T11:55",
+    "gmp_at": "2026-10-31T12:00",
     "sub_total": 1.17,
     "sub_retail": 0.66,
     "sub_at": "2026-10-29T19:05",
@@ -848,7 +848,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-10-31T12:02+05:30",
+  "fetched_at": "2026-10-31T12:03+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -1513,7 +1513,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-10-31T12:02+05:30",
+  "fetched_at": "2026-10-31T12:03+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -1894,7 +1894,7 @@
     "price": 94.0,
     "price_low": 88.0,
     "size_cr": 56.68,
-    "gmp": 4.5,
+    "gmp": 4.25,
     "gmp_at": null,
     "sub_total": null,
     "sub_retail": null,
