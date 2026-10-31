@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T14:31+05:30",
+  "generated_at": "2026-10-31T14:45+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-10-31T11:31+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-10-31T14:31+05:30",
+    "nse_ok_at": "2026-10-31T14:45+05:30",
     "bse_ok_at": "2026-10-31T12:57+05:30"
   },
   "ipos": [
@@ -1969,7 +1969,7 @@
       "sub_asof": "2026-10-29T19:05",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-10-31T14:31"
+        "at": "2026-10-31T14:45"
       },
       "gmp_sources": [],
       "gmp_history": [],
@@ -2478,14 +2478,14 @@
         },
         {
           "source": "Tracker D",
-          "gmp": 5,
-          "at": "2026-10-31T11:46"
+          "gmp": 5.5,
+          "at": "2026-10-31T14:45"
         }
       ],
       "gmp_history": [
         {
           "date": "2026-10-24",
-          "gmp": 7
+          "gmp": 8
         },
         {
           "date": "2026-10-25",
@@ -2493,46 +2493,46 @@
         },
         {
           "date": "2026-10-26",
-          "gmp": 8
+          "gmp": 9
         },
         {
           "date": "2026-10-27",
-          "gmp": 10
+          "gmp": 8
         },
         {
           "date": "2026-10-28",
-          "gmp": 16
+          "gmp": 13
         },
         {
           "date": "2026-10-29",
-          "gmp": 14
+          "gmp": 10
         },
         {
           "date": "2026-10-30",
-          "gmp": 12.5
+          "gmp": 12
         },
         {
           "date": "2026-10-31",
-          "gmp": 5
+          "gmp": 5.5
         }
       ],
-      "history_source": "Tracker B",
+      "history_source": "Tracker D",
       "gmp_low": 2,
       "gmp_high": 16,
-      "gmp": 5,
-      "gmp_asof": "2026-10-31T12:30",
-      "gmp_source_latest": "Tracker B",
-      "gmp_pct": 3.09,
+      "gmp": 5.5,
+      "gmp_asof": "2026-10-31T14:45",
+      "gmp_source_latest": "Tracker D",
+      "gmp_pct": 3.4,
       "gmp_spread": {
         "min": 5,
-        "max": 5,
-        "diff": 0,
+        "max": 5.5,
+        "diff": 0.5,
         "n": 4,
-        "diff_pct_of_price": 0.0
+        "diff_pct_of_price": 0.31
       },
       "gmp_trend": {
         "dir": "falling",
-        "change": -9,
+        "change": -4.5,
         "days": 3,
         "since": "2026-10-29"
       },
@@ -2570,7 +2570,7 @@
         "total": 4.67
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-10-31T14:29",
+      "sub_asof": "2026-10-31T14:42",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "JDA CAPITAL SERVICES LIMITED (Formerly Known as Beeline Broking Limited)"
@@ -2623,7 +2623,7 @@
         {
           "source": "Tracker D",
           "gmp": 70,
-          "at": "2026-10-31T11:34"
+          "at": "2026-10-31T14:45"
         },
         {
           "source": "Tracker B",
@@ -2657,10 +2657,10 @@
       "gmp_low": 25,
       "gmp_high": 70,
       "exchange": "SME",
-      "gmp": 45,
-      "gmp_asof": "2026-10-31T12:15",
-      "gmp_source_latest": "Public trackers",
-      "gmp_pct": 28.48,
+      "gmp": 70,
+      "gmp_asof": "2026-10-31T14:45",
+      "gmp_source_latest": "Tracker D",
+      "gmp_pct": 44.3,
       "gmp_spread": {
         "min": 45,
         "max": 70,
@@ -2709,7 +2709,7 @@
         "total": 1.16
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-10-31T14:26",
+      "sub_asof": "2026-10-31T14:42",
       "registrar": "Kfin Technologies Limited",
       "lead_managers": [
         "Hem Securities Limited"
@@ -2757,7 +2757,7 @@
         {
           "source": "Tracker D",
           "gmp": 30,
-          "at": "2026-10-31T11:34"
+          "at": "2026-10-31T14:45"
         },
         {
           "source": "Tracker B",
@@ -2780,8 +2780,8 @@
       "gmp_high": 30,
       "exchange": "SME",
       "gmp": 30,
-      "gmp_asof": "2026-10-31T12:55",
-      "gmp_source_latest": "Tracker B",
+      "gmp_asof": "2026-10-31T14:45",
+      "gmp_source_latest": "Tracker D",
       "gmp_pct": 25.0,
       "gmp_spread": {
         "min": 30,
@@ -2985,10 +2985,10 @@
         "total": 0.81
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-10-31T14:30",
+      "sub_asof": "2026-10-31T14:34",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-10-31T14:31"
+        "at": "2026-10-31T14:45"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3077,7 +3077,7 @@
         "total": 1.14
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-10-31T14:19",
+      "sub_asof": "2026-10-31T14:39",
       "lot_basis": "tracker",
       "gmp_sources": [
         {
@@ -3220,7 +3220,7 @@
       "sub_asof": "2026-10-31T08:16",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-10-31T14:31"
+        "at": "2026-10-31T14:45"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3260,7 +3260,7 @@
         "nii": 0.32,
         "total": 1.12
       },
-      "updated_on": "2026-10-31T14:31+05:30",
+      "updated_on": "2026-10-31T14:45+05:30",
       "from_peers": true,
       "exchange": "BSE SME",
       "registrar": "KFin Technologies Limited",
@@ -3305,8 +3305,8 @@
         },
         {
           "source": "Tracker D",
-          "gmp": 1,
-          "at": "2026-10-31T12:35"
+          "gmp": 2,
+          "at": "2026-10-31T14:45"
         }
       ],
       "gmp_history": [
@@ -3328,26 +3328,26 @@
         },
         {
           "date": "2026-10-31",
-          "gmp": 1
+          "gmp": 2
         }
       ],
       "history_source": "Tracker D",
       "gmp_low": 1,
       "gmp_high": 38,
-      "gmp": 1,
-      "gmp_asof": "2026-10-31T12:35",
+      "gmp": 2,
+      "gmp_asof": "2026-10-31T14:45",
       "gmp_source_latest": "Tracker D",
-      "gmp_pct": 0.49,
+      "gmp_pct": 0.99,
       "gmp_spread": {
         "min": 1,
-        "max": 1,
-        "diff": 0,
+        "max": 2,
+        "diff": 1,
         "n": 3,
-        "diff_pct_of_price": 0.0
+        "diff_pct_of_price": 0.49
       },
       "gmp_trend": {
         "dir": "falling",
-        "change": -9,
+        "change": -8,
         "days": 3,
         "since": "2026-10-29"
       },
