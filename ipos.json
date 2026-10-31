@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T19:14+05:30",
+  "generated_at": "2026-10-31T19:15+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-10-31T11:31+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-10-31T19:14+05:30",
+    "nse_ok_at": "2026-10-31T19:15+05:30",
     "bse_ok_at": "2026-10-31T12:57+05:30"
   },
   "ipos": [
@@ -2019,7 +2019,7 @@
       "sub_asof": "2026-10-29T19:05",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-10-31T19:14"
+        "at": "2026-10-31T19:15"
       },
       "gmp_sources": [],
       "gmp_history": [],
@@ -3298,7 +3298,7 @@
       "sub_asof": "2026-10-31T17:29",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-10-31T19:14"
+        "at": "2026-10-31T19:15"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3621,7 +3621,7 @@
       "sub_asof": "2026-10-31T08:16",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-10-31T19:14"
+        "at": "2026-10-31T19:15"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3661,7 +3661,7 @@
         "nii": 0.32,
         "total": 1.12
       },
-      "updated_on": "2026-10-31T19:14+05:30",
+      "updated_on": "2026-10-31T19:15+05:30",
       "from_peers": true,
       "exchange": "BSE SME",
       "registrar": "KFin Technologies Limited",
