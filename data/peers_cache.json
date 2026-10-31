@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-10-31T19:16+05:30",
+  "fetched_at": "2026-10-31T19:31+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,17 +16,17 @@
     "price_low": 78.0,
     "size_cr": 183.06,
     "gmp": 10.0,
-    "gmp_at": "2026-10-31T19:10",
-    "sub_total": 3.79,
-    "sub_retail": 3.02,
-    "sub_at": "2026-10-31T19:12",
+    "gmp_at": "2026-10-31T19:30",
+    "sub_total": 3.98,
+    "sub_retail": 3.17,
+    "sub_at": "2026-10-31T19:30",
     "sub_cats": {
-     "retail": 3.02,
-     "nii": 1.8,
+     "retail": 3.17,
+     "nii": 1.9,
      "bnii": 1.23,
      "snii": 2.94,
-     "qib": 6.56,
-     "total": 3.79
+     "qib": 6.89,
+     "total": 3.98
     },
     "gmp_days": [
      [
@@ -95,7 +95,7 @@
     "price_low": 153.0,
     "size_cr": 330.48,
     "gmp": 5.5,
-    "gmp_at": "2026-10-31T19:10",
+    "gmp_at": "2026-10-31T19:31",
     "sub_total": 5.1,
     "sub_retail": 3.08,
     "sub_at": "2026-10-30T19:05",
@@ -174,7 +174,7 @@
     "price_low": 1585.0,
     "size_cr": 1200.0,
     "gmp": 52.5,
-    "gmp_at": "2026-10-31T19:10",
+    "gmp_at": "2026-10-31T19:30",
     "sub_total": 5.25,
     "sub_retail": 1.03,
     "sub_at": "2026-10-28T19:06",
@@ -265,7 +265,7 @@
     "price_low": 142.0,
     "size_cr": 255.0,
     "gmp": 67.33,
-    "gmp_at": "2026-10-31T19:10",
+    "gmp_at": "2026-10-31T19:30",
     "sub_total": 241.22,
     "sub_retail": 128.36,
     "sub_at": "2026-10-29T19:05",
@@ -360,7 +360,7 @@
     "price_low": 313.0,
     "size_cr": 668.0,
     "gmp": 24.5,
-    "gmp_at": "2026-10-31T19:10",
+    "gmp_at": "2026-10-31T19:30",
     "sub_total": 9.47,
     "sub_retail": 2.71,
     "sub_at": "2026-10-29T19:05",
@@ -451,7 +451,7 @@
     "price_low": 63.0,
     "size_cr": 23.33,
     "gmp": 0.0,
-    "gmp_at": "2026-10-31T19:10",
+    "gmp_at": "2026-10-31T19:30",
     "sub_total": 0.81,
     "sub_retail": 0.1,
     "sub_at": "2026-10-31T17:29",
@@ -500,7 +500,7 @@
     "price_low": 190.0,
     "size_cr": 56.02,
     "gmp": 5.0,
-    "gmp_at": "2026-10-31T19:11",
+    "gmp_at": "2026-10-31T19:31",
     "sub_total": 1.14,
     "sub_retail": 1.3,
     "sub_at": "2026-10-31T18:18",
@@ -544,10 +544,10 @@
     "price_low": 114.0,
     "size_cr": 34.56,
     "gmp": 30.0,
-    "gmp_at": "2026-10-31T19:10",
+    "gmp_at": "2026-10-31T19:31",
     "sub_total": 1.16,
     "sub_retail": 0.25,
-    "sub_at": "2026-10-31T19:10",
+    "sub_at": "2026-10-31T19:28",
     "sub_cats": {
      "retail": 0.25,
      "nii": 1.24,
@@ -589,10 +589,10 @@
     "price_low": 150.0,
     "size_cr": 57.64,
     "gmp": 70.0,
-    "gmp_at": "2026-10-31T19:10",
+    "gmp_at": "2026-10-31T19:30",
     "sub_total": 4.67,
     "sub_retail": 7.47,
-    "sub_at": "2026-10-31T19:12",
+    "sub_at": "2026-10-31T19:29",
     "sub_cats": {
      "retail": 7.47,
      "nii": 4.35,
@@ -637,7 +637,7 @@
     "price_low": 99.0,
     "size_cr": 53.05,
     "gmp": 0.0,
-    "gmp_at": "2026-10-31T19:10",
+    "gmp_at": "2026-10-31T19:30",
     "sub_total": 1.2,
     "sub_retail": 1.03,
     "sub_at": "2026-10-31T08:16",
@@ -674,61 +674,6 @@
    },
    {
     "src": "Tracker B",
-    "slug": "ajwa-projects",
-    "name": "Ajwa Projects Limited",
-    "segment": "SME",
-    "exchange": "BSE SME",
-    "open": "2026-10-28",
-    "close": "2026-10-30",
-    "boa": "2026-11-02",
-    "listing": "2026-11-04",
-    "price": 203.0,
-    "price_low": 203.0,
-    "size_cr": 38.05,
-    "gmp": 1.0,
-    "gmp_at": "2026-10-31T19:11",
-    "sub_total": 1.12,
-    "sub_retail": 1.93,
-    "sub_at": "2026-10-30T19:05",
-    "sub_cats": {
-     "retail": 1.93,
-     "nii": 0.32,
-     "total": 1.12
-    },
-    "gmp_days": [
-     [
-      "2026-10-28",
-      35.0
-     ],
-     [
-      "2026-10-29",
-      5.0
-     ],
-     [
-      "2026-10-30",
-      2.0
-     ],
-     [
-      "2026-10-31",
-      1.0
-     ]
-    ],
-    "rhp_url": null,
-    "drhp_url": null,
-    "lot_raw": 1200.0,
-    "sector": "Industrial EPC and Infrastructure",
-    "quota": {
-     "nii": 50.0,
-     "retail": 50.0
-    },
-    "fresh_cr": 30.45,
-    "ofs_cr": 7.6,
-    "registrar": "KFin Technologies Limited",
-    "lead_manager": "Wealth Mine Networks Private Limited",
-    "live": true
-   },
-   {
-    "src": "Tracker B",
     "slug": "carver-roboweld",
     "name": "Carver Roboweld",
     "segment": "SME",
@@ -741,7 +686,7 @@
     "price_low": 76.0,
     "size_cr": 28.29,
     "gmp": 5.0,
-    "gmp_at": "2026-10-31T19:11",
+    "gmp_at": "2026-10-31T19:30",
     "sub_total": 25.8,
     "sub_retail": 19.17,
     "sub_at": "2026-10-30T19:05",
@@ -786,6 +731,61 @@
    },
    {
     "src": "Tracker B",
+    "slug": "ajwa-projects",
+    "name": "Ajwa Projects Limited",
+    "segment": "SME",
+    "exchange": "BSE SME",
+    "open": "2026-10-28",
+    "close": "2026-10-30",
+    "boa": "2026-11-02",
+    "listing": "2026-11-04",
+    "price": 203.0,
+    "price_low": 203.0,
+    "size_cr": 38.05,
+    "gmp": 1.0,
+    "gmp_at": "2026-10-31T19:30",
+    "sub_total": 1.12,
+    "sub_retail": 1.93,
+    "sub_at": "2026-10-30T19:05",
+    "sub_cats": {
+     "retail": 1.93,
+     "nii": 0.32,
+     "total": 1.12
+    },
+    "gmp_days": [
+     [
+      "2026-10-28",
+      35.0
+     ],
+     [
+      "2026-10-29",
+      5.0
+     ],
+     [
+      "2026-10-30",
+      2.0
+     ],
+     [
+      "2026-10-31",
+      1.0
+     ]
+    ],
+    "rhp_url": null,
+    "drhp_url": null,
+    "lot_raw": 1200.0,
+    "sector": "Industrial EPC and Infrastructure",
+    "quota": {
+     "nii": 50.0,
+     "retail": 50.0
+    },
+    "fresh_cr": 30.45,
+    "ofs_cr": 7.6,
+    "registrar": "KFin Technologies Limited",
+    "lead_manager": "Wealth Mine Networks Private Limited",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
     "slug": "wiscon-industries",
     "name": "Wiscon Industries",
     "segment": "SME",
@@ -798,7 +798,7 @@
     "price_low": 194.0,
     "size_cr": 110.0,
     "gmp": 0.0,
-    "gmp_at": "2026-10-31T19:10",
+    "gmp_at": "2026-10-31T19:30",
     "sub_total": 1.17,
     "sub_retail": 0.66,
     "sub_at": "2026-10-29T19:05",
@@ -945,7 +945,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-10-31T19:16+05:30",
+  "fetched_at": "2026-10-31T19:31+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -960,13 +960,13 @@
     "price": 94.0,
     "price_low": null,
     "size_cr": 56.68,
-    "gmp": 4.25,
-    "gmp_at": "2026-10-31T15:37",
+    "gmp": 5.0,
+    "gmp_at": "2026-10-31T17:37",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
     "lot": 1200.0,
-    "rating": 1,
+    "rating": 2,
     "live": true
    },
    {
@@ -983,7 +983,7 @@
     "price_low": null,
     "size_cr": 34.56,
     "gmp": 30.0,
-    "gmp_at": "2026-10-31T15:37",
+    "gmp_at": "2026-10-31T17:37",
     "sub_total": 1.16,
     "sub_retail": null,
     "sub_at": null,
@@ -1005,7 +1005,7 @@
     "price_low": null,
     "size_cr": 56.02,
     "gmp": 5.0,
-    "gmp_at": "2026-10-31T15:37",
+    "gmp_at": "2026-10-31T17:37",
     "sub_total": 1.14,
     "sub_retail": null,
     "sub_at": null,
@@ -1027,7 +1027,7 @@
     "price_low": null,
     "size_cr": 53.05,
     "gmp": null,
-    "gmp_at": "2026-10-31T15:37",
+    "gmp_at": "2026-10-31T17:32",
     "sub_total": 1.2,
     "sub_retail": null,
     "sub_at": null,
@@ -1049,7 +1049,7 @@
     "price_low": null,
     "size_cr": 57.64,
     "gmp": 70.0,
-    "gmp_at": "2026-10-31T15:37",
+    "gmp_at": "2026-10-31T17:37",
     "sub_total": 4.67,
     "sub_retail": null,
     "sub_at": null,
@@ -1071,7 +1071,7 @@
     "price_low": null,
     "size_cr": 23.33,
     "gmp": null,
-    "gmp_at": "2026-10-31T15:32",
+    "gmp_at": "2026-10-31T17:31",
     "sub_total": 0.82,
     "sub_retail": null,
     "sub_at": null,
@@ -1093,7 +1093,7 @@
     "price_low": null,
     "size_cr": 183.06,
     "gmp": 10.0,
-    "gmp_at": "2026-10-31T15:37",
+    "gmp_at": "2026-10-31T17:37",
     "sub_total": 3.98,
     "sub_retail": null,
     "sub_at": null,
@@ -1115,7 +1115,7 @@
     "price_low": null,
     "size_cr": 275.4,
     "gmp": 5.5,
-    "gmp_at": "2026-10-31T15:37",
+    "gmp_at": "2026-10-31T17:37",
     "sub_total": 5.09,
     "sub_retail": null,
     "sub_at": null,
@@ -1137,7 +1137,7 @@
     "price_low": null,
     "size_cr": 38.05,
     "gmp": 1.0,
-    "gmp_at": "2026-10-31T15:37",
+    "gmp_at": "2026-10-31T17:37",
     "sub_total": 1.12,
     "sub_retail": null,
     "sub_at": null,
@@ -1159,7 +1159,7 @@
     "price_low": null,
     "size_cr": 28.29,
     "gmp": 5.0,
-    "gmp_at": "2026-10-31T15:37",
+    "gmp_at": "2026-10-31T17:37",
     "sub_total": 25.8,
     "sub_retail": null,
     "sub_at": null,
@@ -1181,7 +1181,7 @@
     "price_low": null,
     "size_cr": 110.0,
     "gmp": null,
-    "gmp_at": "2026-10-31T15:34",
+    "gmp_at": "2026-10-31T17:33",
     "sub_total": 1.17,
     "sub_retail": null,
     "sub_at": null,
@@ -1202,8 +1202,8 @@
     "price": 330.0,
     "price_low": null,
     "size_cr": 667.53,
-    "gmp": 25.5,
-    "gmp_at": "2026-10-31T15:37",
+    "gmp": 24.5,
+    "gmp_at": "2026-10-31T17:37",
     "sub_total": 9.47,
     "sub_retail": null,
     "sub_at": null,
@@ -1224,8 +1224,8 @@
     "price": 150.0,
     "price_low": null,
     "size_cr": 255.0,
-    "gmp": 67.0,
-    "gmp_at": "2026-10-31T15:37",
+    "gmp": 68.0,
+    "gmp_at": "2026-10-31T17:37",
     "sub_total": 241.22,
     "sub_retail": null,
     "sub_at": null,
@@ -1247,7 +1247,7 @@
     "price_low": null,
     "size_cr": 1200.0,
     "gmp": 53.0,
-    "gmp_at": "2026-10-31T15:37",
+    "gmp_at": "2026-10-31T17:37",
     "sub_total": 5.51,
     "sub_retail": null,
     "sub_at": null,
@@ -1610,7 +1610,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-10-31T19:16+05:30",
+  "fetched_at": "2026-10-31T19:31+05:30",
   "records": [
    {
     "src": "Tracker D",
