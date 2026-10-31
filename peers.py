@@ -192,7 +192,7 @@ def parse_c(page, today):
             "price": _num(cells.get("Price (₹)")), "price_low": None,
             "size_cr": _num(size.group(1)) if size else None,
             "gmp": float(g.group(1)) if g else None, "gmp_at": gmp_at,
-            "sub_total": None, "sub_retail": None, "sub_at": None,
+            "sub_total": _num(re.sub(r"[^\d.]", "", cells.get("Sub", "")) or None), "sub_retail": None, "sub_at": None,
             "lot": _num(cells.get("Lot")), "rating": min(fires, 5) or None,
             "live": flag in ("U", "O", "C", "CT"),
         })
@@ -255,6 +255,31 @@ def parse_detail(page, price):
             for d, g in re.findall(r"(\d{1,2} [A-Za-z]{3} \d{4})\s+₹\s*(-?[\d,.]+)\s+[+\-]?[\d.]+%", seg)]
     if hist:
         res["gmp_history"] = hist
+    # subscription by investor category, with the time the source last updated it
+    i = t.find("Subscription Breakdown")
+    if i >= 0:
+        i = max(0, i - 2000)
+        sec = t[i:i + 12000]
+        sub, names = {}, {"qib": "qib", "nii": "nii", "niihni": "nii", "snii": "snii", "bnii": "bnii",
+                          "retail": "retail", "retailrii": "retail", "rii": "retail",
+                          "employee": "employee", "employees": "employee", "shareholder": "shareholders", "shareholders": "shareholders"}
+        m = re.search(r"overall-badge[^>]*>\s*Overall\s*(\d+(?:\.\d+)?)x", sec)
+        if m:
+            sub["total"] = float(m.group(1))
+        for lab, val in re.findall(r'sub-tile-label"[^>]*>\s*([^<]+?)\s*</span>\s*<span[^>]*sub-tile-value"[^>]*>\s*(\d+(?:\.\d+)?)x', sec):
+            k = names.get(re.sub(r"[^a-z]", "", lab.lower()))
+            if k:
+                sub[k] = float(val)
+        if "total" in sub and len(sub) > 1:
+            res["sub"] = sub
+            ts = re.search(r'timestamp"[^>]*>\s*(\d{1,2}) ([A-Za-z]{3}) (\d{4}),\s*(\d{1,2}):(\d{2})\s*([AaPp])', sec)
+            if ts:
+                try:
+                    hh = int(ts.group(4)) % 12 + (12 if ts.group(6).lower() == "p" else 0)
+                    d0 = dt.datetime.strptime(f"{ts.group(1)} {ts.group(2)} {ts.group(3)}", "%d %b %Y").date()
+                    res["sub_at"] = f"{d0.isoformat()}T{hh:02d}:{ts.group(5)}"
+                except ValueError:
+                    pass
     # offer-document numbers: embedded array, accepted only if the page's own text agrees with it
     para = _tx(_after(t, "Financial View", 2200)).split("Total Income")[0]
     said = [float(x.replace(",", "")) for x in re.findall(r"₹\s*([\d,]+(?:\.\d+)?)\s*crore", para)]
@@ -433,7 +458,7 @@ def apply(recs, peers, today, stamp):
         for k in _keys(r.get("id"), r.get("symbol"), r.get("name")):
             idx[k] = r
     order = {B: 0, C: 1, D: 2}
-    by_key, rows, added, subs, cand = {}, [], 0, 0, {}
+    by_key, rows, added, subs, cand, subcand = {}, [], 0, 0, {}, {}
     for p in sorted(peers, key=lambda x: order.get(x["src"], 9)):
         mine = None
         for k in _keys(p["slug"], p["name"]):
@@ -462,13 +487,19 @@ def apply(recs, peers, today, stamp):
         for day, g in (p.get("detail") or {}).get("gmp_history", []):       # earlier days, stamped just after midnight so a live reading wins
             if g and day < today.isoformat():
                 rows.append({"ipo": mine["id"], "gmp": _tidy(g), "at": f"{day}T00:01", "source": p["src"]})
-        if p["src"] == B and p.get("sub_total"):
-            if not mine.get("sub") or mine.get("sub_basis") == B:        # never replace the exchanges' own figures
-                sub = {"total": round(p["sub_total"], 2)}
-                if p.get("sub_retail") is not None:
-                    sub["retail"] = round(p["sub_retail"], 2)
-                mine["sub"], mine["sub_basis"], mine["sub_asof"] = sub, B, p.get("sub_at")
-                subs += 1
+        cand_sub = sub_from(p, mine, today)
+        if cand_sub:
+            best = subcand.get(mine["id"])
+            if not best or cand_sub[0] > best[0]:
+                subcand[mine["id"]] = cand_sub
+    for k, (_score, sub, basis, asof) in subcand.items():
+        mine = by_key[k]
+        cur = mine.get("sub") or {}
+        # the exchanges' own figures stand, unless they are still showing nothing at all
+        weak = not cur or str(mine.get("sub_basis") or "").startswith("Tracker") or not cur.get("total")
+        if weak and sub.get("total"):
+            mine["sub"], mine["sub_basis"], mine["sub_asof"] = sub, basis, asof
+            subs += 1
     lots = 0
     for k, c in cand.items():                                               # lot size: our own first, then the direct figure, then the doubled one
         mine = by_key[k]
@@ -481,6 +512,22 @@ def apply(recs, peers, today, stamp):
     if added or subs or rows or lots:
         print(f"  peers: {added} IPO(s) added from them, {subs} subscription figure(s) filled, {lots} lot size(s) filled, {len(rows)} GMP reading(s)")
     return rows
+
+
+def sub_from(p, mine, today):
+    """(score, figures, label, time) from one source, or None. A richer breakdown beats a bare total."""
+    det = (p.get("detail") or {}).get("sub")
+    opened = (mine.get("open") or p.get("open") or "9999") <= today.isoformat()
+    if not opened:
+        return None
+    if det and det.get("total") is not None:
+        return (3, {k: round(v, 2) for k, v in det.items()}, p["src"], (p.get("detail") or {}).get("sub_at"))
+    if p.get("sub_total") is None:
+        return None
+    sub = {"total": round(p["sub_total"], 2)}
+    if p.get("sub_retail") is not None:
+        sub["retail"] = round(p["sub_retail"], 2)
+    return (2 if p["src"] == B else 1, sub, p["src"], p.get("sub_at"))
 
 
 def extra_fill(mine, p, cand):

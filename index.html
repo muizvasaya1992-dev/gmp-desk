@@ -1588,7 +1588,7 @@ function openDrawer(id, quiet){
   const subRows = i.sub ? SUBL.map(([k,l])=>[l,i.sub[k]]).filter(r=>r[1]!=null) : [];
   const mx = Math.max(1,...subRows.map(r=>r[1]));
   const sub = subRows.length ? `<div class="bars">${subRows.map(([l,v])=>`<div class="row"><span>${l}</span><div class="track"><div class="fill" style="width:${Math.min(100,v/mx*100)}%"></div></div><b>${v.toFixed(2)}x</b></div>`).join("")}</div>` : `<div class="micro">Subscription numbers appear once bidding opens.</div>`;
-  const subNote = subRows.length && i.sub_basis ? `<p class="micro" style="margin-top:6px">${i.sub_basis==="NSE+BSE"?"NSE and BSE combined":i.sub_basis==="Tracker B"?`Total and retail figures from a public tracker (the exchanges do not give us this issue's numbers)`:"NSE only (BSE not included yet)"}${i.sub_asof?", as of "+tt(i.sub_asof):""}.</p>` : "";
+  const subNote = subRows.length && i.sub_basis ? `<p class="micro" style="margin-top:6px">${i.sub_basis==="NSE+BSE"?"NSE and BSE combined":/^Tracker /.test(i.sub_basis)?`From a public tracker, because the exchanges do not give us this issue's numbers`:"NSE only (BSE not included yet)"}${i.sub_asof?", as of "+tt(i.sub_asof):""}.</p>` : "";
   const lm=(i.lead_managers||[]).map(n=>n.replace(/\s+(Private\s+)?(Limited|Ltd\.?)$/i,"")); 
   const perLot = (i.gmp!=null && i.lot!=null) ? `<div><dt>Est. gain per lot at GMP</dt><dd class="${i.gmp>=0?"pos2":"neg2"}">${rs(i.gmp*i.lot)}</dd></div>` : "";
   $("db").innerHTML = `

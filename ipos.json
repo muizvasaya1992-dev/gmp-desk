@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T11:45+05:30",
+  "generated_at": "2026-10-31T11:46+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,8 +23,8 @@
     "fetched_at": "2026-10-31T11:31+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-10-31T11:45+05:30",
-    "bse_ok_at": "2026-10-31T11:34+05:30"
+    "nse_ok_at": "2026-10-31T11:46+05:30",
+    "bse_ok_at": "2026-10-31T11:46+05:30"
   },
   "ipos": [
     {
@@ -1101,7 +1101,7 @@
         {
           "source": "Tracker D",
           "gmp": 21,
-          "at": "2026-10-31T11:45"
+          "at": "2026-10-31T11:46"
         }
       ],
       "gmp_history": [
@@ -1142,7 +1142,7 @@
       "gmp_low": 10,
       "gmp_high": 32,
       "gmp": 21,
-      "gmp_asof": "2026-10-31T11:45",
+      "gmp_asof": "2026-10-31T11:46",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 6.36,
       "gmp_spread": {
@@ -1793,13 +1793,17 @@
       "listing": "2026-10-23",
       "anchor": null,
       "rating": null,
-      "sub": null,
+      "sub": {
+        "total": 14.21
+      },
       "updated_on": "2026-10-22T12:00",
       "registrar": null,
       "lead_managers": null,
       "reservation": null,
       "listing_price": null,
       "tracker_rating": 1,
+      "sub_basis": "Tracker C",
+      "sub_asof": null,
       "lot_basis": "tracker",
       "gmp_sources": [
         {
@@ -1861,9 +1865,9 @@
         "fresh_cr": 88.01,
         "ofs_cr": 22.0
       },
+      "tracker_rating": 1,
       "sub_basis": "Tracker B",
       "sub_asof": "2026-10-29T19:05",
-      "tracker_rating": 1,
       "gmp_sources": [],
       "gmp_history": [],
       "gmp": null,
@@ -1908,9 +1912,9 @@
         "fresh_cr": 54.82,
         "ofs_cr": 0.0
       },
+      "tracker_rating": 1,
       "sub_basis": "Tracker B",
       "sub_asof": "2026-10-27T19:05",
-      "tracker_rating": 1,
       "gmp_sources": [],
       "gmp_history": [],
       "gmp": null,
@@ -1955,8 +1959,6 @@
         "fresh_cr": 28.29,
         "ofs_cr": 0.0
       },
-      "sub_basis": "Tracker B",
-      "sub_asof": "2026-10-30T19:05",
       "tracker_rating": 2,
       "fin": {
         "years": [
@@ -1995,6 +1997,8 @@
           "ronw": 21.57
         }
       },
+      "sub_basis": "Tracker B",
+      "sub_asof": "2026-10-30T19:05",
       "lot_basis": "tracker",
       "gmp_sources": [
         {
@@ -2342,7 +2346,7 @@
         {
           "source": "Tracker D",
           "gmp": 5,
-          "at": "2026-10-31T11:45"
+          "at": "2026-10-31T11:46"
         }
       ],
       "gmp_history": [
@@ -2383,7 +2387,7 @@
       "gmp_low": 2,
       "gmp_high": 16,
       "gmp": 5,
-      "gmp_asof": "2026-10-31T11:45",
+      "gmp_asof": "2026-10-31T11:46",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 3.09,
       "gmp_spread": {
@@ -2417,14 +2421,11 @@
       "close": "2026-11-03",
       "segment": "SME",
       "sub": {
-        "qib": 0.0,
-        "nii": 0.0,
-        "bnii": 0.0,
-        "snii": 0.0,
-        "total": 0.0
+        "total": 4.67,
+        "retail": 7.47
       },
-      "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-10-30T17:03",
+      "sub_basis": "Tracker B",
+      "sub_asof": "2026-10-31T11:43",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "JDA CAPITAL SERVICES LIMITED (Formerly Known as Beeline Broking Limited)"
@@ -2541,14 +2542,10 @@
       "close": "2026-11-03",
       "segment": "SME",
       "sub": {
-        "qib": 0.0,
-        "nii": 0.0,
-        "bnii": 0.0,
-        "snii": 0.0,
-        "total": 0.0
+        "total": 1.16
       },
-      "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-10-30T17:03",
+      "sub_basis": "Tracker C",
+      "sub_asof": null,
       "registrar": "Kfin Technologies Limited",
       "lead_managers": [
         "Hem Securities Limited"
@@ -2687,7 +2684,7 @@
         {
           "source": "Tracker D",
           "gmp": 4.5,
-          "at": "2026-10-31T11:45"
+          "at": "2026-10-31T11:46"
         }
       ],
       "gmp_history": [
@@ -2701,7 +2698,7 @@
       "gmp_high": 4.5,
       "exchange": "SME",
       "gmp": 4.5,
-      "gmp_asof": "2026-10-31T11:45",
+      "gmp_asof": "2026-10-31T11:46",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 4.79,
       "status": "upcoming",
@@ -2739,12 +2736,6 @@
         "fresh_cr": 23.33,
         "ofs_cr": 0.0
       },
-      "sub": {
-        "total": 0.81,
-        "retail": 0.1
-      },
-      "sub_basis": "Tracker B",
-      "sub_asof": "2026-10-31T10:55",
       "tracker_rating": 1,
       "fin": {
         "years": [
@@ -2775,6 +2766,12 @@
         ],
         "ratios": {}
       },
+      "sub": {
+        "total": 0.81,
+        "retail": 0.1
+      },
+      "sub_basis": "Tracker B",
+      "sub_asof": "2026-10-31T10:55",
       "lot_basis": "tracker",
       "gmp_sources": [],
       "gmp_history": [],
@@ -2832,6 +2829,11 @@
         ],
         "ratios": {}
       },
+      "sub": {
+        "total": 1.14
+      },
+      "sub_basis": "Tracker C",
+      "sub_asof": null,
       "lot_basis": "tracker",
       "gmp_sources": [
         {
@@ -2918,12 +2920,6 @@
         "fresh_cr": 42.59,
         "ofs_cr": 10.46
       },
-      "sub": {
-        "total": 1.2,
-        "retail": 1.03
-      },
-      "sub_basis": "Tracker B",
-      "sub_asof": "2026-10-31T08:16",
       "tracker_rating": 1,
       "fin": {
         "years": [
@@ -2954,6 +2950,12 @@
         ],
         "ratios": {}
       },
+      "sub": {
+        "total": 1.2,
+        "retail": 1.03
+      },
+      "sub_basis": "Tracker B",
+      "sub_asof": "2026-10-31T08:16",
       "lot_basis": "tracker",
       "gmp_sources": [],
       "gmp_history": [],
@@ -2980,7 +2982,7 @@
         "total": 1.12,
         "retail": 1.93
       },
-      "updated_on": "2026-10-31T11:45+05:30",
+      "updated_on": "2026-10-31T11:46+05:30",
       "from_peers": true,
       "exchange": "BSE SME",
       "registrar": "KFin Technologies Limited",
@@ -2996,8 +2998,6 @@
         "fresh_cr": 30.45,
         "ofs_cr": 7.6
       },
-      "sub_basis": "Tracker B",
-      "sub_asof": "2026-10-30T19:05",
       "tracker_rating": 1,
       "fin": {
         "years": [],
@@ -3011,6 +3011,8 @@
           "ronw": 36.15
         }
       },
+      "sub_basis": "Tracker B",
+      "sub_asof": "2026-10-30T19:05",
       "lot_basis": "tracker",
       "gmp_sources": [
         {
