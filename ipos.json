@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T20:45+05:30",
+  "generated_at": "2026-10-31T21:01+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -786,7 +786,7 @@
         {
           "source": "Tracker C",
           "gmp": 68,
-          "at": "2026-10-31T17:37"
+          "at": "2026-10-31T20:02"
         }
       ],
       "gmp_history": [
@@ -1134,8 +1134,8 @@
         },
         {
           "source": "Tracker C",
-          "gmp": 24.5,
-          "at": "2026-10-31T17:37"
+          "gmp": 23.5,
+          "at": "2026-10-31T20:02"
         },
         {
           "source": "Tracker D",
@@ -1460,8 +1460,8 @@
         },
         {
           "source": "Tracker C",
-          "gmp": 53,
-          "at": "2026-10-31T17:37"
+          "gmp": 54,
+          "at": "2026-10-31T20:02"
         }
       ],
       "gmp_history": [
@@ -1797,7 +1797,7 @@
         {
           "source": "Tracker C",
           "gmp": 10,
-          "at": "2026-10-31T16:02"
+          "at": "2026-10-31T20:02"
         },
         {
           "source": "Tracker B",
@@ -1852,8 +1852,8 @@
       "gmp_low": 7,
       "gmp_high": 10,
       "gmp": 10,
-      "gmp_asof": "2026-10-31T19:45",
-      "gmp_source_latest": "Tracker B",
+      "gmp_asof": "2026-10-31T20:02",
+      "gmp_source_latest": "Tracker C",
       "gmp_pct": 12.2,
       "gmp_spread": {
         "min": 7,
@@ -2019,7 +2019,7 @@
       "sub_asof": "2026-10-29T19:05",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-10-31T20:45"
+        "at": "2026-10-31T21:01"
       },
       "gmp_sources": [],
       "gmp_history": [],
@@ -2628,7 +2628,7 @@
         {
           "source": "Tracker C",
           "gmp": 5.5,
-          "at": "2026-10-31T16:02"
+          "at": "2026-10-31T20:02"
         },
         {
           "source": "Tracker D",
@@ -2724,7 +2724,7 @@
         "total": 4.67
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-10-31T20:41",
+      "sub_asof": "2026-10-31T20:56",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "JDA CAPITAL SERVICES LIMITED (Formerly Known as Beeline Broking Limited)"
@@ -2814,7 +2814,7 @@
         {
           "source": "Tracker B",
           "gmp": 70,
-          "at": "2026-10-31T17:55"
+          "at": "2026-10-31T20:55"
         }
       ],
       "gmp_history": [
@@ -2844,8 +2844,8 @@
       "gmp_high": 70,
       "exchange": "SME",
       "gmp": 70,
-      "gmp_asof": "2026-10-31T20:45",
-      "gmp_source_latest": "Tracker D",
+      "gmp_asof": "2026-10-31T20:55",
+      "gmp_source_latest": "Tracker B",
       "gmp_pct": 44.3,
       "gmp_spread": {
         "min": 45,
@@ -2895,7 +2895,7 @@
         "total": 1.16
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-10-31T20:31",
+      "sub_asof": "2026-10-31T20:57",
       "registrar": "Kfin Technologies Limited",
       "lead_managers": [
         "Hem Securities Limited"
@@ -3059,7 +3059,7 @@
       "nse_status": "Forthcoming",
       "shares_offered": 6030000.0,
       "updated_on": "2026-10-31T11:31+05:30",
-      "tracker_rating": 1,
+      "tracker_rating": 2,
       "reservation_detail": {
         "nii": {
           "pct": 39.49,
@@ -3142,23 +3142,23 @@
         {
           "source": "Tracker C",
           "gmp": 5,
-          "at": "2026-10-31T17:37"
+          "at": "2026-10-31T20:02"
         }
       ],
       "gmp_history": [
         {
           "date": "2026-10-31",
-          "gmp": 4.25
+          "gmp": 5
         }
       ],
-      "history_source": "Tracker D",
+      "history_source": "Tracker C",
       "gmp_low": 4.25,
       "gmp_high": 5,
       "exchange": "SME",
-      "gmp": 4.25,
-      "gmp_asof": "2026-10-31T18:15",
-      "gmp_source_latest": "Tracker D",
-      "gmp_pct": 4.52,
+      "gmp": 5,
+      "gmp_asof": "2026-10-31T20:02",
+      "gmp_source_latest": "Tracker C",
+      "gmp_pct": 5.32,
       "gmp_spread": {
         "min": 4.25,
         "max": 5,
@@ -3298,7 +3298,7 @@
       "sub_asof": "2026-10-31T17:29",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-10-31T20:45"
+        "at": "2026-10-31T21:01"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3432,13 +3432,13 @@
         "total": 1.14
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-10-31T19:33",
+      "sub_asof": "2026-10-31T20:56",
       "lot_basis": "tracker",
       "gmp_sources": [
         {
           "source": "Tracker C",
           "gmp": 5,
-          "at": "2026-10-31T16:02"
+          "at": "2026-10-31T20:02"
         },
         {
           "source": "Tracker D",
@@ -3458,23 +3458,23 @@
         },
         {
           "date": "2026-10-29",
-          "gmp": 13
+          "gmp": 10
         },
         {
           "date": "2026-10-30",
-          "gmp": 12
+          "gmp": 13
         },
         {
           "date": "2026-10-31",
           "gmp": 5
         }
       ],
-      "history_source": "Tracker D",
+      "history_source": "Tracker C",
       "gmp_low": 5,
       "gmp_high": 13,
       "gmp": 5,
-      "gmp_asof": "2026-10-31T19:11",
-      "gmp_source_latest": "Tracker B",
+      "gmp_asof": "2026-10-31T20:02",
+      "gmp_source_latest": "Tracker C",
       "gmp_pct": 2.5,
       "gmp_spread": {
         "min": 5,
@@ -3485,7 +3485,7 @@
       },
       "gmp_trend": {
         "dir": "falling",
-        "change": -8,
+        "change": -5,
         "days": 3,
         "since": "2026-10-29"
       },
@@ -3621,7 +3621,7 @@
       "sub_asof": "2026-10-31T08:16",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-10-31T20:45"
+        "at": "2026-10-31T21:01"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3661,7 +3661,7 @@
         "nii": 0.32,
         "total": 1.12
       },
-      "updated_on": "2026-10-31T20:45+05:30",
+      "updated_on": "2026-10-31T21:01+05:30",
       "from_peers": true,
       "exchange": "BSE SME",
       "registrar": "KFin Technologies Limited",
@@ -3735,7 +3735,7 @@
         {
           "source": "Tracker C",
           "gmp": 1,
-          "at": "2026-10-31T16:02"
+          "at": "2026-10-31T20:02"
         },
         {
           "source": "Tracker D",
@@ -3769,8 +3769,8 @@
       "gmp_low": 1,
       "gmp_high": 38,
       "gmp": 1,
-      "gmp_asof": "2026-10-31T18:45",
-      "gmp_source_latest": "Tracker D",
+      "gmp_asof": "2026-10-31T20:02",
+      "gmp_source_latest": "Tracker C",
       "gmp_pct": 0.49,
       "gmp_spread": {
         "min": 1,
