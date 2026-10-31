@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T12:35+05:30",
+  "generated_at": "2026-10-31T12:40+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,8 +23,8 @@
     "fetched_at": "2026-10-31T11:31+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-10-31T12:35+05:30",
-    "bse_ok_at": "2026-10-31T12:35+05:30"
+    "nse_ok_at": "2026-10-31T12:40+05:30",
+    "bse_ok_at": "2026-10-31T12:40+05:30"
   },
   "ipos": [
     {
@@ -1969,13 +1969,24 @@
       "sub_asof": "2026-10-29T19:05",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-10-31T12:35"
+        "at": "2026-10-31T12:40"
       },
       "gmp_sources": [],
       "gmp_history": [],
       "gmp": null,
       "gmp_pct": null,
       "status": "closed",
+      "ai_gmp": {
+        "gmp": 0,
+        "as_of": "2026-10-29",
+        "note": "Latest GMP is ₹0, updated 29 Oct 2026.",
+        "sources": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKicxGyOs2IokVB34OaYoApXYj4vbg0KfG5vAP-WnaIGZPUsbo3ERbjqFs1ktYL42PytPiT5IgKqOdzihsxFhRiEWn4e1hpFZPLzZl0WCdibdRww9_O5dwK1_fbh4pIVsduBUWrdqv"
+        ],
+        "model": "gemini-2.5-flash",
+        "checked": "2026-10-31T12:40+05:30",
+        "pct": 0.0
+      },
       "unconfirmed": false
     },
     {
@@ -2559,7 +2570,7 @@
         "total": 4.67
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-10-31T12:33",
+      "sub_asof": "2026-10-31T12:39",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "JDA CAPITAL SERVICES LIMITED (Formerly Known as Beeline Broking Limited)"
@@ -2960,7 +2971,7 @@
       "sub_asof": "2026-10-31T11:55",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-10-31T12:35"
+        "at": "2026-10-31T12:40"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3172,7 +3183,7 @@
       "sub_asof": "2026-10-31T08:16",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-10-31T12:35"
+        "at": "2026-10-31T12:40"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3212,7 +3223,7 @@
         "nii": 0.32,
         "total": 1.12
       },
-      "updated_on": "2026-10-31T12:35+05:30",
+      "updated_on": "2026-10-31T12:40+05:30",
       "from_peers": true,
       "exchange": "BSE SME",
       "registrar": "KFin Technologies Limited",

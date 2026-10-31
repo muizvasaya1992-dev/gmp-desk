@@ -20,14 +20,18 @@ import re
 import time
 
 IST = dt.timezone(dt.timedelta(hours=5, minutes=30))
-MODEL = "gemini-2.5-flash"       # change it in data/private.json ("gemini_model") if your key offers a different one
+# Tried in this order until one answers. Put your own choice in data/private.json ("gemini_model") to pin it.
+# A newer Flash follows the "report only what you found" rule better; the older one is the safety net.
+MODELS = ["gemini-3.8-flash", "gemini-flash-latest", "gemini-2.5-flash"]
+MODEL = MODELS[0]
 ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 MAX_PER_RUN = 15                 # at most this many IPOs asked about in one run
 EVERY_HOURS = 20                 # and each IPO at most once a day
 PAUSE_S = 2.0
 MAX_PCT_OF_PRICE = 60            # a premium above this share of the issue price is treated as a bad answer
 MAX_AGE_DAYS = 4                 # an answer older than this is not worth showing
-TIMEOUT = 60
+TIMEOUT = 30
+FAIL_RETRY_H = 3                 # after a failure, wait this long before asking about that IPO again
 
 PROMPT = """You are a careful data assistant for an Indian IPO information website. Today is {today} (IST).
 
@@ -60,19 +64,40 @@ def _key(root):
     return (os.environ.get("GEMINI_API_KEY") or str(_private(root).get("gemini_api_key") or "")).strip()
 
 
-def _model(root):
-    return (os.environ.get("GEMINI_MODEL") or str(_private(root).get("gemini_model") or "") or MODEL).strip()
+def _models(root):
+    want = os.environ.get("GEMINI_MODEL") or _private(root).get("gemini_model") or ""
+    if isinstance(want, str):
+        want = [w.strip() for w in want.split(",") if w.strip()]
+    want = [w for w in (want or []) if isinstance(w, str)]
+    return want + [m for m in MODELS if m not in want]
+
+
+class ApiError(Exception):
+    """Carries what Google actually said, so the log is useful instead of just 'HTTPError'."""
+
+    def __init__(self, status, message):
+        super().__init__(f"HTTP {status}: {message}"[:300])
+        self.status, self.message = status, message
+
+    @property
+    def permanent(self):
+        return self.status in (400, 401, 403, 404)      # a wrong model, tool or key: trying again will not help
 
 
 def _ask(key, prompt, model=MODEL):
-    """One grounded request. Returns (text, [source urls]) or (None, []) if the reply is unusable."""
+    """One grounded request. Returns (text, [source urls]); raises ApiError with Google's own message."""
     import requests
     body = {"contents": [{"parts": [{"text": prompt}]}],
             "tools": [{"google_search": {}}],
             "generationConfig": {"temperature": 0}}
     r = requests.post(ENDPOINT.format(model=model), params={"key": key},
                       json=body, timeout=TIMEOUT, headers={"Content-Type": "application/json"})
-    r.raise_for_status()
+    if r.status_code >= 400:
+        try:
+            msg = ((r.json() or {}).get("error") or {}).get("message") or r.text[:200]
+        except ValueError:
+            msg = r.text[:200]
+        raise ApiError(r.status_code, msg)
     return _read_reply(r.json())
 
 
@@ -92,6 +117,41 @@ def _read_reply(data):
         if q and not urls:
             urls.append("")
     return text, urls
+
+
+class GiveUp(Exception):
+    """No model is going to work this run, so stop asking instead of waiting on every IPO in turn."""
+
+
+def _first_that_answers(key, prompt, models, chosen, dead, log=print):
+    """Uses whichever model worked last; a model that fails for good is dropped for the rest of the run."""
+    order = ([chosen] if chosen and chosen not in dead else []) + [m for m in models if m not in dead and m != chosen]
+    last = None
+    for m in order:
+        try:
+            text, urls = _ask(key, prompt, m)
+            if text:
+                if m != chosen:
+                    log(f"  AI GMP: using model {m}")
+                return text, urls, m
+            last = ApiError(0, "empty reply")
+        except ApiError as e:
+            last = e
+            if e.status == 429:
+                raise GiveUp(f"the daily quota or rate limit is used up ({e.message[:120]})")
+            if e.permanent:
+                dead.add(m)
+                log(f"  AI GMP: {m} cannot be used — {e.message[:160]}")
+            else:
+                log(f"  AI GMP: {m} failed ({e}), trying the next model")
+        except Exception as e:                           # a timeout or a dropped connection: try the next model
+            last = e
+            log(f"  AI GMP: {m} failed ({type(e).__name__}), trying the next model")
+    if all(m in dead for m in models):
+        raise GiveUp("none of the models would answer, see the messages above")
+    if last:
+        raise last
+    return None, [], chosen
 
 
 def _json_from(text):
@@ -173,7 +233,7 @@ def run(root, recs, today, now=None, fixtures=None, offline=False, log=print):
     for k in [k for k in store if k not in ids]:                 # forget IPOs that have listed
         store.pop(k)
     key = "" if fixtures else _key(root)
-    model = _model(root)
+    models, model, dead, stop = _models(root), None, set(), ""
     if not key and not fixtures and not offline:
         log("  AI GMP: no key set, using what is already saved")
     asked = ok = 0
@@ -185,7 +245,12 @@ def run(root, recs, today, now=None, fixtures=None, offline=False, log=print):
                 fresh = now - dt.datetime.fromisoformat(was["checked"]) < dt.timedelta(hours=EVERY_HOURS)
             except Exception:
                 fresh = False
-        if not fresh and (fixtures or (key and not offline and asked < MAX_PER_RUN)):
+        if was and not fresh and was.get("failed"):      # after a failure, leave it a while before trying again
+            try:
+                fresh = now - dt.datetime.fromisoformat(was["checked"]) < dt.timedelta(hours=FAIL_RETRY_H)
+            except Exception:
+                fresh = False
+        if not stop and not fresh and (fixtures or (key and not offline and asked < MAX_PER_RUN)):
             prompt = PROMPT.format(today=today.isoformat(), name=r["name"],
                                    seg="SME IPO" if r.get("segment") == "SME" else "Mainboard IPO",
                                    price=r["price"], open=r.get("open") or "to be announced",
@@ -197,18 +262,23 @@ def run(root, recs, today, now=None, fixtures=None, offline=False, log=print):
                 else:
                     if asked:
                         time.sleep(PAUSE_S)
-                    text, urls = _ask(key, prompt, model)
+                    text, urls, model = _first_that_answers(key, prompt, models, model, dead, log)
                     asked += 1
                 got, why = check(_json_from(text), urls, r.get("price"), today)
-                was = {"checked": now.isoformat(timespec="minutes"), "model": model}
+                was = {"checked": now.isoformat(timespec="minutes"), "model": model or models[0]}
                 if got:
                     was.update(got)
                     ok += 1
                 else:
                     was["none"] = why
                 store[r["id"]] = was
-            except Exception as e:                               # a bad key, a timeout, a changed API: never break the build
+            except GiveUp as e:                                  # stop for this run rather than waiting on every IPO
+                stop = str(e)
+                log(f"  AI GMP: stopping for this run — {stop}")
+            except Exception as e:                               # a timeout or odd reply: note it and move on
                 log(f"  AI GMP: {r['id']}: {type(e).__name__}, keeping what we had")
+                store[r["id"]] = was = {"checked": now.isoformat(timespec="minutes"), "failed": True,
+                                        "none": f"the request failed ({type(e).__name__})"}
         if was and was.get("gmp") is not None:
             r["ai_gmp"] = {k: was[k] for k in ("gmp", "as_of", "note", "sources", "model", "checked") if k in was}
             if r.get("price"):
@@ -216,7 +286,7 @@ def run(root, recs, today, now=None, fixtures=None, offline=False, log=print):
         elif was:
             r["ai_gmp_none"] = {"why": was.get("none") or "no estimate", "checked": was.get("checked")}
     if asked or fixtures:
-        log(f"  AI GMP ({model}): {asked} IPO(s) asked about, {ok} estimate(s) kept")
+        log(f"  AI GMP ({model or models[0]}): {asked} IPO(s) asked about, {ok} estimate(s) kept")
     try:
         path.write_text(json.dumps(store, indent=1, ensure_ascii=False, sort_keys=True), encoding="utf-8")
     except OSError:
