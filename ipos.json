@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T22:45+05:30",
+  "generated_at": "2026-10-31T23:00+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-10-31T11:31+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-10-31T22:15+05:30",
+    "nse_ok_at": "2026-10-31T23:00+05:30",
     "bse_ok_at": "2026-10-31T12:57+05:30"
   },
   "ipos": [
@@ -1555,9 +1555,9 @@
         "bnii": 1.23,
         "snii": 2.94,
         "retail": 3.02,
-        "total": 1.12
+        "total": 3.78
       },
-      "updated_on": "2026-10-31T22:15+05:30",
+      "updated_on": "2026-10-31T23:00+05:30",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "Smart Horizon Capital Advisors Private Limited"
@@ -1724,6 +1724,15 @@
           "snii": 2.94,
           "retail": 3.02,
           "total": 1.12
+        },
+        {
+          "at": "2026-10-31T23:00+05:30",
+          "qib": 6.56,
+          "nii": 1.8,
+          "bnii": 1.23,
+          "snii": 2.94,
+          "retail": 3.02,
+          "total": 3.78
         }
       ],
       "series": "EQ",
@@ -2046,7 +2055,7 @@
       "sub_asof": "2026-10-29T19:05",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-10-31T22:45"
+        "at": "2026-10-31T23:00"
       },
       "gmp_sources": [],
       "gmp_history": [],
@@ -2564,7 +2573,7 @@
       "series": "EQ",
       "nse_status": "Closed",
       "shares_offered": 11900000.0,
-      "updated_on": "2026-10-31T22:15+05:30",
+      "updated_on": "2026-10-31T23:00+05:30",
       "bse_ipo_no": "8062",
       "sector": "Gems Jewellery and Watches",
       "issue_split": {
@@ -2769,7 +2778,7 @@
         "total": 4.67
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-10-31T22:44",
+      "sub_asof": "2026-10-31T22:59",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "JDA CAPITAL SERVICES LIMITED (Formerly Known as Beeline Broking Limited)"
@@ -2794,7 +2803,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": null,
-      "updated_on": "2026-10-31T22:15+05:30",
+      "updated_on": "2026-10-31T23:00+05:30",
       "price": 158,
       "reservation": {
         "qib": 49.84,
@@ -2965,7 +2974,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": null,
-      "updated_on": "2026-10-31T22:15+05:30",
+      "updated_on": "2026-10-31T23:00+05:30",
       "price": 120,
       "reservation": {
         "qib": 61.28,
@@ -3103,7 +3112,7 @@
       "series": "SME",
       "nse_status": "Forthcoming",
       "shares_offered": 6030000.0,
-      "updated_on": "2026-10-31T22:15+05:30",
+      "updated_on": "2026-10-31T23:00+05:30",
       "tracker_rating": 2,
       "reservation_detail": {
         "nii": {
@@ -3343,7 +3352,7 @@
       "sub_asof": "2026-10-31T21:19",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-10-31T22:45"
+        "at": "2026-10-31T23:00"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3666,7 +3675,7 @@
       "sub_asof": "2026-10-31T22:04",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-10-31T22:45"
+        "at": "2026-10-31T23:00"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3706,7 +3715,7 @@
         "nii": 0.32,
         "total": 1.12
       },
-      "updated_on": "2026-10-31T22:45+05:30",
+      "updated_on": "2026-10-31T23:00+05:30",
       "from_peers": true,
       "exchange": "BSE SME",
       "registrar": "KFin Technologies Limited",
