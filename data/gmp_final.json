@@ -9,8 +9,8 @@
    "segment": "SME"
   },
   "bls-polymers": {
-   "at": "2026-10-31T09:25",
-   "gmp": 70,
+   "at": "2026-10-31T10:37",
+   "gmp": 68,
    "listing": "2026-11-03",
    "name": "BLS Polymers",
    "price": 150,
@@ -65,20 +65,28 @@
    "segment": "SME"
   },
   "mksons": {
-   "at": "2026-10-31T10:00",
-   "gmp": 5,
+   "at": "2026-10-31T11:00",
+   "gmp": 7,
    "listing": null,
    "name": "M. K. Sons Fine Jewels",
    "price": 162,
    "segment": "MAIN"
   },
   "sfc-environmental-technologies": {
-   "at": "2026-10-31T09:15",
-   "gmp": 20,
+   "at": "2026-10-31T10:37",
+   "gmp": 20.5,
    "listing": "2026-11-03",
    "name": "SFC Environmental Technologies",
    "price": 330,
    "segment": "MAIN"
+  },
+  "vpfl": {
+   "at": "2026-10-31T10:37",
+   "gmp": 4.25,
+   "listing": null,
+   "name": "Vedant Poly Fabs",
+   "price": 94,
+   "segment": "SME"
   }
  },
  "started": "2026-10-28"
