@@ -5,7 +5,7 @@ on:
     - cron: "23 * * * *"             # plus once an hour, every day and night, so GMP keeps moving on weekends and evenings
   workflow_dispatch: {}              # "Run workflow" button
   push:
-    paths: ["data/ipos_manual.json", "data/gmp.csv", "data/config.json", "build_data.py", "pages.py", "peers.py", "extras.py"]   # new code gets used straight away
+    paths: ["data/ipos_manual.json", "data/gmp.csv", "data/config.json", "build_data.py", "pages.py", "peers.py", "extras.py", "ai_gmp.py"]   # new code gets used straight away
 permissions:
   contents: write
 concurrency:
@@ -29,6 +29,7 @@ jobs:
           PEER_B_URL: ${{ secrets.PEER_B_URL }}
           PEER_C_URL: ${{ secrets.PEER_C_URL }}
           PEER_D_URL: ${{ secrets.PEER_D_URL }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       - name: Commit if changed
         run: |
           git config user.name "ipo-bot"

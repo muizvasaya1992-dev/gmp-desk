@@ -129,6 +129,8 @@ if(live){
   out.push(["GMP (unofficial)","No premium reported. "+gw.sources+" public tracker"+(gw.sources>1?"s":"")+" follow this IPO and none of them shows a grey-market premium"+(gw.at?", as of "+gw.at.slice(11)+" on "+gw.at.slice(8,10)+" "+["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][+gw.at.slice(5,7)-1]:"")+"."]);}
  if(live.gmp!=null)out.push(["GMP (unofficial)","₹"+n(live.gmp)+(live.gmp_pct!=null?" ("+p(live.gmp_pct)+")":"")+(live.gmp_source_latest&&live.gmp_source_latest!=="IPO Shop"?" via "+(/^Tracker /.test(live.gmp_source_latest)?"a public tracker":live.gmp_source_latest.toLowerCase()):"")]);
  if(live.gmp!=null&&live.gmp_trend){var gt=live.gmp_trend;out.push(["GMP trend",(gt.dir==="rising"?"▲ Rising":gt.dir==="falling"?"▼ Falling":"▬ Steady")+" ("+(gt.change>=0?"+":"")+"₹"+n(gt.change)+" over the last "+gt.days+" daily readings)"]);}
+ if(live.ai_gmp){var ai=live.ai_gmp,us=(ai.sources||[]).filter(function(u){return /^https?:/.test(u)}).slice(0,3);
+  out.push(["AI GMP (estimate)","₹"+n(ai.gmp)+(ai.pct!=null?" ("+p(ai.pct)+")":"")+" — found by an AI web search of public pages"+(ai.as_of?" for "+ai.as_of:"")+". An estimate, not a quote we have checked."+(us.length?" "+us.map(function(u,k){return '<a href="'+u+'" target="_blank" rel="noopener noreferrer nofollow">page '+(k+1)+' ↗</a>'}).join(" · "):"")]);}
  if(live.gmp!=null&&live.price!=null)out.push(["Estimated listing price","₹"+n(live.price+live.gmp)]);
 }
 if(row&&row.gain_pct!=null)out.push(["Latest price","₹"+n(row.current)+" ("+p(row.gain_pct)+" since issue)"]);

@@ -857,7 +857,7 @@ def enrich(ipo, today):
         ipo.pop("gmp_watch", None)                         # only say "checked, nothing" when there really is nothing
     if len(hist) >= 2 and ipo.get("price"):
         last = hist[-3:]                                   # the last few daily readings
-        delta = last[-1]["gmp"] - last[0]["gmp"]
+        delta = round(last[-1]["gmp"] - last[0]["gmp"], 2)
         pct = delta / ipo["price"] * 100
         ipo["gmp_trend"] = {"dir": "rising" if pct >= 1 else "falling" if pct <= -1 else "steady",
                             "change": delta, "days": len(last), "since": last[0]["date"]}
@@ -961,6 +961,15 @@ def main():
         hrows = history_rows(nse_hist, bse_hist)
         fill_listing_dates(recs, hrows)
     ipos = [enrich(r, now.date()) for r in recs]
+    if not SAMPLE and not LOCAL_TEST:                       # an AI estimate, kept beside the reported GMP, never instead of it
+        try:
+            aflag = ((load_json(DATA / "config.json", {}) or {}).get("gmp_autofill") or {}).get("ai", True)
+            if aflag and "--no-ai" not in ARGS:
+                import ai_gmp
+                afx = next((a.split("=", 1)[1] for a in ARGS if a.startswith("--ai-from=")), None)
+                ai_gmp.run(ROOT, ipos, now.date(), now=now, fixtures=afx, offline="--offline" in ARGS)
+        except Exception as e:                              # the estimate is a bonus: never let it stop the build
+            print("AI GMP skipped:", type(e).__name__, e)
     if not SAMPLE:                                          # upcoming/open but on neither exchange's official list
         for i in ipos:
             i["unconfirmed"] = bool(feeds_ok and not i.get("official") and i["status"] in ("upcoming", "open", "closing_today"))

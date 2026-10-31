@@ -933,12 +933,19 @@ const watchNote=i=>{ const w=i.gmp_watch; if(!w||!w.sources) return "No quote ye
   return `No premium reported`; };
 const watchWhen=i=>{ const w=i.gmp_watch; if(!w||!w.sources) return "";
   return `${w.sources} tracker${w.sources>1?"s":""} watching${w.at?` · checked ${tt(w.at)}`:""}`; };
+const aiLine=i=>{ const a=i.ai_gmp; if(!a) return "";
+  return `AI estimate ${rs(a.gmp)}${a.pct!=null?" ("+pct(a.pct)+")":""}`; };
+const aiBlock=i=>{ const a=i.ai_gmp;
+  if(!a) return i.ai_gmp_none?`<h3>AI GMP estimate</h3><div class="micro">Our AI search looked for a grey-market quote for this IPO and did not publish one: ${esc(i.ai_gmp_none.why)}.${i.ai_gmp_none.checked?" Last tried "+tt(i.ai_gmp_none.checked)+".":""}</div>`:"";
+  const src=(a.sources||[]).filter(u=>/^https?:/.test(u)).slice(0,3);
+  return `<h3>AI GMP estimate</h3><div class="gv ${a.gmp>=0?"pos":"neg"}"><b>${rs(a.gmp)}</b>${a.pct!=null?`<span class="delta">${pct(a.pct)}</span>`:""}</div>
+    <p class="micro" style="margin:6px 0 0">${a.note?esc(a.note)+". ":""}Found by an AI web search${a.as_of?" for "+dd(a.as_of):""}${a.checked?", run "+tt(a.checked):""}. It is an estimate from public pages, not a quote we have checked, and it can be wrong. The GMP above is what our regular sources report.${src.length?` <br>Where it looked: ${src.map((u,k)=>`<a href="${esc(u)}" target="_blank" rel="noopener noreferrer nofollow">page ${k+1} ↗</a>`).join(" · ")}`:""}</p>`; };
 const gmpLevel=p=>p>=30?5:p>=15?4:p>=5?3:p>0?2:1;
 const gmpMeter=i=>{ if(i.gmp==null||i.gmp_pct==null) return ""; const n=gmpLevel(i.gmp_pct); return `<span class="meter" role="img" aria-label="GMP strength ${n} out of 5" title="GMP strength ${n} of 5, from the GMP as a share of the issue price. It is not a rating of the IPO.">${[1,2,3,4,5].map(k=>`<i class="${k<=n?"on":""}"></i>`).join("")}</span>`; };
 function gmpBlock(i){
-  if(i.gmp==null) return `<span class="muted">${watchNote(i)}</span>`+(watchWhen(i)?`<div class="micro">${watchWhen(i)}</div>`:"");
+  if(i.gmp==null) return `<span class="muted">${watchNote(i)}</span>`+(watchWhen(i)?`<div class="micro">${watchWhen(i)}</div>`:"")+(aiLine(i)?`<div class="micro">${aiLine(i)}</div>`:"");
   return `<div class="gv ${i.gmp>=0?"pos":"neg"}"><b>${rs(i.gmp)}</b>${i.gmp_pct!=null?`<span class="delta">${pct(i.gmp_pct)}</span>`:""}</div>`+(i.gmp_pct!=null?`<div class="micro" style="margin-top:2px">GMP strength ${gmpMeter(i)}</div>`:"")+
-         (i.price!=null?`<div class="micro">Est. listing ${rs(i.price+i.gmp)}${i.gmp_source_latest&&i.gmp_source_latest!=="IPO Shop"&&i.gmp_source_latest!=="GMP Desk"?" · via "+(/^Tracker /.test(i.gmp_source_latest)?"a public tracker":esc(i.gmp_source_latest.toLowerCase())):""}${trendChip(i)}</div>`:"");
+         (aiLine(i)?`<div class="micro">${aiLine(i)}</div>`:"")+(i.price!=null?`<div class="micro">Est. listing ${rs(i.price+i.gmp)}${i.gmp_source_latest&&i.gmp_source_latest!=="IPO Shop"&&i.gmp_source_latest!=="GMP Desk"?" · via "+(/^Tracker /.test(i.gmp_source_latest)?"a public tracker":esc(i.gmp_source_latest.toLowerCase())):""}${trendChip(i)}</div>`:"");
 }
 const meterLevel=t=>t>=50?5:t>=10?4:t>=3?3:t>=1?2:1;
 const meter=t=>{ const n=meterLevel(t); return `<span class="meter" role="img" aria-label="Demand ${n} out of 5" title="Demand ${n} of 5: how heavily the IPO is subscribed. It is not a rating of the IPO.">${[1,2,3,4,5].map(k=>`<i class="${k<=n?"on":""}"></i>`).join("")}</span>`; };
@@ -1619,7 +1626,7 @@ function openDrawer(id, quiet){
       ${i.issue_split?`<div style="grid-column:1/-1"><dt>Issue structure</dt><dd>Fresh issue ${cr(i.issue_split.fresh_cr)} · Offer for sale ${cr(i.issue_split.ofs_cr)}</dd></div>`:""}
       ${i.sector?`<div style="grid-column:1/-1"><dt>Sector</dt><dd>${esc(i.sector)}</dd></div>`:""}
       ${i.tracker_rating&&i.status!=="listed"?`<div style="grid-column:1/-1"><dt>Public tracker rating</dt><dd>${i.tracker_rating} of 5 <span class="micro">(the tracker's own score, not ours and not advice)</span></dd></div>`:""}
-      <div><dt>Current GMP</dt><dd>${i.gmp==null?"–":rs(i.gmp)+(i.gmp_pct!=null?" ("+pct(i.gmp_pct)+")":"")}</dd></div>${i.gmp_trend?`<div><dt>GMP trend</dt><dd>${i.gmp_trend.dir==="rising"?"▲ Rising":i.gmp_trend.dir==="falling"?"▼ Falling":"▬ Steady"} <span class="muted" style="font-weight:400">(${i.gmp_trend.change>=0?"+":""}₹${i.gmp_trend.change} since ${dd(i.gmp_trend.since)})</span></dd></div>`:""}
+      <div><dt>Current GMP</dt><dd>${i.gmp==null?"–":rs(i.gmp)+(i.gmp_pct!=null?" ("+pct(i.gmp_pct)+")":"")}</dd></div>${i.ai_gmp?`<div><dt>AI GMP (estimate)</dt><dd>${rs(i.ai_gmp.gmp)}${i.ai_gmp.pct!=null?" ("+pct(i.ai_gmp.pct)+")":""}</dd></div>`:""}${i.gmp_trend?`<div><dt>GMP trend</dt><dd>${i.gmp_trend.dir==="rising"?"▲ Rising":i.gmp_trend.dir==="falling"?"▼ Falling":"▬ Steady"} <span class="muted" style="font-weight:400">(${i.gmp_trend.change>=0?"+":""}₹${i.gmp_trend.change} since ${dd(i.gmp_trend.since)})</span></dd></div>`:""}
       <div><dt>Implied listing price</dt><dd>${i.gmp==null||i.price==null?"–":rs(i.price+i.gmp)}</dd></div>
       ${perLot}
       ${i.listing_price?`<div><dt>Actual listing price</dt><dd>${rs(i.listing_price)} (${pct(i.listing_gain_pct)})</dd></div>`:""}
@@ -1636,6 +1643,7 @@ function openDrawer(id, quiet){
     ${(i.gmp_sources&&i.gmp_sources.length)||(i.gmp_history&&i.gmp_history.length)
       ? `<h3>GMP readings</h3>${sourcesTable(i)}<h3>GMP history${i.history_source?" · "+esc(i.history_source):""}</h3>${gmpChart(i)}`
       : `<h3>GMP</h3><div class="micro">${i.gmp_watch&&i.gmp_watch.sources?`We read ${i.gmp_watch.sources} public tracker${i.gmp_watch.sources>1?"s":""} for this IPO${i.gmp_watch.at?`, last at ${tt(i.gmp_watch.at)}`:""}, and none of them reports a grey-market premium. That is common for SME issues: see how SME IPOs have actually listed above.`:"No GMP reported yet. SME IPOs often have none: see how SME IPOs have listed above."}</div>`}
+    ${aiBlock(i)}
     <p class="micro" style="margin-top:8px">Different sources can show different numbers, and GMP is never a promise.</p>
     <h3>Subscription</h3>${sub}${subNote}
     ${subHistoryBlock(i)}
