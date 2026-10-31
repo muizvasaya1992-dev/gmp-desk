@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-10-31T12:01+05:30",
+  "fetched_at": "2026-10-31T12:02+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -848,7 +848,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-10-31T12:01+05:30",
+  "fetched_at": "2026-10-31T12:02+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -1513,7 +1513,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-10-31T12:01+05:30",
+  "fetched_at": "2026-10-31T12:02+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -2015,7 +2015,7 @@
     "price": 80.0,
     "price_low": 76.0,
     "size_cr": 28.29,
-    "gmp": 6.0,
+    "gmp": 5.0,
     "gmp_at": null,
     "sub_total": null,
     "sub_retail": null,

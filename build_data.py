@@ -756,6 +756,35 @@ def load_gmp_rows():
     return rows + web_gmp_rows(cfg)
 
 
+GENERIC = {"limited", "ltd", "private", "pvt", "ipo", "india", "the", "and", "of"}
+
+
+def words(s):
+    return [w for w in re.split(r"[^a-z0-9]+", (s or "").lower()) if w and w not in GENERIC]
+
+
+def near_match(name, recs):
+    """A tracker writes 'maxwell-engineering' where the exchange says 'Maxwell Engineering Solutions'.
+    Accept it only when one name clearly contains the other and exactly one IPO fits."""
+    w = set(words(name))
+    n = norm(name)
+    if len(n) < 8 or not w:
+        return None
+    hits = []
+    for r in recs:
+        for k in (r.get("name"), r.get("id"), r.get("symbol")):
+            if not k:
+                continue
+            kn, kw = norm(k), set(words(k))
+            if len(kn) < 8:
+                continue
+            if kn.startswith(n) or n.startswith(kn) or (len(w) >= 2 and w <= kw) or (len(kw) >= 2 and kw <= w):
+                hits.append(r)
+                break
+    uniq = {id(r): r for r in hits}
+    return list(uniq.values())[0] if len(uniq) == 1 else None
+
+
 def attach_gmp(recs, rows):
     idx = {}
     for r in recs:
@@ -764,7 +793,7 @@ def attach_gmp(recs, rows):
                 idx[norm(k)] = r
     per, unmatched = defaultdict(list), set()
     for row in rows:
-        r = idx.get(norm(row["ipo"]))
+        r = idx.get(norm(row["ipo"])) or near_match(row["ipo"], recs)
         if r is None:
             unmatched.add(row["ipo"])
         else:
@@ -824,6 +853,8 @@ def enrich(ipo, today):
         ipo["gmp_spread"] = {"min": min(vals), "max": max(vals), "diff": diff, "n": len(vals),
                              "diff_pct_of_price": round(diff / ipo["price"] * 100, 2) if ipo.get("price") else None}
     ipo.pop("gmp_trend", None)
+    if ipo.get("gmp") is not None:
+        ipo.pop("gmp_watch", None)                         # only say "checked, nothing" when there really is nothing
     if len(hist) >= 2 and ipo.get("price"):
         last = hist[-3:]                                   # the last few daily readings
         delta = last[-1]["gmp"] - last[0]["gmp"]

@@ -128,6 +128,8 @@ if(live){
   out.push(["Chance of allotment (retail)",rr<1?"Retail is "+n(rr)+"x subscribed, so it is not full yet. Below 1x, valid applications usually get what they bid for."
    :"About 1 application in "+(rr<2?Math.round(rr*10)/10:Math.round(rr))+" gets a lot (retail "+n(rr)+"x, by draw of lots). Applying for more lots does not improve retail odds."]);}
  if((live.status==="open"||live.status==="closing_today")&&!(live.sub&&live.sub.total!=null))out.push(["Demand meter","Not available yet for this issue"]);
+ if(live.gmp==null&&live.gmp_watch&&live.gmp_watch.sources){var gw=live.gmp_watch;
+  out.push(["GMP (unofficial)","No premium reported. "+gw.sources+" public tracker"+(gw.sources>1?"s":"")+" follow this IPO and none of them shows a grey-market premium"+(gw.at?", as of "+gw.at.slice(11)+" on "+gw.at.slice(8,10)+" "+["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][+gw.at.slice(5,7)-1]:"")+"."]);}
  if(live.gmp!=null)out.push(["GMP (unofficial)","₹"+n(live.gmp)+(live.gmp_pct!=null?" ("+p(live.gmp_pct)+")":"")+(live.gmp_source_latest&&live.gmp_source_latest!=="IPO Shop"?" via "+(/^Tracker /.test(live.gmp_source_latest)?"a public tracker":live.gmp_source_latest.toLowerCase()):"")]);
  if(live.gmp!=null&&live.gmp_trend){var gt=live.gmp_trend;out.push(["GMP trend",(gt.dir==="rising"?"▲ Rising":gt.dir==="falling"?"▼ Falling":"▬ Steady")+" ("+(gt.change>=0?"+":"")+"₹"+n(gt.change)+" over the last "+gt.days+" daily readings)"]);}
  if(live.gmp!=null&&live.price!=null)out.push(["Estimated listing price","₹"+n(live.price+live.gmp)]);

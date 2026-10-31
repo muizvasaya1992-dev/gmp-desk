@@ -43,6 +43,35 @@ def _keys(*names):
     return out
 
 
+GENERIC = {"limited", "ltd", "private", "pvt", "ipo", "india", "the", "and", "of", "sme"}
+
+
+def _words(s):
+    return {w for w in re.split(r"[^a-z0-9]+", (s or "").lower()) if w and w not in GENERIC}
+
+
+def _near(name, slug, recs):
+    """Same IPO written two ways ('Maxwell Engineering' vs 'Maxwell Engineering Solutions'). Only an unambiguous fit counts."""
+    for cand in (name, slug):
+        w, n = _words(cand), _norm(cand)
+        if len(n) < 8 or not w:
+            continue
+        hits = {}
+        for r in recs:
+            for k in (r.get("name"), r.get("id"), r.get("symbol")):
+                if not k:
+                    continue
+                kn, kw = _norm(k), _words(k)
+                if len(kn) < 8:
+                    continue
+                if kn.startswith(n) or n.startswith(kn) or (len(w) >= 2 and w <= kw) or (len(kw) >= 2 and kw <= w):
+                    hits[id(r)] = r
+                    break
+        if len(hits) == 1:
+            return list(hits.values())[0]
+    return None
+
+
 def _num(v):
     if v is None:
         return None
@@ -523,13 +552,15 @@ def apply(recs, peers, today, stamp):
         for k in _keys(r.get("id"), r.get("symbol"), r.get("name")):
             idx[k] = r
     order = {B: 0, C: 1, D: 2}
-    by_key, rows, added, subs, cand, subcand = {}, [], 0, 0, {}, {}
+    by_key, rows, added, subs, cand, subcand, watch = {}, [], 0, 0, {}, {}, {}
     for p in sorted(peers, key=lambda x: order.get(x["src"], 9)):
         mine = None
         for k in _keys(p["slug"], p["name"]):
             if k in idx:
                 mine = idx[k]
                 break
+        if mine is None:
+            mine = _near(p["name"], p["slug"], recs)
         if mine is None:                                                    # not on any official list we read yet
             ref = p.get("close") or p.get("open")
             fresh = ref and (today - dt.date.fromisoformat(ref)).days <= 2 and (p.get("live") or not p.get("listing") or p["listing"] >= today.isoformat())
@@ -547,6 +578,11 @@ def apply(recs, peers, today, stamp):
             added += 1
         by_key.setdefault(mine["id"], mine)
         extra_fill(mine, p, cand)
+        if not p.get("gmp"):                                                # listed by the source, but no quote: still worth saying
+            seen_at = p.get("gmp_at") or p.get("sub_at") or stamp[:16]
+            w = watch.setdefault(mine["id"], {"n": 0, "at": ""})
+            w["n"] += 1
+            w["at"] = max(w["at"], seen_at or "")
         if p.get("gmp") not in (None, 0):                                   # 0 means "no quote yet" on these sites
             rows.append({"ipo": mine["id"], "gmp": _tidy(p["gmp"]), "at": p["gmp_at"] or stamp[:16], "source": p["src"]})
         for day, g in list((p.get("detail") or {}).get("gmp_history", [])) + list(p.get("gmp_days") or []):
@@ -567,6 +603,8 @@ def apply(recs, peers, today, stamp):
         if weak and sub.get("total"):
             mine["sub"], mine["sub_basis"], mine["sub_asof"] = sub, basis, asof
             subs += 1
+    for k, w in watch.items():                                              # so a page can say "checked, no premium" instead of nothing
+        by_key[k]["gmp_watch"] = {"sources": w["n"], "at": w["at"] or None}
     lots = 0
     for k, c in cand.items():                                               # lot size: our own first, then the direct figure, then the doubled one
         mine = by_key[k]

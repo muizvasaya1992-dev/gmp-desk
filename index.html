@@ -929,10 +929,14 @@ const minLots = i => i.segment==="SME" ? 2 : 1;
 const oneLot = i => (i.price!=null && i.lot!=null) ? "₹"+inr(i.price*i.lot) : "–";
 
 const trendChip=i=>{ const t=i.gmp_trend; if(!t) return ""; const m={rising:["▲","rising","pos2"],steady:["▬","steady",""],falling:["▼","falling","neg2"]}[t.dir]; return ` · <span class="${m[2]}" title="GMP moved ${t.change>=0?"+":""}₹${t.change} over the last ${t.days} daily readings">${m[0]} ${m[1]}</span>`; };
+const watchNote=i=>{ const w=i.gmp_watch; if(!w||!w.sources) return "No quote yet";
+  return `No premium reported`; };
+const watchWhen=i=>{ const w=i.gmp_watch; if(!w||!w.sources) return "";
+  return `${w.sources} tracker${w.sources>1?"s":""} watching${w.at?` · checked ${tt(w.at)}`:""}`; };
 const gmpLevel=p=>p>=30?5:p>=15?4:p>=5?3:p>0?2:1;
 const gmpMeter=i=>{ if(i.gmp==null||i.gmp_pct==null) return ""; const n=gmpLevel(i.gmp_pct); return `<span class="meter" role="img" aria-label="GMP strength ${n} out of 5" title="GMP strength ${n} of 5, from the GMP as a share of the issue price. It is not a rating of the IPO.">${[1,2,3,4,5].map(k=>`<i class="${k<=n?"on":""}"></i>`).join("")}</span>`; };
 function gmpBlock(i){
-  if(i.gmp==null) return `<span class="muted">No quote yet</span>`;
+  if(i.gmp==null) return `<span class="muted">${watchNote(i)}</span>`+(watchWhen(i)?`<div class="micro">${watchWhen(i)}</div>`:"");
   return `<div class="gv ${i.gmp>=0?"pos":"neg"}"><b>${rs(i.gmp)}</b>${i.gmp_pct!=null?`<span class="delta">${pct(i.gmp_pct)}</span>`:""}</div>`+(i.gmp_pct!=null?`<div class="micro" style="margin-top:2px">GMP strength ${gmpMeter(i)}</div>`:"")+
          (i.price!=null?`<div class="micro">Est. listing ${rs(i.price+i.gmp)}${i.gmp_source_latest&&i.gmp_source_latest!=="IPO Shop"&&i.gmp_source_latest!=="GMP Desk"?" · via "+(/^Tracker /.test(i.gmp_source_latest)?"a public tracker":esc(i.gmp_source_latest.toLowerCase())):""}${trendChip(i)}</div>`:"");
 }
@@ -1358,7 +1362,7 @@ function openYear(id){
   const d=$("drawer"); if(!d.open) d.showModal();
 }
 /* ============ GMP: where else to look ============ */
-const gmpNote=()=>`<p class="gmp-note"><span>📊</span><span>GMP is unofficial and changes quickly. Readings come from public trackers and our own checks, so some IPOs, mostly SME ones, show "No quote yet".</span></p>`;
+const gmpNote=()=>`<p class="gmp-note"><span>📊</span><span>GMP is unofficial and changes quickly. Readings come from public trackers and our own checks, so some IPOs, mostly SME ones, show "No premium reported".</span></p>`;
 
 /* ============ calendar ============ */
 const ISO=d=>d.toLocaleDateString("en-CA");
@@ -1565,7 +1569,7 @@ function glance(i){
     : i.status==="listed" ? ["Listed",dd(i.listing),""] : ["Closed",dd(i.close),i.listing?"lists "+dd(i.listing):""];
   const minInv = (i.price!=null&&i.lot!=null) ? ["Minimum to apply","₹"+inr(i.price*i.lot*minLots(i)),(minLots(i)>1?minLots(i)+" lots · ":"")+inr(i.lot*minLots(i))+" shares, at the top of the band"] : ["Minimum to apply","–",""];
   const subT = i.sub&&i.sub.total!=null ? ["Subscribed",i.sub.total.toFixed(2)+"x",{html:`${meter(i.sub.total)}Demand ${meterLevel(i.sub.total)} of 5`}] : ["Subscribed",i.status==="upcoming"?"Not open yet":"–",(i.status==="open"||i.status==="closing_today"||i.status==="closed")?{html:`${meterNA()}Demand not available yet`}:""];
-  const gm = i.gmp!=null ? ["GMP (unofficial)",rs(i.gmp),i.gmp_pct!=null?{html:`${gmpMeter(i)}${pct(i.gmp_pct)} · strength ${gmpLevel(i.gmp_pct)} of 5`}:""] : ["GMP (unofficial)","No quote yet",""];
+  const gm = i.gmp!=null ? ["GMP (unofficial)",rs(i.gmp),i.gmp_pct!=null?{html:`${gmpMeter(i)}${pct(i.gmp_pct)} · strength ${gmpLevel(i.gmp_pct)} of 5`}:""] : ["GMP (unofficial)",watchNote(i),watchWhen(i)];
   return `<div class="glance">${[minInv,when,subT,gm].map(([k,v,s])=>`<div><div class="k">${k}</div><div class="v">${esc(v)}</div><div class="s">${s&&s.html?s.html:esc(s)}</div></div>`).join("")}</div>`;
 }
 const gmpNote2=i=>i.gmp!=null&&i.gmp_pct!=null?`<p class="micro" style="margin:6px 0 0"><b>GMP strength:</b> from the GMP as a share of the issue price. 1 is no premium, 2 is under 5%, 3 is 5% to 15%, 4 is 15% to 30% and 5 is 30% or more. It is a reading of the grey market, not a rating of the IPO, and GMP can be wrong.</p>`:"";
@@ -1631,7 +1635,7 @@ function openDrawer(id, quiet){
     ${calcBlock(i)}
     ${(i.gmp_sources&&i.gmp_sources.length)||(i.gmp_history&&i.gmp_history.length)
       ? `<h3>GMP readings</h3>${sourcesTable(i)}<h3>GMP history${i.history_source?" · "+esc(i.history_source):""}</h3>${gmpChart(i)}`
-      : `<h3>GMP</h3><div class="micro">No GMP reported yet. SME IPOs often have none: see how SME IPOs have listed above.</div>`}
+      : `<h3>GMP</h3><div class="micro">${i.gmp_watch&&i.gmp_watch.sources?`We read ${i.gmp_watch.sources} public tracker${i.gmp_watch.sources>1?"s":""} for this IPO${i.gmp_watch.at?`, last at ${tt(i.gmp_watch.at)}`:""}, and none of them reports a grey-market premium. That is common for SME issues: see how SME IPOs have actually listed above.`:"No GMP reported yet. SME IPOs often have none: see how SME IPOs have listed above."}</div>`}
     <p class="micro" style="margin-top:8px">Different sources can show different numbers, and GMP is never a promise.</p>
     <h3>Subscription</h3>${sub}${subNote}
     ${subHistoryBlock(i)}
