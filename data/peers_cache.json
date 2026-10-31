@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-10-31T09:31+05:30",
+  "fetched_at": "2026-10-31T09:45+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,10 +16,10 @@
     "price_low": 78.0,
     "size_cr": 183.06,
     "gmp": 7.0,
-    "gmp_at": "2026-10-31T09:25",
+    "gmp_at": "2026-10-31T09:40",
     "sub_total": 3.79,
     "sub_retail": 3.02,
-    "sub_at": "2026-10-31T09:28",
+    "sub_at": "2026-10-31T09:44",
     "lot_raw": 182.0,
     "sector": "Steel Processing",
     "quota": {
@@ -47,7 +47,7 @@
     "price_low": 153.0,
     "size_cr": 330.48,
     "gmp": 6.0,
-    "gmp_at": "2026-10-31T09:25",
+    "gmp_at": "2026-10-31T09:40",
     "sub_total": 5.1,
     "sub_retail": 3.08,
     "sub_at": "2026-10-30T19:05",
@@ -78,7 +78,7 @@
     "price_low": 1585.0,
     "size_cr": 1200.0,
     "gmp": 52.0,
-    "gmp_at": "2026-10-31T09:25",
+    "gmp_at": "2026-10-31T09:40",
     "sub_total": 5.25,
     "sub_retail": 1.03,
     "sub_at": "2026-10-28T19:06",
@@ -109,7 +109,7 @@
     "price_low": 313.0,
     "size_cr": 668.0,
     "gmp": 20.0,
-    "gmp_at": "2026-10-31T09:25",
+    "gmp_at": "2026-10-31T09:40",
     "sub_total": 9.47,
     "sub_retail": 2.71,
     "sub_at": "2026-10-29T19:05",
@@ -140,7 +140,7 @@
     "price_low": 142.0,
     "size_cr": 255.0,
     "gmp": 70.0,
-    "gmp_at": "2026-10-31T09:25",
+    "gmp_at": "2026-10-31T09:40",
     "sub_total": 241.22,
     "sub_retail": 128.36,
     "sub_at": "2026-10-29T19:05",
@@ -171,7 +171,7 @@
     "price_low": 63.0,
     "size_cr": 23.33,
     "gmp": 0.0,
-    "gmp_at": "2026-10-31T09:25",
+    "gmp_at": "2026-10-31T09:40",
     "sub_total": 0.81,
     "sub_retail": 0.1,
     "sub_at": "2026-10-31T08:16",
@@ -190,6 +190,37 @@
    },
    {
     "src": "Tracker B",
+    "slug": "maxwell-engineering-solutions",
+    "name": "Maxwell Engineering Solutions",
+    "segment": "SME",
+    "exchange": "NSE SME",
+    "open": "2026-10-30",
+    "close": "2026-11-03",
+    "boa": "2026-11-04",
+    "listing": "2026-11-06",
+    "price": 158.0,
+    "price_low": 150.0,
+    "size_cr": 57.64,
+    "gmp": 70.0,
+    "gmp_at": "2026-10-31T09:40",
+    "sub_total": 4.67,
+    "sub_retail": 7.47,
+    "sub_at": "2026-10-31T09:44",
+    "lot_raw": 1600.0,
+    "sector": "Precision Engineering / Industrial Products",
+    "quota": {
+     "qib": 49.84,
+     "nii": 15.13,
+     "retail": 35.03
+    },
+    "fresh_cr": 57.64,
+    "ofs_cr": 0.0,
+    "registrar": "KFin Technologies Limited",
+    "lead_manager": "JDA Capital Services Ltd.",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
     "slug": "vectras-enprocon",
     "name": "Vectras Enprocon",
     "segment": "SME",
@@ -202,7 +233,7 @@
     "price_low": 99.0,
     "size_cr": 53.05,
     "gmp": 0.0,
-    "gmp_at": "2026-10-31T09:25",
+    "gmp_at": "2026-10-31T09:40",
     "sub_total": 1.2,
     "sub_retail": 1.03,
     "sub_at": "2026-10-31T08:16",
@@ -221,67 +252,6 @@
    },
    {
     "src": "Tracker B",
-    "slug": "maxwell-engineering-solutions",
-    "name": "Maxwell Engineering Solutions",
-    "segment": "SME",
-    "exchange": "NSE SME",
-    "open": "2026-10-30",
-    "close": "2026-11-03",
-    "boa": "2026-11-04",
-    "listing": "2026-11-06",
-    "price": 158.0,
-    "price_low": 150.0,
-    "size_cr": 57.64,
-    "gmp": 70.0,
-    "gmp_at": "2026-10-31T09:25",
-    "sub_total": 4.67,
-    "sub_retail": 7.47,
-    "sub_at": "2026-10-31T09:29",
-    "lot_raw": 1600.0,
-    "sector": "Precision Engineering / Industrial Products",
-    "quota": {
-     "qib": 49.84,
-     "nii": 15.13,
-     "retail": 35.03
-    },
-    "fresh_cr": 57.64,
-    "ofs_cr": 0.0,
-    "registrar": "KFin Technologies Limited",
-    "lead_manager": "JDA Capital Services Ltd.",
-    "live": true
-   },
-   {
-    "src": "Tracker B",
-    "slug": "ajwa-projects",
-    "name": "Ajwa Projects Limited",
-    "segment": "SME",
-    "exchange": "BSE SME",
-    "open": "2026-10-28",
-    "close": "2026-10-30",
-    "boa": "2026-11-02",
-    "listing": "2026-11-04",
-    "price": 203.0,
-    "price_low": 203.0,
-    "size_cr": 38.05,
-    "gmp": 2.0,
-    "gmp_at": "2026-10-31T09:25",
-    "sub_total": 1.12,
-    "sub_retail": 1.93,
-    "sub_at": "2026-10-30T19:05",
-    "lot_raw": 1200.0,
-    "sector": "Industrial EPC and Infrastructure",
-    "quota": {
-     "nii": 50.0,
-     "retail": 50.0
-    },
-    "fresh_cr": 30.45,
-    "ofs_cr": 7.6,
-    "registrar": "KFin Technologies Limited",
-    "lead_manager": "Wealth Mine Networks Private Limited",
-    "live": true
-   },
-   {
-    "src": "Tracker B",
     "slug": "carver-roboweld",
     "name": "Carver Roboweld",
     "segment": "SME",
@@ -294,7 +264,7 @@
     "price_low": 76.0,
     "size_cr": 28.29,
     "gmp": 5.0,
-    "gmp_at": "2026-10-31T09:25",
+    "gmp_at": "2026-10-31T09:40",
     "sub_total": 25.8,
     "sub_retail": 19.17,
     "sub_at": "2026-10-30T19:05",
@@ -313,6 +283,36 @@
    },
    {
     "src": "Tracker B",
+    "slug": "ajwa-projects",
+    "name": "Ajwa Projects Limited",
+    "segment": "SME",
+    "exchange": "BSE SME",
+    "open": "2026-10-28",
+    "close": "2026-10-30",
+    "boa": "2026-11-02",
+    "listing": "2026-11-04",
+    "price": 203.0,
+    "price_low": 203.0,
+    "size_cr": 38.05,
+    "gmp": 2.0,
+    "gmp_at": "2026-10-31T09:40",
+    "sub_total": 1.12,
+    "sub_retail": 1.93,
+    "sub_at": "2026-10-30T19:05",
+    "lot_raw": 1200.0,
+    "sector": "Industrial EPC and Infrastructure",
+    "quota": {
+     "nii": 50.0,
+     "retail": 50.0
+    },
+    "fresh_cr": 30.45,
+    "ofs_cr": 7.6,
+    "registrar": "KFin Technologies Limited",
+    "lead_manager": "Wealth Mine Networks Private Limited",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
     "slug": "wiscon-industries",
     "name": "Wiscon Industries",
     "segment": "SME",
@@ -325,7 +325,7 @@
     "price_low": 194.0,
     "size_cr": 110.0,
     "gmp": 0.0,
-    "gmp_at": "2026-10-31T09:25",
+    "gmp_at": "2026-10-31T09:40",
     "sub_total": 1.17,
     "sub_retail": 0.66,
     "sub_at": "2026-10-29T19:05",
@@ -376,7 +376,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-10-31T09:31+05:30",
+  "fetched_at": "2026-10-31T09:45+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -1041,240 +1041,8 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-10-31T09:31+05:30",
+  "fetched_at": "2026-10-31T09:45+05:30",
   "records": [
-   {
-    "src": "Tracker D",
-    "slug": "ajwa-projects",
-    "name": "Ajwa Projects",
-    "segment": "SME",
-    "exchange": null,
-    "open": "2026-10-28",
-    "close": "2026-10-30",
-    "boa": null,
-    "listing": "2026-11-04",
-    "price": 203.0,
-    "price_low": null,
-    "size_cr": 38.05,
-    "gmp": 2.0,
-    "gmp_at": null,
-    "sub_total": 1.12,
-    "sub_retail": null,
-    "sub_at": null,
-    "lot": 600.0,
-    "sector": "Civil Construction",
-    "detail_url": "https://ipoindex.in/ipo/ajwa-projects-sme-ipo/",
-    "live": true,
-    "detail": {
-     "gmp_history": [
-      [
-       "2026-10-30",
-       2.0
-      ],
-      [
-       "2026-10-29",
-       10.0
-      ],
-      [
-       "2026-10-28",
-       35.0
-      ],
-      [
-       "2026-10-27",
-       25.0
-      ]
-     ],
-     "ratios": {
-      "eps": 13.56,
-      "fy": "FY26",
-      "nav": 44.28,
-      "pbv": 4.58,
-      "pe": 14.97,
-      "roce": 34.75,
-      "ronw": 36.15
-     }
-    }
-   },
-   {
-    "src": "Tracker D",
-    "slug": "carver-roboweld",
-    "name": "Carver Roboweld",
-    "segment": "SME",
-    "exchange": null,
-    "open": "2026-10-28",
-    "close": "2026-10-30",
-    "boa": null,
-    "listing": "2026-11-04",
-    "price": 80.0,
-    "price_low": 76.0,
-    "size_cr": 28.29,
-    "gmp": 3.0,
-    "gmp_at": null,
-    "sub_total": 25.8,
-    "sub_retail": null,
-    "sub_at": null,
-    "lot": 1600.0,
-    "sector": "Industrial Products",
-    "detail_url": "https://ipoindex.in/ipo/carver-roboweld-sme-ipo/",
-    "live": true,
-    "detail": {
-     "gmp_history": [
-      [
-       "2026-10-30",
-       3.0
-      ],
-      [
-       "2026-10-29",
-       0.0
-      ],
-      [
-       "2026-10-28",
-       0.0
-      ],
-      [
-       "2026-10-27",
-       0.0
-      ],
-      [
-       "2026-10-23",
-       0.0
-      ]
-     ],
-     "ratios": {
-      "eps": 3.78,
-      "fy": "FY26",
-      "nav": 16.86,
-      "pbv": 4.74,
-      "pe": 21.16,
-      "roce": 24.5,
-      "ronw": 21.57
-     },
-     "years": [
-      {
-       "debt": 13.39,
-       "ebitda": 4.12,
-       "income": 21.67,
-       "net_worth": 3.11,
-       "pat": 1.01,
-       "y": "FY24"
-      },
-      {
-       "debt": 22.32,
-       "ebitda": 4.92,
-       "income": 24.97,
-       "net_worth": 4.56,
-       "pat": 1.45,
-       "y": "FY25"
-      },
-      {
-       "debt": 15.65,
-       "ebitda": 8.36,
-       "income": 27.12,
-       "net_worth": 16.13,
-       "pat": 3.48,
-       "y": "FY26"
-      }
-     ]
-    }
-   },
-   {
-    "src": "Tracker D",
-    "slug": "mksons-fine-jewels",
-    "name": "M.K.Sons Fine Jewels",
-    "segment": "MAIN",
-    "exchange": null,
-    "open": "2026-10-28",
-    "close": "2026-10-30",
-    "boa": null,
-    "listing": "2026-11-04",
-    "price": 162.0,
-    "price_low": 153.0,
-    "size_cr": 330.48,
-    "gmp": 2.0,
-    "gmp_at": null,
-    "sub_total": 5.09,
-    "sub_retail": null,
-    "sub_at": null,
-    "lot": 91.0,
-    "sector": "Gems, Jewellery And Watches",
-    "detail_url": "https://ipoindex.in/ipo/mksons-fine-jewels-ipo/",
-    "live": true,
-    "detail": {
-     "gmp_history": [
-      [
-       "2026-10-30",
-       2.0
-      ],
-      [
-       "2026-10-29",
-       10.0
-      ],
-      [
-       "2026-10-28",
-       13.0
-      ],
-      [
-       "2026-10-27",
-       8.0
-      ],
-      [
-       "2026-10-26",
-       9.0
-      ],
-      [
-       "2026-10-25",
-       7.0
-      ],
-      [
-       "2026-10-24",
-       8.0
-      ],
-      [
-       "2026-10-23",
-       0.0
-      ],
-      [
-       "2026-09-15",
-       0.0
-      ]
-     ],
-     "ratios": {
-      "eps": 12.13,
-      "fy": "FY26",
-      "nav": 39.36,
-      "pbv": 4.12,
-      "pe": 13.36,
-      "roce": 39.88,
-      "ronw": 30.83
-     },
-     "years": [
-      {
-       "debt": 38.64,
-       "ebitda": 12.87,
-       "income": 217.4,
-       "net_worth": 22.27,
-       "pat": 8.17,
-       "y": "FY24"
-      },
-      {
-       "debt": 68.93,
-       "ebitda": 38.57,
-       "income": 351.32,
-       "net_worth": 116.21,
-       "pat": 23.26,
-       "y": "FY25"
-      },
-      {
-       "debt": 68.44,
-       "ebitda": 82.94,
-       "income": 538.86,
-       "net_worth": 167.9,
-       "pat": 51.8,
-       "y": "FY26"
-      }
-     ]
-    }
-   },
    {
     "src": "Tracker D",
     "slug": "hgs-india",
@@ -1288,7 +1056,7 @@
     "price": 120.0,
     "price_low": 114.0,
     "size_cr": 34.56,
-    "gmp": 19.0,
+    "gmp": 30.0,
     "gmp_at": null,
     "sub_total": 1.16,
     "sub_retail": null,
@@ -1684,6 +1452,238 @@
    },
    {
     "src": "Tracker D",
+    "slug": "ajwa-projects",
+    "name": "Ajwa Projects",
+    "segment": "SME",
+    "exchange": null,
+    "open": null,
+    "close": null,
+    "boa": null,
+    "listing": "2026-11-04",
+    "price": 203.0,
+    "price_low": null,
+    "size_cr": 38.05,
+    "gmp": 2.0,
+    "gmp_at": null,
+    "sub_total": null,
+    "sub_retail": null,
+    "sub_at": null,
+    "lot": 600.0,
+    "sector": "Civil Construction",
+    "detail_url": "https://ipoindex.in/ipo/ajwa-projects-sme-ipo/",
+    "live": true,
+    "detail": {
+     "gmp_history": [
+      [
+       "2026-10-30",
+       2.0
+      ],
+      [
+       "2026-10-29",
+       10.0
+      ],
+      [
+       "2026-10-28",
+       35.0
+      ],
+      [
+       "2026-10-27",
+       25.0
+      ]
+     ],
+     "ratios": {
+      "eps": 13.56,
+      "fy": "FY26",
+      "nav": 44.28,
+      "pbv": 4.58,
+      "pe": 14.97,
+      "roce": 34.75,
+      "ronw": 36.15
+     }
+    }
+   },
+   {
+    "src": "Tracker D",
+    "slug": "carver-roboweld",
+    "name": "Carver Roboweld",
+    "segment": "SME",
+    "exchange": null,
+    "open": null,
+    "close": null,
+    "boa": null,
+    "listing": "2026-11-04",
+    "price": 80.0,
+    "price_low": 76.0,
+    "size_cr": 28.29,
+    "gmp": 5.0,
+    "gmp_at": null,
+    "sub_total": null,
+    "sub_retail": null,
+    "sub_at": null,
+    "lot": 1600.0,
+    "sector": "Industrial Products",
+    "detail_url": "https://ipoindex.in/ipo/carver-roboweld-sme-ipo/",
+    "live": true,
+    "detail": {
+     "gmp_history": [
+      [
+       "2026-10-30",
+       3.0
+      ],
+      [
+       "2026-10-29",
+       0.0
+      ],
+      [
+       "2026-10-28",
+       0.0
+      ],
+      [
+       "2026-10-27",
+       0.0
+      ],
+      [
+       "2026-10-23",
+       0.0
+      ]
+     ],
+     "ratios": {
+      "eps": 3.78,
+      "fy": "FY26",
+      "nav": 16.86,
+      "pbv": 4.74,
+      "pe": 21.16,
+      "roce": 24.5,
+      "ronw": 21.57
+     },
+     "years": [
+      {
+       "debt": 13.39,
+       "ebitda": 4.12,
+       "income": 21.67,
+       "net_worth": 3.11,
+       "pat": 1.01,
+       "y": "FY24"
+      },
+      {
+       "debt": 22.32,
+       "ebitda": 4.92,
+       "income": 24.97,
+       "net_worth": 4.56,
+       "pat": 1.45,
+       "y": "FY25"
+      },
+      {
+       "debt": 15.65,
+       "ebitda": 8.36,
+       "income": 27.12,
+       "net_worth": 16.13,
+       "pat": 3.48,
+       "y": "FY26"
+      }
+     ]
+    }
+   },
+   {
+    "src": "Tracker D",
+    "slug": "mksons-fine-jewels",
+    "name": "M.K.Sons Fine Jewels",
+    "segment": "MAIN",
+    "exchange": null,
+    "open": null,
+    "close": null,
+    "boa": null,
+    "listing": "2026-11-04",
+    "price": 162.0,
+    "price_low": 153.0,
+    "size_cr": 330.48,
+    "gmp": 2.0,
+    "gmp_at": null,
+    "sub_total": null,
+    "sub_retail": null,
+    "sub_at": null,
+    "lot": 91.0,
+    "sector": "Gems, Jewellery And Watches",
+    "detail_url": "https://ipoindex.in/ipo/mksons-fine-jewels-ipo/",
+    "live": true,
+    "detail": {
+     "gmp_history": [
+      [
+       "2026-10-30",
+       2.0
+      ],
+      [
+       "2026-10-29",
+       10.0
+      ],
+      [
+       "2026-10-28",
+       13.0
+      ],
+      [
+       "2026-10-27",
+       8.0
+      ],
+      [
+       "2026-10-26",
+       9.0
+      ],
+      [
+       "2026-10-25",
+       7.0
+      ],
+      [
+       "2026-10-24",
+       8.0
+      ],
+      [
+       "2026-10-23",
+       0.0
+      ],
+      [
+       "2026-09-15",
+       0.0
+      ]
+     ],
+     "ratios": {
+      "eps": 12.13,
+      "fy": "FY26",
+      "nav": 39.36,
+      "pbv": 4.12,
+      "pe": 13.36,
+      "roce": 39.88,
+      "ronw": 30.83
+     },
+     "years": [
+      {
+       "debt": 38.64,
+       "ebitda": 12.87,
+       "income": 217.4,
+       "net_worth": 22.27,
+       "pat": 8.17,
+       "y": "FY24"
+      },
+      {
+       "debt": 68.93,
+       "ebitda": 38.57,
+       "income": 351.32,
+       "net_worth": 116.21,
+       "pat": 23.26,
+       "y": "FY25"
+      },
+      {
+       "debt": 68.44,
+       "ebitda": 82.94,
+       "income": 538.86,
+       "net_worth": 167.9,
+       "pat": 51.8,
+       "y": "FY26"
+      }
+     ]
+    }
+   },
+   {
+    "src": "Tracker D",
     "slug": "wiscon-industries",
     "name": "Wiscon Industries",
     "segment": "SME",
@@ -1691,7 +1691,7 @@
     "open": null,
     "close": null,
     "boa": null,
-    "listing": "2026-11-03",
+    "listing": null,
     "price": 204.0,
     "price_low": 194.0,
     "size_cr": 110.0,
@@ -1703,53 +1703,7 @@
     "lot": 600.0,
     "sector": "Consumer Electronics",
     "detail_url": "https://ipoindex.in/ipo/wiscon-industries-sme-ipo/",
-    "live": true,
-    "detail": {
-     "gmp_history": [
-      [
-       "2026-10-30",
-       0.0
-      ],
-      [
-       "2026-10-29",
-       0.0
-      ],
-      [
-       "2026-10-27",
-       0.0
-      ],
-      [
-       "2026-10-23",
-       0.0
-      ]
-     ],
-     "years": [
-      {
-       "debt": 0,
-       "ebitda": -1.73,
-       "income": 3.21,
-       "net_worth": 4.17,
-       "pat": -1.36,
-       "y": "FY24"
-      },
-      {
-       "debt": 0,
-       "ebitda": 1.79,
-       "income": 14.49,
-       "net_worth": 0.34,
-       "pat": 1.25,
-       "y": "FY25"
-      },
-      {
-       "debt": 25.26,
-       "ebitda": 28.09,
-       "income": 197.13,
-       "net_worth": 30.61,
-       "pat": 20.41,
-       "y": "FY26"
-      }
-     ]
-    }
+    "live": false
    },
    {
     "src": "Tracker D",
@@ -1760,7 +1714,7 @@
     "open": null,
     "close": null,
     "boa": null,
-    "listing": "2026-11-03",
+    "listing": null,
     "price": 330.0,
     "price_low": 313.0,
     "size_cr": 667.53,
@@ -1772,65 +1726,7 @@
     "lot": 45.0,
     "sector": "Waste Management",
     "detail_url": "https://ipoindex.in/ipo/sfc-environmental-technologies-ipo/",
-    "live": true,
-    "detail": {
-     "gmp_history": [
-      [
-       "2026-10-30",
-       20.0
-      ],
-      [
-       "2026-10-29",
-       10.0
-      ],
-      [
-       "2026-10-27",
-       15.0
-      ],
-      [
-       "2026-10-26",
-       27.0
-      ],
-      [
-       "2026-10-24",
-       32.0
-      ],
-      [
-       "2026-10-23",
-       21.0
-      ],
-      [
-       "2026-10-22",
-       21.0
-      ]
-     ],
-     "years": [
-      {
-       "debt": 139.16,
-       "ebitda": 193.25,
-       "income": 676.74,
-       "net_worth": 534.3,
-       "pat": 144.17,
-       "y": "FY24"
-      },
-      {
-       "debt": 83.71,
-       "ebitda": 207.48,
-       "income": 726.96,
-       "net_worth": 648.68,
-       "pat": 152.01,
-       "y": "FY25"
-      },
-      {
-       "debt": 195.64,
-       "ebitda": 235.81,
-       "income": 821.27,
-       "net_worth": 804.17,
-       "pat": 160.21,
-       "y": "FY26"
-      }
-     ]
-    }
+    "live": false
    }
   ]
  }
