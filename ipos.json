@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T01:45+05:30",
+  "generated_at": "2026-11-01T02:00+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-10-31T11:31+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-01T01:45+05:30",
+    "nse_ok_at": "2026-11-01T02:00+05:30",
     "bse_ok_at": "2026-10-31T12:57+05:30"
   },
   "ipos": [
@@ -786,7 +786,7 @@
         {
           "source": "Tracker C",
           "gmp": 68,
-          "at": "2026-10-31T20:02"
+          "at": "2026-10-31T23:37"
         }
       ],
       "gmp_history": [
@@ -1135,7 +1135,7 @@
         {
           "source": "Tracker C",
           "gmp": 23.5,
-          "at": "2026-10-31T20:02"
+          "at": "2026-10-31T23:37"
         },
         {
           "source": "Tracker D",
@@ -1460,8 +1460,8 @@
         },
         {
           "source": "Tracker C",
-          "gmp": 54,
-          "at": "2026-10-31T20:02"
+          "gmp": 56,
+          "at": "2026-10-31T23:37"
         }
       ],
       "gmp_history": [
@@ -1832,8 +1832,8 @@
         },
         {
           "source": "Tracker C",
-          "gmp": 10,
-          "at": "2026-10-31T20:02"
+          "gmp": 8.5,
+          "at": "2026-10-31T23:37"
         },
         {
           "source": "Tracker B",
@@ -2055,7 +2055,7 @@
       "sub_asof": "2026-10-29T19:05",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-01T01:45"
+        "at": "2026-11-01T02:00"
       },
       "gmp_sources": [],
       "gmp_history": [],
@@ -2272,7 +2272,7 @@
         {
           "source": "Tracker C",
           "gmp": 5,
-          "at": "2026-10-31T20:37"
+          "at": "2026-10-31T23:37"
         },
         {
           "source": "Tracker D",
@@ -2686,7 +2686,7 @@
         {
           "source": "Tracker C",
           "gmp": 5.5,
-          "at": "2026-10-31T20:02"
+          "at": "2026-10-31T23:37"
         },
         {
           "source": "Tracker D",
@@ -2786,7 +2786,7 @@
         "total": 4.67
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-01T01:37",
+      "sub_asof": "2026-11-01T01:51",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "JDA CAPITAL SERVICES LIMITED (Formerly Known as Beeline Broking Limited)"
@@ -2866,7 +2866,7 @@
         {
           "source": "Tracker C",
           "gmp": 70,
-          "at": "2026-10-31T20:37"
+          "at": "2026-10-31T23:37"
         },
         {
           "source": "Tracker D",
@@ -3040,7 +3040,7 @@
         {
           "source": "Tracker C",
           "gmp": 30,
-          "at": "2026-10-31T20:37"
+          "at": "2026-10-31T23:37"
         },
         {
           "source": "Tracker D",
@@ -3212,7 +3212,7 @@
         {
           "source": "Tracker C",
           "gmp": 5,
-          "at": "2026-10-31T20:02"
+          "at": "2026-10-31T23:37"
         }
       ],
       "gmp_history": [
@@ -3378,7 +3378,7 @@
       "sub_asof": "2026-11-01T01:10",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-01T01:45"
+        "at": "2026-11-01T02:00"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3518,7 +3518,7 @@
         {
           "source": "Tracker C",
           "gmp": 5,
-          "at": "2026-10-31T20:02"
+          "at": "2026-10-31T23:37"
         },
         {
           "source": "Tracker D",
@@ -3705,7 +3705,7 @@
       "sub_asof": "2026-11-01T00:50",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-01T01:45"
+        "at": "2026-11-01T02:00"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3745,7 +3745,7 @@
         "nii": 0.32,
         "total": 1.12
       },
-      "updated_on": "2026-11-01T01:45+05:30",
+      "updated_on": "2026-11-01T02:00+05:30",
       "from_peers": true,
       "exchange": "BSE SME",
       "registrar": "KFin Technologies Limited",
@@ -3819,7 +3819,7 @@
         {
           "source": "Tracker C",
           "gmp": 1,
-          "at": "2026-10-31T20:02"
+          "at": "2026-10-31T23:37"
         },
         {
           "source": "Tracker D",
