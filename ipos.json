@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T12:31+05:30",
+  "generated_at": "2026-10-31T12:36+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-10-31T11:31+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-10-31T12:31+05:30",
+    "nse_ok_at": "2026-10-31T12:36+05:30",
     "bse_ok_at": "2026-10-31T12:03+05:30"
   },
   "ipos": [
@@ -1126,8 +1126,8 @@
         },
         {
           "source": "Tracker D",
-          "gmp": 21.5,
-          "at": "2026-10-31T12:15"
+          "gmp": 25,
+          "at": "2026-10-31T12:36"
         }
       ],
       "gmp_history": [
@@ -1179,16 +1179,16 @@
       "history_source": "Tracker B",
       "gmp_low": 10,
       "gmp_high": 32,
-      "gmp": 21.5,
-      "gmp_asof": "2026-10-31T12:15",
+      "gmp": 25,
+      "gmp_asof": "2026-10-31T12:36",
       "gmp_source_latest": "Tracker D",
-      "gmp_pct": 6.52,
+      "gmp_pct": 7.58,
       "gmp_spread": {
         "min": 21.5,
-        "max": 23,
-        "diff": 1.5,
+        "max": 25,
+        "diff": 3.5,
         "n": 4,
-        "diff_pct_of_price": 0.45
+        "diff_pct_of_price": 1.06
       },
       "gmp_trend": {
         "dir": "rising",
@@ -1721,8 +1721,8 @@
         },
         {
           "source": "Tracker D",
-          "gmp": 7,
-          "at": "2026-10-31T11:34"
+          "gmp": 10,
+          "at": "2026-10-31T12:36"
         }
       ],
       "gmp_history": [
@@ -1766,16 +1766,16 @@
       "history_source": "Tracker B",
       "gmp_low": 7,
       "gmp_high": 10,
-      "gmp": 7,
-      "gmp_asof": "2026-10-31T12:00",
-      "gmp_source_latest": "Public trackers",
-      "gmp_pct": 8.54,
+      "gmp": 10,
+      "gmp_asof": "2026-10-31T12:36",
+      "gmp_source_latest": "Tracker D",
+      "gmp_pct": 12.2,
       "gmp_spread": {
         "min": 7,
-        "max": 7,
-        "diff": 0,
+        "max": 10,
+        "diff": 3,
         "n": 4,
-        "diff_pct_of_price": 0.0
+        "diff_pct_of_price": 3.66
       },
       "gmp_trend": {
         "dir": "falling",
@@ -1923,7 +1923,7 @@
       "sub_asof": "2026-10-29T19:05",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-10-31T12:31"
+        "at": "2026-10-31T12:36"
       },
       "gmp_sources": [],
       "gmp_history": [],
@@ -2491,7 +2491,7 @@
         "total": 4.67
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-10-31T12:29",
+      "sub_asof": "2026-10-31T12:33",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "JDA CAPITAL SERVICES LIMITED (Formerly Known as Beeline Broking Limited)"
@@ -2859,7 +2859,7 @@
       "sub_asof": "2026-10-31T11:55",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-10-31T12:31"
+        "at": "2026-10-31T12:36"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3049,7 +3049,7 @@
       "sub_asof": "2026-10-31T08:16",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-10-31T12:31"
+        "at": "2026-10-31T12:36"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3078,7 +3078,7 @@
         "nii": 0.32,
         "total": 1.12
       },
-      "updated_on": "2026-10-31T12:31+05:30",
+      "updated_on": "2026-10-31T12:36+05:30",
       "from_peers": true,
       "exchange": "BSE SME",
       "registrar": "KFin Technologies Limited",
