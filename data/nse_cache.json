@@ -1063,7 +1063,7 @@
   "series": "EQ",
   "nse_status": "Closed",
   "shares_offered": 11900000.0,
-  "last_seen": "2026-10-31T11:31+05:30",
+  "last_seen": "2026-10-31T21:45+05:30",
   "segment": "MAIN",
   "lot": 91,
   "registrar": "Bigshare Services Private Limited",
@@ -1080,7 +1080,7 @@
    "bnii": 15.33,
    "snii": 11.71,
    "retail": 3.08,
-   "total": 5.09
+   "total": 2.9
   },
   "sub_basis": "NSE+BSE",
   "sub_asof": "2026-10-30T19:00",
@@ -1278,6 +1278,15 @@
     "snii": 11.71,
     "retail": 3.08,
     "total": 5.09
+   },
+   {
+    "at": "2026-10-31T21:45+05:30",
+    "qib": 1.84,
+    "nii": 14.12,
+    "bnii": 15.33,
+    "snii": 11.71,
+    "retail": 3.08,
+    "total": 2.9
    }
   ]
  },
@@ -1292,7 +1301,7 @@
   "series": "EQ",
   "nse_status": "Active",
   "shares_offered": 16533012.0,
-  "last_seen": "2026-10-31T11:31+05:30",
+  "last_seen": "2026-10-31T21:45+05:30",
   "segment": "MAIN",
   "lot": 182,
   "registrar": "KFin Technologies Limited",
@@ -1309,7 +1318,7 @@
    "bnii": 1.23,
    "snii": 2.94,
    "retail": 3.02,
-   "total": 3.78
+   "total": 1.12
   },
   "sub_basis": "NSE+BSE",
   "sub_asof": "2026-10-30T17:03",
@@ -1434,6 +1443,15 @@
     "snii": 2.94,
     "retail": 3.02,
     "total": 3.78
+   },
+   {
+    "at": "2026-10-31T21:45+05:30",
+    "qib": 6.56,
+    "nii": 1.8,
+    "bnii": 1.23,
+    "snii": 2.94,
+    "retail": 3.02,
+    "total": 1.12
    }
   ],
   "reservation": {
@@ -1453,7 +1471,7 @@
   "series": "SME",
   "nse_status": "Active",
   "shares_offered": null,
-  "last_seen": "2026-10-31T11:31+05:30",
+  "last_seen": "2026-10-31T21:45+05:30",
   "segment": "SME",
   "details_at": "2026-10-31T11:31+05:30",
   "sub": {
@@ -1497,7 +1515,7 @@
   "series": "SME",
   "nse_status": "Active",
   "shares_offered": null,
-  "last_seen": "2026-10-31T11:31+05:30",
+  "last_seen": "2026-10-31T21:45+05:30",
   "segment": "SME",
   "details_at": "2026-10-31T11:31+05:30",
   "registrar": "Kfin Technologies Limited",
@@ -1541,7 +1559,7 @@
   "series": "SME",
   "nse_status": "Forthcoming",
   "shares_offered": 6030000.0,
-  "last_seen": "2026-10-31T11:31+05:30",
+  "last_seen": "2026-10-31T21:45+05:30",
   "segment": "SME",
   "registrar": "Cameo Corporate Services Limited",
   "lead_managers": [
