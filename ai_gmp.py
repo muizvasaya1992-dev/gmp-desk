@@ -20,11 +20,13 @@ import re
 import time
 
 IST = dt.timezone(dt.timedelta(hours=5, minutes=30))
+UA = "IPOShopBot/1.0 (+https://iposhop.in/)"
 # Tried in this order until one answers. Put your own choice in data/private.json ("gemini_model") to pin it.
 # A newer Flash follows the "report only what you found" rule better; the older one is the safety net.
 MODELS = ["gemini-3.8-flash", "gemini-flash-latest", "gemini-2.5-flash"]
 MODEL = MODELS[0]
 ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+PASSES = 2                       # ask twice, independently, and publish only if the two answers agree
 MAX_PER_RUN = 15                 # at most this many IPOs asked about in one run
 EVERY_HOURS = 20                 # and each IPO at most once a day
 PAUSE_S = 2.0
@@ -34,23 +36,35 @@ TIMEOUT = 30
 FAIL_RETRY_H = 3                 # after a failure, wait this long before asking about that IPO again
 
 PROMPT = """You are a careful data assistant for an Indian IPO information website. Today is {today} (IST).
+Accuracy matters far more than giving an answer. An answer of "not found" is correct and useful.
 
-Search the web for the latest grey market premium (GMP) for this IPO in India:
-  Name: {name}
+Find the latest grey market premium (GMP) for this exact IPO in India:
+  Company: {name}
   Type: {seg}
   Issue price: Rs {price} per share
   Bidding: {open} to {close}
 
-Rules you must follow:
-- Report only a GMP figure you have actually seen on a page you found in your search.
-- If several pages disagree, use the most recent one.
-- If you cannot find a GMP for this exact IPO, answer with "found": false. Never guess, never estimate from
-  similar IPOs, and never carry over a figure from another company.
-- A GMP of 0 means the grey market shows no premium. That is a real answer: report it as found with 0.
+Rules:
+1. Report a rupee figure only if you have read it on a page you found in this search, stated as the GMP for
+   this company's IPO. Copy it exactly as written: do not round it, average it or convert a percentage into rupees.
+2. Give the date the page itself puts on that figure, not today's date, unless the page says it is today's.
+3. If pages disagree, use the most recent. If two recent pages disagree by more than Rs 5, say so in "disagreement".
+4. Never work a GMP back from a predicted listing price, a subscription figure or a rating.
+5. Never use a figure for a different company, a different year, or an IPO with a similar name. Check the
+   company name and the issue price on the page match the ones above.
+6. If you cannot find a GMP for this exact IPO, reply with "found": false. Do not guess.
+7. A GMP of 0 is a real answer when a page states the grey market shows no premium.
+8. "quote" must be the exact wording from the page that contains the figure, copied, not paraphrased.
 
 Reply with JSON only, no other text, in exactly this shape:
-{{"found": true or false, "gmp_rupees": number or null, "as_of": "YYYY-MM-DD" or null,
-  "sources": ["full url", ...], "note": "under 15 words, what the page said"}}"""
+{{"found": true or false,
+  "gmp_rupees": number or null,
+  "as_of": "YYYY-MM-DD" or null,
+  "quote": "the exact sentence from the page containing the figure, under 160 characters",
+  "pages_agreeing": whole number of separate pages you saw this same figure on,
+  "disagreement": "other figures you saw, or empty",
+  "sources": ["direct url of each page you used"],
+  "note": "under 15 words"}}"""
 
 
 def _private(root):
@@ -207,12 +221,99 @@ def check(answer, grounding_urls, price, today):
         day = today
     if abs((today - day).days) > MAX_AGE_DAYS:
         return None, "the figure is out of date"
+    quote = re.sub(r"\s+", " ", str(answer.get("quote") or "")).strip()[:200]
+    if quote and not _quote_backs(quote, g):
+        return None, "the wording it quoted does not contain that figure"
     note = str(answer.get("note") or "")[:120]
     srcs = _clean_sources(answer.get("sources"), grounding_urls)
     if not srcs:
         return None, "the reply did not say where the figure came from"
-    return {"gmp": int(g) if float(g).is_integer() else g, "as_of": day.isoformat(),
+    pages = answer.get("pages_agreeing")
+    return {"gmp": int(g) if float(g).is_integer() else g, "as_of": day.isoformat(), "quote": quote,
+            "pages": int(pages) if isinstance(pages, (int, float)) and pages > 0 else None,
+            "disagreement": str(answer.get("disagreement") or "")[:120],
             "note": note, "sources": srcs}, ""
+
+
+def _quote_backs(quote, value):
+    """The figure has to appear in the wording the model says it copied."""
+    nums = {n.rstrip(".").rstrip("0").rstrip(".") if "." in n else n for n in re.findall(r"-?\d[\d,]*(?:\.\d+)?", quote.replace(",", ""))}
+    want = {str(int(value)) if float(value).is_integer() else str(value), str(value)}
+    return bool(nums & {w.rstrip(".") for w in want})
+
+
+def agree(a, b, price):
+    """Two separate answers are only published when they land on the same figure."""
+    if not a and not b:
+        return None, "neither check found a figure"
+    if not a or not b:
+        return None, "only one of the two checks found a figure, so it is not confirmed"
+    gap = abs(a["gmp"] - b["gmp"])
+    tol = max(2.0, abs(a["gmp"]) * 0.12, (price or 0) * 0.01)
+    if gap > tol:
+        return None, f"the two checks disagreed (₹{a['gmp']:g} and ₹{b['gmp']:g})"
+    best = a if (a.get("pages") or 0) >= (b.get("pages") or 0) else b
+    v = (a["gmp"] + b["gmp"]) / 2
+    out = dict(best)
+    out["gmp"] = int(round(v)) if float(round(v, 2)).is_integer() else round(v, 2)
+    out["as_of"] = max(a["as_of"], b["as_of"])
+    out["sources"] = _clean_sources(a["sources"], b["sources"])
+    out["checks"] = 2
+    out["spread"] = round(gap, 2)
+    return out, ""
+
+
+def cross_check(value, reported, price):
+    """An AI figure that contradicts what our real sources report is not published."""
+    if reported is None:
+        return True, ""
+    tol = max(5.0, abs(reported) * 0.35, (price or 0) * 0.02)
+    if abs(value - reported) <= tol:
+        return True, ""
+    return False, f"it disagrees with the ₹{reported:g} our own sources report"
+
+
+def page_shows(urls, value, log=print):
+    """Opens the page the figure was taken from and looks for that number next to the words GMP or premium.
+    True / False / None when the page could not be opened. It never changes the figure, only how we describe it."""
+    try:
+        import requests
+    except Exception:
+        return None
+    want = str(int(value)) if float(value).is_integer() else str(value)
+    for u in (urls or [])[:2]:
+        try:
+            if not _robots_ok(requests, u):
+                continue
+            r = requests.get(u, headers={"User-Agent": UA, "Accept": "text/html"}, timeout=15)
+            if r.status_code != 200:
+                continue
+            text = re.sub(r"<[^>]+>", " ", r.text)
+            text = re.sub(r"\s+", " ", text).lower()
+            for m in re.finditer(r"(?<![\d.])" + re.escape(want) + r"(?![\d.])", text):
+                near = text[max(0, m.start() - 140):m.end() + 140]
+                if "gmp" in near or "premium" in near:
+                    return True
+        except Exception:
+            continue
+    return None if not urls else False
+
+
+def _robots_ok(requests, url):
+    import urllib.robotparser as rp
+    from urllib.parse import urlparse
+    u = urlparse(url)
+    try:
+        q = requests.get(f"{u.scheme}://{u.netloc}/robots.txt", headers={"User-Agent": UA}, timeout=10)
+    except Exception:
+        return False
+    if q.status_code == 404:
+        return True
+    if q.status_code != 200:
+        return False
+    p = rp.RobotFileParser()
+    p.parse(q.text.splitlines())
+    return p.can_fetch(UA, url)
 
 
 def run(root, recs, today, now=None, fixtures=None, offline=False, log=print):
@@ -256,21 +357,35 @@ def run(root, recs, today, now=None, fixtures=None, offline=False, log=print):
                                    price=r["price"], open=r.get("open") or "to be announced",
                                    close=r.get("close") or "to be announced")
             try:
+                tries, why = [], ""
+                for pass_no in range(1 if fixtures else PASSES):
+                    if fixtures:
+                        f = pathlib.Path(fixtures) / f"ai_{r['id']}{'' if not pass_no else '_2'}.json"
+                        text, urls = _read_reply(json.loads(f.read_text(encoding="utf-8"))) if f.exists() else (None, [])
+                    else:
+                        if asked:
+                            time.sleep(PAUSE_S)
+                        text, urls, model = _first_that_answers(key, prompt, models, model, dead, log)
+                        asked += 1
+                    one, why1 = check(_json_from(text), urls, r.get("price"), today)
+                    tries.append(one)
+                    why = why or why1
                 if fixtures:
-                    f = pathlib.Path(fixtures) / f"ai_{r['id']}.json"
-                    text, urls = _read_reply(json.loads(f.read_text(encoding="utf-8"))) if f.exists() else (None, [])
+                    got, why2 = (tries[0], "") if tries[0] else (None, why)
                 else:
-                    if asked:
-                        time.sleep(PAUSE_S)
-                    text, urls, model = _first_that_answers(key, prompt, models, model, dead, log)
-                    asked += 1
-                got, why = check(_json_from(text), urls, r.get("price"), today)
+                    got, why2 = agree(tries[0], tries[-1], r.get("price"))
+                    why = why2 or why
+                if got:
+                    fits, why3 = cross_check(got["gmp"], r.get("gmp"), r.get("price"))
+                    if not fits:
+                        got, why = None, why3
                 was = {"checked": now.isoformat(timespec="minutes"), "model": model or models[0]}
                 if got:
+                    got["seen"] = page_shows(got["sources"], got["gmp"]) if not fixtures else None
                     was.update(got)
                     ok += 1
                 else:
-                    was["none"] = why
+                    was["none"] = why or why2 or "no figure we could confirm"
                 store[r["id"]] = was
             except GiveUp as e:                                  # stop for this run rather than waiting on every IPO
                 stop = str(e)
@@ -280,7 +395,9 @@ def run(root, recs, today, now=None, fixtures=None, offline=False, log=print):
                 store[r["id"]] = was = {"checked": now.isoformat(timespec="minutes"), "failed": True,
                                         "none": f"the request failed ({type(e).__name__})"}
         if was and was.get("gmp") is not None:
-            r["ai_gmp"] = {k: was[k] for k in ("gmp", "as_of", "note", "sources", "model", "checked") if k in was}
+            r["ai_gmp"] = {k: was[k] for k in ("gmp", "as_of", "note", "quote", "sources", "model",
+                                               "checked", "checks", "spread", "pages", "seen", "disagreement")
+                           if was.get(k) not in (None, "")}
             if r.get("price"):
                 r["ai_gmp"]["pct"] = round(was["gmp"] / r["price"] * 100, 2)
         elif was:

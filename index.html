@@ -938,8 +938,14 @@ const aiLine=i=>{ const a=i.ai_gmp; if(!a) return "";
 const aiBlock=i=>{ const a=i.ai_gmp;
   if(!a) return i.ai_gmp_none?`<h3>AI GMP estimate</h3><div class="micro">Our AI search looked for a grey-market quote for this IPO and did not publish one: ${esc(i.ai_gmp_none.why)}.${i.ai_gmp_none.checked?" Last tried "+tt(i.ai_gmp_none.checked)+".":""}</div>`:"";
   const src=(a.sources||[]).filter(u=>/^https?:/.test(u)).slice(0,3);
+  const how=[];
+  if(a.checks>=2) how.push(a.spread?`two separate searches agreed to within ${rs(a.spread)}`:"two separate searches returned the same figure");
+  if(a.pages>1) how.push(`seen on ${a.pages} pages`);
+  if(a.seen===true) how.push("found again when we opened the page ourselves");
+  else if(a.seen===false) how.push("we opened the page but could not find the figure there, so treat it with extra care");
   return `<h3>AI GMP estimate</h3><div class="gv ${a.gmp>=0?"pos":"neg"}"><b>${rs(a.gmp)}</b>${a.pct!=null?`<span class="delta">${pct(a.pct)}</span>`:""}</div>
-    <p class="micro" style="margin:6px 0 0">${a.note?esc(a.note)+". ":""}Found by an AI web search${a.as_of?" for "+dd(a.as_of):""}${a.checked?", run "+tt(a.checked):""}. It is an estimate from public pages, not a quote we have checked, and it can be wrong. The GMP above is what our regular sources report.${src.length?` <br>Where it looked: ${src.map((u,k)=>`<a href="${esc(u)}" target="_blank" rel="noopener noreferrer nofollow">page ${k+1} ↗</a>`).join(" · ")}`:""}</p>`; };
+    ${a.quote?`<p class="micro" style="margin:6px 0 0">From the page: “${esc(a.quote)}”</p>`:""}
+    <p class="micro" style="margin:6px 0 0">${how.length?"How it was checked: "+how.join("; ")+". ":""}Found by an AI web search${a.as_of?" for "+dd(a.as_of):""}${a.checked?", run "+tt(a.checked):""}. It is an estimate from public pages, not a quote we have checked ourselves, and it can still be wrong.${a.disagreement?` Other figures seen: ${esc(a.disagreement)}.`:""} The GMP above is what our regular sources report.${src.length?` <br>Where it looked: ${src.map((u,k)=>`<a href="${esc(u)}" target="_blank" rel="noopener noreferrer nofollow">page ${k+1} ↗</a>`).join(" · ")}`:""}</p>`; };
 const gmpLevel=p=>p>=30?5:p>=15?4:p>=5?3:p>0?2:1;
 const gmpMeter=i=>{ if(i.gmp==null||i.gmp_pct==null) return ""; const n=gmpLevel(i.gmp_pct); return `<span class="meter" role="img" aria-label="GMP strength ${n} out of 5" title="GMP strength ${n} of 5, from the GMP as a share of the issue price. It is not a rating of the IPO.">${[1,2,3,4,5].map(k=>`<i class="${k<=n?"on":""}"></i>`).join("")}</span>`; };
 function gmpBlock(i){
