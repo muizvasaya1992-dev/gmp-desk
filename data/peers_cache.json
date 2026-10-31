@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-01T02:01+05:30",
+  "fetched_at": "2026-11-01T02:15+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -17,16 +17,16 @@
     "size_cr": 183.06,
     "gmp": 8.5,
     "gmp_at": "2026-10-31T23:55",
-    "sub_total": 3.79,
-    "sub_retail": 3.02,
-    "sub_at": "2026-11-01T01:56",
+    "sub_total": 3.98,
+    "sub_retail": 3.17,
+    "sub_at": "2026-11-01T02:14",
     "sub_cats": {
-     "retail": 3.02,
-     "nii": 1.8,
+     "retail": 3.17,
+     "nii": 1.9,
      "bnii": 1.23,
      "snii": 2.94,
-     "qib": 6.56,
-     "total": 3.79
+     "qib": 6.89,
+     "total": 3.98
     },
     "gmp_days": [
      [
@@ -547,7 +547,7 @@
     "gmp_at": "2026-10-31T23:55",
     "sub_total": 4.67,
     "sub_retail": 7.47,
-    "sub_at": "2026-11-01T01:51",
+    "sub_at": "2026-11-01T02:13",
     "sub_cats": {
      "retail": 7.47,
      "nii": 4.35,
@@ -945,7 +945,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-01T02:01+05:30",
+  "fetched_at": "2026-11-01T02:15+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -1610,7 +1610,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-01T02:01+05:30",
+  "fetched_at": "2026-11-01T02:15+05:30",
   "records": [
    {
     "src": "Tracker D",
