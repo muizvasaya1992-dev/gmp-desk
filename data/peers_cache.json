@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-10-31T11:15+05:30",
+  "fetched_at": "2026-10-31T11:31+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,10 +16,10 @@
     "price_low": 78.0,
     "size_cr": 183.06,
     "gmp": 7.0,
-    "gmp_at": "2026-10-31T11:10",
+    "gmp_at": "2026-10-31T11:25",
     "sub_total": 3.79,
     "sub_retail": 3.02,
-    "sub_at": "2026-10-31T11:12",
+    "sub_at": "2026-10-31T11:29",
     "lot_raw": 182.0,
     "sector": "Steel Processing",
     "quota": {
@@ -47,7 +47,7 @@
     "price_low": 153.0,
     "size_cr": 330.48,
     "gmp": 6.0,
-    "gmp_at": "2026-10-31T11:10",
+    "gmp_at": "2026-10-31T11:25",
     "sub_total": 5.1,
     "sub_retail": 3.08,
     "sub_at": "2026-10-30T19:05",
@@ -78,7 +78,7 @@
     "price_low": 1585.0,
     "size_cr": 1200.0,
     "gmp": 52.0,
-    "gmp_at": "2026-10-31T11:10",
+    "gmp_at": "2026-10-31T11:25",
     "sub_total": 5.25,
     "sub_retail": 1.03,
     "sub_at": "2026-10-28T19:06",
@@ -109,7 +109,7 @@
     "price_low": 313.0,
     "size_cr": 668.0,
     "gmp": 20.5,
-    "gmp_at": "2026-10-31T11:10",
+    "gmp_at": "2026-10-31T11:25",
     "sub_total": 9.47,
     "sub_retail": 2.71,
     "sub_at": "2026-10-29T19:05",
@@ -139,8 +139,8 @@
     "price": 150.0,
     "price_low": 142.0,
     "size_cr": 255.0,
-    "gmp": 70.0,
-    "gmp_at": "2026-10-31T11:10",
+    "gmp": 68.0,
+    "gmp_at": "2026-10-31T11:25",
     "sub_total": 241.22,
     "sub_retail": 128.36,
     "sub_at": "2026-10-29T19:05",
@@ -171,7 +171,7 @@
     "price_low": 63.0,
     "size_cr": 23.33,
     "gmp": 0.0,
-    "gmp_at": "2026-10-31T11:10",
+    "gmp_at": "2026-10-31T11:25",
     "sub_total": 0.81,
     "sub_retail": 0.1,
     "sub_at": "2026-10-31T10:55",
@@ -190,6 +190,37 @@
    },
    {
     "src": "Tracker B",
+    "slug": "maxwell-engineering-solutions",
+    "name": "Maxwell Engineering Solutions",
+    "segment": "SME",
+    "exchange": "NSE SME",
+    "open": "2026-10-30",
+    "close": "2026-11-03",
+    "boa": "2026-11-04",
+    "listing": "2026-11-06",
+    "price": 158.0,
+    "price_low": 150.0,
+    "size_cr": 57.64,
+    "gmp": 70.0,
+    "gmp_at": "2026-10-31T11:25",
+    "sub_total": 4.67,
+    "sub_retail": 7.47,
+    "sub_at": "2026-10-31T11:29",
+    "lot_raw": 1600.0,
+    "sector": "Precision Engineering / Industrial Products",
+    "quota": {
+     "qib": 49.84,
+     "nii": 15.13,
+     "retail": 35.03
+    },
+    "fresh_cr": 57.64,
+    "ofs_cr": 0.0,
+    "registrar": "KFin Technologies Limited",
+    "lead_manager": "JDA Capital Services Ltd.",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
     "slug": "vectras-enprocon",
     "name": "Vectras Enprocon",
     "segment": "SME",
@@ -202,7 +233,7 @@
     "price_low": 99.0,
     "size_cr": 53.05,
     "gmp": 0.0,
-    "gmp_at": "2026-10-31T11:10",
+    "gmp_at": "2026-10-31T11:25",
     "sub_total": 1.2,
     "sub_retail": 1.03,
     "sub_at": "2026-10-31T08:16",
@@ -221,37 +252,6 @@
    },
    {
     "src": "Tracker B",
-    "slug": "maxwell-engineering-solutions",
-    "name": "Maxwell Engineering Solutions",
-    "segment": "SME",
-    "exchange": "NSE SME",
-    "open": "2026-10-30",
-    "close": "2026-11-03",
-    "boa": "2026-11-04",
-    "listing": "2026-11-06",
-    "price": 158.0,
-    "price_low": 150.0,
-    "size_cr": 57.64,
-    "gmp": 70.0,
-    "gmp_at": "2026-10-31T11:10",
-    "sub_total": 4.67,
-    "sub_retail": 7.47,
-    "sub_at": "2026-10-31T11:12",
-    "lot_raw": 1600.0,
-    "sector": "Precision Engineering / Industrial Products",
-    "quota": {
-     "qib": 49.84,
-     "nii": 15.13,
-     "retail": 35.03
-    },
-    "fresh_cr": 57.64,
-    "ofs_cr": 0.0,
-    "registrar": "KFin Technologies Limited",
-    "lead_manager": "JDA Capital Services Ltd.",
-    "live": true
-   },
-   {
-    "src": "Tracker B",
     "slug": "ajwa-projects",
     "name": "Ajwa Projects Limited",
     "segment": "SME",
@@ -264,7 +264,7 @@
     "price_low": 203.0,
     "size_cr": 38.05,
     "gmp": 2.0,
-    "gmp_at": "2026-10-31T11:10",
+    "gmp_at": "2026-10-31T11:25",
     "sub_total": 1.12,
     "sub_retail": 1.93,
     "sub_at": "2026-10-30T19:05",
@@ -294,7 +294,7 @@
     "price_low": 76.0,
     "size_cr": 28.29,
     "gmp": 5.0,
-    "gmp_at": "2026-10-31T11:10",
+    "gmp_at": "2026-10-31T11:25",
     "sub_total": 25.8,
     "sub_retail": 19.17,
     "sub_at": "2026-10-30T19:05",
@@ -325,7 +325,7 @@
     "price_low": 194.0,
     "size_cr": 110.0,
     "gmp": 0.0,
-    "gmp_at": "2026-10-31T11:10",
+    "gmp_at": "2026-10-31T11:25",
     "sub_total": 1.17,
     "sub_retail": 0.66,
     "sub_at": "2026-10-29T19:05",
@@ -376,7 +376,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-10-31T11:15+05:30",
+  "fetched_at": "2026-10-31T11:31+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -391,8 +391,8 @@
     "price": 94.0,
     "price_low": null,
     "size_cr": 56.68,
-    "gmp": 4.25,
-    "gmp_at": "2026-10-31T10:37",
+    "gmp": null,
+    "gmp_at": "2026-10-31T07:31",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -414,7 +414,7 @@
     "price_low": null,
     "size_cr": 34.56,
     "gmp": 30.0,
-    "gmp_at": "2026-10-31T10:37",
+    "gmp_at": "2026-10-31T07:37",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -436,7 +436,7 @@
     "price_low": null,
     "size_cr": 56.02,
     "gmp": 10.0,
-    "gmp_at": "2026-10-31T10:37",
+    "gmp_at": "2026-10-31T07:37",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -458,7 +458,7 @@
     "price_low": null,
     "size_cr": 53.05,
     "gmp": null,
-    "gmp_at": "2026-10-31T10:37",
+    "gmp_at": "2026-10-31T07:31",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -480,7 +480,7 @@
     "price_low": null,
     "size_cr": 57.64,
     "gmp": 70.0,
-    "gmp_at": "2026-10-31T10:37",
+    "gmp_at": "2026-10-31T07:37",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -502,7 +502,7 @@
     "price_low": null,
     "size_cr": 23.33,
     "gmp": null,
-    "gmp_at": "2026-10-31T10:28",
+    "gmp_at": "2026-10-31T07:35",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -524,7 +524,7 @@
     "price_low": null,
     "size_cr": 183.06,
     "gmp": 7.0,
-    "gmp_at": "2026-10-31T10:37",
+    "gmp_at": "2026-10-31T07:37",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -545,8 +545,8 @@
     "price": 162.0,
     "price_low": null,
     "size_cr": 275.4,
-    "gmp": 5.0,
-    "gmp_at": "2026-10-31T10:37",
+    "gmp": 6.0,
+    "gmp_at": "2026-10-31T07:37",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -568,7 +568,7 @@
     "price_low": null,
     "size_cr": 38.05,
     "gmp": 2.0,
-    "gmp_at": "2026-10-31T10:37",
+    "gmp_at": "2026-10-31T07:37",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -590,7 +590,7 @@
     "price_low": null,
     "size_cr": 28.29,
     "gmp": 5.0,
-    "gmp_at": "2026-10-31T10:37",
+    "gmp_at": "2026-10-31T07:37",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -612,7 +612,7 @@
     "price_low": null,
     "size_cr": 110.0,
     "gmp": null,
-    "gmp_at": "2026-10-31T10:37",
+    "gmp_at": "2026-10-31T07:32",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -633,8 +633,8 @@
     "price": 330.0,
     "price_low": null,
     "size_cr": 667.53,
-    "gmp": 20.5,
-    "gmp_at": "2026-10-31T10:37",
+    "gmp": 20.0,
+    "gmp_at": "2026-10-31T07:37",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -655,8 +655,8 @@
     "price": 150.0,
     "price_low": null,
     "size_cr": 255.0,
-    "gmp": 68.0,
-    "gmp_at": "2026-10-31T10:37",
+    "gmp": 70.0,
+    "gmp_at": "2026-10-31T07:37",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -678,7 +678,7 @@
     "price_low": null,
     "size_cr": 1200.0,
     "gmp": 52.0,
-    "gmp_at": "2026-10-31T10:37",
+    "gmp_at": "2026-10-31T07:37",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -1041,7 +1041,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-10-31T11:15+05:30",
+  "fetched_at": "2026-10-31T11:31+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -1067,6 +1067,10 @@
     "live": true,
     "detail": {
      "gmp_history": [
+      [
+       "2026-10-31",
+       30.0
+      ],
       [
        "2026-10-30",
        19.0
@@ -1102,6 +1106,10 @@
     "live": true,
     "detail": {
      "gmp_history": [
+      [
+       "2026-10-31",
+       70.0
+      ],
       [
        "2026-10-30",
        70.0
@@ -1146,6 +1154,10 @@
     "detail": {
      "gmp_history": [
       [
+       "2026-10-31",
+       10.0
+      ],
+      [
        "2026-10-30",
        10.0
       ],
@@ -1160,28 +1172,28 @@
      ],
      "years": [
       {
-       "debt": 32.81,
-       "ebitda": 5.42,
+       "y": "FY24",
        "income": 88.95,
-       "net_worth": 8.88,
        "pat": 2.52,
-       "y": "FY24"
+       "ebitda": 5.42,
+       "net_worth": 8.88,
+       "debt": 32.81
       },
       {
-       "debt": 41.79,
-       "ebitda": 12.14,
+       "y": "FY25",
        "income": 140,
-       "net_worth": 14.24,
        "pat": 5.46,
-       "y": "FY25"
+       "ebitda": 12.14,
+       "net_worth": 14.24,
+       "debt": 41.79
       },
       {
-       "debt": 79.88,
-       "ebitda": 24.06,
+       "y": "FY26",
        "income": 211.34,
-       "net_worth": 31.44,
        "pat": 13.42,
-       "y": "FY26"
+       "ebitda": 24.06,
+       "net_worth": 31.44,
+       "debt": 79.88
       }
      ]
     }
@@ -1211,6 +1223,10 @@
     "detail": {
      "gmp_history": [
       [
+       "2026-10-31",
+       0.0
+      ],
+      [
        "2026-10-30",
        0.0
       ],
@@ -1221,28 +1237,28 @@
      ],
      "years": [
       {
-       "debt": 4.16,
-       "ebitda": 8.67,
+       "y": "FY24",
        "income": 54.37,
-       "net_worth": 12.15,
        "pat": 5.81,
-       "y": "FY24"
+       "ebitda": 8.67,
+       "net_worth": 12.15,
+       "debt": 4.16
       },
       {
-       "debt": 11.87,
-       "ebitda": 15.05,
+       "y": "FY25",
        "income": 80.53,
-       "net_worth": 22.32,
        "pat": 10.17,
-       "y": "FY25"
+       "ebitda": 15.05,
+       "net_worth": 22.32,
+       "debt": 11.87
       },
       {
-       "debt": 22.21,
-       "ebitda": 24.01,
+       "y": "FY26",
        "income": 119.9,
-       "net_worth": 37.75,
        "pat": 15.43,
-       "y": "FY26"
+       "ebitda": 24.01,
+       "net_worth": 37.75,
+       "debt": 22.21
       }
      ]
     }
@@ -1272,6 +1288,10 @@
     "detail": {
      "gmp_history": [
       [
+       "2026-10-31",
+       0.0
+      ],
+      [
        "2026-10-30",
        0.0
       ],
@@ -1282,28 +1302,28 @@
      ],
      "years": [
       {
-       "debt": 0.36,
-       "ebitda": 1.36,
+       "y": "FY24",
        "income": 12.59,
-       "net_worth": 3.54,
        "pat": 0.89,
-       "y": "FY24"
+       "ebitda": 1.36,
+       "net_worth": 3.54,
+       "debt": 0.36
       },
       {
-       "debt": 3.85,
-       "ebitda": 2.82,
+       "y": "FY25",
        "income": 31.98,
-       "net_worth": 12.19,
        "pat": 1.82,
-       "y": "FY25"
+       "ebitda": 2.82,
+       "net_worth": 12.19,
+       "debt": 3.85
       },
       {
-       "debt": 4.19,
-       "ebitda": 6.15,
+       "y": "FY26",
        "income": 47.53,
-       "net_worth": 17.03,
        "pat": 4.24,
-       "y": "FY26"
+       "ebitda": 6.15,
+       "net_worth": 17.03,
+       "debt": 4.19
       }
      ]
     }
@@ -1363,28 +1383,28 @@
      ],
      "years": [
       {
-       "debt": 234.16,
-       "ebitda": 49.17,
+       "y": "FY24",
        "income": 765.41,
-       "net_worth": 54.36,
        "pat": 21.14,
-       "y": "FY24"
+       "ebitda": 49.17,
+       "net_worth": 54.36,
+       "debt": 234.16
       },
       {
-       "debt": 276.96,
-       "ebitda": 74.09,
+       "y": "FY25",
        "income": 1058.65,
-       "net_worth": 83.05,
        "pat": 28.67,
-       "y": "FY25"
+       "ebitda": 74.09,
+       "net_worth": 83.05,
+       "debt": 276.96
       },
       {
-       "debt": 338.45,
-       "ebitda": 86.09,
+       "y": "FY26",
        "income": 1269.83,
-       "net_worth": 121.58,
        "pat": 30.54,
-       "y": "FY26"
+       "ebitda": 86.09,
+       "net_worth": 121.58,
+       "debt": 338.45
       }
      ]
     }
@@ -1414,6 +1434,10 @@
     "detail": {
      "gmp_history": [
       [
+       "2026-10-31",
+       0.0
+      ],
+      [
        "2026-10-30",
        0.0
       ],
@@ -1424,28 +1448,28 @@
      ],
      "years": [
       {
-       "debt": 6.34,
-       "ebitda": 1.28,
+       "y": "FY24",
        "income": 49.53,
-       "net_worth": 3.85,
        "pat": 0.63,
-       "y": "FY24"
+       "ebitda": 1.28,
+       "net_worth": 3.85,
+       "debt": 6.34
       },
       {
-       "debt": 11.31,
-       "ebitda": 7.74,
+       "y": "FY25",
        "income": 81.02,
-       "net_worth": 15.42,
        "pat": 4.56,
-       "y": "FY25"
+       "ebitda": 7.74,
+       "net_worth": 15.42,
+       "debt": 11.31
       },
       {
-       "debt": 46.8,
-       "ebitda": 19,
+       "y": "FY26",
        "income": 115.13,
-       "net_worth": 42.25,
        "pat": 10.97,
-       "y": "FY26"
+       "ebitda": 19,
+       "net_worth": 42.25,
+       "debt": 46.8
       }
      ]
     }
@@ -1475,6 +1499,10 @@
     "detail": {
      "gmp_history": [
       [
+       "2026-10-31",
+       2.0
+      ],
+      [
        "2026-10-30",
        2.0
       ],
@@ -1492,13 +1520,13 @@
       ]
      ],
      "ratios": {
+      "pe": 14.97,
       "eps": 13.56,
       "fy": "FY26",
-      "nav": 44.28,
       "pbv": 4.58,
-      "pe": 14.97,
-      "roce": 34.75,
-      "ronw": 36.15
+      "nav": 44.28,
+      "ronw": 36.15,
+      "roce": 34.75
      }
     }
    },
@@ -1527,6 +1555,10 @@
     "detail": {
      "gmp_history": [
       [
+       "2026-10-31",
+       6.0
+      ],
+      [
        "2026-10-30",
        3.0
       ],
@@ -1547,41 +1579,41 @@
        0.0
       ]
      ],
-     "ratios": {
-      "eps": 3.78,
-      "fy": "FY26",
-      "nav": 16.86,
-      "pbv": 4.74,
-      "pe": 21.16,
-      "roce": 24.5,
-      "ronw": 21.57
-     },
      "years": [
       {
-       "debt": 13.39,
-       "ebitda": 4.12,
+       "y": "FY24",
        "income": 21.67,
-       "net_worth": 3.11,
        "pat": 1.01,
-       "y": "FY24"
+       "ebitda": 4.12,
+       "net_worth": 3.11,
+       "debt": 13.39
       },
       {
-       "debt": 22.32,
-       "ebitda": 4.92,
+       "y": "FY25",
        "income": 24.97,
-       "net_worth": 4.56,
        "pat": 1.45,
-       "y": "FY25"
+       "ebitda": 4.92,
+       "net_worth": 4.56,
+       "debt": 22.32
       },
       {
-       "debt": 15.65,
-       "ebitda": 8.36,
+       "y": "FY26",
        "income": 27.12,
-       "net_worth": 16.13,
        "pat": 3.48,
-       "y": "FY26"
+       "ebitda": 8.36,
+       "net_worth": 16.13,
+       "debt": 15.65
       }
-     ]
+     ],
+     "ratios": {
+      "pe": 21.16,
+      "eps": 3.78,
+      "fy": "FY26",
+      "pbv": 4.74,
+      "nav": 16.86,
+      "ronw": 21.57,
+      "roce": 24.5
+     }
     }
    },
    {
@@ -1608,6 +1640,10 @@
     "live": true,
     "detail": {
      "gmp_history": [
+      [
+       "2026-10-31",
+       7.0
+      ],
       [
        "2026-10-30",
        2.0
@@ -1645,41 +1681,41 @@
        0.0
       ]
      ],
-     "ratios": {
-      "eps": 12.13,
-      "fy": "FY26",
-      "nav": 39.36,
-      "pbv": 4.12,
-      "pe": 13.36,
-      "roce": 39.88,
-      "ronw": 30.83
-     },
      "years": [
       {
-       "debt": 38.64,
-       "ebitda": 12.87,
+       "y": "FY24",
        "income": 217.4,
-       "net_worth": 22.27,
        "pat": 8.17,
-       "y": "FY24"
+       "ebitda": 12.87,
+       "net_worth": 22.27,
+       "debt": 38.64
       },
       {
-       "debt": 68.93,
-       "ebitda": 38.57,
+       "y": "FY25",
        "income": 351.32,
-       "net_worth": 116.21,
        "pat": 23.26,
-       "y": "FY25"
+       "ebitda": 38.57,
+       "net_worth": 116.21,
+       "debt": 68.93
       },
       {
-       "debt": 68.44,
-       "ebitda": 82.94,
+       "y": "FY26",
        "income": 538.86,
-       "net_worth": 167.9,
        "pat": 51.8,
-       "y": "FY26"
+       "ebitda": 82.94,
+       "net_worth": 167.9,
+       "debt": 68.44
       }
-     ]
+     ],
+     "ratios": {
+      "pe": 13.36,
+      "eps": 12.13,
+      "fy": "FY26",
+      "pbv": 4.12,
+      "nav": 39.36,
+      "ronw": 30.83,
+      "roce": 39.88
+     }
     }
    },
    {
