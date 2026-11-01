@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T04:31+05:30",
+  "generated_at": "2026-11-02T04:45+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-10-31T11:31+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-02T04:31+05:30",
+    "nse_ok_at": "2026-11-02T04:45+05:30",
     "bse_ok_at": "2026-10-31T12:57+05:30"
   },
   "ipos": [
@@ -2060,7 +2060,7 @@
       "sub_asof": "2026-10-29T19:05",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-02T04:31"
+        "at": "2026-11-02T04:45"
       },
       "gmp_sources": [],
       "gmp_history": [],
@@ -3413,7 +3413,7 @@
       "sub_asof": "2026-11-02T01:42",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-02T04:31"
+        "at": "2026-11-02T04:45"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3744,7 +3744,7 @@
       "sub_asof": "2026-11-01T19:02",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-02T04:31"
+        "at": "2026-11-02T04:45"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
