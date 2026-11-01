@@ -1,7 +1,17 @@
 {
- "fetched_at": "2026-11-01T00:00+05:30",
+ "fetched_at": "2026-11-02T00:01+05:30",
  "year": 2026,
  "rows": [
+  {
+   "company": "M. K. Sons Fine Jewels Limited",
+   "symbol": "MKSONS",
+   "securityType": "EQ",
+   "ipoStartDate": "28-OCT-2026",
+   "ipoEndDate": "30-OCT-2026",
+   "listingDate": "-",
+   "issuePrice": "-",
+   "priceRange": "Rs.153 to Rs.162"
+  },
   {
    "company": "BLS Polymers Limited",
    "symbol": "BLSPOLY",
@@ -33,16 +43,6 @@
    "priceRange": "Rs.1585 to Rs.1665"
   },
   {
-   "company": "Paras Healthcare Limited",
-   "symbol": "PARASHLTH",
-   "securityType": "EQ",
-   "ipoStartDate": "21-OCT-2026",
-   "ipoEndDate": "23-OCT-2026",
-   "listingDate": "28-OCT-2026",
-   "issuePrice": "   693",
-   "priceRange": "Rs.660 to Rs.693"
-  },
-  {
    "company": "Jio Platforms Limited",
    "symbol": "JPL",
    "securityType": "EQ",
@@ -53,6 +53,16 @@
    "priceRange": "Rs.1065 to Rs.1119"
   },
   {
+   "company": "Paras Healthcare Limited",
+   "symbol": "PARASHLTH",
+   "securityType": "EQ",
+   "ipoStartDate": "21-OCT-2026",
+   "ipoEndDate": "23-OCT-2026",
+   "listingDate": "28-OCT-2026",
+   "issuePrice": "   693",
+   "priceRange": "Rs.660 to Rs.693"
+  },
+  {
    "company": "Sahajanand Medical Technologies Limited",
    "symbol": "SMT",
    "securityType": "EQ",
@@ -61,16 +71,6 @@
    "listingDate": "23-OCT-2026",
    "issuePrice": "   344",
    "priceRange": "Rs.327 to Rs.344"
-  },
-  {
-   "company": "Zetwerk Manufacturing Businesses Limited",
-   "symbol": "ZETWERK",
-   "securityType": "EQ",
-   "ipoStartDate": "15-OCT-2026",
-   "ipoEndDate": "19-OCT-2026",
-   "listingDate": "23-OCT-2026",
-   "issuePrice": "   151",
-   "priceRange": "Rs.143 to Rs.151"
   },
   {
    "company": "Tonbo Imaging India Limited",
@@ -91,6 +91,16 @@
    "listingDate": "23-OCT-2026",
    "issuePrice": "   586",
    "priceRange": "Rs.558 to Rs.586"
+  },
+  {
+   "company": "Zetwerk Manufacturing Businesses Limited",
+   "symbol": "ZETWERK",
+   "securityType": "EQ",
+   "ipoStartDate": "15-OCT-2026",
+   "ipoEndDate": "19-OCT-2026",
+   "listingDate": "23-OCT-2026",
+   "issuePrice": "   151",
+   "priceRange": "Rs.143 to Rs.151"
   },
   {
    "company": "Fusion CX Limited",
@@ -183,16 +193,6 @@
    "priceRange": "Rs.69 to Rs.72"
   },
   {
-   "company": "Shah Investor's Home Limited",
-   "symbol": "SHAHINVEST",
-   "securityType": "BE",
-   "ipoStartDate": "28-SEP-2026",
-   "ipoEndDate": "30-SEP-2026",
-   "listingDate": "06-OCT-2026",
-   "issuePrice": "   167",
-   "priceRange": "Rs.159 to Rs.167"
-  },
-  {
    "company": "Srit India Limited",
    "symbol": "SRIT",
    "securityType": "BE",
@@ -201,6 +201,16 @@
    "listingDate": "06-OCT-2026",
    "issuePrice": "   130",
    "priceRange": "Rs.123 to Rs.130"
+  },
+  {
+   "company": "Shah Investor's Home Limited",
+   "symbol": "SHAHINVEST",
+   "securityType": "BE",
+   "ipoStartDate": "28-SEP-2026",
+   "ipoEndDate": "30-SEP-2026",
+   "listingDate": "06-OCT-2026",
+   "issuePrice": "   167",
+   "priceRange": "Rs.159 to Rs.167"
   },
   {
    "company": "AceVector Limited",
@@ -223,16 +233,6 @@
    "priceRange": "Rs.132 to Rs.139"
   },
   {
-   "company": "Runwal Enterprises Limited",
-   "symbol": "RUNWALENTR",
-   "securityType": "EQ",
-   "ipoStartDate": "25-SEP-2026",
-   "ipoEndDate": "29-SEP-2026",
-   "listingDate": "05-OCT-2026",
-   "issuePrice": "   305",
-   "priceRange": "Rs.290 to Rs.302"
-  },
-  {
    "company": "Orient Cables (India) Limited",
    "symbol": "ORIENTCABL",
    "securityType": "EQ",
@@ -241,6 +241,16 @@
    "listingDate": "05-OCT-2026",
    "issuePrice": "   272",
    "priceRange": "Rs.258 to Rs.272"
+  },
+  {
+   "company": "Runwal Enterprises Limited",
+   "symbol": "RUNWALENTR",
+   "securityType": "EQ",
+   "ipoStartDate": "25-SEP-2026",
+   "ipoEndDate": "29-SEP-2026",
+   "listingDate": "05-OCT-2026",
+   "issuePrice": "   305",
+   "priceRange": "Rs.290 to Rs.302"
   },
   {
    "company": "Bench Mark Infotech Services Limited",
@@ -263,16 +273,6 @@
    "priceRange": "Rs.98 to Rs.103"
   },
   {
-   "company": "Moneyview Limited",
-   "symbol": "MONEYVIEW",
-   "securityType": "EQ",
-   "ipoStartDate": "24-SEP-2026",
-   "ipoEndDate": "28-SEP-2026",
-   "listingDate": "01-OCT-2026",
-   "issuePrice": "    34",
-   "priceRange": "Rs.32 to Rs.34"
-  },
-  {
    "company": "A-One Steels India Limited",
    "symbol": "AONESTEELS",
    "securityType": "EQ",
@@ -281,6 +281,16 @@
    "listingDate": "01-OCT-2026",
    "issuePrice": "   405",
    "priceRange": "Rs.385 to Rs.405"
+  },
+  {
+   "company": "Moneyview Limited",
+   "symbol": "MONEYVIEW",
+   "securityType": "EQ",
+   "ipoStartDate": "24-SEP-2026",
+   "ipoEndDate": "28-SEP-2026",
+   "listingDate": "01-OCT-2026",
+   "issuePrice": "    34",
+   "priceRange": "Rs.32 to Rs.34"
   },
   {
    "company": "Green Asia Impex Limited",

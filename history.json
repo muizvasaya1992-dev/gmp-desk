@@ -1,7 +1,7 @@
 {
  "year": 2026,
  "bse_as_of": "2026-10-31T11:31+05:30",
- "nse_as_of": "2026-11-01T00:00+05:30",
+ "nse_as_of": "2026-11-02T00:01+05:30",
  "rows": [
   {
    "name": "Vedant Poly Fabs",
@@ -11,11 +11,11 @@
    "exchange": "SME",
    "live": true,
    "id": "vpfl",
-   "status": "upcoming",
+   "status": "open",
    "open": "2026-11-02",
    "close": "2026-11-04",
    "price": 94,
-   "price_low": 88
+   "price_low": null
   },
   {
    "name": "Maxwell Engineering Solutions",
@@ -81,7 +81,7 @@
    "exchange": "NSE · BSE",
    "live": true,
    "id": "bombay-coated-special-steels",
-   "status": "open",
+   "status": "closing_today",
    "open": "2026-10-29",
    "close": "2026-11-02",
    "price": 82,
@@ -95,7 +95,7 @@
    "exchange": "BSE SME",
    "live": true,
    "id": "antala-industries",
-   "status": "open",
+   "status": "closing_today",
    "open": "2026-10-29",
    "close": "2026-11-02",
    "price": 67,
@@ -128,20 +128,6 @@
    "close": "2026-10-30",
    "price": 162,
    "price_low": 153
-  },
-  {
-   "name": "Ajwa Projects",
-   "segment": "SME",
-   "symbol": null,
-   "listing": "2026-11-04",
-   "exchange": "BSE SME",
-   "live": true,
-   "id": "ajwa-projects",
-   "status": "closed",
-   "open": "2026-10-28",
-   "close": "2026-10-30",
-   "price": 203,
-   "price_low": 203
   },
   {
    "name": "BLS Polymers",
@@ -193,7 +179,7 @@
    "exchange": "NSE · BSE",
    "live": true,
    "id": "eaaa-india-alternatives",
-   "status": "closed",
+   "status": "listed",
    "open": "2026-10-26",
    "close": "2026-10-28",
    "price": 1665,
@@ -221,27 +207,6 @@
    "status": "listed"
   },
   {
-   "name": "Paras Healthcare",
-   "segment": "MAIN",
-   "symbol": "PARASHLTH",
-   "open": "2026-10-21",
-   "close": "2026-10-23",
-   "listing": "2026-10-28",
-   "price": 693,
-   "price_low": 660,
-   "exchange": "NSE · BSE",
-   "listing_close": 737.15,
-   "listing_gain_pct": 6.37,
-   "current": 735.95,
-   "gain_pct": 6.2,
-   "listing_gain": 44.15,
-   "gain": 42.95,
-   "bse_url": "https://www.bseindia.com/stock-share-price/paras-healthcare-ltd/parashlth/545005/",
-   "live": true,
-   "id": "paras-healthcare",
-   "status": "listed"
-  },
-  {
    "name": "Jio Platforms",
    "segment": "MAIN",
    "symbol": "JPL",
@@ -263,6 +228,27 @@
    "status": "listed"
   },
   {
+   "name": "Paras Healthcare",
+   "segment": "MAIN",
+   "symbol": "PARASHLTH",
+   "open": "2026-10-21",
+   "close": "2026-10-23",
+   "listing": "2026-10-28",
+   "price": 693,
+   "price_low": 660,
+   "exchange": "NSE · BSE",
+   "listing_close": 737.15,
+   "listing_gain_pct": 6.37,
+   "current": 735.95,
+   "gain_pct": 6.2,
+   "listing_gain": 44.15,
+   "gain": 42.95,
+   "bse_url": "https://www.bseindia.com/stock-share-price/paras-healthcare-ltd/parashlth/545005/",
+   "live": true,
+   "id": "paras-healthcare",
+   "status": "listed"
+  },
+  {
    "name": "Sahajanand Medical Technologies",
    "segment": "MAIN",
    "symbol": "SMT",
@@ -281,26 +267,6 @@
    "bse_url": "https://www.bseindia.com/stock-share-price/sahajanand-medical-technologies-ltd/smt/545001/",
    "live": true,
    "id": "sahajanand-medical-technologies",
-   "status": "listed"
-  },
-  {
-   "name": "Zetwerk Manufacturing Businesses",
-   "segment": "MAIN",
-   "symbol": "ZETWERK",
-   "open": "2026-10-15",
-   "close": "2026-10-19",
-   "listing": "2026-10-23",
-   "price": 151,
-   "price_low": 143,
-   "exchange": "NSE · BSE",
-   "listing_close": 138.3,
-   "listing_gain_pct": -8.41,
-   "current": 163.25,
-   "gain_pct": 8.11,
-   "listing_gain": -12.7,
-   "gain": 12.25,
-   "bse_url": "https://www.bseindia.com/stock-share-price/zetwerk-manufacturing-businesses-ltd/zetwerk/545000/",
-   "id": "zetwerk-manufacturing-businesses",
    "status": "listed"
   },
   {
@@ -342,6 +308,26 @@
    "bse_url": "https://www.bseindia.com/stock-share-price/bonfiglioli-transmissions-ltd/bonfig/544996/",
    "live": true,
    "id": "bonfiglioli-transmissions",
+   "status": "listed"
+  },
+  {
+   "name": "Zetwerk Manufacturing Businesses",
+   "segment": "MAIN",
+   "symbol": "ZETWERK",
+   "open": "2026-10-15",
+   "close": "2026-10-19",
+   "listing": "2026-10-23",
+   "price": 151,
+   "price_low": 143,
+   "exchange": "NSE · BSE",
+   "listing_close": 138.3,
+   "listing_gain_pct": -8.41,
+   "current": 163.25,
+   "gain_pct": 8.11,
+   "listing_gain": -12.7,
+   "gain": 12.25,
+   "bse_url": "https://www.bseindia.com/stock-share-price/zetwerk-manufacturing-businesses-ltd/zetwerk/545000/",
+   "id": "zetwerk-manufacturing-businesses",
    "status": "listed"
   },
   {
@@ -743,26 +729,6 @@
    "status": "listed"
   },
   {
-   "name": "Shah Investor's Home",
-   "segment": "MAIN",
-   "symbol": "SHAHINVEST",
-   "open": "2026-09-28",
-   "close": "2026-09-30",
-   "listing": "2026-10-06",
-   "price": 167,
-   "price_low": 159,
-   "exchange": "NSE · BSE",
-   "listing_close": 173.75,
-   "listing_gain_pct": 4.04,
-   "current": 138.3,
-   "gain_pct": -17.19,
-   "listing_gain": 6.75,
-   "gain": -28.7,
-   "bse_url": "https://www.bseindia.com/stock-share-price/shah-investors-home-ltd/shahinvest/544963/",
-   "id": "shah-investor-s-home",
-   "status": "listed"
-  },
-  {
    "name": "Srit India",
    "segment": "MAIN",
    "symbol": "SRIT",
@@ -780,6 +746,26 @@
    "gain": -22.2,
    "bse_url": "https://www.bseindia.com/stock-share-price/srit-india-ltd/srit/544965/",
    "id": "srit-india",
+   "status": "listed"
+  },
+  {
+   "name": "Shah Investor's Home",
+   "segment": "MAIN",
+   "symbol": "SHAHINVEST",
+   "open": "2026-09-28",
+   "close": "2026-09-30",
+   "listing": "2026-10-06",
+   "price": 167,
+   "price_low": 159,
+   "exchange": "NSE · BSE",
+   "listing_close": 173.75,
+   "listing_gain_pct": 4.04,
+   "current": 138.3,
+   "gain_pct": -17.19,
+   "listing_gain": 6.75,
+   "gain": -28.7,
+   "bse_url": "https://www.bseindia.com/stock-share-price/shah-investors-home-ltd/shahinvest/544963/",
+   "id": "shah-investor-s-home",
    "status": "listed"
   },
   {
@@ -883,26 +869,6 @@
    "status": "listed"
   },
   {
-   "name": "Runwal Enterprises",
-   "segment": "MAIN",
-   "symbol": "RUNWALENTR",
-   "open": "2026-09-25",
-   "close": "2026-09-29",
-   "listing": "2026-10-05",
-   "price": 305,
-   "price_low": 290,
-   "exchange": "NSE · BSE",
-   "listing_close": 298.95,
-   "listing_gain_pct": -1.98,
-   "current": 209.05,
-   "gain_pct": -31.46,
-   "listing_gain": -6.05,
-   "gain": -95.95,
-   "bse_url": "https://www.bseindia.com/stock-share-price/runwal-enterprises-ltd/runwalentr/544959/",
-   "id": "runwal-enterprises",
-   "status": "listed"
-  },
-  {
    "name": "Orient Cables (India)",
    "segment": "MAIN",
    "symbol": "ORIENTCABL",
@@ -920,6 +886,26 @@
    "gain": 71.65,
    "bse_url": "https://www.bseindia.com/stock-share-price/orient-cables-(india)-ltd/orientcabl/544960/",
    "id": "orient-cables-india",
+   "status": "listed"
+  },
+  {
+   "name": "Runwal Enterprises",
+   "segment": "MAIN",
+   "symbol": "RUNWALENTR",
+   "open": "2026-09-25",
+   "close": "2026-09-29",
+   "listing": "2026-10-05",
+   "price": 305,
+   "price_low": 290,
+   "exchange": "NSE · BSE",
+   "listing_close": 298.95,
+   "listing_gain_pct": -1.98,
+   "current": 209.05,
+   "gain_pct": -31.46,
+   "listing_gain": -6.05,
+   "gain": -95.95,
+   "bse_url": "https://www.bseindia.com/stock-share-price/runwal-enterprises-ltd/runwalentr/544959/",
+   "id": "runwal-enterprises",
    "status": "listed"
   },
   {
@@ -989,26 +975,6 @@
    "status": "listed"
   },
   {
-   "name": "Moneyview",
-   "segment": "MAIN",
-   "symbol": "MONEYVIEW",
-   "open": "2026-09-24",
-   "close": "2026-09-28",
-   "listing": "2026-10-01",
-   "price": 34,
-   "price_low": 32,
-   "exchange": "NSE · BSE",
-   "listing_close": 54.03,
-   "listing_gain_pct": 58.91,
-   "current": 50.33,
-   "gain_pct": 48.03,
-   "listing_gain": 20.03,
-   "gain": 16.33,
-   "bse_url": "https://www.bseindia.com/stock-share-price/moneyview-ltd/moneyview/544953/",
-   "id": "moneyview",
-   "status": "listed"
-  },
-  {
    "name": "A-One Steels India",
    "segment": "MAIN",
    "symbol": "AONESTEELS",
@@ -1026,6 +992,26 @@
    "gain": -32.95,
    "bse_url": "https://www.bseindia.com/stock-share-price/a-one-steels-india-ltd/aonesteels/544952/",
    "id": "a-one-steels-india",
+   "status": "listed"
+  },
+  {
+   "name": "Moneyview",
+   "segment": "MAIN",
+   "symbol": "MONEYVIEW",
+   "open": "2026-09-24",
+   "close": "2026-09-28",
+   "listing": "2026-10-01",
+   "price": 34,
+   "price_low": 32,
+   "exchange": "NSE · BSE",
+   "listing_close": 54.03,
+   "listing_gain_pct": 58.91,
+   "current": 50.33,
+   "gain_pct": 48.03,
+   "listing_gain": 20.03,
+   "gain": 16.33,
+   "bse_url": "https://www.bseindia.com/stock-share-price/moneyview-ltd/moneyview/544953/",
+   "id": "moneyview",
    "status": "listed"
   },
   {
@@ -5544,5 +5530,5 @@
    "status": "listed"
   }
  ],
- "generated_at": "2026-11-01T00:00+05:30"
+ "generated_at": "2026-11-02T00:01+05:30"
 }
