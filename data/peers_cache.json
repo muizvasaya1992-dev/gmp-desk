@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-03T04:01+05:30",
+  "fetched_at": "2026-11-03T04:15+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -475,6 +475,62 @@
    },
    {
     "src": "Tracker B",
+    "slug": "maxwell-engineering-solutions",
+    "name": "Maxwell Engineering Solutions",
+    "segment": "SME",
+    "exchange": "NSE SME",
+    "open": "2026-10-30",
+    "close": "2026-11-03",
+    "boa": "2026-11-04",
+    "listing": "2026-11-06",
+    "price": 158.0,
+    "price_low": 150.0,
+    "size_cr": 57.64,
+    "gmp": 80.0,
+    "gmp_at": "2026-11-02T23:55",
+    "sub_total": 80.34,
+    "sub_retail": 110.21,
+    "sub_at": "2026-11-03T04:07",
+    "sub_cats": {
+     "retail": 110.21,
+     "nii": 117.09,
+     "total": 80.34
+    },
+    "gmp_days": [
+     [
+      "2026-10-30",
+      70.0
+     ],
+     [
+      "2026-10-31",
+      70.0
+     ],
+     [
+      "2026-11-01",
+      70.0
+     ],
+     [
+      "2026-11-02",
+      80.0
+     ]
+    ],
+    "rhp_url": null,
+    "drhp_url": null,
+    "lot_raw": 1600.0,
+    "sector": "Precision Engineering / Industrial Products",
+    "quota": {
+     "qib": 49.84,
+     "nii": 15.13,
+     "retail": 35.03
+    },
+    "fresh_cr": 57.64,
+    "ofs_cr": 0.0,
+    "registrar": "KFin Technologies Limited",
+    "lead_manager": "JDA Capital Services Ltd.",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
     "slug": "vectras-enprocon",
     "name": "Vectras Enprocon",
     "segment": "SME",
@@ -585,62 +641,6 @@
    },
    {
     "src": "Tracker B",
-    "slug": "maxwell-engineering-solutions",
-    "name": "Maxwell Engineering Solutions",
-    "segment": "SME",
-    "exchange": "NSE SME",
-    "open": "2026-10-30",
-    "close": "2026-11-03",
-    "boa": "2026-11-04",
-    "listing": "2026-11-06",
-    "price": 158.0,
-    "price_low": 150.0,
-    "size_cr": 57.64,
-    "gmp": 80.0,
-    "gmp_at": "2026-11-02T23:55",
-    "sub_total": 80.34,
-    "sub_retail": 110.21,
-    "sub_at": "2026-11-03T03:57",
-    "sub_cats": {
-     "retail": 110.21,
-     "nii": 117.09,
-     "total": 80.34
-    },
-    "gmp_days": [
-     [
-      "2026-10-30",
-      70.0
-     ],
-     [
-      "2026-10-31",
-      70.0
-     ],
-     [
-      "2026-11-01",
-      70.0
-     ],
-     [
-      "2026-11-02",
-      80.0
-     ]
-    ],
-    "rhp_url": null,
-    "drhp_url": null,
-    "lot_raw": 1600.0,
-    "sector": "Precision Engineering / Industrial Products",
-    "quota": {
-     "qib": 49.84,
-     "nii": 15.13,
-     "retail": 35.03
-    },
-    "fresh_cr": 57.64,
-    "ofs_cr": 0.0,
-    "registrar": "KFin Technologies Limited",
-    "lead_manager": "JDA Capital Services Ltd.",
-    "live": true
-   },
-   {
-    "src": "Tracker B",
     "slug": "johnsoncab-electricals",
     "name": "Johnsoncab Electricals Limited",
     "segment": "SME",
@@ -709,7 +709,7 @@
     "gmp_at": "2026-11-02T23:55",
     "sub_total": 0.42,
     "sub_retail": 0.14,
-    "sub_at": "2026-11-03T03:06",
+    "sub_at": "2026-11-03T04:00",
     "sub_cats": {
      "retail": 0.14,
      "nii": 0.83,
@@ -1102,7 +1102,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-03T04:01+05:30",
+  "fetched_at": "2026-11-03T04:15+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -1767,7 +1767,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-03T04:01+05:30",
+  "fetched_at": "2026-11-03T04:15+05:30",
   "records": [
    {
     "src": "Tracker D",
