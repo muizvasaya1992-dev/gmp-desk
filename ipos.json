@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T19:15+05:30",
+  "generated_at": "2026-11-02T19:31+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-02T10:54+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-02T19:15+05:30",
+    "nse_ok_at": "2026-11-02T19:31+05:30",
     "bse_ok_at": "2026-11-02T18:46+05:30"
   },
   "ipos": [
@@ -1170,8 +1170,8 @@
         },
         {
           "source": "Tracker B",
-          "gmp": 21,
-          "at": "2026-11-02T17:45"
+          "gmp": 17,
+          "at": "2026-11-02T19:25"
         },
         {
           "source": "Tracker C",
@@ -1235,26 +1235,26 @@
         },
         {
           "date": "2026-11-02",
-          "gmp": 21
+          "gmp": 17
         }
       ],
       "history_source": "Tracker B",
       "gmp_low": 10,
       "gmp_high": 32,
-      "gmp": 21,
-      "gmp_asof": "2026-11-02T17:45",
+      "gmp": 17,
+      "gmp_asof": "2026-11-02T19:25",
       "gmp_source_latest": "Tracker B",
-      "gmp_pct": 6.36,
+      "gmp_pct": 5.15,
       "gmp_spread": {
-        "min": 18,
+        "min": 17,
         "max": 21,
-        "diff": 3,
+        "diff": 4,
         "n": 4,
-        "diff_pct_of_price": 0.91
+        "diff_pct_of_price": 1.21
       },
       "gmp_trend": {
-        "dir": "steady",
-        "change": -0.5,
+        "dir": "falling",
+        "change": -4.5,
         "days": 3,
         "since": "2026-10-31"
       },
@@ -2159,7 +2159,7 @@
       "sub_asof": "2026-10-29T19:05",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-02T19:15"
+        "at": "2026-11-02T19:31"
       },
       "gmp_sources": [],
       "gmp_history": [],
@@ -2290,94 +2290,94 @@
       },
       "tracker_rating": 2,
       "reservation_detail": {
-        "anchor": {
-          "pct": 28.19,
-          "shares": 996800
-        },
-        "bnii": {
-          "pct": 9.64,
-          "shares": 340800
-        },
-        "market_maker": {
-          "pct": 5.02,
-          "shares": 177600
-        },
-        "nii": {
-          "pct": 14.48,
-          "shares": 512000
-        },
         "qib": {
-          "pct": 47.1,
-          "shares": 1665600
+          "shares": 1665600,
+          "pct": 47.1
+        },
+        "anchor": {
+          "shares": 996800,
+          "pct": 28.19
         },
         "qib_ex_anchor": {
-          "pct": 18.91,
-          "shares": 668800
+          "shares": 668800,
+          "pct": 18.91
         },
-        "retail": {
-          "pct": 33.39,
-          "shares": 1180800
+        "nii": {
+          "shares": 512000,
+          "pct": 14.48
+        },
+        "bnii": {
+          "shares": 340800,
+          "pct": 9.64
         },
         "snii": {
-          "pct": 9.64,
-          "shares": 171200
+          "shares": 171200,
+          "pct": 9.64
+        },
+        "retail": {
+          "shares": 1180800,
+          "pct": 33.39
+        },
+        "market_maker": {
+          "shares": 177600,
+          "pct": 5.02
         }
       },
       "anchor_shares": 996800,
       "uses": [
         {
-          "cr": 11.99,
-          "use": "Robots"
+          "use": "Robots",
+          "cr": 11.99
         },
         {
-          "cr": 8.6,
-          "use": "Debt"
+          "use": "Debt",
+          "cr": 8.6
         }
       ],
       "fin": {
         "years": [
           {
-            "assets": 21.59,
-            "debt": 13.39,
-            "ebitda": 4.12,
+            "y": "FY24",
             "income": 21.67,
-            "net_worth": 3.11,
             "pat": 1.01,
-            "roce": null,
+            "ebitda": 4.12,
+            "net_worth": 3.11,
+            "debt": 13.39,
+            "assets": 21.59,
             "roe": null,
-            "y": "FY24"
+            "roce": null
           },
           {
-            "assets": 32.69,
-            "debt": 22.32,
-            "ebitda": 4.92,
+            "y": "FY25",
             "income": 24.97,
-            "net_worth": 4.56,
             "pat": 1.45,
-            "roce": 13.95,
+            "ebitda": 4.92,
+            "net_worth": 4.56,
+            "debt": 22.32,
+            "assets": 32.69,
             "roe": 37.82,
-            "y": "FY25"
+            "roce": 13.95
           },
           {
-            "assets": 38.26,
-            "debt": 15.65,
-            "ebitda": 8.36,
+            "y": "FY26",
             "income": 27.12,
-            "net_worth": 16.13,
             "pat": 3.48,
-            "roce": 21.64,
+            "ebitda": 8.36,
+            "net_worth": 16.13,
+            "debt": 15.65,
+            "assets": 38.26,
             "roe": 33.63,
-            "y": "FY26"
+            "roce": 21.64
           }
         ],
         "ratios": {
+          "pe": 21.16,
           "eps": 3.78,
           "fy": "FY26",
-          "nav": 16.86,
           "pbv": 4.74,
-          "pe": 21.16,
-          "roce": 24.5,
-          "ronw": 21.57
+          "nav": 16.86,
+          "ronw": 21.57,
+          "roce": 24.5
         }
       },
       "sub_basis": "Tracker B",
@@ -2707,90 +2707,90 @@
       },
       "tracker_rating": 1,
       "reservation_detail": {
-        "anchor": {
-          "pct": 30.0,
-          "shares": 5100000
-        },
-        "bnii": {
-          "pct": 10.0,
-          "shares": 1700000
-        },
-        "nii": {
-          "pct": 15.0,
-          "shares": 2550000
-        },
         "qib": {
-          "pct": 50.0,
-          "shares": 8500000
+          "shares": 8500000,
+          "pct": 50.0
+        },
+        "anchor": {
+          "shares": 5100000,
+          "pct": 30.0
         },
         "qib_ex_anchor": {
-          "pct": 20.0,
-          "shares": 3400000
+          "shares": 3400000,
+          "pct": 20.0
+        },
+        "nii": {
+          "shares": 2550000,
+          "pct": 15.0
+        },
+        "bnii": {
+          "shares": 1700000,
+          "pct": 10.0
         },
         "snii": {
-          "pct": 5.0,
-          "shares": 850000
+          "shares": 850000,
+          "pct": 5.0
         }
       },
       "anchor_shares": 5100000,
       "uses": [
         {
-          "cr": 152.84,
-          "use": "Setup"
+          "use": "Setup",
+          "cr": 152.84
         },
         {
-          "cr": 152.84,
-          "use": "Growth"
+          "use": "Growth",
+          "cr": 152.84
         },
         {
-          "cr": 30.0,
-          "use": "Debt"
+          "use": "Debt",
+          "cr": 30.0
         }
       ],
       "fin": {
         "years": [
           {
-            "assets": 95.21,
-            "debt": 38.64,
-            "ebitda": 12.87,
+            "y": "FY24",
             "income": 217.4,
-            "net_worth": 22.27,
             "pat": 8.17,
-            "roce": 40.62,
+            "ebitda": 12.87,
+            "net_worth": 22.27,
+            "debt": 38.64,
+            "assets": 95.21,
             "roe": 36.56,
-            "y": "FY24"
+            "roce": 40.62
           },
           {
-            "assets": 219.64,
-            "debt": 68.93,
-            "ebitda": 38.57,
+            "y": "FY25",
             "income": 351.32,
-            "net_worth": 116.21,
             "pat": 23.26,
-            "roce": 27.24,
+            "ebitda": 38.57,
+            "net_worth": 116.21,
+            "debt": 68.93,
+            "assets": 219.64,
             "roe": 19.98,
-            "y": "FY25"
+            "roce": 27.24
           },
           {
-            "assets": 283.21,
-            "debt": 68.44,
-            "ebitda": 82.94,
+            "y": "FY26",
             "income": 538.86,
-            "net_worth": 167.9,
             "pat": 51.8,
-            "roce": 39.88,
+            "ebitda": 82.94,
+            "net_worth": 167.9,
+            "debt": 68.44,
+            "assets": 283.21,
             "roe": 30.83,
-            "y": "FY26"
+            "roce": 39.88
           }
         ],
         "ratios": {
+          "pe": 13.36,
           "eps": 12.13,
           "fy": "FY26",
-          "nav": 39.36,
           "pbv": 4.12,
-          "pe": 13.36,
-          "roce": 39.88,
-          "ronw": 30.83
+          "nav": 39.36,
+          "ronw": 30.83,
+          "roce": 39.88
         }
       },
       "gmp_sources": [
@@ -2908,7 +2908,7 @@
         "total": 80.34
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-02T19:14",
+      "sub_asof": "2026-11-02T19:29",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "JDA CAPITAL SERVICES LIMITED (Formerly Known as Beeline Broking Limited)"
@@ -3084,7 +3084,7 @@
         "total": 20.96
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-02T19:13",
+      "sub_asof": "2026-11-02T19:30",
       "registrar": "Kfin Technologies Limited",
       "lead_managers": [
         "Hem Securities Limited"
@@ -3246,12 +3246,12 @@
       "close": "2026-11-04",
       "segment": "SME",
       "sub": {
-        "retail": 0.14,
+        "retail": 0.11,
         "nii": 0.83,
-        "total": 0.42
+        "total": 0.4
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-02T19:08",
+      "sub_asof": "2026-11-02T19:23",
       "registrar": "Cameo Corporate Services Limited",
       "lead_managers": [
         "Affinity Global Capital Market Private Limited"
@@ -3549,7 +3549,7 @@
       "sub_asof": "2026-11-02T18:54",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-02T19:15"
+        "at": "2026-11-02T19:31"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3685,7 +3685,7 @@
         "total": 2.01
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-02T19:09",
+      "sub_asof": "2026-11-02T19:28",
       "lot_basis": "tracker",
       "gmp_sources": [
         {
@@ -3878,7 +3878,7 @@
       "sub_asof": "2026-11-02T19:05",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-02T19:15"
+        "at": "2026-11-02T19:31"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
