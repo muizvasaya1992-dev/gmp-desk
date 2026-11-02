@@ -59,6 +59,14 @@ button{font:inherit;color:inherit}
 .odds{display:flex;align-items:baseline;gap:10px;margin:2px 0 0}
 .odds b{font-size:26px;line-height:1.1}
 @media(max-width:560px){.glwrap{grid-template-columns:1fr 1fr}.gl-n{font-size:14px}}
+.nw{list-style:none;margin:0;padding:0}
+.nw li{padding:12px 0;border-bottom:1px solid var(--line)}
+.nw li:last-child{border-bottom:0}
+.nw-t{display:block;font-weight:600;color:var(--ink);text-decoration:none;line-height:1.4}
+.nw-t:hover{color:var(--blue);text-decoration:underline}
+.nw-m{display:block;font-size:12.5px;color:var(--muted);margin-top:3px}
+.nw-ipo{all:unset;cursor:pointer;color:var(--blue);font-weight:600}
+.nw-ipo:hover{text-decoration:underline}
 .prs{list-style:none;margin:6px 0 0;padding:0}
 .prs li{padding:8px 0;border-bottom:1px solid var(--line)}
 .prs li:last-child{border-bottom:0}
@@ -1188,6 +1196,19 @@ function weekBlock(){
   }
   return out.length?`<div class="wk">${out.join("")}</div>`:`<div class="panel"><div class="empty"><div class="big">🌤️</div><b>A quiet week</b>No IPO dates in the next 7 days.</div></div>`;
 }
+function newsStrip(){
+  const all=[];
+  state.all.forEach(i=>(i.news||[]).forEach(x=>{ if(x&&/^https?:/.test(x.url||"")&&x.title) all.push([x,i]); }));
+  all.sort((a,b)=>String(b[0].date||"").localeCompare(String(a[0].date||"")));
+  const seen=new Set(), pick=[];
+  for(const [x,i] of all){ const k=x.title.toLowerCase().slice(0,60); if(seen.has(k)) continue; seen.add(k); pick.push([x,i]); if(pick.length>=8) break; }
+  if(!pick.length) return "";
+  const rows=pick.map(([x,i])=>`<li><a class="nw-t" href="${esc(x.url)}" target="_blank" rel="noopener noreferrer nofollow">${esc(x.title)} ↗</a>
+    <span class="nw-m">${esc(x.source||"")}${x.date?" · "+dd(x.date):""} · <button class="nw-ipo" data-id="${esc(i.id)}" type="button">${esc(i.name)}</button></span></li>`).join("");
+  return `<section class="sec" id="s-news">${secHead("📰","Latest IPO news","Headlines from news websites. Each one opens on the publisher's own page.",null)}
+    <div class="panel" style="padding:18px 20px"><ul class="nw">${rows}</ul>
+    <p style="margin:14px 0 0"><a class="btn" href="/ipo-news/">All IPO news and updates →</a></p></div></section>`;
+}
 function todayStrip(){
   const live=state.all.filter(i=>i.status==="open"||i.status==="closing_today");
   const up=state.all.filter(i=>i.status==="upcoming");
@@ -1226,6 +1247,7 @@ function renderHome(){
     <section class="wa-top" aria-label="WhatsApp channel"><div><b>📲 IPO updates on WhatsApp</b><span>Free channel with IPO dates and price bands. We never see your number.</span></div><a class="btn-wa" href="${WA_CHANNEL}" target="_blank" rel="noopener">Follow on WhatsApp ↗</a></section>
     ${todayStrip()}
     <section class="sec" id="s-open">${open}</section>
+    ${newsStrip()}
     ${upc?`<section class="sec">${upc}</section>`:""}
     ${lst?`<section class="sec">${lst}</section>`:""}
     <section class="sec">${secHead("🗓️","This week","What is happening in the next seven days.",["CAL",null,"Open the calendar"])}${weekBlock()}</section>
