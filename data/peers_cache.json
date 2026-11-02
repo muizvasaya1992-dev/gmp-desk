@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-03T02:31+05:30",
+  "fetched_at": "2026-11-03T02:46+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -87,105 +87,6 @@
     "ofs_cr": 0.0,
     "registrar": "KFin Technologies Limited",
     "lead_manager": "Smart Horizon Capital Advisors Pvt. Ltd.",
-    "live": true
-   },
-   {
-    "src": "Tracker B",
-    "slug": "sfc-environmental-technologies",
-    "name": "SFC Environmental Technologies",
-    "segment": "MAIN",
-    "exchange": null,
-    "open": "2026-10-27",
-    "close": "2026-10-29",
-    "boa": "2026-10-30",
-    "listing": "2026-11-03",
-    "price": 330.0,
-    "price_low": 313.0,
-    "size_cr": 668.0,
-    "gmp": 15.5,
-    "gmp_at": "2026-11-02T23:55",
-    "sub_total": 9.47,
-    "sub_retail": 2.71,
-    "sub_at": "2026-10-29T19:05",
-    "sub_cats": {
-     "retail": 2.71,
-     "nii": 12.81,
-     "bnii": 14.49,
-     "snii": 9.44,
-     "qib": 18.81,
-     "total": 9.47
-    },
-    "gmp_days": [
-     [
-      "2026-10-20",
-      0.0
-     ],
-     [
-      "2026-10-21",
-      31.0
-     ],
-     [
-      "2026-10-22",
-      21.0
-     ],
-     [
-      "2026-10-23",
-      21.0
-     ],
-     [
-      "2026-10-24",
-      32.0
-     ],
-     [
-      "2026-10-25",
-      32.0
-     ],
-     [
-      "2026-10-26",
-      22.0
-     ],
-     [
-      "2026-10-27",
-      19.0
-     ],
-     [
-      "2026-10-28",
-      10.0
-     ],
-     [
-      "2026-10-29",
-      19.0
-     ],
-     [
-      "2026-10-30",
-      19.0
-     ],
-     [
-      "2026-10-31",
-      23.5
-     ],
-     [
-      "2026-11-01",
-      26.0
-     ],
-     [
-      "2026-11-02",
-      15.5
-     ]
-    ],
-    "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_SFCTECH.zip",
-    "drhp_url": "https://www.bseindia.com/corporates/download/329313/IPO%20Prior/DRHP_August_25_2025_20250825140721.pdf",
-    "lot_raw": 45.0,
-    "sector": "Environmental Technology / Wastewater Treatment",
-    "quota": {
-     "qib": 50.0,
-     "nii": 15.0,
-     "retail": 35.0
-    },
-    "fresh_cr": 150.0,
-    "ofs_cr": 517.53,
-    "registrar": "MUFG Intime India Pvt. Ltd.",
-    "lead_manager": "IIFL Capital Services Ltd.; JM Financial Ltd.; Nuvama Wealth Management Ltd.",
     "live": true
    },
    {
@@ -289,6 +190,105 @@
     "ofs_cr": 0.0,
     "registrar": "KFin Technologies Ltd.",
     "lead_manager": "Unistone Capital Pvt. Ltd.",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
+    "slug": "sfc-environmental-technologies",
+    "name": "SFC Environmental Technologies",
+    "segment": "MAIN",
+    "exchange": null,
+    "open": "2026-10-27",
+    "close": "2026-10-29",
+    "boa": "2026-10-30",
+    "listing": "2026-11-03",
+    "price": 330.0,
+    "price_low": 313.0,
+    "size_cr": 668.0,
+    "gmp": 15.5,
+    "gmp_at": "2026-11-02T23:55",
+    "sub_total": 9.47,
+    "sub_retail": 2.71,
+    "sub_at": "2026-10-29T19:05",
+    "sub_cats": {
+     "retail": 2.71,
+     "nii": 12.81,
+     "bnii": 14.49,
+     "snii": 9.44,
+     "qib": 18.81,
+     "total": 9.47
+    },
+    "gmp_days": [
+     [
+      "2026-10-20",
+      0.0
+     ],
+     [
+      "2026-10-21",
+      31.0
+     ],
+     [
+      "2026-10-22",
+      21.0
+     ],
+     [
+      "2026-10-23",
+      21.0
+     ],
+     [
+      "2026-10-24",
+      32.0
+     ],
+     [
+      "2026-10-25",
+      32.0
+     ],
+     [
+      "2026-10-26",
+      22.0
+     ],
+     [
+      "2026-10-27",
+      19.0
+     ],
+     [
+      "2026-10-28",
+      10.0
+     ],
+     [
+      "2026-10-29",
+      19.0
+     ],
+     [
+      "2026-10-30",
+      19.0
+     ],
+     [
+      "2026-10-31",
+      23.5
+     ],
+     [
+      "2026-11-01",
+      26.0
+     ],
+     [
+      "2026-11-02",
+      15.5
+     ]
+    ],
+    "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_SFCTECH.zip",
+    "drhp_url": "https://www.bseindia.com/corporates/download/329313/IPO%20Prior/DRHP_August_25_2025_20250825140721.pdf",
+    "lot_raw": 45.0,
+    "sector": "Environmental Technology / Wastewater Treatment",
+    "quota": {
+     "qib": 50.0,
+     "nii": 15.0,
+     "retail": 35.0
+    },
+    "fresh_cr": 150.0,
+    "ofs_cr": 517.53,
+    "registrar": "MUFG Intime India Pvt. Ltd.",
+    "lead_manager": "IIFL Capital Services Ltd.; JM Financial Ltd.; Nuvama Wealth Management Ltd.",
     "live": true
    },
    {
@@ -653,7 +653,7 @@
     "gmp_at": "2026-11-02T23:55",
     "sub_total": 80.34,
     "sub_retail": 110.21,
-    "sub_at": "2026-11-03T02:29",
+    "sub_at": "2026-11-03T02:41",
     "sub_cats": {
      "retail": 110.21,
      "nii": 117.09,
@@ -1102,7 +1102,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-03T02:31+05:30",
+  "fetched_at": "2026-11-03T02:46+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -1767,7 +1767,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-03T02:31+05:30",
+  "fetched_at": "2026-11-03T02:46+05:30",
   "records": [
    {
     "src": "Tracker D",
