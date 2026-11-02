@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-02T19:46+05:30",
+  "fetched_at": "2026-11-02T20:01+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -15,8 +15,8 @@
     "price": 82.0,
     "price_low": 78.0,
     "size_cr": 183.06,
-    "gmp": 9.25,
-    "gmp_at": "2026-11-02T19:40",
+    "gmp": 7.5,
+    "gmp_at": "2026-11-02T19:55",
     "sub_total": 60.77,
     "sub_retail": 33.73,
     "sub_at": "2026-11-02T19:06",
@@ -71,7 +71,7 @@
      ],
      [
       "2026-11-02",
-      9.25
+      7.5
      ]
     ],
     "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_BCSSL.zip",
@@ -103,7 +103,7 @@
     "price_low": 142.0,
     "size_cr": 255.0,
     "gmp": 66.67,
-    "gmp_at": "2026-11-02T19:40",
+    "gmp_at": "2026-11-02T19:55",
     "sub_total": 241.22,
     "sub_retail": 128.36,
     "sub_at": "2026-10-29T19:05",
@@ -206,7 +206,7 @@
     "price_low": 313.0,
     "size_cr": 668.0,
     "gmp": 17.0,
-    "gmp_at": "2026-11-02T19:40",
+    "gmp_at": "2026-11-02T19:55",
     "sub_total": 9.47,
     "sub_retail": 2.71,
     "sub_at": "2026-10-29T19:05",
@@ -305,7 +305,7 @@
     "price_low": 153.0,
     "size_cr": 330.48,
     "gmp": 5.5,
-    "gmp_at": "2026-11-02T19:40",
+    "gmp_at": "2026-11-02T19:55",
     "sub_total": 5.1,
     "sub_retail": 3.08,
     "sub_at": "2026-10-30T19:05",
@@ -388,7 +388,7 @@
     "price_low": 1585.0,
     "size_cr": 1200.0,
     "gmp": 54.0,
-    "gmp_at": "2026-11-02T19:40",
+    "gmp_at": "2026-11-02T19:56",
     "sub_total": 5.25,
     "sub_retail": 1.03,
     "sub_at": "2026-10-28T19:06",
@@ -475,62 +475,6 @@
    },
    {
     "src": "Tracker B",
-    "slug": "maxwell-engineering-solutions",
-    "name": "Maxwell Engineering Solutions",
-    "segment": "SME",
-    "exchange": "NSE SME",
-    "open": "2026-10-30",
-    "close": "2026-11-03",
-    "boa": "2026-11-04",
-    "listing": "2026-11-06",
-    "price": 158.0,
-    "price_low": 150.0,
-    "size_cr": 57.64,
-    "gmp": 80.0,
-    "gmp_at": "2026-11-02T19:40",
-    "sub_total": 80.34,
-    "sub_retail": 110.21,
-    "sub_at": "2026-11-02T19:43",
-    "sub_cats": {
-     "retail": 110.21,
-     "nii": 117.09,
-     "total": 80.34
-    },
-    "gmp_days": [
-     [
-      "2026-10-30",
-      70.0
-     ],
-     [
-      "2026-10-31",
-      70.0
-     ],
-     [
-      "2026-11-01",
-      70.0
-     ],
-     [
-      "2026-11-02",
-      80.0
-     ]
-    ],
-    "rhp_url": null,
-    "drhp_url": null,
-    "lot_raw": 1600.0,
-    "sector": "Precision Engineering / Industrial Products",
-    "quota": {
-     "qib": 49.84,
-     "nii": 15.13,
-     "retail": 35.03
-    },
-    "fresh_cr": 57.64,
-    "ofs_cr": 0.0,
-    "registrar": "KFin Technologies Limited",
-    "lead_manager": "JDA Capital Services Ltd.",
-    "live": true
-   },
-   {
-    "src": "Tracker B",
     "slug": "johnsoncab-electricals",
     "name": "Johnsoncab Electricals Limited",
     "segment": "SME",
@@ -543,7 +487,7 @@
     "price_low": 190.0,
     "size_cr": 56.02,
     "gmp": 10.0,
-    "gmp_at": "2026-11-02T19:40",
+    "gmp_at": "2026-11-02T19:55",
     "sub_total": 2.01,
     "sub_retail": 2.21,
     "sub_at": "2026-11-02T19:28",
@@ -596,10 +540,10 @@
     "price_low": 114.0,
     "size_cr": 34.56,
     "gmp": 30.0,
-    "gmp_at": "2026-11-02T19:40",
+    "gmp_at": "2026-11-02T19:55",
     "sub_total": 20.96,
     "sub_retail": 25.56,
-    "sub_at": "2026-11-02T19:43",
+    "sub_at": "2026-11-02T19:59",
     "sub_cats": {
      "retail": 25.56,
      "nii": 31.56,
@@ -637,6 +581,62 @@
    },
    {
     "src": "Tracker B",
+    "slug": "maxwell-engineering-solutions",
+    "name": "Maxwell Engineering Solutions",
+    "segment": "SME",
+    "exchange": "NSE SME",
+    "open": "2026-10-30",
+    "close": "2026-11-03",
+    "boa": "2026-11-04",
+    "listing": "2026-11-06",
+    "price": 158.0,
+    "price_low": 150.0,
+    "size_cr": 57.64,
+    "gmp": 80.0,
+    "gmp_at": "2026-11-02T19:55",
+    "sub_total": 80.34,
+    "sub_retail": 110.21,
+    "sub_at": "2026-11-02T19:58",
+    "sub_cats": {
+     "retail": 110.21,
+     "nii": 117.09,
+     "total": 80.34
+    },
+    "gmp_days": [
+     [
+      "2026-10-30",
+      70.0
+     ],
+     [
+      "2026-10-31",
+      70.0
+     ],
+     [
+      "2026-11-01",
+      70.0
+     ],
+     [
+      "2026-11-02",
+      80.0
+     ]
+    ],
+    "rhp_url": null,
+    "drhp_url": null,
+    "lot_raw": 1600.0,
+    "sector": "Precision Engineering / Industrial Products",
+    "quota": {
+     "qib": 49.84,
+     "nii": 15.13,
+     "retail": 35.03
+    },
+    "fresh_cr": 57.64,
+    "ofs_cr": 0.0,
+    "registrar": "KFin Technologies Limited",
+    "lead_manager": "JDA Capital Services Ltd.",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
     "slug": "vectras-enprocon",
     "name": "Vectras Enprocon",
     "segment": "SME",
@@ -649,7 +649,7 @@
     "price_low": 99.0,
     "size_cr": 53.05,
     "gmp": 0.0,
-    "gmp_at": "2026-11-02T19:40",
+    "gmp_at": "2026-11-02T19:55",
     "sub_total": 1.31,
     "sub_retail": 1.33,
     "sub_at": "2026-11-02T19:40",
@@ -706,10 +706,10 @@
     "price_low": 88.0,
     "size_cr": 56.68,
     "gmp": 15.0,
-    "gmp_at": "2026-11-02T19:40",
+    "gmp_at": "2026-11-02T19:55",
     "sub_total": 0.4,
     "sub_retail": 0.11,
-    "sub_at": "2026-11-02T19:42",
+    "sub_at": "2026-11-02T19:54",
     "sub_cats": {
      "retail": 0.11,
      "nii": 0.83,
@@ -758,7 +758,7 @@
     "price_low": 63.0,
     "size_cr": 23.33,
     "gmp": 0.0,
-    "gmp_at": "2026-11-02T19:40",
+    "gmp_at": "2026-11-02T19:56",
     "sub_total": 1.11,
     "sub_retail": 0.4,
     "sub_at": "2026-11-02T18:54",
@@ -815,7 +815,7 @@
     "price_low": 194.0,
     "size_cr": 110.0,
     "gmp": 0.0,
-    "gmp_at": "2026-11-02T19:41",
+    "gmp_at": "2026-11-02T19:55",
     "sub_total": 1.17,
     "sub_retail": 0.66,
     "sub_at": "2026-10-29T19:05",
@@ -888,7 +888,7 @@
     "price_low": 203.0,
     "size_cr": 38.05,
     "gmp": 1.0,
-    "gmp_at": "2026-11-02T19:41",
+    "gmp_at": "2026-11-02T19:56",
     "sub_total": 1.12,
     "sub_retail": 1.93,
     "sub_at": "2026-10-30T19:05",
@@ -947,7 +947,7 @@
     "price_low": 76.0,
     "size_cr": 28.29,
     "gmp": 5.0,
-    "gmp_at": "2026-11-02T19:40",
+    "gmp_at": "2026-11-02T19:55",
     "sub_total": 25.8,
     "sub_retail": 19.17,
     "sub_at": "2026-10-30T19:05",
@@ -1102,7 +1102,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-02T19:46+05:30",
+  "fetched_at": "2026-11-02T20:01+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -1118,8 +1118,8 @@
     "price_low": null,
     "size_cr": 56.68,
     "gmp": 15.0,
-    "gmp_at": "2026-11-02T17:37",
-    "sub_total": 0.41,
+    "gmp_at": "2026-11-02T18:02",
+    "sub_total": 0.42,
     "sub_retail": null,
     "sub_at": null,
     "lot": 1200.0,
@@ -1140,8 +1140,8 @@
     "price_low": null,
     "size_cr": 34.56,
     "gmp": 30.0,
-    "gmp_at": "2026-11-02T17:37",
-    "sub_total": 20.94,
+    "gmp_at": "2026-11-02T18:02",
+    "sub_total": 20.96,
     "sub_retail": null,
     "sub_at": null,
     "lot": 1200.0,
@@ -1162,7 +1162,7 @@
     "price_low": null,
     "size_cr": 56.02,
     "gmp": 10.0,
-    "gmp_at": "2026-11-02T17:37",
+    "gmp_at": "2026-11-02T18:02",
     "sub_total": 2.01,
     "sub_retail": null,
     "sub_at": null,
@@ -1184,7 +1184,7 @@
     "price_low": null,
     "size_cr": 53.05,
     "gmp": null,
-    "gmp_at": "2026-11-02T17:37",
+    "gmp_at": "2026-11-02T17:53",
     "sub_total": 1.31,
     "sub_retail": null,
     "sub_at": null,
@@ -1206,8 +1206,8 @@
     "price_low": null,
     "size_cr": 57.64,
     "gmp": 80.0,
-    "gmp_at": "2026-11-02T17:37",
-    "sub_total": 80.23,
+    "gmp_at": "2026-11-02T18:02",
+    "sub_total": 80.34,
     "sub_retail": null,
     "sub_at": null,
     "lot": 800.0,
@@ -1228,7 +1228,7 @@
     "price_low": null,
     "size_cr": 23.33,
     "gmp": null,
-    "gmp_at": "2026-11-02T17:33",
+    "gmp_at": "2026-11-02T17:54",
     "sub_total": 1.13,
     "sub_retail": null,
     "sub_at": null,
@@ -1250,7 +1250,7 @@
     "price_low": null,
     "size_cr": 183.06,
     "gmp": 9.25,
-    "gmp_at": "2026-11-02T17:37",
+    "gmp_at": "2026-11-02T18:02",
     "sub_total": 63.89,
     "sub_retail": null,
     "sub_at": null,
@@ -1272,7 +1272,7 @@
     "price_low": null,
     "size_cr": 275.4,
     "gmp": 5.5,
-    "gmp_at": "2026-11-02T17:37",
+    "gmp_at": "2026-11-02T18:02",
     "sub_total": 5.09,
     "sub_retail": null,
     "sub_at": null,
@@ -1294,7 +1294,7 @@
     "price_low": null,
     "size_cr": 38.05,
     "gmp": 1.0,
-    "gmp_at": "2026-11-02T17:37",
+    "gmp_at": "2026-11-02T18:02",
     "sub_total": 1.12,
     "sub_retail": null,
     "sub_at": null,
@@ -1316,7 +1316,7 @@
     "price_low": null,
     "size_cr": 28.29,
     "gmp": 5.0,
-    "gmp_at": "2026-11-02T17:37",
+    "gmp_at": "2026-11-02T18:02",
     "sub_total": 25.8,
     "sub_retail": null,
     "sub_at": null,
@@ -1338,7 +1338,7 @@
     "price_low": null,
     "size_cr": 110.0,
     "gmp": null,
-    "gmp_at": "2026-11-02T17:28",
+    "gmp_at": "2026-11-02T18:01",
     "sub_total": 1.17,
     "sub_retail": null,
     "sub_at": null,
@@ -1360,7 +1360,7 @@
     "price_low": null,
     "size_cr": 667.53,
     "gmp": 21.0,
-    "gmp_at": "2026-11-02T17:37",
+    "gmp_at": "2026-11-02T18:02",
     "sub_total": 9.47,
     "sub_retail": null,
     "sub_at": null,
@@ -1382,7 +1382,7 @@
     "price_low": null,
     "size_cr": 255.0,
     "gmp": 67.0,
-    "gmp_at": "2026-11-02T17:37",
+    "gmp_at": "2026-11-02T18:02",
     "sub_total": 241.22,
     "sub_retail": null,
     "sub_at": null,
@@ -1767,7 +1767,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-02T19:46+05:30",
+  "fetched_at": "2026-11-02T20:01+05:30",
   "records": [
    {
     "src": "Tracker D",
