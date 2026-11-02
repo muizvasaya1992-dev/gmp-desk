@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-03T00:31+05:30",
+  "fetched_at": "2026-11-03T00:46+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -585,59 +585,6 @@
    },
    {
     "src": "Tracker B",
-    "slug": "hgs-india",
-    "name": "HGS (India)",
-    "segment": "SME",
-    "exchange": "NSE SME",
-    "open": "2026-10-30",
-    "close": "2026-11-03",
-    "boa": "2026-11-04",
-    "listing": "2026-11-06",
-    "price": 120.0,
-    "price_low": 114.0,
-    "size_cr": 34.56,
-    "gmp": 30.0,
-    "gmp_at": "2026-11-02T23:55",
-    "sub_total": 20.96,
-    "sub_retail": 25.56,
-    "sub_at": "2026-11-03T00:27",
-    "sub_cats": {
-     "retail": 25.56,
-     "nii": 31.56,
-     "qib": 4.88,
-     "total": 20.96
-    },
-    "gmp_days": [
-     [
-      "2026-10-31",
-      30.0
-     ],
-     [
-      "2026-11-01",
-      30.0
-     ],
-     [
-      "2026-11-02",
-      30.0
-     ]
-    ],
-    "rhp_url": null,
-    "drhp_url": null,
-    "lot_raw": 2400.0,
-    "sector": "Geophysical Equipment / Seismic Instruments",
-    "quota": {
-     "qib": 50.0,
-     "nii": 15.0,
-     "retail": 35.0
-    },
-    "fresh_cr": 27.91,
-    "ofs_cr": 6.65,
-    "registrar": "KFin Technologies Limited",
-    "lead_manager": "Hem Securities Limited",
-    "live": true
-   },
-   {
-    "src": "Tracker B",
     "slug": "maxwell-engineering-solutions",
     "name": "Maxwell Engineering Solutions",
     "segment": "SME",
@@ -653,7 +600,7 @@
     "gmp_at": "2026-11-02T23:55",
     "sub_total": 80.34,
     "sub_retail": 110.21,
-    "sub_at": "2026-11-03T00:30",
+    "sub_at": "2026-11-03T00:38",
     "sub_cats": {
      "retail": 110.21,
      "nii": 117.09,
@@ -694,6 +641,59 @@
    },
    {
     "src": "Tracker B",
+    "slug": "hgs-india",
+    "name": "HGS (India)",
+    "segment": "SME",
+    "exchange": "NSE SME",
+    "open": "2026-10-30",
+    "close": "2026-11-03",
+    "boa": "2026-11-04",
+    "listing": "2026-11-06",
+    "price": 120.0,
+    "price_low": 114.0,
+    "size_cr": 34.56,
+    "gmp": 30.0,
+    "gmp_at": "2026-11-02T23:55",
+    "sub_total": 20.96,
+    "sub_retail": 25.56,
+    "sub_at": "2026-11-03T00:32",
+    "sub_cats": {
+     "retail": 25.56,
+     "nii": 31.56,
+     "qib": 4.88,
+     "total": 20.96
+    },
+    "gmp_days": [
+     [
+      "2026-10-31",
+      30.0
+     ],
+     [
+      "2026-11-01",
+      30.0
+     ],
+     [
+      "2026-11-02",
+      30.0
+     ]
+    ],
+    "rhp_url": null,
+    "drhp_url": null,
+    "lot_raw": 2400.0,
+    "sector": "Geophysical Equipment / Seismic Instruments",
+    "quota": {
+     "qib": 50.0,
+     "nii": 15.0,
+     "retail": 35.0
+    },
+    "fresh_cr": 27.91,
+    "ofs_cr": 6.65,
+    "registrar": "KFin Technologies Limited",
+    "lead_manager": "Hem Securities Limited",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
     "slug": "vedant-poly-fabs",
     "name": "Vedant Poly Fabs",
     "segment": "SME",
@@ -709,7 +709,7 @@
     "gmp_at": "2026-11-02T23:55",
     "sub_total": 0.42,
     "sub_retail": 0.14,
-    "sub_at": "2026-11-03T00:29",
+    "sub_at": "2026-11-03T00:39",
     "sub_cats": {
      "retail": 0.14,
      "nii": 0.83,
@@ -1102,7 +1102,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-03T00:31+05:30",
+  "fetched_at": "2026-11-03T00:46+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -1767,7 +1767,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-03T00:31+05:30",
+  "fetched_at": "2026-11-03T00:46+05:30",
   "records": [
    {
     "src": "Tracker D",
