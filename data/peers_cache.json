@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-02T12:01+05:30",
+  "fetched_at": "2026-11-02T12:15+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,17 +16,17 @@
     "price_low": 78.0,
     "size_cr": 183.06,
     "gmp": 8.0,
-    "gmp_at": "2026-11-02T11:55",
-    "sub_total": 12.7,
-    "sub_retail": 10.45,
-    "sub_at": "2026-11-02T12:00",
+    "gmp_at": "2026-11-02T12:11",
+    "sub_total": 13.61,
+    "sub_retail": 11.15,
+    "sub_at": "2026-11-02T12:13",
     "sub_cats": {
-     "retail": 10.45,
-     "nii": 21.86,
-     "bnii": 22.43,
-     "snii": 20.71,
-     "qib": 9.85,
-     "total": 12.7
+     "retail": 11.15,
+     "nii": 24.45,
+     "bnii": 25.22,
+     "snii": 22.91,
+     "qib": 9.87,
+     "total": 13.61
     },
     "gmp_days": [
      [
@@ -103,7 +103,7 @@
     "price_low": 313.0,
     "size_cr": 668.0,
     "gmp": 23.0,
-    "gmp_at": "2026-11-02T11:55",
+    "gmp_at": "2026-11-02T12:10",
     "sub_total": 9.47,
     "sub_retail": 2.71,
     "sub_at": "2026-10-29T19:05",
@@ -202,7 +202,7 @@
     "price_low": 142.0,
     "size_cr": 255.0,
     "gmp": 66.67,
-    "gmp_at": "2026-11-02T11:55",
+    "gmp_at": "2026-11-02T12:10",
     "sub_total": 241.22,
     "sub_retail": 128.36,
     "sub_at": "2026-10-29T19:05",
@@ -305,7 +305,7 @@
     "price_low": 153.0,
     "size_cr": 330.48,
     "gmp": 5.5,
-    "gmp_at": "2026-11-02T11:55",
+    "gmp_at": "2026-11-02T12:10",
     "sub_total": 5.1,
     "sub_retail": 3.08,
     "sub_at": "2026-10-30T19:05",
@@ -353,6 +353,10 @@
      [
       "2026-10-31",
       5.5
+     ],
+     [
+      "2026-11-02",
+      5.5
      ]
     ],
     "rhp_url": null,
@@ -384,7 +388,7 @@
     "price_low": 1585.0,
     "size_cr": 1200.0,
     "gmp": 54.0,
-    "gmp_at": "2026-11-02T11:55",
+    "gmp_at": "2026-11-02T12:10",
     "sub_total": 5.25,
     "sub_retail": 1.03,
     "sub_at": "2026-10-28T19:06",
@@ -483,15 +487,15 @@
     "price_low": 63.0,
     "size_cr": 23.33,
     "gmp": 0.0,
-    "gmp_at": "2026-11-02T11:55",
-    "sub_total": 0.91,
-    "sub_retail": 0.2,
-    "sub_at": "2026-11-02T11:55",
+    "gmp_at": "2026-11-02T12:10",
+    "sub_total": 0.94,
+    "sub_retail": 0.24,
+    "sub_at": "2026-11-02T12:11",
     "sub_cats": {
-     "retail": 0.2,
-     "nii": 0.08,
+     "retail": 0.24,
+     "nii": 0.12,
      "qib": 66.72,
-     "total": 0.91
+     "total": 0.94
     },
     "gmp_days": [
      [
@@ -504,6 +508,10 @@
      ],
      [
       "2026-11-01",
+      0.0
+     ],
+     [
+      "2026-11-02",
       0.0
      ]
     ],
@@ -524,55 +532,6 @@
    },
    {
     "src": "Tracker B",
-    "slug": "hgs-india",
-    "name": "HGS (India)",
-    "segment": "SME",
-    "exchange": "NSE SME",
-    "open": "2026-10-30",
-    "close": "2026-11-03",
-    "boa": "2026-11-04",
-    "listing": "2026-11-06",
-    "price": 120.0,
-    "price_low": 114.0,
-    "size_cr": 34.56,
-    "gmp": 30.0,
-    "gmp_at": "2026-11-02T11:55",
-    "sub_total": 7.7,
-    "sub_retail": 8.64,
-    "sub_at": "2026-11-02T11:58",
-    "sub_cats": {
-     "retail": 8.64,
-     "nii": 9.88,
-     "qib": 4.41,
-     "total": 7.7
-    },
-    "gmp_days": [
-     [
-      "2026-10-31",
-      30.0
-     ],
-     [
-      "2026-11-01",
-      30.0
-     ]
-    ],
-    "rhp_url": null,
-    "drhp_url": null,
-    "lot_raw": 2400.0,
-    "sector": "Geophysical Equipment / Seismic Instruments",
-    "quota": {
-     "qib": 50.0,
-     "nii": 15.0,
-     "retail": 35.0
-    },
-    "fresh_cr": 27.91,
-    "ofs_cr": 6.65,
-    "registrar": "KFin Technologies Limited",
-    "lead_manager": "Hem Securities Limited",
-    "live": true
-   },
-   {
-    "src": "Tracker B",
     "slug": "johnsoncab-electricals",
     "name": "Johnsoncab Electricals Limited",
     "segment": "SME",
@@ -585,15 +544,15 @@
     "price_low": 190.0,
     "size_cr": 56.02,
     "gmp": 5.0,
-    "gmp_at": "2026-11-02T11:55",
-    "sub_total": 1.42,
-    "sub_retail": 1.6,
-    "sub_at": "2026-11-02T11:56",
+    "gmp_at": "2026-11-02T12:10",
+    "sub_total": 1.07,
+    "sub_retail": 1.31,
+    "sub_at": "2026-11-02T12:12",
     "sub_cats": {
-     "retail": 1.6,
-     "nii": 2.19,
+     "retail": 1.31,
+     "nii": 1.93,
      "qib": 0.52,
-     "total": 1.42
+     "total": 1.07
     },
     "gmp_days": [
      [
@@ -602,6 +561,10 @@
      ],
      [
       "2026-11-01",
+      5.0
+     ],
+     [
+      "2026-11-02",
       5.0
      ]
     ],
@@ -634,14 +597,14 @@
     "price_low": 150.0,
     "size_cr": 57.64,
     "gmp": 70.0,
-    "gmp_at": "2026-11-02T11:56",
-    "sub_total": 22.83,
-    "sub_retail": 32.38,
-    "sub_at": "2026-11-02T11:58",
+    "gmp_at": "2026-11-02T12:10",
+    "sub_total": 4.98,
+    "sub_retail": 8.22,
+    "sub_at": "2026-11-02T12:13",
     "sub_cats": {
-     "retail": 32.38,
-     "nii": 30.8,
-     "total": 22.83
+     "retail": 8.22,
+     "nii": 4.04,
+     "total": 4.98
     },
     "gmp_days": [
      [
@@ -654,6 +617,10 @@
      ],
      [
       "2026-11-01",
+      70.0
+     ],
+     [
+      "2026-11-02",
       70.0
      ]
     ],
@@ -686,15 +653,15 @@
     "price_low": 99.0,
     "size_cr": 53.05,
     "gmp": 0.0,
-    "gmp_at": "2026-11-02T12:00",
-    "sub_total": 1.21,
-    "sub_retail": 1.18,
-    "sub_at": "2026-11-02T11:55",
+    "gmp_at": "2026-11-02T12:10",
+    "sub_total": 1.24,
+    "sub_retail": 1.23,
+    "sub_at": "2026-11-02T12:10",
     "sub_cats": {
-     "retail": 1.18,
-     "nii": 1.0,
+     "retail": 1.23,
+     "nii": 1.04,
      "qib": 1.42,
-     "total": 1.21
+     "total": 1.24
     },
     "gmp_days": [
      [
@@ -731,6 +698,59 @@
    },
    {
     "src": "Tracker B",
+    "slug": "hgs-india",
+    "name": "HGS (India)",
+    "segment": "SME",
+    "exchange": "NSE SME",
+    "open": "2026-10-30",
+    "close": "2026-11-03",
+    "boa": "2026-11-04",
+    "listing": "2026-11-06",
+    "price": 120.0,
+    "price_low": 114.0,
+    "size_cr": 34.56,
+    "gmp": 30.0,
+    "gmp_at": "2026-11-02T12:10",
+    "sub_total": 7.7,
+    "sub_retail": 8.64,
+    "sub_at": "2026-11-02T12:13",
+    "sub_cats": {
+     "retail": 8.64,
+     "nii": 9.88,
+     "qib": 4.41,
+     "total": 7.7
+    },
+    "gmp_days": [
+     [
+      "2026-10-31",
+      30.0
+     ],
+     [
+      "2026-11-01",
+      30.0
+     ],
+     [
+      "2026-11-02",
+      30.0
+     ]
+    ],
+    "rhp_url": null,
+    "drhp_url": null,
+    "lot_raw": 2400.0,
+    "sector": "Geophysical Equipment / Seismic Instruments",
+    "quota": {
+     "qib": 50.0,
+     "nii": 15.0,
+     "retail": 35.0
+    },
+    "fresh_cr": 27.91,
+    "ofs_cr": 6.65,
+    "registrar": "KFin Technologies Limited",
+    "lead_manager": "Hem Securities Limited",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
     "slug": "vedant-poly-fabs",
     "name": "Vedant Poly Fabs",
     "segment": "SME",
@@ -743,13 +763,14 @@
     "price_low": 88.0,
     "size_cr": 56.68,
     "gmp": 15.0,
-    "gmp_at": "2026-11-02T11:55",
-    "sub_total": 0.01,
-    "sub_retail": 0.01,
-    "sub_at": "2026-11-02T11:58",
+    "gmp_at": "2026-11-02T12:10",
+    "sub_total": 0.28,
+    "sub_retail": 0.03,
+    "sub_at": "2026-11-02T12:03",
     "sub_cats": {
-     "retail": 0.01,
-     "total": 0.01
+     "retail": 0.03,
+     "nii": 0.67,
+     "total": 0.28
     },
     "gmp_days": [
      [
@@ -794,7 +815,7 @@
     "price_low": 194.0,
     "size_cr": 110.0,
     "gmp": 0.0,
-    "gmp_at": "2026-11-02T11:55",
+    "gmp_at": "2026-11-02T12:10",
     "sub_total": 1.17,
     "sub_retail": 0.66,
     "sub_at": "2026-10-29T19:05",
@@ -855,61 +876,6 @@
    },
    {
     "src": "Tracker B",
-    "slug": "ajwa-projects",
-    "name": "Ajwa Projects Limited",
-    "segment": "SME",
-    "exchange": "BSE SME",
-    "open": "2026-10-28",
-    "close": "2026-10-30",
-    "boa": "2026-11-02",
-    "listing": "2026-11-04",
-    "price": 203.0,
-    "price_low": 203.0,
-    "size_cr": 38.05,
-    "gmp": 1.0,
-    "gmp_at": "2026-11-02T11:55",
-    "sub_total": 1.12,
-    "sub_retail": 1.93,
-    "sub_at": "2026-10-30T19:05",
-    "sub_cats": {
-     "retail": 1.93,
-     "nii": 0.32,
-     "total": 1.12
-    },
-    "gmp_days": [
-     [
-      "2026-10-28",
-      35.0
-     ],
-     [
-      "2026-10-29",
-      5.0
-     ],
-     [
-      "2026-10-30",
-      2.0
-     ],
-     [
-      "2026-10-31",
-      1.0
-     ]
-    ],
-    "rhp_url": null,
-    "drhp_url": null,
-    "lot_raw": 1200.0,
-    "sector": "Industrial EPC and Infrastructure",
-    "quota": {
-     "nii": 50.0,
-     "retail": 50.0
-    },
-    "fresh_cr": 30.45,
-    "ofs_cr": 7.6,
-    "registrar": "KFin Technologies Limited",
-    "lead_manager": "Wealth Mine Networks Private Limited",
-    "live": true
-   },
-   {
-    "src": "Tracker B",
     "slug": "carver-roboweld",
     "name": "Carver Roboweld",
     "segment": "SME",
@@ -922,7 +888,7 @@
     "price_low": 76.0,
     "size_cr": 28.29,
     "gmp": 5.0,
-    "gmp_at": "2026-11-02T11:55",
+    "gmp_at": "2026-11-02T12:10",
     "sub_total": 25.8,
     "sub_retail": 19.17,
     "sub_at": "2026-10-30T19:05",
@@ -952,6 +918,10 @@
      [
       "2026-11-01",
       5.0
+     ],
+     [
+      "2026-11-02",
+      5.0
      ]
     ],
     "rhp_url": null,
@@ -967,6 +937,65 @@
     "ofs_cr": 0.0,
     "registrar": "Bigshare Services Pvt. Ltd.",
     "lead_manager": "Smart Horizon Capital Advisors Pvt. Ltd.",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
+    "slug": "ajwa-projects",
+    "name": "Ajwa Projects Limited",
+    "segment": "SME",
+    "exchange": "BSE SME",
+    "open": "2026-10-28",
+    "close": "2026-10-30",
+    "boa": "2026-11-02",
+    "listing": "2026-11-04",
+    "price": 203.0,
+    "price_low": 203.0,
+    "size_cr": 38.05,
+    "gmp": 1.0,
+    "gmp_at": "2026-11-02T12:10",
+    "sub_total": 1.12,
+    "sub_retail": 1.93,
+    "sub_at": "2026-10-30T19:05",
+    "sub_cats": {
+     "retail": 1.93,
+     "nii": 0.32,
+     "total": 1.12
+    },
+    "gmp_days": [
+     [
+      "2026-10-28",
+      35.0
+     ],
+     [
+      "2026-10-29",
+      5.0
+     ],
+     [
+      "2026-10-30",
+      2.0
+     ],
+     [
+      "2026-10-31",
+      1.0
+     ],
+     [
+      "2026-11-02",
+      1.0
+     ]
+    ],
+    "rhp_url": null,
+    "drhp_url": null,
+    "lot_raw": 1200.0,
+    "sector": "Industrial EPC and Infrastructure",
+    "quota": {
+     "nii": 50.0,
+     "retail": 50.0
+    },
+    "fresh_cr": 30.45,
+    "ofs_cr": 7.6,
+    "registrar": "KFin Technologies Limited",
+    "lead_manager": "Wealth Mine Networks Private Limited",
     "live": true
    },
    {
@@ -1073,7 +1102,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-02T12:01+05:30",
+  "fetched_at": "2026-11-02T12:15+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -1738,7 +1767,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-02T12:01+05:30",
+  "fetched_at": "2026-11-02T12:15+05:30",
   "records": [
    {
     "src": "Tracker D",
