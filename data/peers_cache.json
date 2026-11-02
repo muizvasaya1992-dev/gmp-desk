@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-02T20:01+05:30",
+  "fetched_at": "2026-11-02T20:16+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,7 +16,7 @@
     "price_low": 78.0,
     "size_cr": 183.06,
     "gmp": 7.5,
-    "gmp_at": "2026-11-02T19:55",
+    "gmp_at": "2026-11-02T20:10",
     "sub_total": 60.77,
     "sub_retail": 33.73,
     "sub_at": "2026-11-02T19:06",
@@ -103,7 +103,7 @@
     "price_low": 142.0,
     "size_cr": 255.0,
     "gmp": 66.67,
-    "gmp_at": "2026-11-02T19:55",
+    "gmp_at": "2026-11-02T20:10",
     "sub_total": 241.22,
     "sub_retail": 128.36,
     "sub_at": "2026-10-29T19:05",
@@ -206,7 +206,7 @@
     "price_low": 313.0,
     "size_cr": 668.0,
     "gmp": 17.0,
-    "gmp_at": "2026-11-02T19:55",
+    "gmp_at": "2026-11-02T20:15",
     "sub_total": 9.47,
     "sub_retail": 2.71,
     "sub_at": "2026-10-29T19:05",
@@ -305,7 +305,7 @@
     "price_low": 153.0,
     "size_cr": 330.48,
     "gmp": 5.5,
-    "gmp_at": "2026-11-02T19:55",
+    "gmp_at": "2026-11-02T20:15",
     "sub_total": 5.1,
     "sub_retail": 3.08,
     "sub_at": "2026-10-30T19:05",
@@ -388,7 +388,7 @@
     "price_low": 1585.0,
     "size_cr": 1200.0,
     "gmp": 54.0,
-    "gmp_at": "2026-11-02T19:56",
+    "gmp_at": "2026-11-02T20:15",
     "sub_total": 5.25,
     "sub_retail": 1.03,
     "sub_at": "2026-10-28T19:06",
@@ -487,10 +487,10 @@
     "price_low": 190.0,
     "size_cr": 56.02,
     "gmp": 10.0,
-    "gmp_at": "2026-11-02T19:55",
+    "gmp_at": "2026-11-02T20:10",
     "sub_total": 2.01,
     "sub_retail": 2.21,
-    "sub_at": "2026-11-02T19:28",
+    "sub_at": "2026-11-02T20:14",
     "sub_cats": {
      "retail": 2.21,
      "nii": 2.89,
@@ -528,59 +528,6 @@
    },
    {
     "src": "Tracker B",
-    "slug": "hgs-india",
-    "name": "HGS (India)",
-    "segment": "SME",
-    "exchange": "NSE SME",
-    "open": "2026-10-30",
-    "close": "2026-11-03",
-    "boa": "2026-11-04",
-    "listing": "2026-11-06",
-    "price": 120.0,
-    "price_low": 114.0,
-    "size_cr": 34.56,
-    "gmp": 30.0,
-    "gmp_at": "2026-11-02T19:55",
-    "sub_total": 20.96,
-    "sub_retail": 25.56,
-    "sub_at": "2026-11-02T19:59",
-    "sub_cats": {
-     "retail": 25.56,
-     "nii": 31.56,
-     "qib": 4.88,
-     "total": 20.96
-    },
-    "gmp_days": [
-     [
-      "2026-10-31",
-      30.0
-     ],
-     [
-      "2026-11-01",
-      30.0
-     ],
-     [
-      "2026-11-02",
-      30.0
-     ]
-    ],
-    "rhp_url": null,
-    "drhp_url": null,
-    "lot_raw": 2400.0,
-    "sector": "Geophysical Equipment / Seismic Instruments",
-    "quota": {
-     "qib": 50.0,
-     "nii": 15.0,
-     "retail": 35.0
-    },
-    "fresh_cr": 27.91,
-    "ofs_cr": 6.65,
-    "registrar": "KFin Technologies Limited",
-    "lead_manager": "Hem Securities Limited",
-    "live": true
-   },
-   {
-    "src": "Tracker B",
     "slug": "maxwell-engineering-solutions",
     "name": "Maxwell Engineering Solutions",
     "segment": "SME",
@@ -593,10 +540,10 @@
     "price_low": 150.0,
     "size_cr": 57.64,
     "gmp": 80.0,
-    "gmp_at": "2026-11-02T19:55",
+    "gmp_at": "2026-11-02T20:15",
     "sub_total": 80.34,
     "sub_retail": 110.21,
-    "sub_at": "2026-11-02T19:58",
+    "sub_at": "2026-11-02T20:14",
     "sub_cats": {
      "retail": 110.21,
      "nii": 117.09,
@@ -637,6 +584,59 @@
    },
    {
     "src": "Tracker B",
+    "slug": "hgs-india",
+    "name": "HGS (India)",
+    "segment": "SME",
+    "exchange": "NSE SME",
+    "open": "2026-10-30",
+    "close": "2026-11-03",
+    "boa": "2026-11-04",
+    "listing": "2026-11-06",
+    "price": 120.0,
+    "price_low": 114.0,
+    "size_cr": 34.56,
+    "gmp": 30.0,
+    "gmp_at": "2026-11-02T20:15",
+    "sub_total": 20.96,
+    "sub_retail": 25.56,
+    "sub_at": "2026-11-02T20:13",
+    "sub_cats": {
+     "retail": 25.56,
+     "nii": 31.56,
+     "qib": 4.88,
+     "total": 20.96
+    },
+    "gmp_days": [
+     [
+      "2026-10-31",
+      30.0
+     ],
+     [
+      "2026-11-01",
+      30.0
+     ],
+     [
+      "2026-11-02",
+      30.0
+     ]
+    ],
+    "rhp_url": null,
+    "drhp_url": null,
+    "lot_raw": 2400.0,
+    "sector": "Geophysical Equipment / Seismic Instruments",
+    "quota": {
+     "qib": 50.0,
+     "nii": 15.0,
+     "retail": 35.0
+    },
+    "fresh_cr": 27.91,
+    "ofs_cr": 6.65,
+    "registrar": "KFin Technologies Limited",
+    "lead_manager": "Hem Securities Limited",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
     "slug": "vectras-enprocon",
     "name": "Vectras Enprocon",
     "segment": "SME",
@@ -649,7 +649,7 @@
     "price_low": 99.0,
     "size_cr": 53.05,
     "gmp": 0.0,
-    "gmp_at": "2026-11-02T19:55",
+    "gmp_at": "2026-11-02T20:15",
     "sub_total": 1.31,
     "sub_retail": 1.33,
     "sub_at": "2026-11-02T19:40",
@@ -706,10 +706,10 @@
     "price_low": 88.0,
     "size_cr": 56.68,
     "gmp": 15.0,
-    "gmp_at": "2026-11-02T19:55",
+    "gmp_at": "2026-11-02T20:15",
     "sub_total": 0.4,
     "sub_retail": 0.11,
-    "sub_at": "2026-11-02T19:54",
+    "sub_at": "2026-11-02T20:10",
     "sub_cats": {
      "retail": 0.11,
      "nii": 0.83,
@@ -758,7 +758,7 @@
     "price_low": 63.0,
     "size_cr": 23.33,
     "gmp": 0.0,
-    "gmp_at": "2026-11-02T19:56",
+    "gmp_at": "2026-11-02T20:11",
     "sub_total": 1.11,
     "sub_retail": 0.4,
     "sub_at": "2026-11-02T18:54",
@@ -815,7 +815,7 @@
     "price_low": 194.0,
     "size_cr": 110.0,
     "gmp": 0.0,
-    "gmp_at": "2026-11-02T19:55",
+    "gmp_at": "2026-11-02T20:11",
     "sub_total": 1.17,
     "sub_retail": 0.66,
     "sub_at": "2026-10-29T19:05",
@@ -888,7 +888,7 @@
     "price_low": 203.0,
     "size_cr": 38.05,
     "gmp": 1.0,
-    "gmp_at": "2026-11-02T19:56",
+    "gmp_at": "2026-11-02T20:11",
     "sub_total": 1.12,
     "sub_retail": 1.93,
     "sub_at": "2026-10-30T19:05",
@@ -947,7 +947,7 @@
     "price_low": 76.0,
     "size_cr": 28.29,
     "gmp": 5.0,
-    "gmp_at": "2026-11-02T19:55",
+    "gmp_at": "2026-11-02T20:10",
     "sub_total": 25.8,
     "sub_retail": 19.17,
     "sub_at": "2026-10-30T19:05",
@@ -1102,7 +1102,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-02T20:01+05:30",
+  "fetched_at": "2026-11-02T20:16+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -1767,7 +1767,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-02T20:01+05:30",
+  "fetched_at": "2026-11-02T20:16+05:30",
   "records": [
    {
     "src": "Tracker D",
