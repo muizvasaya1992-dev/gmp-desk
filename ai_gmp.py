@@ -13,6 +13,7 @@ If any of that fails we keep "no estimate" rather than publishing a guess.
 The key lives in the GEMINI_API_KEY secret or in data/private.json ("gemini_api_key"), never in this file.
 """
 import datetime as dt
+import html
 import json
 import os
 import pathlib
@@ -31,7 +32,7 @@ MAX_PER_RUN = 15                 # at most this many IPOs asked about in one run
 EVERY_HOURS = 20                 # and each IPO at most once a day
 PAUSE_S = 2.0
 MAX_PCT_OF_PRICE = 60            # a premium above this share of the issue price is treated as a bad answer
-MAX_AGE_DAYS = 4                 # an answer older than this is not worth showing
+MAX_AGE_DAYS = 2                 # an answer older than this is not worth showing
 TIMEOUT = 30
 FAIL_RETRY_H = 3                 # after a failure, wait this long before asking about that IPO again
 
@@ -273,30 +274,85 @@ def cross_check(value, reported, price):
     return False, f"it disagrees with the ₹{reported:g} our own sources report"
 
 
-def page_shows(urls, value, log=print):
-    """Opens the page the figure was taken from and looks for that number next to the words GMP or premium.
-    True / False / None when the page could not be opened. It never changes the figure, only how we describe it."""
+STOP_WORDS = {"limited", "ltd", "private", "pvt", "ipo", "india", "the", "and", "of", "sme", "industries",
+              "projects", "technologies", "solutions", "enterprises", "company", "corporation"}
+NUM = r"(-?\d{1,5}(?:\.\d{1,2})?)"
+GMP_NEAR = [re.compile(r"(?:gmp|grey market premium)[^0-9\u20b9%]{0,30}(?:\u20b9|rs\.?|inr)?\s*" + NUM, re.I),
+            re.compile(r"(?:\u20b9|rs\.?)\s*" + NUM + r"[^0-9]{0,25}(?:gmp|premium)", re.I),
+            re.compile(r"(?:\u20b9|rs\.?)\s*" + NUM + r"\s*\(\s*-?\d{1,3}(?:\.\d+)?\s*%\s*\)")]
+WINDOW = 200                     # the figure has to sit close to the company name, not in the next row
+
+
+def _name_keys(name):
+    w = [x for x in re.split(r"[^A-Za-z0-9]+", (name or "").lower()) if len(x) > 2]
+    return [x for x in w if x not in STOP_WORDS] or w
+
+
+def _plain(page):
+    t = re.sub(r"(?is)<(script|style|noscript)[^>]*>.*?</\1>", " ", page)
+    return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", t)))
+
+
+def read_from_page(page, name, price, others=()):
+    """Reads the GMP for this company off the page itself. The figure we publish comes from here, not from the model.
+    Returns (value, the wording it was taken from) or (None, why not)."""
+    keys = _name_keys(name)
+    if not keys:
+        return None, "no usable company name"
+    text = _plain(page)
+    low = text.lower()
+    others = [k for k in (others or []) if k and k.lower() not in low[:0]]
+    spots = [m.start() for m in re.finditer(re.escape(keys[0]), low)]
+    if not spots:
+        return None, "the page does not mention this company"
+    for h in spots:
+        seg = text[h:h + WINDOW]
+        if len(keys) > 1 and keys[1] not in seg.lower()[:140]:
+            continue                                            # a different company that shares one word
+        hits = [m for pat in GMP_NEAR for m in [pat.search(seg)] if m]
+        if not hits:
+            continue
+        m = min(hits, key=lambda x: x.start())                  # the figure nearest the name, not a date-stamped older one
+        between = seg[:m.start()].lower()
+        if any(o for o in others if o in between):              # the figure belongs to the next IPO in the table
+            continue
+        if "--" in between:                                     # the page's own mark for "no quote yet"
+            return None, "the page shows no quote for this IPO"
+        try:
+            v = float(m.group(1))
+        except ValueError:
+            continue
+        if price and abs(v) > price * MAX_PCT_OF_PRICE / 100:
+            continue
+        if v == 0:
+            return None, "the page shows no premium for this IPO"
+        return (int(v) if float(v).is_integer() else v), re.sub(r"\s+", " ", seg[:160]).strip()
+    return None, "no GMP for this company was found on the page"
+
+
+def confirm(urls, name, price, others=(), log=print):
+    """Opens the pages the model cited and reads the figure ourselves. Returns (value, url, quote) or (None, url, why)."""
     try:
         import requests
     except Exception:
-        return None
-    want = str(int(value)) if float(value).is_integer() else str(value)
-    for u in (urls or [])[:2]:
+        return None, None, "cannot open pages here"
+    why = "no page could be opened"
+    for u in (urls or [])[:3]:
         try:
             if not _robots_ok(requests, u):
+                why = "the site does not allow us to open that page"
                 continue
             r = requests.get(u, headers={"User-Agent": UA, "Accept": "text/html"}, timeout=15)
             if r.status_code != 200:
+                why = f"the page returned {r.status_code}"
                 continue
-            text = re.sub(r"<[^>]+>", " ", r.text)
-            text = re.sub(r"\s+", " ", text).lower()
-            for m in re.finditer(r"(?<![\d.])" + re.escape(want) + r"(?![\d.])", text):
-                near = text[max(0, m.start() - 140):m.end() + 140]
-                if "gmp" in near or "premium" in near:
-                    return True
-        except Exception:
-            continue
-    return None if not urls else False
+            v, quote = read_from_page(r.text, name, price, others)
+            if v is not None:
+                return v, u, quote
+            why = quote
+        except Exception as e:
+            why = f"the page could not be read ({type(e).__name__})"
+    return None, None, why
 
 
 def _robots_ok(requests, url):
@@ -375,13 +431,23 @@ def run(root, recs, today, now=None, fixtures=None, offline=False, log=print):
                 else:
                     got, why2 = agree(tries[0], tries[-1], r.get("price"))
                     why = why2 or why
+                if got and not fixtures:
+                    others = [_name_keys(x["name"])[0] for x in live
+                              if x["id"] != r["id"] and _name_keys(x.get("name") or "")]
+                    said = got["gmp"]
+                    v, url, note = confirm(got["sources"], r["name"], r.get("price"), others, log)
+                    if v is None:
+                        got, why = None, f"we could not confirm it on the page ({note})"
+                    elif abs(v - said) > max(2.0, abs(v) * 0.15, (r.get("price") or 0) * 0.01):
+                        got, why = None, f"the page says ₹{v:g} but the search reported ₹{said:g}"
+                    else:
+                        got.update({"gmp": v, "from_page": url, "quote": note, "seen": True, "ai_said": said})
                 if got:
                     fits, why3 = cross_check(got["gmp"], r.get("gmp"), r.get("price"))
                     if not fits:
                         got, why = None, why3
                 was = {"checked": now.isoformat(timespec="minutes"), "model": model or models[0]}
                 if got:
-                    got["seen"] = page_shows(got["sources"], got["gmp"]) if not fixtures else None
                     was.update(got)
                     ok += 1
                 else:
@@ -395,8 +461,8 @@ def run(root, recs, today, now=None, fixtures=None, offline=False, log=print):
                 store[r["id"]] = was = {"checked": now.isoformat(timespec="minutes"), "failed": True,
                                         "none": f"the request failed ({type(e).__name__})"}
         if was and was.get("gmp") is not None:
-            r["ai_gmp"] = {k: was[k] for k in ("gmp", "as_of", "note", "quote", "sources", "model",
-                                               "checked", "checks", "spread", "pages", "seen", "disagreement")
+            r["ai_gmp"] = {k: was[k] for k in ("gmp", "as_of", "note", "quote", "sources", "model", "from_page",
+                                               "checked", "checks", "spread", "pages", "seen", "disagreement", "ai_said")
                            if was.get(k) not in (None, "")}
             if r.get("price"):
                 r["ai_gmp"]["pct"] = round(was["gmp"] / r["price"] * 100, 2)

@@ -48,14 +48,9 @@
   "spread": 0
  },
  "carver-roboweld": {
-  "as_of": "2026-10-30",
-  "checked": "2026-10-31T12:35+05:30",
-  "gmp": 5,
+  "checked": "2026-11-02T13:21+05:30",
   "model": "gemini-2.5-flash",
-  "note": "GMP is ₹5.00, last updated on 30 Oct 2026, 10:00 PM IST.",
-  "sources": [
-   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAlIjDVxmzd2jMMLdvANk30Qp2BvpApquykq3_VsnJ108I36zih9YaNM2xTFEauoMvMqvB5Hky33Frjr0YW5yHaW5BAkMaeE9_z6jcLC2zP6dFBGDZDuaaqaOQjmienaszD_xHf0r2AG52yZxyFQ=="
-  ]
+  "none": "only one of the two checks found a figure, so it is not confirmed"
  },
  "hgsindialt": {
   "as_of": "2026-10-31",
