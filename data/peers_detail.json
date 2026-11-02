@@ -581,35 +581,6 @@
    ]
   }
  },
- "kian-m-export": {
-  "at": "2026-11-02T10:31+05:30",
-  "detail": {
-   "sub": {
-    "nii": 0.0,
-    "qib": 0.0,
-    "retail": 0.0,
-    "total": 0.0
-   },
-   "uses": [
-    {
-     "cr": 70.8,
-     "use": "Assets"
-    },
-    {
-     "cr": 36.79,
-     "use": "Expense"
-    },
-    {
-     "cr": 150.0,
-     "use": "Capital"
-    },
-    {
-     "cr": 155.4,
-     "use": "Acuisition"
-    }
-   ]
-  }
- },
  "maxwell-engineering-solutions": {
   "at": "2026-11-02T05:45+05:30",
   "detail": {
