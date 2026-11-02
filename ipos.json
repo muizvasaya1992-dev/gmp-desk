@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T13:24+05:30",
+  "generated_at": "2026-11-02T13:26+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-02T10:54+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-02T13:24+05:30",
+    "nse_ok_at": "2026-11-02T13:26+05:30",
     "bse_ok_at": "2026-11-02T13:24+05:30"
   },
   "ipos": [
@@ -1577,14 +1577,14 @@
       "anchor": null,
       "rating": null,
       "sub": {
-        "qib": 9.88,
-        "nii": 46.03,
-        "bnii": 50.05,
-        "snii": 38.0,
-        "retail": 14.85,
-        "total": 20.04
+        "qib": 9.9,
+        "nii": 48.96,
+        "bnii": 53.55,
+        "snii": 39.79,
+        "retail": 15.2,
+        "total": 20.85
       },
-      "updated_on": "2026-11-02T13:24+05:30",
+      "updated_on": "2026-11-02T13:26+05:30",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "Smart Horizon Capital Advisors Private Limited"
@@ -1598,7 +1598,7 @@
       "symbol": "BCSSL",
       "official": true,
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-11-02T13:18",
+      "sub_asof": "2026-11-02T13:24",
       "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_BCSSL.zip",
       "retail_max": 200000,
       "cutoff_time": "5:00 PM",
@@ -1751,6 +1751,15 @@
           "snii": 38.0,
           "retail": 14.85,
           "total": 20.04
+        },
+        {
+          "at": "2026-11-02T13:26+05:30",
+          "qib": 9.9,
+          "nii": 48.96,
+          "bnii": 53.55,
+          "snii": 39.79,
+          "retail": 15.2,
+          "total": 20.85
         }
       ],
       "series": "EQ",
@@ -2090,7 +2099,7 @@
       "sub_asof": "2026-10-29T19:05",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-02T13:24"
+        "at": "2026-11-02T13:26"
       },
       "gmp_sources": [],
       "gmp_history": [],
@@ -2840,7 +2849,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": null,
-      "updated_on": "2026-11-02T13:24+05:30",
+      "updated_on": "2026-11-02T13:26+05:30",
       "price": 158,
       "reservation": {
         "qib": 49.84,
@@ -2983,7 +2992,7 @@
         "total": 9.86
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-02T13:20",
+      "sub_asof": "2026-11-02T13:23",
       "registrar": "Kfin Technologies Limited",
       "lead_managers": [
         "Hem Securities Limited"
@@ -3008,7 +3017,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": null,
-      "updated_on": "2026-11-02T13:24+05:30",
+      "updated_on": "2026-11-02T13:26+05:30",
       "price": 120,
       "reservation": {
         "qib": 61.28,
@@ -3163,7 +3172,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": null,
-      "updated_on": "2026-11-02T13:24+05:30",
+      "updated_on": "2026-11-02T13:26+05:30",
       "price": 94,
       "reservation": {
         "qib": 1.13,
@@ -3429,10 +3438,10 @@
         "total": 0.97
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-02T13:21",
+      "sub_asof": "2026-11-02T13:23",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-02T13:24"
+        "at": "2026-11-02T13:26"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3760,7 +3769,7 @@
       "sub_asof": "2026-11-02T13:20",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-02T13:24"
+        "at": "2026-11-02T13:26"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
