@@ -48,6 +48,11 @@ if exist private.json.example (
   echo   removed the stray copy of private.json.example
 )
 
+findstr /x /c:"last_run.txt" .gitignore >nul 2>&1
+if errorlevel 1 (
+  (echo.& echo last_run.txt)>>.gitignore
+  echo   added last_run.txt to .gitignore, so the log is never published
+)
 findstr /x /c:"data/private.json" .gitignore >nul 2>&1
 if errorlevel 1 (
   (echo.& echo data/private.json)>>.gitignore

@@ -2,6 +2,7 @@
 rem IPO Shop: one-click publish. Double-click this file.
 rem It refreshes the data, syncs with GitHub, rebuilds once more on the synced files, then publishes.
 cd /d "%~dp0"
+rem Everything printed here is also written to last_run.txt, so it can be read after the window closes.
 
 echo [1/5] Refreshing the data...
 python build_data.py
@@ -45,16 +46,28 @@ if errorlevel 1 (
 
 echo.
 echo [5/5] Publishing...
-rem The automatic timer on GitHub may push while this runs, so try again after pulling its changes.
-for /l %%A in (1,1,3) do (
-  git push && goto pushed
-  echo   GitHub moved ahead, pulling its changes and trying again (attempt %%A of 3)...
-  git pull --rebase --autostash -X theirs -X no-renames origin main
-  if errorlevel 1 goto fail
-)
+rem The 20-minute timer on GitHub can push while this runs, so pull its changes and try again.
+git push
+if not errorlevel 1 goto pushed
+
 echo.
-echo Could not publish after three tries. Run this file again in a minute.
+echo   GitHub moved ahead. Pulling its changes and trying again (2 of 3)...
+git pull --rebase --autostash -X theirs -X no-renames origin main
+if errorlevel 1 goto fail
+git push
+if not errorlevel 1 goto pushed
+
+echo.
+echo   Trying once more (3 of 3)...
+git pull --rebase --autostash -X theirs -X no-renames origin main
+if errorlevel 1 goto fail
+git push
+if not errorlevel 1 goto pushed
+
+echo.
+echo Could not publish. Check your internet, then run this file again.
 goto fail
+
 :pushed
 
 echo.
