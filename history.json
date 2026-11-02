@@ -1,7 +1,7 @@
 {
  "year": 2026,
  "bse_as_of": "2026-11-02T10:54+05:30",
- "nse_as_of": "2026-11-02T10:54+05:30",
+ "nse_as_of": "2026-11-03T00:01+05:30",
  "rows": [
   {
    "name": "Vedant Poly Fabs",
@@ -25,7 +25,7 @@
    "exchange": "SME",
    "live": true,
    "id": "maxengs",
-   "status": "open",
+   "status": "closing_today",
    "open": "2026-10-30",
    "close": "2026-11-03",
    "price": 158,
@@ -39,7 +39,7 @@
    "exchange": "SME",
    "live": true,
    "id": "hgsindialt",
-   "status": "open",
+   "status": "closing_today",
    "open": "2026-10-30",
    "close": "2026-11-03",
    "price": 120,
@@ -53,7 +53,7 @@
    "exchange": "BSE SME",
    "live": true,
    "id": "johnsoncab-electricals",
-   "status": "open",
+   "status": "closing_today",
    "open": "2026-10-30",
    "close": "2026-11-03",
    "price": 200,
@@ -67,7 +67,7 @@
    "exchange": "BSE SME",
    "live": true,
    "id": "vectras-enprocon",
-   "status": "open",
+   "status": "closing_today",
    "open": "2026-10-30",
    "close": "2026-11-03",
    "price": 105,
@@ -81,7 +81,7 @@
    "exchange": "NSE · BSE",
    "live": true,
    "id": "bombay-coated-special-steels",
-   "status": "closing_today",
+   "status": "closed",
    "open": "2026-10-29",
    "close": "2026-11-02",
    "price": 82,
@@ -137,7 +137,7 @@
    "exchange": "NSE · BSE",
    "live": true,
    "id": "bls-polymers",
-   "status": "closed",
+   "status": "listed",
    "open": "2026-10-27",
    "close": "2026-10-29",
    "price": 150,
@@ -151,7 +151,7 @@
    "exchange": "NSE · BSE",
    "live": true,
    "id": "sfc-environmental-technologies",
-   "status": "closed",
+   "status": "listed",
    "open": "2026-10-27",
    "close": "2026-10-29",
    "price": 330,
@@ -165,7 +165,7 @@
    "exchange": "BSE SME",
    "live": true,
    "id": "wiscon-industries",
-   "status": "closed",
+   "status": "listed",
    "open": "2026-10-27",
    "close": "2026-10-29",
    "price": 204,
@@ -5537,5 +5537,5 @@
    "status": "listed"
   }
  ],
- "generated_at": "2026-11-02T17:26+05:30"
+ "generated_at": "2026-11-03T00:01+05:30"
 }

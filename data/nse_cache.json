@@ -1308,9 +1308,9 @@
   "price": 82,
   "price_low": 78,
   "series": "EQ",
-  "nse_status": "Active",
+  "nse_status": "Closed",
   "shares_offered": 16533012.0,
-  "last_seen": "2026-11-02T19:15+05:30",
+  "last_seen": "2026-11-03T00:01+05:30",
   "segment": "MAIN",
   "lot": 182,
   "registrar": "KFin Technologies Limited",
@@ -1320,7 +1320,7 @@
   "retail_max": 200000,
   "cutoff_time": "5:00 PM",
   "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_BCSSL.zip",
-  "details_at": "2026-11-02T10:54+05:30",
+  "details_at": "2026-11-03T00:01+05:30",
   "sub": {
    "qib": 35.5,
    "nii": 158.32,
@@ -1507,9 +1507,9 @@
   "series": "SME",
   "nse_status": "Active",
   "shares_offered": null,
-  "last_seen": "2026-11-02T19:15+05:30",
+  "last_seen": "2026-11-03T00:01+05:30",
   "segment": "SME",
-  "details_at": "2026-11-02T10:54+05:30",
+  "details_at": "2026-11-03T00:01+05:30",
   "sub": {
    "qib": 0.0,
    "nii": 0.0,
@@ -1551,9 +1551,9 @@
   "series": "SME",
   "nse_status": "Active",
   "shares_offered": null,
-  "last_seen": "2026-11-02T19:15+05:30",
+  "last_seen": "2026-11-03T00:01+05:30",
   "segment": "SME",
-  "details_at": "2026-11-02T10:54+05:30",
+  "details_at": "2026-11-03T00:01+05:30",
   "registrar": "Kfin Technologies Limited",
   "lead_managers": [
    "Hem Securities Limited"
@@ -1595,7 +1595,7 @@
   "series": "SME",
   "nse_status": "Active",
   "shares_offered": null,
-  "last_seen": "2026-11-02T19:15+05:30",
+  "last_seen": "2026-11-03T00:01+05:30",
   "segment": "SME",
   "registrar": "Cameo Corporate Services Limited",
   "lead_managers": [
@@ -1603,7 +1603,7 @@
   ],
   "cutoff_time": "5:00 PM",
   "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_VPFL.zip",
-  "details_at": "2026-11-02T10:54+05:30",
+  "details_at": "2026-11-03T00:01+05:30",
   "sub": {
    "qib": 0.0,
    "nii": 0.0,

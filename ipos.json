@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T23:45+05:30",
+  "generated_at": "2026-11-03T00:01+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-02T10:54+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-02T23:45+05:30",
+    "nse_ok_at": "2026-11-03T00:01+05:30",
     "bse_ok_at": "2026-11-02T18:46+05:30"
   },
   "ipos": [
@@ -871,53 +871,7 @@
         "days": 3,
         "since": "2026-10-31"
       },
-      "status": "closed",
-      "ai_gmp": {
-        "gmp": 74,
-        "as_of": "2026-11-02",
-        "note": "Two sources from today disagree by more than Rs 5.",
-        "quote": "BLS Polymers GMP is ₹70 as of today.",
-        "sources": [
-          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBA273Ke6FVNKle8BhiJNfhR_nXveGGcjDfubP6RVcxeQ2wcQNPozuw9sRwuoZtYeyZgJJ04Vb1j-RofGJnwfR1KwCjVvb_ywPs3gqX-m4AK9gytEN72K8Iq55G75f_MW3MOFmfBTR-O8-Ozd_WRQQtRZ7IACFdn0=",
-          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCPenAbu-Y8qFHeEtJPz6vnlIuXHIP_0BPrbFvMP6rEHDqyLb_jxEWERIqEnfjmOLoXofxpjWLaVI2r679LdWiIg0X1CUzC8wC34x45cr5EPSmL1bH3RiF",
-          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOP_jXcaO0fwCnIF4a39U6Sjyb0ybwXIeyYPGAnAFewNdsQPVHHmwsSjSHBLzzqY2RtS20-WOLWJgIsGYv3Ksj5trTOUZyz1ENwHn1h9Ezzm3iXVQ=",
-          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpY7nvxEDdWKCuc4h-GkRq4aCG1wEkgHz2PCuqB3x37MfiDGs40CPdmZuz8gfvE0sulY9KtMqcZKZB-RnxYiMGbnUnIRs-emowWDa9WquaWunLNKLLxlr-iR6_ejDaPiU9Yi5vpv3s3-gcjwX6EHenu6Rj-ZEAGw="
-        ],
-        "model": "gemini-2.5-flash",
-        "checked": "2026-11-02T10:54+05:30",
-        "checks": 2,
-        "spread": 8,
-        "pages": 1,
-        "seen": false,
-        "disagreement": "Another source reports ₹62 as of 2 Nov 2026.",
-        "pct": 49.33
-      },
-      "news": [
-        {
-          "date": "2026-10-30",
-          "source": "Economic Times",
-          "title": "BLS Polymers IPO allotment likely today; GMP hints at 45% listing gain. Here's how to check status",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/bls-polymers-ipo-allotment-likely-today-gmp-hints-at-45-listing-gain-heres-how-to-check-status/articleshow/135343466.cms"
-        },
-        {
-          "date": "2026-10-30",
-          "source": "Economic Times",
-          "title": "BLS Polymers IPO subscribed 241 times on final day of bidding",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/bls-polymers-ipo-subscribed-241-times-on-final-day-of-bidding/articleshow/135337874.cms"
-        },
-        {
-          "date": "2026-10-29",
-          "source": "Economic Times",
-          "title": "BLS Polymers IPO Day 3: Issue subscribed 42.47 times with GMP at 34%. Check key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/bls-polymers-ipo-day-3-issue-subscribed-42-47-times-with-gmp-at-34-check-key-details/articleshow/135291657.cms"
-        },
-        {
-          "date": "2026-10-27",
-          "source": "Economic Times",
-          "title": "BLS Polymers IPO opens today; GMP signals 27% listing gain. Check key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/bls-polymers-ipo-opens-today-gmp-signals-27-listing-gain-check-key-details/articleshow/135223848.cms"
-        }
-      ],
+      "status": "listed",
       "unconfirmed": false
     },
     {
@@ -1161,7 +1115,7 @@
         "fresh_cr": 150.0,
         "ofs_cr": 517.53
       },
-      "tracker_rating": 1,
+      "tracker_rating": 2,
       "gmp_sources": [
         {
           "source": "Public trackers",
@@ -1175,13 +1129,13 @@
         },
         {
           "source": "Tracker C",
-          "gmp": 15,
-          "at": "2026-11-02T20:37"
+          "gmp": 16.5,
+          "at": "2026-11-02T22:02"
         },
         {
           "source": "Tracker D",
           "gmp": 21,
-          "at": "2026-11-02T23:31"
+          "at": "2026-11-03T00:01"
         }
       ],
       "gmp_history": [
@@ -1242,7 +1196,7 @@
       "gmp_low": 10,
       "gmp_high": 32,
       "gmp": 21,
-      "gmp_asof": "2026-11-02T23:31",
+      "gmp_asof": "2026-11-03T00:01",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 6.36,
       "gmp_spread": {
@@ -1258,51 +1212,7 @@
         "days": 3,
         "since": "2026-10-31"
       },
-      "status": "closed",
-      "ai_gmp": {
-        "gmp": 26.5,
-        "as_of": "2026-11-01",
-        "note": "Latest GMP found for the specified IPO.",
-        "quote": "The SFC Environmental Technologies IPO GMP is ₹26.50 (+8.0% over the upper price band of ₹330) as of 1 Nov 2026",
-        "sources": [
-          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8VoXdksbvXxRtMUOfD8eF4vp9XBnnRn06Vu5dUJdIHrMeipRSn3raSz-0-3tP0asQEZnzgUXyDk59CsOwTsJU36CXmVSNi9OSv77qG37G5PzYsUzq26TZGNfWmPvUblChqLqZl5vFYc-TZ6BIzwQXK31xtC4SwVqQ3A==",
-          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5tCKYasDfus5iD5nBJvB0iBH8rs5XhwqhyY1ohyT5WssZkhYrzmWfkLz18PbmpT0yNodK8Ud_35mNOHJR2v0NJ1If7N2_AgcZc8YnJuHH1tD8HNprc5PFqnx4OyOICtp75DaOYnHYxmempvjIT5Jvn6uuqUXs3Y0KigM=",
-          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvL8u1XYQA3G1lXT8lMFmH890rduO1UH8KnaFR7A9Xhtpx78o4MGwxNqsz86mm6EcrVc2oQI0THEX42YZKSW5KJrH_TTEzEuBhf_DTuc-4WXaSQJUYFTTdwfBcga10go8bDg91gk6ChKwhDRlMxdnS6yVknUYbQtOR7eRRDYOBLfTh"
-        ],
-        "model": "gemini-2.5-flash",
-        "checked": "2026-11-02T10:54+05:30",
-        "checks": 2,
-        "spread": 0.0,
-        "pages": 1,
-        "seen": false,
-        "pct": 8.03
-      },
-      "news": [
-        {
-          "date": "2026-10-30",
-          "source": "Economic Times",
-          "title": "SFC Environmental Technologies IPO subscribed 9.5 times on final day",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/sfc-environmental-technologies-ipo-subscribed-9-5-times-on-final-day/articleshow/135337977.cms"
-        },
-        {
-          "date": "2026-10-27",
-          "source": "Economic Times",
-          "title": "SFC Environmental Technologies IPO opens: Check price band, lot size and key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/sfc-environmental-technologies-ipo-opens-today-gmp-at-9-check-price-band-lot-size-and-key-details/articleshow/135222860.cms"
-        },
-        {
-          "date": "2026-10-27",
-          "source": "Economic Times",
-          "title": "Can SFC Environmental Technologies IPO deliver long-term growth for high-risk investors?",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/can-sfc-environmental-technologies-ipo-deliver-long-term-growth-for-high-risk-investors/articleshow/135222205.cms"
-        },
-        {
-          "date": "2026-10-26",
-          "source": "valueresearchonline.com",
-          "title": "SFC Environmental Technologies IPO: Strong tech, slow cash",
-          "url": "https://www.valueresearchonline.com/stories/230018/sfc-environmental-technologies-ipo-review/"
-        }
-      ],
+      "status": "listed",
       "unconfirmed": false
     },
     {
@@ -1636,7 +1546,7 @@
         "retail": 33.73,
         "total": 60.77
       },
-      "updated_on": "2026-11-02T19:15+05:30",
+      "updated_on": "2026-11-03T00:01+05:30",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "Smart Horizon Capital Advisors Private Limited"
@@ -1815,7 +1725,7 @@
         }
       ],
       "series": "EQ",
-      "nse_status": "Active",
+      "nse_status": "Closed",
       "shares_offered": 16533012.0,
       "bse_ipo_no": "8065",
       "sector": "Steel Processing",
@@ -1911,8 +1821,8 @@
         },
         {
           "source": "Tracker C",
-          "gmp": 7.5,
-          "at": "2026-11-02T20:37"
+          "gmp": 8,
+          "at": "2026-11-02T22:02"
         },
         {
           "source": "Tracker B",
@@ -1922,7 +1832,7 @@
         {
           "source": "Tracker D",
           "gmp": 9.25,
-          "at": "2026-11-02T21:31"
+          "at": "2026-11-03T00:01"
         }
       ],
       "gmp_history": [
@@ -1974,10 +1884,10 @@
       "history_source": "Tracker B",
       "gmp_low": 7,
       "gmp_high": 10,
-      "gmp": 8,
-      "gmp_asof": "2026-11-02T21:55",
-      "gmp_source_latest": "Tracker B",
-      "gmp_pct": 9.76,
+      "gmp": 9.25,
+      "gmp_asof": "2026-11-03T00:01",
+      "gmp_source_latest": "Tracker D",
+      "gmp_pct": 11.28,
       "gmp_spread": {
         "min": 7,
         "max": 9.25,
@@ -1991,7 +1901,7 @@
         "days": 3,
         "since": "2026-10-31"
       },
-      "status": "closing_today",
+      "status": "closed",
       "ai_gmp": {
         "gmp": 9,
         "as_of": "2026-11-02",
@@ -2159,40 +2069,13 @@
       "sub_asof": "2026-10-29T19:05",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-02T23:45"
+        "at": "2026-11-03T00:01"
       },
       "gmp_sources": [],
       "gmp_history": [],
       "gmp": null,
       "gmp_pct": null,
-      "status": "closed",
-      "ai_gmp": {
-        "gmp": 0,
-        "as_of": "2026-11-01",
-        "note": "Multiple sources report a GMP of ₹0 as of November 1, 2026.",
-        "quote": "Current GMP. ₹0. GMP %. 0.00%.",
-        "sources": [
-          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFV4925c1m3se2Uh4XouIC61-pnqoH_cDNinhqYotbyEibJxLhjHjFJGPQnBhqzqEwNeYRY3FD4FIH9q1xTr2w8LTizHH_jm2f0C_gxIpmFYxBqaEmsHQuK7ADv0mi_sF_APL3rS4hIf7kKXuzURBuv",
-          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGozQNzsbXcPftl9Q_tuEulXVTi-2_I5X_cDIjJ0OKc9SnVpfmuRnHUo7M54Us742XZrUru_c5t3ef7oH3UiW8A_05IthbgkKblvU4iiHG3zp0_mAzmgodj0Ehot_Rhecqhy2k=",
-          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2matBL1d6g5huf-9hEe7LPVnU3UoitUxzi6G3c0Wd0VkBLOX_cdFjBCG4-Q9_RJ4vvw9jjFPy5cP3Lpxberh58gg9UrQ1gL4Z7AJfqIGbeqxtyDXjBPbf9f1xyuZzKp-JqoTTDCYv0iDCW8-ZfaAG",
-          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKUrsPWAtQCSOJqjoJM8ZmNGJGU51wDaNo5CjUo86LXGV13wE-cBy5FO2fq-Zj3T4QmmqEG0sT6L2_Tlw4tGvFSwSY_E6LWh9ogOztukrbbSG5VG3I-BUol-g7dF_RKqcNoZ0="
-        ],
-        "model": "gemini-2.5-flash",
-        "checked": "2026-11-02T10:54+05:30",
-        "checks": 2,
-        "spread": 0,
-        "pages": 2,
-        "seen": false,
-        "pct": 0.0
-      },
-      "news": [
-        {
-          "date": "2026-10-27",
-          "source": "Economic Times",
-          "title": "Wiscon Industries SME IPO opens today; check price band and other key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/wiscon-industries-sme-ipo-opens-today-check-price-band-and-other-key-details/articleshow/135224316.cms"
-        }
-      ],
+      "status": "listed",
       "unconfirmed": false
     },
     {
@@ -2397,7 +2280,7 @@
         {
           "source": "Tracker D",
           "gmp": 5,
-          "at": "2026-11-02T23:31"
+          "at": "2026-11-03T00:01"
         }
       ],
       "gmp_history": [
@@ -2412,13 +2295,17 @@
         {
           "date": "2026-11-02",
           "gmp": 5
+        },
+        {
+          "date": "2026-11-03",
+          "gmp": 5
         }
       ],
       "history_source": "Tracker D",
       "gmp_low": 3,
       "gmp_high": 6,
       "gmp": 5,
-      "gmp_asof": "2026-11-02T23:31",
+      "gmp_asof": "2026-11-03T00:01",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 6.25,
       "gmp_spread": {
@@ -2429,10 +2316,10 @@
         "diff_pct_of_price": 0.0
       },
       "gmp_trend": {
-        "dir": "rising",
-        "change": 2,
+        "dir": "steady",
+        "change": 0,
         "days": 3,
-        "since": "2026-10-30"
+        "since": "2026-10-31"
       },
       "status": "closed",
       "ai_gmp_none": {
@@ -2812,7 +2699,7 @@
         {
           "source": "Tracker D",
           "gmp": 5.5,
-          "at": "2026-11-02T23:31"
+          "at": "2026-11-03T00:01"
         }
       ],
       "gmp_history": [
@@ -2851,13 +2738,17 @@
         {
           "date": "2026-11-02",
           "gmp": 5.5
+        },
+        {
+          "date": "2026-11-03",
+          "gmp": 5.5
         }
       ],
       "history_source": "Tracker D",
       "gmp_low": 2,
       "gmp_high": 16,
       "gmp": 5.5,
-      "gmp_asof": "2026-11-02T23:31",
+      "gmp_asof": "2026-11-03T00:01",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 3.4,
       "gmp_spread": {
@@ -2868,10 +2759,10 @@
         "diff_pct_of_price": 0.93
       },
       "gmp_trend": {
-        "dir": "falling",
-        "change": -6.5,
+        "dir": "steady",
+        "change": 0.5,
         "days": 3,
-        "since": "2026-10-30"
+        "since": "2026-10-31"
       },
       "status": "closed",
       "ai_gmp_none": {
@@ -2908,7 +2799,7 @@
         "total": 80.34
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-02T23:43",
+      "sub_asof": "2026-11-02T23:57",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "JDA CAPITAL SERVICES LIMITED (Formerly Known as Beeline Broking Limited)"
@@ -2933,7 +2824,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": null,
-      "updated_on": "2026-11-02T19:15+05:30",
+      "updated_on": "2026-11-03T00:01+05:30",
       "price": 158,
       "reservation": {
         "qib": 49.84,
@@ -2993,7 +2884,7 @@
         {
           "source": "Tracker D",
           "gmp": 80,
-          "at": "2026-11-02T21:01"
+          "at": "2026-11-03T00:01"
         },
         {
           "source": "Tracker B",
@@ -3025,16 +2916,20 @@
         {
           "date": "2026-11-02",
           "gmp": 80
+        },
+        {
+          "date": "2026-11-03",
+          "gmp": 80
         }
       ],
       "history_source": "Tracker D",
       "gmp_low": 25,
       "gmp_high": 80,
       "exchange": "SME",
-      "gmp": 65,
-      "gmp_asof": "2026-11-02T22:00",
-      "gmp_source_latest": "Public trackers",
-      "gmp_pct": 41.14,
+      "gmp": 80,
+      "gmp_asof": "2026-11-03T00:01",
+      "gmp_source_latest": "Tracker D",
+      "gmp_pct": 50.63,
       "gmp_spread": {
         "min": 65,
         "max": 80,
@@ -3046,9 +2941,9 @@
         "dir": "rising",
         "change": 10,
         "days": 3,
-        "since": "2026-10-30"
+        "since": "2026-10-31"
       },
-      "status": "open",
+      "status": "closing_today",
       "ai_gmp_none": {
         "why": "neither check found a figure",
         "checked": "2026-11-02T13:24+05:30"
@@ -3084,7 +2979,7 @@
         "total": 20.96
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-02T23:33",
+      "sub_asof": "2026-11-02T23:56",
       "registrar": "Kfin Technologies Limited",
       "lead_managers": [
         "Hem Securities Limited"
@@ -3109,7 +3004,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": null,
-      "updated_on": "2026-11-02T19:15+05:30",
+      "updated_on": "2026-11-03T00:01+05:30",
       "price": 120,
       "reservation": {
         "qib": 61.28,
@@ -3173,7 +3068,7 @@
         {
           "source": "Tracker D",
           "gmp": 30,
-          "at": "2026-11-02T23:31"
+          "at": "2026-11-03T00:01"
         },
         {
           "source": "Tracker B",
@@ -3183,25 +3078,29 @@
       ],
       "gmp_history": [
         {
-          "date": "2026-10-31",
-          "gmp": 30
+          "date": "2026-10-30",
+          "gmp": 19
         },
         {
-          "date": "2026-11-01",
+          "date": "2026-10-31",
           "gmp": 30
         },
         {
           "date": "2026-11-02",
           "gmp": 30
+        },
+        {
+          "date": "2026-11-03",
+          "gmp": 30
         }
       ],
-      "history_source": "Tracker B",
+      "history_source": "Tracker D",
       "gmp_low": 18,
       "gmp_high": 30,
       "exchange": "SME",
       "gmp": 30,
-      "gmp_asof": "2026-11-02T23:40",
-      "gmp_source_latest": "Tracker B",
+      "gmp_asof": "2026-11-03T00:01",
+      "gmp_source_latest": "Tracker D",
       "gmp_pct": 25.0,
       "gmp_spread": {
         "min": 20,
@@ -3216,7 +3115,7 @@
         "days": 3,
         "since": "2026-10-31"
       },
-      "status": "open",
+      "status": "closing_today",
       "ai_gmp_none": {
         "why": "we could not confirm it on the page (the site does not allow us to open that page)",
         "checked": "2026-11-02T13:24+05:30"
@@ -3251,7 +3150,7 @@
         "total": 0.42
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-02T23:17",
+      "sub_asof": "2026-11-02T23:54",
       "registrar": "Cameo Corporate Services Limited",
       "lead_managers": [
         "Affinity Global Capital Market Private Limited"
@@ -3272,7 +3171,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": null,
-      "updated_on": "2026-11-02T19:15+05:30",
+      "updated_on": "2026-11-03T00:01+05:30",
       "price": 94,
       "reservation": {
         "qib": 1.13,
@@ -3361,7 +3260,7 @@
         {
           "source": "Tracker D",
           "gmp": 15,
-          "at": "2026-11-02T23:31"
+          "at": "2026-11-03T00:01"
         },
         {
           "source": "Tracker C",
@@ -3377,23 +3276,23 @@
       "gmp_history": [
         {
           "date": "2026-10-31",
-          "gmp": 5
-        },
-        {
-          "date": "2026-11-01",
-          "gmp": 15
+          "gmp": 4.25
         },
         {
           "date": "2026-11-02",
           "gmp": 15
+        },
+        {
+          "date": "2026-11-03",
+          "gmp": 15
         }
       ],
-      "history_source": "Tracker B",
+      "history_source": "Tracker D",
       "gmp_low": 4,
       "gmp_high": 15,
       "exchange": "SME",
       "gmp": 15,
-      "gmp_asof": "2026-11-02T23:31",
+      "gmp_asof": "2026-11-03T00:01",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 15.96,
       "gmp_spread": {
@@ -3405,7 +3304,7 @@
       },
       "gmp_trend": {
         "dir": "rising",
-        "change": 10,
+        "change": 10.75,
         "days": 3,
         "since": "2026-10-31"
       },
@@ -3549,7 +3448,7 @@
       "sub_asof": "2026-11-02T18:54",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-02T23:45"
+        "at": "2026-11-03T00:01"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3696,7 +3595,7 @@
         {
           "source": "Tracker D",
           "gmp": 10,
-          "at": "2026-11-02T23:31"
+          "at": "2026-11-03T00:01"
         },
         {
           "source": "Tracker B",
@@ -3724,13 +3623,17 @@
         {
           "date": "2026-11-02",
           "gmp": 10
+        },
+        {
+          "date": "2026-11-03",
+          "gmp": 10
         }
       ],
       "history_source": "Tracker D",
       "gmp_low": 5,
       "gmp_high": 13,
       "gmp": 10,
-      "gmp_asof": "2026-11-02T23:31",
+      "gmp_asof": "2026-11-03T00:01",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 5.0,
       "gmp_spread": {
@@ -3741,12 +3644,12 @@
         "diff_pct_of_price": 0.0
       },
       "gmp_trend": {
-        "dir": "falling",
-        "change": -2,
+        "dir": "rising",
+        "change": 5,
         "days": 3,
-        "since": "2026-10-30"
+        "since": "2026-10-31"
       },
-      "status": "open",
+      "status": "closing_today",
       "ai_gmp": {
         "gmp": 10,
         "as_of": "2026-10-31",
@@ -3875,17 +3778,17 @@
         "total": 1.31
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-02T22:46",
+      "sub_asof": "2026-11-02T23:48",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-02T23:45"
+        "at": "2026-11-03T00:01"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
       "gmp_history": [],
       "gmp": null,
       "gmp_pct": null,
-      "status": "open",
+      "status": "closing_today",
       "ai_gmp_none": {
         "why": "we could not confirm it on the page (the site does not allow us to open that page)",
         "checked": "2026-11-02T17:26+05:30"
