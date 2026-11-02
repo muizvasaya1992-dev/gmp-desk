@@ -2,5 +2,14 @@
   "gmp_csv_url": "",
   "gmp_autofill": {
     "trackers": true
-  }
+  },
+  "news_feeds": [
+    "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms",
+    "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms",
+    "https://www.livemint.com/rss/markets",
+    "https://www.thehindubusinessline.com/markets/feeder/default.rss",
+    "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss",
+    "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml",
+    "https://www.freepressjournal.in/stories.rss?section=business"
+  ]
 }
