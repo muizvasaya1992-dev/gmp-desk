@@ -29,7 +29,7 @@ if errorlevel 1 (
 
 echo.
 echo [3/5] Syncing with GitHub...
-git pull --rebase --autostash -X theirs origin main
+git pull --rebase --autostash -X theirs -X no-renames origin main
 if errorlevel 1 goto fail
 
 echo.
@@ -45,8 +45,17 @@ if errorlevel 1 (
 
 echo.
 echo [5/5] Publishing...
-git push
-if errorlevel 1 goto fail
+rem The automatic timer on GitHub may push while this runs, so try again after pulling its changes.
+for /l %%A in (1,1,3) do (
+  git push && goto pushed
+  echo   GitHub moved ahead, pulling its changes and trying again (attempt %%A of 3)...
+  git pull --rebase --autostash -X theirs -X no-renames origin main
+  if errorlevel 1 goto fail
+)
+echo.
+echo Could not publish after three tries. Run this file again in a minute.
+goto fail
+:pushed
 
 echo.
 echo Done! Your live site updates in 1 to 2 minutes.
