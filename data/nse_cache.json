@@ -1310,7 +1310,7 @@
   "series": "EQ",
   "nse_status": "Active",
   "shares_offered": 16533012.0,
-  "last_seen": "2026-11-02T13:17+05:30",
+  "last_seen": "2026-11-02T10:54+05:30",
   "segment": "MAIN",
   "lot": 182,
   "registrar": "KFin Technologies Limited",
@@ -1320,17 +1320,17 @@
   "retail_max": 200000,
   "cutoff_time": "5:00 PM",
   "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_BCSSL.zip",
-  "details_at": "2026-11-02T00:01+05:30",
+  "details_at": "2026-11-02T10:54+05:30",
   "sub": {
-   "qib": 9.88,
-   "nii": 45.18,
-   "bnii": 49.09,
-   "snii": 37.35,
-   "retail": 14.65,
-   "total": 19.76
+   "qib": 9.84,
+   "nii": 10.75,
+   "bnii": 10.19,
+   "snii": 11.88,
+   "retail": 7.14,
+   "total": 8.7
   },
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-11-02T13:15",
+  "sub_asof": "2026-11-02T10:51",
   "sub_hist": [
    {
     "at": "2026-10-29T00:01+05:30",
@@ -1454,166 +1454,13 @@
     "total": 3.78
    },
    {
-    "at": "2026-10-31T21:45+05:30",
-    "qib": 6.56,
-    "nii": 1.8,
-    "bnii": 1.23,
-    "snii": 2.94,
-    "retail": 3.02,
-    "total": 1.12
-   },
-   {
-    "at": "2026-10-31T22:00+05:30",
-    "qib": 6.56,
-    "nii": 1.8,
-    "bnii": 1.23,
-    "snii": 2.94,
-    "retail": 3.02,
-    "total": 3.78
-   },
-   {
-    "at": "2026-10-31T22:15+05:30",
-    "qib": 6.56,
-    "nii": 1.8,
-    "bnii": 1.23,
-    "snii": 2.94,
-    "retail": 3.02,
-    "total": 1.12
-   },
-   {
-    "at": "2026-10-31T23:00+05:30",
-    "qib": 6.56,
-    "nii": 1.8,
-    "bnii": 1.23,
-    "snii": 2.94,
-    "retail": 3.02,
-    "total": 3.78
-   },
-   {
-    "at": "2026-11-02T10:15+05:30",
-    "qib": 6.57,
-    "nii": 5.7,
-    "bnii": 5.42,
-    "snii": 6.27,
-    "retail": 4.26,
-    "total": 5.24
-   },
-   {
-    "at": "2026-11-02T10:31+05:30",
-    "qib": 6.57,
-    "nii": 6.91,
-    "bnii": 6.33,
-    "snii": 8.06,
-    "retail": 5.38,
-    "total": 6.05
-   },
-   {
-    "at": "2026-11-02T10:45+05:30",
-    "qib": 6.57,
-    "nii": 9.75,
-    "bnii": 9.29,
-    "snii": 10.68,
-    "retail": 6.49,
-    "total": 7.21
-   },
-   {
-    "at": "2026-11-02T11:00+05:30",
+    "at": "2026-11-02T10:54+05:30",
     "qib": 9.84,
-    "nii": 11.68,
-    "bnii": 11.16,
-    "snii": 12.73,
-    "retail": 7.51,
-    "total": 9.08
-   },
-   {
-    "at": "2026-11-02T11:15+05:30",
-    "qib": 9.84,
-    "nii": 14.68,
-    "bnii": 14.5,
-    "snii": 15.05,
-    "retail": 8.42,
-    "total": 10.17
-   },
-   {
-    "at": "2026-11-02T11:31+05:30",
-    "qib": 9.84,
-    "nii": 16.64,
-    "bnii": 16.42,
-    "snii": 17.07,
-    "retail": 9.18,
-    "total": 10.96
-   },
-   {
-    "at": "2026-11-02T11:46+05:30",
-    "qib": 9.85,
-    "nii": 19.46,
-    "bnii": 19.68,
-    "snii": 19.02,
-    "retail": 9.91,
-    "total": 11.93
-   },
-   {
-    "at": "2026-11-02T12:00+05:30",
-    "qib": 9.87,
-    "nii": 22.68,
-    "bnii": 23.35,
-    "snii": 21.32,
-    "retail": 10.63,
-    "total": 12.97
-   },
-   {
-    "at": "2026-11-02T12:15+05:30",
-    "qib": 9.87,
-    "nii": 25.26,
-    "bnii": 26.07,
-    "snii": 23.63,
-    "retail": 11.36,
-    "total": 13.88
-   },
-   {
-    "at": "2026-11-02T12:31+05:30",
-    "qib": 9.87,
-    "nii": 31.14,
-    "bnii": 32.78,
-    "snii": 27.86,
-    "retail": 12.25,
-    "total": 15.58
-   },
-   {
-    "at": "2026-11-02T12:45+05:30",
-    "qib": 9.87,
-    "nii": 36.35,
-    "bnii": 38.97,
-    "snii": 31.09,
-    "retail": 12.97,
-    "total": 17.05
-   },
-   {
-    "at": "2026-11-02T13:00+05:30",
-    "qib": 9.88,
-    "nii": 38.87,
-    "bnii": 41.69,
-    "snii": 33.22,
-    "retail": 13.62,
-    "total": 17.91
-   },
-   {
-    "at": "2026-11-02T13:15+05:30",
-    "qib": 9.88,
-    "nii": 44.39,
-    "bnii": 48.17,
-    "snii": 36.83,
-    "retail": 14.51,
-    "total": 19.53
-   },
-   {
-    "at": "2026-11-02T13:17+05:30",
-    "qib": 9.88,
-    "nii": 45.18,
-    "bnii": 49.09,
-    "snii": 37.35,
-    "retail": 14.65,
-    "total": 19.76
+    "nii": 10.75,
+    "bnii": 10.19,
+    "snii": 11.88,
+    "retail": 7.14,
+    "total": 8.7
    }
   ],
   "reservation": {
@@ -1633,9 +1480,9 @@
   "series": "SME",
   "nse_status": "Active",
   "shares_offered": null,
-  "last_seen": "2026-11-02T13:17+05:30",
+  "last_seen": "2026-11-02T10:54+05:30",
   "segment": "SME",
-  "details_at": "2026-11-02T00:01+05:30",
+  "details_at": "2026-11-02T10:54+05:30",
   "sub": {
    "qib": 0.0,
    "nii": 0.0,
@@ -1644,7 +1491,7 @@
    "total": 0.0
   },
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-11-02T13:15",
+  "sub_asof": "2026-11-02T10:51",
   "registrar": "KFin Technologies Limited",
   "lead_managers": [
    "JDA CAPITAL SERVICES LIMITED (Formerly Known as Beeline Broking Limited)"
@@ -1677,9 +1524,9 @@
   "series": "SME",
   "nse_status": "Active",
   "shares_offered": null,
-  "last_seen": "2026-11-02T13:17+05:30",
+  "last_seen": "2026-11-02T10:54+05:30",
   "segment": "SME",
-  "details_at": "2026-11-02T00:01+05:30",
+  "details_at": "2026-11-02T10:54+05:30",
   "registrar": "Kfin Technologies Limited",
   "lead_managers": [
    "Hem Securities Limited"
@@ -1694,7 +1541,7 @@
    "total": 0.0
   },
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-11-02T13:15",
+  "sub_asof": "2026-11-02T10:51",
   "sub_hist": [
    {
     "at": "2026-10-30T09:45+05:30",
@@ -1721,7 +1568,7 @@
   "series": "SME",
   "nse_status": "Active",
   "shares_offered": null,
-  "last_seen": "2026-11-02T13:17+05:30",
+  "last_seen": "2026-11-02T10:54+05:30",
   "segment": "SME",
   "registrar": "Cameo Corporate Services Limited",
   "lead_managers": [
@@ -1729,7 +1576,7 @@
   ],
   "cutoff_time": "5:00 PM",
   "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_VPFL.zip",
-  "details_at": "2026-11-02T00:01+05:30",
+  "details_at": "2026-11-02T10:54+05:30",
   "sub": {
    "qib": 0.0,
    "nii": 0.0,
@@ -1738,14 +1585,10 @@
    "total": 0.0
   },
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-11-02T13:15",
+  "sub_asof": "2026-11-02T10:51",
   "sub_hist": [
    {
-    "at": "2026-11-02T00:01+05:30",
-    "total": 0.0
-   },
-   {
-    "at": "2026-11-02T10:15+05:30",
+    "at": "2026-11-02T10:54+05:30",
     "qib": 0.0,
     "nii": 0.0,
     "bnii": 0.0,
