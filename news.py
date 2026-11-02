@@ -186,7 +186,7 @@ def run(root, recs, today, now=None, fixtures=None, offline=False, log=print):
                 xml = f.read_text(encoding="utf-8") if f.exists() else ""
             elif requests:
                 if not _robots_ok(requests, url):
-                    cache[url] = {"fetched": now.isoformat(timespec="minutes"), "items": [],
+                    cache[url] = {"fetched": now.isoformat(timespec="minutes"), "items": got.get("items") or [],
                                   "note": "robots.txt does not allow our bot"}
                     log(f"  News: {_publisher(url)} does not allow our bot, skipped")
                     continue
@@ -196,7 +196,8 @@ def run(root, recs, today, now=None, fixtures=None, offline=False, log=print):
                 fetched += 1
                 xml = r.text if r.status_code == 200 else ""
                 if r.status_code != 200:
-                    cache[url] = {"fetched": now.isoformat(timespec="minutes"), "items": [], "note": f"HTTP {r.status_code}"}
+                    cache[url] = {"fetched": now.isoformat(timespec="minutes"), "items": got.get("items") or [],
+                                  "note": f"HTTP {r.status_code}"}
                     log(f"  News: {_publisher(url)} returned {r.status_code}, skipped")
                     continue
             items = parse_feed(xml, _publisher(url))
@@ -223,8 +224,8 @@ def run(root, recs, today, now=None, fixtures=None, offline=False, log=print):
             r["news"] = hits
             store[r["id"]] = {"checked": now.isoformat(timespec="minutes"), "items": hits}
             matched += len(hits)
-        else:
-            store.pop(r["id"], None)
+        elif store.get(r["id"], {}).get("items"):
+            r["news"] = store[r["id"]]["items"]           # keep what was found earlier if this run came back empty
     for k in [k for k in store if k != "_feeds" and k not in {r["id"] for r in live}]:
         store.pop(k)
     store["_feeds"] = {u: v for u, v in cache.items() if u in feeds}
