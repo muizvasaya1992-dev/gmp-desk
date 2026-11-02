@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-03T01:15+05:30",
+  "fetched_at": "2026-11-03T01:31+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -87,6 +87,105 @@
     "ofs_cr": 0.0,
     "registrar": "KFin Technologies Limited",
     "lead_manager": "Smart Horizon Capital Advisors Pvt. Ltd.",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
+    "slug": "sfc-environmental-technologies",
+    "name": "SFC Environmental Technologies",
+    "segment": "MAIN",
+    "exchange": null,
+    "open": "2026-10-27",
+    "close": "2026-10-29",
+    "boa": "2026-10-30",
+    "listing": "2026-11-03",
+    "price": 330.0,
+    "price_low": 313.0,
+    "size_cr": 668.0,
+    "gmp": 15.5,
+    "gmp_at": "2026-11-02T23:55",
+    "sub_total": 9.47,
+    "sub_retail": 2.71,
+    "sub_at": "2026-10-29T19:05",
+    "sub_cats": {
+     "retail": 2.71,
+     "nii": 12.81,
+     "bnii": 14.49,
+     "snii": 9.44,
+     "qib": 18.81,
+     "total": 9.47
+    },
+    "gmp_days": [
+     [
+      "2026-10-20",
+      0.0
+     ],
+     [
+      "2026-10-21",
+      31.0
+     ],
+     [
+      "2026-10-22",
+      21.0
+     ],
+     [
+      "2026-10-23",
+      21.0
+     ],
+     [
+      "2026-10-24",
+      32.0
+     ],
+     [
+      "2026-10-25",
+      32.0
+     ],
+     [
+      "2026-10-26",
+      22.0
+     ],
+     [
+      "2026-10-27",
+      19.0
+     ],
+     [
+      "2026-10-28",
+      10.0
+     ],
+     [
+      "2026-10-29",
+      19.0
+     ],
+     [
+      "2026-10-30",
+      19.0
+     ],
+     [
+      "2026-10-31",
+      23.5
+     ],
+     [
+      "2026-11-01",
+      26.0
+     ],
+     [
+      "2026-11-02",
+      15.5
+     ]
+    ],
+    "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_SFCTECH.zip",
+    "drhp_url": "https://www.bseindia.com/corporates/download/329313/IPO%20Prior/DRHP_August_25_2025_20250825140721.pdf",
+    "lot_raw": 45.0,
+    "sector": "Environmental Technology / Wastewater Treatment",
+    "quota": {
+     "qib": 50.0,
+     "nii": 15.0,
+     "retail": 35.0
+    },
+    "fresh_cr": 150.0,
+    "ofs_cr": 517.53,
+    "registrar": "MUFG Intime India Pvt. Ltd.",
+    "lead_manager": "IIFL Capital Services Ltd.; JM Financial Ltd.; Nuvama Wealth Management Ltd.",
     "live": true
    },
    {
@@ -190,105 +289,6 @@
     "ofs_cr": 0.0,
     "registrar": "KFin Technologies Ltd.",
     "lead_manager": "Unistone Capital Pvt. Ltd.",
-    "live": true
-   },
-   {
-    "src": "Tracker B",
-    "slug": "sfc-environmental-technologies",
-    "name": "SFC Environmental Technologies",
-    "segment": "MAIN",
-    "exchange": null,
-    "open": "2026-10-27",
-    "close": "2026-10-29",
-    "boa": "2026-10-30",
-    "listing": "2026-11-03",
-    "price": 330.0,
-    "price_low": 313.0,
-    "size_cr": 668.0,
-    "gmp": 15.5,
-    "gmp_at": "2026-11-02T23:55",
-    "sub_total": 9.47,
-    "sub_retail": 2.71,
-    "sub_at": "2026-10-29T19:05",
-    "sub_cats": {
-     "retail": 2.71,
-     "nii": 12.81,
-     "bnii": 14.49,
-     "snii": 9.44,
-     "qib": 18.81,
-     "total": 9.47
-    },
-    "gmp_days": [
-     [
-      "2026-10-20",
-      0.0
-     ],
-     [
-      "2026-10-21",
-      31.0
-     ],
-     [
-      "2026-10-22",
-      21.0
-     ],
-     [
-      "2026-10-23",
-      21.0
-     ],
-     [
-      "2026-10-24",
-      32.0
-     ],
-     [
-      "2026-10-25",
-      32.0
-     ],
-     [
-      "2026-10-26",
-      22.0
-     ],
-     [
-      "2026-10-27",
-      19.0
-     ],
-     [
-      "2026-10-28",
-      10.0
-     ],
-     [
-      "2026-10-29",
-      19.0
-     ],
-     [
-      "2026-10-30",
-      19.0
-     ],
-     [
-      "2026-10-31",
-      23.5
-     ],
-     [
-      "2026-11-01",
-      26.0
-     ],
-     [
-      "2026-11-02",
-      15.5
-     ]
-    ],
-    "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_SFCTECH.zip",
-    "drhp_url": "https://www.bseindia.com/corporates/download/329313/IPO%20Prior/DRHP_August_25_2025_20250825140721.pdf",
-    "lot_raw": 45.0,
-    "sector": "Environmental Technology / Wastewater Treatment",
-    "quota": {
-     "qib": 50.0,
-     "nii": 15.0,
-     "retail": 35.0
-    },
-    "fresh_cr": 150.0,
-    "ofs_cr": 517.53,
-    "registrar": "MUFG Intime India Pvt. Ltd.",
-    "lead_manager": "IIFL Capital Services Ltd.; JM Financial Ltd.; Nuvama Wealth Management Ltd.",
     "live": true
    },
    {
@@ -490,7 +490,7 @@
     "gmp_at": "2026-11-02T23:55",
     "sub_total": 2.01,
     "sub_retail": 2.21,
-    "sub_at": "2026-11-03T00:42",
+    "sub_at": "2026-11-03T01:18",
     "sub_cats": {
      "retail": 2.21,
      "nii": 2.89,
@@ -600,7 +600,7 @@
     "gmp_at": "2026-11-02T23:55",
     "sub_total": 20.96,
     "sub_retail": 25.56,
-    "sub_at": "2026-11-03T01:11",
+    "sub_at": "2026-11-03T01:20",
     "sub_cats": {
      "retail": 25.56,
      "nii": 31.56,
@@ -653,7 +653,7 @@
     "gmp_at": "2026-11-02T23:55",
     "sub_total": 80.34,
     "sub_retail": 110.21,
-    "sub_at": "2026-11-03T01:11",
+    "sub_at": "2026-11-03T01:19",
     "sub_cats": {
      "retail": 110.21,
      "nii": 117.09,
@@ -876,6 +876,65 @@
    },
    {
     "src": "Tracker B",
+    "slug": "ajwa-projects",
+    "name": "Ajwa Projects Limited",
+    "segment": "SME",
+    "exchange": "BSE SME",
+    "open": "2026-10-28",
+    "close": "2026-10-30",
+    "boa": "2026-11-02",
+    "listing": "2026-11-04",
+    "price": 203.0,
+    "price_low": 203.0,
+    "size_cr": 38.05,
+    "gmp": 1.0,
+    "gmp_at": "2026-11-02T23:55",
+    "sub_total": 1.12,
+    "sub_retail": 1.93,
+    "sub_at": "2026-10-30T19:05",
+    "sub_cats": {
+     "retail": 1.93,
+     "nii": 0.32,
+     "total": 1.12
+    },
+    "gmp_days": [
+     [
+      "2026-10-28",
+      35.0
+     ],
+     [
+      "2026-10-29",
+      5.0
+     ],
+     [
+      "2026-10-30",
+      2.0
+     ],
+     [
+      "2026-10-31",
+      1.0
+     ],
+     [
+      "2026-11-02",
+      1.0
+     ]
+    ],
+    "rhp_url": null,
+    "drhp_url": null,
+    "lot_raw": 1200.0,
+    "sector": "Industrial EPC and Infrastructure",
+    "quota": {
+     "nii": 50.0,
+     "retail": 50.0
+    },
+    "fresh_cr": 30.45,
+    "ofs_cr": 7.6,
+    "registrar": "KFin Technologies Limited",
+    "lead_manager": "Wealth Mine Networks Private Limited",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
     "slug": "carver-roboweld",
     "name": "Carver Roboweld",
     "segment": "SME",
@@ -937,65 +996,6 @@
     "ofs_cr": 0.0,
     "registrar": "Bigshare Services Pvt. Ltd.",
     "lead_manager": "Smart Horizon Capital Advisors Pvt. Ltd.",
-    "live": true
-   },
-   {
-    "src": "Tracker B",
-    "slug": "ajwa-projects",
-    "name": "Ajwa Projects Limited",
-    "segment": "SME",
-    "exchange": "BSE SME",
-    "open": "2026-10-28",
-    "close": "2026-10-30",
-    "boa": "2026-11-02",
-    "listing": "2026-11-04",
-    "price": 203.0,
-    "price_low": 203.0,
-    "size_cr": 38.05,
-    "gmp": 1.0,
-    "gmp_at": "2026-11-02T23:55",
-    "sub_total": 1.12,
-    "sub_retail": 1.93,
-    "sub_at": "2026-10-30T19:05",
-    "sub_cats": {
-     "retail": 1.93,
-     "nii": 0.32,
-     "total": 1.12
-    },
-    "gmp_days": [
-     [
-      "2026-10-28",
-      35.0
-     ],
-     [
-      "2026-10-29",
-      5.0
-     ],
-     [
-      "2026-10-30",
-      2.0
-     ],
-     [
-      "2026-10-31",
-      1.0
-     ],
-     [
-      "2026-11-02",
-      1.0
-     ]
-    ],
-    "rhp_url": null,
-    "drhp_url": null,
-    "lot_raw": 1200.0,
-    "sector": "Industrial EPC and Infrastructure",
-    "quota": {
-     "nii": 50.0,
-     "retail": 50.0
-    },
-    "fresh_cr": 30.45,
-    "ofs_cr": 7.6,
-    "registrar": "KFin Technologies Limited",
-    "lead_manager": "Wealth Mine Networks Private Limited",
     "live": true
    },
    {
@@ -1102,7 +1102,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-03T01:15+05:30",
+  "fetched_at": "2026-11-03T01:31+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -1767,7 +1767,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-03T01:15+05:30",
+  "fetched_at": "2026-11-03T01:31+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -2623,54 +2623,54 @@
        25.0
       ]
      ],
-     "ratios": {
-      "eps": 13.56,
-      "fy": "FY26",
-      "nav": 44.28,
-      "pbv": 4.58,
-      "pe": 14.97,
-      "roce": 34.75,
-      "ronw": 36.15
-     },
-     "reservation": {
-      "market_maker": {
-       "pct": 5.06,
-       "shares": 94800
-      },
-      "nii": {
-       "pct": 49.97,
-       "shares": 890400
-      },
-      "retail": {
-       "pct": 50.03,
-       "shares": 889200
-      }
-     },
      "sub": {
-      "nii": 0.32,
+      "total": 1.12,
       "qib": 0.0,
-      "retail": 1.93,
-      "total": 1.12
+      "nii": 0.32,
+      "retail": 1.93
      },
      "sub_at": "2026-10-30T17:40",
+     "reservation": {
+      "nii": {
+       "shares": 890400,
+       "pct": 49.97
+      },
+      "retail": {
+       "shares": 889200,
+       "pct": 50.03
+      },
+      "market_maker": {
+       "shares": 94800,
+       "pct": 5.06
+      }
+     },
      "uses": [
       {
-       "cr": 8.1,
-       "use": "Asset"
+       "use": "Asset",
+       "cr": 8.1
       },
       {
-       "cr": 9.35,
-       "use": "Debt"
+       "use": "Debt",
+       "cr": 9.35
       },
       {
-       "cr": 4.0,
-       "use": "Capital"
+       "use": "Capital",
+       "cr": 4.0
       },
       {
-       "cr": 4.43,
-       "use": "Other"
+       "use": "Other",
+       "cr": 4.43
       }
-     ]
+     ],
+     "ratios": {
+      "pe": 14.97,
+      "eps": 13.56,
+      "fy": "FY26",
+      "pbv": 4.58,
+      "nav": 44.28,
+      "ronw": 36.15,
+      "roce": 34.75
+     }
     }
    },
    {
@@ -2726,101 +2726,101 @@
        0.0
       ]
      ],
-     "ratios": {
-      "eps": 3.78,
-      "fy": "FY26",
-      "nav": 16.86,
-      "pbv": 4.74,
-      "pe": 21.16,
-      "roce": 24.5,
-      "ronw": 21.57
-     },
-     "reservation": {
-      "anchor": {
-       "pct": 28.19,
-       "shares": 996800
-      },
-      "bnii": {
-       "pct": 9.64,
-       "shares": 340800
-      },
-      "market_maker": {
-       "pct": 5.02,
-       "shares": 177600
-      },
-      "nii": {
-       "pct": 14.48,
-       "shares": 512000
-      },
-      "qib": {
-       "pct": 47.1,
-       "shares": 1665600
-      },
-      "qib_ex_anchor": {
-       "pct": 18.91,
-       "shares": 668800
-      },
-      "retail": {
-       "pct": 33.39,
-       "shares": 1180800
-      },
-      "snii": {
-       "pct": 9.64,
-       "shares": 171200
-      }
-     },
      "sub": {
-      "nii": 40.39,
+      "total": 25.8,
       "qib": 26.33,
-      "retail": 19.17,
-      "total": 25.8
+      "nii": 40.39,
+      "retail": 19.17
      },
      "sub_at": "2026-10-30T17:40",
+     "reservation": {
+      "qib": {
+       "shares": 1665600,
+       "pct": 47.1
+      },
+      "anchor": {
+       "shares": 996800,
+       "pct": 28.19
+      },
+      "qib_ex_anchor": {
+       "shares": 668800,
+       "pct": 18.91
+      },
+      "nii": {
+       "shares": 512000,
+       "pct": 14.48
+      },
+      "bnii": {
+       "shares": 340800,
+       "pct": 9.64
+      },
+      "snii": {
+       "shares": 171200,
+       "pct": 9.64
+      },
+      "retail": {
+       "shares": 1180800,
+       "pct": 33.39
+      },
+      "market_maker": {
+       "shares": 177600,
+       "pct": 5.02
+      }
+     },
      "uses": [
       {
-       "cr": 11.99,
-       "use": "Robots"
+       "use": "Robots",
+       "cr": 11.99
       },
       {
-       "cr": 8.6,
-       "use": "Debt"
+       "use": "Debt",
+       "cr": 8.6
       }
      ],
      "years": [
       {
-       "assets": 21.59,
-       "debt": 13.39,
-       "ebitda": 4.12,
+       "y": "FY24",
        "income": 21.67,
-       "net_worth": 3.11,
        "pat": 1.01,
-       "roce": null,
+       "ebitda": 4.12,
+       "net_worth": 3.11,
+       "debt": 13.39,
+       "assets": 21.59,
        "roe": null,
-       "y": "FY24"
+       "roce": null
       },
       {
-       "assets": 32.69,
-       "debt": 22.32,
-       "ebitda": 4.92,
+       "y": "FY25",
        "income": 24.97,
-       "net_worth": 4.56,
        "pat": 1.45,
-       "roce": 13.95,
+       "ebitda": 4.92,
+       "net_worth": 4.56,
+       "debt": 22.32,
+       "assets": 32.69,
        "roe": 37.82,
-       "y": "FY25"
+       "roce": 13.95
       },
       {
-       "assets": 38.26,
-       "debt": 15.65,
-       "ebitda": 8.36,
+       "y": "FY26",
        "income": 27.12,
-       "net_worth": 16.13,
        "pat": 3.48,
-       "roce": 21.64,
+       "ebitda": 8.36,
+       "net_worth": 16.13,
+       "debt": 15.65,
+       "assets": 38.26,
        "roe": 33.63,
-       "y": "FY26"
+       "roce": 21.64
       }
-     ]
+     ],
+     "ratios": {
+      "pe": 21.16,
+      "eps": 3.78,
+      "fy": "FY26",
+      "pbv": 4.74,
+      "nav": 16.86,
+      "ronw": 21.57,
+      "roce": 24.5
+     }
     }
    },
    {
@@ -2892,97 +2892,97 @@
        0.0
       ]
      ],
-     "ratios": {
-      "eps": 12.13,
-      "fy": "FY26",
-      "nav": 39.36,
-      "pbv": 4.12,
-      "pe": 13.36,
-      "roce": 39.88,
-      "ronw": 30.83
-     },
-     "reservation": {
-      "anchor": {
-       "pct": 30.0,
-       "shares": 5100000
-      },
-      "bnii": {
-       "pct": 10.0,
-       "shares": 1700000
-      },
-      "nii": {
-       "pct": 15.0,
-       "shares": 2550000
-      },
-      "qib": {
-       "pct": 50.0,
-       "shares": 8500000
-      },
-      "qib_ex_anchor": {
-       "pct": 20.0,
-       "shares": 3400000
-      },
-      "snii": {
-       "pct": 5.0,
-       "shares": 850000
-      }
-     },
      "sub": {
-      "nii": 14.12,
+      "total": 5.09,
       "qib": 1.84,
-      "retail": 3.08,
-      "total": 5.09
+      "nii": 14.12,
+      "retail": 3.08
      },
      "sub_at": "2026-10-31T09:54",
+     "reservation": {
+      "qib": {
+       "shares": 8500000,
+       "pct": 50.0
+      },
+      "anchor": {
+       "shares": 5100000,
+       "pct": 30.0
+      },
+      "qib_ex_anchor": {
+       "shares": 3400000,
+       "pct": 20.0
+      },
+      "nii": {
+       "shares": 2550000,
+       "pct": 15.0
+      },
+      "bnii": {
+       "shares": 1700000,
+       "pct": 10.0
+      },
+      "snii": {
+       "shares": 850000,
+       "pct": 5.0
+      }
+     },
      "uses": [
       {
-       "cr": 152.84,
-       "use": "Setup"
+       "use": "Setup",
+       "cr": 152.84
       },
       {
-       "cr": 152.84,
-       "use": "Growth"
+       "use": "Growth",
+       "cr": 152.84
       },
       {
-       "cr": 30.0,
-       "use": "Debt"
+       "use": "Debt",
+       "cr": 30.0
       }
      ],
      "years": [
       {
-       "assets": 95.21,
-       "debt": 38.64,
-       "ebitda": 12.87,
+       "y": "FY24",
        "income": 217.4,
-       "net_worth": 22.27,
        "pat": 8.17,
-       "roce": 40.62,
+       "ebitda": 12.87,
+       "net_worth": 22.27,
+       "debt": 38.64,
+       "assets": 95.21,
        "roe": 36.56,
-       "y": "FY24"
+       "roce": 40.62
       },
       {
-       "assets": 219.64,
-       "debt": 68.93,
-       "ebitda": 38.57,
+       "y": "FY25",
        "income": 351.32,
-       "net_worth": 116.21,
        "pat": 23.26,
-       "roce": 27.24,
+       "ebitda": 38.57,
+       "net_worth": 116.21,
+       "debt": 68.93,
+       "assets": 219.64,
        "roe": 19.98,
-       "y": "FY25"
+       "roce": 27.24
       },
       {
-       "assets": 283.21,
-       "debt": 68.44,
-       "ebitda": 82.94,
+       "y": "FY26",
        "income": 538.86,
-       "net_worth": 167.9,
        "pat": 51.8,
-       "roce": 39.88,
+       "ebitda": 82.94,
+       "net_worth": 167.9,
+       "debt": 68.44,
+       "assets": 283.21,
        "roe": 30.83,
-       "y": "FY26"
+       "roce": 39.88
       }
-     ]
+     ],
+     "ratios": {
+      "pe": 13.36,
+      "eps": 12.13,
+      "fy": "FY26",
+      "pbv": 4.12,
+      "nav": 39.36,
+      "ronw": 30.83,
+      "roce": 39.88
+     }
     }
    },
    {
