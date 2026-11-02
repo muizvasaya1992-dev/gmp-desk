@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T18:31+05:30",
+  "generated_at": "2026-11-02T18:32+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,8 +23,8 @@
     "fetched_at": "2026-11-02T10:54+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-02T18:31+05:30",
-    "bse_ok_at": "2026-11-02T18:31+05:30"
+    "nse_ok_at": "2026-11-02T18:32+05:30",
+    "bse_ok_at": "2026-11-02T18:32+05:30"
   },
   "ipos": [
     {
@@ -1636,7 +1636,7 @@
         "retail": 33.73,
         "total": 60.77
       },
-      "updated_on": "2026-11-02T18:30+05:30",
+      "updated_on": "2026-11-02T18:32+05:30",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "Smart Horizon Capital Advisors Private Limited"
@@ -1650,7 +1650,7 @@
       "symbol": "BCSSL",
       "official": true,
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-11-02T18:27",
+      "sub_asof": "2026-11-02T18:30",
       "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_BCSSL.zip",
       "retail_max": 200000,
       "cutoff_time": "5:00 PM",
@@ -2159,7 +2159,7 @@
       "sub_asof": "2026-10-29T19:05",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-02T18:31"
+        "at": "2026-11-02T18:32"
       },
       "gmp_sources": [],
       "gmp_history": [],
@@ -2933,7 +2933,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": null,
-      "updated_on": "2026-11-02T18:30+05:30",
+      "updated_on": "2026-11-02T18:32+05:30",
       "price": 158,
       "reservation": {
         "qib": 49.84,
@@ -3109,7 +3109,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": null,
-      "updated_on": "2026-11-02T18:30+05:30",
+      "updated_on": "2026-11-02T18:32+05:30",
       "price": 120,
       "reservation": {
         "qib": 61.28,
@@ -3272,7 +3272,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": null,
-      "updated_on": "2026-11-02T18:30+05:30",
+      "updated_on": "2026-11-02T18:32+05:30",
       "price": 94,
       "reservation": {
         "qib": 1.13,
@@ -3549,7 +3549,7 @@
       "sub_asof": "2026-11-02T18:26",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-02T18:31"
+        "at": "2026-11-02T18:32"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3878,7 +3878,7 @@
       "sub_asof": "2026-11-02T18:30",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-02T18:31"
+        "at": "2026-11-02T18:32"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
