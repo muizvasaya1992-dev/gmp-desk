@@ -3,6 +3,9 @@
   "peer_b_url": "PASTE ADDRESS B HERE",
   "peer_c_url": "PASTE ADDRESS C HERE",
   "peer_d_url": "PASTE ADDRESS D HERE",
-  "gemini_api_key": "PASTE YOUR GEMINI KEY HERE",
+  "gemini_api_key": [
+    "PASTE YOUR FIRST GEMINI KEY HERE",
+    "PASTE A SECOND KEY HERE, OR DELETE THIS LINE"
+  ],
   "gemini_model": "gemini-2.5-flash"
 }

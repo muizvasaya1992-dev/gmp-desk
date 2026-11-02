@@ -545,8 +545,44 @@ def load(root, today, offline=False, fixtures=None):
 
 
 # ------------------------------------------------------------------ apply to our records
-def apply(recs, peers, today, stamp):
+def _remember(root, recs, today):
+    """IPOs that only these sources know about are kept until they list, so one does not vanish mid-issue."""
+    if not root:
+        return {}
+    path = pathlib.Path(root) / "data" / "peers_added.json"
+    try:
+        kept = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        kept = {}
+    if not isinstance(kept, dict):
+        kept = {}
+    have = {_norm(r.get("id")) for r in recs} | {_norm(r.get("name")) for r in recs}
+    for k, saved in list(kept.items()):
+        end = saved.get("listing") or saved.get("close") or ""
+        try:
+            gone = end and (today - dt.date.fromisoformat(end)).days > 3
+        except ValueError:
+            gone = False
+        if gone:
+            kept.pop(k)                                                     # it has listed: the exchange feeds own it now
+        elif _norm(k) not in have and _norm(saved.get("name")) not in have:
+            recs.append(dict(saved))                                        # still mid-issue but off the lists today
+    return kept
+
+
+def _save_remembered(root, kept):
+    if not root:
+        return
+    path = pathlib.Path(root) / "data" / "peers_added.json"
+    try:
+        path.write_text(json.dumps(kept, indent=1, ensure_ascii=False, sort_keys=True), encoding="utf-8")
+    except OSError:
+        pass
+
+
+def apply(recs, peers, today, stamp, root=None):
     """Adds IPOs that no official list has yet, fills subscription where we have none, and returns GMP rows."""
+    kept = _remember(root, recs, today)
     idx = {}
     for r in recs:
         for k in _keys(r.get("id"), r.get("symbol"), r.get("name")):
@@ -573,6 +609,7 @@ def apply(recs, peers, today, stamp):
             if p.get("exchange"):
                 mine["exchange"] = p["exchange"]
             recs.append(mine)
+            kept[mine["id"]] = dict(mine)
             for k in _keys(mine["id"], nm, p["slug"]):
                 idx[k] = mine
             added += 1
@@ -614,6 +651,14 @@ def apply(recs, peers, today, stamp):
         if lot:
             mine["lot"], mine["lot_basis"] = _tidy(lot), "tracker"
             lots += 1
+    for k in list(kept):                                                    # keep the saved copy's dates and price current
+        for r in recs:
+            if r.get("id") == k:
+                kept[k] = {f: r.get(f) for f in ("id", "name", "segment", "exchange", "price", "price_low", "lot",
+                                                 "size_cr", "open", "close", "boa", "listing", "from_peers")
+                           if r.get(f) is not None}
+                break
+    _save_remembered(root, kept)
     if added or subs or rows or lots:
         print(f"  peers: {added} IPO(s) added from them, {subs} subscription figure(s) filled, {lots} lot size(s) filled, {len(rows)} GMP reading(s)")
     return rows

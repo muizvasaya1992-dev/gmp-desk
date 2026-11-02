@@ -28,6 +28,8 @@ MODELS = ["gemini-3.8-flash", "gemini-flash-latest", "gemini-2.5-flash"]
 MODEL = MODELS[0]
 ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 PASSES = 2                       # ask twice, independently, and publish only if the two answers agree
+ONLY_MISSING = True              # ask only about IPOs our own sources have no GMP for, which is where this helps
+QUOTA_PAUSE_H = 6                # after the key runs out of quota, leave it alone this long
 MAX_PER_RUN = 15                 # at most this many IPOs asked about in one run
 EVERY_HOURS = 20                 # and each IPO at most once a day
 PAUSE_S = 2.0
@@ -75,8 +77,27 @@ def _private(root):
         return {}
 
 
-def _key(root):
-    return (os.environ.get("GEMINI_API_KEY") or str(_private(root).get("gemini_api_key") or "")).strip()
+def _api_keys(root):
+    """One key or several. In data/private.json use "gemini_api_key": "k" or ["k1", "k2"], or "gemini_api_keys".
+    In the GEMINI_API_KEY secret, separate several keys with commas. They are used in order."""
+    raw = os.environ.get("GEMINI_API_KEY") or ""
+    if not raw:
+        pj = _private(root)
+        raw = pj.get("gemini_api_keys") or pj.get("gemini_api_key") or ""
+    if isinstance(raw, str):
+        raw = raw.replace("\n", ",").split(",")
+    out = []
+    for k in raw if isinstance(raw, list) else []:
+        k = str(k).strip()
+        if k and k not in out and not k.lower().startswith("paste"):
+            out.append(k)
+    return out
+
+
+def _fingerprint(key):
+    """A short, one-way tag so a cooled-off key can be remembered without the key itself being written anywhere."""
+    import hashlib
+    return hashlib.sha256(key.encode("utf-8")).hexdigest()[:10]
 
 
 def _models(root):
@@ -138,35 +159,56 @@ class GiveUp(Exception):
     """No model is going to work this run, so stop asking instead of waiting on every IPO in turn."""
 
 
-def _first_that_answers(key, prompt, models, chosen, dead, log=print):
-    """Uses whichever model worked last; a model that fails for good is dropped for the rest of the run."""
-    order = ([chosen] if chosen and chosen not in dead else []) + [m for m in models if m not in dead and m != chosen]
+def _first_that_answers(state, prompt, log=print):
+    """Tries the current key, then the next key when one runs out of quota, and each model in turn.
+    Returns (text, urls). Raises GiveUp when every key is spent."""
+    models, dead = state["models"], state["dead_models"]
     last = None
-    for m in order:
-        try:
-            text, urls = _ask(key, prompt, m)
-            if text:
-                if m != chosen:
-                    log(f"  AI GMP: using model {m}")
-                return text, urls, m
-            last = ApiError(0, "empty reply")
-        except ApiError as e:
-            last = e
-            if e.status == 429:
-                raise GiveUp(f"the daily quota or rate limit is used up ({e.message[:120]})")
-            if e.permanent:
-                dead.add(m)
-                log(f"  AI GMP: {m} cannot be used — {e.message[:160]}")
-            else:
-                log(f"  AI GMP: {m} failed ({e}), trying the next model")
-        except Exception as e:                           # a timeout or a dropped connection: try the next model
-            last = e
-            log(f"  AI GMP: {m} failed ({type(e).__name__}), trying the next model")
-    if all(m in dead for m in models):
-        raise GiveUp("none of the models would answer, see the messages above")
-    if last:
-        raise last
-    return None, [], chosen
+    while True:
+        key = state["keys"][state["ki"]] if state["ki"] < len(state["keys"]) else None
+        if key is None:
+            raise GiveUp("every key has run out of quota for now")
+        chosen = state.get("model")
+        order = ([chosen] if chosen and chosen not in dead else []) + [m for m in models if m not in dead and m != chosen]
+        if not order:
+            raise GiveUp("none of the models would answer, see the messages above")
+        spent = False
+        for m in order:
+            try:
+                text, urls = _ask(key, prompt, m)
+                if text:
+                    if m != chosen:
+                        log(f"  AI GMP: using model {m}")
+                        state["model"] = m
+                    return text, urls
+                last = ApiError(0, "empty reply")
+            except ApiError as e:
+                last = e
+                if e.status == 429:
+                    state["cooled"][_fingerprint(key)] = state["until"]
+                    log(f"  AI GMP: key {state['ki'] + 1} of {len(state['keys'])} is out of quota, moving to the next key")
+                    state["ki"] += 1
+                    spent = True
+                    break
+                if e.status in (401, 403):
+                    log(f"  AI GMP: key {state['ki'] + 1} was refused ({e.message[:120]}), moving to the next key")
+                    state["ki"] += 1
+                    spent = True
+                    break
+                if e.permanent:
+                    dead.add(m)
+                    log(f"  AI GMP: {m} cannot be used — {e.message[:160]}")
+                else:
+                    log(f"  AI GMP: {m} failed ({e}), trying the next model")
+            except Exception as e:                       # a timeout or a dropped connection: try the next model
+                last = e
+                log(f"  AI GMP: {m} failed ({type(e).__name__}), trying the next model")
+        if spent:
+            continue                                     # same question, next key
+        if all(m in dead for m in models):
+            raise GiveUp("none of the models would answer, see the messages above")
+        if last:
+            raise last
 
 
 def _json_from(text):
@@ -372,6 +414,13 @@ def _robots_ok(requests, url):
     return p.can_fetch(UA, url)
 
 
+def _still_cooling(until, now):
+    try:
+        return bool(until) and now < dt.datetime.fromisoformat(until)
+    except Exception:
+        return False
+
+
 def run(root, recs, today, now=None, fixtures=None, offline=False, log=print):
     """Fills r['ai_gmp'] on every live IPO we have an answer for. Safe to call on every build."""
     root = pathlib.Path(root)
@@ -386,12 +435,21 @@ def run(root, recs, today, now=None, fixtures=None, offline=False, log=print):
     live = [r for r in recs
             if r.get("status") in ("upcoming", "open", "closing_today", "closed")
             and r.get("price") and r.get("name")]
+    ask_about = [r for r in live if not (ONLY_MISSING and r.get("gmp") is not None)]
+
     ids = {r["id"] for r in live}
-    for k in [k for k in store if k not in ids]:                 # forget IPOs that have listed
+    for k in [k for k in store if k not in ids and not k.startswith("_")]:   # forget IPOs that have listed
         store.pop(k)
-    key = "" if fixtures else _key(root)
-    models, model, dead, stop = _models(root), None, set(), ""
-    if not key and not fixtures and not offline:
+    allkeys = [] if fixtures else _api_keys(root)
+    cooled = store.get("_cooled") if isinstance(store.get("_cooled"), dict) else {}
+    ready = [k for k in allkeys if not _still_cooling(cooled.get(_fingerprint(k)), now)]
+    if allkeys and not ready:
+        when = min((v for v in cooled.values() if isinstance(v, str)), default="")
+        log(f"  AI GMP: all {len(allkeys)} key(s) are out of quota" + (f", next try after {when[11:16]}" if when else ""))
+    state = {"keys": ready, "ki": 0, "models": _models(root), "dead_models": set(), "model": None,
+             "cooled": cooled, "until": (now + dt.timedelta(hours=QUOTA_PAUSE_H)).isoformat(timespec="minutes")}
+    key, models, stop = (ready[0] if ready else ""), state["models"], ""
+    if not allkeys and not fixtures and not offline:
         log("  AI GMP: no key set, using what is already saved")
     asked = ok = 0
     for r in live:
@@ -407,7 +465,8 @@ def run(root, recs, today, now=None, fixtures=None, offline=False, log=print):
                 fresh = now - dt.datetime.fromisoformat(was["checked"]) < dt.timedelta(hours=FAIL_RETRY_H)
             except Exception:
                 fresh = False
-        if not stop and not fresh and (fixtures or (key and not offline and asked < MAX_PER_RUN)):
+        wanted = any(x is r for x in ask_about)
+        if wanted and not stop and not fresh and (fixtures or (ready and not offline and asked < MAX_PER_RUN)):
             prompt = PROMPT.format(today=today.isoformat(), name=r["name"],
                                    seg="SME IPO" if r.get("segment") == "SME" else "Mainboard IPO",
                                    price=r["price"], open=r.get("open") or "to be announced",
@@ -421,7 +480,7 @@ def run(root, recs, today, now=None, fixtures=None, offline=False, log=print):
                     else:
                         if asked:
                             time.sleep(PAUSE_S)
-                        text, urls, model = _first_that_answers(key, prompt, models, model, dead, log)
+                        text, urls = _first_that_answers(state, prompt, log)
                         asked += 1
                     one, why1 = check(_json_from(text), urls, r.get("price"), today)
                     tries.append(one)
@@ -446,7 +505,7 @@ def run(root, recs, today, now=None, fixtures=None, offline=False, log=print):
                     fits, why3 = cross_check(got["gmp"], r.get("gmp"), r.get("price"))
                     if not fits:
                         got, why = None, why3
-                was = {"checked": now.isoformat(timespec="minutes"), "model": model or models[0]}
+                was = {"checked": now.isoformat(timespec="minutes"), "model": state.get("model") or models[0]}
                 if got:
                     was.update(got)
                     ok += 1
@@ -468,8 +527,13 @@ def run(root, recs, today, now=None, fixtures=None, offline=False, log=print):
                 r["ai_gmp"]["pct"] = round(was["gmp"] / r["price"] * 100, 2)
         elif was:
             r["ai_gmp_none"] = {"why": was.get("none") or "no estimate", "checked": was.get("checked")}
+    store["_cooled"] = {k: v for k, v in state["cooled"].items() if _still_cooling(v, now)} or None
+    if store.get("_cooled") is None:
+        store.pop("_cooled", None)
     if asked or fixtures:
-        log(f"  AI GMP ({model or models[0]}): {asked} IPO(s) asked about, {ok} estimate(s) kept")
+        log(f"  AI GMP ({state.get('model') or models[0]}, key {min(state['ki'] + 1, max(len(state['keys']), 1))}"
+            f" of {len(allkeys) or 1}): {asked} IPO(s) asked about, {ok} estimate(s) kept"
+            + (f"; {len(ask_about)} of {len(live)} IPOs need one" if ONLY_MISSING else ""))
     try:
         path.write_text(json.dumps(store, indent=1, ensure_ascii=False, sort_keys=True), encoding="utf-8")
     except OSError:

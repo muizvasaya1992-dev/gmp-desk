@@ -95,11 +95,11 @@
    "exchange": "BSE SME",
    "live": true,
    "id": "antala-industries",
-   "status": "closing_today",
+   "status": "open",
    "open": "2026-10-29",
-   "close": "2026-11-02",
-   "price": 67,
-   "price_low": 63
+   "close": "2026-11-05",
+   "price": 66,
+   "price_low": 62
   },
   {
    "name": "Carver Roboweld",
@@ -5537,5 +5537,5 @@
    "status": "listed"
   }
  ],
- "generated_at": "2026-11-02T10:54+05:30"
+ "generated_at": "2026-11-02T17:26+05:30"
 }

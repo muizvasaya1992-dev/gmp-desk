@@ -1,13 +1,8 @@
 {
  "antala-industries": {
-  "as_of": "2026-10-31",
-  "checked": "2026-10-31T12:35+05:30",
-  "gmp": 0,
+  "checked": "2026-11-02T17:26+05:30",
   "model": "gemini-2.5-flash",
-  "note": "Trackers showed ₹0 as of October 31, 2026.",
-  "sources": [
-   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtRDbGwScaKE0lAeIf7uOKOVpfK695YTJIGuzhBUFdQI5UMFOp8oncd4CcMCr6LUdYdVofaeZsJyB6HEkakbjDr_13TQwUZJBeTZ6s3TFlxnKuxsKomexoV7eaS2JwYIBwJQt0nEIDQQFo6Pu-TOGathr_jvK-"
-  ]
+  "none": "the two checks disagreed (₹17 and ₹0)"
  },
  "bls-polymers": {
   "as_of": "2026-11-02",
@@ -96,14 +91,9 @@
   "spread": 0.0
  },
  "vectras-enprocon": {
-  "as_of": "2026-10-30",
-  "checked": "2026-10-31T12:35+05:30",
-  "gmp": 0,
+  "checked": "2026-11-02T17:26+05:30",
   "model": "gemini-2.5-flash",
-  "note": "GMP is ₹0 as of 2026-10-30.",
-  "sources": [
-   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmQMOo6nYP5LzEprpl8ciTHqgeNvL12xUY44HYK_Nc2Nzb1jsA8IOgAPoBZHB92dP0D5O5PQ5wRqk_IWj49c6yvfOZWfk2tCy2P0IwC49uBN5E9BnJuHWRWNfDuBBI8Fb7XV4gpPg_iw11BcyGtG9FnrHk"
-  ]
+  "none": "we could not confirm it on the page (the site does not allow us to open that page)"
  },
  "vpfl": {
   "as_of": "2026-10-31",

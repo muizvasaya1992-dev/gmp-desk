@@ -932,7 +932,7 @@ def main():
                 import peers
                 fx = next((a.split("=", 1)[1] for a in ARGS if a.startswith("--peers-from=")), None)
                 plist = peers.load(ROOT, now.date(), offline="--offline" in ARGS, fixtures=fx)
-                peer_rows = peers.keep_new(ROOT, peers.apply(recs, plist, now.date(), stamp))
+                peer_rows = peers.keep_new(ROOT, peers.apply(recs, plist, now.date(), stamp, ROOT))
         except Exception as e:                              # these sources are a bonus: never let them break the build
             print("Extra sources skipped:", type(e).__name__, e)
         try:
