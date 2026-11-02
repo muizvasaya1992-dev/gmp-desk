@@ -53,14 +53,9 @@
   "none": "only one of the two checks found a figure, so it is not confirmed"
  },
  "hgsindialt": {
-  "as_of": "2026-10-31",
-  "checked": "2026-10-31T12:35+05:30",
-  "gmp": 30,
+  "checked": "2026-11-02T13:24+05:30",
   "model": "gemini-2.5-flash",
-  "note": "HGS (India) IPO GMP is ₹30.",
-  "sources": [
-   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoEdrMUKKZaIXnj3BSkY01t-aUowGOqfl4NfU2XcjSepW8uLl5izBvlFuHNu9JXSTJN8dvEhX7TFBhzaZJydxoUgL8dDhyh4sJ3-xuvTUndDR4T1iGmzclIFf2TZSFQ1Vdf-pNsAmphjslmlpZgCnAhANwBIA="
-  ]
+  "none": "we could not confirm it on the page (the site does not allow us to open that page)"
  },
  "johnsoncab-electricals": {
   "as_of": "2026-10-31",
@@ -73,24 +68,14 @@
   ]
  },
  "maxengs": {
-  "as_of": "2026-10-29",
-  "checked": "2026-10-31T12:35+05:30",
-  "gmp": 7,
+  "checked": "2026-11-02T13:24+05:30",
   "model": "gemini-2.5-flash",
-  "note": "Latest GMP ₹7 as of Oct 29",
-  "sources": [
-   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkXl9WUi68c66ZjfOogCcZo9NPGt8SEJpSx8pQBv4fj6v0toX8bjfMidOunj7POB-4S_97ocuKALljJq0w6e_2NJS2_0---YYpF-kQVbUUhvDEC3Td9j2lk3wSdN8udEWSOq80bY7n5VfhxWzhVUBcbFZD"
-  ]
+  "none": "neither check found a figure"
  },
  "mksons": {
-  "as_of": "2026-10-30",
-  "checked": "2026-10-31T12:35+05:30",
-  "gmp": 7.5,
+  "checked": "2026-11-02T13:24+05:30",
   "model": "gemini-2.5-flash",
-  "note": "Latest GMP. ₹7.50. +4.6% of the ₹162 upper band.",
-  "sources": [
-   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxnKDH9aZtgJtMKL_Rcs3teJMPI5w3aol0QDoaV_UutANyvDTKW2d4xLgsDBD_ekQQKYrp4gQ91-tyxwg7dYCk7eiDuwpOySJXZPn4ua2SqXsnSlAfsQ9u8M1ldZRpbmYq-vO5ak8ND6kg"
-  ]
+  "none": "we could not confirm it on the page (the site does not allow us to open that page)"
  },
  "sfc-environmental-technologies": {
   "as_of": "2026-11-01",
