@@ -1,7 +1,7 @@
 {
  "_feeds": {
   "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms": {
-   "fetched": "2026-11-03T00:15+05:30",
+   "fetched": "2026-11-03T01:45+05:30",
    "items": [
     {
      "date": "2026-11-02",
@@ -306,7 +306,7 @@
    ]
   },
   "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms": {
-   "fetched": "2026-11-03T00:15+05:30",
+   "fetched": "2026-11-03T01:45+05:30",
    "items": [
     {
      "date": "2026-11-02",
@@ -611,8 +611,20 @@
    ]
   },
   "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml": {
-   "fetched": "2026-11-03T00:15+05:30",
+   "fetched": "2026-11-03T01:45+05:30",
    "items": [
+    {
+     "date": "2026-11-03",
+     "source": "cnbctv18.com",
+     "title": "US midterms: What control of Congress could mean for India's trade and markets",
+     "url": "https://www.cnbctv18.com/market/us-midterms-what-control-of-congress-could-mean-for-indias-trade-and-markets-20024564.htm"
+    },
+    {
+     "date": "2026-11-03",
+     "source": "cnbctv18.com",
+     "title": "US midterms 2026: How Trump's Congress battle could affect Wall Street, oil prices and the dollar",
+     "url": "https://www.cnbctv18.com/market/us-midterms-2026-how-trump-congress-battle-could-affect-wall-street-oil-prices-and-the-dollar-20025152.htm"
+    },
     {
      "date": "2026-11-02",
      "source": "cnbctv18.com",
@@ -1080,24 +1092,66 @@
      "source": "cnbctv18.com",
      "title": "Reliance Industries shares jump 6%, set for biggest single-day gain since Jan 2024 after Q2 earnings beat",
      "url": "https://www.cnbctv18.com/market/reliance-industries-ril-share-price-may-rise-39-percent-consensus-estimates-check-targets-q2-results-20024474.htm"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "cnbctv18.com",
-     "title": "Asia markets fall as AI sell-off hits tech stocks; Kospi, Nikkei open lower",
-     "url": "https://www.cnbctv18.com/market/asia-markets-fall-as-ai-sell-off-hits-tech-stocks-kospi-nikkei-open-lower-20024432.htm"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "cnbctv18.com",
-     "title": "CDSL shares rise 3% after Q2 profit jumps 24%; demat base grows 17%",
-     "url": "https://www.cnbctv18.com/market/cdsl-share-price-q2-results-profit-jumps-demat-base-grows-assets-under-custody-20024458.htm"
     }
    ]
   },
   "https://www.freepressjournal.in/stories.rss?section=business": {
-   "fetched": "2026-11-03T00:15+05:30",
+   "fetched": "2026-11-03T01:45+05:30",
    "items": [
+    {
+     "date": "2026-11-02",
+     "source": "freepressjournal.in",
+     "title": "MP's Khargone Narmada Parikrama Route Reopens After 11 Years, Pilgrims To Avoid 8–10 Km Detour Following Villagers' Restoration Efforts",
+     "url": "https://www.freepressjournal.in/indore/mps-khargone-narmada-parikrama-route-reopens-after-11-years-pilgrims-to-avoid-810-km-detour-following-villagers-restoration-efforts"
+    },
+    {
+     "date": "2026-11-02",
+     "source": "freepressjournal.in",
+     "title": "MP's Panna Class 7 Student Allegedly Beaten 100 Times With Stick By School Principal Over Homework, Stops Attending School",
+     "url": "https://www.freepressjournal.in/bhopal/mps-panna-class-7-student-allegedly-beaten-100-times-with-stick-by-school-principal-over-homework-stops-attending-school"
+    },
+    {
+     "date": "2026-11-02",
+     "source": "freepressjournal.in",
+     "title": "Maharashtra Govt Sanctions ₹291.91 Crore Relief For Farmers Hit By Heavy Rains And Floods Between June And August 2026",
+     "url": "https://www.freepressjournal.in/mumbai/maharashtra-govt-sanctions-29191-crore-relief-for-farmers-hit-by-heavy-rains-and-floods-between-june-and-august-2026"
+    },
+    {
+     "date": "2026-11-02",
+     "source": "freepressjournal.in",
+     "title": "Maharashtra Congress Chief Harshwardhan Sapkal Hits Back At BJP, CM Devendra Fadnavis Over Constitution Rallies And 'Vote Chori' Row",
+     "url": "https://www.freepressjournal.in/mumbai/maharashtra-congress-chief-harshwardhan-sapkal-hits-back-at-bjp-cm-devendra-fadnavis-over-constitution-rallies-and-vote-chori-row"
+    },
+    {
+     "date": "2026-11-02",
+     "source": "freepressjournal.in",
+     "title": "Ismail Yusuf College In Jogeshwari To Get Proposed 320-Student Girls' Hostel, Sports Complex And Building Upgrades",
+     "url": "https://www.freepressjournal.in/education/ismail-yusuf-college-in-jogeshwari-to-get-proposed-320-student-girls-hostel-sports-complex-and-building-upgrades"
+    },
+    {
+     "date": "2026-11-02",
+     "source": "freepressjournal.in",
+     "title": "Maharashtra CM Devendra Fadnavis Accuses Congress, Rahul Gandhi Of 'International Conspiracy' To Destabilise India",
+     "url": "https://www.freepressjournal.in/mumbai/maharashtra-cm-devendra-fadnavis-accuses-congress-rahul-gandhi-of-international-conspiracy-to-destabilise-india"
+    },
+    {
+     "date": "2026-11-02",
+     "source": "freepressjournal.in",
+     "title": "Mogra Nala Bridge In Oshiwara To Remain Closed Until May 31, 2027; Residents Fear Traffic Congestion",
+     "url": "https://www.freepressjournal.in/mumbai/mogra-nala-bridge-in-oshiwara-to-remain-closed-until-may-31-2027-residents-fear-traffic-congestion"
+    },
+    {
+     "date": "2026-11-02",
+     "source": "freepressjournal.in",
+     "title": "MP's Khargone And Dhar Police Seize 380 Cannabis Plants Worth Over ₹65 Lakh Hidden In Cotton Fields, One Arrested",
+     "url": "https://www.freepressjournal.in/indore/mps-khargone-and-dhar-police-seize-380-cannabis-plants-worth-over-65-lakh-hidden-in-cotton-fields-one-arrested"
+    },
+    {
+     "date": "2026-11-02",
+     "source": "freepressjournal.in",
+     "title": "Bageshwar Dham's Dhirendra Krishna Shastri Apologises Over Lord Krishna Remarks After Backlash From Mathura Saints",
+     "url": "https://www.freepressjournal.in/bhopal/bageshwar-dhams-dhirendra-krishna-shastri-apologises-over-lord-krishna-remarks-after-backlash-from-mathura-saints"
+    },
     {
      "date": "2026-11-02",
      "source": "freepressjournal.in",
@@ -1239,44 +1293,8 @@
     {
      "date": "2026-11-02",
      "source": "freepressjournal.in",
-     "title": "36-Hour Shutdown Against Siang Mega Dam Disrupts Normal Life In Parts Of Arunachal Pradesh",
-     "url": "https://www.freepressjournal.in/india/36-hour-shutdown-against-siang-mega-dam-disrupts-normal-life-in-parts-of-arunachal-pradesh"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "freepressjournal.in",
-     "title": "Dissent Fuels Democracy; Slander Corrodes It—Never Confuse The Two",
-     "url": "https://www.freepressjournal.in/analysis/dissent-fuels-democracy-slander-corrodes-itnever-confuse-the-two"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "freepressjournal.in",
-     "title": "Himachal Road Accident: Man & Son Die, 10-Year-Old Daughter Injured After Vehicle Falls Into Gorge",
-     "url": "https://www.freepressjournal.in/india/himachal-road-accident-man-son-die-10-year-old-daughter-injured-after-vehicle-falls-into-gorge"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "freepressjournal.in",
-     "title": "Bhopal Power Cut November 3: Electricity To Remain Disrupted In Malviya Nagar, Bhim Nagar, Galaxy Colony, Kanhakunj Colony, And Other Areas; Check Area-Wise Timings",
-     "url": "https://www.freepressjournal.in/bhopal/bhopal-power-cut-november-3-electricity-to-remain-disrupted-in-malviya-nagar-bhim-nagar-galaxy-colony-kanhakunj-colony-and-other-areas-check-area-wise-timings"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "freepressjournal.in",
-     "title": "UP's Agra Railway Officer Found Dead In DRM Office, Family Alleges Workplace Harassment As Staff Protest",
-     "url": "https://www.freepressjournal.in/uttar-pradesh/ups-agra-railway-officer-found-dead-in-drm-office-family-alleges-workplace-harassment-as-staff-protest"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "freepressjournal.in",
      "title": "Himanshu Sangwan Credits Disciplined Bowling, Teamwork For Railways' Performance Against Mumbai",
      "url": "https://www.freepressjournal.in/sports/himanshu-sangwan-credits-disciplined-bowling-teamwork-for-railways-performance-against-mumbai"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "freepressjournal.in",
-     "title": "AI Beyond Chatbots: Making Presentations Easier With AI Presentation Maker",
-     "url": "https://www.freepressjournal.in/focused-view/ai-beyond-chatbots-making-presentations-easier-with-ai-presentation-maker"
     },
     {
      "date": "2026-11-02",
@@ -1287,176 +1305,20 @@
     {
      "date": "2026-11-02",
      "source": "freepressjournal.in",
-     "title": "Palghar Leopard Attack: 65-Year-Old Woman Agricultural Labourer Killed In Vangaon; Residents Demand Forest Department Action",
-     "url": "https://www.freepressjournal.in/mumbai/palghar-leopard-attack-65-year-old-woman-agricultural-labourer-killed-in-vangaon-residents-demand-forest-department-action"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "freepressjournal.in",
      "title": "Raghuvanshi's 78, Sarfaraz's 55 Put Mumbai On Top Before Railways Fight Back In Ranji Trophy",
      "url": "https://www.freepressjournal.in/sports/raghuvanshis-78-sarfarazs-55-put-mumbai-on-top-before-railways-fight-back-in-ranji-trophy"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "freepressjournal.in",
-     "title": "BJP's 'Save Democracy, Remove Anarchy' Rally At Shivaji Park Sends Political Message To Sena UBT, MNS",
-     "url": "https://www.freepressjournal.in/mumbai/bjps-save-democracy-remove-anarchy-rally-at-shivaji-park-sends-political-message-to-sena-ubt-mns"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "freepressjournal.in",
-     "title": "'Only My Father Has Supported Me': Sarfaraz Khan Reflects On Sacrifices, Selectors & His Uncertain India Future",
-     "url": "https://www.freepressjournal.in/sports/only-my-father-has-supported-me-sarfaraz-khan-reflects-on-sacrifices-selectors-his-uncertain-india-future"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "freepressjournal.in",
-     "title": "FDA Seizes Food Products Worth ₹12.42 Crore Across Konkan Ahead Of Diwali, ₹4.06 Crore Oil Stock Found At Bhiwandi D-Mart",
-     "url": "https://www.freepressjournal.in/mumbai/fda-seizes-food-products-worth-1242-crore-across-konkan-ahead-of-diwali-406-crore-oil-stock-found-at-bhiwandi-d-mart"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "freepressjournal.in",
-     "title": "Bomb Threat Emails Sent To Courts In 7 Districts, Palghar Court Evacuated As Police Launch Search",
-     "url": "https://www.freepressjournal.in/mumbai/bomb-threat-emails-sent-to-courts-in-7-districts-palghar-court-evacuated-as-police-launch-search"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "freepressjournal.in",
-     "title": "Mumbai Medical Breakthrough: Wadia Hospital Repairs Rare Voice Box Defect In 6-Month-Old Without Open Neck Surgery",
-     "url": "https://www.freepressjournal.in/mumbai/mumbai-medical-breakthrough-wadia-hospital-repairs-rare-voice-box-defect-in-6-month-old-without-open-neck-surgery"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "freepressjournal.in",
-     "title": "Norton Introduces New 450 CC Urban Motorcycle, Bringing Its Distinctive Character To A New Generation",
-     "url": "https://www.freepressjournal.in/business/norton-introduces-new-450-cc-urban-motorcycle-bringing-its-distinctive-character-to-a-new-generation"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "freepressjournal.in",
-     "title": "Loaded Truck Gets Stuck In Barricades At Vashi Arm Flyover, Driver Injured, Traffic Disrupted",
-     "url": "https://www.freepressjournal.in/mumbai/loaded-truck-gets-stuck-in-barricades-at-vashi-arm-flyover-driver-injured-traffic-disrupted"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "freepressjournal.in",
-     "title": "Soldier Assaulted By Mother, Brother & Relatives Over Property Dispute In Punjab",
-     "url": "https://www.freepressjournal.in/india/soldier-assaulted-by-mother-brother-relatives-over-property-dispute-in-punjab"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "freepressjournal.in",
-     "title": "NDA Rift In Bihar? JD(U) Questions BJP's Move To Welcome Rahul Raj After MLC Victory",
-     "url": "https://www.freepressjournal.in/india/nda-rift-in-bihar-jdu-questions-bjps-move-to-welcome-rahul-raj-after-mlc-victory"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "freepressjournal.in",
-     "title": "No Ambulance At State-Level School Basketball Tournament In MP's Sitamau, Injured Girl Player Faces Delay In Medical Treatment",
-     "url": "https://www.freepressjournal.in/indore/no-ambulance-at-state-level-school-basketball-tournament-in-mps-sitamau-injured-girl-player-faces-delay-in-medical-treatment"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "freepressjournal.in",
-     "title": "Mumbai Food Poisoning: Newlywed Couple Among 45 Taken Ill After Bhandup Wedding, Case Registered Against Caterer",
-     "url": "https://www.freepressjournal.in/mumbai/mumbai-food-poisoning-newlywed-couple-among-45-taken-ill-after-bhandup-wedding-case-registered-against-caterer"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "freepressjournal.in",
-     "title": "PM Narendra Modi To Inaugurate Pune Metro Projects Worth ₹21,800 Crore On November 3",
-     "url": "https://www.freepressjournal.in/pune/pm-narendra-modi-to-inaugurate-pune-metro-projects-worth-21800-crore-on-november-3"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "freepressjournal.in",
-     "title": "VIDEO: Gonzalo Montiel Escorted With Riot Shields As Crowd Pelts Him With Beer Cans For Mocking After Red Card In Superclasico",
-     "url": "https://www.freepressjournal.in/sports/video-gonzalo-montiel-escorted-with-riot-shields-as-crowd-pelts-him-with-beer-cans-for-mocking-after-red-card-in-superclasico"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "freepressjournal.in",
-     "title": "Watchdog Foundation Opposes Proposed Felling Of 971 Trees For BMC's Manori Desalination Plant",
-     "url": "https://www.freepressjournal.in/mumbai/watchdog-foundation-opposes-proposed-felling-of-971-trees-for-bmcs-manori-desalination-plant"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "freepressjournal.in",
-     "title": "Union Health Minister JP Nadda Inaugurates ₹39-Crore Cancer Treatment Facility At AIIMS Rajkot",
-     "url": "https://www.freepressjournal.in/business/union-health-minister-jp-nadda-inaugurates-39-crore-cancer-treatment-facility-at-aiims-rajkot"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "freepressjournal.in",
-     "title": "Shah Rukh Khan Greets Fans From Mannat Balcony On 61st Birthday, Recreates His Iconic Pose & Blows Kisses - VIDEO",
-     "url": "https://www.freepressjournal.in/entertainment/shah-rukh-khan-greets-fans-from-mannat-balcony-on-61st-birthday-recreates-his-iconic-pose-blows-kisses-video"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "freepressjournal.in",
-     "title": "Mahadev Betting Case: Delhi Court Grants Saurabh Chandrakar 2-Day Transit Remand; Oman Rejects UAE Extradition Plea, Clears India’s Request",
-     "url": "https://www.freepressjournal.in/india/mahadev-betting-case-delhi-court-grants-saurabh-chandrakar-2-day-transit-remand-oman-rejects-uae-extradition-plea-clears-indias-request"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "freepressjournal.in",
-     "title": "BMC Opens 10-Bed Dialysis Centre At Mulund Hospital, Facility To Serve Up To 50 Patients Daily",
-     "url": "https://www.freepressjournal.in/mumbai/bmc-opens-10-bed-dialysis-centre-at-mulund-hospital-facility-to-serve-up-to-50-patients-daily"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "freepressjournal.in",
-     "title": "Army Porter Loses Foot In Accidental Landmine Blast Near LoC In J&K's Rajouri",
-     "url": "https://www.freepressjournal.in/india/army-porter-loses-foot-in-accidental-landmine-blast-near-loc-in-jks-rajouri"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "freepressjournal.in",
-     "title": "Panvel Municipal Corporation To Host 9th Diwali Pahat 2026 At Wadala Lake On November 9; Entry Free With Passes",
-     "url": "https://www.freepressjournal.in/mumbai/panvel-municipal-corporation-to-host-9th-diwali-pahat-2026-at-wadala-lake-on-november-9-entry-free-with-passes"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "freepressjournal.in",
-     "title": "Nashik Kumbh Mela Could Generate Over ₹50,000 Crore In Business, Create 1 Lakh Jobs, Says Traders' Body CAIT",
-     "url": "https://www.freepressjournal.in/mumbai/nashik-kumbh-mela-could-generate-over-50000-crore-in-business-create-1-lakh-jobs-says-traders-body-cait"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "freepressjournal.in",
-     "title": "Virat Kohli On Brink Of Multiple Historic ODI Milestones As India Prepare For New Zealand Series",
-     "url": "https://www.freepressjournal.in/sports/virat-kohli-on-brink-of-multiple-historic-odi-milestones-as-india-prepare-for-new-zealand-series"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "freepressjournal.in",
-     "title": "'Amitabh Bachchan Forced To Shield Himself With Bulletproof Glass Screen': Congress' Sachin Sawant Targets Centre Over Security Concerns",
-     "url": "https://www.freepressjournal.in/mumbai/amitabh-bachchan-forced-to-shield-himself-with-bulletproof-glass-screen-congress-sachin-sawant-targets-centre-over-security-concerns-mumbai-news"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "freepressjournal.in",
-     "title": "Bombay HC Grants Injunction To Protect Upcoming 'Ramayana' Film From Piracy Ahead Of November 5 Release",
-     "url": "https://www.freepressjournal.in/mumbai/bombay-hc-grants-injunction-to-protect-upcoming-ramayana-film-from-piracy-ahead-of-november-5-release"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "freepressjournal.in",
-     "title": "Punjab CM Bhagwant Mann Attends India vs Korea Asian Champions Trophy Match Amid Packed Stadium",
-     "url": "https://www.freepressjournal.in/sports/punjab-cm-bhagwant-mann-attends-india-vs-korea-asian-champions-trophy-match-amid-packed-stadium"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "freepressjournal.in",
-     "title": "BNCMC Issues Firecracker Safety Guidelines Ahead Of Diwali 2026, Urges Citizens To Reduce Air Pollution",
-     "url": "https://www.freepressjournal.in/mumbai/bncmc-issues-firecracker-safety-guidelines-ahead-of-diwali-2026-urges-citizens-to-reduce-air-pollution"
     }
    ]
   },
   "https://www.livemint.com/rss/markets": {
-   "fetched": "2026-11-03T00:15+05:30",
+   "fetched": "2026-11-03T01:45+05:30",
    "items": [
+    {
+     "date": "2026-11-03",
+     "source": "Mint",
+     "title": "US midterm elections: How a Democratic victory could impact defence, healthcare, crypto and AI stocks",
+     "url": "https://www.livemint.com/market/stock-market-news/us-midterm-elections-how-a-democratic-victory-could-impact-defence-healthcare-crypto-and-ai-stocks-11793640093379.html"
+    },
     {
      "date": "2026-11-02",
      "source": "Mint",
@@ -1660,17 +1522,11 @@
      "source": "Mint",
      "title": "RIL: Growth baton to shift from O2C to new energy in FY28",
      "url": "https://www.livemint.com/market/mark-to-market/ril-growth-baton-o2c-new-energy-retail-business-11793588534566.html"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "Mint",
-     "title": "Reliance Industries shares flying! Massive Monday jump for RIL stock - 6% surge strong Q2 results | Book profit or wait?",
-     "url": "https://www.livemint.com/market/stock-market-news/reliance-industries-shares-flying-massive-monday-jump-for-ril-stock-6-surge-strong-q2-results-book-profit-or-wait-11793591404819.html"
     }
    ]
   },
   "https://www.thehindubusinessline.com/markets/feeder/default.rss": {
-   "fetched": "2026-11-03T00:15+05:30",
+   "fetched": "2026-11-03T01:45+05:30",
    "items": [
     {
      "date": "2026-11-02",
@@ -2035,7 +1891,7 @@
    ]
   },
   "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss": {
-   "fetched": "2026-11-03T00:15+05:30",
+   "fetched": "2026-11-03T01:45+05:30",
    "items": [
     {
      "date": "2026-10-26",
@@ -2161,7 +2017,7 @@
   }
  },
  "antala-industries": {
-  "checked": "2026-11-03T01:31+05:30",
+  "checked": "2026-11-03T01:45+05:30",
   "items": [
    {
     "date": "2026-10-29",
@@ -2172,7 +2028,7 @@
   ]
  },
  "bombay-coated-special-steels": {
-  "checked": "2026-11-03T01:31+05:30",
+  "checked": "2026-11-03T01:45+05:30",
   "items": [
    {
     "date": "2026-10-29",
@@ -2183,7 +2039,7 @@
   ]
  },
  "carver-roboweld": {
-  "checked": "2026-11-03T01:31+05:30",
+  "checked": "2026-11-03T01:45+05:30",
   "items": [
    {
     "date": "2026-10-28",
@@ -2194,7 +2050,7 @@
   ]
  },
  "hgsindialt": {
-  "checked": "2026-11-03T01:31+05:30",
+  "checked": "2026-11-03T01:45+05:30",
   "items": [
    {
     "date": "2026-10-30",
@@ -2205,7 +2061,7 @@
   ]
  },
  "maxengs": {
-  "checked": "2026-11-03T01:31+05:30",
+  "checked": "2026-11-03T01:45+05:30",
   "items": [
    {
     "date": "2026-10-30",
@@ -2216,7 +2072,7 @@
   ]
  },
  "mksons": {
-  "checked": "2026-11-03T01:31+05:30",
+  "checked": "2026-11-03T01:45+05:30",
   "items": [
    {
     "date": "2026-10-28",
@@ -2227,7 +2083,7 @@
   ]
  },
  "vpfl": {
-  "checked": "2026-11-03T01:31+05:30",
+  "checked": "2026-11-03T01:45+05:30",
   "items": [
    {
     "date": "2026-11-02",
