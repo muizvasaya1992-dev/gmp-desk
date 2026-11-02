@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T15:45+05:30",
+  "generated_at": "2026-11-02T16:01+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-02T10:54+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-02T15:45+05:30",
+    "nse_ok_at": "2026-11-02T16:01+05:30",
     "bse_ok_at": "2026-11-02T13:24+05:30"
   },
   "ipos": [
@@ -1577,14 +1577,14 @@
       "anchor": null,
       "rating": null,
       "sub": {
-        "qib": 33.85,
-        "nii": 155.22,
-        "bnii": 182.3,
-        "snii": 101.05,
-        "retail": 27.53,
-        "total": 56.55
+        "qib": 35.5,
+        "nii": 156.93,
+        "bnii": 183.31,
+        "snii": 104.17,
+        "retail": 28.85,
+        "total": 58.05
       },
-      "updated_on": "2026-11-02T15:45+05:30",
+      "updated_on": "2026-11-02T16:01+05:30",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "Smart Horizon Capital Advisors Private Limited"
@@ -1598,7 +1598,7 @@
       "symbol": "BCSSL",
       "official": true,
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-11-02T15:42",
+      "sub_asof": "2026-11-02T15:57",
       "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_BCSSL.zip",
       "retail_max": 200000,
       "cutoff_time": "5:00 PM",
@@ -1850,6 +1850,15 @@
           "snii": 101.05,
           "retail": 27.53,
           "total": 56.55
+        },
+        {
+          "at": "2026-11-02T16:01+05:30",
+          "qib": 35.5,
+          "nii": 156.93,
+          "bnii": 183.31,
+          "snii": 104.17,
+          "retail": 28.85,
+          "total": 58.05
         }
       ],
       "series": "EQ",
@@ -2189,7 +2198,7 @@
       "sub_asof": "2026-10-29T19:05",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-02T15:45"
+        "at": "2026-11-02T16:01"
       },
       "gmp_sources": [],
       "gmp_history": [],
@@ -2914,7 +2923,7 @@
         "total": 56.97
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-02T15:43",
+      "sub_asof": "2026-11-02T15:59",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "JDA CAPITAL SERVICES LIMITED (Formerly Known as Beeline Broking Limited)"
@@ -2939,7 +2948,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": null,
-      "updated_on": "2026-11-02T15:45+05:30",
+      "updated_on": "2026-11-02T16:01+05:30",
       "price": 158,
       "reservation": {
         "qib": 49.84,
@@ -3082,7 +3091,7 @@
         "total": 14.33
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-02T15:43",
+      "sub_asof": "2026-11-02T15:59",
       "registrar": "Kfin Technologies Limited",
       "lead_managers": [
         "Hem Securities Limited"
@@ -3107,7 +3116,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": null,
-      "updated_on": "2026-11-02T15:45+05:30",
+      "updated_on": "2026-11-02T16:01+05:30",
       "price": 120,
       "reservation": {
         "qib": 61.28,
@@ -3236,12 +3245,12 @@
       "close": "2026-11-04",
       "segment": "SME",
       "sub": {
-        "retail": 0.03,
-        "nii": 0.67,
-        "total": 0.28
+        "retail": 0.1,
+        "nii": 0.83,
+        "total": 0.39
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-02T15:41",
+      "sub_asof": "2026-11-02T16:00",
       "registrar": "Cameo Corporate Services Limited",
       "lead_managers": [
         "Affinity Global Capital Market Private Limited"
@@ -3262,7 +3271,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": null,
-      "updated_on": "2026-11-02T15:45+05:30",
+      "updated_on": "2026-11-02T16:01+05:30",
       "price": 94,
       "reservation": {
         "qib": 1.13,
@@ -3522,16 +3531,16 @@
         "ratios": {}
       },
       "sub": {
-        "retail": 0.24,
-        "nii": 0.12,
+        "retail": 0.29,
+        "nii": 0.18,
         "qib": 66.72,
-        "total": 0.94
+        "total": 1.0
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-02T15:34",
+      "sub_asof": "2026-11-02T15:45",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-02T15:45"
+        "at": "2026-11-02T16:01"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3666,7 +3675,7 @@
         "total": 1.84
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-02T15:43",
+      "sub_asof": "2026-11-02T15:56",
       "lot_basis": "tracker",
       "gmp_sources": [
         {
@@ -3856,10 +3865,10 @@
         "total": 1.28
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-02T15:40",
+      "sub_asof": "2026-11-02T15:55",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-02T15:45"
+        "at": "2026-11-02T16:01"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
