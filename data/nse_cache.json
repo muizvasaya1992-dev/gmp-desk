@@ -1310,7 +1310,7 @@
   "series": "EQ",
   "nse_status": "Active",
   "shares_offered": 16533012.0,
-  "last_seen": "2026-11-02T14:31+05:30",
+  "last_seen": "2026-11-02T14:45+05:30",
   "segment": "MAIN",
   "lot": 182,
   "registrar": "KFin Technologies Limited",
@@ -1322,15 +1322,15 @@
   "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_BCSSL.zip",
   "details_at": "2026-11-02T10:54+05:30",
   "sub": {
-   "qib": 11.7,
-   "nii": 89.21,
-   "bnii": 102.37,
-   "snii": 62.88,
-   "retail": 19.91,
-   "total": 32.28
+   "qib": 12.26,
+   "nii": 100.39,
+   "bnii": 115.92,
+   "snii": 69.32,
+   "retail": 21.21,
+   "total": 35.47
   },
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-11-02T14:27",
+  "sub_asof": "2026-11-02T14:42",
   "sub_hist": [
    {
     "at": "2026-10-29T00:01+05:30",
@@ -1533,6 +1533,15 @@
     "snii": 62.88,
     "retail": 19.91,
     "total": 32.28
+   },
+   {
+    "at": "2026-11-02T14:45+05:30",
+    "qib": 12.26,
+    "nii": 100.39,
+    "bnii": 115.92,
+    "snii": 69.32,
+    "retail": 21.21,
+    "total": 35.47
    }
   ],
   "reservation": {
@@ -1552,7 +1561,7 @@
   "series": "SME",
   "nse_status": "Active",
   "shares_offered": null,
-  "last_seen": "2026-11-02T14:31+05:30",
+  "last_seen": "2026-11-02T14:45+05:30",
   "segment": "SME",
   "details_at": "2026-11-02T10:54+05:30",
   "sub": {
@@ -1563,7 +1572,7 @@
    "total": 0.0
   },
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-11-02T14:27",
+  "sub_asof": "2026-11-02T14:42",
   "registrar": "KFin Technologies Limited",
   "lead_managers": [
    "JDA CAPITAL SERVICES LIMITED (Formerly Known as Beeline Broking Limited)"
@@ -1596,7 +1605,7 @@
   "series": "SME",
   "nse_status": "Active",
   "shares_offered": null,
-  "last_seen": "2026-11-02T14:31+05:30",
+  "last_seen": "2026-11-02T14:45+05:30",
   "segment": "SME",
   "details_at": "2026-11-02T10:54+05:30",
   "registrar": "Kfin Technologies Limited",
@@ -1613,7 +1622,7 @@
    "total": 0.0
   },
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-11-02T14:27",
+  "sub_asof": "2026-11-02T14:42",
   "sub_hist": [
    {
     "at": "2026-10-30T09:45+05:30",
@@ -1640,7 +1649,7 @@
   "series": "SME",
   "nse_status": "Active",
   "shares_offered": null,
-  "last_seen": "2026-11-02T14:31+05:30",
+  "last_seen": "2026-11-02T14:45+05:30",
   "segment": "SME",
   "registrar": "Cameo Corporate Services Limited",
   "lead_managers": [
@@ -1657,7 +1666,7 @@
    "total": 0.0
   },
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-11-02T14:27",
+  "sub_asof": "2026-11-02T14:42",
   "sub_hist": [
    {
     "at": "2026-11-02T10:54+05:30",
