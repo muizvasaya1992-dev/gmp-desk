@@ -80,7 +80,7 @@ def merge(row, rec):
     d = dict(row)
     for k, v in (rec or {}).items():
         if k in ("lot", "registrar", "lead_managers", "size_cr", "boa", "cutoff_time", "retail_max", "rhp_url",
-                 "open", "close", "listing", "price", "price_low", "status", "symbol", "sub", "gmp", "gmp_pct", "listing_price", "reservation", "lot_basis", "sector", "issue_split", "tracker_rating", "fin", "uses", "reservation_detail", "drhp_url", "gmp_watch", "ai_gmp", "ai_gmp_none") and v not in (None, "", []):
+                 "open", "close", "listing", "price", "price_low", "status", "symbol", "sub", "gmp", "gmp_pct", "listing_price", "reservation", "lot_basis", "sector", "issue_split", "tracker_rating", "fin", "uses", "reservation_detail", "drhp_url", "gmp_watch", "ai_gmp", "ai_gmp_none", "sub_history", "news") and v not in (None, "", []):
             d[k] = v
     return d
 
@@ -263,6 +263,12 @@ li.hc:hover{box-shadow:0 8px 22px rgba(17,23,53,.10);transform:translateY(-2px)}
 @media(max-width:700px){.hub .stats{grid-template-columns:repeat(2,1fr)}ul.hgrid{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){li.hc:hover{transform:none}}
 .w.wide,body:has(main.wide) .w{max-width:1100px}.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.press{list-style:none;margin:0;padding:0}
+.press li{padding:12px 0;border-bottom:1px solid var(--line)}
+.press li:last-child{border-bottom:0}
+.press a{font-weight:600;text-decoration:none}
+.press a:hover{text-decoration:underline}
+.press .mini{display:block;font-size:13px;color:var(--muted);margin-top:3px}
 .dist{display:flex;height:14px;border-radius:7px;overflow:hidden;margin:10px 0 8px;background:#eef0f6}.dist i{display:block;height:100%}.distkey{list-style:none;margin:0 0 4px;padding:0;display:flex;flex-wrap:wrap;gap:4px 16px;font-size:13px;color:var(--muted)}.distkey span{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px}.distkey b{color:var(--ink,#111735)}
 .card h3{font-size:16px;margin:16px 0 4px}.card h3:first-of-type{margin-top:0}.card p{margin:0 0 8px}
 ol.tl{list-style:none;margin:0;padding:0;display:grid;gap:10px}ol.tl li{display:flex;justify-content:space-between;gap:12px;padding:10px 14px;background:#f4f6fb;border-radius:12px}
@@ -315,7 +321,7 @@ def head(title, desc, url, robots=None, extra="", tick=False):
 
 FOOT = f"""<footer><div class="w">IPO Shop is an information website. It does not sell, apply for or recommend IPOs, and nothing here is investment advice.
 GMP (grey market premium) is unofficial and often differs from the actual listing price. Read the offer document (RHP) and speak to a SEBI-registered advisor before investing.
-<br>Browse: <a href="/open-ipos/" style="color:#c4cdee">Open IPOs</a> · <a href="/upcoming-ipos/" style="color:#c4cdee">Upcoming IPOs</a> · <a href="/ipo-gmp-today/" style="color:#c4cdee">IPO GMP today</a> · <a href="/ipo-allotment-status/" style="color:#c4cdee">Allotment status</a> · <a href="/sme-ipos/" style="color:#c4cdee">SME IPOs</a> · <a href="/mainboard-ipos/" style="color:#c4cdee">Mainboard IPOs</a> · <a href="/ipo-calendar/" style="color:#c4cdee">IPO calendar</a> · <a href="/listed-ipos-2026/" style="color:#c4cdee">Listed IPOs 2026</a> · <a href="/ipo-subscription-status/" style="color:#c4cdee">Subscription status</a> · <a href="/gmp-accuracy/" style="color:#c4cdee">GMP accuracy</a> · <a href="/compare-ipos/" style="color:#c4cdee">Compare IPOs</a> · <a href="/learn/" style="color:#c4cdee">Learn</a>
+<br>Browse: <a href="/open-ipos/" style="color:#c4cdee">Open IPOs</a> · <a href="/upcoming-ipos/" style="color:#c4cdee">Upcoming IPOs</a> · <a href="/ipo-gmp-today/" style="color:#c4cdee">IPO GMP today</a> · <a href="/ipo-allotment-status/" style="color:#c4cdee">Allotment status</a> · <a href="/sme-ipos/" style="color:#c4cdee">SME IPOs</a> · <a href="/mainboard-ipos/" style="color:#c4cdee">Mainboard IPOs</a> · <a href="/ipo-calendar/" style="color:#c4cdee">IPO calendar</a> · <a href="/listed-ipos-2026/" style="color:#c4cdee">Listed IPOs 2026</a> · <a href="/ipo-news/" style="color:#c4cdee">IPO news</a> · <a href="/ipo-subscription-status/" style="color:#c4cdee">Subscription status</a> · <a href="/gmp-accuracy/" style="color:#c4cdee">GMP accuracy</a> · <a href="/compare-ipos/" style="color:#c4cdee">Compare IPOs</a> · <a href="/learn/" style="color:#c4cdee">Learn</a>
 <br>Dates, prices and subscription come from NSE and BSE; where they have no figure yet, GMP and SME subscription come from public trackers and are labelled. <a href="/#contact" style="color:#c4cdee">Spotted a mistake? Tell us.</a> · <a href="{WA_CHANNEL}" target="_blank" rel="noopener" style="color:#c4cdee">WhatsApp channel</a></div></footer>
 {BEACON}</body></html>"""
 
@@ -433,6 +439,21 @@ def mon(iso):
     return _dt.date.fromisoformat(iso[:10]).strftime("%B %Y")
 
 
+def press_card(d):
+    """Headlines about this company from the press. Titles and links only: the articles stay on their own sites."""
+    items = [x for x in (d.get("news") or []) if str(x.get("url", "")).startswith("http") and x.get("title")]
+    if not items:
+        return ""
+    rows = "".join(
+        f'<li><a href="{esc(x["url"])}" target="_blank" rel="noopener noreferrer nofollow">{esc(x["title"])} ↗</a>'
+        f'<span class="mini">{esc(x.get("source") or "")}{" · " + esc(dl(x["date"])) if x.get("date") else ""}</span></li>'
+        for x in items)
+    return (f'<section class="card"><h2>{esc(d["name"])} in the press</h2>'
+            '<p class="muted">Headlines from news websites, newest first. Each link opens the publisher\'s own page. '
+            'IPO Shop does not write or edit these stories and does not endorse them.</p>'
+            f'<ul class="press">{rows}</ul></section>')
+
+
 def sizes_card(d):
     """How much each kind of applicant must bid. Worked out from the lot size, so no source is needed."""
     if d.get("price") is None or not d.get("lot") or (d.get("status") or "listed") == "listed":
@@ -538,7 +559,7 @@ def render_page(d, near=(), base=None):
 <noscript><p class="muted">Turn on JavaScript to see live subscription and GMP.</p></noscript>
 <a class="btn" href="{live_link}">Open in the live tracker</a><a class="btn alt" href="/ipo/">All IPOs</a></section>
 {allot_card(d)}{apply_card}
-{sizes_card(d)}{base_card(d, base)}{uses_card(d)}{fin_card(d)}{timeline(d)}{faq(d)}{near_block(near)}
+{extras.updates_card(d)}{press_card(d)}{sizes_card(d)}{base_card(d, base)}{uses_card(d)}{fin_card(d)}{timeline(d)}{faq(d)}{near_block(near)}
 <section class="card"><h2>Share or follow</h2><a class="btn wa" href="{wa_share(d)}" target="_blank" rel="noopener">Share this IPO on WhatsApp ↗</a><a class="btn alt" href="{WA_CHANNEL}" target="_blank" rel="noopener">Follow our WhatsApp channel ↗</a></section>
 <section class="card"><h2>About this page</h2><p class="muted" style="margin:0 0 10px">Facts on this page come from NSE and BSE and are refreshed automatically. GMP is unofficial and comes from public trackers and our own checks. This is information, not advice. See the offer document before you invest.</p>
 <p class="muted" style="margin:0"><b>Demand meter:</b> 1 means under 1x subscribed, 2 is 1x to 3x, 3 is 3x to 10x, 4 is 10x to 50x and 5 is 50x or more. It shows how much demand there is. It does not say whether the IPO is a good one.</p></section>
@@ -821,7 +842,7 @@ COLS_LISTED = [NAME, ("Issue price", C_issue), ("Listed on", C_listing), ("Listi
 
 PAGE_LINKS = (("/open-ipos/", "Open IPOs"), ("/upcoming-ipos/", "Upcoming IPOs"), ("/ipo-gmp-today/", "IPO GMP today"), ("/ipo-allotment-status/", "Allotment status"),
               ("/sme-ipos/", "SME IPOs"), ("/mainboard-ipos/", "Mainboard IPOs"), ("/ipo-calendar/", "IPO calendar"), ("/listed-ipos-2026/", "Listed IPOs 2026"),
-              ("/ipo-subscription-status/", "Subscription status"), ("/gmp-accuracy/", "GMP accuracy"), ("/compare-ipos/", "Compare IPOs"), ("/learn/", "Learn"), ("/ipo/", "All IPOs"))
+              ("/ipo-news/", "IPO news"), ("/ipo-subscription-status/", "Subscription status"), ("/gmp-accuracy/", "GMP accuracy"), ("/compare-ipos/", "Compare IPOs"), ("/learn/", "Learn"), ("/ipo/", "All IPOs"))
 HOWTO = ("Open the IPO section of your broker or bank app, pick the IPO, choose the number of lots and enter your UPI ID. Approve the payment request in your UPI app before the cut-off on the last day. "
          "The money stays blocked in your account until allotment. IPO Shop does not take applications.")
 SUBQ = "Subscription shows how many times the shares on offer have been bid for. 5x means investors asked for five times the shares available. It measures demand and does not predict the listing price."

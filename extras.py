@@ -26,6 +26,14 @@ CSS_X = """<style>
 .art h2{margin-top:26px}.art li{margin:4px 0}.lh{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px;margin:14px 0}
 .lh a{display:block;background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px;text-decoration:none;color:var(--ink)}.lh a b{display:block;color:var(--blue);margin-bottom:4px}.lh a span{font-size:14px;color:var(--muted)}
 .mini{font-size:14px;color:var(--muted)}
+.ups{list-style:none;margin:0;padding:0}
+.ups li{border-left:3px solid var(--line);padding:0 0 16px 16px;margin:0;position:relative}
+.ups li:last-child{padding-bottom:0}
+.ups li::before{content:"";position:absolute;left:-7px;top:6px;width:11px;height:11px;border-radius:50%;background:#fff;border:3px solid var(--blue)}
+.ups .mini{display:block;margin-bottom:2px}
+.ups b{display:block;font-size:16px;line-height:1.35}
+.ups p{margin:4px 0 0}
+.ups .mini small{display:inline;margin-left:7px}
 @media(max-width:640px){.kp{grid-template-columns:repeat(2,1fr)}}
 </style>"""
 
@@ -67,6 +75,108 @@ def fmt_ts(iso):
 
 def x(v):
     return f"{v:.2f}x" if v is not None else "–"
+
+
+# ------------------------------------------------------------------ 0. what actually happened, from our own records
+def updates(d, today=None):
+    """A dated diary of each IPO, built only from figures this site recorded itself. Newest first."""
+    today = today or dt.date.today().isoformat()
+    price, out = d.get("price"), []
+    nm = d.get("name") or "This IPO"
+    seg = "an SME" if d.get("segment") == "SME" else "a Mainboard"
+
+    def add(day, title, text):
+        if day and day <= today:
+            out.append({"date": day, "title": title, "text": text})
+
+    if d.get("open"):
+        size = f" The issue is worth ₹{inr(d['size_cr'])} crore." if d.get("size_cr") is not None else ""
+        band = f" The price band is {P.band(d)}." if P.band(d) else ""
+        add(d["open"], f"{nm} IPO opens for bidding",
+            f"Bidding opened on {dl(d['open'])} and runs to {dl(d.get('close'))}.{band}{size} It is {seg} issue.")
+
+    by_day = {}
+    for x in d.get("sub_history") or []:
+        at = str(x.get("at") or "")
+        if len(at) >= 10 and x.get("total") is not None:
+            by_day[at[:10]] = x
+    days = sorted(by_day)
+    for n, day in enumerate(days, 1):
+        s = by_day[day]
+        parts = [f"{l} {s[k]:.2f}x" for k, l in (("qib", "QIB"), ("nii", "NII"), ("retail", "retail")) if s.get(k) is not None]
+        detail = " By category: " + ", ".join(parts) + "." if parts else ""
+        last = bool(d.get("close")) and day >= d["close"] and day == days[-1]
+        add(day, f"{'Final subscription' if last else f'Day {n}'}: {s['total']:.2f} times subscribed",
+            f"{nm} had been subscribed {s['total']:.2f} times in total by the end of {dl(day)}.{detail}"
+            + (" Subscription counts bids received. It does not predict the listing price." if n == 1 else ""))
+
+    prev = None
+    for x in d.get("gmp_history") or []:
+        g = x.get("gmp")
+        day = x.get("date")
+        if g is None or not day:
+            continue
+        pc = f" That is {g / price * 100:+.1f}% of the issue price." if price else ""
+        if prev is None:
+            add(day, f"Grey market premium first reported at ₹{g:g}", f"A GMP of ₹{g:g} was reported for {nm} on {dl(day)}.{pc} GMP is unofficial and is not a promise of a listing price.")
+        elif abs(g - prev) >= max(1, abs(prev) * 0.1):
+            way = "rose" if g > prev else "fell"
+            add(day, f"GMP {way} to ₹{g:g}", f"The reported grey market premium {way} from ₹{prev:g} to ₹{g:g} on {dl(day)}.{pc} GMP is unofficial and changes quickly.")
+        prev = g
+
+    if d.get("close"):
+        add(d["close"], f"{nm} IPO closes", f"Bidding closed on {dl(d['close'])}." + (f" Allotment is expected on {dl(d['boa'])}." if d.get("boa") else ""))
+    if d.get("boa"):
+        add(d["boa"], "Allotment day", f"The registrar finalises the basis of allotment for {nm} on {dl(d['boa'])}."
+            + (f" The registrar is {esc(str(d['registrar']).rstrip('.'))}." if d.get("registrar") else ""))
+    if d.get("listing"):
+        lp, lc, g = d.get("listing_price"), d.get("listing_close"), d.get("listing_gain_pct")
+        if lc is not None or lp is not None:
+            bits = []
+            if lp is not None:
+                bits.append(f"opened at {rs(lp)}")
+            if lc is not None:
+                bits.append(f"closed its first day at {rs(lc)}")
+            add(d["listing"], f"{nm} lists" + (f" ({g:+.2f}% on day one)" if g is not None else ""),
+                f"{nm} started trading on {dl(d['listing'])} and " + " and ".join(bits) + f" against an issue price of {rs(price)}." if price else "")
+        else:
+            add(d["listing"], f"{nm} lists today", f"Shares start trading on {dl(d['listing'])}.")
+    out.sort(key=lambda x: x["date"], reverse=True)
+    return out
+
+
+def updates_card(d, limit=12):
+    u = updates(d)
+    if not u:
+        return ""
+    rows = "".join(f'<li><span class="mini">{esc(dl(x["date"]))}</span><b>{esc(x["title"])}</b><p>{esc(x["text"])}</p></li>' for x in u[:limit])
+    return (f'<section class="card"><h2>{esc(d["name"])} IPO news and updates</h2>'
+            f'<p class="muted">What has actually happened so far, in date order. Every line is built from figures recorded on this site.</p>'
+            f'<ul class="ups">{rows}</ul></section>')
+
+
+def lp_updates(ds, root=None):
+    rows = []
+    for d in ds:
+        if (d.get("status") or "listed") == "listed" and d.get("listing", "") < (dt.date.today() - dt.timedelta(days=21)).isoformat():
+            continue
+        for u in updates(d)[:4]:
+            rows.append((u, d))
+    rows.sort(key=lambda x: x[0]["date"], reverse=True)
+    rows = rows[:60]
+    if not rows:
+        body = '<p class="lead">No IPO updates yet. This page fills in as issues open, get subscribed and list.</p>'
+    else:
+        items = "".join(f'<li><span class="mini">{esc(dl(u["date"]))} · {link(d)}</span><b>{esc(u["title"])}</b><p>{esc(u["text"])}</p></li>' for u, d in rows)
+        body = (f'<p class="lead">The latest on every IPO in India: when each one opened, how heavily it was subscribed each day, '
+                f'how the grey market premium moved and how it listed. Updated automatically through the day.</p>'
+                f'<p class="muted" id="asof">Figures refresh automatically.</p><section class="card"><ul class="ups">{items}</ul></section>')
+    faqs = [("Where do these updates come from?", "Each line is written from figures this site records: dates and subscription from NSE and BSE, GMP from public trackers, and listing-day prices from the exchanges. Nothing here is opinion or a tip."),
+            ("How often is this page updated?", "The data behind it refreshes about every 20 minutes on weekdays, and the page is rebuilt whenever something changes."),
+            ("Do you publish IPO news stories?", "No. We publish what the numbers did, with the date. For company news and analysis, read the offer document and the business press.")]
+    return shell("ipo-news", "IPO News and Updates Today: Subscription, GMP, Listing | IPO Shop", "IPO news and updates",
+                 "Daily IPO updates from India: which IPOs opened, day-by-day subscription, grey market premium moves and listing-day results. Facts only.",
+                 body, faqs, tick=True)
 
 
 # ------------------------------------------------------------------ 1. SME / Mainboard dashboard
@@ -437,7 +547,8 @@ def learn_pages():
 
 def pages(ds, root):
     """(slug, html) for every extra page."""
-    return [("ipo-subscription-status", lp_subscription(ds, root)), ("gmp-accuracy", lp_accuracy(ds, root)), ("compare-ipos", lp_compare(ds, root))] + learn_pages()
+    return [("ipo-news", lp_updates(ds, root)), ("ipo-subscription-status", lp_subscription(ds, root)),
+            ("gmp-accuracy", lp_accuracy(ds, root)), ("compare-ipos", lp_compare(ds, root))] + learn_pages()
 
 
-SLUGS = ["ipo-subscription-status", "gmp-accuracy", "compare-ipos", "learn"] + [f"learn/{s}" for s in ORDER_ARTICLES]
+SLUGS = ["ipo-news", "ipo-subscription-status", "gmp-accuracy", "compare-ipos", "learn"] + [f"learn/{s}" for s in ORDER_ARTICLES]

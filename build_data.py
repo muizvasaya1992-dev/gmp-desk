@@ -970,6 +970,15 @@ def main():
                 ai_gmp.run(ROOT, ipos, now.date(), now=now, fixtures=afx, offline="--offline" in ARGS)
         except Exception as e:                              # the estimate is a bonus: never let it stop the build
             print("AI GMP skipped:", type(e).__name__, e)
+    if not SAMPLE and not LOCAL_TEST:                        # headlines from the press, as links out
+        try:
+            nflag = ((load_json(DATA / "config.json", {}) or {}).get("gmp_autofill") or {}).get("news", True)
+            if nflag and "--no-news" not in ARGS:
+                import news
+                nfx = next((a.split("=", 1)[1] for a in ARGS if a.startswith("--news-from=")), None)
+                news.run(ROOT, ipos, now.date(), now=now, fixtures=nfx, offline="--offline" in ARGS)
+        except Exception as e:
+            print("News skipped:", type(e).__name__, e)
     if not SAMPLE:                                          # upcoming/open but on neither exchange's official list
         for i in ipos:
             i["unconfirmed"] = bool(feeds_ok and not i.get("official") and i["status"] in ("upcoming", "open", "closing_today"))
