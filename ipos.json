@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T16:06+05:30",
+  "generated_at": "2026-11-03T16:07+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,8 +23,8 @@
     "fetched_at": "2026-11-03T10:56+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-03T16:06+05:30",
-    "bse_ok_at": "2026-11-03T16:06+05:30"
+    "nse_ok_at": "2026-11-03T16:07+05:30",
+    "bse_ok_at": "2026-11-03T16:07+05:30"
   },
   "ipos": [
     {
@@ -2075,7 +2075,7 @@
       "sub_asof": "2026-10-29T19:05",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-03T16:06"
+        "at": "2026-11-03T16:07"
       },
       "gmp_sources": [],
       "gmp_history": [],
@@ -2614,7 +2614,7 @@
         "total": 496.16
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-03T16:03",
+      "sub_asof": "2026-11-03T16:06",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "JDA CAPITAL SERVICES LIMITED (Formerly Known as Beeline Broking Limited)"
@@ -2788,13 +2788,13 @@
       "close": "2026-11-03",
       "segment": "SME",
       "sub": {
-        "retail": 219.7,
-        "nii": 417.06,
-        "qib": 128.32,
-        "total": 236.2
+        "retail": 216.95,
+        "nii": 414.23,
+        "qib": 117.77,
+        "total": 231.21
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-03T16:02",
+      "sub_asof": "2026-11-03T16:06",
       "registrar": "Kfin Technologies Limited",
       "lead_managers": [
         "Hem Securities Limited"
@@ -2966,7 +2966,7 @@
         "total": 0.63
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-03T16:03",
+      "sub_asof": "2026-11-03T16:05",
       "registrar": "Cameo Corporate Services Limited",
       "lead_managers": [
         "Affinity Global Capital Market Private Limited"
@@ -3268,7 +3268,7 @@
       "sub_asof": "2026-11-03T10:53",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-03T16:06"
+        "at": "2026-11-03T16:07"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3404,7 +3404,7 @@
         "total": 20.04
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-03T16:01",
+      "sub_asof": "2026-11-03T16:06",
       "lot_basis": "tracker",
       "gmp_sources": [
         {
@@ -3592,16 +3592,16 @@
         "ratios": {}
       },
       "sub": {
-        "retail": 3.85,
-        "nii": 6.46,
-        "qib": 1.48,
-        "total": 3.73
+        "retail": 3.64,
+        "nii": 5.91,
+        "qib": 1.44,
+        "total": 3.5
       },
       "sub_basis": "Tracker B",
       "sub_asof": "2026-11-03T16:04",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-03T16:06"
+        "at": "2026-11-03T16:07"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
