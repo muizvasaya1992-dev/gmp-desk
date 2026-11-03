@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-03T07:15+05:30",
+  "fetched_at": "2026-11-03T07:31+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,7 +16,7 @@
     "price_low": 153.0,
     "size_cr": 330.48,
     "gmp": 6.5,
-    "gmp_at": "2026-11-03T07:11",
+    "gmp_at": "2026-11-03T07:30",
     "sub_total": 5.1,
     "sub_retail": 3.08,
     "sub_at": "2026-10-30T19:05",
@@ -99,7 +99,7 @@
     "price_low": 78.0,
     "size_cr": 183.06,
     "gmp": 8.0,
-    "gmp_at": "2026-11-03T07:10",
+    "gmp_at": "2026-11-03T07:31",
     "sub_total": 60.77,
     "sub_retail": 33.73,
     "sub_at": "2026-11-02T19:06",
@@ -174,29 +174,29 @@
    },
    {
     "src": "Tracker B",
-    "slug": "eaaa-india-alternatives",
-    "name": "EAAA India Alternatives",
+    "slug": "sfc-environmental-technologies",
+    "name": "SFC Environmental Technologies",
     "segment": "MAIN",
     "exchange": null,
-    "open": "2026-10-26",
-    "close": "2026-10-28",
-    "boa": "2026-10-29",
-    "listing": "2026-11-02",
-    "price": 1665.0,
-    "price_low": 1585.0,
-    "size_cr": 1200.0,
-    "gmp": 54.0,
-    "gmp_at": "2026-11-02T23:55",
-    "sub_total": 5.25,
-    "sub_retail": 1.03,
-    "sub_at": "2026-10-28T19:06",
+    "open": "2026-10-27",
+    "close": "2026-10-29",
+    "boa": "2026-10-30",
+    "listing": "2026-11-03",
+    "price": 330.0,
+    "price_low": 313.0,
+    "size_cr": 668.0,
+    "gmp": 15.5,
+    "gmp_at": "2026-11-03T07:30",
+    "sub_total": 9.47,
+    "sub_retail": 2.71,
+    "sub_at": "2026-10-29T19:05",
     "sub_cats": {
-     "retail": 1.03,
-     "nii": 4.58,
-     "bnii": 5.91,
-     "snii": 1.9,
-     "qib": 13.14,
-     "total": 5.25
+     "retail": 2.71,
+     "nii": 12.81,
+     "bnii": 14.49,
+     "snii": 9.44,
+     "qib": 18.81,
+     "total": 9.47
     },
     "gmp_days": [
      [
@@ -205,70 +205,70 @@
      ],
      [
       "2026-10-21",
-      0.0
+      31.0
      ],
      [
       "2026-10-22",
-      0.0
+      21.0
      ],
      [
       "2026-10-23",
-      111.0
+      21.0
      ],
      [
       "2026-10-24",
-      45.0
+      32.0
      ],
      [
       "2026-10-25",
-      33.0
+      32.0
      ],
      [
       "2026-10-26",
-      17.0
+      22.0
      ],
      [
       "2026-10-27",
-      10.0
+      19.0
      ],
      [
       "2026-10-28",
-      28.0
+      10.0
      ],
      [
       "2026-10-29",
-      37.0
+      19.0
      ],
      [
       "2026-10-30",
-      52.0
+      19.0
      ],
      [
       "2026-10-31",
-      56.0
+      23.5
      ],
      [
       "2026-11-01",
-      57.0
+      26.0
      ],
      [
       "2026-11-02",
-      54.0
+      15.5
      ]
     ],
-    "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_EDELALTS.zip",
-    "drhp_url": "https://www.sebi.gov.in/filings/public-issues/jan-2026/eaaa-india-alternatives-limited-drhp_99257.html",
-    "lot_raw": 9.0,
-    "sector": "Alternative Asset Management",
+    "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_SFCTECH.zip",
+    "drhp_url": "https://www.bseindia.com/corporates/download/329313/IPO%20Prior/DRHP_August_25_2025_20250825140721.pdf",
+    "lot_raw": 45.0,
+    "sector": "Environmental Technology / Wastewater Treatment",
     "quota": {
      "qib": 50.0,
      "nii": 15.0,
      "retail": 35.0
     },
-    "fresh_cr": 0.0,
-    "ofs_cr": 1200.0,
+    "fresh_cr": 150.0,
+    "ofs_cr": 517.53,
     "registrar": "MUFG Intime India Pvt. Ltd.",
-    "lead_manager": "Axis Capital Ltd.; Jefferies India Pvt. Ltd.; Motilal Oswal Investment Advisors Ltd.; Nuvama Wealth Management Ltd.",
+    "lead_manager": "IIFL Capital Services Ltd.; JM Financial Ltd.; Nuvama Wealth Management Ltd.",
     "live": true
    },
    {
@@ -285,7 +285,7 @@
     "price_low": 142.0,
     "size_cr": 255.0,
     "gmp": 67.0,
-    "gmp_at": "2026-11-03T07:10",
+    "gmp_at": "2026-11-03T07:30",
     "sub_total": 241.22,
     "sub_retail": 128.36,
     "sub_at": "2026-10-29T19:05",
@@ -380,101 +380,108 @@
    },
    {
     "src": "Tracker B",
-    "slug": "sfc-environmental-technologies",
-    "name": "SFC Environmental Technologies",
-    "segment": "MAIN",
-    "exchange": null,
-    "open": "2026-10-27",
-    "close": "2026-10-29",
-    "boa": "2026-10-30",
-    "listing": "2026-11-03",
-    "price": 330.0,
-    "price_low": 313.0,
-    "size_cr": 668.0,
-    "gmp": 15.5,
-    "gmp_at": "2026-11-03T07:10",
-    "sub_total": 9.47,
-    "sub_retail": 2.71,
-    "sub_at": "2026-10-29T19:05",
+    "slug": "johnsoncab-electricals",
+    "name": "Johnsoncab Electricals Limited",
+    "segment": "SME",
+    "exchange": "BSE SME",
+    "open": "2026-10-30",
+    "close": "2026-11-03",
+    "boa": "2026-11-04",
+    "listing": "2026-11-06",
+    "price": 200.0,
+    "price_low": 190.0,
+    "size_cr": 56.02,
+    "gmp": 10.0,
+    "gmp_at": "2026-11-03T07:30",
+    "sub_total": 2.01,
+    "sub_retail": 2.21,
+    "sub_at": "2026-11-03T06:19",
     "sub_cats": {
-     "retail": 2.71,
-     "nii": 12.81,
-     "bnii": 14.49,
-     "snii": 9.44,
-     "qib": 18.81,
-     "total": 9.47
+     "retail": 2.21,
+     "nii": 2.89,
+     "qib": 0.99,
+     "total": 2.01
     },
     "gmp_days": [
      [
-      "2026-10-20",
-      0.0
-     ],
-     [
-      "2026-10-21",
-      31.0
-     ],
-     [
-      "2026-10-22",
-      21.0
-     ],
-     [
-      "2026-10-23",
-      21.0
-     ],
-     [
-      "2026-10-24",
-      32.0
-     ],
-     [
-      "2026-10-25",
-      32.0
-     ],
-     [
-      "2026-10-26",
-      22.0
-     ],
-     [
-      "2026-10-27",
-      19.0
-     ],
-     [
-      "2026-10-28",
-      10.0
-     ],
-     [
-      "2026-10-29",
-      19.0
-     ],
-     [
-      "2026-10-30",
-      19.0
-     ],
-     [
       "2026-10-31",
-      23.5
+      5.0
      ],
      [
       "2026-11-01",
-      26.0
+      5.0
      ],
      [
       "2026-11-02",
-      15.5
+      10.0
      ]
     ],
-    "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_SFCTECH.zip",
-    "drhp_url": "https://www.bseindia.com/corporates/download/329313/IPO%20Prior/DRHP_August_25_2025_20250825140721.pdf",
-    "lot_raw": 45.0,
-    "sector": "Environmental Technology / Wastewater Treatment",
+    "rhp_url": null,
+    "drhp_url": null,
+    "lot_raw": 1200.0,
+    "sector": "Electrical Wires & Cables",
     "quota": {
      "qib": 50.0,
      "nii": 15.0,
      "retail": 35.0
     },
-    "fresh_cr": 150.0,
-    "ofs_cr": 517.53,
-    "registrar": "MUFG Intime India Pvt. Ltd.",
-    "lead_manager": "IIFL Capital Services Ltd.; JM Financial Ltd.; Nuvama Wealth Management Ltd.",
+    "fresh_cr": 56.02,
+    "ofs_cr": 0.0,
+    "registrar": "Maashitla Securities Pvt. Ltd.",
+    "lead_manager": "ISK Advisors Pvt. Ltd.",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
+    "slug": "hgs-india",
+    "name": "HGS (India)",
+    "segment": "SME",
+    "exchange": "NSE SME",
+    "open": "2026-10-30",
+    "close": "2026-11-03",
+    "boa": "2026-11-04",
+    "listing": "2026-11-06",
+    "price": 120.0,
+    "price_low": 114.0,
+    "size_cr": 34.56,
+    "gmp": 30.0,
+    "gmp_at": "2026-11-03T07:31",
+    "sub_total": 20.96,
+    "sub_retail": 25.56,
+    "sub_at": "2026-11-03T07:31",
+    "sub_cats": {
+     "retail": 25.56,
+     "nii": 31.56,
+     "qib": 4.88,
+     "total": 20.96
+    },
+    "gmp_days": [
+     [
+      "2026-10-31",
+      30.0
+     ],
+     [
+      "2026-11-01",
+      30.0
+     ],
+     [
+      "2026-11-02",
+      30.0
+     ]
+    ],
+    "rhp_url": null,
+    "drhp_url": null,
+    "lot_raw": 2400.0,
+    "sector": "Geophysical Equipment / Seismic Instruments",
+    "quota": {
+     "qib": 50.0,
+     "nii": 15.0,
+     "retail": 35.0
+    },
+    "fresh_cr": 27.91,
+    "ofs_cr": 6.65,
+    "registrar": "KFin Technologies Limited",
+    "lead_manager": "Hem Securities Limited",
     "live": true
    },
    {
@@ -491,7 +498,7 @@
     "price_low": 99.0,
     "size_cr": 53.05,
     "gmp": 0.0,
-    "gmp_at": "2026-11-03T07:10",
+    "gmp_at": "2026-11-03T07:30",
     "sub_total": 1.31,
     "sub_retail": 1.33,
     "sub_at": "2026-11-03T02:54",
@@ -536,59 +543,6 @@
    },
    {
     "src": "Tracker B",
-    "slug": "johnsoncab-electricals",
-    "name": "Johnsoncab Electricals Limited",
-    "segment": "SME",
-    "exchange": "BSE SME",
-    "open": "2026-10-30",
-    "close": "2026-11-03",
-    "boa": "2026-11-04",
-    "listing": "2026-11-06",
-    "price": 200.0,
-    "price_low": 190.0,
-    "size_cr": 56.02,
-    "gmp": 10.0,
-    "gmp_at": "2026-11-03T07:11",
-    "sub_total": 2.01,
-    "sub_retail": 2.21,
-    "sub_at": "2026-11-03T06:19",
-    "sub_cats": {
-     "retail": 2.21,
-     "nii": 2.89,
-     "qib": 0.99,
-     "total": 2.01
-    },
-    "gmp_days": [
-     [
-      "2026-10-31",
-      5.0
-     ],
-     [
-      "2026-11-01",
-      5.0
-     ],
-     [
-      "2026-11-02",
-      10.0
-     ]
-    ],
-    "rhp_url": null,
-    "drhp_url": null,
-    "lot_raw": 1200.0,
-    "sector": "Electrical Wires & Cables",
-    "quota": {
-     "qib": 50.0,
-     "nii": 15.0,
-     "retail": 35.0
-    },
-    "fresh_cr": 56.02,
-    "ofs_cr": 0.0,
-    "registrar": "Maashitla Securities Pvt. Ltd.",
-    "lead_manager": "ISK Advisors Pvt. Ltd.",
-    "live": true
-   },
-   {
-    "src": "Tracker B",
     "slug": "maxwell-engineering-solutions",
     "name": "Maxwell Engineering Solutions",
     "segment": "SME",
@@ -601,10 +555,10 @@
     "price_low": 150.0,
     "size_cr": 57.64,
     "gmp": 80.0,
-    "gmp_at": "2026-11-03T07:10",
+    "gmp_at": "2026-11-03T07:30",
     "sub_total": 80.34,
     "sub_retail": 110.21,
-    "sub_at": "2026-11-03T07:11",
+    "sub_at": "2026-11-03T07:29",
     "sub_cats": {
      "retail": 110.21,
      "nii": 117.09,
@@ -645,59 +599,6 @@
    },
    {
     "src": "Tracker B",
-    "slug": "hgs-india",
-    "name": "HGS (India)",
-    "segment": "SME",
-    "exchange": "NSE SME",
-    "open": "2026-10-30",
-    "close": "2026-11-03",
-    "boa": "2026-11-04",
-    "listing": "2026-11-06",
-    "price": 120.0,
-    "price_low": 114.0,
-    "size_cr": 34.56,
-    "gmp": 30.0,
-    "gmp_at": "2026-11-03T07:10",
-    "sub_total": 20.96,
-    "sub_retail": 25.56,
-    "sub_at": "2026-11-03T07:10",
-    "sub_cats": {
-     "retail": 25.56,
-     "nii": 31.56,
-     "qib": 4.88,
-     "total": 20.96
-    },
-    "gmp_days": [
-     [
-      "2026-10-31",
-      30.0
-     ],
-     [
-      "2026-11-01",
-      30.0
-     ],
-     [
-      "2026-11-02",
-      30.0
-     ]
-    ],
-    "rhp_url": null,
-    "drhp_url": null,
-    "lot_raw": 2400.0,
-    "sector": "Geophysical Equipment / Seismic Instruments",
-    "quota": {
-     "qib": 50.0,
-     "nii": 15.0,
-     "retail": 35.0
-    },
-    "fresh_cr": 27.91,
-    "ofs_cr": 6.65,
-    "registrar": "KFin Technologies Limited",
-    "lead_manager": "Hem Securities Limited",
-    "live": true
-   },
-   {
-    "src": "Tracker B",
     "slug": "vedant-poly-fabs",
     "name": "Vedant Poly Fabs",
     "segment": "SME",
@@ -710,7 +611,7 @@
     "price_low": 88.0,
     "size_cr": 56.68,
     "gmp": 15.0,
-    "gmp_at": "2026-11-03T07:10",
+    "gmp_at": "2026-11-03T07:31",
     "sub_total": 0.42,
     "sub_retail": 0.14,
     "sub_at": "2026-11-03T07:04",
@@ -762,7 +663,7 @@
     "price_low": 203.0,
     "size_cr": 38.05,
     "gmp": 1.0,
-    "gmp_at": "2026-11-03T07:10",
+    "gmp_at": "2026-11-03T07:30",
     "sub_total": 1.12,
     "sub_retail": 1.93,
     "sub_at": "2026-10-30T19:05",
@@ -821,7 +722,7 @@
     "price_low": 76.0,
     "size_cr": 28.29,
     "gmp": 5.0,
-    "gmp_at": "2026-11-03T07:10",
+    "gmp_at": "2026-11-03T07:30",
     "sub_total": 25.8,
     "sub_retail": 19.17,
     "sub_at": "2026-10-30T19:05",
@@ -886,7 +787,7 @@
     "price_low": 63.0,
     "size_cr": 23.33,
     "gmp": 0.0,
-    "gmp_at": "2026-11-03T07:10",
+    "gmp_at": "2026-11-03T07:30",
     "sub_total": 1.11,
     "sub_retail": 0.4,
     "sub_at": "2026-11-02T18:54",
@@ -931,107 +832,6 @@
    },
    {
     "src": "Tracker B",
-    "slug": "core4-engineers",
-    "name": "Core4 Engineers Ltd.",
-    "segment": "SME",
-    "exchange": "BSE SME",
-    "open": "2026-10-23",
-    "close": "2026-10-27",
-    "boa": "2026-10-28",
-    "listing": "2026-10-30",
-    "price": 93.0,
-    "price_low": 88.0,
-    "size_cr": 54.82,
-    "gmp": 0.0,
-    "gmp_at": "2026-10-30T23:55",
-    "sub_total": 5.41,
-    "sub_retail": 2.68,
-    "sub_at": "2026-10-27T19:05",
-    "sub_cats": {
-     "retail": 2.68,
-     "nii": 12.25,
-     "qib": 5.06,
-     "total": 5.41
-    },
-    "gmp_days": [
-     [
-      "2026-10-19",
-      0.0
-     ],
-     [
-      "2026-10-20",
-      0.0
-     ],
-     [
-      "2026-10-21",
-      0.0
-     ],
-     [
-      "2026-10-22",
-      0.0
-     ],
-     [
-      "2026-10-23",
-      0.0
-     ],
-     [
-      "2026-10-24",
-      0.0
-     ],
-     [
-      "2026-10-25",
-      0.0
-     ],
-     [
-      "2026-10-26",
-      0.0
-     ],
-     [
-      "2026-10-27",
-      0.0
-     ],
-     [
-      "2026-10-28",
-      0.0
-     ],
-     [
-      "2026-10-29",
-      0.0
-     ],
-     [
-      "2026-10-30",
-      0.0
-     ],
-     [
-      "2026-10-31",
-      0.0
-     ],
-     [
-      "2026-11-01",
-      0.0
-     ],
-     [
-      "2026-11-02",
-      0.0
-     ]
-    ],
-    "rhp_url": null,
-    "drhp_url": null,
-    "lot_raw": 2400.0,
-    "sector": "Infrastructure EPC",
-    "quota": {
-     "qib": 50.0,
-     "nii": 15.0,
-     "retail": 35.0
-    },
-    "fresh_cr": 54.82,
-    "ofs_cr": 0.0,
-    "registrar": "Purva Sharegistry (India) Pvt. Ltd.",
-    "lead_manager": "Socradamus Capital Pvt. Ltd.",
-    "live": true
-   },
-   {
-    "src": "Tracker B",
     "slug": "wiscon-industries",
     "name": "Wiscon Industries",
     "segment": "SME",
@@ -1044,7 +844,7 @@
     "price_low": 194.0,
     "size_cr": 110.0,
     "gmp": 0.0,
-    "gmp_at": "2026-11-03T07:10",
+    "gmp_at": "2026-11-03T07:30",
     "sub_total": 1.17,
     "sub_retail": 0.66,
     "sub_at": "2026-10-29T19:05",
@@ -1106,7 +906,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-03T07:15+05:30",
+  "fetched_at": "2026-11-03T07:31+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -1122,7 +922,7 @@
     "price_low": null,
     "size_cr": 56.68,
     "gmp": 15.0,
-    "gmp_at": "2026-11-02T23:37",
+    "gmp_at": "2026-11-03T06:37",
     "sub_total": 0.42,
     "sub_retail": null,
     "sub_at": null,
@@ -1144,7 +944,7 @@
     "price_low": null,
     "size_cr": 34.56,
     "gmp": 30.0,
-    "gmp_at": "2026-11-02T23:37",
+    "gmp_at": "2026-11-03T06:37",
     "sub_total": 20.96,
     "sub_retail": null,
     "sub_at": null,
@@ -1166,7 +966,7 @@
     "price_low": null,
     "size_cr": 56.02,
     "gmp": 10.0,
-    "gmp_at": "2026-11-02T23:37",
+    "gmp_at": "2026-11-03T06:37",
     "sub_total": 2.01,
     "sub_retail": null,
     "sub_at": null,
@@ -1188,7 +988,7 @@
     "price_low": null,
     "size_cr": 53.05,
     "gmp": null,
-    "gmp_at": "2026-11-02T23:37",
+    "gmp_at": "2026-11-03T06:32",
     "sub_total": 1.31,
     "sub_retail": null,
     "sub_at": null,
@@ -1210,7 +1010,7 @@
     "price_low": null,
     "size_cr": 57.64,
     "gmp": 80.0,
-    "gmp_at": "2026-11-02T23:37",
+    "gmp_at": "2026-11-03T06:37",
     "sub_total": 80.34,
     "sub_retail": null,
     "sub_at": null,
@@ -1232,7 +1032,7 @@
     "price_low": null,
     "size_cr": 23.33,
     "gmp": null,
-    "gmp_at": "2026-11-02T23:29",
+    "gmp_at": "2026-11-03T06:33",
     "sub_total": 1.13,
     "sub_retail": null,
     "sub_at": null,
@@ -1254,7 +1054,7 @@
     "price_low": null,
     "size_cr": 183.06,
     "gmp": 8.0,
-    "gmp_at": "2026-11-02T23:37",
+    "gmp_at": "2026-11-03T06:37",
     "sub_total": 63.89,
     "sub_retail": null,
     "sub_at": null,
@@ -1276,7 +1076,7 @@
     "price_low": null,
     "size_cr": 275.4,
     "gmp": 6.5,
-    "gmp_at": "2026-11-02T23:37",
+    "gmp_at": "2026-11-03T06:37",
     "sub_total": 5.09,
     "sub_retail": null,
     "sub_at": null,
@@ -1298,7 +1098,7 @@
     "price_low": null,
     "size_cr": 38.05,
     "gmp": 1.0,
-    "gmp_at": "2026-11-02T23:37",
+    "gmp_at": "2026-11-03T06:37",
     "sub_total": 1.12,
     "sub_retail": null,
     "sub_at": null,
@@ -1320,7 +1120,7 @@
     "price_low": null,
     "size_cr": 28.29,
     "gmp": 5.0,
-    "gmp_at": "2026-11-02T23:37",
+    "gmp_at": "2026-11-03T06:37",
     "sub_total": 25.8,
     "sub_retail": null,
     "sub_at": null,
@@ -1342,13 +1142,13 @@
     "price_low": null,
     "size_cr": 110.0,
     "gmp": null,
-    "gmp_at": "2026-11-02T23:37",
+    "gmp_at": "2026-11-03T06:37",
     "sub_total": 1.17,
     "sub_retail": null,
     "sub_at": null,
     "lot": 600.0,
     "rating": 1,
-    "live": true
+    "live": false
    },
    {
     "src": "Tracker C",
@@ -1364,13 +1164,13 @@
     "price_low": null,
     "size_cr": 667.53,
     "gmp": 15.5,
-    "gmp_at": "2026-11-02T23:37",
+    "gmp_at": "2026-11-03T06:37",
     "sub_total": 9.47,
     "sub_retail": null,
     "sub_at": null,
     "lot": 45.0,
     "rating": 1,
-    "live": true
+    "live": false
    },
    {
     "src": "Tracker C",
@@ -1386,13 +1186,13 @@
     "price_low": null,
     "size_cr": 255.0,
     "gmp": 68.0,
-    "gmp_at": "2026-11-02T23:37",
+    "gmp_at": "2026-11-03T06:37",
     "sub_total": 241.22,
     "sub_retail": null,
     "sub_at": null,
     "lot": 100.0,
     "rating": 4,
-    "live": true
+    "live": false
    },
    {
     "src": "Tracker C",
@@ -1771,7 +1571,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-03T07:15+05:30",
+  "fetched_at": "2026-11-03T07:31+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -2627,54 +2427,54 @@
        25.0
       ]
      ],
-     "ratios": {
-      "eps": 13.56,
-      "fy": "FY26",
-      "nav": 44.28,
-      "pbv": 4.58,
-      "pe": 14.97,
-      "roce": 34.75,
-      "ronw": 36.15
-     },
-     "reservation": {
-      "market_maker": {
-       "pct": 5.06,
-       "shares": 94800
-      },
-      "nii": {
-       "pct": 49.97,
-       "shares": 890400
-      },
-      "retail": {
-       "pct": 50.03,
-       "shares": 889200
-      }
-     },
      "sub": {
-      "nii": 0.32,
+      "total": 1.12,
       "qib": 0.0,
-      "retail": 1.93,
-      "total": 1.12
+      "nii": 0.32,
+      "retail": 1.93
      },
      "sub_at": "2026-10-30T17:40",
+     "reservation": {
+      "nii": {
+       "shares": 890400,
+       "pct": 49.97
+      },
+      "retail": {
+       "shares": 889200,
+       "pct": 50.03
+      },
+      "market_maker": {
+       "shares": 94800,
+       "pct": 5.06
+      }
+     },
      "uses": [
       {
-       "cr": 8.1,
-       "use": "Asset"
+       "use": "Asset",
+       "cr": 8.1
       },
       {
-       "cr": 9.35,
-       "use": "Debt"
+       "use": "Debt",
+       "cr": 9.35
       },
       {
-       "cr": 4.0,
-       "use": "Capital"
+       "use": "Capital",
+       "cr": 4.0
       },
       {
-       "cr": 4.43,
-       "use": "Other"
+       "use": "Other",
+       "cr": 4.43
       }
-     ]
+     ],
+     "ratios": {
+      "pe": 14.97,
+      "eps": 13.56,
+      "fy": "FY26",
+      "pbv": 4.58,
+      "nav": 44.28,
+      "ronw": 36.15,
+      "roce": 34.75
+     }
     }
    },
    {
@@ -2730,101 +2530,101 @@
        0.0
       ]
      ],
-     "ratios": {
-      "eps": 3.78,
-      "fy": "FY26",
-      "nav": 16.86,
-      "pbv": 4.74,
-      "pe": 21.16,
-      "roce": 24.5,
-      "ronw": 21.57
-     },
-     "reservation": {
-      "anchor": {
-       "pct": 28.19,
-       "shares": 996800
-      },
-      "bnii": {
-       "pct": 9.64,
-       "shares": 340800
-      },
-      "market_maker": {
-       "pct": 5.02,
-       "shares": 177600
-      },
-      "nii": {
-       "pct": 14.48,
-       "shares": 512000
-      },
-      "qib": {
-       "pct": 47.1,
-       "shares": 1665600
-      },
-      "qib_ex_anchor": {
-       "pct": 18.91,
-       "shares": 668800
-      },
-      "retail": {
-       "pct": 33.39,
-       "shares": 1180800
-      },
-      "snii": {
-       "pct": 9.64,
-       "shares": 171200
-      }
-     },
      "sub": {
-      "nii": 40.39,
+      "total": 25.8,
       "qib": 26.33,
-      "retail": 19.17,
-      "total": 25.8
+      "nii": 40.39,
+      "retail": 19.17
      },
      "sub_at": "2026-10-30T17:40",
+     "reservation": {
+      "qib": {
+       "shares": 1665600,
+       "pct": 47.1
+      },
+      "anchor": {
+       "shares": 996800,
+       "pct": 28.19
+      },
+      "qib_ex_anchor": {
+       "shares": 668800,
+       "pct": 18.91
+      },
+      "nii": {
+       "shares": 512000,
+       "pct": 14.48
+      },
+      "bnii": {
+       "shares": 340800,
+       "pct": 9.64
+      },
+      "snii": {
+       "shares": 171200,
+       "pct": 9.64
+      },
+      "retail": {
+       "shares": 1180800,
+       "pct": 33.39
+      },
+      "market_maker": {
+       "shares": 177600,
+       "pct": 5.02
+      }
+     },
      "uses": [
       {
-       "cr": 11.99,
-       "use": "Robots"
+       "use": "Robots",
+       "cr": 11.99
       },
       {
-       "cr": 8.6,
-       "use": "Debt"
+       "use": "Debt",
+       "cr": 8.6
       }
      ],
      "years": [
       {
-       "assets": 21.59,
-       "debt": 13.39,
-       "ebitda": 4.12,
+       "y": "FY24",
        "income": 21.67,
-       "net_worth": 3.11,
        "pat": 1.01,
-       "roce": null,
+       "ebitda": 4.12,
+       "net_worth": 3.11,
+       "debt": 13.39,
+       "assets": 21.59,
        "roe": null,
-       "y": "FY24"
+       "roce": null
       },
       {
-       "assets": 32.69,
-       "debt": 22.32,
-       "ebitda": 4.92,
+       "y": "FY25",
        "income": 24.97,
-       "net_worth": 4.56,
        "pat": 1.45,
-       "roce": 13.95,
+       "ebitda": 4.92,
+       "net_worth": 4.56,
+       "debt": 22.32,
+       "assets": 32.69,
        "roe": 37.82,
-       "y": "FY25"
+       "roce": 13.95
       },
       {
-       "assets": 38.26,
-       "debt": 15.65,
-       "ebitda": 8.36,
+       "y": "FY26",
        "income": 27.12,
-       "net_worth": 16.13,
        "pat": 3.48,
-       "roce": 21.64,
+       "ebitda": 8.36,
+       "net_worth": 16.13,
+       "debt": 15.65,
+       "assets": 38.26,
        "roe": 33.63,
-       "y": "FY26"
+       "roce": 21.64
       }
-     ]
+     ],
+     "ratios": {
+      "pe": 21.16,
+      "eps": 3.78,
+      "fy": "FY26",
+      "pbv": 4.74,
+      "nav": 16.86,
+      "ronw": 21.57,
+      "roce": 24.5
+     }
     }
    },
    {
@@ -2896,97 +2696,97 @@
        0.0
       ]
      ],
-     "ratios": {
-      "eps": 12.13,
-      "fy": "FY26",
-      "nav": 39.36,
-      "pbv": 4.12,
-      "pe": 13.36,
-      "roce": 39.88,
-      "ronw": 30.83
-     },
-     "reservation": {
-      "anchor": {
-       "pct": 30.0,
-       "shares": 5100000
-      },
-      "bnii": {
-       "pct": 10.0,
-       "shares": 1700000
-      },
-      "nii": {
-       "pct": 15.0,
-       "shares": 2550000
-      },
-      "qib": {
-       "pct": 50.0,
-       "shares": 8500000
-      },
-      "qib_ex_anchor": {
-       "pct": 20.0,
-       "shares": 3400000
-      },
-      "snii": {
-       "pct": 5.0,
-       "shares": 850000
-      }
-     },
      "sub": {
-      "nii": 14.12,
+      "total": 5.09,
       "qib": 1.84,
-      "retail": 3.08,
-      "total": 5.09
+      "nii": 14.12,
+      "retail": 3.08
      },
      "sub_at": "2026-10-31T09:54",
+     "reservation": {
+      "qib": {
+       "shares": 8500000,
+       "pct": 50.0
+      },
+      "anchor": {
+       "shares": 5100000,
+       "pct": 30.0
+      },
+      "qib_ex_anchor": {
+       "shares": 3400000,
+       "pct": 20.0
+      },
+      "nii": {
+       "shares": 2550000,
+       "pct": 15.0
+      },
+      "bnii": {
+       "shares": 1700000,
+       "pct": 10.0
+      },
+      "snii": {
+       "shares": 850000,
+       "pct": 5.0
+      }
+     },
      "uses": [
       {
-       "cr": 152.84,
-       "use": "Setup"
+       "use": "Setup",
+       "cr": 152.84
       },
       {
-       "cr": 152.84,
-       "use": "Growth"
+       "use": "Growth",
+       "cr": 152.84
       },
       {
-       "cr": 30.0,
-       "use": "Debt"
+       "use": "Debt",
+       "cr": 30.0
       }
      ],
      "years": [
       {
-       "assets": 95.21,
-       "debt": 38.64,
-       "ebitda": 12.87,
+       "y": "FY24",
        "income": 217.4,
-       "net_worth": 22.27,
        "pat": 8.17,
-       "roce": 40.62,
+       "ebitda": 12.87,
+       "net_worth": 22.27,
+       "debt": 38.64,
+       "assets": 95.21,
        "roe": 36.56,
-       "y": "FY24"
+       "roce": 40.62
       },
       {
-       "assets": 219.64,
-       "debt": 68.93,
-       "ebitda": 38.57,
+       "y": "FY25",
        "income": 351.32,
-       "net_worth": 116.21,
        "pat": 23.26,
-       "roce": 27.24,
+       "ebitda": 38.57,
+       "net_worth": 116.21,
+       "debt": 68.93,
+       "assets": 219.64,
        "roe": 19.98,
-       "y": "FY25"
+       "roce": 27.24
       },
       {
-       "assets": 283.21,
-       "debt": 68.44,
-       "ebitda": 82.94,
+       "y": "FY26",
        "income": 538.86,
-       "net_worth": 167.9,
        "pat": 51.8,
-       "roce": 39.88,
+       "ebitda": 82.94,
+       "net_worth": 167.9,
+       "debt": 68.44,
+       "assets": 283.21,
        "roe": 30.83,
-       "y": "FY26"
+       "roce": 39.88
       }
-     ]
+     ],
+     "ratios": {
+      "pe": 13.36,
+      "eps": 12.13,
+      "fy": "FY26",
+      "pbv": 4.12,
+      "nav": 39.36,
+      "ronw": 30.83,
+      "roce": 39.88
+     }
     }
    },
    {
