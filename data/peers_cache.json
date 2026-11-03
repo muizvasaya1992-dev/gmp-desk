@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-04T01:46+05:30",
+  "fetched_at": "2026-11-04T02:01+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -197,7 +197,7 @@
     "gmp_at": "2026-11-03T23:55",
     "sub_total": 0.89,
     "sub_retail": 0.83,
-    "sub_at": "2026-11-04T01:39",
+    "sub_at": "2026-11-04T01:58",
     "sub_cats": {
      "retail": 0.83,
      "nii": 0.94,
@@ -669,7 +669,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-04T01:46+05:30",
+  "fetched_at": "2026-11-04T02:01+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -685,7 +685,7 @@
     "price_low": null,
     "size_cr": 22.98,
     "gmp": null,
-    "gmp_at": "2026-11-03T20:31",
+    "gmp_at": "2026-11-03T23:34",
     "sub_total": 1.33,
     "sub_retail": null,
     "sub_at": null,
@@ -707,7 +707,7 @@
     "price_low": null,
     "size_cr": 56.68,
     "gmp": 11.0,
-    "gmp_at": "2026-11-03T20:37",
+    "gmp_at": "2026-11-03T23:37",
     "sub_total": 0.89,
     "sub_retail": null,
     "sub_at": null,
@@ -729,7 +729,7 @@
     "price_low": null,
     "size_cr": 34.56,
     "gmp": 25.0,
-    "gmp_at": "2026-11-03T20:37",
+    "gmp_at": "2026-11-03T23:37",
     "sub_total": 248.58,
     "sub_retail": null,
     "sub_at": null,
@@ -751,7 +751,7 @@
     "price_low": null,
     "size_cr": 56.02,
     "gmp": 8.0,
-    "gmp_at": "2026-11-03T20:37",
+    "gmp_at": "2026-11-03T23:37",
     "sub_total": 23.82,
     "sub_retail": null,
     "sub_at": null,
@@ -773,7 +773,7 @@
     "price_low": null,
     "size_cr": 53.05,
     "gmp": null,
-    "gmp_at": "2026-11-03T20:31",
+    "gmp_at": "2026-11-03T23:35",
     "sub_total": 4.2,
     "sub_retail": null,
     "sub_at": null,
@@ -795,7 +795,7 @@
     "price_low": null,
     "size_cr": 57.64,
     "gmp": 80.0,
-    "gmp_at": "2026-11-03T20:37",
+    "gmp_at": "2026-11-03T23:37",
     "sub_total": 536.8,
     "sub_retail": null,
     "sub_at": null,
@@ -816,13 +816,13 @@
     "price": 82.0,
     "price_low": null,
     "size_cr": 183.06,
-    "gmp": 9.0,
-    "gmp_at": "2026-11-03T20:37",
+    "gmp": 7.0,
+    "gmp_at": "2026-11-03T23:37",
     "sub_total": 63.89,
     "sub_retail": null,
     "sub_at": null,
     "lot": 182.0,
-    "rating": 3,
+    "rating": 2,
     "live": true
    },
    {
@@ -838,8 +838,8 @@
     "price": 162.0,
     "price_low": null,
     "size_cr": 275.4,
-    "gmp": 11.5,
-    "gmp_at": "2026-11-03T20:37",
+    "gmp": 10.0,
+    "gmp_at": "2026-11-03T23:37",
     "sub_total": 5.09,
     "sub_retail": null,
     "sub_at": null,
@@ -861,7 +861,7 @@
     "price_low": null,
     "size_cr": 38.05,
     "gmp": 1.0,
-    "gmp_at": "2026-11-03T20:37",
+    "gmp_at": "2026-11-03T23:37",
     "sub_total": 1.12,
     "sub_retail": null,
     "sub_at": null,
@@ -883,7 +883,7 @@
     "price_low": null,
     "size_cr": 28.29,
     "gmp": 4.0,
-    "gmp_at": "2026-11-03T20:37",
+    "gmp_at": "2026-11-03T23:37",
     "sub_total": 25.8,
     "sub_retail": null,
     "sub_at": null,
@@ -1334,7 +1334,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-04T01:46+05:30",
+  "fetched_at": "2026-11-04T02:01+05:30",
   "records": [
    {
     "src": "Tracker D",
