@@ -896,6 +896,7 @@ const TEXT = {
   HOME:{emo:"🏠",eyebrow:"",h1:"IPO Shop",lede:""},
   MAIN:{emo:"🏛️",eyebrow:"India · Mainboard",h1:"Mainboard IPOs",lede:"Upcoming, open and recently listed issues."},
   SME:{emo:"🌱",eyebrow:"India · SME platforms",h1:"SME IPOs",lede:"Smaller companies on BSE SME and NSE Emerge. Bigger lots, thinner trading."},
+  LST:{emo:"🔔",eyebrow:"Listing day",h1:"Listing today and tomorrow",lede:"When shares start trading, and what they did when they opened."},
   CMP:{emo:"🔍",eyebrow:"Local test only",h1:"Compare sources",lede:"GMP readings from different sources, side by side."},
   YR:{emo:"📚",eyebrow:"All of the year",h1:"All 2026 IPOs",lede:"Every Mainboard and SME issue this year, and how each one has done."},
   CAL:{emo:"🗓️",eyebrow:"Calendar",h1:"IPO Calendar",lede:"Every open, upcoming and listing day."},
@@ -1216,30 +1217,49 @@ function weekBlock(){
   }
   return out.length?`<div class="wk">${out.join("")}</div>`:`<div class="panel"><div class="empty"><div class="big">🌤️</div><b>A quiet week</b>No IPO dates in the next 7 days.</div></div>`;
 }
+function listingRows(){
+  const t=new Date(), T=ISO(t);
+  const d1=new Date(); d1.setDate(d1.getDate()+1);
+  const d7=new Date(); d7.setDate(d7.getDate()+7);
+  const d8=new Date(); d8.setDate(d8.getDate()-8);
+  const M=ISO(d1), W=ISO(d7), B=ISO(d8);
+  const by=f=>state.all.filter(i=>i.listing&&f(i.listing)).sort((a,b)=>String(a.listing).localeCompare(String(b.listing))||String(a.name).localeCompare(String(b.name)));
+  return {today:by(x=>x===T), tomorrow:by(x=>x===M), week:by(x=>x>M&&x<=W), soon:by(x=>x>=T&&x<=W),
+          done:by(x=>x>=B&&x<T).reverse(), T:T, M:M};
+}
+function listCard(i,T,M){
+  const when=i.listing===T?"Today":i.listing===M?"Tomorrow":dd(i.listing);
+  const past=i.listing<T;
+  const lp=i.listing_price!=null?i.listing_price:(i.listing_close!=null?i.listing_close:null);
+  const gain=i.listing_gain_pct;
+  const est=(i.gmp!=null&&i.price!=null)?i.price+i.gmp:null;
+  return `<button class="lsc" data-id="${esc(i.id)}" type="button">
+    <span class="lsc-when${i.listing===T?" now":""}">${esc(when)}</span>
+    <b class="lsc-n">${esc(i.name)}</b>
+    <span class="lsc-s">${i.segment==="SME"?esc(i.exchange||"SME"):"Mainboard"} · issue price ${rs(i.price)}</span>
+    <span class="lsc-v">${lp!=null
+      ? `<b class="${gain>=0?"pos2":"neg2"}">${rs(lp)}</b> <span class="micro">${past?"first-day close":"listed"}${gain!=null?" · "+pct(gain):""}</span>`
+      : est!=null
+        ? `<b>${rs(est)}</b> <span class="micro">expected from GMP ${rs(i.gmp)}${i.gmp_pct!=null?" ("+pct(i.gmp_pct)+")":""}</span>`
+        : `<span class="muted">${past?"Price not published yet":"No GMP quoted"}</span>`}</span></button>`;
+}
+function renderListing(){
+  const r=listingRows();
+  const grid=(rows,title,sub)=>rows.length?`<section class="sec">${secHead("",title,sub,null)}<div class="lsg">${rows.map(i=>listCard(i,r.T,r.M)).join("")}</div></section>`:"";
+  const none=!r.today.length&&!r.tomorrow.length&&!r.week.length&&!r.done.length;
+  $("view").innerHTML = none
+    ? `<div class="panel"><div class="empty"><div class="big">🌙</div><b>No listings around this week</b>This page fills in when IPOs reach their listing day.</div></div>`
+    : grid(r.today,"🔔 Listing today","Shares start trading today. The actual price appears once the exchange publishes it.")
+      + grid(r.tomorrow,"⏭️ Listing tomorrow","Allotment is done and the shares reach demat accounts before trading opens.")
+      + grid(r.week,"🗓️ Later this week","")
+      + grid(r.done,"🎉 Listed in the last week","How they actually opened and closed on day one.")
+      + `<p class="micro" style="margin:4px 0 0">Expected prices are the issue price plus the unofficial GMP. They are not a forecast, and the real opening price is often different. <a href="/ipo-listing-today/">Full listing page →</a></p>`;
+}
 function listingSoon(){
-  const t=new Date(), iso=d=>ISO(d), tomo=new Date(); tomo.setDate(tomo.getDate()+1);
-  const T=iso(t), M=iso(tomo);
-  const rows=state.all.filter(i=>i.listing===T||i.listing===M)
-    .sort((a,b)=>String(a.listing).localeCompare(String(b.listing))||String(a.name).localeCompare(String(b.name)));
+  const r=listingRows(), T=r.T, M=r.M, rows=r.today.concat(r.tomorrow);
   if(!rows.length) return "";
-  const card=i=>{
-    const when=i.listing===T?"Today":"Tomorrow";
-    const lp=i.listing_price!=null?i.listing_price:null;
-    const gain=i.listing_gain_pct;
-    const est=(i.gmp!=null&&i.price!=null)?i.price+i.gmp:null;
-    const done=lp!=null;
-    return `<button class="lsc" data-id="${esc(i.id)}" type="button">
-      <span class="lsc-when${i.listing===T?" now":""}">${when}</span>
-      <b class="lsc-n">${esc(i.name)}</b>
-      <span class="lsc-s">${i.segment==="SME"?(esc(i.exchange||"SME")):"Mainboard"} · issue price ${rs(i.price)}</span>
-      <span class="lsc-v">${done
-        ? `<b class="${gain>=0?"pos2":"neg2"}">${rs(lp)}</b> <span class="micro">listed${gain!=null?" · "+pct(gain):""}</span>`
-        : est!=null
-          ? `<b>${rs(est)}</b> <span class="micro">expected from GMP ${rs(i.gmp)}${i.gmp_pct!=null?" ("+pct(i.gmp_pct)+")":""}</span>`
-          : `<span class="muted">No GMP quoted</span>`}</span></button>`;
-  };
-  return `<section class="sec" id="s-listing">${secHead("🔔","Listing today and tomorrow","When shares start trading. The actual price appears here once the exchange publishes it.",null)}
-    <div class="lsg">${rows.map(card).join("")}</div>
+  return `<section class="sec" id="s-listing">${secHead("🔔","Listing today and tomorrow","When shares start trading. The actual price appears here once the exchange publishes it.",["LST",null,"See all listings"])}
+    <div class="lsg">${rows.map(i=>listCard(i,T,M)).join("")}</div>
     <p class="micro" style="margin:10px 0 0">Expected prices are issue price plus the unofficial GMP. They are not a forecast and the real opening price is often different.</p></section>`;
 }
 function newsPicks(){
@@ -1593,7 +1613,9 @@ function filtered(){
 }
 
 function renderNav(){
-  const tabs=[["HOME","Home"],["MAIN","Mainboard"],["SME","SME"]];
+  const tabs=[["HOME","Home"]];
+  if(listingRows().soon.length||listingRows().done.length) tabs.push(["LST","Listing"]);
+  tabs.push(["MAIN","Mainboard"],["SME","SME"]);
   if(state.dataset==="live") tabs.push(["YR","All 2026"]);
   tabs.push(["CAL","Calendar"]);
   tabs.push(["CONTACT","Contact"]);
@@ -1650,7 +1672,7 @@ function renderCompare(){
 }
 function render(){
   renderNav(); renderHero();
-  const wide = state.tab==="WATCH"||state.tab==="CONTACT"||state.tab==="HOME"||state.tab==="CMP"||state.tab==="TRK"||state.tab==="YR"||state.tab==="CAL";
+  const wide = state.tab==="WATCH"||state.tab==="CONTACT"||state.tab==="HOME"||state.tab==="CMP"||state.tab==="TRK"||state.tab==="YR"||state.tab==="CAL"||state.tab==="LST";
   document.querySelector(".tools").style.display = wide ? "none" : "";
   $("view").style.marginTop = (state.tab==="CMP"||state.tab==="TRK") ? "24px" : "";
   $("stats").classList.remove("three");
@@ -1662,6 +1684,7 @@ function render(){
   if(state.tab==="TRK"){ renderTrack(); return; }
   if(state.tab==="YR"){ renderYear(); return; }
   if(state.tab==="CAL"){ renderCalendar(); return; }
+  if(state.tab==="LST"){ $("stats").innerHTML=""; renderListing(); return; }
   renderStats(); renderBody();
 }
 
@@ -1774,13 +1797,13 @@ function gmpChart(i){
 }
 
 /* ============ data + events ============ */
-const TABHASH={HOME:"#home",WATCH:"#watchlist",CONTACT:"#contact",MAIN:"#mainboard",SME:"#sme",YR:"#year",CAL:"#calendar",CMP:"#compare",TRK:"#track"};
+const TABHASH={HOME:"#home",LST:"#listing",WATCH:"#watchlist",CONTACT:"#contact",MAIN:"#mainboard",SME:"#sme",YR:"#year",CAL:"#calendar",CMP:"#compare",TRK:"#track"};
 function readHash(){
   const h=decodeURIComponent(location.hash.replace("#","")); state.openId=null;
   if(h.toLowerCase().startsWith("ipo=")){ const id=h.slice(4), i=state.all.find(x=>x.id===id); if(i){ state.tab=group(i); state.openId=id; return; } }
   const k=h.toLowerCase();
   if(k==="watchlist"){ state.tab="WATCH"; return; }
-  state.tab = ({home:"HOME",mainboard:"MAIN",sme:"SME",compare:"CMP",track:"TRK",year:"YR",calendar:"CAL",contact:"CONTACT"})[k] || "HOME";
+  state.tab = ({home:"HOME",listing:"LST",mainboard:"MAIN",sme:"SME",compare:"CMP",track:"TRK",year:"YR",calendar:"CAL",contact:"CONTACT"})[k] || "HOME";
 }
 async function load(){
   try{
