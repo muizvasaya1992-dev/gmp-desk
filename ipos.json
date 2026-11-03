@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T08:45+05:30",
+  "generated_at": "2026-11-03T09:01+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-02T10:54+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-03T08:45+05:30",
+    "nse_ok_at": "2026-11-03T09:01+05:30",
     "bse_ok_at": "2026-11-02T18:46+05:30"
   },
   "ipos": [
@@ -1139,7 +1139,7 @@
         {
           "source": "Tracker D",
           "gmp": 21,
-          "at": "2026-11-03T06:01"
+          "at": "2026-11-03T09:01"
         }
       ],
       "gmp_history": [
@@ -1203,10 +1203,10 @@
       "history_source": "Tracker B",
       "gmp_low": 10,
       "gmp_high": 32,
-      "gmp": 15,
-      "gmp_asof": "2026-11-03T06:45",
-      "gmp_source_latest": "Public trackers",
-      "gmp_pct": 4.55,
+      "gmp": 21,
+      "gmp_asof": "2026-11-03T09:01",
+      "gmp_source_latest": "Tracker D",
+      "gmp_pct": 6.36,
       "gmp_spread": {
         "min": 15,
         "max": 21,
@@ -2075,7 +2075,7 @@
       "sub_asof": "2026-10-29T19:05",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-03T08:45"
+        "at": "2026-11-03T09:01"
       },
       "gmp_sources": [],
       "gmp_history": [],
@@ -2786,12 +2786,12 @@
       "close": "2026-11-03",
       "segment": "SME",
       "sub": {
-        "retail": 110.21,
-        "nii": 117.09,
-        "total": 80.34
+        "retail": 115.19,
+        "nii": 117.83,
+        "total": 82.99
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-03T08:44",
+      "sub_asof": "2026-11-03T09:01",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "JDA CAPITAL SERVICES LIMITED (Formerly Known as Beeline Broking Limited)"
@@ -2971,7 +2971,7 @@
         "total": 20.96
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-03T08:43",
+      "sub_asof": "2026-11-03T08:59",
       "registrar": "Kfin Technologies Limited",
       "lead_managers": [
         "Hem Securities Limited"
@@ -3142,7 +3142,7 @@
         "total": 0.42
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-03T08:21",
+      "sub_asof": "2026-11-03T08:59",
       "registrar": "Cameo Corporate Services Limited",
       "lead_managers": [
         "Affinity Global Capital Market Private Limited"
@@ -3444,7 +3444,7 @@
       "sub_asof": "2026-11-02T18:54",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-03T08:45"
+        "at": "2026-11-03T09:01"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3580,7 +3580,7 @@
         "total": 2.01
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-03T08:22",
+      "sub_asof": "2026-11-03T08:53",
       "lot_basis": "tracker",
       "gmp_sources": [
         {
@@ -3777,7 +3777,7 @@
       "sub_asof": "2026-11-03T02:54",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-03T08:45"
+        "at": "2026-11-03T09:01"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
