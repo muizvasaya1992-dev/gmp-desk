@@ -1,7 +1,7 @@
 {
  "_feeds": {
   "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms": {
-   "fetched": "2026-11-03T15:14+05:30",
+   "fetched": "2026-11-03T15:37+05:30",
    "items": [
     {
      "date": "2026-11-03",
@@ -306,8 +306,14 @@
    ]
   },
   "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms": {
-   "fetched": "2026-11-03T15:14+05:30",
+   "fetched": "2026-11-03T15:37+05:30",
    "items": [
+    {
+     "date": "2026-11-03",
+     "source": "Economic Times",
+     "title": "MFs cut stakes in 8 smallcap stocks after two quarters of buying; shares tumble up to 30% in 3 months",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/mfs-cut-stakes-in-8-smallcap-stocks-after-two-quarters-of-buying-shares-tumble-up-to-30-in-3-months/slideshow/135491144.cms"
+    },
     {
      "date": "2026-11-03",
      "source": "Economic Times",
@@ -563,7 +569,7 @@
     {
      "date": "2026-11-03",
      "source": "Economic Times",
-     "title": "Nestle India Share Price Live Updates: Nestle India stock shows resilience with today's gain",
+     "title": "Nestle India Share Price Live Updates: Nestle India Achieves Significant Price Movement",
      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/nestle-india-share-price-live-03-nov-2026/liveblog/135479868.cms"
     },
     {
@@ -601,18 +607,24 @@
      "source": "Economic Times",
      "title": "Jio Financial Services Share Price Live Updates: Jio Financial Services Updates: Current Price and Change",
      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/jio-financial-services-share-price-live-03-nov-2026/liveblog/135479792.cms"
-    },
-    {
-     "date": "2026-11-03",
-     "source": "Economic Times",
-     "title": "Britannia Share Price Live Updates: Impressive Gain for Britannia's Stock Price",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/britannia-share-price-live-updates-03-nov-2026/liveblog/135479764.cms"
     }
    ]
   },
   "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml": {
-   "fetched": "2026-11-03T15:14+05:30",
+   "fetched": "2026-11-03T15:37+05:30",
    "items": [
+    {
+     "date": "2026-11-03",
+     "source": "cnbctv18.com",
+     "title": "Yatharth Hospital shares jump 6.5% after Q2 profit rises 24%, revenue grows 52%",
+     "url": "https://www.cnbctv18.com/market/yatharth-hospital-share-price-q2-results-profit-revenue-20025970.htm"
+    },
+    {
+     "date": "2026-11-03",
+     "source": "cnbctv18.com",
+     "title": "Pfizer Q2 Results: Stock up 5% after net profit jumps 66% on ₹132 crore one-time gain",
+     "url": "https://www.cnbctv18.com/market/stocks/pfizer-share-price-q2-results-stock-up-5-after-net-profit-jumps-66-on-rs-132-crore-one-time-gain-20025996.htm"
+    },
     {
      "date": "2026-11-03",
      "source": "cnbctv18.com",
@@ -718,7 +730,7 @@
     {
      "date": "2026-11-03",
      "source": "cnbctv18.com",
-     "title": "SBI Q2 Results Live Updates: Credit growth guidance maintained at 14-15%",
+     "title": "SBI Q2 Results Live Updates: NII grows 15%; Credit growth guidance maintained at 14-15%",
      "url": "https://www.cnbctv18.com/market/sbi-q2-results-live-updates-2026-earnings-net-profit-nii-income-npa-margins-asset-quality-loan-growth-guidance-share-price-liveblog-20025685.htm"
     },
     {
@@ -1080,23 +1092,11 @@
      "source": "cnbctv18.com",
      "title": "Nifty may find support at 22,000, next bull run hinges on 30-40% earnings growth, says Amit Jeswani",
      "url": "https://www.cnbctv18.com/videos/market/amit-jeswani-sees-market-bottom-near-expects-new-growth-leaders-to-emerge-in-samvat-2083-20025949.htm"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "cnbctv18.com",
-     "title": "PSP Projects shares jump nearly 8% on strong Q2 numbers; profit rises 89%",
-     "url": "https://www.cnbctv18.com/market/earnings/psp-projects-shares-jump-nearly-8pc-as-q2-profit-rises-89pc-20024964.htm"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "cnbctv18.com",
-     "title": "Coal India shares jump 5% as October production, offtake rise nearly 19%",
-     "url": "https://www.cnbctv18.com/market/coal-india-share-price-october-production-offtake-rise-axis-capital-add-call-target-price-20024899.htm"
     }
    ]
   },
   "https://www.freepressjournal.in/stories.rss?section=business": {
-   "fetched": "2026-11-03T15:14+05:30",
+   "fetched": "2026-11-03T15:37+05:30",
    "items": [
     {
      "date": "2026-11-03",
@@ -1581,8 +1581,14 @@
    ]
   },
   "https://www.livemint.com/rss/markets": {
-   "fetched": "2026-11-03T15:14+05:30",
+   "fetched": "2026-11-03T15:37+05:30",
    "items": [
+    {
+     "date": "2026-11-03",
+     "source": "Mint",
+     "title": "Sebi, investment bankers discuss giving IPO-bound companies more room to revise issue sizes",
+     "url": "https://www.livemint.com/market/ipo/sebi-ipo-issuers-issue-sizes-aibi-20-threshold-11793690528862.html"
+    },
     {
      "date": "2026-11-03",
      "source": "Mint",
@@ -1786,17 +1792,11 @@
      "source": "Mint",
      "title": "China Boosts Use of Stock Support Tools to Stabilize Market",
      "url": "https://www.livemint.com/market/china-boosts-use-of-stock-support-tools-to-stabilize-market-11793661498373.html"
-    },
-    {
-     "date": "2026-11-03",
-     "source": "Mint",
-     "title": "Nasdaq 100 Enters Correction as Megacap Results Amplify AI Fears",
-     "url": "https://www.livemint.com/market/nasdaq-100-enters-correction-as-megacap-results-amplify-ai-fears-11793658450748.html"
     }
    ]
   },
   "https://www.thehindubusinessline.com/markets/feeder/default.rss": {
-   "fetched": "2026-11-03T15:14+05:30",
+   "fetched": "2026-11-03T15:37+05:30",
    "items": [
     {
      "date": "2026-11-03",
@@ -2161,7 +2161,7 @@
    ]
   },
   "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss": {
-   "fetched": "2026-11-03T15:14+05:30",
+   "fetched": "2026-11-03T15:37+05:30",
    "items": [
     {
      "date": "2026-10-26",
@@ -2287,7 +2287,7 @@
   }
  },
  "antala-industries": {
-  "checked": "2026-11-03T15:31+05:30",
+  "checked": "2026-11-03T15:37+05:30",
   "items": [
    {
     "date": "2026-10-29",
@@ -2298,7 +2298,7 @@
   ]
  },
  "bombay-coated-special-steels": {
-  "checked": "2026-11-03T15:31+05:30",
+  "checked": "2026-11-03T15:37+05:30",
   "items": [
    {
     "date": "2026-10-29",
@@ -2309,7 +2309,7 @@
   ]
  },
  "carver-roboweld": {
-  "checked": "2026-11-03T15:31+05:30",
+  "checked": "2026-11-03T15:37+05:30",
   "items": [
    {
     "date": "2026-10-28",
@@ -2320,7 +2320,7 @@
   ]
  },
  "hgsindialt": {
-  "checked": "2026-11-03T15:31+05:30",
+  "checked": "2026-11-03T15:37+05:30",
   "items": [
    {
     "date": "2026-10-30",
@@ -2331,7 +2331,7 @@
   ]
  },
  "maxengs": {
-  "checked": "2026-11-03T15:31+05:30",
+  "checked": "2026-11-03T15:37+05:30",
   "items": [
    {
     "date": "2026-10-30",
@@ -2342,7 +2342,7 @@
   ]
  },
  "mksons": {
-  "checked": "2026-11-03T15:31+05:30",
+  "checked": "2026-11-03T15:37+05:30",
   "items": [
    {
     "date": "2026-10-28",
@@ -2353,7 +2353,7 @@
   ]
  },
  "vpfl": {
-  "checked": "2026-11-03T15:31+05:30",
+  "checked": "2026-11-03T15:37+05:30",
   "items": [
    {
     "date": "2026-11-02",
