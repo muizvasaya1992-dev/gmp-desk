@@ -1,8 +1,14 @@
 {
  "_feeds": {
   "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms": {
-   "fetched": "2026-11-03T10:45+05:30",
+   "fetched": "2026-11-03T10:56+05:30",
    "items": [
+    {
+     "date": "2026-11-03",
+     "source": "Economic Times",
+     "title": "Coal India said to plan $1 billion MCL IPO as soon as this month",
+     "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/coal-india-said-to-plan-1-billion-mcl-ipo-as-soon-as-this-month/articleshow/135483145.cms"
+    },
     {
      "date": "2026-11-02",
      "source": "Economic Times",
@@ -296,17 +302,11 @@
      "source": "Economic Times",
      "title": "Jio IPO closes today: Will it deliver a double-digit listing gain or become a long-term compounder?",
      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipo-closes-today-will-it-deliver-a-double-digit-listing-gain-or-become-a-long-term-compounder/articleshow/135133412.cms"
-    },
-    {
-     "date": "2026-10-23",
-     "source": "Economic Times",
-     "title": "Jio Platforms IPO subscribed 5.57 times on day 2 on strong interest",
-     "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-platforms-ipo-subscribed-5-57-times-on-day-2-on-strong-interest/articleshow/135130103.cms"
     }
    ]
   },
   "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms": {
-   "fetched": "2026-11-03T10:45+05:30",
+   "fetched": "2026-11-03T10:56+05:30",
    "items": [
     {
      "date": "2026-11-03",
@@ -611,8 +611,14 @@
    ]
   },
   "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml": {
-   "fetched": "2026-11-03T10:45+05:30",
+   "fetched": "2026-11-03T10:56+05:30",
    "items": [
+    {
+     "date": "2026-11-03",
+     "source": "cnbctv18.com",
+     "title": "Trident jumps 13% as Q2 profit nearly doubles, ₹4,650 crore expansion plan approved",
+     "url": "https://www.cnbctv18.com/market/trident-share-price-q2-result-reaction-capex-plans-4650-crore-yarn-madhya-pradesh-dhar-spindles-20025598.htm"
+    },
     {
      "date": "2026-11-03",
      "source": "cnbctv18.com",
@@ -1086,18 +1092,72 @@
      "source": "cnbctv18.com",
      "title": "Delhivery shares surge nearly 10% after Q2 results; analysts see up to 42% more upside",
      "url": "https://www.cnbctv18.com/market/delhivery-share-price-q2-results-net-profit-revenue-ebitda-margin-brokerages-jefferies-citi-rating-target-price-outlook-20024652.htm"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "cnbctv18.com",
-     "title": "SECL IPO: Inside details from the Coal India subsidiary's DRHP",
-     "url": "https://www.cnbctv18.com/market/secl-ipo-coal-india-subsidiary-files-drhp-with-sebi-parent-to-sell-shares-20024661.htm"
     }
    ]
   },
   "https://www.freepressjournal.in/stories.rss?section=business": {
-   "fetched": "2026-11-03T10:45+05:30",
+   "fetched": "2026-11-03T10:56+05:30",
    "items": [
+    {
+     "date": "2026-11-03",
+     "source": "freepressjournal.in",
+     "title": "iOS 27.2 Released: Key Features & How To Update",
+     "url": "https://www.freepressjournal.in/tech/ios-272-released-key-features-how-to-update"
+    },
+    {
+     "date": "2026-11-03",
+     "source": "freepressjournal.in",
+     "title": "Kangana Ranaut Channels Gujarat's Rich Culture In Regal Saree, Serves Maximalist Festive Fashion Inspiration",
+     "url": "https://www.freepressjournal.in/lifestyle/kangana-ranaut-channels-gujarats-rich-culture-in-regal-saree-serves-maximalist-festive-fashion-inspiration"
+    },
+    {
+     "date": "2026-11-03",
+     "source": "freepressjournal.in",
+     "title": "After 7% Slump, Crude Rises Again As US Strikes Iran's Qeshm Island; Brent Tops $105",
+     "url": "https://www.freepressjournal.in/business/after-7-slump-crude-rises-again-as-us-strikes-irans-qeshm-island-brent-tops-105"
+    },
+    {
+     "date": "2026-11-03",
+     "source": "freepressjournal.in",
+     "title": "MP Weather Update: Storm Murasu To Bring Rain In 23 Districts, Alert Issued For November 4 And 5; Clear Weather On Dhanteras",
+     "url": "https://www.freepressjournal.in/bhopal/mp-weather-update-storm-murasu-to-bring-rain-in-23-districts-alert-issued-for-november-4-and-5-clear-weather-on-dhanteras"
+    },
+    {
+     "date": "2026-11-03",
+     "source": "freepressjournal.in",
+     "title": "NALCO Q2 FY27 Results Deliver Strong Earnings Growth, Net Profit Surges 28% To ₹1,835 Crore As Total Income Climbs 26% To ₹5,419 Crore",
+     "url": "https://www.freepressjournal.in/business/nalco-q2-fy27-results-deliver-strong-earnings-growth-net-profit-surges-28-to-1835-crore-as-total-income-climbs-26-to-5419-crore"
+    },
+    {
+     "date": "2026-11-03",
+     "source": "freepressjournal.in",
+     "title": "India's Defence Experts Discuss AI, Cyber Threats & Information Warfare At Two-Day Cyber-Enabled Cognitive Warfare Seminar In Delhi",
+     "url": "https://www.freepressjournal.in/tech/indias-defence-experts-discuss-ai-cyber-threats-information-warfare-at-two-day-cyber-enabled-cognitive-warfare-seminar-in-delhi"
+    },
+    {
+     "date": "2026-11-03",
+     "source": "freepressjournal.in",
+     "title": "Indogulf Cropsciences Delivers Strong Q2 FY27 Performance, Profit Jumps 24% To ₹26 Crore While EBITDA Records Impressive 27% Growth",
+     "url": "https://www.freepressjournal.in/business/indogulf-cropsciences-delivers-strong-q2-fy27-performance-profit-jumps-24-to-26-crore-while-ebitda-records-impressive-27-growth"
+    },
+    {
+     "date": "2026-11-03",
+     "source": "freepressjournal.in",
+     "title": "IND vs NZ 1st ODI: Live Streaming, Telecast, Date, Time, Venue And All You Need To Know",
+     "url": "https://www.freepressjournal.in/sports/ind-vs-nz-1st-odi-live-streaming-telecast-date-time-venue-and-all-you-need-to-know"
+    },
+    {
+     "date": "2026-11-03",
+     "source": "freepressjournal.in",
+     "title": "Kochi Symposium To Bring Together Scientists From 30+ Countries To Explore Satellite Technology For Sustainable Fisheries",
+     "url": "https://www.freepressjournal.in/tech/kochi-symposium-to-bring-together-scientists-from-30-countries-to-explore-satellite-technology-for-sustainable-fisheries"
+    },
+    {
+     "date": "2026-11-03",
+     "source": "freepressjournal.in",
+     "title": "South Korea's LG Energy Solution Reports Q3 Net Loss As Prolonged EV Market Slowdown Hits Battery Demand",
+     "url": "https://www.freepressjournal.in/tech/south-koreas-lg-energy-solution-reports-q3-net-loss-as-prolonged-ev-market-slowdown-hits-battery-demand"
+    },
     {
      "date": "2026-11-03",
      "source": "freepressjournal.in",
@@ -1371,8 +1431,20 @@
    ]
   },
   "https://www.livemint.com/rss/markets": {
-   "fetched": "2026-11-03T10:45+05:30",
+   "fetched": "2026-11-03T10:56+05:30",
    "items": [
+    {
+     "date": "2026-11-03",
+     "source": "Mint",
+     "title": "Trident shares jump 13% after Q2 results; profit jumps 93%, board clears ₹4,650 crore expansion plan | What lies ahead",
+     "url": "https://www.livemint.com/market/stock-market-news/trident-shares-jump-13-after-q2-results-profit-jumps-93-board-clears-rs-4-650-crore-expansion-plan-what-lies-ahead-11793682049671.html"
+    },
+    {
+     "date": "2026-11-03",
+     "source": "Mint",
+     "title": "Marico share price: FMCG stock gains 8% on strong Q2 results, nears 52-week high - Buy or sell? Check share price target",
+     "url": "https://www.livemint.com/market/stock-market-news/marico-share-price-fmcg-stock-gains-8-on-strong-q2-results-nears-52-week-high-buy-or-sell-check-share-price-target-11793680575114.html"
+    },
     {
      "date": "2026-11-03",
      "source": "Mint",
@@ -1570,23 +1642,11 @@
      "source": "Mint",
      "title": "RIL's best day since 2020, Sebi’s LTCG rollback proposal lift Dalal Street",
      "url": "https://www.livemint.com/market/stock-market-news/reliance-industries-ril-share-price-jump-nifty-sensex-rally-ltcg-tax-11793618242840.html"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "Mint",
-     "title": "Rates crash: Gold price slips 7%, silver tanks 20% in Oct: Is Dhanteras 2026 right time to buy? What should investors do",
-     "url": "https://www.livemint.com/market/commodities/rates-crash-gold-price-slips-7-silver-tanks-20-in-oct-is-dhanteras-2026-right-time-to-buy-what-should-investors-do-11793618175891.html"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "Mint",
-     "title": "Massive surge! Reliance Industries shares up 12% after Q2; add ₹2 lakh cr in mcap — when did RIL last rally this much?",
-     "url": "https://www.livemint.com/market/stock-market-news/massive-surge-reliance-industries-shares-up-12-after-q2-add-rs-2-lakh-cr-in-mcap-when-did-ril-last-rally-this-much-11793618055937.html"
     }
    ]
   },
   "https://www.thehindubusinessline.com/markets/feeder/default.rss": {
-   "fetched": "2026-11-03T10:45+05:30",
+   "fetched": "2026-11-03T10:56+05:30",
    "items": [
     {
      "date": "2026-11-03",
@@ -1951,7 +2011,7 @@
    ]
   },
   "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss": {
-   "fetched": "2026-11-03T10:45+05:30",
+   "fetched": "2026-11-03T10:56+05:30",
    "items": [
     {
      "date": "2026-10-26",
@@ -2077,7 +2137,7 @@
   }
  },
  "antala-industries": {
-  "checked": "2026-11-03T10:45+05:30",
+  "checked": "2026-11-03T10:56+05:30",
   "items": [
    {
     "date": "2026-10-29",
@@ -2088,7 +2148,7 @@
   ]
  },
  "bombay-coated-special-steels": {
-  "checked": "2026-11-03T10:45+05:30",
+  "checked": "2026-11-03T10:56+05:30",
   "items": [
    {
     "date": "2026-10-29",
@@ -2099,7 +2159,7 @@
   ]
  },
  "carver-roboweld": {
-  "checked": "2026-11-03T10:45+05:30",
+  "checked": "2026-11-03T10:56+05:30",
   "items": [
    {
     "date": "2026-10-28",
@@ -2110,7 +2170,7 @@
   ]
  },
  "hgsindialt": {
-  "checked": "2026-11-03T10:45+05:30",
+  "checked": "2026-11-03T10:56+05:30",
   "items": [
    {
     "date": "2026-10-30",
@@ -2121,7 +2181,7 @@
   ]
  },
  "maxengs": {
-  "checked": "2026-11-03T10:45+05:30",
+  "checked": "2026-11-03T10:56+05:30",
   "items": [
    {
     "date": "2026-10-30",
@@ -2132,7 +2192,7 @@
   ]
  },
  "mksons": {
-  "checked": "2026-11-03T10:45+05:30",
+  "checked": "2026-11-03T10:56+05:30",
   "items": [
    {
     "date": "2026-10-28",
@@ -2143,7 +2203,7 @@
   ]
  },
  "vpfl": {
-  "checked": "2026-11-03T10:45+05:30",
+  "checked": "2026-11-03T10:56+05:30",
   "items": [
    {
     "date": "2026-11-02",

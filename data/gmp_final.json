@@ -17,7 +17,7 @@
    "segment": "MAIN"
   },
   "bombay-coated-special-steels": {
-   "at": "2026-11-03T10:15",
+   "at": "2026-11-03T10:56",
    "gmp": 8,
    "listing": "2026-11-05",
    "name": "Bombay Coated and Special Steels",
@@ -25,7 +25,7 @@
    "segment": "MAIN"
   },
   "carver-roboweld": {
-   "at": "2026-11-03T09:37",
+   "at": "2026-11-03T10:56",
    "gmp": 5,
    "listing": "2026-11-04",
    "name": "Carver Roboweld",
@@ -33,23 +33,26 @@
    "segment": "SME"
   },
   "eaaa-india-alternatives": {
+   "actual_close": 1727.05,
+   "actual_pct": 3.73,
    "at": "2026-11-01T23:20",
    "gmp": 57,
+   "listed_on": "2026-11-02",
    "listing": "2026-11-02",
    "name": "EAAA India Alternatives",
    "price": 1665,
    "segment": "MAIN"
   },
   "hgsindialt": {
-   "at": "2026-11-03T10:15",
-   "gmp": 22,
+   "at": "2026-11-03T10:56",
+   "gmp": 30,
    "listing": "2026-11-06",
    "name": "HGS (India)",
    "price": 120,
    "segment": "SME"
   },
   "johnsoncab-electricals": {
-   "at": "2026-11-03T09:37",
+   "at": "2026-11-03T10:56",
    "gmp": 10,
    "listing": "2026-11-06",
    "name": "Johnsoncab Electricals",
@@ -57,15 +60,15 @@
    "segment": "SME"
   },
   "maxengs": {
-   "at": "2026-11-03T09:45",
-   "gmp": 65,
+   "at": "2026-11-03T10:56",
+   "gmp": 80,
    "listing": "2026-11-06",
    "name": "Maxwell Engineering Solutions",
    "price": 158,
    "segment": "SME"
   },
   "mksons": {
-   "at": "2026-11-03T10:31",
+   "at": "2026-11-03T10:56",
    "gmp": 6,
    "listing": "2026-11-04",
    "name": "M. K. Sons Fine Jewels",
@@ -81,7 +84,7 @@
    "segment": "MAIN"
   },
   "vpfl": {
-   "at": "2026-11-03T10:31",
+   "at": "2026-11-03T10:56",
    "gmp": 14,
    "listing": "2026-11-09",
    "name": "Vedant Poly Fabs",
