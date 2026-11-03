@@ -486,6 +486,35 @@
    ]
   }
  },
+ "punjab-carbonic": {
+  "at": "2026-11-03T11:15+05:30",
+  "detail": {
+   "sub": {
+    "nii": 0.0,
+    "qib": 0.0,
+    "retail": 0.0,
+    "total": 0.0
+   },
+   "uses": [
+    {
+     "cr": 19.66,
+     "use": "Expansion"
+    },
+    {
+     "cr": 11.15,
+     "use": "Expansion"
+    },
+    {
+     "cr": 40.61,
+     "use": "Expansion"
+    },
+    {
+     "cr": 8.5,
+     "use": "Debt"
+    }
+   ]
+  }
+ },
  "vectras-enprocon": {
   "at": "2026-11-03T10:57+05:30",
   "detail": {
