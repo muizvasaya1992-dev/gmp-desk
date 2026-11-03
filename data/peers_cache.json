@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-04T01:15+05:30",
+  "fetched_at": "2026-11-04T01:31+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -197,7 +197,7 @@
     "gmp_at": "2026-11-03T23:55",
     "sub_total": 0.89,
     "sub_retail": 0.83,
-    "sub_at": "2026-11-04T01:13",
+    "sub_at": "2026-11-04T01:28",
     "sub_cats": {
      "retail": 0.83,
      "nii": 0.94,
@@ -239,59 +239,63 @@
    },
    {
     "src": "Tracker B",
-    "slug": "hgs-india",
-    "name": "HGS (India)",
+    "slug": "maxwell-engineering-solutions",
+    "name": "Maxwell Engineering Solutions",
     "segment": "SME",
     "exchange": "NSE SME",
     "open": "2026-10-30",
     "close": "2026-11-03",
     "boa": "2026-11-04",
     "listing": "2026-11-06",
-    "price": 120.0,
-    "price_low": 114.0,
-    "size_cr": 34.56,
-    "gmp": 25.0,
-    "gmp_at": "2026-11-03T23:56",
-    "sub_total": 247.3,
-    "sub_retail": 233.27,
-    "sub_at": "2026-11-03T19:10",
+    "price": 158.0,
+    "price_low": 150.0,
+    "size_cr": 57.64,
+    "gmp": 80.0,
+    "gmp_at": "2026-11-03T23:55",
+    "sub_total": 536.8,
+    "sub_retail": 556.09,
+    "sub_at": "2026-11-03T19:06",
     "sub_cats": {
-     "retail": 233.27,
-     "nii": 424.39,
-     "qib": 137.92,
-     "total": 247.3
+     "retail": 556.09,
+     "nii": 857.65,
+     "qib": 259.45,
+     "total": 536.8
     },
     "gmp_days": [
      [
+      "2026-10-30",
+      70.0
+     ],
+     [
       "2026-10-31",
-      30.0
+      70.0
      ],
      [
       "2026-11-01",
-      30.0
+      70.0
      ],
      [
       "2026-11-02",
-      30.0
+      80.0
      ],
      [
       "2026-11-03",
-      25.0
+      80.0
      ]
     ],
     "rhp_url": null,
     "drhp_url": null,
-    "lot_raw": 2400.0,
-    "sector": "Geophysical Equipment / Seismic Instruments",
+    "lot_raw": 1600.0,
+    "sector": "Precision Engineering / Industrial Products",
     "quota": {
-     "qib": 50.0,
-     "nii": 15.0,
-     "retail": 35.0
+     "qib": 49.84,
+     "nii": 15.13,
+     "retail": 35.03
     },
-    "fresh_cr": 27.91,
-    "ofs_cr": 6.65,
+    "fresh_cr": 57.64,
+    "ofs_cr": 0.0,
     "registrar": "KFin Technologies Limited",
-    "lead_manager": "Hem Securities Limited",
+    "lead_manager": "JDA Capital Services Ltd.",
     "live": true
    },
    {
@@ -414,63 +418,59 @@
    },
    {
     "src": "Tracker B",
-    "slug": "maxwell-engineering-solutions",
-    "name": "Maxwell Engineering Solutions",
+    "slug": "hgs-india",
+    "name": "HGS (India)",
     "segment": "SME",
     "exchange": "NSE SME",
     "open": "2026-10-30",
     "close": "2026-11-03",
     "boa": "2026-11-04",
     "listing": "2026-11-06",
-    "price": 158.0,
-    "price_low": 150.0,
-    "size_cr": 57.64,
-    "gmp": 80.0,
-    "gmp_at": "2026-11-03T23:55",
-    "sub_total": 536.8,
-    "sub_retail": 556.09,
-    "sub_at": "2026-11-03T19:06",
+    "price": 120.0,
+    "price_low": 114.0,
+    "size_cr": 34.56,
+    "gmp": 25.0,
+    "gmp_at": "2026-11-03T23:56",
+    "sub_total": 247.3,
+    "sub_retail": 233.27,
+    "sub_at": "2026-11-03T19:10",
     "sub_cats": {
-     "retail": 556.09,
-     "nii": 857.65,
-     "qib": 259.45,
-     "total": 536.8
+     "retail": 233.27,
+     "nii": 424.39,
+     "qib": 137.92,
+     "total": 247.3
     },
     "gmp_days": [
      [
-      "2026-10-30",
-      70.0
-     ],
-     [
       "2026-10-31",
-      70.0
+      30.0
      ],
      [
       "2026-11-01",
-      70.0
+      30.0
      ],
      [
       "2026-11-02",
-      80.0
+      30.0
      ],
      [
       "2026-11-03",
-      80.0
+      25.0
      ]
     ],
     "rhp_url": null,
     "drhp_url": null,
-    "lot_raw": 1600.0,
-    "sector": "Precision Engineering / Industrial Products",
+    "lot_raw": 2400.0,
+    "sector": "Geophysical Equipment / Seismic Instruments",
     "quota": {
-     "qib": 49.84,
-     "nii": 15.13,
-     "retail": 35.03
+     "qib": 50.0,
+     "nii": 15.0,
+     "retail": 35.0
     },
-    "fresh_cr": 57.64,
-    "ofs_cr": 0.0,
+    "fresh_cr": 27.91,
+    "ofs_cr": 6.65,
     "registrar": "KFin Technologies Limited",
-    "lead_manager": "JDA Capital Services Ltd.",
+    "lead_manager": "Hem Securities Limited",
     "live": true
    },
    {
@@ -669,7 +669,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-04T01:15+05:30",
+  "fetched_at": "2026-11-04T01:31+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -1334,7 +1334,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-04T01:15+05:30",
+  "fetched_at": "2026-11-04T01:31+05:30",
   "records": [
    {
     "src": "Tracker D",
