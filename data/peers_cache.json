@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-03T07:01+05:30",
+  "fetched_at": "2026-11-03T07:11+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,7 +16,7 @@
     "price_low": 153.0,
     "size_cr": 330.48,
     "gmp": 6.5,
-    "gmp_at": "2026-11-03T06:56",
+    "gmp_at": "2026-11-03T07:06",
     "sub_total": 5.1,
     "sub_retail": 3.08,
     "sub_at": "2026-10-30T19:05",
@@ -99,7 +99,7 @@
     "price_low": 78.0,
     "size_cr": 183.06,
     "gmp": 8.0,
-    "gmp_at": "2026-11-03T06:55",
+    "gmp_at": "2026-11-03T07:05",
     "sub_total": 60.77,
     "sub_retail": 33.73,
     "sub_at": "2026-11-02T19:06",
@@ -285,7 +285,7 @@
     "price_low": 313.0,
     "size_cr": 668.0,
     "gmp": 15.5,
-    "gmp_at": "2026-11-03T06:55",
+    "gmp_at": "2026-11-03T07:05",
     "sub_total": 9.47,
     "sub_retail": 2.71,
     "sub_at": "2026-10-29T19:05",
@@ -384,7 +384,7 @@
     "price_low": 142.0,
     "size_cr": 255.0,
     "gmp": 67.0,
-    "gmp_at": "2026-11-03T06:55",
+    "gmp_at": "2026-11-03T07:05",
     "sub_total": 241.22,
     "sub_retail": 128.36,
     "sub_at": "2026-10-29T19:05",
@@ -479,6 +479,116 @@
    },
    {
     "src": "Tracker B",
+    "slug": "johnsoncab-electricals",
+    "name": "Johnsoncab Electricals Limited",
+    "segment": "SME",
+    "exchange": "BSE SME",
+    "open": "2026-10-30",
+    "close": "2026-11-03",
+    "boa": "2026-11-04",
+    "listing": "2026-11-06",
+    "price": 200.0,
+    "price_low": 190.0,
+    "size_cr": 56.02,
+    "gmp": 10.0,
+    "gmp_at": "2026-11-03T07:05",
+    "sub_total": 2.01,
+    "sub_retail": 2.21,
+    "sub_at": "2026-11-03T06:19",
+    "sub_cats": {
+     "retail": 2.21,
+     "nii": 2.89,
+     "qib": 0.99,
+     "total": 2.01
+    },
+    "gmp_days": [
+     [
+      "2026-10-31",
+      5.0
+     ],
+     [
+      "2026-11-01",
+      5.0
+     ],
+     [
+      "2026-11-02",
+      10.0
+     ]
+    ],
+    "rhp_url": null,
+    "drhp_url": null,
+    "lot_raw": 1200.0,
+    "sector": "Electrical Wires & Cables",
+    "quota": {
+     "qib": 50.0,
+     "nii": 15.0,
+     "retail": 35.0
+    },
+    "fresh_cr": 56.02,
+    "ofs_cr": 0.0,
+    "registrar": "Maashitla Securities Pvt. Ltd.",
+    "lead_manager": "ISK Advisors Pvt. Ltd.",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
+    "slug": "vectras-enprocon",
+    "name": "Vectras Enprocon",
+    "segment": "SME",
+    "exchange": "BSE SME",
+    "open": "2026-10-30",
+    "close": "2026-11-03",
+    "boa": "2026-11-04",
+    "listing": "2026-11-06",
+    "price": 105.0,
+    "price_low": 99.0,
+    "size_cr": 53.05,
+    "gmp": 0.0,
+    "gmp_at": "2026-11-03T07:05",
+    "sub_total": 1.31,
+    "sub_retail": 1.33,
+    "sub_at": "2026-11-03T02:54",
+    "sub_cats": {
+     "retail": 1.33,
+     "nii": 1.13,
+     "qib": 1.42,
+     "total": 1.31
+    },
+    "gmp_days": [
+     [
+      "2026-10-30",
+      0.0
+     ],
+     [
+      "2026-10-31",
+      0.0
+     ],
+     [
+      "2026-11-01",
+      0.0
+     ],
+     [
+      "2026-11-02",
+      0.0
+     ]
+    ],
+    "rhp_url": null,
+    "drhp_url": null,
+    "lot_raw": 2400.0,
+    "sector": "Oil & Gas Infrastructure / EPC",
+    "quota": {
+     "qib": 50.0,
+     "nii": 15.0,
+     "retail": 35.0
+    },
+    "fresh_cr": 42.59,
+    "ofs_cr": 10.46,
+    "registrar": "MUFG Intime India Pvt. Ltd.",
+    "lead_manager": "Beeline Capital Advisors Pvt. Ltd.",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
     "slug": "hgs-india",
     "name": "HGS (India)",
     "segment": "SME",
@@ -491,10 +601,10 @@
     "price_low": 114.0,
     "size_cr": 34.56,
     "gmp": 30.0,
-    "gmp_at": "2026-11-03T06:55",
+    "gmp_at": "2026-11-03T07:05",
     "sub_total": 20.96,
     "sub_retail": 25.56,
-    "sub_at": "2026-11-03T06:59",
+    "sub_at": "2026-11-03T07:07",
     "sub_cats": {
      "retail": 25.56,
      "nii": 31.56,
@@ -544,10 +654,10 @@
     "price_low": 150.0,
     "size_cr": 57.64,
     "gmp": 80.0,
-    "gmp_at": "2026-11-03T06:55",
+    "gmp_at": "2026-11-03T07:05",
     "sub_total": 80.34,
     "sub_retail": 110.21,
-    "sub_at": "2026-11-03T06:57",
+    "sub_at": "2026-11-03T07:08",
     "sub_cats": {
      "retail": 110.21,
      "nii": 117.09,
@@ -588,116 +698,6 @@
    },
    {
     "src": "Tracker B",
-    "slug": "vectras-enprocon",
-    "name": "Vectras Enprocon",
-    "segment": "SME",
-    "exchange": "BSE SME",
-    "open": "2026-10-30",
-    "close": "2026-11-03",
-    "boa": "2026-11-04",
-    "listing": "2026-11-06",
-    "price": 105.0,
-    "price_low": 99.0,
-    "size_cr": 53.05,
-    "gmp": 0.0,
-    "gmp_at": "2026-11-03T06:55",
-    "sub_total": 1.31,
-    "sub_retail": 1.33,
-    "sub_at": "2026-11-03T02:54",
-    "sub_cats": {
-     "retail": 1.33,
-     "nii": 1.13,
-     "qib": 1.42,
-     "total": 1.31
-    },
-    "gmp_days": [
-     [
-      "2026-10-30",
-      0.0
-     ],
-     [
-      "2026-10-31",
-      0.0
-     ],
-     [
-      "2026-11-01",
-      0.0
-     ],
-     [
-      "2026-11-02",
-      0.0
-     ]
-    ],
-    "rhp_url": null,
-    "drhp_url": null,
-    "lot_raw": 2400.0,
-    "sector": "Oil & Gas Infrastructure / EPC",
-    "quota": {
-     "qib": 50.0,
-     "nii": 15.0,
-     "retail": 35.0
-    },
-    "fresh_cr": 42.59,
-    "ofs_cr": 10.46,
-    "registrar": "MUFG Intime India Pvt. Ltd.",
-    "lead_manager": "Beeline Capital Advisors Pvt. Ltd.",
-    "live": true
-   },
-   {
-    "src": "Tracker B",
-    "slug": "johnsoncab-electricals",
-    "name": "Johnsoncab Electricals Limited",
-    "segment": "SME",
-    "exchange": "BSE SME",
-    "open": "2026-10-30",
-    "close": "2026-11-03",
-    "boa": "2026-11-04",
-    "listing": "2026-11-06",
-    "price": 200.0,
-    "price_low": 190.0,
-    "size_cr": 56.02,
-    "gmp": 10.0,
-    "gmp_at": "2026-11-03T06:56",
-    "sub_total": 2.01,
-    "sub_retail": 2.21,
-    "sub_at": "2026-11-03T06:19",
-    "sub_cats": {
-     "retail": 2.21,
-     "nii": 2.89,
-     "qib": 0.99,
-     "total": 2.01
-    },
-    "gmp_days": [
-     [
-      "2026-10-31",
-      5.0
-     ],
-     [
-      "2026-11-01",
-      5.0
-     ],
-     [
-      "2026-11-02",
-      10.0
-     ]
-    ],
-    "rhp_url": null,
-    "drhp_url": null,
-    "lot_raw": 1200.0,
-    "sector": "Electrical Wires & Cables",
-    "quota": {
-     "qib": 50.0,
-     "nii": 15.0,
-     "retail": 35.0
-    },
-    "fresh_cr": 56.02,
-    "ofs_cr": 0.0,
-    "registrar": "Maashitla Securities Pvt. Ltd.",
-    "lead_manager": "ISK Advisors Pvt. Ltd.",
-    "live": true
-   },
-   {
-    "src": "Tracker B",
     "slug": "vedant-poly-fabs",
     "name": "Vedant Poly Fabs",
     "segment": "SME",
@@ -710,10 +710,10 @@
     "price_low": 88.0,
     "size_cr": 56.68,
     "gmp": 15.0,
-    "gmp_at": "2026-11-03T06:55",
+    "gmp_at": "2026-11-03T07:05",
     "sub_total": 0.42,
     "sub_retail": 0.14,
-    "sub_at": "2026-11-03T06:51",
+    "sub_at": "2026-11-03T07:04",
     "sub_cats": {
      "retail": 0.14,
      "nii": 0.83,
@@ -762,7 +762,7 @@
     "price_low": 203.0,
     "size_cr": 38.05,
     "gmp": 1.0,
-    "gmp_at": "2026-11-03T06:55",
+    "gmp_at": "2026-11-03T07:05",
     "sub_total": 1.12,
     "sub_retail": 1.93,
     "sub_at": "2026-10-30T19:05",
@@ -821,7 +821,7 @@
     "price_low": 76.0,
     "size_cr": 28.29,
     "gmp": 5.0,
-    "gmp_at": "2026-11-03T06:55",
+    "gmp_at": "2026-11-03T07:05",
     "sub_total": 25.8,
     "sub_retail": 19.17,
     "sub_at": "2026-10-30T19:05",
@@ -886,7 +886,7 @@
     "price_low": 63.0,
     "size_cr": 23.33,
     "gmp": 0.0,
-    "gmp_at": "2026-11-03T06:56",
+    "gmp_at": "2026-11-03T07:05",
     "sub_total": 1.11,
     "sub_retail": 0.4,
     "sub_at": "2026-11-02T18:54",
@@ -1044,7 +1044,7 @@
     "price_low": 194.0,
     "size_cr": 110.0,
     "gmp": 0.0,
-    "gmp_at": "2026-11-03T06:55",
+    "gmp_at": "2026-11-03T07:05",
     "sub_total": 1.17,
     "sub_retail": 0.66,
     "sub_at": "2026-10-29T19:05",
@@ -1106,7 +1106,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-03T07:01+05:30",
+  "fetched_at": "2026-11-03T07:11+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -1771,7 +1771,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-03T07:01+05:30",
+  "fetched_at": "2026-11-03T07:11+05:30",
   "records": [
    {
     "src": "Tracker D",
