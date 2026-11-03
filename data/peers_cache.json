@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-03T15:45+05:30",
+  "fetched_at": "2026-11-03T16:01+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,7 +16,7 @@
     "price_low": 153.0,
     "size_cr": 330.48,
     "gmp": 10.25,
-    "gmp_at": "2026-11-03T15:41",
+    "gmp_at": "2026-11-03T16:01",
     "sub_total": 5.1,
     "sub_retail": 3.08,
     "sub_at": "2026-10-30T19:05",
@@ -103,7 +103,7 @@
     "price_low": 78.0,
     "size_cr": 183.06,
     "gmp": 9.0,
-    "gmp_at": "2026-11-03T15:41",
+    "gmp_at": "2026-11-03T16:01",
     "sub_total": 60.77,
     "sub_retail": 33.73,
     "sub_at": "2026-11-02T19:06",
@@ -194,7 +194,7 @@
     "price_low": 313.0,
     "size_cr": 668.0,
     "gmp": 15.5,
-    "gmp_at": "2026-11-03T15:41",
+    "gmp_at": "2026-11-03T16:01",
     "sub_total": 9.47,
     "sub_retail": 2.71,
     "sub_at": "2026-10-29T19:05",
@@ -297,7 +297,7 @@
     "price_low": 142.0,
     "size_cr": 255.0,
     "gmp": 69.0,
-    "gmp_at": "2026-11-03T15:40",
+    "gmp_at": "2026-11-03T16:00",
     "sub_total": 241.22,
     "sub_retail": 128.36,
     "sub_at": "2026-10-29T19:05",
@@ -404,15 +404,15 @@
     "price_low": 99.0,
     "size_cr": 53.05,
     "gmp": 0.0,
-    "gmp_at": "2026-11-03T15:41",
-    "sub_total": 3.5,
-    "sub_retail": 3.64,
-    "sub_at": "2026-11-03T15:42",
+    "gmp_at": "2026-11-03T16:01",
+    "sub_total": 3.73,
+    "sub_retail": 3.85,
+    "sub_at": "2026-11-03T15:50",
     "sub_cats": {
-     "retail": 3.64,
-     "nii": 5.91,
-     "qib": 1.44,
-     "total": 3.5
+     "retail": 3.85,
+     "nii": 6.46,
+     "qib": 1.48,
+     "total": 3.73
     },
     "gmp_days": [
      [
@@ -465,15 +465,15 @@
     "price_low": 114.0,
     "size_cr": 34.56,
     "gmp": 25.0,
-    "gmp_at": "2026-11-03T15:40",
-    "sub_total": 231.21,
-    "sub_retail": 216.95,
-    "sub_at": "2026-11-03T15:41",
+    "gmp_at": "2026-11-03T16:01",
+    "sub_total": 236.2,
+    "sub_retail": 219.7,
+    "sub_at": "2026-11-03T16:00",
     "sub_cats": {
-     "retail": 216.95,
-     "nii": 414.23,
-     "qib": 117.77,
-     "total": 231.21
+     "retail": 219.7,
+     "nii": 417.06,
+     "qib": 128.32,
+     "total": 236.2
     },
     "gmp_days": [
      [
@@ -510,63 +510,6 @@
    },
    {
     "src": "Tracker B",
-    "slug": "johnsoncab-electricals",
-    "name": "Johnsoncab Electricals Limited",
-    "segment": "SME",
-    "exchange": "BSE SME",
-    "open": "2026-10-30",
-    "close": "2026-11-03",
-    "boa": "2026-11-04",
-    "listing": "2026-11-06",
-    "price": 200.0,
-    "price_low": 190.0,
-    "size_cr": 56.02,
-    "gmp": 8.0,
-    "gmp_at": "2026-11-03T15:40",
-    "sub_total": 20.04,
-    "sub_retail": 15.35,
-    "sub_at": "2026-11-03T15:41",
-    "sub_cats": {
-     "retail": 15.35,
-     "nii": 39.31,
-     "qib": 13.79,
-     "total": 20.04
-    },
-    "gmp_days": [
-     [
-      "2026-10-31",
-      5.0
-     ],
-     [
-      "2026-11-01",
-      5.0
-     ],
-     [
-      "2026-11-02",
-      10.0
-     ],
-     [
-      "2026-11-03",
-      8.0
-     ]
-    ],
-    "rhp_url": null,
-    "drhp_url": null,
-    "lot_raw": 1200.0,
-    "sector": "Electrical Wires & Cables",
-    "quota": {
-     "qib": 50.0,
-     "nii": 15.0,
-     "retail": 35.0
-    },
-    "fresh_cr": 56.02,
-    "ofs_cr": 0.0,
-    "registrar": "Maashitla Securities Pvt. Ltd.",
-    "lead_manager": "ISK Advisors Pvt. Ltd.",
-    "live": true
-   },
-   {
-    "src": "Tracker B",
     "slug": "maxwell-engineering-solutions",
     "name": "Maxwell Engineering Solutions",
     "segment": "SME",
@@ -579,10 +522,10 @@
     "price_low": 150.0,
     "size_cr": 57.64,
     "gmp": 80.0,
-    "gmp_at": "2026-11-03T15:41",
+    "gmp_at": "2026-11-03T16:00",
     "sub_total": 496.16,
     "sub_retail": 518.79,
-    "sub_at": "2026-11-03T15:42",
+    "sub_at": "2026-11-03T16:01",
     "sub_cats": {
      "retail": 518.79,
      "nii": 839.15,
@@ -628,6 +571,63 @@
    },
    {
     "src": "Tracker B",
+    "slug": "johnsoncab-electricals",
+    "name": "Johnsoncab Electricals Limited",
+    "segment": "SME",
+    "exchange": "BSE SME",
+    "open": "2026-10-30",
+    "close": "2026-11-03",
+    "boa": "2026-11-04",
+    "listing": "2026-11-06",
+    "price": 200.0,
+    "price_low": 190.0,
+    "size_cr": 56.02,
+    "gmp": 9.0,
+    "gmp_at": "2026-11-03T16:01",
+    "sub_total": 20.04,
+    "sub_retail": 15.35,
+    "sub_at": "2026-11-03T15:56",
+    "sub_cats": {
+     "retail": 15.35,
+     "nii": 39.31,
+     "qib": 13.79,
+     "total": 20.04
+    },
+    "gmp_days": [
+     [
+      "2026-10-31",
+      5.0
+     ],
+     [
+      "2026-11-01",
+      5.0
+     ],
+     [
+      "2026-11-02",
+      10.0
+     ],
+     [
+      "2026-11-03",
+      9.0
+     ]
+    ],
+    "rhp_url": null,
+    "drhp_url": null,
+    "lot_raw": 1200.0,
+    "sector": "Electrical Wires & Cables",
+    "quota": {
+     "qib": 50.0,
+     "nii": 15.0,
+     "retail": 35.0
+    },
+    "fresh_cr": 56.02,
+    "ofs_cr": 0.0,
+    "registrar": "Maashitla Securities Pvt. Ltd.",
+    "lead_manager": "ISK Advisors Pvt. Ltd.",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
     "slug": "vedant-poly-fabs",
     "name": "Vedant Poly Fabs",
     "segment": "SME",
@@ -639,11 +639,11 @@
     "price": 94.0,
     "price_low": 88.0,
     "size_cr": 56.68,
-    "gmp": 15.0,
-    "gmp_at": "2026-11-03T15:41",
+    "gmp": 13.0,
+    "gmp_at": "2026-11-03T16:00",
     "sub_total": 0.63,
     "sub_retail": 0.5,
-    "sub_at": "2026-11-03T15:41",
+    "sub_at": "2026-11-03T16:00",
     "sub_cats": {
      "retail": 0.5,
      "nii": 0.8,
@@ -665,7 +665,7 @@
      ],
      [
       "2026-11-03",
-      15.0
+      13.0
      ]
     ],
     "rhp_url": null,
@@ -697,7 +697,7 @@
     "price_low": 203.0,
     "size_cr": 38.05,
     "gmp": 1.0,
-    "gmp_at": "2026-11-03T15:40",
+    "gmp_at": "2026-11-03T16:01",
     "sub_total": 1.12,
     "sub_retail": 1.93,
     "sub_at": "2026-10-30T19:05",
@@ -760,7 +760,7 @@
     "price_low": 76.0,
     "size_cr": 28.29,
     "gmp": 5.0,
-    "gmp_at": "2026-11-03T15:40",
+    "gmp_at": "2026-11-03T16:00",
     "sub_total": 25.8,
     "sub_retail": 19.17,
     "sub_at": "2026-10-30T19:05",
@@ -829,7 +829,7 @@
     "price_low": 63.0,
     "size_cr": 23.33,
     "gmp": 0.0,
-    "gmp_at": "2026-11-03T15:40",
+    "gmp_at": "2026-11-03T16:00",
     "sub_total": 1.11,
     "sub_retail": 0.4,
     "sub_at": "2026-11-02T18:54",
@@ -890,7 +890,7 @@
     "price_low": 194.0,
     "size_cr": 110.0,
     "gmp": 0.0,
-    "gmp_at": "2026-11-03T15:40",
+    "gmp_at": "2026-11-03T16:00",
     "sub_total": 1.17,
     "sub_retail": 0.66,
     "sub_at": "2026-10-29T19:05",
@@ -956,7 +956,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-03T15:45+05:30",
+  "fetched_at": "2026-11-03T16:01+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -972,7 +972,7 @@
     "price_low": null,
     "size_cr": 22.98,
     "gmp": null,
-    "gmp_at": "2026-11-03T10:54",
+    "gmp_at": "2026-11-03T11:57",
     "sub_total": 1.13,
     "sub_retail": null,
     "sub_at": null,
@@ -994,8 +994,8 @@
     "price_low": null,
     "size_cr": 56.68,
     "gmp": 15.0,
-    "gmp_at": "2026-11-03T11:02",
-    "sub_total": 0.5,
+    "gmp_at": "2026-11-03T12:02",
+    "sub_total": 0.56,
     "sub_retail": null,
     "sub_at": null,
     "lot": 1200.0,
@@ -1015,13 +1015,13 @@
     "price": 120.0,
     "price_low": null,
     "size_cr": 34.56,
-    "gmp": 30.0,
-    "gmp_at": "2026-11-03T11:02",
-    "sub_total": 51.63,
+    "gmp": 20.0,
+    "gmp_at": "2026-11-03T12:02",
+    "sub_total": 71.18,
     "sub_retail": null,
     "sub_at": null,
     "lot": 1200.0,
-    "rating": 4,
+    "rating": 3,
     "live": true
    },
    {
@@ -1037,13 +1037,13 @@
     "price": 200.0,
     "price_low": null,
     "size_cr": 56.02,
-    "gmp": 10.0,
-    "gmp_at": "2026-11-03T11:02",
-    "sub_total": 2.8,
+    "gmp": 8.0,
+    "gmp_at": "2026-11-03T12:02",
+    "sub_total": 3.3,
     "sub_retail": null,
     "sub_at": null,
     "lot": 600.0,
-    "rating": 2,
+    "rating": 1,
     "live": true
    },
    {
@@ -1060,8 +1060,8 @@
     "price_low": null,
     "size_cr": 53.05,
     "gmp": null,
-    "gmp_at": "2026-11-03T10:54",
-    "sub_total": 1.51,
+    "gmp_at": "2026-11-03T11:58",
+    "sub_total": 1.69,
     "sub_retail": null,
     "sub_at": null,
     "lot": 1200.0,
@@ -1082,8 +1082,8 @@
     "price_low": null,
     "size_cr": 57.64,
     "gmp": 80.0,
-    "gmp_at": "2026-11-03T11:02",
-    "sub_total": 151.99,
+    "gmp_at": "2026-11-03T12:02",
+    "sub_total": 199.06,
     "sub_retail": null,
     "sub_at": null,
     "lot": 800.0,
@@ -1104,7 +1104,7 @@
     "price_low": null,
     "size_cr": 183.06,
     "gmp": 9.0,
-    "gmp_at": "2026-11-03T11:02",
+    "gmp_at": "2026-11-03T12:02",
     "sub_total": 63.89,
     "sub_retail": null,
     "sub_at": null,
@@ -1125,13 +1125,13 @@
     "price": 162.0,
     "price_low": null,
     "size_cr": 275.4,
-    "gmp": 8.0,
-    "gmp_at": "2026-11-03T11:02",
+    "gmp": 9.25,
+    "gmp_at": "2026-11-03T12:02",
     "sub_total": 5.09,
     "sub_retail": null,
     "sub_at": null,
     "lot": 91.0,
-    "rating": 1,
+    "rating": 2,
     "live": true
    },
    {
@@ -1148,7 +1148,7 @@
     "price_low": null,
     "size_cr": 38.05,
     "gmp": 1.0,
-    "gmp_at": "2026-11-03T11:02",
+    "gmp_at": "2026-11-03T12:02",
     "sub_total": 1.12,
     "sub_retail": null,
     "sub_at": null,
@@ -1169,13 +1169,13 @@
     "price": 80.0,
     "price_low": null,
     "size_cr": 28.29,
-    "gmp": 5.0,
-    "gmp_at": "2026-11-03T11:02",
+    "gmp": 3.0,
+    "gmp_at": "2026-11-03T12:02",
     "sub_total": 25.8,
     "sub_retail": null,
     "sub_at": null,
     "lot": 1600.0,
-    "rating": 2,
+    "rating": 1,
     "live": true
    },
    {
@@ -1621,7 +1621,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-03T15:45+05:30",
+  "fetched_at": "2026-11-03T16:01+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -1636,9 +1636,9 @@
     "price": 120.0,
     "price_low": 114.0,
     "size_cr": 34.56,
-    "gmp": 20.0,
+    "gmp": 25.0,
     "gmp_at": null,
-    "sub_total": 155.16,
+    "sub_total": 169.83,
     "sub_retail": null,
     "sub_at": null,
     "lot": 1200.0,
@@ -1728,7 +1728,7 @@
     "size_cr": 58.0,
     "gmp": 80.0,
     "gmp_at": null,
-    "sub_total": 471.39,
+    "sub_total": 517.34,
     "sub_retail": null,
     "sub_at": null,
     "lot": 800.0,
@@ -1822,7 +1822,7 @@
     "size_cr": 56.02,
     "gmp": 8.0,
     "gmp_at": null,
-    "sub_total": 16.23,
+    "sub_total": 21.98,
     "sub_retail": null,
     "sub_at": null,
     "lot": 600.0,
@@ -1951,7 +1951,7 @@
     "size_cr": 53.05,
     "gmp": 0.0,
     "gmp_at": null,
-    "sub_total": 2.93,
+    "sub_total": 3.62,
     "sub_retail": null,
     "sub_at": null,
     "lot": 1200.0,
@@ -2074,9 +2074,9 @@
     "price": 94.0,
     "price_low": 88.0,
     "size_cr": 56.68,
-    "gmp": 15.0,
+    "gmp": 13.0,
     "gmp_at": null,
-    "sub_total": 0.74,
+    "sub_total": 0.7,
     "sub_retail": null,
     "sub_at": null,
     "lot": 1200.0,
@@ -2197,7 +2197,7 @@
     "size_cr": 23.33,
     "gmp": 0.0,
     "gmp_at": null,
-    "sub_total": 1.31,
+    "sub_total": 1.32,
     "sub_retail": null,
     "sub_at": null,
     "lot": 2000.0,
@@ -2515,7 +2515,7 @@
     "price": 162.0,
     "price_low": 153.0,
     "size_cr": 330.48,
-    "gmp": 10.25,
+    "gmp": 9.5,
     "gmp_at": null,
     "sub_total": null,
     "sub_retail": null,
