@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-03T14:31+05:30",
+  "fetched_at": "2026-11-03T14:46+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,7 +16,7 @@
     "price_low": 153.0,
     "size_cr": 330.48,
     "gmp": 9.5,
-    "gmp_at": "2026-11-03T14:26",
+    "gmp_at": "2026-11-03T14:41",
     "sub_total": 5.1,
     "sub_retail": 3.08,
     "sub_at": "2026-10-30T19:05",
@@ -103,7 +103,7 @@
     "price_low": 78.0,
     "size_cr": 183.06,
     "gmp": 9.0,
-    "gmp_at": "2026-11-03T14:25",
+    "gmp_at": "2026-11-03T14:41",
     "sub_total": 60.77,
     "sub_retail": 33.73,
     "sub_at": "2026-11-02T19:06",
@@ -182,109 +182,6 @@
    },
    {
     "src": "Tracker B",
-    "slug": "sfc-environmental-technologies",
-    "name": "SFC Environmental Technologies",
-    "segment": "MAIN",
-    "exchange": null,
-    "open": "2026-10-27",
-    "close": "2026-10-29",
-    "boa": "2026-10-30",
-    "listing": "2026-11-03",
-    "price": 330.0,
-    "price_low": 313.0,
-    "size_cr": 668.0,
-    "gmp": 15.5,
-    "gmp_at": "2026-11-03T14:25",
-    "sub_total": 9.47,
-    "sub_retail": 2.71,
-    "sub_at": "2026-10-29T19:05",
-    "sub_cats": {
-     "retail": 2.71,
-     "nii": 12.81,
-     "bnii": 14.49,
-     "snii": 9.44,
-     "qib": 18.81,
-     "total": 9.47
-    },
-    "gmp_days": [
-     [
-      "2026-10-20",
-      0.0
-     ],
-     [
-      "2026-10-21",
-      31.0
-     ],
-     [
-      "2026-10-22",
-      21.0
-     ],
-     [
-      "2026-10-23",
-      21.0
-     ],
-     [
-      "2026-10-24",
-      32.0
-     ],
-     [
-      "2026-10-25",
-      32.0
-     ],
-     [
-      "2026-10-26",
-      22.0
-     ],
-     [
-      "2026-10-27",
-      19.0
-     ],
-     [
-      "2026-10-28",
-      10.0
-     ],
-     [
-      "2026-10-29",
-      19.0
-     ],
-     [
-      "2026-10-30",
-      19.0
-     ],
-     [
-      "2026-10-31",
-      23.5
-     ],
-     [
-      "2026-11-01",
-      26.0
-     ],
-     [
-      "2026-11-02",
-      15.5
-     ],
-     [
-      "2026-11-03",
-      15.5
-     ]
-    ],
-    "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_SFCTECH.zip",
-    "drhp_url": "https://www.bseindia.com/corporates/download/329313/IPO%20Prior/DRHP_August_25_2025_20250825140721.pdf",
-    "lot_raw": 45.0,
-    "sector": "Environmental Technology / Wastewater Treatment",
-    "quota": {
-     "qib": 50.0,
-     "nii": 15.0,
-     "retail": 35.0
-    },
-    "fresh_cr": 150.0,
-    "ofs_cr": 517.53,
-    "registrar": "MUFG Intime India Pvt. Ltd.",
-    "lead_manager": "IIFL Capital Services Ltd.; JM Financial Ltd.; Nuvama Wealth Management Ltd.",
-    "live": true
-   },
-   {
-    "src": "Tracker B",
     "slug": "bls-polymers",
     "name": "BLS Polymers",
     "segment": "MAIN",
@@ -297,7 +194,7 @@
     "price_low": 142.0,
     "size_cr": 255.0,
     "gmp": 69.0,
-    "gmp_at": "2026-11-03T14:26",
+    "gmp_at": "2026-11-03T14:40",
     "sub_total": 241.22,
     "sub_retail": 128.36,
     "sub_at": "2026-10-29T19:05",
@@ -392,6 +289,227 @@
    },
    {
     "src": "Tracker B",
+    "slug": "sfc-environmental-technologies",
+    "name": "SFC Environmental Technologies",
+    "segment": "MAIN",
+    "exchange": null,
+    "open": "2026-10-27",
+    "close": "2026-10-29",
+    "boa": "2026-10-30",
+    "listing": "2026-11-03",
+    "price": 330.0,
+    "price_low": 313.0,
+    "size_cr": 668.0,
+    "gmp": 15.5,
+    "gmp_at": "2026-11-03T14:41",
+    "sub_total": 9.47,
+    "sub_retail": 2.71,
+    "sub_at": "2026-10-29T19:05",
+    "sub_cats": {
+     "retail": 2.71,
+     "nii": 12.81,
+     "bnii": 14.49,
+     "snii": 9.44,
+     "qib": 18.81,
+     "total": 9.47
+    },
+    "gmp_days": [
+     [
+      "2026-10-20",
+      0.0
+     ],
+     [
+      "2026-10-21",
+      31.0
+     ],
+     [
+      "2026-10-22",
+      21.0
+     ],
+     [
+      "2026-10-23",
+      21.0
+     ],
+     [
+      "2026-10-24",
+      32.0
+     ],
+     [
+      "2026-10-25",
+      32.0
+     ],
+     [
+      "2026-10-26",
+      22.0
+     ],
+     [
+      "2026-10-27",
+      19.0
+     ],
+     [
+      "2026-10-28",
+      10.0
+     ],
+     [
+      "2026-10-29",
+      19.0
+     ],
+     [
+      "2026-10-30",
+      19.0
+     ],
+     [
+      "2026-10-31",
+      23.5
+     ],
+     [
+      "2026-11-01",
+      26.0
+     ],
+     [
+      "2026-11-02",
+      15.5
+     ],
+     [
+      "2026-11-03",
+      15.5
+     ]
+    ],
+    "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_SFCTECH.zip",
+    "drhp_url": "https://www.bseindia.com/corporates/download/329313/IPO%20Prior/DRHP_August_25_2025_20250825140721.pdf",
+    "lot_raw": 45.0,
+    "sector": "Environmental Technology / Wastewater Treatment",
+    "quota": {
+     "qib": 50.0,
+     "nii": 15.0,
+     "retail": 35.0
+    },
+    "fresh_cr": 150.0,
+    "ofs_cr": 517.53,
+    "registrar": "MUFG Intime India Pvt. Ltd.",
+    "lead_manager": "IIFL Capital Services Ltd.; JM Financial Ltd.; Nuvama Wealth Management Ltd.",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
+    "slug": "maxwell-engineering-solutions",
+    "name": "Maxwell Engineering Solutions",
+    "segment": "SME",
+    "exchange": "NSE SME",
+    "open": "2026-10-30",
+    "close": "2026-11-03",
+    "boa": "2026-11-04",
+    "listing": "2026-11-06",
+    "price": 158.0,
+    "price_low": 150.0,
+    "size_cr": 57.64,
+    "gmp": 80.0,
+    "gmp_at": "2026-11-03T14:41",
+    "sub_total": 365.62,
+    "sub_retail": 416.87,
+    "sub_at": "2026-11-03T14:44",
+    "sub_cats": {
+     "retail": 416.87,
+     "nii": 615.18,
+     "qib": 86.25,
+     "total": 365.62
+    },
+    "gmp_days": [
+     [
+      "2026-10-30",
+      70.0
+     ],
+     [
+      "2026-10-31",
+      70.0
+     ],
+     [
+      "2026-11-01",
+      70.0
+     ],
+     [
+      "2026-11-02",
+      80.0
+     ],
+     [
+      "2026-11-03",
+      80.0
+     ]
+    ],
+    "rhp_url": null,
+    "drhp_url": null,
+    "lot_raw": 1600.0,
+    "sector": "Precision Engineering / Industrial Products",
+    "quota": {
+     "qib": 49.84,
+     "nii": 15.13,
+     "retail": 35.03
+    },
+    "fresh_cr": 57.64,
+    "ofs_cr": 0.0,
+    "registrar": "KFin Technologies Limited",
+    "lead_manager": "JDA Capital Services Ltd.",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
+    "slug": "hgs-india",
+    "name": "HGS (India)",
+    "segment": "SME",
+    "exchange": "NSE SME",
+    "open": "2026-10-30",
+    "close": "2026-11-03",
+    "boa": "2026-11-04",
+    "listing": "2026-11-06",
+    "price": 120.0,
+    "price_low": 114.0,
+    "size_cr": 34.56,
+    "gmp": 20.0,
+    "gmp_at": "2026-11-03T14:40",
+    "sub_total": 150.52,
+    "sub_retail": 155.51,
+    "sub_at": "2026-11-03T14:43",
+    "sub_cats": {
+     "retail": 155.51,
+     "nii": 277.6,
+     "qib": 45.62,
+     "total": 150.52
+    },
+    "gmp_days": [
+     [
+      "2026-10-31",
+      30.0
+     ],
+     [
+      "2026-11-01",
+      30.0
+     ],
+     [
+      "2026-11-02",
+      30.0
+     ],
+     [
+      "2026-11-03",
+      20.0
+     ]
+    ],
+    "rhp_url": null,
+    "drhp_url": null,
+    "lot_raw": 2400.0,
+    "sector": "Geophysical Equipment / Seismic Instruments",
+    "quota": {
+     "qib": 50.0,
+     "nii": 15.0,
+     "retail": 35.0
+    },
+    "fresh_cr": 27.91,
+    "ofs_cr": 6.65,
+    "registrar": "KFin Technologies Limited",
+    "lead_manager": "Hem Securities Limited",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
     "slug": "vectras-enprocon",
     "name": "Vectras Enprocon",
     "segment": "SME",
@@ -404,10 +522,10 @@
     "price_low": 99.0,
     "size_cr": 53.05,
     "gmp": 0.0,
-    "gmp_at": "2026-11-03T14:26",
+    "gmp_at": "2026-11-03T14:41",
     "sub_total": 1.93,
     "sub_retail": 2.02,
-    "sub_at": "2026-11-03T14:25",
+    "sub_at": "2026-11-03T14:42",
     "sub_cats": {
      "retail": 2.02,
      "nii": 2.43,
@@ -453,67 +571,6 @@
    },
    {
     "src": "Tracker B",
-    "slug": "maxwell-engineering-solutions",
-    "name": "Maxwell Engineering Solutions",
-    "segment": "SME",
-    "exchange": "NSE SME",
-    "open": "2026-10-30",
-    "close": "2026-11-03",
-    "boa": "2026-11-04",
-    "listing": "2026-11-06",
-    "price": 158.0,
-    "price_low": 150.0,
-    "size_cr": 57.64,
-    "gmp": 80.0,
-    "gmp_at": "2026-11-03T14:25",
-    "sub_total": 145.92,
-    "sub_retail": 192.26,
-    "sub_at": "2026-11-03T14:28",
-    "sub_cats": {
-     "retail": 192.26,
-     "nii": 230.95,
-     "qib": 0.01,
-     "total": 145.92
-    },
-    "gmp_days": [
-     [
-      "2026-10-30",
-      70.0
-     ],
-     [
-      "2026-10-31",
-      70.0
-     ],
-     [
-      "2026-11-01",
-      70.0
-     ],
-     [
-      "2026-11-02",
-      80.0
-     ],
-     [
-      "2026-11-03",
-      80.0
-     ]
-    ],
-    "rhp_url": null,
-    "drhp_url": null,
-    "lot_raw": 1600.0,
-    "sector": "Precision Engineering / Industrial Products",
-    "quota": {
-     "qib": 49.84,
-     "nii": 15.13,
-     "retail": 35.03
-    },
-    "fresh_cr": 57.64,
-    "ofs_cr": 0.0,
-    "registrar": "KFin Technologies Limited",
-    "lead_manager": "JDA Capital Services Ltd.",
-    "live": true
-   },
-   {
-    "src": "Tracker B",
     "slug": "johnsoncab-electricals",
     "name": "Johnsoncab Electricals Limited",
     "segment": "SME",
@@ -526,15 +583,15 @@
     "price_low": 190.0,
     "size_cr": 56.02,
     "gmp": 8.0,
-    "gmp_at": "2026-11-03T14:25",
-    "sub_total": 5.17,
-    "sub_retail": 5.62,
-    "sub_at": "2026-11-03T14:27",
+    "gmp_at": "2026-11-03T14:40",
+    "sub_total": 8.64,
+    "sub_retail": 7.06,
+    "sub_at": "2026-11-03T14:43",
     "sub_cats": {
-     "retail": 5.62,
-     "nii": 9.29,
-     "qib": 1.27,
-     "total": 5.17
+     "retail": 7.06,
+     "nii": 12.79,
+     "qib": 8.29,
+     "total": 8.64
     },
     "gmp_days": [
      [
@@ -571,63 +628,6 @@
    },
    {
     "src": "Tracker B",
-    "slug": "hgs-india",
-    "name": "HGS (India)",
-    "segment": "SME",
-    "exchange": "NSE SME",
-    "open": "2026-10-30",
-    "close": "2026-11-03",
-    "boa": "2026-11-04",
-    "listing": "2026-11-06",
-    "price": 120.0,
-    "price_low": 114.0,
-    "size_cr": 34.56,
-    "gmp": 20.0,
-    "gmp_at": "2026-11-03T14:25",
-    "sub_total": 115.39,
-    "sub_retail": 122.97,
-    "sub_at": "2026-11-03T14:29",
-    "sub_cats": {
-     "retail": 122.97,
-     "nii": 203.72,
-     "qib": 35.27,
-     "total": 115.39
-    },
-    "gmp_days": [
-     [
-      "2026-10-31",
-      30.0
-     ],
-     [
-      "2026-11-01",
-      30.0
-     ],
-     [
-      "2026-11-02",
-      30.0
-     ],
-     [
-      "2026-11-03",
-      20.0
-     ]
-    ],
-    "rhp_url": null,
-    "drhp_url": null,
-    "lot_raw": 2400.0,
-    "sector": "Geophysical Equipment / Seismic Instruments",
-    "quota": {
-     "qib": 50.0,
-     "nii": 15.0,
-     "retail": 35.0
-    },
-    "fresh_cr": 27.91,
-    "ofs_cr": 6.65,
-    "registrar": "KFin Technologies Limited",
-    "lead_manager": "Hem Securities Limited",
-    "live": true
-   },
-   {
-    "src": "Tracker B",
     "slug": "vedant-poly-fabs",
     "name": "Vedant Poly Fabs",
     "segment": "SME",
@@ -640,15 +640,15 @@
     "price_low": 88.0,
     "size_cr": 56.68,
     "gmp": 15.0,
-    "gmp_at": "2026-11-03T14:25",
-    "sub_total": 0.63,
-    "sub_retail": 0.5,
-    "sub_at": "2026-11-03T14:28",
+    "gmp_at": "2026-11-03T14:40",
+    "sub_total": 0.7,
+    "sub_retail": 0.59,
+    "sub_at": "2026-11-03T14:42",
     "sub_cats": {
-     "retail": 0.5,
-     "nii": 0.8,
+     "retail": 0.59,
+     "nii": 0.85,
      "qib": 327.27,
-     "total": 0.63
+     "total": 0.7
     },
     "gmp_days": [
      [
@@ -685,6 +685,69 @@
    },
    {
     "src": "Tracker B",
+    "slug": "ajwa-projects",
+    "name": "Ajwa Projects Limited",
+    "segment": "SME",
+    "exchange": "BSE SME",
+    "open": "2026-10-28",
+    "close": "2026-10-30",
+    "boa": "2026-11-02",
+    "listing": "2026-11-04",
+    "price": 203.0,
+    "price_low": 203.0,
+    "size_cr": 38.05,
+    "gmp": 1.0,
+    "gmp_at": "2026-11-03T14:41",
+    "sub_total": 1.12,
+    "sub_retail": 1.93,
+    "sub_at": "2026-10-30T19:05",
+    "sub_cats": {
+     "retail": 1.93,
+     "nii": 0.32,
+     "total": 1.12
+    },
+    "gmp_days": [
+     [
+      "2026-10-28",
+      35.0
+     ],
+     [
+      "2026-10-29",
+      5.0
+     ],
+     [
+      "2026-10-30",
+      2.0
+     ],
+     [
+      "2026-10-31",
+      1.0
+     ],
+     [
+      "2026-11-02",
+      1.0
+     ],
+     [
+      "2026-11-03",
+      1.0
+     ]
+    ],
+    "rhp_url": null,
+    "drhp_url": null,
+    "lot_raw": 1200.0,
+    "sector": "Industrial EPC and Infrastructure",
+    "quota": {
+     "nii": 50.0,
+     "retail": 50.0
+    },
+    "fresh_cr": 30.45,
+    "ofs_cr": 7.6,
+    "registrar": "KFin Technologies Limited",
+    "lead_manager": "Wealth Mine Networks Private Limited",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
     "slug": "carver-roboweld",
     "name": "Carver Roboweld",
     "segment": "SME",
@@ -697,7 +760,7 @@
     "price_low": 76.0,
     "size_cr": 28.29,
     "gmp": 5.0,
-    "gmp_at": "2026-11-03T14:26",
+    "gmp_at": "2026-11-03T14:41",
     "sub_total": 25.8,
     "sub_retail": 19.17,
     "sub_at": "2026-10-30T19:05",
@@ -754,69 +817,6 @@
    },
    {
     "src": "Tracker B",
-    "slug": "ajwa-projects",
-    "name": "Ajwa Projects Limited",
-    "segment": "SME",
-    "exchange": "BSE SME",
-    "open": "2026-10-28",
-    "close": "2026-10-30",
-    "boa": "2026-11-02",
-    "listing": "2026-11-04",
-    "price": 203.0,
-    "price_low": 203.0,
-    "size_cr": 38.05,
-    "gmp": 1.0,
-    "gmp_at": "2026-11-03T14:25",
-    "sub_total": 1.12,
-    "sub_retail": 1.93,
-    "sub_at": "2026-10-30T19:05",
-    "sub_cats": {
-     "retail": 1.93,
-     "nii": 0.32,
-     "total": 1.12
-    },
-    "gmp_days": [
-     [
-      "2026-10-28",
-      35.0
-     ],
-     [
-      "2026-10-29",
-      5.0
-     ],
-     [
-      "2026-10-30",
-      2.0
-     ],
-     [
-      "2026-10-31",
-      1.0
-     ],
-     [
-      "2026-11-02",
-      1.0
-     ],
-     [
-      "2026-11-03",
-      1.0
-     ]
-    ],
-    "rhp_url": null,
-    "drhp_url": null,
-    "lot_raw": 1200.0,
-    "sector": "Industrial EPC and Infrastructure",
-    "quota": {
-     "nii": 50.0,
-     "retail": 50.0
-    },
-    "fresh_cr": 30.45,
-    "ofs_cr": 7.6,
-    "registrar": "KFin Technologies Limited",
-    "lead_manager": "Wealth Mine Networks Private Limited",
-    "live": true
-   },
-   {
-    "src": "Tracker B",
     "slug": "antala-industries",
     "name": "Antala Industries",
     "segment": "SME",
@@ -829,7 +829,7 @@
     "price_low": 63.0,
     "size_cr": 23.33,
     "gmp": 0.0,
-    "gmp_at": "2026-11-03T14:26",
+    "gmp_at": "2026-11-03T14:40",
     "sub_total": 1.11,
     "sub_retail": 0.4,
     "sub_at": "2026-11-02T18:54",
@@ -890,7 +890,7 @@
     "price_low": 194.0,
     "size_cr": 110.0,
     "gmp": 0.0,
-    "gmp_at": "2026-11-03T14:25",
+    "gmp_at": "2026-11-03T14:40",
     "sub_total": 1.17,
     "sub_retail": 0.66,
     "sub_at": "2026-10-29T19:05",
@@ -956,7 +956,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-03T14:31+05:30",
+  "fetched_at": "2026-11-03T14:46+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -1621,7 +1621,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-03T14:31+05:30",
+  "fetched_at": "2026-11-03T14:46+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -1638,7 +1638,7 @@
     "size_cr": 34.56,
     "gmp": 20.0,
     "gmp_at": null,
-    "sub_total": 105.74,
+    "sub_total": 115.58,
     "sub_retail": null,
     "sub_at": null,
     "lot": 1200.0,
@@ -1728,7 +1728,7 @@
     "size_cr": 58.0,
     "gmp": 80.0,
     "gmp_at": null,
-    "sub_total": 365.62,
+    "sub_total": 404.47,
     "sub_retail": null,
     "sub_at": null,
     "lot": 800.0,
@@ -1822,7 +1822,7 @@
     "size_cr": 56.02,
     "gmp": 8.0,
     "gmp_at": null,
-    "sub_total": 8.39,
+    "sub_total": 9.83,
     "sub_retail": null,
     "sub_at": null,
     "lot": 600.0,
@@ -2076,7 +2076,7 @@
     "size_cr": 56.68,
     "gmp": 15.0,
     "gmp_at": null,
-    "sub_total": 0.69,
+    "sub_total": 0.7,
     "sub_retail": null,
     "sub_at": null,
     "lot": 1200.0,
@@ -2515,7 +2515,7 @@
     "price": 162.0,
     "price_low": 153.0,
     "size_cr": 330.48,
-    "gmp": 9.5,
+    "gmp": 10.25,
     "gmp_at": null,
     "sub_total": null,
     "sub_retail": null,
