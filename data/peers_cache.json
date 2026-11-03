@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-03T12:45+05:30",
+  "fetched_at": "2026-11-03T13:01+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,7 +16,7 @@
     "price_low": 153.0,
     "size_cr": 330.48,
     "gmp": 9.0,
-    "gmp_at": "2026-11-03T12:41",
+    "gmp_at": "2026-11-03T12:56",
     "sub_total": 5.1,
     "sub_retail": 3.08,
     "sub_at": "2026-10-30T19:05",
@@ -103,7 +103,7 @@
     "price_low": 78.0,
     "size_cr": 183.06,
     "gmp": 9.0,
-    "gmp_at": "2026-11-03T12:40",
+    "gmp_at": "2026-11-03T12:56",
     "sub_total": 60.77,
     "sub_retail": 33.73,
     "sub_at": "2026-11-02T19:06",
@@ -194,7 +194,7 @@
     "price_low": 313.0,
     "size_cr": 668.0,
     "gmp": 15.5,
-    "gmp_at": "2026-11-03T12:41",
+    "gmp_at": "2026-11-03T12:55",
     "sub_total": 9.47,
     "sub_retail": 2.71,
     "sub_at": "2026-10-29T19:05",
@@ -297,7 +297,7 @@
     "price_low": 142.0,
     "size_cr": 255.0,
     "gmp": 69.0,
-    "gmp_at": "2026-11-03T12:40",
+    "gmp_at": "2026-11-03T12:55",
     "sub_total": 241.22,
     "sub_retail": 128.36,
     "sub_at": "2026-10-29T19:05",
@@ -392,63 +392,6 @@
    },
    {
     "src": "Tracker B",
-    "slug": "hgs-india",
-    "name": "HGS (India)",
-    "segment": "SME",
-    "exchange": "NSE SME",
-    "open": "2026-10-30",
-    "close": "2026-11-03",
-    "boa": "2026-11-04",
-    "listing": "2026-11-06",
-    "price": 120.0,
-    "price_low": 114.0,
-    "size_cr": 34.56,
-    "gmp": 20.0,
-    "gmp_at": "2026-11-03T12:41",
-    "sub_total": 81.69,
-    "sub_retail": 95.2,
-    "sub_at": "2026-11-03T12:44",
-    "sub_cats": {
-     "retail": 95.2,
-     "nii": 147.3,
-     "qib": 8.34,
-     "total": 81.69
-    },
-    "gmp_days": [
-     [
-      "2026-10-31",
-      30.0
-     ],
-     [
-      "2026-11-01",
-      30.0
-     ],
-     [
-      "2026-11-02",
-      30.0
-     ],
-     [
-      "2026-11-03",
-      20.0
-     ]
-    ],
-    "rhp_url": null,
-    "drhp_url": null,
-    "lot_raw": 2400.0,
-    "sector": "Geophysical Equipment / Seismic Instruments",
-    "quota": {
-     "qib": 50.0,
-     "nii": 15.0,
-     "retail": 35.0
-    },
-    "fresh_cr": 27.91,
-    "ofs_cr": 6.65,
-    "registrar": "KFin Technologies Limited",
-    "lead_manager": "Hem Securities Limited",
-    "live": true
-   },
-   {
-    "src": "Tracker B",
     "slug": "maxwell-engineering-solutions",
     "name": "Maxwell Engineering Solutions",
     "segment": "SME",
@@ -461,10 +404,10 @@
     "price_low": 150.0,
     "size_cr": 57.64,
     "gmp": 80.0,
-    "gmp_at": "2026-11-03T12:40",
+    "gmp_at": "2026-11-03T12:56",
     "sub_total": 145.92,
     "sub_retail": 192.26,
-    "sub_at": "2026-11-03T12:44",
+    "sub_at": "2026-11-03T12:58",
     "sub_cats": {
      "retail": 192.26,
      "nii": 230.95,
@@ -510,6 +453,63 @@
    },
    {
     "src": "Tracker B",
+    "slug": "hgs-india",
+    "name": "HGS (India)",
+    "segment": "SME",
+    "exchange": "NSE SME",
+    "open": "2026-10-30",
+    "close": "2026-11-03",
+    "boa": "2026-11-04",
+    "listing": "2026-11-06",
+    "price": 120.0,
+    "price_low": 114.0,
+    "size_cr": 34.56,
+    "gmp": 20.0,
+    "gmp_at": "2026-11-03T12:56",
+    "sub_total": 81.69,
+    "sub_retail": 95.2,
+    "sub_at": "2026-11-03T12:59",
+    "sub_cats": {
+     "retail": 95.2,
+     "nii": 147.3,
+     "qib": 8.34,
+     "total": 81.69
+    },
+    "gmp_days": [
+     [
+      "2026-10-31",
+      30.0
+     ],
+     [
+      "2026-11-01",
+      30.0
+     ],
+     [
+      "2026-11-02",
+      30.0
+     ],
+     [
+      "2026-11-03",
+      20.0
+     ]
+    ],
+    "rhp_url": null,
+    "drhp_url": null,
+    "lot_raw": 2400.0,
+    "sector": "Geophysical Equipment / Seismic Instruments",
+    "quota": {
+     "qib": 50.0,
+     "nii": 15.0,
+     "retail": 35.0
+    },
+    "fresh_cr": 27.91,
+    "ofs_cr": 6.65,
+    "registrar": "KFin Technologies Limited",
+    "lead_manager": "Hem Securities Limited",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
     "slug": "vectras-enprocon",
     "name": "Vectras Enprocon",
     "segment": "SME",
@@ -522,10 +522,10 @@
     "price_low": 99.0,
     "size_cr": 53.05,
     "gmp": 0.0,
-    "gmp_at": "2026-11-03T12:40",
+    "gmp_at": "2026-11-03T12:55",
     "sub_total": 1.5,
     "sub_retail": 1.54,
-    "sub_at": "2026-11-03T12:41",
+    "sub_at": "2026-11-03T12:56",
     "sub_cats": {
      "retail": 1.54,
      "nii": 1.53,
@@ -583,15 +583,15 @@
     "price_low": 190.0,
     "size_cr": 56.02,
     "gmp": 8.0,
-    "gmp_at": "2026-11-03T12:40",
-    "sub_total": 2.76,
-    "sub_retail": 3.02,
-    "sub_at": "2026-11-03T12:41",
+    "gmp_at": "2026-11-03T12:55",
+    "sub_total": 2.71,
+    "sub_retail": 2.95,
+    "sub_at": "2026-11-03T12:59",
     "sub_cats": {
-     "retail": 3.02,
-     "nii": 4.53,
+     "retail": 2.95,
+     "nii": 4.46,
      "qib": 0.99,
-     "total": 2.76
+     "total": 2.71
     },
     "gmp_days": [
      [
@@ -640,14 +640,14 @@
     "price_low": 88.0,
     "size_cr": 56.68,
     "gmp": 15.0,
-    "gmp_at": "2026-11-03T12:41",
-    "sub_total": 0.48,
-    "sub_retail": 0.31,
-    "sub_at": "2026-11-03T12:43",
+    "gmp_at": "2026-11-03T12:56",
+    "sub_total": 0.47,
+    "sub_retail": 0.29,
+    "sub_at": "2026-11-03T12:59",
     "sub_cats": {
-     "retail": 0.31,
-     "nii": 0.74,
-     "total": 0.48
+     "retail": 0.29,
+     "nii": 0.73,
+     "total": 0.47
     },
     "gmp_days": [
      [
@@ -696,7 +696,7 @@
     "price_low": 76.0,
     "size_cr": 28.29,
     "gmp": 5.0,
-    "gmp_at": "2026-11-03T12:41",
+    "gmp_at": "2026-11-03T12:56",
     "sub_total": 25.8,
     "sub_retail": 19.17,
     "sub_at": "2026-10-30T19:05",
@@ -765,7 +765,7 @@
     "price_low": 203.0,
     "size_cr": 38.05,
     "gmp": 1.0,
-    "gmp_at": "2026-11-03T12:41",
+    "gmp_at": "2026-11-03T12:55",
     "sub_total": 1.12,
     "sub_retail": 1.93,
     "sub_at": "2026-10-30T19:05",
@@ -828,7 +828,7 @@
     "price_low": 63.0,
     "size_cr": 23.33,
     "gmp": 0.0,
-    "gmp_at": "2026-11-03T12:40",
+    "gmp_at": "2026-11-03T12:55",
     "sub_total": 1.11,
     "sub_retail": 0.4,
     "sub_at": "2026-11-02T18:54",
@@ -889,7 +889,7 @@
     "price_low": 194.0,
     "size_cr": 110.0,
     "gmp": 0.0,
-    "gmp_at": "2026-11-03T12:40",
+    "gmp_at": "2026-11-03T12:55",
     "sub_total": 1.17,
     "sub_retail": 0.66,
     "sub_at": "2026-10-29T19:05",
@@ -955,8 +955,30 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-03T12:45+05:30",
+  "fetched_at": "2026-11-03T13:01+05:30",
   "records": [
+   {
+    "src": "Tracker C",
+    "slug": "antala-industries",
+    "name": "Antala Industries",
+    "segment": "SME",
+    "exchange": "BSE SME",
+    "open": "2026-10-29",
+    "close": "2026-11-05",
+    "boa": "2026-11-06",
+    "listing": "2026-11-11",
+    "price": 66.0,
+    "price_low": null,
+    "size_cr": 22.98,
+    "gmp": null,
+    "gmp_at": "2026-11-03T11:30",
+    "sub_total": 1.13,
+    "sub_retail": null,
+    "sub_at": null,
+    "lot": 2000.0,
+    "rating": 1,
+    "live": true
+   },
    {
     "src": "Tracker C",
     "slug": "vedant-poly-fabs",
@@ -971,8 +993,8 @@
     "price_low": null,
     "size_cr": 56.68,
     "gmp": 15.0,
-    "gmp_at": "2026-11-03T09:37",
-    "sub_total": 0.42,
+    "gmp_at": "2026-11-03T11:37",
+    "sub_total": 0.52,
     "sub_retail": null,
     "sub_at": null,
     "lot": 1200.0,
@@ -992,13 +1014,13 @@
     "price": 120.0,
     "price_low": null,
     "size_cr": 34.56,
-    "gmp": 30.0,
-    "gmp_at": "2026-11-03T09:37",
-    "sub_total": 20.96,
+    "gmp": 20.0,
+    "gmp_at": "2026-11-03T11:37",
+    "sub_total": 61.1,
     "sub_retail": null,
     "sub_at": null,
     "lot": 1200.0,
-    "rating": 4,
+    "rating": 3,
     "live": true
    },
    {
@@ -1014,13 +1036,13 @@
     "price": 200.0,
     "price_low": null,
     "size_cr": 56.02,
-    "gmp": 10.0,
-    "gmp_at": "2026-11-03T09:37",
-    "sub_total": 2.01,
+    "gmp": 8.0,
+    "gmp_at": "2026-11-03T11:37",
+    "sub_total": 3.08,
     "sub_retail": null,
     "sub_at": null,
     "lot": 600.0,
-    "rating": 2,
+    "rating": 1,
     "live": true
    },
    {
@@ -1037,8 +1059,8 @@
     "price_low": null,
     "size_cr": 53.05,
     "gmp": null,
-    "gmp_at": "2026-11-03T09:33",
-    "sub_total": 1.31,
+    "gmp_at": "2026-11-03T11:33",
+    "sub_total": 1.56,
     "sub_retail": null,
     "sub_at": null,
     "lot": 1200.0,
@@ -1059,34 +1081,12 @@
     "price_low": null,
     "size_cr": 57.64,
     "gmp": 80.0,
-    "gmp_at": "2026-11-03T09:37",
-    "sub_total": 80.34,
+    "gmp_at": "2026-11-03T11:37",
+    "sub_total": 173.73,
     "sub_retail": null,
     "sub_at": null,
     "lot": 800.0,
     "rating": 5,
-    "live": true
-   },
-   {
-    "src": "Tracker C",
-    "slug": "antala-industries",
-    "name": "Antala Industries",
-    "segment": "SME",
-    "exchange": "BSE SME",
-    "open": "2026-10-29",
-    "close": "2026-11-05",
-    "boa": "2026-11-06",
-    "listing": "2026-11-11",
-    "price": 66.0,
-    "price_low": null,
-    "size_cr": 22.98,
-    "gmp": null,
-    "gmp_at": "2026-11-03T09:35",
-    "sub_total": 1.13,
-    "sub_retail": null,
-    "sub_at": null,
-    "lot": 2000.0,
-    "rating": 1,
     "live": true
    },
    {
@@ -1102,13 +1102,13 @@
     "price": 82.0,
     "price_low": null,
     "size_cr": 183.06,
-    "gmp": 8.0,
-    "gmp_at": "2026-11-03T09:37",
+    "gmp": 9.0,
+    "gmp_at": "2026-11-03T11:37",
     "sub_total": 63.89,
     "sub_retail": null,
     "sub_at": null,
     "lot": 182.0,
-    "rating": 2,
+    "rating": 3,
     "live": true
    },
    {
@@ -1124,13 +1124,13 @@
     "price": 162.0,
     "price_low": null,
     "size_cr": 275.4,
-    "gmp": 6.5,
-    "gmp_at": "2026-11-03T09:37",
+    "gmp": 9.0,
+    "gmp_at": "2026-11-03T11:37",
     "sub_total": 5.09,
     "sub_retail": null,
     "sub_at": null,
     "lot": 91.0,
-    "rating": 1,
+    "rating": 2,
     "live": true
    },
    {
@@ -1147,7 +1147,7 @@
     "price_low": null,
     "size_cr": 38.05,
     "gmp": 1.0,
-    "gmp_at": "2026-11-03T09:37",
+    "gmp_at": "2026-11-03T11:37",
     "sub_total": 1.12,
     "sub_retail": null,
     "sub_at": null,
@@ -1168,13 +1168,13 @@
     "price": 80.0,
     "price_low": null,
     "size_cr": 28.29,
-    "gmp": 5.0,
-    "gmp_at": "2026-11-03T09:37",
+    "gmp": 3.0,
+    "gmp_at": "2026-11-03T11:37",
     "sub_total": 25.8,
     "sub_retail": null,
     "sub_at": null,
     "lot": 1600.0,
-    "rating": 2,
+    "rating": 1,
     "live": true
    },
    {
@@ -1620,7 +1620,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-03T12:45+05:30",
+  "fetched_at": "2026-11-03T13:01+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -1635,7 +1635,7 @@
     "price": 120.0,
     "price_low": 114.0,
     "size_cr": 34.56,
-    "gmp": 30.0,
+    "gmp": 20.0,
     "gmp_at": null,
     "sub_total": 61.9,
     "sub_retail": null,
@@ -1819,7 +1819,7 @@
     "price": 200.0,
     "price_low": 190.0,
     "size_cr": 56.02,
-    "gmp": 10.0,
+    "gmp": 8.0,
     "gmp_at": null,
     "sub_total": 3.85,
     "sub_retail": null,
@@ -2073,7 +2073,7 @@
     "price": 94.0,
     "price_low": 88.0,
     "size_cr": 56.68,
-    "gmp": 14.0,
+    "gmp": 15.0,
     "gmp_at": null,
     "sub_total": 0.57,
     "sub_retail": null,
@@ -2177,51 +2177,6 @@
        "roce": 38.03,
        "roe": 25.96,
        "y": "FY26"
-      }
-     ]
-    }
-   },
-   {
-    "src": "Tracker D",
-    "slug": "atomberg-technologies",
-    "name": "Atomberg Technologies",
-    "segment": "MAIN",
-    "exchange": null,
-    "open": null,
-    "close": null,
-    "boa": null,
-    "listing": null,
-    "price": null,
-    "price_low": null,
-    "size_cr": null,
-    "gmp": 0.0,
-    "gmp_at": null,
-    "sub_total": null,
-    "sub_retail": null,
-    "sub_at": null,
-    "lot": null,
-    "sector": "Consumer Durables / Consumer Appliances",
-    "detail_url": "https://ipoindex.in/ipo/atomberg-technologies-ipo/",
-    "live": true,
-    "detail": {
-     "sub": {
-      "nii": 0.0,
-      "qib": 0.0,
-      "retail": 0.0,
-      "total": 0.0
-     },
-     "uses": [
-      {
-       "cr": 90.0,
-       "use": "Debt"
-      },
-      {
-       "cr": 150.0,
-       "use": "Marketing"
-      },
-      {
-       "cr": 100.0,
-       "use": "Expense"
       }
      ]
     }
@@ -2590,6 +2545,29 @@
     "lot": 600.0,
     "sector": "Consumer Electronics",
     "detail_url": "https://ipoindex.in/ipo/wiscon-industries-sme-ipo/",
+    "live": false
+   },
+   {
+    "src": "Tracker D",
+    "slug": "sfc-environmental-technologies",
+    "name": "SFC Environmental Technologies",
+    "segment": "MAIN",
+    "exchange": null,
+    "open": null,
+    "close": null,
+    "boa": null,
+    "listing": null,
+    "price": 330.0,
+    "price_low": 313.0,
+    "size_cr": 667.53,
+    "gmp": 15.5,
+    "gmp_at": null,
+    "sub_total": null,
+    "sub_retail": null,
+    "sub_at": null,
+    "lot": 45.0,
+    "sector": "Waste Management",
+    "detail_url": "https://ipoindex.in/ipo/sfc-environmental-technologies-ipo/",
     "live": false
    }
   ]
