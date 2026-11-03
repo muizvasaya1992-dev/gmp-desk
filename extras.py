@@ -179,6 +179,69 @@ def lp_updates(ds, root=None):
                  body, faqs, tick=True)
 
 
+# ------------------------------------------------------------------ 0b. listing today and tomorrow
+def _seg(d):
+    return esc(d.get("exchange") or "SME") if d.get("segment") == "SME" else "Mainboard"
+
+
+def _expected(d):
+    if d.get("gmp") is None or d.get("price") is None:
+        return "–"
+    return f"{rs(d['price'] + d['gmp'])}<small>GMP {rs(d['gmp'])}{f' ({d["gmp_pct"]:+.2f}%)' if d.get('gmp_pct') is not None else ''}</small>"
+
+
+def _listing_table(rows, title, note=""):
+    if not rows:
+        return ""
+    head = "".join(f'<th scope="col">{h}</th>' for h in ("IPO", "Lists on", "Issue price", "Expected from GMP", "Actual"))
+    body = ""
+    for d in rows:
+        lp, g = d.get("listing_price"), d.get("listing_gain_pct")
+        actual = (rs(lp) + (f"<small>{g:+.2f}% on the issue price</small>" if g is not None else "")) if lp is not None else "<span class='muted'>not published yet</span>"
+        extra = f"<small>{_seg(d)}</small>" if d.get("segment") == "SME" and d.get("exchange") else ""
+        body += (f"<tr><td>{link(d)}{extra}</td><td>{esc(dl(d.get('listing')))}</td>"
+                 f"<td>{rs(d['price']) if d.get('price') is not None else '–'}</td><td>{_expected(d)}</td><td>{actual}</td></tr>")
+    return (f'<section class="card"><h2>{esc(title)} ({len(rows)})</h2>' + (f'<p class="muted">{note}</p>' if note else "")
+            + '<p class="muted swipe">Swipe the table sideways to see every column.</p>'
+            f'<div class="tw"><table class="t"><caption class="sr">{esc(title)}</caption><thead><tr>{head}</tr></thead><tbody>{body}</tbody></table></div></section>')
+
+
+def lp_listing(ds, root=None):
+    today = dt.date.today()
+    iso = today.isoformat()
+    tomo = (today + dt.timedelta(days=1)).isoformat()
+    week = (today + dt.timedelta(days=7)).isoformat()
+    back = (today - dt.timedelta(days=7)).isoformat()
+    by = lambda f: sorted([d for d in ds if d.get("listing") and f(d["listing"])], key=lambda d: (d["listing"], d["name"]))
+    now_ = by(lambda x: x == iso)
+    nxt = by(lambda x: x == tomo)
+    soon = by(lambda x: tomo < x <= week)
+    done = [d for d in by(lambda x: back <= x < iso) if d.get("listing_price") is not None or d.get("listing_close") is not None][::-1]
+    n = len(now_)
+    intro = (f"{n} IPO{'s' if n != 1 else ''} start{'' if n != 1 else 's'} trading today: " + ", ".join(esc(d["name"]) for d in now_) + "."
+             if now_ else "No IPO is listing today.")
+    if nxt:
+        intro += f" {len(nxt)} list{'s' if len(nxt) == 1 else ''} tomorrow: " + ", ".join(esc(d["name"]) for d in nxt) + "."
+    intro += " Listing day is when the shares reach the exchange and start trading, usually three working days after the issue closes."
+    body = (f'<p class="lead">{intro}</p><p class="muted" id="asof">Figures refresh automatically through the day.</p>'
+            + _listing_table(now_, "Listing today", "The actual price appears here once the exchange publishes it.")
+            + _listing_table(nxt, "Listing tomorrow")
+            + _listing_table(soon, "Listing later this week")
+            + _listing_table(done, "Listed in the last week")
+            + '<section class="card"><h2>How listing day works</h2><ul class="list">'
+            '<li>Shares are credited to your demat account a day or so before listing.</li>'
+            '<li>Trading opens with a special pre-open session, and the opening price is set by the orders in it.</li>'
+            '<li>The <b>expected price</b> in the tables above is simply the issue price plus the unofficial GMP. It is not a forecast, and the real opening price is often different.</li>'
+            '<li>SME shares list on BSE SME or NSE Emerge, where trading is thinner and prices can move sharply.</li></ul></section>')
+    faqs = [("What time do IPO shares list?", "Trading normally begins at 10:00 a.m. on the listing day, after a special pre-open session that sets the opening price."),
+            ("Will the share list at the GMP price?", "Often not. GMP is an unofficial number from the grey market. The opening price comes from real buy and sell orders on the day."),
+            ("When does the actual listing price appear on this page?", "As soon as the exchange publishes it, which is usually within the first hour of trading. Until then the column reads 'not published yet'."),
+            ("Can I sell on listing day?", "Yes, once the shares are in your demat account and trading has opened. This page does not advise whether you should.")]
+    return shell("ipo-listing-today", "IPO Listing Today and Tomorrow: Date, Price, GMP | IPO Shop", "IPO listing today and tomorrow",
+                 "Which IPOs list today and tomorrow in India, with issue price, unofficial GMP, the expected listing price and the actual price once the exchange publishes it.",
+                 body, faqs, tick=True)
+
+
 # ------------------------------------------------------------------ 1. SME / Mainboard dashboard
 def dashboard(ds, seg):
     sme = seg == "SME"
@@ -547,8 +610,8 @@ def learn_pages():
 
 def pages(ds, root):
     """(slug, html) for every extra page."""
-    return [("ipo-news", lp_updates(ds, root)), ("ipo-subscription-status", lp_subscription(ds, root)),
+    return [("ipo-listing-today", lp_listing(ds, root)), ("ipo-news", lp_updates(ds, root)), ("ipo-subscription-status", lp_subscription(ds, root)),
             ("gmp-accuracy", lp_accuracy(ds, root)), ("compare-ipos", lp_compare(ds, root))] + learn_pages()
 
 
-SLUGS = ["ipo-news", "ipo-subscription-status", "gmp-accuracy", "compare-ipos", "learn"] + [f"learn/{s}" for s in ORDER_ARTICLES]
+SLUGS = ["ipo-listing-today", "ipo-news", "ipo-subscription-status", "gmp-accuracy", "compare-ipos", "learn"] + [f"learn/{s}" for s in ORDER_ARTICLES]
