@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-03T09:15+05:30",
+  "fetched_at": "2026-11-03T09:31+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,7 +16,7 @@
     "price_low": 153.0,
     "size_cr": 330.48,
     "gmp": 6.5,
-    "gmp_at": "2026-11-03T09:10",
+    "gmp_at": "2026-11-03T09:30",
     "sub_total": 5.1,
     "sub_retail": 3.08,
     "sub_at": "2026-10-30T19:05",
@@ -99,7 +99,7 @@
     "price_low": 78.0,
     "size_cr": 183.06,
     "gmp": 8.0,
-    "gmp_at": "2026-11-03T09:10",
+    "gmp_at": "2026-11-03T09:30",
     "sub_total": 60.77,
     "sub_retail": 33.73,
     "sub_at": "2026-11-02T19:06",
@@ -186,7 +186,7 @@
     "price_low": 313.0,
     "size_cr": 668.0,
     "gmp": 15.5,
-    "gmp_at": "2026-11-03T09:10",
+    "gmp_at": "2026-11-03T09:30",
     "sub_total": 9.47,
     "sub_retail": 2.71,
     "sub_at": "2026-10-29T19:05",
@@ -284,8 +284,8 @@
     "price": 150.0,
     "price_low": 142.0,
     "size_cr": 255.0,
-    "gmp": 67.0,
-    "gmp_at": "2026-11-03T09:10",
+    "gmp": 70.0,
+    "gmp_at": "2026-11-03T09:30",
     "sub_total": 241.22,
     "sub_retail": 128.36,
     "sub_at": "2026-10-29T19:05",
@@ -360,7 +360,7 @@
      ],
      [
       "2026-11-03",
-      67.0
+      70.0
      ]
     ],
     "rhp_url": "https://unistonecapital.com/wp-content/uploads/2026/10/BLS-Polymers-Limited.pdf",
@@ -380,115 +380,6 @@
    },
    {
     "src": "Tracker B",
-    "slug": "hgs-india",
-    "name": "HGS (India)",
-    "segment": "SME",
-    "exchange": "NSE SME",
-    "open": "2026-10-30",
-    "close": "2026-11-03",
-    "boa": "2026-11-04",
-    "listing": "2026-11-06",
-    "price": 120.0,
-    "price_low": 114.0,
-    "size_cr": 34.56,
-    "gmp": 30.0,
-    "gmp_at": "2026-11-03T09:10",
-    "sub_total": 21.48,
-    "sub_retail": 26.52,
-    "sub_at": "2026-11-03T09:14",
-    "sub_cats": {
-     "retail": 26.52,
-     "nii": 31.71,
-     "qib": 4.88,
-     "total": 21.48
-    },
-    "gmp_days": [
-     [
-      "2026-10-31",
-      30.0
-     ],
-     [
-      "2026-11-01",
-      30.0
-     ],
-     [
-      "2026-11-02",
-      30.0
-     ]
-    ],
-    "rhp_url": null,
-    "drhp_url": null,
-    "lot_raw": 2400.0,
-    "sector": "Geophysical Equipment / Seismic Instruments",
-    "quota": {
-     "qib": 50.0,
-     "nii": 15.0,
-     "retail": 35.0
-    },
-    "fresh_cr": 27.91,
-    "ofs_cr": 6.65,
-    "registrar": "KFin Technologies Limited",
-    "lead_manager": "Hem Securities Limited",
-    "live": true
-   },
-   {
-    "src": "Tracker B",
-    "slug": "maxwell-engineering-solutions",
-    "name": "Maxwell Engineering Solutions",
-    "segment": "SME",
-    "exchange": "NSE SME",
-    "open": "2026-10-30",
-    "close": "2026-11-03",
-    "boa": "2026-11-04",
-    "listing": "2026-11-06",
-    "price": 158.0,
-    "price_low": 150.0,
-    "size_cr": 57.64,
-    "gmp": 80.0,
-    "gmp_at": "2026-11-03T09:10",
-    "sub_total": 82.99,
-    "sub_retail": 115.19,
-    "sub_at": "2026-11-03T09:12",
-    "sub_cats": {
-     "retail": 115.19,
-     "nii": 117.83,
-     "total": 82.99
-    },
-    "gmp_days": [
-     [
-      "2026-10-30",
-      70.0
-     ],
-     [
-      "2026-10-31",
-      70.0
-     ],
-     [
-      "2026-11-01",
-      70.0
-     ],
-     [
-      "2026-11-02",
-      80.0
-     ]
-    ],
-    "rhp_url": null,
-    "drhp_url": null,
-    "lot_raw": 1600.0,
-    "sector": "Precision Engineering / Industrial Products",
-    "quota": {
-     "qib": 49.84,
-     "nii": 15.13,
-     "retail": 35.03
-    },
-    "fresh_cr": 57.64,
-    "ofs_cr": 0.0,
-    "registrar": "KFin Technologies Limited",
-    "lead_manager": "JDA Capital Services Ltd.",
-    "live": true
-   },
-   {
-    "src": "Tracker B",
     "slug": "vectras-enprocon",
     "name": "Vectras Enprocon",
     "segment": "SME",
@@ -501,10 +392,10 @@
     "price_low": 99.0,
     "size_cr": 53.05,
     "gmp": 0.0,
-    "gmp_at": "2026-11-03T09:10",
+    "gmp_at": "2026-11-03T09:30",
     "sub_total": 1.31,
     "sub_retail": 1.33,
-    "sub_at": "2026-11-03T02:54",
+    "sub_at": "2026-11-03T09:26",
     "sub_cats": {
      "retail": 1.33,
      "nii": 1.13,
@@ -546,6 +437,59 @@
    },
    {
     "src": "Tracker B",
+    "slug": "hgs-india",
+    "name": "HGS (India)",
+    "segment": "SME",
+    "exchange": "NSE SME",
+    "open": "2026-10-30",
+    "close": "2026-11-03",
+    "boa": "2026-11-04",
+    "listing": "2026-11-06",
+    "price": 120.0,
+    "price_low": 114.0,
+    "size_cr": 34.56,
+    "gmp": 30.0,
+    "gmp_at": "2026-11-03T09:30",
+    "sub_total": 21.48,
+    "sub_retail": 26.52,
+    "sub_at": "2026-11-03T09:29",
+    "sub_cats": {
+     "retail": 26.52,
+     "nii": 31.71,
+     "qib": 4.88,
+     "total": 21.48
+    },
+    "gmp_days": [
+     [
+      "2026-10-31",
+      30.0
+     ],
+     [
+      "2026-11-01",
+      30.0
+     ],
+     [
+      "2026-11-02",
+      30.0
+     ]
+    ],
+    "rhp_url": null,
+    "drhp_url": null,
+    "lot_raw": 2400.0,
+    "sector": "Geophysical Equipment / Seismic Instruments",
+    "quota": {
+     "qib": 50.0,
+     "nii": 15.0,
+     "retail": 35.0
+    },
+    "fresh_cr": 27.91,
+    "ofs_cr": 6.65,
+    "registrar": "KFin Technologies Limited",
+    "lead_manager": "Hem Securities Limited",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
     "slug": "johnsoncab-electricals",
     "name": "Johnsoncab Electricals Limited",
     "segment": "SME",
@@ -558,10 +502,10 @@
     "price_low": 190.0,
     "size_cr": 56.02,
     "gmp": 10.0,
-    "gmp_at": "2026-11-03T09:10",
+    "gmp_at": "2026-11-03T09:30",
     "sub_total": 2.01,
     "sub_retail": 2.21,
-    "sub_at": "2026-11-03T08:53",
+    "sub_at": "2026-11-03T09:30",
     "sub_cats": {
      "retail": 2.21,
      "nii": 2.89,
@@ -599,6 +543,62 @@
    },
    {
     "src": "Tracker B",
+    "slug": "maxwell-engineering-solutions",
+    "name": "Maxwell Engineering Solutions",
+    "segment": "SME",
+    "exchange": "NSE SME",
+    "open": "2026-10-30",
+    "close": "2026-11-03",
+    "boa": "2026-11-04",
+    "listing": "2026-11-06",
+    "price": 158.0,
+    "price_low": 150.0,
+    "size_cr": 57.64,
+    "gmp": 80.0,
+    "gmp_at": "2026-11-03T09:30",
+    "sub_total": 82.99,
+    "sub_retail": 115.19,
+    "sub_at": "2026-11-03T09:30",
+    "sub_cats": {
+     "retail": 115.19,
+     "nii": 117.83,
+     "total": 82.99
+    },
+    "gmp_days": [
+     [
+      "2026-10-30",
+      70.0
+     ],
+     [
+      "2026-10-31",
+      70.0
+     ],
+     [
+      "2026-11-01",
+      70.0
+     ],
+     [
+      "2026-11-02",
+      80.0
+     ]
+    ],
+    "rhp_url": null,
+    "drhp_url": null,
+    "lot_raw": 1600.0,
+    "sector": "Precision Engineering / Industrial Products",
+    "quota": {
+     "qib": 49.84,
+     "nii": 15.13,
+     "retail": 35.03
+    },
+    "fresh_cr": 57.64,
+    "ofs_cr": 0.0,
+    "registrar": "KFin Technologies Limited",
+    "lead_manager": "JDA Capital Services Ltd.",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
     "slug": "vedant-poly-fabs",
     "name": "Vedant Poly Fabs",
     "segment": "SME",
@@ -611,12 +611,12 @@
     "price_low": 88.0,
     "size_cr": 56.68,
     "gmp": 15.0,
-    "gmp_at": "2026-11-03T09:10",
+    "gmp_at": "2026-11-03T09:30",
     "sub_total": 0.42,
-    "sub_retail": 0.14,
-    "sub_at": "2026-11-03T08:59",
+    "sub_retail": 0.15,
+    "sub_at": "2026-11-03T09:18",
     "sub_cats": {
-     "retail": 0.14,
+     "retail": 0.15,
      "nii": 0.83,
      "total": 0.42
     },
@@ -663,7 +663,7 @@
     "price_low": 203.0,
     "size_cr": 38.05,
     "gmp": 1.0,
-    "gmp_at": "2026-11-03T09:10",
+    "gmp_at": "2026-11-03T09:30",
     "sub_total": 1.12,
     "sub_retail": 1.93,
     "sub_at": "2026-10-30T19:05",
@@ -722,7 +722,7 @@
     "price_low": 76.0,
     "size_cr": 28.29,
     "gmp": 5.0,
-    "gmp_at": "2026-11-03T09:10",
+    "gmp_at": "2026-11-03T09:30",
     "sub_total": 25.8,
     "sub_retail": 19.17,
     "sub_at": "2026-10-30T19:05",
@@ -787,7 +787,7 @@
     "price_low": 63.0,
     "size_cr": 23.33,
     "gmp": 0.0,
-    "gmp_at": "2026-11-03T09:10",
+    "gmp_at": "2026-11-03T09:30",
     "sub_total": 1.11,
     "sub_retail": 0.4,
     "sub_at": "2026-11-02T18:54",
@@ -844,7 +844,7 @@
     "price_low": 194.0,
     "size_cr": 110.0,
     "gmp": 0.0,
-    "gmp_at": "2026-11-03T09:10",
+    "gmp_at": "2026-11-03T09:30",
     "sub_total": 1.17,
     "sub_retail": 0.66,
     "sub_at": "2026-10-29T19:05",
@@ -906,7 +906,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-03T09:15+05:30",
+  "fetched_at": "2026-11-03T09:31+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -922,7 +922,7 @@
     "price_low": null,
     "size_cr": 56.68,
     "gmp": 15.0,
-    "gmp_at": "2026-11-03T06:37",
+    "gmp_at": "2026-11-03T08:02",
     "sub_total": 0.42,
     "sub_retail": null,
     "sub_at": null,
@@ -944,7 +944,7 @@
     "price_low": null,
     "size_cr": 34.56,
     "gmp": 30.0,
-    "gmp_at": "2026-11-03T06:37",
+    "gmp_at": "2026-11-03T08:02",
     "sub_total": 20.96,
     "sub_retail": null,
     "sub_at": null,
@@ -966,7 +966,7 @@
     "price_low": null,
     "size_cr": 56.02,
     "gmp": 10.0,
-    "gmp_at": "2026-11-03T06:37",
+    "gmp_at": "2026-11-03T08:02",
     "sub_total": 2.01,
     "sub_retail": null,
     "sub_at": null,
@@ -988,7 +988,7 @@
     "price_low": null,
     "size_cr": 53.05,
     "gmp": null,
-    "gmp_at": "2026-11-03T06:32",
+    "gmp_at": "2026-11-03T07:53",
     "sub_total": 1.31,
     "sub_retail": null,
     "sub_at": null,
@@ -1010,7 +1010,7 @@
     "price_low": null,
     "size_cr": 57.64,
     "gmp": 80.0,
-    "gmp_at": "2026-11-03T06:37",
+    "gmp_at": "2026-11-03T08:02",
     "sub_total": 80.34,
     "sub_retail": null,
     "sub_at": null,
@@ -1032,7 +1032,7 @@
     "price_low": null,
     "size_cr": 23.33,
     "gmp": null,
-    "gmp_at": "2026-11-03T06:33",
+    "gmp_at": "2026-11-03T08:01",
     "sub_total": 1.13,
     "sub_retail": null,
     "sub_at": null,
@@ -1054,7 +1054,7 @@
     "price_low": null,
     "size_cr": 183.06,
     "gmp": 8.0,
-    "gmp_at": "2026-11-03T06:37",
+    "gmp_at": "2026-11-03T08:02",
     "sub_total": 63.89,
     "sub_retail": null,
     "sub_at": null,
@@ -1076,7 +1076,7 @@
     "price_low": null,
     "size_cr": 275.4,
     "gmp": 6.5,
-    "gmp_at": "2026-11-03T06:37",
+    "gmp_at": "2026-11-03T08:02",
     "sub_total": 5.09,
     "sub_retail": null,
     "sub_at": null,
@@ -1098,7 +1098,7 @@
     "price_low": null,
     "size_cr": 38.05,
     "gmp": 1.0,
-    "gmp_at": "2026-11-03T06:37",
+    "gmp_at": "2026-11-03T08:02",
     "sub_total": 1.12,
     "sub_retail": null,
     "sub_at": null,
@@ -1120,7 +1120,7 @@
     "price_low": null,
     "size_cr": 28.29,
     "gmp": 5.0,
-    "gmp_at": "2026-11-03T06:37",
+    "gmp_at": "2026-11-03T08:02",
     "sub_total": 25.8,
     "sub_retail": null,
     "sub_at": null,
@@ -1142,7 +1142,7 @@
     "price_low": null,
     "size_cr": 110.0,
     "gmp": null,
-    "gmp_at": "2026-11-03T06:37",
+    "gmp_at": "2026-11-03T07:59",
     "sub_total": 1.17,
     "sub_retail": null,
     "sub_at": null,
@@ -1164,7 +1164,7 @@
     "price_low": null,
     "size_cr": 667.53,
     "gmp": 15.5,
-    "gmp_at": "2026-11-03T06:37",
+    "gmp_at": "2026-11-03T08:02",
     "sub_total": 9.47,
     "sub_retail": null,
     "sub_at": null,
@@ -1186,7 +1186,7 @@
     "price_low": null,
     "size_cr": 255.0,
     "gmp": 68.0,
-    "gmp_at": "2026-11-03T06:37",
+    "gmp_at": "2026-11-03T08:02",
     "sub_total": 241.22,
     "sub_retail": null,
     "sub_at": null,
@@ -1571,391 +1571,8 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-03T09:15+05:30",
+  "fetched_at": "2026-11-03T09:31+05:30",
   "records": [
-   {
-    "src": "Tracker D",
-    "slug": "antala-industries",
-    "name": "Antala Industries",
-    "segment": "SME",
-    "exchange": null,
-    "open": "2026-10-29",
-    "close": "2026-11-02",
-    "boa": null,
-    "listing": "2026-11-05",
-    "price": 67.0,
-    "price_low": 63.0,
-    "size_cr": 23.33,
-    "gmp": 0.0,
-    "gmp_at": null,
-    "sub_total": 1.13,
-    "sub_retail": null,
-    "sub_at": null,
-    "lot": 2000.0,
-    "sector": "Packaging",
-    "detail_url": "https://ipoindex.in/ipo/antala-industries-sme-ipo/",
-    "live": true,
-    "detail": {
-     "gmp_history": [
-      [
-       "2026-11-02",
-       0.0
-      ],
-      [
-       "2026-10-31",
-       0.0
-      ],
-      [
-       "2026-10-30",
-       0.0
-      ],
-      [
-       "2026-10-27",
-       0.0
-      ]
-     ],
-     "reservation": {
-      "bnii": {
-       "pct": 9.82,
-       "shares": 342000
-      },
-      "market_maker": {
-       "pct": 5.05,
-       "shares": 176000
-      },
-      "nii": {
-       "pct": 14.65,
-       "shares": 510000
-      },
-      "qib": {
-       "pct": 1.03,
-       "shares": 36000
-      },
-      "retail": {
-       "pct": 79.26,
-       "shares": 2760000
-      },
-      "snii": {
-       "pct": 4.82,
-       "shares": 168000
-      }
-     },
-     "sub": {
-      "nii": 0.3,
-      "qib": 66.72,
-      "retail": 0.42,
-      "total": 1.13
-     },
-     "sub_at": "2026-11-02T17:39",
-     "uses": [
-      {
-       "cr": 10.68,
-       "use": "Capital"
-      },
-      {
-       "cr": 7.32,
-       "use": "Machine"
-      }
-     ],
-     "years": [
-      {
-       "assets": 5.97,
-       "debt": 0.36,
-       "ebitda": 1.36,
-       "income": 12.59,
-       "net_worth": 3.54,
-       "pat": 0.89,
-       "roce": null,
-       "roe": null,
-       "y": "FY24"
-      },
-      {
-       "assets": 25.47,
-       "debt": 3.85,
-       "ebitda": 2.82,
-       "income": 31.98,
-       "net_worth": 12.19,
-       "pat": 1.82,
-       "roce": 32.39,
-       "roe": 17.77,
-       "y": "FY25"
-      },
-      {
-       "assets": 28.41,
-       "debt": 4.19,
-       "ebitda": 6.15,
-       "income": 47.53,
-       "net_worth": 17.03,
-       "pat": 4.24,
-       "roce": 42.23,
-       "roe": 24.88,
-       "y": "FY26"
-      }
-     ]
-    }
-   },
-   {
-    "src": "Tracker D",
-    "slug": "bombay-coated-special-steels",
-    "name": "Bombay Coated & Special Steels",
-    "segment": "MAIN",
-    "exchange": null,
-    "open": "2026-10-29",
-    "close": "2026-11-02",
-    "boa": null,
-    "listing": "2026-11-05",
-    "price": 82.0,
-    "price_low": 78.0,
-    "size_cr": 183.06,
-    "gmp": 9.25,
-    "gmp_at": null,
-    "sub_total": 45.01,
-    "sub_retail": null,
-    "sub_at": null,
-    "lot": 182.0,
-    "sector": "Iron & Steel Products",
-    "detail_url": "https://ipoindex.in/ipo/bombay-coated-special-steels-ipo/",
-    "live": true,
-    "detail": {
-     "gmp_history": [
-      [
-       "2026-11-02",
-       9.0
-      ],
-      [
-       "2026-10-31",
-       10.0
-      ],
-      [
-       "2026-10-30",
-       7.0
-      ],
-      [
-       "2026-10-29",
-       9.0
-      ],
-      [
-       "2026-10-28",
-       10.0
-      ],
-      [
-       "2026-10-27",
-       9.0
-      ],
-      [
-       "2026-10-26",
-       9.0
-      ],
-      [
-       "2026-10-24",
-       8.0
-      ],
-      [
-       "2026-10-23",
-       8.0
-      ]
-     ],
-     "reservation": {
-      "anchor": {
-       "pct": 22.81,
-       "shares": 6597500
-      },
-      "bnii": {
-       "pct": 27.02,
-       "shares": 7813409
-      },
-      "nii": {
-       "pct": 11.58,
-       "shares": 3348604
-      },
-      "qib": {
-       "pct": 61.41,
-       "shares": 6597500
-      },
-      "qib_ex_anchor": {
-       "pct": 38.59,
-       "shares": 11162012
-      },
-      "retail": {
-       "pct": 27.02,
-       "shares": 7813409
-      },
-      "snii": {
-       "pct": 3.86,
-       "shares": 1116201
-      }
-     },
-     "sub": {
-      "nii": 166.44,
-      "qib": 15.26,
-      "retail": 35.46,
-      "total": 45.01
-     },
-     "sub_at": "2026-11-02T17:58",
-     "uses": [
-      {
-       "cr": 125.0,
-       "use": "Borrowings"
-      },
-      {
-       "cr": 15.0,
-       "use": "Lease"
-      }
-     ],
-     "years": [
-      {
-       "assets": 350.21,
-       "debt": 234.16,
-       "ebitda": 49.17,
-       "income": 765.41,
-       "net_worth": 54.36,
-       "pat": 21.14,
-       "roce": 18.6,
-       "roe": 48.2,
-       "y": "FY24"
-      },
-      {
-       "assets": 458.21,
-       "debt": 276.96,
-       "ebitda": 74.09,
-       "income": 1058.65,
-       "net_worth": 83.05,
-       "pat": 28.67,
-       "roce": 18.78,
-       "roe": 41.76,
-       "y": "FY25"
-      },
-      {
-       "assets": 571.47,
-       "debt": 338.45,
-       "ebitda": 86.09,
-       "income": 1269.83,
-       "net_worth": 121.58,
-       "pat": 30.54,
-       "roce": 16.4,
-       "roe": 29.92,
-       "y": "FY26"
-      }
-     ]
-    }
-   },
-   {
-    "src": "Tracker D",
-    "slug": "vedant-poly-fabs",
-    "name": "Vedant Poly Fabs",
-    "segment": "SME",
-    "exchange": null,
-    "open": "2026-11-02",
-    "close": "2026-11-04",
-    "boa": null,
-    "listing": "2026-11-09",
-    "price": 94.0,
-    "price_low": 88.0,
-    "size_cr": 56.68,
-    "gmp": 15.0,
-    "gmp_at": null,
-    "sub_total": 0.41,
-    "sub_retail": null,
-    "sub_at": null,
-    "lot": 1200.0,
-    "sector": "Packaging",
-    "detail_url": "https://ipoindex.in/ipo/vedant-poly-fabs-sme-ipo/",
-    "live": true,
-    "detail": {
-     "gmp_history": [
-      [
-       "2026-11-02",
-       15.0
-      ],
-      [
-       "2026-10-31",
-       4.0
-      ],
-      [
-       "2026-10-30",
-       0.0
-      ],
-      [
-       "2026-10-29",
-       0.0
-      ]
-     ],
-     "reservation": {
-      "market_maker": {
-       "pct": 5.05,
-       "shares": 304800
-      },
-      "nii": {
-       "pct": 37.49,
-       "shares": 2260800
-      },
-      "qib": {
-       "pct": 1.13,
-       "shares": 68400
-      },
-      "retail": {
-       "pct": 56.32,
-       "shares": 3396000
-      }
-     },
-     "sub": {
-      "nii": 0.83,
-      "qib": 0.0,
-      "retail": 0.14,
-      "total": 0.41
-     },
-     "sub_at": "2026-11-02T17:58",
-     "uses": [
-      {
-       "cr": 17.59,
-       "use": "Capital"
-      },
-      {
-       "cr": 8.0,
-       "use": "Debt"
-      },
-      {
-       "cr": 6.51,
-       "use": "Assets"
-      }
-     ],
-     "years": [
-      {
-       "assets": 18.87,
-       "debt": 6.34,
-       "ebitda": 1.28,
-       "income": 49.53,
-       "net_worth": 3.85,
-       "pat": 0.63,
-       "roce": 20.97,
-       "roe": 16.36,
-       "y": "FY24"
-      },
-      {
-       "assets": 55.39,
-       "debt": 11.31,
-       "ebitda": 7.74,
-       "income": 81.02,
-       "net_worth": 15.42,
-       "pat": 4.56,
-       "roce": 47.31,
-       "roe": 29.57,
-       "y": "FY25"
-      },
-      {
-       "assets": 97.8,
-       "debt": 46.8,
-       "ebitda": 19,
-       "income": 115.13,
-       "net_worth": 42.25,
-       "pat": 10.97,
-       "roce": 38.03,
-       "roe": 25.96,
-       "y": "FY26"
-      }
-     ]
-    }
-   },
    {
     "src": "Tracker D",
     "slug": "hgs-india",
@@ -2380,6 +1997,389 @@
    },
    {
     "src": "Tracker D",
+    "slug": "vedant-poly-fabs",
+    "name": "Vedant Poly Fabs",
+    "segment": "SME",
+    "exchange": null,
+    "open": "2026-11-02",
+    "close": "2026-11-04",
+    "boa": null,
+    "listing": "2026-11-09",
+    "price": 94.0,
+    "price_low": 88.0,
+    "size_cr": 56.68,
+    "gmp": 15.0,
+    "gmp_at": null,
+    "sub_total": 0.41,
+    "sub_retail": null,
+    "sub_at": null,
+    "lot": 1200.0,
+    "sector": "Packaging",
+    "detail_url": "https://ipoindex.in/ipo/vedant-poly-fabs-sme-ipo/",
+    "live": true,
+    "detail": {
+     "gmp_history": [
+      [
+       "2026-11-02",
+       15.0
+      ],
+      [
+       "2026-10-31",
+       4.0
+      ],
+      [
+       "2026-10-30",
+       0.0
+      ],
+      [
+       "2026-10-29",
+       0.0
+      ]
+     ],
+     "reservation": {
+      "market_maker": {
+       "pct": 5.05,
+       "shares": 304800
+      },
+      "nii": {
+       "pct": 37.49,
+       "shares": 2260800
+      },
+      "qib": {
+       "pct": 1.13,
+       "shares": 68400
+      },
+      "retail": {
+       "pct": 56.32,
+       "shares": 3396000
+      }
+     },
+     "sub": {
+      "nii": 0.83,
+      "qib": 0.0,
+      "retail": 0.14,
+      "total": 0.41
+     },
+     "sub_at": "2026-11-02T17:58",
+     "uses": [
+      {
+       "cr": 17.59,
+       "use": "Capital"
+      },
+      {
+       "cr": 8.0,
+       "use": "Debt"
+      },
+      {
+       "cr": 6.51,
+       "use": "Assets"
+      }
+     ],
+     "years": [
+      {
+       "assets": 18.87,
+       "debt": 6.34,
+       "ebitda": 1.28,
+       "income": 49.53,
+       "net_worth": 3.85,
+       "pat": 0.63,
+       "roce": 20.97,
+       "roe": 16.36,
+       "y": "FY24"
+      },
+      {
+       "assets": 55.39,
+       "debt": 11.31,
+       "ebitda": 7.74,
+       "income": 81.02,
+       "net_worth": 15.42,
+       "pat": 4.56,
+       "roce": 47.31,
+       "roe": 29.57,
+       "y": "FY25"
+      },
+      {
+       "assets": 97.8,
+       "debt": 46.8,
+       "ebitda": 19,
+       "income": 115.13,
+       "net_worth": 42.25,
+       "pat": 10.97,
+       "roce": 38.03,
+       "roe": 25.96,
+       "y": "FY26"
+      }
+     ]
+    }
+   },
+   {
+    "src": "Tracker D",
+    "slug": "antala-industries",
+    "name": "Antala Industries",
+    "segment": "SME",
+    "exchange": null,
+    "open": null,
+    "close": null,
+    "boa": null,
+    "listing": "2026-11-05",
+    "price": 67.0,
+    "price_low": 63.0,
+    "size_cr": 23.33,
+    "gmp": 0.0,
+    "gmp_at": null,
+    "sub_total": null,
+    "sub_retail": null,
+    "sub_at": null,
+    "lot": 2000.0,
+    "sector": "Packaging",
+    "detail_url": "https://ipoindex.in/ipo/antala-industries-sme-ipo/",
+    "live": true,
+    "detail": {
+     "gmp_history": [
+      [
+       "2026-11-02",
+       0.0
+      ],
+      [
+       "2026-10-31",
+       0.0
+      ],
+      [
+       "2026-10-30",
+       0.0
+      ],
+      [
+       "2026-10-27",
+       0.0
+      ]
+     ],
+     "reservation": {
+      "bnii": {
+       "pct": 9.82,
+       "shares": 342000
+      },
+      "market_maker": {
+       "pct": 5.05,
+       "shares": 176000
+      },
+      "nii": {
+       "pct": 14.65,
+       "shares": 510000
+      },
+      "qib": {
+       "pct": 1.03,
+       "shares": 36000
+      },
+      "retail": {
+       "pct": 79.26,
+       "shares": 2760000
+      },
+      "snii": {
+       "pct": 4.82,
+       "shares": 168000
+      }
+     },
+     "sub": {
+      "nii": 0.3,
+      "qib": 66.72,
+      "retail": 0.42,
+      "total": 1.13
+     },
+     "sub_at": "2026-11-02T17:39",
+     "uses": [
+      {
+       "cr": 10.68,
+       "use": "Capital"
+      },
+      {
+       "cr": 7.32,
+       "use": "Machine"
+      }
+     ],
+     "years": [
+      {
+       "assets": 5.97,
+       "debt": 0.36,
+       "ebitda": 1.36,
+       "income": 12.59,
+       "net_worth": 3.54,
+       "pat": 0.89,
+       "roce": null,
+       "roe": null,
+       "y": "FY24"
+      },
+      {
+       "assets": 25.47,
+       "debt": 3.85,
+       "ebitda": 2.82,
+       "income": 31.98,
+       "net_worth": 12.19,
+       "pat": 1.82,
+       "roce": 32.39,
+       "roe": 17.77,
+       "y": "FY25"
+      },
+      {
+       "assets": 28.41,
+       "debt": 4.19,
+       "ebitda": 6.15,
+       "income": 47.53,
+       "net_worth": 17.03,
+       "pat": 4.24,
+       "roce": 42.23,
+       "roe": 24.88,
+       "y": "FY26"
+      }
+     ]
+    }
+   },
+   {
+    "src": "Tracker D",
+    "slug": "bombay-coated-special-steels",
+    "name": "Bombay Coated & Special Steels",
+    "segment": "MAIN",
+    "exchange": null,
+    "open": null,
+    "close": null,
+    "boa": null,
+    "listing": "2026-11-05",
+    "price": 82.0,
+    "price_low": 78.0,
+    "size_cr": 183.06,
+    "gmp": 8.0,
+    "gmp_at": null,
+    "sub_total": null,
+    "sub_retail": null,
+    "sub_at": null,
+    "lot": 182.0,
+    "sector": "Iron & Steel Products",
+    "detail_url": "https://ipoindex.in/ipo/bombay-coated-special-steels-ipo/",
+    "live": true,
+    "detail": {
+     "gmp_history": [
+      [
+       "2026-11-02",
+       9.0
+      ],
+      [
+       "2026-10-31",
+       10.0
+      ],
+      [
+       "2026-10-30",
+       7.0
+      ],
+      [
+       "2026-10-29",
+       9.0
+      ],
+      [
+       "2026-10-28",
+       10.0
+      ],
+      [
+       "2026-10-27",
+       9.0
+      ],
+      [
+       "2026-10-26",
+       9.0
+      ],
+      [
+       "2026-10-24",
+       8.0
+      ],
+      [
+       "2026-10-23",
+       8.0
+      ]
+     ],
+     "reservation": {
+      "anchor": {
+       "pct": 22.81,
+       "shares": 6597500
+      },
+      "bnii": {
+       "pct": 27.02,
+       "shares": 7813409
+      },
+      "nii": {
+       "pct": 11.58,
+       "shares": 3348604
+      },
+      "qib": {
+       "pct": 61.41,
+       "shares": 6597500
+      },
+      "qib_ex_anchor": {
+       "pct": 38.59,
+       "shares": 11162012
+      },
+      "retail": {
+       "pct": 27.02,
+       "shares": 7813409
+      },
+      "snii": {
+       "pct": 3.86,
+       "shares": 1116201
+      }
+     },
+     "sub": {
+      "nii": 166.44,
+      "qib": 15.26,
+      "retail": 35.46,
+      "total": 45.01
+     },
+     "sub_at": "2026-11-02T17:58",
+     "uses": [
+      {
+       "cr": 125.0,
+       "use": "Borrowings"
+      },
+      {
+       "cr": 15.0,
+       "use": "Lease"
+      }
+     ],
+     "years": [
+      {
+       "assets": 350.21,
+       "debt": 234.16,
+       "ebitda": 49.17,
+       "income": 765.41,
+       "net_worth": 54.36,
+       "pat": 21.14,
+       "roce": 18.6,
+       "roe": 48.2,
+       "y": "FY24"
+      },
+      {
+       "assets": 458.21,
+       "debt": 276.96,
+       "ebitda": 74.09,
+       "income": 1058.65,
+       "net_worth": 83.05,
+       "pat": 28.67,
+       "roce": 18.78,
+       "roe": 41.76,
+       "y": "FY25"
+      },
+      {
+       "assets": 571.47,
+       "debt": 338.45,
+       "ebitda": 86.09,
+       "income": 1269.83,
+       "net_worth": 121.58,
+       "pat": 30.54,
+       "roce": 16.4,
+       "roe": 29.92,
+       "y": "FY26"
+      }
+     ]
+    }
+   },
+   {
+    "src": "Tracker D",
     "slug": "ajwa-projects",
     "name": "Ajwa Projects",
     "segment": "SME",
@@ -2387,7 +2387,7 @@
     "open": null,
     "close": null,
     "boa": null,
-    "listing": "2026-11-04",
+    "listing": null,
     "price": 203.0,
     "price_low": null,
     "size_cr": 38.05,
@@ -2399,83 +2399,7 @@
     "lot": 600.0,
     "sector": "Civil Construction",
     "detail_url": "https://ipoindex.in/ipo/ajwa-projects-sme-ipo/",
-    "live": true,
-    "detail": {
-     "gmp_history": [
-      [
-       "2026-11-02",
-       1.0
-      ],
-      [
-       "2026-10-31",
-       1.0
-      ],
-      [
-       "2026-10-30",
-       2.0
-      ],
-      [
-       "2026-10-29",
-       10.0
-      ],
-      [
-       "2026-10-28",
-       35.0
-      ],
-      [
-       "2026-10-27",
-       25.0
-      ]
-     ],
-     "ratios": {
-      "eps": 13.56,
-      "fy": "FY26",
-      "nav": 44.28,
-      "pbv": 4.58,
-      "pe": 14.97,
-      "roce": 34.75,
-      "ronw": 36.15
-     },
-     "reservation": {
-      "market_maker": {
-       "pct": 5.06,
-       "shares": 94800
-      },
-      "nii": {
-       "pct": 49.97,
-       "shares": 890400
-      },
-      "retail": {
-       "pct": 50.03,
-       "shares": 889200
-      }
-     },
-     "sub": {
-      "nii": 0.32,
-      "qib": 0.0,
-      "retail": 1.93,
-      "total": 1.12
-     },
-     "sub_at": "2026-10-30T17:40",
-     "uses": [
-      {
-       "cr": 8.1,
-       "use": "Asset"
-      },
-      {
-       "cr": 9.35,
-       "use": "Debt"
-      },
-      {
-       "cr": 4.0,
-       "use": "Capital"
-      },
-      {
-       "cr": 4.43,
-       "use": "Other"
-      }
-     ]
-    }
+    "live": false
    },
    {
     "src": "Tracker D",
@@ -2486,7 +2410,7 @@
     "open": null,
     "close": null,
     "boa": null,
-    "listing": "2026-11-04",
+    "listing": null,
     "price": 80.0,
     "price_low": 76.0,
     "size_cr": 28.29,
@@ -2498,296 +2422,7 @@
     "lot": 1600.0,
     "sector": "Industrial Products",
     "detail_url": "https://ipoindex.in/ipo/carver-roboweld-sme-ipo/",
-    "live": true,
-    "detail": {
-     "gmp_history": [
-      [
-       "2026-11-02",
-       5.0
-      ],
-      [
-       "2026-10-31",
-       5.0
-      ],
-      [
-       "2026-10-30",
-       3.0
-      ],
-      [
-       "2026-10-29",
-       0.0
-      ],
-      [
-       "2026-10-28",
-       0.0
-      ],
-      [
-       "2026-10-27",
-       0.0
-      ],
-      [
-       "2026-10-23",
-       0.0
-      ]
-     ],
-     "ratios": {
-      "eps": 3.78,
-      "fy": "FY26",
-      "nav": 16.86,
-      "pbv": 4.74,
-      "pe": 21.16,
-      "roce": 24.5,
-      "ronw": 21.57
-     },
-     "reservation": {
-      "anchor": {
-       "pct": 28.19,
-       "shares": 996800
-      },
-      "bnii": {
-       "pct": 9.64,
-       "shares": 340800
-      },
-      "market_maker": {
-       "pct": 5.02,
-       "shares": 177600
-      },
-      "nii": {
-       "pct": 14.48,
-       "shares": 512000
-      },
-      "qib": {
-       "pct": 47.1,
-       "shares": 1665600
-      },
-      "qib_ex_anchor": {
-       "pct": 18.91,
-       "shares": 668800
-      },
-      "retail": {
-       "pct": 33.39,
-       "shares": 1180800
-      },
-      "snii": {
-       "pct": 9.64,
-       "shares": 171200
-      }
-     },
-     "sub": {
-      "nii": 40.39,
-      "qib": 26.33,
-      "retail": 19.17,
-      "total": 25.8
-     },
-     "sub_at": "2026-10-30T17:40",
-     "uses": [
-      {
-       "cr": 11.99,
-       "use": "Robots"
-      },
-      {
-       "cr": 8.6,
-       "use": "Debt"
-      }
-     ],
-     "years": [
-      {
-       "assets": 21.59,
-       "debt": 13.39,
-       "ebitda": 4.12,
-       "income": 21.67,
-       "net_worth": 3.11,
-       "pat": 1.01,
-       "roce": null,
-       "roe": null,
-       "y": "FY24"
-      },
-      {
-       "assets": 32.69,
-       "debt": 22.32,
-       "ebitda": 4.92,
-       "income": 24.97,
-       "net_worth": 4.56,
-       "pat": 1.45,
-       "roce": 13.95,
-       "roe": 37.82,
-       "y": "FY25"
-      },
-      {
-       "assets": 38.26,
-       "debt": 15.65,
-       "ebitda": 8.36,
-       "income": 27.12,
-       "net_worth": 16.13,
-       "pat": 3.48,
-       "roce": 21.64,
-       "roe": 33.63,
-       "y": "FY26"
-      }
-     ]
-    }
-   },
-   {
-    "src": "Tracker D",
-    "slug": "mksons-fine-jewels",
-    "name": "M.K.Sons Fine Jewels",
-    "segment": "MAIN",
-    "exchange": null,
-    "open": null,
-    "close": null,
-    "boa": null,
-    "listing": "2026-11-04",
-    "price": 162.0,
-    "price_low": 153.0,
-    "size_cr": 330.48,
-    "gmp": 5.5,
-    "gmp_at": null,
-    "sub_total": null,
-    "sub_retail": null,
-    "sub_at": null,
-    "lot": 91.0,
-    "sector": "Gems, Jewellery And Watches",
-    "detail_url": "https://ipoindex.in/ipo/mksons-fine-jewels-ipo/",
-    "live": true,
-    "detail": {
-     "gmp_history": [
-      [
-       "2026-11-02",
-       6.0
-      ],
-      [
-       "2026-10-31",
-       6.0
-      ],
-      [
-       "2026-10-30",
-       2.0
-      ],
-      [
-       "2026-10-29",
-       10.0
-      ],
-      [
-       "2026-10-28",
-       13.0
-      ],
-      [
-       "2026-10-27",
-       8.0
-      ],
-      [
-       "2026-10-26",
-       9.0
-      ],
-      [
-       "2026-10-25",
-       7.0
-      ],
-      [
-       "2026-10-24",
-       8.0
-      ],
-      [
-       "2026-10-23",
-       0.0
-      ],
-      [
-       "2026-09-15",
-       0.0
-      ]
-     ],
-     "ratios": {
-      "eps": 12.13,
-      "fy": "FY26",
-      "nav": 39.36,
-      "pbv": 4.12,
-      "pe": 13.36,
-      "roce": 39.88,
-      "ronw": 30.83
-     },
-     "reservation": {
-      "anchor": {
-       "pct": 30.0,
-       "shares": 5100000
-      },
-      "bnii": {
-       "pct": 10.0,
-       "shares": 1700000
-      },
-      "nii": {
-       "pct": 15.0,
-       "shares": 2550000
-      },
-      "qib": {
-       "pct": 50.0,
-       "shares": 8500000
-      },
-      "qib_ex_anchor": {
-       "pct": 20.0,
-       "shares": 3400000
-      },
-      "snii": {
-       "pct": 5.0,
-       "shares": 850000
-      }
-     },
-     "sub": {
-      "nii": 14.12,
-      "qib": 1.84,
-      "retail": 3.08,
-      "total": 5.09
-     },
-     "sub_at": "2026-10-31T09:54",
-     "uses": [
-      {
-       "cr": 152.84,
-       "use": "Setup"
-      },
-      {
-       "cr": 152.84,
-       "use": "Growth"
-      },
-      {
-       "cr": 30.0,
-       "use": "Debt"
-      }
-     ],
-     "years": [
-      {
-       "assets": 95.21,
-       "debt": 38.64,
-       "ebitda": 12.87,
-       "income": 217.4,
-       "net_worth": 22.27,
-       "pat": 8.17,
-       "roce": 40.62,
-       "roe": 36.56,
-       "y": "FY24"
-      },
-      {
-       "assets": 219.64,
-       "debt": 68.93,
-       "ebitda": 38.57,
-       "income": 351.32,
-       "net_worth": 116.21,
-       "pat": 23.26,
-       "roce": 27.24,
-       "roe": 19.98,
-       "y": "FY25"
-      },
-      {
-       "assets": 283.21,
-       "debt": 68.44,
-       "ebitda": 82.94,
-       "income": 538.86,
-       "net_worth": 167.9,
-       "pat": 51.8,
-       "roce": 39.88,
-       "roe": 30.83,
-       "y": "FY26"
-      }
-     ]
-    }
+    "live": false
    },
    {
     "src": "Tracker D",
@@ -2833,6 +2468,29 @@
     "lot": 45.0,
     "sector": "Waste Management",
     "detail_url": "https://ipoindex.in/ipo/sfc-environmental-technologies-ipo/",
+    "live": false
+   },
+   {
+    "src": "Tracker D",
+    "slug": "bls-polymers",
+    "name": "BLS Polymers",
+    "segment": "MAIN",
+    "exchange": null,
+    "open": null,
+    "close": null,
+    "boa": null,
+    "listing": null,
+    "price": 150.0,
+    "price_low": 142.0,
+    "size_cr": 255.0,
+    "gmp": 67.0,
+    "gmp_at": null,
+    "sub_total": null,
+    "sub_retail": null,
+    "sub_at": null,
+    "lot": 100.0,
+    "sector": "Plastic Products - Industrial",
+    "detail_url": "https://ipoindex.in/ipo/bls-polymers-ipo/",
     "live": false
    }
   ]
