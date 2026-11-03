@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T20:15+05:30",
+  "generated_at": "2026-11-03T20:31+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-03T10:56+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-03T20:15+05:30",
+    "nse_ok_at": "2026-11-03T20:31+05:30",
     "bse_ok_at": "2026-11-03T19:40+05:30"
   },
   "ipos": [
@@ -1837,12 +1837,12 @@
         {
           "source": "Tracker B",
           "gmp": 9,
-          "at": "2026-11-03T17:15"
+          "at": "2026-11-03T20:25"
         },
         {
           "source": "Tracker D",
           "gmp": 9,
-          "at": "2026-11-03T17:18"
+          "at": "2026-11-03T20:31"
         }
       ],
       "gmp_history": [
@@ -1898,10 +1898,10 @@
       "history_source": "Tracker B",
       "gmp_low": 7,
       "gmp_high": 10,
-      "gmp": 8,
-      "gmp_asof": "2026-11-03T20:00",
-      "gmp_source_latest": "Public trackers",
-      "gmp_pct": 9.76,
+      "gmp": 9,
+      "gmp_asof": "2026-11-03T20:31",
+      "gmp_source_latest": "Tracker D",
+      "gmp_pct": 10.98,
       "gmp_spread": {
         "min": 8,
         "max": 9,
@@ -2070,7 +2070,7 @@
       "sub_asof": null,
       "gmp_watch": {
         "sources": 2,
-        "at": "2026-11-03T20:15"
+        "at": "2026-11-03T20:31"
       },
       "gmp_sources": [],
       "gmp_history": [],
@@ -2175,16 +2175,16 @@
         {
           "source": "Tracker D",
           "gmp": 3,
-          "at": "2026-11-03T17:18"
+          "at": "2026-11-03T20:31"
         }
       ],
       "gmp_history": [
         {
-          "date": "2026-10-31",
-          "gmp": 5
+          "date": "2026-10-30",
+          "gmp": 3
         },
         {
-          "date": "2026-11-01",
+          "date": "2026-10-31",
           "gmp": 5
         },
         {
@@ -2193,16 +2193,16 @@
         },
         {
           "date": "2026-11-03",
-          "gmp": 5
+          "gmp": 3
         }
       ],
-      "history_source": "Tracker B",
+      "history_source": "Tracker D",
       "gmp_low": 3,
       "gmp_high": 6,
-      "gmp": 5,
-      "gmp_asof": "2026-11-03T19:35",
-      "gmp_source_latest": "Tracker B",
-      "gmp_pct": 6.25,
+      "gmp": 3,
+      "gmp_asof": "2026-11-03T20:31",
+      "gmp_source_latest": "Tracker D",
+      "gmp_pct": 3.75,
       "gmp_spread": {
         "min": 3,
         "max": 5,
@@ -2211,10 +2211,10 @@
         "diff_pct_of_price": 2.5
       },
       "gmp_trend": {
-        "dir": "steady",
-        "change": 0,
+        "dir": "falling",
+        "change": -2,
         "days": 3,
-        "since": "2026-11-01"
+        "since": "2026-10-31"
       },
       "status": "closed",
       "ai_gmp_none": {
@@ -2961,7 +2961,7 @@
         "total": 0.89
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-03T20:11",
+      "sub_asof": "2026-11-03T20:28",
       "registrar": "Cameo Corporate Services Limited",
       "lead_managers": [
         "Affinity Global Capital Market Private Limited"
@@ -3263,7 +3263,7 @@
       "sub_asof": "2026-11-03T17:16",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-03T20:15"
+        "at": "2026-11-03T20:31"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3410,12 +3410,12 @@
         {
           "source": "Tracker D",
           "gmp": 8,
-          "at": "2026-11-03T17:18"
+          "at": "2026-11-03T20:31"
         },
         {
           "source": "Tracker B",
           "gmp": 8,
-          "at": "2026-11-03T17:15"
+          "at": "2026-11-03T20:25"
         }
       ],
       "gmp_history": [
@@ -3448,7 +3448,7 @@
       "gmp_low": 5,
       "gmp_high": 13,
       "gmp": 8,
-      "gmp_asof": "2026-11-03T17:18",
+      "gmp_asof": "2026-11-03T20:31",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 4.0,
       "gmp_spread": {
@@ -3596,7 +3596,7 @@
       "sub_asof": "2026-11-03T17:50",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-03T20:15"
+        "at": "2026-11-03T20:31"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
