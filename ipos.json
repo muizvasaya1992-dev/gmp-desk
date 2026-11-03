@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T23:50+05:30",
+  "generated_at": "2026-11-04T00:01+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-03T10:56+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-03T23:50+05:30",
+    "nse_ok_at": "2026-11-04T00:01+05:30",
     "bse_ok_at": "2026-11-03T19:40+05:30"
   },
   "ipos": [
@@ -1129,7 +1129,7 @@
         {
           "source": "Tracker D",
           "gmp": 15.5,
-          "at": "2026-11-03T22:45"
+          "at": "2026-11-04T00:01"
         }
       ],
       "gmp_history": [
@@ -1194,7 +1194,7 @@
       "gmp_low": 10,
       "gmp_high": 32,
       "gmp": 15.5,
-      "gmp_asof": "2026-11-03T22:45",
+      "gmp_asof": "2026-11-04T00:01",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 4.7,
       "gmp_spread": {
@@ -1836,13 +1836,13 @@
         },
         {
           "source": "Tracker B",
-          "gmp": 8.5,
-          "at": "2026-11-03T22:56"
+          "gmp": 7.75,
+          "at": "2026-11-03T23:55"
         },
         {
           "source": "Tracker D",
           "gmp": 9,
-          "at": "2026-11-03T23:31"
+          "at": "2026-11-04T00:01"
         }
       ],
       "gmp_history": [
@@ -1892,26 +1892,26 @@
         },
         {
           "date": "2026-11-03",
-          "gmp": 8.5
+          "gmp": 7.75
         }
       ],
       "history_source": "Tracker B",
       "gmp_low": 7,
       "gmp_high": 10,
       "gmp": 9,
-      "gmp_asof": "2026-11-03T23:31",
+      "gmp_asof": "2026-11-04T00:01",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 10.98,
       "gmp_spread": {
-        "min": 8,
+        "min": 7.75,
         "max": 9,
-        "diff": 1,
+        "diff": 1.25,
         "n": 4,
-        "diff_pct_of_price": 1.22
+        "diff_pct_of_price": 1.52
       },
       "gmp_trend": {
-        "dir": "steady",
-        "change": -0.5,
+        "dir": "falling",
+        "change": -1.25,
         "days": 3,
         "since": "2026-11-01"
       },
@@ -2070,7 +2070,7 @@
       "sub_asof": null,
       "gmp_watch": {
         "sources": 2,
-        "at": "2026-11-03T23:50"
+        "at": "2026-11-04T00:01"
       },
       "gmp_sources": [],
       "gmp_history": [],
@@ -2175,7 +2175,7 @@
         {
           "source": "Tracker D",
           "gmp": 3,
-          "at": "2026-11-03T23:31"
+          "at": "2026-11-04T00:01"
         }
       ],
       "gmp_history": [
@@ -2194,13 +2194,17 @@
         {
           "date": "2026-11-03",
           "gmp": 3
+        },
+        {
+          "date": "2026-11-04",
+          "gmp": 3
         }
       ],
       "history_source": "Tracker D",
       "gmp_low": 3,
       "gmp_high": 6,
       "gmp": 3,
-      "gmp_asof": "2026-11-03T23:31",
+      "gmp_asof": "2026-11-04T00:01",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 3.75,
       "gmp_spread": {
@@ -2214,21 +2218,9 @@
         "dir": "falling",
         "change": -2,
         "days": 3,
-        "since": "2026-10-31"
+        "since": "2026-11-02"
       },
-      "status": "closed",
-      "ai_gmp_none": {
-        "why": "only one of the two checks found a figure, so it is not confirmed",
-        "checked": "2026-11-02T13:21+05:30"
-      },
-      "news": [
-        {
-          "date": "2026-10-28",
-          "source": "Economic Times",
-          "title": "Two SME IPOs open today: Ajwa Projects, Carver Roboweld. Check price band and key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/two-sme-ipos-open-today-ajwa-projects-carver-roboweld-check-price-band-and-key-details/articleshow/135252002.cms"
-        }
-      ],
+      "status": "listed",
       "unconfirmed": false
     },
     {
@@ -2508,7 +2500,7 @@
         {
           "source": "Tracker D",
           "gmp": 10,
-          "at": "2026-11-03T22:45"
+          "at": "2026-11-04T00:01"
         }
       ],
       "gmp_history": [
@@ -2551,13 +2543,17 @@
         {
           "date": "2026-11-03",
           "gmp": 10
+        },
+        {
+          "date": "2026-11-04",
+          "gmp": 10
         }
       ],
       "history_source": "Tracker D",
       "gmp_low": 2,
       "gmp_high": 16,
       "gmp": 10,
-      "gmp_asof": "2026-11-03T22:45",
+      "gmp_asof": "2026-11-04T00:01",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 6.17,
       "gmp_spread": {
@@ -2569,23 +2565,11 @@
       },
       "gmp_trend": {
         "dir": "rising",
-        "change": 5,
+        "change": 4.5,
         "days": 3,
-        "since": "2026-10-31"
+        "since": "2026-11-02"
       },
-      "status": "closed",
-      "ai_gmp_none": {
-        "why": "we could not confirm it on the page (the site does not allow us to open that page)",
-        "checked": "2026-11-02T13:24+05:30"
-      },
-      "news": [
-        {
-          "date": "2026-10-28",
-          "source": "Economic Times",
-          "title": "M.K. Sons Fine Jewels IPO opens today: Check GMP, key details. Should you subscribe?",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/m-k-sons-fine-jewels-ipo-opens-today-check-gmp-key-details-should-you-subscribe/articleshow/135251159.cms"
-        }
-      ],
+      "status": "listed",
       "unconfirmed": false
     },
     {
@@ -2694,7 +2678,7 @@
         {
           "source": "Tracker D",
           "gmp": 80,
-          "at": "2026-11-03T22:45"
+          "at": "2026-11-04T00:01"
         },
         {
           "source": "Tracker B",
@@ -2730,6 +2714,10 @@
         {
           "date": "2026-11-03",
           "gmp": 80
+        },
+        {
+          "date": "2026-11-04",
+          "gmp": 80
         }
       ],
       "history_source": "Tracker D",
@@ -2737,7 +2725,7 @@
       "gmp_high": 80,
       "exchange": "SME",
       "gmp": 80,
-      "gmp_asof": "2026-11-03T22:45",
+      "gmp_asof": "2026-11-04T00:01",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 50.63,
       "gmp_spread": {
@@ -2748,12 +2736,12 @@
         "diff_pct_of_price": 3.8
       },
       "gmp_trend": {
-        "dir": "rising",
-        "change": 10,
+        "dir": "steady",
+        "change": 0,
         "days": 3,
-        "since": "2026-10-31"
+        "since": "2026-11-02"
       },
-      "status": "closing_today",
+      "status": "closed",
       "ai_gmp_none": {
         "why": "neither check found a figure",
         "checked": "2026-11-02T13:24+05:30"
@@ -2814,7 +2802,7 @@
       "series": "SME",
       "nse_status": "Closed",
       "shares_offered": null,
-      "updated_on": "2026-11-03T23:31+05:30",
+      "updated_on": "2026-11-04T00:01+05:30",
       "price": 120,
       "reservation": {
         "qib": 61.28,
@@ -2878,7 +2866,7 @@
         {
           "source": "Tracker D",
           "gmp": 25,
-          "at": "2026-11-03T22:45"
+          "at": "2026-11-04T00:01"
         },
         {
           "source": "Tracker B",
@@ -2902,6 +2890,10 @@
         {
           "date": "2026-11-03",
           "gmp": 25
+        },
+        {
+          "date": "2026-11-04",
+          "gmp": 25
         }
       ],
       "history_source": "Tracker D",
@@ -2909,7 +2901,7 @@
       "gmp_high": 30,
       "exchange": "SME",
       "gmp": 25,
-      "gmp_asof": "2026-11-03T22:45",
+      "gmp_asof": "2026-11-04T00:01",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 20.83,
       "gmp_spread": {
@@ -2923,9 +2915,9 @@
         "dir": "falling",
         "change": -5,
         "days": 3,
-        "since": "2026-10-31"
+        "since": "2026-11-02"
       },
-      "status": "closing_today",
+      "status": "closed",
       "ai_gmp_none": {
         "why": "we could not confirm it on the page (the site does not allow us to open that page)",
         "checked": "2026-11-02T13:24+05:30"
@@ -2961,7 +2953,7 @@
         "total": 0.89
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-03T23:39",
+      "sub_asof": "2026-11-03T23:59",
       "registrar": "Cameo Corporate Services Limited",
       "lead_managers": [
         "Affinity Global Capital Market Private Limited"
@@ -2982,7 +2974,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": null,
-      "updated_on": "2026-11-03T23:31+05:30",
+      "updated_on": "2026-11-04T00:01+05:30",
       "price": 94,
       "reservation": {
         "qib": 1.13,
@@ -3071,7 +3063,7 @@
         {
           "source": "Tracker D",
           "gmp": 12,
-          "at": "2026-11-03T22:45"
+          "at": "2026-11-04T00:01"
         },
         {
           "source": "Tracker C",
@@ -3081,17 +3073,13 @@
         {
           "source": "Tracker B",
           "gmp": 11,
-          "at": "2026-11-03T20:55"
+          "at": "2026-11-03T23:55"
         }
       ],
       "gmp_history": [
         {
           "date": "2026-10-31",
-          "gmp": 5
-        },
-        {
-          "date": "2026-11-01",
-          "gmp": 15
+          "gmp": 4.25
         },
         {
           "date": "2026-11-02",
@@ -3099,15 +3087,19 @@
         },
         {
           "date": "2026-11-03",
-          "gmp": 11
+          "gmp": 12
+        },
+        {
+          "date": "2026-11-04",
+          "gmp": 12
         }
       ],
-      "history_source": "Tracker B",
+      "history_source": "Tracker D",
       "gmp_low": 4,
       "gmp_high": 15,
       "exchange": "SME",
       "gmp": 12,
-      "gmp_asof": "2026-11-03T22:45",
+      "gmp_asof": "2026-11-04T00:01",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 12.77,
       "gmp_spread": {
@@ -3119,11 +3111,11 @@
       },
       "gmp_trend": {
         "dir": "falling",
-        "change": -4,
+        "change": -3,
         "days": 3,
-        "since": "2026-11-01"
+        "since": "2026-11-02"
       },
-      "status": "open",
+      "status": "closing_today",
       "ai_gmp": {
         "gmp": 0,
         "as_of": "2026-10-31",
@@ -3263,7 +3255,7 @@
       "sub_asof": "2026-11-03T17:16",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-03T23:50"
+        "at": "2026-11-04T00:01"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3410,7 +3402,7 @@
         {
           "source": "Tracker D",
           "gmp": 8,
-          "at": "2026-11-03T23:31"
+          "at": "2026-11-04T00:01"
         },
         {
           "source": "Tracker B",
@@ -3442,13 +3434,17 @@
         {
           "date": "2026-11-03",
           "gmp": 8
+        },
+        {
+          "date": "2026-11-04",
+          "gmp": 8
         }
       ],
       "history_source": "Tracker D",
       "gmp_low": 5,
       "gmp_high": 13,
       "gmp": 8,
-      "gmp_asof": "2026-11-03T23:31",
+      "gmp_asof": "2026-11-04T00:01",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 4.0,
       "gmp_spread": {
@@ -3459,12 +3455,12 @@
         "diff_pct_of_price": 0.0
       },
       "gmp_trend": {
-        "dir": "rising",
-        "change": 3,
+        "dir": "falling",
+        "change": -2,
         "days": 3,
-        "since": "2026-10-31"
+        "since": "2026-11-02"
       },
-      "status": "closing_today",
+      "status": "closed",
       "ai_gmp": {
         "gmp": 10,
         "as_of": "2026-10-31",
@@ -3596,14 +3592,14 @@
       "sub_asof": "2026-11-03T17:50",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-03T23:50"
+        "at": "2026-11-04T00:01"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
       "gmp_history": [],
       "gmp": null,
       "gmp_pct": null,
-      "status": "closing_today",
+      "status": "closed",
       "ai_gmp_none": {
         "why": "neither check found a figure",
         "checked": "2026-11-03T13:33+05:30"
