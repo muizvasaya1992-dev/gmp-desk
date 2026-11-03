@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T13:37+05:30",
+  "generated_at": "2026-11-03T13:45+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-03T10:56+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-03T13:37+05:30",
+    "nse_ok_at": "2026-11-03T13:45+05:30",
     "bse_ok_at": "2026-11-03T13:36+05:30"
   },
   "ipos": [
@@ -1548,7 +1548,7 @@
         "retail": 33.73,
         "total": 60.77
       },
-      "updated_on": "2026-11-03T13:36+05:30",
+      "updated_on": "2026-11-03T13:45+05:30",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "Smart Horizon Capital Advisors Private Limited"
@@ -2075,7 +2075,7 @@
       "sub_asof": "2026-10-29T19:05",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-03T13:37"
+        "at": "2026-11-03T13:45"
       },
       "gmp_sources": [],
       "gmp_history": [],
@@ -2614,7 +2614,7 @@
         "total": 145.92
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-03T13:34",
+      "sub_asof": "2026-11-03T13:43",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "JDA CAPITAL SERVICES LIMITED (Formerly Known as Beeline Broking Limited)"
@@ -2639,7 +2639,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": null,
-      "updated_on": "2026-11-03T13:36+05:30",
+      "updated_on": "2026-11-03T13:45+05:30",
       "price": 158,
       "reservation": {
         "qib": 49.84,
@@ -2794,7 +2794,7 @@
         "total": 115.39
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-03T13:33",
+      "sub_asof": "2026-11-03T13:44",
       "registrar": "Kfin Technologies Limited",
       "lead_managers": [
         "Hem Securities Limited"
@@ -2819,7 +2819,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": null,
-      "updated_on": "2026-11-03T13:36+05:30",
+      "updated_on": "2026-11-03T13:45+05:30",
       "price": 120,
       "reservation": {
         "qib": 61.28,
@@ -2960,12 +2960,13 @@
       "close": "2026-11-04",
       "segment": "SME",
       "sub": {
-        "retail": 0.31,
-        "nii": 0.74,
-        "total": 0.48
+        "retail": 0.5,
+        "nii": 0.8,
+        "qib": 327.27,
+        "total": 0.63
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-03T13:33",
+      "sub_asof": "2026-11-03T13:43",
       "registrar": "Cameo Corporate Services Limited",
       "lead_managers": [
         "Affinity Global Capital Market Private Limited"
@@ -2986,7 +2987,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": null,
-      "updated_on": "2026-11-03T13:36+05:30",
+      "updated_on": "2026-11-03T13:45+05:30",
       "price": 94,
       "reservation": {
         "qib": 1.13,
@@ -3267,7 +3268,7 @@
       "sub_asof": "2026-11-03T10:53",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-03T13:37"
+        "at": "2026-11-03T13:45"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3397,13 +3398,13 @@
         "ratios": {}
       },
       "sub": {
-        "retail": 3.02,
-        "nii": 4.53,
-        "qib": 0.99,
-        "total": 2.76
+        "retail": 5.62,
+        "nii": 9.29,
+        "qib": 1.27,
+        "total": 5.17
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-03T13:30",
+      "sub_asof": "2026-11-03T13:40",
       "lot_basis": "tracker",
       "gmp_sources": [
         {
@@ -3600,7 +3601,7 @@
       "sub_asof": "2026-11-03T13:31",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-03T13:37"
+        "at": "2026-11-03T13:45"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
