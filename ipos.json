@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T13:33+05:30",
+  "generated_at": "2026-11-03T13:36+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,8 +23,8 @@
     "fetched_at": "2026-11-03T10:56+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-03T13:33+05:30",
-    "bse_ok_at": "2026-11-03T13:33+05:30"
+    "nse_ok_at": "2026-11-03T13:36+05:30",
+    "bse_ok_at": "2026-11-03T13:36+05:30"
   },
   "ipos": [
     {
@@ -1548,7 +1548,7 @@
         "retail": 33.73,
         "total": 60.77
       },
-      "updated_on": "2026-11-03T13:33+05:30",
+      "updated_on": "2026-11-03T13:36+05:30",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "Smart Horizon Capital Advisors Private Limited"
@@ -1823,8 +1823,8 @@
         },
         {
           "source": "Tracker C",
-          "gmp": 9,
-          "at": "2026-11-03T11:37"
+          "gmp": 8,
+          "at": "2026-11-03T08:02"
         },
         {
           "source": "Tracker B",
@@ -1930,10 +1930,10 @@
       },
       "news": [
         {
-          "title": "Bombay Coated & Special Steels IPO opens today; GMP at 11%. Should you subscribe?",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/bombay-coated-special-steels-ipo-opens-today-gmp-at-11-should-you-subscribe/articleshow/135288487.cms",
+          "date": "2026-10-29",
           "source": "Economic Times",
-          "date": "2026-10-29"
+          "title": "Bombay Coated & Special Steels IPO opens today; GMP at 11%. Should you subscribe?",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/bombay-coated-special-steels-ipo-opens-today-gmp-at-11-should-you-subscribe/articleshow/135288487.cms"
         }
       ],
       "unconfirmed": false
@@ -2075,7 +2075,7 @@
       "sub_asof": "2026-10-29T19:05",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-03T13:33"
+        "at": "2026-11-03T13:36"
       },
       "gmp_sources": [],
       "gmp_history": [],
@@ -2174,8 +2174,8 @@
         },
         {
           "source": "Tracker C",
-          "gmp": 3,
-          "at": "2026-11-03T11:37"
+          "gmp": 5,
+          "at": "2026-11-03T08:02"
         },
         {
           "source": "Tracker D",
@@ -2228,10 +2228,10 @@
       },
       "news": [
         {
-          "title": "Two SME IPOs open today: Ajwa Projects, Carver Roboweld. Check price band and key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/two-sme-ipos-open-today-ajwa-projects-carver-roboweld-check-price-band-and-key-details/articleshow/135252002.cms",
+          "date": "2026-10-28",
           "source": "Economic Times",
-          "date": "2026-10-28"
+          "title": "Two SME IPOs open today: Ajwa Projects, Carver Roboweld. Check price band and key details",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/two-sme-ipos-open-today-ajwa-projects-carver-roboweld-check-price-band-and-key-details/articleshow/135252002.cms"
         }
       ],
       "unconfirmed": false
@@ -2507,8 +2507,8 @@
         },
         {
           "source": "Tracker C",
-          "gmp": 9,
-          "at": "2026-11-03T11:37"
+          "gmp": 6.5,
+          "at": "2026-11-03T08:02"
         },
         {
           "source": "Tracker D",
@@ -2585,10 +2585,10 @@
       },
       "news": [
         {
-          "title": "M.K. Sons Fine Jewels IPO opens today: Check GMP, key details. Should you subscribe?",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/m-k-sons-fine-jewels-ipo-opens-today-check-gmp-key-details-should-you-subscribe/articleshow/135251159.cms",
+          "date": "2026-10-28",
           "source": "Economic Times",
-          "date": "2026-10-28"
+          "title": "M.K. Sons Fine Jewels IPO opens today: Check GMP, key details. Should you subscribe?",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/m-k-sons-fine-jewels-ipo-opens-today-check-gmp-key-details-should-you-subscribe/articleshow/135251159.cms"
         }
       ],
       "unconfirmed": false
@@ -2614,7 +2614,7 @@
         "total": 145.92
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-03T13:31",
+      "sub_asof": "2026-11-03T13:34",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "JDA CAPITAL SERVICES LIMITED (Formerly Known as Beeline Broking Limited)"
@@ -2639,7 +2639,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": null,
-      "updated_on": "2026-11-03T13:33+05:30",
+      "updated_on": "2026-11-03T13:36+05:30",
       "price": 158,
       "reservation": {
         "qib": 49.84,
@@ -2694,7 +2694,7 @@
         {
           "source": "Tracker C",
           "gmp": 80,
-          "at": "2026-11-03T11:37"
+          "at": "2026-11-03T08:02"
         },
         {
           "source": "Tracker D",
@@ -2765,10 +2765,10 @@
       },
       "news": [
         {
-          "title": "Maxwell Engineering, HGS India among 4 SME IPOs to open on October 30; issues to raise Rs 201 crore",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/maxwell-engineering-hgs-india-among-4-sme-ipos-to-open-on-october-30-issues-to-raise-rs-201-crore/articleshow/135343041.cms",
+          "date": "2026-10-30",
           "source": "Economic Times",
-          "date": "2026-10-30"
+          "title": "Maxwell Engineering, HGS India among 4 SME IPOs to open on October 30; issues to raise Rs 201 crore",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/maxwell-engineering-hgs-india-among-4-sme-ipos-to-open-on-october-30-issues-to-raise-rs-201-crore/articleshow/135343041.cms"
         }
       ],
       "unconfirmed": false
@@ -2819,7 +2819,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": null,
-      "updated_on": "2026-11-03T13:33+05:30",
+      "updated_on": "2026-11-03T13:36+05:30",
       "price": 120,
       "reservation": {
         "qib": 61.28,
@@ -2877,8 +2877,8 @@
         },
         {
           "source": "Tracker C",
-          "gmp": 20,
-          "at": "2026-11-03T11:37"
+          "gmp": 30,
+          "at": "2026-11-03T08:02"
         },
         {
           "source": "Tracker D",
@@ -2937,10 +2937,10 @@
       },
       "news": [
         {
-          "title": "Maxwell Engineering, HGS India among 4 SME IPOs to open on October 30; issues to raise Rs 201 crore",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/maxwell-engineering-hgs-india-among-4-sme-ipos-to-open-on-october-30-issues-to-raise-rs-201-crore/articleshow/135343041.cms",
+          "date": "2026-10-30",
           "source": "Economic Times",
-          "date": "2026-10-30"
+          "title": "Maxwell Engineering, HGS India among 4 SME IPOs to open on October 30; issues to raise Rs 201 crore",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/maxwell-engineering-hgs-india-among-4-sme-ipos-to-open-on-october-30-issues-to-raise-rs-201-crore/articleshow/135343041.cms"
         }
       ],
       "unconfirmed": false
@@ -2965,7 +2965,7 @@
         "total": 0.48
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-03T13:31",
+      "sub_asof": "2026-11-03T13:33",
       "registrar": "Cameo Corporate Services Limited",
       "lead_managers": [
         "Affinity Global Capital Market Private Limited"
@@ -2986,7 +2986,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": null,
-      "updated_on": "2026-11-03T13:33+05:30",
+      "updated_on": "2026-11-03T13:36+05:30",
       "price": 94,
       "reservation": {
         "qib": 1.13,
@@ -3080,7 +3080,7 @@
         {
           "source": "Tracker C",
           "gmp": 15,
-          "at": "2026-11-03T11:37"
+          "at": "2026-11-03T08:02"
         },
         {
           "source": "Tracker B",
@@ -3141,10 +3141,10 @@
       },
       "news": [
         {
-          "title": "Vedant Poly Fabs SME IPO opens today; GMP at 16%, check key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/vedant-poly-fabs-sme-ipo-opens-today-gmp-at-16-check-key-details/articleshow/135446827.cms",
+          "date": "2026-11-02",
           "source": "Economic Times",
-          "date": "2026-11-02"
+          "title": "Vedant Poly Fabs SME IPO opens today; GMP at 16%, check key details",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/vedant-poly-fabs-sme-ipo-opens-today-gmp-at-16-check-key-details/articleshow/135446827.cms"
         }
       ],
       "unconfirmed": false
@@ -3267,7 +3267,7 @@
       "sub_asof": "2026-11-03T10:53",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-03T13:33"
+        "at": "2026-11-03T13:36"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3281,10 +3281,10 @@
       },
       "news": [
         {
-          "title": "Antala Industries SME IPO opens today: Check price band and key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/antala-industries-sme-ipo-opens-today-check-price-band-and-key-details/articleshow/135289593.cms",
+          "date": "2026-10-29",
           "source": "Economic Times",
-          "date": "2026-10-29"
+          "title": "Antala Industries SME IPO opens today: Check price band and key details",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/antala-industries-sme-ipo-opens-today-check-price-band-and-key-details/articleshow/135289593.cms"
         }
       ],
       "unconfirmed": false
@@ -3408,8 +3408,8 @@
       "gmp_sources": [
         {
           "source": "Tracker C",
-          "gmp": 8,
-          "at": "2026-11-03T11:37"
+          "gmp": 10,
+          "at": "2026-11-03T08:02"
         },
         {
           "source": "Tracker D",
@@ -3600,7 +3600,7 @@
       "sub_asof": "2026-11-03T13:31",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-03T13:33"
+        "at": "2026-11-03T13:36"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
