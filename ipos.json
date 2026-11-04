@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T17:15+05:30",
+  "generated_at": "2026-11-04T17:31+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-04T11:19+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-04T17:15+05:30",
+    "nse_ok_at": "2026-11-04T17:31+05:30",
     "bse_ok_at": "2026-11-04T11:22+05:30"
   },
   "ipos": [
@@ -1862,10 +1862,10 @@
       },
       "news": [
         {
-          "date": "2026-10-29",
-          "source": "Economic Times",
           "title": "Bombay Coated & Special Steels IPO opens today; GMP at 11%. Should you subscribe?",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/bombay-coated-special-steels-ipo-opens-today-gmp-at-11-should-you-subscribe/articleshow/135288487.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/bombay-coated-special-steels-ipo-opens-today-gmp-at-11-should-you-subscribe/articleshow/135288487.cms",
+          "source": "Economic Times",
+          "date": "2026-10-29"
         }
       ],
       "unconfirmed": false
@@ -2098,16 +2098,16 @@
         {
           "source": "Tracker D",
           "gmp": 4,
-          "at": "2026-11-04T14:31"
+          "at": "2026-11-04T17:31"
         }
       ],
       "gmp_history": [
         {
-          "date": "2026-10-31",
-          "gmp": 5
+          "date": "2026-10-30",
+          "gmp": 3
         },
         {
-          "date": "2026-11-01",
+          "date": "2026-10-31",
           "gmp": 5
         },
         {
@@ -2116,20 +2116,20 @@
         },
         {
           "date": "2026-11-03",
-          "gmp": 5
+          "gmp": 3
         },
         {
           "date": "2026-11-04",
-          "gmp": 5
+          "gmp": 4
         }
       ],
-      "history_source": "Tracker B",
+      "history_source": "Tracker D",
       "gmp_low": 3,
       "gmp_high": 6,
-      "gmp": 5,
-      "gmp_asof": "2026-11-04T14:40",
-      "gmp_source_latest": "Tracker B",
-      "gmp_pct": 6.25,
+      "gmp": 4,
+      "gmp_asof": "2026-11-04T17:31",
+      "gmp_source_latest": "Tracker D",
+      "gmp_pct": 5.0,
       "gmp_spread": {
         "min": 4,
         "max": 5,
@@ -2138,8 +2138,8 @@
         "diff_pct_of_price": 1.25
       },
       "gmp_trend": {
-        "dir": "steady",
-        "change": 0,
+        "dir": "falling",
+        "change": -1,
         "days": 3,
         "since": "2026-11-02"
       },
@@ -2413,7 +2413,7 @@
         {
           "source": "Tracker B",
           "gmp": 11,
-          "at": "2026-11-04T14:25"
+          "at": "2026-11-04T17:30"
         },
         {
           "source": "Tracker C",
@@ -2423,7 +2423,7 @@
         {
           "source": "Tracker D",
           "gmp": 11,
-          "at": "2026-11-04T14:31"
+          "at": "2026-11-04T17:31"
         }
       ],
       "gmp_history": [
@@ -2476,7 +2476,7 @@
       "gmp_low": 2,
       "gmp_high": 16,
       "gmp": 11,
-      "gmp_asof": "2026-11-04T14:31",
+      "gmp_asof": "2026-11-04T17:31",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 6.79,
       "gmp_spread": {
@@ -2555,35 +2555,35 @@
       },
       "tracker_rating": 4,
       "reservation_detail": {
-        "nii": {
-          "pct": 15.13,
-          "shares": 518400
-        },
         "qib": {
-          "pct": 49.84,
-          "shares": 1707200
+          "shares": 1707200,
+          "pct": 49.84
+        },
+        "nii": {
+          "shares": 518400,
+          "pct": 15.13
         },
         "retail": {
-          "pct": 35.03,
-          "shares": 1200000
+          "shares": 1200000,
+          "pct": 35.03
         }
       },
       "uses": [
         {
-          "cr": 18.0,
-          "use": "Buying"
+          "use": "Buying",
+          "cr": 18.0
         },
         {
-          "cr": 6.5,
-          "use": "Facility"
+          "use": "Facility",
+          "cr": 6.5
         },
         {
-          "cr": 4.3,
-          "use": "Debt"
+          "use": "Debt",
+          "cr": 4.3
         },
         {
-          "cr": 14.0,
-          "use": "Capital"
+          "use": "Capital",
+          "cr": 14.0
         }
       ],
       "lot_basis": "tracker",
@@ -2601,7 +2601,7 @@
         {
           "source": "Tracker D",
           "gmp": 75,
-          "at": "2026-11-04T14:31"
+          "at": "2026-11-04T17:31"
         },
         {
           "source": "Tracker B",
@@ -2648,8 +2648,8 @@
       "gmp_high": 80,
       "exchange": "SME",
       "gmp": 75,
-      "gmp_asof": "2026-11-04T15:37",
-      "gmp_source_latest": "Tracker C",
+      "gmp_asof": "2026-11-04T17:31",
+      "gmp_source_latest": "Tracker D",
       "gmp_pct": 47.47,
       "gmp_spread": {
         "min": 72,
@@ -2671,10 +2671,10 @@
       },
       "news": [
         {
-          "date": "2026-10-30",
-          "source": "Economic Times",
           "title": "Maxwell Engineering, HGS India among 4 SME IPOs to open on October 30; issues to raise Rs 201 crore",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/maxwell-engineering-hgs-india-among-4-sme-ipos-to-open-on-october-30-issues-to-raise-rs-201-crore/articleshow/135343041.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/maxwell-engineering-hgs-india-among-4-sme-ipos-to-open-on-october-30-issues-to-raise-rs-201-crore/articleshow/135343041.cms",
+          "source": "Economic Times",
+          "date": "2026-10-30"
         }
       ],
       "unconfirmed": false
@@ -2739,39 +2739,39 @@
       },
       "tracker_rating": 3,
       "reservation_detail": {
-        "bnii": {
-          "pct": 4.64,
-          "shares": 273600
+        "qib": {
+          "shares": 2174400,
+          "pct": 61.28
         },
         "nii": {
-          "pct": 11.67,
-          "shares": 414000
+          "shares": 414000,
+          "pct": 11.67
         },
-        "qib": {
-          "pct": 61.28,
-          "shares": 2174400
-        },
-        "retail": {
-          "pct": 27.05,
-          "shares": 960000
+        "bnii": {
+          "shares": 273600,
+          "pct": 4.64
         },
         "snii": {
-          "pct": 13.84,
-          "shares": 140400
+          "shares": 140400,
+          "pct": 13.84
+        },
+        "retail": {
+          "shares": 960000,
+          "pct": 27.05
         }
       },
       "uses": [
         {
-          "cr": 15.05,
-          "use": "Plant/Machinery"
+          "use": "Plant/Machinery",
+          "cr": 15.05
         },
         {
-          "cr": 1.05,
-          "use": "Facility"
+          "use": "Facility",
+          "cr": 1.05
         },
         {
-          "cr": 3.26,
-          "use": "ID"
+          "use": "ID",
+          "cr": 3.26
         }
       ],
       "lot_basis": "tracker",
@@ -2789,7 +2789,7 @@
         {
           "source": "Tracker D",
           "gmp": 23,
-          "at": "2026-11-04T14:31"
+          "at": "2026-11-04T17:31"
         },
         {
           "source": "Tracker B",
@@ -2799,11 +2799,11 @@
       ],
       "gmp_history": [
         {
-          "date": "2026-10-31",
-          "gmp": 30
+          "date": "2026-10-30",
+          "gmp": 19
         },
         {
-          "date": "2026-11-01",
+          "date": "2026-10-31",
           "gmp": 30
         },
         {
@@ -2819,13 +2819,13 @@
           "gmp": 23
         }
       ],
-      "history_source": "Tracker B",
+      "history_source": "Tracker D",
       "gmp_low": 17,
       "gmp_high": 30,
       "exchange": "SME",
       "gmp": 23,
-      "gmp_asof": "2026-11-04T15:37",
-      "gmp_source_latest": "Tracker C",
+      "gmp_asof": "2026-11-04T17:31",
+      "gmp_source_latest": "Tracker D",
       "gmp_pct": 19.17,
       "gmp_spread": {
         "min": 21,
@@ -2847,10 +2847,10 @@
       },
       "news": [
         {
-          "date": "2026-10-30",
-          "source": "Economic Times",
           "title": "Maxwell Engineering, HGS India among 4 SME IPOs to open on October 30; issues to raise Rs 201 crore",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/maxwell-engineering-hgs-india-among-4-sme-ipos-to-open-on-october-30-issues-to-raise-rs-201-crore/articleshow/135343041.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/maxwell-engineering-hgs-india-among-4-sme-ipos-to-open-on-october-30-issues-to-raise-rs-201-crore/articleshow/135343041.cms",
+          "source": "Economic Times",
+          "date": "2026-10-30"
         }
       ],
       "unconfirmed": false
@@ -2876,7 +2876,7 @@
         "total": 1.9
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-04T17:12",
+      "sub_asof": "2026-11-04T17:29",
       "registrar": "Cameo Corporate Services Limited",
       "lead_managers": [
         "Affinity Global Capital Market Private Limited"
@@ -2897,7 +2897,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": null,
-      "updated_on": "2026-11-04T17:15+05:30",
+      "updated_on": "2026-11-04T17:31+05:30",
       "price": 94,
       "reservation": {
         "qib": 1.13,
@@ -2912,71 +2912,71 @@
       },
       "tracker_rating": 1,
       "reservation_detail": {
-        "market_maker": {
-          "pct": 5.05,
-          "shares": 304800
+        "qib": {
+          "shares": 68400,
+          "pct": 1.13
         },
         "nii": {
-          "pct": 37.49,
-          "shares": 2260800
-        },
-        "qib": {
-          "pct": 1.13,
-          "shares": 68400
+          "shares": 2260800,
+          "pct": 37.49
         },
         "retail": {
-          "pct": 56.32,
-          "shares": 3396000
+          "shares": 3396000,
+          "pct": 56.32
+        },
+        "market_maker": {
+          "shares": 304800,
+          "pct": 5.05
         }
       },
       "uses": [
         {
-          "cr": 17.59,
-          "use": "Capital"
+          "use": "Capital",
+          "cr": 17.59
         },
         {
-          "cr": 8.0,
-          "use": "Debt"
+          "use": "Debt",
+          "cr": 8.0
         },
         {
-          "cr": 6.51,
-          "use": "Assets"
+          "use": "Assets",
+          "cr": 6.51
         }
       ],
       "fin": {
         "years": [
           {
-            "assets": 18.87,
-            "debt": 6.34,
-            "ebitda": 1.28,
+            "y": "FY24",
             "income": 49.53,
-            "net_worth": 3.85,
             "pat": 0.63,
-            "roce": 20.97,
+            "ebitda": 1.28,
+            "net_worth": 3.85,
+            "debt": 6.34,
+            "assets": 18.87,
             "roe": 16.36,
-            "y": "FY24"
+            "roce": 20.97
           },
           {
-            "assets": 55.39,
-            "debt": 11.31,
-            "ebitda": 7.74,
+            "y": "FY25",
             "income": 81.02,
-            "net_worth": 15.42,
             "pat": 4.56,
-            "roce": 47.31,
+            "ebitda": 7.74,
+            "net_worth": 15.42,
+            "debt": 11.31,
+            "assets": 55.39,
             "roe": 29.57,
-            "y": "FY25"
+            "roce": 47.31
           },
           {
-            "assets": 97.8,
-            "debt": 46.8,
-            "ebitda": 19,
+            "y": "FY26",
             "income": 115.13,
-            "net_worth": 42.25,
             "pat": 10.97,
-            "roce": 38.03,
+            "ebitda": 19,
+            "net_worth": 42.25,
+            "debt": 46.8,
+            "assets": 97.8,
             "roe": 25.96,
-            "y": "FY26"
+            "roce": 38.03
           }
         ],
         "ratios": {}
@@ -3056,10 +3056,10 @@
       },
       "news": [
         {
-          "date": "2026-11-02",
-          "source": "Economic Times",
           "title": "Vedant Poly Fabs SME IPO opens today; GMP at 16%, check key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/vedant-poly-fabs-sme-ipo-opens-today-gmp-at-16-check-key-details/articleshow/135446827.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/vedant-poly-fabs-sme-ipo-opens-today-gmp-at-16-check-key-details/articleshow/135446827.cms",
+          "source": "Economic Times",
+          "date": "2026-11-02"
         }
       ],
       "unconfirmed": false
@@ -3099,90 +3099,90 @@
       },
       "tracker_rating": 1,
       "reservation_detail": {
-        "bnii": {
-          "pct": 9.82,
-          "shares": 342000
-        },
-        "market_maker": {
-          "pct": 5.05,
-          "shares": 176000
+        "qib": {
+          "shares": 36000,
+          "pct": 1.03
         },
         "nii": {
-          "pct": 14.65,
-          "shares": 510000
+          "shares": 510000,
+          "pct": 14.65
         },
-        "qib": {
-          "pct": 1.03,
-          "shares": 36000
-        },
-        "retail": {
-          "pct": 79.26,
-          "shares": 2760000
+        "bnii": {
+          "shares": 342000,
+          "pct": 9.82
         },
         "snii": {
-          "pct": 4.82,
-          "shares": 168000
+          "shares": 168000,
+          "pct": 4.82
+        },
+        "retail": {
+          "shares": 2760000,
+          "pct": 79.26
+        },
+        "market_maker": {
+          "shares": 176000,
+          "pct": 5.05
         }
       },
       "uses": [
         {
-          "cr": 10.68,
-          "use": "Capital"
+          "use": "Capital",
+          "cr": 10.68
         },
         {
-          "cr": 7.32,
-          "use": "Machine"
+          "use": "Machine",
+          "cr": 7.32
         }
       ],
       "fin": {
         "years": [
           {
-            "assets": 5.97,
-            "debt": 0.36,
-            "ebitda": 1.36,
+            "y": "FY24",
             "income": 12.59,
-            "net_worth": 3.54,
             "pat": 0.89,
-            "roce": null,
+            "ebitda": 1.36,
+            "net_worth": 3.54,
+            "debt": 0.36,
+            "assets": 5.97,
             "roe": null,
-            "y": "FY24"
+            "roce": null
           },
           {
-            "assets": 25.47,
-            "debt": 3.85,
-            "ebitda": 2.82,
+            "y": "FY25",
             "income": 31.98,
-            "net_worth": 12.19,
             "pat": 1.82,
-            "roce": 32.39,
+            "ebitda": 2.82,
+            "net_worth": 12.19,
+            "debt": 3.85,
+            "assets": 25.47,
             "roe": 17.77,
-            "y": "FY25"
+            "roce": 32.39
           },
           {
-            "assets": 28.41,
-            "debt": 4.19,
-            "ebitda": 6.15,
+            "y": "FY26",
             "income": 47.53,
-            "net_worth": 17.03,
             "pat": 4.24,
-            "roce": 42.23,
+            "ebitda": 6.15,
+            "net_worth": 17.03,
+            "debt": 4.19,
+            "assets": 28.41,
             "roe": 24.88,
-            "y": "FY26"
+            "roce": 42.23
           }
         ],
         "ratios": {}
       },
       "sub": {
-        "nii": 3.4,
+        "total": 4.82,
         "qib": 66.72,
-        "retail": 0.55,
-        "total": 1.71
+        "nii": 22.17,
+        "retail": 0.8
       },
       "sub_basis": "Tracker D",
-      "sub_asof": "2026-11-04T11:16",
+      "sub_asof": "2026-11-04T17:05",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-04T17:15"
+        "at": "2026-11-04T17:31"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3196,10 +3196,10 @@
       },
       "news": [
         {
-          "date": "2026-10-29",
-          "source": "Economic Times",
           "title": "Antala Industries SME IPO opens today: Check price band and key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/antala-industries-sme-ipo-opens-today-check-price-band-and-key-details/articleshow/135289593.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/antala-industries-sme-ipo-opens-today-check-price-band-and-key-details/articleshow/135289593.cms",
+          "source": "Economic Times",
+          "date": "2026-10-29"
         }
       ],
       "unconfirmed": false
@@ -3238,75 +3238,75 @@
       },
       "tracker_rating": 1,
       "reservation_detail": {
-        "nii": {
-          "pct": 15.03,
-          "shares": 399600
-        },
         "qib": {
-          "pct": 49.86,
-          "shares": 1326000
+          "shares": 1326000,
+          "pct": 49.86
+        },
+        "nii": {
+          "shares": 399600,
+          "pct": 15.03
         },
         "retail": {
-          "pct": 35.11,
-          "shares": 933600
+          "shares": 933600,
+          "pct": 35.11
         }
       },
       "uses": [
         {
-          "cr": 7.89,
-          "use": "Expand"
+          "use": "Expand",
+          "cr": 7.89
         },
         {
-          "cr": 9.9,
-          "use": "Plant/Machine"
+          "use": "Plant/Machine",
+          "cr": 9.9
         },
         {
-          "cr": 6.89,
-          "use": "Machine"
+          "use": "Machine",
+          "cr": 6.89
         },
         {
-          "cr": 3.23,
-          "use": "Solar Plant"
+          "use": "Solar Plant",
+          "cr": 3.23
         },
         {
-          "cr": 14.0,
-          "use": "Capital"
+          "use": "Capital",
+          "cr": 14.0
         }
       ],
       "fin": {
         "years": [
           {
-            "assets": 48.44,
-            "debt": 32.81,
-            "ebitda": 5.42,
+            "y": "FY24",
             "income": 88.95,
-            "net_worth": 8.88,
             "pat": 2.52,
-            "roce": 19.89,
+            "ebitda": 5.42,
+            "net_worth": 8.88,
+            "debt": 32.81,
+            "assets": 48.44,
             "roe": 28.41,
-            "y": "FY24"
+            "roce": 19.89
           },
           {
-            "assets": 64.28,
-            "debt": 41.79,
-            "ebitda": 12.14,
+            "y": "FY25",
             "income": 140,
-            "net_worth": 14.24,
             "pat": 5.46,
-            "roce": 32.56,
+            "ebitda": 12.14,
+            "net_worth": 14.24,
+            "debt": 41.79,
+            "assets": 64.28,
             "roe": 38.34,
-            "y": "FY25"
+            "roce": 32.56
           },
           {
-            "assets": 126.64,
-            "debt": 79.88,
-            "ebitda": 24.06,
+            "y": "FY26",
             "income": 211.34,
-            "net_worth": 31.44,
             "pat": 13.42,
-            "roce": 39.68,
+            "ebitda": 24.06,
+            "net_worth": 31.44,
+            "debt": 79.88,
+            "assets": 126.64,
             "roe": 42.65,
-            "y": "FY26"
+            "roce": 39.68
           }
         ],
         "ratios": {}
@@ -3329,12 +3329,12 @@
         {
           "source": "Tracker D",
           "gmp": 6,
-          "at": "2026-11-04T14:31"
+          "at": "2026-11-04T17:31"
         },
         {
           "source": "Tracker B",
           "gmp": 6,
-          "at": "2026-11-04T14:25"
+          "at": "2026-11-04T17:30"
         }
       ],
       "gmp_history": [
@@ -3344,11 +3344,11 @@
         },
         {
           "date": "2026-10-29",
-          "gmp": 10
+          "gmp": 13
         },
         {
           "date": "2026-10-30",
-          "gmp": 13
+          "gmp": 12
         },
         {
           "date": "2026-10-31",
@@ -3367,12 +3367,12 @@
           "gmp": 6
         }
       ],
-      "history_source": "Tracker C",
+      "history_source": "Tracker D",
       "gmp_low": 5,
       "gmp_high": 13,
       "gmp": 6,
-      "gmp_asof": "2026-11-04T15:37",
-      "gmp_source_latest": "Tracker C",
+      "gmp_asof": "2026-11-04T17:31",
+      "gmp_source_latest": "Tracker D",
       "gmp_pct": 3.0,
       "gmp_spread": {
         "min": 6,
@@ -3436,75 +3436,75 @@
       },
       "tracker_rating": 1,
       "reservation_detail": {
-        "bnii": {
-          "pct": 9.55,
-          "shares": 482400
-        },
-        "market_maker": {
-          "pct": 6.55,
-          "shares": 253200
+        "qib": {
+          "shares": 2398800,
+          "pct": 49.99
         },
         "nii": {
-          "pct": 15.0,
-          "shares": 720000
+          "shares": 720000,
+          "pct": 15.0
         },
-        "qib": {
-          "pct": 49.99,
-          "shares": 2398800
-        },
-        "retail": {
-          "pct": 35.01,
-          "shares": 1680000
+        "bnii": {
+          "shares": 482400,
+          "pct": 9.55
         },
         "snii": {
-          "pct": 4.7,
-          "shares": 237600
+          "shares": 237600,
+          "pct": 4.7
+        },
+        "retail": {
+          "shares": 1680000,
+          "pct": 35.01
+        },
+        "market_maker": {
+          "shares": 253200,
+          "pct": 6.55
         }
       },
       "uses": [
         {
-          "cr": 14.0,
-          "use": "Debt"
+          "use": "Debt",
+          "cr": 14.0
         },
         {
-          "cr": 20.0,
-          "use": "Capital"
+          "use": "Capital",
+          "cr": 20.0
         }
       ],
       "fin": {
         "years": [
           {
-            "assets": 21.47,
-            "debt": 4.16,
-            "ebitda": 8.67,
+            "y": "FY24",
             "income": 54.37,
-            "net_worth": 12.15,
             "pat": 5.81,
-            "roce": 79.27,
+            "ebitda": 8.67,
+            "net_worth": 12.15,
+            "debt": 4.16,
+            "assets": 21.47,
             "roe": 93.02,
-            "y": "FY24"
+            "roce": 79.27
           },
           {
-            "assets": 46.5,
-            "debt": 11.87,
-            "ebitda": 15.05,
+            "y": "FY25",
             "income": 80.53,
-            "net_worth": 22.32,
             "pat": 10.17,
-            "roce": 56.09,
+            "ebitda": 15.05,
+            "net_worth": 22.32,
+            "debt": 11.87,
+            "assets": 46.5,
             "roe": 59,
-            "y": "FY25"
+            "roce": 56.09
           },
           {
-            "assets": 74.94,
-            "debt": 22.21,
-            "ebitda": 24.01,
+            "y": "FY26",
             "income": 119.9,
-            "net_worth": 37.75,
             "pat": 15.43,
-            "roce": 48.37,
+            "ebitda": 24.01,
+            "net_worth": 37.75,
+            "debt": 22.21,
+            "assets": 74.94,
             "roe": 51.39,
-            "y": "FY26"
+            "roce": 48.37
           }
         ],
         "ratios": {}
@@ -3519,7 +3519,7 @@
       "sub_asof": "2026-11-03T17:50",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-04T17:15"
+        "at": "2026-11-04T17:31"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
