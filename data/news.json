@@ -1,7 +1,7 @@
 {
  "_feeds": {
   "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms": {
-   "fetched": "2026-11-04T23:31+05:30",
+   "fetched": "2026-11-05T01:01+05:30",
    "items": [
     {
      "date": "2026-11-03",
@@ -306,7 +306,7 @@
    ]
   },
   "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms": {
-   "fetched": "2026-11-04T23:31+05:30",
+   "fetched": "2026-11-05T01:01+05:30",
    "items": [
     {
      "date": "2026-11-04",
@@ -379,12 +379,6 @@
      "source": "Economic Times",
      "title": "Equitas Small Finance Bank shares jump 9% after Balaji Nuthalapadi’s appointment as interim CEO",
      "url": "https://economictimes.indiatimes.com/markets/stocks/news/equitas-small-finance-bank-shares-jump-9-after-balaji-nuthalapadis-appointment-as-interim-ceo/articleshow/135528943.cms"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "Economic Times",
-     "title": "Democrats’ win rattles Trump trades from AI stocks to crypto",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/news/democrats-win-rattles-trump-trades-from-ai-stocks-to-crypto/articleshow/135527407.cms"
     },
     {
      "date": "2026-11-04",
@@ -607,11 +601,17 @@
      "source": "Economic Times",
      "title": "Maruti Suzuki Share Price Highlights: Maruti Suzuki Stock Price History",
      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/maruti-suzuki-share-price-live-04-nov-2026/liveblog/135520305.cms"
+    },
+    {
+     "date": "2026-11-04",
+     "source": "Economic Times",
+     "title": "UPL Share Price Highlights: UPL Stock Price History",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/upl-stock-price-livestock-price-today-live-updates-04-nov-2026/liveblog/135520297.cms"
     }
    ]
   },
   "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml": {
-   "fetched": "2026-11-04T23:31+05:30",
+   "fetched": "2026-11-05T01:01+05:30",
    "items": [
     {
      "date": "2026-11-04",
@@ -622,7 +622,7 @@
     {
      "date": "2026-11-04",
      "source": "cnbctv18.com",
-     "title": "JSW Dulux Q2 profit down 9.2 pc at Rs 89 cr, revenue rises to Rs 962 cr",
+     "title": "JSW Dulux Q2 profit down 9.2% at ₹89 cr, revenue rises to ₹962 cr",
      "url": "https://www.cnbctv18.com/market/earnings/jsw-dulux-q2-profit-down-9-2-pc-at-rs-89-cr-revenue-rises-to-rs-962-cr-20027408.htm"
     },
     {
@@ -736,7 +736,7 @@
     {
      "date": "2026-11-04",
      "source": "cnbctv18.com",
-     "title": "RITES Q2 results: Net profit falls 12.2%, revenue rises 1.5%; ₹1.90 interim dividend declared, check record date",
+     "title": "RITES Q2 results: Profit falls 12.2%, revenue rises 1.5%; ₹1.90 interim dividend declared, check record date",
      "url": "https://www.cnbctv18.com/market/earnings/rites-q2-results-net-profit-falls-12-per-cent-revenue-rises-15-per-cent-rs-190-interim-dividend-declared-check-record-date-20027142.htm"
     },
     {
@@ -1096,8 +1096,98 @@
    ]
   },
   "https://www.freepressjournal.in/stories.rss?section=business": {
-   "fetched": "2026-11-04T23:31+05:30",
+   "fetched": "2026-11-05T01:01+05:30",
    "items": [
+    {
+     "date": "2026-11-04",
+     "source": "freepressjournal.in",
+     "title": "Bhopal Crime News: Two Alleged Arms Smugglers Arrested, 5 Illegal Firearms, 7 Live Cartridges And 5 Magazines Seized By Hanumanganj Police",
+     "url": "https://www.freepressjournal.in/bhopal/bhopal-crime-news-two-alleged-arms-smugglers-arrested-5-illegal-firearms-7-live-cartridges-and-5-magazines-seized-by-hanumanganj-police"
+    },
+    {
+     "date": "2026-11-04",
+     "source": "freepressjournal.in",
+     "title": "Vardhman Heights International School Students Explore Sanchi Stupa, Bhopal Assembly, Museums And Van Vihar During Educational Tour From MP’s Khachrod",
+     "url": "https://www.freepressjournal.in/indore/vardhman-heights-international-school-students-explore-sanchi-stupa-bhopal-assembly-museums-and-van-vihar-during-educational-tour-from-mps-khachrod"
+    },
+    {
+     "date": "2026-11-04",
+     "source": "freepressjournal.in",
+     "title": "Senior Citizen Loses ₹2.82 Crore In Cyber Fraud After Falling For Deepfake Video Of Finance Minister",
+     "url": "https://www.freepressjournal.in/tech/senior-citizen-loses-282-crore-in-cyber-fraud-after-falling-for-deepfake-video-of-union-minister"
+    },
+    {
+     "date": "2026-11-04",
+     "source": "freepressjournal.in",
+     "title": "Maha PWD Clears Bills Of 4,800 Small Contractors, Releases ₹9,700 Crore Towards Pending Payments",
+     "url": "https://www.freepressjournal.in/mumbai/maha-pwd-clears-bills-of-4800-small-contractors-releases-9700-crore-towards-pending-payments"
+    },
+    {
+     "date": "2026-11-04",
+     "source": "freepressjournal.in",
+     "title": "Mumbai's Shivaji Park To Remain Firecracker-Free This Diwali As BMC Plans Warning Boards & Police Monitoring",
+     "url": "https://www.freepressjournal.in/mumbai/mumbais-shivaji-park-to-remain-firecracker-free-this-diwali-as-bmc-plans-warning-boards-police-monitoring"
+    },
+    {
+     "date": "2026-11-04",
+     "source": "freepressjournal.in",
+     "title": "'I'm Back Again': PV Sindhu Eyes Bigger Comeback After Breaking Into World Top Six",
+     "url": "https://www.freepressjournal.in/sports/im-back-again-pv-sindhu-eyes-bigger-comeback-after-breaking-into-world-top-six"
+    },
+    {
+     "date": "2026-11-04",
+     "source": "freepressjournal.in",
+     "title": "Mumbai: BMC Launches Borivali Demolition Drive After Supreme Court Withholds Commissioner Ashwini Bhide's Salary",
+     "url": "https://www.freepressjournal.in/mumbai/mumbai-bmc-launches-borivali-demolition-drive-after-supreme-court-withholds-commissioner-ashwini-bhides-salary"
+    },
+    {
+     "date": "2026-11-04",
+     "source": "freepressjournal.in",
+     "title": "'I Think I Am Close': Tanush Kotian Makes Strong Case For India Test Call-Up After Stellar Run",
+     "url": "https://www.freepressjournal.in/sports/i-think-i-am-close-tanush-kotian-makes-strong-case-for-india-test-call-up-after-stellar-run"
+    },
+    {
+     "date": "2026-11-04",
+     "source": "freepressjournal.in",
+     "title": "3 Arrested In ₹58.72 Lakh Share Trading Investment Fraud, 73 Linked Cases Uncovered Across India",
+     "url": "https://www.freepressjournal.in/mumbai/3-arrested-in-5872-lakh-share-trading-investment-fraud-73-linked-cases-uncovered-across-india"
+    },
+    {
+     "date": "2026-11-04",
+     "source": "freepressjournal.in",
+     "title": "Navi Mumbai Police Detain Fourth Woman In Drug Trade Crackdown; Turbhe Accused Booked Under PIT-NDPS Act",
+     "url": "https://www.freepressjournal.in/mumbai/navi-mumbai-police-detain-fourth-woman-in-drug-trade-crackdown-turbhe-accused-booked-under-pit-ndps-act"
+    },
+    {
+     "date": "2026-11-04",
+     "source": "freepressjournal.in",
+     "title": "Ranji Trophy Elite Group D Match: Tanush Kotian's 7-Wicket Haul, Openers' 146-Run Stand Put Mumbai In Command Against Railways",
+     "url": "https://www.freepressjournal.in/sports/ranji-trophy-elite-group-d-match-tanush-kotians-7-wicket-haul-openers-146-run-stand-put-mumbai-in-command-against-railways"
+    },
+    {
+     "date": "2026-11-04",
+     "source": "freepressjournal.in",
+     "title": "'Delivery Partner': Shubman Gill Wears Red T-Shirt & Deepinder Goyal's Temple Device; Fans React With Hilarious Memes",
+     "url": "https://www.freepressjournal.in/sports/delivery-partner-shubman-gill-wears-red-t-shirt-deepinder-goyals-temple-device-fans-react-with-hilarious-memes"
+    },
+    {
+     "date": "2026-11-04",
+     "source": "freepressjournal.in",
+     "title": "Mumbai Crime: DRI Seizes 7.85 Kg Hashish Hidden Inside Bathroom Mirror Shipped From US; Consignee Arrested",
+     "url": "https://www.freepressjournal.in/mumbai/mumbai-crime-dri-seizes-785-kg-hashish-hidden-inside-bathroom-mirror-shipped-from-us-consignee-arrested"
+    },
+    {
+     "date": "2026-11-04",
+     "source": "freepressjournal.in",
+     "title": "Maha Cabinet Approves Cooperative Act Amendment, Paves Way For 5 Govt-Nominated Directors In Gokul Dairy",
+     "url": "https://www.freepressjournal.in/mumbai/maha-cabinet-approves-cooperative-act-amendment-paves-way-for-5-govt-nominated-directors-in-gokul-dairy"
+    },
+    {
+     "date": "2026-11-04",
+     "source": "freepressjournal.in",
+     "title": "Defending Champions Anjuman-I-Islam Allana Seize Control Of Harris Shield Final, Umar Khute Shines With Unbeaten 69",
+     "url": "https://www.freepressjournal.in/sports/defending-champions-anjuman-seize-control-of-harris-shield-final-umar-khute-shines-with-unbeaten-69"
+    },
     {
      "date": "2026-11-04",
      "source": "freepressjournal.in",
@@ -1107,14 +1197,14 @@
     {
      "date": "2026-11-04",
      "source": "freepressjournal.in",
-     "title": "Diwali 2026: Hingot Firecrackers And Fireworks Banned On MG Road, Main Market To Ensure Public Safety In MP’s Mandleshwar",
-     "url": "https://www.freepressjournal.in/indore/diwali-2026-hingot-firecrackers-and-fireworks-banned-on-mg-road-main-market-to-ensure-public-safety-in-mps-mandleshwar"
+     "title": "MP Education Reform: Over 1 Crore School Students May Soon Be Assessed Through Rubric Method Instead Of Conventional Exams",
+     "url": "https://www.freepressjournal.in/bhopal/mp-education-reform-over-1-crore-school-students-may-soon-be-assessed-through-rubric-method-instead-of-conventional-exams"
     },
     {
      "date": "2026-11-04",
      "source": "freepressjournal.in",
-     "title": "MP Education Reform: Over 1 Crore School Students May Soon Be Assessed Through Rubric Method Instead Of Conventional Exams",
-     "url": "https://www.freepressjournal.in/bhopal/mp-education-reform-over-1-crore-school-students-may-soon-be-assessed-through-rubric-method-instead-of-conventional-exams"
+     "title": "Diwali 2026: Hingot Firecrackers And Fireworks Banned On MG Road, Main Market To Ensure Public Safety In MP’s Mandleshwar",
+     "url": "https://www.freepressjournal.in/indore/diwali-2026-hingot-firecrackers-and-fireworks-banned-on-mg-road-main-market-to-ensure-public-safety-in-mps-mandleshwar"
     },
     {
      "date": "2026-11-04",
@@ -1269,14 +1359,14 @@
     {
      "date": "2026-11-04",
      "source": "freepressjournal.in",
-     "title": "Municipal Council Approves All 23 Proposals, Clears Shopping Complex, New Roads And Recruitment Of 100 Sanitation Workers In MP’s Mandsaur",
-     "url": "https://www.freepressjournal.in/indore/municipal-council-approves-all-23-proposals-clears-shopping-complex-new-roads-and-recruitment-of-100-sanitation-workers-in-mps-mandsaur"
+     "title": "NHRC Issues Notices To MP, Rajasthan And Maharashtra Over Alleged Sale Of Minor Girls For ₹3-5 Lakh, Seeks Reports Within Two Weeks",
+     "url": "https://www.freepressjournal.in/bhopal/nhrc-issues-notices-to-mp-rajasthan-and-maharashtra-over-alleged-sale-of-minor-girls-for-3-5-lakh-seeks-reports-within-two-weeks"
     },
     {
      "date": "2026-11-04",
      "source": "freepressjournal.in",
-     "title": "NHRC Issues Notices To MP, Rajasthan And Maharashtra Over Alleged Sale Of Minor Girls For ₹3-5 Lakh, Seeks Reports Within Two Weeks",
-     "url": "https://www.freepressjournal.in/bhopal/nhrc-issues-notices-to-mp-rajasthan-and-maharashtra-over-alleged-sale-of-minor-girls-for-3-5-lakh-seeks-reports-within-two-weeks"
+     "title": "Municipal Council Approves All 23 Proposals, Clears Shopping Complex, New Roads And Recruitment Of 100 Sanitation Workers In MP’s Mandsaur",
+     "url": "https://www.freepressjournal.in/indore/municipal-council-approves-all-23-proposals-clears-shopping-complex-new-roads-and-recruitment-of-100-sanitation-workers-in-mps-mandsaur"
     },
     {
      "date": "2026-11-04",
@@ -1395,182 +1485,26 @@
     {
      "date": "2026-11-04",
      "source": "freepressjournal.in",
-     "title": "Navi Mumbai General Body Passes 60-31 Resolution To Halt Pending Projects Until Carrying Capacity Study, Shinde Sena Divided Over Ghansoli Simplex Cluster",
-     "url": "https://www.freepressjournal.in/mumbai/navi-mumbai-general-body-passes-60-31-resolution-to-halt-pending-projects-until-carrying-capacity-study-shinde-sena-divided-over-ghansoli-simplex-cluster"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "freepressjournal.in",
-     "title": "Mahadev Betting Case: CBI Gets 8-Day Custody Of Kingpin Saurabh Chandrakar, To Probe Alleged Officials' Nexus | VIDEO",
-     "url": "https://www.freepressjournal.in/india/mahadev-betting-case-cbi-gets-8-day-custody-of-kingpin-saurabh-chandrakar-to-probe-alleged-officials-nexus-video"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "freepressjournal.in",
-     "title": "Dombivli’s Savitribai Phule Auditorium Set For Major Revival With ₹30 Crore Funding Boost",
-     "url": "https://www.freepressjournal.in/mumbai/dombivlis-savitribai-phule-auditorium-set-for-major-revival-with-30-crore-funding-boost"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "freepressjournal.in",
-     "title": "Early Arrival Of 5,000 Flamingos Renews Concerns Over Delayed Protection Of Navi Mumbai's DPS Lake",
-     "url": "https://www.freepressjournal.in/mumbai/early-arrival-of-5000-flamingos-renews-concerns-over-delayed-protection-of-navi-mumbais-dps-lake"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "freepressjournal.in",
-     "title": "'They Want Positions & Ministerial Posts': Rohit Pawar After NCP Leaders Meet Amit Shah In Delhi, Alleges Bid To Sideline Sunetra And Parth Pawar",
-     "url": "https://www.freepressjournal.in/mumbai/they-want-positions-ministerial-posts-rohit-pawar-after-ncp-leaders-meet-amit-shah-in-delhi-alleges-bid-to-sideline-sunetra-and-parth-pawar"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "freepressjournal.in",
-     "title": "GI Tag Protection: Ratlami Sev Name Misuse To Invite Legal Action, Collector Orders Notices To Unregistered Firms In MP’s Ratlam",
-     "url": "https://www.freepressjournal.in/indore/gi-tag-protection-ratlami-sev-name-misuse-to-invite-legal-action-collector-orders-notices-to-unregistered-firms-in-mps-ratlam"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "freepressjournal.in",
      "title": "Bohra Travellers To Get Trees In Their Names",
      "url": "https://www.freepressjournal.in/mumbai/dawoodi-bohra-trust-pledges-to-plant-1-tree-for-every-international-pilgrim-to-promote-environmental-sustainability"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "freepressjournal.in",
-     "title": "Sri Shanmukhananda Sabha To Honour Over 200 Senior Members At Platinum Jubilee Year Inauguration",
-     "url": "https://www.freepressjournal.in/mumbai/sri-shanmukhananda-sabha-to-honour-over-200-senior-members-at-platinum-jubilee-year-inauguration"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "freepressjournal.in",
-     "title": "Patanjali To Host Herbal Kumbh 2026; Acharya Balkrishna Envisions Global Herbal Knowledge Centre In Himalayas",
-     "url": "https://www.freepressjournal.in/patanjali/patanjali-to-host-herbal-kumbh-2026-acharya-balkrishna-envisions-global-herbal-knowledge-centre-in-himalayas"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "freepressjournal.in",
-     "title": "Vasai Vegetable Market Turns Into Fashion Runway As Models Walk The Ramp Showcasing Fresh Vegetables",
-     "url": "https://www.freepressjournal.in/mumbai/vasai-vegetable-market-turns-into-fashion-runway-as-models-walk-the-ramp-showcasing-fresh-vegetables"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "freepressjournal.in",
-     "title": "965-Page Book Highlights Christians’ Contribution To India’s Nation-Building & Historical Legacy",
-     "url": "https://www.freepressjournal.in/mumbai/965-page-book-highlights-christians-contribution-to-indias-nation-building-historical-legacy"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "freepressjournal.in",
-     "title": "Gold Prices Surge ₹4,800 To ₹1.46 Lakh Per 10 Grams In Delhi; Silver Jumps ₹9,000",
-     "url": "https://www.freepressjournal.in/business/gold-prices-surge-4800-to-146-lakh-per-10-grams-in-delhi-silver-jumps-9000"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "freepressjournal.in",
-     "title": "Day After SC Order On Freezing Salaries, BMC Demolishes 27 Commercial Structures On Land Reserved For BEST Bus Station",
-     "url": "https://www.freepressjournal.in/mumbai/day-after-sc-order-on-freezing-salaries-bmc-demolishes-27-commercial-structures-on-land-reserved-for-best-bus-station"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "freepressjournal.in",
-     "title": "'Will Prove In 5 Minutes That Modi Is Anti-National': Rahul Gandhi Reiterates Open Debate Dare To PM At Punjab's 'Insaaf Rally' | Video",
-     "url": "https://www.freepressjournal.in/india/will-prove-in-5-minutes-that-modi-is-anti-national-rahul-gandhi-reiterates-open-debate-dare-to-pm-at-punjabs-insaaf-rally-video"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "freepressjournal.in",
-     "title": "Thane Municipal Workers Threaten Protests Over Lower Diwali Bonus Compared To Other Civic Bodies",
-     "url": "https://www.freepressjournal.in/mumbai/thane-municipal-workers-threaten-protests-over-lower-diwali-bonus-compared-to-other-civic-bodies"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "freepressjournal.in",
-     "title": "The ECI’s Flip-Flop On Form 6 Questions Its Credibility",
-     "url": "https://www.freepressjournal.in/analysis/the-ecis-flip-flop-on-form-6-questions-its-credibility"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "freepressjournal.in",
-     "title": "Heart-Touching! Bihar Man Digs His Own Grave Beside Mother's Tomb, Wants To Stay Close To Her Even After Death",
-     "url": "https://www.freepressjournal.in/viral/heart-touching-bihar-man-digs-his-own-grave-beside-mothers-tomb-wants-to-stay-close-to-her-even-after-death"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "freepressjournal.in",
-     "title": "'All 4 Accused Should Be Sentenced To Death': Payal Zambre's Brother Questions Police Probe Into Alleged Dowry Harassment Case | VIDEO",
-     "url": "https://www.freepressjournal.in/mumbai/all-4-accused-should-be-sentenced-to-death-payal-zambres-brother-questions-police-probe-into-alleged-dowry-harassment-case-video"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "freepressjournal.in",
-     "title": "‘Main Gaane Ke Naam Pe Muh Nahi Hilaunga’: Singer Abhijeet Bhattacharya Takes Dig At Daler Mehndi Over Lip-Syncing Row? VIDEO",
-     "url": "https://www.freepressjournal.in/entertainment/main-gaane-ke-naam-pe-muh-nahi-hilaunga-singer-abhijeet-bhattacharya-takes-dig-at-daler-mehndi-over-lip-syncing-row-video"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "freepressjournal.in",
-     "title": "'It's A New Birth For Her': Father Breaks Down As 6-Year-Old Returns Home After Brutal School Attack - VIDEO",
-     "url": "https://www.freepressjournal.in/india/its-a-new-birth-for-her-father-breaks-down-as-6-year-old-returns-home-after-brutal-school-attack-video"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "freepressjournal.in",
-     "title": "A Lame Duck Called Trump Sitting In The White House",
-     "url": "https://www.freepressjournal.in/analysis/a-lame-duck-called-trump-sitting-in-the-white-house"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "freepressjournal.in",
-     "title": "India Vs Pakistan Football Live Streaming: When And Where To Watch SAFF Championships Live In India",
-     "url": "https://www.freepressjournal.in/sports/india-to-begin-saff-championship-title-defence-against-pakistan-in-dhaka-on-thursday"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "freepressjournal.in",
-     "title": "US Midterm Election Results: Brace For The Worst Of Donald Trump",
-     "url": "https://www.freepressjournal.in/analysis/us-midterm-election-results-brace-for-the-worst-of-donald-trump"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "freepressjournal.in",
-     "title": "'O Mere Sher Puttar! O Chacha!': Fan Calls Out To Virat Kohli From Stands After IND Vs NZ 1st ODI; Birthday Boy Ignores | VIDEO",
-     "url": "https://www.freepressjournal.in/sports/o-mere-sher-puttar-o-chacha-fan-calls-out-to-virat-kohli-from-stands-after-ind-vs-nz-1st-odi-birthday-boy-ignores-video"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "freepressjournal.in",
-     "title": "AI, Cyberattacks And Financial Stability: Why RBI And SEBI Must Act Now",
-     "url": "https://www.freepressjournal.in/analysis/ai-cyberattacks-and-financial-stability-why-rbi-and-sebi-must-act-now"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "freepressjournal.in",
-     "title": "Reliance Digital’s Festival of Electronics: Best Diwali Deals On iPhones, Laptops, TVs & Home Appliances With Up To ₹20,000 Exchange Bonus",
-     "url": "https://www.freepressjournal.in/business/reliance-digitals-festival-of-electronics-best-diwali-deals-on-iphones-laptops-tvs-home-appliances-with-up-to-20000-exchange-bonus"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "freepressjournal.in",
-     "title": "Thane Municipal Corporation Cracks Down On Pollution: 68 Construction Sites Issued Notices, ₹3.5 Lakh Fine Imposed",
-     "url": "https://www.freepressjournal.in/mumbai/thane-municipal-corporation-cracks-down-on-pollution-68-construction-sites-issued-notices-35-lakh-fine-imposed"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "freepressjournal.in",
-     "title": "WPL 2027 Schedule Announced: Smriti Mandhana's RCB To Face Harmanpreet Kaur's MI On January 14 - Check Full Fixtures",
-     "url": "https://www.freepressjournal.in/sports/wpl-2027-schedule-announced-smriti-mandhanas-rcb-to-face-harmanpreet-kaurs-mi-on-january-14-check-full-fixtures"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "freepressjournal.in",
-     "title": "BSE Q2 Results: Net Profit Jumps 45% To ₹807.52 Crore, Revenue Surges 34% To ₹1,432.66 Crore In September Quarter",
-     "url": "https://www.freepressjournal.in/business/bse-q2-results-net-profit-jumps-45-to-80752-crore-revenue-surges-34-to-143266-crore-in-september-quarter"
     }
    ]
   },
   "https://www.livemint.com/rss/markets": {
-   "fetched": "2026-11-04T23:31+05:30",
+   "fetched": "2026-11-05T01:01+05:30",
    "items": [
+    {
+     "date": "2026-11-05",
+     "source": "Mint",
+     "title": "Who Keeps Crashing China’s Stock Market?",
+     "url": "https://www.livemint.com/market/who-keeps-crashing-china-s-stock-market-11793820174602.html"
+    },
+    {
+     "date": "2026-11-04",
+     "source": "Mint",
+     "title": "Will tighter AI regulation slow Big Tech spending? What the US midterm results mean for tech stocks - Explained",
+     "url": "https://www.livemint.com/market/stock-market-news/will-tighter-ai-regulation-slow-big-tech-spending-what-the-us-midterm-results-mean-for-tech-stocks-explained-11793813477058.html"
+    },
     {
      "date": "2026-11-04",
      "source": "Mint",
@@ -1768,23 +1702,11 @@
      "source": "Mint",
      "title": "Awfis Space Solutions shares rally 13% on strong Q2 results | Check stock returns",
      "url": "https://www.livemint.com/market/stock-market-news/awfis-space-solutions-shares-rally-13-on-strong-q2-results-check-stock-returns-11793772312307.html"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "Mint",
-     "title": "Clean Max shares: Power stock jumps 42% in YTD; will this rally continue after Q2 results 2026? Expert views, target",
-     "url": "https://www.livemint.com/market/stock-market-news/clean-max-shares-power-stock-jumps-42-in-ytd-will-this-rally-continue-after-q2-results-2026-expert-views-target-11793772700847.html"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "Mint",
-     "title": "Pashupati Cotspin shares hit 10% lower circuit ahead of Q2 results after a stunning 70% monthly rally | What lies ahead?",
-     "url": "https://www.livemint.com/market/stock-market-news/pashupati-cotspin-shares-hit-10-lower-circuit-ahead-of-q2-results-after-a-stunning-70-monthly-rally-what-lies-ahead-11793770800395.html"
     }
    ]
   },
   "https://www.thehindubusinessline.com/markets/feeder/default.rss": {
-   "fetched": "2026-11-04T23:31+05:30",
+   "fetched": "2026-11-05T01:01+05:30",
    "items": [
     {
      "date": "2026-11-04",
@@ -2149,7 +2071,7 @@
    ]
   },
   "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss": {
-   "fetched": "2026-11-04T23:31+05:30",
+   "fetched": "2026-11-05T01:01+05:30",
    "items": [
     {
      "date": "2026-10-26",
@@ -2275,7 +2197,7 @@
   }
  },
  "hgsindialt": {
-  "checked": "2026-11-05T00:45+05:30",
+  "checked": "2026-11-05T01:01+05:30",
   "items": [
    {
     "date": "2026-10-30",
@@ -2286,7 +2208,7 @@
   ]
  },
  "maxengs": {
-  "checked": "2026-11-05T00:45+05:30",
+  "checked": "2026-11-05T01:01+05:30",
   "items": [
    {
     "date": "2026-10-30",
@@ -2297,7 +2219,7 @@
   ]
  },
  "vpfl": {
-  "checked": "2026-11-05T00:45+05:30",
+  "checked": "2026-11-05T01:01+05:30",
   "items": [
    {
     "date": "2026-11-02",
