@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T14:01+05:30",
+  "generated_at": "2026-11-04T14:15+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-04T11:19+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-04T14:01+05:30",
+    "nse_ok_at": "2026-11-04T14:15+05:30",
     "bse_ok_at": "2026-11-04T11:22+05:30"
   },
   "ipos": [
@@ -2870,13 +2870,13 @@
       "close": "2026-11-04",
       "segment": "SME",
       "sub": {
-        "retail": 1.74,
-        "nii": 1.25,
+        "retail": 1.87,
+        "nii": 1.27,
         "qib": 1.0,
-        "total": 1.54
+        "total": 1.62
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-04T13:58",
+      "sub_asof": "2026-11-04T14:12",
       "registrar": "Cameo Corporate Services Limited",
       "lead_managers": [
         "Affinity Global Capital Market Private Limited"
@@ -2897,7 +2897,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": null,
-      "updated_on": "2026-11-04T14:01+05:30",
+      "updated_on": "2026-11-04T14:15+05:30",
       "price": 94,
       "reservation": {
         "qib": 1.13,
@@ -3182,7 +3182,7 @@
       "sub_asof": "2026-11-04T11:16",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-04T14:01"
+        "at": "2026-11-04T14:15"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3519,7 +3519,7 @@
       "sub_asof": "2026-11-03T17:50",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-04T14:01"
+        "at": "2026-11-04T14:15"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
