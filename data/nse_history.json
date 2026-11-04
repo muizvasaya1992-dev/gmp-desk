@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-04T00:01+05:30",
+ "fetched_at": "2026-11-04T11:19+05:30",
  "year": 2026,
  "rows": [
   {
@@ -34,23 +34,13 @@
   },
   {
    "company": "M. K. Sons Fine Jewels Limited",
-   "symbol": "MKSONS",
+   "symbol": "MKJEWELS",
    "securityType": "EQ",
    "ipoStartDate": "28-OCT-2026",
    "ipoEndDate": "30-OCT-2026",
-   "listingDate": "-",
-   "issuePrice": "-",
+   "listingDate": "04-NOV-2026",
+   "issuePrice": "   162",
    "priceRange": "Rs.153 to Rs.162"
-  },
-  {
-   "company": "BLS Polymers Limited",
-   "symbol": "BLSPOLY",
-   "securityType": "EQ",
-   "ipoStartDate": "27-OCT-2026",
-   "ipoEndDate": "29-OCT-2026",
-   "listingDate": "03-NOV-2026",
-   "issuePrice": "   150",
-   "priceRange": "Rs.142 to Rs.150"
   },
   {
    "company": "SFC Environmental Technologies Limited",
@@ -61,6 +51,16 @@
    "listingDate": "03-NOV-2026",
    "issuePrice": "   330",
    "priceRange": "Rs.313 to Rs.330"
+  },
+  {
+   "company": "BLS Polymers Limited",
+   "symbol": "BLSPOLY",
+   "securityType": "EQ",
+   "ipoStartDate": "27-OCT-2026",
+   "ipoEndDate": "29-OCT-2026",
+   "listingDate": "03-NOV-2026",
+   "issuePrice": "   150",
+   "priceRange": "Rs.142 to Rs.150"
   },
   {
    "company": "EAAA India Alternatives Limited",
@@ -103,6 +103,16 @@
    "priceRange": "Rs.143 to Rs.151"
   },
   {
+   "company": "Bonfiglioli Transmissions Limited",
+   "symbol": "BONFIG",
+   "securityType": "EQ",
+   "ipoStartDate": "15-OCT-2026",
+   "ipoEndDate": "19-OCT-2026",
+   "listingDate": "23-OCT-2026",
+   "issuePrice": "   586",
+   "priceRange": "Rs.558 to Rs.586"
+  },
+  {
    "company": "Sahajanand Medical Technologies Limited",
    "symbol": "SMT",
    "securityType": "EQ",
@@ -121,16 +131,6 @@
    "listingDate": "23-OCT-2026",
    "issuePrice": "   700",
    "priceRange": "Rs.665 to Rs.700"
-  },
-  {
-   "company": "Bonfiglioli Transmissions Limited",
-   "symbol": "BONFIG",
-   "securityType": "EQ",
-   "ipoStartDate": "15-OCT-2026",
-   "ipoEndDate": "19-OCT-2026",
-   "listingDate": "23-OCT-2026",
-   "issuePrice": "   586",
-   "priceRange": "Rs.558 to Rs.586"
   },
   {
    "company": "Fusion CX Limited",
@@ -369,8 +369,8 @@
    "ipoStartDate": "23-SEP-2026",
    "ipoEndDate": "25-SEP-2026",
    "listingDate": "30-SEP-2026",
-   "issuePrice": "   134",
-   "priceRange": "Rs.126 to Rs.134"
+   "issuePrice": "   185",
+   "priceRange": "Rs.175 to Rs.185"
   },
   {
    "company": "Coreintegra Consulting Services Limited",
@@ -1643,16 +1643,6 @@
    "priceRange": "Rs.111 to Rs.117"
   },
   {
-   "company": "Aye Finance Limited",
-   "symbol": "AYE",
-   "securityType": "EQ",
-   "ipoStartDate": "09-FEB-2026",
-   "ipoEndDate": "11-FEB-2026",
-   "listingDate": "16-FEB-2026",
-   "issuePrice": "   129",
-   "priceRange": "Rs.122 to Rs.129"
-  },
-  {
    "company": "Fractal Analytics Limited",
    "symbol": "FRACTAL",
    "securityType": "EQ",
@@ -1661,6 +1651,16 @@
    "listingDate": "16-FEB-2026",
    "issuePrice": "   900",
    "priceRange": "Rs.857 to Rs.900"
+  },
+  {
+   "company": "Aye Finance Limited",
+   "symbol": "AYE",
+   "securityType": "EQ",
+   "ipoStartDate": "09-FEB-2026",
+   "ipoEndDate": "11-FEB-2026",
+   "listingDate": "16-FEB-2026",
+   "issuePrice": "   129",
+   "priceRange": "Rs.122 to Rs.129"
   },
   {
    "company": "Biopol Chemicals Limited",

@@ -9,15 +9,18 @@
    "segment": "SME"
   },
   "bls-polymers": {
+   "actual_close": 269.3,
+   "actual_pct": 79.53,
    "at": "2026-11-02T23:30",
    "gmp": 66.67,
+   "listed_on": "2026-11-03",
    "listing": "2026-11-03",
    "name": "BLS Polymers",
    "price": 150,
    "segment": "MAIN"
   },
   "bombay-coated-special-steels": {
-   "at": "2026-11-04T11:15",
+   "at": "2026-11-04T11:19",
    "gmp": 8,
    "listing": "2026-11-05",
    "name": "Bombay Coated and Special Steels",
@@ -44,23 +47,23 @@
    "segment": "MAIN"
   },
   "hgsindialt": {
-   "at": "2026-11-04T09:15",
-   "gmp": 25,
+   "at": "2026-11-04T11:19",
+   "gmp": 23,
    "listing": "2026-11-06",
    "name": "HGS (India)",
    "price": 120,
    "segment": "SME"
   },
   "johnsoncab-electricals": {
-   "at": "2026-11-04T11:10",
-   "gmp": 6,
+   "at": "2026-11-04T11:19",
+   "gmp": 8,
    "listing": "2026-11-06",
    "name": "Johnsoncab Electricals",
    "price": 200,
    "segment": "SME"
   },
   "maxengs": {
-   "at": "2026-11-04T09:15",
+   "at": "2026-11-04T11:19",
    "gmp": 80,
    "listing": "2026-11-06",
    "name": "Maxwell Engineering Solutions",
@@ -76,16 +79,19 @@
    "segment": "MAIN"
   },
   "sfc-environmental-technologies": {
+   "actual_close": 424.85,
+   "actual_pct": 28.74,
    "at": "2026-11-02T23:31",
    "gmp": 21,
+   "listed_on": "2026-11-03",
    "listing": "2026-11-03",
    "name": "SFC Environmental Technologies",
    "price": 330,
    "segment": "MAIN"
   },
   "vpfl": {
-   "at": "2026-11-04T11:10",
-   "gmp": 5,
+   "at": "2026-11-04T11:19",
+   "gmp": 10,
    "listing": "2026-11-09",
    "name": "Vedant Poly Fabs",
    "price": 94,
