@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-04T09:45+05:30",
+  "fetched_at": "2026-11-04T10:01+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,7 +16,7 @@
     "price_low": 78.0,
     "size_cr": 183.06,
     "gmp": 7.0,
-    "gmp_at": "2026-11-04T09:40",
+    "gmp_at": "2026-11-04T09:55",
     "sub_total": 60.77,
     "sub_retail": 33.73,
     "sub_at": "2026-11-02T19:06",
@@ -111,7 +111,7 @@
     "price_low": 153.0,
     "size_cr": 330.48,
     "gmp": 11.5,
-    "gmp_at": "2026-11-04T09:40",
+    "gmp_at": "2026-11-04T09:55",
     "sub_total": 5.1,
     "sub_retail": 3.08,
     "sub_at": "2026-10-30T19:05",
@@ -201,11 +201,11 @@
     "price": 94.0,
     "price_low": 88.0,
     "size_cr": 56.68,
-    "gmp": 11.0,
-    "gmp_at": "2026-11-04T09:41",
+    "gmp": 10.0,
+    "gmp_at": "2026-11-04T09:56",
     "sub_total": 0.9,
     "sub_retail": 0.86,
-    "sub_at": "2026-11-04T09:44",
+    "sub_at": "2026-11-04T09:57",
     "sub_cats": {
      "retail": 0.86,
      "nii": 0.95,
@@ -228,6 +228,10 @@
      [
       "2026-11-03",
       11.0
+     ],
+     [
+      "2026-11-04",
+      10.0
      ]
     ],
     "rhp_url": null,
@@ -259,7 +263,7 @@
     "price_low": 63.0,
     "size_cr": 23.33,
     "gmp": 0.0,
-    "gmp_at": "2026-11-04T09:40",
+    "gmp_at": "2026-11-04T09:55",
     "sub_total": 1.11,
     "sub_retail": 0.4,
     "sub_at": "2026-11-02T18:54",
@@ -320,7 +324,7 @@
     "price_low": 114.0,
     "size_cr": 34.56,
     "gmp": 25.0,
-    "gmp_at": "2026-11-04T09:41",
+    "gmp_at": "2026-11-04T09:56",
     "sub_total": 247.3,
     "sub_retail": 233.27,
     "sub_at": "2026-11-03T19:10",
@@ -365,6 +369,67 @@
    },
    {
     "src": "Tracker B",
+    "slug": "vectras-enprocon",
+    "name": "Vectras Enprocon",
+    "segment": "SME",
+    "exchange": "BSE SME",
+    "open": "2026-10-30",
+    "close": "2026-11-03",
+    "boa": "2026-11-04",
+    "listing": "2026-11-06",
+    "price": 105.0,
+    "price_low": 99.0,
+    "size_cr": 53.05,
+    "gmp": 0.0,
+    "gmp_at": "2026-11-04T09:56",
+    "sub_total": 4.2,
+    "sub_retail": 4.45,
+    "sub_at": "2026-11-03T17:50",
+    "sub_cats": {
+     "retail": 4.45,
+     "nii": 6.69,
+     "qib": 1.88,
+     "total": 4.2
+    },
+    "gmp_days": [
+     [
+      "2026-10-30",
+      0.0
+     ],
+     [
+      "2026-10-31",
+      0.0
+     ],
+     [
+      "2026-11-01",
+      0.0
+     ],
+     [
+      "2026-11-02",
+      0.0
+     ],
+     [
+      "2026-11-03",
+      0.0
+     ]
+    ],
+    "rhp_url": null,
+    "drhp_url": null,
+    "lot_raw": 2400.0,
+    "sector": "Oil & Gas Infrastructure / EPC",
+    "quota": {
+     "qib": 50.0,
+     "nii": 15.0,
+     "retail": 35.0
+    },
+    "fresh_cr": 42.59,
+    "ofs_cr": 10.46,
+    "registrar": "MUFG Intime India Pvt. Ltd.",
+    "lead_manager": "Beeline Capital Advisors Pvt. Ltd.",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
     "slug": "johnsoncab-electricals",
     "name": "Johnsoncab Electricals Limited",
     "segment": "SME",
@@ -377,7 +442,7 @@
     "price_low": 190.0,
     "size_cr": 56.02,
     "gmp": 8.0,
-    "gmp_at": "2026-11-04T09:40",
+    "gmp_at": "2026-11-04T09:55",
     "sub_total": 23.58,
     "sub_retail": 17.53,
     "sub_at": "2026-11-03T19:06",
@@ -434,7 +499,7 @@
     "price_low": 150.0,
     "size_cr": 57.64,
     "gmp": 80.0,
-    "gmp_at": "2026-11-04T09:40",
+    "gmp_at": "2026-11-04T09:55",
     "sub_total": 536.8,
     "sub_retail": 556.09,
     "sub_at": "2026-11-03T19:06",
@@ -483,67 +548,6 @@
    },
    {
     "src": "Tracker B",
-    "slug": "vectras-enprocon",
-    "name": "Vectras Enprocon",
-    "segment": "SME",
-    "exchange": "BSE SME",
-    "open": "2026-10-30",
-    "close": "2026-11-03",
-    "boa": "2026-11-04",
-    "listing": "2026-11-06",
-    "price": 105.0,
-    "price_low": 99.0,
-    "size_cr": 53.05,
-    "gmp": 0.0,
-    "gmp_at": "2026-11-04T09:41",
-    "sub_total": 4.2,
-    "sub_retail": 4.45,
-    "sub_at": "2026-11-03T17:50",
-    "sub_cats": {
-     "retail": 4.45,
-     "nii": 6.69,
-     "qib": 1.88,
-     "total": 4.2
-    },
-    "gmp_days": [
-     [
-      "2026-10-30",
-      0.0
-     ],
-     [
-      "2026-10-31",
-      0.0
-     ],
-     [
-      "2026-11-01",
-      0.0
-     ],
-     [
-      "2026-11-02",
-      0.0
-     ],
-     [
-      "2026-11-03",
-      0.0
-     ]
-    ],
-    "rhp_url": null,
-    "drhp_url": null,
-    "lot_raw": 2400.0,
-    "sector": "Oil & Gas Infrastructure / EPC",
-    "quota": {
-     "qib": 50.0,
-     "nii": 15.0,
-     "retail": 35.0
-    },
-    "fresh_cr": 42.59,
-    "ofs_cr": 10.46,
-    "registrar": "MUFG Intime India Pvt. Ltd.",
-    "lead_manager": "Beeline Capital Advisors Pvt. Ltd.",
-    "live": true
-   },
-   {
-    "src": "Tracker B",
     "slug": "ajwa-projects",
     "name": "Ajwa Projects Limited",
     "segment": "SME",
@@ -556,7 +560,7 @@
     "price_low": 203.0,
     "size_cr": 38.05,
     "gmp": 1.0,
-    "gmp_at": "2026-11-04T09:41",
+    "gmp_at": "2026-11-04T09:56",
     "sub_total": 1.12,
     "sub_retail": 1.93,
     "sub_at": "2026-10-30T19:05",
@@ -619,7 +623,7 @@
     "price_low": 76.0,
     "size_cr": 28.29,
     "gmp": 5.0,
-    "gmp_at": "2026-11-04T09:40",
+    "gmp_at": "2026-11-04T09:55",
     "sub_total": 25.8,
     "sub_retail": 19.17,
     "sub_at": "2026-10-30T19:05",
@@ -677,7 +681,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-04T09:45+05:30",
+  "fetched_at": "2026-11-04T10:01+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -1342,446 +1346,8 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-04T09:45+05:30",
+  "fetched_at": "2026-11-04T10:01+05:30",
   "records": [
-   {
-    "src": "Tracker D",
-    "slug": "hgs-india",
-    "name": "HGS (India)",
-    "segment": "SME",
-    "exchange": null,
-    "open": "2026-10-30",
-    "close": "2026-11-03",
-    "boa": null,
-    "listing": "2026-11-06",
-    "price": 120.0,
-    "price_low": 114.0,
-    "size_cr": 34.56,
-    "gmp": 25.0,
-    "gmp_at": null,
-    "sub_total": 174.63,
-    "sub_retail": null,
-    "sub_at": null,
-    "lot": 1200.0,
-    "sector": "Oil Exploration & Production",
-    "detail_url": "https://ipoindex.in/ipo/hgs-india-sme-ipo/",
-    "live": true,
-    "detail": {
-     "gmp_history": [
-      [
-       "2026-11-03",
-       25.0
-      ],
-      [
-       "2026-11-02",
-       30.0
-      ],
-      [
-       "2026-10-31",
-       30.0
-      ],
-      [
-       "2026-10-30",
-       19.0
-      ],
-      [
-       "2026-10-29",
-       0.0
-      ]
-     ],
-     "reservation": {
-      "bnii": {
-       "pct": 4.64,
-       "shares": 273600
-      },
-      "nii": {
-       "pct": 11.67,
-       "shares": 414000
-      },
-      "qib": {
-       "pct": 61.28,
-       "shares": 2174400
-      },
-      "retail": {
-       "pct": 27.05,
-       "shares": 960000
-      },
-      "snii": {
-       "pct": 13.84,
-       "shares": 140400
-      }
-     },
-     "sub": {
-      "nii": 424.67,
-      "qib": 55.46,
-      "retail": 235.72,
-      "total": 174.63
-     },
-     "sub_at": "2026-11-03T17:18",
-     "uses": [
-      {
-       "cr": 15.05,
-       "use": "Plant/Machinery"
-      },
-      {
-       "cr": 1.05,
-       "use": "Facility"
-      },
-      {
-       "cr": 3.26,
-       "use": "ID"
-      }
-     ]
-    }
-   },
-   {
-    "src": "Tracker D",
-    "slug": "maxwell-engineering-solutions",
-    "name": "Maxwell Engineering Solutions",
-    "segment": "SME",
-    "exchange": null,
-    "open": "2026-10-30",
-    "close": "2026-11-03",
-    "boa": null,
-    "listing": "2026-11-06",
-    "price": 158.0,
-    "price_low": 150.0,
-    "size_cr": 58.0,
-    "gmp": 80.0,
-    "gmp_at": null,
-    "sub_total": 536.8,
-    "sub_retail": null,
-    "sub_at": null,
-    "lot": 800.0,
-    "sector": "Other Industrial Products",
-    "detail_url": "https://ipoindex.in/ipo/maxwell-engineering-solutions-sme-ipo/",
-    "live": true,
-    "detail": {
-     "gmp_history": [
-      [
-       "2026-11-03",
-       80.0
-      ],
-      [
-       "2026-11-02",
-       80.0
-      ],
-      [
-       "2026-10-31",
-       70.0
-      ],
-      [
-       "2026-10-30",
-       70.0
-      ],
-      [
-       "2026-10-29",
-       50.0
-      ],
-      [
-       "2026-10-28",
-       25.0
-      ],
-      [
-       "2026-10-27",
-       26.0
-      ]
-     ],
-     "reservation": {
-      "nii": {
-       "pct": 15.13,
-       "shares": 518400
-      },
-      "qib": {
-       "pct": 49.84,
-       "shares": 1707200
-      },
-      "retail": {
-       "pct": 35.03,
-       "shares": 1200000
-      }
-     },
-     "sub": {
-      "nii": 857.65,
-      "qib": 259.45,
-      "retail": 556.09,
-      "total": 536.8
-     },
-     "sub_at": "2026-11-03T18:21",
-     "uses": [
-      {
-       "cr": 18.0,
-       "use": "Buying"
-      },
-      {
-       "cr": 6.5,
-       "use": "Facility"
-      },
-      {
-       "cr": 4.3,
-       "use": "Debt"
-      },
-      {
-       "cr": 14.0,
-       "use": "Capital"
-      }
-     ]
-    }
-   },
-   {
-    "src": "Tracker D",
-    "slug": "johnsoncab-electricals",
-    "name": "Johnsoncab Electricals",
-    "segment": "SME",
-    "exchange": null,
-    "open": "2026-10-30",
-    "close": "2026-11-03",
-    "boa": null,
-    "listing": "2026-11-06",
-    "price": 200.0,
-    "price_low": 190.0,
-    "size_cr": 56.02,
-    "gmp": 8.0,
-    "gmp_at": null,
-    "sub_total": 23.82,
-    "sub_retail": null,
-    "sub_at": null,
-    "lot": 600.0,
-    "sector": "Cables - Electricals",
-    "detail_url": "https://ipoindex.in/ipo/johnsoncab-electricals-sme-ipo/",
-    "live": true,
-    "detail": {
-     "gmp_history": [
-      [
-       "2026-11-03",
-       8.0
-      ],
-      [
-       "2026-11-02",
-       10.0
-      ],
-      [
-       "2026-10-31",
-       5.0
-      ],
-      [
-       "2026-10-30",
-       10.0
-      ],
-      [
-       "2026-10-29",
-       13.0
-      ],
-      [
-       "2026-10-28",
-       10.0
-      ]
-     ],
-     "reservation": {
-      "nii": {
-       "pct": 15.03,
-       "shares": 399600
-      },
-      "qib": {
-       "pct": 49.86,
-       "shares": 1326000
-      },
-      "retail": {
-       "pct": 35.11,
-       "shares": 933600
-      }
-     },
-     "sub": {
-      "nii": 42.27,
-      "qib": 20.19,
-      "retail": 17.98,
-      "total": 23.82
-     },
-     "sub_at": "2026-11-03T17:17",
-     "uses": [
-      {
-       "cr": 7.89,
-       "use": "Expand"
-      },
-      {
-       "cr": 9.9,
-       "use": "Plant/Machine"
-      },
-      {
-       "cr": 6.89,
-       "use": "Machine"
-      },
-      {
-       "cr": 3.23,
-       "use": "Solar Plant"
-      },
-      {
-       "cr": 14.0,
-       "use": "Capital"
-      }
-     ],
-     "years": [
-      {
-       "assets": 48.44,
-       "debt": 32.81,
-       "ebitda": 5.42,
-       "income": 88.95,
-       "net_worth": 8.88,
-       "pat": 2.52,
-       "roce": 19.89,
-       "roe": 28.41,
-       "y": "FY24"
-      },
-      {
-       "assets": 64.28,
-       "debt": 41.79,
-       "ebitda": 12.14,
-       "income": 140,
-       "net_worth": 14.24,
-       "pat": 5.46,
-       "roce": 32.56,
-       "roe": 38.34,
-       "y": "FY25"
-      },
-      {
-       "assets": 126.64,
-       "debt": 79.88,
-       "ebitda": 24.06,
-       "income": 211.34,
-       "net_worth": 31.44,
-       "pat": 13.42,
-       "roce": 39.68,
-       "roe": 42.65,
-       "y": "FY26"
-      }
-     ]
-    }
-   },
-   {
-    "src": "Tracker D",
-    "slug": "vectras-enprocon",
-    "name": "Vectras Enprocon",
-    "segment": "SME",
-    "exchange": null,
-    "open": "2026-10-30",
-    "close": "2026-11-03",
-    "boa": null,
-    "listing": "2026-11-06",
-    "price": 105.0,
-    "price_low": 99.0,
-    "size_cr": 53.05,
-    "gmp": 0.0,
-    "gmp_at": null,
-    "sub_total": 3.9,
-    "sub_retail": null,
-    "sub_at": null,
-    "lot": 1200.0,
-    "sector": "Engineering, Procurement & Construction (EPC)",
-    "detail_url": "https://ipoindex.in/ipo/vectras-enprocon-sme-ipo/",
-    "live": true,
-    "detail": {
-     "gmp_history": [
-      [
-       "2026-11-03",
-       0.0
-      ],
-      [
-       "2026-11-02",
-       0.0
-      ],
-      [
-       "2026-10-31",
-       0.0
-      ],
-      [
-       "2026-10-30",
-       0.0
-      ],
-      [
-       "2026-10-29",
-       0.0
-      ]
-     ],
-     "reservation": {
-      "bnii": {
-       "pct": 9.55,
-       "shares": 482400
-      },
-      "market_maker": {
-       "pct": 6.55,
-       "shares": 253200
-      },
-      "nii": {
-       "pct": 15.0,
-       "shares": 720000
-      },
-      "qib": {
-       "pct": 49.99,
-       "shares": 2398800
-      },
-      "retail": {
-       "pct": 35.01,
-       "shares": 1680000
-      },
-      "snii": {
-       "pct": 4.7,
-       "shares": 237600
-      }
-     },
-     "sub": {
-      "nii": 4.95,
-      "qib": 1.88,
-      "retail": 4.45,
-      "total": 3.9
-     },
-     "sub_at": "2026-11-03T17:17",
-     "uses": [
-      {
-       "cr": 14.0,
-       "use": "Debt"
-      },
-      {
-       "cr": 20.0,
-       "use": "Capital"
-      }
-     ],
-     "years": [
-      {
-       "assets": 21.47,
-       "debt": 4.16,
-       "ebitda": 8.67,
-       "income": 54.37,
-       "net_worth": 12.15,
-       "pat": 5.81,
-       "roce": 79.27,
-       "roe": 93.02,
-       "y": "FY24"
-      },
-      {
-       "assets": 46.5,
-       "debt": 11.87,
-       "ebitda": 15.05,
-       "income": 80.53,
-       "net_worth": 22.32,
-       "pat": 10.17,
-       "roce": 56.09,
-       "roe": 59,
-       "y": "FY25"
-      },
-      {
-       "assets": 74.94,
-       "debt": 22.21,
-       "ebitda": 24.01,
-       "income": 119.9,
-       "net_worth": 37.75,
-       "pat": 15.43,
-       "roce": 48.37,
-       "roe": 51.39,
-       "y": "FY26"
-      }
-     ]
-    }
-   },
    {
     "src": "Tracker D",
     "slug": "vedant-poly-fabs",
@@ -1795,7 +1361,7 @@
     "price": 94.0,
     "price_low": 88.0,
     "size_cr": 56.68,
-    "gmp": 12.0,
+    "gmp": 10.0,
     "gmp_at": null,
     "sub_total": 0.88,
     "sub_retail": null,
@@ -2030,148 +1596,437 @@
    },
    {
     "src": "Tracker D",
-    "slug": "bombay-coated-special-steels",
-    "name": "Bombay Coated & Special Steels",
-    "segment": "MAIN",
+    "slug": "hgs-india",
+    "name": "HGS (India)",
+    "segment": "SME",
     "exchange": null,
     "open": null,
     "close": null,
     "boa": null,
-    "listing": "2026-11-05",
-    "price": 82.0,
-    "price_low": 78.0,
-    "size_cr": 183.06,
-    "gmp": 9.0,
+    "listing": "2026-11-06",
+    "price": 120.0,
+    "price_low": 114.0,
+    "size_cr": 34.56,
+    "gmp": 25.0,
     "gmp_at": null,
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
-    "lot": 182.0,
-    "sector": "Iron & Steel Products",
-    "detail_url": "https://ipoindex.in/ipo/bombay-coated-special-steels-ipo/",
+    "lot": 1200.0,
+    "sector": "Oil Exploration & Production",
+    "detail_url": "https://ipoindex.in/ipo/hgs-india-sme-ipo/",
     "live": true,
     "detail": {
      "gmp_history": [
       [
        "2026-11-03",
-       9.0
+       25.0
       ],
       [
        "2026-11-02",
-       9.0
+       30.0
       ],
       [
        "2026-10-31",
-       10.0
+       30.0
       ],
       [
        "2026-10-30",
-       7.0
+       19.0
       ],
       [
        "2026-10-29",
-       9.0
+       0.0
+      ]
+     ],
+     "reservation": {
+      "bnii": {
+       "pct": 4.64,
+       "shares": 273600
+      },
+      "nii": {
+       "pct": 11.67,
+       "shares": 414000
+      },
+      "qib": {
+       "pct": 61.28,
+       "shares": 2174400
+      },
+      "retail": {
+       "pct": 27.05,
+       "shares": 960000
+      },
+      "snii": {
+       "pct": 13.84,
+       "shares": 140400
+      }
+     },
+     "sub": {
+      "nii": 424.67,
+      "qib": 55.46,
+      "retail": 235.72,
+      "total": 174.63
+     },
+     "sub_at": "2026-11-03T17:18",
+     "uses": [
+      {
+       "cr": 15.05,
+       "use": "Plant/Machinery"
+      },
+      {
+       "cr": 1.05,
+       "use": "Facility"
+      },
+      {
+       "cr": 3.26,
+       "use": "ID"
+      }
+     ]
+    }
+   },
+   {
+    "src": "Tracker D",
+    "slug": "maxwell-engineering-solutions",
+    "name": "Maxwell Engineering Solutions",
+    "segment": "SME",
+    "exchange": null,
+    "open": null,
+    "close": null,
+    "boa": null,
+    "listing": "2026-11-06",
+    "price": 158.0,
+    "price_low": 150.0,
+    "size_cr": 58.0,
+    "gmp": 80.0,
+    "gmp_at": null,
+    "sub_total": null,
+    "sub_retail": null,
+    "sub_at": null,
+    "lot": 800.0,
+    "sector": "Other Industrial Products",
+    "detail_url": "https://ipoindex.in/ipo/maxwell-engineering-solutions-sme-ipo/",
+    "live": true,
+    "detail": {
+     "gmp_history": [
+      [
+       "2026-11-03",
+       80.0
+      ],
+      [
+       "2026-11-02",
+       80.0
+      ],
+      [
+       "2026-10-31",
+       70.0
+      ],
+      [
+       "2026-10-30",
+       70.0
+      ],
+      [
+       "2026-10-29",
+       50.0
+      ],
+      [
+       "2026-10-28",
+       25.0
+      ],
+      [
+       "2026-10-27",
+       26.0
+      ]
+     ],
+     "reservation": {
+      "nii": {
+       "pct": 15.13,
+       "shares": 518400
+      },
+      "qib": {
+       "pct": 49.84,
+       "shares": 1707200
+      },
+      "retail": {
+       "pct": 35.03,
+       "shares": 1200000
+      }
+     },
+     "sub": {
+      "nii": 857.65,
+      "qib": 259.45,
+      "retail": 556.09,
+      "total": 536.8
+     },
+     "sub_at": "2026-11-03T18:21",
+     "uses": [
+      {
+       "cr": 18.0,
+       "use": "Buying"
+      },
+      {
+       "cr": 6.5,
+       "use": "Facility"
+      },
+      {
+       "cr": 4.3,
+       "use": "Debt"
+      },
+      {
+       "cr": 14.0,
+       "use": "Capital"
+      }
+     ]
+    }
+   },
+   {
+    "src": "Tracker D",
+    "slug": "johnsoncab-electricals",
+    "name": "Johnsoncab Electricals",
+    "segment": "SME",
+    "exchange": null,
+    "open": null,
+    "close": null,
+    "boa": null,
+    "listing": "2026-11-06",
+    "price": 200.0,
+    "price_low": 190.0,
+    "size_cr": 56.02,
+    "gmp": 8.0,
+    "gmp_at": null,
+    "sub_total": null,
+    "sub_retail": null,
+    "sub_at": null,
+    "lot": 600.0,
+    "sector": "Cables - Electricals",
+    "detail_url": "https://ipoindex.in/ipo/johnsoncab-electricals-sme-ipo/",
+    "live": true,
+    "detail": {
+     "gmp_history": [
+      [
+       "2026-11-03",
+       8.0
+      ],
+      [
+       "2026-11-02",
+       10.0
+      ],
+      [
+       "2026-10-31",
+       5.0
+      ],
+      [
+       "2026-10-30",
+       10.0
+      ],
+      [
+       "2026-10-29",
+       13.0
       ],
       [
        "2026-10-28",
        10.0
-      ],
-      [
-       "2026-10-27",
-       9.0
-      ],
-      [
-       "2026-10-26",
-       9.0
-      ],
-      [
-       "2026-10-24",
-       8.0
-      ],
-      [
-       "2026-10-23",
-       8.0
       ]
      ],
      "reservation": {
-      "anchor": {
-       "pct": 22.81,
-       "shares": 6597500
-      },
-      "bnii": {
-       "pct": 27.02,
-       "shares": 7813409
-      },
       "nii": {
-       "pct": 11.58,
-       "shares": 3348604
+       "pct": 15.03,
+       "shares": 399600
       },
       "qib": {
-       "pct": 61.41,
-       "shares": 6597500
-      },
-      "qib_ex_anchor": {
-       "pct": 38.59,
-       "shares": 11162012
+       "pct": 49.86,
+       "shares": 1326000
       },
       "retail": {
-       "pct": 27.02,
-       "shares": 7813409
-      },
-      "snii": {
-       "pct": 3.86,
-       "shares": 1116201
+       "pct": 35.11,
+       "shares": 933600
       }
      },
      "sub": {
-      "nii": 166.44,
-      "qib": 15.26,
-      "retail": 35.46,
-      "total": 45.01
+      "nii": 42.27,
+      "qib": 20.19,
+      "retail": 17.98,
+      "total": 23.82
      },
-     "sub_at": "2026-11-02T17:58",
+     "sub_at": "2026-11-03T17:17",
      "uses": [
       {
-       "cr": 125.0,
-       "use": "Borrowings"
+       "cr": 7.89,
+       "use": "Expand"
       },
       {
-       "cr": 15.0,
-       "use": "Lease"
+       "cr": 9.9,
+       "use": "Plant/Machine"
+      },
+      {
+       "cr": 6.89,
+       "use": "Machine"
+      },
+      {
+       "cr": 3.23,
+       "use": "Solar Plant"
+      },
+      {
+       "cr": 14.0,
+       "use": "Capital"
       }
      ],
      "years": [
       {
-       "assets": 350.21,
-       "debt": 234.16,
-       "ebitda": 49.17,
-       "income": 765.41,
-       "net_worth": 54.36,
-       "pat": 21.14,
-       "roce": 18.6,
-       "roe": 48.2,
+       "assets": 48.44,
+       "debt": 32.81,
+       "ebitda": 5.42,
+       "income": 88.95,
+       "net_worth": 8.88,
+       "pat": 2.52,
+       "roce": 19.89,
+       "roe": 28.41,
        "y": "FY24"
       },
       {
-       "assets": 458.21,
-       "debt": 276.96,
-       "ebitda": 74.09,
-       "income": 1058.65,
-       "net_worth": 83.05,
-       "pat": 28.67,
-       "roce": 18.78,
-       "roe": 41.76,
+       "assets": 64.28,
+       "debt": 41.79,
+       "ebitda": 12.14,
+       "income": 140,
+       "net_worth": 14.24,
+       "pat": 5.46,
+       "roce": 32.56,
+       "roe": 38.34,
        "y": "FY25"
       },
       {
-       "assets": 571.47,
-       "debt": 338.45,
-       "ebitda": 86.09,
-       "income": 1269.83,
-       "net_worth": 121.58,
-       "pat": 30.54,
-       "roce": 16.4,
-       "roe": 29.92,
+       "assets": 126.64,
+       "debt": 79.88,
+       "ebitda": 24.06,
+       "income": 211.34,
+       "net_worth": 31.44,
+       "pat": 13.42,
+       "roce": 39.68,
+       "roe": 42.65,
+       "y": "FY26"
+      }
+     ]
+    }
+   },
+   {
+    "src": "Tracker D",
+    "slug": "vectras-enprocon",
+    "name": "Vectras Enprocon",
+    "segment": "SME",
+    "exchange": null,
+    "open": null,
+    "close": null,
+    "boa": null,
+    "listing": "2026-11-06",
+    "price": 105.0,
+    "price_low": 99.0,
+    "size_cr": 53.05,
+    "gmp": 0.0,
+    "gmp_at": null,
+    "sub_total": null,
+    "sub_retail": null,
+    "sub_at": null,
+    "lot": 1200.0,
+    "sector": "Engineering, Procurement & Construction (EPC)",
+    "detail_url": "https://ipoindex.in/ipo/vectras-enprocon-sme-ipo/",
+    "live": true,
+    "detail": {
+     "gmp_history": [
+      [
+       "2026-11-03",
+       0.0
+      ],
+      [
+       "2026-11-02",
+       0.0
+      ],
+      [
+       "2026-10-31",
+       0.0
+      ],
+      [
+       "2026-10-30",
+       0.0
+      ],
+      [
+       "2026-10-29",
+       0.0
+      ]
+     ],
+     "reservation": {
+      "bnii": {
+       "pct": 9.55,
+       "shares": 482400
+      },
+      "market_maker": {
+       "pct": 6.55,
+       "shares": 253200
+      },
+      "nii": {
+       "pct": 15.0,
+       "shares": 720000
+      },
+      "qib": {
+       "pct": 49.99,
+       "shares": 2398800
+      },
+      "retail": {
+       "pct": 35.01,
+       "shares": 1680000
+      },
+      "snii": {
+       "pct": 4.7,
+       "shares": 237600
+      }
+     },
+     "sub": {
+      "nii": 4.95,
+      "qib": 1.88,
+      "retail": 4.45,
+      "total": 3.9
+     },
+     "sub_at": "2026-11-03T17:17",
+     "uses": [
+      {
+       "cr": 14.0,
+       "use": "Debt"
+      },
+      {
+       "cr": 20.0,
+       "use": "Capital"
+      }
+     ],
+     "years": [
+      {
+       "assets": 21.47,
+       "debt": 4.16,
+       "ebitda": 8.67,
+       "income": 54.37,
+       "net_worth": 12.15,
+       "pat": 5.81,
+       "roce": 79.27,
+       "roe": 93.02,
+       "y": "FY24"
+      },
+      {
+       "assets": 46.5,
+       "debt": 11.87,
+       "ebitda": 15.05,
+       "income": 80.53,
+       "net_worth": 22.32,
+       "pat": 10.17,
+       "roce": 56.09,
+       "roe": 59,
+       "y": "FY25"
+      },
+      {
+       "assets": 74.94,
+       "debt": 22.21,
+       "ebitda": 24.01,
+       "income": 119.9,
+       "net_worth": 37.75,
+       "pat": 15.43,
+       "roce": 48.37,
+       "roe": 51.39,
        "y": "FY26"
       }
      ]
@@ -2213,7 +2068,7 @@
     "price": 80.0,
     "price_low": 76.0,
     "size_cr": 28.29,
-    "gmp": 3.0,
+    "gmp": 4.0,
     "gmp_at": null,
     "sub_total": null,
     "sub_retail": null,
@@ -2221,6 +2076,29 @@
     "lot": 1600.0,
     "sector": "Industrial Products",
     "detail_url": "https://ipoindex.in/ipo/carver-roboweld-sme-ipo/",
+    "live": false
+   },
+   {
+    "src": "Tracker D",
+    "slug": "bombay-coated-special-steels",
+    "name": "Bombay Coated & Special Steels",
+    "segment": "MAIN",
+    "exchange": null,
+    "open": null,
+    "close": null,
+    "boa": null,
+    "listing": null,
+    "price": 82.0,
+    "price_low": 78.0,
+    "size_cr": 183.06,
+    "gmp": 7.0,
+    "gmp_at": null,
+    "sub_total": null,
+    "sub_retail": null,
+    "sub_at": null,
+    "lot": 182.0,
+    "sector": "Iron & Steel Products",
+    "detail_url": "https://ipoindex.in/ipo/bombay-coated-special-steels-ipo/",
     "live": false
    },
    {
@@ -2236,7 +2114,7 @@
     "price": 162.0,
     "price_low": 153.0,
     "size_cr": 330.48,
-    "gmp": 10.0,
+    "gmp": 11.5,
     "gmp_at": null,
     "sub_total": null,
     "sub_retail": null,
@@ -2244,52 +2122,6 @@
     "lot": 91.0,
     "sector": "Gems, Jewellery And Watches",
     "detail_url": "https://ipoindex.in/ipo/mksons-fine-jewels-ipo/",
-    "live": false
-   },
-   {
-    "src": "Tracker D",
-    "slug": "wiscon-industries",
-    "name": "Wiscon Industries",
-    "segment": "SME",
-    "exchange": null,
-    "open": null,
-    "close": null,
-    "boa": null,
-    "listing": null,
-    "price": 204.0,
-    "price_low": 194.0,
-    "size_cr": 110.0,
-    "gmp": 0.0,
-    "gmp_at": null,
-    "sub_total": null,
-    "sub_retail": null,
-    "sub_at": null,
-    "lot": 600.0,
-    "sector": "Consumer Electronics",
-    "detail_url": "https://ipoindex.in/ipo/wiscon-industries-sme-ipo/",
-    "live": false
-   },
-   {
-    "src": "Tracker D",
-    "slug": "sfc-environmental-technologies",
-    "name": "SFC Environmental Technologies",
-    "segment": "MAIN",
-    "exchange": null,
-    "open": null,
-    "close": null,
-    "boa": null,
-    "listing": null,
-    "price": 330.0,
-    "price_low": 313.0,
-    "size_cr": 667.53,
-    "gmp": 15.5,
-    "gmp_at": null,
-    "sub_total": null,
-    "sub_retail": null,
-    "sub_at": null,
-    "lot": 45.0,
-    "sector": "Waste Management",
-    "detail_url": "https://ipoindex.in/ipo/sfc-environmental-technologies-ipo/",
     "live": false
    }
   ]
