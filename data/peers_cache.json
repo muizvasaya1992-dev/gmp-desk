@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-04T12:15+05:30",
+  "fetched_at": "2026-11-04T12:31+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,7 +16,7 @@
     "price_low": 78.0,
     "size_cr": 183.06,
     "gmp": 8.5,
-    "gmp_at": "2026-11-04T12:10",
+    "gmp_at": "2026-11-04T12:26",
     "sub_total": 60.77,
     "sub_retail": 33.73,
     "sub_at": "2026-11-02T19:06",
@@ -111,7 +111,7 @@
     "price_low": 153.0,
     "size_cr": 330.48,
     "gmp": 11.0,
-    "gmp_at": "2026-11-04T12:10",
+    "gmp_at": "2026-11-04T12:26",
     "sub_total": 5.1,
     "sub_retail": 3.08,
     "sub_at": "2026-10-30T19:05",
@@ -202,10 +202,10 @@
     "price_low": 88.0,
     "size_cr": 56.68,
     "gmp": 1.0,
-    "gmp_at": "2026-11-04T12:10",
+    "gmp_at": "2026-11-04T12:25",
     "sub_total": 1.42,
     "sub_retail": 1.57,
-    "sub_at": "2026-11-04T12:13",
+    "sub_at": "2026-11-04T12:27",
     "sub_cats": {
      "retail": 1.57,
      "nii": 1.21,
@@ -263,7 +263,7 @@
     "price_low": 63.0,
     "size_cr": 23.33,
     "gmp": 0.0,
-    "gmp_at": "2026-11-04T12:10",
+    "gmp_at": "2026-11-04T12:25",
     "sub_total": 1.11,
     "sub_retail": 0.4,
     "sub_at": "2026-11-02T18:54",
@@ -328,7 +328,7 @@
     "price_low": 99.0,
     "size_cr": 53.05,
     "gmp": 0.0,
-    "gmp_at": "2026-11-04T12:11",
+    "gmp_at": "2026-11-04T12:26",
     "sub_total": 4.2,
     "sub_retail": 4.45,
     "sub_at": "2026-11-03T17:50",
@@ -381,67 +381,6 @@
    },
    {
     "src": "Tracker B",
-    "slug": "johnsoncab-electricals",
-    "name": "Johnsoncab Electricals Limited",
-    "segment": "SME",
-    "exchange": "BSE SME",
-    "open": "2026-10-30",
-    "close": "2026-11-03",
-    "boa": "2026-11-04",
-    "listing": "2026-11-06",
-    "price": 200.0,
-    "price_low": 190.0,
-    "size_cr": 56.02,
-    "gmp": 6.0,
-    "gmp_at": "2026-11-04T12:10",
-    "sub_total": 23.58,
-    "sub_retail": 17.53,
-    "sub_at": "2026-11-03T19:06",
-    "sub_cats": {
-     "retail": 17.53,
-     "nii": 42.25,
-     "qib": 20.19,
-     "total": 23.58
-    },
-    "gmp_days": [
-     [
-      "2026-10-31",
-      5.0
-     ],
-     [
-      "2026-11-01",
-      5.0
-     ],
-     [
-      "2026-11-02",
-      10.0
-     ],
-     [
-      "2026-11-03",
-      8.0
-     ],
-     [
-      "2026-11-04",
-      6.0
-     ]
-    ],
-    "rhp_url": null,
-    "drhp_url": null,
-    "lot_raw": 1200.0,
-    "sector": "Electrical Wires & Cables",
-    "quota": {
-     "qib": 50.0,
-     "nii": 15.0,
-     "retail": 35.0
-    },
-    "fresh_cr": 56.02,
-    "ofs_cr": 0.0,
-    "registrar": "Maashitla Securities Pvt. Ltd.",
-    "lead_manager": "ISK Advisors Pvt. Ltd.",
-    "live": true
-   },
-   {
-    "src": "Tracker B",
     "slug": "hgs-india",
     "name": "HGS (India)",
     "segment": "SME",
@@ -454,7 +393,7 @@
     "price_low": 114.0,
     "size_cr": 34.56,
     "gmp": 23.0,
-    "gmp_at": "2026-11-04T12:10",
+    "gmp_at": "2026-11-04T12:25",
     "sub_total": 247.3,
     "sub_retail": 233.27,
     "sub_at": "2026-11-03T19:10",
@@ -503,6 +442,67 @@
    },
    {
     "src": "Tracker B",
+    "slug": "johnsoncab-electricals",
+    "name": "Johnsoncab Electricals Limited",
+    "segment": "SME",
+    "exchange": "BSE SME",
+    "open": "2026-10-30",
+    "close": "2026-11-03",
+    "boa": "2026-11-04",
+    "listing": "2026-11-06",
+    "price": 200.0,
+    "price_low": 190.0,
+    "size_cr": 56.02,
+    "gmp": 6.0,
+    "gmp_at": "2026-11-04T12:25",
+    "sub_total": 23.58,
+    "sub_retail": 17.53,
+    "sub_at": "2026-11-03T19:06",
+    "sub_cats": {
+     "retail": 17.53,
+     "nii": 42.25,
+     "qib": 20.19,
+     "total": 23.58
+    },
+    "gmp_days": [
+     [
+      "2026-10-31",
+      5.0
+     ],
+     [
+      "2026-11-01",
+      5.0
+     ],
+     [
+      "2026-11-02",
+      10.0
+     ],
+     [
+      "2026-11-03",
+      8.0
+     ],
+     [
+      "2026-11-04",
+      6.0
+     ]
+    ],
+    "rhp_url": null,
+    "drhp_url": null,
+    "lot_raw": 1200.0,
+    "sector": "Electrical Wires & Cables",
+    "quota": {
+     "qib": 50.0,
+     "nii": 15.0,
+     "retail": 35.0
+    },
+    "fresh_cr": 56.02,
+    "ofs_cr": 0.0,
+    "registrar": "Maashitla Securities Pvt. Ltd.",
+    "lead_manager": "ISK Advisors Pvt. Ltd.",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
     "slug": "maxwell-engineering-solutions",
     "name": "Maxwell Engineering Solutions",
     "segment": "SME",
@@ -515,7 +515,7 @@
     "price_low": 150.0,
     "size_cr": 57.64,
     "gmp": 75.0,
-    "gmp_at": "2026-11-04T12:10",
+    "gmp_at": "2026-11-04T12:25",
     "sub_total": 536.8,
     "sub_retail": 556.09,
     "sub_at": "2026-11-03T19:06",
@@ -568,73 +568,6 @@
    },
    {
     "src": "Tracker B",
-    "slug": "ajwa-projects",
-    "name": "Ajwa Projects Limited",
-    "segment": "SME",
-    "exchange": "BSE SME",
-    "open": "2026-10-28",
-    "close": "2026-10-30",
-    "boa": "2026-11-02",
-    "listing": "2026-11-04",
-    "price": 203.0,
-    "price_low": 203.0,
-    "size_cr": 38.05,
-    "gmp": 1.0,
-    "gmp_at": "2026-11-04T12:11",
-    "sub_total": 1.12,
-    "sub_retail": 1.93,
-    "sub_at": "2026-10-30T19:05",
-    "sub_cats": {
-     "retail": 1.93,
-     "nii": 0.32,
-     "total": 1.12
-    },
-    "gmp_days": [
-     [
-      "2026-10-28",
-      35.0
-     ],
-     [
-      "2026-10-29",
-      5.0
-     ],
-     [
-      "2026-10-30",
-      2.0
-     ],
-     [
-      "2026-10-31",
-      1.0
-     ],
-     [
-      "2026-11-02",
-      1.0
-     ],
-     [
-      "2026-11-03",
-      1.0
-     ],
-     [
-      "2026-11-04",
-      1.0
-     ]
-    ],
-    "rhp_url": null,
-    "drhp_url": null,
-    "lot_raw": 1200.0,
-    "sector": "Industrial EPC and Infrastructure",
-    "quota": {
-     "nii": 50.0,
-     "retail": 50.0
-    },
-    "fresh_cr": 30.45,
-    "ofs_cr": 7.6,
-    "registrar": "KFin Technologies Limited",
-    "lead_manager": "Wealth Mine Networks Private Limited",
-    "live": true
-   },
-   {
-    "src": "Tracker B",
     "slug": "carver-roboweld",
     "name": "Carver Roboweld",
     "segment": "SME",
@@ -647,7 +580,7 @@
     "price_low": 76.0,
     "size_cr": 28.29,
     "gmp": 5.0,
-    "gmp_at": "2026-11-04T12:11",
+    "gmp_at": "2026-11-04T12:26",
     "sub_total": 25.8,
     "sub_retail": 19.17,
     "sub_at": "2026-10-30T19:05",
@@ -705,11 +638,78 @@
     "registrar": "Bigshare Services Pvt. Ltd.",
     "lead_manager": "Smart Horizon Capital Advisors Pvt. Ltd.",
     "live": true
+   },
+   {
+    "src": "Tracker B",
+    "slug": "ajwa-projects",
+    "name": "Ajwa Projects Limited",
+    "segment": "SME",
+    "exchange": "BSE SME",
+    "open": "2026-10-28",
+    "close": "2026-10-30",
+    "boa": "2026-11-02",
+    "listing": "2026-11-04",
+    "price": 203.0,
+    "price_low": 203.0,
+    "size_cr": 38.05,
+    "gmp": 1.0,
+    "gmp_at": "2026-11-04T12:26",
+    "sub_total": 1.12,
+    "sub_retail": 1.93,
+    "sub_at": "2026-10-30T19:05",
+    "sub_cats": {
+     "retail": 1.93,
+     "nii": 0.32,
+     "total": 1.12
+    },
+    "gmp_days": [
+     [
+      "2026-10-28",
+      35.0
+     ],
+     [
+      "2026-10-29",
+      5.0
+     ],
+     [
+      "2026-10-30",
+      2.0
+     ],
+     [
+      "2026-10-31",
+      1.0
+     ],
+     [
+      "2026-11-02",
+      1.0
+     ],
+     [
+      "2026-11-03",
+      1.0
+     ],
+     [
+      "2026-11-04",
+      1.0
+     ]
+    ],
+    "rhp_url": null,
+    "drhp_url": null,
+    "lot_raw": 1200.0,
+    "sector": "Industrial EPC and Infrastructure",
+    "quota": {
+     "nii": 50.0,
+     "retail": 50.0
+    },
+    "fresh_cr": 30.45,
+    "ofs_cr": 7.6,
+    "registrar": "KFin Technologies Limited",
+    "lead_manager": "Wealth Mine Networks Private Limited",
+    "live": true
    }
   ]
  },
  "c": {
-  "fetched_at": "2026-11-04T12:15+05:30",
+  "fetched_at": "2026-11-04T12:31+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -725,7 +725,7 @@
     "price_low": null,
     "size_cr": 22.98,
     "gmp": null,
-    "gmp_at": "2026-11-04T07:33",
+    "gmp_at": "2026-11-04T08:35",
     "sub_total": 1.33,
     "sub_retail": null,
     "sub_at": null,
@@ -747,7 +747,7 @@
     "price_low": null,
     "size_cr": 56.68,
     "gmp": 11.0,
-    "gmp_at": "2026-11-04T07:37",
+    "gmp_at": "2026-11-04T08:37",
     "sub_total": 0.89,
     "sub_retail": null,
     "sub_at": null,
@@ -769,7 +769,7 @@
     "price_low": null,
     "size_cr": 34.56,
     "gmp": 25.0,
-    "gmp_at": "2026-11-04T07:37",
+    "gmp_at": "2026-11-04T08:37",
     "sub_total": 248.58,
     "sub_retail": null,
     "sub_at": null,
@@ -791,7 +791,7 @@
     "price_low": null,
     "size_cr": 56.02,
     "gmp": 8.0,
-    "gmp_at": "2026-11-04T07:37",
+    "gmp_at": "2026-11-04T08:37",
     "sub_total": 23.82,
     "sub_retail": null,
     "sub_at": null,
@@ -813,7 +813,7 @@
     "price_low": null,
     "size_cr": 53.05,
     "gmp": null,
-    "gmp_at": "2026-11-04T07:32",
+    "gmp_at": "2026-11-04T08:29",
     "sub_total": 4.2,
     "sub_retail": null,
     "sub_at": null,
@@ -835,7 +835,7 @@
     "price_low": null,
     "size_cr": 57.64,
     "gmp": 80.0,
-    "gmp_at": "2026-11-04T07:37",
+    "gmp_at": "2026-11-04T08:37",
     "sub_total": 536.8,
     "sub_retail": null,
     "sub_at": null,
@@ -857,7 +857,7 @@
     "price_low": null,
     "size_cr": 183.06,
     "gmp": 7.0,
-    "gmp_at": "2026-11-04T07:37",
+    "gmp_at": "2026-11-04T08:37",
     "sub_total": 63.89,
     "sub_retail": null,
     "sub_at": null,
@@ -878,8 +878,8 @@
     "price": 162.0,
     "price_low": null,
     "size_cr": 275.4,
-    "gmp": 10.0,
-    "gmp_at": "2026-11-04T07:37",
+    "gmp": 11.0,
+    "gmp_at": "2026-11-04T08:37",
     "sub_total": 5.09,
     "sub_retail": null,
     "sub_at": null,
@@ -901,7 +901,7 @@
     "price_low": null,
     "size_cr": 38.05,
     "gmp": 1.0,
-    "gmp_at": "2026-11-04T07:37",
+    "gmp_at": "2026-11-04T08:37",
     "sub_total": 1.12,
     "sub_retail": null,
     "sub_at": null,
@@ -923,7 +923,7 @@
     "price_low": null,
     "size_cr": 28.29,
     "gmp": 4.0,
-    "gmp_at": "2026-11-04T07:37",
+    "gmp_at": "2026-11-04T08:37",
     "sub_total": 25.8,
     "sub_retail": null,
     "sub_at": null,
@@ -1374,7 +1374,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-04T12:15+05:30",
+  "fetched_at": "2026-11-04T12:31+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -1389,9 +1389,9 @@
     "price": 94.0,
     "price_low": 88.0,
     "size_cr": 56.68,
-    "gmp": 1.0,
+    "gmp": 5.0,
     "gmp_at": null,
-    "sub_total": 1.43,
+    "sub_total": 1.49,
     "sub_retail": null,
     "sub_at": null,
     "lot": 1200.0,
@@ -1516,7 +1516,7 @@
     "size_cr": 23.33,
     "gmp": 0.0,
     "gmp_at": null,
-    "sub_total": 2.05,
+    "sub_total": 2.12,
     "sub_retail": null,
     "sub_at": null,
     "lot": 2000.0,
@@ -1622,6 +1622,47 @@
        "roce": 42.23,
        "roe": 24.88,
        "y": "FY26"
+      }
+     ]
+    }
+   },
+   {
+    "src": "Tracker D",
+    "slug": "everbrands-india",
+    "name": "EverBrands India",
+    "segment": "MAIN",
+    "exchange": null,
+    "open": null,
+    "close": null,
+    "boa": null,
+    "listing": null,
+    "price": null,
+    "price_low": null,
+    "size_cr": 600.0,
+    "gmp": 0.0,
+    "gmp_at": null,
+    "sub_total": null,
+    "sub_retail": null,
+    "sub_at": null,
+    "lot": null,
+    "sector": "Quick Service Restaurant (QSR) & Beverages",
+    "detail_url": "https://ipoindex.in/ipo/everbrands-india-ipo/",
+    "live": true,
+    "detail": {
+     "sub": {
+      "total": 0.0,
+      "qib": 0.0,
+      "nii": 0.0,
+      "retail": 0.0
+     },
+     "uses": [
+      {
+       "use": "Debt",
+       "cr": 125.0
+      },
+      {
+       "use": "Expense",
+       "cr": 326.85
       }
      ]
     }
