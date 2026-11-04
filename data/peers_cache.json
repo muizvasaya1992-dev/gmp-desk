@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-04T14:31+05:30",
+  "fetched_at": "2026-11-04T14:45+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,7 +16,7 @@
     "price_low": 78.0,
     "size_cr": 183.06,
     "gmp": 8.5,
-    "gmp_at": "2026-11-04T14:26",
+    "gmp_at": "2026-11-04T14:41",
     "sub_total": 60.77,
     "sub_retail": 33.73,
     "sub_at": "2026-11-02T19:06",
@@ -111,7 +111,7 @@
     "price_low": 153.0,
     "size_cr": 330.48,
     "gmp": 11.0,
-    "gmp_at": "2026-11-04T14:25",
+    "gmp_at": "2026-11-04T14:40",
     "sub_total": 5.1,
     "sub_retail": 3.08,
     "sub_at": "2026-10-30T19:05",
@@ -202,10 +202,10 @@
     "price_low": 88.0,
     "size_cr": 56.68,
     "gmp": 1.0,
-    "gmp_at": "2026-11-04T14:25",
+    "gmp_at": "2026-11-04T14:41",
     "sub_total": 1.62,
     "sub_retail": 1.87,
-    "sub_at": "2026-11-04T14:26",
+    "sub_at": "2026-11-04T14:40",
     "sub_cats": {
      "retail": 1.87,
      "nii": 1.27,
@@ -263,7 +263,7 @@
     "price_low": 63.0,
     "size_cr": 23.33,
     "gmp": 0.0,
-    "gmp_at": "2026-11-04T14:26",
+    "gmp_at": "2026-11-04T14:40",
     "sub_total": 1.11,
     "sub_retail": 0.4,
     "sub_at": "2026-11-02T18:54",
@@ -316,71 +316,6 @@
    },
    {
     "src": "Tracker B",
-    "slug": "vectras-enprocon",
-    "name": "Vectras Enprocon",
-    "segment": "SME",
-    "exchange": "BSE SME",
-    "open": "2026-10-30",
-    "close": "2026-11-03",
-    "boa": "2026-11-04",
-    "listing": "2026-11-06",
-    "price": 105.0,
-    "price_low": 99.0,
-    "size_cr": 53.05,
-    "gmp": 0.0,
-    "gmp_at": "2026-11-04T14:25",
-    "sub_total": 4.2,
-    "sub_retail": 4.45,
-    "sub_at": "2026-11-03T17:50",
-    "sub_cats": {
-     "retail": 4.45,
-     "nii": 6.69,
-     "qib": 1.88,
-     "total": 4.2
-    },
-    "gmp_days": [
-     [
-      "2026-10-30",
-      0.0
-     ],
-     [
-      "2026-10-31",
-      0.0
-     ],
-     [
-      "2026-11-01",
-      0.0
-     ],
-     [
-      "2026-11-02",
-      0.0
-     ],
-     [
-      "2026-11-03",
-      0.0
-     ],
-     [
-      "2026-11-04",
-      0.0
-     ]
-    ],
-    "rhp_url": null,
-    "drhp_url": null,
-    "lot_raw": 2400.0,
-    "sector": "Oil & Gas Infrastructure / EPC",
-    "quota": {
-     "qib": 50.0,
-     "nii": 15.0,
-     "retail": 35.0
-    },
-    "fresh_cr": 42.59,
-    "ofs_cr": 10.46,
-    "registrar": "MUFG Intime India Pvt. Ltd.",
-    "lead_manager": "Beeline Capital Advisors Pvt. Ltd.",
-    "live": true
-   },
-   {
-    "src": "Tracker B",
     "slug": "maxwell-engineering-solutions",
     "name": "Maxwell Engineering Solutions",
     "segment": "SME",
@@ -393,7 +328,7 @@
     "price_low": 150.0,
     "size_cr": 57.64,
     "gmp": 75.0,
-    "gmp_at": "2026-11-04T14:26",
+    "gmp_at": "2026-11-04T14:41",
     "sub_total": 536.8,
     "sub_retail": 556.09,
     "sub_at": "2026-11-03T19:06",
@@ -446,6 +381,71 @@
    },
    {
     "src": "Tracker B",
+    "slug": "vectras-enprocon",
+    "name": "Vectras Enprocon",
+    "segment": "SME",
+    "exchange": "BSE SME",
+    "open": "2026-10-30",
+    "close": "2026-11-03",
+    "boa": "2026-11-04",
+    "listing": "2026-11-06",
+    "price": 105.0,
+    "price_low": 99.0,
+    "size_cr": 53.05,
+    "gmp": 0.0,
+    "gmp_at": "2026-11-04T14:40",
+    "sub_total": 4.2,
+    "sub_retail": 4.45,
+    "sub_at": "2026-11-03T17:50",
+    "sub_cats": {
+     "retail": 4.45,
+     "nii": 6.69,
+     "qib": 1.88,
+     "total": 4.2
+    },
+    "gmp_days": [
+     [
+      "2026-10-30",
+      0.0
+     ],
+     [
+      "2026-10-31",
+      0.0
+     ],
+     [
+      "2026-11-01",
+      0.0
+     ],
+     [
+      "2026-11-02",
+      0.0
+     ],
+     [
+      "2026-11-03",
+      0.0
+     ],
+     [
+      "2026-11-04",
+      0.0
+     ]
+    ],
+    "rhp_url": null,
+    "drhp_url": null,
+    "lot_raw": 2400.0,
+    "sector": "Oil & Gas Infrastructure / EPC",
+    "quota": {
+     "qib": 50.0,
+     "nii": 15.0,
+     "retail": 35.0
+    },
+    "fresh_cr": 42.59,
+    "ofs_cr": 10.46,
+    "registrar": "MUFG Intime India Pvt. Ltd.",
+    "lead_manager": "Beeline Capital Advisors Pvt. Ltd.",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
     "slug": "johnsoncab-electricals",
     "name": "Johnsoncab Electricals Limited",
     "segment": "SME",
@@ -458,7 +458,7 @@
     "price_low": 190.0,
     "size_cr": 56.02,
     "gmp": 6.0,
-    "gmp_at": "2026-11-04T14:25",
+    "gmp_at": "2026-11-04T14:40",
     "sub_total": 23.58,
     "sub_retail": 17.53,
     "sub_at": "2026-11-03T19:06",
@@ -519,7 +519,7 @@
     "price_low": 114.0,
     "size_cr": 34.56,
     "gmp": 23.0,
-    "gmp_at": "2026-11-04T14:25",
+    "gmp_at": "2026-11-04T14:40",
     "sub_total": 247.3,
     "sub_retail": 233.27,
     "sub_at": "2026-11-03T19:10",
@@ -580,7 +580,7 @@
     "price_low": 203.0,
     "size_cr": 38.05,
     "gmp": 1.0,
-    "gmp_at": "2026-11-04T14:26",
+    "gmp_at": "2026-11-04T14:41",
     "sub_total": 1.12,
     "sub_retail": 1.93,
     "sub_at": "2026-10-30T19:05",
@@ -647,7 +647,7 @@
     "price_low": 76.0,
     "size_cr": 28.29,
     "gmp": 5.0,
-    "gmp_at": "2026-11-04T14:25",
+    "gmp_at": "2026-11-04T14:40",
     "sub_total": 25.8,
     "sub_retail": 19.17,
     "sub_at": "2026-10-30T19:05",
@@ -709,7 +709,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-04T14:31+05:30",
+  "fetched_at": "2026-11-04T14:45+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -1264,7 +1264,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-04T14:31+05:30",
+  "fetched_at": "2026-11-04T14:45+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -1281,7 +1281,7 @@
     "size_cr": 56.68,
     "gmp": 1.0,
     "gmp_at": null,
-    "sub_total": 1.56,
+    "sub_total": 1.68,
     "sub_retail": null,
     "sub_at": null,
     "lot": 1200.0,
@@ -1406,7 +1406,7 @@
     "size_cr": 23.33,
     "gmp": 0.0,
     "gmp_at": null,
-    "sub_total": 2.52,
+    "sub_total": 3.03,
     "sub_retail": null,
     "sub_at": null,
     "lot": 2000.0,
