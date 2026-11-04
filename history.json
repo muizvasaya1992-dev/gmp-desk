@@ -1,7 +1,7 @@
 {
  "year": 2026,
  "bse_as_of": "2026-11-04T11:19+05:30",
- "nse_as_of": "2026-11-04T11:19+05:30",
+ "nse_as_of": "2026-11-05T00:01+05:30",
  "rows": [
   {
    "name": "Vedant Poly Fabs",
@@ -11,7 +11,7 @@
    "exchange": "SME",
    "live": true,
    "id": "vpfl",
-   "status": "closing_today",
+   "status": "closed",
    "open": "2026-11-02",
    "close": "2026-11-04",
    "price": 94,
@@ -81,7 +81,7 @@
    "exchange": "NSE · BSE",
    "live": true,
    "id": "bombay-coated-special-steels",
-   "status": "closed",
+   "status": "listed",
    "open": "2026-10-29",
    "close": "2026-11-02",
    "price": 82,
@@ -95,7 +95,7 @@
    "exchange": "BSE SME",
    "live": true,
    "id": "antala-industries",
-   "status": "open",
+   "status": "listed",
    "open": "2026-10-29",
    "close": "2026-11-05",
    "price": 66,
@@ -164,27 +164,6 @@
    "status": "listed"
   },
   {
-   "name": "SFC Environmental Technologies",
-   "segment": "MAIN",
-   "symbol": "SFCTECH",
-   "open": "2026-10-27",
-   "close": "2026-10-29",
-   "listing": "2026-11-03",
-   "price": 330,
-   "price_low": 313,
-   "exchange": "NSE · BSE",
-   "listing_close": 424.85,
-   "listing_gain_pct": 28.74,
-   "current": 436.05,
-   "gain_pct": 32.14,
-   "listing_gain": 94.85,
-   "gain": 106.05,
-   "bse_url": "https://www.bseindia.com/stock-share-price/sfc-environmental-technologies-ltd/sfctech/545009/",
-   "live": true,
-   "id": "sfc-environmental-technologies",
-   "status": "listed"
-  },
-  {
    "name": "BLS Polymers",
    "segment": "MAIN",
    "symbol": "BLSPOLY",
@@ -203,6 +182,27 @@
    "bse_url": "https://www.bseindia.com/stock-share-price/bls-polymers-ltd/blspoly/545011/",
    "live": true,
    "id": "bls-polymers",
+   "status": "listed"
+  },
+  {
+   "name": "SFC Environmental Technologies",
+   "segment": "MAIN",
+   "symbol": "SFCTECH",
+   "open": "2026-10-27",
+   "close": "2026-10-29",
+   "listing": "2026-11-03",
+   "price": 330,
+   "price_low": 313,
+   "exchange": "NSE · BSE",
+   "listing_close": 424.85,
+   "listing_gain_pct": 28.74,
+   "current": 436.05,
+   "gain_pct": 32.14,
+   "listing_gain": 94.85,
+   "gain": 106.05,
+   "bse_url": "https://www.bseindia.com/stock-share-price/sfc-environmental-technologies-ltd/sfctech/545009/",
+   "live": true,
+   "id": "sfc-environmental-technologies",
    "status": "listed"
   },
   {
@@ -331,27 +331,6 @@
    "status": "listed"
   },
   {
-   "name": "Bonfiglioli Transmissions",
-   "segment": "MAIN",
-   "symbol": "BONFIG",
-   "open": "2026-10-15",
-   "close": "2026-10-19",
-   "listing": "2026-10-23",
-   "price": 586,
-   "price_low": 558,
-   "exchange": "NSE · BSE",
-   "listing_close": 576.35,
-   "listing_gain_pct": -1.65,
-   "current": 657.15,
-   "gain_pct": 12.14,
-   "listing_gain": -9.65,
-   "gain": 71.15,
-   "bse_url": "https://www.bseindia.com/stock-share-price/bonfiglioli-transmissions-ltd/bonfig/544996/",
-   "live": true,
-   "id": "bonfiglioli-transmissions",
-   "status": "listed"
-  },
-  {
    "name": "Sahajanand Medical Technologies",
    "segment": "MAIN",
    "symbol": "SMT",
@@ -390,6 +369,27 @@
    "gain": 544.15,
    "bse_url": "https://www.bseindia.com/stock-share-price/tonbo-imaging-india-ltd/tonbo/544999/",
    "id": "tonbo-imaging-india",
+   "status": "listed"
+  },
+  {
+   "name": "Bonfiglioli Transmissions",
+   "segment": "MAIN",
+   "symbol": "BONFIG",
+   "open": "2026-10-15",
+   "close": "2026-10-19",
+   "listing": "2026-10-23",
+   "price": 586,
+   "price_low": 558,
+   "exchange": "NSE · BSE",
+   "listing_close": 576.35,
+   "listing_gain_pct": -1.65,
+   "current": 657.15,
+   "gain_pct": 12.14,
+   "listing_gain": -9.65,
+   "gain": 71.15,
+   "bse_url": "https://www.bseindia.com/stock-share-price/bonfiglioli-transmissions-ltd/bonfig/544996/",
+   "live": true,
+   "id": "bonfiglioli-transmissions",
    "status": "listed"
   },
   {
@@ -971,19 +971,6 @@
    "status": "listed"
   },
   {
-   "name": "Bench Mark Infotech Services",
-   "segment": "SME",
-   "symbol": "BMISL",
-   "open": "2026-09-25",
-   "close": "2026-09-29",
-   "listing": "2026-10-05",
-   "price": 110,
-   "price_low": 104,
-   "exchange": "NSE Emerge",
-   "id": "bench-mark-infotech-services",
-   "status": "listed"
-  },
-  {
    "name": "Himalayan Solar",
    "segment": "SME",
    "symbol": "HIMALAYAN",
@@ -994,6 +981,19 @@
    "price_low": 98,
    "exchange": "NSE Emerge",
    "id": "himalayan-solar",
+   "status": "listed"
+  },
+  {
+   "name": "Bench Mark Infotech Services",
+   "segment": "SME",
+   "symbol": "BMISL",
+   "open": "2026-09-25",
+   "close": "2026-09-29",
+   "listing": "2026-10-05",
+   "price": 110,
+   "price_low": 104,
+   "exchange": "NSE Emerge",
+   "id": "bench-mark-infotech-services",
    "status": "listed"
   },
   {
@@ -1183,8 +1183,8 @@
    "open": "2026-09-23",
    "close": "2026-09-25",
    "listing": "2026-09-30",
-   "price": 185,
-   "price_low": 175,
+   "price": 134,
+   "price_low": 126,
    "exchange": "NSE · BSE",
    "listing_close": 248.35,
    "listing_gain_pct": 85.34,
@@ -1194,19 +1194,6 @@
    "gain": 35.6,
    "bse_url": "https://www.bseindia.com/stock-share-price/adroit-industries-(india)-ltd/adroitind/544950/",
    "id": "adroit-industries-india",
-   "status": "listed"
-  },
-  {
-   "name": "Coreintegra Consulting Services",
-   "segment": "SME",
-   "symbol": "COREIN",
-   "open": "2026-09-23",
-   "close": "2026-09-25",
-   "listing": "2026-09-30",
-   "price": 78,
-   "price_low": 74,
-   "exchange": "NSE Emerge",
-   "id": "coreintegra-consulting-services",
    "status": "listed"
   },
   {
@@ -1220,6 +1207,19 @@
    "price_low": 109,
    "exchange": "NSE Emerge",
    "id": "pooja-logistics",
+   "status": "listed"
+  },
+  {
+   "name": "Coreintegra Consulting Services",
+   "segment": "SME",
+   "symbol": "COREIN",
+   "open": "2026-09-23",
+   "close": "2026-09-25",
+   "listing": "2026-09-30",
+   "price": 78,
+   "price_low": 74,
+   "exchange": "NSE Emerge",
+   "id": "coreintegra-consulting-services",
    "status": "listed"
   },
   {
@@ -5068,26 +5068,6 @@
    "status": "listed"
   },
   {
-   "name": "Fractal Analytics",
-   "segment": "MAIN",
-   "symbol": "FRACTAL",
-   "open": "2026-02-09",
-   "close": "2026-02-11",
-   "listing": "2026-02-16",
-   "price": 900,
-   "price_low": 857,
-   "exchange": "NSE · BSE",
-   "listing_close": 847.4,
-   "listing_gain_pct": -5.84,
-   "current": 822.0,
-   "gain_pct": -8.67,
-   "listing_gain": -52.6,
-   "gain": -78.0,
-   "bse_url": "https://www.bseindia.com/stock-share-price/fractal-analytics-ltd/fractal/544700/",
-   "id": "fractal-analytics",
-   "status": "listed"
-  },
-  {
    "name": "Aye Finance",
    "segment": "MAIN",
    "symbol": "AYE",
@@ -5105,6 +5085,26 @@
    "gain": 2.95,
    "bse_url": "https://www.bseindia.com/stock-share-price/aye-finance-ltd/aye/544699/",
    "id": "aye-finance",
+   "status": "listed"
+  },
+  {
+   "name": "Fractal Analytics",
+   "segment": "MAIN",
+   "symbol": "FRACTAL",
+   "open": "2026-02-09",
+   "close": "2026-02-11",
+   "listing": "2026-02-16",
+   "price": 900,
+   "price_low": 857,
+   "exchange": "NSE · BSE",
+   "listing_close": 847.4,
+   "listing_gain_pct": -5.84,
+   "current": 822.0,
+   "gain_pct": -8.67,
+   "listing_gain": -52.6,
+   "gain": -78.0,
+   "bse_url": "https://www.bseindia.com/stock-share-price/fractal-analytics-ltd/fractal/544700/",
+   "id": "fractal-analytics",
    "status": "listed"
   },
   {
@@ -5592,5 +5592,5 @@
    "status": "listed"
   }
  ],
- "generated_at": "2026-11-04T11:22+05:30"
+ "generated_at": "2026-11-05T00:01+05:30"
 }

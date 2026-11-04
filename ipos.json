@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T23:45+05:30",
+  "generated_at": "2026-11-05T00:01+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-04T11:19+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-04T23:45+05:30",
+    "nse_ok_at": "2026-11-05T00:01+05:30",
     "bse_ok_at": "2026-11-04T11:22+05:30"
   },
   "ipos": [
@@ -1762,7 +1762,7 @@
         {
           "source": "Tracker D",
           "gmp": 8.5,
-          "at": "2026-11-04T21:01"
+          "at": "2026-11-05T00:01"
         }
       ],
       "gmp_history": [
@@ -1822,10 +1822,10 @@
       "history_source": "Tracker B",
       "gmp_low": 7,
       "gmp_high": 10,
-      "gmp": 7.25,
-      "gmp_asof": "2026-11-04T22:02",
-      "gmp_source_latest": "Tracker C",
-      "gmp_pct": 8.84,
+      "gmp": 8.5,
+      "gmp_asof": "2026-11-05T00:01",
+      "gmp_source_latest": "Tracker D",
+      "gmp_pct": 10.37,
       "gmp_spread": {
         "min": 7,
         "max": 8.5,
@@ -1839,35 +1839,7 @@
         "days": 3,
         "since": "2026-11-02"
       },
-      "status": "closed",
-      "ai_gmp": {
-        "gmp": 9,
-        "as_of": "2026-11-02",
-        "note": "Most recent GMP is Rs 9 as of 2026-11-02.",
-        "quote": "Bombay Coated and Special Steels Open, ₹9,, ₹82, ₹91 (10.98%), 29-2 Nov.",
-        "sources": [
-          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxEV9ahAQTFWYuFn-9MoMPw-15R-3Om4BQ2ts7bizsDcK-vYBS9CvluCv0XW6UOXtny62Qp0OqLqlcqC5AhBQwuEJy1KV0HQM1qhkHF9lOeHLD9cxSXYEsXPMNKifDhi181-CV0GkaZWKmiVPzQDaByU_QJ5w6",
-          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhaTz0cIC3_h5hD8ScYa5KWUdCCXjW_QdOAvhnsv4UelPTC6frABvQqvoxop4U9ApQfz7jVXfeY9RzW3A8O6uMpHb7r7FcqCqa3yN0-NbZbtnDfqMQWHUBDHXU-TOVWjPy_pF_MuaAgHgQF9uJbfoJHokTIJgO_8OzRbIn9vX04JHj90B9Js69-Y3mTdw7zG08QMpWMlyZiB108tbrTJYthSyaEscDU4eRJbG9C1BHUqzXtuNzzDdEA881ercJ9JbAdrDi4tc9Y1J85e-_77Y=",
-          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGpfwUfO3BJacbc2FDi_nNIuF9-GRGN8FXdBC9Vb3PTKYeSNX_4Dj-0c_7azwdIGOX0vRIe5jmSZn9Od6ja2Qx6Dwv7neuL9EzXk1pWUWjBINkyfqBYIkixmyrzOEFSArrOSm4CDInj9SIZNCc-MmivRBLazHaQu1e6wuLjIyz48JAFkmV2csoTXF8zMFm1ibDeuIwFyuvFTXCvxzBY9hXIA==",
-          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE62zotUpK-l9D7X77ixSpNwWKo3EQ7QsMHgz0WoDWPSj7VDRwdM7I4XhuMieDzR7COlbAwri_TOgSQMafpbpYsUaJj58BqeAkzLu3Yb8oYLGmWEMQOW-xb5U3p-q3hrvXTlaWcyjy1vscF2G5_GGw1E6pbcQ=="
-        ],
-        "model": "gemini-2.5-flash",
-        "checked": "2026-11-02T10:54+05:30",
-        "checks": 2,
-        "spread": 0,
-        "pages": 6,
-        "seen": false,
-        "disagreement": "Rs 8.5 on 2026-11-01",
-        "pct": 10.98
-      },
-      "news": [
-        {
-          "date": "2026-10-29",
-          "source": "Economic Times",
-          "title": "Bombay Coated & Special Steels IPO opens today; GMP at 11%. Should you subscribe?",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/bombay-coated-special-steels-ipo-opens-today-gmp-at-11-should-you-subscribe/articleshow/135288487.cms"
-        }
-      ],
+      "status": "listed",
       "unconfirmed": false
     },
     {
@@ -2088,7 +2060,7 @@
         {
           "source": "Tracker B",
           "gmp": 5,
-          "at": "2026-11-04T20:55"
+          "at": "2026-11-04T23:56"
         },
         {
           "source": "Tracker C",
@@ -2098,7 +2070,7 @@
         {
           "source": "Tracker D",
           "gmp": 4,
-          "at": "2026-11-04T23:31"
+          "at": "2026-11-05T00:01"
         }
       ],
       "gmp_history": [
@@ -2121,13 +2093,17 @@
         {
           "date": "2026-11-04",
           "gmp": 4
+        },
+        {
+          "date": "2026-11-05",
+          "gmp": 4
         }
       ],
       "history_source": "Tracker D",
       "gmp_low": 3,
       "gmp_high": 6,
       "gmp": 4,
-      "gmp_asof": "2026-11-04T23:31",
+      "gmp_asof": "2026-11-05T00:01",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 5.0,
       "gmp_spread": {
@@ -2138,10 +2114,10 @@
         "diff_pct_of_price": 1.25
       },
       "gmp_trend": {
-        "dir": "falling",
-        "change": -1,
+        "dir": "rising",
+        "change": 1,
         "days": 3,
-        "since": "2026-11-02"
+        "since": "2026-11-03"
       },
       "status": "listed",
       "unconfirmed": false
@@ -2413,7 +2389,7 @@
         {
           "source": "Tracker B",
           "gmp": 11,
-          "at": "2026-11-04T20:55"
+          "at": "2026-11-04T23:55"
         },
         {
           "source": "Tracker C",
@@ -2423,7 +2399,7 @@
         {
           "source": "Tracker D",
           "gmp": 11,
-          "at": "2026-11-04T23:31"
+          "at": "2026-11-05T00:01"
         }
       ],
       "gmp_history": [
@@ -2470,13 +2446,17 @@
         {
           "date": "2026-11-04",
           "gmp": 11
+        },
+        {
+          "date": "2026-11-05",
+          "gmp": 11
         }
       ],
       "history_source": "Tracker D",
       "gmp_low": 2,
       "gmp_high": 16,
       "gmp": 11,
-      "gmp_asof": "2026-11-04T23:31",
+      "gmp_asof": "2026-11-05T00:01",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 6.79,
       "gmp_spread": {
@@ -2487,10 +2467,10 @@
         "diff_pct_of_price": 2.47
       },
       "gmp_trend": {
-        "dir": "rising",
-        "change": 5.5,
+        "dir": "steady",
+        "change": 1,
         "days": 3,
-        "since": "2026-11-02"
+        "since": "2026-11-03"
       },
       "status": "listed",
       "unconfirmed": false
@@ -2553,7 +2533,7 @@
         "fresh_cr": 57.64,
         "ofs_cr": 0.0
       },
-      "tracker_rating": 4,
+      "tracker_rating": 5,
       "reservation_detail": {
         "nii": {
           "pct": 15.13,
@@ -2601,7 +2581,7 @@
         {
           "source": "Tracker D",
           "gmp": 75,
-          "at": "2026-11-04T23:31"
+          "at": "2026-11-05T00:01"
         },
         {
           "source": "Tracker B",
@@ -2641,6 +2621,10 @@
         {
           "date": "2026-11-04",
           "gmp": 75
+        },
+        {
+          "date": "2026-11-05",
+          "gmp": 75
         }
       ],
       "history_source": "Tracker D",
@@ -2648,7 +2632,7 @@
       "gmp_high": 110,
       "exchange": "SME",
       "gmp": 75,
-      "gmp_asof": "2026-11-04T23:31",
+      "gmp_asof": "2026-11-05T00:01",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 47.47,
       "gmp_spread": {
@@ -2662,7 +2646,7 @@
         "dir": "falling",
         "change": -5,
         "days": 3,
-        "since": "2026-11-02"
+        "since": "2026-11-03"
       },
       "status": "closed",
       "ai_gmp_none": {
@@ -2737,7 +2721,7 @@
         "fresh_cr": 27.91,
         "ofs_cr": 6.65
       },
-      "tracker_rating": 3,
+      "tracker_rating": 4,
       "reservation_detail": {
         "bnii": {
           "pct": 4.64,
@@ -2789,7 +2773,7 @@
         {
           "source": "Tracker D",
           "gmp": 23,
-          "at": "2026-11-04T23:31"
+          "at": "2026-11-05T00:01"
         },
         {
           "source": "Tracker B",
@@ -2799,11 +2783,11 @@
       ],
       "gmp_history": [
         {
-          "date": "2026-10-31",
-          "gmp": 30
+          "date": "2026-10-30",
+          "gmp": 19
         },
         {
-          "date": "2026-11-01",
+          "date": "2026-10-31",
           "gmp": 30
         },
         {
@@ -2816,17 +2800,21 @@
         },
         {
           "date": "2026-11-04",
-          "gmp": 28
+          "gmp": 23
+        },
+        {
+          "date": "2026-11-05",
+          "gmp": 23
         }
       ],
-      "history_source": "Tracker B",
+      "history_source": "Tracker D",
       "gmp_low": 17,
       "gmp_high": 30,
       "exchange": "SME",
-      "gmp": 28,
-      "gmp_asof": "2026-11-04T23:41",
-      "gmp_source_latest": "Tracker B",
-      "gmp_pct": 23.33,
+      "gmp": 23,
+      "gmp_asof": "2026-11-05T00:01",
+      "gmp_source_latest": "Tracker D",
+      "gmp_pct": 19.17,
       "gmp_spread": {
         "min": 21,
         "max": 28,
@@ -2838,7 +2826,7 @@
         "dir": "falling",
         "change": -2,
         "days": 3,
-        "since": "2026-11-02"
+        "since": "2026-11-03"
       },
       "status": "closed",
       "ai_gmp_none": {
@@ -2897,7 +2885,7 @@
       "series": "SME",
       "nse_status": "Closed",
       "shares_offered": null,
-      "updated_on": "2026-11-04T23:31+05:30",
+      "updated_on": "2026-11-05T00:01+05:30",
       "price": 94,
       "reservation": {
         "qib": 1.13,
@@ -2986,7 +2974,7 @@
         {
           "source": "Tracker D",
           "gmp": 1,
-          "at": "2026-11-04T21:45"
+          "at": "2026-11-05T00:01"
         },
         {
           "source": "Tracker C",
@@ -3002,11 +2990,7 @@
       "gmp_history": [
         {
           "date": "2026-10-31",
-          "gmp": 5
-        },
-        {
-          "date": "2026-11-01",
-          "gmp": 15
+          "gmp": 4.25
         },
         {
           "date": "2026-11-02",
@@ -3014,20 +2998,24 @@
         },
         {
           "date": "2026-11-03",
-          "gmp": 13
+          "gmp": 12
         },
         {
           "date": "2026-11-04",
           "gmp": 1
+        },
+        {
+          "date": "2026-11-05",
+          "gmp": 1
         }
       ],
-      "history_source": "Tracker B",
+      "history_source": "Tracker D",
       "gmp_low": 1,
       "gmp_high": 15,
       "exchange": "SME",
       "gmp": 1,
-      "gmp_asof": "2026-11-04T22:02",
-      "gmp_source_latest": "Tracker C",
+      "gmp_asof": "2026-11-05T00:01",
+      "gmp_source_latest": "Tracker D",
       "gmp_pct": 1.06,
       "gmp_spread": {
         "min": 1,
@@ -3038,11 +3026,11 @@
       },
       "gmp_trend": {
         "dir": "falling",
-        "change": -14,
+        "change": -11,
         "days": 3,
-        "since": "2026-11-02"
+        "since": "2026-11-03"
       },
-      "status": "closing_today",
+      "status": "closed",
       "ai_gmp": {
         "gmp": 0,
         "as_of": "2026-10-31",
@@ -3182,26 +3170,14 @@
       "sub_asof": "2026-11-04T17:05",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-04T23:45"
+        "at": "2026-11-05T00:01"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
       "gmp_history": [],
       "gmp": null,
       "gmp_pct": null,
-      "status": "open",
-      "ai_gmp_none": {
-        "why": "only one of the two checks found a figure, so it is not confirmed",
-        "checked": "2026-11-04T11:19+05:30"
-      },
-      "news": [
-        {
-          "date": "2026-10-29",
-          "source": "Economic Times",
-          "title": "Antala Industries SME IPO opens today: Check price band and key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/antala-industries-sme-ipo-opens-today-check-price-band-and-key-details/articleshow/135289593.cms"
-        }
-      ],
+      "status": "listed",
       "unconfirmed": false
     },
     {
@@ -3329,7 +3305,7 @@
         {
           "source": "Tracker D",
           "gmp": 6,
-          "at": "2026-11-04T23:31"
+          "at": "2026-11-05T00:01"
         },
         {
           "source": "Tracker B",
@@ -3365,13 +3341,17 @@
         {
           "date": "2026-11-04",
           "gmp": 6
+        },
+        {
+          "date": "2026-11-05",
+          "gmp": 6
         }
       ],
       "history_source": "Tracker D",
       "gmp_low": 5,
       "gmp_high": 13,
       "gmp": 6,
-      "gmp_asof": "2026-11-04T23:31",
+      "gmp_asof": "2026-11-05T00:01",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 3.0,
       "gmp_spread": {
@@ -3383,9 +3363,9 @@
       },
       "gmp_trend": {
         "dir": "falling",
-        "change": -4,
+        "change": -2,
         "days": 3,
-        "since": "2026-11-02"
+        "since": "2026-11-03"
       },
       "status": "closed",
       "ai_gmp": {
@@ -3519,7 +3499,7 @@
       "sub_asof": "2026-11-03T17:50",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-04T23:45"
+        "at": "2026-11-05T00:01"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],

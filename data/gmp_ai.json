@@ -1,28 +1,4 @@
 {
- "antala-industries": {
-  "checked": "2026-11-04T11:19+05:30",
-  "model": "gemini-2.5-flash",
-  "none": "only one of the two checks found a figure, so it is not confirmed"
- },
- "bombay-coated-special-steels": {
-  "as_of": "2026-11-02",
-  "checked": "2026-11-02T10:54+05:30",
-  "checks": 2,
-  "disagreement": "Rs 8.5 on 2026-11-01",
-  "gmp": 9,
-  "model": "gemini-2.5-flash",
-  "note": "Most recent GMP is Rs 9 as of 2026-11-02.",
-  "pages": 6,
-  "quote": "Bombay Coated and Special Steels Open, ₹9,, ₹82, ₹91 (10.98%), 29-2 Nov.",
-  "seen": false,
-  "sources": [
-   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxEV9ahAQTFWYuFn-9MoMPw-15R-3Om4BQ2ts7bizsDcK-vYBS9CvluCv0XW6UOXtny62Qp0OqLqlcqC5AhBQwuEJy1KV0HQM1qhkHF9lOeHLD9cxSXYEsXPMNKifDhi181-CV0GkaZWKmiVPzQDaByU_QJ5w6",
-   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhaTz0cIC3_h5hD8ScYa5KWUdCCXjW_QdOAvhnsv4UelPTC6frABvQqvoxop4U9ApQfz7jVXfeY9RzW3A8O6uMpHb7r7FcqCqa3yN0-NbZbtnDfqMQWHUBDHXU-TOVWjPy_pF_MuaAgHgQF9uJbfoJHokTIJgO_8OzRbIn9vX04JHj90B9Js69-Y3mTdw7zG08QMpWMlyZiB108tbrTJYthSyaEscDU4eRJbG9C1BHUqzXtuNzzDdEA881ercJ9JbAdrDi4tc9Y1J85e-_77Y=",
-   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGpfwUfO3BJacbc2FDi_nNIuF9-GRGN8FXdBC9Vb3PTKYeSNX_4Dj-0c_7azwdIGOX0vRIe5jmSZn9Od6ja2Qx6Dwv7neuL9EzXk1pWUWjBINkyfqBYIkixmyrzOEFSArrOSm4CDInj9SIZNCc-MmivRBLazHaQu1e6wuLjIyz48JAFkmV2csoTXF8zMFm1ibDeuIwFyuvFTXCvxzBY9hXIA==",
-   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE62zotUpK-l9D7X77ixSpNwWKo3EQ7QsMHgz0WoDWPSj7VDRwdM7I4XhuMieDzR7COlbAwri_TOgSQMafpbpYsUaJj58BqeAkzLu3Yb8oYLGmWEMQOW-xb5U3p-q3hrvXTlaWcyjy1vscF2G5_GGw1E6pbcQ=="
-  ],
-  "spread": 0
- },
  "hgsindialt": {
   "checked": "2026-11-02T13:24+05:30",
   "model": "gemini-2.5-flash",
