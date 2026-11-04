@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T11:45+05:30",
+  "generated_at": "2026-11-04T12:01+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-04T11:19+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-04T11:45+05:30",
+    "nse_ok_at": "2026-11-04T12:01+05:30",
     "bse_ok_at": "2026-11-04T11:22+05:30"
   },
   "ipos": [
@@ -1756,13 +1756,13 @@
         },
         {
           "source": "Tracker B",
-          "gmp": 8,
-          "at": "2026-11-04T11:25"
+          "gmp": 8.5,
+          "at": "2026-11-04T12:00"
         },
         {
           "source": "Tracker D",
-          "gmp": 8,
-          "at": "2026-11-04T11:19"
+          "gmp": 8.5,
+          "at": "2026-11-04T12:01"
         }
       ],
       "gmp_history": [
@@ -1816,26 +1816,26 @@
         },
         {
           "date": "2026-11-04",
-          "gmp": 8
+          "gmp": 8.5
         }
       ],
       "history_source": "Tracker B",
       "gmp_low": 7,
       "gmp_high": 10,
-      "gmp": 8,
-      "gmp_asof": "2026-11-04T11:25",
-      "gmp_source_latest": "Tracker B",
-      "gmp_pct": 9.76,
+      "gmp": 8.5,
+      "gmp_asof": "2026-11-04T12:01",
+      "gmp_source_latest": "Tracker D",
+      "gmp_pct": 10.37,
       "gmp_spread": {
         "min": 7,
-        "max": 8,
-        "diff": 1,
+        "max": 8.5,
+        "diff": 1.5,
         "n": 4,
-        "diff_pct_of_price": 1.22
+        "diff_pct_of_price": 1.83
       },
       "gmp_trend": {
-        "dir": "falling",
-        "change": -1.25,
+        "dir": "steady",
+        "change": -0.75,
         "days": 3,
         "since": "2026-11-02"
       },
@@ -2876,7 +2876,7 @@
         "total": 0.9
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-04T11:43",
+      "sub_asof": "2026-11-04T12:00",
       "registrar": "Cameo Corporate Services Limited",
       "lead_managers": [
         "Affinity Global Capital Market Private Limited"
@@ -2897,7 +2897,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": null,
-      "updated_on": "2026-11-04T11:45+05:30",
+      "updated_on": "2026-11-04T12:01+05:30",
       "price": 94,
       "reservation": {
         "qib": 1.13,
@@ -3182,7 +3182,7 @@
       "sub_asof": "2026-11-04T11:16",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-04T11:45"
+        "at": "2026-11-04T12:01"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3519,7 +3519,7 @@
       "sub_asof": "2026-11-03T17:50",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-04T11:45"
+        "at": "2026-11-04T12:01"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
