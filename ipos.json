@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T15:01+05:30",
+  "generated_at": "2026-11-04T15:15+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-04T11:19+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-04T15:01+05:30",
+    "nse_ok_at": "2026-11-04T15:15+05:30",
     "bse_ok_at": "2026-11-04T11:22+05:30"
   },
   "ipos": [
@@ -1757,7 +1757,7 @@
         {
           "source": "Tracker B",
           "gmp": 8.5,
-          "at": "2026-11-04T12:00"
+          "at": "2026-11-04T15:11"
         },
         {
           "source": "Tracker D",
@@ -1823,8 +1823,8 @@
       "gmp_low": 7,
       "gmp_high": 10,
       "gmp": 8.5,
-      "gmp_asof": "2026-11-04T15:01",
-      "gmp_source_latest": "Tracker D",
+      "gmp_asof": "2026-11-04T15:11",
+      "gmp_source_latest": "Tracker B",
       "gmp_pct": 10.37,
       "gmp_spread": {
         "min": 8,
@@ -2870,13 +2870,13 @@
       "close": "2026-11-04",
       "segment": "SME",
       "sub": {
-        "retail": 1.87,
-        "nii": 1.27,
+        "retail": 1.57,
+        "nii": 1.21,
         "qib": 1.0,
-        "total": 1.62
+        "total": 1.42
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-04T14:57",
+      "sub_asof": "2026-11-04T15:14",
       "registrar": "Cameo Corporate Services Limited",
       "lead_managers": [
         "Affinity Global Capital Market Private Limited"
@@ -2897,7 +2897,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": null,
-      "updated_on": "2026-11-04T15:01+05:30",
+      "updated_on": "2026-11-04T15:15+05:30",
       "price": 94,
       "reservation": {
         "qib": 1.13,
@@ -2996,7 +2996,7 @@
         {
           "source": "Tracker B",
           "gmp": 1,
-          "at": "2026-11-04T12:10"
+          "at": "2026-11-04T15:10"
         }
       ],
       "gmp_history": [
@@ -3026,8 +3026,8 @@
       "gmp_high": 15,
       "exchange": "SME",
       "gmp": 1,
-      "gmp_asof": "2026-11-04T12:45",
-      "gmp_source_latest": "Tracker D",
+      "gmp_asof": "2026-11-04T15:10",
+      "gmp_source_latest": "Tracker B",
       "gmp_pct": 1.06,
       "gmp_spread": {
         "min": 1,
@@ -3182,7 +3182,7 @@
       "sub_asof": "2026-11-04T11:16",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-04T15:01"
+        "at": "2026-11-04T15:15"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3519,7 +3519,7 @@
       "sub_asof": "2026-11-03T17:50",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-04T15:01"
+        "at": "2026-11-04T15:15"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
