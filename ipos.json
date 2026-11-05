@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T06:00+05:30",
+  "generated_at": "2026-11-05T06:15+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-04T11:19+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-05T06:00+05:30",
+    "nse_ok_at": "2026-11-05T06:15+05:30",
     "bse_ok_at": "2026-11-04T11:22+05:30"
   },
   "ipos": [
@@ -1762,7 +1762,7 @@
         {
           "source": "Tracker D",
           "gmp": 8.5,
-          "at": "2026-11-05T03:01"
+          "at": "2026-11-05T06:15"
         }
       ],
       "gmp_history": [
@@ -1823,7 +1823,7 @@
       "gmp_low": 7,
       "gmp_high": 10,
       "gmp": 8.5,
-      "gmp_asof": "2026-11-05T03:01",
+      "gmp_asof": "2026-11-05T06:15",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 10.37,
       "gmp_spread": {
@@ -2070,7 +2070,7 @@
         {
           "source": "Tracker D",
           "gmp": 4,
-          "at": "2026-11-05T03:01"
+          "at": "2026-11-05T06:15"
         }
       ],
       "gmp_history": [
@@ -2103,7 +2103,7 @@
       "gmp_low": 3,
       "gmp_high": 6,
       "gmp": 4,
-      "gmp_asof": "2026-11-05T03:01",
+      "gmp_asof": "2026-11-05T06:15",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 5.0,
       "gmp_spread": {
@@ -2399,7 +2399,7 @@
         {
           "source": "Tracker D",
           "gmp": 11,
-          "at": "2026-11-05T03:01"
+          "at": "2026-11-05T06:15"
         }
       ],
       "gmp_history": [
@@ -2456,7 +2456,7 @@
       "gmp_low": 2,
       "gmp_high": 16,
       "gmp": 11,
-      "gmp_asof": "2026-11-05T03:01",
+      "gmp_asof": "2026-11-05T06:15",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 6.79,
       "gmp_spread": {
@@ -2581,7 +2581,7 @@
         {
           "source": "Tracker D",
           "gmp": 75,
-          "at": "2026-11-05T03:15"
+          "at": "2026-11-05T06:15"
         },
         {
           "source": "Tracker B",
@@ -2632,7 +2632,7 @@
       "gmp_high": 113,
       "exchange": "SME",
       "gmp": 75,
-      "gmp_asof": "2026-11-05T03:15",
+      "gmp_asof": "2026-11-05T06:15",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 47.47,
       "gmp_spread": {
@@ -2773,7 +2773,7 @@
         {
           "source": "Tracker D",
           "gmp": 23,
-          "at": "2026-11-05T03:15"
+          "at": "2026-11-05T06:15"
         },
         {
           "source": "Tracker B",
@@ -2812,7 +2812,7 @@
       "gmp_high": 30,
       "exchange": "SME",
       "gmp": 23,
-      "gmp_asof": "2026-11-05T03:15",
+      "gmp_asof": "2026-11-05T06:15",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 19.17,
       "gmp_spread": {
@@ -2974,7 +2974,7 @@
         {
           "source": "Tracker D",
           "gmp": 1,
-          "at": "2026-11-05T03:15"
+          "at": "2026-11-05T06:15"
         },
         {
           "source": "Tracker C",
@@ -3014,7 +3014,7 @@
       "gmp_high": 15,
       "exchange": "SME",
       "gmp": 1,
-      "gmp_asof": "2026-11-05T03:15",
+      "gmp_asof": "2026-11-05T06:15",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 1.06,
       "gmp_spread": {
@@ -3170,7 +3170,7 @@
       "sub_asof": "2026-11-04T17:05",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-05T06:00"
+        "at": "2026-11-05T06:15"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3305,7 +3305,7 @@
         {
           "source": "Tracker D",
           "gmp": 6,
-          "at": "2026-11-05T03:15"
+          "at": "2026-11-05T06:15"
         },
         {
           "source": "Tracker B",
@@ -3351,7 +3351,7 @@
       "gmp_low": 5,
       "gmp_high": 13,
       "gmp": 6,
-      "gmp_asof": "2026-11-05T03:15",
+      "gmp_asof": "2026-11-05T06:15",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 3.0,
       "gmp_spread": {
@@ -3499,7 +3499,7 @@
       "sub_asof": "2026-11-03T17:50",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-05T06:00"
+        "at": "2026-11-05T06:15"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
