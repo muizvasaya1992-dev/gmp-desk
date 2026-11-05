@@ -1,8 +1,11 @@
 {
  "ipos": {
   "ajwa-projects": {
+   "actual_close": 192.85,
+   "actual_pct": -5.0,
    "at": "2026-11-01T22:37",
    "gmp": 1,
+   "listed_on": "2026-11-04",
    "listing": "2026-11-04",
    "name": "Ajwa Projects",
    "price": 203,
@@ -28,8 +31,11 @@
    "segment": "MAIN"
   },
   "carver-roboweld": {
+   "actual_close": 94.5,
+   "actual_pct": 18.12,
    "at": "2026-11-03T23:31",
    "gmp": 3,
+   "listed_on": "2026-11-04",
    "listing": "2026-11-04",
    "name": "Carver Roboweld",
    "price": 80,
@@ -47,7 +53,7 @@
    "segment": "MAIN"
   },
   "hgsindialt": {
-   "at": "2026-11-05T22:10",
+   "at": "2026-11-05T10:58",
    "gmp": 32,
    "listing": "2026-11-06",
    "name": "HGS (India)",
@@ -55,7 +61,7 @@
    "segment": "SME"
   },
   "johnsoncab-electricals": {
-   "at": "2026-11-05T22:01",
+   "at": "2026-11-05T10:58",
    "gmp": 8,
    "listing": "2026-11-06",
    "name": "Johnsoncab Electricals",
@@ -63,16 +69,19 @@
    "segment": "SME"
   },
   "maxengs": {
-   "at": "2026-11-05T23:10",
-   "gmp": 105,
+   "at": "2026-11-05T10:58",
+   "gmp": 115,
    "listing": "2026-11-06",
    "name": "Maxwell Engineering Solutions",
    "price": 158,
    "segment": "SME"
   },
   "mksons": {
+   "actual_close": 162.2,
+   "actual_pct": 0.12,
    "at": "2026-11-03T22:45",
    "gmp": 10,
+   "listed_on": "2026-11-04",
    "listing": "2026-11-04",
    "name": "M. K. Sons Fine Jewels",
    "price": 162,
@@ -90,7 +99,7 @@
    "segment": "MAIN"
   },
   "vpfl": {
-   "at": "2026-11-06T09:15",
+   "at": "2026-11-05T10:58",
    "gmp": 1,
    "listing": "2026-11-09",
    "name": "Vedant Poly Fabs",
