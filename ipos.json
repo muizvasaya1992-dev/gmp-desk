@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T20:01+05:30",
+  "generated_at": "2026-11-05T20:31+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-04T11:19+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-05T20:01+05:30",
+    "nse_ok_at": "2026-11-05T20:31+05:30",
     "bse_ok_at": "2026-11-04T11:22+05:30"
   },
   "ipos": [
@@ -2708,17 +2708,17 @@
         },
         {
           "source": "Tracker B",
-          "gmp": 40,
-          "at": "2026-11-05T17:11"
+          "gmp": 35,
+          "at": "2026-11-05T20:25"
         }
       ],
       "gmp_history": [
         {
-          "date": "2026-10-30",
-          "gmp": 19
+          "date": "2026-10-31",
+          "gmp": 30
         },
         {
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "gmp": 30
         },
         {
@@ -2731,21 +2731,21 @@
         },
         {
           "date": "2026-11-04",
-          "gmp": 23
+          "gmp": 28
         },
         {
           "date": "2026-11-05",
-          "gmp": 40
+          "gmp": 35
         }
       ],
-      "history_source": "Tracker D",
+      "history_source": "Tracker B",
       "gmp_low": 17,
       "gmp_high": 40,
       "exchange": "SME",
-      "gmp": 31,
-      "gmp_asof": "2026-11-05T19:00",
-      "gmp_source_latest": "Public trackers",
-      "gmp_pct": 25.83,
+      "gmp": 35,
+      "gmp_asof": "2026-11-05T20:25",
+      "gmp_source_latest": "Tracker B",
+      "gmp_pct": 29.17,
       "gmp_spread": {
         "min": 31,
         "max": 40,
@@ -2755,7 +2755,7 @@
       },
       "gmp_trend": {
         "dir": "rising",
-        "change": 15,
+        "change": 10,
         "days": 3,
         "since": "2026-11-03"
       },
@@ -3105,7 +3105,7 @@
       "sub_asof": "2026-11-05T19:05",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-05T20:01"
+        "at": "2026-11-05T20:31"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3293,7 +3293,7 @@
       "sub_asof": "2026-11-03T17:50",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-05T20:01"
+        "at": "2026-11-05T20:31"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
