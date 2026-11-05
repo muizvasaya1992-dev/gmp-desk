@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-05T11:15+05:30",
+  "fetched_at": "2026-11-05T11:31+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,7 +16,7 @@
     "price_low": 78.0,
     "size_cr": 183.06,
     "gmp": 8.0,
-    "gmp_at": "2026-11-05T11:10",
+    "gmp_at": "2026-11-05T11:26",
     "sub_total": 60.77,
     "sub_retail": 33.73,
     "sub_at": "2026-11-02T19:06",
@@ -115,10 +115,10 @@
     "price_low": 63.0,
     "size_cr": 23.33,
     "gmp": 0.0,
-    "gmp_at": "2026-11-05T11:10",
+    "gmp_at": "2026-11-05T11:25",
     "sub_total": 5.78,
     "sub_retail": 1.65,
-    "sub_at": "2026-11-05T11:10",
+    "sub_at": "2026-11-05T11:25",
     "sub_cats": {
      "retail": 1.65,
      "nii": 23.81,
@@ -180,7 +180,7 @@
     "price_low": 150.0,
     "size_cr": 57.64,
     "gmp": 113.0,
-    "gmp_at": "2026-11-05T11:10",
+    "gmp_at": "2026-11-05T11:25",
     "sub_total": 536.8,
     "sub_retail": 556.09,
     "sub_at": "2026-11-03T19:06",
@@ -249,7 +249,7 @@
     "price_low": 114.0,
     "size_cr": 34.56,
     "gmp": 28.0,
-    "gmp_at": "2026-11-05T11:10",
+    "gmp_at": "2026-11-05T11:25",
     "sub_total": 247.3,
     "sub_retail": 233.27,
     "sub_at": "2026-11-03T19:10",
@@ -310,7 +310,7 @@
     "price_low": 190.0,
     "size_cr": 56.02,
     "gmp": 8.0,
-    "gmp_at": "2026-11-05T11:10",
+    "gmp_at": "2026-11-05T11:25",
     "sub_total": 23.58,
     "sub_retail": 17.53,
     "sub_at": "2026-11-03T19:06",
@@ -371,7 +371,7 @@
     "price_low": 99.0,
     "size_cr": 53.05,
     "gmp": 0.0,
-    "gmp_at": "2026-11-05T11:10",
+    "gmp_at": "2026-11-05T11:25",
     "sub_total": 4.2,
     "sub_retail": 4.45,
     "sub_at": "2026-11-03T17:50",
@@ -436,7 +436,7 @@
     "price_low": 88.0,
     "size_cr": 56.68,
     "gmp": 1.0,
-    "gmp_at": "2026-11-05T11:10",
+    "gmp_at": "2026-11-05T11:25",
     "sub_total": 1.9,
     "sub_retail": 2.26,
     "sub_at": "2026-11-04T19:05",
@@ -626,7 +626,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-05T11:15+05:30",
+  "fetched_at": "2026-11-05T11:31+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -642,7 +642,7 @@
     "price_low": null,
     "size_cr": 22.98,
     "gmp": null,
-    "gmp_at": "2026-11-05T07:02",
+    "gmp_at": "2026-11-05T08:28",
     "sub_total": 4.82,
     "sub_retail": null,
     "sub_at": null,
@@ -664,7 +664,7 @@
     "price_low": null,
     "size_cr": 56.68,
     "gmp": 1.0,
-    "gmp_at": "2026-11-05T07:02",
+    "gmp_at": "2026-11-05T08:37",
     "sub_total": 1.9,
     "sub_retail": null,
     "sub_at": null,
@@ -686,7 +686,7 @@
     "price_low": null,
     "size_cr": 34.56,
     "gmp": 28.0,
-    "gmp_at": "2026-11-05T07:02",
+    "gmp_at": "2026-11-05T08:37",
     "sub_total": 248.58,
     "sub_retail": null,
     "sub_at": null,
@@ -708,7 +708,7 @@
     "price_low": null,
     "size_cr": 56.02,
     "gmp": 8.0,
-    "gmp_at": "2026-11-05T07:02",
+    "gmp_at": "2026-11-05T08:37",
     "sub_total": 23.82,
     "sub_retail": null,
     "sub_at": null,
@@ -730,7 +730,7 @@
     "price_low": null,
     "size_cr": 53.05,
     "gmp": null,
-    "gmp_at": "2026-11-05T06:53",
+    "gmp_at": "2026-11-05T08:31",
     "sub_total": 4.2,
     "sub_retail": null,
     "sub_at": null,
@@ -752,7 +752,7 @@
     "price_low": null,
     "size_cr": 57.64,
     "gmp": 113.0,
-    "gmp_at": "2026-11-05T07:02",
+    "gmp_at": "2026-11-05T08:37",
     "sub_total": 536.8,
     "sub_retail": null,
     "sub_at": null,
@@ -774,7 +774,7 @@
     "price_low": null,
     "size_cr": 183.06,
     "gmp": 8.0,
-    "gmp_at": "2026-11-05T07:02",
+    "gmp_at": "2026-11-05T08:37",
     "sub_total": 63.89,
     "sub_retail": null,
     "sub_at": null,
@@ -1181,7 +1181,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-05T11:15+05:30",
+  "fetched_at": "2026-11-05T11:31+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -1198,7 +1198,7 @@
     "size_cr": 23.33,
     "gmp": 0.0,
     "gmp_at": null,
-    "sub_total": 5.61,
+    "sub_total": 6.13,
     "sub_retail": null,
     "sub_at": null,
     "lot": 2000.0,
@@ -1207,6 +1207,10 @@
     "live": true,
     "detail": {
      "gmp_history": [
+      [
+       "2026-11-05",
+       0.0
+      ],
       [
        "2026-11-03",
        0.0
@@ -1228,82 +1232,82 @@
        0.0
       ]
      ],
+     "sub": {
+      "total": 6.13,
+      "qib": 66.72,
+      "nii": 24.85,
+      "retail": 1.89
+     },
+     "sub_at": "2026-11-05T11:23",
      "reservation": {
-      "bnii": {
-       "pct": 9.82,
-       "shares": 342000
-      },
-      "market_maker": {
-       "pct": 5.05,
-       "shares": 176000
+      "qib": {
+       "shares": 36000,
+       "pct": 1.03
       },
       "nii": {
-       "pct": 14.65,
-       "shares": 510000
+       "shares": 510000,
+       "pct": 14.65
       },
-      "qib": {
-       "pct": 1.03,
-       "shares": 36000
-      },
-      "retail": {
-       "pct": 79.26,
-       "shares": 2760000
+      "bnii": {
+       "shares": 342000,
+       "pct": 9.82
       },
       "snii": {
-       "pct": 4.82,
-       "shares": 168000
+       "shares": 168000,
+       "pct": 4.82
+      },
+      "retail": {
+       "shares": 2760000,
+       "pct": 79.26
+      },
+      "market_maker": {
+       "shares": 176000,
+       "pct": 5.05
       }
      },
-     "sub": {
-      "nii": 22.17,
-      "qib": 66.72,
-      "retail": 0.8,
-      "total": 4.82
-     },
-     "sub_at": "2026-11-04T17:05",
      "uses": [
       {
-       "cr": 10.68,
-       "use": "Capital"
+       "use": "Capital",
+       "cr": 10.68
       },
       {
-       "cr": 7.32,
-       "use": "Machine"
+       "use": "Machine",
+       "cr": 7.32
       }
      ],
      "years": [
       {
-       "assets": 5.97,
-       "debt": 0.36,
-       "ebitda": 1.36,
+       "y": "FY24",
        "income": 12.59,
-       "net_worth": 3.54,
        "pat": 0.89,
-       "roce": null,
+       "ebitda": 1.36,
+       "net_worth": 3.54,
+       "debt": 0.36,
+       "assets": 5.97,
        "roe": null,
-       "y": "FY24"
+       "roce": null
       },
       {
-       "assets": 25.47,
-       "debt": 3.85,
-       "ebitda": 2.82,
+       "y": "FY25",
        "income": 31.98,
-       "net_worth": 12.19,
        "pat": 1.82,
-       "roce": 32.39,
+       "ebitda": 2.82,
+       "net_worth": 12.19,
+       "debt": 3.85,
+       "assets": 25.47,
        "roe": 17.77,
-       "y": "FY25"
+       "roce": 32.39
       },
       {
-       "assets": 28.41,
-       "debt": 4.19,
-       "ebitda": 6.15,
+       "y": "FY26",
        "income": 47.53,
-       "net_worth": 17.03,
        "pat": 4.24,
-       "roce": 42.23,
+       "ebitda": 6.15,
+       "net_worth": 17.03,
+       "debt": 4.19,
+       "assets": 28.41,
        "roe": 24.88,
-       "y": "FY26"
+       "roce": 42.23
       }
      ]
     }
@@ -1333,6 +1337,10 @@
     "detail": {
      "gmp_history": [
       [
+       "2026-11-05",
+       1.0
+      ],
+      [
        "2026-11-04",
        1.0
       ],
@@ -1357,78 +1365,78 @@
        0.0
       ]
      ],
-     "reservation": {
-      "market_maker": {
-       "pct": 5.05,
-       "shares": 304800
-      },
-      "nii": {
-       "pct": 37.49,
-       "shares": 2260800
-      },
-      "qib": {
-       "pct": 1.13,
-       "shares": 68400
-      },
-      "retail": {
-       "pct": 56.32,
-       "shares": 3396000
-      }
-     },
      "sub": {
-      "nii": 1.38,
+      "total": 1.9,
       "qib": 1.0,
-      "retail": 2.26,
-      "total": 1.9
+      "nii": 1.38,
+      "retail": 2.26
      },
      "sub_at": "2026-11-04T17:05",
+     "reservation": {
+      "qib": {
+       "shares": 68400,
+       "pct": 1.13
+      },
+      "nii": {
+       "shares": 2260800,
+       "pct": 37.49
+      },
+      "retail": {
+       "shares": 3396000,
+       "pct": 56.32
+      },
+      "market_maker": {
+       "shares": 304800,
+       "pct": 5.05
+      }
+     },
      "uses": [
       {
-       "cr": 17.59,
-       "use": "Capital"
+       "use": "Capital",
+       "cr": 17.59
       },
       {
-       "cr": 8.0,
-       "use": "Debt"
+       "use": "Debt",
+       "cr": 8.0
       },
       {
-       "cr": 6.51,
-       "use": "Assets"
+       "use": "Assets",
+       "cr": 6.51
       }
      ],
      "years": [
       {
-       "assets": 18.87,
-       "debt": 6.34,
-       "ebitda": 1.28,
+       "y": "FY24",
        "income": 49.53,
-       "net_worth": 3.85,
        "pat": 0.63,
-       "roce": 20.97,
+       "ebitda": 1.28,
+       "net_worth": 3.85,
+       "debt": 6.34,
+       "assets": 18.87,
        "roe": 16.36,
-       "y": "FY24"
+       "roce": 20.97
       },
       {
-       "assets": 55.39,
-       "debt": 11.31,
-       "ebitda": 7.74,
+       "y": "FY25",
        "income": 81.02,
-       "net_worth": 15.42,
        "pat": 4.56,
-       "roce": 47.31,
+       "ebitda": 7.74,
+       "net_worth": 15.42,
+       "debt": 11.31,
+       "assets": 55.39,
        "roe": 29.57,
-       "y": "FY25"
+       "roce": 47.31
       },
       {
-       "assets": 97.8,
-       "debt": 46.8,
-       "ebitda": 19,
+       "y": "FY26",
        "income": 115.13,
-       "net_worth": 42.25,
        "pat": 10.97,
-       "roce": 38.03,
+       "ebitda": 19,
+       "net_worth": 42.25,
+       "debt": 46.8,
+       "assets": 97.8,
        "roe": 25.96,
-       "y": "FY26"
+       "roce": 38.03
       }
      ]
     }
@@ -1446,7 +1454,7 @@
     "price": 120.0,
     "price_low": 114.0,
     "size_cr": 34.56,
-    "gmp": 32.0,
+    "gmp": 34.0,
     "gmp_at": null,
     "sub_total": null,
     "sub_retail": null,
