@@ -4,6 +4,20 @@
  "nse_as_of": "2026-11-05T00:01+05:30",
  "rows": [
   {
+   "name": "Antala Industries",
+   "segment": "SME",
+   "symbol": null,
+   "listing": "2026-11-11",
+   "exchange": "BSE SME",
+   "live": true,
+   "id": "antala-industries",
+   "status": "closing_today",
+   "open": "2026-10-29",
+   "close": "2026-11-05",
+   "price": 66,
+   "price_low": 62
+  },
+  {
    "name": "Vedant Poly Fabs",
    "segment": "SME",
    "symbol": "VPFL",
@@ -86,20 +100,6 @@
    "close": "2026-11-02",
    "price": 82,
    "price_low": 78
-  },
-  {
-   "name": "Antala Industries",
-   "segment": "SME",
-   "symbol": null,
-   "listing": "2026-11-05",
-   "exchange": "BSE SME",
-   "live": true,
-   "id": "antala-industries",
-   "status": "listed",
-   "open": "2026-10-29",
-   "close": "2026-11-05",
-   "price": 66,
-   "price_low": 62
   },
   {
    "name": "M. K. Sons Fine Jewels",
@@ -5592,5 +5592,5 @@
    "status": "listed"
   }
  ],
- "generated_at": "2026-11-05T00:01+05:30"
+ "generated_at": "2026-11-05T10:00+05:30"
 }

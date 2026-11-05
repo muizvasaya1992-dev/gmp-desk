@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T09:45+05:30",
+  "generated_at": "2026-11-05T10:00+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-04T11:19+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-05T09:45+05:30",
+    "nse_ok_at": "2026-11-05T10:00+05:30",
     "bse_ok_at": "2026-11-04T11:22+05:30"
   },
   "ipos": [
@@ -2547,8 +2547,8 @@
         },
         {
           "source": "Tracker D",
-          "gmp": 113,
-          "at": "2026-11-05T09:45"
+          "gmp": 110,
+          "at": "2026-11-05T10:00"
         },
         {
           "source": "Tracker B",
@@ -2591,17 +2591,17 @@
         },
         {
           "date": "2026-11-05",
-          "gmp": 113
+          "gmp": 110
         }
       ],
       "history_source": "Tracker D",
       "gmp_low": 25,
       "gmp_high": 113,
       "exchange": "SME",
-      "gmp": 113,
-      "gmp_asof": "2026-11-05T09:45",
+      "gmp": 110,
+      "gmp_asof": "2026-11-05T10:00",
       "gmp_source_latest": "Tracker D",
-      "gmp_pct": 71.52,
+      "gmp_pct": 69.62,
       "gmp_spread": {
         "min": 72,
         "max": 113,
@@ -2611,7 +2611,7 @@
       },
       "gmp_trend": {
         "dir": "rising",
-        "change": 33,
+        "change": 30,
         "days": 3,
         "since": "2026-11-03"
       },
@@ -2703,8 +2703,8 @@
         },
         {
           "source": "Tracker D",
-          "gmp": 28,
-          "at": "2026-11-05T09:45"
+          "gmp": 27,
+          "at": "2026-11-05T10:00"
         },
         {
           "source": "Tracker B",
@@ -2735,17 +2735,17 @@
         },
         {
           "date": "2026-11-05",
-          "gmp": 28
+          "gmp": 27
         }
       ],
       "history_source": "Tracker D",
       "gmp_low": 17,
       "gmp_high": 30,
       "exchange": "SME",
-      "gmp": 28,
-      "gmp_asof": "2026-11-05T09:45",
+      "gmp": 27,
+      "gmp_asof": "2026-11-05T10:00",
       "gmp_source_latest": "Tracker D",
-      "gmp_pct": 23.33,
+      "gmp_pct": 22.5,
       "gmp_spread": {
         "min": 21,
         "max": 28,
@@ -2755,7 +2755,7 @@
       },
       "gmp_trend": {
         "dir": "rising",
-        "change": 3,
+        "change": 2,
         "days": 3,
         "since": "2026-11-03"
       },
@@ -2992,8 +2992,8 @@
       "name": "Antala Industries",
       "lot": 2000,
       "size_cr": 23.33,
-      "boa": "2026-11-03",
-      "listing": "2026-11-05",
+      "boa": "2026-11-06",
+      "listing": "2026-11-11",
       "anchor": null,
       "rating": null,
       "bse_ipo_no": "8070",
@@ -3096,23 +3096,31 @@
         "ratios": {}
       },
       "sub": {
+        "retail": 0.8,
         "nii": 22.17,
         "qib": 66.72,
-        "retail": 0.8,
         "total": 4.82
       },
-      "sub_basis": "Tracker D",
-      "sub_asof": "2026-11-04T17:05",
+      "sub_basis": "Tracker B",
+      "sub_asof": "2026-11-05T10:00",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-05T09:45"
+        "at": "2026-11-05T10:00"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
       "gmp_history": [],
       "gmp": null,
       "gmp_pct": null,
-      "status": "listed",
+      "status": "closing_today",
+      "news": [
+        {
+          "date": "2026-10-29",
+          "source": "Economic Times",
+          "title": "Antala Industries SME IPO opens today: Check price band and key details",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/antala-industries-sme-ipo-opens-today-check-price-band-and-key-details/articleshow/135289593.cms"
+        }
+      ],
       "unconfirmed": false
     },
     {
@@ -3165,8 +3173,8 @@
         },
         {
           "source": "Tracker D",
-          "gmp": 8,
-          "at": "2026-11-05T09:45"
+          "gmp": 7,
+          "at": "2026-11-05T10:00"
         },
         {
           "source": "Tracker B",
@@ -3205,26 +3213,26 @@
         },
         {
           "date": "2026-11-05",
-          "gmp": 8
+          "gmp": 7
         }
       ],
       "history_source": "Tracker D",
       "gmp_low": 5,
       "gmp_high": 13,
-      "gmp": 8,
-      "gmp_asof": "2026-11-05T09:45",
+      "gmp": 7,
+      "gmp_asof": "2026-11-05T10:00",
       "gmp_source_latest": "Tracker D",
-      "gmp_pct": 4.0,
+      "gmp_pct": 3.5,
       "gmp_spread": {
-        "min": 8,
+        "min": 7,
         "max": 8,
-        "diff": 0,
+        "diff": 1,
         "n": 3,
-        "diff_pct_of_price": 0.0
+        "diff_pct_of_price": 0.5
       },
       "gmp_trend": {
         "dir": "steady",
-        "change": 0,
+        "change": -1,
         "days": 3,
         "since": "2026-11-03"
       },
@@ -3285,7 +3293,7 @@
       "sub_asof": "2026-11-03T17:50",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-05T09:45"
+        "at": "2026-11-05T10:00"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
