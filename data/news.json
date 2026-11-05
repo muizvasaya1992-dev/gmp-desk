@@ -1,7 +1,7 @@
 {
  "_feeds": {
   "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms": {
-   "fetched": "2026-11-05T04:15+05:30",
+   "fetched": "2026-11-05T05:45+05:30",
    "items": [
     {
      "date": "2026-11-03",
@@ -306,7 +306,7 @@
    ]
   },
   "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms": {
-   "fetched": "2026-11-05T04:15+05:30",
+   "fetched": "2026-11-05T05:45+05:30",
    "items": [
     {
      "date": "2026-11-04",
@@ -611,8 +611,14 @@
    ]
   },
   "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml": {
-   "fetched": "2026-11-05T04:15+05:30",
+   "fetched": "2026-11-05T05:45+05:30",
    "items": [
+    {
+     "date": "2026-11-05",
+     "source": "cnbctv18.com",
+     "title": "Dow Jones rallies 1,500 points after Democrat sweep - Here are factors that contributed to the rally",
+     "url": "https://www.cnbctv18.com/market/dow-jones-snp-500-nasdaq-rally-midterms-democrat-sweep-trump-oil-factors-that-contributed-to-the-surge-20027431.htm"
+    },
     {
      "date": "2026-11-04",
      "source": "cnbctv18.com",
@@ -1086,18 +1092,102 @@
      "source": "cnbctv18.com",
      "title": "Neuland Laboratories shares decline 5% after Q2 results see revenue drop and margin contraction",
      "url": "https://www.cnbctv18.com/market/neuland-laboratories-share-price-q2-result-reaction-peptide-cdmo-business-volatile-numbers-execution-plans-margins-outlook-20026469.htm"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "cnbctv18.com",
-     "title": "Gold, silver rebound: US election impact, India's demand and buying trends explained",
-     "url": "https://www.cnbctv18.com/market/commodities/gold-silver-rebound-us-midterm-election-india-demand-buying-trends-20026488.htm"
     }
    ]
   },
   "https://www.freepressjournal.in/stories.rss?section=business": {
-   "fetched": "2026-11-05T04:15+05:30",
+   "fetched": "2026-11-05T05:45+05:30",
    "items": [
+    {
+     "date": "2026-11-04",
+     "source": "freepressjournal.in",
+     "title": "Bombay HC Considers Allowing 14 Unrecognised Malwani Schools In Malad To Operate Until March-April 2027",
+     "url": "https://www.freepressjournal.in/mumbai/bombay-hc-considers-allowing-14-unrecognised-malwani-schools-in-malad-to-operate-until-march-april-2027"
+    },
+    {
+     "date": "2026-11-04",
+     "source": "freepressjournal.in",
+     "title": "Pradeep Purnekar Murder Case: Shiv Sena (UBT) Leader's Family Moves Bombay HC, Seeks Probe Transfer To Another Agency",
+     "url": "https://www.freepressjournal.in/mumbai/pradeep-purnekar-murder-case-shiv-sena-ubt-leaders-family-moves-bombay-hc-seeks-probe-transfer-to-another-agency"
+    },
+    {
+     "date": "2026-11-04",
+     "source": "freepressjournal.in",
+     "title": "Mumbai Air Pollution: BMC Clears ₹11.28 Crore Third-Party Audit Of Construction Site AQI Monitors Amid Corporators’ Questions",
+     "url": "https://www.freepressjournal.in/mumbai/mumbai-air-pollution-bmc-clears-1128-crore-third-party-audit-of-construction-site-aqi-monitors-amid-corporators-questions"
+    },
+    {
+     "date": "2026-11-04",
+     "source": "freepressjournal.in",
+     "title": "NCB Seizes Over 1 Kg Charas Worth ₹25 Lakh From Kerala-Bound Passenger At ISBT In Bhopal",
+     "url": "https://www.freepressjournal.in/bhopal/ncb-seizes-over-1-kg-charas-worth-25-lakh-from-kerala-bound-passenger-at-isbt-in-bhopal"
+    },
+    {
+     "date": "2026-11-04",
+     "source": "freepressjournal.in",
+     "title": "Mumbai: BMC Yet To Re-Upload Dia Mirza’s Anti-Firecracker Awareness Video Despite Bombay HC Direction",
+     "url": "https://www.freepressjournal.in/mumbai/mumbai-bmc-yet-to-re-upload-dia-mirzas-anti-firecracker-awareness-video-despite-bombay-hc-direction"
+    },
+    {
+     "date": "2026-11-04",
+     "source": "freepressjournal.in",
+     "title": "Navi Mumbai Accident: 37-Year-Old Porter Killed After 50 Grain Sacks Collapse At APMC Grain Market",
+     "url": "https://www.freepressjournal.in/mumbai/navi-mumbai-accident-37-year-old-porter-killed-after-50-grain-sacks-collapse-at-apmc-grain-market"
+    },
+    {
+     "date": "2026-11-04",
+     "source": "freepressjournal.in",
+     "title": "Mumbai: Western Railway Detects 6.28 Lakh Ticketless Travel Cases On Suburban Network, Collects ₹36 Crore In Fines",
+     "url": "https://www.freepressjournal.in/mumbai/mumbai-western-railway-detects-628-lakh-ticketless-travel-cases-on-suburban-network-collects-36-crore-in-fines"
+    },
+    {
+     "date": "2026-11-04",
+     "source": "freepressjournal.in",
+     "title": "Diwali 2026: Bombay HC Asks Maharashtra Govt To Consider Regulating Firecracker-Bursting Timings",
+     "url": "https://www.freepressjournal.in/mumbai/diwali-2026-bombay-hc-asks-maharashtra-govt-to-consider-regulating-firecracker-bursting-timings"
+    },
+    {
+     "date": "2026-11-04",
+     "source": "freepressjournal.in",
+     "title": "Mumbai: Byculla Zoo Moves Closer To Getting 4 Asiatic Lions From Gujarat After 12-Year Gap; CM Bhupendra Patel Directs Officials To Expedite Transfer",
+     "url": "https://www.freepressjournal.in/mumbai/mumbai-byculla-zoo-moves-closer-to-getting-4-asiatic-lions-from-gujarat-after-12-year-gap-cm-bhupendra-patel-directs-officials-to-expedite-transfer"
+    },
+    {
+     "date": "2026-11-04",
+     "source": "freepressjournal.in",
+     "title": "Maharashtra Crime: 5 Arrested Within 24 Hours For Abducting And Robbing Government Engineer On Samruddhi Expressway",
+     "url": "https://www.freepressjournal.in/mumbai/maharashtra-crime-5-arrested-within-24-hours-for-abducting-and-robbing-government-engineer-on-samruddhi-expressway"
+    },
+    {
+     "date": "2026-11-04",
+     "source": "freepressjournal.in",
+     "title": "₹1,200 To ₹1,500 Buys Alleged Shortcut To Learning Licences As Agents Bypass New Webcam Checks In Indore",
+     "url": "https://www.freepressjournal.in/indore/1200-to-1500-buys-alleged-shortcut-to-learning-licences-as-agents-bypass-new-webcam-checks-in-indore"
+    },
+    {
+     "date": "2026-11-04",
+     "source": "freepressjournal.in",
+     "title": "Rural India Hypertension Study: One In Three Adults Has High Blood Pressure, Finds Tata Memorial Centre",
+     "url": "https://www.freepressjournal.in/mumbai/rural-india-hypertension-study-one-in-three-adults-has-high-blood-pressure-finds-tata-memorial-centre"
+    },
+    {
+     "date": "2026-11-04",
+     "source": "freepressjournal.in",
+     "title": "Bombay HC Clears Way For New Developer In 18-Year-Stalled Jogeshwari Slum Rehabilitation Project",
+     "url": "https://www.freepressjournal.in/mumbai/bombay-hc-clears-way-for-new-developer-in-18-year-stalled-jogeshwari-slum-rehabilitation-project"
+    },
+    {
+     "date": "2026-11-04",
+     "source": "freepressjournal.in",
+     "title": "Mumbai: Special CBI Court Refuses To Discharge CA In Yes Bank-Cox & Kings Loan Default Case",
+     "url": "https://www.freepressjournal.in/mumbai/mumbai-special-cbi-court-refuses-to-discharge-ca-in-yes-bank-cox-kings-loan-default-case"
+    },
+    {
+     "date": "2026-11-04",
+     "source": "freepressjournal.in",
+     "title": "Mumbai: Western Railway To Use Ticket Checkers’ Body Cam Footage As Court Evidence After Assaults On 2 Women TCs",
+     "url": "https://www.freepressjournal.in/mumbai/mumbai-western-railway-to-use-ticket-checkers-body-cam-footage-as-court-evidence-after-assaults-on-2-women-tcs"
+    },
     {
      "date": "2026-11-04",
      "source": "freepressjournal.in",
@@ -1163,18 +1253,18 @@
      "source": "freepressjournal.in",
      "title": "Pressure Cooker Explosion Triggers Kitchen Fire In Indore's New Palasia, Domestic Worker Suffers Burns As Firefighters Remove Leaking Gas Cylinder",
      "url": "https://www.freepressjournal.in/indore/pressure-cooker-explosion-triggers-kitchen-fire-in-indores-new-palasia-domestic-worker-suffers-burns-as-firefighters-remove-leaking-gas-cylinder"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "freepressjournal.in",
-     "title": "Bhopal Retired IAS Officer Murder Case: Caretaker Claims He Slit Rakesh Agrawal's Throat With Shaving Blade, Weapon Still Missing",
-     "url": "https://www.freepressjournal.in/bhopal/bhopal-retired-ias-officer-murder-case-caretaker-claims-he-slit-rakesh-agrawals-throat-with-shaving-blade-weapon-still-missing"
     }
    ]
   },
   "https://www.livemint.com/rss/markets": {
-   "fetched": "2026-11-05T04:15+05:30",
+   "fetched": "2026-11-05T05:45+05:30",
    "items": [
+    {
+     "date": "2026-11-05",
+     "source": "Mint",
+     "title": "Diwali stock picks: of crackers and crashes",
+     "url": "https://www.livemint.com/market/stock-market-news/diwali-stock-picks-samvat-2083-11793786699285.html"
+    },
     {
      "date": "2026-11-05",
      "source": "Mint",
@@ -1378,17 +1468,11 @@
      "source": "Mint",
      "title": "Small-cap stock under ₹50 SC Agrotech hits 5% upper circuit for 8th straight session; gives 160% returns in one year",
      "url": "https://www.livemint.com/market/stock-market-news/smallcap-stock-under-rs-50-sc-agrotech-hits-5-upper-circuit-for-8th-straight-session-gives-160-returns-in-one-year-11793774492421.html"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "Mint",
-     "title": "Awfis Space Solutions shares rally 13% on strong Q2 results | Check stock returns",
-     "url": "https://www.livemint.com/market/stock-market-news/awfis-space-solutions-shares-rally-13-on-strong-q2-results-check-stock-returns-11793772312307.html"
     }
    ]
   },
   "https://www.thehindubusinessline.com/markets/feeder/default.rss": {
-   "fetched": "2026-11-05T04:15+05:30",
+   "fetched": "2026-11-05T05:45+05:30",
    "items": [
     {
      "date": "2026-11-04",
@@ -1753,7 +1837,7 @@
    ]
   },
   "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss": {
-   "fetched": "2026-11-05T04:15+05:30",
+   "fetched": "2026-11-05T05:45+05:30",
    "items": [
     {
      "date": "2026-10-26",
@@ -1879,7 +1963,7 @@
   }
  },
  "hgsindialt": {
-  "checked": "2026-11-05T05:31+05:30",
+  "checked": "2026-11-05T05:45+05:30",
   "items": [
    {
     "date": "2026-10-30",
@@ -1890,7 +1974,7 @@
   ]
  },
  "maxengs": {
-  "checked": "2026-11-05T05:31+05:30",
+  "checked": "2026-11-05T05:45+05:30",
   "items": [
    {
     "date": "2026-10-30",
@@ -1901,7 +1985,7 @@
   ]
  },
  "vpfl": {
-  "checked": "2026-11-05T05:31+05:30",
+  "checked": "2026-11-05T05:45+05:30",
   "items": [
    {
     "date": "2026-11-02",
