@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T07:00+05:30",
+  "generated_at": "2026-11-05T07:15+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-04T11:19+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-05T07:00+05:30",
+    "nse_ok_at": "2026-11-05T07:15+05:30",
     "bse_ok_at": "2026-11-04T11:22+05:30"
   },
   "ipos": [
@@ -2655,10 +2655,10 @@
       },
       "news": [
         {
-          "date": "2026-10-30",
-          "source": "Economic Times",
           "title": "Maxwell Engineering, HGS India among 4 SME IPOs to open on October 30; issues to raise Rs 201 crore",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/maxwell-engineering-hgs-india-among-4-sme-ipos-to-open-on-october-30-issues-to-raise-rs-201-crore/articleshow/135343041.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/maxwell-engineering-hgs-india-among-4-sme-ipos-to-open-on-october-30-issues-to-raise-rs-201-crore/articleshow/135343041.cms",
+          "source": "Economic Times",
+          "date": "2026-10-30"
         }
       ],
       "unconfirmed": false
@@ -2835,10 +2835,10 @@
       },
       "news": [
         {
-          "date": "2026-10-30",
-          "source": "Economic Times",
           "title": "Maxwell Engineering, HGS India among 4 SME IPOs to open on October 30; issues to raise Rs 201 crore",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/maxwell-engineering-hgs-india-among-4-sme-ipos-to-open-on-october-30-issues-to-raise-rs-201-crore/articleshow/135343041.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/maxwell-engineering-hgs-india-among-4-sme-ipos-to-open-on-october-30-issues-to-raise-rs-201-crore/articleshow/135343041.cms",
+          "source": "Economic Times",
+          "date": "2026-10-30"
         }
       ],
       "unconfirmed": false
@@ -3044,10 +3044,10 @@
       },
       "news": [
         {
-          "date": "2026-11-02",
-          "source": "Economic Times",
           "title": "Vedant Poly Fabs SME IPO opens today; GMP at 16%, check key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/vedant-poly-fabs-sme-ipo-opens-today-gmp-at-16-check-key-details/articleshow/135446827.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/vedant-poly-fabs-sme-ipo-opens-today-gmp-at-16-check-key-details/articleshow/135446827.cms",
+          "source": "Economic Times",
+          "date": "2026-11-02"
         }
       ],
       "unconfirmed": false
@@ -3170,7 +3170,7 @@
       "sub_asof": "2026-11-04T17:05",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-05T07:00"
+        "at": "2026-11-05T07:15"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3499,7 +3499,7 @@
       "sub_asof": "2026-11-03T17:50",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-05T07:00"
+        "at": "2026-11-05T07:15"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
