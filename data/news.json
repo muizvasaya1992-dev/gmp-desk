@@ -1,8 +1,14 @@
 {
  "_feeds": {
   "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms": {
-   "fetched": "2026-11-05T07:15+05:30",
+   "fetched": "2026-11-05T08:45+05:30",
    "items": [
+    {
+     "date": "2026-11-05",
+     "source": "Economic Times",
+     "title": "Sebi approves Coal India unit Mahanadi Coalfields IPO",
+     "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/indias-markets-regulator-approves-coal-india-unit-mahanadi-coalfields-ipo/articleshow/135556462.cms"
+    },
     {
      "date": "2026-11-03",
      "source": "Economic Times",
@@ -296,18 +302,30 @@
      "source": "Economic Times",
      "title": "Paras Healthcare IPO Day 3: Check GMP, subscription status and key details",
      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/paras-healthcare-ipo-day-3-check-gmp-subscription-status-and-key-details/articleshow/135134099.cms"
-    },
-    {
-     "date": "2026-10-23",
-     "source": "Economic Times",
-     "title": "Core4 Engineers SME IPO opens today: Check price band and other key details",
-     "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/core4-engineers-sme-ipo-opens-today-check-price-band-and-other-key-details/articleshow/135133511.cms"
     }
    ]
   },
   "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms": {
-   "fetched": "2026-11-05T07:15+05:30",
+   "fetched": "2026-11-05T08:45+05:30",
    "items": [
+    {
+     "date": "2026-11-05",
+     "source": "Economic Times",
+     "title": "Zydus Lifesciences Q2 net profit falls 26.6% to Rs 925.5 crore",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/zydus-lifesciences-q2-net-profit-falls-26-6-to-rs-925-5-crore/articleshow/135555960.cms"
+    },
+    {
+     "date": "2026-11-05",
+     "source": "Economic Times",
+     "title": "Positive Breakout: These 8 stocks cross above their 200 DMAs",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/positive-breakout-these-8-stocks-cross-above-their-200-dmas/slideshow/135555821.cms"
+    },
+    {
+     "date": "2026-11-05",
+     "source": "Economic Times",
+     "title": "Sensex Today | Nifty 50 | Stock Market Live Updates: GIFT Nifty signals a gap-up start; Asian shares trade mixed",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-bse-lenskart-share-price-05-november-2026/liveblog/135555859.cms"
+    },
     {
      "date": "2026-11-05",
      "source": "Economic Times",
@@ -589,30 +607,72 @@
      "source": "Economic Times",
      "title": "Tech Mahindra Share Price Highlights: Tech Mahindra Stock Price History",
      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tech-mahindra-share-price-today-live-04-nov-2026/liveblog/135520364.cms"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "Economic Times",
-     "title": "Tata Motors PV Share Price Highlights: Tata Motors PV Stock Price History",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tata-motors-pv-share-price-live-04-nov-2026/liveblog/135520319.cms"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "Economic Times",
-     "title": "SBI Life Share Price Highlights: SBI Life Stock Price History",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/sbi-life-share-price-live-updates-04-nov-2026/liveblog/135520317.cms"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "Economic Times",
-     "title": "Maruti Suzuki Share Price Highlights: Maruti Suzuki Stock Price History",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/maruti-suzuki-share-price-live-04-nov-2026/liveblog/135520305.cms"
     }
    ]
   },
   "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml": {
-   "fetched": "2026-11-05T07:15+05:30",
+   "fetched": "2026-11-05T08:45+05:30",
    "items": [
+    {
+     "date": "2026-11-05",
+     "source": "cnbctv18.com",
+     "title": "PI Industries Q2 review: Sharp margin contraction, weak agri exports drag earnings",
+     "url": "https://www.cnbctv18.com/market/pi-industries-share-price-q2-review-sharp-margin-contraction-weak-agri-exports-drag-earnings-20027560.htm"
+    },
+    {
+     "date": "2026-11-05",
+     "source": "cnbctv18.com",
+     "title": "Afcons Infrastructure shares may react to a weak operating performance in Q2",
+     "url": "https://www.cnbctv18.com/market/afcons-infrastructure-share-price-weak-q2-results-reaction-ebitda-fall-margin-compression-factors-20027512.htm"
+    },
+    {
+     "date": "2026-11-05",
+     "source": "cnbctv18.com",
+     "title": "Here's what South Korea plans to do for curbing post-IPO sell-offs",
+     "url": "https://www.cnbctv18.com/market/heres-what-south-korea-plans-to-do-for-curbing-post-ipo-sell-offs-20027552.htm"
+    },
+    {
+     "date": "2026-11-05",
+     "source": "cnbctv18.com",
+     "title": "Lenskart shares upgraded by HSBC after Q2 results; check new revised price targets",
+     "url": "https://www.cnbctv18.com/market/lenskart-share-price-upgraded-hsbc-nomura-q2-results-check-new-revised-targets-20027538.htm"
+    },
+    {
+     "date": "2026-11-05",
+     "source": "cnbctv18.com",
+     "title": "BSE Share Price: What is the fair value that divided analysts see for the stock after Q2 results",
+     "url": "https://www.cnbctv18.com/market/bse-share-price-fair-value-after-q2-results-volumes-valuations-buy-sell-target-returns-20027521.htm"
+    },
+    {
+     "date": "2026-11-05",
+     "source": "cnbctv18.com",
+     "title": "HG Infra shares in focus after slow orders drag revenue growth, result in weak Q2",
+     "url": "https://www.cnbctv18.com/market/hg-infra-engineering-share-price-q2-result-reaction-revenue-margin-fall-order-book-2026-returns-20027470.htm"
+    },
+    {
+     "date": "2026-11-05",
+     "source": "cnbctv18.com",
+     "title": "What Democrats’ midterm sweep means for your investments",
+     "url": "https://www.cnbctv18.com/access/what-democrats-midterm-sweep-means-for-your-investments-20027460.htm"
+    },
+    {
+     "date": "2026-11-05",
+     "source": "cnbctv18.com",
+     "title": "Why are gold and silver prices moving higher today",
+     "url": "https://www.cnbctv18.com/market/commodities/why-gold-silver-prices-moving-higher-us-midterm-elections-dhanteras-india-20027074.htm"
+    },
+    {
+     "date": "2026-11-05",
+     "source": "cnbctv18.com",
+     "title": "Q2 Results Live Updates: Bharti Airtel, Titan, ONGC, LIC, M&M report today; BSE, PI, Lenskart react",
+     "url": "https://www.cnbctv18.com/market/q2-results-live-updates-bse-mm-bharti-airtel-ongc-titan-lg-britannia-nbcc-ncc-lenskart-nykaa-orkla-lic-samil-prestige-share-price-liveblog-20027499.htm"
+    },
+    {
+     "date": "2026-11-05",
+     "source": "cnbctv18.com",
+     "title": "Arm Holdings shares close over 5% lower as AI data centre revenue forecast barely beats estimates",
+     "url": "https://www.cnbctv18.com/market/arm-holdings-share-price-ai-data-centre-revenue-forecast-wall-street-estimates-q3-2026-20027462.htm"
+    },
     {
      "date": "2026-11-05",
      "source": "cnbctv18.com",
@@ -646,7 +706,7 @@
     {
      "date": "2026-11-05",
      "source": "cnbctv18.com",
-     "title": "Sensex Today | Stock Market Live Updates: GIFT Nifty hints a major 350-point gap-up start after Wall St rally",
+     "title": "Sensex Today | Stock Market Live Updates: GIFT Nifty trades 300 pts higher; BSE in focus",
      "url": "https://www.cnbctv18.com/market/stock-market-live-updates-sensex-expiry-nifty-50-today-oil-crash-hpcl-bpcl-ril-ongc-it-banks-bse-nse-samil-gmdc-share-price-liveblog-20027446.htm"
     },
     {
@@ -1032,72 +1092,66 @@
      "source": "cnbctv18.com",
      "title": "Bitcoin near $77,000: Factors weighing on crypto market sentiment",
      "url": "https://www.cnbctv18.com/market/cryptocurrency/bitcoin-near-dollar-77000-factors-weighing-crypto-market-sentiment-20026723.htm"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "cnbctv18.com",
-     "title": "Reliance Industries fundamentals strong, some FMCG stocks offer 15-20% upside: Deven Choksey",
-     "url": "https://www.cnbctv18.com/market/reliance-industries-share-price-outlook-jio-platforms-marico-hul-nestle-fmcg-deven-choksey-alpha-article-20026583.htm"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "cnbctv18.com",
-     "title": "US midterms could increase risk of state-level data centre curbs, says JPMorgan's Jahangir Aziz",
-     "url": "https://www.cnbctv18.com/market/us-midterm-elections-ai-data-centers-us-interest-rates-donald-trump-us-iran-war-20026595.htm"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "cnbctv18.com",
-     "title": "Stocks To Buy: Motilal Oswal sees 42% upside on this PSU defence stock",
-     "url": "https://www.cnbctv18.com/market/bharat-electronics-share-price-bel-defence-psu-stock-motilal-oswal-sees-42-percent-upside-q2-results-fy27-guidance-qrsam-order-20026575.htm"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "cnbctv18.com",
-     "title": "Binance security incident explained: What latest report says about attack and recovery",
-     "url": "https://www.cnbctv18.com/market/cryptocurrency/binance-security-incident-explained-what-latest-report-says-attack-recovery-20026569.htm"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "cnbctv18.com",
-     "title": "M K Sons Fine Jewels IPO listing: Shares debut at 6% premium over issue price",
-     "url": "https://www.cnbctv18.com/market/m-k-sons-fine-jewels-ipo-listing-today-share-price-debuts-premium-over-issue-price-nse-bse-20026616.htm"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "cnbctv18.com",
-     "title": "CleanMax share price: Macquarie sees upside to FY27 estimates, sets ₹1,700 target after Q2",
-     "url": "https://www.cnbctv18.com/market/cleanmax-share-price-macquarie-sees-upside-to-fy27-estimates-sets-1700-target-q2-results-20026610.htm"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "cnbctv18.com",
-     "title": "Ambani's Jio explores tech-for-equity talks with Comcast and Charter, sources say",
-     "url": "https://www.cnbctv18.com/business/ambanis-jio-explores-tech-for-equity-talks-with-comcast-and-charter-sources-say-20026614.htm"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "cnbctv18.com",
-     "title": "Equitas Small Finance Bank shares surges 7% after company approves Balaji Nuthalapadi as interim CEO",
-     "url": "https://www.cnbctv18.com/market/equitas-small-finance-bank-share-price-balaji-nuthalapadi-interim-ceo-pn-vasudevan-quits-succession-plan-20026551.htm"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "cnbctv18.com",
-     "title": "Rupee rises 18 paise to 94.56 against dollar: Key factors behind the latest recovery",
-     "url": "https://www.cnbctv18.com/market/currency/rupee-rises-against-dollar-factors-behind-recovery-us-elections-crude-20026598.htm"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "cnbctv18.com",
-     "title": "GE Vernova T&D bags HVDC order award from Power Grid; Here's why the stock is down",
-     "url": "https://www.cnbctv18.com/market/ge-vernova-td-share-price-power-grid-hvdc-order-win-rajasthan-why-the-stock-is-down-20026567.htm"
     }
    ]
   },
   "https://www.freepressjournal.in/stories.rss?section=business": {
-   "fetched": "2026-11-05T07:15+05:30",
+   "fetched": "2026-11-05T08:45+05:30",
    "items": [
+    {
+     "date": "2026-11-05",
+     "source": "freepressjournal.in",
+     "title": "'Spend More Time In India, Respect Seniors': Kiren Rijiju's 7 Suggestions For Rahul Gandhi",
+     "url": "https://www.freepressjournal.in/india/spend-more-time-in-india-respect-seniors-kiren-rijijus-7-suggestions-for-rahul-gandhi"
+    },
+    {
+     "date": "2026-11-05",
+     "source": "freepressjournal.in",
+     "title": "US Sanctions Indian Couple, Eight Firms Over Alleged Role In Iran's Shadow Fleet & Oil Smuggling Network",
+     "url": "https://www.freepressjournal.in/world/us-sanctions-indian-couple-eight-firms-over-alleged-role-in-irans-shadow-fleet-oil-smuggling-network"
+    },
+    {
+     "date": "2026-11-05",
+     "source": "freepressjournal.in",
+     "title": "I4C, CERT-In Warn Banks And Fintech Firms Of AI-Driven Cyberattacks, Flag Risk Of Multi-Crore Financial Fraud",
+     "url": "https://www.freepressjournal.in/tech/i4c-cert-in-warn-banks-and-fintech-firms-of-ai-driven-cyberattacks-flag-risk-of-multi-crore-financial-fraud"
+    },
+    {
+     "date": "2026-11-05",
+     "source": "freepressjournal.in",
+     "title": "'Congress Trying To Destabilise Nation, People Will Give Befitting Reply In 2029' Says JP Nadda At BJP Rally In Bhopal",
+     "url": "https://www.freepressjournal.in/bhopal/congress-trying-to-destabilise-nation-people-will-give-befitting-reply-in-2029-says-jp-nadda-at-bjp-rally-in-bhopal"
+    },
+    {
+     "date": "2026-11-05",
+     "source": "freepressjournal.in",
+     "title": "RSS Leader Dattatreya Hosabale Warns Against Inciting Gen Z Youth, Backs SIR Electoral Roll Revision In Indore",
+     "url": "https://www.freepressjournal.in/indore/rss-leader-dattatreya-hosabale-warns-against-inciting-gen-z-youth-backs-sir-electoral-roll-revision-in-indore"
+    },
+    {
+     "date": "2026-11-05",
+     "source": "freepressjournal.in",
+     "title": "Indian National Gets 8 Years In US Jail For Laundering Money From Scams Targeting Elderly Victims",
+     "url": "https://www.freepressjournal.in/world/indian-national-gets-8-years-in-us-jail-for-laundering-money-from-scams-targeting-elderly-victims"
+    },
+    {
+     "date": "2026-11-05",
+     "source": "freepressjournal.in",
+     "title": "Indore District Hospital Adds 30 Beds For Newborns And Critically Ill Children, 10-Bed Mother-Newborn Care Unit Coming Soon",
+     "url": "https://www.freepressjournal.in/indore/indore-district-hospital-adds-30-beds-for-newborns-and-critically-ill-children-10-bed-mother-newborn-care-unit-coming-soon"
+    },
+    {
+     "date": "2026-11-05",
+     "source": "freepressjournal.in",
+     "title": "Supreme Court Gives MP Assembly Speaker Two Months To Decide Congress MLA Nirmala Sapre's Disqualification Plea Under Anti-Defection Law",
+     "url": "https://www.freepressjournal.in/bhopal/supreme-court-gives-mp-assembly-speaker-two-months-to-decide-congress-mla-nirmala-sapres-disqualification-plea-under-anti-defection-law"
+    },
+    {
+     "date": "2026-11-05",
+     "source": "freepressjournal.in",
+     "title": "Guiding Light: Rediscovering The Inner Illumination And Spiritual Significance Of Diwali",
+     "url": "https://www.freepressjournal.in/analysis/guiding-light-rediscovering-the-inner-illumination-and-spiritual-significance-of-diwali"
+    },
     {
      "date": "2026-11-05",
      "source": "freepressjournal.in",
@@ -1221,68 +1275,86 @@
     {
      "date": "2026-11-04",
      "source": "freepressjournal.in",
-     "title": "Mumbai: Special CBI Court Refuses To Discharge CA In Yes Bank-Cox & Kings Loan Default Case",
-     "url": "https://www.freepressjournal.in/mumbai/mumbai-special-cbi-court-refuses-to-discharge-ca-in-yes-bank-cox-kings-loan-default-case"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "freepressjournal.in",
-     "title": "Mumbai: Western Railway To Use Ticket Checkers’ Body Cam Footage As Court Evidence After Assaults On 2 Women TCs",
-     "url": "https://www.freepressjournal.in/mumbai/mumbai-western-railway-to-use-ticket-checkers-body-cam-footage-as-court-evidence-after-assaults-on-2-women-tcs"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "freepressjournal.in",
-     "title": "Mumbai Healthcare Update: 4 BMC Hospitals To Get 3-Tesla MRI Services After 7-Year Delay; Testing Under Way",
-     "url": "https://www.freepressjournal.in/mumbai/mumbai-healthcare-update-4-bmc-hospitals-to-get-3-tesla-mri-services-after-7-year-delay-testing-under-way"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "freepressjournal.in",
-     "title": "IPS Officer Anurag Sujaniya's Resignation Accepted By MP DGP, Sent To Home Department For Further Action In Bhopal",
-     "url": "https://www.freepressjournal.in/bhopal/ips-officer-anurag-sujaniyas-resignation-accepted-by-mp-dgp-sent-to-home-department-for-further-action-in-bhopal"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "freepressjournal.in",
-     "title": "Mumbai: BMC-Run V N Desai Hospital In Santacruz East To Suspend Full Operations For 90 Days After Diwali; Patients To Be Shifted",
-     "url": "https://www.freepressjournal.in/mumbai/mumbai-bmc-run-v-n-desai-hospital-in-santacruz-east-to-suspend-full-operations-for-90-days-after-diwali-patients-to-be-shifted"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "freepressjournal.in",
-     "title": "Mumbai OC Amnesty Scheme Faces Hurdles: Tardeo's Willington Heights Residents Unable To Apply, Only 4 Societies Succeed",
-     "url": "https://www.freepressjournal.in/mumbai/mumbai-oc-amnesty-scheme-faces-hurdles-tardeos-willington-heights-residents-unable-to-apply-only-4-societies-succeed"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "freepressjournal.in",
-     "title": "Indore High Court Seeks MP Government's Response On Alleged Illegal Mining Across 2.516 Hectares In Khudail",
-     "url": "https://www.freepressjournal.in/indore/indore-high-court-seeks-mp-governments-response-on-alleged-illegal-mining-across-2516-hectares-in-khudail"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "freepressjournal.in",
-     "title": "Bhopal Activist Demands FIR Against ACS Aniruddha Mukherjee Over Alleged Illegal MPPCB Chairmanship, Claims No Appointment Order Was Issued",
-     "url": "https://www.freepressjournal.in/bhopal/bhopal-activist-demands-fir-against-acs-aniruddha-mukherjee-over-alleged-illegal-mppcb-chairmanship-claims-no-appointment-order-was-issued"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "freepressjournal.in",
-     "title": "High Court Rejects Giribala Singh's Bail Plea In Twisha Sharma Death Case, Cites CCTV Footage And Pending CBI Probe In Jabalpur",
-     "url": "https://www.freepressjournal.in/bhopal/high-court-rejects-giribala-singhs-bail-plea-in-twisha-sharma-death-case-cites-cctv-footage-and-pending-cbi-probe-in-jabalpur"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "freepressjournal.in",
      "title": "Mumbai: BMC Launches Borivali Demolition Drive After Supreme Court Withholds Commissioner Ashwini Bhide's Salary",
      "url": "https://www.freepressjournal.in/mumbai/mumbai-bmc-launches-borivali-demolition-drive-after-supreme-court-withholds-commissioner-ashwini-bhides-salary"
+    },
+    {
+     "date": "2026-11-02",
+     "source": "freepressjournal.in",
+     "title": "Nitin Nabin Targets Rahul Gandhi, INDIA Bloc At BJP's 'Save Democracy, Remove Anarchy' Rally In Kolkata",
+     "url": "https://www.freepressjournal.in/india/nitin-nabin-targets-rahul-gandhi-india-bloc-at-bjps-save-democracy-remove-anarchy-rally-in-kolkata"
+    },
+    {
+     "date": "2026-11-02",
+     "source": "freepressjournal.in",
+     "title": "'Everybody Has Become Oversensitive': Nikkhil Advani On India's Freedom Struggle, Political Sensitivities And Changing Space For Storytellers - FPJ Exclusive",
+     "url": "https://www.freepressjournal.in/entertainment/everybody-has-become-oversensitive-nikkhil-advani-on-indias-freedom-struggle-political-sensitivities-and-changing-space-for-storytellers-fpj-exclusive"
+    },
+    {
+     "date": "2026-11-01",
+     "source": "freepressjournal.in",
+     "title": "Ranbir Kapoor Says India Had Flying Cars 5000 Years Ago, Compares Ramayana's Pushpaka Vimana To Elon Musk's Invention",
+     "url": "https://www.freepressjournal.in/entertainment/ranbir-kapoor-says-india-had-flying-cars-5000-years-ago-compares-ramayanas-pushpaka-vimana-to-elon-musks-invention"
+    },
+    {
+     "date": "2026-11-01",
+     "source": "freepressjournal.in",
+     "title": "Ahoi Ashtami 2026: Why It Is Observed After Karwa Chauth? Here's To Know Significance, Ashtami Tithi And More",
+     "url": "https://www.freepressjournal.in/lifestyle/ahoi-ashtami-2026-why-it-is-observed-after-karwa-chauth-heres-to-know-significance-ashtami-tithi-and-more"
+    },
+    {
+     "date": "2026-11-01",
+     "source": "freepressjournal.in",
+     "title": "'My Profile Isn't Place To Project Your Hate...': Samreen Kaur SLAMS Trolls Claiming She's Dating Arshdeep Singh For Money Or Fame",
+     "url": "https://www.freepressjournal.in/entertainment/my-profile-isnt-place-to-project-your-hate-for-life-samreen-kaur-slams-trolls-claiming-shes-dating-cricketer-arshdeep-singh-for-money-or-fame"
     }
    ]
   },
   "https://www.livemint.com/rss/markets": {
-   "fetched": "2026-11-05T07:15+05:30",
+   "fetched": "2026-11-05T08:45+05:30",
    "items": [
+    {
+     "date": "2026-11-05",
+     "source": "Mint",
+     "title": "China’s Copper Squeeze Deepens as Buyers Scramble for Spot Metal",
+     "url": "https://www.livemint.com/market/chinas-copper-squeeze-deepens-as-buyers-scramble-for-spot-metal-11793847941597.html"
+    },
+    {
+     "date": "2026-11-05",
+     "source": "Mint",
+     "title": "Asian Rice Price Climbs Near Two-Year High in Inflation Threat",
+     "url": "https://www.livemint.com/market/asian-rice-price-climbs-near-two-year-high-in-inflation-threat-11793846644896.html"
+    },
+    {
+     "date": "2026-11-05",
+     "source": "Mint",
+     "title": "Indian shares set to open higher as oil hits 2-month low after US Democratic win",
+     "url": "https://www.livemint.com/market/stock-market-news/indian-shares-set-to-open-higher-as-oil-hits-2-month-low-after-us-democratic-win-11793846244666.html"
+    },
+    {
+     "date": "2026-11-05",
+     "source": "Mint",
+     "title": "Muhurat Trading Picks: Shanti Gold to Apollo Micro Systems - Angel One’s 8 stocks to buy on Diwali 2026 for Samvat 2083",
+     "url": "https://www.livemint.com/market/stock-market-news/muhurat-trading-picks-shanti-gold-to-apollo-micro-systems-angel-one-s-8-stocks-to-buy-on-diwali-2026-for-samvat-2083-11793842607672.html"
+    },
+    {
+     "date": "2026-11-05",
+     "source": "Mint",
+     "title": "Top stocks to watch today: Bharti Airtel, LIC, Nykaa, Torrent Power shares in focus on Thursday, 5 Nov | Full list",
+     "url": "https://www.livemint.com/market/stock-market-news/top-stocks-to-watch-today-bharti-airtel-lic-nykaa-torrent-power-shares-in-focus-on-thursday-5-nov-full-list-11793843425775.html"
+    },
+    {
+     "date": "2026-11-05",
+     "source": "Mint",
+     "title": "Upbeat Earnings Bolster Case for India Stocks as Asia Wavers",
+     "url": "https://www.livemint.com/market/upbeat-earnings-bolster-case-for-india-stocks-as-asia-wavers-11793843572772.html"
+    },
+    {
+     "date": "2026-11-05",
+     "source": "Mint",
+     "title": "Stock market outlook today, 5 Nov: Sensex, Nifty prediction - DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues",
+     "url": "https://www.livemint.com/market/stock-market-news/stock-market-outlook-today-5-nov-sensex-nifty-prediction-djia-s-p-nasdaq-gift-nifty-kospi-nikkei-taiwan-11793841005838.html"
+    },
     {
      "date": "2026-11-05",
      "source": "Mint",
@@ -1450,59 +1522,23 @@
      "source": "Mint",
      "title": "SBI’s conservative FY27 guidance leaves investors wanting more",
      "url": "https://www.livemint.com/market/stock-market-news/sbi-q2-earnings-fy27-guidance-investor-wanting-more-11793783435201.html"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "Mint",
-     "title": "Stock Market Outlook: History favours bulls in November, but can Nifty rally despite global headwinds?",
-     "url": "https://www.livemint.com/market/stock-market-news/stock-market-outlook-history-favours-bulls-in-november-but-can-nifty-rally-despite-global-headwinds-11793782345049.html"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "Mint",
-     "title": "Multibagger HEG Advanced Materials shares hit 20% upper circuit in biggest 1-day gain in 8 years; what drove the rally?",
-     "url": "https://www.livemint.com/market/stock-market-news/multibagger-heg-advanced-materials-shares-hit-20-upper-circuit-in-biggest-1-day-gain-in-8-years-what-drove-the-rally-11793785661852.html"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "Mint",
-     "title": "US Midterm Elections: Kalyan Jewellers, PC, Lalithaa to Senco; top jewellery stock to buy as gold, silver rates rebound",
-     "url": "https://www.livemint.com/market/stock-market-news/us-midterm-elections-kalyan-jewellers-pc-lalithaa-to-senco-top-jewellery-stock-to-buy-as-gold-silver-rates-rebound-11793764057589.html"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "Mint",
-     "title": "Small-cap stock with 1:10 split, 1:2 bonus shares and dividend history jumps 4% after Q2 results; do you own it?",
-     "url": "https://www.livemint.com/market/stock-market-news/smallcap-stock-with-1-10-stock-split-1-2-bonus-shares-dividend-history-jumps-4-after-q2-results-2026-do-you-own-11793784583281.html"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "Mint",
-     "title": "Multibagger NSE SME stock turns ₹1.22 lakh of share allottees into ₹4.80 lakh in 16 months | Do you own this?",
-     "url": "https://www.livemint.com/market/stock-market-news/multibagger-nse-sme-stock-turns-rs-1-22-lakh-of-share-allottees-into-rs-4-80-lakh-in-16-months-do-you-own-this-11793779899334.html"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "Mint",
-     "title": "Muhurat Trading Picks: Tata Steel, Coal India to BEL - HDFC Sec recommends these 10 stocks to buy on Diwali | Full list",
-     "url": "https://www.livemint.com/market/stock-market-news/muhurat-trading-picks-tata-steel-coal-india-to-bel-hdfc-sec-recommends-these-10-stocks-to-buy-on-diwali-full-list-11793775411307.html"
-    },
-    {
-     "date": "2026-11-04",
-     "source": "Mint",
-     "title": "Diwali stock picks, Samvat 2083: Park Medi, HDFC, Paytm, Meesho, Ather among Ventura picks- Which offers highest upside?",
-     "url": "https://www.livemint.com/market/stock-market-news/diwali-stock-picks-samvat-2083-park-medi-hdfc-paytm-meesho-ather-among-ventura-picks-which-offers-highest-upside-11793775881503.html"
     }
    ]
   },
   "https://www.thehindubusinessline.com/markets/feeder/default.rss": {
-   "fetched": "2026-11-05T07:15+05:30",
+   "fetched": "2026-11-05T08:45+05:30",
    "items": [
     {
      "date": "2026-11-05",
      "source": "BusinessLine",
-     "title": "Sensex today | Stock Market Live Updates: Stock to buy today: Usha Martin (₹486) – BUY",
+     "title": "Sensex today | Stock Market Live Updates: Indian stocks seen opening higher amid positive global cues",
      "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-5-november-2026/article71665358.ece"
+    },
+    {
+     "date": "2026-11-05",
+     "source": "BusinessLine",
+     "title": "Mahanadi Coalfields IPO gets SEBI approval; Coal India to sell 10% stake",
+     "url": "https://www.thehindubusinessline.com/markets/mahanadi-coalfields-ipo-gets-sebi-approval-coal-india-to-sell-10-stake/article71668486.ece"
     },
     {
      "date": "2026-11-05",
@@ -1851,17 +1887,11 @@
      "source": "BusinessLine",
      "title": "Reliance shares in focus for 2nd session, SAMCO flags historical rally pattern",
      "url": "https://www.thehindubusinessline.com/markets/reliance-industries-ril-shares-in-focus-for-second-session-samco-highlights-historical-rally-pattern/article71659509.ece"
-    },
-    {
-     "date": "2026-11-03",
-     "source": "BusinessLine",
-     "title": "R&D-focused companies deliver 23.5% returns, outperform NSE 500: Monarch AIF",
-     "url": "https://www.thehindubusinessline.com/markets/rd-focused-companies-deliver-235-returns-outperform-nse-500-monarch-aif/article71659791.ece"
     }
    ]
   },
   "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss": {
-   "fetched": "2026-11-05T07:15+05:30",
+   "fetched": "2026-11-05T08:45+05:30",
    "items": [
     {
      "date": "2026-10-26",
@@ -1987,7 +2017,7 @@
   }
  },
  "hgsindialt": {
-  "checked": "2026-11-05T08:31+05:30",
+  "checked": "2026-11-05T08:45+05:30",
   "items": [
    {
     "date": "2026-10-30",
@@ -1998,7 +2028,7 @@
   ]
  },
  "maxengs": {
-  "checked": "2026-11-05T08:31+05:30",
+  "checked": "2026-11-05T08:45+05:30",
   "items": [
    {
     "date": "2026-10-30",
@@ -2009,7 +2039,7 @@
   ]
  },
  "vpfl": {
-  "checked": "2026-11-05T08:31+05:30",
+  "checked": "2026-11-05T08:45+05:30",
   "items": [
    {
     "date": "2026-11-02",
