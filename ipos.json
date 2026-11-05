@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T23:48+05:30",
+  "generated_at": "2026-11-06T00:01+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-04T11:19+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-05T23:48+05:30",
+    "nse_ok_at": "2026-11-06T00:01+05:30",
     "bse_ok_at": "2026-11-04T11:22+05:30"
   },
   "ipos": [
@@ -1757,12 +1757,12 @@
         {
           "source": "Tracker B",
           "gmp": 8,
-          "at": "2026-11-05T20:55"
+          "at": "2026-11-05T23:55"
         },
         {
           "source": "Tracker D",
           "gmp": 8,
-          "at": "2026-11-05T22:01"
+          "at": "2026-11-06T00:01"
         }
       ],
       "gmp_history": [
@@ -1827,7 +1827,7 @@
       "gmp_low": 7,
       "gmp_high": 10,
       "gmp": 8,
-      "gmp_asof": "2026-11-05T22:01",
+      "gmp_asof": "2026-11-06T00:01",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 9.76,
       "gmp_spread": {
@@ -2064,7 +2064,7 @@
         {
           "source": "Tracker B",
           "gmp": 5,
-          "at": "2026-11-04T23:56"
+          "at": "2026-11-05T00:01"
         },
         {
           "source": "Tracker C",
@@ -2548,7 +2548,7 @@
         {
           "source": "Tracker D",
           "gmp": 111,
-          "at": "2026-11-05T21:15"
+          "at": "2026-11-06T00:01"
         },
         {
           "source": "Tracker B",
@@ -2592,16 +2592,20 @@
         {
           "date": "2026-11-05",
           "gmp": 111
+        },
+        {
+          "date": "2026-11-06",
+          "gmp": 111
         }
       ],
       "history_source": "Tracker D",
       "gmp_low": 25,
       "gmp_high": 117,
       "exchange": "SME",
-      "gmp": 105,
-      "gmp_asof": "2026-11-05T23:10",
-      "gmp_source_latest": "Tracker B",
-      "gmp_pct": 66.46,
+      "gmp": 111,
+      "gmp_asof": "2026-11-06T00:01",
+      "gmp_source_latest": "Tracker D",
+      "gmp_pct": 70.25,
       "gmp_spread": {
         "min": 100,
         "max": 111,
@@ -2611,23 +2615,11 @@
       },
       "gmp_trend": {
         "dir": "rising",
-        "change": 31,
+        "change": 36,
         "days": 3,
-        "since": "2026-11-03"
+        "since": "2026-11-04"
       },
-      "status": "closed",
-      "ai_gmp_none": {
-        "why": "neither check found a figure",
-        "checked": "2026-11-02T13:24+05:30"
-      },
-      "news": [
-        {
-          "date": "2026-10-30",
-          "source": "Economic Times",
-          "title": "Maxwell Engineering, HGS India among 4 SME IPOs to open on October 30; issues to raise Rs 201 crore",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/maxwell-engineering-hgs-india-among-4-sme-ipos-to-open-on-october-30-issues-to-raise-rs-201-crore/articleshow/135343041.cms"
-        }
-      ],
+      "status": "listed",
       "unconfirmed": false
     },
     {
@@ -2704,7 +2696,7 @@
         {
           "source": "Tracker D",
           "gmp": 40,
-          "at": "2026-11-05T21:15"
+          "at": "2026-11-06T00:01"
         },
         {
           "source": "Tracker B",
@@ -2714,11 +2706,11 @@
       ],
       "gmp_history": [
         {
-          "date": "2026-10-31",
-          "gmp": 30
+          "date": "2026-10-30",
+          "gmp": 19
         },
         {
-          "date": "2026-11-01",
+          "date": "2026-10-31",
           "gmp": 30
         },
         {
@@ -2731,21 +2723,25 @@
         },
         {
           "date": "2026-11-04",
-          "gmp": 28
+          "gmp": 23
         },
         {
           "date": "2026-11-05",
-          "gmp": 32
+          "gmp": 40
+        },
+        {
+          "date": "2026-11-06",
+          "gmp": 40
         }
       ],
-      "history_source": "Tracker B",
+      "history_source": "Tracker D",
       "gmp_low": 17,
       "gmp_high": 40,
       "exchange": "SME",
-      "gmp": 32,
-      "gmp_asof": "2026-11-05T22:10",
-      "gmp_source_latest": "Tracker B",
-      "gmp_pct": 26.67,
+      "gmp": 40,
+      "gmp_asof": "2026-11-06T00:01",
+      "gmp_source_latest": "Tracker D",
+      "gmp_pct": 33.33,
       "gmp_spread": {
         "min": 31,
         "max": 40,
@@ -2755,23 +2751,11 @@
       },
       "gmp_trend": {
         "dir": "rising",
-        "change": 7,
+        "change": 17,
         "days": 3,
-        "since": "2026-11-03"
+        "since": "2026-11-04"
       },
-      "status": "closed",
-      "ai_gmp_none": {
-        "why": "we could not confirm it on the page (the site does not allow us to open that page)",
-        "checked": "2026-11-02T13:24+05:30"
-      },
-      "news": [
-        {
-          "date": "2026-10-30",
-          "source": "Economic Times",
-          "title": "Maxwell Engineering, HGS India among 4 SME IPOs to open on October 30; issues to raise Rs 201 crore",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/maxwell-engineering-hgs-india-among-4-sme-ipos-to-open-on-october-30-issues-to-raise-rs-201-crore/articleshow/135343041.cms"
-        }
-      ],
+      "status": "listed",
       "unconfirmed": false
     },
     {
@@ -2905,7 +2889,7 @@
         {
           "source": "Tracker D",
           "gmp": 1,
-          "at": "2026-11-05T21:15"
+          "at": "2026-11-06T00:01"
         },
         {
           "source": "Tracker C",
@@ -2921,11 +2905,7 @@
       "gmp_history": [
         {
           "date": "2026-10-31",
-          "gmp": 5
-        },
-        {
-          "date": "2026-11-01",
-          "gmp": 15
+          "gmp": 4.25
         },
         {
           "date": "2026-11-02",
@@ -2933,7 +2913,7 @@
         },
         {
           "date": "2026-11-03",
-          "gmp": 13
+          "gmp": 12
         },
         {
           "date": "2026-11-04",
@@ -2942,15 +2922,19 @@
         {
           "date": "2026-11-05",
           "gmp": 1
+        },
+        {
+          "date": "2026-11-06",
+          "gmp": 1
         }
       ],
-      "history_source": "Tracker B",
+      "history_source": "Tracker D",
       "gmp_low": 1,
       "gmp_high": 15,
       "exchange": "SME",
       "gmp": 1,
-      "gmp_asof": "2026-11-05T23:45",
-      "gmp_source_latest": "Tracker B",
+      "gmp_asof": "2026-11-06T00:01",
+      "gmp_source_latest": "Tracker D",
       "gmp_pct": 1.06,
       "gmp_spread": {
         "min": 1,
@@ -2960,10 +2944,10 @@
         "diff_pct_of_price": 0.0
       },
       "gmp_trend": {
-        "dir": "falling",
-        "change": -12,
+        "dir": "steady",
+        "change": 0,
         "days": 3,
-        "since": "2026-11-03"
+        "since": "2026-11-04"
       },
       "status": "closed",
       "ai_gmp": {
@@ -3105,14 +3089,14 @@
       "sub_asof": "2026-11-05T19:05",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-05T23:48"
+        "at": "2026-11-06T00:01"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
       "gmp_history": [],
       "gmp": null,
       "gmp_pct": null,
-      "status": "closing_today",
+      "status": "closed",
       "news": [
         {
           "date": "2026-10-29",
@@ -3174,12 +3158,12 @@
         {
           "source": "Tracker D",
           "gmp": 8,
-          "at": "2026-11-05T22:01"
+          "at": "2026-11-06T00:01"
         },
         {
           "source": "Tracker B",
           "gmp": 8,
-          "at": "2026-11-05T20:55"
+          "at": "2026-11-05T23:55"
         }
       ],
       "gmp_history": [
@@ -3214,13 +3198,17 @@
         {
           "date": "2026-11-05",
           "gmp": 8
+        },
+        {
+          "date": "2026-11-06",
+          "gmp": 8
         }
       ],
       "history_source": "Tracker D",
       "gmp_low": 5,
       "gmp_high": 13,
       "gmp": 8,
-      "gmp_asof": "2026-11-05T22:01",
+      "gmp_asof": "2026-11-06T00:01",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 4.0,
       "gmp_spread": {
@@ -3231,23 +3219,12 @@
         "diff_pct_of_price": 0.0
       },
       "gmp_trend": {
-        "dir": "steady",
-        "change": 0,
+        "dir": "rising",
+        "change": 2,
         "days": 3,
-        "since": "2026-11-03"
+        "since": "2026-11-04"
       },
-      "status": "closed",
-      "ai_gmp": {
-        "gmp": 10,
-        "as_of": "2026-10-31",
-        "note": "Johnsoncab Electricals Open, ₹10",
-        "sources": [
-          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG04S5rCjvj5bQ7nmtEp2YAZtBlTQfn8OwhFQvA_wz7gV5RL_ql7I_WmYAh8EF7qQbJUx2qTg8sBfbiRN6wFKNnLmiwid6XVTSH1WUHlpUYd7qWPkfYUovcD-XePWxgQBrRp564qDBXK2tUeRTZOYrq_J6-joVK"
-        ],
-        "model": "gemini-2.5-flash",
-        "checked": "2026-10-31T12:35+05:30",
-        "pct": 5.0
-      },
+      "status": "listed",
       "unconfirmed": false
     },
     {
@@ -3293,18 +3270,14 @@
       "sub_asof": "2026-11-03T17:50",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-05T23:48"
+        "at": "2026-11-06T00:01"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
       "gmp_history": [],
       "gmp": null,
       "gmp_pct": null,
-      "status": "closed",
-      "ai_gmp_none": {
-        "why": "neither check found a figure",
-        "checked": "2026-11-04T11:19+05:30"
-      },
+      "status": "listed",
       "unconfirmed": false
     }
   ]
