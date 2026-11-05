@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T09:31+05:30",
+  "generated_at": "2026-11-05T09:45+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-04T11:19+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-05T09:31+05:30",
+    "nse_ok_at": "2026-11-05T09:45+05:30",
     "bse_ok_at": "2026-11-04T11:22+05:30"
   },
   "ipos": [
@@ -1761,8 +1761,8 @@
         },
         {
           "source": "Tracker D",
-          "gmp": 8.5,
-          "at": "2026-11-05T09:15"
+          "gmp": 8,
+          "at": "2026-11-05T09:45"
         }
       ],
       "gmp_history": [
@@ -1826,16 +1826,16 @@
       "history_source": "Tracker B",
       "gmp_low": 7,
       "gmp_high": 10,
-      "gmp": 8.5,
-      "gmp_asof": "2026-11-05T09:15",
+      "gmp": 8,
+      "gmp_asof": "2026-11-05T09:45",
       "gmp_source_latest": "Tracker D",
-      "gmp_pct": 10.37,
+      "gmp_pct": 9.76,
       "gmp_spread": {
         "min": 7,
-        "max": 8.5,
-        "diff": 1.5,
+        "max": 8,
+        "diff": 1,
         "n": 4,
-        "diff_pct_of_price": 1.83
+        "diff_pct_of_price": 1.22
       },
       "gmp_trend": {
         "dir": "falling",
@@ -2379,7 +2379,6 @@
       "updated_on": "2026-10-31T23:00+05:30",
       "bse_ipo_no": "8062",
       "tracker_rating": 2,
-      "sector": "Gems, Jewellery And Watches",
       "gmp_sources": [
         {
           "source": "Public trackers",
@@ -2534,38 +2533,6 @@
         "ofs_cr": 0.0
       },
       "tracker_rating": 5,
-      "reservation_detail": {
-        "nii": {
-          "pct": 15.13,
-          "shares": 518400
-        },
-        "qib": {
-          "pct": 49.84,
-          "shares": 1707200
-        },
-        "retail": {
-          "pct": 35.03,
-          "shares": 1200000
-        }
-      },
-      "uses": [
-        {
-          "cr": 18.0,
-          "use": "Buying"
-        },
-        {
-          "cr": 6.5,
-          "use": "Facility"
-        },
-        {
-          "cr": 4.3,
-          "use": "Debt"
-        },
-        {
-          "cr": 14.0,
-          "use": "Capital"
-        }
-      ],
       "lot_basis": "tracker",
       "gmp_sources": [
         {
@@ -2580,8 +2547,8 @@
         },
         {
           "source": "Tracker D",
-          "gmp": 75,
-          "at": "2026-11-05T09:15"
+          "gmp": 113,
+          "at": "2026-11-05T09:45"
         },
         {
           "source": "Tracker B",
@@ -2624,17 +2591,17 @@
         },
         {
           "date": "2026-11-05",
-          "gmp": 75
+          "gmp": 113
         }
       ],
       "history_source": "Tracker D",
       "gmp_low": 25,
       "gmp_high": 113,
       "exchange": "SME",
-      "gmp": 75,
-      "gmp_asof": "2026-11-05T09:15",
+      "gmp": 113,
+      "gmp_asof": "2026-11-05T09:45",
       "gmp_source_latest": "Tracker D",
-      "gmp_pct": 47.47,
+      "gmp_pct": 71.52,
       "gmp_spread": {
         "min": 72,
         "max": 113,
@@ -2643,8 +2610,8 @@
         "diff_pct_of_price": 25.95
       },
       "gmp_trend": {
-        "dir": "falling",
-        "change": -5,
+        "dir": "rising",
+        "change": 33,
         "days": 3,
         "since": "2026-11-03"
       },
@@ -2712,9 +2679,9 @@
       "updated_on": "2026-11-04T00:01+05:30",
       "price": 120,
       "reservation": {
-        "qib": 61.28,
-        "nii": 11.67,
-        "retail": 27.05
+        "qib": 50.0,
+        "nii": 15.0,
+        "retail": 35.0
       },
       "sector": "Geophysical Equipment / Seismic Instruments",
       "issue_split": {
@@ -2722,42 +2689,6 @@
         "ofs_cr": 6.65
       },
       "tracker_rating": 4,
-      "reservation_detail": {
-        "bnii": {
-          "pct": 4.64,
-          "shares": 273600
-        },
-        "nii": {
-          "pct": 11.67,
-          "shares": 414000
-        },
-        "qib": {
-          "pct": 61.28,
-          "shares": 2174400
-        },
-        "retail": {
-          "pct": 27.05,
-          "shares": 960000
-        },
-        "snii": {
-          "pct": 13.84,
-          "shares": 140400
-        }
-      },
-      "uses": [
-        {
-          "cr": 15.05,
-          "use": "Plant/Machinery"
-        },
-        {
-          "cr": 1.05,
-          "use": "Facility"
-        },
-        {
-          "cr": 3.26,
-          "use": "ID"
-        }
-      ],
       "lot_basis": "tracker",
       "gmp_sources": [
         {
@@ -2772,8 +2703,8 @@
         },
         {
           "source": "Tracker D",
-          "gmp": 23,
-          "at": "2026-11-05T09:15"
+          "gmp": 28,
+          "at": "2026-11-05T09:45"
         },
         {
           "source": "Tracker B",
@@ -2804,17 +2735,17 @@
         },
         {
           "date": "2026-11-05",
-          "gmp": 23
+          "gmp": 28
         }
       ],
       "history_source": "Tracker D",
       "gmp_low": 17,
       "gmp_high": 30,
       "exchange": "SME",
-      "gmp": 23,
-      "gmp_asof": "2026-11-05T09:15",
+      "gmp": 28,
+      "gmp_asof": "2026-11-05T09:45",
       "gmp_source_latest": "Tracker D",
-      "gmp_pct": 19.17,
+      "gmp_pct": 23.33,
       "gmp_spread": {
         "min": 21,
         "max": 28,
@@ -2823,8 +2754,8 @@
         "diff_pct_of_price": 5.83
       },
       "gmp_trend": {
-        "dir": "falling",
-        "change": -2,
+        "dir": "rising",
+        "change": 3,
         "days": 3,
         "since": "2026-11-03"
       },
@@ -3174,7 +3105,7 @@
       "sub_asof": "2026-11-04T17:05",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-05T09:31"
+        "at": "2026-11-05T09:45"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3207,9 +3138,9 @@
         "ISK Advisors Pvt. Ltd."
       ],
       "reservation": {
-        "qib": 49.86,
-        "nii": 15.03,
-        "retail": 35.11
+        "qib": 50.0,
+        "nii": 15.0,
+        "retail": 35.0
       },
       "sector": "Electrical Wires & Cables",
       "issue_split": {
@@ -3217,80 +3148,6 @@
         "ofs_cr": 0.0
       },
       "tracker_rating": 1,
-      "reservation_detail": {
-        "nii": {
-          "pct": 15.03,
-          "shares": 399600
-        },
-        "qib": {
-          "pct": 49.86,
-          "shares": 1326000
-        },
-        "retail": {
-          "pct": 35.11,
-          "shares": 933600
-        }
-      },
-      "uses": [
-        {
-          "cr": 7.89,
-          "use": "Expand"
-        },
-        {
-          "cr": 9.9,
-          "use": "Plant/Machine"
-        },
-        {
-          "cr": 6.89,
-          "use": "Machine"
-        },
-        {
-          "cr": 3.23,
-          "use": "Solar Plant"
-        },
-        {
-          "cr": 14.0,
-          "use": "Capital"
-        }
-      ],
-      "fin": {
-        "years": [
-          {
-            "assets": 48.44,
-            "debt": 32.81,
-            "ebitda": 5.42,
-            "income": 88.95,
-            "net_worth": 8.88,
-            "pat": 2.52,
-            "roce": 19.89,
-            "roe": 28.41,
-            "y": "FY24"
-          },
-          {
-            "assets": 64.28,
-            "debt": 41.79,
-            "ebitda": 12.14,
-            "income": 140,
-            "net_worth": 14.24,
-            "pat": 5.46,
-            "roce": 32.56,
-            "roe": 38.34,
-            "y": "FY25"
-          },
-          {
-            "assets": 126.64,
-            "debt": 79.88,
-            "ebitda": 24.06,
-            "income": 211.34,
-            "net_worth": 31.44,
-            "pat": 13.42,
-            "roce": 39.68,
-            "roe": 42.65,
-            "y": "FY26"
-          }
-        ],
-        "ratios": {}
-      },
       "sub": {
         "retail": 17.53,
         "nii": 42.25,
@@ -3308,8 +3165,8 @@
         },
         {
           "source": "Tracker D",
-          "gmp": 6,
-          "at": "2026-11-05T09:15"
+          "gmp": 8,
+          "at": "2026-11-05T09:45"
         },
         {
           "source": "Tracker B",
@@ -3348,26 +3205,26 @@
         },
         {
           "date": "2026-11-05",
-          "gmp": 6
+          "gmp": 8
         }
       ],
       "history_source": "Tracker D",
       "gmp_low": 5,
       "gmp_high": 13,
-      "gmp": 6,
-      "gmp_asof": "2026-11-05T09:15",
+      "gmp": 8,
+      "gmp_asof": "2026-11-05T09:45",
       "gmp_source_latest": "Tracker D",
-      "gmp_pct": 3.0,
+      "gmp_pct": 4.0,
       "gmp_spread": {
-        "min": 6,
+        "min": 8,
         "max": 8,
-        "diff": 2,
+        "diff": 0,
         "n": 3,
-        "diff_pct_of_price": 1.0
+        "diff_pct_of_price": 0.0
       },
       "gmp_trend": {
-        "dir": "falling",
-        "change": -2,
+        "dir": "steady",
+        "change": 0,
         "days": 3,
         "since": "2026-11-03"
       },
@@ -3408,10 +3265,9 @@
         "Beeline Capital Advisors Pvt. Ltd."
       ],
       "reservation": {
-        "qib": 49.99,
+        "qib": 50.0,
         "nii": 15.0,
-        "retail": 35.01,
-        "market_maker": 6.55
+        "retail": 35.0
       },
       "sector": "Oil & Gas Infrastructure / EPC",
       "issue_split": {
@@ -3419,80 +3275,6 @@
         "ofs_cr": 10.46
       },
       "tracker_rating": 1,
-      "reservation_detail": {
-        "bnii": {
-          "pct": 9.55,
-          "shares": 482400
-        },
-        "market_maker": {
-          "pct": 6.55,
-          "shares": 253200
-        },
-        "nii": {
-          "pct": 15.0,
-          "shares": 720000
-        },
-        "qib": {
-          "pct": 49.99,
-          "shares": 2398800
-        },
-        "retail": {
-          "pct": 35.01,
-          "shares": 1680000
-        },
-        "snii": {
-          "pct": 4.7,
-          "shares": 237600
-        }
-      },
-      "uses": [
-        {
-          "cr": 14.0,
-          "use": "Debt"
-        },
-        {
-          "cr": 20.0,
-          "use": "Capital"
-        }
-      ],
-      "fin": {
-        "years": [
-          {
-            "assets": 21.47,
-            "debt": 4.16,
-            "ebitda": 8.67,
-            "income": 54.37,
-            "net_worth": 12.15,
-            "pat": 5.81,
-            "roce": 79.27,
-            "roe": 93.02,
-            "y": "FY24"
-          },
-          {
-            "assets": 46.5,
-            "debt": 11.87,
-            "ebitda": 15.05,
-            "income": 80.53,
-            "net_worth": 22.32,
-            "pat": 10.17,
-            "roce": 56.09,
-            "roe": 59,
-            "y": "FY25"
-          },
-          {
-            "assets": 74.94,
-            "debt": 22.21,
-            "ebitda": 24.01,
-            "income": 119.9,
-            "net_worth": 37.75,
-            "pat": 15.43,
-            "roce": 48.37,
-            "roe": 51.39,
-            "y": "FY26"
-          }
-        ],
-        "ratios": {}
-      },
       "sub": {
         "retail": 4.45,
         "nii": 6.69,
@@ -3503,7 +3285,7 @@
       "sub_asof": "2026-11-03T17:50",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-05T09:31"
+        "at": "2026-11-05T09:45"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
