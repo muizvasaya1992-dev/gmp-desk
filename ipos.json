@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T11:45+05:30",
+  "generated_at": "2026-11-05T12:01+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-04T11:19+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-05T11:45+05:30",
+    "nse_ok_at": "2026-11-05T12:01+05:30",
     "bse_ok_at": "2026-11-04T11:22+05:30"
   },
   "ipos": [
@@ -1757,7 +1757,7 @@
         {
           "source": "Tracker B",
           "gmp": 8,
-          "at": "2026-11-05T08:41"
+          "at": "2026-11-05T11:55"
         },
         {
           "source": "Tracker D",
@@ -1827,8 +1827,8 @@
       "gmp_low": 7,
       "gmp_high": 10,
       "gmp": 8,
-      "gmp_asof": "2026-11-05T09:45",
-      "gmp_source_latest": "Tracker D",
+      "gmp_asof": "2026-11-05T11:55",
+      "gmp_source_latest": "Tracker B",
       "gmp_pct": 9.76,
       "gmp_spread": {
         "min": 7,
@@ -2537,8 +2537,8 @@
       "gmp_sources": [
         {
           "source": "Public trackers",
-          "gmp": 85,
-          "at": "2026-11-05T10:00"
+          "gmp": 100,
+          "at": "2026-11-05T11:45"
         },
         {
           "source": "Tracker C",
@@ -2552,8 +2552,8 @@
         },
         {
           "source": "Tracker B",
-          "gmp": 113,
-          "at": "2026-11-05T08:41"
+          "gmp": 115,
+          "at": "2026-11-05T11:55"
         }
       ],
       "gmp_history": [
@@ -2599,15 +2599,15 @@
       "gmp_high": 115,
       "exchange": "SME",
       "gmp": 115,
-      "gmp_asof": "2026-11-05T10:45",
-      "gmp_source_latest": "Tracker D",
+      "gmp_asof": "2026-11-05T11:55",
+      "gmp_source_latest": "Tracker B",
       "gmp_pct": 72.78,
       "gmp_spread": {
-        "min": 85,
+        "min": 100,
         "max": 115,
-        "diff": 30,
+        "diff": 15,
         "n": 4,
-        "diff_pct_of_price": 18.99
+        "diff_pct_of_price": 9.49
       },
       "gmp_trend": {
         "dir": "rising",
@@ -2622,10 +2622,10 @@
       },
       "news": [
         {
-          "title": "Maxwell Engineering, HGS India among 4 SME IPOs to open on October 30; issues to raise Rs 201 crore",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/maxwell-engineering-hgs-india-among-4-sme-ipos-to-open-on-october-30-issues-to-raise-rs-201-crore/articleshow/135343041.cms",
+          "date": "2026-10-30",
           "source": "Economic Times",
-          "date": "2026-10-30"
+          "title": "Maxwell Engineering, HGS India among 4 SME IPOs to open on October 30; issues to raise Rs 201 crore",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/maxwell-engineering-hgs-india-among-4-sme-ipos-to-open-on-october-30-issues-to-raise-rs-201-crore/articleshow/135343041.cms"
         }
       ],
       "unconfirmed": false
@@ -2693,8 +2693,8 @@
       "gmp_sources": [
         {
           "source": "Public trackers",
-          "gmp": 27,
-          "at": "2026-11-05T10:30"
+          "gmp": 31,
+          "at": "2026-11-05T11:45"
         },
         {
           "source": "Tracker C",
@@ -2708,8 +2708,8 @@
         },
         {
           "source": "Tracker B",
-          "gmp": 28,
-          "at": "2026-11-05T11:40"
+          "gmp": 34,
+          "at": "2026-11-05T11:55"
         }
       ],
       "gmp_history": [
@@ -2735,27 +2735,27 @@
         },
         {
           "date": "2026-11-05",
-          "gmp": 28
+          "gmp": 34
         }
       ],
       "history_source": "Tracker B",
       "gmp_low": 17,
       "gmp_high": 34,
       "exchange": "SME",
-      "gmp": 28,
-      "gmp_asof": "2026-11-05T11:40",
+      "gmp": 34,
+      "gmp_asof": "2026-11-05T11:55",
       "gmp_source_latest": "Tracker B",
-      "gmp_pct": 23.33,
+      "gmp_pct": 28.33,
       "gmp_spread": {
-        "min": 27,
+        "min": 28,
         "max": 34,
-        "diff": 7,
+        "diff": 6,
         "n": 4,
-        "diff_pct_of_price": 5.83
+        "diff_pct_of_price": 5.0
       },
       "gmp_trend": {
         "dir": "rising",
-        "change": 3,
+        "change": 9,
         "days": 3,
         "since": "2026-11-03"
       },
@@ -2766,10 +2766,10 @@
       },
       "news": [
         {
-          "title": "Maxwell Engineering, HGS India among 4 SME IPOs to open on October 30; issues to raise Rs 201 crore",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/maxwell-engineering-hgs-india-among-4-sme-ipos-to-open-on-october-30-issues-to-raise-rs-201-crore/articleshow/135343041.cms",
+          "date": "2026-10-30",
           "source": "Economic Times",
-          "date": "2026-10-30"
+          "title": "Maxwell Engineering, HGS India among 4 SME IPOs to open on October 30; issues to raise Rs 201 crore",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/maxwell-engineering-hgs-india-among-4-sme-ipos-to-open-on-october-30-issues-to-raise-rs-201-crore/articleshow/135343041.cms"
         }
       ],
       "unconfirmed": false
@@ -2979,10 +2979,10 @@
       },
       "news": [
         {
-          "title": "Vedant Poly Fabs SME IPO opens today; GMP at 16%, check key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/vedant-poly-fabs-sme-ipo-opens-today-gmp-at-16-check-key-details/articleshow/135446827.cms",
+          "date": "2026-11-02",
           "source": "Economic Times",
-          "date": "2026-11-02"
+          "title": "Vedant Poly Fabs SME IPO opens today; GMP at 16%, check key details",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/vedant-poly-fabs-sme-ipo-opens-today-gmp-at-16-check-key-details/articleshow/135446827.cms"
         }
       ],
       "unconfirmed": false
@@ -3102,10 +3102,10 @@
         "total": 5.78
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-05T11:40",
+      "sub_asof": "2026-11-05T11:57",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-05T11:45"
+        "at": "2026-11-05T12:01"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3115,10 +3115,10 @@
       "status": "closing_today",
       "news": [
         {
-          "title": "Antala Industries SME IPO opens today: Check price band and key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/antala-industries-sme-ipo-opens-today-check-price-band-and-key-details/articleshow/135289593.cms",
+          "date": "2026-10-29",
           "source": "Economic Times",
-          "date": "2026-10-29"
+          "title": "Antala Industries SME IPO opens today: Check price band and key details",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/antala-industries-sme-ipo-opens-today-check-price-band-and-key-details/articleshow/135289593.cms"
         }
       ],
       "unconfirmed": false
@@ -3179,7 +3179,7 @@
         {
           "source": "Tracker B",
           "gmp": 8,
-          "at": "2026-11-05T08:41"
+          "at": "2026-11-05T11:55"
         }
       ],
       "gmp_history": [
@@ -3220,8 +3220,8 @@
       "gmp_low": 5,
       "gmp_high": 13,
       "gmp": 8,
-      "gmp_asof": "2026-11-05T10:31",
-      "gmp_source_latest": "Tracker D",
+      "gmp_asof": "2026-11-05T11:55",
+      "gmp_source_latest": "Tracker B",
       "gmp_pct": 4.0,
       "gmp_spread": {
         "min": 8,
@@ -3293,7 +3293,7 @@
       "sub_asof": "2026-11-03T17:50",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-05T11:45"
+        "at": "2026-11-05T12:01"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
