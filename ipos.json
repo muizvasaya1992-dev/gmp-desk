@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T12:45+05:30",
+  "generated_at": "2026-11-05T13:00+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-04T11:19+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-05T12:45+05:30",
+    "nse_ok_at": "2026-11-05T13:00+05:30",
     "bse_ok_at": "2026-11-04T11:22+05:30"
   },
   "ipos": [
@@ -2708,17 +2708,17 @@
         },
         {
           "source": "Tracker B",
-          "gmp": 34,
-          "at": "2026-11-05T11:55"
+          "gmp": 38,
+          "at": "2026-11-05T12:55"
         }
       ],
       "gmp_history": [
         {
-          "date": "2026-10-30",
-          "gmp": 19
+          "date": "2026-10-31",
+          "gmp": 30
         },
         {
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "gmp": 30
         },
         {
@@ -2731,20 +2731,20 @@
         },
         {
           "date": "2026-11-04",
-          "gmp": 23
+          "gmp": 28
         },
         {
           "date": "2026-11-05",
           "gmp": 38
         }
       ],
-      "history_source": "Tracker D",
+      "history_source": "Tracker B",
       "gmp_low": 17,
       "gmp_high": 38,
       "exchange": "SME",
       "gmp": 38,
-      "gmp_asof": "2026-11-05T12:45",
-      "gmp_source_latest": "Tracker D",
+      "gmp_asof": "2026-11-05T12:55",
+      "gmp_source_latest": "Tracker B",
       "gmp_pct": 31.67,
       "gmp_spread": {
         "min": 28,
@@ -3102,10 +3102,10 @@
         "total": 5.78
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-05T12:42",
+      "sub_asof": "2026-11-05T12:55",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-05T12:45"
+        "at": "2026-11-05T13:00"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3293,7 +3293,7 @@
       "sub_asof": "2026-11-03T17:50",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-05T12:45"
+        "at": "2026-11-05T13:00"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
