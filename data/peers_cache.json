@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-06T09:31+05:30",
+  "fetched_at": "2026-11-06T09:45+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,7 +16,7 @@
     "price_low": 63.0,
     "size_cr": 23.33,
     "gmp": 0.0,
-    "gmp_at": "2026-11-06T09:25",
+    "gmp_at": "2026-11-06T09:40",
     "sub_total": 12.79,
     "sub_retail": 5.22,
     "sub_at": "2026-11-05T19:05",
@@ -85,7 +85,7 @@
     "price_low": 88.0,
     "size_cr": 56.68,
     "gmp": 1.0,
-    "gmp_at": "2026-11-06T09:25",
+    "gmp_at": "2026-11-06T09:40",
     "sub_total": 1.9,
     "sub_retail": 2.26,
     "sub_at": "2026-11-04T19:05",
@@ -286,6 +286,75 @@
    },
    {
     "src": "Tracker B",
+    "slug": "vectras-enprocon",
+    "name": "Vectras Enprocon",
+    "segment": "SME",
+    "exchange": "BSE SME",
+    "open": "2026-10-30",
+    "close": "2026-11-03",
+    "boa": "2026-11-04",
+    "listing": "2026-11-06",
+    "price": 105.0,
+    "price_low": 99.0,
+    "size_cr": 53.05,
+    "gmp": 0.0,
+    "gmp_at": "2026-11-06T09:40",
+    "sub_total": 4.2,
+    "sub_retail": 4.45,
+    "sub_at": "2026-11-03T17:50",
+    "sub_cats": {
+     "retail": 4.45,
+     "nii": 6.69,
+     "qib": 1.88,
+     "total": 4.2
+    },
+    "gmp_days": [
+     [
+      "2026-10-30",
+      0.0
+     ],
+     [
+      "2026-10-31",
+      0.0
+     ],
+     [
+      "2026-11-01",
+      0.0
+     ],
+     [
+      "2026-11-02",
+      0.0
+     ],
+     [
+      "2026-11-03",
+      0.0
+     ],
+     [
+      "2026-11-04",
+      0.0
+     ],
+     [
+      "2026-11-05",
+      0.0
+     ]
+    ],
+    "rhp_url": null,
+    "drhp_url": null,
+    "lot_raw": 2400.0,
+    "sector": "Oil & Gas Infrastructure / EPC",
+    "quota": {
+     "qib": 50.0,
+     "nii": 15.0,
+     "retail": 35.0
+    },
+    "fresh_cr": 42.59,
+    "ofs_cr": 10.46,
+    "registrar": "MUFG Intime India Pvt. Ltd.",
+    "lead_manager": "Beeline Capital Advisors Pvt. Ltd.",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
     "slug": "hgs-india",
     "name": "HGS (India)",
     "segment": "SME",
@@ -298,7 +367,7 @@
     "price_low": 114.0,
     "size_cr": 34.56,
     "gmp": 27.0,
-    "gmp_at": "2026-11-06T09:25",
+    "gmp_at": "2026-11-06T09:40",
     "sub_total": 247.3,
     "sub_retail": 233.27,
     "sub_at": "2026-11-03T19:10",
@@ -367,7 +436,7 @@
     "price_low": 150.0,
     "size_cr": 57.64,
     "gmp": 105.0,
-    "gmp_at": "2026-11-06T09:25",
+    "gmp_at": "2026-11-06T09:40",
     "sub_total": 536.8,
     "sub_retail": 556.09,
     "sub_at": "2026-11-03T19:06",
@@ -436,7 +505,7 @@
     "price_low": 190.0,
     "size_cr": 56.02,
     "gmp": 8.0,
-    "gmp_at": "2026-11-06T09:25",
+    "gmp_at": "2026-11-06T09:40",
     "sub_total": 23.58,
     "sub_retail": 17.53,
     "sub_at": "2026-11-03T19:06",
@@ -486,80 +555,11 @@
     "registrar": "Maashitla Securities Pvt. Ltd.",
     "lead_manager": "ISK Advisors Pvt. Ltd.",
     "live": true
-   },
-   {
-    "src": "Tracker B",
-    "slug": "vectras-enprocon",
-    "name": "Vectras Enprocon",
-    "segment": "SME",
-    "exchange": "BSE SME",
-    "open": "2026-10-30",
-    "close": "2026-11-03",
-    "boa": "2026-11-04",
-    "listing": "2026-11-06",
-    "price": 105.0,
-    "price_low": 99.0,
-    "size_cr": 53.05,
-    "gmp": 0.0,
-    "gmp_at": "2026-11-06T09:25",
-    "sub_total": 4.2,
-    "sub_retail": 4.45,
-    "sub_at": "2026-11-03T17:50",
-    "sub_cats": {
-     "retail": 4.45,
-     "nii": 6.69,
-     "qib": 1.88,
-     "total": 4.2
-    },
-    "gmp_days": [
-     [
-      "2026-10-30",
-      0.0
-     ],
-     [
-      "2026-10-31",
-      0.0
-     ],
-     [
-      "2026-11-01",
-      0.0
-     ],
-     [
-      "2026-11-02",
-      0.0
-     ],
-     [
-      "2026-11-03",
-      0.0
-     ],
-     [
-      "2026-11-04",
-      0.0
-     ],
-     [
-      "2026-11-05",
-      0.0
-     ]
-    ],
-    "rhp_url": null,
-    "drhp_url": null,
-    "lot_raw": 2400.0,
-    "sector": "Oil & Gas Infrastructure / EPC",
-    "quota": {
-     "qib": 50.0,
-     "nii": 15.0,
-     "retail": 35.0
-    },
-    "fresh_cr": 42.59,
-    "ofs_cr": 10.46,
-    "registrar": "MUFG Intime India Pvt. Ltd.",
-    "lead_manager": "Beeline Capital Advisors Pvt. Ltd.",
-    "live": true
    }
   ]
  },
  "c": {
-  "fetched_at": "2026-11-06T09:31+05:30",
+  "fetched_at": "2026-11-06T09:45+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -1114,7 +1114,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-06T09:31+05:30",
+  "fetched_at": "2026-11-06T09:45+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -1122,8 +1122,8 @@
     "name": "Antala Industries",
     "segment": "SME",
     "exchange": null,
-    "open": "2026-10-29",
-    "close": "2026-11-05",
+    "open": null,
+    "close": null,
     "boa": null,
     "listing": "2026-11-11",
     "price": 67.0,
@@ -1131,7 +1131,7 @@
     "size_cr": 23.33,
     "gmp": 0.0,
     "gmp_at": null,
-    "sub_total": 12.79,
+    "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
     "lot": 2000.0,
@@ -1254,7 +1254,7 @@
     "open": null,
     "close": null,
     "boa": null,
-    "listing": "2026-11-09",
+    "listing": null,
     "price": 94.0,
     "price_low": 88.0,
     "size_cr": 56.68,
@@ -1266,113 +1266,7 @@
     "lot": 1200.0,
     "sector": "Packaging",
     "detail_url": "https://ipoindex.in/ipo/vedant-poly-fabs-sme-ipo/",
-    "live": true,
-    "detail": {
-     "gmp_history": [
-      [
-       "2026-11-05",
-       1.0
-      ],
-      [
-       "2026-11-04",
-       1.0
-      ],
-      [
-       "2026-11-03",
-       12.0
-      ],
-      [
-       "2026-11-02",
-       15.0
-      ],
-      [
-       "2026-10-31",
-       4.0
-      ],
-      [
-       "2026-10-30",
-       0.0
-      ],
-      [
-       "2026-10-29",
-       0.0
-      ]
-     ],
-     "reservation": {
-      "market_maker": {
-       "pct": 5.05,
-       "shares": 304800
-      },
-      "nii": {
-       "pct": 37.49,
-       "shares": 2260800
-      },
-      "qib": {
-       "pct": 1.13,
-       "shares": 68400
-      },
-      "retail": {
-       "pct": 56.32,
-       "shares": 3396000
-      }
-     },
-     "sub": {
-      "nii": 1.38,
-      "qib": 1.0,
-      "retail": 2.26,
-      "total": 1.9
-     },
-     "sub_at": "2026-11-04T17:05",
-     "uses": [
-      {
-       "cr": 17.59,
-       "use": "Capital"
-      },
-      {
-       "cr": 8.0,
-       "use": "Debt"
-      },
-      {
-       "cr": 6.51,
-       "use": "Assets"
-      }
-     ],
-     "years": [
-      {
-       "assets": 18.87,
-       "debt": 6.34,
-       "ebitda": 1.28,
-       "income": 49.53,
-       "net_worth": 3.85,
-       "pat": 0.63,
-       "roce": 20.97,
-       "roe": 16.36,
-       "y": "FY24"
-      },
-      {
-       "assets": 55.39,
-       "debt": 11.31,
-       "ebitda": 7.74,
-       "income": 81.02,
-       "net_worth": 15.42,
-       "pat": 4.56,
-       "roce": 47.31,
-       "roe": 29.57,
-       "y": "FY25"
-      },
-      {
-       "assets": 97.8,
-       "debt": 46.8,
-       "ebitda": 19,
-       "income": 115.13,
-       "net_worth": 42.25,
-       "pat": 10.97,
-       "roce": 38.03,
-       "roe": 25.96,
-       "y": "FY26"
-      }
-     ]
-    }
+    "live": false
    },
    {
     "src": "Tracker D",
@@ -1387,7 +1281,7 @@
     "price": 120.0,
     "price_low": 114.0,
     "size_cr": 34.56,
-    "gmp": 40.0,
+    "gmp": 27.0,
     "gmp_at": null,
     "sub_total": null,
     "sub_retail": null,
@@ -1410,7 +1304,7 @@
     "price": 158.0,
     "price_low": 150.0,
     "size_cr": 58.0,
-    "gmp": 111.0,
+    "gmp": 105.0,
     "gmp_at": null,
     "sub_total": null,
     "sub_retail": null,
@@ -1464,29 +1358,6 @@
     "lot": 1200.0,
     "sector": "Engineering, Procurement & Construction (EPC)",
     "detail_url": "https://ipoindex.in/ipo/vectras-enprocon-sme-ipo/",
-    "live": false
-   },
-   {
-    "src": "Tracker D",
-    "slug": "bombay-coated-special-steels",
-    "name": "Bombay Coated & Special Steels",
-    "segment": "MAIN",
-    "exchange": null,
-    "open": null,
-    "close": null,
-    "boa": null,
-    "listing": null,
-    "price": 82.0,
-    "price_low": 78.0,
-    "size_cr": 183.06,
-    "gmp": 8.0,
-    "gmp_at": null,
-    "sub_total": null,
-    "sub_retail": null,
-    "sub_at": null,
-    "lot": 182.0,
-    "sector": "Iron & Steel Products",
-    "detail_url": "https://ipoindex.in/ipo/bombay-coated-special-steels-ipo/",
     "live": false
    }
   ]

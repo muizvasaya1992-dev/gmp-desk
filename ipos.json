@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T09:31+05:30",
+  "generated_at": "2026-11-06T09:45+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-04T11:19+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-06T09:31+05:30",
+    "nse_ok_at": "2026-11-06T09:45+05:30",
     "bse_ok_at": "2026-11-04T11:22+05:30"
   },
   "ipos": [
@@ -1738,7 +1738,6 @@
       "shares_offered": 16533012.0,
       "bse_ipo_no": "8065",
       "tracker_rating": 2,
-      "sector": "Iron & Steel Products",
       "gmp_sources": [
         {
           "source": "Public trackers",
@@ -2543,8 +2542,8 @@
         },
         {
           "source": "Tracker D",
-          "gmp": 111,
-          "at": "2026-11-06T09:15"
+          "gmp": 105,
+          "at": "2026-11-06T09:45"
         },
         {
           "source": "Tracker B",
@@ -2591,27 +2590,27 @@
         },
         {
           "date": "2026-11-06",
-          "gmp": 111
+          "gmp": 105
         }
       ],
       "history_source": "Tracker D",
       "gmp_low": 25,
       "gmp_high": 117,
       "exchange": "SME",
-      "gmp": 111,
-      "gmp_asof": "2026-11-06T09:15",
+      "gmp": 105,
+      "gmp_asof": "2026-11-06T09:45",
       "gmp_source_latest": "Tracker D",
-      "gmp_pct": 70.25,
+      "gmp_pct": 66.46,
       "gmp_spread": {
         "min": 95,
-        "max": 111,
-        "diff": 16,
+        "max": 105,
+        "diff": 10,
         "n": 4,
-        "diff_pct_of_price": 10.13
+        "diff_pct_of_price": 6.33
       },
       "gmp_trend": {
         "dir": "rising",
-        "change": 36,
+        "change": 30,
         "days": 3,
         "since": "2026-11-04"
       },
@@ -2691,8 +2690,8 @@
         },
         {
           "source": "Tracker D",
-          "gmp": 40,
-          "at": "2026-11-06T09:15"
+          "gmp": 27,
+          "at": "2026-11-06T09:45"
         },
         {
           "source": "Tracker B",
@@ -2727,27 +2726,27 @@
         },
         {
           "date": "2026-11-06",
-          "gmp": 40
+          "gmp": 27
         }
       ],
       "history_source": "Tracker D",
       "gmp_low": 17,
       "gmp_high": 40,
       "exchange": "SME",
-      "gmp": 40,
-      "gmp_asof": "2026-11-06T09:15",
+      "gmp": 27,
+      "gmp_asof": "2026-11-06T09:45",
       "gmp_source_latest": "Tracker D",
-      "gmp_pct": 33.33,
+      "gmp_pct": 22.5,
       "gmp_spread": {
         "min": 25,
-        "max": 40,
-        "diff": 15,
+        "max": 27,
+        "diff": 2,
         "n": 4,
-        "diff_pct_of_price": 12.5
+        "diff_pct_of_price": 1.67
       },
       "gmp_trend": {
         "dir": "rising",
-        "change": 17,
+        "change": 4,
         "days": 3,
         "since": "2026-11-04"
       },
@@ -2799,10 +2798,9 @@
       "updated_on": "2026-11-05T00:01+05:30",
       "price": 94,
       "reservation": {
-        "qib": 1.13,
-        "nii": 37.49,
-        "retail": 56.32,
-        "market_maker": 5.05
+        "qib": 50.0,
+        "nii": 15.0,
+        "retail": 35.0
       },
       "sector": "Flexible Packaging",
       "issue_split": {
@@ -2810,76 +2808,6 @@
         "ofs_cr": 5.67
       },
       "tracker_rating": 1,
-      "reservation_detail": {
-        "market_maker": {
-          "pct": 5.05,
-          "shares": 304800
-        },
-        "nii": {
-          "pct": 37.49,
-          "shares": 2260800
-        },
-        "qib": {
-          "pct": 1.13,
-          "shares": 68400
-        },
-        "retail": {
-          "pct": 56.32,
-          "shares": 3396000
-        }
-      },
-      "uses": [
-        {
-          "cr": 17.59,
-          "use": "Capital"
-        },
-        {
-          "cr": 8.0,
-          "use": "Debt"
-        },
-        {
-          "cr": 6.51,
-          "use": "Assets"
-        }
-      ],
-      "fin": {
-        "years": [
-          {
-            "assets": 18.87,
-            "debt": 6.34,
-            "ebitda": 1.28,
-            "income": 49.53,
-            "net_worth": 3.85,
-            "pat": 0.63,
-            "roce": 20.97,
-            "roe": 16.36,
-            "y": "FY24"
-          },
-          {
-            "assets": 55.39,
-            "debt": 11.31,
-            "ebitda": 7.74,
-            "income": 81.02,
-            "net_worth": 15.42,
-            "pat": 4.56,
-            "roce": 47.31,
-            "roe": 29.57,
-            "y": "FY25"
-          },
-          {
-            "assets": 97.8,
-            "debt": 46.8,
-            "ebitda": 19,
-            "income": 115.13,
-            "net_worth": 42.25,
-            "pat": 10.97,
-            "roce": 38.03,
-            "roe": 25.96,
-            "y": "FY26"
-          }
-        ],
-        "ratios": {}
-      },
       "lot_basis": "tracker",
       "gmp_sources": [
         {
@@ -3089,7 +3017,7 @@
       "sub_asof": "2026-11-05T19:05",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-06T09:31"
+        "at": "2026-11-06T09:45"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3270,7 +3198,7 @@
       "sub_asof": "2026-11-03T17:50",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-06T09:31"
+        "at": "2026-11-06T09:45"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
