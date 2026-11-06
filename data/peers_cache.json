@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-06T22:01+05:30",
+  "fetched_at": "2026-11-06T22:16+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,7 +16,7 @@
     "price_low": 63.0,
     "size_cr": 23.33,
     "gmp": 0.0,
-    "gmp_at": "2026-11-06T21:55",
+    "gmp_at": "2026-11-06T22:10",
     "sub_total": 12.79,
     "sub_retail": 5.22,
     "sub_at": "2026-11-05T19:05",
@@ -89,7 +89,7 @@
     "price_low": 88.0,
     "size_cr": 56.68,
     "gmp": 1.0,
-    "gmp_at": "2026-11-06T21:55",
+    "gmp_at": "2026-11-06T22:10",
     "sub_total": 1.9,
     "sub_retail": 2.26,
     "sub_at": "2026-11-04T19:05",
@@ -314,7 +314,7 @@
     "price_low": 99.0,
     "size_cr": 53.05,
     "gmp": 0.0,
-    "gmp_at": "2026-11-06T21:55",
+    "gmp_at": "2026-11-06T22:10",
     "sub_total": 4.2,
     "sub_retail": 4.45,
     "sub_at": "2026-11-03T17:50",
@@ -387,7 +387,7 @@
     "price_low": 190.0,
     "size_cr": 56.02,
     "gmp": 8.0,
-    "gmp_at": "2026-11-06T21:55",
+    "gmp_at": "2026-11-06T22:10",
     "sub_total": 23.58,
     "sub_retail": 17.53,
     "sub_at": "2026-11-03T19:06",
@@ -456,7 +456,7 @@
     "price_low": 150.0,
     "size_cr": 57.64,
     "gmp": 105.0,
-    "gmp_at": "2026-11-06T21:55",
+    "gmp_at": "2026-11-06T22:10",
     "sub_total": 536.8,
     "sub_retail": 556.09,
     "sub_at": "2026-11-03T19:06",
@@ -529,7 +529,7 @@
     "price_low": 114.0,
     "size_cr": 34.56,
     "gmp": 27.0,
-    "gmp_at": "2026-11-06T21:55",
+    "gmp_at": "2026-11-06T22:10",
     "sub_total": 247.3,
     "sub_retail": 233.27,
     "sub_at": "2026-11-03T19:10",
@@ -587,7 +587,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-06T22:01+05:30",
+  "fetched_at": "2026-11-06T22:16+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -1142,7 +1142,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-06T22:01+05:30",
+  "fetched_at": "2026-11-06T22:16+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -1193,82 +1193,82 @@
        0.0
       ]
      ],
-     "reservation": {
-      "bnii": {
-       "pct": 9.82,
-       "shares": 342000
-      },
-      "market_maker": {
-       "pct": 5.05,
-       "shares": 176000
-      },
-      "nii": {
-       "pct": 14.65,
-       "shares": 510000
-      },
-      "qib": {
-       "pct": 1.03,
-       "shares": 36000
-      },
-      "retail": {
-       "pct": 79.26,
-       "shares": 2760000
-      },
-      "snii": {
-       "pct": 4.82,
-       "shares": 168000
-      }
-     },
      "sub": {
-      "nii": 49.94,
+      "total": 12.79,
       "qib": 66.72,
-      "retail": 5.22,
-      "total": 12.79
+      "nii": 49.94,
+      "retail": 5.22
      },
      "sub_at": "2026-11-05T17:54",
+     "reservation": {
+      "qib": {
+       "shares": 36000,
+       "pct": 1.03
+      },
+      "nii": {
+       "shares": 510000,
+       "pct": 14.65
+      },
+      "bnii": {
+       "shares": 342000,
+       "pct": 9.82
+      },
+      "snii": {
+       "shares": 168000,
+       "pct": 4.82
+      },
+      "retail": {
+       "shares": 2760000,
+       "pct": 79.26
+      },
+      "market_maker": {
+       "shares": 176000,
+       "pct": 5.05
+      }
+     },
      "uses": [
       {
-       "cr": 10.68,
-       "use": "Capital"
+       "use": "Capital",
+       "cr": 10.68
       },
       {
-       "cr": 7.32,
-       "use": "Machine"
+       "use": "Machine",
+       "cr": 7.32
       }
      ],
      "years": [
       {
-       "assets": 5.97,
-       "debt": 0.36,
-       "ebitda": 1.36,
+       "y": "FY24",
        "income": 12.59,
-       "net_worth": 3.54,
        "pat": 0.89,
-       "roce": null,
+       "ebitda": 1.36,
+       "net_worth": 3.54,
+       "debt": 0.36,
+       "assets": 5.97,
        "roe": null,
-       "y": "FY24"
+       "roce": null
       },
       {
-       "assets": 25.47,
-       "debt": 3.85,
-       "ebitda": 2.82,
+       "y": "FY25",
        "income": 31.98,
-       "net_worth": 12.19,
        "pat": 1.82,
-       "roce": 32.39,
+       "ebitda": 2.82,
+       "net_worth": 12.19,
+       "debt": 3.85,
+       "assets": 25.47,
        "roe": 17.77,
-       "y": "FY25"
+       "roce": 32.39
       },
       {
-       "assets": 28.41,
-       "debt": 4.19,
-       "ebitda": 6.15,
+       "y": "FY26",
        "income": 47.53,
-       "net_worth": 17.03,
        "pat": 4.24,
-       "roce": 42.23,
+       "ebitda": 6.15,
+       "net_worth": 17.03,
+       "debt": 4.19,
+       "assets": 28.41,
        "roe": 24.88,
-       "y": "FY26"
+       "roce": 42.23
       }
      ]
     }
