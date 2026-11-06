@@ -1,7 +1,7 @@
 {
  "_feeds": {
   "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms": {
-   "fetched": "2026-11-06T23:45+05:30",
+   "fetched": "2026-11-07T01:15+05:30",
    "items": [
     {
      "date": "2026-11-06",
@@ -306,7 +306,7 @@
    ]
   },
   "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms": {
-   "fetched": "2026-11-06T23:45+05:30",
+   "fetched": "2026-11-07T01:15+05:30",
    "items": [
     {
      "date": "2026-11-06",
@@ -611,8 +611,14 @@
    ]
   },
   "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml": {
-   "fetched": "2026-11-06T23:45+05:30",
+   "fetched": "2026-11-07T01:15+05:30",
    "items": [
+    {
+     "date": "2026-11-07",
+     "source": "cnbctv18.com",
+     "title": "AI trade rout: Are global financial markets showing signs of a bigger crisis?",
+     "url": "https://www.cnbctv18.com/market/ai-trade-rout-global-financial-markets-stress-indicators-20029319.htm"
+    },
     {
      "date": "2026-11-06",
      "source": "cnbctv18.com",
@@ -1086,18 +1092,102 @@
      "source": "cnbctv18.com",
      "title": "eMudhra Q2 results: Total income rises 19.6% to ₹209.3 crore, net profit up 26.3%",
      "url": "https://www.cnbctv18.com/market/earnings/emudhra-q2-results-total-income-rises-19-6pc-to-rs209-3-crore-net-profit-up-26-3pc-20028309.htm"
-    },
-    {
-     "date": "2026-11-05",
-     "source": "cnbctv18.com",
-     "title": "US stocks tumble as semiconductor index sinks 11%; Nvidia, AMD lead tech sell-off",
-     "url": "https://www.cnbctv18.com/market/us-stocks-tumble-as-semiconductor-index-sinks-11-pc-nvidia-amd-lead-tech-sell-off-20028359.htm"
     }
    ]
   },
   "https://www.freepressjournal.in/stories.rss?section=business": {
-   "fetched": "2026-11-06T23:45+05:30",
+   "fetched": "2026-11-07T01:15+05:30",
    "items": [
+    {
+     "date": "2026-11-06",
+     "source": "freepressjournal.in",
+     "title": "UP Farmers To Get Up To ₹30,000 Per Hectare For Crop Loss As Govt Revises Disaster Relief",
+     "url": "https://www.freepressjournal.in/uttar-pradesh/up-farmers-to-get-up-to-30000-per-hectare-for-crop-loss-as-govt-revises-disaster-relief"
+    },
+    {
+     "date": "2026-11-06",
+     "source": "freepressjournal.in",
+     "title": "Veteran Indian Bowler Mohammed Shami Announces Retirement From Test Cricket, Draws Curtains On Illustrious Career",
+     "url": "https://www.freepressjournal.in/sports/veteran-indian-bowler-mohammed-shami-announces-retirement-from-test-cricket-draws-curtains-on-illustrious-career"
+    },
+    {
+     "date": "2026-11-06",
+     "source": "freepressjournal.in",
+     "title": "SP Chief Akhilesh Yadav Targets BJP, Election Commission Over SIR & Alleged Voter Deletions In Uttar Pradesh",
+     "url": "https://www.freepressjournal.in/uttar-pradesh/sp-chief-akhilesh-yadav-targets-bjp-election-commission-over-sir-alleged-voter-deletions-in-uttar-pradesh"
+    },
+    {
+     "date": "2026-11-06",
+     "source": "freepressjournal.in",
+     "title": "ED Searches CoinDCX, Delta Exchange Over Alleged FEMA Violations In Crypto Trading",
+     "url": "https://www.freepressjournal.in/mumbai/ed-searches-coindcx-delta-exchange-over-alleged-fema-violations-in-crypto-trading"
+    },
+    {
+     "date": "2026-11-06",
+     "source": "freepressjournal.in",
+     "title": "Dhanteras 2026 Shopping Rush Lights Up Malwa-Nimar Markets, ₹10 Crore Business Recorded In MP’s Dhar As Jewellery, Vehicles And Utensils Attract Buyers",
+     "url": "https://www.freepressjournal.in/indore/dhanteras-2026-shopping-rush-lights-up-malwa-nimar-markets-10-crore-business-recorded-in-mps-dhar-as-jewellery-vehicles-and-utensils-attract-buyers"
+    },
+    {
+     "date": "2026-11-06",
+     "source": "freepressjournal.in",
+     "title": "Diwali Gambling Link Suspected As UP STF Busts Fake Currency Printing Racket In Shravasti, 3 Arrested",
+     "url": "https://www.freepressjournal.in/uttar-pradesh/diwali-gambling-link-suspected-as-up-stf-busts-fake-currency-printing-racket-in-shravasti-3-arrested"
+    },
+    {
+     "date": "2026-11-06",
+     "source": "freepressjournal.in",
+     "title": "Uttar Pradesh's Sitapur Sees 5 Killed, 17 Injured As Truck Rams Tractor-Trolley Returning From Mundan Ceremony",
+     "url": "https://www.freepressjournal.in/uttar-pradesh/uttar-pradeshs-sitapur-sees-5-killed-17-injured-as-truck-rams-tractor-trolley-returning-from-mundan-ceremony"
+    },
+    {
+     "date": "2026-11-06",
+     "source": "freepressjournal.in",
+     "title": "Mumbai Ghatkopar East Fire Breaks Out On 20th Floor Of 21-Storey Building, 3 Residents Injured",
+     "url": "https://www.freepressjournal.in/mumbai/mumbai-ghatkopar-east-fire-breaks-out-on-20th-floor-of-21-storey-building-3-residents-injured"
+    },
+    {
+     "date": "2026-11-06",
+     "source": "freepressjournal.in",
+     "title": "Mrunal Thakur Redefines Dhanteras Glamour In A Mirror-Embellished Saree And Diamond Choker",
+     "url": "https://www.freepressjournal.in/ampstories/lifestyle/mrunal-thakur-redefines-dhanteras-glamour-in-a-mirror-embellished-saree-and-diamond-choker"
+    },
+    {
+     "date": "2026-11-06",
+     "source": "freepressjournal.in",
+     "title": "Dhanteras Gold Sales Touch Estimated ₹60,000 Crore Across India As Higher Prices Boost Jewellery Market Value",
+     "url": "https://www.freepressjournal.in/mumbai/dhanteras-gold-sales-touch-estimated-60000-crore-across-india-as-higher-prices-boost-jewellery-market-value"
+    },
+    {
+     "date": "2026-11-06",
+     "source": "freepressjournal.in",
+     "title": "Mumbai Airport Pushes 12 Airlines Toward Navi Mumbai By Awarding Slots To Only 38 Of The 50 Foreign Carriers For Summer 2027",
+     "url": "https://www.freepressjournal.in/mumbai/mumbai-airport-pushes-12-airlines-toward-navi-mumbai-by-awarding-slots-to-only-38-of-the-50-foreign-carriers-for-summer-2027"
+    },
+    {
+     "date": "2026-11-06",
+     "source": "freepressjournal.in",
+     "title": "Kolkata Civic Polls Face Uncertainty As Calcutta High Court Restrains Election Notification Over Ward Delimitation Row",
+     "url": "https://www.freepressjournal.in/india/kolkata-civic-polls-face-uncertainty-as-calcutta-high-court-restrains-election-notification-over-ward-delimitation-row"
+    },
+    {
+     "date": "2026-11-06",
+     "source": "freepressjournal.in",
+     "title": "YouTuber Sourav Joshi's Goa Vlog With Wife Avantika Bhatt Sparks Buzz Over 'Transparent' Dress Clip; Netizens Label It 'Inappropriate'",
+     "url": "https://www.freepressjournal.in/entertainment/youtuber-sourav-joshis-goa-vlog-with-wife-avantika-bhatt-sparks-buzz-over-transparent-dress-clip-netizens-label-it-inappropriate"
+    },
+    {
+     "date": "2026-11-06",
+     "source": "freepressjournal.in",
+     "title": "Gokul Dairy Chairman Post Deadlock Continues As Hasan Mushrif Proposes Power-Sharing Formula To Satej Patil",
+     "url": "https://www.freepressjournal.in/mumbai/gokul-dairy-chairman-post-deadlock-continues-as-hasan-mushrif-proposes-power-sharing-formula-to-satej-patil"
+    },
+    {
+     "date": "2026-11-06",
+     "source": "freepressjournal.in",
+     "title": "Mumbai MCOCA Court Orders Police To Verify Age Of Accused In Tiger Shroff Firing Case",
+     "url": "https://www.freepressjournal.in/entertainment/mumbai-mcoca-court-orders-police-to-verify-age-of-accused-in-tiger-shroff-firing-case"
+    },
     {
      "date": "2026-11-06",
      "source": "freepressjournal.in",
@@ -1283,168 +1373,18 @@
      "source": "freepressjournal.in",
      "title": "Maharashtra FDA Seizes ₹50.35 Lakh Worth Hair Growth Oil In Nashik Over Baldness Cure Claims, Missing Licence Details",
      "url": "https://www.freepressjournal.in/mumbai/maharashtra-fda-seizes-5035-lakh-worth-hair-growth-oil-in-nashik-over-baldness-cure-claims-missing-licence-details"
-    },
-    {
-     "date": "2026-11-06",
-     "source": "freepressjournal.in",
-     "title": "Mumbai BDD Chawl Redevelopment: 557 Families Get New 500 Sq Ft Flats As CM Devendra Fadnavis Promises Homes At Same Location",
-     "url": "https://www.freepressjournal.in/mumbai/mumbai-bdd-chawl-redevelopment-557-families-get-new-500-sq-ft-flats-as-cm-devendra-fadnavis-promises-homes-at-same-location"
-    },
-    {
-     "date": "2026-11-06",
-     "source": "freepressjournal.in",
-     "title": "Maharashtra To Add 350 New Ambulances To 108 Emergency Fleet In First Phase, Plans Recruitment Of 1,900 Doctors",
-     "url": "https://www.freepressjournal.in/mumbai/maharashtra-to-add-350-new-ambulances-to-108-emergency-fleet-in-first-phase-plans-recruitment-of-1900-doctors"
-    },
-    {
-     "date": "2026-11-06",
-     "source": "freepressjournal.in",
-     "title": "Salman Khan Cuts Multi-Tier Cake On Bigg Boss 20 Set As Show Creates History With 100 Crore Watch Hours - VIDEO",
-     "url": "https://www.freepressjournal.in/entertainment/salman-khan-cuts-multi-tier-cake-on-bigg-boss-20-set-as-show-creates-history-with-100-crore-watch-hours-video"
-    },
-    {
-     "date": "2026-11-06",
-     "source": "freepressjournal.in",
-     "title": "Mumbai's 10-Year-Old Vihaan Joshi Wins Under-15 Title At F1 Sim Racing India Open 2026 National Finals",
-     "url": "https://www.freepressjournal.in/education/mumbais-10-year-old-vihaan-joshi-wins-under-15-title-at-f1-sim-racing-india-open-2026-national-finals"
-    },
-    {
-     "date": "2026-11-06",
-     "source": "freepressjournal.in",
-     "title": "Indian Cancer Society Launches Unique Double Ring To Help Smokers Quit, Unveils 'Muh Dikhai' Awareness Film",
-     "url": "https://www.freepressjournal.in/mumbai/indian-cancer-society-launches-unique-double-ring-to-help-smokers-quit-unveils-muh-dikhai-awareness-film"
-    },
-    {
-     "date": "2026-11-06",
-     "source": "freepressjournal.in",
-     "title": "Bumper Orange Harvest Brings Cheer To Farmers Across 50 Villages, 1,200 Families Benefit From HDFC Bank-Backed Project In MP’s Mandsaur",
-     "url": "https://www.freepressjournal.in/indore/bumper-orange-harvest-brings-cheer-to-farmers-across-50-villages-1200-families-benefit-from-hdfc-bank-backed-project-in-mps-mandsaur"
-    },
-    {
-     "date": "2026-11-06",
-     "source": "freepressjournal.in",
-     "title": "Gadchiroli Police Bust Maoist Arms Dump Near Chhattisgarh Border, Destroy Explosives In Forest Operation",
-     "url": "https://www.freepressjournal.in/mumbai/gadchiroli-police-bust-maoist-arms-dump-near-chhattisgarh-border-destroy-explosives-in-forest-operation"
-    },
-    {
-     "date": "2026-11-06",
-     "source": "freepressjournal.in",
-     "title": "BEST Files 'Missing' Bus Stop Complaint After Andheri East Shelter Revamp Sparks Permission Row",
-     "url": "https://www.freepressjournal.in/mumbai/best-files-missing-bus-stop-complaint-after-andheri-east-shelter-revamp-sparks-permission-row"
-    },
-    {
-     "date": "2026-11-06",
-     "source": "freepressjournal.in",
-     "title": "87.45 Lakh Drought-Hit Farmers Receive ₹4,372 Crore In Diwali Relief Aid",
-     "url": "https://www.freepressjournal.in/mumbai/8745-lakh-drought-hit-farmers-receive-4372-crore-in-diwali-relief-aid"
-    },
-    {
-     "date": "2026-11-06",
-     "source": "freepressjournal.in",
-     "title": "'Thane-Bhiwandi Metro Expected To Be Ready By December 2026, Passenger Services May Begin Soon,' Says Kapil Patil",
-     "url": "https://www.freepressjournal.in/mumbai/thane-bhiwandi-metro-expected-to-be-ready-by-december-2026-passenger-services-may-begin-soon-says-kapil-patil"
-    },
-    {
-     "date": "2026-11-06",
-     "source": "freepressjournal.in",
-     "title": "Vrindavan Widows Celebrate Diwali At Gopinath Temple, Break Age-Old Social Barriers With Festive Celebrations",
-     "url": "https://www.freepressjournal.in/uttar-pradesh/vrindavan-widows-celebrate-diwali-at-gopinath-temple-break-age-old-social-barriers-with-festive-celebrations"
-    },
-    {
-     "date": "2026-11-06",
-     "source": "freepressjournal.in",
-     "title": "Bombay High Court Stays Derecognition Of 13 Sinhgad Schools Over Unpaid Teachers' Salaries And Disrupted Classes",
-     "url": "https://www.freepressjournal.in/pune/bombay-high-court-stays-derecognition-of-13-sinhgad-schools-over-unpaid-teachers-salaries-and-disrupted-classes"
-    },
-    {
-     "date": "2026-11-06",
-     "source": "freepressjournal.in",
-     "title": "'JICA Responds Positively To ₹20,000 Crore Loan For Marathwada Water Grid Project,' Says CM Devendra Fadnavis",
-     "url": "https://www.freepressjournal.in/pune/jica-responds-positively-to-20000-crore-loan-for-marathwada-water-grid-project-says-cm-devendra-fadnavis"
-    },
-    {
-     "date": "2026-11-06",
-     "source": "freepressjournal.in",
-     "title": "Diwali Festive Decor: 'You Don't Have To Go Overboard'; Quick And Easy Tips To Decorate Your Home Using DIY Methods",
-     "url": "https://www.freepressjournal.in/lifestyle/diwali-festive-decor-you-dont-have-to-go-overboard-quick-and-easy-tips-to-decorate-your-home-using-diy-methods"
-    },
-    {
-     "date": "2026-11-06",
-     "source": "freepressjournal.in",
-     "title": "Maharashtra Tops National Rankings In Formation Of Women’s Self-Help Groups Under UMED Campaign",
-     "url": "https://www.freepressjournal.in/mumbai/maharashtra-tops-national-rankings-in-formation-of-womens-self-help-groups-under-umed-campaign"
-    },
-    {
-     "date": "2026-11-06",
-     "source": "freepressjournal.in",
-     "title": "KDMC Completes Road Asphalting Under Police Protection Amid Land Ownership Dispute At Tisgaon Naka",
-     "url": "https://www.freepressjournal.in/mumbai/kdmc-completes-road-asphalting-under-police-protection-amid-land-ownership-dispute-at-tisgaon-naka"
-    },
-    {
-     "date": "2026-11-06",
-     "source": "freepressjournal.in",
-     "title": "Panvel Municipal Corporation Revises Tree-Pruning Charges, Proposes Fines Up To ₹5,000 For Damaging Trees",
-     "url": "https://www.freepressjournal.in/mumbai/panvel-municipal-corporation-revises-tree-pruning-charges-proposes-fines-up-to-5000-for-damaging-trees"
-    },
-    {
-     "date": "2026-11-06",
-     "source": "freepressjournal.in",
-     "title": "Uttar Pradesh: Akhilesh Yadav Questions CM Yogi Adityanath's Claim Of 1.27 Crore Missing Hindu Voters, Alleges Misuse Of Form 7 To Delete Names",
-     "url": "https://www.freepressjournal.in/uttar-pradesh/uttar-pradesh-akhilesh-yadav-questions-cm-yogi-adityanaths-claim-of-127-crore-missing-hindu-voters-alleges-misuse-of-form-7-to-delete-names"
-    },
-    {
-     "date": "2026-11-06",
-     "source": "freepressjournal.in",
-     "title": "Bangkok Passenger Arrested At Pune Airport With Hydroponic Weed Worth ₹1.14 Crore",
-     "url": "https://www.freepressjournal.in/pune/bangkok-passenger-arrested-at-pune-airport-with-hydroponic-weed-worth-114-crore"
-    },
-    {
-     "date": "2026-11-06",
-     "source": "freepressjournal.in",
-     "title": "Rajasthan's Kota Greenfield Airport To Be Completed By October 2027, New Terminal To Handle 20 Lakh Passengers Annually",
-     "url": "https://www.freepressjournal.in/business/rajasthans-kota-greenfield-airport-to-be-completed-by-october-2027-new-terminal-to-handle-20-lakh-passengers-annually"
-    },
-    {
-     "date": "2026-11-06",
-     "source": "freepressjournal.in",
-     "title": "FDA Seizes 5,199 Kg Of Suspected Substandard Food Products across Pune, Pimpri-Chinchwad, Satara And Kolhapur",
-     "url": "https://www.freepressjournal.in/pune/fda-seizes-5199-kg-of-suspected-substandard-food-products-across-pune-pimpri-chinchwad-satara-and-kolhapur"
-    },
-    {
-     "date": "2026-11-06",
-     "source": "freepressjournal.in",
-     "title": "Ayodhya Prepares To Illuminate Ghats With 30 Lakh Diyas Ahead Of Grand 10th Deepotsav Celebrations",
-     "url": "https://www.freepressjournal.in/uttar-pradesh/ayodhya-prepares-to-illuminate-ghats-with-30-lakh-diyas-ahead-of-grand-10th-deepotsav-celebrations"
-    },
-    {
-     "date": "2026-11-06",
-     "source": "freepressjournal.in",
-     "title": "'Seher Hone Ko Hai Is Going Off-Air': Parth Samthaan Gets Emotional On Last Day Of Shoot, Reveals New Project - VIDEO",
-     "url": "https://www.freepressjournal.in/entertainment/seher-hone-ko-hai-is-going-off-air-parth-samthaan-gets-emotional-on-last-day-of-shoot-reveals-new-project-video"
-    },
-    {
-     "date": "2026-11-06",
-     "source": "freepressjournal.in",
-     "title": "KDMC To Demolish 116 Illegal Hoardings After Diwali In Biggest Crackdown In Nearly 30 Years",
-     "url": "https://www.freepressjournal.in/mumbai/kdmc-to-demolish-116-illegal-hoardings-after-diwali-in-biggest-crackdown-in-nearly-30-years"
-    },
-    {
-     "date": "2026-11-06",
-     "source": "freepressjournal.in",
-     "title": "Voltas Reports Strong September Quarter As Room AC Volumes Jump 32%, Profit Rises 51%",
-     "url": "https://www.freepressjournal.in/business/voltas-reports-strong-september-quarter-as-room-ac-volumes-jump-32-profit-rises-51"
-    },
-    {
-     "date": "2026-11-06",
-     "source": "freepressjournal.in",
-     "title": "Maharashtra State Schools Chess Championship 2026: Ivaan Dubey, Liyaa Krishnan Among Six Winners In Mumbai",
-     "url": "https://www.freepressjournal.in/sports/maharashtra-state-schools-chess-championship-2026-ivaan-dubey-liyaa-krishnan-among-six-winners-in-mumbai"
     }
    ]
   },
   "https://www.livemint.com/rss/markets": {
-   "fetched": "2026-11-06T23:45+05:30",
+   "fetched": "2026-11-07T01:15+05:30",
    "items": [
+    {
+     "date": "2026-11-07",
+     "source": "Mint",
+     "title": "Quick Mart IPO Draws Strong Demand as Kenyan Listings Pick Up",
+     "url": "https://www.livemint.com/market/quick-mart-ipo-draws-strong-demand-as-kenyan-listings-pick-up-11793993964421.html"
+    },
     {
      "date": "2026-11-06",
      "source": "Mint",
@@ -1648,17 +1588,11 @@
      "source": "Mint",
      "title": "US midterms trigger Wall Street rout: How AI sell-off is spreading beyond Big Tech to riskier stocks",
      "url": "https://www.livemint.com/market/stock-market-news/us-midterms-trigger-wall-street-rout-how-ai-sell-off-is-spreading-beyond-big-tech-to-riskier-stocks-11793936490944.html"
-    },
-    {
-     "date": "2026-11-06",
-     "source": "Mint",
-     "title": "Dhanteras 2026 today: Buy gold at current rates or avoid? Shopping guide - 20% price down from 2026 peak; Experts' views",
-     "url": "https://www.livemint.com/market/commodities/dhanteras-2026-today-buy-gold-at-current-rates-or-avoid-shopping-guide-20-price-down-from-2026-peak-experts-views-11793932229932.html"
     }
    ]
   },
   "https://www.thehindubusinessline.com/markets/feeder/default.rss": {
-   "fetched": "2026-11-06T23:45+05:30",
+   "fetched": "2026-11-07T01:15+05:30",
    "items": [
     {
      "date": "2026-11-06",
@@ -2023,7 +1957,7 @@
    ]
   },
   "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss": {
-   "fetched": "2026-11-06T23:45+05:30",
+   "fetched": "2026-11-07T01:15+05:30",
    "items": [
     {
      "date": "2026-10-26",
@@ -2149,7 +2083,7 @@
   }
  },
  "antala-industries": {
-  "checked": "2026-11-07T01:00+05:30",
+  "checked": "2026-11-07T01:15+05:30",
   "items": [
    {
     "date": "2026-10-29",
@@ -2160,7 +2094,7 @@
   ]
  },
  "vpfl": {
-  "checked": "2026-11-07T01:00+05:30",
+  "checked": "2026-11-07T01:15+05:30",
   "items": [
    {
     "date": "2026-11-02",
