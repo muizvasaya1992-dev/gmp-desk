@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T23:45+05:30",
+  "generated_at": "2026-11-07T00:01+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-06T10:12+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-06T23:45+05:30",
+    "nse_ok_at": "2026-11-07T00:01+05:30",
     "bse_ok_at": "2026-11-06T10:14+05:30"
   },
   "ipos": [
@@ -2059,7 +2059,7 @@
         {
           "source": "Tracker B",
           "gmp": 5,
-          "at": "2026-11-05T00:01"
+          "at": "2026-11-06T00:01"
         },
         {
           "source": "Tracker C",
@@ -2096,13 +2096,17 @@
         {
           "date": "2026-11-05",
           "gmp": 5
+        },
+        {
+          "date": "2026-11-06",
+          "gmp": 5
         }
       ],
       "history_source": "Tracker B",
       "gmp_low": 3,
       "gmp_high": 6,
       "gmp": 5,
-      "gmp_asof": "2026-11-05T00:01",
+      "gmp_asof": "2026-11-06T00:01",
       "gmp_source_latest": "Tracker B",
       "gmp_pct": 6.25,
       "gmp_spread": {
@@ -2116,7 +2120,7 @@
         "dir": "steady",
         "change": 0,
         "days": 3,
-        "since": "2026-11-03"
+        "since": "2026-11-04"
       },
       "status": "listed",
       "unconfirmed": false
@@ -2539,7 +2543,7 @@
         {
           "source": "Tracker D",
           "gmp": 105,
-          "at": "2026-11-06T22:15"
+          "at": "2026-11-07T00:01"
         },
         {
           "source": "Tracker B",
@@ -2587,6 +2591,10 @@
         {
           "date": "2026-11-06",
           "gmp": 105
+        },
+        {
+          "date": "2026-11-07",
+          "gmp": 105
         }
       ],
       "history_source": "Tracker D",
@@ -2594,8 +2602,8 @@
       "gmp_high": 115,
       "exchange": "SME",
       "gmp": 105,
-      "gmp_asof": "2026-11-06T22:45",
-      "gmp_source_latest": "Tracker B",
+      "gmp_asof": "2026-11-07T00:01",
+      "gmp_source_latest": "Tracker D",
       "gmp_pct": 66.46,
       "gmp_spread": {
         "min": 85,
@@ -2605,10 +2613,10 @@
         "diff_pct_of_price": 12.66
       },
       "gmp_trend": {
-        "dir": "rising",
-        "change": 25,
+        "dir": "falling",
+        "change": -10,
         "days": 3,
-        "since": "2026-11-04"
+        "since": "2026-11-05"
       },
       "status": "listed",
       "unconfirmed": false
@@ -2687,7 +2695,7 @@
         {
           "source": "Tracker D",
           "gmp": 27,
-          "at": "2026-11-06T22:15"
+          "at": "2026-11-07T00:01"
         },
         {
           "source": "Tracker B",
@@ -2697,11 +2705,11 @@
       ],
       "gmp_history": [
         {
-          "date": "2026-10-31",
-          "gmp": 30
+          "date": "2026-10-30",
+          "gmp": 19
         },
         {
-          "date": "2026-11-01",
+          "date": "2026-10-31",
           "gmp": 30
         },
         {
@@ -2714,24 +2722,28 @@
         },
         {
           "date": "2026-11-04",
-          "gmp": 25
+          "gmp": 23
         },
         {
           "date": "2026-11-05",
-          "gmp": 28
+          "gmp": 32
         },
         {
           "date": "2026-11-06",
           "gmp": 27
+        },
+        {
+          "date": "2026-11-07",
+          "gmp": 27
         }
       ],
-      "history_source": "Tracker B",
+      "history_source": "Tracker D",
       "gmp_low": 17,
       "gmp_high": 32,
       "exchange": "SME",
       "gmp": 27,
-      "gmp_asof": "2026-11-06T22:30",
-      "gmp_source_latest": "Tracker B",
+      "gmp_asof": "2026-11-07T00:01",
+      "gmp_source_latest": "Tracker D",
       "gmp_pct": 22.5,
       "gmp_spread": {
         "min": 27,
@@ -2741,10 +2753,10 @@
         "diff_pct_of_price": 0.0
       },
       "gmp_trend": {
-        "dir": "rising",
-        "change": 2,
+        "dir": "falling",
+        "change": -5,
         "days": 3,
-        "since": "2026-11-04"
+        "since": "2026-11-05"
       },
       "status": "listed",
       "unconfirmed": false
@@ -2809,12 +2821,12 @@
         {
           "source": "Tracker D",
           "gmp": 1,
-          "at": "2026-11-06T22:15"
+          "at": "2026-11-07T00:01"
         },
         {
           "source": "Tracker C",
           "gmp": 1,
-          "at": "2026-11-06T17:37"
+          "at": "2026-11-06T22:37"
         },
         {
           "source": "Tracker B",
@@ -2825,11 +2837,7 @@
       "gmp_history": [
         {
           "date": "2026-10-31",
-          "gmp": 5
-        },
-        {
-          "date": "2026-11-01",
-          "gmp": 15
+          "gmp": 4.25
         },
         {
           "date": "2026-11-02",
@@ -2837,11 +2845,11 @@
         },
         {
           "date": "2026-11-03",
-          "gmp": 13
+          "gmp": 12
         },
         {
           "date": "2026-11-04",
-          "gmp": 5
+          "gmp": 10
         },
         {
           "date": "2026-11-05",
@@ -2850,15 +2858,19 @@
         {
           "date": "2026-11-06",
           "gmp": 1
+        },
+        {
+          "date": "2026-11-07",
+          "gmp": 1
         }
       ],
-      "history_source": "Tracker B",
+      "history_source": "Tracker D",
       "gmp_low": 1,
       "gmp_high": 15,
       "exchange": "SME",
       "gmp": 1,
-      "gmp_asof": "2026-11-06T22:45",
-      "gmp_source_latest": "Tracker B",
+      "gmp_asof": "2026-11-07T00:01",
+      "gmp_source_latest": "Tracker D",
       "gmp_pct": 1.06,
       "gmp_spread": {
         "min": 1,
@@ -2868,10 +2880,10 @@
         "diff_pct_of_price": 0.0
       },
       "gmp_trend": {
-        "dir": "falling",
-        "change": -4,
+        "dir": "steady",
+        "change": 0,
         "days": 3,
-        "since": "2026-11-04"
+        "since": "2026-11-05"
       },
       "status": "closed",
       "ai_gmp": {
@@ -2887,10 +2899,10 @@
       },
       "news": [
         {
-          "title": "Vedant Poly Fabs SME IPO opens today; GMP at 16%, check key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/vedant-poly-fabs-sme-ipo-opens-today-gmp-at-16-check-key-details/articleshow/135446827.cms",
+          "date": "2026-11-02",
           "source": "Economic Times",
-          "date": "2026-11-02"
+          "title": "Vedant Poly Fabs SME IPO opens today; GMP at 16%, check key details",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/vedant-poly-fabs-sme-ipo-opens-today-gmp-at-16-check-key-details/articleshow/135446827.cms"
         }
       ],
       "unconfirmed": false
@@ -3013,7 +3025,7 @@
       "sub_asof": "2026-11-05T19:05",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-06T23:45"
+        "at": "2026-11-07T00:01"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3027,10 +3039,10 @@
       },
       "news": [
         {
-          "title": "Antala Industries SME IPO opens today: Check price band and key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/antala-industries-sme-ipo-opens-today-check-price-band-and-key-details/articleshow/135289593.cms",
+          "date": "2026-10-29",
           "source": "Economic Times",
-          "date": "2026-10-29"
+          "title": "Antala Industries SME IPO opens today: Check price band and key details",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/antala-industries-sme-ipo-opens-today-check-price-band-and-key-details/articleshow/135289593.cms"
         }
       ],
       "unconfirmed": false
@@ -3086,7 +3098,7 @@
         {
           "source": "Tracker D",
           "gmp": 8,
-          "at": "2026-11-06T22:15"
+          "at": "2026-11-07T00:01"
         },
         {
           "source": "Tracker B",
@@ -3130,14 +3142,18 @@
         {
           "date": "2026-11-06",
           "gmp": 8
+        },
+        {
+          "date": "2026-11-07",
+          "gmp": 8
         }
       ],
       "history_source": "Tracker D",
       "gmp_low": 5,
       "gmp_high": 13,
       "gmp": 8,
-      "gmp_asof": "2026-11-06T22:45",
-      "gmp_source_latest": "Tracker B",
+      "gmp_asof": "2026-11-07T00:01",
+      "gmp_source_latest": "Tracker D",
       "gmp_pct": 4.0,
       "gmp_spread": {
         "min": 8,
@@ -3150,7 +3166,7 @@
         "dir": "steady",
         "change": 0,
         "days": 3,
-        "since": "2026-11-04"
+        "since": "2026-11-05"
       },
       "status": "listed",
       "unconfirmed": false
@@ -3198,7 +3214,7 @@
       "sub_asof": "2026-11-03T17:50",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-06T23:45"
+        "at": "2026-11-07T00:01"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
