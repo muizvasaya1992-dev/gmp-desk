@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-06T05:31+05:30",
+  "fetched_at": "2026-11-06T05:45+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -654,7 +654,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-06T05:31+05:30",
+  "fetched_at": "2026-11-06T05:45+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -1209,7 +1209,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-06T05:31+05:30",
+  "fetched_at": "2026-11-06T05:45+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -1260,82 +1260,82 @@
        0.0
       ]
      ],
-     "sub": {
-      "total": 12.79,
-      "qib": 66.72,
-      "nii": 49.94,
-      "retail": 5.22
-     },
-     "sub_at": "2026-11-05T17:54",
      "reservation": {
-      "qib": {
-       "shares": 36000,
-       "pct": 1.03
-      },
-      "nii": {
-       "shares": 510000,
-       "pct": 14.65
-      },
       "bnii": {
-       "shares": 342000,
-       "pct": 9.82
-      },
-      "snii": {
-       "shares": 168000,
-       "pct": 4.82
-      },
-      "retail": {
-       "shares": 2760000,
-       "pct": 79.26
+       "pct": 9.82,
+       "shares": 342000
       },
       "market_maker": {
-       "shares": 176000,
-       "pct": 5.05
+       "pct": 5.05,
+       "shares": 176000
+      },
+      "nii": {
+       "pct": 14.65,
+       "shares": 510000
+      },
+      "qib": {
+       "pct": 1.03,
+       "shares": 36000
+      },
+      "retail": {
+       "pct": 79.26,
+       "shares": 2760000
+      },
+      "snii": {
+       "pct": 4.82,
+       "shares": 168000
       }
      },
+     "sub": {
+      "nii": 49.94,
+      "qib": 66.72,
+      "retail": 5.22,
+      "total": 12.79
+     },
+     "sub_at": "2026-11-05T17:54",
      "uses": [
       {
-       "use": "Capital",
-       "cr": 10.68
+       "cr": 10.68,
+       "use": "Capital"
       },
       {
-       "use": "Machine",
-       "cr": 7.32
+       "cr": 7.32,
+       "use": "Machine"
       }
      ],
      "years": [
       {
-       "y": "FY24",
-       "income": 12.59,
-       "pat": 0.89,
-       "ebitda": 1.36,
-       "net_worth": 3.54,
-       "debt": 0.36,
        "assets": 5.97,
+       "debt": 0.36,
+       "ebitda": 1.36,
+       "income": 12.59,
+       "net_worth": 3.54,
+       "pat": 0.89,
+       "roce": null,
        "roe": null,
-       "roce": null
+       "y": "FY24"
       },
       {
-       "y": "FY25",
-       "income": 31.98,
-       "pat": 1.82,
-       "ebitda": 2.82,
-       "net_worth": 12.19,
-       "debt": 3.85,
        "assets": 25.47,
+       "debt": 3.85,
+       "ebitda": 2.82,
+       "income": 31.98,
+       "net_worth": 12.19,
+       "pat": 1.82,
+       "roce": 32.39,
        "roe": 17.77,
-       "roce": 32.39
+       "y": "FY25"
       },
       {
-       "y": "FY26",
-       "income": 47.53,
-       "pat": 4.24,
-       "ebitda": 6.15,
-       "net_worth": 17.03,
-       "debt": 4.19,
        "assets": 28.41,
+       "debt": 4.19,
+       "ebitda": 6.15,
+       "income": 47.53,
+       "net_worth": 17.03,
+       "pat": 4.24,
+       "roce": 42.23,
        "roe": 24.88,
-       "roce": 42.23
+       "y": "FY26"
       }
      ]
     }
@@ -1393,78 +1393,78 @@
        0.0
       ]
      ],
-     "sub": {
-      "total": 1.9,
-      "qib": 1.0,
-      "nii": 1.38,
-      "retail": 2.26
-     },
-     "sub_at": "2026-11-04T17:05",
      "reservation": {
-      "qib": {
-       "shares": 68400,
-       "pct": 1.13
+      "market_maker": {
+       "pct": 5.05,
+       "shares": 304800
       },
       "nii": {
-       "shares": 2260800,
-       "pct": 37.49
+       "pct": 37.49,
+       "shares": 2260800
+      },
+      "qib": {
+       "pct": 1.13,
+       "shares": 68400
       },
       "retail": {
-       "shares": 3396000,
-       "pct": 56.32
-      },
-      "market_maker": {
-       "shares": 304800,
-       "pct": 5.05
+       "pct": 56.32,
+       "shares": 3396000
       }
      },
+     "sub": {
+      "nii": 1.38,
+      "qib": 1.0,
+      "retail": 2.26,
+      "total": 1.9
+     },
+     "sub_at": "2026-11-04T17:05",
      "uses": [
       {
-       "use": "Capital",
-       "cr": 17.59
+       "cr": 17.59,
+       "use": "Capital"
       },
       {
-       "use": "Debt",
-       "cr": 8.0
+       "cr": 8.0,
+       "use": "Debt"
       },
       {
-       "use": "Assets",
-       "cr": 6.51
+       "cr": 6.51,
+       "use": "Assets"
       }
      ],
      "years": [
       {
-       "y": "FY24",
-       "income": 49.53,
-       "pat": 0.63,
-       "ebitda": 1.28,
-       "net_worth": 3.85,
-       "debt": 6.34,
        "assets": 18.87,
+       "debt": 6.34,
+       "ebitda": 1.28,
+       "income": 49.53,
+       "net_worth": 3.85,
+       "pat": 0.63,
+       "roce": 20.97,
        "roe": 16.36,
-       "roce": 20.97
+       "y": "FY24"
       },
       {
-       "y": "FY25",
-       "income": 81.02,
-       "pat": 4.56,
-       "ebitda": 7.74,
-       "net_worth": 15.42,
-       "debt": 11.31,
        "assets": 55.39,
+       "debt": 11.31,
+       "ebitda": 7.74,
+       "income": 81.02,
+       "net_worth": 15.42,
+       "pat": 4.56,
+       "roce": 47.31,
        "roe": 29.57,
-       "roce": 47.31
+       "y": "FY25"
       },
       {
-       "y": "FY26",
-       "income": 115.13,
-       "pat": 10.97,
-       "ebitda": 19,
-       "net_worth": 42.25,
-       "debt": 46.8,
        "assets": 97.8,
+       "debt": 46.8,
+       "ebitda": 19,
+       "income": 115.13,
+       "net_worth": 42.25,
+       "pat": 10.97,
+       "roce": 38.03,
        "roe": 25.96,
-       "roce": 38.03
+       "y": "FY26"
       }
      ]
     }
