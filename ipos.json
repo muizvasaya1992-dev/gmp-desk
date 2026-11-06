@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T04:15+05:30",
+  "generated_at": "2026-11-07T04:31+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-06T10:12+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-07T04:15+05:30",
+    "nse_ok_at": "2026-11-07T04:31+05:30",
     "bse_ok_at": "2026-11-06T10:14+05:30"
   },
   "ipos": [
@@ -2899,10 +2899,10 @@
       },
       "news": [
         {
-          "title": "Vedant Poly Fabs SME IPO opens today; GMP at 16%, check key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/vedant-poly-fabs-sme-ipo-opens-today-gmp-at-16-check-key-details/articleshow/135446827.cms",
+          "date": "2026-11-02",
           "source": "Economic Times",
-          "date": "2026-11-02"
+          "title": "Vedant Poly Fabs SME IPO opens today; GMP at 16%, check key details",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/vedant-poly-fabs-sme-ipo-opens-today-gmp-at-16-check-key-details/articleshow/135446827.cms"
         }
       ],
       "unconfirmed": false
@@ -2942,75 +2942,75 @@
       },
       "tracker_rating": 1,
       "reservation_detail": {
-        "bnii": {
-          "pct": 9.82,
-          "shares": 342000
-        },
-        "market_maker": {
-          "pct": 5.05,
-          "shares": 176000
+        "qib": {
+          "shares": 36000,
+          "pct": 1.03
         },
         "nii": {
-          "pct": 14.65,
-          "shares": 510000
+          "shares": 510000,
+          "pct": 14.65
         },
-        "qib": {
-          "pct": 1.03,
-          "shares": 36000
-        },
-        "retail": {
-          "pct": 79.26,
-          "shares": 2760000
+        "bnii": {
+          "shares": 342000,
+          "pct": 9.82
         },
         "snii": {
-          "pct": 4.82,
-          "shares": 168000
+          "shares": 168000,
+          "pct": 4.82
+        },
+        "retail": {
+          "shares": 2760000,
+          "pct": 79.26
+        },
+        "market_maker": {
+          "shares": 176000,
+          "pct": 5.05
         }
       },
       "uses": [
         {
-          "cr": 10.68,
-          "use": "Capital"
+          "use": "Capital",
+          "cr": 10.68
         },
         {
-          "cr": 7.32,
-          "use": "Machine"
+          "use": "Machine",
+          "cr": 7.32
         }
       ],
       "fin": {
         "years": [
           {
-            "assets": 5.97,
-            "debt": 0.36,
-            "ebitda": 1.36,
+            "y": "FY24",
             "income": 12.59,
-            "net_worth": 3.54,
             "pat": 0.89,
-            "roce": null,
+            "ebitda": 1.36,
+            "net_worth": 3.54,
+            "debt": 0.36,
+            "assets": 5.97,
             "roe": null,
-            "y": "FY24"
+            "roce": null
           },
           {
-            "assets": 25.47,
-            "debt": 3.85,
-            "ebitda": 2.82,
+            "y": "FY25",
             "income": 31.98,
-            "net_worth": 12.19,
             "pat": 1.82,
-            "roce": 32.39,
+            "ebitda": 2.82,
+            "net_worth": 12.19,
+            "debt": 3.85,
+            "assets": 25.47,
             "roe": 17.77,
-            "y": "FY25"
+            "roce": 32.39
           },
           {
-            "assets": 28.41,
-            "debt": 4.19,
-            "ebitda": 6.15,
+            "y": "FY26",
             "income": 47.53,
-            "net_worth": 17.03,
             "pat": 4.24,
-            "roce": 42.23,
+            "ebitda": 6.15,
+            "net_worth": 17.03,
+            "debt": 4.19,
+            "assets": 28.41,
             "roe": 24.88,
-            "y": "FY26"
+            "roce": 42.23
           }
         ],
         "ratios": {}
@@ -3025,7 +3025,7 @@
       "sub_asof": "2026-11-05T19:05",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-07T04:15"
+        "at": "2026-11-07T04:31"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3039,10 +3039,10 @@
       },
       "news": [
         {
-          "title": "Antala Industries SME IPO opens today: Check price band and key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/antala-industries-sme-ipo-opens-today-check-price-band-and-key-details/articleshow/135289593.cms",
+          "date": "2026-10-29",
           "source": "Economic Times",
-          "date": "2026-10-29"
+          "title": "Antala Industries SME IPO opens today: Check price band and key details",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/antala-industries-sme-ipo-opens-today-check-price-band-and-key-details/articleshow/135289593.cms"
         }
       ],
       "unconfirmed": false
@@ -3214,7 +3214,7 @@
       "sub_asof": "2026-11-03T17:50",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-07T04:15"
+        "at": "2026-11-07T04:31"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
