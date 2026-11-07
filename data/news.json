@@ -1,7 +1,7 @@
 {
  "_feeds": {
   "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms": {
-   "fetched": "2026-11-07T17:45+05:30",
+   "fetched": "2026-11-07T19:15+05:30",
    "items": [
     {
      "date": "2026-11-07",
@@ -306,7 +306,7 @@
    ]
   },
   "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms": {
-   "fetched": "2026-11-07T17:45+05:30",
+   "fetched": "2026-11-07T19:15+05:30",
    "items": [
     {
      "date": "2026-11-07",
@@ -611,8 +611,20 @@
    ]
   },
   "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml": {
-   "fetched": "2026-11-07T17:45+05:30",
+   "fetched": "2026-11-07T19:15+05:30",
    "items": [
+    {
+     "date": "2026-11-07",
+     "source": "cnbctv18.com",
+     "title": "Meesho completes majority stake acquisition in Kirana Club and Retail Pulse Labs",
+     "url": "https://www.cnbctv18.com/market/meesho-completes-majority-stake-acquisition-in-kirana-club-and-retail-pulse-labs-20029616.htm"
+    },
+    {
+     "date": "2026-11-07",
+     "source": "cnbctv18.com",
+     "title": "Samvat to Samvat: Nifty ends lower, while pharma and metals shine",
+     "url": "https://www.cnbctv18.com/market/samvat-nifty-ends-lower-last-week-rally-cushions-losses-pharma-metals-20029529.htm"
+    },
     {
      "date": "2026-11-07",
      "source": "cnbctv18.com",
@@ -1080,24 +1092,138 @@
      "source": "cnbctv18.com",
      "title": "Fortis Healthcare shares in focus after revenue, EBITDA rise in Q2 - A look at how its business segments fared",
      "url": "https://www.cnbctv18.com/market/fortis-healthcare-share-price-q2-results-hospitals-diagnostics-revenue-ebitda-margin-20028464.htm"
-    },
-    {
-     "date": "2026-11-06",
-     "source": "cnbctv18.com",
-     "title": "Dhanteras 2026: Gold, silver fall after rally; what should buyers watch",
-     "url": "https://www.cnbctv18.com/market/commodities/dhanteras-2026-gold-silver-fall-after-rally-what-should-buyers-watch-20028480.htm"
-    },
-    {
-     "date": "2026-11-06",
-     "source": "cnbctv18.com",
-     "title": "AI buildout in peril? About 40% of US planned data center capacity may hit pause",
-     "url": "https://www.cnbctv18.com/business/ai-buildout-in-peril-about-40-percent-of-us-planned-data-center-capacity-may-hit-pause-20028476.htm"
     }
    ]
   },
   "https://www.freepressjournal.in/stories.rss?section=business": {
-   "fetched": "2026-11-07T17:45+05:30",
+   "fetched": "2026-11-07T19:15+05:30",
    "items": [
+    {
+     "date": "2026-11-07",
+     "source": "freepressjournal.in",
+     "title": "SP Chief Akhilesh Yadav To Visit Ayodhya Ram Temple With Family On December 12, First Visit Since 2024 Consecration",
+     "url": "https://www.freepressjournal.in/india/sp-chief-akhilesh-yadav-to-visit-ayodhya-ram-temple-with-family-on-december-12-first-visit-since-2024-consecration"
+    },
+    {
+     "date": "2026-11-07",
+     "source": "freepressjournal.in",
+     "title": "Maharashtra Transport Minister Pratap Sarnaik Inaugurates 'Diwali Wonderland 2026' Carnival At Upvan Lake",
+     "url": "https://www.freepressjournal.in/mumbai/maharashtra-transport-minister-pratap-sarnaik-inaugurates-diwali-wonderland-2026-carnival-at-upvan-lake"
+    },
+    {
+     "date": "2026-11-07",
+     "source": "freepressjournal.in",
+     "title": "32-Year-Old Woman Rescued After Allegedly Jumping Into Talaopali Lake In Thane West",
+     "url": "https://www.freepressjournal.in/mumbai/32-year-old-woman-rescued-after-allegedly-jumping-into-talaopali-lake-in-thane-west"
+    },
+    {
+     "date": "2026-11-07",
+     "source": "freepressjournal.in",
+     "title": "Ramayana Box Office Collection Day 3 Prediction: Ranbir Kapoor, Yash And Sai Pallavi Starrer To Show Jump On Saturday After Friday Drop",
+     "url": "https://www.freepressjournal.in/entertainment/ramayana-box-office-collection-day-3-prediction-ranbir-kapoor-yash-and-sai-pallavi-starrer-to-show-jump-on-saturday-after-friday-drop"
+    },
+    {
+     "date": "2026-11-07",
+     "source": "freepressjournal.in",
+     "title": "Prime Fresh Q2 Profit Jumps 55% To ₹4.83 Crore, Revenue Rises 21% As Margins Improve & Expansion Gains Momentum",
+     "url": "https://www.freepressjournal.in/business/prime-fresh-q2-profit-jumps-55-to-483-crore-revenue-rises-21-as-margins-improve-expansion-gains-momentum"
+    },
+    {
+     "date": "2026-11-07",
+     "source": "freepressjournal.in",
+     "title": "Mumbai: Passenger Falls From Moving Churchgate-Virar Local After Fight Near Train Door; Video Goes Viral",
+     "url": "https://www.freepressjournal.in/mumbai/mumbai-passenger-falls-from-moving-churchgate-virar-local-after-fight-near-train-door-video-goes-viral-mumbai-news"
+    },
+    {
+     "date": "2026-11-07",
+     "source": "freepressjournal.in",
+     "title": "It's Daivik & Vaidvik! Divyanka Tripathi & Vivek Dahiya Reveal Twins' Names & Meanings Behind Them",
+     "url": "https://www.freepressjournal.in/entertainment/its-daivik-vaidvik-divyanka-tripathi-vivek-dahiya-reveal-twins-names-meanings-behind-them"
+    },
+    {
+     "date": "2026-11-07",
+     "source": "freepressjournal.in",
+     "title": "Chhath Puja Special Trains 2026: Bhopal Division To Operate 24 Special Trains For Festivals, Security Tightened At Major Stations",
+     "url": "https://www.freepressjournal.in/bhopal/chhath-puja-special-trains-2026-bhopal-division-to-operate-24-special-trains-for-festivals-security-tightened-at-major-stations"
+    },
+    {
+     "date": "2026-11-07",
+     "source": "freepressjournal.in",
+     "title": "Trisha Krishnan Joins Tamil Nadu CM Vijay Thalapathy At Chennai Wedding In Romantic Blush Pink Saree With Dramatic Feather-Trimmed Sleeves",
+     "url": "https://www.freepressjournal.in/ampstories/lifestyle/trisha-krishnan-joins-tamil-nadu-cm-vijay-thalapathy-at-chennai-wedding-in-romantic-blush-pink-saree-with-dramatic-feather-trimmed-sleeves"
+    },
+    {
+     "date": "2026-11-07",
+     "source": "freepressjournal.in",
+     "title": "Pune's Healing Bones Clinic Introduces CORI Robotic System, Brings Precision-Driven Joint Replacement Surgery to South Pune",
+     "url": "https://www.freepressjournal.in/press-release/punes-healing-bones-clinic-introduces-cori-robotic-system-brings-precision-driven-joint-replacement-surgery-to-south-pune"
+    },
+    {
+     "date": "2026-11-07",
+     "source": "freepressjournal.in",
+     "title": "Sonia Gandhi Says Penguin Was 'Uneasy' With Govt Criticism, Calls Decision Censorship",
+     "url": "https://www.freepressjournal.in/india/sonia-gandhi-says-penguin-was-uneasy-with-govt-criticism-calls-decision-censorship"
+    },
+    {
+     "date": "2026-11-07",
+     "source": "freepressjournal.in",
+     "title": "SpaceX Board Member Donald Harrison Resigns After 11 Years Amid Reported Tesla Merger Talks",
+     "url": "https://www.freepressjournal.in/business/spacex-board-member-donald-harrison-resigns-after-11-years-amid-reported-tesla-merger-talks"
+    },
+    {
+     "date": "2026-11-07",
+     "source": "freepressjournal.in",
+     "title": "FIIs Make A Stunning Comeback On Dalal Street, ₹45,960 Crore Inflows Fuel Nifty Rally As Global Investors Turn To India",
+     "url": "https://www.freepressjournal.in/business/fiis-make-a-stunning-comeback-on-dalal-street-45960-crore-inflows-fuel-nifty-rally-as-global-investors-turn-to-india"
+    },
+    {
+     "date": "2026-11-07",
+     "source": "freepressjournal.in",
+     "title": "Chopda Pujan 2026: All You Need To Know About Correct Date, Muhurat, Rituals And How It Is Associated With Goddess Saraswati",
+     "url": "https://www.freepressjournal.in/lifestyle/chopda-pujan-2026-all-you-need-to-know-about-correct-date-muhurat-rituals-and-how-it-is-associated-with-goddess-saraswati"
+    },
+    {
+     "date": "2026-11-07",
+     "source": "freepressjournal.in",
+     "title": "'I Came Hoping To Win, But...': Priyanka Chahar Choudhary Pens Emotional Note After Losing Rise And Fall 2",
+     "url": "https://www.freepressjournal.in/entertainment/i-came-hoping-to-win-but-priyanka-chahar-choudhary-pens-emotional-note-after-losing-rise-and-fall-2"
+    },
+    {
+     "date": "2026-11-07",
+     "source": "freepressjournal.in",
+     "title": "Diwali 2026: Astrologers Predict Goddess Lakshmi Arriving On Elephant This Diwali, Symobilising Wealth And Ambundance; Check Lakshmi Puja Muhurat",
+     "url": "https://www.freepressjournal.in/bhopal/diwali-2026-astrologers-predict-goddess-lakshmi-arriving-on-elephant-this-diwali-symobilising-wealth-and-ambundance-check-lakshmi-puja-muhurat"
+    },
+    {
+     "date": "2026-11-07",
+     "source": "freepressjournal.in",
+     "title": "Pune: 80-Year-Old Dies After Son Hits Him With Shovel; Police Halt Funeral",
+     "url": "https://www.freepressjournal.in/pune/pune-80-year-old-dies-after-son-hits-him-with-shovel-police-halt-funeral"
+    },
+    {
+     "date": "2026-11-07",
+     "source": "freepressjournal.in",
+     "title": "'Some Films Aren’t Measured By The Length Of A Role...': Kajal Aggarwal On Her Less Screen Time In Ramayana",
+     "url": "https://www.freepressjournal.in/entertainment/some-films-arent-measured-by-the-length-of-a-role-kajal-aggarwal-on-her-less-screen-time-in-ramayana"
+    },
+    {
+     "date": "2026-11-07",
+     "source": "freepressjournal.in",
+     "title": "Pune Collector Sets Targets For 14,000 Water Conservation Works To Tackle Possible Drought",
+     "url": "https://www.freepressjournal.in/pune/pune-collector-sets-targets-for-14000-water-conservation-works-to-tackle-possible-drought"
+    },
+    {
+     "date": "2026-11-07",
+     "source": "freepressjournal.in",
+     "title": "Hardik Pandya Injury Update: Star All-Rounder Misses Out On Baroda Squad For Syed Mushtaq Ali Trophy",
+     "url": "https://www.freepressjournal.in/sports/hardik-pandya-injury-update-star-all-rounder-misses-out-on-baroda-squad-for-syed-mushtaq-ali-trophy"
+    },
+    {
+     "date": "2026-11-07",
+     "source": "freepressjournal.in",
+     "title": "Thane: Fire Breaks Out In Sealed Commercial Unit In Uthalsar; C-1 Category Building Declared Highly Dangerous, No Injuries Reported",
+     "url": "https://www.freepressjournal.in/mumbai/thane-fire-breaks-out-in-sealed-commercial-unit-in-uthalsar-c-1-category-building-declared-highly-dangerous-no-injuries-reported"
+    },
     {
      "date": "2026-11-07",
      "source": "freepressjournal.in",
@@ -1329,32 +1455,8 @@
     {
      "date": "2026-11-07",
      "source": "freepressjournal.in",
-     "title": "Bhopal Junction Viral Video: Man Struggles To Hold Child While Boarding Jam-Packed Train Amid Heavy Diwali Rush; Netizens Question Railway Minister Over Safety",
-     "url": "https://www.freepressjournal.in/bhopal/bhopal-junction-viral-video-man-struggles-to-hold-child-while-boarding-jam-packed-train-amid-heavy-diwali-rush-netizens-question-railway-minister-over-safety"
-    },
-    {
-     "date": "2026-11-07",
-     "source": "freepressjournal.in",
-     "title": "King Kohli's Naughty Side! Virat Kohli Hilariously Copies Ishan Kishan's Unique Running Style During IND vs NZ 2nd ODI | Video",
-     "url": "https://www.freepressjournal.in/sports/king-kohlis-naughty-side-virat-kohli-hilariously-copies-ishan-kishans-unique-running-style-during-ind-vs-nz-2nd-odi-video"
-    },
-    {
-     "date": "2026-11-07",
-     "source": "freepressjournal.in",
-     "title": "Ghaziabad Police Outpost Blast: UP ATS And Bomb Squad Launch Probe After Explosion At Vasundhara Outpost Injures Delivery Worker | Video",
-     "url": "https://www.freepressjournal.in/india/ghaziabad-police-outpost-blast-up-ats-and-bomb-squad-launch-probe-after-explosion-at-vasundhara-outpost-injures-delivery-worker-video"
-    },
-    {
-     "date": "2026-11-07",
-     "source": "freepressjournal.in",
      "title": "Viral Video: Man Pulls Person Off Railway Tracks Moments Before Train Passes At Vikhroli Station; Netizens Praise Quick Action",
      "url": "https://www.freepressjournal.in/mumbai/viral-video-man-pulls-person-off-railway-tracks-moments-before-train-passes-at-vikhroli-station-netizens-praise-quick-action-mumbai-news"
-    },
-    {
-     "date": "2026-11-07",
-     "source": "freepressjournal.in",
-     "title": "Jabalpur Slum Fire: Over 50 Families Lose Homes In Massive Blaze In Jabalpur On Dhanteras Night | VIDEO",
-     "url": "https://www.freepressjournal.in/bhopal/jabalpur-slum-fire-over-50-families-lose-homes-in-massive-blaze-in-jabalpur-on-dhanteras-night-video"
     },
     {
      "date": "2026-11-07",
@@ -1371,116 +1473,8 @@
     {
      "date": "2026-11-07",
      "source": "freepressjournal.in",
-     "title": "Tamil Nadu CM Joseph Vijay Approves ₹2,000-Crore Vetri Laptop Scheme To Provide Free Laptops To College Students In 2026-27",
-     "url": "https://www.freepressjournal.in/education/tamil-nadu-cm-joseph-vijay-approves-2000-crore-vetri-laptop-scheme-to-provide-free-laptops-to-college-students-in-2026-27"
-    },
-    {
-     "date": "2026-11-07",
-     "source": "freepressjournal.in",
-     "title": "Pralay: Hansal Mehta REACTS To MCA's Allegations Of Cricket Match Disruption Due To 6-Hour Shoot, Says Team Had Azad Maidan Permissions",
-     "url": "https://www.freepressjournal.in/entertainment/ranveer-singh-pralay-hansal-mehta-reacts-to-mcas-allegations-of-cricket-match-disruption-due-to-6-hour-shoot-says-team-had-mumbai-azad-maidan-permissions"
-    },
-    {
-     "date": "2026-11-07",
-     "source": "freepressjournal.in",
-     "title": "Delhi Shocker: 47-Year-Old Married Man Sets Himself Ablaze Inside Factory After Friend’s 20-Year-Old Daughter Rejects Marriage Proposal",
-     "url": "https://www.freepressjournal.in/india/delhi-shocker-47-year-old-married-man-sets-himself-ablaze-inside-factory-after-friends-20-year-old-daughter-rejects-marriage-proposal"
-    },
-    {
-     "date": "2026-11-07",
-     "source": "freepressjournal.in",
-     "title": "Alia Bhatt Serves Effortless Floral Fashion In ₹8K Mini Dress At Daughter Raha's 4th Birthday Celebration",
-     "url": "https://www.freepressjournal.in/lifestyle/alia-bhatt-serves-effortless-floral-fashion-in-8k-mini-dress-at-daughter-rahas-4th-birthday-celebration"
-    },
-    {
-     "date": "2026-11-07",
-     "source": "freepressjournal.in",
-     "title": "Shah Rukh Khan To Appear On Koffee With Karan 9 Finale? Karan Johar's Cryptic Response Leaves Fans Guessing",
-     "url": "https://www.freepressjournal.in/entertainment/shah-rukh-khan-to-appear-on-koffee-with-karan-9-finale-karan-johars-cryptic-response-leaves-fans-guessing"
-    },
-    {
-     "date": "2026-11-07",
-     "source": "freepressjournal.in",
-     "title": "Telangana Student Missing In US: 23-Year-Old Sreeja Reddy Koya Goes Missing In Boston, Minister Seeks MEA Intervention",
-     "url": "https://www.freepressjournal.in/world/telangana-student-missing-in-us-23-year-old-sreeja-reddy-koya-goes-missing-in-boston-minister-seeks-mea-intervention"
-    },
-    {
-     "date": "2026-11-07",
-     "source": "freepressjournal.in",
-     "title": "Bhopal Garbage Challenge: Sanitation Workers Resumes Cleaning After 3-Day Strike, But Can Bhopal Get Rid Of Accumulated 3K Tonnes Waste Before Diwali? VIDEO",
-     "url": "https://www.freepressjournal.in/bhopal/bhopal-garbage-crisis-sanitation-workers-resumes-cleaning-roads-after-3-day-strike-but-accumulated-3k-tonnes-waste-poses-major-diwali-challenge-video"
-    },
-    {
-     "date": "2026-11-07",
-     "source": "freepressjournal.in",
-     "title": "China Warns Of Countermeasures After US Sanctions On Two Firms Over Cuba Ties",
-     "url": "https://www.freepressjournal.in/business/china-warns-of-countermeasures-after-us-sanctions-on-two-firms-over-cuba-ties"
-    },
-    {
-     "date": "2026-11-07",
-     "source": "freepressjournal.in",
-     "title": "'Some Legends Don't Say Goodbye, They ....': Cricket Fraternity Pays Emotional Tribute To Mohammed Shami After Test Retirement",
-     "url": "https://www.freepressjournal.in/sports/some-legends-dont-say-goodbye-they-cricket-fraternity-pays-emotional-tribute-to-mohammed-shami-after-test-retirement"
-    },
-    {
-     "date": "2026-11-07",
-     "source": "freepressjournal.in",
-     "title": "Mumbai Local Train Update: Central Railway Announces Mega Block On Diwali Sunday; Western Railway Offers Relief To Commuters",
-     "url": "https://www.freepressjournal.in/mumbai/mumbai-local-train-update-central-railway-announces-mega-block-on-diwali-sunday-western-railway-offers-relief-to-commuters-mumbai-news"
-    },
-    {
-     "date": "2026-11-07",
-     "source": "freepressjournal.in",
-     "title": "Amitabh Bachchan’s Health Concerns Halt Kaun Banega Crorepati 18 Shoot; Channel Re-Airs Old Episodes: Report",
-     "url": "https://www.freepressjournal.in/entertainment/amitabh-bachchans-health-concerns-halt-kaun-banega-crorepati-18-shoot-channel-re-airs-old-episodes-report"
-    },
-    {
-     "date": "2026-11-07",
-     "source": "freepressjournal.in",
-     "title": "Tata Steel Forges Ahead With Strong Q2 FY27 Earnings, Profit Surges 16% To ₹3,699.59 Crore As Revenue Tops ₹65,000 Crore And Noel Tata Prepares To Step Down",
-     "url": "https://www.freepressjournal.in/business/tata-steel-forges-ahead-with-strong-q2-fy27-earnings-profit-surges-16-to-369959-crore-as-revenue-tops-65000-crore-and-noel-tata-prepares-to-step-down"
-    },
-    {
-     "date": "2026-11-07",
-     "source": "freepressjournal.in",
-     "title": "Virat Kohli Loses Cool At Fans Throwing Bats Onto Field For Autograph During IND vs NZ 2nd ODI | Video",
-     "url": "https://www.freepressjournal.in/sports/virat-kohli-loses-cool-at-fans-throwing-bats-onto-field-for-autograph-during-ind-vs-nz-2nd-odi-video"
-    },
-    {
-     "date": "2026-11-07",
-     "source": "freepressjournal.in",
-     "title": "Two Men Charged In Extortion-Linked Shooting At Kapil Sharma’s Kap’s Cafe In Canada",
-     "url": "https://www.freepressjournal.in/entertainment/two-men-charged-in-extortion-linked-shooting-at-kapil-sharmas-kaps-cafe-in-canada"
-    },
-    {
-     "date": "2026-11-07",
-     "source": "freepressjournal.in",
-     "title": "Pune Metro Line 3 Diwali Timings Changed For Nov 8; Check Last Trains From Hinjawadi & Shivajinagar",
-     "url": "https://www.freepressjournal.in/pune/pune-metro-line-3-diwali-timings-changed-for-nov-8-check-last-trains-from-hinjawadi-shivajinagar"
-    },
-    {
-     "date": "2026-11-07",
-     "source": "freepressjournal.in",
      "title": "Kali Puja 2026 On Diwali, November 8: Check Amavasya, Nishita Muhurat, Puja Vidhi And Significance",
      "url": "https://www.freepressjournal.in/lifestyle/kali-puja-2026-on-diwali-november-8-check-amavasya-nishita-muhurat-puja-vidhi-and-significance"
-    },
-    {
-     "date": "2026-11-07",
-     "source": "freepressjournal.in",
-     "title": "'Political Satire Cannot Come At The Cost Of Dignity': Delhi HC Orders Takedown Of AI-Generated Videos Targeting CM Rekha Gupta",
-     "url": "https://www.freepressjournal.in/india/political-satire-cannot-come-at-the-cost-of-dignity-delhi-hc-orders-takedown-of-ai-generated-videos-targeting-cm-rekha-gupta"
-    },
-    {
-     "date": "2026-11-07",
-     "source": "freepressjournal.in",
-     "title": "Delhi Schools To Conduct Classes Up To 5 In Hybrid Mode As Air Pollution Worsens Across The Capital",
-     "url": "https://www.freepressjournal.in/education/delhi-schools-to-conduct-classes-up-to-5-in-hybrid-mode-as-air-pollution-worsens-across-the-capital"
-    },
-    {
-     "date": "2026-11-07",
-     "source": "freepressjournal.in",
-     "title": "Rohit Sharma Leaves Virat Kohli In Splits By Copying His Viral 'You Can't See Me' Gesture During IND vs NZ 2nd ODI | Watch",
-     "url": "https://www.freepressjournal.in/sports/rohit-sharma-leaves-virat-kohli-in-splits-by-copying-his-viral-you-cant-see-me-gesture-during-ind-vs-nz-2nd-odi-watch"
     },
     {
      "date": "2026-11-07",
@@ -1491,14 +1485,8 @@
     {
      "date": "2026-11-07",
      "source": "freepressjournal.in",
-     "title": "Lawrence Bishnoi Gang Aide Hari Boxer, Who Claimed Responsibility For Firing On Rohit Shetty’s Mumbai Home, Held In US",
-     "url": "https://www.freepressjournal.in/india/lawrence-bishnoi-gang-aide-hari-boxer-who-claimed-responsibility-for-firing-on-rohit-shettys-mumbai-home-held-in-us"
-    },
-    {
-     "date": "2026-11-07",
-     "source": "freepressjournal.in",
-     "title": "Diwali Is Going Global. So Is The Indian Wardrobe",
-     "url": "https://www.freepressjournal.in/lifestyle/diwali-is-going-global-so-is-the-indian-wardrobe"
+     "title": "Jharkhand Maoist Carrying ₹10 Lakh Bounty Arrested From Thakurli Near Thane By Maharashtra ATS",
+     "url": "https://www.freepressjournal.in/mumbai/jharkhand-maoist-carrying-10-lakh-bounty-arrested-from-thakurli-near-thane-by-maharashtra-ats"
     },
     {
      "date": "2026-11-07",
@@ -1507,16 +1495,34 @@
      "url": "https://www.freepressjournal.in/lifestyle/diwali-2026-beauty-hampers-and-gifts-worth-unwrapping"
     },
     {
+     "date": "2026-11-07",
+     "source": "freepressjournal.in",
+     "title": "Diwali Is Going Global. So Is The Indian Wardrobe",
+     "url": "https://www.freepressjournal.in/lifestyle/diwali-is-going-global-so-is-the-indian-wardrobe"
+    },
+    {
      "date": "2026-11-06",
      "source": "freepressjournal.in",
-     "title": "Salman Khan Cuts Multi-Tier Cake On Bigg Boss 20 Set As Show Creates History With 100 Crore Watch Hours - VIDEO",
-     "url": "https://www.freepressjournal.in/entertainment/salman-khan-cuts-multi-tier-cake-on-bigg-boss-20-set-as-show-creates-history-with-100-crore-watch-hours-video"
+     "title": "FPJ Exclusive: The Three-Item Plate Rule Experts Swear By For Festive Feasting",
+     "url": "https://www.freepressjournal.in/lifestyle/diwali-2026-the-three-item-plate-rule-experts-swear-by-for-festive-feasting"
     }
    ]
   },
   "https://www.livemint.com/rss/markets": {
-   "fetched": "2026-11-07T17:45+05:30",
+   "fetched": "2026-11-07T19:15+05:30",
    "items": [
+    {
+     "date": "2026-11-07",
+     "source": "Mint",
+     "title": "Diwali cheer missing? Nifty lights up, but your portfolio may be burning; what's driving the disconnect? SAMCO explains",
+     "url": "https://www.livemint.com/market/stock-market-news/diwali-cheer-missing-nifty-lights-up-but-your-portfolio-may-be-burning-whats-driving-the-disconnect-samco-explains-11794050891575.html"
+    },
+    {
+     "date": "2026-11-07",
+     "source": "Mint",
+     "title": "Diwali 2026 Muhurat trading: Why do NSE, BSE break the holiday rule for special live trading session? Explained",
+     "url": "https://www.livemint.com/market/stock-market-news/diwali-2026-muhurat-trading-why-do-nse-bse-break-the-holiday-rule-for-special-live-trading-session-explained-11794054250580.html"
+    },
     {
      "date": "2026-11-07",
      "source": "Mint",
@@ -1714,23 +1720,11 @@
      "source": "Mint",
      "title": "Hunting for next defence stock winners? Raymond, PTC, Axiscades, Rossell - Experts decode opportunity, share targets",
      "url": "https://www.livemint.com/market/stock-market-news/hunting-for-next-defence-stock-winners-raymond-ptc-axiscades-rossell-experts-decode-opportunity-share-targets-11793971143436.html"
-    },
-    {
-     "date": "2026-11-06",
-     "source": "Mint",
-     "title": "Muhurat Trading 2026: Equirus Prive's 16 Diwali picks include HDFC Bank, M&M, ESFB Voltas; upside seen up to 54%",
-     "url": "https://www.livemint.com/market/stock-market-news/muhurat-trading-2026-equirus-prives-16-diwali-picks-include-hdfc-bank-m-m-esfb-voltas-upside-seen-up-to-54-11793974438126.html"
-    },
-    {
-     "date": "2026-11-06",
-     "source": "Mint",
-     "title": "Pulse of the Street: Dalal Street shines before Diwali. Can the rally last?",
-     "url": "https://www.livemint.com/market/pulse-of-the-street-dalal-street-shines-before-diwali-can-the-rally-last-11793965614339.html"
     }
    ]
   },
   "https://www.thehindubusinessline.com/markets/feeder/default.rss": {
-   "fetched": "2026-11-07T17:45+05:30",
+   "fetched": "2026-11-07T19:15+05:30",
    "items": [
     {
      "date": "2026-11-07",
@@ -2095,7 +2089,7 @@
    ]
   },
   "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss": {
-   "fetched": "2026-11-07T17:45+05:30",
+   "fetched": "2026-11-07T19:15+05:30",
    "items": [
     {
      "date": "2026-10-26",
@@ -2221,7 +2215,7 @@
   }
  },
  "antala-industries": {
-  "checked": "2026-11-07T19:00+05:30",
+  "checked": "2026-11-07T19:15+05:30",
   "items": [
    {
     "date": "2026-10-29",
@@ -2232,7 +2226,7 @@
   ]
  },
  "vpfl": {
-  "checked": "2026-11-07T19:00+05:30",
+  "checked": "2026-11-07T19:15+05:30",
   "items": [
    {
     "date": "2026-11-02",
