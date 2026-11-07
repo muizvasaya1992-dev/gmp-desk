@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T20:31+05:30",
+  "generated_at": "2026-11-07T20:45+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-07T09:56+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-07T20:31+05:30",
+    "nse_ok_at": "2026-11-07T20:45+05:30",
     "bse_ok_at": "2026-11-07T09:58+05:30"
   },
   "ipos": [
@@ -2895,10 +2895,10 @@
       },
       "news": [
         {
-          "date": "2026-11-02",
-          "source": "Economic Times",
           "title": "Vedant Poly Fabs SME IPO opens today; GMP at 16%, check key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/vedant-poly-fabs-sme-ipo-opens-today-gmp-at-16-check-key-details/articleshow/135446827.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/vedant-poly-fabs-sme-ipo-opens-today-gmp-at-16-check-key-details/articleshow/135446827.cms",
+          "source": "Economic Times",
+          "date": "2026-11-02"
         }
       ],
       "unconfirmed": false
@@ -2946,7 +2946,7 @@
       "sub_asof": "2026-11-05T19:05",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-07T20:31"
+        "at": "2026-11-07T20:45"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -2960,10 +2960,10 @@
       },
       "news": [
         {
-          "date": "2026-10-29",
-          "source": "Economic Times",
           "title": "Antala Industries SME IPO opens today: Check price band and key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/antala-industries-sme-ipo-opens-today-check-price-band-and-key-details/articleshow/135289593.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/antala-industries-sme-ipo-opens-today-check-price-band-and-key-details/articleshow/135289593.cms",
+          "source": "Economic Times",
+          "date": "2026-10-29"
         }
       ],
       "unconfirmed": false
