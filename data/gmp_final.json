@@ -64,8 +64,11 @@
    "segment": "SME"
   },
   "johnsoncab-electricals": {
+   "actual_close": 237.7,
+   "actual_pct": 18.85,
    "at": "2026-11-05T10:58",
    "gmp": 8,
+   "listed_on": "2026-11-06",
    "listing": "2026-11-06",
    "name": "Johnsoncab Electricals",
    "price": 200,
@@ -102,7 +105,7 @@
    "segment": "MAIN"
   },
   "vpfl": {
-   "at": "2026-11-07T09:15",
+   "at": "2026-11-07T09:56",
    "gmp": 1,
    "listing": "2026-11-09",
    "name": "Vedant Poly Fabs",

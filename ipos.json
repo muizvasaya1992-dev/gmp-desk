@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T09:45+05:30",
+  "generated_at": "2026-11-07T09:56+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -16,15 +16,15 @@
     "total": 236,
     "mainboard": 109,
     "sme": 127,
-    "listing_gain": 175,
+    "listing_gain": 177,
     "listing_loss": 59,
-    "day_gain": 150,
+    "day_gain": 152,
     "day_loss": 84,
-    "fetched_at": "2026-11-06T10:12+05:30"
+    "fetched_at": "2026-11-07T09:56+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-07T09:45+05:30",
-    "bse_ok_at": "2026-11-06T10:14+05:30"
+    "nse_ok_at": "2026-11-07T09:56+05:30",
+    "bse_ok_at": "2026-11-07T09:56+05:30"
   },
   "ipos": [
     {
@@ -2602,8 +2602,8 @@
       "gmp_high": 115,
       "exchange": "SME",
       "gmp": 105,
-      "gmp_asof": "2026-11-07T09:15",
-      "gmp_source_latest": "Tracker D",
+      "gmp_asof": "2026-11-06T23:55",
+      "gmp_source_latest": "Tracker B",
       "gmp_pct": 66.46,
       "gmp_spread": {
         "min": 85,
@@ -2705,11 +2705,11 @@
       ],
       "gmp_history": [
         {
-          "date": "2026-10-30",
-          "gmp": 19
+          "date": "2026-10-31",
+          "gmp": 30
         },
         {
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "gmp": 30
         },
         {
@@ -2722,11 +2722,11 @@
         },
         {
           "date": "2026-11-04",
-          "gmp": 23
+          "gmp": 25
         },
         {
           "date": "2026-11-05",
-          "gmp": 32
+          "gmp": 28
         },
         {
           "date": "2026-11-06",
@@ -2737,13 +2737,13 @@
           "gmp": 27
         }
       ],
-      "history_source": "Tracker D",
+      "history_source": "Tracker B",
       "gmp_low": 17,
       "gmp_high": 32,
       "exchange": "SME",
       "gmp": 27,
-      "gmp_asof": "2026-11-07T09:15",
-      "gmp_source_latest": "Tracker D",
+      "gmp_asof": "2026-11-06T23:55",
+      "gmp_source_latest": "Tracker B",
       "gmp_pct": 22.5,
       "gmp_spread": {
         "min": 27,
@@ -2753,8 +2753,8 @@
         "diff_pct_of_price": 0.0
       },
       "gmp_trend": {
-        "dir": "falling",
-        "change": -5,
+        "dir": "rising",
+        "change": 2,
         "days": 3,
         "since": "2026-11-05"
       },
@@ -2821,17 +2821,17 @@
         {
           "source": "Tracker D",
           "gmp": 1,
-          "at": "2026-11-07T09:15"
+          "at": "2026-11-07T09:56"
         },
         {
           "source": "Tracker C",
           "gmp": 1,
-          "at": "2026-11-07T07:02"
+          "at": "2026-11-07T08:37"
         },
         {
           "source": "Tracker B",
           "gmp": 1,
-          "at": "2026-11-07T09:10"
+          "at": "2026-11-07T09:50"
         }
       ],
       "gmp_history": [
@@ -2873,7 +2873,7 @@
       "gmp_high": 15,
       "exchange": "SME",
       "gmp": 1,
-      "gmp_asof": "2026-11-07T09:15",
+      "gmp_asof": "2026-11-07T09:56",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 1.06,
       "gmp_spread": {
@@ -2903,10 +2903,10 @@
       },
       "news": [
         {
-          "date": "2026-11-02",
-          "source": "Economic Times",
           "title": "Vedant Poly Fabs SME IPO opens today; GMP at 16%, check key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/vedant-poly-fabs-sme-ipo-opens-today-gmp-at-16-check-key-details/articleshow/135446827.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/vedant-poly-fabs-sme-ipo-opens-today-gmp-at-16-check-key-details/articleshow/135446827.cms",
+          "source": "Economic Times",
+          "date": "2026-11-02"
         }
       ],
       "unconfirmed": false
@@ -2954,7 +2954,7 @@
       "sub_asof": "2026-11-05T19:05",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-07T09:45"
+        "at": "2026-11-07T09:56"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -2963,15 +2963,15 @@
       "gmp_pct": null,
       "status": "closed",
       "ai_gmp_none": {
-        "why": "only one of the two checks found a figure, so it is not confirmed",
-        "checked": "2026-11-06T10:12+05:30"
+        "why": "we could not confirm it on the page (the site does not allow us to open that page)",
+        "checked": "2026-11-07T09:56+05:30"
       },
       "news": [
         {
-          "date": "2026-10-29",
-          "source": "Economic Times",
           "title": "Antala Industries SME IPO opens today: Check price band and key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/antala-industries-sme-ipo-opens-today-check-price-band-and-key-details/articleshow/135289593.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/antala-industries-sme-ipo-opens-today-check-price-band-and-key-details/articleshow/135289593.cms",
+          "source": "Economic Times",
+          "date": "2026-10-29"
         }
       ],
       "unconfirmed": false
@@ -3081,8 +3081,8 @@
       "gmp_low": 5,
       "gmp_high": 13,
       "gmp": 8,
-      "gmp_asof": "2026-11-07T09:15",
-      "gmp_source_latest": "Tracker D",
+      "gmp_asof": "2026-11-06T23:55",
+      "gmp_source_latest": "Tracker B",
       "gmp_pct": 4.0,
       "gmp_spread": {
         "min": 8,
