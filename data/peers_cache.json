@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-07T09:31+05:30",
+  "fetched_at": "2026-11-07T09:45+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,7 +16,7 @@
     "price_low": 63.0,
     "size_cr": 23.33,
     "gmp": 0.0,
-    "gmp_at": "2026-11-07T09:25",
+    "gmp_at": "2026-11-07T09:45",
     "sub_total": 12.79,
     "sub_retail": 5.22,
     "sub_at": "2026-11-05T19:05",
@@ -89,7 +89,7 @@
     "price_low": 88.0,
     "size_cr": 56.68,
     "gmp": 1.0,
-    "gmp_at": "2026-11-07T09:25",
+    "gmp_at": "2026-11-07T09:45",
     "sub_total": 1.9,
     "sub_retail": 2.26,
     "sub_at": "2026-11-04T19:05",
@@ -587,7 +587,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-07T09:31+05:30",
+  "fetched_at": "2026-11-07T09:45+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -1142,137 +1142,8 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-07T09:31+05:30",
+  "fetched_at": "2026-11-07T09:45+05:30",
   "records": [
-   {
-    "src": "Tracker D",
-    "slug": "antala-industries",
-    "name": "Antala Industries",
-    "segment": "SME",
-    "exchange": null,
-    "open": null,
-    "close": null,
-    "boa": null,
-    "listing": "2026-11-11",
-    "price": 67.0,
-    "price_low": 63.0,
-    "size_cr": 23.33,
-    "gmp": 0.0,
-    "gmp_at": null,
-    "sub_total": null,
-    "sub_retail": null,
-    "sub_at": null,
-    "lot": 2000.0,
-    "sector": "Packaging",
-    "detail_url": "https://ipoindex.in/ipo/antala-industries-sme-ipo/",
-    "live": true,
-    "detail": {
-     "gmp_history": [
-      [
-       "2026-11-05",
-       0.0
-      ],
-      [
-       "2026-11-03",
-       0.0
-      ],
-      [
-       "2026-11-02",
-       0.0
-      ],
-      [
-       "2026-10-31",
-       0.0
-      ],
-      [
-       "2026-10-30",
-       0.0
-      ],
-      [
-       "2026-10-27",
-       0.0
-      ]
-     ],
-     "reservation": {
-      "bnii": {
-       "pct": 9.82,
-       "shares": 342000
-      },
-      "market_maker": {
-       "pct": 5.05,
-       "shares": 176000
-      },
-      "nii": {
-       "pct": 14.65,
-       "shares": 510000
-      },
-      "qib": {
-       "pct": 1.03,
-       "shares": 36000
-      },
-      "retail": {
-       "pct": 79.26,
-       "shares": 2760000
-      },
-      "snii": {
-       "pct": 4.82,
-       "shares": 168000
-      }
-     },
-     "sub": {
-      "nii": 49.94,
-      "qib": 66.72,
-      "retail": 5.22,
-      "total": 12.79
-     },
-     "sub_at": "2026-11-05T17:54",
-     "uses": [
-      {
-       "cr": 10.68,
-       "use": "Capital"
-      },
-      {
-       "cr": 7.32,
-       "use": "Machine"
-      }
-     ],
-     "years": [
-      {
-       "assets": 5.97,
-       "debt": 0.36,
-       "ebitda": 1.36,
-       "income": 12.59,
-       "net_worth": 3.54,
-       "pat": 0.89,
-       "roce": null,
-       "roe": null,
-       "y": "FY24"
-      },
-      {
-       "assets": 25.47,
-       "debt": 3.85,
-       "ebitda": 2.82,
-       "income": 31.98,
-       "net_worth": 12.19,
-       "pat": 1.82,
-       "roce": 32.39,
-       "roe": 17.77,
-       "y": "FY25"
-      },
-      {
-       "assets": 28.41,
-       "debt": 4.19,
-       "ebitda": 6.15,
-       "income": 47.53,
-       "net_worth": 17.03,
-       "pat": 4.24,
-       "roce": 42.23,
-       "roe": 24.88,
-       "y": "FY26"
-      }
-     ]
-    }
-   },
    {
     "src": "Tracker D",
     "slug": "vedant-poly-fabs",
@@ -1298,94 +1169,25 @@
    },
    {
     "src": "Tracker D",
-    "slug": "hgs-india",
-    "name": "HGS (India)",
+    "slug": "antala-industries",
+    "name": "Antala Industries",
     "segment": "SME",
     "exchange": null,
     "open": null,
     "close": null,
     "boa": null,
     "listing": null,
-    "price": 120.0,
-    "price_low": 114.0,
-    "size_cr": 34.56,
-    "gmp": 27.0,
-    "gmp_at": null,
-    "sub_total": null,
-    "sub_retail": null,
-    "sub_at": null,
-    "lot": 1200.0,
-    "sector": "Oil Exploration & Production",
-    "detail_url": "https://ipoindex.in/ipo/hgs-india-sme-ipo/",
-    "live": false
-   },
-   {
-    "src": "Tracker D",
-    "slug": "maxwell-engineering-solutions",
-    "name": "Maxwell Engineering Solutions",
-    "segment": "SME",
-    "exchange": null,
-    "open": null,
-    "close": null,
-    "boa": null,
-    "listing": null,
-    "price": 158.0,
-    "price_low": 150.0,
-    "size_cr": 58.0,
-    "gmp": 105.0,
-    "gmp_at": null,
-    "sub_total": null,
-    "sub_retail": null,
-    "sub_at": null,
-    "lot": 800.0,
-    "sector": "Other Industrial Products",
-    "detail_url": "https://ipoindex.in/ipo/maxwell-engineering-solutions-sme-ipo/",
-    "live": false
-   },
-   {
-    "src": "Tracker D",
-    "slug": "johnsoncab-electricals",
-    "name": "Johnsoncab Electricals",
-    "segment": "SME",
-    "exchange": null,
-    "open": null,
-    "close": null,
-    "boa": null,
-    "listing": null,
-    "price": 200.0,
-    "price_low": 190.0,
-    "size_cr": 56.02,
-    "gmp": 8.0,
-    "gmp_at": null,
-    "sub_total": null,
-    "sub_retail": null,
-    "sub_at": null,
-    "lot": 600.0,
-    "sector": "Cables - Electricals",
-    "detail_url": "https://ipoindex.in/ipo/johnsoncab-electricals-sme-ipo/",
-    "live": false
-   },
-   {
-    "src": "Tracker D",
-    "slug": "vectras-enprocon",
-    "name": "Vectras Enprocon",
-    "segment": "SME",
-    "exchange": null,
-    "open": null,
-    "close": null,
-    "boa": null,
-    "listing": null,
-    "price": 105.0,
-    "price_low": 99.0,
-    "size_cr": 53.05,
+    "price": 67.0,
+    "price_low": 63.0,
+    "size_cr": 23.33,
     "gmp": 0.0,
     "gmp_at": null,
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
-    "lot": 1200.0,
-    "sector": "Engineering, Procurement & Construction (EPC)",
-    "detail_url": "https://ipoindex.in/ipo/vectras-enprocon-sme-ipo/",
+    "lot": 2000.0,
+    "sector": "Packaging",
+    "detail_url": "https://ipoindex.in/ipo/antala-industries-sme-ipo/",
     "live": false
    }
   ]
