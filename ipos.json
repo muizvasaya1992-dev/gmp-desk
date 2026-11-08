@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T01:01+05:30",
+  "generated_at": "2026-11-09T01:15+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-07T09:56+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-09T01:01+05:30",
+    "nse_ok_at": "2026-11-09T01:15+05:30",
     "bse_ok_at": "2026-11-07T09:58+05:30"
   },
   "ipos": [
@@ -2829,7 +2829,7 @@
         {
           "source": "Tracker D",
           "gmp": 1,
-          "at": "2026-11-08T22:15"
+          "at": "2026-11-09T01:15"
         },
         {
           "source": "Tracker C",
@@ -2845,11 +2845,7 @@
       "gmp_history": [
         {
           "date": "2026-10-31",
-          "gmp": 5
-        },
-        {
-          "date": "2026-11-01",
-          "gmp": 15
+          "gmp": 4.25
         },
         {
           "date": "2026-11-02",
@@ -2857,11 +2853,11 @@
         },
         {
           "date": "2026-11-03",
-          "gmp": 13
+          "gmp": 12
         },
         {
           "date": "2026-11-04",
-          "gmp": 5
+          "gmp": 10
         },
         {
           "date": "2026-11-05",
@@ -2878,15 +2874,19 @@
         {
           "date": "2026-11-08",
           "gmp": 1
+        },
+        {
+          "date": "2026-11-09",
+          "gmp": 1
         }
       ],
-      "history_source": "Tracker B",
+      "history_source": "Tracker D",
       "gmp_low": 1,
       "gmp_high": 15,
       "exchange": "SME",
       "gmp": 1,
-      "gmp_asof": "2026-11-08T23:55",
-      "gmp_source_latest": "Tracker B",
+      "gmp_asof": "2026-11-09T01:15",
+      "gmp_source_latest": "Tracker D",
       "gmp_pct": 1.06,
       "gmp_spread": {
         "min": 1,
@@ -2899,7 +2899,7 @@
         "dir": "steady",
         "change": 0,
         "days": 3,
-        "since": "2026-11-06"
+        "since": "2026-11-07"
       },
       "status": "listed",
       "unconfirmed": false
@@ -2947,7 +2947,7 @@
       "sub_asof": "2026-11-05T19:05",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-09T01:01"
+        "at": "2026-11-09T01:15"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -2961,10 +2961,10 @@
       },
       "news": [
         {
-          "date": "2026-10-29",
-          "source": "Economic Times",
           "title": "Antala Industries SME IPO opens today: Check price band and key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/antala-industries-sme-ipo-opens-today-check-price-band-and-key-details/articleshow/135289593.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/antala-industries-sme-ipo-opens-today-check-price-band-and-key-details/articleshow/135289593.cms",
+          "source": "Economic Times",
+          "date": "2026-10-29"
         }
       ],
       "unconfirmed": false
