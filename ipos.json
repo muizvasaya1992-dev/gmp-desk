@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T23:45+05:30",
+  "generated_at": "2026-11-09T00:00+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-07T09:56+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-08T23:45+05:30",
+    "nse_ok_at": "2026-11-09T00:00+05:30",
     "bse_ok_at": "2026-11-07T09:58+05:30"
   },
   "ipos": [
@@ -2059,7 +2059,7 @@
         {
           "source": "Tracker B",
           "gmp": 5,
-          "at": "2026-11-07T00:01"
+          "at": "2026-11-08T00:01"
         },
         {
           "source": "Tracker C",
@@ -2104,13 +2104,17 @@
         {
           "date": "2026-11-07",
           "gmp": 5
+        },
+        {
+          "date": "2026-11-08",
+          "gmp": 5
         }
       ],
       "history_source": "Tracker B",
       "gmp_low": 3,
       "gmp_high": 6,
       "gmp": 5,
-      "gmp_asof": "2026-11-07T00:01",
+      "gmp_asof": "2026-11-08T00:01",
       "gmp_source_latest": "Tracker B",
       "gmp_pct": 6.25,
       "gmp_spread": {
@@ -2124,7 +2128,7 @@
         "dir": "steady",
         "change": 0,
         "days": 3,
-        "since": "2026-11-05"
+        "since": "2026-11-06"
       },
       "status": "listed",
       "unconfirmed": false
@@ -2552,28 +2556,20 @@
         {
           "source": "Tracker B",
           "gmp": 105,
-          "at": "2026-11-07T00:01"
+          "at": "2026-11-08T00:01"
         }
       ],
       "gmp_history": [
-        {
-          "date": "2026-10-27",
-          "gmp": 26
-        },
-        {
-          "date": "2026-10-28",
-          "gmp": 25
-        },
-        {
-          "date": "2026-10-29",
-          "gmp": 50
-        },
         {
           "date": "2026-10-30",
           "gmp": 70
         },
         {
           "date": "2026-10-31",
+          "gmp": 70
+        },
+        {
+          "date": "2026-11-01",
           "gmp": 70
         },
         {
@@ -2590,19 +2586,27 @@
         },
         {
           "date": "2026-11-05",
-          "gmp": 115
+          "gmp": 113
         },
         {
           "date": "2026-11-06",
           "gmp": 105
+        },
+        {
+          "date": "2026-11-07",
+          "gmp": 105
+        },
+        {
+          "date": "2026-11-08",
+          "gmp": 105
         }
       ],
-      "history_source": "Tracker D",
+      "history_source": "Tracker B",
       "gmp_low": 25,
       "gmp_high": 115,
       "exchange": "SME",
       "gmp": 105,
-      "gmp_asof": "2026-11-07T00:01",
+      "gmp_asof": "2026-11-08T00:01",
       "gmp_source_latest": "Tracker B",
       "gmp_pct": 66.46,
       "gmp_spread": {
@@ -2613,10 +2617,10 @@
         "diff_pct_of_price": 12.66
       },
       "gmp_trend": {
-        "dir": "rising",
-        "change": 25,
+        "dir": "steady",
+        "change": 0,
         "days": 3,
-        "since": "2026-11-04"
+        "since": "2026-11-06"
       },
       "status": "listed",
       "unconfirmed": false
@@ -2700,7 +2704,7 @@
         {
           "source": "Tracker B",
           "gmp": 27,
-          "at": "2026-11-07T00:01"
+          "at": "2026-11-08T00:01"
         }
       ],
       "gmp_history": [
@@ -2735,6 +2739,10 @@
         {
           "date": "2026-11-07",
           "gmp": 27
+        },
+        {
+          "date": "2026-11-08",
+          "gmp": 27
         }
       ],
       "history_source": "Tracker B",
@@ -2742,7 +2750,7 @@
       "gmp_high": 32,
       "exchange": "SME",
       "gmp": 27,
-      "gmp_asof": "2026-11-07T00:01",
+      "gmp_asof": "2026-11-08T00:01",
       "gmp_source_latest": "Tracker B",
       "gmp_pct": 22.5,
       "gmp_spread": {
@@ -2754,9 +2762,9 @@
       },
       "gmp_trend": {
         "dir": "steady",
-        "change": -1,
+        "change": 0,
         "days": 3,
-        "since": "2026-11-05"
+        "since": "2026-11-06"
       },
       "status": "listed",
       "unconfirmed": false
@@ -2893,26 +2901,7 @@
         "days": 3,
         "since": "2026-11-06"
       },
-      "status": "closed",
-      "ai_gmp": {
-        "gmp": 0,
-        "as_of": "2026-10-31",
-        "note": "GMP is ₹0 as of October 31, 2026, 8:00 AM IST.",
-        "sources": [
-          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUR2KSdAyGkfvoozJOh4I42h79P6R6qfVgeJ0FuXPOzpHKvHKMaFqqeKVz2_fKr1Llk4hhcHeV_uLXcz4RzaoALMdf2ikR9uosGXb2BMMcYy8dKMVv6px3"
-        ],
-        "model": "gemini-2.5-flash",
-        "checked": "2026-10-31T12:35+05:30",
-        "pct": 0.0
-      },
-      "news": [
-        {
-          "title": "Vedant Poly Fabs SME IPO opens today; GMP at 16%, check key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/vedant-poly-fabs-sme-ipo-opens-today-gmp-at-16-check-key-details/articleshow/135446827.cms",
-          "source": "Economic Times",
-          "date": "2026-11-02"
-        }
-      ],
+      "status": "listed",
       "unconfirmed": false
     },
     {
@@ -2958,7 +2947,7 @@
       "sub_asof": "2026-11-05T19:05",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-08T23:45"
+        "at": "2026-11-09T00:00"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -2972,10 +2961,10 @@
       },
       "news": [
         {
-          "title": "Antala Industries SME IPO opens today: Check price band and key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/antala-industries-sme-ipo-opens-today-check-price-band-and-key-details/articleshow/135289593.cms",
+          "date": "2026-10-29",
           "source": "Economic Times",
-          "date": "2026-10-29"
+          "title": "Antala Industries SME IPO opens today: Check price band and key details",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/antala-industries-sme-ipo-opens-today-check-price-band-and-key-details/articleshow/135289593.cms"
         }
       ],
       "unconfirmed": false
@@ -3036,24 +3025,16 @@
         {
           "source": "Tracker B",
           "gmp": 8,
-          "at": "2026-11-07T00:01"
+          "at": "2026-11-08T00:01"
         }
       ],
       "gmp_history": [
         {
-          "date": "2026-10-28",
+          "date": "2026-10-31",
           "gmp": 10
         },
         {
-          "date": "2026-10-29",
-          "gmp": 13
-        },
-        {
-          "date": "2026-10-30",
-          "gmp": 12
-        },
-        {
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "gmp": 5
         },
         {
@@ -3066,7 +3047,7 @@
         },
         {
           "date": "2026-11-04",
-          "gmp": 8
+          "gmp": 6
         },
         {
           "date": "2026-11-05",
@@ -3075,13 +3056,21 @@
         {
           "date": "2026-11-06",
           "gmp": 8
+        },
+        {
+          "date": "2026-11-07",
+          "gmp": 8
+        },
+        {
+          "date": "2026-11-08",
+          "gmp": 8
         }
       ],
-      "history_source": "Tracker D",
+      "history_source": "Tracker B",
       "gmp_low": 5,
       "gmp_high": 13,
       "gmp": 8,
-      "gmp_asof": "2026-11-07T00:01",
+      "gmp_asof": "2026-11-08T00:01",
       "gmp_source_latest": "Tracker B",
       "gmp_pct": 4.0,
       "gmp_spread": {
@@ -3095,7 +3084,7 @@
         "dir": "steady",
         "change": 0,
         "days": 3,
-        "since": "2026-11-04"
+        "since": "2026-11-06"
       },
       "status": "listed",
       "unconfirmed": false
