@@ -1,7 +1,7 @@
 {
  "_feeds": {
   "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms": {
-   "fetched": "2026-11-08T19:15+05:30",
+   "fetched": "2026-11-08T20:45+05:30",
    "items": [
     {
      "date": "2026-11-07",
@@ -306,7 +306,7 @@
    ]
   },
   "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms": {
-   "fetched": "2026-11-08T19:15+05:30",
+   "fetched": "2026-11-08T20:45+05:30",
    "items": [
     {
      "date": "2026-11-08",
@@ -611,8 +611,14 @@
    ]
   },
   "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml": {
-   "fetched": "2026-11-08T19:15+05:30",
+   "fetched": "2026-11-08T20:45+05:30",
    "items": [
+    {
+     "date": "2026-11-08",
+     "source": "cnbctv18.com",
+     "title": "NSE targets 300 tonne of digital gold, aims to cut India's import dependence",
+     "url": "https://www.cnbctv18.com/market/commodities/nse-digital-gold-egr-target-300-tonnes-reduce-gold-imports-alpha-article-20029860.htm"
+    },
     {
      "date": "2026-11-08",
      "source": "cnbctv18.com",
@@ -1086,18 +1092,120 @@
      "source": "cnbctv18.com",
      "title": "Samvardhana Motherson shares are a buy or sell after 8% fall? Here's what analysts said",
      "url": "https://www.cnbctv18.com/market/samvardhana-motherson-share-price-fall-q2-results-buy-sell-200-plus-targets-outlook-acquisitions-returns-20028628.htm"
-    },
-    {
-     "date": "2026-11-06",
-     "source": "cnbctv18.com",
-     "title": "Groww shares fall 5% after block deal worth over ₹3,708 crore",
-     "url": "https://www.cnbctv18.com/market/groww-share-price-falls-large-trade-block-deal-buyer-seller-20028597.htm"
     }
    ]
   },
   "https://www.freepressjournal.in/stories.rss?section=business": {
-   "fetched": "2026-11-08T19:15+05:30",
+   "fetched": "2026-11-08T20:45+05:30",
    "items": [
+    {
+     "date": "2026-11-08",
+     "source": "freepressjournal.in",
+     "title": "Delhi Chokes On Diwali Smoke As AQI Hits 376, Severe Pollution Looms",
+     "url": "https://www.freepressjournal.in/india/delhi-chokes-on-diwali-smoke-as-aqi-hits-376-severe-pollution-looms"
+    },
+    {
+     "date": "2026-11-08",
+     "source": "freepressjournal.in",
+     "title": "Massive Blaze At Ulhasnagar Landfill Raises Health Concerns; Residents Demand Round-The-Clock Medical Facility",
+     "url": "https://www.freepressjournal.in/mumbai/massive-blaze-at-ulhasnagar-landfill-raises-health-concerns-residents-demand-round-the-clock-medical-facility"
+    },
+    {
+     "date": "2026-11-08",
+     "source": "freepressjournal.in",
+     "title": "From Bihar To Pakistan: Mokama MLA Anant Singh Opens Wedding Guest List For Daughter Shivangi's Big Day",
+     "url": "https://www.freepressjournal.in/india/from-bihar-to-pakistan-mokama-mla-anant-singh-opens-wedding-guest-list-for-daughter-shivangis-big-day"
+    },
+    {
+     "date": "2026-11-08",
+     "source": "freepressjournal.in",
+     "title": "Maharashtra Govt Approves Seventh Pay Commission's S-6 Scale For 12 KDMT Technical Assistants After 16 Years",
+     "url": "https://www.freepressjournal.in/mumbai/maharashtra-govt-approves-seventh-pay-commissions-s-6-scale-for-12-kdmt-technical-assistants-after-16-years"
+    },
+    {
+     "date": "2026-11-08",
+     "source": "freepressjournal.in",
+     "title": "Maharashtra Forest Minister Ganesh Naik Celebrates Diwali With Tribal And Farming Families In Shahapur Village",
+     "url": "https://www.freepressjournal.in/mumbai/maharashtra-forest-minister-ganesh-naik-celebrates-diwali-with-tribal-and-farming-families-in-shahapur-village"
+    },
+    {
+     "date": "2026-11-08",
+     "source": "freepressjournal.in",
+     "title": "WATCH: Young Pakistan Cricketers Break Into Insane Celebrations After Beating India In U19 Asia Cup",
+     "url": "https://www.freepressjournal.in/sports/watch-young-pakistan-cricketers-break-into-insane-celebrations-after-beating-india-in-u19-asia-cup"
+    },
+    {
+     "date": "2026-11-08",
+     "source": "freepressjournal.in",
+     "title": "BJP Corporator Makarand Narwekar Demands South Mumbai's Exclusion From BMC's ₹8,614-Crore Road Concretisation Tender",
+     "url": "https://www.freepressjournal.in/mumbai/bjp-corporator-makarand-narwekar-demands-south-mumbais-exclusion-from-bmcs-8614-crore-road-concretisation-tender"
+    },
+    {
+     "date": "2026-11-08",
+     "source": "freepressjournal.in",
+     "title": "'My Greatest Fear Is That You May Forget Your Mother's Love': Celina Jaitly Pens Heartbreaking Diwali Note For Sons Winston, Viraaj, Arthur",
+     "url": "https://www.freepressjournal.in/entertainment/my-greatest-fear-is-that-you-may-forget-your-mothers-love-celina-jaitly-pens-heartbreaking-diwali-note-for-sons-winston-viraaj-arthur"
+    },
+    {
+     "date": "2026-11-08",
+     "source": "freepressjournal.in",
+     "title": "Mahesh Kale's Soulful Renditions Enchant Hundreds At Mumbai's Diwali Pahat",
+     "url": "https://www.freepressjournal.in/mumbai/mahesh-kales-soulful-renditions-enchant-hundreds-at-mumbais-diwali-pahat"
+    },
+    {
+     "date": "2026-11-08",
+     "source": "freepressjournal.in",
+     "title": "Allahabad High Court Upholds Deployment Of Government Teachers For Election Duties",
+     "url": "https://www.freepressjournal.in/education/allahabad-high-court-upholds-deployment-of-government-teachers-for-election-duties"
+    },
+    {
+     "date": "2026-11-08",
+     "source": "freepressjournal.in",
+     "title": "Woman Duped Of ₹15.30 Lakh In Online Task Scam; Five Unknown Persons Booked",
+     "url": "https://www.freepressjournal.in/mumbai/woman-duped-of-1530-lakh-in-online-task-scam-five-unknown-persons-booked"
+    },
+    {
+     "date": "2026-11-08",
+     "source": "freepressjournal.in",
+     "title": "Rajasthan: Life Convict Visits Thailand For 5 Days As Jail Marks Attendance",
+     "url": "https://www.freepressjournal.in/india/rajasthan-life-convict-visits-thailand-for-5-days-as-jail-marks-attendance"
+    },
+    {
+     "date": "2026-11-08",
+     "source": "freepressjournal.in",
+     "title": "UP Voter List Revision: EC Delays Draft Roll To Nov 17, Final List On Jan 4",
+     "url": "https://www.freepressjournal.in/india/up-voter-list-revision-ec-delays-draft-roll-to-nov-17-final-list-on-jan-4"
+    },
+    {
+     "date": "2026-11-08",
+     "source": "freepressjournal.in",
+     "title": "Union HM Amit Shah Announces Seva Sankalp Abhiyan From September 17, Says NDA-Ruled States Will Introduce UCC Before 2029",
+     "url": "https://www.freepressjournal.in/india/union-hm-amit-shah-announces-seva-sankalp-abhiyan-from-september-17-says-nda-ruled-states-will-introduce-ucc-before-2029"
+    },
+    {
+     "date": "2026-11-08",
+     "source": "freepressjournal.in",
+     "title": "Diwali 2026: From Chakli To Shankarpali, Traditional Foods That Make The Festival Special",
+     "url": "https://www.freepressjournal.in/lifestyle/diwali-2026-from-chakli-to-shankarpali-traditional-foods-that-make-the-festival-special"
+    },
+    {
+     "date": "2026-11-08",
+     "source": "freepressjournal.in",
+     "title": "Daler Mehndi Row: Music Legend Says Brother Mika Singh Stood Up For Him, Emerged As Force To Reckon With",
+     "url": "https://www.freepressjournal.in/entertainment/daler-mehndi-row-music-legend-says-brother-mika-singh-stood-up-for-him-emerged-as-force-to-reckon-with"
+    },
+    {
+     "date": "2026-11-08",
+     "source": "freepressjournal.in",
+     "title": "18-Year-Old Killed As Speeding Dumper Rams Bike Near Bhopal; Relative Injured",
+     "url": "https://www.freepressjournal.in/bhopal/18-year-old-killed-as-speeding-dumper-rams-bike-near-bhopal-relative-injured"
+    },
+    {
+     "date": "2026-11-08",
+     "source": "freepressjournal.in",
+     "title": "Nerul Residents Hold Candlelight Protest Against NMMC's ₹80-Crore Underground Parking Project At Shahu Maharaj Garden",
+     "url": "https://www.freepressjournal.in/mumbai/nerul-residents-hold-candlelight-protest-against-nmmcs-80-crore-underground-parking-project-at-shahu-maharaj-garden"
+    },
     {
      "date": "2026-11-08",
      "source": "freepressjournal.in",
@@ -1125,7 +1233,7 @@
     {
      "date": "2026-11-08",
      "source": "freepressjournal.in",
-     "title": "Mumbai AQI Today: City Records Cleanest Diwali Afternoon In Four Years As Sea Breeze Sweeps City",
+     "title": "Mumbai AQI Today: City Records Cleanest Diwali Afternoon In Four Years As Sea Breeze Sweeps Metropolis",
      "url": "https://www.freepressjournal.in/mumbai/mumbai-aqi-today-city-records-cleanest-diwali-afternoon-in-four-years-as-sea-breeze-sweeps-city"
     },
     {
@@ -1233,140 +1341,26 @@
     {
      "date": "2026-11-08",
      "source": "freepressjournal.in",
-     "title": "Over 5 Lakh Outsourced Employees In MP Celebrate Diwali Without Salaries; Payments Pending For Months",
-     "url": "https://www.freepressjournal.in/bhopal/over-5-lakh-outsourced-employees-in-mp-celebrate-diwali-without-salaries-payments-pending-for-months"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "freepressjournal.in",
-     "title": "Pune: Former PMC Opposition Leaders Seeks Transfer Of SRA Powers To Civic Body",
-     "url": "https://www.freepressjournal.in/pune/pune-former-pmc-opposition-leaders-seeks-transfer-of-sra-powers-to-civic-body"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "freepressjournal.in",
-     "title": "'Such A Cutie, Pudding': Kareena Kapoor Khan, Karan Johar, Kiara Advani Can't Stop Gushing Over Katrina Kaif-Vicky Kaushal's Son Vihaan",
-     "url": "https://www.freepressjournal.in/entertainment/oh-my-god-such-a-cutie-ananya-panday-kareena-kapoor-khan-karan-johar-kiara-advani-cant-stop-gushing-over-katrina-kaif-vicky-kaushals-son-vihaan"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "freepressjournal.in",
-     "title": "Madhuri Dixit Wows In 'Marathmoli Nauvari' Look With Pearl Nath And Layered Necklace On Diwali 2026",
-     "url": "https://www.freepressjournal.in/ampstories/lifestyle/madhuri-dixit-wows-in-marathmoli-nauvari-look-with-pearl-nath-and-layered-necklace-on-diwali-2026"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "freepressjournal.in",
-     "title": "Jalgaon: 32-Foot Golden Laman Diva With Seven Flames Installed At Kavyaratnavali Chowk",
-     "url": "https://www.freepressjournal.in/pune/jalgaon-32-foot-golden-laman-diva-with-seven-flames-installed-at-kavyaratnavali-chowk"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "freepressjournal.in",
-     "title": "Why Is Vaibhav Sooryavanshi Not Playing U19 Asia Cup 2026?",
-     "url": "https://www.freepressjournal.in/sports/why-is-vaibhav-sooryavanshi-not-playing-u19-asia-cup-2026"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "freepressjournal.in",
-     "title": "Jalgaon: State Approves Land Exchange To Facilitate Jamner Sports Complex, Railway Projects",
-     "url": "https://www.freepressjournal.in/pune/jalgaon-state-approves-land-exchange-to-facilitate-jamner-sports-complex-railway-projects"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "freepressjournal.in",
-     "title": "Jalgaon: Gulabrao Patil Announces Three Drinking Water Releases, One Irrigation Release From Girna Project",
-     "url": "https://www.freepressjournal.in/pune/jalgaon-gulabrao-patil-announces-three-drinking-water-releases-one-irrigation-release-from-girna-project"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "freepressjournal.in",
-     "title": "Lakshmi Puja 2026 Shubh Muhurat: Check Mumbai, Delhi, Bangalore And Other City-Wise Timings",
-     "url": "https://www.freepressjournal.in/lifestyle/lakshmi-puja-2026-shubh-muhurat-check-mumbai-delhi-bangalore-and-other-city-wise-timings"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "freepressjournal.in",
-     "title": "National Burns Centre Educates 31,488 Students Across 208 Schools On Firecracker Safety Through Diwali Awareness Campaign",
-     "url": "https://www.freepressjournal.in/mumbai/national-burns-centre-educates-31488-students-across-208-schools-on-firecracker-safety-through-diwali-awareness-campaign"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "freepressjournal.in",
      "title": "Thane Building Slab Collapse In Shivai Nagar, 9 Residents Rescued Safely After Second-Floor Ceiling Gives Way",
      "url": "https://www.freepressjournal.in/mumbai/thane-building-slab-collapse-in-shivai-nagar-9-residents-rescued-safely-after-second-floor-ceiling-gives-way"
     },
     {
      "date": "2026-11-08",
      "source": "freepressjournal.in",
-     "title": "Muhurat Trading 2026: Sensex & Nifty End In Green In 8 Of Last 10 Diwali Sessions As Samvat 2083 Begins",
-     "url": "https://www.freepressjournal.in/business/muhurat-trading-2026-sensex-nifty-end-in-green-in-8-of-last-10-diwali-sessions-as-samvat-2083-begins"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "freepressjournal.in",
-     "title": "Nashik: Diwali Buying Spree Boosts Real Estate, Automobile And Jewellery Businesses",
-     "url": "https://www.freepressjournal.in/pune/nashik-diwali-buying-spree-boosts-real-estate-automobile-and-jewellery-businesses"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "freepressjournal.in",
-     "title": "MP High Court Transfers Seven Judicial Officers; New Postings Ordered In Jabalpur, Indore and Gwalior",
-     "url": "https://www.freepressjournal.in/bhopal/mp-high-court-transfers-seven-judicial-officers-new-postings-ordered-in-jabalpur-indore-and-gwalior"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "freepressjournal.in",
-     "title": "Maha Govt Clarifies NET, SET, SLET Or Eligible PhD Qualification Mandatory For Assistant Professor Recruitment",
-     "url": "https://www.freepressjournal.in/pune/maha-govt-clarifies-net-set-slet-or-eligible-phd-qualification-mandatory-for-assistant-professor-recruitment"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "freepressjournal.in",
-     "title": "Comedy Of Errors! 3 Pakistan Fielders Leave Easy Catch As Kavya Patel Gets Lifeline In IND Vs PAK U19 Asia Cup Clash | VIDEO",
-     "url": "https://www.freepressjournal.in/sports/comedy-of-errors-3-pakistan-fielders-leave-easy-catch-as-kavya-patel-gets-lifeline-in-ind-vs-pak-u19-asia-cup-clash-video"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "freepressjournal.in",
-     "title": "'Our Brightest Diwali Yet': Katrina Kaif, Vicky Kaushal Surprise Fans As They Reveal Son Vihaan's Face In Adorable Family Photo",
-     "url": "https://www.freepressjournal.in/entertainment/our-brightest-diwali-yet-katrina-kaif-vicky-kaushal-surprise-fans-as-they-reveal-son-vihaans-face-in-adorable-family-photo"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "freepressjournal.in",
-     "title": "'May This Celebration Bring Good Health & Prosperity' UAE President Extends Diwali Wishes To People Worldwide",
-     "url": "https://www.freepressjournal.in/world/may-this-celebration-bring-good-health-prosperity-uae-president-extends-diwali-wishes-to-people-worldwide"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "freepressjournal.in",
-     "title": "Diwali Muhurat Trading 2026: Sensex Jumps 250 Points, Nifty Gains 40 As Indian Stock Market Opens Higher In Mumbai",
-     "url": "https://www.freepressjournal.in/business/diwali-muhurat-trading-2026-sensex-jumps-250-points-nifty-gains-40-as-indian-stock-market-opens-higher-in-mumbai"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "freepressjournal.in",
      "title": "Pune: Farmers Mark 'Kali Diwali' With Chutney-Bhakri Protest Over Drought Relief",
      "url": "https://www.freepressjournal.in/pune/pune-farmers-mark-kali-diwali-with-chutney-bhakri-protest-over-drought-relief"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "freepressjournal.in",
-     "title": "Sonia Gandhi Recalls Diwali Celebrations At Indira Gandhi's Delhi Residence, Shares Childhood Memories Of Priyanka & Rahul Gandhi",
-     "url": "https://www.freepressjournal.in/india/sonia-gandhi-recalls-diwali-celebrations-at-indira-gandhis-delhi-residence-shares-childhood-memories-of-priyanka-rahul-gandhi"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "freepressjournal.in",
-     "title": "Diwali 2026: Do Firecrackers Affect Pets More Than You Think? Here's What Pet Parents Should Know",
-     "url": "https://www.freepressjournal.in/lifestyle/diwali-2026-do-firecrackers-affect-pets-more-than-you-think-heres-what-pet-parents-should-know"
     }
    ]
   },
   "https://www.livemint.com/rss/markets": {
-   "fetched": "2026-11-08T19:15+05:30",
+   "fetched": "2026-11-08T20:45+05:30",
    "items": [
+    {
+     "date": "2026-11-08",
+     "source": "Mint",
+     "title": "Diwali Stock Picks 2026: Tata Steel, BEL, HDFC Bank - 25 brokerages reveal 187 shares to buy in Samvat 2083 | Full List",
+     "url": "https://www.livemint.com/market/stock-market-news/diwali-stock-picks-2026-tata-steel-bel-hdfc-bank-25-brokerages-reveal-187-shares-to-buy-in-samvat-2083-full-list-11794134434530.html"
+    },
     {
      "date": "2026-11-08",
      "source": "Mint",
@@ -1570,18 +1564,18 @@
      "source": "Mint",
      "title": "Diwali Muhurat trading 2026: Top 3 Samvat 2083 stock picks under ₹100 — Suzlon, NHPC, South Bank by Sumeet Bagadia",
      "url": "https://www.livemint.com/market/stock-market-news/diwali-muhurat-trading-2026-top-3-samvat-2083-stock-picks-under-rs-100-suzlon-nhpc-south-bank-by-sumeet-bagadia-11794109482297.html"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "Mint",
-     "title": "Diwali 2026 Muhurat Trading today: Stocks to buy from Centrum - BSE, L&T, TVS Motor and more; targets, stop-loss",
-     "url": "https://www.livemint.com/market/stock-market-news/diwali-2026-muhurat-trading-today-stocks-to-buy-from-centrum-bse-l-t-tvs-motor-and-more-targets-stoploss-11794068530858.html"
     }
    ]
   },
   "https://www.thehindubusinessline.com/markets/feeder/default.rss": {
-   "fetched": "2026-11-08T19:15+05:30",
+   "fetched": "2026-11-08T20:45+05:30",
    "items": [
+    {
+     "date": "2026-11-08",
+     "source": "BusinessLine",
+     "title": "Iran suggests blasts are not US attacks as both sides report ships hit",
+     "url": "https://www.thehindubusinessline.com/news/world/iran-suggests-blasts-are-not-us-attacks-as-both-sides-report-ships-hit/article71681040.ece"
+    },
     {
      "date": "2026-11-08",
      "source": "BusinessLine",
@@ -1935,17 +1929,11 @@
      "source": "BusinessLine",
      "title": "Nifty opens in red as Wall Street tech sells off; IT stocks under pressure",
      "url": "https://www.thehindubusinessline.com/markets/nifty-opens-in-red-as-wall-street-tech-rout-spills-over-it-stocks-under-pressure/article71672795.ece"
-    },
-    {
-     "date": "2026-11-06",
-     "source": "BusinessLine",
-     "title": "Gold drops over 1% on higher oil prices; US payrolls data in focus",
-     "url": "https://www.thehindubusinessline.com/markets/gold/gold-eases-on-inflation-worries-from-higher-oil-us-payrolls-data-in-focus/article71672800.ece"
     }
    ]
   },
   "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss": {
-   "fetched": "2026-11-08T19:15+05:30",
+   "fetched": "2026-11-08T20:45+05:30",
    "items": [
     {
      "date": "2026-10-26",
@@ -2071,7 +2059,7 @@
   }
  },
  "antala-industries": {
-  "checked": "2026-11-08T20:31+05:30",
+  "checked": "2026-11-08T20:45+05:30",
   "items": [
    {
     "date": "2026-10-29",
@@ -2082,7 +2070,7 @@
   ]
  },
  "vpfl": {
-  "checked": "2026-11-08T20:31+05:30",
+  "checked": "2026-11-08T20:45+05:30",
   "items": [
    {
     "date": "2026-11-02",
