@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T06:00+05:30",
+  "generated_at": "2026-11-09T06:15+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-07T09:56+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-09T06:00+05:30",
+    "nse_ok_at": "2026-11-09T06:15+05:30",
     "bse_ok_at": "2026-11-07T09:58+05:30"
   },
   "ipos": [
@@ -2839,13 +2839,17 @@
         {
           "source": "Tracker B",
           "gmp": 1,
-          "at": "2026-11-08T23:55"
+          "at": "2026-11-09T06:10"
         }
       ],
       "gmp_history": [
         {
           "date": "2026-10-31",
-          "gmp": 4.25
+          "gmp": 5
+        },
+        {
+          "date": "2026-11-01",
+          "gmp": 15
         },
         {
           "date": "2026-11-02",
@@ -2853,11 +2857,11 @@
         },
         {
           "date": "2026-11-03",
-          "gmp": 12
+          "gmp": 13
         },
         {
           "date": "2026-11-04",
-          "gmp": 10
+          "gmp": 5
         },
         {
           "date": "2026-11-05",
@@ -2880,13 +2884,13 @@
           "gmp": 1
         }
       ],
-      "history_source": "Tracker D",
+      "history_source": "Tracker B",
       "gmp_low": 1,
       "gmp_high": 15,
       "exchange": "SME",
       "gmp": 1,
-      "gmp_asof": "2026-11-09T04:15",
-      "gmp_source_latest": "Tracker D",
+      "gmp_asof": "2026-11-09T06:10",
+      "gmp_source_latest": "Tracker B",
       "gmp_pct": 1.06,
       "gmp_spread": {
         "min": 1,
@@ -2947,7 +2951,7 @@
       "sub_asof": "2026-11-05T19:05",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-09T06:00"
+        "at": "2026-11-09T06:15"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
