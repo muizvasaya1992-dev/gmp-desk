@@ -1,7 +1,7 @@
 {
  "_feeds": {
   "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms": {
-   "fetched": "2026-11-09T04:15+05:30",
+   "fetched": "2026-11-09T05:45+05:30",
    "items": [
     {
      "date": "2026-11-07",
@@ -306,7 +306,7 @@
    ]
   },
   "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms": {
-   "fetched": "2026-11-09T04:15+05:30",
+   "fetched": "2026-11-09T05:45+05:30",
    "items": [
     {
      "date": "2026-11-08",
@@ -611,8 +611,20 @@
    ]
   },
   "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml": {
-   "fetched": "2026-11-09T04:15+05:30",
+   "fetched": "2026-11-09T05:45+05:30",
    "items": [
+    {
+     "date": "2026-11-09",
+     "source": "cnbctv18.com",
+     "title": "Nasdaq futures fall on Nvidia concerns - Here are the key Wall Street triggers for the week",
+     "url": "https://www.cnbctv18.com/market/dow-jones-nasdaq-snp-500-nvidia-ceo-jensen-huang-investigation-impact-key-wall-street-triggers-this-week-20029944.htm"
+    },
+    {
+     "date": "2026-11-09",
+     "source": "cnbctv18.com",
+     "title": "Stocks to Buy: Elara Securities sees 75% upside for this power utility stock",
+     "url": "https://www.cnbctv18.com/market/cesc-share-price-stocks-to-buy-elara-securities-sees-75-percent-upside-key-triggers-q2-results-risk-factors-20029821.htm"
+    },
     {
      "date": "2026-11-08",
      "source": "cnbctv18.com",
@@ -1080,53 +1092,29 @@
      "source": "cnbctv18.com",
      "title": "Titan and Rubicon Research offer up to 20% upside, says MOFSL's Siddhartha Khemka",
      "url": "https://www.cnbctv18.com/market/motilal-oswal-titan-rubicon-research-stock-picks-upside-alpha-article-20028625.htm"
-    },
-    {
-     "date": "2026-11-06",
-     "source": "cnbctv18.com",
-     "title": "India at turning point for market outperformance, says Nippon MF's Sailesh Raj Bhan",
-     "url": "https://www.cnbctv18.com/market/india-market-outlook-nippon-india-mf-sailesh-raj-banks-it-stocks-ai-trade-alpha-article-20028626.htm"
-    },
-    {
-     "date": "2026-11-06",
-     "source": "cnbctv18.com",
-     "title": "Samvardhana Motherson shares are a buy or sell after 8% fall? Here's what analysts said",
-     "url": "https://www.cnbctv18.com/market/samvardhana-motherson-share-price-fall-q2-results-buy-sell-200-plus-targets-outlook-acquisitions-returns-20028628.htm"
     }
    ]
   },
   "https://www.freepressjournal.in/stories.rss?section=business": {
-   "fetched": "2026-11-09T04:15+05:30",
+   "fetched": "2026-11-09T05:45+05:30",
    "items": [
     {
      "date": "2026-11-08",
      "source": "freepressjournal.in",
      "title": "Waghoba Habitat Foundation Is Using Indigenous Knowledge to Conserve Aarey Forest and Financially Empower the Tribal Communities (VIDEO)",
      "url": "https://www.freepressjournal.in/angels-of-mumbai/waghoba-habitat-foundation-is-using-indigenous-knowledge-to-conserve-aarey-forest-and-financially-empower-the-tribal-communities-video"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "freepressjournal.in",
-     "title": "Virar: Massive Fire Breaks Out In Open Plot At Mohak City Due To Firecrackers",
-     "url": "https://www.freepressjournal.in/mumbai/virar-massive-fire-breaks-out-in-open-plot-at-mohak-city-due-to-firecrackers"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "freepressjournal.in",
-     "title": "Virar: Massive Fire Breaks Out In West HDIL Society Due To Firecrackers",
-     "url": "https://www.freepressjournal.in/mumbai/virar-massive-fire-breaks-out-in-west-hdil-society-due-to-firecrackers"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "freepressjournal.in",
-     "title": "Andheri East Fire: Major Blaze Engulfs Garage On Marol Military Road, Firefighting Operations Underway",
-     "url": "https://www.freepressjournal.in/mumbai/andheri-east-fire-major-blaze-engulfs-garage-on-marol-military-road-firefighting-operations-underway"
     }
    ]
   },
   "https://www.livemint.com/rss/markets": {
-   "fetched": "2026-11-09T04:15+05:30",
+   "fetched": "2026-11-09T05:45+05:30",
    "items": [
+    {
+     "date": "2026-11-09",
+     "source": "Mint",
+     "title": "Australia Regulator Halts Private Credit Fund on Bathla Risks",
+     "url": "https://www.livemint.com/market/australia-regulator-halts-private-credit-fund-on-bathla-risks-11794181597166.html"
+    },
     {
      "date": "2026-11-08",
      "source": "Mint",
@@ -1330,17 +1318,11 @@
      "source": "Mint",
      "title": "Nifty, Sensex log worst Samvat returns in 15 years. What lies ahead in 2083?",
      "url": "https://www.livemint.com/market/stock-market-news/nifty-sensex-worst-samvat-returns-15-years-equity-investors-samvat-2083-11793888291373.html"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "Mint",
-     "title": "Muhurat Trading 2026 Diwali session updates; Sensex, Nifty snap 8-year winning streak with 80% decadal strike rate",
-     "url": "https://www.livemint.com/market/stock-market-news/diwali-muhurat-trading-2026-live-check-stock-picks-and-time-for-special-session-today-pre-open-normal-market-rules-11794111427408.html"
     }
    ]
   },
   "https://www.thehindubusinessline.com/markets/feeder/default.rss": {
-   "fetched": "2026-11-09T04:15+05:30",
+   "fetched": "2026-11-09T05:45+05:30",
    "items": [
     {
      "date": "2026-11-08",
@@ -1705,7 +1687,7 @@
    ]
   },
   "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss": {
-   "fetched": "2026-11-09T04:15+05:30",
+   "fetched": "2026-11-09T05:45+05:30",
    "items": [
     {
      "date": "2026-10-26",
@@ -1831,7 +1813,7 @@
   }
  },
  "antala-industries": {
-  "checked": "2026-11-09T05:31+05:30",
+  "checked": "2026-11-09T05:45+05:30",
   "items": [
    {
     "date": "2026-10-29",
