@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-09T11:01+05:30",
+  "fetched_at": "2026-11-09T11:15+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,7 +16,7 @@
     "price_low": 63.0,
     "size_cr": 23.33,
     "gmp": 0.0,
-    "gmp_at": "2026-11-09T10:55",
+    "gmp_at": "2026-11-09T11:10",
     "sub_total": 12.79,
     "sub_retail": 5.22,
     "sub_at": "2026-11-05T19:05",
@@ -257,83 +257,6 @@
    },
    {
     "src": "Tracker B",
-    "slug": "hgs-india",
-    "name": "HGS (India)",
-    "segment": "SME",
-    "exchange": "NSE SME",
-    "open": "2026-10-30",
-    "close": "2026-11-03",
-    "boa": "2026-11-04",
-    "listing": "2026-11-06",
-    "price": 120.0,
-    "price_low": 114.0,
-    "size_cr": 34.56,
-    "gmp": 27.0,
-    "gmp_at": "2026-11-06T23:55",
-    "sub_total": 247.3,
-    "sub_retail": 233.27,
-    "sub_at": "2026-11-03T19:10",
-    "sub_cats": {
-     "retail": 233.27,
-     "nii": 424.39,
-     "qib": 137.92,
-     "total": 247.3
-    },
-    "gmp_days": [
-     [
-      "2026-10-31",
-      30.0
-     ],
-     [
-      "2026-11-01",
-      30.0
-     ],
-     [
-      "2026-11-02",
-      30.0
-     ],
-     [
-      "2026-11-03",
-      25.0
-     ],
-     [
-      "2026-11-04",
-      28.0
-     ],
-     [
-      "2026-11-05",
-      32.0
-     ],
-     [
-      "2026-11-06",
-      27.0
-     ],
-     [
-      "2026-11-07",
-      27.0
-     ],
-     [
-      "2026-11-08",
-      27.0
-     ]
-    ],
-    "rhp_url": null,
-    "drhp_url": null,
-    "lot_raw": 2400.0,
-    "sector": "Geophysical Equipment / Seismic Instruments",
-    "quota": {
-     "qib": 50.0,
-     "nii": 15.0,
-     "retail": 35.0
-    },
-    "fresh_cr": 27.91,
-    "ofs_cr": 6.65,
-    "registrar": "KFin Technologies Limited",
-    "lead_manager": "Hem Securities Limited",
-    "live": true
-   },
-   {
-    "src": "Tracker B",
     "slug": "vectras-enprocon",
     "name": "Vectras Enprocon",
     "segment": "SME",
@@ -411,6 +334,83 @@
     "ofs_cr": 10.46,
     "registrar": "MUFG Intime India Pvt. Ltd.",
     "lead_manager": "Beeline Capital Advisors Pvt. Ltd.",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
+    "slug": "johnsoncab-electricals",
+    "name": "Johnsoncab Electricals Limited",
+    "segment": "SME",
+    "exchange": "BSE SME",
+    "open": "2026-10-30",
+    "close": "2026-11-03",
+    "boa": "2026-11-04",
+    "listing": "2026-11-06",
+    "price": 200.0,
+    "price_low": 190.0,
+    "size_cr": 56.02,
+    "gmp": 8.0,
+    "gmp_at": "2026-11-06T23:55",
+    "sub_total": 23.58,
+    "sub_retail": 17.53,
+    "sub_at": "2026-11-03T19:06",
+    "sub_cats": {
+     "retail": 17.53,
+     "nii": 42.25,
+     "qib": 20.19,
+     "total": 23.58
+    },
+    "gmp_days": [
+     [
+      "2026-10-31",
+      5.0
+     ],
+     [
+      "2026-11-01",
+      5.0
+     ],
+     [
+      "2026-11-02",
+      10.0
+     ],
+     [
+      "2026-11-03",
+      8.0
+     ],
+     [
+      "2026-11-04",
+      8.0
+     ],
+     [
+      "2026-11-05",
+      8.0
+     ],
+     [
+      "2026-11-06",
+      8.0
+     ],
+     [
+      "2026-11-07",
+      8.0
+     ],
+     [
+      "2026-11-08",
+      8.0
+     ]
+    ],
+    "rhp_url": null,
+    "drhp_url": null,
+    "lot_raw": 1200.0,
+    "sector": "Electrical Wires & Cables",
+    "quota": {
+     "qib": 50.0,
+     "nii": 15.0,
+     "retail": 35.0
+    },
+    "fresh_cr": 56.02,
+    "ofs_cr": 0.0,
+    "registrar": "Maashitla Securities Pvt. Ltd.",
+    "lead_manager": "ISK Advisors Pvt. Ltd.",
     "live": true
    },
    {
@@ -496,79 +496,79 @@
    },
    {
     "src": "Tracker B",
-    "slug": "johnsoncab-electricals",
-    "name": "Johnsoncab Electricals Limited",
+    "slug": "hgs-india",
+    "name": "HGS (India)",
     "segment": "SME",
-    "exchange": "BSE SME",
+    "exchange": "NSE SME",
     "open": "2026-10-30",
     "close": "2026-11-03",
     "boa": "2026-11-04",
     "listing": "2026-11-06",
-    "price": 200.0,
-    "price_low": 190.0,
-    "size_cr": 56.02,
-    "gmp": 8.0,
+    "price": 120.0,
+    "price_low": 114.0,
+    "size_cr": 34.56,
+    "gmp": 27.0,
     "gmp_at": "2026-11-06T23:55",
-    "sub_total": 23.58,
-    "sub_retail": 17.53,
-    "sub_at": "2026-11-03T19:06",
+    "sub_total": 247.3,
+    "sub_retail": 233.27,
+    "sub_at": "2026-11-03T19:10",
     "sub_cats": {
-     "retail": 17.53,
-     "nii": 42.25,
-     "qib": 20.19,
-     "total": 23.58
+     "retail": 233.27,
+     "nii": 424.39,
+     "qib": 137.92,
+     "total": 247.3
     },
     "gmp_days": [
      [
       "2026-10-31",
-      5.0
+      30.0
      ],
      [
       "2026-11-01",
-      5.0
+      30.0
      ],
      [
       "2026-11-02",
-      10.0
+      30.0
      ],
      [
       "2026-11-03",
-      8.0
+      25.0
      ],
      [
       "2026-11-04",
-      8.0
+      28.0
      ],
      [
       "2026-11-05",
-      8.0
+      32.0
      ],
      [
       "2026-11-06",
-      8.0
+      27.0
      ],
      [
       "2026-11-07",
-      8.0
+      27.0
      ],
      [
       "2026-11-08",
-      8.0
+      27.0
      ]
     ],
     "rhp_url": null,
     "drhp_url": null,
-    "lot_raw": 1200.0,
-    "sector": "Electrical Wires & Cables",
+    "lot_raw": 2400.0,
+    "sector": "Geophysical Equipment / Seismic Instruments",
     "quota": {
      "qib": 50.0,
      "nii": 15.0,
      "retail": 35.0
     },
-    "fresh_cr": 56.02,
-    "ofs_cr": 0.0,
-    "registrar": "Maashitla Securities Pvt. Ltd.",
-    "lead_manager": "ISK Advisors Pvt. Ltd.",
+    "fresh_cr": 27.91,
+    "ofs_cr": 6.65,
+    "registrar": "KFin Technologies Limited",
+    "lead_manager": "Hem Securities Limited",
     "live": true
    },
    {
@@ -585,7 +585,7 @@
     "price_low": 88.0,
     "size_cr": 56.68,
     "gmp": 1.0,
-    "gmp_at": "2026-11-09T10:55",
+    "gmp_at": "2026-11-09T11:10",
     "sub_total": 1.9,
     "sub_retail": 2.26,
     "sub_at": "2026-11-04T19:05",
@@ -651,7 +651,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-09T11:01+05:30",
+  "fetched_at": "2026-11-09T11:15+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -1206,7 +1206,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-09T11:01+05:30",
+  "fetched_at": "2026-11-09T11:15+05:30",
   "records": [
    {
     "src": "Tracker D",
