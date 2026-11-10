@@ -1,7 +1,7 @@
 {
  "_feeds": {
   "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms": {
-   "fetched": "2026-11-10T07:45+05:30",
+   "fetched": "2026-11-10T09:15+05:30",
    "items": [
     {
      "date": "2026-11-09",
@@ -306,7 +306,7 @@
    ]
   },
   "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms": {
-   "fetched": "2026-11-10T07:45+05:30",
+   "fetched": "2026-11-10T09:15+05:30",
    "items": [
     {
      "date": "2026-11-09",
@@ -611,8 +611,26 @@
    ]
   },
   "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml": {
-   "fetched": "2026-11-10T07:45+05:30",
+   "fetched": "2026-11-10T09:15+05:30",
    "items": [
+    {
+     "date": "2026-11-10",
+     "source": "cnbctv18.com",
+     "title": "Asian markets edge higher following Wall Street's rebound; KOSPI, Taiwan jump up to 4%",
+     "url": "https://www.cnbctv18.com/market/asian-markets-today-kospi-nikkei-taiwan-crude-oil-prices-wall-street-rally-us-cpi-data-20030785.htm"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "cnbctv18.com",
+     "title": "Dow Jones jumps 1,100 points for best day since April despite Nvidia - Here are factors that contributed to the move",
+     "url": "https://www.cnbctv18.com/market/dow-jones-snp-500-nasdaq-sharp-rebound-from-lows-despite-nvidia-shares-factors-that-contributed-to-rally-explained-20030781.htm"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "cnbctv18.com",
+     "title": "Stock Market holiday: NSE, BSE to remain closed for Diwali-Balipratipada",
+     "url": "https://www.cnbctv18.com/market/stock-market-holiday-nse-bse-to-remain-closed-for-diwali-balipratipada-20030778.htm"
+    },
     {
      "date": "2026-11-09",
      "source": "cnbctv18.com",
@@ -1074,30 +1092,96 @@
      "source": "cnbctv18.com",
      "title": "Nifty may lag as India's next generation of market leaders takes shape: Sunil Singhania",
      "url": "https://www.cnbctv18.com/videos/market/nifty-may-lag-broader-market-india-next-growth-leaders-sunil-singhania-20029551.htm"
-    },
-    {
-     "date": "2026-11-07",
-     "source": "cnbctv18.com",
-     "title": "BHEL bags ₹600-900 crore order from Power Grid for Barmer project",
-     "url": "https://www.cnbctv18.com/market/bhel-bags-rs-600-900-crore-order-from-power-grid-for-barmer-project-20029526.htm"
-    },
-    {
-     "date": "2026-11-07",
-     "source": "cnbctv18.com",
-     "title": "Prestige Estates acquires 100% stake in Allure Developers for Noida housing project",
-     "url": "https://www.cnbctv18.com/market/prestige-estates-acquires-100-pc-stake-allure-developers-noida-housing-project-20029517.htm"
-    },
-    {
-     "date": "2026-11-09",
-     "source": "cnbctv18.com",
-     "title": "Newsbreak Confirmed: Hindustan Coca-Cola Holdings files draft papers with SEBI for IPO",
-     "url": "https://www.cnbctv18.com/market/hindustan-coca-cola-holdings-files-draft-papers-with-sebi-for-ipo-20029511.htm"
     }
    ]
   },
   "https://www.freepressjournal.in/stories.rss?section=business": {
-   "fetched": "2026-11-10T07:45+05:30",
+   "fetched": "2026-11-10T09:15+05:30",
    "items": [
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "GPS, Traffic Alerts And Smart Driving Tools Can Improve Cab Drivers' Performance, But Training Is Key, Finds IIM Indore Study",
+     "url": "https://www.freepressjournal.in/indore/gps-traffic-alerts-and-smart-driving-tools-can-improve-cab-drivers-performance-but-training-is-key-finds-iim-indore-study"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "Four Killed, Five Injured As Speeding Truck Rams SUV Carrying Family For Narmada Holy Dip In MP's Sagar",
+     "url": "https://www.freepressjournal.in/bhopal/four-killed-five-injured-as-speeding-truck-rams-suv-carrying-family-for-narmada-holy-dip-in-mps-sagar"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "'Global AI Demand To Remain Strong': Taiwan Chipmakers See Limited Long-Term Impact From Nvidia CEO Jensen Huang Controversy",
+     "url": "https://www.freepressjournal.in/tech/global-ai-demand-to-remain-strong-taiwan-chipmakers-see-limited-long-term-impact-from-nvidia-ceo-jensen-huang-controversy"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "Ramayana Box Office Collection Day 5: Ranbir Kapoor, Sai Pallavi, Yash's Film Witnesses Massive Jump On First Monday, Mints ₹107.50 Crore",
+     "url": "https://www.freepressjournal.in/entertainment/ramayana-box-office-collection-day-5-ranbir-kapoor-sai-pallavi-yashs-film-witnesses-massive-jump-on-first-monday-mints-10750-crore"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "Happy Gujarati New Year 2026: 25+ Bestu Varas Wishes, Messages, Greetings And More To Share",
+     "url": "https://www.freepressjournal.in/lifestyle/happy-gujarati-new-year-2026-25-bestu-varas-wishes-messages-greetings-and-more-to-share"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "'Russia Has No Plans To Attack European Countries': Dy FM Sergei Ryabkov Warns Of Retaliation Against Any Aggression, Calls For Dialogue With Europe | Video",
+     "url": "https://www.freepressjournal.in/world/russia-has-no-plans-to-attack-european-countries-dy-fm-sergei-ryabkov-warns-of-retaliation-against-any-aggression-calls-for-dialogue-with-europe-video"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "Booker Prize 2026: British Author M John Harrison, 81, Becomes Oldest Winner With Dystopian Novel 'The End Of Everything'",
+     "url": "https://www.freepressjournal.in/world/booker-prize-2026-british-author-m-john-harrison-81-becomes-oldest-winner-with-dystopian-novel-the-end-of-everything"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "US Supreme Court Clears Trump's $46 Billion Texas Border Wall Project Despite Environmental Concerns And Bipartisan Opposition",
+     "url": "https://www.freepressjournal.in/world/us-supreme-court-clears-trumps-46-billion-texas-border-wall-project-despite-environmental-concerns-and-bipartisan-opposition"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "Pawan Kalyan Announces Separation From Third Wife Anna Konidala After 13 Years Of Marriage: 'We Remain Good Friends And Devoted Parents'",
+     "url": "https://www.freepressjournal.in/entertainment/pawan-kalyan-announces-separation-from-third-wife-anna-konidala-after-13-years-of-marriage-we-remain-good-friends-and-devoted-parents"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "Overheard In Bhopal: Soured Relations, Bade Sahib Angry, Keeping Eyes & More",
+     "url": "https://www.freepressjournal.in/bhopal/overheard-in-bhopal-soured-relations-bade-sahib-angry-keeping-eyes-more"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "Dhua-Dhua Indore After Diwali Fireworks As PM10, PM2.5 Hit Monitoring Limits Of 1,000, Air Pollution Reaches Alarming Levels",
+     "url": "https://www.freepressjournal.in/indore/dhua-dhua-indore-after-diwali-fireworks-as-pm10-pm25-hit-monitoring-limits-of-1000-air-pollution-reaches-alarming-levels"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "India vs New Zealand 3rd ODI: Rain Delays Toss In Hamilton As India Eye 3-0 Series Sweep",
+     "url": "https://www.freepressjournal.in/sports/india-vs-new-zealand-3rd-odi-rain-delays-toss-in-hamilton-as-india-eye-3-0-series-sweep"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "Donald Trump Backs Nvidia CEO Jensen Huang Amid FBI Probe Into Alleged Chinese Spy Links And Espionage Concerns",
+     "url": "https://www.freepressjournal.in/tech/donald-trump-backs-nvidia-ceo-jensen-huang-amid-fbi-probe-into-alleged-chinese-spy-links-and-espionage-concerns"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "'Iran Cannot Have A Nuclear Weapon': Trump Announces Gulf Allies' Support For Operation Iron Gate's Joint Land-And-Sea Blockade Against Tehran",
+     "url": "https://www.freepressjournal.in/world/iran-cannot-have-a-nuclear-weapon-trump-announces-gulf-allies-support-for-operation-iron-gates-joint-land-and-sea-blockade-against-tehran"
+    },
     {
      "date": "2026-11-10",
      "source": "freepressjournal.in",
@@ -1131,32 +1215,26 @@
     {
      "date": "2026-11-09",
      "source": "freepressjournal.in",
-     "title": "26 Injured In Traditional Hingot War Near Indore As 150 Warriors Exchange Flaming Fireballs, Six Hospitalised",
-     "url": "https://www.freepressjournal.in/indore/26-injured-in-traditional-hingot-war-near-indore-as-150-warriors-exchange-flaming-fireballs-six-hospitalised"
-    },
-    {
-     "date": "2026-11-09",
-     "source": "freepressjournal.in",
-     "title": "Madhya Pradesh Insurance Fraud Racket Exposed, 700 Suspected Fake Accident Claims Worth ₹60 Crore Under Investigation",
-     "url": "https://www.freepressjournal.in/bhopal/madhya-pradesh-insurance-fraud-racket-exposed-700-suspected-fake-accident-claims-worth-60-crore-under-investigation"
-    },
-    {
-     "date": "2026-11-09",
-     "source": "freepressjournal.in",
-     "title": "Compromise Cannot Quash FIR In Serious Firearm Offences, Madhya Pradesh High Court Rules In Gwalior",
-     "url": "https://www.freepressjournal.in/bhopal/compromise-cannot-quash-fir-in-serious-firearm-offences-madhya-pradesh-high-court-rules-in-gwalior"
-    },
-    {
-     "date": "2026-11-09",
-     "source": "freepressjournal.in",
      "title": "Mumbai: 2 Cars Crushed Between 2 BEST Buses At Wadala's Lodha Junction, 6 Injured | Videos",
      "url": "https://www.freepressjournal.in/mumbai/mumbai-2-cars-crushed-between-2-best-buses-at-wadalas-lodha-junction-6-injured-videos"
     }
    ]
   },
   "https://www.livemint.com/rss/markets": {
-   "fetched": "2026-11-10T07:45+05:30",
+   "fetched": "2026-11-10T09:15+05:30",
    "items": [
+    {
+     "date": "2026-11-10",
+     "source": "Mint",
+     "title": "Four stocks with high dividend payout ratios to watch",
+     "url": "https://www.livemint.com/market/stock-market-news/four-stocks-with-high-dividend-payout-ratios-to-watch-11794220722375.html"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "Mint",
+     "title": "Stock market holiday: Closed today on Tuesday 10 November 2026 on Diwali-Balipratipada; no trading in NSE, BSE exchanges",
+     "url": "https://www.livemint.com/market/stock-market-news/stock-market-holiday-closed-today-on-tuesday-10-november-2026-on-diwali-balipratipada-no-trading-in-nse-bse-exchanges-11794275379042.html"
+    },
     {
      "date": "2026-11-10",
      "source": "Mint",
@@ -1354,29 +1432,23 @@
      "source": "Mint",
      "title": "CAS weighs on NSE, BSE Q2 earnings; MCX rides gold, silver volatility",
      "url": "https://www.livemint.com/market/cas-weighs-on-nse-bse-q2-earnings-mcx-rides-gold-silver-volatility-11794206165459.html"
-    },
-    {
-     "date": "2026-11-09",
-     "source": "Mint",
-     "title": "Alembic shares: Big 15% jump after Q2 results, gains 27% in two weeks: Can the rally continue? What experts say",
-     "url": "https://www.livemint.com/market/stock-market-news/alembic-share-price-jumps-15-after-q2-results-gains-27-in-two-weeks-can-the-rally-continue-expert-weighs-in-11794211767420.html"
-    },
-    {
-     "date": "2026-11-09",
-     "source": "Mint",
-     "title": "Nifty’s 25,000 hurdle: Bulls see breakout, bears dig in for weekly expiry today",
-     "url": "https://www.livemint.com/market/stock-market-news/india-stock-markets-today-nifty-sense-levels-call-options-put-options-11794206566782.html"
     }
    ]
   },
   "https://www.thehindubusinessline.com/markets/feeder/default.rss": {
-   "fetched": "2026-11-10T07:45+05:30",
+   "fetched": "2026-11-10T09:15+05:30",
    "items": [
+    {
+     "date": "2026-11-10",
+     "source": "BusinessLine",
+     "title": "Q2 Results Today Live: Kalyan Jewellers, MRF, Cochin Shipyard, Avanti Feeds, Titagarh Rail Systems, MMTC to announce Q2 results",
+     "url": "https://www.thehindubusinessline.com/markets/q2-results-today-live-updates-kalyan-jewellers-mrf-cochin-shipyard-avanti-feeds-titagarh-rail-systems-mntc-company-results-10-november-2026/article71684906.ece"
+    },
     {
      "date": "2026-11-09",
      "source": "BusinessLine",
-     "title": "Indian IT stocks strengthen buoyed by weakness in the global AI trade and attractive valuations",
-     "url": "https://www.thehindubusinessline.com/markets/indian-it-stocks-strengthen-buoyed-by-weakness-in-the-global-ai-trade-and-attractive-valuations/article71683017.ece"
+     "title": "Promoter holding in Nifty 50 firms falls to 40%",
+     "url": "https://www.thehindubusinessline.com/markets/promoter-holding-in-nifty-50-firms-falls-to-40/article71683186.ece"
     },
     {
      "date": "2026-11-09",
@@ -1387,14 +1459,20 @@
     {
      "date": "2026-11-09",
      "source": "BusinessLine",
-     "title": "More buyers, lighter bills: Indian jewellery retailers log strong festive sales",
-     "url": "https://www.thehindubusinessline.com/markets/commodities/more-buyers-lighter-bills-indian-jewellery-retailers-log-strong-festive-sales/article71683196.ece"
+     "title": "Investments in gold ETFs turn mixed as the precious metal turns volatile",
+     "url": "https://www.thehindubusinessline.com/markets/investments-in-gold-etfs-turn-mixed-as-the-precious-metal-turns-volatile/article71683169.ece"
     },
     {
      "date": "2026-11-09",
      "source": "BusinessLine",
-     "title": "Promoter holding in Nifty 50 firms falls to 40%",
-     "url": "https://www.thehindubusinessline.com/markets/promoter-holding-in-nifty-50-firms-falls-to-40/article71683186.ece"
+     "title": "Indian IT stocks strengthen buoyed by weakness in the global AI trade and attractive valuations",
+     "url": "https://www.thehindubusinessline.com/markets/indian-it-stocks-strengthen-buoyed-by-weakness-in-the-global-ai-trade-and-attractive-valuations/article71683017.ece"
+    },
+    {
+     "date": "2026-11-09",
+     "source": "BusinessLine",
+     "title": "More buyers, lighter bills: Indian jewellery retailers log strong festive sales",
+     "url": "https://www.thehindubusinessline.com/markets/commodities/more-buyers-lighter-bills-indian-jewellery-retailers-log-strong-festive-sales/article71683196.ece"
     },
     {
      "date": "2026-11-09",
@@ -1407,12 +1485,6 @@
      "source": "BusinessLine",
      "title": "Festival boost: Indian gold jewellery sales top $6.6 billion in 2 days",
      "url": "https://www.thehindubusinessline.com/markets/gold/festival-boost-indian-gold-jewellery-sales-top-66-billion-in-2-days/article71682622.ece"
-    },
-    {
-     "date": "2026-11-09",
-     "source": "BusinessLine",
-     "title": "Investments in gold ETFs turn mixed as the precious metal turns volatile",
-     "url": "https://www.thehindubusinessline.com/markets/investments-in-gold-etfs-turn-mixed-as-the-precious-metal-turns-volatile/article71683169.ece"
     },
     {
      "date": "2026-11-09",
@@ -1725,17 +1797,11 @@
      "source": "BusinessLine",
      "title": "Jefferies warns AI investment cycle may have peaked; raises India allocation to 14%",
      "url": "https://www.thehindubusinessline.com/markets/jefferies-warns-ai-investment-cycle-may-have-peaked-raises-india-allocation-to-14/article71677867.ece"
-    },
-    {
-     "date": "2026-11-07",
-     "source": "BusinessLine",
-     "title": "NSE EGR trading hits record 2.27 lakh units on Dhanteras",
-     "url": "https://www.thehindubusinessline.com/markets/gold/nse-egr-trading-hits-record-227-lakh-units-on-dhanteras/article71677643.ece"
     }
    ]
   },
   "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss": {
-   "fetched": "2026-11-10T07:45+05:30",
+   "fetched": "2026-11-10T09:15+05:30",
    "items": [
     {
      "date": "2026-10-26",
@@ -1861,7 +1927,7 @@
   }
  },
  "antala-industries": {
-  "checked": "2026-11-10T09:01+05:30",
+  "checked": "2026-11-10T09:15+05:30",
   "items": [
    {
     "date": "2026-10-29",
