@@ -1,7 +1,7 @@
 {
  "year": 2026,
  "bse_as_of": "2026-11-07T09:56+05:30",
- "nse_as_of": "2026-11-10T00:01+05:30",
+ "nse_as_of": "2026-11-11T00:01+05:30",
  "rows": [
   {
    "name": "Antala Industries",
@@ -11,7 +11,7 @@
    "exchange": "BSE SME",
    "live": true,
    "id": "antala-industries",
-   "status": "closed",
+   "status": "listed",
    "open": "2026-10-29",
    "close": "2026-11-05",
    "price": 66,
@@ -5613,5 +5613,5 @@
    "status": "listed"
   }
  ],
- "generated_at": "2026-11-10T00:01+05:30"
+ "generated_at": "2026-11-11T00:01+05:30"
 }

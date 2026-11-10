@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T23:45+05:30",
+  "generated_at": "2026-11-11T00:01+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-07T09:56+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-10T23:45+05:30",
+    "nse_ok_at": "2026-11-11T00:01+05:30",
     "bse_ok_at": "2026-11-07T09:58+05:30"
   },
   "ipos": [
@@ -2777,7 +2777,7 @@
         {
           "source": "Tracker D",
           "gmp": 1,
-          "at": "2026-11-10T21:15"
+          "at": "2026-11-11T00:01"
         },
         {
           "source": "Tracker C",
@@ -2830,6 +2830,10 @@
         {
           "date": "2026-11-10",
           "gmp": 1
+        },
+        {
+          "date": "2026-11-11",
+          "gmp": 1
         }
       ],
       "history_source": "Tracker D",
@@ -2837,7 +2841,7 @@
       "gmp_high": 15,
       "exchange": "SME",
       "gmp": 1,
-      "gmp_asof": "2026-11-10T21:15",
+      "gmp_asof": "2026-11-11T00:01",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 1.06,
       "gmp_spread": {
@@ -2851,7 +2855,7 @@
         "dir": "steady",
         "change": 0,
         "days": 3,
-        "since": "2026-11-08"
+        "since": "2026-11-09"
       },
       "status": "listed",
       "unconfirmed": false
@@ -2899,26 +2903,14 @@
       "sub_asof": "2026-11-05T19:05",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-10T23:45"
+        "at": "2026-11-11T00:01"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
       "gmp_history": [],
       "gmp": null,
       "gmp_pct": null,
-      "status": "closed",
-      "ai_gmp_none": {
-        "why": "we could not confirm it on the page (the site does not allow us to open that page)",
-        "checked": "2026-11-07T09:56+05:30"
-      },
-      "news": [
-        {
-          "date": "2026-10-29",
-          "source": "Economic Times",
-          "title": "Antala Industries SME IPO opens today: Check price band and key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/antala-industries-sme-ipo-opens-today-check-price-band-and-key-details/articleshow/135289593.cms"
-        }
-      ],
+      "status": "listed",
       "unconfirmed": false
     },
     {
