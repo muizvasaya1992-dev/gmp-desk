@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T12:15+05:30",
+  "generated_at": "2026-11-10T12:31+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-07T09:56+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-10T12:15+05:30",
+    "nse_ok_at": "2026-11-10T12:31+05:30",
     "bse_ok_at": "2026-11-07T09:58+05:30"
   },
   "ipos": [
@@ -2026,34 +2026,20 @@
       "anchor": null,
       "rating": null,
       "sub": {
-        "retail": 19.17,
-        "nii": 40.39,
-        "qib": 26.33,
         "total": 25.8
       },
       "updated_on": "2026-10-22T11:10",
       "exchange": "BSE SME",
-      "registrar": "Bigshare Services Pvt. Ltd.",
-      "lead_managers": [
-        "Smart Horizon Capital Advisors Pvt. Ltd."
-      ],
-      "reservation": {
-        "qib": 50.0,
-        "nii": 15.0,
-        "retail": 35.0
-      },
+      "registrar": null,
+      "lead_managers": null,
+      "reservation": null,
       "listing_price": null,
       "bse_ipo_no": "8063",
       "official": true,
       "price_low": 76,
-      "sector": "Industrial Manufacturing / Welding Automation",
-      "issue_split": {
-        "fresh_cr": 28.29,
-        "ofs_cr": 0.0
-      },
       "tracker_rating": 2,
-      "sub_basis": "Tracker B",
-      "sub_asof": "2026-10-30T19:05",
+      "sub_basis": "Tracker C",
+      "sub_asof": null,
       "lot_basis": "tracker",
       "gmp_sources": [
         {
@@ -2492,20 +2478,17 @@
       "close": "2026-11-03",
       "segment": "SME",
       "sub": {
-        "retail": 556.09,
-        "nii": 857.65,
-        "qib": 259.45,
         "total": 536.8
       },
-      "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-03T19:06",
+      "sub_basis": "Tracker C",
+      "sub_asof": null,
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "JDA CAPITAL SERVICES LIMITED (Formerly Known as Beeline Broking Limited)"
       ],
       "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_MAXENGS.zip",
       "cutoff_time": "5:00 PM",
-      "price_low": 150,
+      "price_low": null,
       "sub_history": [
         {
           "at": "2026-10-30T09:45+05:30",
@@ -2525,16 +2508,6 @@
       "shares_offered": null,
       "updated_on": "2026-11-03T23:31+05:30",
       "price": 158,
-      "reservation": {
-        "qib": 49.84,
-        "nii": 15.13,
-        "retail": 35.03
-      },
-      "sector": "Precision Engineering / Industrial Products",
-      "issue_split": {
-        "fresh_cr": 57.64,
-        "ofs_cr": 0.0
-      },
       "tracker_rating": 5,
       "lot_basis": "tracker",
       "gmp_sources": [
@@ -2640,20 +2613,17 @@
       "close": "2026-11-03",
       "segment": "SME",
       "sub": {
-        "retail": 233.27,
-        "nii": 424.39,
-        "qib": 137.92,
-        "total": 247.3
+        "total": 248.58
       },
-      "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-03T19:10",
+      "sub_basis": "Tracker C",
+      "sub_asof": null,
       "registrar": "Kfin Technologies Limited",
       "lead_managers": [
         "Hem Securities Limited"
       ],
       "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_HGSINDIALT.zip",
       "cutoff_time": "5:00 PM",
-      "price_low": 114,
+      "price_low": null,
       "sub_history": [
         {
           "at": "2026-10-30T09:45+05:30",
@@ -2673,16 +2643,6 @@
       "shares_offered": null,
       "updated_on": "2026-11-04T00:01+05:30",
       "price": 120,
-      "reservation": {
-        "qib": 50.0,
-        "nii": 15.0,
-        "retail": 35.0
-      },
-      "sector": "Geophysical Equipment / Seismic Instruments",
-      "issue_split": {
-        "fresh_cr": 27.91,
-        "ofs_cr": 6.65
-      },
       "tracker_rating": 4,
       "lot_basis": "tracker",
       "gmp_sources": [
@@ -2784,20 +2744,17 @@
       "close": "2026-11-04",
       "segment": "SME",
       "sub": {
-        "retail": 2.26,
-        "nii": 1.38,
-        "qib": 1.0,
         "total": 1.9
       },
-      "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-04T19:05",
+      "sub_basis": "Tracker C",
+      "sub_asof": null,
       "registrar": "Cameo Corporate Services Limited",
       "lead_managers": [
         "Affinity Global Capital Market Private Limited"
       ],
       "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_VPFL.zip",
       "cutoff_time": "5:00 PM",
-      "price_low": 88,
+      "price_low": null,
       "sub_history": [
         {
           "at": "2026-11-02T10:54+05:30",
@@ -2813,17 +2770,8 @@
       "shares_offered": null,
       "updated_on": "2026-11-05T10:58+05:30",
       "price": 94,
-      "reservation": {
-        "qib": 50.0,
-        "nii": 15.0,
-        "retail": 35.0
-      },
-      "sector": "Flexible Packaging",
-      "issue_split": {
-        "fresh_cr": 51.01,
-        "ofs_cr": 5.67
-      },
       "tracker_rating": 1,
+      "sector": "Packaging",
       "lot_basis": "tracker",
       "gmp_sources": [
         {
@@ -2951,7 +2899,7 @@
       "sub_asof": "2026-11-05T19:05",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-10T12:15"
+        "at": "2026-11-10T12:31"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -2965,10 +2913,10 @@
       },
       "news": [
         {
-          "title": "Antala Industries SME IPO opens today: Check price band and key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/antala-industries-sme-ipo-opens-today-check-price-band-and-key-details/articleshow/135289593.cms",
+          "date": "2026-10-29",
           "source": "Economic Times",
-          "date": "2026-10-29"
+          "title": "Antala Industries SME IPO opens today: Check price band and key details",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/antala-industries-sme-ipo-opens-today-check-price-band-and-key-details/articleshow/135289593.cms"
         }
       ],
       "unconfirmed": false
@@ -2991,29 +2939,12 @@
       "segment": "SME",
       "exchange": "BSE SME",
       "updated_on": "2026-11-03T10:56+05:30",
-      "registrar": "Maashitla Securities Pvt. Ltd.",
-      "lead_managers": [
-        "ISK Advisors Pvt. Ltd."
-      ],
-      "reservation": {
-        "qib": 50.0,
-        "nii": 15.0,
-        "retail": 35.0
-      },
-      "sector": "Electrical Wires & Cables",
-      "issue_split": {
-        "fresh_cr": 56.02,
-        "ofs_cr": 0.0
-      },
       "tracker_rating": 1,
       "sub": {
-        "retail": 17.53,
-        "nii": 42.25,
-        "qib": 20.19,
-        "total": 23.58
+        "total": 23.82
       },
-      "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-03T19:06",
+      "sub_basis": "Tracker C",
+      "sub_asof": null,
       "lot_basis": "tracker",
       "gmp_sources": [
         {
@@ -3111,32 +3042,15 @@
       "segment": "SME",
       "exchange": "BSE SME",
       "updated_on": "2026-11-03T10:56+05:30",
-      "registrar": "MUFG Intime India Pvt. Ltd.",
-      "lead_managers": [
-        "Beeline Capital Advisors Pvt. Ltd."
-      ],
-      "reservation": {
-        "qib": 50.0,
-        "nii": 15.0,
-        "retail": 35.0
-      },
-      "sector": "Oil & Gas Infrastructure / EPC",
-      "issue_split": {
-        "fresh_cr": 42.59,
-        "ofs_cr": 10.46
-      },
       "tracker_rating": 1,
       "sub": {
-        "retail": 4.45,
-        "nii": 6.69,
-        "qib": 1.88,
         "total": 4.2
       },
-      "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-03T17:50",
+      "sub_basis": "Tracker C",
+      "sub_asof": null,
       "gmp_watch": {
-        "sources": 2,
-        "at": "2026-11-06T23:55"
+        "sources": 1,
+        "at": "2026-11-06T09:31"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
