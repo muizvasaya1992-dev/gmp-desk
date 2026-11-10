@@ -1,7 +1,7 @@
 {
  "_feeds": {
   "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms": {
-   "fetched": "2026-11-11T01:45+05:30",
+   "fetched": "2026-11-11T03:15+05:30",
    "items": [
     {
      "date": "2026-11-10",
@@ -306,7 +306,7 @@
    ]
   },
   "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms": {
-   "fetched": "2026-11-11T01:45+05:30",
+   "fetched": "2026-11-11T03:15+05:30",
    "items": [
     {
      "date": "2026-11-10",
@@ -611,7 +611,7 @@
    ]
   },
   "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml": {
-   "fetched": "2026-11-11T01:45+05:30",
+   "fetched": "2026-11-11T03:15+05:30",
    "items": [
     {
      "date": "2026-11-10",
@@ -1096,8 +1096,14 @@
    ]
   },
   "https://www.freepressjournal.in/stories.rss?section=business": {
-   "fetched": "2026-11-11T01:45+05:30",
+   "fetched": "2026-11-11T03:15+05:30",
    "items": [
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "NHRC Takes Cognisance Of Tribal Families' House Demolition In MP's Budhni, Seeks Detailed Report From Sehore Collector Within Seven Days",
+     "url": "https://www.freepressjournal.in/bhopal/nhrc-takes-cognisance-of-tribal-families-house-demolition-in-mps-budhni-seeks-detailed-report-from-sehore-collector-within-seven-days"
+    },
     {
      "date": "2026-11-10",
      "source": "freepressjournal.in",
@@ -1157,54 +1163,30 @@
      "source": "freepressjournal.in",
      "title": "Textbook Corporation Cancels ₹250 Crore Paper Tender In Bhopal After Suppliers Quote 17% Higher Rates, Fresh Bidding Planned",
      "url": "https://www.freepressjournal.in/bhopal/textbook-corporation-cancels-250-crore-paper-tender-in-bhopal-after-suppliers-quote-17-higher-rates-fresh-bidding-planned"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "freepressjournal.in",
-     "title": "Sonia Balani On Playing Lakshman’s Wife Urmila In Ramayana, Her Bollywood Struggles, Working With Ranbir Kapoor And More",
-     "url": "https://www.freepressjournal.in/entertainment/sonia-balani-on-playing-lakshmans-wife-urmila-in-ramayana-her-bollywood-struggles-working-with-ranbir-kapoor-and-more"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "freepressjournal.in",
-     "title": "Israeli PM Benjamin Netanyahu Calls President Donald Trump Daily To Push For Renewed Strikes On Iran: Report",
-     "url": "https://www.freepressjournal.in/india/israeli-pm-benjamin-netanyahu-calls-president-donald-trump-daily-to-push-for-renewed-strikes-on-iran-report"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "freepressjournal.in",
-     "title": "Punjab Stubble Burning Down Nearly 95% Since 2020, Claims AAP Minister Aman Arora; Challenges BJP Over Delhi Air Pollution",
-     "url": "https://www.freepressjournal.in/india/punjab-stubble-burning-down-nearly-95-since-2020-claims-aap-minister-aman-arora-challenges-bjp-over-delhi-air-pollution"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "freepressjournal.in",
-     "title": "Jammu Market Fire: NC Chief Farooq Abdullah Urges Govt To Compensate Traders After Shops Gutted In Blaze",
-     "url": "https://www.freepressjournal.in/india/jammu-market-fire-nc-chief-farooq-abdullah-urges-govt-to-compensate-traders-after-shops-gutted-in-blaze"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "freepressjournal.in",
-     "title": "WATCH: Virat Kohli Spotted Having Candid Chat With Martin Guptill And Wife Laura McGoldrick; VIDEO Viral",
-     "url": "https://www.freepressjournal.in/sports/watch-virat-kohli-spotted-having-candid-chat-with-martin-guptill-and-wife-laura-mcgoldrick-video-viral"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "freepressjournal.in",
-     "title": "'Peacefully Left Us On Diwali': Ranveer Singh's Maternal Grandfather Dr Ram Hingorani Passes Away At 96, Cousin Saumya Confirms",
-     "url": "https://www.freepressjournal.in/entertainment/peacefully-left-us-on-diwali-ranveer-singhs-maternal-grandfather-dr-ram-hingorani-passes-away-at-96-cousin-saumya-confirms"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "freepressjournal.in",
-     "title": "WATCH: Abhishek Sharma Spotted At Siddhivinayak Temple In Mumbai, Clicks Pictures With Fans; VIDEO Viral",
-     "url": "https://www.freepressjournal.in/sports/watch-abhishek-sharma-spotted-at-siddhivinayak-temple-in-mumbai-clicks-pictures-with-fans-video-viral"
     }
    ]
   },
   "https://www.livemint.com/rss/markets": {
-   "fetched": "2026-11-11T01:45+05:30",
+   "fetched": "2026-11-11T03:15+05:30",
    "items": [
+    {
+     "date": "2026-11-11",
+     "source": "Mint",
+     "title": "Defaults Rattle Brazil’s Shadow Banks, Spark Regulatory Scrutiny",
+     "url": "https://www.livemint.com/market/defaults-rattle-brazil-s-shadow-banks-spark-regulatory-scrutiny-11794343869632.html"
+    },
+    {
+     "date": "2026-11-11",
+     "source": "Mint",
+     "title": "Chile Pension Funds’ Swap Losses Narrow as Treasuries Rally",
+     "url": "https://www.livemint.com/market/chile-pension-funds-swap-losses-narrow-as-treasuries-rally-11794343809144.html"
+    },
+    {
+     "date": "2026-11-11",
+     "source": "Mint",
+     "title": "Fed’s Bowman Warns of Stock Correction If AI Bets Don’t Pan Out",
+     "url": "https://www.livemint.com/market/feds-bowman-warns-of-stock-correction-if-ai-bets-don-t-pan-out-11794343808997.html"
+    },
     {
      "date": "2026-11-11",
      "source": "Mint",
@@ -1396,29 +1378,11 @@
      "source": "Mint",
      "title": "IPO Lock-in Expiry: $35 billion in shares set to unlock across 116 companies; Jio, NSE, Zetwerk in focus",
      "url": "https://www.livemint.com/market/ipo-lock-in-expiry-35-billion-in-shares-set-to-unlock-across-116-companies-jio-nse-zetwerk-in-focus-11794289275423.html"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "Mint",
-     "title": "Zerodha CEO Nithin Kamath on cryptocurrency, prediction markets boom: ‘Nothing expands the markets like greed, FOMO'",
-     "url": "https://www.livemint.com/market/stock-market-news/zerodha-ceo-nithin-kamath-on-cryptocurrency-prediction-markets-boom-nothing-expands-the-markets-like-greed-fomo-11794289135575.html"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "Mint",
-     "title": "AMFI Rejig: Reliance's Jio Platforms, NSE, Lenskart, LG among 7 stocks set for large cap upgrade - Vedanta in mid cap?",
-     "url": "https://www.livemint.com/market/stock-market-news/amfi-rejig-reliances-jio-platforms-nse-lenskart-lg-among-7-stocks-set-for-large-cap-upgrade-vedanta-in-mid-cap-11794286571524.html"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "Mint",
-     "title": "Gold rates today 10 Nov Tuesday: Can price rise to ₹1.48 lakh per 10 gm? What experts say about rally as crude cools",
-     "url": "https://www.livemint.com/market/commodities/gold-rates-today-10-nov-tuesday-can-price-rise-to-1-48-lakh-per-10-gm-what-experts-say-about-rally-as-crude-cools-11794285337553.html"
     }
    ]
   },
   "https://www.thehindubusinessline.com/markets/feeder/default.rss": {
-   "fetched": "2026-11-11T01:45+05:30",
+   "fetched": "2026-11-11T03:15+05:30",
    "items": [
     {
      "date": "2026-11-10",
@@ -1783,7 +1747,7 @@
    ]
   },
   "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss": {
-   "fetched": "2026-11-11T01:45+05:30",
+   "fetched": "2026-11-11T03:15+05:30",
    "items": [
     {
      "date": "2026-10-26",
