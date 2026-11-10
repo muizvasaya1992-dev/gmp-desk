@@ -1,7 +1,7 @@
 {
  "_feeds": {
   "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms": {
-   "fetched": "2026-11-10T15:15+05:30",
+   "fetched": "2026-11-10T16:45+05:30",
    "items": [
     {
      "date": "2026-11-10",
@@ -306,8 +306,20 @@
    ]
   },
   "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms": {
-   "fetched": "2026-11-10T15:15+05:30",
+   "fetched": "2026-11-10T16:45+05:30",
    "items": [
+    {
+     "date": "2026-11-10",
+     "source": "Economic Times",
+     "title": "Bajaj Finance issues 5.74 crore warrants to promoter for Rs 5,799 crore",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/bajaj-finance-issues-5-74-crore-warrants-to-promoter-for-rs-5799-crore/articleshow/135708439.cms"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "Economic Times",
+     "title": "FPIs turn net buyers; pour Rs 53,739 crore in D-Street in Nov so far",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/fpis-turn-net-buyers-pour-rs-53739-crore-in-d-street-in-nov-so-far/articleshow/135708381.cms"
+    },
     {
      "date": "2026-11-09",
      "source": "Economic Times",
@@ -595,24 +607,30 @@
      "source": "Economic Times",
      "title": "Grasim Inds Share Price Highlights: Grasim Inds. Stock Price History",
      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/grasim-inds-share-price-today-live-updates-09-nov-2026/liveblog/135668895.cms"
-    },
-    {
-     "date": "2026-11-09",
-     "source": "Economic Times",
-     "title": "Hindalco Share Price Highlights: Hindalco Stock Price History",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/hindalco-share-price-live-updates-09-nov-2026/liveblog/135668886.cms"
-    },
-    {
-     "date": "2026-11-09",
-     "source": "Economic Times",
-     "title": "Tech Mahindra Share Price Highlights: Tech Mahindra Stock Price History",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tech-mahindra-share-price-today-live-09-nov-2026/liveblog/135668883.cms"
     }
    ]
   },
   "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml": {
-   "fetched": "2026-11-10T15:15+05:30",
+   "fetched": "2026-11-10T16:45+05:30",
    "items": [
+    {
+     "date": "2026-11-10",
+     "source": "cnbctv18.com",
+     "title": "IIFL Finance approves ₹6,414 crore fundraise; Blackstone affiliate to acquire 15.57% stake",
+     "url": "https://www.cnbctv18.com/market/iifl-finance-rs-6414-crore-fundraise-ccps-warrants-blackstone-affiliate-15-57-pc-stake-20030948.htm"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "cnbctv18.com",
+     "title": "Brent slumps below $90 per barrel for the first time since August",
+     "url": "https://www.cnbctv18.com/market/commodities/brent-slumps-below-90-per-barrel-for-the-first-time-since-august-20030927.htm"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "cnbctv18.com",
+     "title": "Stocks to Watch for November 11: Cochin Shipyard, MRF, Whirlpool, BHEL and more",
+     "url": "https://www.cnbctv18.com/photos/market/stocks/stocks-to-watch-for-november-11-cochin-shipyard-mrf-whirlpool-bhel-bob-and-more-20030564.htm"
+    },
     {
      "date": "2026-11-10",
      "source": "cnbctv18.com",
@@ -1074,30 +1092,180 @@
      "source": "cnbctv18.com",
      "title": "Samvat 2083 - Three stocks that Dipan Mehta is betting on for the new year",
      "url": "https://www.cnbctv18.com/market/dipan-mehta-stock-picks-for-samvat-2083-muhurat-trading-indian-oil-ge-vernova-garware-films-share-price-alpha-article-20029833.htm"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "cnbctv18.com",
-     "title": "Ramesh Damani signals a new bull market - Here are the themes he favours for Samvat 2083",
-     "url": "https://www.cnbctv18.com/market/samvat-2083-muhurat-trading-ramesh-damani-market-outlook-themes-to-watch-stock-picks-alpha-article-20029813.htm"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "cnbctv18.com",
-     "title": "Nifty Outlook for November 9: Index eyes 25,500 after strongest weekly rally in five years",
-     "url": "https://www.cnbctv18.com/market/nifty-outlook-monday-november-9-index-eyes-25500-after-strongest-weekly-rally-in-five-years-20029826.htm"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "cnbctv18.com",
-     "title": "Why Samir Arora sees foreign investors returning to Indian equities",
-     "url": "https://www.cnbctv18.com/market/samir-arora-helios-capital-fii-inflows-dollar-earnings-growth-alpha-article-20029815.htm"
     }
    ]
   },
   "https://www.freepressjournal.in/stories.rss?section=business": {
-   "fetched": "2026-11-10T15:15+05:30",
+   "fetched": "2026-11-10T16:45+05:30",
    "items": [
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "'Crocodile Tears': BJP Leader HS Phoolka Questions Sonia's Account of Indira Gandhi's Reaction",
+     "url": "https://www.freepressjournal.in/india/crocodile-tears-bjp-leader-hs-phoolka-questions-sonias-account-of-indira-gandhis-reaction"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "Kangana Ranaut Takes A Cheeky Dig At Nvidia's Jensen Huang Chinese Spy Controversy With 'Koi Aapse Pyaar Kyu Karega' Meme",
+     "url": "https://www.freepressjournal.in/entertainment/kangana-ranaut-takes-a-cheeky-dig-at-nvidias-jensen-huang-chinese-spy-controversy-with-koi-aapse-pyaar-kyu-karega-meme"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "Cochin Shipyard Q2 Profit Crashes 50% To ₹53.77 Crore, Revenue Rises 12% Despite Sharp Earnings Decline",
+     "url": "https://www.freepressjournal.in/business/cochin-shipyard-q2-profit-crashes-50-to-5377-crore-revenue-rises-12-despite-sharp-earnings-decline"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "Pune: NCRA Employee Booked Under Official Secrets Act For Alleged Exam Paper Leak",
+     "url": "https://www.freepressjournal.in/pune/pune-ncra-employee-booked-under-official-secrets-act-for-alleged-exam-paper-leak"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "Nvidia's Jensen Huang Affair Scandal Takes Internet By Storm: Here Are The Top Memes Going Viral On The Internet",
+     "url": "https://www.freepressjournal.in/tech/nvidias-jensen-huang-affair-scandal-takes-internet-by-storm-here-are-the-top-memes-going-viral-on-the-internet"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "CM Mohan Yadav Meets Bohra Spiritual Leader Syedna Mufaddal Saifuddin, Discusses Simhastha 2028 Preparations And Development In Ujjain",
+     "url": "https://www.freepressjournal.in/indore/cm-mohan-yadav-meets-bohra-spiritual-leader-syedna-mufaddal-saifuddin-discusses-simhastha-2028-preparations-and-development-in-ujjain"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "'I Felt Shaken...': Sonia Gandhi Reveals Breast Cancer Diagnosis In Memoir, Recalls Hospital Visit With Daughter Priyanka",
+     "url": "https://www.freepressjournal.in/lifestyle/i-felt-shaken-sonia-gandhi-reveals-breast-cancer-diagnosis-in-memoir-recalls-hospital-visit-with-daughter-priyanka"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "'I Rang Up Everyone I Could': Sonia Gandhi Recalls Panic Over Rahul Gandhi's Security Disappearance During Bharat Jodo Yatra In Kashmir In Her Memoir",
+     "url": "https://www.freepressjournal.in/india/i-rang-up-everyone-i-could-sonia-gandhi-recalls-panic-over-rahul-gandhis-security-disappearance-during-bharat-jodo-yatra-in-kashmir-in-her-memoir"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "Krafton Sees 35.5% Decline In Operating Profit Despite 11.6% Rise In Sales Amid Fresh Investments",
+     "url": "https://www.freepressjournal.in/tech/krafton-sees-355-decline-in-operating-profit-despite-116-rise-in-sales-amid-fresh-investments"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "Pune Airport To Impose ₹500 Fine For Exceeding 15-Minute Drop-Off Limit From December",
+     "url": "https://www.freepressjournal.in/pune/pune-airport-to-impose-500-fine-for-exceeding-15-minute-drop-off-limit-from-december"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "Nashik: Thieves Pose As Customers, Steal Tray Of Gold Rings Worth 2.5 Tolas From Jewellery Shop | VIDEO",
+     "url": "https://www.freepressjournal.in/mumbai/nashik-thieves-pose-as-customers-steal-tray-of-gold-rings-worth-25-tolas-from-jewellery-shop-video"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "Singrauli House Collapse: Ancestral Mud House Caves In, Kills Three Of A Family, Including 2-Year-Old Girl",
+     "url": "https://www.freepressjournal.in/bhopal/singrauli-house-collapse-ancestral-mud-house-caves-in-kills-three-of-a-family-including-2-year-old-girl"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "SEBI Plans Uniform Pre-Open Trading Rules For NSE, BSE To Ensure Fair Order Priority",
+     "url": "https://www.freepressjournal.in/business/sebi-plans-uniform-pre-open-trading-rules-for-nse-bse-to-ensure-fair-order-priority"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "'Koi Jo Marzi Bole, Main Aa Raha Hoon 101%': Diljit Dosanjh Dismisses Indore Concert Cancellation Rumours",
+     "url": "https://www.freepressjournal.in/entertainment/koi-jo-marzi-bole-main-aa-raha-hoon-101-diljit-dosanjh-dismisses-indore-concert-cancellation-rumours"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "MRF Q2 Profit Falls 23% To ₹417 Crore, Rising Raw Material Costs Overshadow Strong Revenue Growth",
+     "url": "https://www.freepressjournal.in/business/mrf-q2-profit-falls-23-to-417-crore-rising-raw-material-costs-overshadow-strong-revenue-growth"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "Global AI Investment Concerns Could Shift Capital Towards India As Markets Show Resilience",
+     "url": "https://www.freepressjournal.in/tech/global-ai-investment-concerns-could-shift-capital-towards-india-as-markets-show-resilience"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "Pune: Woman Hit On Head With Sickle While Rescuing Father In Firecracker Dispute; Two Arrested",
+     "url": "https://www.freepressjournal.in/pune/pune-woman-hit-on-head-with-sickle-while-rescuing-father-in-firecracker-dispute-two-arrested"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "Sompal Kami's Bizarre Dismissal Stuns Fans In Nepal Premier League, Given Out For Hitting Ball Twice | VIDEO",
+     "url": "https://www.freepressjournal.in/sports/sompal-kamis-bizarre-dismissal-stuns-fans-in-nepal-premier-league-given-out-for-hitting-ball-twice-video"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "Malaika Arora Dazzles In A ₹2,20,000 Champagne-Bronze Saree Paired With Luxe Embellished Kamarbandh",
+     "url": "https://www.freepressjournal.in/ampstories/lifestyle/malaika-arora-dazzles-in-a-220000-champagne-bronze-saree-paired-with-luxe-embellished-kamarbandh"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "Kohli vs Gill In A Wrestling Match? Virat And Shubman's Hilarious 'Kushti' Handshake Leaves Fans In Splits | Video",
+     "url": "https://www.freepressjournal.in/sports/kohli-vs-gill-in-a-wrestling-match-virat-and-shubmans-hilarious-kushti-handshake-leaves-fans-in-splits-video"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "US Court Allows Pannun To Serve Lawsuit On Ajit Doval, Ex-RAW Chief Through Indian Courts",
+     "url": "https://www.freepressjournal.in/india/us-court-allows-pannun-to-serve-lawsuit-on-ajit-doval-ex-raw-chief-through-indian-courts"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "'Only Punekars Left': Empty Pune Roads During Diwali Revive Annual 'Locals Vs Outsiders' Debate | WATCH",
+     "url": "https://www.freepressjournal.in/pune/only-punekars-left-empty-pune-roads-during-diwali-revive-annual-locals-vs-outsiders-debate-watch"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "'Gussa Aata Hai, But...': Debina Bonnerjee Opens Up About Postpartum Body-Shaming Trolls Amid Katrina Kaif Controversy- EXCLUSIVE",
+     "url": "https://www.freepressjournal.in/entertainment/gussa-aata-hai-but-debina-bonnerjee-opens-up-about-postpartum-body-shaming-trolls-amid-katrina-kaif-controversy-exclusive"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "‘Not Even ₹1 Worth Of Development in Chandla,' Elderly BJP Supporter Questions Minister Dilip Ahirwar In Chhatarpur; Video Viral",
+     "url": "https://www.freepressjournal.in/bhopal/not-even-1-worth-of-development-in-chandla-elderly-bjp-supporter-questions-minister-dilip-ahirwar-in-chhatarpur-video-viral"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "Pawan Kalyan's Ex-Wife Renu Desai Slams Late-Night Firecracker Bursting, Says Humans Have Become 'Selfish And Stupid'",
+     "url": "https://www.freepressjournal.in/entertainment/pawan-kalyans-ex-wife-renu-desai-slams-late-night-firecracker-bursting-says-humans-have-become-selfish-and-stupid"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "EPFO Pension Hike To ₹3,000 On Cards, November 19 Meeting May Bring Big Relief For Retirees",
+     "url": "https://www.freepressjournal.in/business/epfo-pension-hike-to-3000-on-cards-november-19-meeting-may-bring-big-relief-for-retirees"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "Virender Sehwag's Son Aaryavir Channels Dad's Power-Hitting, Flexes Muscles After Smashing 21 In An Over | VIDEO",
+     "url": "https://www.freepressjournal.in/sports/virender-sehwags-son-aaryavir-channels-dads-power-hitting-flexes-muscles-after-smashing-21-in-an-over-video"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "freepressjournal.in",
+     "title": "Pakistani Forces Face Multiple Drone And IED Attacks Across Balochistan's Mastung And Kalat, Casualties And Heavy Damage Reported | Video",
+     "url": "https://www.freepressjournal.in/world/pakistani-forces-face-multiple-drone-and-ied-attacks-across-balochistans-mastung-and-kalat-casualties-and-heavy-damage-reported-video"
+    },
     {
      "date": "2026-11-10",
      "source": "freepressjournal.in",
@@ -1389,68 +1557,8 @@
     {
      "date": "2026-11-10",
      "source": "freepressjournal.in",
-     "title": "'Truly Inspired': Suryakumar Yadav Shares Glimpse Of Meeting With Amit Shah At Home Minister's Residence",
-     "url": "https://www.freepressjournal.in/sports/truly-inspired-suryakumar-yadav-shares-glimpse-of-meeting-with-amit-shah-at-home-ministers-residence"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "freepressjournal.in",
-     "title": "KKR Owner Juhi Chawla Backs Lalit Modi's IPL Calendar Change Proposal, Wants January Start",
-     "url": "https://www.freepressjournal.in/sports/kkr-owner-juhi-chawla-backs-lalit-modis-ipl-calendar-change-proposal-wants-january-start"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "freepressjournal.in",
      "title": "FPJ Quick Take At 12 PM: 'Donald Trump Backs Nvidia's Jensen Huang, Sonia Gandhi's Memoir Released'; Your Daily Noon Guide To Top News Headlines",
      "url": "https://www.freepressjournal.in/india/fpj-quick-take-at-12-pm-donald-trump-backs-nvidias-jensen-huang-sonia-gandhis-memoir-released-10-november-2026"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "freepressjournal.in",
-     "title": "'This Is Unacceptable': Bhumi Pednekkar Reacts To Heartbreaking Video Of Monkeys Frightened By Loud Diwali Firecrackers",
-     "url": "https://www.freepressjournal.in/entertainment/this-is-unacceptable-bhumi-pednekkar-reacts-to-heartbreaking-video-of-monkeys-frightened-by-loud-diwali-firecrackers"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "freepressjournal.in",
-     "title": "NCW Receives 1.5 Lakh Complaints Annually; Domestic Violence Accounts For Highest Cases, Says Chairperson Vijaya Rahatkar | Video",
-     "url": "https://www.freepressjournal.in/india/ncw-receives-15-lakh-complaints-annually-domestic-violence-accounts-for-highest-cases-says-chairperson-vijaya-rahatkar-video"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "freepressjournal.in",
-     "title": "Murdered TV Anchor Rabiya Ahsan, Who Mocked Operation Sindoor, Faced Domestic Violence: Pak Journalist",
-     "url": "https://www.freepressjournal.in/world/murdered-tv-anchor-rabiya-ahsan-who-mocked-operation-sindoor-faced-domestic-violence-pak-journalist"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "freepressjournal.in",
-     "title": "Hardik Pandya-Arshdeep Singh Blockbuster Trade Nears Confirmation As Pacer's Father Breaks Silence On Mega Switch Between MI And PBKS | Video",
-     "url": "https://www.freepressjournal.in/sports/hardik-pandya-arshdeep-singh-blockbuster-trade-nears-confirmation-as-pacers-father-breaks-silence-on-mega-switch-between-mi-and-pbks-video"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "freepressjournal.in",
-     "title": "Mookuthi Amman 2 Box Office Collection Day 4: Nayanthara's Tamil Film Maintains Steady Hold, Mints ₹5.15 Crore",
-     "url": "https://www.freepressjournal.in/entertainment/mookuthi-amman-2-box-office-collection-day-4-nayantharas-tamil-film-maintains-steady-hold-mints-515-crore"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "freepressjournal.in",
-     "title": "Tata Electronics Hosur Factory Accident Claims 3 Lives As Contract Workers Die After Inhaling Toxic Gas While Cleaning Wastewater Tank",
-     "url": "https://www.freepressjournal.in/india/tata-electronics-hosur-factory-accident-claims-3-lives-as-contract-workers-die-after-inhaling-toxic-gas-while-cleaning-wastewater-tank"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "freepressjournal.in",
-     "title": "Radhika Merchant Wears ₹1.60 Lakh Ethnic Suit For Diwali Celebration In New York With Anant Ambani",
-     "url": "https://www.freepressjournal.in/lifestyle/radhika-merchant-wears-160-lakh-ethnic-suit-for-diwali-celebration-in-new-york-with-anant-ambani"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "freepressjournal.in",
-     "title": "Delhi AQI Still In 'Very Poor' Category, Chandni Chowk Tops The List Of Extremely Polluted Areas",
-     "url": "https://www.freepressjournal.in/delhi/delhi-aqi-still-in-very-poor-category-chandni-chowk-tops-the-list-of-extremely-polluted-areas"
     },
     {
      "date": "2026-11-10",
@@ -1461,122 +1569,38 @@
     {
      "date": "2026-11-10",
      "source": "freepressjournal.in",
-     "title": "Remsons Industries Q2 Profit Climbs 15% To ₹4.7 Crore, Revenue Rises 17% As Rahul Desai Takes Charge As CEO",
-     "url": "https://www.freepressjournal.in/business/remsons-industries-q2-profit-climbs-15-to-47-crore-revenue-rises-17-as-rahul-desai-takes-charge-as-ceo"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "freepressjournal.in",
-     "title": "South Korea's Kospi Surges Over 5% As Samsung, SK Hynix Rally On AI Stock Rebound",
-     "url": "https://www.freepressjournal.in/business/south-koreas-kospi-surges-over-5-as-samsung-sk-hynix-rally-on-ai-stock-rebound"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "freepressjournal.in",
-     "title": "A River Of Justice Finally Breaks Through The Dam",
-     "url": "https://www.freepressjournal.in/analysis/a-river-of-justice-finally-breaks-through-the-dam"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "freepressjournal.in",
      "title": "IND vs NZ, 3rd ODI: Rain Dashes India's Hopes Of Sealing Five-Match Series As Crucial Hamilton Clash Gets Abandoned Without A Ball Bowled",
      "url": "https://www.freepressjournal.in/sports/ind-vs-nz-3rd-odi-rain-dashes-indias-hopes-of-sealing-five-match-series-as-crucial-hamilton-clash-gets-abandoned-without-a-ball-bowled"
     },
     {
      "date": "2026-11-10",
      "source": "freepressjournal.in",
-     "title": "Madhya Pradesh Weather Today: Nights Begin To Get Cooler After Diwali; Karaundi Records Season's Lowest Temperature At 10.4°C",
-     "url": "https://www.freepressjournal.in/bhopal/madhya-pradesh-weather-today-nights-begin-to-get-cooler-after-diwali-karaundi-records-seasons-lowest-temperature-at-104c"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "freepressjournal.in",
      "title": "U19 Asia Cup 2026: UAE Wins Toss And Elect To Bowl First Against India In Crucial Group A Clash",
      "url": "https://www.freepressjournal.in/sports/u19-asia-cup-2026-uae-wins-toss-and-elect-to-bowl-first-against-india-in-crucial-group-a-clash"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "freepressjournal.in",
-     "title": "Koffee With Karan S9: Pregnant Kiara Advani Flaunts Baby Bump, Sidharth Malhotra's Role-Play Revelation Grabs Attention – VIDEO",
-     "url": "https://www.freepressjournal.in/entertainment/koffee-with-karan-s9-pregnant-kiara-advani-flaunts-baby-bump-sidharth-malhotras-role-play-revelation-grabs-attention-video"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "freepressjournal.in",
-     "title": "Video Shows Cessna 172 Flip Upside Down After Jet Blast From United Airlines Boeing 737 At US Airport",
-     "url": "https://www.freepressjournal.in/world/video-shows-cessna-172-flip-upside-down-after-jet-blast-from-united-airlines-boeing-737-at-us-airport"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "freepressjournal.in",
-     "title": "Sonia Gandhi's 'Belonging: A Journey Of Love' Hits Bookstores Across India, Congress Leader Revisits Her 2004 Decision To Turn Down PM Post | Video",
-     "url": "https://www.freepressjournal.in/india/sonia-gandhis-belonging-a-journey-of-love-hits-bookstores-across-india-revisits-her-decision-to-turn-down-pms-post-in-2004-video"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "freepressjournal.in",
-     "title": "Quote Of The Day By Shubman Gill: ‘Improve Yourself, Don't Run Around Trying To Prove Things To Anyone’",
-     "url": "https://www.freepressjournal.in/lifestyle/quote-of-the-day-by-shubman-gill-improve-yourself-dont-run-around-trying-to-prove-things-to-anyone"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "freepressjournal.in",
-     "title": "'Adipurush Ka Haal Dekh Chuke Ho': Mukesh Khanna SLAMS Ramayana Makers Over Sita's Fighter Avatar, Warns Them - VIDEO",
-     "url": "https://www.freepressjournal.in/entertainment/adipurush-ka-haal-dekh-chuke-ho-mukesh-khanna-slams-ranbir-kapoor-ramayana-makers-over-sai-pallavi-sitas-fighter-avatar-says-sharam-aani-chahiye-video"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "freepressjournal.in",
-     "title": "Gemini Gets 'Memory Summary' Page That Lets Users See, Edit & Delete What The AI Knows About Them",
-     "url": "https://www.freepressjournal.in/tech/gemini-gets-memory-summary-page-that-lets-users-see-edit-delete-what-the-ai-knows-about-them"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "freepressjournal.in",
-     "title": "Nvidia, Jensen Huang Face Shareholder Lawsuit Over Undisclosed Ties To Alleged Chinese Spy",
-     "url": "https://www.freepressjournal.in/tech/nvidia-jensen-huang-face-shareholder-lawsuit-over-undisclosed-ties-to-alleged-chinese-spy"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "freepressjournal.in",
-     "title": "WTA Finals 2026: Elina Svitolina Refuses To Shake Hands With Mirra Andreeva After Straight-Sets Defeat | Video",
-     "url": "https://www.freepressjournal.in/sports/wta-finals-2026-elina-svitolina-refuses-to-shake-hands-with-mirra-andreeva-after-straight-sets-defeat-video"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "freepressjournal.in",
-     "title": "Mumbai Fire Tragedy: 16-Year-Old Boy Killed As Multiple Firecracker Explosions Trigger Shop Slab Collapse In Malad-Malvani | Video",
-     "url": "https://www.freepressjournal.in/mumbai/mumbai-fire-tragedy-16-year-old-boy-killed-as-multiple-firecracker-explosions-trigger-shop-slab-collapse-in-malad-malvani"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "freepressjournal.in",
-     "title": "IND vs NZ 3rd ODI: Shubman Gill Elects To Bowl First After Winning Toss As India Eye Series-Sealing Victory In Hamilton",
-     "url": "https://www.freepressjournal.in/sports/ind-vs-nz-3rd-odi-shubman-gill-elects-to-bowl-first-after-winning-toss-as-india-eye-series-sealing-victory-in-hamilton"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "freepressjournal.in",
-     "title": "Donald Trump Backs Nvidia CEO Jensen Huang Amid FBI Probe Into Alleged Chinese Spy Links And Espionage Concerns",
-     "url": "https://www.freepressjournal.in/tech/donald-trump-backs-nvidia-ceo-jensen-huang-amid-fbi-probe-into-alleged-chinese-spy-links-and-espionage-concerns"
-    },
-    {
-     "date": "2026-11-09",
-     "source": "freepressjournal.in",
-     "title": "Bombay HC Denies Immediate Relief To Mithila Sangh Seeking Chhath Puja At Girgaon Chowpatty; Cites Public Order And Procedural Requirements",
-     "url": "https://www.freepressjournal.in/mumbai/bombay-hc-denies-immediate-relief-to-mithila-sangh-seeking-chhath-puja-at-girgaon-chowpatty-cites-public-order-and-procedural-requirements"
-    },
-    {
-     "date": "2026-11-09",
-     "source": "freepressjournal.in",
-     "title": "Bombay HC Allows Christmas Musical Festival At Girgaum Chowpatty Across 15,000 Sq Metres",
-     "url": "https://www.freepressjournal.in/mumbai/bombay-hc-allows-christmas-musical-festival-at-girgaum-chowpatty-across-15000-sq-metres"
     }
    ]
   },
   "https://www.livemint.com/rss/markets": {
-   "fetched": "2026-11-10T15:15+05:30",
+   "fetched": "2026-11-10T16:45+05:30",
    "items": [
+    {
+     "date": "2026-11-10",
+     "source": "Mint",
+     "title": "Balrampur Chini Mills shares: Over 50% returns in 1 year, sugar stock in focus with new ₹3100 cr plant - check target",
+     "url": "https://www.livemint.com/market/stock-market-news/balrampur-chini-mills-shares-over-50-returns-in-1-year-sugar-stock-in-focus-with-new-rs-3100-cr-plant-check-target-11794306339768.html"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "Mint",
+     "title": "Stocks to watch tomorrow 11 November Wednesday: Why Data Patterns, MRF, Cochin Shipyard, IRB Infra, others are in focus",
+     "url": "https://www.livemint.com/market/stock-market-news/stocks-to-watch-tomorrow-11-november-wednesday-why-data-patterns-mrf-cochin-shipyard-irb-infra-others-are-in-focus-11794304295254.html"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "Mint",
+     "title": "This multibagger small-cap stock surges 485% in a year, but retail investors keep trimming stake; what are they missing?",
+     "url": "https://www.livemint.com/market/stock-market-news/this-multibagger-small-cap-stock-surges-485-in-a-year-but-retail-investors-keep-trimming-stake-what-are-they-missing-11794303226235.html"
+    },
     {
      "date": "2026-11-10",
      "source": "Mint",
@@ -1652,7 +1676,7 @@
     {
      "date": "2026-11-10",
      "source": "Mint",
-     "title": "Asian stocks ride tech rally higher as oil falls",
+     "title": "Global stocks build on tech-fuelled rally as oil retreats: Markets Wrap",
      "url": "https://www.livemint.com/market/stock-market-news/asian-stocks-ride-tech-rally-higher-as-oil-falls-11794291620755.html"
     },
     {
@@ -1768,41 +1792,53 @@
      "source": "Mint",
      "title": "Upcoming IPO: Veritas Finance gets Sebi nod to launch public issue – Top things for investors",
      "url": "https://www.livemint.com/market/upcoming-ipo-veritas-finance-gets-sebi-nod-to-launch-public-issue-top-things-for-investors-11794247367964.html"
-    },
-    {
-     "date": "2026-11-09",
-     "source": "Mint",
-     "title": "Broadcom shares pop over 9%, on track for biggest one-day surge in a year. What's driving the rebound?",
-     "url": "https://www.livemint.com/market/stock-market-news/broadcom-shares-pop-over-9-on-track-for-biggest-one-day-surge-in-a-year-whats-driving-the-rebound-11794246529114.html"
-    },
-    {
-     "date": "2026-11-09",
-     "source": "Mint",
-     "title": "AMD stock rallies 12% as Google Cloud taps its EPYC processors for next-generation AI infrastructure",
-     "url": "https://www.livemint.com/market/stock-market-news/amd-stock-rallies-12-as-google-cloud-taps-its-epyc-processors-for-next-generation-ai-infrastructure-11794242504072.html"
-    },
-    {
-     "date": "2026-11-09",
-     "source": "Mint",
-     "title": "Wall Street bounces back from AI sell-off, Nasdaq rallies over 3%, but Nvidia plunges 9% on Jensen Huang controversy",
-     "url": "https://www.livemint.com/market/stock-market-news/wall-street-bounces-back-from-ai-sell-off-nasdaq-rallies-over-3-but-nvidia-plunges-9-on-jensen-huang-controversy-11794238373887.html"
     }
    ]
   },
   "https://www.thehindubusinessline.com/markets/feeder/default.rss": {
-   "fetched": "2026-11-10T15:15+05:30",
+   "fetched": "2026-11-10T16:45+05:30",
    "items": [
     {
      "date": "2026-11-10",
      "source": "BusinessLine",
-     "title": "Q2 Results Today Live: Cochin Shipyard Q2 profit falls 53%, MRF PAT down 28%, Kalyan Jewellers, Avanti Feeds, Titagarh Rail Systems, MMTC to announce Q2 results",
+     "title": "Anthropic IPO could raise up to $64.4 billion at share price of $70-$78",
+     "url": "https://www.thehindubusinessline.com/markets/anthropic-ipo-could-raise-up-to-644-billion-at-share-price-of-70-78/article71685870.ece"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "BusinessLine",
+     "title": "Q2 Results Today Live: Cochin Shipyard Q2 profit falls 53%, MRF PAT down 28%, Matrimony profit zooms, Kalyan Jewellers, Avanti Feeds, Titagarh Rail Systems, MMTC to announce Q2 res",
      "url": "https://www.thehindubusinessline.com/markets/q2-results-today-live-updates-kalyan-jewellers-mrf-cochin-shipyard-avanti-feeds-titagarh-rail-systems-mntc-company-results-10-november-2026/article71684906.ece"
     },
     {
      "date": "2026-11-10",
      "source": "BusinessLine",
-     "title": "US Fed’s Waller plans to support at least a quarter-point rate hike in December",
-     "url": "https://www.thehindubusinessline.com/news/world/us-feds-waller-plans-to-support-at-least-a-quarter-point-rate-hike-in-december/article71685592.ece"
+     "title": "NMDC in talks with Russia’s Rosatom to explore lithium mining and processing opportunities",
+     "url": "https://www.thehindubusinessline.com/markets/commodities/nmdc-in-talks-with-russias-rosatom-to-explore-lithium-mining-and-processing-opportunities/article71685818.ece"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "BusinessLine",
+     "title": "Higher US yields could push India towards export-led growth: SBICAPS",
+     "url": "https://www.thehindubusinessline.com/economy/higher-us-yields-could-push-india-towards-export-led-growth-sbicaps/article71685698.ece"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "BusinessLine",
+     "title": "FPIs pour $8.2 billion into Indian equities since mid-October after nearly two years of selling: Jefferies",
+     "url": "https://www.thehindubusinessline.com/markets/fpis-pour-82-billion-into-indian-equities-since-mid-october-after-nearly-two-years-of-selling-jefferies/article71685714.ece"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "BusinessLine",
+     "title": "FIIs may return to Indian equities as global headwinds ease and domestic fundamentals remain strong: Report",
+     "url": "https://www.thehindubusinessline.com/markets/fiis-may-return-to-indian-equities-as-global-headwinds-ease-and-domestic-fundamentals-remain-strong-report/article71685694.ece"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "BusinessLine",
+     "title": "Promoter shareholding in listed companies hits three-year high at 41.93% in September quarter",
+     "url": "https://www.thehindubusinessline.com/markets/promoter-shareholding-in-listed-companies-hits-three-year-high-at-4193-in-september-quarter/article71685657.ece"
     },
     {
      "date": "2026-11-10",
@@ -1813,8 +1849,20 @@
     {
      "date": "2026-11-10",
      "source": "BusinessLine",
+     "title": "Gold price hits $4,135, but silver steals the show as Diwali shuts markets",
+     "url": "https://www.thehindubusinessline.com/markets/gold-hits-4135-silver-outpaces-yellow-metal-as-diwali-shuts-markets/article71685233.ece"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "BusinessLine",
      "title": "Mutual funds' Nifty 50 allocation falls to 21-year low",
      "url": "https://www.thehindubusinessline.com/markets/mutual-funds-nifty-50-allocation-falls-to-21-year-low/article71685515.ece"
+    },
+    {
+     "date": "2026-11-10",
+     "source": "BusinessLine",
+     "title": "US Fed’s Waller plans to support at least a quarter-point rate hike in December",
+     "url": "https://www.thehindubusinessline.com/news/world/us-feds-waller-plans-to-support-at-least-a-quarter-point-rate-hike-in-december/article71685592.ece"
     },
     {
      "date": "2026-11-10",
@@ -1839,12 +1887,6 @@
      "source": "BusinessLine",
      "title": "Semiconductor stocks in oversold territory, Goldman Sachs sees buying opportunity",
      "url": "https://www.thehindubusinessline.com/markets/semiconductor-stocks-in-oversold-territory-goldman-sachs-sees-buying-opportunity/article71685306.ece"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "BusinessLine",
-     "title": "Gold hits $4,135, but silver steals the show as Diwali shuts markets",
-     "url": "https://www.thehindubusinessline.com/markets/gold-hits-4135-silver-outpaces-yellow-metal-as-diwali-shuts-markets/article71685233.ece"
     },
     {
      "date": "2026-11-10",
@@ -2115,47 +2157,11 @@
      "source": "BusinessLine",
      "title": "Wall Street races for megadeals as countdown begins on Trump era",
      "url": "https://www.thehindubusinessline.com/markets/wall-street-races-for-megadeals-as-countdown-begins-on-trump-era/article71681053.ece"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "BusinessLine",
-     "title": "Iran suggests blasts are not US attacks as both sides report ships hit",
-     "url": "https://www.thehindubusinessline.com/news/world/iran-suggests-blasts-are-not-us-attacks-as-both-sides-report-ships-hit/article71681040.ece"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "BusinessLine",
-     "title": "AI analytics, technological upgrades to drive retail investor experience in new Samvat: NSE CEO Ashishkumar Chauhan",
-     "url": "https://www.thehindubusinessline.com/markets/ai-analytics-technological-upgrades-to-drive-retail-investor-experience-in-new-samvat-nse-ceo-ashishkumar-chauhan/article71680890.ece"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "BusinessLine",
-     "title": "Nifty slips below 25,000 in Muhurat as Samvat 2083 opens on a mixed note",
-     "url": "https://www.thehindubusinessline.com/markets/nifty-slips-below-25000-in-muhurat-as-samvat-2083-opens-on-a-mixed-note/article71680906.ece"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "BusinessLine",
-     "title": "Bright Outdoor Media moves to BSE, NSE main boards, eyes expansion in digital advertising",
-     "url": "https://www.thehindubusinessline.com/markets/bright-outdoor-media-moves-to-bse-nse-main-boards-eyes-expansion-in-digital-advertising/article71680870.ece"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "BusinessLine",
-     "title": "Stock markets end marginally lower in special Muhurat trading, snapping 7-day rally",
-     "url": "https://www.thehindubusinessline.com/markets/stock-markets-end-marginally-lower-in-special-muhurat-trading-snapping-7-day-rally/article71680873.ece"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "BusinessLine",
-     "title": "Today’s Gold Rate in India November 8: Gold prices steady in Delhi, Mumbai, Kolkata, Chennai, Bengaluru",
-     "url": "https://www.thehindubusinessline.com/gold-rate-today/gold-price-today-in-delhi-mumbai-kolkata-chennai-bengaluru-hyderabad-pune-gold-rates-metro-cities-november-8-2026/article71680753.ece"
     }
    ]
   },
   "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss": {
-   "fetched": "2026-11-10T15:15+05:30",
+   "fetched": "2026-11-10T16:45+05:30",
    "items": [
     {
      "date": "2026-10-26",
@@ -2281,7 +2287,7 @@
   }
  },
  "antala-industries": {
-  "checked": "2026-11-10T16:31+05:30",
+  "checked": "2026-11-10T16:45+05:30",
   "items": [
    {
     "date": "2026-10-29",
