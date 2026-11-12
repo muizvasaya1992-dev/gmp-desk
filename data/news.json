@@ -1,7 +1,7 @@
 {
  "_feeds": {
   "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms": {
-   "fetched": "2026-11-12T06:15+05:30",
+   "fetched": "2026-11-12T07:45+05:30",
    "items": [
     {
      "date": "2026-11-11",
@@ -306,8 +306,14 @@
    ]
   },
   "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms": {
-   "fetched": "2026-11-12T06:15+05:30",
+   "fetched": "2026-11-12T07:45+05:30",
    "items": [
+    {
+     "date": "2026-11-12",
+     "source": "Economic Times",
+     "title": "Bajaj Finance unveils share sale to raise up to $1.25 billion",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/bajaj-finance-unveils-share-sale-to-raise-up-to-1-25-billion/articleshow/135751856.cms"
+    },
     {
      "date": "2026-11-11",
      "source": "Economic Times",
@@ -601,18 +607,60 @@
      "source": "Economic Times",
      "title": "Tech Mahindra Share Price Highlights: Tech Mahindra Stock Price History",
      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tech-mahindra-stock-price-live-updates-11-nov-2026/liveblog/135723200.cms"
-    },
-    {
-     "date": "2026-11-11",
-     "source": "Economic Times",
-     "title": "Maruti Suzuki Share Price Highlights: Maruti Suzuki Stock Price History",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/maruti-suzuki-stock-price-live-updates-11-nov-2026/liveblog/135723194.cms"
     }
    ]
   },
   "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml": {
-   "fetched": "2026-11-12T06:15+05:30",
+   "fetched": "2026-11-12T07:45+05:30",
    "items": [
+    {
+     "date": "2026-11-12",
+     "source": "cnbctv18.com",
+     "title": "Asian markets mixed as Nvidia shares tumble; South Korea, Taiwan stocks slip",
+     "url": "https://www.cnbctv18.com/market/asian-markets-nvidia-fall-nikkei-kospi-topix-msci-india-index-review-wall-street-taiwan-tsmc-share-price-20032004.htm"
+    },
+    {
+     "date": "2026-11-12",
+     "source": "cnbctv18.com",
+     "title": "Nvidia working with external firm to explore new CEO candidates amid uncertainty over Jensen Huang",
+     "url": "https://www.cnbctv18.com/business/nvidia-working-with-external-firm-to-explore-new-ceo-candidates-amid-uncertainty-over-jensen-huang-20032020.htm"
+    },
+    {
+     "date": "2026-11-12",
+     "source": "cnbctv18.com",
+     "title": "Bajaj Finance shares in focus after launching ₹11,700 crore QIP; indicative price at a discount",
+     "url": "https://www.cnbctv18.com/market/bajaj-finance-share-price-launching-11700-crore-qip-indicative-price-at-a-discount-20032025.htm"
+    },
+    {
+     "date": "2026-11-12",
+     "source": "cnbctv18.com",
+     "title": "US Dollar near one-month high as yen edges toward 160",
+     "url": "https://www.cnbctv18.com/market/currency/us-dollar-near-one-month-high-as-yen-edges-toward-160-20032016.htm"
+    },
+    {
+     "date": "2026-11-12",
+     "source": "cnbctv18.com",
+     "title": "Tata Power share price: Q2 results strong but focus on Kleros settlement, CEO transition",
+     "url": "https://www.cnbctv18.com/market/tata-power-share-price-q2-results-strong-but-focus-on-kleros-settlement-ceo-transition-20032010.htm"
+    },
+    {
+     "date": "2026-11-12",
+     "source": "cnbctv18.com",
+     "title": "Sensex Today | Stock Market Live Updates: GIFT Nifty up 30 points; Tata Power in focus",
+     "url": "https://www.cnbctv18.com/market/stock-market-live-updates-sensex-nifty-today-nifty-bank-it-stocks-tata-power-bajaj-fin-aegis-midhani-hal-nmdc-bdl-share-price-liveblog-20031997.htm"
+    },
+    {
+     "date": "2026-11-12",
+     "source": "cnbctv18.com",
+     "title": "Stick with high-quality AI bonds as debt worries persist, says Morgan Stanley",
+     "url": "https://www.cnbctv18.com/access/stick-with-high-quality-ai-bonds-as-debt-worries-persist-says-morgan-stanley-20031992.htm"
+    },
+    {
+     "date": "2026-11-12",
+     "source": "cnbctv18.com",
+     "title": "Four tech investing themes to consider beyond Nvidia",
+     "url": "https://www.cnbctv18.com/access/four-tech-investing-themes-to-consider-beyond-nvidia-20031993.htm"
+    },
     {
      "date": "2026-11-12",
      "source": "cnbctv18.com",
@@ -692,7 +740,7 @@
      "url": "https://www.cnbctv18.com/market/wall-street-rises-as-tech-shares-lead-rebound-nasdaq-gains-as-nvidia-shares-jump-20031856.htm"
     },
     {
-     "date": "2026-11-11",
+     "date": "2026-11-12",
      "source": "cnbctv18.com",
      "title": "Nifty Outlook for November 12: Index, Nifty Bank see first signs of exhaustion at higher levels; what happens next?",
      "url": "https://www.cnbctv18.com/market/nifty-outlook-thursday-november-12-index-nifty-bank-see-first-signs-of-exhaustion-at-higher-levels-what-happens-next-20031832.htm"
@@ -1044,60 +1092,30 @@
      "source": "cnbctv18.com",
      "title": "OpenAI third-quarter revenue soars nearly 50% to $10 billion",
      "url": "https://www.cnbctv18.com/market/openai-third-quarter-revenue-soars-nearly-50-percent-to-usd-10-billion-20031076.htm"
-    },
-    {
-     "date": "2026-11-11",
-     "source": "cnbctv18.com",
-     "title": "Asian markets rise as CoreWeave earnings ease AI concerns; Japan leads gains",
-     "url": "https://www.cnbctv18.com/market/asian-stock-markets-share-price-nikkei-topix-coreweave-earnings-ai-stocks-us-inflation-softbank-kospi-taiex-20031031.htm"
-    },
-    {
-     "date": "2026-11-11",
-     "source": "cnbctv18.com",
-     "title": "Four stocks to see shares worth ₹1,500 crore free up today as lock-ins end; Details here",
-     "url": "https://www.cnbctv18.com/market/shareholder-lock-in-ending-today-dhoot-molbio-technocraft-leap-india-share-price-value-outstanding-returns-from-ipo-20031037.htm"
-    },
-    {
-     "date": "2026-11-11",
-     "source": "cnbctv18.com",
-     "title": "Small caps have lagged large stocks in the past decade. Why Baron Capital sees a turnaround",
-     "url": "https://www.cnbctv18.com/access/small-caps-have-lagged-large-stocks-in-the-past-decade-why-baron-capital-sees-a-turnaround-20031052.htm"
-    },
-    {
-     "date": "2026-11-11",
-     "source": "cnbctv18.com",
-     "title": "Market spooked because now the Fed may need a supersized hike in December",
-     "url": "https://www.cnbctv18.com/access/market-spooked-because-now-the-fed-may-need-a-supersized-hike-in-december-20031056.htm"
-    },
-    {
-     "date": "2026-11-11",
-     "source": "cnbctv18.com",
-     "title": "SoftBank books $7 billion quarterly loss on US data centre hit, financing costs",
-     "url": "https://www.cnbctv18.com/market/softbank-books-usd-7-billion-quarterly-loss-on-us-data-centre-hit-financing-costs-20031048.htm"
-    },
-    {
-     "date": "2026-11-11",
-     "source": "cnbctv18.com",
-     "title": "Stock Market Highlights: Nifty at 25,255, Sensex jumps 772 points; auto, bank stocks lead gains, IT lags",
-     "url": "https://www.cnbctv18.com/market/stock-market-live-updates-sensex-nifty-today-crude-yields-banks-hdfc-icici-whirlpool-cochin-shipyard-bhel-grse-kalyan-share-price-liveblog-20031033.htm"
-    },
-    {
-     "date": "2026-11-11",
-     "source": "cnbctv18.com",
-     "title": "Explained - Three factors why Dow Jones, Nasdaq fell on Tuesday",
-     "url": "https://www.cnbctv18.com/market/dow-jones-snp-500-nasdaq-three-factors-why-indices-fell-on-wall-street-tuesday-explained-20031025.htm"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "cnbctv18.com",
-     "title": "Avanti Feeds Q2 Results: Net profit tanks 55% to ₹69 crore, EBITDA drops 60%",
-     "url": "https://www.cnbctv18.com/market/stocks/avanti-feeds-share-price-q2-results-net-profit-tanks-55-to-rs-69-crore-ebitda-drops-60-20030999.htm"
     }
    ]
   },
   "https://www.freepressjournal.in/stories.rss?section=business": {
-   "fetched": "2026-11-12T06:15+05:30",
+   "fetched": "2026-11-12T07:45+05:30",
    "items": [
+    {
+     "date": "2026-11-12",
+     "source": "freepressjournal.in",
+     "title": "Guiding Light: A Stable Centre In An Imperfect Life",
+     "url": "https://www.freepressjournal.in/analysis/guiding-light-a-stable-centre-in-an-imperfect-life"
+    },
+    {
+     "date": "2026-11-12",
+     "source": "freepressjournal.in",
+     "title": "Diwali Firecracker Noise Sparks Stray Dog Attacks In Bhopal, 19 People Bitten In Three Days, Elderly Woman Seriously Injured",
+     "url": "https://www.freepressjournal.in/bhopal/diwali-firecracker-noise-sparks-stray-dog-attacks-in-bhopal-19-people-bitten-in-three-days-elderly-woman-seriously-injured"
+    },
+    {
+     "date": "2026-11-12",
+     "source": "freepressjournal.in",
+     "title": "'Cracked Hands Could Lead To Cancer' Fake Doctors Scare Elderly Couple, Dupe Them Of ₹91,000 In Indore",
+     "url": "https://www.freepressjournal.in/indore/cracked-hands-could-lead-to-cancer-fake-doctors-scare-elderly-couple-dupe-them-of-91000-in-indore"
+    },
     {
      "date": "2026-11-12",
      "source": "freepressjournal.in",
@@ -1127,24 +1145,36 @@
      "source": "freepressjournal.in",
      "title": "Swachh Survekshan 2026 Shock For Bhopal! City Misses All Cleanliness Awards As Six Lakh Tonnes Of Adampur Waste Cast Shadow",
      "url": "https://www.freepressjournal.in/bhopal/swachh-survekshan-2026-shock-for-bhopal-city-misses-all-cleanliness-awards-as-six-lakh-tonnes-of-adampur-waste-cast-shadow"
-    },
-    {
-     "date": "2026-11-11",
-     "source": "freepressjournal.in",
-     "title": "MP Congress Tracks Bus Numbers, Passenger Details Ahead Of November 26 Delhi Protest, Sets Two-Bus Target Per Constituency",
-     "url": "https://www.freepressjournal.in/bhopal/mp-congress-tracks-bus-numbers-passenger-details-ahead-of-november-26-delhi-protest-sets-two-bus-target-per-constituency"
-    },
-    {
-     "date": "2026-11-11",
-     "source": "freepressjournal.in",
-     "title": "Indore Police Mediation Centre Settles 148 Disputes, Helps Citizens Recover Over ₹8 Crore Without Lengthy Court Battles",
-     "url": "https://www.freepressjournal.in/indore/indore-police-mediation-centre-settles-148-disputes-helps-citizens-recover-over-8-crore-without-lengthy-court-battles"
     }
    ]
   },
   "https://www.livemint.com/rss/markets": {
-   "fetched": "2026-11-12T06:15+05:30",
+   "fetched": "2026-11-12T07:45+05:30",
    "items": [
+    {
+     "date": "2026-11-12",
+     "source": "Mint",
+     "title": "Top stocks to watch today: Tata Power, Bajaj Finance, HAL, IRCTC shares in focus on Thursday, 12 November | Full list",
+     "url": "https://www.livemint.com/market/stock-market-news/top-stocks-to-watch-today-tata-power-bajaj-finance-hal-irctc-shares-in-focus-on-thursday-12-november-full-list-11794447178928.html"
+    },
+    {
+     "date": "2026-11-12",
+     "source": "Mint",
+     "title": "Thinking about buying the dip in HDFC Bank? Here are the pros and cons.",
+     "url": "https://www.livemint.com/market/stock-market-news/hdfc-bank-hdfc-bank-stock-hdfc-bank-share-price-11794395992177.html"
+    },
+    {
+     "date": "2026-11-12",
+     "source": "Mint",
+     "title": "Stock market outlook today, 12 Nov: Sensex, Nifty prediction - DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues",
+     "url": "https://www.livemint.com/market/stock-market-news/stock-market-outlook-today-12-nov-sensex-nifty-prediction-djia-s-p-nasdaq-gift-nifty-kospi-nikkei-taiwan-11794444171874.html"
+    },
+    {
+     "date": "2026-11-12",
+     "source": "Mint",
+     "title": "Raja Venkatraman recommends three stocks for 12 November",
+     "url": "https://www.livemint.com/market/stock-market-news/raja-venkatraman-recommends-three-stocks-for-12-november-11794445516571.html"
+    },
     {
      "date": "2026-11-12",
      "source": "Mint",
@@ -1330,36 +1360,24 @@
      "source": "Mint",
      "title": "Bajaj Finance said set to launch up to $1.2 billion QIP as early as this week",
      "url": "https://www.livemint.com/market/stock-market-news/bajaj-finance-said-set-to-launch-up-to-1-2-billion-qip-as-early-as-this-week-11794382537759.html"
-    },
-    {
-     "date": "2026-11-11",
-     "source": "Mint",
-     "title": "Siemens’ growth pipeline is strong. Can margins keep pace?",
-     "url": "https://www.livemint.com/market/mark-to-market/siemens-q2-results-order-growth-margin-pressure-stock-outlook-11794379013555.html"
-    },
-    {
-     "date": "2026-11-11",
-     "source": "Mint",
-     "title": "Why Shakti Pumps shares are rising 11% today amid Sensex, Nifty rally? Buy for more returns? Target, upside, rationale",
-     "url": "https://www.livemint.com/market/stock-market-news/why-shakti-pumps-shares-are-rising-11-today-amid-sensex-nifty-rally-buy-for-more-returns-target-upside-rationale-11794377722022.html"
-    },
-    {
-     "date": "2026-11-11",
-     "source": "Mint",
-     "title": "Once AI darling of shareholders, Nvidia sued by own stock buyers over CEO Jensen Huang affair; $420 bn lost in 2 days",
-     "url": "https://www.livemint.com/market/stock-market-news/once-ai-darling-of-shareholders-nvidia-sued-by-own-stock-buyers-over-ceo-jensen-huang-affair-420-bn-lost-in-2-days-11794377931484.html"
-    },
-    {
-     "date": "2026-11-11",
-     "source": "Mint",
-     "title": "Railway stocks on fast track! RVNL, IRFC jump up to 10% amid Sensex, Nifty rise | What's behind momentum? Key levels",
-     "url": "https://www.livemint.com/market/stock-market-news/railway-stocks-on-fast-track-rvnl-irfc-jump-up-to-10-amid-sensex-nifty-rise-whats-behind-momentum-key-levels-11794378046674.html"
     }
    ]
   },
   "https://www.thehindubusinessline.com/markets/feeder/default.rss": {
-   "fetched": "2026-11-12T06:15+05:30",
+   "fetched": "2026-11-12T07:45+05:30",
    "items": [
+    {
+     "date": "2026-11-12",
+     "source": "BusinessLine",
+     "title": "Sensex today | Stock Market Live Updates: Buzzing stocks: Bajaj Finance, Tata Power, Adani Enterprises, Sandur Manganese, Alivus Life, Aurobindo Pharma",
+     "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-12-november-2026/article71689385.ece"
+    },
+    {
+     "date": "2026-11-12",
+     "source": "BusinessLine",
+     "title": "Buzzing stocks: Bajaj Finance, Tata Power, Adani Enterprises, Sandur Manganese, Alivus Life, Aurobindo Pharma",
+     "url": "https://www.thehindubusinessline.com/markets/buzzing-stocks-bajaj-finance-tata-power-adani-enterprises-sandur-manganese-alivus-life-aurobindo-pharma/article71692162.ece"
+    },
     {
      "date": "2026-11-12",
      "source": "BusinessLine",
@@ -1707,23 +1725,11 @@
      "source": "BusinessLine",
      "title": "Promoter shareholding in listed companies hits three-year high at 41.93% in September quarter",
      "url": "https://www.thehindubusinessline.com/markets/promoter-shareholding-in-listed-companies-hits-three-year-high-at-4193-in-september-quarter/article71685657.ece"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "BusinessLine",
-     "title": "Gold price hits $4,135, but silver steals the show as Diwali shuts markets",
-     "url": "https://www.thehindubusinessline.com/markets/gold-hits-4135-silver-outpaces-yellow-metal-as-diwali-shuts-markets/article71685233.ece"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "BusinessLine",
-     "title": "US Fed’s Waller plans to support at least a quarter-point rate hike in December",
-     "url": "https://www.thehindubusinessline.com/news/world/us-feds-waller-plans-to-support-at-least-a-quarter-point-rate-hike-in-december/article71685592.ece"
     }
    ]
   },
   "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss": {
-   "fetched": "2026-11-12T06:15+05:30",
+   "fetched": "2026-11-12T07:45+05:30",
    "items": [
     {
      "date": "2026-10-26",
