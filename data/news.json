@@ -1,7 +1,7 @@
 {
  "_feeds": {
   "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms": {
-   "fetched": "2026-11-12T04:45+05:30",
+   "fetched": "2026-11-12T06:15+05:30",
    "items": [
     {
      "date": "2026-11-11",
@@ -306,7 +306,7 @@
    ]
   },
   "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms": {
-   "fetched": "2026-11-12T04:45+05:30",
+   "fetched": "2026-11-12T06:15+05:30",
    "items": [
     {
      "date": "2026-11-11",
@@ -611,8 +611,26 @@
    ]
   },
   "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml": {
-   "fetched": "2026-11-12T04:45+05:30",
+   "fetched": "2026-11-12T06:15+05:30",
    "items": [
+    {
+     "date": "2026-11-12",
+     "source": "cnbctv18.com",
+     "title": "MSCI Rejig: LIC, Coforge, Adani Green, Meesho make the cut while PI Industries dropped; Details here",
+     "url": "https://www.cnbctv18.com/market/msci-rejig-lic-coforge-adani-green-meesho-pi-industries-share-price-standard-index-smallcap-rebalancing-date-20031984.htm"
+    },
+    {
+     "date": "2026-11-12",
+     "source": "cnbctv18.com",
+     "title": "Dow Jones, Nasdaq extend rebound before Nvidia sell-off as CoreWeave keeps sentiments intact",
+     "url": "https://www.cnbctv18.com/market/dow-jones-snp-500-nasdaq-rebound-before-nvidia-selloff-coreweave-crude-oil-iran-war-jensen-huang-20031982.htm"
+    },
+    {
+     "date": "2026-11-12",
+     "source": "cnbctv18.com",
+     "title": "Nvidia shares crash 9% on reports of another Jensen Huang affair, board preparing for ouster",
+     "url": "https://www.cnbctv18.com/market/nvidia-share-price-crash-another-jensen-huang-affair-report-chinese-spy-board-preparing-to-fire-report-implications-20031979.htm"
+    },
     {
      "date": "2026-11-11",
      "source": "cnbctv18.com",
@@ -1074,30 +1092,36 @@
      "source": "cnbctv18.com",
      "title": "Avanti Feeds Q2 Results: Net profit tanks 55% to ₹69 crore, EBITDA drops 60%",
      "url": "https://www.cnbctv18.com/market/stocks/avanti-feeds-share-price-q2-results-net-profit-tanks-55-to-rs-69-crore-ebitda-drops-60-20030999.htm"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "cnbctv18.com",
-     "title": "Dow Jones falls 249 points, Nasdaq sheds 0.9% as hotter US inflation weighs on Wall Street",
-     "url": "https://www.cnbctv18.com/market/dow-jones-falls-249-points-nasdaq-sheds-0-9-as-hotter-us-inflation-weighs-on-wall-street-20030997.htm"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "cnbctv18.com",
-     "title": "US October inflation comes in hotter than expected, Fed faces pressure to raise rates",
-     "url": "https://www.cnbctv18.com/market/us-october-inflation-comes-in-hotter-than-expected-fed-faces-pressure-to-raise-rates-20030993.htm"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "cnbctv18.com",
-     "title": "Jensen Huang: The man in the leather jacket who built Nvidia's $5 trillion AI empire",
-     "url": "https://www.cnbctv18.com/technology/jensen-huang-the-man-in-the-leather-jacket-who-built-nvidias-5-trillion-ai-empire-20030991.htm"
     }
    ]
   },
   "https://www.freepressjournal.in/stories.rss?section=business": {
-   "fetched": "2026-11-12T04:45+05:30",
+   "fetched": "2026-11-12T06:15+05:30",
    "items": [
+    {
+     "date": "2026-11-12",
+     "source": "freepressjournal.in",
+     "title": "'Congress Has Always Practised Appeasement Politics' Uttarakhand CM Pushkar Singh Dhami Targets Opposition During Bhopal Visit",
+     "url": "https://www.freepressjournal.in/bhopal/congress-has-always-practised-appeasement-politics-uttarakhand-cm-pushkar-singh-dhami-targets-opposition-during-bhopal-visit"
+    },
+    {
+     "date": "2026-11-11",
+     "source": "freepressjournal.in",
+     "title": "World Pneumonia Day 2026! Not Just Children, Elderly And Diabetics Also At High Risk, Warn Indore Doctors",
+     "url": "https://www.freepressjournal.in/indore/world-pneumonia-day-2026-not-just-children-elderly-and-diabetics-also-at-high-risk-warn-indore-doctors"
+    },
+    {
+     "date": "2026-11-11",
+     "source": "freepressjournal.in",
+     "title": "MP Government Jobs Update! 68,437 Employees Promoted; Recruitment For 1.5 Lakh Posts Planned As Chief Secretary Issues Directions In Bhopal",
+     "url": "https://www.freepressjournal.in/bhopal/mp-government-jobs-update-68437-employees-promoted-recruitment-for-15-lakh-posts-planned-as-chief-secretary-issues-directions-in-bhopal"
+    },
+    {
+     "date": "2026-11-11",
+     "source": "freepressjournal.in",
+     "title": "Massive Fire Engulfs Bagadia Tower, 50 Rescued As Thick Smoke Traps Women And Children In MP's Ujjain",
+     "url": "https://www.freepressjournal.in/indore/massive-fire-engulfs-bagadia-tower-50-rescued-as-thick-smoke-traps-women-and-children-in-mps-ujjain"
+    },
     {
      "date": "2026-11-11",
      "source": "freepressjournal.in",
@@ -1115,36 +1139,30 @@
      "source": "freepressjournal.in",
      "title": "Indore Police Mediation Centre Settles 148 Disputes, Helps Citizens Recover Over ₹8 Crore Without Lengthy Court Battles",
      "url": "https://www.freepressjournal.in/indore/indore-police-mediation-centre-settles-148-disputes-helps-citizens-recover-over-8-crore-without-lengthy-court-battles"
-    },
-    {
-     "date": "2026-11-11",
-     "source": "freepressjournal.in",
-     "title": "Swachh Survekshan 2025-26! Ujjain Crowned India's Cleanest City In 3–10 Lakh Population Category For Second Consecutive Year",
-     "url": "https://www.freepressjournal.in/indore/swachh-survekshan-2025-26-ujjain-crowned-indias-cleanest-city-in-310-lakh-population-category-for-second-consecutive-year"
-    },
-    {
-     "date": "2026-11-11",
-     "source": "freepressjournal.in",
-     "title": "Police Shortage In Madhya Pradesh! Just 144 Cops Per Lakh People Against National Average Of 197, Reveals 2025 Report",
-     "url": "https://www.freepressjournal.in/bhopal/police-shortage-in-madhya-pradesh-just-144-cops-per-lakh-people-against-national-average-of-197-reveals-2025-report"
-    },
-    {
-     "date": "2026-11-11",
-     "source": "freepressjournal.in",
-     "title": "MP Cabinet Meeting On November 18 To Discuss New Industrial Parks, Chemical Hub And Investment Proposals In MP's Mandsaur",
-     "url": "https://www.freepressjournal.in/bhopal/mp-cabinet-meeting-on-november-18-to-discuss-new-industrial-parks-chemical-hub-and-investment-proposals-in-mps-mandsaur"
-    },
-    {
-     "date": "2026-11-11",
-     "source": "freepressjournal.in",
-     "title": "Dhar-Indore Train Services Likely To Begin In December After Successful 120 Kmph Speed Trial On New Railway Line In MP's Dhar",
-     "url": "https://www.freepressjournal.in/indore/dhar-indore-train-services-likely-to-begin-in-december-after-successful-120-kmph-speed-trial-on-new-railway-line-in-mps-dhar"
     }
    ]
   },
   "https://www.livemint.com/rss/markets": {
-   "fetched": "2026-11-12T04:45+05:30",
+   "fetched": "2026-11-12T06:15+05:30",
    "items": [
+    {
+     "date": "2026-11-12",
+     "source": "Mint",
+     "title": "Stock recommendations for 12 November from MarketSmith India",
+     "url": "https://www.livemint.com/market/stock-market-news/stock-recommendations-for-12-november-from-marketsmith-india-11794402701445.html"
+    },
+    {
+     "date": "2026-11-12",
+     "source": "Mint",
+     "title": "Rare IPO Bets on End of War and Economic Crisis in Myanmar",
+     "url": "https://www.livemint.com/market/rare-ipo-bets-on-end-of-war-and-economic-crisis-in-myanmar-11794443215168.html"
+    },
+    {
+     "date": "2026-11-12",
+     "source": "Mint",
+     "title": "Oil Steadies After Slump as Iran War Talks Make Little Progress",
+     "url": "https://www.livemint.com/market/oil-steadies-after-slump-as-iran-war-talks-make-little-progress-11794439901889.html"
+    },
     {
      "date": "2026-11-12",
      "source": "Mint",
@@ -1336,30 +1354,24 @@
      "source": "Mint",
      "title": "Railway stocks on fast track! RVNL, IRFC jump up to 10% amid Sensex, Nifty rise | What's behind momentum? Key levels",
      "url": "https://www.livemint.com/market/stock-market-news/railway-stocks-on-fast-track-rvnl-irfc-jump-up-to-10-amid-sensex-nifty-rise-whats-behind-momentum-key-levels-11794378046674.html"
-    },
-    {
-     "date": "2026-11-11",
-     "source": "Mint",
-     "title": "Berger Paints hopes for gloss back on volume and margin after pale Q2",
-     "url": "https://www.livemint.com/market/mark-to-market/berger-paints-q2-results-margin-pressure-volume-growth-outlook-11794371076493.html"
-    },
-    {
-     "date": "2026-11-11",
-     "source": "Mint",
-     "title": "Mint Explainer | US AI sell-off: Are Indian AI-linked stocks next?",
-     "url": "https://www.livemint.com/market/stock-market-news/india-ai-stocks-selloff-us-tech-stocks-ai-sell-off-11794370178196.html"
-    },
-    {
-     "date": "2026-11-11",
-     "source": "Mint",
-     "title": "Why KPI Green Energy, Waaree Energies shares are rising today; over 5% jump amid post Diwali Sensex, Nifty fireworks",
-     "url": "https://www.livemint.com/market/stock-market-news/why-kpi-green-energy-waaree-energies-shares-are-rising-today-over-5-jump-amid-post-diwali-sensex-nifty-fireworks-11794375321435.html"
     }
    ]
   },
   "https://www.thehindubusinessline.com/markets/feeder/default.rss": {
-   "fetched": "2026-11-12T04:45+05:30",
+   "fetched": "2026-11-12T06:15+05:30",
    "items": [
+    {
+     "date": "2026-11-12",
+     "source": "BusinessLine",
+     "title": "Adani to finance Chile copper project to secure long-term supply for Mundra smelter",
+     "url": "https://www.thehindubusinessline.com/markets/commodities/adani-group-partners-chiles-codelco-for-copper-exploration-project/article71691417.ece"
+    },
+    {
+     "date": "2026-11-11",
+     "source": "BusinessLine",
+     "title": "Nifty closes 0.84% higher, cooling off from intraday highs",
+     "url": "https://www.thehindubusinessline.com/markets/nifty-closes-084-higher-cooling-off-from-intraday-highs/article71689484.ece"
+    },
     {
      "date": "2026-11-11",
      "source": "BusinessLine",
@@ -1443,12 +1455,6 @@
      "source": "BusinessLine",
      "title": "Bondbazaar appoints Sambath Kumar as CEO",
      "url": "https://www.thehindubusinessline.com/money-and-banking/bondbazaarappoints-sambath-kumar-as-ceo/article71690020.ece"
-    },
-    {
-     "date": "2026-11-11",
-     "source": "BusinessLine",
-     "title": "Nifty closes 0.84% higher, cooling off from intraday highs",
-     "url": "https://www.thehindubusinessline.com/markets/nifty-closes-084-higher-cooling-off-from-intraday-highs/article71689484.ece"
     },
     {
      "date": "2026-11-11",
@@ -1713,17 +1719,11 @@
      "source": "BusinessLine",
      "title": "US Fed’s Waller plans to support at least a quarter-point rate hike in December",
      "url": "https://www.thehindubusinessline.com/news/world/us-feds-waller-plans-to-support-at-least-a-quarter-point-rate-hike-in-december/article71685592.ece"
-    },
-    {
-     "date": "2026-11-10",
-     "source": "BusinessLine",
-     "title": "Today’s Gold Rate in India November 10: Gold prices down in Delhi, Mumbai, Kolkata, Chennai, Bengaluru",
-     "url": "https://www.thehindubusinessline.com/gold-rate-today/gold-price-today-in-delhi-mumbai-kolkata-chennai-bengaluru-hyderabad-pune-gold-rates-metro-cities-november-10-2026/article71685445.ece"
     }
    ]
   },
   "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss": {
-   "fetched": "2026-11-12T04:45+05:30",
+   "fetched": "2026-11-12T06:15+05:30",
    "items": [
     {
      "date": "2026-10-26",
