@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T22:15+05:30",
+  "generated_at": "2026-11-13T22:31+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-07T09:56+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-13T22:15+05:30",
+    "nse_ok_at": "2026-11-13T22:31+05:30",
     "bse_ok_at": "2026-11-07T09:58+05:30"
   },
   "ipos": [
@@ -3074,12 +3074,12 @@
       "tracker_rating": 3,
       "uses": [
         {
-          "cr": 31.29,
-          "use": "Borrowings"
+          "use": "Borrowings",
+          "cr": 31.29
         },
         {
-          "cr": 2.21,
-          "use": "Subsidiary"
+          "use": "Subsidiary",
+          "cr": 2.21
         }
       ],
       "sector": "Other Agricultural Products",
@@ -3092,7 +3092,7 @@
         {
           "source": "Tracker C",
           "gmp": 45,
-          "at": "2026-11-13T17:37"
+          "at": "2026-11-13T22:02"
         }
       ],
       "gmp_history": [
@@ -3101,12 +3101,12 @@
           "gmp": 45
         }
       ],
-      "history_source": "Public trackers",
+      "history_source": "Tracker C",
       "gmp_low": 45,
       "gmp_high": 48,
       "gmp": 45,
-      "gmp_asof": "2026-11-13T18:00",
-      "gmp_source_latest": "Public trackers",
+      "gmp_asof": "2026-11-13T22:02",
+      "gmp_source_latest": "Tracker C",
       "gmp_pct": 16.54,
       "gmp_spread": {
         "min": 45,
@@ -3151,30 +3151,42 @@
       "price": 245,
       "segment": "SME",
       "size_cr": 120.1,
-      "tracker_rating": 1,
+      "tracker_rating": 2,
       "uses": [
         {
-          "use": "Asset",
-          "cr": 65.0215
+          "cr": 65.0215,
+          "use": "Asset"
         },
         {
-          "use": "Asset",
-          "cr": 14.582
+          "cr": 14.582,
+          "use": "Asset"
         },
         {
-          "use": "Asset",
-          "cr": 18.523
+          "cr": 18.523,
+          "use": "Asset"
         }
       ],
       "sector": "Diversified Commercial Services",
-      "gmp_watch": {
-        "sources": 2,
-        "at": "2026-11-13T22:15"
-      },
-      "gmp_sources": [],
-      "gmp_history": [],
-      "gmp": null,
-      "gmp_pct": null,
+      "gmp_sources": [
+        {
+          "source": "Tracker C",
+          "gmp": 15,
+          "at": "2026-11-13T22:02"
+        }
+      ],
+      "gmp_history": [
+        {
+          "date": "2026-11-13",
+          "gmp": 15
+        }
+      ],
+      "history_source": "Tracker C",
+      "gmp_low": 15,
+      "gmp_high": 15,
+      "gmp": 15,
+      "gmp_asof": "2026-11-13T22:02",
+      "gmp_source_latest": "Tracker C",
+      "gmp_pct": 6.12,
       "status": "upcoming",
       "unconfirmed": true
     }
