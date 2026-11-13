@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T10:00+05:30",
+  "generated_at": "2026-11-13T10:15+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-07T09:56+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-13T10:00+05:30",
+    "nse_ok_at": "2026-11-13T10:15+05:30",
     "bse_ok_at": "2026-11-07T09:58+05:30"
   },
   "ipos": [
@@ -2911,7 +2911,7 @@
       "sub_asof": "2026-11-05T19:05",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-13T10:00"
+        "at": "2026-11-13T10:15"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3061,29 +3061,22 @@
       "unconfirmed": false
     },
     {
-      "id": "watrana-rentals",
-      "name": "Watrana Rentals",
-      "segment": "SME",
-      "price": 245,
-      "price_low": null,
-      "lot": 600,
-      "size_cr": 120.1,
-      "open": "2026-11-19",
-      "close": "2026-11-23",
-      "boa": "2026-11-25",
-      "listing": "2026-11-27",
-      "anchor": null,
-      "rating": null,
-      "sub": null,
-      "updated_on": "2026-11-13T10:00+05:30",
+      "boa": "2026-11-23",
+      "close": "2026-11-20",
       "from_peers": true,
-      "exchange": "NSE Emerge",
+      "id": "crystal-crop-protection",
+      "listing": "2026-11-26",
+      "lot": 55,
+      "name": "Crystal Crop Protection",
+      "open": "2026-11-18",
+      "price": 272,
+      "segment": "MAIN",
+      "size_cr": 455.49,
       "tracker_rating": 1,
       "gmp_watch": {
         "sources": 1,
-        "at": "2026-11-13T10:00"
+        "at": "2026-11-13T08:53"
       },
-      "lot_basis": "tracker",
       "gmp_sources": [],
       "gmp_history": [],
       "gmp": null,
@@ -3092,28 +3085,23 @@
       "unconfirmed": true
     },
     {
-      "id": "crystal-crop-protection",
-      "name": "Crystal Crop Protection",
-      "segment": "MAIN",
-      "price": 272,
-      "price_low": null,
-      "lot": 55,
-      "size_cr": 455.49,
-      "open": "2026-11-18",
-      "close": "2026-11-20",
-      "boa": "2026-11-23",
-      "listing": "2026-11-26",
-      "anchor": null,
-      "rating": null,
-      "sub": null,
-      "updated_on": "2026-11-13T10:00+05:30",
+      "boa": "2026-11-25",
+      "close": "2026-11-23",
+      "exchange": "NSE Emerge",
       "from_peers": true,
+      "id": "watrana-rentals",
+      "listing": "2026-11-27",
+      "lot": 600,
+      "name": "Watrana Rentals",
+      "open": "2026-11-19",
+      "price": 245,
+      "segment": "SME",
+      "size_cr": 120.1,
       "tracker_rating": 1,
       "gmp_watch": {
         "sources": 1,
-        "at": "2026-11-13T08:53"
+        "at": "2026-11-13T10:15"
       },
-      "lot_basis": "tracker",
       "gmp_sources": [],
       "gmp_history": [],
       "gmp": null,
