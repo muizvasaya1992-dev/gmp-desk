@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T19:45+05:30",
+  "generated_at": "2026-11-13T20:00+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-07T09:56+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-13T19:45+05:30",
+    "nse_ok_at": "2026-11-13T20:00+05:30",
     "bse_ok_at": "2026-11-07T09:58+05:30"
   },
   "ipos": [
@@ -3118,22 +3118,22 @@
       "status": "upcoming",
       "news": [
         {
+          "date": "2026-11-13",
+          "source": "Economic Times",
           "title": "Crystal Crop Protection IPO GMP signals 18% potential listing gains. Key things to know before issue opens on Nov 18",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystalcropprotectionipogmpsignals18-potentiallistinggains-keythings-to-knowbeforeissueopens-on-nov18/articleshow/135799630.cms",
-          "source": "Economic Times",
-          "date": "2026-11-13"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystalcropprotectionipogmpsignals18-potentiallistinggains-keythings-to-knowbeforeissueopens-on-nov18/articleshow/135799630.cms"
         },
         {
+          "date": "2026-11-13",
+          "source": "Economic Times",
           "title": "Crystal Crop Protection sets price band for Rs 455.49 crore IPO, issue opens on November 18",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-sets-price-band-for-rs-455-49-crore-ipo-issue-opens-on-november-18/articleshow/135790747.cms",
-          "source": "Economic Times",
-          "date": "2026-11-13"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-sets-price-band-for-rs-455-49-crore-ipo-issue-opens-on-november-18/articleshow/135790747.cms"
         },
         {
-          "title": "Crystal Crop Protection to raise up to ₹456 cr via IPO; issue opens on Nov 18",
-          "url": "https://www.thehindubusinessline.com/markets/crystal-crop-protection-to-raise-up-to-456-cr-via-ipo-issue-opens-on-nov-18/article71696593.ece",
+          "date": "2026-11-13",
           "source": "BusinessLine",
-          "date": "2026-11-13"
+          "title": "Crystal Crop Protection to raise up to ₹456 cr via IPO; issue opens on Nov 18",
+          "url": "https://www.thehindubusinessline.com/markets/crystal-crop-protection-to-raise-up-to-456-cr-via-ipo-issue-opens-on-nov-18/article71696593.ece"
         }
       ],
       "unconfirmed": true
@@ -3169,7 +3169,7 @@
       "sector": "Diversified Commercial Services",
       "gmp_watch": {
         "sources": 2,
-        "at": "2026-11-13T19:45"
+        "at": "2026-11-13T20:00"
       },
       "gmp_sources": [],
       "gmp_history": [],
