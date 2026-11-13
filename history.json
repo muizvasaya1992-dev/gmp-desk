@@ -4,6 +4,36 @@
  "nse_as_of": "2026-11-13T00:01+05:30",
  "rows": [
   {
+   "name": "Watrana Rentals",
+   "segment": "SME",
+   "symbol": null,
+   "listing": "2026-11-27",
+   "exchange": "NSE Emerge",
+   "live": true,
+   "id": "watrana-rentals",
+   "status": "upcoming",
+   "open": "2026-11-19",
+   "close": "2026-11-23",
+   "price": 245,
+   "price_low": null,
+   "unconfirmed": true
+  },
+  {
+   "name": "Crystal Crop Protection",
+   "segment": "MAIN",
+   "symbol": null,
+   "listing": "2026-11-26",
+   "exchange": "NSE · BSE",
+   "live": true,
+   "id": "crystal-crop-protection",
+   "status": "upcoming",
+   "open": "2026-11-18",
+   "close": "2026-11-20",
+   "price": 272,
+   "price_low": null,
+   "unconfirmed": true
+  },
+  {
    "name": "Antala Industries",
    "segment": "SME",
    "symbol": null,
@@ -5613,5 +5643,5 @@
    "status": "listed"
   }
  ],
- "generated_at": "2026-11-13T00:01+05:30"
+ "generated_at": "2026-11-13T10:00+05:30"
 }

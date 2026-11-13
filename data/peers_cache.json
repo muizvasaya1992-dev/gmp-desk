@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-13T09:45+05:30",
+  "fetched_at": "2026-11-13T10:01+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -98,27 +98,49 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-13T09:45+05:30",
+  "fetched_at": "2026-11-13T10:01+05:30",
   "records": [
+   {
+    "src": "Tracker C",
+    "slug": "watrana-rentals",
+    "name": "Watrana Rentals",
+    "segment": "SME",
+    "exchange": "NSE Emerge",
+    "open": "2026-11-19",
+    "close": "2026-11-23",
+    "boa": "2026-11-25",
+    "listing": "2026-11-27",
+    "price": 245.0,
+    "price_low": null,
+    "size_cr": 120.1,
+    "gmp": null,
+    "gmp_at": null,
+    "sub_total": null,
+    "sub_retail": null,
+    "sub_at": null,
+    "lot": 600.0,
+    "rating": 1,
+    "live": true
+   },
    {
     "src": "Tracker C",
     "slug": "crystal-crop-protection",
     "name": "Crystal Crop Protection",
     "segment": "MAIN",
     "exchange": null,
-    "open": null,
-    "close": null,
-    "boa": null,
-    "listing": null,
-    "price": null,
+    "open": "2026-11-18",
+    "close": "2026-11-20",
+    "boa": "2026-11-23",
+    "listing": "2026-11-26",
+    "price": 272.0,
     "price_low": null,
-    "size_cr": null,
+    "size_cr": 455.49,
     "gmp": null,
-    "gmp_at": "2026-11-13T05:55",
+    "gmp_at": "2026-11-13T08:53",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
-    "lot": null,
+    "lot": 55.0,
     "rating": 1,
     "live": true
    },
@@ -627,33 +649,11 @@
     "lot": 1200.0,
     "rating": 1,
     "live": false
-   },
-   {
-    "src": "Tracker C",
-    "slug": "fusion-cx",
-    "name": "Fusion CX",
-    "segment": "MAIN",
-    "exchange": null,
-    "open": "2026-10-14",
-    "close": "2026-10-16",
-    "boa": "2026-10-19",
-    "listing": "2026-10-22",
-    "price": 289.0,
-    "price_low": null,
-    "size_cr": 702.0,
-    "gmp": 13.5,
-    "gmp_at": "2026-10-22T09:37",
-    "sub_total": 4.68,
-    "sub_retail": null,
-    "sub_at": null,
-    "lot": 51.0,
-    "rating": 1,
-    "live": false
    }
   ]
  },
  "d": {
-  "fetched_at": "2026-11-13T09:45+05:30",
+  "fetched_at": "2026-11-13T10:01+05:30",
   "records": [
    {
     "src": "Tracker D",

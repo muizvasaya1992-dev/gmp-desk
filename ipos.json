@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T09:45+05:30",
+  "generated_at": "2026-11-13T10:00+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-07T09:56+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-13T09:45+05:30",
+    "nse_ok_at": "2026-11-13T10:00+05:30",
     "bse_ok_at": "2026-11-07T09:58+05:30"
   },
   "ipos": [
@@ -2911,7 +2911,7 @@
       "sub_asof": "2026-11-05T19:05",
       "gmp_watch": {
         "sources": 3,
-        "at": "2026-11-13T09:45"
+        "at": "2026-11-13T10:00"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3059,6 +3059,67 @@
       "gmp_pct": null,
       "status": "listed",
       "unconfirmed": false
+    },
+    {
+      "id": "watrana-rentals",
+      "name": "Watrana Rentals",
+      "segment": "SME",
+      "price": 245,
+      "price_low": null,
+      "lot": 600,
+      "size_cr": 120.1,
+      "open": "2026-11-19",
+      "close": "2026-11-23",
+      "boa": "2026-11-25",
+      "listing": "2026-11-27",
+      "anchor": null,
+      "rating": null,
+      "sub": null,
+      "updated_on": "2026-11-13T10:00+05:30",
+      "from_peers": true,
+      "exchange": "NSE Emerge",
+      "tracker_rating": 1,
+      "gmp_watch": {
+        "sources": 1,
+        "at": "2026-11-13T10:00"
+      },
+      "lot_basis": "tracker",
+      "gmp_sources": [],
+      "gmp_history": [],
+      "gmp": null,
+      "gmp_pct": null,
+      "status": "upcoming",
+      "unconfirmed": true
+    },
+    {
+      "id": "crystal-crop-protection",
+      "name": "Crystal Crop Protection",
+      "segment": "MAIN",
+      "price": 272,
+      "price_low": null,
+      "lot": 55,
+      "size_cr": 455.49,
+      "open": "2026-11-18",
+      "close": "2026-11-20",
+      "boa": "2026-11-23",
+      "listing": "2026-11-26",
+      "anchor": null,
+      "rating": null,
+      "sub": null,
+      "updated_on": "2026-11-13T10:00+05:30",
+      "from_peers": true,
+      "tracker_rating": 1,
+      "gmp_watch": {
+        "sources": 1,
+        "at": "2026-11-13T08:53"
+      },
+      "lot_basis": "tracker",
+      "gmp_sources": [],
+      "gmp_history": [],
+      "gmp": null,
+      "gmp_pct": null,
+      "status": "upcoming",
+      "unconfirmed": true
     }
   ]
 }

@@ -1,1 +1,29 @@
-{}
+{
+ "crystal-crop-protection": {
+  "boa": "2026-11-23",
+  "close": "2026-11-20",
+  "from_peers": true,
+  "id": "crystal-crop-protection",
+  "listing": "2026-11-26",
+  "lot": 55,
+  "name": "Crystal Crop Protection",
+  "open": "2026-11-18",
+  "price": 272,
+  "segment": "MAIN",
+  "size_cr": 455.49
+ },
+ "watrana-rentals": {
+  "boa": "2026-11-25",
+  "close": "2026-11-23",
+  "exchange": "NSE Emerge",
+  "from_peers": true,
+  "id": "watrana-rentals",
+  "listing": "2026-11-27",
+  "lot": 600,
+  "name": "Watrana Rentals",
+  "open": "2026-11-19",
+  "price": 245,
+  "segment": "SME",
+  "size_cr": 120.1
+ }
+}
