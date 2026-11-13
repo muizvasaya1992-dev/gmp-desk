@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T16:00+05:30",
+  "generated_at": "2026-11-13T16:15+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-07T09:56+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-13T16:00+05:30",
+    "nse_ok_at": "2026-11-13T16:15+05:30",
     "bse_ok_at": "2026-11-07T09:58+05:30"
   },
   "ipos": [
@@ -3146,9 +3146,24 @@
       "segment": "SME",
       "size_cr": 120.1,
       "tracker_rating": 1,
+      "uses": [
+        {
+          "use": "Asset",
+          "cr": 65.0215
+        },
+        {
+          "use": "Asset",
+          "cr": 14.582
+        },
+        {
+          "use": "Asset",
+          "cr": 18.523
+        }
+      ],
+      "sector": "Diversified Commercial Services",
       "gmp_watch": {
-        "sources": 1,
-        "at": "2026-11-13T11:31"
+        "sources": 2,
+        "at": "2026-11-13T16:15"
       },
       "gmp_sources": [],
       "gmp_history": [],
