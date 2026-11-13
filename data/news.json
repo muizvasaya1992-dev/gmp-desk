@@ -1,7 +1,7 @@
 {
  "_feeds": {
   "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms": {
-   "fetched": "2026-11-13T04:45+05:30",
+   "fetched": "2026-11-13T06:15+05:30",
    "items": [
     {
      "date": "2026-11-12",
@@ -306,7 +306,7 @@
    ]
   },
   "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms": {
-   "fetched": "2026-11-13T04:45+05:30",
+   "fetched": "2026-11-13T06:15+05:30",
    "items": [
     {
      "date": "2026-11-12",
@@ -611,8 +611,14 @@
    ]
   },
   "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml": {
-   "fetched": "2026-11-13T04:45+05:30",
+   "fetched": "2026-11-13T06:15+05:30",
    "items": [
+    {
+     "date": "2026-11-13",
+     "source": "cnbctv18.com",
+     "title": "Dow Jones falls 200 points as oil, yields rebound; Nvidia down to 52-week low",
+     "url": "https://www.cnbctv18.com/market/dow-jones-snp-500-nasdaq-fall-nvidia-crisis-52-week-low-yields-oil-prices-rebound-iran-trump-inflation-fed-hikes-20033019.htm"
+    },
     {
      "date": "2026-11-12",
      "source": "cnbctv18.com",
@@ -1086,18 +1092,24 @@
      "source": "cnbctv18.com",
      "title": "Stick with high-quality AI bonds as debt worries persist, says Morgan Stanley",
      "url": "https://www.cnbctv18.com/access/stick-with-high-quality-ai-bonds-as-debt-worries-persist-says-morgan-stanley-20031992.htm"
-    },
-    {
-     "date": "2026-11-12",
-     "source": "cnbctv18.com",
-     "title": "Four tech investing themes to consider beyond Nvidia",
-     "url": "https://www.cnbctv18.com/access/four-tech-investing-themes-to-consider-beyond-nvidia-20031993.htm"
     }
    ]
   },
   "https://www.freepressjournal.in/stories.rss?section=business": {
-   "fetched": "2026-11-13T04:45+05:30",
+   "fetched": "2026-11-13T06:15+05:30",
    "items": [
+    {
+     "date": "2026-11-12",
+     "source": "freepressjournal.in",
+     "title": "Chief Minister Mohan Yadav Will Be On A 5-Day Trip To Singapore And South Korea From Nov 24",
+     "url": "https://www.freepressjournal.in/bhopal/chief-minister-mohan-yadav-will-be-on-a-5-day-trip-to-singapore-and-south-korea-from-nov-24"
+    },
+    {
+     "date": "2026-11-12",
+     "source": "freepressjournal.in",
+     "title": "Report Traffic Violators Through App, Win Weekly Rewards In Indore",
+     "url": "https://www.freepressjournal.in/indore/report-traffic-violators-through-app-win-weekly-rewards-in-indore"
+    },
     {
      "date": "2026-11-12",
      "source": "freepressjournal.in",
@@ -1145,29 +1157,11 @@
      "source": "freepressjournal.in",
      "title": "Auto Driver Beaten To Death Over Rs 2,000; Two Children Orphaned As Both Parents Dead In Bhopal",
      "url": "https://www.freepressjournal.in/bhopal/auto-driver-beaten-to-death-over-rs-2000-two-children-orphaned-as-both-parents-dead-in-bhopal"
-    },
-    {
-     "date": "2026-11-12",
-     "source": "freepressjournal.in",
-     "title": "Mumbai Local Train Disruption At Kanjurmarg Linked To Suspected Reverse Current Flow, Central Railway Plans Equipment Relocation",
-     "url": "https://www.freepressjournal.in/mumbai/mumbai-local-train-disruption-at-kanjurmarg-linked-to-suspected-reverse-current-flow-central-railway-plans-equipment-relocation"
-    },
-    {
-     "date": "2026-11-12",
-     "source": "freepressjournal.in",
-     "title": "Rare Coins Spanning 2,500 Years To Go On Display From Nov 27 At Malwa Mudra Mahotsav In Indore",
-     "url": "https://www.freepressjournal.in/indore/rare-coins-spanning-2500-years-to-go-on-display-from-nov-27-at-malwa-mudra-mahotsav-in-indore"
-    },
-    {
-     "date": "2026-11-12",
-     "source": "freepressjournal.in",
-     "title": "Bhopal Municipal Corporation Attaches Two Properties Over ₹ 46.79 Lakh Tax Due",
-     "url": "https://www.freepressjournal.in/bhopal/bhopal-municipal-corporation-attaches-two-properties-over-4679-lakh-tax-due"
     }
    ]
   },
   "https://www.livemint.com/rss/markets": {
-   "fetched": "2026-11-13T04:45+05:30",
+   "fetched": "2026-11-13T06:15+05:30",
    "items": [
     {
      "date": "2026-11-13",
@@ -1382,8 +1376,14 @@
    ]
   },
   "https://www.thehindubusinessline.com/markets/feeder/default.rss": {
-   "fetched": "2026-11-13T04:45+05:30",
+   "fetched": "2026-11-13T06:15+05:30",
    "items": [
+    {
+     "date": "2026-11-13",
+     "source": "BusinessLine",
+     "title": "Anthropic IPO draws sixfold demand, targets $1.4 trillion valuation",
+     "url": "https://www.thehindubusinessline.com/markets/anthropic-ipo-draws-sixfold-demand-targets-14-trillion-valuation/article71696359.ece"
+    },
     {
      "date": "2026-11-12",
      "source": "BusinessLine",
@@ -1737,17 +1737,11 @@
      "source": "BusinessLine",
      "title": "IndiGo shares surge past analyst target as falling crude, Q2 beat draw buyers",
      "url": "https://www.thehindubusinessline.com/markets/stock-markets/indigo-surges-past-analyst-target-as-crude-slide-and-q2-beat-draw-buyers/article71688766.ece"
-    },
-    {
-     "date": "2026-11-11",
-     "source": "BusinessLine",
-     "title": "ICICI Bank shares hits 52-week high; Morgan Stanley adds to focus list",
-     "url": "https://www.thehindubusinessline.com/markets/stock-markets/icici-bank-hits-52-week-high-before-retreating-morgan-stanley-adds-to-focus-list/article71688748.ece"
     }
    ]
   },
   "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss": {
-   "fetched": "2026-11-13T04:45+05:30",
+   "fetched": "2026-11-13T06:15+05:30",
    "items": [
     {
      "date": "2026-10-26",
