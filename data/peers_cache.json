@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-13T11:15+05:30",
+  "fetched_at": "2026-11-13T11:31+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -98,7 +98,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-13T11:15+05:30",
+  "fetched_at": "2026-11-13T11:31+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -106,10 +106,10 @@
     "name": "Crystal Crop Protection",
     "segment": "MAIN",
     "exchange": null,
-    "open": null,
-    "close": null,
-    "boa": null,
-    "listing": null,
+    "open": "2026-11-18",
+    "close": "2026-11-20",
+    "boa": "2026-11-23",
+    "listing": "2026-11-26",
     "price": null,
     "price_low": null,
     "size_cr": null,
@@ -653,7 +653,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-13T11:15+05:30",
+  "fetched_at": "2026-11-13T11:31+05:30",
   "records": [
    {
     "src": "Tracker D",
