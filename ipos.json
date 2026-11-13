@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T10:31+05:30",
+  "generated_at": "2026-11-13T10:45+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-07T09:56+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-13T10:31+05:30",
+    "nse_ok_at": "2026-11-13T10:45+05:30",
     "bse_ok_at": "2026-11-07T09:58+05:30"
   },
   "ipos": [
@@ -3074,23 +3074,35 @@
       "tracker_rating": 1,
       "uses": [
         {
-          "use": "Debt",
-          "cr": 422.86
+          "cr": 422.86,
+          "use": "Debt"
         },
         {
-          "use": "Subsidiary",
-          "cr": 76.0
+          "cr": 76.0,
+          "use": "Subsidiary"
         }
       ],
       "sector": "Other Agricultural Products",
-      "gmp_watch": {
-        "sources": 2,
-        "at": "2026-11-13T10:31"
-      },
-      "gmp_sources": [],
-      "gmp_history": [],
-      "gmp": null,
-      "gmp_pct": null,
+      "gmp_sources": [
+        {
+          "source": "Public trackers",
+          "gmp": 45,
+          "at": "2026-11-13T10:30"
+        }
+      ],
+      "gmp_history": [
+        {
+          "date": "2026-11-13",
+          "gmp": 45
+        }
+      ],
+      "history_source": "Public trackers",
+      "gmp_low": 45,
+      "gmp_high": 45,
+      "gmp": 45,
+      "gmp_asof": "2026-11-13T10:30",
+      "gmp_source_latest": "Public trackers",
+      "gmp_pct": 16.54,
       "status": "upcoming",
       "unconfirmed": true
     },

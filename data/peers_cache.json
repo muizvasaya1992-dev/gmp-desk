@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-13T10:31+05:30",
+  "fetched_at": "2026-11-13T10:45+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -98,7 +98,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-13T10:31+05:30",
+  "fetched_at": "2026-11-13T10:45+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -653,7 +653,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-13T10:31+05:30",
+  "fetched_at": "2026-11-13T10:45+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -679,19 +679,19 @@
     "live": true,
     "detail": {
      "sub": {
-      "total": 0.0,
-      "qib": 0.0,
       "nii": 0.0,
-      "retail": 0.0
+      "qib": 0.0,
+      "retail": 0.0,
+      "total": 0.0
      },
      "uses": [
       {
-       "use": "Debt",
-       "cr": 422.86
+       "cr": 422.86,
+       "use": "Debt"
       },
       {
-       "use": "Subsidiary",
-       "cr": 76.0
+       "cr": 76.0,
+       "use": "Subsidiary"
       }
      ]
     }
