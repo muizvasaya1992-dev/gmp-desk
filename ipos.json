@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T10:15+05:30",
+  "generated_at": "2026-11-13T10:31+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-07T09:56+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-13T10:15+05:30",
+    "nse_ok_at": "2026-11-13T10:31+05:30",
     "bse_ok_at": "2026-11-07T09:58+05:30"
   },
   "ipos": [
@@ -2771,7 +2771,6 @@
       "updated_on": "2026-11-05T10:58+05:30",
       "price": 94,
       "tracker_rating": 1,
-      "sector": "Packaging",
       "lot_basis": "tracker",
       "gmp_sources": [
         {
@@ -2910,8 +2909,8 @@
       "sub_basis": "Tracker B",
       "sub_asof": "2026-11-05T19:05",
       "gmp_watch": {
-        "sources": 3,
-        "at": "2026-11-13T10:15"
+        "sources": 2,
+        "at": "2026-11-11T23:55"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
@@ -3073,9 +3072,20 @@
       "segment": "MAIN",
       "size_cr": 455.49,
       "tracker_rating": 1,
+      "uses": [
+        {
+          "use": "Debt",
+          "cr": 422.86
+        },
+        {
+          "use": "Subsidiary",
+          "cr": 76.0
+        }
+      ],
+      "sector": "Other Agricultural Products",
       "gmp_watch": {
-        "sources": 1,
-        "at": "2026-11-13T08:53"
+        "sources": 2,
+        "at": "2026-11-13T10:31"
       },
       "gmp_sources": [],
       "gmp_history": [],
@@ -3097,11 +3107,6 @@
       "price": 245,
       "segment": "SME",
       "size_cr": 120.1,
-      "tracker_rating": 1,
-      "gmp_watch": {
-        "sources": 1,
-        "at": "2026-11-13T10:15"
-      },
       "gmp_sources": [],
       "gmp_history": [],
       "gmp": null,

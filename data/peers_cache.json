@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-13T10:15+05:30",
+  "fetched_at": "2026-11-13T10:31+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -98,49 +98,27 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-13T10:15+05:30",
+  "fetched_at": "2026-11-13T10:31+05:30",
   "records": [
-   {
-    "src": "Tracker C",
-    "slug": "watrana-rentals",
-    "name": "Watrana Rentals",
-    "segment": "SME",
-    "exchange": "NSE Emerge",
-    "open": "2026-11-19",
-    "close": "2026-11-23",
-    "boa": "2026-11-25",
-    "listing": "2026-11-27",
-    "price": 245.0,
-    "price_low": null,
-    "size_cr": 120.1,
-    "gmp": null,
-    "gmp_at": null,
-    "sub_total": null,
-    "sub_retail": null,
-    "sub_at": null,
-    "lot": 600.0,
-    "rating": 1,
-    "live": true
-   },
    {
     "src": "Tracker C",
     "slug": "crystal-crop-protection",
     "name": "Crystal Crop Protection",
     "segment": "MAIN",
     "exchange": null,
-    "open": "2026-11-18",
-    "close": "2026-11-20",
-    "boa": "2026-11-23",
-    "listing": "2026-11-26",
-    "price": 272.0,
+    "open": null,
+    "close": null,
+    "boa": null,
+    "listing": null,
+    "price": null,
     "price_low": null,
-    "size_cr": 455.49,
+    "size_cr": null,
     "gmp": null,
-    "gmp_at": "2026-11-13T08:53",
+    "gmp_at": "2026-11-13T05:55",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
-    "lot": 55.0,
+    "lot": null,
     "rating": 1,
     "live": true
    },
@@ -649,57 +627,74 @@
     "lot": 1200.0,
     "rating": 1,
     "live": false
+   },
+   {
+    "src": "Tracker C",
+    "slug": "fusion-cx",
+    "name": "Fusion CX",
+    "segment": "MAIN",
+    "exchange": null,
+    "open": "2026-10-14",
+    "close": "2026-10-16",
+    "boa": "2026-10-19",
+    "listing": "2026-10-22",
+    "price": 289.0,
+    "price_low": null,
+    "size_cr": 702.0,
+    "gmp": 13.5,
+    "gmp_at": "2026-10-22T09:37",
+    "sub_total": 4.68,
+    "sub_retail": null,
+    "sub_at": null,
+    "lot": 51.0,
+    "rating": 1,
+    "live": false
    }
   ]
  },
  "d": {
-  "fetched_at": "2026-11-13T10:15+05:30",
+  "fetched_at": "2026-11-13T10:31+05:30",
   "records": [
    {
     "src": "Tracker D",
-    "slug": "vedant-poly-fabs",
-    "name": "Vedant Poly Fabs",
-    "segment": "SME",
+    "slug": "crystal-crop-protection",
+    "name": "Crystal Crop Protection",
+    "segment": "MAIN",
     "exchange": null,
     "open": null,
     "close": null,
     "boa": null,
     "listing": null,
-    "price": 94.0,
-    "price_low": 88.0,
-    "size_cr": 56.68,
-    "gmp": 1.0,
-    "gmp_at": null,
-    "sub_total": null,
-    "sub_retail": null,
-    "sub_at": null,
-    "lot": 1200.0,
-    "sector": "Packaging",
-    "detail_url": "https://ipoindex.in/ipo/vedant-poly-fabs-sme-ipo/",
-    "live": false
-   },
-   {
-    "src": "Tracker D",
-    "slug": "antala-industries",
-    "name": "Antala Industries",
-    "segment": "SME",
-    "exchange": null,
-    "open": null,
-    "close": null,
-    "boa": null,
-    "listing": null,
-    "price": 66.0,
-    "price_low": 63.0,
-    "size_cr": 23.33,
+    "price": 259.0,
+    "price_low": null,
+    "size_cr": 455.49,
     "gmp": 0.0,
     "gmp_at": null,
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
-    "lot": 2000.0,
-    "sector": "Packaging",
-    "detail_url": "https://ipoindex.in/ipo/antala-industries-sme-ipo/",
-    "live": false
+    "lot": 55.0,
+    "sector": "Other Agricultural Products",
+    "detail_url": "https://ipoindex.in/ipo/crystal-crop-protection-ipo/",
+    "live": true,
+    "detail": {
+     "sub": {
+      "total": 0.0,
+      "qib": 0.0,
+      "nii": 0.0,
+      "retail": 0.0
+     },
+     "uses": [
+      {
+       "use": "Debt",
+       "cr": 422.86
+      },
+      {
+       "use": "Subsidiary",
+       "cr": 76.0
+      }
+     ]
+    }
    }
   ]
  }
