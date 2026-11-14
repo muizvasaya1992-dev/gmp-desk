@@ -102,7 +102,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-14T10:01+05:30",
+  "fetched_at": "2026-11-14T10:15+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -657,7 +657,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-14T10:01+05:30",
+  "fetched_at": "2026-11-14T10:15+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -682,24 +682,30 @@
     "detail_url": "https://ipoindex.in/ipo/watrana-rentals-sme-ipo/",
     "live": true,
     "detail": {
+     "gmp_history": [
+      [
+       "2026-11-14",
+       16.0
+      ]
+     ],
      "sub": {
-      "nii": 0.0,
+      "total": 0.0,
       "qib": 0.0,
-      "retail": 0.0,
-      "total": 0.0
+      "nii": 0.0,
+      "retail": 0.0
      },
      "uses": [
       {
-       "cr": 65.0215,
-       "use": "Asset"
+       "use": "Asset",
+       "cr": 65.0215
       },
       {
-       "cr": 14.582,
-       "use": "Asset"
+       "use": "Asset",
+       "cr": 14.582
       },
       {
-       "cr": 18.523,
-       "use": "Asset"
+       "use": "Asset",
+       "cr": 18.523
       }
      ]
     }
