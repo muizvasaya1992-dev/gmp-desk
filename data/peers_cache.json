@@ -102,7 +102,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-14T10:15+05:30",
+  "fetched_at": "2026-11-14T10:31+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -118,7 +118,7 @@
     "price_low": null,
     "size_cr": 120.1,
     "gmp": 16.0,
-    "gmp_at": "2026-11-14T08:37",
+    "gmp_at": "2026-11-14T08:02",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -140,7 +140,7 @@
     "price_low": null,
     "size_cr": 455.49,
     "gmp": 40.0,
-    "gmp_at": "2026-11-14T08:37",
+    "gmp_at": "2026-11-14T08:02",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -657,7 +657,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-14T10:15+05:30",
+  "fetched_at": "2026-11-14T10:31+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -689,23 +689,23 @@
       ]
      ],
      "sub": {
-      "total": 0.0,
-      "qib": 0.0,
       "nii": 0.0,
-      "retail": 0.0
+      "qib": 0.0,
+      "retail": 0.0,
+      "total": 0.0
      },
      "uses": [
       {
-       "use": "Asset",
-       "cr": 65.0215
+       "cr": 65.0215,
+       "use": "Asset"
       },
       {
-       "use": "Asset",
-       "cr": 14.582
+       "cr": 14.582,
+       "use": "Asset"
       },
       {
-       "use": "Asset",
-       "cr": 18.523
+       "cr": 18.523,
+       "use": "Asset"
       }
      ]
     }
@@ -733,20 +733,26 @@
     "detail_url": "https://ipoindex.in/ipo/crystal-crop-protection-ipo/",
     "live": true,
     "detail": {
+     "gmp_history": [
+      [
+       "2026-11-14",
+       40.0
+      ]
+     ],
      "sub": {
-      "nii": 0.0,
+      "total": 0.0,
       "qib": 0.0,
-      "retail": 0.0,
-      "total": 0.0
+      "nii": 0.0,
+      "retail": 0.0
      },
      "uses": [
       {
-       "cr": 31.29,
-       "use": "Borrowings"
+       "use": "Borrowings",
+       "cr": 31.29
       },
       {
-       "cr": 2.21,
-       "use": "Subsidiary"
+       "use": "Subsidiary",
+       "cr": 2.21
       }
      ]
     }
