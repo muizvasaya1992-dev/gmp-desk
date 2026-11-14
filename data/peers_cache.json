@@ -102,7 +102,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-14T09:45+05:30",
+  "fetched_at": "2026-11-14T10:01+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -118,7 +118,7 @@
     "price_low": null,
     "size_cr": 120.1,
     "gmp": 16.0,
-    "gmp_at": "2026-11-13T23:37",
+    "gmp_at": "2026-11-14T08:37",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -140,7 +140,7 @@
     "price_low": null,
     "size_cr": 455.49,
     "gmp": 40.0,
-    "gmp_at": "2026-11-13T23:37",
+    "gmp_at": "2026-11-14T08:37",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -657,7 +657,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-14T09:45+05:30",
+  "fetched_at": "2026-11-14T10:01+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -769,10 +769,10 @@
     "live": true,
     "detail": {
      "sub": {
-      "total": 0.0,
-      "qib": 0.0,
       "nii": 0.0,
-      "retail": 0.0
+      "qib": 0.0,
+      "retail": 0.0,
+      "total": 0.0
      }
     }
    }
