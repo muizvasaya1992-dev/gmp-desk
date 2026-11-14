@@ -1,7 +1,7 @@
 {
  "_feeds": {
   "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms": {
-   "fetched": "2026-11-14T18:15+05:30",
+   "fetched": "2026-11-14T19:45+05:30",
    "items": [
     {
      "date": "2026-11-14",
@@ -306,7 +306,7 @@
    ]
   },
   "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms": {
-   "fetched": "2026-11-14T18:15+05:30",
+   "fetched": "2026-11-14T19:45+05:30",
    "items": [
     {
      "date": "2026-11-14",
@@ -611,8 +611,14 @@
    ]
   },
   "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml": {
-   "fetched": "2026-11-14T18:15+05:30",
+   "fetched": "2026-11-14T19:45+05:30",
    "items": [
+    {
+     "date": "2026-11-14",
+     "source": "cnbctv18.com",
+     "title": "TVS Electronics Q2 Results: Company posts ₹1.41 crore net loss; revenue falls 9.4%",
+     "url": "https://www.cnbctv18.com/market/earnings/tvs-electronics-q2-results-net-loss-revenue-falls-share-price-20034119.htm"
+    },
     {
      "date": "2026-11-14",
      "source": "cnbctv18.com",
@@ -1086,18 +1092,174 @@
      "source": "cnbctv18.com",
      "title": "Anthropic IPO: Mega issue oversubscribed 6 times, Bloomberg reports",
      "url": "https://www.cnbctv18.com/market/anthropic-ipo-mega-issue-oversubscribed-6-times-20033062.htm"
-    },
-    {
-     "date": "2026-11-13",
-     "source": "cnbctv18.com",
-     "title": "Fino Payments Bank gets RBI approval for Pratap Singh's appointment as MD & CEO; stock in focus",
-     "url": "https://www.cnbctv18.com/market/fino-payments-bank-share-price-gets-rbi-approval-for-pratap-singh-appointment-as-md-ceo-20033060.htm"
     }
    ]
   },
   "https://www.freepressjournal.in/stories.rss?section=business": {
-   "fetched": "2026-11-14T18:15+05:30",
+   "fetched": "2026-11-14T19:45+05:30",
    "items": [
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "Maharashtra Schools Chess Championship: 4 Players Share Under-9 Open Lead After Four Rounds",
+     "url": "https://www.freepressjournal.in/sports/maharashtra-schools-chess-championship-4-players-share-under-9-open-lead-after-four-rounds"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "'Nerves Of Steel': Fans Celebrate India's Dramatic One-Wicket Win Over Pakistan In U19 Asia Cup Final",
+     "url": "https://www.freepressjournal.in/sports/tv-phodo-padosiyon-fans-roast-pakistan-after-india-script-last-ball-victory-in-u-19-asia-cup-final"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "Watch: Mohit Ulwa Hits Last-Ball Four As India Beat Pakistan In Thrilling U19 Asia Cup Final",
+     "url": "https://www.freepressjournal.in/sports/watch-mohit-ulwa-hits-last-ball-four-as-india-beat-pakistan-in-thrilling-u19-asia-cup-final"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "Chhath Puja 2026: Kelwa Ke Paat Par To Chhathi Maiyya, Devotional Songs For Your Playlist",
+     "url": "https://www.freepressjournal.in/lifestyle/chhath-puja-2026-kelwa-ke-paat-par-to-chhathi-maiyya-devotional-songs-for-your-playlist"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "20-Year-Old Youth Killed As Bike Hits Electric Pole In Chhatarpur; 2 Injured After Truck Overturns On Highway",
+     "url": "https://www.freepressjournal.in/bhopal/20-year-old-youth-killed-as-bike-hits-electric-pole-in-chhatarpur-2-injured-after-truck-overturns-on-highway"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "IND vs PAK U19 Asia Cup Final: Manal Chauhan, Mohit Ulva Strike Pakistan; India Beats Pakistan In Nail-Biting Finish",
+     "url": "https://www.freepressjournal.in/sports/ind-vs-pak-u19-asia-cup-final-arch-rivals-set-for-high-stakes-title-showdown"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "‘TV Phodo Padosiyon’: Fans Roast Pakistan After India Script Last-Ball Victory In U-19 Asia Cup Final",
+     "url": "https://www.freepressjournal.in/sports/pakistan-is-cooked-internet-reacts-as-mohit-ulva-manal-chauhan-scripts-history-at-u19-asia-cup-final"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "IND vs PAK U19 Asia Cup Final: Indian Players Give Pakistan A Taste Of Their Own Medicine With Fiery On-Field Celebrations After Last-Ball Win | Video",
+     "url": "https://www.freepressjournal.in/sports/ind-vs-pak-u19-asia-cup-final-indian-players-give-pakistan-a-taste-of-their-own-medicine-with-fiery-on-field-celebrations-after-last-ball-win-video"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "Mumbai City FC Appoint Ashvir Singh Johal As Head Coach For Remainder Of 2026–27 Season",
+     "url": "https://www.freepressjournal.in/sports/mumbai-city-fc-appoint-ashvir-singh-johal-as-head-coach-for-remainder-of-202627-season"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "Samay Raina's 'Husband' Remark On India's Got Latent 2 For Salma Deewani Lands Him In Controversy; Maulana Khalil Rahman Noori Says, 'Galat Hai Yeh'",
+     "url": "https://www.freepressjournal.in/entertainment/samay-rainas-husband-remark-on-indias-got-latent-2-for-salma-deewani-lands-him-in-controversy-maulana-khalil-rahman-noori-says-galat-hai-yeh"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "IND vs PAK U19 Asia Cup Final: Indian Players Avoid Handshakes With Pakistan Players After Thrilling 338-Run Chase | Video",
+     "url": "https://www.freepressjournal.in/sports/ind-vs-pak-u19-asia-cup-final-indian-players-avoid-handshakes-with-pakistan-players-after-thrilling-338-run-chase-video"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "IND Vs PAK U19 Asia Cup Final: Mohit Ulva Stars As India Seal Revenge Over Pakistan In Final Ball Thriller",
+     "url": "https://www.freepressjournal.in/sports/ind-vs-pak-u19-asia-cup-final-mohit-ulva-stars-as-india-seal-final-ball-thriller-to-win-by-1-wicket"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "Ashok Gehlot Questions BJP's Jal Jeevan Mission Record In Rajasthan; PHED Minister Kanhaiya Lal Chaudhary Hits Back With Corruption Charges",
+     "url": "https://www.freepressjournal.in/india/ashok-gehlot-questions-bjps-jal-jeevan-mission-record-in-rajasthan-phed-minister-kanhaiya-lal-chaudhary-hits-back-with-corruption-charges"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "NCP-SP MP Supriya Sule Open To Delimitation Proposal If Lok Sabha Seats Rise 50% Across All States",
+     "url": "https://www.freepressjournal.in/india/ncp-sp-open-to-delimitation-if-states-get-equal-50-seat-hike-supriya-sule"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "Bhiwandi Temple Theft: 2 Women Arrested For Stealing Gold From Elderly Devotee, 14 Tola Recovered | VIDEO",
+     "url": "https://www.freepressjournal.in/mumbai/bhiwandi-temple-theft-two-women-arrested-for-stealing-gold-from-elderly-devotee-14-tola-recovered-video"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "Bhopal Hotel Incident: Couple Jumps From Hotel Window To Escape Members Of Hindu Organisation; VIDEO Goes Viral",
+     "url": "https://www.freepressjournal.in/bhopal/bhopal-hotel-incident-couple-jumps-from-hotel-window-to-escape-members-of-hindu-organisation-video-goes-viral"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "Maharashtra State Ranking Carrom Tournament: Hareshwar Betwanshi, Swapnil Shinde Advance In Men's Singles",
+     "url": "https://www.freepressjournal.in/sports/maharashtra-state-ranking-carrom-tournament-hareshwar-betwanshi-swapnil-shinde-advance-in-mens-singles"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "'NCP Merger Hinges On Deputy CM Sunetra Pawar's Stand,' Says Chhagan Bhujbal; Expresses Concern Over Bhidawada Project Delays",
+     "url": "https://www.freepressjournal.in/pune/ncp-merger-hinges-on-deputy-cm-sunetra-pawars-stand-says-chhagan-bhujbal-expresses-concern-over-bhidawada-project-delays"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "UP Census 2027: Self-Enumeration Begins November 16, Online Registration Open Until Nov 30",
+     "url": "https://www.freepressjournal.in/india/up-census-2027-self-enumeration-begins-november-16-online-registration-open-until-nov-30"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "Chilean Stand-Up Comedian Luis Slimming Attacked During Live Show; Violent Scuffle Caught On Camera",
+     "url": "https://www.freepressjournal.in/lifestyle/chilean-stand-up-comedian-luis-slimming-attacked-during-live-show-violent-scuffle-caught-on-camera"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "Datia Road Accident: Tractor-Trolley Carrying Pilgrims Overturns On Way To Ratangarh Mata Temple; 2 Dead, 17 Injured",
+     "url": "https://www.freepressjournal.in/bhopal/datia-road-accident-tractor-trolley-carrying-pilgrims-overturns-on-way-to-ratangarh-mata-temple-2-dead-17-injured"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "What Types Of Loans Are Best For Small Businesses?",
+     "url": "https://www.freepressjournal.in/focused-view/what-types-of-loans-are-best-for-small-businesses"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "Thane Traffic Police Promote Helmet Safety And Green Mobility; Safety Kits Distributed Across 18 Traffic Units",
+     "url": "https://www.freepressjournal.in/mumbai/thane-traffic-police-promote-helmet-safety-and-green-mobility-safety-kits-distributed-across-18-traffic-units"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "Cricket's Fourth Format Test Twenty Launched In Colombo, Matthew Hayden, Russel Arnold Head Star-Studded Event",
+     "url": "https://www.freepressjournal.in/sports/crickets-fourth-format-test-twenty-launched-in-colombo-matthew-hayden-russel-arnold-head-star-studded-event"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "UP Lawyers Demand Advocates Protection Act, Breach Multiple Police Barricades During Lucknow Protest | Video",
+     "url": "https://www.freepressjournal.in/india/up-lawyers-demand-advocates-protection-act-breach-multiple-police-barricades-during-lucknow-protest-video"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "'Jabalpur Emerging As One Of India's Cleanest Cities,' Says Madhya Pradesh CM Mohan Yadav | VIDEO",
+     "url": "https://www.freepressjournal.in/bhopal/jabalpur-emerging-as-one-of-indias-cleanest-cities-says-madhya-pradesh-cm-mohan-yadav-video"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "FPI Inflows Surge To ₹76,189 Crore In November As Foreign Investors Return After Two Months Of Selling",
+     "url": "https://www.freepressjournal.in/business/fpi-inflows-surge-to-76189-crore-in-november-as-foreign-investors-return-after-two-months-of-selling"
+    },
     {
      "date": "2026-11-14",
      "source": "freepressjournal.in",
@@ -1163,12 +1325,6 @@
      "source": "freepressjournal.in",
      "title": "Underworld Don Ravi Pujari To Be Brought To Udupi From Bengaluru Jail For Mother's Last Rites",
      "url": "https://www.freepressjournal.in/india/underworld-don-ravi-pujari-to-be-brought-to-udupi-from-bengaluru-jail-for-mothers-last-rites"
-    },
-    {
-     "date": "2026-11-14",
-     "source": "freepressjournal.in",
-     "title": "IND vs PAK U19 Asia Cup Final: Pakistan On Top As India Sink Further After Lakshya Falls For 80; Dravid Run Out",
-     "url": "https://www.freepressjournal.in/sports/ind-vs-pak-u19-asia-cup-final-arch-rivals-set-for-high-stakes-title-showdown"
     },
     {
      "date": "2026-11-14",
@@ -1389,86 +1545,8 @@
     {
      "date": "2026-11-14",
      "source": "freepressjournal.in",
-     "title": "Madhya Pradesh Bans Pakistan-Made Skin Whitening Creams Over Kidney Damage Risk; 300 Packets Seized",
-     "url": "https://www.freepressjournal.in/bhopal/madhya-pradesh-bans-pakistan-made-skin-whitening-creams-over-kidney-damage-risk-300-packets-seized"
-    },
-    {
-     "date": "2026-11-14",
-     "source": "freepressjournal.in",
-     "title": "Anirudh Ravichander And Kaviya Maran Return To Chennai After Greece Wedding; Make Their First Appearance As Husband And Wife - Watch Video",
-     "url": "https://www.freepressjournal.in/entertainment/anirudh-ravichander-and-kaviya-maran-return-to-chennai-after-greece-wedding-make-their-first-appearance-as-husband-and-wife-watch-video"
-    },
-    {
-     "date": "2026-11-14",
-     "source": "freepressjournal.in",
-     "title": "History In Nicosia: Help2Live Hosts Cyprus’s First Presidential Palace Diwali",
-     "url": "https://www.freepressjournal.in/focused-view/history-in-nicosia-help2live-hosts-cypruss-first-presidential-palace-diwali"
-    },
-    {
-     "date": "2026-11-14",
-     "source": "freepressjournal.in",
-     "title": "Sheikh Hasina's Return To Bangladesh? India Reportedly Sets 2 Conditions For Dhaka",
-     "url": "https://www.freepressjournal.in/world/sheikh-hasinas-return-to-bangladesh-india-reportedly-sets-2-conditions-for-dhaka"
-    },
-    {
-     "date": "2026-11-14",
-     "source": "freepressjournal.in",
-     "title": "Mumbai Crime: 14-Year-Old Girl Allegedly Sexually Assaulted In Kandivali After Accused Threaten To Leak Private Video; 4 Held, Including 2 Minors",
-     "url": "https://www.freepressjournal.in/mumbai/mumbai-crime-14-year-old-girl-allegedly-sexually-assaulted-in-kandivali-after-accused-threaten-to-leak-private-video-4-held-including-2-minors-mumbai-news"
-    },
-    {
-     "date": "2026-11-14",
-     "source": "freepressjournal.in",
-     "title": "'Extradition Is A Legal Matter': India Responds To Bangladesh's Demand For Hasina",
-     "url": "https://www.freepressjournal.in/world/extradition-is-a-legal-matter-india-responds-to-bangladeshs-demand-for-hasina"
-    },
-    {
-     "date": "2026-11-14",
-     "source": "freepressjournal.in",
-     "title": "Vaibhav Sooryavanshi Forgets Bihar's Playing XI Combination, Gives Hilarious Reply To Toss Presenter | Video",
-     "url": "https://www.freepressjournal.in/sports/vaibhav-sooryavanshi-forgets-bihars-playing-xi-combination-gives-hilarious-reply-to-toss-presenter-video"
-    },
-    {
-     "date": "2026-11-14",
-     "source": "freepressjournal.in",
-     "title": "4.5-Magnitude Earthquake Tremors Felt In Maharashtra's Jalgaon",
-     "url": "https://www.freepressjournal.in/pune/45-magnitude-earthquake-tremors-felt-in-maharashtras-jalgaon"
-    },
-    {
-     "date": "2026-11-14",
-     "source": "freepressjournal.in",
-     "title": "Jabalpur Ordnance Factory Accident: Employee Loses Finger While Making Bomb Component",
-     "url": "https://www.freepressjournal.in/bhopal/jabalpur-ordnance-factory-accident-employee-loses-finger-while-making-bomb-component"
-    },
-    {
-     "date": "2026-11-14",
-     "source": "freepressjournal.in",
-     "title": "Karnataka Tragedy: Gujarat Couple Drowns After Boat Capsizes In Harangi Backwaters, Children Rescued",
-     "url": "https://www.freepressjournal.in/india/karnataka-tragedy-gujarat-couple-drowns-after-boat-capsizes-in-harangi-backwaters-children-rescued"
-    },
-    {
-     "date": "2026-11-14",
-     "source": "freepressjournal.in",
      "title": "World Diabetes Day 2026: 'Don't Wait For Symptoms,' Expert Explains Why Early Action, Screening And Timely Treatment Matter",
      "url": "https://www.freepressjournal.in/lifestyle/world-diabetes-day-2026-dont-wait-for-symptoms-expert-explains-why-early-action-screening-and-timely-treatment-matter"
-    },
-    {
-     "date": "2026-11-14",
-     "source": "freepressjournal.in",
-     "title": "Tata Trusts Rift Deepens: Venu Srinivasan, Vijay Singh Accuse Darius Khambata Of Power Play Over Tata Sons Control",
-     "url": "https://www.freepressjournal.in/business/tata-trusts-rift-deepens-venu-srinivasan-vijay-singh-accuse-darius-khambata-of-power-play-over-tata-sons-control"
-    },
-    {
-     "date": "2026-11-14",
-     "source": "freepressjournal.in",
-     "title": "Rahul Gandhi Accuses BJP-RSS Of Seeking To Turn Gig Workers Into Bonded Labourers",
-     "url": "https://www.freepressjournal.in/india/rahul-gandhi-accuses-bjp-rss-of-seeking-to-turn-gig-workers-into-bonded-labourers"
-    },
-    {
-     "date": "2026-11-14",
-     "source": "freepressjournal.in",
-     "title": "Mumbai Captain Suryakumar Yadav Hits Back At Selectors With 15-Ball Fifty After India Snub",
-     "url": "https://www.freepressjournal.in/sports/mumbai-captain-suryakumar-yadav-hits-back-at-selectors-with-15-ball-fifty-after-india-snub"
     },
     {
      "date": "2026-11-14",
@@ -1481,12 +1559,6 @@
      "source": "freepressjournal.in",
      "title": "'Full Stop To Merger Talks': Supriya Sule Rules Out NCP Reunion After Ajit Pawar's Death | VIDEO",
      "url": "https://www.freepressjournal.in/mumbai/full-stop-to-merger-talks-supriya-sule-rules-out-ncp-reunion-after-ajit-pawars-death-video"
-    },
-    {
-     "date": "2026-11-14",
-     "source": "freepressjournal.in",
-     "title": "Lokayukta Searches Residence Of Forest Department SDO Sanjeev Sharma In Chhindwara And Pachmarhi In Disproportionate Assets Case | VIDEO",
-     "url": "https://www.freepressjournal.in/bhopal/lokayukta-searches-residence-of-forest-department-sdo-sanjeev-sharma-in-chhindwara-and-pachmarhi-in-disproportionate-assets-case-video"
     },
     {
      "date": "2026-11-14",
@@ -1505,24 +1577,18 @@
      "source": "freepressjournal.in",
      "title": "BMW India’s Strategy Offers Peak Performance With Lifestyle Positioning",
      "url": "https://www.freepressjournal.in/lifestyle/bmw-indias-strategy-offers-peak-performance-with-lifestyle-positioning"
-    },
-    {
-     "date": "2026-11-13",
-     "source": "freepressjournal.in",
-     "title": "Former BJP Spokesperson Shehzad Poonawalla Slams Rahul Gandhi; Takes Dig At Cockroach Janta Party Over Selective Politics | FPJ Exclusive",
-     "url": "https://www.freepressjournal.in/entertainment/former-bjp-spokesperson-shehzad-poonawalla-slams-rahul-gandhi-takes-dig-at-cockroach-janta-party-over-selective-politics-fpj-exclusive"
-    },
-    {
-     "date": "2026-11-08",
-     "source": "freepressjournal.in",
-     "title": "From Carnatic Music To Garage Rock: British-Tamil Guitarist And Songwriter Kapil Seshasayee's Desi-Futurist Musical Journey",
-     "url": "https://www.freepressjournal.in/lifestyle/from-carnatic-music-to-garage-rock-british-tamil-guitarist-and-songwriter-kapil-seshasayees-desi-futurist-musical-journey"
     }
    ]
   },
   "https://www.livemint.com/rss/markets": {
-   "fetched": "2026-11-14T18:15+05:30",
+   "fetched": "2026-11-14T19:45+05:30",
    "items": [
+    {
+     "date": "2026-11-14",
+     "source": "Mint",
+     "title": "Dividend king PSU stock: Down 23% in 6 months! Nuvama sees 42% upside; target price, rationale",
+     "url": "https://www.livemint.com/market/stock-market-news/dividend-king-psu-stock-down-23-in-6-months-nuvama-sees-42-upside-target-price-rationale-11794660044292.html"
+    },
     {
      "date": "2026-11-14",
      "source": "Mint",
@@ -1726,17 +1792,11 @@
      "source": "Mint",
      "title": "Nifty PSU Bank logs biggest weekly surge in 7 months; PNB, Bank of India, Bank of Baroda among top performers",
      "url": "https://www.livemint.com/market/stock-market-news/nifty-psu-bank-logs-biggest-weekly-surge-in-two-years-pnb-bank-of-india-bank-of-baroda-among-top-performers-11794563569958.html"
-    },
-    {
-     "date": "2026-11-13",
-     "source": "Mint",
-     "title": "Circuit-to-circuit stock SC Agrotech declares 4:5 bonus, 1:10 stock split, dividend update; record date, other details",
-     "url": "https://www.livemint.com/market/stock-market-news/circuittocircuit-stock-sc-agrotech-declares-4-5-bonus-1-10-stock-split-dividend-update-record-date-other-details-11794564352785.html"
     }
    ]
   },
   "https://www.thehindubusinessline.com/markets/feeder/default.rss": {
-   "fetched": "2026-11-14T18:15+05:30",
+   "fetched": "2026-11-14T19:45+05:30",
    "items": [
     {
      "date": "2026-11-14",
@@ -2101,7 +2161,7 @@
    ]
   },
   "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss": {
-   "fetched": "2026-11-14T18:15+05:30",
+   "fetched": "2026-11-14T19:45+05:30",
    "items": [
     {
      "date": "2026-10-26",
@@ -2227,7 +2287,7 @@
   }
  },
  "crystal-crop-protection": {
-  "checked": "2026-11-14T19:31+05:30",
+  "checked": "2026-11-14T19:45+05:30",
   "items": [
    {
     "date": "2026-11-13",
