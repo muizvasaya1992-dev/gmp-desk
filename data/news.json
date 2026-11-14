@@ -1,7 +1,7 @@
 {
  "_feeds": {
   "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms": {
-   "fetched": "2026-11-14T12:15+05:30",
+   "fetched": "2026-11-14T13:45+05:30",
    "items": [
     {
      "date": "2026-11-14",
@@ -306,7 +306,7 @@
    ]
   },
   "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms": {
-   "fetched": "2026-11-14T12:15+05:30",
+   "fetched": "2026-11-14T13:45+05:30",
    "items": [
     {
      "date": "2026-11-14",
@@ -611,8 +611,20 @@
    ]
   },
   "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml": {
-   "fetched": "2026-11-14T12:15+05:30",
+   "fetched": "2026-11-14T13:45+05:30",
    "items": [
+    {
+     "date": "2026-11-14",
+     "source": "cnbctv18.com",
+     "title": "Sammaan Capital Q2 Results: Profit edges up to ₹312 crore, core income turns negative",
+     "url": "https://www.cnbctv18.com/market/sammaan-capital-q2-results-share-price-profit-core-income-loss-aum-loans-nii-20033987.htm"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "cnbctv18.com",
+     "title": "'Don't rush to replace Jensen Huang': Nvidia investors urge board to keep comeback option open",
+     "url": "https://www.cnbctv18.com/business/companies/dont-rush-to-replace-jensen-huang-nvidia-investors-urge-board-to-keep-comeback-option-open-20033978.htm"
+    },
     {
      "date": "2026-11-14",
      "source": "cnbctv18.com",
@@ -1080,24 +1092,150 @@
      "source": "cnbctv18.com",
      "title": "AMD upgraded because it will benefit from Nvidia's 'leadership vacuum'",
      "url": "https://www.cnbctv18.com/access/amd-upgraded-because-it-will-benefit-from-nvidias-leadership-vacuum-20033045.htm"
-    },
-    {
-     "date": "2026-11-13",
-     "source": "cnbctv18.com",
-     "title": "Yen jumps in ‘jittery’ trading after hitting 160 against US dollar",
-     "url": "https://www.cnbctv18.com/market/currency/yen-vs-us-dollar-forex-160-japan-us-bonds-20033038.htm"
-    },
-    {
-     "date": "2026-11-13",
-     "source": "cnbctv18.com",
-     "title": "Stock Market Highlights: Nifty slips below 25,150, Sensex falls 319 points; auto, metal, realty stocks drag",
-     "url": "https://www.cnbctv18.com/market/stock-market-live-updates-sensex-nifty-today-nifty-bank-record-oil-yields-cpi-gold-rvnl-vil-eicher-fino-manappuram-share-price-liveblog-20033032.htm"
     }
    ]
   },
   "https://www.freepressjournal.in/stories.rss?section=business": {
-   "fetched": "2026-11-14T12:15+05:30",
+   "fetched": "2026-11-14T13:45+05:30",
    "items": [
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "Gwalior Oxygen Tanker Explosion: Truck Blown To Pieces, Residents Flee Homes In Panic",
+     "url": "https://www.freepressjournal.in/bhopal/gwalior-oxygen-tanker-explosion-truck-blown-to-pieces-residents-flee-homes-in-panic"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "'That Stinks Of A Cover-Up': David Warner Questions CA's 2018 Ball-Tampering Probe",
+     "url": "https://www.freepressjournal.in/sports/that-stinks-of-a-cover-up-david-warner-questions-cas-2018-ball-tampering-probe"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "IND vs PAK U19 Asia Cup Final: Usman Khan Departs! Kavya Patel Delivers Massive Breakthrough For Team India",
+     "url": "https://www.freepressjournal.in/sports/ind-vs-pak-u19-asia-cup-final-arch-rivals-set-for-high-stakes-title-showdown"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "Sammaan Capital Reports Q2 Net Profit Of Rs 312 Crore As Disbursements Surge 62 Percent QoQ",
+     "url": "https://www.freepressjournal.in/business/sammaan-capital-reports-q2-net-profit-of-rs-312-crore-as-disbursements-surge-62-percent-qoq"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "Diljit Dosanjh Indore Concert: Over 500 Cops To Guard November 15 Concert Amid Bomb Threats; Drone Surveillance Underway",
+     "url": "https://www.freepressjournal.in/indore/diljit-dosanjh-indore-concert-over-500-cops-to-guard-november-15-concert-amid-bomb-threats-drone-surveillance-underway"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "Ramayana: Assam's Barpeta Artisans Craft Special Armour For Ranbir Kapoor-Starrer Mythological Film; What So Special About It?",
+     "url": "https://www.freepressjournal.in/lifestyle/ramayana-assams-barpeta-artisans-craft-special-armour-for-ranbir-kapoor-starrer-mythological-film-what-so-special-about-it"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "'Calm Down, Drink & Watch The Match': Rohit Sharma's Hilarious Gesture To Fans Goes Viral During IND vs NZ 4th ODI | Video",
+     "url": "https://www.freepressjournal.in/sports/calm-down-drink-watch-the-match-rohit-sharmas-hilarious-gesture-to-fans-goes-viral-during-ind-vs-nz-4th-odi-video"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "Pune: FC Road Encroachments To Be Cleared, Alleged Hafta Nexus Among Officials Under Scrutiny, Says PMC Corporator Nivedita Ekbote",
+     "url": "https://www.freepressjournal.in/pune/pune-fc-road-encroachments-to-be-cleared-alleged-hafta-nexus-among-officials-under-scrutiny-says-pmc-corporator-nivedita-ekbote"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "YES Bank Moves Supreme Court To Review ₹8,415 Crore AT-1 Bond Write-Down Ruling",
+     "url": "https://www.freepressjournal.in/business/yes-bank-moves-supreme-court-to-review-8415-crore-at-1-bond-write-down-ruling"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "'Why Is Marathi Missing?': NCP Leader Flags Language Bias In Ranbir Kapoor’s 'Ramayana', Demands Dub, Re-Release In Maharashtra",
+     "url": "https://www.freepressjournal.in/mumbai/why-is-marathi-missing-ncp-leader-flags-language-bias-in-ranbir-kapoors-ramayana-demands-dub-re-release-in-maharashtra-mumbai-news"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "Bigg Boss 20: Gauahar Khan SLAMS Love Gill For 'Pretending' To Be Unaware Of 'Brother' ScoutOP's Romantic Feelings, Calls Her Actions 'Uncool'",
+     "url": "https://www.freepressjournal.in/entertainment/bigg-boss-20-gauahar-khan-slams-love-gill-for-pretending-to-be-unaware-of-brother-scoutops-romantic-feelings-calls-her-actions-uncool"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "Senco Gold's Q2 Earnings Glitter Despite Price Surge, Net Profit Soars 71% To ₹83.5 Crore As Jewellery Demand Shines",
+     "url": "https://www.freepressjournal.in/business/senco-golds-q2-earnings-glitter-despite-price-surge-net-profit-soars-71-to-835-crore-as-jewellery-demand-shines"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "'That's Marine Drive Walk': Khushi Kapoor Trolled Over Her Rampwalk In Corporate-Chic Look At Mumbai Event",
+     "url": "https://www.freepressjournal.in/lifestyle/thats-marine-drive-walk-khushi-kapoor-trolled-over-her-rampwalk-in-corporate-chic-look-at-mumbai-event"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "Pune VIDEO: Child Kidnapping Rumours Trigger Panic In Pimpri-Chinchwad; Police Clarify What Really Happened",
+     "url": "https://www.freepressjournal.in/pune/pune-video-child-kidnapping-rumours-trigger-panic-in-pimpri-chinchwad-police-clarify-what-really-happened"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "Maharashtra Appoints Co-Chairpersons In 25 More Constituencies For Farm Road Scheme",
+     "url": "https://www.freepressjournal.in/mumbai/maharashtra-appoints-co-chairpersons-in-25-more-constituencies-for-farm-road-scheme"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "SoftBank Sells 1.65% Stake In Meesho For ₹1,885 Crore",
+     "url": "https://www.freepressjournal.in/business/softbank-sells-165-stake-in-meesho-for-1885-crore"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "NADT Mumbai, NISM Join Hands To Strengthen Financial Sector Training, Focus On Taxation And Securities Markets",
+     "url": "https://www.freepressjournal.in/business/nadt-mumbai-nism-join-hands-to-strengthen-financial-sector-training-focus-on-taxation-and-securities-markets"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "'Money Is Not The Issue': Sharad Kapoor Appeals To CINTAA For Work After His Viral Videos Spark Financial Concerns – VIDEO",
+     "url": "https://www.freepressjournal.in/entertainment/money-is-not-the-issue-sharad-kapoor-appeals-to-cintaa-for-work-after-his-viral-videos-spark-financial-concerns-video"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "Pune Police Travel Over 10,000 Km Across UP & Uttarakhand To Recover ₹26.33 Lakh In Employee Embezzlement Case",
+     "url": "https://www.freepressjournal.in/pune/pune-police-travel-over-10000-km-across-up-uttarakhand-to-recover-2633-lakh-in-employee-embezzlement-case"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "FPJ Quick Take At 12 PM: 'US Lifts Nationwide Flight Ground Stop, Railways May Dump RAC'; Your Daily Noon Guide To Top News Headlines",
+     "url": "https://www.freepressjournal.in/india/fpj-quick-take-at-12-pm-us-lifts-nationwide-flight-ground-stop-railways-may-dump-rac-14-november-2026"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "Lokayukta Searches Residence Of Forest Department SDO Sanjeev Sharma In Chhindwara And Pachmarhi In Disproportionate Assets Case | VIDEO",
+     "url": "https://www.freepressjournal.in/bhopal/lokayukta-searches-residence-of-forest-department-sdo-sanjeev-sharma-in-chhindwara-and-pachmarhi-in-disproportionate-assets-case-video"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "NCW Seeks 7-Day Report From Maharashtra Police In Naigaon Train Assault Case",
+     "url": "https://www.freepressjournal.in/mumbai/ncw-seeks-7-day-report-from-maharashtra-police-in-naigaon-train-assault-case"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "IND vs NZ Test Series: BCCI Makes SHOCKING Changes To India's Squad, Gurnoor Brar Gets Call-Up As Kuldeep Yadav Released",
+     "url": "https://www.freepressjournal.in/sports/ind-vs-nz-test-series-bcci-makes-shocking-changes-to-indias-squad-gurnoor-brar-gets-call-up-as-kuldeep-yadav-released"
+    },
     {
      "date": "2026-11-14",
      "source": "freepressjournal.in",
@@ -1143,19 +1281,13 @@
     {
      "date": "2026-11-14",
      "source": "freepressjournal.in",
-     "title": "IND vs PAK U19 Asia Cup Final: Pakistan Batters Launch Counterattack, Leave India's Bowlers Searching For Answers",
-     "url": "https://www.freepressjournal.in/sports/ind-vs-pak-u19-asia-cup-final-arch-rivals-set-for-high-stakes-title-showdown"
-    },
-    {
-     "date": "2026-11-14",
-     "source": "freepressjournal.in",
      "title": "Indian Cricket's Teenage Sensation! Vaibhav Sooryavanshi Creates MASSIVE World Record At 15, Becomes Youngest Captain In T20 History",
      "url": "https://www.freepressjournal.in/sports/indian-crickets-teenage-sensation-vaibhav-sooryavanshi-creates-massive-world-record-at-15-becomes-youngest-captain-in-t20-history"
     },
     {
      "date": "2026-11-14",
      "source": "freepressjournal.in",
-     "title": "Pune FDA Suspends Licences Of Vaishali, Rupali Restaurants On FC Road Over Food Safety Violations",
+     "title": "Pune FDA Suspends Licences Of Vaishali & Roopali Restaurants On FC Road Over Food Safety Violations",
      "url": "https://www.freepressjournal.in/pune/pune-fda-suspends-licences-of-vaishali-rupali-restaurants-on-fc-road-over-food-safety-violations"
     },
     {
@@ -1311,50 +1443,14 @@
     {
      "date": "2026-11-14",
      "source": "freepressjournal.in",
-     "title": "Ashok Gehlot Visits AIIMS To Enquire About Jagdeep Dhankhar's Health, Prays For Speedy Recovery",
-     "url": "https://www.freepressjournal.in/india/ashok-gehlot-visits-aiims-to-enquire-about-jagdeep-dhankhars-health-prays-for-speedy-recovery"
-    },
-    {
-     "date": "2026-11-14",
-     "source": "freepressjournal.in",
-     "title": "Women's Asian Hockey Champions Trophy 2026 In Bhopal Offers Free Entry For Fans, 20 Matches From November 19",
-     "url": "https://www.freepressjournal.in/bhopal/womens-asian-hockey-champions-trophy-2026-in-bhopal-offers-free-entry-for-fans-20-matches-from-november-19"
-    },
-    {
-     "date": "2026-11-14",
-     "source": "freepressjournal.in",
-     "title": "Love, Luxury Gifts And Fake Customs Offices! Over 60 Duped In Online Romance Scams In Indore In 10 Months",
-     "url": "https://www.freepressjournal.in/indore/love-luxury-gifts-and-fake-customs-offices-over-60-duped-in-online-romance-scams-in-indore-in-10-months"
-    },
-    {
-     "date": "2026-11-14",
-     "source": "freepressjournal.in",
-     "title": "Madhya Pradesh Assembly Meets For Just 58 Days In Three Years, Winter Session Limited To Five Days",
-     "url": "https://www.freepressjournal.in/bhopal/madhya-pradesh-assembly-meets-for-just-58-days-in-three-years-winter-session-limited-to-five-days"
-    },
-    {
-     "date": "2026-11-14",
-     "source": "freepressjournal.in",
      "title": "'Mein Woh Show Dekhta Hi Nahi': Gurpreet Ghuggi REACTS To Question On Love Gill's Bigg Boss 20 Stint Amid Affair Controversy – VIDEO",
      "url": "https://www.freepressjournal.in/entertainment/mein-woh-show-dekhta-hi-nahi-gurpreet-ghuggi-reacts-to-question-on-love-gills-bigg-boss-20-stint-amid-affair-controversy-video"
     },
     {
      "date": "2026-11-14",
      "source": "freepressjournal.in",
-     "title": "TV Anchor Rubika Liyaquat Hits Back At Troll Over Viral Old Video On Pollution, Questions Context Of Clip",
-     "url": "https://www.freepressjournal.in/india/tv-anchor-rubika-liyaquat-hits-back-at-troll-over-viral-old-video-on-pollution-questions-context-of-clip"
-    },
-    {
-     "date": "2026-11-14",
-     "source": "freepressjournal.in",
-     "title": "Children's Day 2026: 20+ Inspiring, Motivational And Meaningful Quotes For Students To Share On This Day",
-     "url": "https://www.freepressjournal.in/lifestyle/childrens-day-2026-20-inspiring-motivational-and-meaningful-quotes-for-students-to-share-on-this-day"
-    },
-    {
-     "date": "2026-11-14",
-     "source": "freepressjournal.in",
-     "title": "US Flights Grounded Nationwide After FAA Communication Outage; Airlines Warn Of Widespread Travel Disruptions",
-     "url": "https://www.freepressjournal.in/world/us-flights-grounded-nationwide-after-faa-communication-outage-airlines-warn-of-widespread-travel-disruptions"
+     "title": "TV Anchor Rubika Liyaquat Hits Back At Norwegian Journalist Helle Lyng Over Viral Old Video On Pollution, Questions Context Of Clip",
+     "url": "https://www.freepressjournal.in/india/tv-anchor-rubika-liyaquat-hits-back-at-norwegian-journalist-helle-lyng-over-viral-old-video-on-pollution-questions-context-of-clip"
     },
     {
      "date": "2026-11-14",
@@ -1363,28 +1459,34 @@
      "url": "https://www.freepressjournal.in/entertainment/ramayana-box-office-collection-day-9-ranbir-kapoor-sai-pallavi-and-yashs-film-sees-drop-on-second-friday-collects-4785-crore-in-india"
     },
     {
-     "date": "2026-11-14",
-     "source": "freepressjournal.in",
-     "title": "Indore Metro Mishap Claims 80-Year-Old Man's Life After Crane Chain Snaps, Family Alleges Negligence",
-     "url": "https://www.freepressjournal.in/indore/indore-metro-mishap-claims-80-year-old-mans-life-after-crane-chain-snaps-family-alleges-negligence"
-    },
-    {
-     "date": "2026-11-14",
-     "source": "freepressjournal.in",
-     "title": "Happy Children's Day 2026: 25+ Wishes, Messages, Quotes, Greetings And More To Share With Your Kids",
-     "url": "https://www.freepressjournal.in/lifestyle/happy-childrens-day-2026-25-wishes-messages-quotes-greetings-and-more-to-share-with-your-kids"
-    },
-    {
      "date": "2026-11-13",
      "source": "freepressjournal.in",
-     "title": "Prince William To Attend Earthshot Prize Awards Ceremony In Mumbai On November 17",
-     "url": "https://www.freepressjournal.in/mumbai/prince-william-to-attend-earthshot-prize-awards-ceremony-in-mumbai-on-november-17"
+     "title": "Indian Railways Considers Scrapping Decades-Old RAC Ticketing Facility, Major Changes Possible For Train Passengers",
+     "url": "https://www.freepressjournal.in/mumbai/indian-railways-considers-scrapping-decades-old-rac-ticketing-facility-major-changes-possible-for-train-passengers"
     }
    ]
   },
   "https://www.livemint.com/rss/markets": {
-   "fetched": "2026-11-14T12:15+05:30",
+   "fetched": "2026-11-14T13:45+05:30",
    "items": [
+    {
+     "date": "2026-11-14",
+     "source": "Mint",
+     "title": "Mahanadi Coalfields IPO: Coal India subsidiary files RHP - Latest GMP at ₹12.5; check key dates, size, valuation, more",
+     "url": "https://www.livemint.com/market/ipo/mahanadi-coalfields-ipo-coal-india-subsidiary-files-rhp-latest-gmp-at-rs-12-5-check-key-dates-size-valuation-more-11794640652111.html"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "Mint",
+     "title": "182% multibagger 1 yr return ! This Ice-cream maker announces bonus, stock split - Do you own? Ratio, record date detail",
+     "url": "https://www.livemint.com/market/stock-market-news/182-multibagger-1-yr-return-this-ice-cream-maker-announces-bonus-stock-split-do-you-own-ratio-record-date-detail-11794640256610.html"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "Mint",
+     "title": "Up 325% in 4 years! Multibagger brewery stock with 1:10 stock split history declares Q2 Results 2026; revenue up 103%",
+     "url": "https://www.livemint.com/market/stock-market-news/up-325-in-4-years-multibagger-brewery-stock-with-1-10-stock-split-history-declares-q2-results-2026-revenue-up-203-11794638711855.html"
+    },
     {
      "date": "2026-11-14",
      "source": "Mint",
@@ -1576,29 +1678,11 @@
      "source": "Mint",
      "title": "23% return in 3 months: PL Capital sees 12.6% upside potential in Welspun Enterprises - Check target price, rationale",
      "url": "https://www.livemint.com/market/stock-market-news/23-return-in-3-months-pl-capital-sees-12-6-upside-potential-in-welspun-enterprises-check-target-price-rationale-11794556377827.html"
-    },
-    {
-     "date": "2026-11-13",
-     "source": "Mint",
-     "title": "Apollo Micro Systems shares: Why experts bet high on this multibagger defence stock after MSCI rejig? Target, stop-loss",
-     "url": "https://www.livemint.com/market/stock-market-news/apollo-micro-systems-shares-why-experts-bet-high-on-this-multibagger-defence-stock-after-msci-rejig-target-stoploss-11794555639681.html"
-    },
-    {
-     "date": "2026-11-13",
-     "source": "Mint",
-     "title": "Promoter holding at 3-year high, FII ownership at 14-year low: Did insiders buy what FIIs sold?",
-     "url": "https://www.livemint.com/market/stock-market-news/promoter-holding-at-3-year-high-fii-ownership-at-14-year-low-did-insiders-buy-what-fiis-sold-11794545962669.html"
-    },
-    {
-     "date": "2026-11-13",
-     "source": "Mint",
-     "title": "Can Ola Electric’s pivot to dealership model hedge revenue decline?",
-     "url": "https://www.livemint.com/market/mark-to-market/ola-electric-pivot-dealership-model-revenue-decline-11794551578116.html"
     }
    ]
   },
   "https://www.thehindubusinessline.com/markets/feeder/default.rss": {
-   "fetched": "2026-11-14T12:15+05:30",
+   "fetched": "2026-11-14T13:45+05:30",
    "items": [
     {
      "date": "2026-11-14",
@@ -1963,7 +2047,7 @@
    ]
   },
   "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss": {
-   "fetched": "2026-11-14T12:15+05:30",
+   "fetched": "2026-11-14T13:45+05:30",
    "items": [
     {
      "date": "2026-10-26",
@@ -2089,7 +2173,7 @@
   }
  },
  "crystal-crop-protection": {
-  "checked": "2026-11-14T13:31+05:30",
+  "checked": "2026-11-14T13:45+05:30",
   "items": [
    {
     "date": "2026-11-13",
