@@ -102,30 +102,8 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-14T11:15+05:30",
+  "fetched_at": "2026-11-14T11:31+05:30",
   "records": [
-   {
-    "src": "Tracker C",
-    "slug": "mahanadi-coalfields",
-    "name": "Mahanadi Coalfields",
-    "segment": "MAIN",
-    "exchange": null,
-    "open": "2026-11-19",
-    "close": "2026-11-23",
-    "boa": "2026-11-25",
-    "listing": "2026-11-27",
-    "price": 0.0,
-    "price_low": null,
-    "size_cr": null,
-    "gmp": 16.0,
-    "gmp_at": "2026-11-14T10:02",
-    "sub_total": null,
-    "sub_retail": null,
-    "sub_at": null,
-    "lot": null,
-    "rating": 1,
-    "live": true
-   },
    {
     "src": "Tracker C",
     "slug": "watrana-rentals",
@@ -140,7 +118,7 @@
     "price_low": null,
     "size_cr": 120.1,
     "gmp": 16.0,
-    "gmp_at": "2026-11-14T10:02",
+    "gmp_at": "2026-11-14T08:02",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -162,7 +140,7 @@
     "price_low": null,
     "size_cr": 455.49,
     "gmp": 40.0,
-    "gmp_at": "2026-11-14T10:02",
+    "gmp_at": "2026-11-14T08:02",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -653,6 +631,162 @@
     "lot": 99.0,
     "rating": 1,
     "live": false
+   },
+   {
+    "src": "Tracker C",
+    "slug": "ravita-engineering-services",
+    "name": "Ravita Engineering Services",
+    "segment": "SME",
+    "exchange": "NSE Emerge",
+    "open": "2026-10-14",
+    "close": "2026-10-16",
+    "boa": "2026-10-19",
+    "listing": "2026-10-22",
+    "price": 112.0,
+    "price_low": null,
+    "size_cr": 116.05,
+    "gmp": 1.0,
+    "gmp_at": "2026-10-22T09:37",
+    "sub_total": 7.11,
+    "sub_retail": null,
+    "sub_at": null,
+    "lot": 1200.0,
+    "rating": 1,
+    "live": false
+   }
+  ]
+ },
+ "d": {
+  "fetched_at": "2026-11-14T11:31+05:30",
+  "records": [
+   {
+    "src": "Tracker D",
+    "slug": "watrana-rentals",
+    "name": "Watrana Rentals",
+    "segment": "SME",
+    "exchange": null,
+    "open": null,
+    "close": null,
+    "boa": null,
+    "listing": null,
+    "price": 245.0,
+    "price_low": 232.0,
+    "size_cr": 120.1,
+    "gmp": 16.0,
+    "gmp_at": null,
+    "sub_total": null,
+    "sub_retail": null,
+    "sub_at": null,
+    "lot": 600.0,
+    "sector": "Diversified Commercial Services",
+    "detail_url": "https://ipoindex.in/ipo/watrana-rentals-sme-ipo/",
+    "live": true,
+    "detail": {
+     "gmp_history": [
+      [
+       "2026-11-14",
+       16.0
+      ]
+     ],
+     "sub": {
+      "nii": 0.0,
+      "qib": 0.0,
+      "retail": 0.0,
+      "total": 0.0
+     },
+     "uses": [
+      {
+       "cr": 65.0215,
+       "use": "Asset"
+      },
+      {
+       "cr": 14.582,
+       "use": "Asset"
+      },
+      {
+       "cr": 18.523,
+       "use": "Asset"
+      }
+     ]
+    }
+   },
+   {
+    "src": "Tracker D",
+    "slug": "crystal-crop-protection",
+    "name": "Crystal Crop Protection",
+    "segment": "MAIN",
+    "exchange": null,
+    "open": null,
+    "close": null,
+    "boa": null,
+    "listing": null,
+    "price": 259.0,
+    "price_low": null,
+    "size_cr": 455.49,
+    "gmp": 40.0,
+    "gmp_at": null,
+    "sub_total": null,
+    "sub_retail": null,
+    "sub_at": null,
+    "lot": 55.0,
+    "sector": "Other Agricultural Products",
+    "detail_url": "https://ipoindex.in/ipo/crystal-crop-protection-ipo/",
+    "live": true,
+    "detail": {
+     "gmp_history": [
+      [
+       "2026-11-14",
+       40.0
+      ]
+     ],
+     "sub": {
+      "nii": 0.0,
+      "qib": 0.0,
+      "retail": 0.0,
+      "total": 0.0
+     },
+     "uses": [
+      {
+       "cr": 31.29,
+       "use": "Borrowings"
+      },
+      {
+       "cr": 2.21,
+       "use": "Subsidiary"
+      }
+     ]
+    }
+   },
+   {
+    "src": "Tracker D",
+    "slug": "mahanadi-coalfields",
+    "name": "Mahanadi Coalfields",
+    "segment": "MAIN",
+    "exchange": null,
+    "open": null,
+    "close": null,
+    "boa": null,
+    "listing": null,
+    "price": null,
+    "price_low": null,
+    "size_cr": null,
+    "gmp": 15.0,
+    "gmp_at": null,
+    "sub_total": null,
+    "sub_retail": null,
+    "sub_at": null,
+    "lot": null,
+    "sector": "Coal",
+    "detail_url": "https://ipoindex.in/ipo/mahanadi-coalfields-ipo/",
+    "live": true,
+    "detail": {
+     "sub": {
+      "nii": 0.0,
+      "qib": 0.0,
+      "retail": 0.0,
+      "total": 0.0
+     }
+    }
    }
   ]
  }
