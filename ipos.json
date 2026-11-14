@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T16:15+05:30",
+  "generated_at": "2026-11-14T16:31+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-07T09:56+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-14T16:15+05:30",
+    "nse_ok_at": "2026-11-14T16:31+05:30",
     "bse_ok_at": "2026-11-07T09:58+05:30"
   },
   "ipos": [
@@ -3057,12 +3057,12 @@
       "tracker_rating": 2,
       "uses": [
         {
-          "cr": 31.29,
-          "use": "Borrowings"
+          "use": "Borrowings",
+          "cr": 247.94
         },
         {
-          "cr": 2.21,
-          "use": "Subsidiary"
+          "use": "Subsidiary",
+          "cr": 22.06
         }
       ],
       "sector": "Other Agricultural Products",
@@ -3075,7 +3075,7 @@
         {
           "source": "Tracker C",
           "gmp": 27,
-          "at": "2026-11-14T12:02"
+          "at": "2026-11-14T16:02"
         },
         {
           "source": "Tracker D",
@@ -3086,14 +3086,14 @@
       "gmp_history": [
         {
           "date": "2026-11-13",
-          "gmp": 45
+          "gmp": 40
         },
         {
           "date": "2026-11-14",
-          "gmp": 30
+          "gmp": 27
         }
       ],
-      "history_source": "Public trackers",
+      "history_source": "Tracker C",
       "gmp_low": 26,
       "gmp_high": 48,
       "gmp": 26,
@@ -3109,7 +3109,7 @@
       },
       "gmp_trend": {
         "dir": "falling",
-        "change": -15,
+        "change": -13,
         "days": 2,
         "since": "2026-11-13"
       },
@@ -3152,24 +3152,24 @@
       "tracker_rating": 2,
       "uses": [
         {
-          "use": "Asset",
-          "cr": 65.0215
+          "cr": 65.0215,
+          "use": "Asset"
         },
         {
-          "use": "Asset",
-          "cr": 14.582
+          "cr": 14.582,
+          "use": "Asset"
         },
         {
-          "use": "Asset",
-          "cr": 18.523
+          "cr": 18.523,
+          "use": "Asset"
         }
       ],
       "sector": "Diversified Commercial Services",
       "gmp_sources": [
         {
           "source": "Tracker C",
-          "gmp": 18,
-          "at": "2026-11-14T11:37"
+          "gmp": 22,
+          "at": "2026-11-14T16:02"
         },
         {
           "source": "Tracker D",
@@ -3184,26 +3184,26 @@
         },
         {
           "date": "2026-11-14",
-          "gmp": 18
+          "gmp": 22
         }
       ],
       "history_source": "Tracker C",
       "gmp_low": 15,
-      "gmp_high": 18,
+      "gmp_high": 22,
       "gmp": 17,
       "gmp_asof": "2026-11-14T16:15",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 6.94,
       "gmp_spread": {
         "min": 17,
-        "max": 18,
-        "diff": 1,
+        "max": 22,
+        "diff": 5,
         "n": 2,
-        "diff_pct_of_price": 0.41
+        "diff_pct_of_price": 2.04
       },
       "gmp_trend": {
-        "dir": "steady",
-        "change": 2,
+        "dir": "rising",
+        "change": 6,
         "days": 2,
         "since": "2026-11-13"
       },

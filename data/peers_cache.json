@@ -102,7 +102,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-14T16:15+05:30",
+  "fetched_at": "2026-11-14T16:31+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -117,8 +117,8 @@
     "price": 0.0,
     "price_low": null,
     "size_cr": null,
-    "gmp": 12.5,
-    "gmp_at": "2026-11-14T14:02",
+    "gmp": 12.75,
+    "gmp_at": "2026-11-14T16:02",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -139,8 +139,8 @@
     "price": 245.0,
     "price_low": null,
     "size_cr": 120.1,
-    "gmp": 18.0,
-    "gmp_at": "2026-11-14T14:02",
+    "gmp": 22.0,
+    "gmp_at": "2026-11-14T16:02",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -162,7 +162,7 @@
     "price_low": null,
     "size_cr": 455.49,
     "gmp": 27.0,
-    "gmp_at": "2026-11-14T14:02",
+    "gmp_at": "2026-11-14T16:02",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -657,7 +657,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-14T16:15+05:30",
+  "fetched_at": "2026-11-14T16:31+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -689,23 +689,23 @@
       ]
      ],
      "sub": {
-      "total": 0.0,
-      "qib": 0.0,
       "nii": 0.0,
-      "retail": 0.0
+      "qib": 0.0,
+      "retail": 0.0,
+      "total": 0.0
      },
      "uses": [
       {
-       "use": "Asset",
-       "cr": 65.0215
+       "cr": 65.0215,
+       "use": "Asset"
       },
       {
-       "use": "Asset",
-       "cr": 14.582
+       "cr": 14.582,
+       "use": "Asset"
       },
       {
-       "use": "Asset",
-       "cr": 18.523
+       "cr": 18.523,
+       "use": "Asset"
       }
      ]
     }
@@ -736,23 +736,23 @@
      "gmp_history": [
       [
        "2026-11-14",
-       40.0
+       26.0
       ]
      ],
      "sub": {
-      "nii": 0.0,
+      "total": 0.0,
       "qib": 0.0,
-      "retail": 0.0,
-      "total": 0.0
+      "nii": 0.0,
+      "retail": 0.0
      },
      "uses": [
       {
-       "cr": 31.29,
-       "use": "Borrowings"
+       "use": "Borrowings",
+       "cr": 247.94
       },
       {
-       "cr": 2.21,
-       "use": "Subsidiary"
+       "use": "Subsidiary",
+       "cr": 22.06
       }
      ]
     }
