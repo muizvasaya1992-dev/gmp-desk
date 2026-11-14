@@ -102,8 +102,30 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-14T10:45+05:30",
+  "fetched_at": "2026-11-14T11:01+05:30",
   "records": [
+   {
+    "src": "Tracker C",
+    "slug": "mahanadi-coalfields",
+    "name": "Mahanadi Coalfields",
+    "segment": "MAIN",
+    "exchange": null,
+    "open": "2026-11-19",
+    "close": "2026-11-23",
+    "boa": "2026-11-25",
+    "listing": "2026-11-27",
+    "price": 0.0,
+    "price_low": null,
+    "size_cr": null,
+    "gmp": 16.0,
+    "gmp_at": "2026-11-14T10:02",
+    "sub_total": null,
+    "sub_retail": null,
+    "sub_at": null,
+    "lot": null,
+    "rating": 1,
+    "live": true
+   },
    {
     "src": "Tracker C",
     "slug": "watrana-rentals",
@@ -118,7 +140,7 @@
     "price_low": null,
     "size_cr": 120.1,
     "gmp": 16.0,
-    "gmp_at": "2026-11-14T08:02",
+    "gmp_at": "2026-11-14T10:02",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -140,7 +162,7 @@
     "price_low": null,
     "size_cr": 455.49,
     "gmp": 40.0,
-    "gmp_at": "2026-11-14T08:02",
+    "gmp_at": "2026-11-14T10:02",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -631,33 +653,11 @@
     "lot": 99.0,
     "rating": 1,
     "live": false
-   },
-   {
-    "src": "Tracker C",
-    "slug": "ravita-engineering-services",
-    "name": "Ravita Engineering Services",
-    "segment": "SME",
-    "exchange": "NSE Emerge",
-    "open": "2026-10-14",
-    "close": "2026-10-16",
-    "boa": "2026-10-19",
-    "listing": "2026-10-22",
-    "price": 112.0,
-    "price_low": null,
-    "size_cr": 116.05,
-    "gmp": 1.0,
-    "gmp_at": "2026-10-22T09:37",
-    "sub_total": 7.11,
-    "sub_retail": null,
-    "sub_at": null,
-    "lot": 1200.0,
-    "rating": 1,
-    "live": false
    }
   ]
  },
  "d": {
-  "fetched_at": "2026-11-14T10:45+05:30",
+  "fetched_at": "2026-11-14T11:01+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -770,7 +770,7 @@
     "price": null,
     "price_low": null,
     "size_cr": null,
-    "gmp": 20.0,
+    "gmp": 15.0,
     "gmp_at": null,
     "sub_total": null,
     "sub_retail": null,
