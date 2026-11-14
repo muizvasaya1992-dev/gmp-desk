@@ -1,7 +1,7 @@
 {
  "_feeds": {
   "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms": {
-   "fetched": "2026-11-14T10:45+05:30",
+   "fetched": "2026-11-14T12:15+05:30",
    "items": [
     {
      "date": "2026-11-14",
@@ -306,8 +306,14 @@
    ]
   },
   "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms": {
-   "fetched": "2026-11-14T10:45+05:30",
+   "fetched": "2026-11-14T12:15+05:30",
    "items": [
+    {
+     "date": "2026-11-14",
+     "source": "Economic Times",
+     "title": "6 out of 10 top performing largecap stocks in November delivered multibagger returns in long run. Do you own any?",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/6-out-of-10-top-performing-largecap-stocks-in-november-delivered-multibagger-returns-in-long-run-do-you-own-any/slideshow/135824732.cms"
+    },
     {
      "date": "2026-11-14",
      "source": "Economic Times",
@@ -601,18 +607,24 @@
      "source": "Economic Times",
      "title": "Tech Mahindra Share Price Highlights: Tech Mahindra Stock Price History",
      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tech-mahindra-stock-price-livestock-price-today-live-updates-13-nov-2026/liveblog/135787029.cms"
-    },
-    {
-     "date": "2026-11-13",
-     "source": "Economic Times",
-     "title": "M&M Share Price Highlights: M&M Stock Price History",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/mm-stock-price-today-live-13-nov-2026/liveblog/135787026.cms"
     }
    ]
   },
   "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml": {
-   "fetched": "2026-11-14T10:45+05:30",
+   "fetched": "2026-11-14T12:15+05:30",
    "items": [
+    {
+     "date": "2026-11-14",
+     "source": "cnbctv18.com",
+     "title": "How Apple became the safe ‘Costco’ of tech. Bernstein says keep buying",
+     "url": "https://www.cnbctv18.com/market/how-apple-became-the-safe-costco-of-tech-bernstein-says-keep-buying-20033969.htm"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "cnbctv18.com",
+     "title": "Markets Espresso: Yaar ne hi loot lia ghar yaar ka ft. Nvidia shareholders",
+     "url": "https://www.cnbctv18.com/market/markets-espresso-yaar-ne-hi-loot-lia-ghar-yaar-ka-ft-nvidia-shareholders-20033940.htm"
+    },
     {
      "date": "2026-11-14",
      "source": "cnbctv18.com",
@@ -1080,28 +1092,118 @@
      "source": "cnbctv18.com",
      "title": "Stock Market Highlights: Nifty slips below 25,150, Sensex falls 319 points; auto, metal, realty stocks drag",
      "url": "https://www.cnbctv18.com/market/stock-market-live-updates-sensex-nifty-today-nifty-bank-record-oil-yields-cpi-gold-rvnl-vil-eicher-fino-manappuram-share-price-liveblog-20033032.htm"
-    },
-    {
-     "date": "2026-11-13",
-     "source": "cnbctv18.com",
-     "title": "Dow Jones falls 200 points as oil, yields rebound; Nvidia down to 52-week low",
-     "url": "https://www.cnbctv18.com/market/dow-jones-snp-500-nasdaq-fall-nvidia-crisis-52-week-low-yields-oil-prices-rebound-iran-trump-inflation-fed-hikes-20033019.htm"
-    },
-    {
-     "date": "2026-11-12",
-     "source": "cnbctv18.com",
-     "title": "Market Pulse: Key triggers to watch before the November 13 trading session",
-     "url": "https://www.cnbctv18.com/photos/market/market-pulse-key-triggers-to-watch-before-the-november-13-trading-session-20032958.htm"
     }
    ]
   },
   "https://www.freepressjournal.in/stories.rss?section=business": {
-   "fetched": "2026-11-14T10:45+05:30",
+   "fetched": "2026-11-14T12:15+05:30",
    "items": [
     {
      "date": "2026-11-14",
      "source": "freepressjournal.in",
-     "title": "'Thought I Had Five Mins More': Adam Port's Delhi Gig Ends Abruptly, DJ Apologises After Fans Complain About Missing Say What",
+     "title": "Asgard Alcobev Q2 Profit Soars To ₹2.55 Crore, Revenue Doubles To ₹48.93 Crore As Brewing Business Gains Momentum",
+     "url": "https://www.freepressjournal.in/business/asgard-alcobev-q2-profit-soars-to-255-crore-revenue-doubles-to-4893-crore-as-brewing-business-gains-momentum"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "Diwali Firecracker Violations: Mumbai Police Register Over 80 FIRs Across City",
+     "url": "https://www.freepressjournal.in/mumbai/diwali-firecracker-violations-mumbai-police-register-over-80-firs-across-city"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "'Kitna Giroge Views Ke Liye?': Digvijay Rathee Lashes Out At Paps Over Viral 'Gender Change' Videos During Gym Spotting – VIDEO",
+     "url": "https://www.freepressjournal.in/entertainment/kitna-giroge-views-ke-liye-digvijay-rathee-lashes-out-at-paps-over-viral-gender-change-videos-during-mumbai-gym-spotting-video"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "Mumbai Police May Shut Down, Restructure Specialised Crime Branches Amid Workload Review",
+     "url": "https://www.freepressjournal.in/mumbai/mumbai-police-may-shut-down-restructure-specialised-crime-branches-amid-workload-review"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "125 BSF Constables Complete 44 Weeks Of Rigorous Training, Take Oath To Serve Nation At Passing-Out Parade In Indore",
+     "url": "https://www.freepressjournal.in/indore/125-bsf-constables-complete-44-weeks-of-rigorous-training-take-oath-to-serve-nation-at-passing-out-parade-in-indore"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "Mumbai Weather Update: Minimum Temperature Dips To 19°C As City Wakes Up To Morning Chill; AQI Remains Poor",
+     "url": "https://www.freepressjournal.in/mumbai/mumbai-weather-update-minimum-temperature-dips-to-19c-as-city-wakes-up-to-morning-chill-aqi-remains-poor-mumbai-news"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "Centre Extends Ban On Zakir Naik's Islamic Research Foundation By 5 Years",
+     "url": "https://www.freepressjournal.in/india/centre-extends-ban-on-zakir-naiks-islamic-research-foundation-by-5-years"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "IND vs PAK U19 Asia Cup Final: Pakistan Batters Launch Counterattack, Leave India's Bowlers Searching For Answers",
+     "url": "https://www.freepressjournal.in/sports/ind-vs-pak-u19-asia-cup-final-arch-rivals-set-for-high-stakes-title-showdown"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "Indian Cricket's Teenage Sensation! Vaibhav Sooryavanshi Creates MASSIVE World Record At 15, Becomes Youngest Captain In T20 History",
+     "url": "https://www.freepressjournal.in/sports/indian-crickets-teenage-sensation-vaibhav-sooryavanshi-creates-massive-world-record-at-15-becomes-youngest-captain-in-t20-history"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "Pune FDA Suspends Licences Of Vaishali, Rupali Restaurants On FC Road Over Food Safety Violations",
+     "url": "https://www.freepressjournal.in/pune/pune-fda-suspends-licences-of-vaishali-rupali-restaurants-on-fc-road-over-food-safety-violations"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "Mahadev Betting App Case: CBI Conducts Searches At 33 Locations Across 6 States",
+     "url": "https://www.freepressjournal.in/india/mahadev-betting-app-case-cbi-conducts-searches-at-33-locations-across-6-states"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "Madhya Pradesh Weather Update: Kashmir Snowfall Likely To Dip Temperatures In MP; Brace For Chill After November 15",
+     "url": "https://www.freepressjournal.in/bhopal/madhya-pradesh-weather-update-kashmir-snowfall-likely-to-dip-temperatures-in-mp-brace-for-chill-after-november-15"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "Chhath Puja Sunrise And Sunset Timings: Know The Auspicious Sandhya And Usha Arghya Muhurat In Delhi, Mumbai And Other Cities",
+     "url": "https://www.freepressjournal.in/lifestyle/chhath-puja-sunrise-and-sunset-timings-know-the-auspicious-sandhya-and-usha-arghya-muhurat-in-delhi-mumbai-and-other-cities"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "YES Bank Denies ₹32 Crore Cyber Fraud Allegations, Says No Govt Accounts Were Compromised",
+     "url": "https://www.freepressjournal.in/business/yes-bank-denies-32-crore-cyber-fraud-allegations-says-no-govt-accounts-were-compromised"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "IND vs PAK Final: Team India Skipper Lakshya Raichandani Avoids Handshake With Pakistan Captain Farhan Yousaf At Toss In U19 Asia Cup Match | Video",
+     "url": "https://www.freepressjournal.in/sports/ind-vs-pak-final-team-india-skipper-lakshya-raichandani-avoids-handshake-with-pakistan-captain-farhan-yousaf-at-toss-in-u19-asia-cup-match-video"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "New Orleans Tragedy: Tanker Collides With Docked River Cruise On Mississippi, 32 Hospitalised; Video Shows Ship Tilted, People Struggling For Lives",
+     "url": "https://www.freepressjournal.in/world/new-orleans-tragedy-tanker-collides-with-docked-river-cruise-on-mississippi-32-hospitalised-video-shows-ship-tilted-people-struggling-for-lives"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "IND vs PAK, U19 Asia Cup Final: Pakistan Wins Toss And Elects To Bat First Against Team India In High-Voltage Clash",
+     "url": "https://www.freepressjournal.in/sports/ind-vs-pak-u19-asia-cup-final-pakistan-wins-toss-and-elects-to-bat-first-against-team-india-in-high-voltage-clash"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "freepressjournal.in",
+     "title": "'Thought I Had Five Mins More': Adam Port's Delhi Gig Ends Abruptly, German DJ Apologises After Fans Complain About Missing Say What",
      "url": "https://www.freepressjournal.in/entertainment/thought-i-had-five-mins-more-adam-ports-delhi-gig-ends-abruptly-dj-apologises-after-fans-complain-about-missing-say-what"
     },
     {
@@ -1131,8 +1233,8 @@
     {
      "date": "2026-11-14",
      "source": "freepressjournal.in",
-     "title": "'Open-Roof Glass Elevator To Ultra-Chic Bedrooms': Mumbai Teen Gives Tour Of Family-Owned Lavish 4BHK Apartment In Juhu; Video Goes Viral",
-     "url": "https://www.freepressjournal.in/mumbai/open-roof-glass-elevator-to-ultra-chic-bedrooms-mumbai-teen-gives-tour-of-family-owned-lavish-4bhk-apartment-in-juhu-video-goes-viral-mumbai-news"
+     "title": "‘Clueless What Parents Do’: Mumbai Teen Gives Video Tour Of His Lavish 5,000 Sqft Apartment In Juhu",
+     "url": "https://www.freepressjournal.in/mumbai/clueless-what-parents-do-mumbai-teen-gives-video-tour-of-his-lavish-5000-sqft-apartment-in-juhu-mumbai-news"
     },
     {
      "date": "2026-11-14",
@@ -1151,12 +1253,6 @@
      "source": "freepressjournal.in",
      "title": "Jubilant Pharmova's Q2 Earnings Take A Bitter Pill, Net Profit Crashes 74% To ₹31 Crore Despite Generics Growth",
      "url": "https://www.freepressjournal.in/business/jubilant-pharmovas-q2-earnings-take-a-bitter-pill-net-profit-crashes-74-to-31-crore-despite-generics-growth"
-    },
-    {
-     "date": "2026-11-14",
-     "source": "freepressjournal.in",
-     "title": "IND vs PAK U19 Asia Cup Final: Arch-Rivals Set For High-Stakes Title Showdown",
-     "url": "https://www.freepressjournal.in/sports/ind-vs-pak-u19-asia-cup-final-arch-rivals-set-for-high-stakes-title-showdown"
     },
     {
      "date": "2026-11-14",
@@ -1279,36 +1375,6 @@
      "url": "https://www.freepressjournal.in/lifestyle/happy-childrens-day-2026-25-wishes-messages-quotes-greetings-and-more-to-share-with-your-kids"
     },
     {
-     "date": "2026-11-14",
-     "source": "freepressjournal.in",
-     "title": "Children's Day 2026: Child Artist Pahal Chaudhary Talks About Her Dreams, Favourite Film & More",
-     "url": "https://www.freepressjournal.in/entertainment/childrens-day-2026-child-artist-pahal-chaudhary-talks-about-her-dreams-favourite-film-more"
-    },
-    {
-     "date": "2026-11-14",
-     "source": "freepressjournal.in",
-     "title": "The Best of Time: 7 Grand Prix d’Horlogerie de Genève 2026 Winners",
-     "url": "https://www.freepressjournal.in/lifestyle/the-best-of-time-7-grand-prix-dhorlogerie-de-genve-2026-winners"
-    },
-    {
-     "date": "2026-11-14",
-     "source": "freepressjournal.in",
-     "title": "BMW India’s Strategy Offers Peak Performance With Lifestyle Positioning",
-     "url": "https://www.freepressjournal.in/lifestyle/bmw-indias-strategy-offers-peak-performance-with-lifestyle-positioning"
-    },
-    {
-     "date": "2026-11-14",
-     "source": "freepressjournal.in",
-     "title": "₹100 Crore ISBT In Indore Remains Locked Despite Trial Run, Bus Services Yet To Begin At Kumedi Terminal",
-     "url": "https://www.freepressjournal.in/indore/100-crore-isbt-in-indore-remains-locked-despite-trial-run-bus-services-yet-to-begin-at-kumedi-terminal"
-    },
-    {
-     "date": "2026-11-14",
-     "source": "freepressjournal.in",
-     "title": "Locked Public Toilets, Family Cooking Outside Facility Expose Bhopal's Sanitation Failures Ahead Of Swachh Survekshan 2026",
-     "url": "https://www.freepressjournal.in/bhopal/locked-public-toilets-family-cooking-outside-facility-expose-bhopals-sanitation-failures-ahead-of-swachh-survekshan-2026"
-    },
-    {
      "date": "2026-11-13",
      "source": "freepressjournal.in",
      "title": "Prince William To Attend Earthshot Prize Awards Ceremony In Mumbai On November 17",
@@ -1317,8 +1383,26 @@
    ]
   },
   "https://www.livemint.com/rss/markets": {
-   "fetched": "2026-11-14T10:45+05:30",
+   "fetched": "2026-11-14T12:15+05:30",
    "items": [
+    {
+     "date": "2026-11-14",
+     "source": "Mint",
+     "title": "Rekha Jhunjhunwala stock VA Tech Wabag: ₹2,400 cr Saudi project cancelled - Should you buy after 18% rise in 6 months?",
+     "url": "https://www.livemint.com/market/stock-market-news/rekha-jhunjhunwala-stock-va-tech-wabag-rs-2-400-cr-saudi-project-cancelled-should-you-buy-after-18-rise-in-6-months-11794636173819.html"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "Mint",
+     "title": "Germany Has an Edge in a Lower Oil Price World: Taking Stock",
+     "url": "https://www.livemint.com/market/germany-has-an-edge-in-a-lower-oil-price-world-taking-stock-11794636529660.html"
+    },
+    {
+     "date": "2026-11-14",
+     "source": "Mint",
+     "title": "₹4K cr Ramayana movie VFX maker parent Prime Focus shares in focus after 14x profit jump in Q2; stock up 61% in a year",
+     "url": "https://www.livemint.com/market/stock-market-news/rs-4k-cr-ramayana-movie-vfx-maker-parent-prime-focus-shares-in-focus-after-14x-profit-jump-in-q2-stock-up-61-in-a-year-11794632446134.html"
+    },
     {
      "date": "2026-11-14",
      "source": "Mint",
@@ -1510,30 +1594,18 @@
      "source": "Mint",
      "title": "Can Ola Electric’s pivot to dealership model hedge revenue decline?",
      "url": "https://www.livemint.com/market/mark-to-market/ola-electric-pivot-dealership-model-revenue-decline-11794551578116.html"
-    },
-    {
-     "date": "2026-11-13",
-     "source": "Mint",
-     "title": "Mega AI Anthropic IPO details: Share price band, valuation, listing date - All you need to know about the upcoming issue",
-     "url": "https://www.livemint.com/market/stock-market-news/mega-ai-anthropic-ipo-details-share-price-band-valuation-listing-date-all-you-need-to-know-about-the-upcoming-issue-11794552663877.html"
-    },
-    {
-     "date": "2026-11-13",
-     "source": "Mint",
-     "title": "IRCTC, RVNL, IRFC, RailTel to IRCON: Railway stocks fall up to 3%; opportunity to buy on dip? Experts' views, target, SL",
-     "url": "https://www.livemint.com/market/stock-market-news/irctc-rvnl-irfc-railtel-to-ircon-railway-stocks-fall-up-to-3-opportunity-to-buy-on-dip-experts-views-target-sl-11794553579136.html"
-    },
-    {
-     "date": "2026-11-13",
-     "source": "Mint",
-     "title": "Kwality Walls shares rally 8.5% today, up over 53% in 6 months - Should you still buy ice cream stock? Q2 highlights",
-     "url": "https://www.livemint.com/market/stock-market-news/kwality-walls-shares-rally-8-5-today-up-over-53-in-6-months-should-you-still-buy-ice-cream-stock-q2-highlights-11794552631919.html"
     }
    ]
   },
   "https://www.thehindubusinessline.com/markets/feeder/default.rss": {
-   "fetched": "2026-11-14T10:45+05:30",
+   "fetched": "2026-11-14T12:15+05:30",
    "items": [
+    {
+     "date": "2026-11-14",
+     "source": "BusinessLine",
+     "title": "Transparent price discovery is the missing link in global bulk commodity trade",
+     "url": "https://www.thehindubusinessline.com/markets/commodities/transparent-price-discovery-is-the-missing-link-in-global-bulk-commodity-trade/article71698804.ece"
+    },
     {
      "date": "2026-11-14",
      "source": "BusinessLine",
@@ -1887,17 +1959,11 @@
      "source": "BusinessLine",
      "title": "FII drive Nifty rally; all eyes on inflation print",
      "url": "https://www.thehindubusinessline.com/markets/fii-drive-nifty-rally-all-eyes-on-inflation-print/article71692272.ece"
-    },
-    {
-     "date": "2026-11-12",
-     "source": "BusinessLine",
-     "title": "Flattish opening seen for Indian stocks; markets eye release of inflation data",
-     "url": "https://www.thehindubusinessline.com/markets/flattish-opening-seen-for-indian-stocks-markets-to-eye-release-of-inflation-data/article71692174.ece"
     }
    ]
   },
   "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss": {
-   "fetched": "2026-11-14T10:45+05:30",
+   "fetched": "2026-11-14T12:15+05:30",
    "items": [
     {
      "date": "2026-10-26",
@@ -2023,7 +2089,7 @@
   }
  },
  "crystal-crop-protection": {
-  "checked": "2026-11-14T12:00+05:30",
+  "checked": "2026-11-14T12:15+05:30",
   "items": [
    {
     "date": "2026-11-13",
