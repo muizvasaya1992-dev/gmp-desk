@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T12:45+05:30",
+  "generated_at": "2026-11-14T13:00+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-07T09:56+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-14T12:45+05:30",
+    "nse_ok_at": "2026-11-14T13:00+05:30",
     "bse_ok_at": "2026-11-07T09:58+05:30"
   },
   "ipos": [
@@ -3054,7 +3054,7 @@
       "price": 272,
       "segment": "MAIN",
       "size_cr": 455.49,
-      "tracker_rating": 3,
+      "tracker_rating": 2,
       "uses": [
         {
           "cr": 31.29,
@@ -3074,8 +3074,8 @@
         },
         {
           "source": "Tracker C",
-          "gmp": 28,
-          "at": "2026-11-14T11:37"
+          "gmp": 27,
+          "at": "2026-11-14T12:02"
         },
         {
           "source": "Tracker D",
@@ -3090,7 +3090,7 @@
         },
         {
           "date": "2026-11-14",
-          "gmp": 28
+          "gmp": 27
         }
       ],
       "history_source": "Tracker C",
@@ -3109,7 +3109,7 @@
       },
       "gmp_trend": {
         "dir": "falling",
-        "change": -12,
+        "change": -13,
         "days": 2,
         "since": "2026-11-13"
       },
