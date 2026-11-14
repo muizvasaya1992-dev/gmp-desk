@@ -102,7 +102,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-14T09:31+05:30",
+  "fetched_at": "2026-11-14T09:45+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -657,7 +657,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-14T09:31+05:30",
+  "fetched_at": "2026-11-14T09:45+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -743,6 +743,37 @@
        "use": "Subsidiary"
       }
      ]
+    }
+   },
+   {
+    "src": "Tracker D",
+    "slug": "mahanadi-coalfields",
+    "name": "Mahanadi Coalfields",
+    "segment": "MAIN",
+    "exchange": null,
+    "open": null,
+    "close": null,
+    "boa": null,
+    "listing": null,
+    "price": null,
+    "price_low": null,
+    "size_cr": null,
+    "gmp": 20.0,
+    "gmp_at": null,
+    "sub_total": null,
+    "sub_retail": null,
+    "sub_at": null,
+    "lot": null,
+    "sector": "Coal",
+    "detail_url": "https://ipoindex.in/ipo/mahanadi-coalfields-ipo/",
+    "live": true,
+    "detail": {
+     "sub": {
+      "total": 0.0,
+      "qib": 0.0,
+      "nii": 0.0,
+      "retail": 0.0
+     }
     }
    }
   ]
