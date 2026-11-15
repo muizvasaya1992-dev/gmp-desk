@@ -1,7 +1,7 @@
 {
  "_feeds": {
   "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms": {
-   "fetched": "2026-11-15T09:15+05:30",
+   "fetched": "2026-11-15T10:45+05:30",
    "items": [
     {
      "date": "2026-11-14",
@@ -306,7 +306,7 @@
    ]
   },
   "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms": {
-   "fetched": "2026-11-15T09:15+05:30",
+   "fetched": "2026-11-15T10:45+05:30",
    "items": [
     {
      "date": "2026-11-14",
@@ -611,8 +611,14 @@
    ]
   },
   "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml": {
-   "fetched": "2026-11-15T09:15+05:30",
+   "fetched": "2026-11-15T10:45+05:30",
    "items": [
+    {
+     "date": "2026-11-15",
+     "source": "cnbctv18.com",
+     "title": "Kaynes Tech Q2 Results: Higher expenses result in earnings miss; Announces JV with Toyokawa Techno",
+     "url": "https://www.cnbctv18.com/market/kaynes-tech-q2-results-revenue-expenses-margins-toyokawa-jv-cash-flow-metrics-share-price-20034225.htm"
+    },
     {
      "date": "2026-11-14",
      "source": "cnbctv18.com",
@@ -1086,18 +1092,102 @@
      "source": "cnbctv18.com",
      "title": "Gold rebounds after sharp correction, silver climbs 1%: Will the recovery sustain",
      "url": "https://www.cnbctv18.com/market/commodities/gold-rebounds-after-sharp-correction-silver-climbs-1-pc-will-recovery-sustain-20032675.htm"
-    },
-    {
-     "date": "2026-11-13",
-     "source": "cnbctv18.com",
-     "title": "Anthropic IPO: Mega issue oversubscribed 6 times, Bloomberg reports",
-     "url": "https://www.cnbctv18.com/market/anthropic-ipo-mega-issue-oversubscribed-6-times-20033062.htm"
     }
    ]
   },
   "https://www.freepressjournal.in/stories.rss?section=business": {
-   "fetched": "2026-11-15T09:15+05:30",
+   "fetched": "2026-11-15T10:45+05:30",
    "items": [
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "Ananya Panday Goes From Chanel's Signature Chic To Contemporary Indian Wear In Delhi",
+     "url": "https://www.freepressjournal.in/lifestyle/ananya-panday-goes-from-chanels-signature-chic-to-contemporary-indian-wear-in-delhi"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "IND vs NZ 5th ODI: Major Broadcast Glitch Leaves Fans Frustrated As Live Coverage Disrupted, BLACKCAPS Issue Statement",
+     "url": "https://www.freepressjournal.in/sports/ind-vs-nz-5th-odi-major-broadcast-glitch-leaves-fans-frustrated-as-live-coverage-disrupted-blackcaps-issue-statement"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "Sikkim: Chinese Military Aircraft Allegedly Breaches Indian Airspace, Hovers Over For 25 Minutes",
+     "url": "https://www.freepressjournal.in/india/sikkim-chinese-military-aircraft-allegedly-breaches-indian-airspace-remains-for-25-minutes"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "Chhath Puja 2026 Day 3: Essential Dos And Don'ts To Follow On The Auspicious Festival",
+     "url": "https://www.freepressjournal.in/ampstories/photo-gallery/chhath-puja-2026-day-3-essential-dos-and-donts-to-follow-on-the-auspicious-festival"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "'Sirf Khaane Ka Mann Kar Raha Hai': Sarfaraz Khan's Hilarious Remark Draws Laughter As Suryakumar Yadav Enjoys Mutton Feast | Video",
+     "url": "https://www.freepressjournal.in/sports/sirf-khaane-ka-mann-kar-raha-hai-sarfaraz-khans-hilarious-remark-draws-laughter-as-suryakumar-yadav-enjoys-mutton-feast-video"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "Quote Of The Day By Sania Mirza On Her 40th Birthday: ‘I Don't Play Tennis To Prove A Point To Anyone’",
+     "url": "https://www.freepressjournal.in/lifestyle/quote-of-the-day-by-sania-mirza-on-her-40th-birthday-i-dont-play-tennis-to-prove-a-point-to-anyone"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "Moushumi Chatterjee Issues First Statement After Husband Jayanta Mukherjee’s Death, Seeks Privacy: ‘Give Us Time And Space...’",
+     "url": "https://www.freepressjournal.in/entertainment/moushumi-chatterjee-issues-first-statement-after-husband-jayanta-mukherjees-death-seeks-privacy-give-us-time-and-space"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "Chaos In Dhaka! Bangladesh Fans Set Stadium Gallery On Fire After Pakistan's Dramatic 1-0 Win In SAFF Semi-Final | Video",
+     "url": "https://www.freepressjournal.in/sports/chaos-in-dhaka-bangladesh-fans-set-stadium-gallery-on-fire-after-pakistans-dramatic-1-0-win-in-saff-semi-final-video"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "Cristiano Ronaldo's Absence Felt As Denmark Thrash Portugal 4-1 In UEFA Nations League Clash",
+     "url": "https://www.freepressjournal.in/sports/cristiano-ronaldos-absence-felt-as-denmark-thrash-portugal-4-1-in-uefa-nations-league-clash"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "Bhuvan Bam Reveals His MP Roots, Imagines Titu Mama Opening Food Stall In Indore Ahead Of Dhindora Season 2",
+     "url": "https://www.freepressjournal.in/indore/bhuvan-bam-reveals-his-mp-roots-imagines-titu-mama-opening-food-stall-in-indore-ahead-of-dhindora-season-2"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "Women's Asian Champions Trophy 2026 In Bhopal Sparks Hopes Of Reviving City's Hockey Legacy As Olympians Hail International Tournament",
+     "url": "https://www.freepressjournal.in/bhopal/womens-asian-champions-trophy-2026-in-bhopal-sparks-hopes-of-reviving-citys-hockey-legacy-as-olympians-hail-international-tournament"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "Rashami Desai's Ex-Husband Nandish Sandhu Marries GF Kavita Banerjee In Traditional Bengali Wedding In Kolkata, PHOTOS Go Viral",
+     "url": "https://www.freepressjournal.in/entertainment/rashami-desais-ex-husband-nandish-sandhu-marries-girlfriend-kavita-banerjee-in-traditional-bengali-wedding-in-kolkata-wedding-photos-go-viral"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "Kate Middleton's Mumbai Return Brings Back Memories Of Her 2016 Gully Cricket Moment In Indian Dress With Prince William",
+     "url": "https://www.freepressjournal.in/lifestyle/kate-middletons-mumbai-return-brings-back-memories-of-her-2016-gully-cricket-moment-in-indian-dress-with-prince-william"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "MP Government Faces Fresh Controversy As Minister Uday Pratap Singh Comes Under EOW Complaint, Seven Ministers Face Scrutiny In Three Years",
+     "url": "https://www.freepressjournal.in/bhopal/mp-government-faces-fresh-controversy-as-minister-uday-pratap-singh-comes-under-eow-complaint-seven-ministers-face-scrutiny-in-three-years"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "22 Children Bitten By Dogs Every Day In Indore, 688 Cases Reported In October At Hukamchand Hospital",
+     "url": "https://www.freepressjournal.in/indore/22-children-bitten-by-dogs-every-day-in-indore-688-cases-reported-in-october-at-hukamchand-hospital"
+    },
     {
      "date": "2026-11-15",
      "source": "freepressjournal.in",
@@ -1327,34 +1417,22 @@
      "url": "https://www.freepressjournal.in/indore/indore-municipal-commissioner-cracks-down-on-sanitation-negligence-orders-salary-cuts-and-50000-fines-on-ngos"
     },
     {
-     "date": "2026-11-15",
+     "date": "2026-06-29",
      "source": "freepressjournal.in",
-     "title": "Same Route, Different Fares! RTO Flags Five Private Buses In Indore As Mumbai Tickets Touch ₹4,000, Pune ₹2,100",
-     "url": "https://www.freepressjournal.in/indore/same-route-different-fares-rto-flags-five-private-buses-in-indore-as-mumbai-tickets-touch-4000-pune-2100"
-    },
-    {
-     "date": "2026-11-15",
-     "source": "freepressjournal.in",
-     "title": "The Sovereign Fire: How the Sun–Mars Rashi Parivartana Yoga (Nov 16 – Dec 16, 2026) Impacts All 12 Rashis",
-     "url": "https://www.freepressjournal.in/horoscope/the-sovereign-fire-how-the-sunmars-rashi-parivartana-yoga-nov-16-dec-16-2026-impacts-all-12-rashis"
-    },
-    {
-     "date": "2026-11-15",
-     "source": "freepressjournal.in",
-     "title": "Bhopal's Adampur Landfill Buried Under RDF Waste Despite ₹53 Crore Contract, BMC Fines Agency ₹3.2 Lakh Ahead Of Supreme Court Hearing",
-     "url": "https://www.freepressjournal.in/bhopal/bhopals-adampur-landfill-buried-under-rdf-waste-despite-53-crore-contract-bmc-fines-agency-32-lakh-ahead-of-supreme-court-hearing"
-    },
-    {
-     "date": "2026-11-14",
-     "source": "freepressjournal.in",
-     "title": "VIP Number Auction Scam In Indore? Agents Allegedly Use Fake Competition To Grab Fancy Vehicle Numbers At Cheap Rates",
-     "url": "https://www.freepressjournal.in/indore/vip-number-auction-scam-in-indore-agents-allegedly-use-fake-competition-to-grab-fancy-vehicle-numbers-at-cheap-rates"
+     "title": "Kate Middleton Completes Gruelling 24-Hour Three Peaks Challenge After Cancer Battle, Raises Awareness",
+     "url": "https://www.freepressjournal.in/lifestyle/kate-middleton-completes-gruelling-24-hour-three-peaks-challenge-after-cancer-battle-raises-awareness"
     }
    ]
   },
   "https://www.livemint.com/rss/markets": {
-   "fetched": "2026-11-15T09:15+05:30",
+   "fetched": "2026-11-15T10:45+05:30",
    "items": [
+    {
+     "date": "2026-11-15",
+     "source": "Mint",
+     "title": "MCX, BSE, Bharti Airtel shares: Top 3 stocks to buy; check expected returns, ratings, target price by market expert",
+     "url": "https://www.livemint.com/market/stock-market-news/mcx-bse-bharti-airtel-shares-top-3-stocks-to-buy-check-expected-returns-ratings-target-price-by-market-expert-11794714137509.html"
+    },
     {
      "date": "2026-11-15",
      "source": "Mint",
@@ -1558,18 +1636,18 @@
      "source": "Mint",
      "title": "Pulse of the Street: Dalal Street’s winning streak faces an inflation test",
      "url": "https://www.livemint.com/market/stock-market-news/pulse-of-the-street-dalal-street-s-winning-streak-faces-an-inflation-test-11794572591011.html"
-    },
-    {
-     "date": "2026-11-13",
-     "source": "Mint",
-     "title": "Paytm shares cross ₹1,955 IPO listing-day high after five years; what's boosting investor confidence?",
-     "url": "https://www.livemint.com/market/stock-market-news/paytm-shares-cross-rs-1-955-ipo-listing-day-high-after-nearly-five-years-whats-boosting-investor-confidence-11794575989775.html"
     }
    ]
   },
   "https://www.thehindubusinessline.com/markets/feeder/default.rss": {
-   "fetched": "2026-11-15T09:15+05:30",
+   "fetched": "2026-11-15T10:45+05:30",
    "items": [
+    {
+     "date": "2026-11-15",
+     "source": "BusinessLine",
+     "title": "India’s commodity supply chains: Why market intelligence must translate into smarter logistics",
+     "url": "https://www.thehindubusinessline.com/markets/commodities/indias-commodity-supply-chains-why-market-intelligence-must-translate-into-smarter-logistics/article71702779.ece"
+    },
     {
      "date": "2026-11-14",
      "source": "BusinessLine",
@@ -1923,17 +2001,11 @@
      "source": "BusinessLine",
      "title": "Financial stocks hold Nifty steady at midday; Auto, FMCG drag",
      "url": "https://www.thehindubusinessline.com/markets/financial-stocks-hold-nifty-steady-at-midday-auto-fmcg-drag/article71692751.ece"
-    },
-    {
-     "date": "2026-11-12",
-     "source": "BusinessLine",
-     "title": "NPST posts 50% revenue jump in Q2, stock in red",
-     "url": "https://www.thehindubusinessline.com/markets/stock-markets/npst-posts-50-revenue-jump-in-q2-stock-in-red/article71692712.ece"
     }
    ]
   },
   "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss": {
-   "fetched": "2026-11-15T09:15+05:30",
+   "fetched": "2026-11-15T10:45+05:30",
    "items": [
     {
      "date": "2026-10-26",
@@ -2059,7 +2131,7 @@
   }
  },
  "crystal-crop-protection": {
-  "checked": "2026-11-15T10:31+05:30",
+  "checked": "2026-11-15T10:45+05:30",
   "items": [
    {
     "date": "2026-11-13",
