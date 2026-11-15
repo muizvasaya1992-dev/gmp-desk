@@ -1,7 +1,7 @@
 {
  "_feeds": {
   "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms": {
-   "fetched": "2026-11-15T13:45+05:30",
+   "fetched": "2026-11-15T15:15+05:30",
    "items": [
     {
      "date": "2026-11-15",
@@ -306,7 +306,7 @@
    ]
   },
   "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms": {
-   "fetched": "2026-11-15T13:45+05:30",
+   "fetched": "2026-11-15T15:15+05:30",
    "items": [
     {
      "date": "2026-11-14",
@@ -611,8 +611,14 @@
    ]
   },
   "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml": {
-   "fetched": "2026-11-15T13:45+05:30",
+   "fetched": "2026-11-15T15:15+05:30",
    "items": [
+    {
+     "date": "2026-11-15",
+     "source": "cnbctv18.com",
+     "title": "Goldman Sachs turns bullish on India, sees 19% returns for Asian stocks in 2027",
+     "url": "https://www.cnbctv18.com/market/stocks/goldman-sachs-turns-bullish-on-india-sees-19-returns-for-asian-stocks-in-2027-20034338.htm"
+    },
     {
      "date": "2026-11-15",
      "source": "cnbctv18.com",
@@ -1086,18 +1092,210 @@
      "source": "cnbctv18.com",
      "title": "Cisco lifts annual revenue forecast on strong AI networking demand",
      "url": "https://www.cnbctv18.com/market/cisco-lifts-annual-revenue-forecast-on-strong-ai-networking-demand-20033072.htm"
-    },
-    {
-     "date": "2026-11-13",
-     "source": "cnbctv18.com",
-     "title": "Gold rebounds after sharp correction, silver climbs 1%: Will the recovery sustain",
-     "url": "https://www.cnbctv18.com/market/commodities/gold-rebounds-after-sharp-correction-silver-climbs-1-pc-will-recovery-sustain-20032675.htm"
     }
    ]
   },
   "https://www.freepressjournal.in/stories.rss?section=business": {
-   "fetched": "2026-11-15T13:45+05:30",
+   "fetched": "2026-11-15T15:15+05:30",
    "items": [
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "Lion Chased By Motorcycles, Bolero At Gujarat’s Ambardi Safari Park; Forest Staff Under Scanner - VIDEO",
+     "url": "https://www.freepressjournal.in/viral/lion-chased-by-motorcycles-bolero-at-gujarats-ambardi-safari-park-forest-staff-under-scanner-video"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "'Let Us Perform Chhath Puja' Women Break Lock At Nalasopara Pond After Entry Denied, Tension Erupts - VIDEO",
+     "url": "https://www.freepressjournal.in/mumbai/let-us-perform-chhath-puja-women-break-lock-at-nalasopara-pond-after-entry-denied-tension-erupts-video"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "'Tu Khale': Kuldeep Yadav's Epic Reply To Fan Offering Samosa Draws Laughter During IND vs NZ 5th ODI | Video",
+     "url": "https://www.freepressjournal.in/sports/tu-khale-kuldeep-yadavs-epic-reply-to-fan-offering-samosa-draws-laughter-during-ind-vs-nz-5th-odi-video"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "PCC Chief Jitu Patwari Calls Madhya Pradesh Agriculture Minister 'Biggest Mafia', Alleges BJP Links To Illegal Trades In Morena | VIDEO",
+     "url": "https://www.freepressjournal.in/bhopal/pcc-chief-jitu-patwari-calls-madhya-pradesh-agriculture-minister-biggest-mafia-alleges-bjp-links-to-illegal-trades-in-morena-video"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "Rohit Pawar's Message To Amit Shah Ahead Of Pune Visit: Name Ring Road After Ajit Pawar Or Face Agitation",
+     "url": "https://www.freepressjournal.in/pune/rohit-pawars-message-to-amit-shah-ahead-of-pune-visit-name-ring-road-after-ajit-pawar-or-face-agitation"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "Is Eating Rice Completely Off-Limits For Diabetic Patients? Ayurvedic Expert Explains Unnecessary Dietary Restrictions",
+     "url": "https://www.freepressjournal.in/lifestyle/is-eating-rice-completely-off-limits-for-diabetic-patients-ayurvedic-expert-explains-unnecessary-dietary-restrictions"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "US Flight Chaos As Over 6,000 Flights Cancelled After Nationwide Ground Stop, FAA Blames Air Traffic System Failure",
+     "url": "https://www.freepressjournal.in/tech/us-flight-chaos-as-over-6000-flights-cancelled-after-nationwide-ground-stop-faa-blames-air-traffic-system-failure"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "Javed Akhtar Spotted In Wheelchair At Mumbai Airport With Wife Shabana Azmi, Stands Up To Pose For Paparazzi- VIDEO",
+     "url": "https://www.freepressjournal.in/entertainment/javed-akhtar-spotted-in-wheelchair-at-mumbai-airport-with-wife-shabana-azmi-stands-up-to-pose-for-paparazzi-video"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "Karan Kundrra, Tejasswi Prakash To Tie The Knot On Desi Bling S2 After Grand Proposal In First Season?",
+     "url": "https://www.freepressjournal.in/entertainment/karan-kundrra-tejasswi-prakash-to-tie-the-knot-on-desi-bling-s2-after-grand-proposal-in-first-season"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "Beed: ₹10 Lakh Saved For Son's MBBS Fees Gutted In Georai Fire",
+     "url": "https://www.freepressjournal.in/pune/beed-10-lakh-saved-for-sons-mbbs-fees-gutted-in-georai-fire"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "Modern Day 'Sholay' In UP: Girl Threatens To Jump Off Mobile Tower Over Demand To Marry Boyfriend",
+     "url": "https://www.freepressjournal.in/india/modern-day-sholay-in-up-girl-threatens-to-jump-off-mobile-tower-over-demand-to-marry-boyfriend"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "Vaibhav Sooryavanshi Stops Young Fan From Touching His Feet; Heartwarming Gesture Goes Viral | VIDEO",
+     "url": "https://www.freepressjournal.in/sports/vaibhav-sooryavanshi-stops-young-fan-from-touching-his-feet-heartwarming-gesture-goes-viral-video"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "Pune: Maharashtra Govt Takes Control Of 32 Sinhgad Institutions, Appoints Administrators For 25 Technical Institutes & Seven Colleges",
+     "url": "https://www.freepressjournal.in/pune/pune-maharashtra-govt-takes-control-of-32-sinhgad-institutions-appoints-administrators-for-25-technical-institutes-seven-colleges"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "Massive Explosion Rocks Kalamboli Steel Market In Navi Mumbai After Fire Engulfs Warehouse, Firefighter Suffers Burns - VIDEO",
+     "url": "https://www.freepressjournal.in/mumbai/massive-explosion-rocks-kalamboli-steel-market-in-navi-mumbai-after-fire-engulfs-warehouse-firefighter-suffers-burns-video"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "Kaynes Technology Q2 Profit Crashes 62% To ₹45 Crore, Rising Costs Hit Margins Despite Revenue Growth",
+     "url": "https://www.freepressjournal.in/business/kaynes-technology-q2-profit-crashes-62-to-45-crore-rising-costs-hit-margins-despite-revenue-growth"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "Indore's Narmada Pipeline Bursts At Kanadia Bypass Amid 27% Rainfall Deficit; Precious Water Goes To Waste | VIDEO",
+     "url": "https://www.freepressjournal.in/indore/indores-narmada-pipeline-bursts-at-kanadia-bypass-amid-27-rainfall-deficit-precious-water-goes-to-waste-video"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "2 Arrested In Chhatrapati Sambhajinagar For Selling Narcotic Pills; Police Trace Supply Link To Surat",
+     "url": "https://www.freepressjournal.in/pune/2-arrested-in-chhatrapati-sambhajinagar-for-selling-narcotic-pills-police-trace-supply-link-to-surat"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "Mahanadi Coalfields IPO, Coal India Plans ₹9,500 Crore Share Sale Through 10% Stake Dilution",
+     "url": "https://www.freepressjournal.in/business/mahanadi-coalfields-ipo-coal-india-plans-9500-crore-share-sale-through-10-stake-dilution"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "Maize Prices Surge 55% In Tamil Nadu's Namakkal, Poultry Farmers Struggle As Egg Production Costs Rise",
+     "url": "https://www.freepressjournal.in/business/maize-prices-surge-55-in-tamil-nadus-namakkal-poultry-farmers-struggle-as-egg-production-costs-rise"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "Mumbai To Goa By Vande Bharat Express: Man's Train Journey Through Konkan's Scenic Routes Goes Viral",
+     "url": "https://www.freepressjournal.in/lifestyle/mumbai-to-goa-by-vande-bharat-express-mans-train-journey-through-konkans-scenic-routes-goes-viral"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "Pride And Prejudice OTT Release: When And Where To Watch Emma Corrin And Jack Lowden's Show Online?",
+     "url": "https://www.freepressjournal.in/entertainment/pride-and-prejudice-ott-release-when-and-where-to-watch-emma-corrin-and-jack-lowdens-show-online"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "'No Water, No Roads': Youth Confronts Beed MP Bajrang Sonawane On Stage",
+     "url": "https://www.freepressjournal.in/pune/no-water-no-roads-youth-confronts-beed-mp-bajrang-sonawane-on-stage"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "'SIUUU!' Mohammed Siraj Brings Cristiano Ronaldo's Iconic Celebration To Cricket Field After Portugal's CR7 Tribute | VIDEO",
+     "url": "https://www.freepressjournal.in/sports/siuuu-mohammed-siraj-brings-cristiano-ronaldos-iconic-celebration-to-cricket-field-after-portugals-cr7-tribute-video"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "'Hindu-Americans Must Be Able To Worship In Peace And Safety': Zohran Mamdani At Queens Temple | VIDEO",
+     "url": "https://www.freepressjournal.in/world/hindu-americans-must-be-able-to-worship-in-peace-and-safety-zohran-mamdani-at-queens-temple-video"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "Katy Perry And Justin Trudeau Can't Keep Their Eyes Off Each Other In Stunning Appearance At 2026 Baby2Baby Gala",
+     "url": "https://www.freepressjournal.in/lifestyle/katy-perry-and-justin-trudeau-cant-keep-their-eyes-off-each-other-in-stunning-appearance-at-2026-baby2baby-gala"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "Chhatrapati Sambhajinagar: 26-Year-Old Chhath Puja Tradition Continues At Ramlila Ground In Bajaj Nagar",
+     "url": "https://www.freepressjournal.in/pune/chhatrapati-sambhajinagar-26-year-old-chhath-puja-tradition-continues-at-ramlila-ground-in-bajaj-nagar"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "IRCTC South India Tour Package: Bharat Gaurav Train To Cover Two Jyotirlingas And Six Pilgrimage Destinations",
+     "url": "https://www.freepressjournal.in/bhopal/irctc-south-india-tour-package-bharat-gaurav-train-to-cover-two-jyotirlingas-and-six-pilgrimage-destinations"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "13-Year-Old Girl Allegedly Sexually Assaulted By Two Men While Returning From Coaching In Gwalior",
+     "url": "https://www.freepressjournal.in/bhopal/13-year-old-girl-allegedly-sexually-assaulted-by-two-men-while-returning-from-coaching-in-gwalior"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "1 Dead, 28 Injured After Pune-Nagpur Bus Plunges Into Nullah On Chhatrapati Sambhajinagar-Jalna Road",
+     "url": "https://www.freepressjournal.in/pune/1-dead-28-injured-after-pune-nagpur-bus-plunges-into-nullah-on-chhatrapati-sambhajinagar-jalna-road"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "Uran’s Khopta Bridge Reopens After A Year; Crucial Link To Jawaharlal Nehru Port Authority Restored",
+     "url": "https://www.freepressjournal.in/mumbai/urans-khopta-bridge-reopens-after-a-year-crucial-link-to-jawaharlal-nehru-port-authority-restored"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "Ramayana's Pushpak Viman Installation At Delhi Airport Grabs Attention With Its Diwali Decor",
+     "url": "https://www.freepressjournal.in/lifestyle/ramayanas-pushpak-viman-installation-at-delhi-airport-grabs-attention-with-its-diwali-decor"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "'Even Pakistani Fans Were Supporting': Aaryavir Sehwag's Incredible Revelation To Father Virender After U19 Asia Cup Win Goes Viral | Video",
+     "url": "https://www.freepressjournal.in/sports/even-pakistani-fans-were-supporting-aaryavir-sehwags-incredible-revelation-to-father-virender-after-u19-asia-cup-win-goes-viral-video"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "Sonakshi Sinha Files Complaint Over Morphed Photos, Delhi Man Arrested, Later Released By Mumbai Court For Not Following Legal Procedure",
+     "url": "https://www.freepressjournal.in/entertainment/sonakshi-sinha-files-complaint-over-morphed-photos-delhi-man-arrested-later-released-by-mumbai-court-for-not-following-legal-procedure"
+    },
     {
      "date": "2026-11-15",
      "source": "freepressjournal.in",
@@ -1113,7 +1311,7 @@
     {
      "date": "2026-11-15",
      "source": "freepressjournal.in",
-     "title": "Bomb Threat At Mumbai's CSMT Railway Station Triggers Security Alert, Nothing Suspicious Found During Search",
+     "title": "Bomb Threat At Mumbai’s CSMT Railway Station Triggers Security Alert Amid Festive Rush",
      "url": "https://www.freepressjournal.in/mumbai/bomb-threat-at-mumbais-csmt-railway-station-triggers-security-alert-nothing-suspicious-found-during-search"
     },
     {
@@ -1131,7 +1329,7 @@
     {
      "date": "2026-11-15",
      "source": "freepressjournal.in",
-     "title": "Pakistan: Days After Farm Worker Mauled To Death By Lioness, Rawalpindi Man Booked For Keeping 9 Lions As Crackdown Begins",
+     "title": "Pakistan: Days After Farm Worker Mauled To Death By Tigress, Rawalpindi Man Booked For Keeping 9 Tigress As Crackdown Begins",
      "url": "https://www.freepressjournal.in/world/pakistan-days-after-farm-worker-mauled-to-death-by-lioness-rawalpindi-man-booked-for-keeping-9-lions-as-crackdown-begins"
     },
     {
@@ -1155,7 +1353,7 @@
     {
      "date": "2026-11-15",
      "source": "freepressjournal.in",
-     "title": "Kishtwar SPOs' Bodies Taken In 'Dumper', BJP MLA Shagun Parihar Breaks Down Over 'Insult' To Slain SPOs - VIDEO",
+     "title": "J&K Special Officers’ Bodies Taken To Village In Dumper Truck; Emotional BJP MLA Questions ‘Insult’ To Forces",
      "url": "https://www.freepressjournal.in/india/kishtwar-spos-bodies-taken-in-dumper-bjp-mla-shagun-parihar-breaks-down-over-insult-to-slain-spos-video"
     },
     {
@@ -1215,7 +1413,7 @@
     {
      "date": "2026-11-15",
      "source": "freepressjournal.in",
-     "title": "Andhra Pradesh Cyclone Alert As Severe Storm Likely By November 17, IMD Warns Of Heavy Rain & Strong Winds",
+     "title": "Andhra Pradesh Braces For Heavy Rains As Third Cyclone Forms Along Coast In 20 Days",
      "url": "https://www.freepressjournal.in/india/andhra-pradesh-cyclone-alert-as-severe-storm-likely-by-november-17-imd-warns-of-heavy-rain-strong-winds"
     },
     {
@@ -1305,92 +1503,14 @@
     {
      "date": "2026-11-15",
      "source": "freepressjournal.in",
-     "title": "'Planned To Commit Suicide Twice': Roadies Contestant Shambhavi Sharma Alleges Mental Abuse In Marriage To Sudesh Berry's Son Suraj Berry",
+     "title": "'Felt Caged, Planned Suicide Twice': Ex-Roadies Contestant Shambavi Sharma Alleges Mental Abuse In Marriage",
      "url": "https://www.freepressjournal.in/entertainment/planned-to-commit-suicide-twice-roadies-contestant-shambhavi-sharma-alleges-mental-abuse-in-marriage-to-sudesh-berrys-son-suraj-berry"
     },
     {
      "date": "2026-11-15",
      "source": "freepressjournal.in",
-     "title": "Mumbai Metro Joins Arpan’s Child Safety Week Campaign Against Child Sexual Abuse",
-     "url": "https://www.freepressjournal.in/angels-of-mumbai/mumbai-metro-joins-arpans-child-safety-week-campaign-against-child-sexual-abuse"
-    },
-    {
-     "date": "2026-11-15",
-     "source": "freepressjournal.in",
-     "title": "North Korea-Russia Ties Deepen As Kim Jong-un's Trusted Aide Arrives In Moscow For High-Level Visit",
-     "url": "https://www.freepressjournal.in/world/north-korea-russia-ties-deepen-as-kim-jong-uns-trusted-aide-arrives-in-moscow-for-high-level-visit"
-    },
-    {
-     "date": "2026-11-15",
-     "source": "freepressjournal.in",
-     "title": "Yemen Forces Launch Massive Offensive Against Houthis, Claim 723 Strikes & Hundreds Of Casualties",
-     "url": "https://www.freepressjournal.in/world/yemen-forces-launch-massive-offensive-against-houthis-claim-723-strikes-hundreds-of-casualties"
-    },
-    {
-     "date": "2026-11-15",
-     "source": "freepressjournal.in",
-     "title": "‘One Lip Kiss Please?’: Thai YouTuber JustKeth Harassed On Camera By Rajasthan Man",
+     "title": "‘One Lip Kiss Please?’: Thai YouTuber Harassed On Camera By Rajasthan Man, Police Action Awaited",
      "url": "https://www.freepressjournal.in/viral/thai-youtuber-justketh-harassed-on-camera-as-udaipur-man-demands-lip-kiss-police-action-awaited"
-    },
-    {
-     "date": "2026-11-15",
-     "source": "freepressjournal.in",
-     "title": "‘When I Left My Pind...’: Guru Randhawa Gets Emotional Recalling ‘Dark Nights’ Of 2012, Remembers His Struggling Days",
-     "url": "https://www.freepressjournal.in/entertainment/when-i-left-my-pind-guru-randhawa-gets-emotional-recalling-dark-nights-of-2012-remembers-his-struggling-days"
-    },
-    {
-     "date": "2026-11-15",
-     "source": "freepressjournal.in",
-     "title": "Chhath Puja 2026: Why Sugarcane Holds Special Significance In Worshipping Surya Dev And Chhathi Maiya",
-     "url": "https://www.freepressjournal.in/lifestyle/chhath-puja-2026-why-sugarcane-holds-special-significance-in-worshipping-surya-dev-and-chhathi-maiya"
-    },
-    {
-     "date": "2026-11-15",
-     "source": "freepressjournal.in",
-     "title": "Police Trainees Urged To Shun Bias, Show Empathy And Adopt Humane Approach During Training Session In Indore",
-     "url": "https://www.freepressjournal.in/indore/police-trainees-urged-to-shun-bias-show-empathy-and-adopt-humane-approach-during-training-session-in-indore"
-    },
-    {
-     "date": "2026-11-15",
-     "source": "freepressjournal.in",
-     "title": "MP Private School Recognition Rules Changed, Land Ownership No Longer Mandatory; Apply Online By November 30, Fees Up To ₹10,000",
-     "url": "https://www.freepressjournal.in/bhopal/mp-private-school-recognition-rules-changed-land-ownership-no-longer-mandatory-apply-online-by-november-30-fees-up-to-10000"
-    },
-    {
-     "date": "2026-11-15",
-     "source": "freepressjournal.in",
-     "title": "Cristiano Ronaldo Honoured With Emotional 'GOAT' Tribute In Portugal, Players Wear Iconic No. 7 Jersey",
-     "url": "https://www.freepressjournal.in/sports/cristiano-ronaldo-honoured-with-emotional-goat-tribute-in-portugal-players-wear-iconic-no-7-jersey"
-    },
-    {
-     "date": "2026-11-15",
-     "source": "freepressjournal.in",
-     "title": "Ananya Panday Goes From Chanel's Signature Chic To Contemporary Indian Wear In Delhi",
-     "url": "https://www.freepressjournal.in/lifestyle/ananya-panday-goes-from-chanels-signature-chic-to-contemporary-indian-wear-in-delhi"
-    },
-    {
-     "date": "2026-11-15",
-     "source": "freepressjournal.in",
-     "title": "IND vs NZ 5th ODI: Major Broadcast Glitch Leaves Fans Frustrated As Live Coverage Disrupted, BLACKCAPS Issue Statement",
-     "url": "https://www.freepressjournal.in/sports/ind-vs-nz-5th-odi-major-broadcast-glitch-leaves-fans-frustrated-as-live-coverage-disrupted-blackcaps-issue-statement"
-    },
-    {
-     "date": "2026-11-15",
-     "source": "freepressjournal.in",
-     "title": "Chinese Military Aircraft Breaches Indian Airspace Over Sikkim, Hovers For 25 Minutes Despite Warnings",
-     "url": "https://www.freepressjournal.in/india/sikkim-chinese-military-aircraft-allegedly-breaches-indian-airspace-remains-for-25-minutes"
-    },
-    {
-     "date": "2026-11-15",
-     "source": "freepressjournal.in",
-     "title": "Chhath Puja 2026 Day 3: Essential Dos And Don'ts To Follow On The Auspicious Festival",
-     "url": "https://www.freepressjournal.in/ampstories/photo-gallery/chhath-puja-2026-day-3-essential-dos-and-donts-to-follow-on-the-auspicious-festival"
-    },
-    {
-     "date": "2026-11-15",
-     "source": "freepressjournal.in",
-     "title": "'Sirf Khaane Ka Mann Kar Raha Hai': Sarfaraz Khan's Hilarious Remark Draws Laughter As Suryakumar Yadav Enjoys Mutton Feast | Video",
-     "url": "https://www.freepressjournal.in/sports/sirf-khaane-ka-mann-kar-raha-hai-sarfaraz-khans-hilarious-remark-draws-laughter-as-suryakumar-yadav-enjoys-mutton-feast-video"
     },
     {
      "date": "2026-11-15",
@@ -1399,46 +1519,40 @@
      "url": "https://www.freepressjournal.in/entertainment/moushumi-chatterjee-issues-first-statement-after-husband-jayanta-mukherjees-death-seeks-privacy-give-us-time-and-space"
     },
     {
-     "date": "2026-11-15",
-     "source": "freepressjournal.in",
-     "title": "‘Pride, Gratitude, Belonging’: Lalit Modi Becomes British Citizen 16 Years After He Fled India",
-     "url": "https://www.freepressjournal.in/india/ipl-founder-lalit-modi-becomes-british-citizen-announces-new-chapter-after-16-years-in-uk"
-    },
-    {
-     "date": "2026-11-15",
-     "source": "freepressjournal.in",
-     "title": "'RO-KO Ko NZ Ne Rok Diya': Rohit Sharma And Virat Kohli's Cheap Dismissals Leave Team India In Trouble During 5th ODI | Video",
-     "url": "https://www.freepressjournal.in/sports/ro-ko-ko-nz-ne-rokh-diya-rohit-sharma-and-virat-kohlis-cheap-dismissals-leave-team-india-in-trouble-during-5th-odi-video"
-    },
-    {
-     "date": "2026-11-15",
-     "source": "freepressjournal.in",
-     "title": "4 Pilgrims Dead, 18 Injured As Buses Trying To Avoid Errant Motorcyclist Collide In Punjab",
-     "url": "https://www.freepressjournal.in/india/punjab-road-accident-kills-4-injures-18-as-2-pilgrim-buses-collide-in-tarn-taran-pm-modi-expresses-grief"
-    },
-    {
      "date": "2026-11-14",
      "source": "freepressjournal.in",
      "title": "26/11 Target Recce: Arrested Navi Mumbai Man Was Tasked With Tracking Jewish Sites and Bollywood Celebrities",
      "url": "https://www.freepressjournal.in/mumbai/navi-mumbai-youth-arrested-in-uapa-case-for-chabad-house-recce-probe-exposes-photographers-dual-role-in-jewish-site-surveillance-bollywood-tracking-for-bishnoi-gang"
     },
     {
-     "date": "2026-11-14",
+     "date": "2026-11-12",
      "source": "freepressjournal.in",
-     "title": "Mumbai Man Dies Six Days After His Motorcycle Crashed Into Divider In Sewri",
-     "url": "https://www.freepressjournal.in/mumbai/mumbai-accident-26-year-old-biker-dies-at-kem-hospital-6-days-after-motorcycle-crashes-into-divider-on-rak-marg-in-sewri"
-    },
-    {
-     "date": "2026-11-14",
-     "source": "freepressjournal.in",
-     "title": "Man Arrested For Recce Of 26/11 Terror Attack Target, Other Sensitive Locations In Mumbai",
-     "url": "https://www.freepressjournal.in/mumbai/20-year-old-arrested-for-conducting-recce-of-chabad-house-other-sensitive-locations-in-mumbai"
+     "title": "Anecdotes by Kindness Unlimited: When Strangers Became Family. A Night of Rain and Kindness",
+     "url": "https://www.freepressjournal.in/angels-of-mumbai/anecdotes-by-kindness-unlimited-when-strangers-became-family-a-night-of-rain-and-kindness"
     }
    ]
   },
   "https://www.livemint.com/rss/markets": {
-   "fetched": "2026-11-15T13:45+05:30",
+   "fetched": "2026-11-15T15:15+05:30",
    "items": [
+    {
+     "date": "2026-11-15",
+     "source": "Mint",
+     "title": "Coal India's Mahanadi Coalfields IPO: Stage set for launch, price band tomorrow; GMP, allotment, listing, other details",
+     "url": "https://www.livemint.com/market/ipo/coal-indias-mahanadi-coalfields-ipo-stage-set-for-launch-price-band-tomorrow-gmp-allotment-listing-other-details-11794731994241.html"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "Mint",
+     "title": "Nifty 50 above 25,000, holds key moving averages: Is Buy-On-Dips right strategy? Here's what stock market experts say",
+     "url": "https://www.livemint.com/market/stock-market-news/nifty-50-above-25-000-holds-key-moving-averages-is-buy-on-dips-right-strategy-heres-what-stock-market-experts-say-11794726896459.html"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "Mint",
+     "title": "Powerful solar stock to generate further returns? 33% up in 6 months, Motilal Oswal sees 40% more; do you own it? Target",
+     "url": "https://www.livemint.com/market/stock-market-news/midcap-solar-stock-rallies-33-in-six-months-motilal-oswal-sees-40-upside-do-you-own-it-check-target-price-11794669986419.html"
+    },
     {
      "date": "2026-11-15",
      "source": "Mint",
@@ -1630,30 +1744,18 @@
      "source": "Mint",
      "title": "Oil prices set for second straight weekly decline on growing signs of supply surplus",
      "url": "https://www.livemint.com/market/oil-prices-set-for-second-straight-weekly-decline-on-growing-signs-of-supply-surplus-11794595284142.html"
-    },
-    {
-     "date": "2026-11-14",
-     "source": "Mint",
-     "title": "Gold Edges Up, Still On Track for Worst Weekly Slump Since June",
-     "url": "https://www.livemint.com/market/gold-edges-up-still-on-track-for-worst-weekly-slump-since-june-11794595223804.html"
-    },
-    {
-     "date": "2026-11-13",
-     "source": "Mint",
-     "title": "YES Bank files SC review plea over AT-1 bonds: What does it mean for investors after stock's 15% rebound?",
-     "url": "https://www.livemint.com/market/stock-market-news/yes-bank-files-sc-review-plea-over-at-1-bonds-what-does-it-mean-for-investors-after-stocks-15-rebound-11794591968232.html"
-    },
-    {
-     "date": "2026-11-13",
-     "source": "Mint",
-     "title": "Airtel Payments Bank IPO in pipeline? Bharti Airtel payments business eyes D-Street debut, says report",
-     "url": "https://www.livemint.com/market/ipo/airtel-payments-bank-ipo-in-pipeline-bharti-airtel-payments-business-eyes-d-street-debut-says-report-11794586839337.html"
     }
    ]
   },
   "https://www.thehindubusinessline.com/markets/feeder/default.rss": {
-   "fetched": "2026-11-15T13:45+05:30",
+   "fetched": "2026-11-15T15:15+05:30",
    "items": [
+    {
+     "date": "2026-11-15",
+     "source": "BusinessLine",
+     "title": "WPI inflation, crude oil prices and FII activity to steer stock markets this week",
+     "url": "https://www.thehindubusinessline.com/markets/wpi-inflation-crude-oil-prices-and-fii-activity-to-steer-stock-markets-this-week/article71704397.ece"
+    },
     {
      "date": "2026-11-15",
      "source": "BusinessLine",
@@ -2007,17 +2109,11 @@
      "source": "BusinessLine",
      "title": "India’s Russian fossil fuel imports hit record €6.4 billion in October, crude oil accounts for 91%",
      "url": "https://www.thehindubusinessline.com/markets/commodities/indias-russian-fossil-fuel-imports-hit-record-64-billion-in-october-crude-oil-accounts-for-91/article71692997.ece"
-    },
-    {
-     "date": "2026-11-12",
-     "source": "BusinessLine",
-     "title": "Refex Industries’ ash and coal handling order book rises to Rs 1,721 crore",
-     "url": "https://www.thehindubusinessline.com/markets/commodities/refex-industries-ash-and-coal-handling-order-book-rises-to-rs-1721-crore/article71692898.ece"
     }
    ]
   },
   "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss": {
-   "fetched": "2026-11-15T13:45+05:30",
+   "fetched": "2026-11-15T15:15+05:30",
    "items": [
     {
      "date": "2026-10-26",
@@ -2143,7 +2239,7 @@
   }
  },
  "crystal-crop-protection": {
-  "checked": "2026-11-15T15:00+05:30",
+  "checked": "2026-11-15T15:15+05:30",
   "items": [
    {
     "date": "2026-11-15",
@@ -2172,7 +2268,7 @@
   ]
  },
  "watrana-rentals": {
-  "checked": "2026-11-15T15:00+05:30",
+  "checked": "2026-11-15T15:15+05:30",
   "items": [
    {
     "date": "2026-11-15",
