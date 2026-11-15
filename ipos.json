@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T10:31+05:30",
+  "generated_at": "2026-11-15T11:01+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-07T09:56+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-15T10:31+05:30",
+    "nse_ok_at": "2026-11-15T11:01+05:30",
     "bse_ok_at": "2026-11-07T09:58+05:30"
   },
   "ipos": [
@@ -3057,12 +3057,12 @@
       "tracker_rating": 2,
       "uses": [
         {
-          "use": "Borrowings",
-          "cr": 247.94
+          "cr": 247.94,
+          "use": "Borrowings"
         },
         {
-          "use": "Subsidiary",
-          "cr": 22.06
+          "cr": 22.06,
+          "use": "Subsidiary"
         }
       ],
       "sector": "Other Agricultural Products",
@@ -3070,7 +3070,7 @@
         {
           "source": "Public trackers",
           "gmp": 27,
-          "at": "2026-11-15T08:00"
+          "at": "2026-11-15T11:00"
         },
         {
           "source": "Tracker C",
@@ -3086,23 +3086,23 @@
       "gmp_history": [
         {
           "date": "2026-11-13",
-          "gmp": 40
+          "gmp": 45
         },
         {
           "date": "2026-11-14",
-          "gmp": 27
+          "gmp": 30
         },
         {
           "date": "2026-11-15",
           "gmp": 27
         }
       ],
-      "history_source": "Tracker C",
+      "history_source": "Public trackers",
       "gmp_low": 26,
       "gmp_high": 48,
       "gmp": 27,
-      "gmp_asof": "2026-11-15T10:02",
-      "gmp_source_latest": "Tracker C",
+      "gmp_asof": "2026-11-15T11:00",
+      "gmp_source_latest": "Public trackers",
       "gmp_pct": 9.93,
       "gmp_spread": {
         "min": 27,
@@ -3113,7 +3113,7 @@
       },
       "gmp_trend": {
         "dir": "falling",
-        "change": -13,
+        "change": -18,
         "days": 3,
         "since": "2026-11-13"
       },
