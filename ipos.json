@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T09:45+05:30",
+  "generated_at": "2026-11-16T10:00+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-07T09:56+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-16T09:45+05:30",
+    "nse_ok_at": "2026-11-16T10:00+05:30",
     "bse_ok_at": "2026-11-07T09:58+05:30"
   },
   "ipos": [
@@ -3168,13 +3168,13 @@
       "price": 136,
       "segment": "MAIN",
       "size_cr": 8981.12,
-      "tracker_rating": 2,
+      "tracker_rating": 1,
       "sector": "Coal",
       "gmp_sources": [
         {
           "source": "Public trackers",
-          "gmp": 8,
-          "at": "2026-11-16T06:00"
+          "gmp": 7,
+          "at": "2026-11-16T09:00"
         },
         {
           "source": "Tracker C",
@@ -3206,10 +3206,10 @@
       "gmp_pct": 5.15,
       "gmp_spread": {
         "min": 7,
-        "max": 8,
-        "diff": 1,
+        "max": 7,
+        "diff": 0,
         "n": 3,
-        "diff_pct_of_price": 0.74
+        "diff_pct_of_price": 0.0
       },
       "gmp_trend": {
         "dir": "falling",
