@@ -102,7 +102,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-16T17:15+05:30",
+  "fetched_at": "2026-11-16T17:17+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -657,7 +657,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-16T17:15+05:30",
+  "fetched_at": "2026-11-16T17:17+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -692,30 +692,30 @@
        22.0
       ]
      ],
-     "sub": {
-      "total": 0.0,
-      "qib": 0.0,
-      "nii": 0.0,
-      "retail": 0.0
-     },
      "reservation": {
-      "qib": {
-       "shares": 2322000,
-       "pct": 49.94
-      },
       "nii": {
-       "shares": 698400,
-       "pct": 15.02
+       "pct": 15.02,
+       "shares": 698400
+      },
+      "qib": {
+       "pct": 49.94,
+       "shares": 2322000
       },
       "retail": {
-       "shares": 1629600,
-       "pct": 35.05
+       "pct": 35.05,
+       "shares": 1629600
       }
+     },
+     "sub": {
+      "nii": 0.0,
+      "qib": 0.0,
+      "retail": 0.0,
+      "total": 0.0
      },
      "uses": [
       {
-       "use": "Purchase",
-       "cr": 98.13
+       "cr": 98.13,
+       "use": "Purchase"
       }
      ]
     }
@@ -754,19 +754,19 @@
       ]
      ],
      "sub": {
-      "total": 0.0,
-      "qib": 0.0,
       "nii": 0.0,
-      "retail": 0.0
+      "qib": 0.0,
+      "retail": 0.0,
+      "total": 0.0
      },
      "uses": [
       {
-       "use": "Borrowings",
-       "cr": 247.94
+       "cr": 247.94,
+       "use": "Borrowings"
       },
       {
-       "use": "Subsidiary",
-       "cr": 22.06
+       "cr": 22.06,
+       "use": "Subsidiary"
       }
      ]
     }
@@ -805,15 +805,15 @@
       ]
      ],
      "sub": {
-      "total": 0.0,
-      "qib": 0.0,
       "nii": 0.0,
-      "retail": 0.0
+      "qib": 0.0,
+      "retail": 0.0,
+      "total": 0.0
      },
      "uses": [
       {
-       "use": "Offer for Sale Proceeds",
-       "cr": 8981.12
+       "cr": 8981.12,
+       "use": "Offer for Sale Proceeds"
       }
      ]
     }
