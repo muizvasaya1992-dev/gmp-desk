@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T11:08+05:30",
+  "generated_at": "2026-11-16T11:09+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,8 +23,8 @@
     "fetched_at": "2026-11-16T11:08+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-16T11:08+05:30",
-    "bse_ok_at": "2026-11-16T11:08+05:30"
+    "nse_ok_at": "2026-11-16T11:09+05:30",
+    "bse_ok_at": "2026-11-16T11:09+05:30"
   },
   "ipos": [
     {
@@ -2045,7 +2045,7 @@
         {
           "source": "Tracker B",
           "gmp": 5,
-          "at": "2026-11-08T00:01"
+          "at": "2026-11-06T00:01"
         },
         {
           "source": "Tracker C",
@@ -2086,21 +2086,13 @@
         {
           "date": "2026-11-06",
           "gmp": 5
-        },
-        {
-          "date": "2026-11-07",
-          "gmp": 5
-        },
-        {
-          "date": "2026-11-08",
-          "gmp": 5
         }
       ],
       "history_source": "Tracker B",
       "gmp_low": 3,
       "gmp_high": 6,
       "gmp": 5,
-      "gmp_asof": "2026-11-08T00:01",
+      "gmp_asof": "2026-11-06T00:01",
       "gmp_source_latest": "Tracker B",
       "gmp_pct": 6.25,
       "gmp_spread": {
@@ -2114,7 +2106,7 @@
         "dir": "steady",
         "change": 0,
         "days": 3,
-        "since": "2026-11-06"
+        "since": "2026-11-04"
       },
       "status": "listed",
       "unconfirmed": false
@@ -2529,20 +2521,28 @@
         {
           "source": "Tracker B",
           "gmp": 105,
-          "at": "2026-11-08T00:01"
+          "at": "2026-11-06T23:55"
         }
       ],
       "gmp_history": [
+        {
+          "date": "2026-10-27",
+          "gmp": 26
+        },
+        {
+          "date": "2026-10-28",
+          "gmp": 25
+        },
+        {
+          "date": "2026-10-29",
+          "gmp": 50
+        },
         {
           "date": "2026-10-30",
           "gmp": 70
         },
         {
           "date": "2026-10-31",
-          "gmp": 70
-        },
-        {
-          "date": "2026-11-01",
           "gmp": 70
         },
         {
@@ -2559,27 +2559,19 @@
         },
         {
           "date": "2026-11-05",
-          "gmp": 113
+          "gmp": 115
         },
         {
           "date": "2026-11-06",
           "gmp": 105
-        },
-        {
-          "date": "2026-11-07",
-          "gmp": 105
-        },
-        {
-          "date": "2026-11-08",
-          "gmp": 105
         }
       ],
-      "history_source": "Tracker B",
+      "history_source": "Tracker D",
       "gmp_low": 25,
       "gmp_high": 115,
       "exchange": "SME",
       "gmp": 105,
-      "gmp_asof": "2026-11-08T00:01",
+      "gmp_asof": "2026-11-06T23:55",
       "gmp_source_latest": "Tracker B",
       "gmp_pct": 66.46,
       "gmp_spread": {
@@ -2590,10 +2582,10 @@
         "diff_pct_of_price": 12.66
       },
       "gmp_trend": {
-        "dir": "steady",
-        "change": 0,
+        "dir": "rising",
+        "change": 25,
         "days": 3,
-        "since": "2026-11-06"
+        "since": "2026-11-04"
       },
       "status": "listed",
       "unconfirmed": false
@@ -2664,7 +2656,7 @@
         {
           "source": "Tracker B",
           "gmp": 27,
-          "at": "2026-11-08T00:01"
+          "at": "2026-11-06T23:55"
         }
       ],
       "gmp_history": [
@@ -2695,14 +2687,6 @@
         {
           "date": "2026-11-06",
           "gmp": 27
-        },
-        {
-          "date": "2026-11-07",
-          "gmp": 27
-        },
-        {
-          "date": "2026-11-08",
-          "gmp": 27
         }
       ],
       "history_source": "Tracker B",
@@ -2710,7 +2694,7 @@
       "gmp_high": 32,
       "exchange": "SME",
       "gmp": 27,
-      "gmp_asof": "2026-11-08T00:01",
+      "gmp_asof": "2026-11-06T23:55",
       "gmp_source_latest": "Tracker B",
       "gmp_pct": 22.5,
       "gmp_spread": {
@@ -2721,10 +2705,10 @@
         "diff_pct_of_price": 0.0
       },
       "gmp_trend": {
-        "dir": "steady",
-        "change": 0,
+        "dir": "rising",
+        "change": 2,
         "days": 3,
-        "since": "2026-11-06"
+        "since": "2026-11-04"
       },
       "status": "listed",
       "unconfirmed": false
@@ -2776,7 +2760,7 @@
         {
           "source": "Tracker D",
           "gmp": 1,
-          "at": "2026-11-13T09:15"
+          "at": "2026-11-07T09:56"
         },
         {
           "source": "Tracker C",
@@ -2786,7 +2770,7 @@
         {
           "source": "Tracker B",
           "gmp": 1,
-          "at": "2026-11-09T23:10"
+          "at": "2026-11-07T09:55"
         }
       ],
       "gmp_history": [
@@ -2800,7 +2784,7 @@
         },
         {
           "date": "2026-11-03",
-          "gmp": 12
+          "gmp": 13
         },
         {
           "date": "2026-11-04",
@@ -2922,16 +2906,24 @@
         {
           "source": "Tracker B",
           "gmp": 8,
-          "at": "2026-11-08T00:01"
+          "at": "2026-11-06T23:55"
         }
       ],
       "gmp_history": [
         {
-          "date": "2026-10-31",
+          "date": "2026-10-28",
           "gmp": 10
         },
         {
-          "date": "2026-11-01",
+          "date": "2026-10-29",
+          "gmp": 13
+        },
+        {
+          "date": "2026-10-30",
+          "gmp": 12
+        },
+        {
+          "date": "2026-10-31",
           "gmp": 5
         },
         {
@@ -2944,7 +2936,7 @@
         },
         {
           "date": "2026-11-04",
-          "gmp": 6
+          "gmp": 8
         },
         {
           "date": "2026-11-05",
@@ -2953,21 +2945,13 @@
         {
           "date": "2026-11-06",
           "gmp": 8
-        },
-        {
-          "date": "2026-11-07",
-          "gmp": 8
-        },
-        {
-          "date": "2026-11-08",
-          "gmp": 8
         }
       ],
-      "history_source": "Tracker B",
+      "history_source": "Tracker D",
       "gmp_low": 5,
       "gmp_high": 13,
       "gmp": 8,
-      "gmp_asof": "2026-11-08T00:01",
+      "gmp_asof": "2026-11-06T23:55",
       "gmp_source_latest": "Tracker B",
       "gmp_pct": 4.0,
       "gmp_spread": {
@@ -2981,7 +2965,7 @@
         "dir": "steady",
         "change": 0,
         "days": 3,
-        "since": "2026-11-06"
+        "since": "2026-11-04"
       },
       "status": "listed",
       "unconfirmed": false
@@ -3023,248 +3007,29 @@
       "unconfirmed": false
     },
     {
-      "id": "mahanadi-coalfields",
-      "name": "Mahanadi Coalfields",
-      "segment": "MAIN",
-      "price": 136,
-      "price_low": null,
-      "lot": 110,
-      "size_cr": 8981.12,
-      "open": "2026-11-19",
-      "close": "2026-11-23",
-      "boa": "2026-11-25",
-      "listing": "2026-11-27",
-      "anchor": null,
-      "rating": null,
-      "sub": null,
-      "updated_on": "2026-11-16T11:08+05:30",
-      "from_peers": true,
-      "tracker_rating": 2,
-      "uses": [
-        {
-          "use": "Offer for Sale Proceeds",
-          "cr": 8981.12
-        }
-      ],
-      "sector": "Coal",
-      "lot_basis": "tracker",
-      "gmp_sources": [
-        {
-          "source": "Public trackers",
-          "gmp": 7,
-          "at": "2026-11-16T09:00"
-        },
-        {
-          "source": "Tracker C",
-          "gmp": 7,
-          "at": "2026-11-16T09:02"
-        },
-        {
-          "source": "Tracker D",
-          "gmp": 5.5,
-          "at": "2026-11-16T11:08"
-        }
-      ],
-      "gmp_history": [
-        {
-          "date": "2026-11-14",
-          "gmp": 13
-        },
-        {
-          "date": "2026-11-16",
-          "gmp": 5.5
-        }
-      ],
-      "history_source": "Tracker D",
-      "gmp_low": 5.5,
-      "gmp_high": 13,
-      "gmp": 5.5,
-      "gmp_asof": "2026-11-16T11:08",
-      "gmp_source_latest": "Tracker D",
-      "gmp_pct": 4.04,
-      "gmp_spread": {
-        "min": 5.5,
-        "max": 7,
-        "diff": 1.5,
-        "n": 3,
-        "diff_pct_of_price": 1.1
-      },
-      "gmp_trend": {
-        "dir": "falling",
-        "change": -7.5,
-        "days": 2,
-        "since": "2026-11-14"
-      },
-      "status": "upcoming",
-      "news": [
-        {
-          "title": "Mahanadi Coalfields IPO price band set at Rs 129–136; Rs 8,981 crore issue to open on November 19",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-price-band-set-at-rs-129136-rs-8981-crore-issue-to-open-on-november-19/articleshow/135870181.cms",
-          "source": "Economic Times",
-          "date": "2026-11-16"
-        },
-        {
-          "title": "Mahanadi Coalfields fixes price band for ₹8,981 crore IPO; details here",
-          "url": "https://www.cnbctv18.com/market/mahanadi-coalfields-ipo-price-band-fixed-subscription-issue-to-open-on-november-19-20034562.htm",
-          "source": "cnbctv18.com",
-          "date": "2026-11-16"
-        },
-        {
-          "title": "Coal India's Mahanadi Coalfields IPO price band set at ₹129 - ₹136 per share | Check GMP, issue details, key dates",
-          "url": "https://www.livemint.com/market/ipo/coal-indias-mahanadi-coalfields-ipo-price-band-set-at-rs-129-rs-136-per-share-check-gmp-issue-details-key-dates-11794795588725.html",
-          "source": "Mint",
-          "date": "2026-11-16"
-        },
-        {
-          "title": "Mahanadi Coalfields sets IPO price band at ₹129-136; issue opens November 19",
-          "url": "https://www.thehindubusinessline.com/markets/mahanadi-coalfields-sets-ipo-price-band-at-129-136-issue-opens-november-19/article71706647.ece",
-          "source": "BusinessLine",
-          "date": "2026-11-16"
-        },
-        {
-          "title": "IPO calendar: Mahanadi Coalfields among 3 companies to raise over Rs 10,000 cr in busy week for primary market",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-calendar-mahanadi-coalfields-among-3-companies-to-raise-over-rs-10000-cr-in-busy-week-for-primary-market/articleshow/135848817.cms",
-          "source": "Economic Times",
-          "date": "2026-11-15"
-        },
-        {
-          "title": "Coal India's Mahanadi Coalfields IPO: Stage set for launch, price band tomorrow; GMP, allotment, listing, other details",
-          "url": "https://www.livemint.com/market/ipo/coal-indias-mahanadi-coalfields-ipo-stage-set-for-launch-price-band-tomorrow-gmp-allotment-listing-other-details-11794731994241.html",
-          "source": "Mint",
-          "date": "2026-11-15"
-        }
-      ],
-      "unconfirmed": true
-    },
-    {
-      "id": "watrana-rentals",
-      "name": "Watrana Rentals",
-      "segment": "SME",
-      "price": 245,
-      "price_low": null,
-      "lot": 600,
-      "size_cr": 120.1,
-      "open": "2026-11-19",
-      "close": "2026-11-23",
-      "boa": "2026-11-25",
-      "listing": "2026-11-27",
-      "anchor": null,
-      "rating": null,
-      "sub": null,
-      "updated_on": "2026-11-16T11:08+05:30",
-      "from_peers": true,
-      "exchange": "NSE Emerge",
-      "tracker_rating": 2,
-      "reservation_detail": {
-        "qib": {
-          "shares": 2322000,
-          "pct": 49.94
-        },
-        "nii": {
-          "shares": 698400,
-          "pct": 15.02
-        },
-        "retail": {
-          "shares": 1629600,
-          "pct": 35.05
-        }
-      },
-      "reservation": {
-        "qib": 49.94,
-        "nii": 15.02,
-        "retail": 35.05
-      },
-      "uses": [
-        {
-          "use": "Purchase",
-          "cr": 98.13
-        }
-      ],
-      "sector": "Diversified Commercial Services",
-      "lot_basis": "tracker",
-      "gmp_sources": [
-        {
-          "source": "Tracker C",
-          "gmp": 22,
-          "at": "2026-11-16T09:02"
-        },
-        {
-          "source": "Tracker D",
-          "gmp": 22,
-          "at": "2026-11-16T11:08"
-        }
-      ],
-      "gmp_history": [
-        {
-          "date": "2026-11-14",
-          "gmp": 22
-        },
-        {
-          "date": "2026-11-16",
-          "gmp": 22
-        }
-      ],
-      "history_source": "Tracker D",
-      "gmp_low": 22,
-      "gmp_high": 22,
-      "gmp": 22,
-      "gmp_asof": "2026-11-16T11:08",
-      "gmp_source_latest": "Tracker D",
-      "gmp_pct": 8.98,
-      "gmp_spread": {
-        "min": 22,
-        "max": 22,
-        "diff": 0,
-        "n": 2,
-        "diff_pct_of_price": 0.0
-      },
-      "gmp_trend": {
-        "dir": "steady",
-        "change": 0,
-        "days": 2,
-        "since": "2026-11-14"
-      },
-      "status": "upcoming",
-      "news": [
-        {
-          "title": "Watrana Rentals IPO GMP profit calculator on latest GMP: How much profit can retail and HNI investors expect?",
-          "url": "https://www.livemint.com/market/ipo/watrana-rentals-ipo-gmp-one-lot-profit-calculator-on-latest-gmp-how-much-profit-can-retail-and-hni-investors-expect-11794759981622.html",
-          "source": "Mint",
-          "date": "2026-11-15"
-        }
-      ],
-      "unconfirmed": true
-    },
-    {
-      "id": "crystal-crop-protection",
-      "name": "Crystal Crop Protection",
-      "segment": "MAIN",
-      "price": 272,
-      "price_low": null,
-      "lot": 55,
-      "size_cr": 455.49,
-      "open": "2026-11-18",
-      "close": "2026-11-20",
       "boa": "2026-11-23",
-      "listing": "2026-11-26",
-      "anchor": null,
-      "rating": null,
-      "sub": null,
-      "updated_on": "2026-11-16T11:08+05:30",
+      "close": "2026-11-20",
       "from_peers": true,
+      "id": "crystal-crop-protection",
+      "listing": "2026-11-26",
+      "lot": 55,
+      "name": "Crystal Crop Protection",
+      "open": "2026-11-18",
+      "price": 272,
+      "segment": "MAIN",
+      "size_cr": 455.49,
       "tracker_rating": 2,
       "uses": [
         {
-          "use": "Borrowings",
-          "cr": 247.94
+          "cr": 247.94,
+          "use": "Borrowings"
         },
         {
-          "use": "Subsidiary",
-          "cr": 22.06
+          "cr": 22.06,
+          "use": "Subsidiary"
         }
       ],
       "sector": "Other Agricultural Products",
-      "lot_basis": "tracker",
       "gmp_sources": [
         {
           "source": "Public trackers",
@@ -3279,7 +3044,7 @@
         {
           "source": "Tracker D",
           "gmp": 16,
-          "at": "2026-11-16T11:08"
+          "at": "2026-11-16T11:09"
         }
       ],
       "gmp_history": [
@@ -3296,7 +3061,7 @@
       "gmp_low": 15,
       "gmp_high": 27,
       "gmp": 16,
-      "gmp_asof": "2026-11-16T11:08",
+      "gmp_asof": "2026-11-16T11:09",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 5.88,
       "gmp_spread": {
@@ -3315,28 +3080,229 @@
       "status": "upcoming",
       "news": [
         {
-          "title": "Crystal Crop Protection IPO one lot profit calculator on latest GMP: How much can retail and HNI investors earn? Listing",
-          "url": "https://www.livemint.com/market/ipo/crystal-crop-protection-ipo-one-lot-profit-calculator-on-latest-gmp-how-much-can-retail-and-hni-investors-earn-listing-11794744856974.html",
+          "date": "2026-11-15",
           "source": "Mint",
-          "date": "2026-11-15"
+          "title": "Crystal Crop Protection IPO one lot profit calculator on latest GMP: How much can retail and HNI investors earn? Listing",
+          "url": "https://www.livemint.com/market/ipo/crystal-crop-protection-ipo-one-lot-profit-calculator-on-latest-gmp-how-much-can-retail-and-hni-investors-earn-listing-11794744856974.html"
         },
         {
+          "date": "2026-11-13",
+          "source": "Economic Times",
           "title": "Crystal Crop Protection IPO GMP signals 18% potential listing gains. Key things to know before issue opens on Nov 18",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystalcropprotectionipogmpsignals18-potentiallistinggains-keythings-to-knowbeforeissueopens-on-nov18/articleshow/135799630.cms",
-          "source": "Economic Times",
-          "date": "2026-11-13"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystalcropprotectionipogmpsignals18-potentiallistinggains-keythings-to-knowbeforeissueopens-on-nov18/articleshow/135799630.cms"
         },
         {
+          "date": "2026-11-13",
+          "source": "Economic Times",
           "title": "Crystal Crop Protection sets price band for Rs 455.49 crore IPO, issue opens on November 18",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-sets-price-band-for-rs-455-49-crore-ipo-issue-opens-on-november-18/articleshow/135790747.cms",
-          "source": "Economic Times",
-          "date": "2026-11-13"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-sets-price-band-for-rs-455-49-crore-ipo-issue-opens-on-november-18/articleshow/135790747.cms"
         },
         {
-          "title": "Crystal Crop Protection to raise up to ₹456 cr via IPO; issue opens on Nov 18",
-          "url": "https://www.thehindubusinessline.com/markets/crystal-crop-protection-to-raise-up-to-456-cr-via-ipo-issue-opens-on-nov-18/article71696593.ece",
+          "date": "2026-11-13",
           "source": "BusinessLine",
-          "date": "2026-11-13"
+          "title": "Crystal Crop Protection to raise up to ₹456 cr via IPO; issue opens on Nov 18",
+          "url": "https://www.thehindubusinessline.com/markets/crystal-crop-protection-to-raise-up-to-456-cr-via-ipo-issue-opens-on-nov-18/article71696593.ece"
+        }
+      ],
+      "unconfirmed": true
+    },
+    {
+      "boa": "2026-11-25",
+      "close": "2026-11-23",
+      "from_peers": true,
+      "id": "mahanadi-coalfields",
+      "listing": "2026-11-27",
+      "lot": 110,
+      "name": "Mahanadi Coalfields",
+      "open": "2026-11-19",
+      "price": 136,
+      "segment": "MAIN",
+      "size_cr": 8981.12,
+      "tracker_rating": 2,
+      "uses": [
+        {
+          "cr": 8981.12,
+          "use": "Offer for Sale Proceeds"
+        }
+      ],
+      "sector": "Coal",
+      "gmp_sources": [
+        {
+          "source": "Public trackers",
+          "gmp": 7,
+          "at": "2026-11-16T09:00"
+        },
+        {
+          "source": "Tracker C",
+          "gmp": 7,
+          "at": "2026-11-16T09:02"
+        },
+        {
+          "source": "Tracker D",
+          "gmp": 5.5,
+          "at": "2026-11-16T11:09"
+        }
+      ],
+      "gmp_history": [
+        {
+          "date": "2026-11-14",
+          "gmp": 13
+        },
+        {
+          "date": "2026-11-16",
+          "gmp": 5.5
+        }
+      ],
+      "history_source": "Tracker D",
+      "gmp_low": 5.5,
+      "gmp_high": 13,
+      "gmp": 5.5,
+      "gmp_asof": "2026-11-16T11:09",
+      "gmp_source_latest": "Tracker D",
+      "gmp_pct": 4.04,
+      "gmp_spread": {
+        "min": 5.5,
+        "max": 7,
+        "diff": 1.5,
+        "n": 3,
+        "diff_pct_of_price": 1.1
+      },
+      "gmp_trend": {
+        "dir": "falling",
+        "change": -7.5,
+        "days": 2,
+        "since": "2026-11-14"
+      },
+      "status": "upcoming",
+      "news": [
+        {
+          "date": "2026-11-16",
+          "source": "Economic Times",
+          "title": "Mahanadi Coalfields IPO price band set at Rs 129–136; Rs 8,981 crore issue to open on November 19",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-price-band-set-at-rs-129136-rs-8981-crore-issue-to-open-on-november-19/articleshow/135870181.cms"
+        },
+        {
+          "date": "2026-11-16",
+          "source": "cnbctv18.com",
+          "title": "Mahanadi Coalfields fixes price band for ₹8,981 crore IPO; details here",
+          "url": "https://www.cnbctv18.com/market/mahanadi-coalfields-ipo-price-band-fixed-subscription-issue-to-open-on-november-19-20034562.htm"
+        },
+        {
+          "date": "2026-11-16",
+          "source": "Mint",
+          "title": "Coal India's Mahanadi Coalfields IPO price band set at ₹129 - ₹136 per share | Check GMP, issue details, key dates",
+          "url": "https://www.livemint.com/market/ipo/coal-indias-mahanadi-coalfields-ipo-price-band-set-at-rs-129-rs-136-per-share-check-gmp-issue-details-key-dates-11794795588725.html"
+        },
+        {
+          "date": "2026-11-16",
+          "source": "BusinessLine",
+          "title": "Mahanadi Coalfields sets IPO price band at ₹129-136; issue opens November 19",
+          "url": "https://www.thehindubusinessline.com/markets/mahanadi-coalfields-sets-ipo-price-band-at-129-136-issue-opens-november-19/article71706647.ece"
+        },
+        {
+          "date": "2026-11-15",
+          "source": "Economic Times",
+          "title": "IPO calendar: Mahanadi Coalfields among 3 companies to raise over Rs 10,000 cr in busy week for primary market",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-calendar-mahanadi-coalfields-among-3-companies-to-raise-over-rs-10000-cr-in-busy-week-for-primary-market/articleshow/135848817.cms"
+        },
+        {
+          "date": "2026-11-15",
+          "source": "Mint",
+          "title": "Coal India's Mahanadi Coalfields IPO: Stage set for launch, price band tomorrow; GMP, allotment, listing, other details",
+          "url": "https://www.livemint.com/market/ipo/coal-indias-mahanadi-coalfields-ipo-stage-set-for-launch-price-band-tomorrow-gmp-allotment-listing-other-details-11794731994241.html"
+        }
+      ],
+      "unconfirmed": true
+    },
+    {
+      "boa": "2026-11-25",
+      "close": "2026-11-23",
+      "exchange": "NSE Emerge",
+      "from_peers": true,
+      "id": "watrana-rentals",
+      "listing": "2026-11-27",
+      "lot": 600,
+      "name": "Watrana Rentals",
+      "open": "2026-11-19",
+      "price": 245,
+      "segment": "SME",
+      "size_cr": 120.1,
+      "tracker_rating": 2,
+      "reservation_detail": {
+        "nii": {
+          "pct": 15.02,
+          "shares": 698400
+        },
+        "qib": {
+          "pct": 49.94,
+          "shares": 2322000
+        },
+        "retail": {
+          "pct": 35.05,
+          "shares": 1629600
+        }
+      },
+      "reservation": {
+        "qib": 49.94,
+        "nii": 15.02,
+        "retail": 35.05
+      },
+      "uses": [
+        {
+          "cr": 98.13,
+          "use": "Purchase"
+        }
+      ],
+      "sector": "Diversified Commercial Services",
+      "gmp_sources": [
+        {
+          "source": "Tracker C",
+          "gmp": 22,
+          "at": "2026-11-16T09:02"
+        },
+        {
+          "source": "Tracker D",
+          "gmp": 22,
+          "at": "2026-11-16T11:09"
+        }
+      ],
+      "gmp_history": [
+        {
+          "date": "2026-11-14",
+          "gmp": 22
+        },
+        {
+          "date": "2026-11-16",
+          "gmp": 22
+        }
+      ],
+      "history_source": "Tracker D",
+      "gmp_low": 22,
+      "gmp_high": 22,
+      "gmp": 22,
+      "gmp_asof": "2026-11-16T11:09",
+      "gmp_source_latest": "Tracker D",
+      "gmp_pct": 8.98,
+      "gmp_spread": {
+        "min": 22,
+        "max": 22,
+        "diff": 0,
+        "n": 2,
+        "diff_pct_of_price": 0.0
+      },
+      "gmp_trend": {
+        "dir": "steady",
+        "change": 0,
+        "days": 2,
+        "since": "2026-11-14"
+      },
+      "status": "upcoming",
+      "news": [
+        {
+          "date": "2026-11-15",
+          "source": "Mint",
+          "title": "Watrana Rentals IPO GMP profit calculator on latest GMP: How much profit can retail and HNI investors expect?",
+          "url": "https://www.livemint.com/market/ipo/watrana-rentals-ipo-gmp-one-lot-profit-calculator-on-latest-gmp-how-much-profit-can-retail-and-hni-investors-expect-11794759981622.html"
         }
       ],
       "unconfirmed": true
