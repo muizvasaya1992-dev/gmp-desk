@@ -1,7 +1,7 @@
 {
  "_feeds": {
   "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms": {
-   "fetched": "2026-11-16T04:45+05:30",
+   "fetched": "2026-11-16T06:15+05:30",
    "items": [
     {
      "date": "2026-11-15",
@@ -306,7 +306,7 @@
    ]
   },
   "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms": {
-   "fetched": "2026-11-16T04:45+05:30",
+   "fetched": "2026-11-16T06:15+05:30",
    "items": [
     {
      "date": "2026-11-14",
@@ -611,8 +611,26 @@
    ]
   },
   "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml": {
-   "fetched": "2026-11-16T04:45+05:30",
+   "fetched": "2026-11-16T06:15+05:30",
    "items": [
+    {
+     "date": "2026-11-16",
+     "source": "cnbctv18.com",
+     "title": "Sensex Today | Stock Market LIVE Updates: Nifty aims to hold on to 25,000 as earnings end, focus back to global cues",
+     "url": "https://www.cnbctv18.com/market/stock-market-live-updates-sensex-nifty-50-today-nifty-bank-midcaps-smallcaps-tata-motors-pv-kaynes-eicher-zaggle-manipal-share-price-liveblog-20034520.htm"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "cnbctv18.com",
+     "title": "Dow, Nasdaq futures edge higher - Here are three most important Wall Street triggers for the week",
+     "url": "https://www.cnbctv18.com/market/dow-jones-snp-500-nasdaq-three-major-triggers-for-wall-street-this-week-nvidia-anthropic-trump-walmart-fed-china-iran-20034515.htm"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "cnbctv18.com",
+     "title": "Tata Motors PV shares are a 'sell' candidate after Q2 results, Motilal Oswal says after cutting target",
+     "url": "https://www.cnbctv18.com/market/tata-motors-pv-share-price-q2-result-reaction-buy-sell-motilal-cuts-target-eps-estimates-jlr-headwinds-20034512.htm"
+    },
     {
      "date": "2026-11-16",
      "source": "cnbctv18.com",
@@ -1074,30 +1092,24 @@
      "source": "cnbctv18.com",
      "title": "Nvidia leadership shift could broaden AI trade; India offers a hedge, says Roundhill's Drew Pettit",
      "url": "https://www.cnbctv18.com/market/nvidia-leadership-change-may-broaden-ai-investment-theme-india-remains-a-strong-hedge-roundhills-drew-pettit-emerging-markets-global-markets-us-fed-rate-hike-bond-yields-crude-oil-prices-west-asia-geo-20033154.htm"
-    },
-    {
-     "date": "2026-11-13",
-     "source": "cnbctv18.com",
-     "title": "Amber Enterprises shares jump 10% after 60% revenue growth in Q2",
-     "url": "https://www.cnbctv18.com/market/amber-enterprises-share-price-60-pc-revenue-growth-in-q2-but-durables-division-reports-loss-20033173.htm"
-    },
-    {
-     "date": "2026-11-13",
-     "source": "cnbctv18.com",
-     "title": "Meesho shares worth ₹1,885 crore change hands in pre-open block deal window",
-     "url": "https://www.cnbctv18.com/market/meesho-share-price-1885-crore-block-deal-softbank-unit-likely-seller-shareholding-msci-inclusion-inflows-new-high-20033142.htm"
-    },
-    {
-     "date": "2026-11-13",
-     "source": "cnbctv18.com",
-     "title": "OpenAI, Google, Anthropic hit with lawsuit seeking halt to frontier AI development",
-     "url": "https://www.cnbctv18.com/business/openai-google-anthropic-hit-with-lawsuit-seeking-halt-to-frontier-ai-development-20033138.htm"
     }
    ]
   },
   "https://www.freepressjournal.in/stories.rss?section=business": {
-   "fetched": "2026-11-16T04:45+05:30",
+   "fetched": "2026-11-16T06:15+05:30",
    "items": [
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "Guiding Light: Where Is The Present Moment?",
+     "url": "https://www.freepressjournal.in/spirituality/guiding-light-where-is-the-present-moment"
+    },
+    {
+     "date": "2026-11-15",
+     "source": "freepressjournal.in",
+     "title": "Operation Midnight In Indore Sees Police Action Against 722 People, 289 Caught For Drunk Driving",
+     "url": "https://www.freepressjournal.in/indore/operation-midnight-in-indore-sees-police-action-against-722-people-289-caught-for-drunk-driving"
+    },
     {
      "date": "2026-11-15",
      "source": "freepressjournal.in",
@@ -1155,91 +1167,55 @@
     {
      "date": "2026-11-15",
      "source": "freepressjournal.in",
-     "title": "AYUSH Colleges In MP Oppose Mandatory NExT Exam, Question Why Ayurveda Graduates Face Additional Licensing Test Unlike MBBS Students",
-     "url": "https://www.freepressjournal.in/bhopal/ayush-colleges-in-mp-oppose-mandatory-next-exam-question-why-ayurveda-graduates-face-additional-licensing-test-unlike-mbbs-students"
-    },
-    {
-     "date": "2026-11-15",
-     "source": "freepressjournal.in",
-     "title": "Punjab: 5 Killed, 11 Injured As Car Carrying 16 Wedding Guests Collides With Pickup In Fazilka | Video",
-     "url": "https://www.freepressjournal.in/india/punjab-5-killed-11-injured-as-car-carrying-16-wedding-guests-collides-with-pickup-in-fazilka-video"
-    },
-    {
-     "date": "2026-11-15",
-     "source": "freepressjournal.in",
-     "title": "'Kisi Ke Baap Ka Hindostan Thodi Hai': Diljit Dosanjh Defies Opposition, Performs In Indore",
-     "url": "https://www.freepressjournal.in/entertainment/kisi-ke-baap-ka-hindostan-thodi-hai-diljit-dosanjh-defies-opposition-performs-in-indore"
-    },
-    {
-     "date": "2026-11-15",
-     "source": "freepressjournal.in",
-     "title": "Pune Metro's Special Early-Morning Services For Run For Unity, Soldierathon Draw 3,721 Passengers On November 15",
-     "url": "https://www.freepressjournal.in/pune/pune-metros-special-early-morning-services-for-run-for-unity-soldierathon-draw-3721-passengers-on-november-15"
-    },
-    {
-     "date": "2026-11-15",
-     "source": "freepressjournal.in",
-     "title": "Mumbai Fire Brigade Battles 1,200 Vacancies As Diwali Fire Calls Cross 500, Association Moves Bombay HC",
-     "url": "https://www.freepressjournal.in/mumbai/mumbai-fire-brigade-battles-1200-vacancies-as-diwali-fire-calls-cross-500-association-moves-bombay-hc"
-    },
-    {
-     "date": "2026-11-15",
-     "source": "freepressjournal.in",
-     "title": "PMC Sanctions ₹50 Lakh For Unity Run 2026 Amid Drought Concerns; Ravindra Dhangekar Questions Use Of Taxpayers' Money",
-     "url": "https://www.freepressjournal.in/pune/pmc-sanctions-50-lakh-for-unity-run-2026-amid-drought-concerns-ravindra-dhangekar-questions-use-of-taxpayers-money"
-    },
-    {
-     "date": "2026-11-15",
-     "source": "freepressjournal.in",
-     "title": "West Bengal: Wanted Criminal Involved In 36 Cases Killed In Police Encounter After Firing At Constable",
-     "url": "https://www.freepressjournal.in/india/west-bengal-wanted-criminal-involved-in-36-cases-killed-in-police-encounter-after-firing-at-constable"
-    },
-    {
-     "date": "2026-11-15",
-     "source": "freepressjournal.in",
-     "title": "Tamil Nadu CM Vijay's MLA In Trouble As NCW Asks DGP To Probe 'Obscene Message' To Collector",
-     "url": "https://www.freepressjournal.in/india/tamil-nadu-cm-vijays-mla-in-trouble-as-ncw-asks-dgp-to-probe-obscene-message-to-collector"
-    },
-    {
-     "date": "2026-11-15",
-     "source": "freepressjournal.in",
-     "title": "Prince William, Kate Middleton To Meet PM Narendra Modi During 3-Day India Visit: British High Commission",
-     "url": "https://www.freepressjournal.in/mumbai/prince-william-kate-middleton-to-meet-pm-narendra-modi-during-3-day-india-visit-british-high-commission"
-    },
-    {
-     "date": "2026-11-15",
-     "source": "freepressjournal.in",
-     "title": "'We Have Knowledge & Plan': Trump Accuses Biden-Era FAA Mishandling, Urges Congress To fast-Track Funding For Air Traffic Control Overhaul",
-     "url": "https://www.freepressjournal.in/world/we-have-knowledge-plan-trump-accuses-biden-era-faa-mishandling-urges-congress-to-fast-track-funding-for-air-traffic-control-overhaul"
-    },
-    {
-     "date": "2026-11-15",
-     "source": "freepressjournal.in",
      "title": "House Of Abhinandan Lodha Returns ₹1,100 Crore To HDFC Capital, Facilitates Early Exit Across Five Projects",
      "url": "https://www.freepressjournal.in/business/house-of-abhinandan-lodha-returns-1100-crore-to-hdfc-capital-facilitates-early-exit-across-five-projects"
-    },
-    {
-     "date": "2026-11-15",
-     "source": "freepressjournal.in",
-     "title": "‘Stop Foreign Trips, Visit Indian Villages’: Amit Shah Attacks Rahul Gandhi Over Bharat Summit Remarks",
-     "url": "https://www.freepressjournal.in/pune/stop-foreign-trips-visit-indian-villages-amit-shah-attacks-rahul-gandhi-over-bharat-summit-remarks"
     }
    ]
   },
   "https://www.livemint.com/rss/markets": {
-   "fetched": "2026-11-16T04:45+05:30",
+   "fetched": "2026-11-16T06:15+05:30",
    "items": [
     {
      "date": "2026-11-16",
      "source": "Mint",
-     "title": "Retail Crowd Dump Vietnam Stocks for Near 10% Bank-Deposit Rates",
-     "url": "https://www.livemint.com/market/retail-crowd-dump-vietnam-stocks-for-near-10-bank-deposit-rates-11794781837585.html"
+     "title": "Australian shares slip to near one-week low as weaker copper, iron ore weigh on miners",
+     "url": "https://www.livemint.com/market/australian-shares-slip-to-near-one-week-low-as-weaker-copper-iron-ore-weigh-on-miners-11794789357824.html"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "Mint",
+     "title": "Raja Venkatraman recommends three stocks for 16 November",
+     "url": "https://www.livemint.com/market/stock-market-news/raja-venkatraman-recommends-three-stocks-for-16-november-11794759546498.html"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "Mint",
+     "title": "Stock recommendations for 16 November from MarketSmith India",
+     "url": "https://www.livemint.com/market/stock-market-news/stock-recommendations-for-16-november-from-marketsmith-india-11794745234974.html"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "Mint",
+     "title": "Too early to call FII return to Indian equities a trend, says Sundaram AMC's Radhakrishnan",
+     "url": "https://www.livemint.com/market/stock-market-news/too-early-to-call-fii-return-to-indian-equities-a-trend-says-sundaram-amcs-radhakrishnan-11794718561065.html"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "Mint",
+     "title": "Markets poised for a breather after sharp rally",
+     "url": "https://www.livemint.com/market/stock-market-news/market-poised-for-short-term-breather-after-sharp-rally-11794740556586.html"
     },
     {
      "date": "2026-11-16",
      "source": "Mint",
      "title": "Emerging-Market Assets Dip as Chip Rout, Fed Rate Worries Linger",
      "url": "https://www.livemint.com/market/emergingmarket-assets-dip-as-chip-rout-fed-rate-worries-linger-11794781837535.html"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "Mint",
+     "title": "Retail Crowd Dump Vietnam Stocks for Near 10% Bank-Deposit Rates",
+     "url": "https://www.livemint.com/market/retail-crowd-dump-vietnam-stocks-for-near-10-bank-deposit-rates-11794781837585.html"
     },
     {
      "date": "2026-11-16",
@@ -1408,41 +1384,11 @@
      "source": "Mint",
      "title": "NVIDIA shareholder Leo KoGuan backs Jensen Huang! Explains why he will not add more stake in flagship AI stock",
      "url": "https://www.livemint.com/market/stock-market-news/nvidia-shareholder-leo-koguan-backs-jensen-huang-explains-why-he-will-not-add-more-stake-in-flagship-ai-stock-11794652278596.html"
-    },
-    {
-     "date": "2026-11-14",
-     "source": "Mint",
-     "title": "Microsoft shares defy massive global outage, close higher on Friday; Outlook, Teams services recover - Things to know",
-     "url": "https://www.livemint.com/market/stock-market-news/microsoft-shares-defy-massive-global-outage-close-higher-on-friday-outlook-teams-services-recover-things-to-know-11794647299206.html"
-    },
-    {
-     "date": "2026-11-14",
-     "source": "Mint",
-     "title": "Tata Sons Listing: Noel Tata decodes why there should be no tinkering; what he said at Hindustan Times Leadership Summit",
-     "url": "https://www.livemint.com/market/stock-market-news/tata-sons-listing-noel-tata-decodes-why-there-should-be-no-tinkering-what-he-said-at-hindustan-times-leadership-summit-11794643211510.html"
-    },
-    {
-     "date": "2026-11-14",
-     "source": "Mint",
-     "title": "Dividend stock to buy: TD Power shares rally 369% in 3 years, more upside ahead? Check target price before record date",
-     "url": "https://www.livemint.com/market/stock-market-news/dividend-stock-to-buy-td-power-shares-rally-369-in-3-years-more-upside-ahead-check-target-price-before-record-date-11794648803654.html"
-    },
-    {
-     "date": "2026-11-14",
-     "source": "Mint",
-     "title": "Upcoming dividend, stock split, buyback record date next week, 16-20 Nov: MRF, SCI, PFC, Power Grid, Venus Pipes, more",
-     "url": "https://www.livemint.com/market/stock-market-news/upcoming-dividend-stock-split-buyback-record-date-next-week-16-20-nov-mrf-sci-pfc-power-grid-venus-pipes-more-11794644624084.html"
-    },
-    {
-     "date": "2026-11-14",
-     "source": "Mint",
-     "title": "Mahanadi Coalfields IPO: Coal India subsidiary files RHP - Latest GMP at ₹12.5; check key dates, size, valuation, more",
-     "url": "https://www.livemint.com/market/ipo/mahanadi-coalfields-ipo-coal-india-subsidiary-files-rhp-latest-gmp-at-rs-12-5-check-key-dates-size-valuation-more-11794640652111.html"
     }
    ]
   },
   "https://www.thehindubusinessline.com/markets/feeder/default.rss": {
-   "fetched": "2026-11-16T04:45+05:30",
+   "fetched": "2026-11-16T06:15+05:30",
    "items": [
     {
      "date": "2026-11-16",
@@ -1807,7 +1753,7 @@
    ]
   },
   "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss": {
-   "fetched": "2026-11-16T04:45+05:30",
+   "fetched": "2026-11-16T06:15+05:30",
    "items": [
     {
      "date": "2026-10-26",
@@ -1933,7 +1879,7 @@
   }
  },
  "crystal-crop-protection": {
-  "checked": "2026-11-16T06:00+05:30",
+  "checked": "2026-11-16T06:15+05:30",
   "items": [
    {
     "date": "2026-11-15",
@@ -1968,7 +1914,7 @@
   ]
  },
  "watrana-rentals": {
-  "checked": "2026-11-16T06:00+05:30",
+  "checked": "2026-11-16T06:15+05:30",
   "items": [
    {
     "date": "2026-11-15",
