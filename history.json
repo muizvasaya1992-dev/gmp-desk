@@ -19,6 +19,21 @@
    "unconfirmed": true
   },
   {
+   "name": "Mahanadi Coalfields",
+   "segment": "MAIN",
+   "symbol": null,
+   "listing": "2026-11-27",
+   "exchange": "NSE · BSE",
+   "live": true,
+   "id": "mahanadi-coalfields",
+   "status": "upcoming",
+   "open": "2026-11-19",
+   "close": "2026-11-23",
+   "price": 136,
+   "price_low": null,
+   "unconfirmed": true
+  },
+  {
    "name": "Crystal Crop Protection",
    "segment": "MAIN",
    "symbol": null,
@@ -5643,5 +5658,5 @@
    "status": "listed"
   }
  ],
- "generated_at": "2026-11-16T00:01+05:30"
+ "generated_at": "2026-11-16T09:31+05:30"
 }
