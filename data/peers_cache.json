@@ -102,7 +102,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-16T17:01+05:30",
+  "fetched_at": "2026-11-16T17:15+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -657,7 +657,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-16T17:01+05:30",
+  "fetched_at": "2026-11-16T17:15+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -684,34 +684,38 @@
     "detail": {
      "gmp_history": [
       [
+       "2026-11-16",
+       25.0
+      ],
+      [
        "2026-11-14",
        22.0
       ]
      ],
+     "sub": {
+      "total": 0.0,
+      "qib": 0.0,
+      "nii": 0.0,
+      "retail": 0.0
+     },
      "reservation": {
-      "nii": {
-       "pct": 15.02,
-       "shares": 698400
-      },
       "qib": {
-       "pct": 49.94,
-       "shares": 2322000
+       "shares": 2322000,
+       "pct": 49.94
+      },
+      "nii": {
+       "shares": 698400,
+       "pct": 15.02
       },
       "retail": {
-       "pct": 35.05,
-       "shares": 1629600
+       "shares": 1629600,
+       "pct": 35.05
       }
-     },
-     "sub": {
-      "nii": 0.0,
-      "qib": 0.0,
-      "retail": 0.0,
-      "total": 0.0
      },
      "uses": [
       {
-       "cr": 98.13,
-       "use": "Purchase"
+       "use": "Purchase",
+       "cr": 98.13
       }
      ]
     }
@@ -742,7 +746,7 @@
      "gmp_history": [
       [
        "2026-11-16",
-       16.0
+       13.0
       ],
       [
        "2026-11-14",
@@ -750,19 +754,19 @@
       ]
      ],
      "sub": {
-      "nii": 0.0,
+      "total": 0.0,
       "qib": 0.0,
-      "retail": 0.0,
-      "total": 0.0
+      "nii": 0.0,
+      "retail": 0.0
      },
      "uses": [
       {
-       "cr": 247.94,
-       "use": "Borrowings"
+       "use": "Borrowings",
+       "cr": 247.94
       },
       {
-       "cr": 22.06,
-       "use": "Subsidiary"
+       "use": "Subsidiary",
+       "cr": 22.06
       }
      ]
     }
@@ -793,7 +797,7 @@
      "gmp_history": [
       [
        "2026-11-16",
-       6.0
+       5.0
       ],
       [
        "2026-11-14",
@@ -801,15 +805,15 @@
       ]
      ],
      "sub": {
-      "nii": 0.0,
+      "total": 0.0,
       "qib": 0.0,
-      "retail": 0.0,
-      "total": 0.0
+      "nii": 0.0,
+      "retail": 0.0
      },
      "uses": [
       {
-       "cr": 8981.12,
-       "use": "Offer for Sale Proceeds"
+       "use": "Offer for Sale Proceeds",
+       "cr": 8981.12
       }
      ]
     }
