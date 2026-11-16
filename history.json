@@ -35,18 +35,17 @@
   },
   {
    "name": "Crystal Crop Protection",
-   "segment": "MAIN",
-   "symbol": null,
+   "segment": "SME",
+   "symbol": "CRYSTALCP",
    "listing": "2026-11-26",
-   "exchange": "NSE · BSE",
+   "exchange": "SME",
    "live": true,
-   "id": "crystal-crop-protection",
+   "id": "crystalcp",
    "status": "upcoming",
    "open": "2026-11-18",
    "close": "2026-11-20",
    "price": 272,
-   "price_low": null,
-   "unconfirmed": true
+   "price_low": 259
   },
   {
    "name": "Antala Industries",
@@ -5665,5 +5664,5 @@
    "status": "listed"
   }
  ],
- "generated_at": "2026-11-16T11:08+05:30"
+ "generated_at": "2026-11-16T16:45+05:30"
 }

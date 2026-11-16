@@ -1641,5 +1641,28 @@
     "total": 0.0
    }
   ]
+ },
+ "CRYSTALCP": {
+  "symbol": "CRYSTALCP",
+  "first_seen": "2026-11-16T16:45+05:30",
+  "name": "Crystal Crop Protection",
+  "open": "2026-11-18",
+  "close": "2026-11-20",
+  "price": 272,
+  "price_low": 259,
+  "series": "Equity",
+  "nse_status": "Forthcoming",
+  "shares_offered": 17419685.0,
+  "last_seen": "2026-11-16T16:45+05:30",
+  "segment": "SME",
+  "lot": 55,
+  "registrar": "MUFG Intime India Private Limited",
+  "lead_managers": [
+   "IIFL Capital Services Limited, DAM Capital Advisors Limited, Motilal Oswal Investment Advisors Limited"
+  ],
+  "retail_max": 200000,
+  "cutoff_time": "5:00 PM",
+  "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_CRYSTALCP.zip",
+  "details_at": "2026-11-16T16:45+05:30"
  }
 }
