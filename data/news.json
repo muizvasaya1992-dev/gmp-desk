@@ -1,7 +1,7 @@
 {
  "_feeds": {
   "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms": {
-   "fetched": "2026-11-16T10:45+05:30",
+   "fetched": "2026-11-16T11:08+05:30",
    "items": [
     {
      "date": "2026-11-16",
@@ -306,7 +306,7 @@
    ]
   },
   "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms": {
-   "fetched": "2026-11-16T10:45+05:30",
+   "fetched": "2026-11-16T11:08+05:30",
    "items": [
     {
      "date": "2026-11-14",
@@ -611,8 +611,20 @@
    ]
   },
   "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml": {
-   "fetched": "2026-11-16T10:45+05:30",
+   "fetched": "2026-11-16T11:08+05:30",
    "items": [
+    {
+     "date": "2026-11-16",
+     "source": "cnbctv18.com",
+     "title": "Explained - Why Jefferies raised Paytm share price target to a joint highest ₹2,300",
+     "url": "https://www.cnbctv18.com/market/paytm-share-price-target-raised-by-jefferies-joint-highest-on-the-street-ppsl-wallet-share-monetisation-opportunity-returns-20034718.htm"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "cnbctv18.com",
+     "title": "Biocon shares gain after US FDA approves cancer drug biosimilar",
+     "url": "https://www.cnbctv18.com/market/biocon-share-price-usfda-approval-pebrilzo-fifth-oncology-biosimilar-her2-positive-breast-cancer-drug-20034624.htm"
+    },
     {
      "date": "2026-11-16",
      "source": "cnbctv18.com",
@@ -754,7 +766,7 @@
     {
      "date": "2026-11-16",
      "source": "cnbctv18.com",
-     "title": "Sensex Today | Stock Market LIVE Updates: Nifty rises over 130 points; Belrise Ind surges 11%",
+     "title": "Sensex Today | Stock Market LIVE Updates: Nifty gives up some gains; Piramal Pharma at 52-wk high",
      "url": "https://www.cnbctv18.com/market/stock-market-live-updates-sensex-nifty-50-today-nifty-bank-midcaps-smallcaps-tata-motors-pv-kaynes-eicher-zaggle-manipal-share-price-liveblog-20034520.htm"
     },
     {
@@ -1080,23 +1092,11 @@
      "source": "cnbctv18.com",
      "title": "Maharashtra Seamless Q2 results: Profit falls 42% to ₹73 crore, revenue rises nearly 10%",
      "url": "https://www.cnbctv18.com/market/maharashtra-seamless-q2-results-net-profit-falls-to-rs73-crore-revenue-rises-share-price-tax-expense-20033543.htm"
-    },
-    {
-     "date": "2026-11-13",
-     "source": "cnbctv18.com",
-     "title": "Sensex falls 319 points, Nifty slips below 25,200: What dragged Dalal Street today?",
-     "url": "https://www.cnbctv18.com/market/sensex-falls-319-points-nifty-slips-below-25200-what-dragged-dalal-street-today-20033516.htm"
-    },
-    {
-     "date": "2026-11-13",
-     "source": "cnbctv18.com",
-     "title": "Paytm gets RBI in-principle approval to issue prepaid payment instruments, including wallets",
-     "url": "https://www.cnbctv18.com/market/paytm-rbi-in-principle-approval-to-issue-prepaid-payment-instruments-including-wallets-20033504.htm"
     }
    ]
   },
   "https://www.freepressjournal.in/stories.rss?section=business": {
-   "fetched": "2026-11-16T10:45+05:30",
+   "fetched": "2026-11-16T11:08+05:30",
    "items": [
     {
      "date": "2026-11-16",
@@ -1401,7 +1401,7 @@
    ]
   },
   "https://www.livemint.com/rss/markets": {
-   "fetched": "2026-11-16T10:45+05:30",
+   "fetched": "2026-11-16T11:08+05:30",
    "items": [
     {
      "date": "2026-11-16",
@@ -1508,14 +1508,14 @@
     {
      "date": "2026-11-16",
      "source": "Mint",
-     "title": "Emerging-Market Assets Dip as Chip Rout, Fed Rate Worries Linger",
-     "url": "https://www.livemint.com/market/emergingmarket-assets-dip-as-chip-rout-fed-rate-worries-linger-11794781837535.html"
+     "title": "Retail Crowd Dump Vietnam Stocks for Near 10% Bank-Deposit Rates",
+     "url": "https://www.livemint.com/market/retail-crowd-dump-vietnam-stocks-for-near-10-bank-deposit-rates-11794781837585.html"
     },
     {
      "date": "2026-11-16",
      "source": "Mint",
-     "title": "Retail Crowd Dump Vietnam Stocks for Near 10% Bank-Deposit Rates",
-     "url": "https://www.livemint.com/market/retail-crowd-dump-vietnam-stocks-for-near-10-bank-deposit-rates-11794781837585.html"
+     "title": "Emerging-Market Assets Dip as Chip Rout, Fed Rate Worries Linger",
+     "url": "https://www.livemint.com/market/emergingmarket-assets-dip-as-chip-rout-fed-rate-worries-linger-11794781837535.html"
     },
     {
      "date": "2026-11-16",
@@ -1616,7 +1616,7 @@
    ]
   },
   "https://www.thehindubusinessline.com/markets/feeder/default.rss": {
-   "fetched": "2026-11-16T10:45+05:30",
+   "fetched": "2026-11-16T11:08+05:30",
    "items": [
     {
      "date": "2026-11-16",
@@ -1981,7 +1981,7 @@
    ]
   },
   "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss": {
-   "fetched": "2026-11-16T10:45+05:30",
+   "fetched": "2026-11-16T11:08+05:30",
    "items": [
     {
      "date": "2026-10-26",
@@ -2107,7 +2107,7 @@
   }
  },
  "crystal-crop-protection": {
-  "checked": "2026-11-16T11:00+05:30",
+  "checked": "2026-11-16T11:08+05:30",
   "items": [
    {
     "date": "2026-11-15",
@@ -2136,7 +2136,7 @@
   ]
  },
  "mahanadi-coalfields": {
-  "checked": "2026-11-16T11:00+05:30",
+  "checked": "2026-11-16T11:08+05:30",
   "items": [
    {
     "date": "2026-11-16",
@@ -2177,7 +2177,7 @@
   ]
  },
  "watrana-rentals": {
-  "checked": "2026-11-16T11:00+05:30",
+  "checked": "2026-11-16T11:08+05:30",
   "items": [
    {
     "date": "2026-11-15",

@@ -102,7 +102,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-16T11:01+05:30",
+  "fetched_at": "2026-11-16T11:08+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -657,39 +657,8 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-16T11:01+05:30",
+  "fetched_at": "2026-11-16T11:08+05:30",
   "records": [
-   {
-    "src": "Tracker D",
-    "slug": "il-jin-electronics-india",
-    "name": "IL JIN Electronics (India)",
-    "segment": "MAIN",
-    "exchange": null,
-    "open": null,
-    "close": null,
-    "boa": null,
-    "listing": null,
-    "price": null,
-    "price_low": null,
-    "size_cr": 2500.0,
-    "gmp": 0.0,
-    "gmp_at": null,
-    "sub_total": null,
-    "sub_retail": null,
-    "sub_at": null,
-    "lot": null,
-    "sector": "Electronics Manufacturing Services (EMS)",
-    "detail_url": "https://ipoindex.in/ipo/il-jin-electronics-india/",
-    "live": true,
-    "detail": {
-     "sub": {
-      "total": 0.0,
-      "qib": 0.0,
-      "nii": 0.0,
-      "retail": 0.0
-     }
-    }
-   },
    {
     "src": "Tracker D",
     "slug": "watrana-rentals",
@@ -719,30 +688,30 @@
        22.0
       ]
      ],
+     "sub": {
+      "total": 0.0,
+      "qib": 0.0,
+      "nii": 0.0,
+      "retail": 0.0
+     },
      "reservation": {
-      "nii": {
-       "pct": 15.02,
-       "shares": 698400
-      },
       "qib": {
-       "pct": 49.94,
-       "shares": 2322000
+       "shares": 2322000,
+       "pct": 49.94
+      },
+      "nii": {
+       "shares": 698400,
+       "pct": 15.02
       },
       "retail": {
-       "pct": 35.05,
-       "shares": 1629600
+       "shares": 1629600,
+       "pct": 35.05
       }
-     },
-     "sub": {
-      "nii": 0.0,
-      "qib": 0.0,
-      "retail": 0.0,
-      "total": 0.0
      },
      "uses": [
       {
-       "cr": 98.13,
-       "use": "Purchase"
+       "use": "Purchase",
+       "cr": 98.13
       }
      ]
     }
@@ -760,7 +729,7 @@
     "price": 259.0,
     "price_low": null,
     "size_cr": 455.49,
-    "gmp": 15.0,
+    "gmp": 16.0,
     "gmp_at": null,
     "sub_total": null,
     "sub_retail": null,
@@ -773,7 +742,7 @@
      "gmp_history": [
       [
        "2026-11-16",
-       15.0
+       16.0
       ],
       [
        "2026-11-14",
@@ -781,19 +750,19 @@
       ]
      ],
      "sub": {
-      "nii": 0.0,
+      "total": 0.0,
       "qib": 0.0,
-      "retail": 0.0,
-      "total": 0.0
+      "nii": 0.0,
+      "retail": 0.0
      },
      "uses": [
       {
-       "cr": 247.94,
-       "use": "Borrowings"
+       "use": "Borrowings",
+       "cr": 247.94
       },
       {
-       "cr": 22.06,
-       "use": "Subsidiary"
+       "use": "Subsidiary",
+       "cr": 22.06
       }
      ]
     }
@@ -811,7 +780,7 @@
     "price": 129.0,
     "price_low": null,
     "size_cr": 8981.12,
-    "gmp": 7.0,
+    "gmp": 5.5,
     "gmp_at": null,
     "sub_total": null,
     "sub_retail": null,
@@ -824,7 +793,7 @@
      "gmp_history": [
       [
        "2026-11-16",
-       7.0
+       6.0
       ],
       [
        "2026-11-14",
@@ -832,11 +801,17 @@
       ]
      ],
      "sub": {
-      "nii": 0.0,
+      "total": 0.0,
       "qib": 0.0,
-      "retail": 0.0,
-      "total": 0.0
-     }
+      "nii": 0.0,
+      "retail": 0.0
+     },
+     "uses": [
+      {
+       "use": "Offer for Sale Proceeds",
+       "cr": 8981.12
+      }
+     ]
     }
    }
   ]
