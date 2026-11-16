@@ -102,7 +102,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-16T09:31+05:30",
+  "fetched_at": "2026-11-16T09:45+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -657,7 +657,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-16T09:31+05:30",
+  "fetched_at": "2026-11-16T09:45+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -723,7 +723,7 @@
     "price": 259.0,
     "price_low": null,
     "size_cr": 455.49,
-    "gmp": 27.0,
+    "gmp": 15.0,
     "gmp_at": null,
     "sub_total": null,
     "sub_retail": null,
@@ -767,30 +767,34 @@
     "close": null,
     "boa": null,
     "listing": null,
-    "price": null,
+    "price": 129.0,
     "price_low": null,
-    "size_cr": null,
-    "gmp": 13.0,
+    "size_cr": 8981.12,
+    "gmp": 7.0,
     "gmp_at": null,
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
-    "lot": null,
+    "lot": 110.0,
     "sector": "Coal",
     "detail_url": "https://ipoindex.in/ipo/mahanadi-coalfields-ipo/",
     "live": true,
     "detail": {
      "gmp_history": [
       [
+       "2026-11-16",
+       7.0
+      ],
+      [
        "2026-11-14",
        13.0
       ]
      ],
      "sub": {
-      "nii": 0.0,
+      "total": 0.0,
       "qib": 0.0,
-      "retail": 0.0,
-      "total": 0.0
+      "nii": 0.0,
+      "retail": 0.0
      }
     }
    }
