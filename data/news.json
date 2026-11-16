@@ -1,8 +1,14 @@
 {
  "_feeds": {
   "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms": {
-   "fetched": "2026-11-16T07:45+05:30",
+   "fetched": "2026-11-16T09:15+05:30",
    "items": [
+    {
+     "date": "2026-11-16",
+     "source": "Economic Times",
+     "title": "Mahanadi Coalfields IPO price band set at Rs 129–136; Rs 8,981 crore issue to open on November 19",
+     "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-price-band-set-at-rs-129136-rs-8981-crore-issue-to-open-on-november-19/articleshow/135870181.cms"
+    },
     {
      "date": "2026-11-16",
      "source": "Economic Times",
@@ -296,17 +302,11 @@
      "source": "Economic Times",
      "title": "Jio IPO: Can India’s biggest-ever issue buck the trend of muted listing gains among mega IPOs?",
      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipo-can-indias-biggest-ever-issue-buck-the-trend-of-muted-listing-gains-among-mega-ipos/articleshow/135224855.cms"
-    },
-    {
-     "date": "2026-10-27",
-     "source": "Economic Times",
-     "title": "EAAA India Alternatives IPO Day 2: Check GMP, subscription status and other key details",
-     "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/eaaa-india-alternatives-ipo-day-2-check-gmp-subscription-status-and-other-key-details/articleshow/135224352.cms"
     }
    ]
   },
   "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms": {
-   "fetched": "2026-11-16T07:45+05:30",
+   "fetched": "2026-11-16T09:15+05:30",
    "items": [
     {
      "date": "2026-11-14",
@@ -611,12 +611,54 @@
    ]
   },
   "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml": {
-   "fetched": "2026-11-16T07:45+05:30",
+   "fetched": "2026-11-16T09:15+05:30",
    "items": [
     {
      "date": "2026-11-16",
      "source": "cnbctv18.com",
-     "title": "Vikram Solar shares in focus after Q2 profit plunges 95%, margins under pressure",
+     "title": "Eicher Motors shares could test levels of ₹9,500, bullish analysts project after Q2 results",
+     "url": "https://www.cnbctv18.com/market/eicher-motors-share-price-q2-result-reaction-citi-highest-target-buy-sell-royal-enfield-20034568.htm"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "cnbctv18.com",
+     "title": "Kaynes Tech shares fall 10% after Q2 results miss, prior financials being restated",
+     "url": "https://www.cnbctv18.com/market/kaynes-tech-share-price-q2-result-reaction-financials-restated-stake-sale-earnings-miss-fy27-guidance-cash-flow-buy-sell-20034601.htm"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "cnbctv18.com",
+     "title": "ABB India share price: Motilal Oswal upgrades to 'buy' but HSBC stays cautious",
+     "url": "https://www.cnbctv18.com/market/abb-india-share-price-target-motilal-oswal-upgrades-to-buy-but-hsbc-stays-cautious-20034588.htm"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "cnbctv18.com",
+     "title": "Patanjali Foods earnings estimates cut by Jefferies after Q2 results, but second half seen stronger",
+     "url": "https://www.cnbctv18.com/market/patanjali-foods-share-price-q2-results-jefferies-earnings-estimates-cut-expects-stronger-second-half-20034558.htm"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "cnbctv18.com",
+     "title": "Nvidia shares may bounce back as investors gauge Jensen Huang's comeback reports",
+     "url": "https://www.cnbctv18.com/market/nvidia-shares-may-bounce-back-as-investors-gauge-jensen-huangs-comeback-reports-20034576.htm"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "cnbctv18.com",
+     "title": "Intel sued by shareholders following 29% stock plunge",
+     "url": "https://www.cnbctv18.com/market/intel-sued-by-shareholders-following-29-pc-stock-plunge-20033591.htm"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "cnbctv18.com",
+     "title": "Senco Gold raises FY27 guidance, sees higher contribution from north India; Stock in focus",
+     "url": "https://www.cnbctv18.com/market/senco-gold-share-price-q2-result-reaction-revenue-growth-margin-impact-festive-season-vision-fy30-store-addition-sssg-plan-20034541.htm"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "cnbctv18.com",
+     "title": "Vikram Solar shares fall nearly 9% after Q2 profit plunges 95%, margins under pressure",
      "url": "https://www.cnbctv18.com/market/vikram-solar-share-price-q2-result-reaction-profit-falls-95-percent-margin-pressure-outlook-20034565.htm"
     },
     {
@@ -652,7 +694,7 @@
     {
      "date": "2026-11-16",
      "source": "cnbctv18.com",
-     "title": "Sensex Today | Stock Market LIVE Updates: GIFT Nifty gives up some gains, trades 50 pts higher",
+     "title": "Sensex Today | Stock Market LIVE Updates: Nifty opens above 25,200; Kaynes Tech down 10%",
      "url": "https://www.cnbctv18.com/market/stock-market-live-updates-sensex-nifty-50-today-nifty-bank-midcaps-smallcaps-tata-motors-pv-kaynes-eicher-zaggle-manipal-share-price-liveblog-20034520.htm"
     },
     {
@@ -664,7 +706,7 @@
     {
      "date": "2026-11-16",
      "source": "cnbctv18.com",
-     "title": "Tata Motors PV shares are a 'sell' candidate after Q2 results, Motilal Oswal says after cutting target",
+     "title": "Tata Motors PV shares fall over 5% after multiple price target cuts on Q2 loss, JLR guidance revision",
      "url": "https://www.cnbctv18.com/market/tata-motors-pv-share-price-q2-result-reaction-buy-sell-motilal-cuts-target-eps-estimates-jlr-headwinds-20034512.htm"
     },
     {
@@ -1050,54 +1092,108 @@
      "source": "cnbctv18.com",
      "title": "PNG Jewellers sees strong festive demand, sales grow 14% to ₹689 crore",
      "url": "https://www.cnbctv18.com/market/pn-gadgil-jewellers-share-price-strong-festive-demand-sales-grow-gold-silver-categories-20033326.htm"
-    },
-    {
-     "date": "2026-11-13",
-     "source": "cnbctv18.com",
-     "title": "Over 12 hours after outage people across globe still not able to access Microsoft Outlook, Teams",
-     "url": "https://www.cnbctv18.com/business/microsoft-365-outage-teams-outlook-copilot-word-excel-powerpoint-azure-20033338.htm"
-    },
-    {
-     "date": "2026-11-13",
-     "source": "cnbctv18.com",
-     "title": "SpiceJet to consider fresh capital raise through equity, preference shares; shares rise 5%",
-     "url": "https://www.cnbctv18.com/market/spicejet-share-price-board-meet-fund-raising-equity-preference-shares-operational-issues-flight-cancellations-2026-stock-losses-20033312.htm"
-    },
-    {
-     "date": "2026-11-13",
-     "source": "cnbctv18.com",
-     "title": "Park Medi World Q2 Results: Stock falls 8% after profit, margins come under pressure",
-     "url": "https://www.cnbctv18.com/market/park-medi-world-q2-results-revenue-ebitda-margin-pressure-beds-treated-patients-share-price-reaction-20033306.htm"
-    },
-    {
-     "date": "2026-11-13",
-     "source": "cnbctv18.com",
-     "title": "Vodafone Idea shares are a buy or sell? Nomura highlights key triggers and risks",
-     "url": "https://www.cnbctv18.com/market/vodafone-idea-share-price-buy-or-sell-nomura-highlights-key-triggers-and-risks-20033308.htm"
-    },
-    {
-     "date": "2026-11-13",
-     "source": "cnbctv18.com",
-     "title": "Manappuram Finance shares decline nearly 4% even after CLSA upgrade on Q2 results",
-     "url": "https://www.cnbctv18.com/market/manappuram-finance-share-price-q2-result-reaction-asset-quality-gold-stage-2-loans-clsa-upgrade-buy-target-risks-20033253.htm"
-    },
-    {
-     "date": "2026-11-13",
-     "source": "cnbctv18.com",
-     "title": "'Broken and shattered': Jensen Huang’s last hours as Nvidia CEO",
-     "url": "https://www.cnbctv18.com/business/broken-and-shattered-jensen-huangs-last-hours-as-nvidia-ceo-20033272.htm"
-    },
-    {
-     "date": "2026-11-13",
-     "source": "cnbctv18.com",
-     "title": "NSE shares cross ₹2,000 for first time, market cap nears ₹5 lakh crore",
-     "url": "https://www.cnbctv18.com/market/nse-share-price-crosses-2000-mark-for-the-first-time-market-cap-near-5-lakh-crore-ipo-returns-q2-results-20033235.htm"
     }
    ]
   },
   "https://www.freepressjournal.in/stories.rss?section=business": {
-   "fetched": "2026-11-16T07:45+05:30",
+   "fetched": "2026-11-16T09:15+05:30",
    "items": [
+    {
+     "date": "2026-11-16",
+     "source": "freepressjournal.in",
+     "title": "Iran Reports Another Oil Tanker Catching Fire After Naval Mine Strike In Strait Of Hormuz, Warns Ships Against Entering Restricted Zone | Video",
+     "url": "https://www.freepressjournal.in/world/iran-reports-another-oil-tanker-catching-fire-after-naval-mine-strike-in-strait-of-hormuz-warns-ships-against-entering-restricted-zone-video"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "freepressjournal.in",
+     "title": "Chhath Puja 2026 Concludes As Devotees Offer Usha Arghya To Rising Sun At Ghats Across India | Video",
+     "url": "https://www.freepressjournal.in/india/chhath-puja-2026-concludes-as-devotees-offer-usha-arghya-to-rising-sun-at-ghats-across-india-video"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "freepressjournal.in",
+     "title": "Tamannaah Bhatia Graces Juhu Beach To Celebrate Chhat Puja In Dreamy Yellow Anarkali Ensemble",
+     "url": "https://www.freepressjournal.in/lifestyle/tamannaah-bhatia-graces-juhu-beach-to-celebrate-chhat-puja-in-dreamy-yellow-anarkali-ensemble"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "freepressjournal.in",
+     "title": "Prince William & Princess Catherine To Arrive In Mumbai For Earthshot Prize 2026, Meet PM Modi In Delhi During 3-Day India Visit",
+     "url": "https://www.freepressjournal.in/mumbai/prince-william-princess-catherine-to-arrive-in-mumbai-for-earthshot-prize-2026-meet-pm-modi-in-delhi-during-3-day-india-visit"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "freepressjournal.in",
+     "title": "'Agar Khilaf Hain Toh Hone Do': Diljit Dosanjh Takes Dig At Ban On 4 Songs During Indore Concert Over Alleged Promotion Of Alcohol, Drugs—VIDEO",
+     "url": "https://www.freepressjournal.in/entertainment/agar-khilaf-hain-toh-hone-do-diljit-dosanjh-takes-dig-at-ban-on-4-songs-during-indore-concert-over-alleged-promotion-of-alcohol-and-drugsvideo"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "freepressjournal.in",
+     "title": "PM Modi Set To Visit Philippines For 3-Day ASEAN-India And East Asia Summits; Maritime Security And Trade Ties In Focus",
+     "url": "https://www.freepressjournal.in/world/pm-modi-set-to-visit-philippines-for-3-day-asean-india-and-east-asia-summits-maritime-security-and-trade-ties-in-focus"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "freepressjournal.in",
+     "title": "Tiger Cub Run Over By Speeding Train In MP's Balaghat, Viral Video Raises Questions Over Forest Officials' Inaction",
+     "url": "https://www.freepressjournal.in/bhopal/tiger-cub-run-over-by-speeding-train-in-mps-balaghat-viral-video-raises-questions-over-forest-officials-inaction"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "freepressjournal.in",
+     "title": "Quote Of The Day By Aditya Roy Kapur On His 41st Birthday: ‘Being Single Isn't All That Bad...’",
+     "url": "https://www.freepressjournal.in/lifestyle/quote-of-the-day-by-aditya-roy-kapur-on-his-41st-birthday-being-single-isnt-all-that-bad"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "freepressjournal.in",
+     "title": "Chhath Puja 2026: Bihar-Jharkhand Association Of Ireland Celebrates Sandhya Arghya With Devotees In Naas | Watch",
+     "url": "https://www.freepressjournal.in/india/chhath-puja-2026-bihar-jharkhand-association-of-ireland-celebrates-sandhya-arghya-with-devotees-in-naas-watch"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "freepressjournal.in",
+     "title": "India Joins US-Led Pax Silica Initiative, Signs San Francisco Declaration To Secure AI Supply Chains And Critical Technologies",
+     "url": "https://www.freepressjournal.in/tech/india-joins-us-led-pax-silica-initiative-signs-san-francisco-declaration-to-secure-ai-supply-chains-and-critical-technologies"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "freepressjournal.in",
+     "title": "Chhath Puja In Mumbai: Thousands Gather At Juhu Beach To Offer Arghya To Rising Sun; Videos",
+     "url": "https://www.freepressjournal.in/mumbai/chhath-puja-in-mumbai-thousands-gather-at-juhu-beach-to-offer-arghya-to-rising-sun-videos-mumbai-news"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "freepressjournal.in",
+     "title": "50-Foot Waves Batter California Coast, Flood Beaches And Shut Iconic Piers | Watch",
+     "url": "https://www.freepressjournal.in/world/50-foot-waves-batter-california-coast-flood-beaches-and-shut-iconic-piers-watch"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "freepressjournal.in",
+     "title": "New Orleans Ship Collision: Tanker's Steering Failure Caused Crash With American Heritage Cruise Ship, NTSB Says | Video",
+     "url": "https://www.freepressjournal.in/world/new-orleans-ship-collision-tankers-steering-failure-caused-crash-with-american-heritage-cruise-ship-ntsb-says-video"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "freepressjournal.in",
+     "title": "Overheard In Bhopal: Peon’s Anger, Setting Eyes, Bid For Posting & More",
+     "url": "https://www.freepressjournal.in/bhopal/overheard-in-bhopal-peons-anger-setting-eyes-bid-for-posting-more"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "freepressjournal.in",
+     "title": "MP's Atal Griha Jyoti Yojana Provides ₹169.70 Crore Electricity Subsidy To 30.34 Lakh Consumers In Malwa-Nimar",
+     "url": "https://www.freepressjournal.in/indore/mps-atal-griha-jyoti-yojana-provides-16970-crore-electricity-subsidy-to-3034-lakh-consumers-in-malwa-nimar"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "freepressjournal.in",
+     "title": "'Those Who Cannot Remember History...': Iran's Araghchi Takes Dig At Marco Rubio Over His 'Men With Swords' Remark Against ICC",
+     "url": "https://www.freepressjournal.in/world/those-who-cannot-remember-history-irans-araghchi-takes-dig-at-marco-rubio-over-his-men-with-swords-remark-against-icc"
+    },
     {
      "date": "2026-11-16",
      "source": "freepressjournal.in",
@@ -1137,32 +1233,20 @@
     {
      "date": "2026-11-15",
      "source": "freepressjournal.in",
-     "title": "Women's Asian Hockey Champions Trophy 2026 In Bhopal, MP Academy Players Confident Of Victory On Home Turf",
-     "url": "https://www.freepressjournal.in/bhopal/womens-asian-hockey-champions-trophy-2026-in-bhopal-mp-academy-players-confident-of-victory-on-home-turf"
-    },
-    {
-     "date": "2026-11-15",
-     "source": "freepressjournal.in",
-     "title": "Bhopal Water Contamination Scare As E. Coli Detected In RO Water At Vaishali Nagar, Residents Stop Drinking Tap Water",
-     "url": "https://www.freepressjournal.in/bhopal/bhopal-water-contamination-scare-as-e-coli-detected-in-ro-water-at-vaishali-nagar-residents-stop-drinking-tap-water"
-    },
-    {
-     "date": "2026-11-15",
-     "source": "freepressjournal.in",
-     "title": "Chhath Puja Usha Arghya 2026: Check City-Wise Sunrise Timings In Mumbai, Delhi, Patna And More To Break 36-Hour-Long Fast",
-     "url": "https://www.freepressjournal.in/lifestyle/chhath-puja-usha-arghya-2026-check-city-wise-sunrise-timings-in-mumbai-delhi-patna-and-more-to-break-36-hour-long-fast"
-    },
-    {
-     "date": "2026-11-15",
-     "source": "freepressjournal.in",
-     "title": "Kal Bhairav Temple Road In MP's Ujjain To Close From November 16 Evening, VIP Darshan Suspended Ahead Of Simhastha 2028",
-     "url": "https://www.freepressjournal.in/indore/kal-bhairav-temple-road-in-mps-ujjain-to-close-from-november-16-evening-vip-darshan-suspended-ahead-of-simhastha-2028"
+     "title": "What Is Usha Arghaya? Dos And Dont's To Follow On The Fourth Day Of Chhath Mahaparv",
+     "url": "https://www.freepressjournal.in/lifestyle/what-is-usha-arghaya-dos-and-donts-to-follow-on-the-fourth-day-of-chhath-mahaparv"
     }
    ]
   },
   "https://www.livemint.com/rss/markets": {
-   "fetched": "2026-11-16T07:45+05:30",
+   "fetched": "2026-11-16T09:15+05:30",
    "items": [
+    {
+     "date": "2026-11-16",
+     "source": "Mint",
+     "title": "Coal India's Mahanadi Coalfields IPO price band set at ₹129 - ₹136 per share | Check GMP, issue details, key dates",
+     "url": "https://www.livemint.com/market/ipo/coal-indias-mahanadi-coalfields-ipo-price-band-set-at-rs-129-rs-136-per-share-check-gmp-issue-details-key-dates-11794795588725.html"
+    },
     {
      "date": "2026-11-16",
      "source": "Mint",
@@ -1366,23 +1450,29 @@
      "source": "Mint",
      "title": "How to ensure that AI disruption doesn’t leave workers behind",
      "url": "https://www.livemint.com/market/how-to-ensure-that-ai-disruption-doesn-t-leave-workers-behind-11794708119550.html"
-    },
-    {
-     "date": "2026-11-15",
-     "source": "Mint",
-     "title": "Best stocks to buy under ₹100: Lloyds Engineering, Niva Bupa, Vedanta Power by Sumeet Bagadia | Targets, stop-loss",
-     "url": "https://www.livemint.com/market/stock-market-news/best-stocks-to-buy-under-rs-100-lloyds-engineering-niva-bupa-vedanta-power-by-sumeet-bagadia-targets-stoploss-11794674607528.html"
     }
    ]
   },
   "https://www.thehindubusinessline.com/markets/feeder/default.rss": {
-   "fetched": "2026-11-16T07:45+05:30",
+   "fetched": "2026-11-16T09:15+05:30",
    "items": [
     {
      "date": "2026-11-16",
      "source": "BusinessLine",
      "title": "Sensex today | Stock Market Live Updates: Nifty, Sensex eye fresh gains amid global weakness",
      "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-16th-november-2026/article71705118.ece"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "BusinessLine",
+     "title": "Rupee likely to open flat as dollar strength, US bond yields weigh on sentiment",
+     "url": "https://www.thehindubusinessline.com/markets/forex/rupee-likely-to-open-flat-as-dollar-strength-us-bond-yields-weigh-on-sentiment/article71706648.ece"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "BusinessLine",
+     "title": "Mahanadi Coalfields sets IPO price band at ₹129-136; issue opens November 19",
+     "url": "https://www.thehindubusinessline.com/markets/mahanadi-coalfields-sets-ipo-price-band-at-129-136-issue-opens-november-19/article71706647.ece"
     },
     {
      "date": "2026-11-16",
@@ -1725,23 +1815,11 @@
      "source": "BusinessLine",
      "title": "Norwest raises $4 billion fund, lines up 6-8 investments in India",
      "url": "https://www.thehindubusinessline.com/companies/norwest-raises-4-billion-fund-lines-up-6-8-investments-in-india/article71694038.ece"
-    },
-    {
-     "date": "2026-11-12",
-     "source": "BusinessLine",
-     "title": "Rupee hits one-week low, slips past 94 per dollar",
-     "url": "https://www.thehindubusinessline.com/markets/forex/rupee-hits-one-week-low-slips-past-94-per-dollar/article71694417.ece"
-    },
-    {
-     "date": "2026-11-12",
-     "source": "BusinessLine",
-     "title": "Nvidia rout wipes out $300 billion in market value, drags down AI stocks",
-     "url": "https://www.thehindubusinessline.com/markets/stock-markets/nvidia-rout-wipes-out-300-billion-in-market-value-drags-down-ai-stocks/article71694120.ece"
     }
    ]
   },
   "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss": {
-   "fetched": "2026-11-16T07:45+05:30",
+   "fetched": "2026-11-16T09:15+05:30",
    "items": [
     {
      "date": "2026-10-26",
@@ -1867,7 +1945,7 @@
   }
  },
  "crystal-crop-protection": {
-  "checked": "2026-11-16T09:01+05:30",
+  "checked": "2026-11-16T09:15+05:30",
   "items": [
    {
     "date": "2026-11-15",
@@ -1902,7 +1980,7 @@
   ]
  },
  "watrana-rentals": {
-  "checked": "2026-11-16T09:01+05:30",
+  "checked": "2026-11-16T09:15+05:30",
   "items": [
    {
     "date": "2026-11-15",
