@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T23:23+05:30",
+  "generated_at": "2026-11-16T23:31+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-16T11:08+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-16T23:23+05:30",
+    "nse_ok_at": "2026-11-16T23:31+05:30",
     "bse_ok_at": "2026-11-16T11:09+05:30"
   },
   "ipos": [
@@ -2860,6 +2860,17 @@
       "shares_offered": 17419685.0,
       "updated_on": "2026-11-16T18:01+05:30",
       "tracker_rating": 1,
+      "uses": [
+        {
+          "cr": 247.94,
+          "use": "Borrowings"
+        },
+        {
+          "cr": 22.06,
+          "use": "Subsidiary"
+        }
+      ],
+      "sector": "Other Agricultural Products",
       "gmp_sources": [
         {
           "source": "Public trackers",
@@ -2959,6 +2970,32 @@
       "shares_offered": 4902000.0,
       "updated_on": "2026-11-16T18:01+05:30",
       "tracker_rating": 3,
+      "reservation_detail": {
+        "nii": {
+          "pct": 15.02,
+          "shares": 698400
+        },
+        "qib": {
+          "pct": 49.94,
+          "shares": 2322000
+        },
+        "retail": {
+          "pct": 35.05,
+          "shares": 1629600
+        }
+      },
+      "reservation": {
+        "qib": 49.94,
+        "nii": 15.02,
+        "retail": 35.05
+      },
+      "uses": [
+        {
+          "cr": 98.13,
+          "use": "Purchase"
+        }
+      ],
+      "sector": "Diversified Commercial Services",
       "lot_basis": "tracker",
       "gmp_sources": [
         {
@@ -3202,6 +3239,13 @@
       "segment": "MAIN",
       "size_cr": 8981.12,
       "tracker_rating": 1,
+      "uses": [
+        {
+          "cr": 8981.12,
+          "use": "Offer for Sale Proceeds"
+        }
+      ],
+      "sector": "Coal",
       "gmp_sources": [
         {
           "source": "Public trackers",
