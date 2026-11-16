@@ -102,7 +102,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-16T23:15+05:30",
+  "fetched_at": "2026-11-16T23:23+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -117,8 +117,8 @@
     "price": 136.0,
     "price_low": null,
     "size_cr": 8981.12,
-    "gmp": 4.5,
-    "gmp_at": "2026-11-16T19:37",
+    "gmp": 4.25,
+    "gmp_at": "2026-11-16T19:02",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -140,7 +140,7 @@
     "price_low": null,
     "size_cr": 120.1,
     "gmp": 25.0,
-    "gmp_at": "2026-11-16T19:37",
+    "gmp_at": "2026-11-16T19:02",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -162,7 +162,7 @@
     "price_low": null,
     "size_cr": 455.49,
     "gmp": 13.0,
-    "gmp_at": "2026-11-16T19:37",
+    "gmp_at": "2026-11-16T19:02",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -653,170 +653,6 @@
     "lot": 21.0,
     "rating": 5,
     "live": false
-   }
-  ]
- },
- "d": {
-  "fetched_at": "2026-11-16T23:15+05:30",
-  "records": [
-   {
-    "src": "Tracker D",
-    "slug": "watrana-rentals",
-    "name": "Watrana Rentals",
-    "segment": "SME",
-    "exchange": null,
-    "open": null,
-    "close": null,
-    "boa": null,
-    "listing": null,
-    "price": 245.0,
-    "price_low": 232.0,
-    "size_cr": 120.1,
-    "gmp": 25.0,
-    "gmp_at": null,
-    "sub_total": null,
-    "sub_retail": null,
-    "sub_at": null,
-    "lot": 600.0,
-    "sector": "Diversified Commercial Services",
-    "detail_url": "https://ipoindex.in/ipo/watrana-rentals-sme-ipo/",
-    "live": true,
-    "detail": {
-     "gmp_history": [
-      [
-       "2026-11-16",
-       25.0
-      ],
-      [
-       "2026-11-14",
-       22.0
-      ]
-     ],
-     "sub": {
-      "total": 0.0,
-      "qib": 0.0,
-      "nii": 0.0,
-      "retail": 0.0
-     },
-     "reservation": {
-      "qib": {
-       "shares": 2322000,
-       "pct": 49.94
-      },
-      "nii": {
-       "shares": 698400,
-       "pct": 15.02
-      },
-      "retail": {
-       "shares": 1629600,
-       "pct": 35.05
-      }
-     },
-     "uses": [
-      {
-       "use": "Purchase",
-       "cr": 98.13
-      }
-     ]
-    }
-   },
-   {
-    "src": "Tracker D",
-    "slug": "crystal-crop-protection",
-    "name": "Crystal Crop Protection",
-    "segment": "MAIN",
-    "exchange": null,
-    "open": null,
-    "close": null,
-    "boa": null,
-    "listing": null,
-    "price": 259.0,
-    "price_low": null,
-    "size_cr": 455.49,
-    "gmp": 13.0,
-    "gmp_at": null,
-    "sub_total": null,
-    "sub_retail": null,
-    "sub_at": null,
-    "lot": 55.0,
-    "sector": "Other Agricultural Products",
-    "detail_url": "https://ipoindex.in/ipo/crystal-crop-protection-ipo/",
-    "live": true,
-    "detail": {
-     "gmp_history": [
-      [
-       "2026-11-16",
-       13.0
-      ],
-      [
-       "2026-11-14",
-       27.0
-      ]
-     ],
-     "sub": {
-      "total": 0.0,
-      "qib": 0.0,
-      "nii": 0.0,
-      "retail": 0.0
-     },
-     "uses": [
-      {
-       "use": "Borrowings",
-       "cr": 247.94
-      },
-      {
-       "use": "Subsidiary",
-       "cr": 22.06
-      }
-     ]
-    }
-   },
-   {
-    "src": "Tracker D",
-    "slug": "mahanadi-coalfields",
-    "name": "Mahanadi Coalfields",
-    "segment": "MAIN",
-    "exchange": null,
-    "open": null,
-    "close": null,
-    "boa": null,
-    "listing": null,
-    "price": 129.0,
-    "price_low": null,
-    "size_cr": 8981.12,
-    "gmp": 4.75,
-    "gmp_at": null,
-    "sub_total": null,
-    "sub_retail": null,
-    "sub_at": null,
-    "lot": 110.0,
-    "sector": "Coal",
-    "detail_url": "https://ipoindex.in/ipo/mahanadi-coalfields-ipo/",
-    "live": true,
-    "detail": {
-     "gmp_history": [
-      [
-       "2026-11-16",
-       5.0
-      ],
-      [
-       "2026-11-14",
-       13.0
-      ]
-     ],
-     "sub": {
-      "total": 0.0,
-      "qib": 0.0,
-      "nii": 0.0,
-      "retail": 0.0
-     },
-     "uses": [
-      {
-       "use": "Offer for Sale Proceeds",
-       "cr": 8981.12
-      }
-     ]
-    }
    }
   ]
  }
