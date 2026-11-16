@@ -57,6 +57,27 @@
    ]
   }
  },
+ "milestone-gears": {
+  "at": "2026-11-16T18:01+05:30",
+  "detail": {
+   "sub": {
+    "nii": 0.0,
+    "qib": 0.0,
+    "retail": 0.0,
+    "total": 0.0
+   },
+   "uses": [
+    {
+     "cr": 356.8,
+     "use": "Debt"
+    },
+    {
+     "cr": 296.4,
+     "use": "Facility"
+    }
+   ]
+  }
+ },
  "watrana-rentals": {
   "at": "2026-11-16T17:15+05:30",
   "detail": {

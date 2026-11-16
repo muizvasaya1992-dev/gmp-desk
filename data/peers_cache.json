@@ -102,7 +102,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-16T17:31+05:30",
+  "fetched_at": "2026-11-16T18:01+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -657,7 +657,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-16T17:31+05:30",
+  "fetched_at": "2026-11-16T18:01+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -716,6 +716,47 @@
       {
        "cr": 98.13,
        "use": "Purchase"
+      }
+     ]
+    }
+   },
+   {
+    "src": "Tracker D",
+    "slug": "milestone-gears",
+    "name": "Milestone Gears",
+    "segment": "MAIN",
+    "exchange": null,
+    "open": null,
+    "close": null,
+    "boa": null,
+    "listing": null,
+    "price": null,
+    "price_low": null,
+    "size_cr": 1100.0,
+    "gmp": 0.0,
+    "gmp_at": null,
+    "sub_total": null,
+    "sub_retail": null,
+    "sub_at": null,
+    "lot": null,
+    "sector": "Auto Components & Equipments",
+    "detail_url": "https://ipoindex.in/ipo/milestone-gears-ipo/",
+    "live": true,
+    "detail": {
+     "sub": {
+      "total": 0.0,
+      "qib": 0.0,
+      "nii": 0.0,
+      "retail": 0.0
+     },
+     "uses": [
+      {
+       "use": "Debt",
+       "cr": 356.8
+      },
+      {
+       "use": "Facility",
+       "cr": 296.4
       }
      ]
     }

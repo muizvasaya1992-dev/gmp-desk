@@ -4,6 +4,20 @@
  "nse_as_of": "2026-11-16T11:08+05:30",
  "rows": [
   {
+   "name": "Watrana Rentals",
+   "segment": "SME",
+   "symbol": "WATRANA",
+   "listing": "2026-11-27",
+   "exchange": "SME",
+   "live": true,
+   "id": "watrana",
+   "status": "upcoming",
+   "open": "2026-11-19",
+   "close": "2026-11-23",
+   "price": 245,
+   "price_low": 232
+  },
+  {
    "name": "Mahanadi Coalfields",
    "segment": "MAIN",
    "symbol": null,
@@ -15,21 +29,6 @@
    "open": "2026-11-19",
    "close": "2026-11-23",
    "price": 136,
-   "price_low": null,
-   "unconfirmed": true
-  },
-  {
-   "name": "Watrana Rentals",
-   "segment": "SME",
-   "symbol": null,
-   "listing": "2026-11-27",
-   "exchange": "NSE Emerge",
-   "live": true,
-   "id": "watrana-rentals",
-   "status": "upcoming",
-   "open": "2026-11-19",
-   "close": "2026-11-23",
-   "price": 245,
    "price_low": null,
    "unconfirmed": true
   },
@@ -5664,5 +5663,5 @@
    "status": "listed"
   }
  ],
- "generated_at": "2026-11-16T16:45+05:30"
+ "generated_at": "2026-11-16T18:01+05:30"
 }

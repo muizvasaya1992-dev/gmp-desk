@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T17:31+05:30",
+  "generated_at": "2026-11-16T18:01+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-16T11:08+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-16T17:31+05:30",
+    "nse_ok_at": "2026-11-16T18:01+05:30",
     "bse_ok_at": "2026-11-16T11:09+05:30"
   },
   "ipos": [
@@ -2858,7 +2858,7 @@
       "series": "Equity",
       "nse_status": "Forthcoming",
       "shares_offered": 17419685.0,
-      "updated_on": "2026-11-16T16:45+05:30",
+      "updated_on": "2026-11-16T18:01+05:30",
       "tracker_rating": 1,
       "uses": [
         {
@@ -2932,6 +2932,115 @@
           "source": "Economic Times",
           "title": "Crystal Crop Protection sets price band for Rs 455.49 crore IPO, issue opens on November 18",
           "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-sets-price-band-for-rs-455-49-crore-ipo-issue-opens-on-november-18/articleshow/135790747.cms"
+        }
+      ],
+      "unconfirmed": false
+    },
+    {
+      "id": "watrana",
+      "name": "Watrana Rentals",
+      "lot": 600,
+      "size_cr": 120.1,
+      "boa": "2026-11-25",
+      "listing": "2026-11-27",
+      "anchor": null,
+      "rating": null,
+      "symbol": "WATRANA",
+      "official": true,
+      "open": "2026-11-19",
+      "close": "2026-11-23",
+      "price": 245,
+      "segment": "SME",
+      "registrar": "Maashitla Securities Private Limited",
+      "lead_managers": [
+        "Oneview Corporate Advisors Private Limited"
+      ],
+      "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_WATRANA.zip",
+      "cutoff_time": "5:00 PM",
+      "price_low": 232,
+      "sub_history": null,
+      "series": "SME",
+      "nse_status": "Forthcoming",
+      "shares_offered": 4902000.0,
+      "updated_on": "2026-11-16T18:01+05:30",
+      "tracker_rating": 3,
+      "reservation_detail": {
+        "nii": {
+          "pct": 15.02,
+          "shares": 698400
+        },
+        "qib": {
+          "pct": 49.94,
+          "shares": 2322000
+        },
+        "retail": {
+          "pct": 35.05,
+          "shares": 1629600
+        }
+      },
+      "reservation": {
+        "qib": 49.94,
+        "nii": 15.02,
+        "retail": 35.05
+      },
+      "uses": [
+        {
+          "cr": 98.13,
+          "use": "Purchase"
+        }
+      ],
+      "sector": "Diversified Commercial Services",
+      "lot_basis": "tracker",
+      "gmp_sources": [
+        {
+          "source": "Tracker C",
+          "gmp": 25,
+          "at": "2026-11-16T17:02"
+        },
+        {
+          "source": "Tracker D",
+          "gmp": 25,
+          "at": "2026-11-16T18:01"
+        }
+      ],
+      "gmp_history": [
+        {
+          "date": "2026-11-14",
+          "gmp": 22
+        },
+        {
+          "date": "2026-11-16",
+          "gmp": 25
+        }
+      ],
+      "history_source": "Tracker D",
+      "gmp_low": 20,
+      "gmp_high": 25,
+      "exchange": "SME",
+      "gmp": 25,
+      "gmp_asof": "2026-11-16T18:01",
+      "gmp_source_latest": "Tracker D",
+      "gmp_pct": 10.2,
+      "gmp_spread": {
+        "min": 25,
+        "max": 25,
+        "diff": 0,
+        "n": 2,
+        "diff_pct_of_price": 0.0
+      },
+      "gmp_trend": {
+        "dir": "rising",
+        "change": 3,
+        "days": 2,
+        "since": "2026-11-14"
+      },
+      "status": "upcoming",
+      "news": [
+        {
+          "date": "2026-11-15",
+          "source": "Mint",
+          "title": "Watrana Rentals IPO GMP profit calculator on latest GMP: How much profit can retail and HNI investors expect?",
+          "url": "https://www.livemint.com/market/ipo/watrana-rentals-ipo-gmp-one-lot-profit-calculator-on-latest-gmp-how-much-profit-can-retail-and-hni-investors-expect-11794759981622.html"
         }
       ],
       "unconfirmed": false
@@ -3215,99 +3324,6 @@
           "source": "Mint",
           "title": "Mahanadi Coalfields IPO: Dividend king in the making? What top official says about Coal India arm's post-listing payouts",
           "url": "https://www.livemint.com/market/stock-market-news/mahanadi-coalfields-ipo-dividend-king-in-the-making-what-top-official-says-about-coal-india-arms-post-listing-payouts-11794818788482.html"
-        }
-      ],
-      "unconfirmed": true
-    },
-    {
-      "boa": "2026-11-25",
-      "close": "2026-11-23",
-      "exchange": "NSE Emerge",
-      "from_peers": true,
-      "id": "watrana-rentals",
-      "listing": "2026-11-27",
-      "lot": 600,
-      "name": "Watrana Rentals",
-      "open": "2026-11-19",
-      "price": 245,
-      "segment": "SME",
-      "size_cr": 120.1,
-      "tracker_rating": 3,
-      "reservation_detail": {
-        "nii": {
-          "pct": 15.02,
-          "shares": 698400
-        },
-        "qib": {
-          "pct": 49.94,
-          "shares": 2322000
-        },
-        "retail": {
-          "pct": 35.05,
-          "shares": 1629600
-        }
-      },
-      "reservation": {
-        "qib": 49.94,
-        "nii": 15.02,
-        "retail": 35.05
-      },
-      "uses": [
-        {
-          "cr": 98.13,
-          "use": "Purchase"
-        }
-      ],
-      "sector": "Diversified Commercial Services",
-      "gmp_sources": [
-        {
-          "source": "Tracker C",
-          "gmp": 25,
-          "at": "2026-11-16T17:02"
-        },
-        {
-          "source": "Tracker D",
-          "gmp": 25,
-          "at": "2026-11-16T16:15"
-        }
-      ],
-      "gmp_history": [
-        {
-          "date": "2026-11-14",
-          "gmp": 22
-        },
-        {
-          "date": "2026-11-16",
-          "gmp": 25
-        }
-      ],
-      "history_source": "Tracker D",
-      "gmp_low": 20,
-      "gmp_high": 25,
-      "gmp": 25,
-      "gmp_asof": "2026-11-16T17:02",
-      "gmp_source_latest": "Tracker C",
-      "gmp_pct": 10.2,
-      "gmp_spread": {
-        "min": 25,
-        "max": 25,
-        "diff": 0,
-        "n": 2,
-        "diff_pct_of_price": 0.0
-      },
-      "gmp_trend": {
-        "dir": "rising",
-        "change": 3,
-        "days": 2,
-        "since": "2026-11-14"
-      },
-      "status": "upcoming",
-      "news": [
-        {
-          "date": "2026-11-15",
-          "source": "Mint",
-          "title": "Watrana Rentals IPO GMP profit calculator on latest GMP: How much profit can retail and HNI investors expect?",
-          "url": "https://www.livemint.com/market/ipo/watrana-rentals-ipo-gmp-one-lot-profit-calculator-on-latest-gmp-how-much-profit-can-retail-and-hni-investors-expect-11794759981622.html"
         }
       ],
       "unconfirmed": true
