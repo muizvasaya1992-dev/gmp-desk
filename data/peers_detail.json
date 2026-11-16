@@ -48,7 +48,7 @@
   }
  },
  "watrana-rentals": {
-  "at": "2026-11-16T04:15+05:30",
+  "at": "2026-11-16T10:15+05:30",
   "detail": {
    "gmp_history": [
     [
@@ -56,6 +56,20 @@
      22.0
     ]
    ],
+   "reservation": {
+    "nii": {
+     "pct": 15.02,
+     "shares": 698400
+    },
+    "qib": {
+     "pct": 49.94,
+     "shares": 2322000
+    },
+    "retail": {
+     "pct": 35.05,
+     "shares": 1629600
+    }
+   },
    "sub": {
     "nii": 0.0,
     "qib": 0.0,
@@ -64,16 +78,8 @@
    },
    "uses": [
     {
-     "cr": 65.0215,
-     "use": "Asset"
-    },
-    {
-     "cr": 14.582,
-     "use": "Asset"
-    },
-    {
-     "cr": 18.523,
-     "use": "Asset"
+     "cr": 98.13,
+     "use": "Purchase"
     }
    ]
   }

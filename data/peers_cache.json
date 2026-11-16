@@ -102,7 +102,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-16T10:01+05:30",
+  "fetched_at": "2026-11-16T10:15+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -657,7 +657,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-16T10:01+05:30",
+  "fetched_at": "2026-11-16T10:15+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -689,23 +689,29 @@
       ]
      ],
      "sub": {
-      "nii": 0.0,
+      "total": 0.0,
       "qib": 0.0,
-      "retail": 0.0,
-      "total": 0.0
+      "nii": 0.0,
+      "retail": 0.0
+     },
+     "reservation": {
+      "qib": {
+       "shares": 2322000,
+       "pct": 49.94
+      },
+      "nii": {
+       "shares": 698400,
+       "pct": 15.02
+      },
+      "retail": {
+       "shares": 1629600,
+       "pct": 35.05
+      }
      },
      "uses": [
       {
-       "cr": 65.0215,
-       "use": "Asset"
-      },
-      {
-       "cr": 14.582,
-       "use": "Asset"
-      },
-      {
-       "cr": 18.523,
-       "use": "Asset"
+       "use": "Purchase",
+       "cr": 98.13
       }
      ]
     }
