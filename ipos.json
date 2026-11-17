@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T18:45+05:30",
+  "generated_at": "2026-11-17T19:01+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-17T11:38+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-17T18:45+05:30",
+    "nse_ok_at": "2026-11-17T19:01+05:30",
     "bse_ok_at": "2026-11-17T11:39+05:30"
   },
   "ipos": [
@@ -2857,10 +2857,10 @@
       "sub_history": null,
       "series": "Equity",
       "nse_status": "Forthcoming",
-      "shares_offered": 17419685.0,
-      "updated_on": "2026-11-17T18:45+05:30",
+      "shares_offered": 12170076.0,
+      "updated_on": "2026-11-17T19:01+05:30",
       "bse_ipo_no": "8089",
-      "tracker_rating": 1,
+      "tracker_rating": 2,
       "uses": [
         {
           "cr": 247.94,
@@ -2880,8 +2880,8 @@
         },
         {
           "source": "Tracker C",
-          "gmp": 13,
-          "at": "2026-11-17T12:37"
+          "gmp": 14,
+          "at": "2026-11-17T17:37"
         },
         {
           "source": "Tracker D",
@@ -2967,7 +2967,7 @@
       "series": "SME",
       "nse_status": "Forthcoming",
       "shares_offered": 4902000.0,
-      "updated_on": "2026-11-17T18:45+05:30",
+      "updated_on": "2026-11-17T19:01+05:30",
       "tracker_rating": 3,
       "reservation_detail": {
         "nii": {
@@ -3038,7 +3038,7 @@
         {
           "source": "Tracker C",
           "gmp": 25,
-          "at": "2026-11-17T12:37"
+          "at": "2026-11-17T17:37"
         },
         {
           "source": "Tracker D",
@@ -3134,7 +3134,7 @@
         {
           "source": "Tracker D",
           "gmp": 4,
-          "at": "2026-11-17T18:45"
+          "at": "2026-11-17T19:01"
         }
       ],
       "gmp_history": [
@@ -3156,7 +3156,7 @@
       "gmp_high": 13,
       "exchange": "SME",
       "gmp": 4,
-      "gmp_asof": "2026-11-17T18:45",
+      "gmp_asof": "2026-11-17T19:01",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 2.94,
       "gmp_spread": {
