@@ -181,6 +181,20 @@
    "scrip": 4918,
    "bse_status": "L",
    "last_seen": "2026-11-03T10:56+05:30"
+  },
+  "8089": {
+   "ipo_no": "8089",
+   "first_seen": "2026-11-17T11:38+05:30",
+   "name": "Crystal Crop Protection",
+   "segment": "MAIN",
+   "open": "2026-11-18",
+   "close": "2026-11-20",
+   "price": 272,
+   "price_low": 259,
+   "face_value": 10.0,
+   "scrip": 4936,
+   "bse_status": "F",
+   "last_seen": "2026-11-17T11:38+05:30"
   }
  },
  "tracker": {
@@ -192,7 +206,7 @@
   "listing_loss": 60,
   "day_gain": 152,
   "day_loss": 85,
-  "fetched_at": "2026-11-16T11:08+05:30"
+  "fetched_at": "2026-11-17T11:38+05:30"
  },
- "fetched_at": "2026-11-16T11:08+05:30"
+ "fetched_at": "2026-11-17T11:38+05:30"
 }

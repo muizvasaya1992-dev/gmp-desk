@@ -1,7 +1,7 @@
 {
  "_feeds": {
   "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms": {
-   "fetched": "2026-11-17T11:15+05:30",
+   "fetched": "2026-11-17T11:38+05:30",
    "items": [
     {
      "date": "2026-11-17",
@@ -306,7 +306,7 @@
    ]
   },
   "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms": {
-   "fetched": "2026-11-17T11:15+05:30",
+   "fetched": "2026-11-17T11:38+05:30",
    "items": [
     {
      "date": "2026-11-17",
@@ -361,6 +361,12 @@
      "source": "Economic Times",
      "title": "LTIMindtree Share Price Live Updates: LTIMindtree Stock Details",
      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/ltimindtree-share-price-today-live-17-nov-2026/liveblog/135908442.cms"
+    },
+    {
+     "date": "2026-11-17",
+     "source": "Economic Times",
+     "title": "UPL Share Price Live Updates: UPL's Market Activity",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/upl-stock-price-livestock-price-today-live-updates-17-nov-2026/liveblog/135908419.cms"
     },
     {
      "date": "2026-11-17",
@@ -497,6 +503,12 @@
     {
      "date": "2026-11-17",
      "source": "Economic Times",
+     "title": "TCS Share Price Live Updates: TCS Market Movement Analysis",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tcs-share-price-today-live-17-nov-2026/liveblog/135907822.cms"
+    },
+    {
+     "date": "2026-11-17",
+     "source": "Economic Times",
      "title": "Axis Bank Share Price Live Updates: Axis Bank Stock Details",
      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/axis-bank-stock-price-live-updates-17-nov-2026/liveblog/135907816.cms"
     },
@@ -533,7 +545,7 @@
     {
      "date": "2026-11-17",
      "source": "Economic Times",
-     "title": "Stock Market Live Updates: Sensex climbs over 350 pts, Nifty above 25,350; realty, PSU bank stocks rally",
+     "title": "Stock Market Live Updates: Sensex rallies over 500 pts, Nifty above 25,400; realty, bank stocks advance",
      "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-adani-enterprises-bse-share-price-17-november-2026/liveblog/135907345.cms"
     },
     {
@@ -595,24 +607,24 @@
      "source": "Economic Times",
      "title": "Sun Pharma Share Price Highlights: Sun Pharma Stock Price History",
      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/sun-pharma-share-price-today-live-updates-16-nov-2026/liveblog/135871948.cms"
-    },
-    {
-     "date": "2026-11-16",
-     "source": "Economic Times",
-     "title": "Maruti Suzuki Share Price Highlights: Maruti Suzuki Stock Price History",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/maruti-suzuki-share-price-today-live-16-nov-2026/liveblog/135871604.cms"
-    },
-    {
-     "date": "2026-11-16",
-     "source": "Economic Times",
-     "title": "BPCL Share Price Highlights: BPCL Stock Price History",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bpcl-stock-price-live-updates-16-nov-2026/liveblog/135871462.cms"
     }
    ]
   },
   "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml": {
-   "fetched": "2026-11-17T11:15+05:30",
+   "fetched": "2026-11-17T11:38+05:30",
    "items": [
+    {
+     "date": "2026-11-17",
+     "source": "cnbctv18.com",
+     "title": "ITC shares are on course for their best monthly run in over two years; Is the stock now a buy?",
+     "url": "https://www.cnbctv18.com/market/itc-share-price-reclaims-200-dma-technical-recovery-best-month-in-two-years-buy-sell-q2-target-returns-20035613.htm"
+    },
+    {
+     "date": "2026-11-17",
+     "source": "cnbctv18.com",
+     "title": "Kaynes Tech share price target cut up to 19% by Jefferies, Motilal Oswal; Stock extends losses",
+     "url": "https://www.cnbctv18.com/market/kaynes-tech-share-price-target-cut-jefferies-motilal-oswal-buy-q2-results-fall-20035583.htm"
+    },
     {
      "date": "2026-11-17",
      "source": "cnbctv18.com",
@@ -742,7 +754,7 @@
     {
      "date": "2026-11-17",
      "source": "cnbctv18.com",
-     "title": "Sensex Today | Stock Market LIVE Updates: Nifty surges over 100 pts; Asian Paints, BSE top gainers",
+     "title": "Sensex Today | Stock Market LIVE Updates: Nifty extends gains to 150 points; market at day's high",
      "url": "https://www.cnbctv18.com/market/stock-market-live-updates-sensex-nifty-50-expiry-today-oil-nifty-bank-record-high-bajaj-fin-aegis-senco-share-price-liveblog-20035375.htm"
     },
     {
@@ -1080,23 +1092,11 @@
      "source": "cnbctv18.com",
      "title": "Sensex base case target at 95,000 - Morgan Stanley highlights key scenarios, risks and portfolio positioning",
      "url": "https://www.cnbctv18.com/market/sensex-base-case-target-of-95000-by-morgan-stanley-bull-bear-probability-key-risks-portfolio-positioning-20034676.htm"
-    },
-    {
-     "date": "2026-11-16",
-     "source": "cnbctv18.com",
-     "title": "Anthropic IPO: What Indian investors should know about LRS, TCS and tax rules",
-     "url": "https://www.cnbctv18.com/market/anthropic-ipo-what-indian-investors-should-know-about-lrs-tcs-and-tax-rules-20034640.htm"
-    },
-    {
-     "date": "2026-11-16",
-     "source": "cnbctv18.com",
-     "title": "CLSA sees better prospects for India-US trade talks; expects Fed, RBI rate hikes in December",
-     "url": "https://www.cnbctv18.com/market/clsa-sees-better-prospects-for-india-us-trade-talks-expects-fed-rbi-rate-hikes-in-december-20034617.htm"
     }
    ]
   },
   "https://www.freepressjournal.in/stories.rss?section=business": {
-   "fetched": "2026-11-17T11:15+05:30",
+   "fetched": "2026-11-17T11:38+05:30",
    "items": [
     {
      "date": "2026-11-17",
@@ -1443,8 +1443,14 @@
    ]
   },
   "https://www.livemint.com/rss/markets": {
-   "fetched": "2026-11-17T11:15+05:30",
+   "fetched": "2026-11-17T11:38+05:30",
    "items": [
+    {
+     "date": "2026-11-17",
+     "source": "Mint",
+     "title": "PNB vs Canara Bank: Which PSU bank is a better stock to buy Nifty Bank at record high, and why? Experts' views, targets",
+     "url": "https://www.livemint.com/market/stock-market-news/pnb-vs-canara-bank-which-psu-bank-is-a-better-stock-to-buy-nifty-bank-at-record-high-and-why-experts-views-targets-11794892103071.html"
+    },
     {
      "date": "2026-11-17",
      "source": "Mint",
@@ -1648,18 +1654,18 @@
      "source": "Mint",
      "title": "Ola Electric vs Ather Energy: Ather shines, Ola struggles in Q2; which EV stock offers better upside?",
      "url": "https://www.livemint.com/market/stock-market-news/ola-electric-vs-ather-energy-ather-shines-ola-struggles-in-q2-which-ev-stock-offers-better-upside-11794821623526.html"
-    },
-    {
-     "date": "2026-11-16",
-     "source": "Mint",
-     "title": "Sebi weighs biometrics, geotagging for trading terminals",
-     "url": "https://www.livemint.com/market/stock-market-news/sebi-weighs-biometrics-geotagging-for-trading-terminals-11794814134007.html"
     }
    ]
   },
   "https://www.thehindubusinessline.com/markets/feeder/default.rss": {
-   "fetched": "2026-11-17T11:15+05:30",
+   "fetched": "2026-11-17T11:38+05:30",
    "items": [
+    {
+     "date": "2026-11-17",
+     "source": "BusinessLine",
+     "title": "India’s CBG potential could meet 80% of projected natural gas demand by 2030",
+     "url": "https://www.thehindubusinessline.com/markets/commodities/indias-cbg-potential-could-meet-80-of-projected-natural-gas-demand-by-2030/article71710493.ece"
+    },
     {
      "date": "2026-11-17",
      "source": "BusinessLine",
@@ -2013,17 +2019,11 @@
      "source": "BusinessLine",
      "title": "Today’s Gold Rate November 15: Gold prices steady in Delhi, Mumbai, Kolkata, Chennai, Bengaluru",
      "url": "https://www.thehindubusinessline.com/gold-rate-today/gold-price-today-in-delhi-mumbai-kolkata-chennai-bengaluru-hyderabad-pune-gold-rates-metro-cities-november-15-2026/article71704357.ece"
-    },
-    {
-     "date": "2026-11-15",
-     "source": "BusinessLine",
-     "title": "Today’s Gold Rate November 15: Gold prices steady in Coimbatore, Nagpur, Visakhapatnam, Surat, Jaipur",
-     "url": "https://www.thehindubusinessline.com/gold-rate-today/gold-price-today-in-coimbatore-nagpur-visakhapatnam-surat-jaipur-lucknow-chandigarh-gold-rates-other-cities-november-15-2026/article71704358.ece"
     }
    ]
   },
   "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss": {
-   "fetched": "2026-11-17T11:15+05:30",
+   "fetched": "2026-11-17T11:38+05:30",
    "items": [
     {
      "date": "2026-10-26",
@@ -2149,7 +2149,7 @@
   }
  },
  "crystalcp": {
-  "checked": "2026-11-17T11:31+05:30",
+  "checked": "2026-11-17T11:38+05:30",
   "items": [
    {
     "date": "2026-11-16",
@@ -2172,7 +2172,7 @@
   ]
  },
  "mahanadi-coalfields": {
-  "checked": "2026-11-17T11:31+05:30",
+  "checked": "2026-11-17T11:38+05:30",
   "items": [
    {
     "date": "2026-11-17",
@@ -2209,17 +2209,6 @@
     "source": "cnbctv18.com",
     "title": "Mahanadi Coalfields lines up ₹3,000 crore annual capex, eyes bigger share of coal output",
     "url": "https://www.cnbctv18.com/market/mahanadi-coalfields-ipo-washery-capacity-capex-20034961.htm"
-   }
-  ]
- },
- "watrana": {
-  "checked": "2026-11-16T18:31+05:30",
-  "items": [
-   {
-    "date": "2026-11-15",
-    "source": "Mint",
-    "title": "Watrana Rentals IPO GMP profit calculator on latest GMP: How much profit can retail and HNI investors expect?",
-    "url": "https://www.livemint.com/market/ipo/watrana-rentals-ipo-gmp-one-lot-profit-calculator-on-latest-gmp-how-much-profit-can-retail-and-hni-investors-expect-11794759981622.html"
    }
   ]
  }

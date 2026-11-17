@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T11:15+05:30",
+  "generated_at": "2026-11-17T11:38+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -20,11 +20,11 @@
     "listing_loss": 60,
     "day_gain": 152,
     "day_loss": 85,
-    "fetched_at": "2026-11-16T11:08+05:30"
+    "fetched_at": "2026-11-17T11:38+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-17T11:15+05:30",
-    "bse_ok_at": "2026-11-16T11:09+05:30"
+    "nse_ok_at": "2026-11-17T11:38+05:30",
+    "bse_ok_at": "2026-11-17T11:38+05:30"
   },
   "ipos": [
     {
@@ -2858,7 +2858,8 @@
       "series": "Equity",
       "nse_status": "Forthcoming",
       "shares_offered": 17419685.0,
-      "updated_on": "2026-11-17T00:01+05:30",
+      "updated_on": "2026-11-17T11:38+05:30",
+      "bse_ipo_no": "8089",
       "tracker_rating": 1,
       "uses": [
         {
@@ -2880,12 +2881,12 @@
         {
           "source": "Tracker C",
           "gmp": 13,
-          "at": "2026-11-17T08:37"
+          "at": "2026-11-17T09:02"
         },
         {
           "source": "Tracker D",
           "gmp": 13,
-          "at": "2026-11-17T09:15"
+          "at": "2026-11-17T11:38"
         }
       ],
       "gmp_history": [
@@ -2895,7 +2896,7 @@
         },
         {
           "date": "2026-11-16",
-          "gmp": 13
+          "gmp": 16
         },
         {
           "date": "2026-11-17",
@@ -2907,7 +2908,7 @@
       "gmp_high": 27,
       "exchange": "SME",
       "gmp": 13,
-      "gmp_asof": "2026-11-17T09:15",
+      "gmp_asof": "2026-11-17T11:38",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 4.78,
       "gmp_spread": {
@@ -2972,7 +2973,7 @@
       "series": "SME",
       "nse_status": "Forthcoming",
       "shares_offered": 4902000.0,
-      "updated_on": "2026-11-17T00:01+05:30",
+      "updated_on": "2026-11-17T11:38+05:30",
       "tracker_rating": 3,
       "reservation_detail": {
         "qib": {
@@ -3043,12 +3044,12 @@
         {
           "source": "Tracker C",
           "gmp": 25,
-          "at": "2026-11-17T08:37"
+          "at": "2026-11-17T09:02"
         },
         {
           "source": "Tracker D",
           "gmp": 25,
-          "at": "2026-11-17T09:15"
+          "at": "2026-11-17T11:38"
         }
       ],
       "gmp_history": [
@@ -3058,7 +3059,7 @@
         },
         {
           "date": "2026-11-16",
-          "gmp": 25
+          "gmp": 22
         },
         {
           "date": "2026-11-17",
@@ -3066,11 +3067,11 @@
         }
       ],
       "history_source": "Tracker D",
-      "gmp_low": 20,
+      "gmp_low": 22,
       "gmp_high": 25,
       "exchange": "SME",
       "gmp": 25,
-      "gmp_asof": "2026-11-17T09:15",
+      "gmp_asof": "2026-11-17T11:38",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 10.2,
       "gmp_spread": {
@@ -3087,14 +3088,6 @@
         "since": "2026-11-14"
       },
       "status": "upcoming",
-      "news": [
-        {
-          "date": "2026-11-15",
-          "source": "Mint",
-          "title": "Watrana Rentals IPO GMP profit calculator on latest GMP: How much profit can retail and HNI investors expect?",
-          "url": "https://www.livemint.com/market/ipo/watrana-rentals-ipo-gmp-one-lot-profit-calculator-on-latest-gmp-how-much-profit-can-retail-and-hni-investors-expect-11794759981622.html"
-        }
-      ],
       "unconfirmed": false
     },
     {
@@ -3295,18 +3288,18 @@
       "gmp_sources": [
         {
           "source": "Public trackers",
-          "gmp": 3.5,
+          "gmp": 3,
           "at": "2026-11-17T08:00"
         },
         {
           "source": "Tracker C",
           "gmp": 3.5,
-          "at": "2026-11-17T08:37"
+          "at": "2026-11-17T09:02"
         },
         {
           "source": "Tracker D",
           "gmp": 3.75,
-          "at": "2026-11-17T09:45"
+          "at": "2026-11-17T11:38"
         }
       ],
       "gmp_history": [
@@ -3316,7 +3309,7 @@
         },
         {
           "date": "2026-11-16",
-          "gmp": 4.75
+          "gmp": 5.5
         },
         {
           "date": "2026-11-17",
@@ -3327,15 +3320,15 @@
       "gmp_low": 3,
       "gmp_high": 13,
       "gmp": 3.75,
-      "gmp_asof": "2026-11-17T09:45",
+      "gmp_asof": "2026-11-17T11:38",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 2.76,
       "gmp_spread": {
-        "min": 3.5,
+        "min": 3,
         "max": 3.75,
-        "diff": 0.25,
+        "diff": 0.75,
         "n": 3,
-        "diff_pct_of_price": 0.18
+        "diff_pct_of_price": 0.55
       },
       "gmp_trend": {
         "dir": "falling",
