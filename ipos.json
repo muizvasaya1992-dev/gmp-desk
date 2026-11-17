@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T22:31+05:30",
+  "generated_at": "2026-11-17T23:45+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-17T11:38+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-17T22:31+05:30",
+    "nse_ok_at": "2026-11-17T23:45+05:30",
     "bse_ok_at": "2026-11-17T11:39+05:30"
   },
   "ipos": [
@@ -2863,12 +2863,12 @@
       "tracker_rating": 2,
       "uses": [
         {
-          "cr": 247.94,
-          "use": "Borrowings"
+          "use": "Borrowings",
+          "cr": 247.94
         },
         {
-          "cr": 22.06,
-          "use": "Subsidiary"
+          "use": "Subsidiary",
+          "cr": 22.06
         }
       ],
       "sector": "Other Agricultural Products",
@@ -2927,22 +2927,22 @@
       "status": "upcoming",
       "news": [
         {
-          "date": "2026-11-17",
-          "source": "Economic Times",
           "title": "Crystal Crop Protection raises Rs 136 crore from anchor investors including Citi ahead of IPO",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-raises-rs-136-crore-from-anchor-investors-including-citi-ahead-of-ipo/articleshow/135931428.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-raises-rs-136-crore-from-anchor-investors-including-citi-ahead-of-ipo/articleshow/135931428.cms",
+          "source": "Economic Times",
+          "date": "2026-11-17"
         },
         {
-          "date": "2026-11-13",
-          "source": "Economic Times",
           "title": "Crystal Crop Protection IPO GMP signals 18% potential listing gains. Key things to know before issue opens on Nov 18",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystalcropprotectionipogmpsignals18-potentiallistinggains-keythings-to-knowbeforeissueopens-on-nov18/articleshow/135799630.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystalcropprotectionipogmpsignals18-potentiallistinggains-keythings-to-knowbeforeissueopens-on-nov18/articleshow/135799630.cms",
+          "source": "Economic Times",
+          "date": "2026-11-13"
         },
         {
-          "date": "2026-11-13",
-          "source": "Economic Times",
           "title": "Crystal Crop Protection sets price band for Rs 455.49 crore IPO, issue opens on November 18",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-sets-price-band-for-rs-455-49-crore-ipo-issue-opens-on-november-18/articleshow/135790747.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-sets-price-band-for-rs-455-49-crore-ipo-issue-opens-on-november-18/articleshow/135790747.cms",
+          "source": "Economic Times",
+          "date": "2026-11-13"
         }
       ],
       "unconfirmed": false
@@ -2976,17 +2976,17 @@
       "updated_on": "2026-11-17T19:01+05:30",
       "tracker_rating": 3,
       "reservation_detail": {
-        "nii": {
-          "pct": 15.02,
-          "shares": 698400
-        },
         "qib": {
-          "pct": 49.94,
-          "shares": 2322000
+          "shares": 2322000,
+          "pct": 49.94
+        },
+        "nii": {
+          "shares": 698400,
+          "pct": 15.02
         },
         "retail": {
-          "pct": 35.05,
-          "shares": 1629600
+          "shares": 1629600,
+          "pct": 35.05
         }
       },
       "reservation": {
@@ -2996,45 +2996,45 @@
       },
       "uses": [
         {
-          "cr": 98.13,
-          "use": "Purchase"
+          "use": "Purchase",
+          "cr": 98.13
         }
       ],
       "sector": "Diversified Commercial Services",
       "fin": {
         "years": [
           {
-            "assets": 147.69,
-            "debt": 93.12,
-            "ebitda": 37.98,
+            "y": "FY24",
             "income": 130.23,
-            "net_worth": 31.96,
             "pat": 18.05,
-            "roce": 24.11,
+            "ebitda": 37.98,
+            "net_worth": 31.96,
+            "debt": 93.12,
+            "assets": 147.69,
             "roe": 78.65,
-            "y": "FY24"
+            "roce": 24.11
           },
           {
-            "assets": 201.82,
-            "debt": 110.14,
-            "ebitda": 51.77,
+            "y": "FY25",
             "income": 179.66,
-            "net_worth": 56.39,
             "pat": 24.43,
-            "roce": 23.85,
+            "ebitda": 51.77,
+            "net_worth": 56.39,
+            "debt": 110.14,
+            "assets": 201.82,
             "roe": 55.3,
-            "y": "FY25"
+            "roce": 23.85
           },
           {
-            "assets": 287.07,
-            "debt": 164.08,
-            "ebitda": 65.01,
+            "y": "FY26",
             "income": 211.69,
-            "net_worth": 85.55,
             "pat": 29.16,
-            "roce": 19.06,
+            "ebitda": 65.01,
+            "net_worth": 85.55,
+            "debt": 164.08,
+            "assets": 287.07,
             "roe": 41.08,
-            "y": "FY26"
+            "roce": 19.06
           }
         ],
         "ratios": {}
@@ -3049,7 +3049,7 @@
         {
           "source": "Tracker D",
           "gmp": 25,
-          "at": "2026-11-17T20:45"
+          "at": "2026-11-17T23:45"
         }
       ],
       "gmp_history": [
@@ -3071,8 +3071,8 @@
       "gmp_high": 25,
       "exchange": "SME",
       "gmp": 25,
-      "gmp_asof": "2026-11-17T21:02",
-      "gmp_source_latest": "Tracker C",
+      "gmp_asof": "2026-11-17T23:45",
+      "gmp_source_latest": "Tracker D",
       "gmp_pct": 10.2,
       "gmp_spread": {
         "min": 25,
@@ -3121,8 +3121,8 @@
       "tracker_rating": 1,
       "uses": [
         {
-          "cr": 8981.12,
-          "use": "Offer for Sale Proceeds"
+          "use": "Offer for Sale Proceeds",
+          "cr": 8981.12
         }
       ],
       "sector": "Coal",
@@ -3181,40 +3181,40 @@
       "status": "upcoming",
       "news": [
         {
-          "date": "2026-11-17",
-          "source": "Economic Times",
           "title": "Mahanadi Coalfields Rs 8,981 crore IPO to open on November 19; GMP at 3%, check key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-rs-8981-crore-ipo-to-open-on-november-19-gmp-at-3-check-key-details/articleshow/135916428.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-rs-8981-crore-ipo-to-open-on-november-19-gmp-at-3-check-key-details/articleshow/135916428.cms",
+          "source": "Economic Times",
+          "date": "2026-11-17"
         },
         {
-          "date": "2026-11-17",
-          "source": "Economic Times",
           "title": "Mahanadi Coalfields sets Rs 8,981 crore IPO price band at Rs 129-136",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-sets-rs-8981-crore-ipo-price-band-at-rs-129-136/articleshow/135907281.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-sets-rs-8981-crore-ipo-price-band-at-rs-129-136/articleshow/135907281.cms",
+          "source": "Economic Times",
+          "date": "2026-11-17"
         },
         {
-          "date": "2026-11-17",
-          "source": "cnbctv18.com",
           "title": "Mahanadi Coalfields IPO: GMP signals 3% listing premium; check price band, dates and key details",
-          "url": "https://www.cnbctv18.com/market/mahanadi-coalfields-ipo-gmp-listing-premium-check-price-band-subscription-dates-key-details-20035417.htm"
+          "url": "https://www.cnbctv18.com/market/mahanadi-coalfields-ipo-gmp-listing-premium-check-price-band-subscription-dates-key-details-20035417.htm",
+          "source": "cnbctv18.com",
+          "date": "2026-11-17"
         },
         {
-          "date": "2026-11-17",
-          "source": "Mint",
           "title": "Mahanadi Coalfields IPO single profit calculator basis latest GMP: What investors may earn on listing?",
-          "url": "https://www.livemint.com/market/ipo/mahanadi-coalfields-ipo-single-profit-calculator-basis-latest-gmp-what-investors-may-earn-on-listing-11794905163788.html"
+          "url": "https://www.livemint.com/market/ipo/mahanadi-coalfields-ipo-single-profit-calculator-basis-latest-gmp-what-investors-may-earn-on-listing-11794905163788.html",
+          "source": "Mint",
+          "date": "2026-11-17"
         },
         {
-          "date": "2026-11-16",
-          "source": "Economic Times",
           "title": "Coal India's 3rd big windfall in a year? How Mahanadi Coalfields IPO could unlock Rs 8,964 crore",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/coal-indias-3rd-big-windfall-in-a-year-how-mahanadi-coalfields-ipo-could-unlock-rs-8964-crore/articleshow/135887433.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/coal-indias-3rd-big-windfall-in-a-year-how-mahanadi-coalfields-ipo-could-unlock-rs-8964-crore/articleshow/135887433.cms",
+          "source": "Economic Times",
+          "date": "2026-11-16"
         },
         {
-          "date": "2026-11-16",
-          "source": "Economic Times",
           "title": "Mahanadi Coalfields IPO price band set at Rs 129–136; Rs 8,981 crore issue to open on November 19",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-price-band-set-at-rs-129136-rs-8981-crore-issue-to-open-on-november-19/articleshow/135870181.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-price-band-set-at-rs-129136-rs-8981-crore-issue-to-open-on-november-19/articleshow/135870181.cms",
+          "source": "Economic Times",
+          "date": "2026-11-16"
         }
       ],
       "unconfirmed": false
