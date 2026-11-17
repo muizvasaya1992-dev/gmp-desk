@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T08:31+05:30",
+  "generated_at": "2026-11-17T08:45+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-16T11:08+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-17T08:31+05:30",
+    "nse_ok_at": "2026-11-17T08:45+05:30",
     "bse_ok_at": "2026-11-16T11:09+05:30"
   },
   "ipos": [
@@ -3286,7 +3286,7 @@
         }
       ],
       "history_source": "Tracker D",
-      "gmp_low": 3.5,
+      "gmp_low": 3,
       "gmp_high": 13,
       "gmp": 3.5,
       "gmp_asof": "2026-11-17T08:00",
