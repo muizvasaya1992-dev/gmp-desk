@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T18:15+05:30",
+  "generated_at": "2026-11-17T18:45+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-17T11:38+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-17T18:15+05:30",
+    "nse_ok_at": "2026-11-17T18:45+05:30",
     "bse_ok_at": "2026-11-17T11:39+05:30"
   },
   "ipos": [
@@ -2858,7 +2858,7 @@
       "series": "Equity",
       "nse_status": "Forthcoming",
       "shares_offered": 17419685.0,
-      "updated_on": "2026-11-17T11:38+05:30",
+      "updated_on": "2026-11-17T18:45+05:30",
       "bse_ipo_no": "8089",
       "tracker_rating": 1,
       "uses": [
@@ -2967,7 +2967,7 @@
       "series": "SME",
       "nse_status": "Forthcoming",
       "shares_offered": 4902000.0,
-      "updated_on": "2026-11-17T11:38+05:30",
+      "updated_on": "2026-11-17T18:45+05:30",
       "tracker_rating": 3,
       "reservation_detail": {
         "nii": {
@@ -3082,6 +3082,135 @@
         "since": "2026-11-14"
       },
       "status": "upcoming",
+      "unconfirmed": false
+    },
+    {
+      "id": "mahacoal",
+      "name": "Mahanadi Coalfields",
+      "lot": 110,
+      "size_cr": 8981.12,
+      "boa": "2026-11-25",
+      "listing": "2026-11-27",
+      "anchor": null,
+      "rating": null,
+      "symbol": "MAHACOAL",
+      "official": true,
+      "open": "2026-11-19",
+      "close": "2026-11-23",
+      "price": 136,
+      "segment": "SME",
+      "registrar": "KFin Technologies Limited",
+      "lead_managers": [
+        "SBI Capital Markets Limited, Axis Capital Limited, BOB Capital Markets Limited, IDBI Capital Markets and Securities Limited and IIFL Capital Services Limited"
+      ],
+      "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_MAHACOAL.zip",
+      "retail_max": 200000,
+      "cutoff_time": "5:00 PM",
+      "price_low": 129,
+      "sub_history": null,
+      "series": "Equity",
+      "nse_status": "Forthcoming",
+      "shares_offered": 661836300.0,
+      "updated_on": "2026-11-17T18:45+05:30",
+      "tracker_rating": 1,
+      "uses": [
+        {
+          "cr": 8981.12,
+          "use": "Offer for Sale Proceeds"
+        }
+      ],
+      "sector": "Coal",
+      "gmp_sources": [
+        {
+          "source": "Public trackers",
+          "gmp": 4,
+          "at": "2026-11-17T16:30"
+        },
+        {
+          "source": "Tracker C",
+          "gmp": 4,
+          "at": "2026-11-17T15:02"
+        },
+        {
+          "source": "Tracker D",
+          "gmp": 4,
+          "at": "2026-11-17T18:45"
+        }
+      ],
+      "gmp_history": [
+        {
+          "date": "2026-11-14",
+          "gmp": 13
+        },
+        {
+          "date": "2026-11-16",
+          "gmp": 5.5
+        },
+        {
+          "date": "2026-11-17",
+          "gmp": 4
+        }
+      ],
+      "history_source": "Tracker D",
+      "gmp_low": 3,
+      "gmp_high": 13,
+      "exchange": "SME",
+      "gmp": 4,
+      "gmp_asof": "2026-11-17T18:45",
+      "gmp_source_latest": "Tracker D",
+      "gmp_pct": 2.94,
+      "gmp_spread": {
+        "min": 4,
+        "max": 4,
+        "diff": 0,
+        "n": 3,
+        "diff_pct_of_price": 0.0
+      },
+      "gmp_trend": {
+        "dir": "falling",
+        "change": -9,
+        "days": 3,
+        "since": "2026-11-14"
+      },
+      "status": "upcoming",
+      "news": [
+        {
+          "date": "2026-11-17",
+          "source": "Economic Times",
+          "title": "Mahanadi Coalfields Rs 8,981 crore IPO to open on November 19; GMP at 3%, check key details",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-rs-8981-crore-ipo-to-open-on-november-19-gmp-at-3-check-key-details/articleshow/135916428.cms"
+        },
+        {
+          "date": "2026-11-17",
+          "source": "Economic Times",
+          "title": "Mahanadi Coalfields sets Rs 8,981 crore IPO price band at Rs 129-136",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-sets-rs-8981-crore-ipo-price-band-at-rs-129-136/articleshow/135907281.cms"
+        },
+        {
+          "date": "2026-11-17",
+          "source": "cnbctv18.com",
+          "title": "Mahanadi Coalfields IPO: GMP signals 3% listing premium; check price band, dates and key details",
+          "url": "https://www.cnbctv18.com/market/mahanadi-coalfields-ipo-gmp-listing-premium-check-price-band-subscription-dates-key-details-20035417.htm"
+        },
+        {
+          "date": "2026-11-17",
+          "source": "Mint",
+          "title": "Mahanadi Coalfields IPO single profit calculator basis latest GMP: What investors may earn on listing?",
+          "url": "https://www.livemint.com/market/ipo/mahanadi-coalfields-ipo-single-profit-calculator-basis-latest-gmp-what-investors-may-earn-on-listing-11794905163788.html"
+        },
+        {
+          "date": "2026-11-16",
+          "source": "Economic Times",
+          "title": "Coal India's 3rd big windfall in a year? How Mahanadi Coalfields IPO could unlock Rs 8,964 crore",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/coal-indias-3rd-big-windfall-in-a-year-how-mahanadi-coalfields-ipo-could-unlock-rs-8964-crore/articleshow/135887433.cms"
+        },
+        {
+          "date": "2026-11-16",
+          "source": "Economic Times",
+          "title": "Mahanadi Coalfields IPO price band set at Rs 129–136; Rs 8,981 crore issue to open on November 19",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-price-band-set-at-rs-129136-rs-8981-crore-issue-to-open-on-november-19/articleshow/135870181.cms"
+        }
+      ],
       "unconfirmed": false
     },
     {
@@ -3258,118 +3387,6 @@
       "gmp_pct": null,
       "status": "listed",
       "unconfirmed": false
-    },
-    {
-      "boa": "2026-11-25",
-      "close": "2026-11-23",
-      "from_peers": true,
-      "id": "mahanadi-coalfields",
-      "listing": "2026-11-27",
-      "lot": 110,
-      "name": "Mahanadi Coalfields",
-      "open": "2026-11-19",
-      "price": 136,
-      "segment": "MAIN",
-      "size_cr": 8981.12,
-      "tracker_rating": 1,
-      "uses": [
-        {
-          "cr": 8981.12,
-          "use": "Offer for Sale Proceeds"
-        }
-      ],
-      "sector": "Coal",
-      "gmp_sources": [
-        {
-          "source": "Public trackers",
-          "gmp": 4,
-          "at": "2026-11-17T16:30"
-        },
-        {
-          "source": "Tracker C",
-          "gmp": 4,
-          "at": "2026-11-17T14:37"
-        },
-        {
-          "source": "Tracker D",
-          "gmp": 4,
-          "at": "2026-11-17T18:01"
-        }
-      ],
-      "gmp_history": [
-        {
-          "date": "2026-11-14",
-          "gmp": 13
-        },
-        {
-          "date": "2026-11-16",
-          "gmp": 5.5
-        },
-        {
-          "date": "2026-11-17",
-          "gmp": 4
-        }
-      ],
-      "history_source": "Tracker D",
-      "gmp_low": 3,
-      "gmp_high": 13,
-      "gmp": 4,
-      "gmp_asof": "2026-11-17T18:01",
-      "gmp_source_latest": "Tracker D",
-      "gmp_pct": 2.94,
-      "gmp_spread": {
-        "min": 4,
-        "max": 4,
-        "diff": 0,
-        "n": 3,
-        "diff_pct_of_price": 0.0
-      },
-      "gmp_trend": {
-        "dir": "falling",
-        "change": -9,
-        "days": 3,
-        "since": "2026-11-14"
-      },
-      "status": "upcoming",
-      "news": [
-        {
-          "date": "2026-11-17",
-          "source": "Economic Times",
-          "title": "Mahanadi Coalfields Rs 8,981 crore IPO to open on November 19; GMP at 3%, check key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-rs-8981-crore-ipo-to-open-on-november-19-gmp-at-3-check-key-details/articleshow/135916428.cms"
-        },
-        {
-          "date": "2026-11-17",
-          "source": "Economic Times",
-          "title": "Mahanadi Coalfields sets Rs 8,981 crore IPO price band at Rs 129-136",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-sets-rs-8981-crore-ipo-price-band-at-rs-129-136/articleshow/135907281.cms"
-        },
-        {
-          "date": "2026-11-17",
-          "source": "cnbctv18.com",
-          "title": "Mahanadi Coalfields IPO: GMP signals 3% listing premium; check price band, dates and key details",
-          "url": "https://www.cnbctv18.com/market/mahanadi-coalfields-ipo-gmp-listing-premium-check-price-band-subscription-dates-key-details-20035417.htm"
-        },
-        {
-          "date": "2026-11-17",
-          "source": "Mint",
-          "title": "Mahanadi Coalfields IPO single profit calculator basis latest GMP: What investors may earn on listing?",
-          "url": "https://www.livemint.com/market/ipo/mahanadi-coalfields-ipo-single-profit-calculator-basis-latest-gmp-what-investors-may-earn-on-listing-11794905163788.html"
-        },
-        {
-          "date": "2026-11-16",
-          "source": "Economic Times",
-          "title": "Coal India's 3rd big windfall in a year? How Mahanadi Coalfields IPO could unlock Rs 8,964 crore",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/coal-indias-3rd-big-windfall-in-a-year-how-mahanadi-coalfields-ipo-could-unlock-rs-8964-crore/articleshow/135887433.cms"
-        },
-        {
-          "date": "2026-11-16",
-          "source": "Economic Times",
-          "title": "Mahanadi Coalfields IPO price band set at Rs 129–136; Rs 8,981 crore issue to open on November 19",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-price-band-set-at-rs-129136-rs-8981-crore-issue-to-open-on-november-19/articleshow/135870181.cms"
-        }
-      ],
-      "unconfirmed": true
     }
   ]
 }
