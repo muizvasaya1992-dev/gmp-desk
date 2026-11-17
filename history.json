@@ -1,7 +1,7 @@
 {
  "year": 2026,
  "bse_as_of": "2026-11-17T11:38+05:30",
- "nse_as_of": "2026-11-17T11:38+05:30",
+ "nse_as_of": "2026-11-18T00:01+05:30",
  "rows": [
   {
    "name": "Watrana Rentals",
@@ -39,7 +39,7 @@
    "exchange": "SME",
    "live": true,
    "id": "crystalcp",
-   "status": "upcoming",
+   "status": "open",
    "open": "2026-11-18",
    "close": "2026-11-20",
    "price": 272,
@@ -1486,19 +1486,6 @@
    "status": "listed"
   },
   {
-   "name": "SpectraA Technology Solutions",
-   "segment": "SME",
-   "symbol": "SPECTRAA",
-   "open": "2026-09-17",
-   "close": "2026-09-21",
-   "listing": "2026-09-24",
-   "price": 118,
-   "price_low": 112,
-   "exchange": "NSE Emerge",
-   "id": "spectraa-technology-solutions",
-   "status": "listed"
-  },
-  {
    "name": "Kheria Autocomp",
    "segment": "SME",
    "symbol": "KHERIAAUTO",
@@ -1509,6 +1496,19 @@
    "price_low": 96,
    "exchange": "NSE Emerge",
    "id": "kheria-autocomp",
+   "status": "listed"
+  },
+  {
+   "name": "SpectraA Technology Solutions",
+   "segment": "SME",
+   "symbol": "SPECTRAA",
+   "open": "2026-09-17",
+   "close": "2026-09-21",
+   "listing": "2026-09-24",
+   "price": 118,
+   "price_low": 112,
+   "exchange": "NSE Emerge",
+   "id": "spectraa-technology-solutions",
    "status": "listed"
   },
   {
@@ -2417,19 +2417,6 @@
    "status": "listed"
   },
   {
-   "name": "Madhur Knit Crafts",
-   "segment": "SME",
-   "symbol": "MADHURKNIT",
-   "open": "2026-08-24",
-   "close": "2026-08-27",
-   "listing": "2026-09-01",
-   "price": 100,
-   "price_low": 95,
-   "exchange": "NSE Emerge",
-   "id": "madhur-knit-crafts",
-   "status": "listed"
-  },
-  {
    "name": "ABH Healthcare",
    "segment": "SME",
    "symbol": "ABH",
@@ -2440,6 +2427,19 @@
    "price_low": 96,
    "exchange": "NSE Emerge",
    "id": "abh-healthcare",
+   "status": "listed"
+  },
+  {
+   "name": "Madhur Knit Crafts",
+   "segment": "SME",
+   "symbol": "MADHURKNIT",
+   "open": "2026-08-24",
+   "close": "2026-08-27",
+   "listing": "2026-09-01",
+   "price": 100,
+   "price_low": 95,
+   "exchange": "NSE Emerge",
+   "id": "madhur-knit-crafts",
    "status": "listed"
   },
   {
@@ -4284,19 +4284,6 @@
    "status": "listed"
   },
   {
-   "name": "Bio Medica Laboratories",
-   "segment": "SME",
-   "symbol": "BMLL",
-   "open": "2026-05-21",
-   "close": "2026-05-25",
-   "listing": "2026-05-29",
-   "price": 139,
-   "price_low": 132,
-   "exchange": "NSE Emerge",
-   "id": "bio-medica-laboratories",
-   "status": "listed"
-  },
-  {
    "name": "Q-Line Biotech",
    "segment": "SME",
    "symbol": "QLINE",
@@ -4307,6 +4294,19 @@
    "price_low": 326,
    "exchange": "NSE Emerge",
    "id": "q-line-biotech",
+   "status": "listed"
+  },
+  {
+   "name": "Bio Medica Laboratories",
+   "segment": "SME",
+   "symbol": "BMLL",
+   "open": "2026-05-21",
+   "close": "2026-05-25",
+   "listing": "2026-05-29",
+   "price": 139,
+   "price_low": 132,
+   "exchange": "NSE Emerge",
+   "id": "bio-medica-laboratories",
    "status": "listed"
   },
   {
@@ -5211,19 +5211,6 @@
    "status": "listed"
   },
   {
-   "name": "Brandman Retail",
-   "segment": "SME",
-   "symbol": "BRANDMAN",
-   "open": "2026-02-04",
-   "close": "2026-02-06",
-   "listing": "2026-02-11",
-   "price": 176,
-   "price_low": 167,
-   "exchange": "NSE Emerge",
-   "id": "brandman-retail",
-   "status": "listed"
-  },
-  {
    "name": "Grover Jewells",
    "segment": "SME",
    "symbol": "GJL",
@@ -5234,6 +5221,19 @@
    "price_low": 83,
    "exchange": "NSE Emerge",
    "id": "grover-jewells",
+   "status": "listed"
+  },
+  {
+   "name": "Brandman Retail",
+   "segment": "SME",
+   "symbol": "BRANDMAN",
+   "open": "2026-02-04",
+   "close": "2026-02-06",
+   "listing": "2026-02-11",
+   "price": 176,
+   "price_low": 167,
+   "exchange": "NSE Emerge",
+   "id": "brandman-retail",
    "status": "listed"
   },
   {
@@ -5662,5 +5662,5 @@
    "status": "listed"
   }
  ],
- "generated_at": "2026-11-17T18:45+05:30"
+ "generated_at": "2026-11-18T00:01+05:30"
 }

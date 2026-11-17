@@ -1651,9 +1651,9 @@
   "price": 272,
   "price_low": 259,
   "series": "Equity",
-  "nse_status": "Forthcoming",
+  "nse_status": "Active",
   "shares_offered": 12170076.0,
-  "last_seen": "2026-11-17T19:01+05:30",
+  "last_seen": "2026-11-18T00:01+05:30",
   "segment": "SME",
   "lot": 55,
   "registrar": "MUFG Intime India Private Limited",
@@ -1663,7 +1663,18 @@
   "retail_max": 200000,
   "cutoff_time": "5:00 PM",
   "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_CRYSTALCP.zip",
-  "details_at": "2026-11-17T11:38+05:30"
+  "details_at": "2026-11-18T00:01+05:30",
+  "sub": {
+   "total": 0.0
+  },
+  "sub_basis": "NSE+BSE",
+  "sub_asof": null,
+  "sub_hist": [
+   {
+    "at": "2026-11-18T00:01+05:30",
+    "total": 0.0
+   }
+  ]
  },
  "WATRANA": {
   "symbol": "WATRANA",
@@ -1676,7 +1687,7 @@
   "series": "SME",
   "nse_status": "Forthcoming",
   "shares_offered": 4902000.0,
-  "last_seen": "2026-11-17T19:01+05:30",
+  "last_seen": "2026-11-18T00:01+05:30",
   "segment": "SME",
   "registrar": "Maashitla Securities Private Limited",
   "lead_managers": [
@@ -1684,7 +1695,7 @@
   ],
   "cutoff_time": "5:00 PM",
   "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_WATRANA.zip",
-  "details_at": "2026-11-17T11:38+05:30"
+  "details_at": "2026-11-18T00:01+05:30"
  },
  "MAHACOAL": {
   "symbol": "MAHACOAL",
