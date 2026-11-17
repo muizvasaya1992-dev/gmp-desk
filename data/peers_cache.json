@@ -102,7 +102,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-17T12:01+05:30",
+  "fetched_at": "2026-11-17T12:15+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -657,7 +657,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-17T12:01+05:30",
+  "fetched_at": "2026-11-17T12:15+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -757,51 +757,6 @@
    },
    {
     "src": "Tracker D",
-    "slug": "foodlink-fb-holdings-india",
-    "name": "Foodlink F&B Holdings (India)",
-    "segment": "MAIN",
-    "exchange": null,
-    "open": null,
-    "close": null,
-    "boa": null,
-    "listing": null,
-    "price": 180.0,
-    "price_low": null,
-    "size_cr": null,
-    "gmp": 0.0,
-    "gmp_at": null,
-    "sub_total": null,
-    "sub_retail": null,
-    "sub_at": null,
-    "lot": 78.0,
-    "sector": "Luxury Food Services / Hospitality",
-    "detail_url": "https://ipoindex.in/ipo/foodlink-fb-holdings-india-ipo/",
-    "live": true,
-    "detail": {
-     "sub": {
-      "nii": 0.0,
-      "qib": 0.0,
-      "retail": 0.0,
-      "total": 0.0
-     },
-     "uses": [
-      {
-       "cr": 40.89,
-       "use": "Growth"
-      },
-      {
-       "cr": 45.4,
-       "use": "Growth"
-      },
-      {
-       "cr": 28.45,
-       "use": "Debt"
-      }
-     ]
-    }
-   },
-   {
-    "src": "Tracker D",
     "slug": "crystal-crop-protection",
     "name": "Crystal Crop Protection",
     "segment": "MAIN",
@@ -864,7 +819,7 @@
     "price": 129.0,
     "price_low": null,
     "size_cr": 8981.12,
-    "gmp": 3.75,
+    "gmp": 4.6,
     "gmp_at": null,
     "sub_total": null,
     "sub_retail": null,
