@@ -1,7 +1,7 @@
 {
  "_feeds": {
   "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms": {
-   "fetched": "2026-11-17T05:15+05:30",
+   "fetched": "2026-11-17T06:45+05:30",
    "items": [
     {
      "date": "2026-11-16",
@@ -306,7 +306,7 @@
    ]
   },
   "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms": {
-   "fetched": "2026-11-17T05:15+05:30",
+   "fetched": "2026-11-17T06:45+05:30",
    "items": [
     {
      "date": "2026-11-16",
@@ -611,8 +611,32 @@
    ]
   },
   "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml": {
-   "fetched": "2026-11-17T05:15+05:30",
+   "fetched": "2026-11-17T06:45+05:30",
    "items": [
+    {
+     "date": "2026-11-17",
+     "source": "cnbctv18.com",
+     "title": "Analysts are awed by SpaceX's Starship catch. Here's why",
+     "url": "https://www.cnbctv18.com/access/analysts-are-awed-by-spacexs-starship-catch-heres-why-20035387.htm"
+    },
+    {
+     "date": "2026-11-17",
+     "source": "cnbctv18.com",
+     "title": "Morgan Stanley is out with its 2027 outlook for equities. Here’s what the bank expects",
+     "url": "https://www.cnbctv18.com/access/morgan-stanley-is-out-with-its-2027-outlook-for-equities-heres-what-the-bank-expects-20035391.htm"
+    },
+    {
+     "date": "2026-11-17",
+     "source": "cnbctv18.com",
+     "title": "Sensex Today | Stock Market LIVE Updates: Nifty futures hint at a muted start; Brent eases to $91",
+     "url": "https://www.cnbctv18.com/market/stock-market-live-updates-sensex-nifty-50-expiry-today-oil-nifty-bank-record-high-bajaj-fin-aegis-senco-share-price-liveblog-20035375.htm"
+    },
+    {
+     "date": "2026-11-17",
+     "source": "cnbctv18.com",
+     "title": "US Market Sell-Off: Dow Jones, Nasdaq fall 750 points; Kevin Warsh may have added to the pressure",
+     "url": "https://www.cnbctv18.com/market/dow-jones-snp-500-nasdaq-us-market-sell-off-ai-nvidia-anthropic-kevin-warsh-crude-oil-triggers-20035370.htm"
+    },
     {
      "date": "2026-11-17",
      "source": "cnbctv18.com",
@@ -1068,36 +1092,54 @@
      "source": "cnbctv18.com",
      "title": "Record Dates This Week: Cochin Shipyard, Page Industries, Oil India among 12 stocks seeing corporate actions",
      "url": "https://www.cnbctv18.com/market/corporate-actions-this-week-cochin-shipyard-page-industries-shipping-corp-dr-agarwal-medi-assist-share-price-dividend-buyback-record-date-20034489.htm"
-    },
-    {
-     "date": "2026-11-15",
-     "source": "cnbctv18.com",
-     "title": "Sebi to issue guidelines for responsible use of AI in capital markets, says chairman Tuhin Kanta Pandey",
-     "url": "https://www.cnbctv18.com/market/sebi-ai-guidelines-responsible-use-artificial-intelligence-capital-markets-20034485.htm"
-    },
-    {
-     "date": "2026-11-15",
-     "source": "cnbctv18.com",
-     "title": "Gold, silver prices outlook: Inflation data, Fed signals and West Asia tensions to guide bullion this week",
-     "url": "https://www.cnbctv18.com/market/commodities/gold-silver-price-outlook-inflation-data-fed-west-asia-20034448.htm"
-    },
-    {
-     "date": "2026-11-16",
-     "source": "cnbctv18.com",
-     "title": "Nifty Outlook for November 16: Index may see near-term consolidation after Friday's fall; key levels to watch",
-     "url": "https://www.cnbctv18.com/market/nifty-outlook-monday-november-16-index-may-see-near-term-consolidation-after-fridays-fall-key-levels-to-watch-20034415.htm"
-    },
-    {
-     "date": "2026-11-15",
-     "source": "cnbctv18.com",
-     "title": "Stocks to Watch for Nov 16: Tata Motors PV, Eicher Motors, Godrej, Manipal Health and more",
-     "url": "https://www.cnbctv18.com/photos/market/stocks-to-watch-for-nov-16-tata-motors-pv-eicher-motors-godrej-manipal-health-and-more-20033599.htm"
     }
    ]
   },
   "https://www.freepressjournal.in/stories.rss?section=business": {
-   "fetched": "2026-11-17T05:15+05:30",
+   "fetched": "2026-11-17T06:45+05:30",
    "items": [
+    {
+     "date": "2026-11-17",
+     "source": "freepressjournal.in",
+     "title": "MP High Court Upholds Widow's Right To Inherit Property Despite Subsequent Relationship With Another Man",
+     "url": "https://www.freepressjournal.in/bhopal/mp-high-court-upholds-widows-right-to-inherit-property-despite-subsequent-relationship-with-another-man"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "freepressjournal.in",
+     "title": "Social Worker Rahul Gupta Offers Cash To Sharad Kapoor At Mumbai Airport, He Accepts - VIDEO",
+     "url": "https://www.freepressjournal.in/entertainment/social-worker-rahul-gupta-offers-cash-to-sharad-kapoor-at-mumbai-airport-urges-people-to-help-him-video"
+    },
+    {
+     "date": "2026-11-17",
+     "source": "freepressjournal.in",
+     "title": "Bhopal Schools Face Strict Action For Incorrect UDISE Data, Eight Class 1 Students Shown As Repeaters",
+     "url": "https://www.freepressjournal.in/bhopal/bhopal-schools-face-strict-action-for-incorrect-udise-data-eight-class-1-students-shown-as-repeaters"
+    },
+    {
+     "date": "2026-11-17",
+     "source": "freepressjournal.in",
+     "title": "Indore Prepares For Summer Water Shortage, IMC Plans To Fill Bilawali Lake Through Narmada-Gambhir Link Project",
+     "url": "https://www.freepressjournal.in/indore/indore-prepares-for-summer-water-shortage-imc-plans-to-fill-bilawali-lake-through-narmada-gambhir-link-project"
+    },
+    {
+     "date": "2026-11-17",
+     "source": "freepressjournal.in",
+     "title": "Bhopal BMC's Bulldozer Action Returns As 5 Shops Demolished, Over 50 Establishments Face Sealing Notices",
+     "url": "https://www.freepressjournal.in/bhopal/bhopal-bmcs-bulldozer-action-returns-as-5-shops-demolished-over-50-establishments-face-sealing-notices"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "freepressjournal.in",
+     "title": "Bhopal's Laharpur Ecological Park Closed After Leopard Attacks Class 10 Student, 15 Camera Traps Installed",
+     "url": "https://www.freepressjournal.in/bhopal/bhopals-laharpur-ecological-park-closed-after-leopard-attacks-class-10-student-15-camera-traps-installed"
+    },
+    {
+     "date": "2026-11-16",
+     "source": "freepressjournal.in",
+     "title": "Indore Fire Safety Crackdown Hits Hotels, Hostels And Shops As IMC Seals 10 Establishments",
+     "url": "https://www.freepressjournal.in/indore/indore-fire-safety-crackdown-hits-hotels-hostels-and-shops-as-imc-seals-10-establishments"
+    },
     {
      "date": "2026-11-16",
      "source": "freepressjournal.in",
@@ -1133,108 +1175,36 @@
      "source": "freepressjournal.in",
      "title": "MP BJP Plans Major Core Committee Reshuffle, Arvind Bhadoria May Be Dropped After Narottam Mishra",
      "url": "https://www.freepressjournal.in/bhopal/mp-bjp-plans-major-core-committee-reshuffle-arvind-bhadoria-may-be-dropped-after-narottam-mishra"
-    },
-    {
-     "date": "2026-11-16",
-     "source": "freepressjournal.in",
-     "title": "AS-IT-IS Nutrition Partners With Cult Neo To Bring ATOM Protein Range To Fitness Centres Across India",
-     "url": "https://www.freepressjournal.in/uttar-pradesh/as-it-is-nutrition-partners-with-cult-neo-to-bring-atom-protein-range-to-fitness-centres-across-india"
-    },
-    {
-     "date": "2026-11-16",
-     "source": "freepressjournal.in",
-     "title": "Uttar Pradesh: 500 FPOs Await Government Clearance, Nearly 4 Lakh Farmers Face Uncertainty",
-     "url": "https://www.freepressjournal.in/uttar-pradesh/uttar-pradesh-500-fpos-await-government-clearance-nearly-4-lakh-farmers-face-uncertainty"
-    },
-    {
-     "date": "2026-11-16",
-     "source": "freepressjournal.in",
-     "title": "Mumbai Healthcare Update: BMC To Take Over Aarey Hospital For 30 Years, Must Fund Repairs And Operations",
-     "url": "https://www.freepressjournal.in/mumbai/mumbai-healthcare-update-bmc-to-take-over-aarey-hospital-for-30-years-must-fund-repairs-and-operations"
-    },
-    {
-     "date": "2026-11-16",
-     "source": "freepressjournal.in",
-     "title": "MP Government Plans ₹200 Crore Rural Electrification Scheme For OBC, General Category Settlements With 20 Houses",
-     "url": "https://www.freepressjournal.in/bhopal/mp-government-plans-200-crore-rural-electrification-scheme-for-obc-general-category-settlements-with-20-houses"
-    },
-    {
-     "date": "2026-11-16",
-     "source": "freepressjournal.in",
-     "title": "Uber, Mahindra Plan 5,000 Electric Autos In Mumbai, But Charging Infrastructure Remains A Concern",
-     "url": "https://www.freepressjournal.in/mumbai/uber-mahindra-plan-5000-electric-autos-in-mumbai-but-charging-infrastructure-remains-a-concern"
-    },
-    {
-     "date": "2026-11-16",
-     "source": "freepressjournal.in",
-     "title": "MP's Ujjain University Protest Turns Ugly As NSUI Leader Waves Shoe At Registrar, Property Damaged",
-     "url": "https://www.freepressjournal.in/indore/mps-ujjain-university-protest-turns-ugly-as-nsui-leader-waves-shoe-at-registrar-property-damaged"
-    },
-    {
-     "date": "2026-11-16",
-     "source": "freepressjournal.in",
-     "title": "Mumbai: BMC Plans To Double Land Lease Rates, Opposition Seeks White Paper On Civic Finances",
-     "url": "https://www.freepressjournal.in/mumbai/mumbai-bmc-plans-to-double-land-lease-rates-opposition-seeks-white-paper-on-civic-finances"
-    },
-    {
-     "date": "2026-11-16",
-     "source": "freepressjournal.in",
-     "title": "'No Nikah Took Place': Woman Denies Forced Conversion In First Case Under Maharashtra Freedom Of Religion Act, 2026",
-     "url": "https://www.freepressjournal.in/mumbai/no-nikah-took-place-woman-denies-forced-conversion-in-first-case-under-maharashtra-freedom-of-religion-act-2026"
-    },
-    {
-     "date": "2026-11-16",
-     "source": "freepressjournal.in",
-     "title": "Mumbai: Siddhivinayak Temple Introduces Four New Special Pujas, Fees Go Upto ₹50,000",
-     "url": "https://www.freepressjournal.in/mumbai/mumbai-siddhivinayak-temple-introduces-four-new-special-pujas-fees-go-upto-50000"
-    },
-    {
-     "date": "2026-11-16",
-     "source": "freepressjournal.in",
-     "title": "Bombay HC Allows Incentive FSI For Non-Cessed Buildings In Mixed Redevelopment Projects, Quashes State And BMC Decisions",
-     "url": "https://www.freepressjournal.in/mumbai/bombay-hc-allows-incentive-fsi-for-non-cessed-buildings-in-mixed-redevelopment-projects-quashes-state-and-bmc-decisions"
-    },
-    {
-     "date": "2026-11-16",
-     "source": "freepressjournal.in",
-     "title": "Mumbai: BMC’s ₹8.25-Crore Road-Washing Plan Faces Opposition Over Water Use, Groundwater Concerns",
-     "url": "https://www.freepressjournal.in/mumbai/mumbai-bmcs-825-crore-road-washing-plan-faces-opposition-over-water-use-groundwater-concerns"
-    },
-    {
-     "date": "2026-11-16",
-     "source": "freepressjournal.in",
-     "title": "Maharashtra: Around 34,000 Lower Court Employees To Begin Indefinite Strike Over Pay Parity Demand",
-     "url": "https://www.freepressjournal.in/mumbai/maharashtra-around-34000-lower-court-employees-to-begin-indefinite-strike-over-pay-parity-demand"
-    },
-    {
-     "date": "2026-11-16",
-     "source": "freepressjournal.in",
-     "title": "Gurdaspur Constable Murder Case: Punjab Police Probe Personal Vendetta, Terror Angle",
-     "url": "https://www.freepressjournal.in/india/gurdaspur-constable-murder-case-punjab-police-probe-personal-vendetta-terror-angle"
-    },
-    {
-     "date": "2026-11-16",
-     "source": "freepressjournal.in",
-     "title": "'She Belonged To My Father, My Father Belonged To Her': Rahul Gandhi on Sonia-Rajiv Bond",
-     "url": "https://www.freepressjournal.in/india/she-belonged-to-my-father-my-father-belonged-to-her-rahul-gandhi-on-sonia-rajiv-bond-2"
-    },
-    {
-     "date": "2026-11-16",
-     "source": "freepressjournal.in",
-     "title": "MP's Vidisha Sees Two Crimes Against Minor Girls, Accused's House Demolished As NHRC Issues Notices",
-     "url": "https://www.freepressjournal.in/bhopal/mps-vidisha-sees-two-crimes-against-minor-girls-accuseds-house-demolished-as-nhrc-issues-notices"
-    },
-    {
-     "date": "2026-11-16",
-     "source": "freepressjournal.in",
-     "title": "Thousands Form Giant Water Drop In MP's Jhabua, Set World Record With Unique Water Conservation Pledge",
-     "url": "https://www.freepressjournal.in/indore/thousands-form-giant-water-drop-in-mps-jhabua-set-world-record-with-unique-water-conservation-pledge"
     }
    ]
   },
   "https://www.livemint.com/rss/markets": {
-   "fetched": "2026-11-17T05:15+05:30",
+   "fetched": "2026-11-17T06:45+05:30",
    "items": [
+    {
+     "date": "2026-11-17",
+     "source": "Mint",
+     "title": "Stock market outlook today,17 Nov:Sensex, Nifty prediction-DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues",
+     "url": "https://www.livemint.com/market/stock-market-news/stock-market-outlook-today-17-nov-sensex-nifty-prediction-djia-s-p-nasdaq-gift-nifty-kospi-nikkei-taiwan-cue-11794875550779.html"
+    },
+    {
+     "date": "2026-11-17",
+     "source": "Mint",
+     "title": "Stock recommendations for 17 November from MarketSmith India",
+     "url": "https://www.livemint.com/market/stock-market-news/stock-recommendations-for-17-november-from-marketsmith-india-11794834560676.html"
+    },
+    {
+     "date": "2026-11-17",
+     "source": "Mint",
+     "title": "Raja Venkatraman recommends three stocks for 17 November",
+     "url": "https://www.livemint.com/market/stock-market-news/raja-venkatraman-recommends-three-stocks-for-17-november-11794840884088.html"
+    },
+    {
+     "date": "2026-11-17",
+     "source": "Mint",
+     "title": "China’s Buyback Push Struggles to Put a Floor Under Stocks",
+     "url": "https://www.livemint.com/market/chinas-buyback-push-struggles-to-put-a-floor-under-stocks-11794875338891.html"
+    },
     {
      "date": "2026-11-17",
      "source": "Mint",
@@ -1420,36 +1390,18 @@
      "source": "Mint",
      "title": "Inox Wind shares crash: Why energy stock price is falling today? Tanks 9.17% post Q2, down 60% in 1 year - Still a buy?",
      "url": "https://www.livemint.com/market/stock-market-news/inox-wind-shares-crash-why-energy-stock-price-is-falling-today-tanks-9-17-post-q2-down-60-in-1-year-still-a-buy-11794803945803.html"
-    },
-    {
-     "date": "2026-11-16",
-     "source": "Mint",
-     "title": "MCX gold, silver prices drop: What led to rates slide; multi-month lows ahead of wedding season - Details for investors",
-     "url": "https://www.livemint.com/market/commodities/mcx-gold-silver-prices-drop-what-led-to-rates-slide-multi-month-lows-ahead-of-wedding-season-details-for-investors-11794801621038.html"
-    },
-    {
-     "date": "2026-11-16",
-     "source": "Mint",
-     "title": "Tata Motors PV shares crash: What led to auto stock 8% ramming, Nifty laggard; down 27% in 2026 - Buy, sell or hold?",
-     "url": "https://www.livemint.com/market/stock-market-news/tata-motors-pv-shares-crash-what-led-to-auto-stock-8-ramming-nifty-laggard-down-27-in-2026-buy-sell-or-hold-11794801946841.html"
-    },
-    {
-     "date": "2026-11-16",
-     "source": "Mint",
-     "title": "Investors Return to JGBs as Rate Outlook Shifts, SMBC Nikko Says",
-     "url": "https://www.livemint.com/market/investors-return-to-jgbs-as-rate-outlook-shifts-smbc-nikko-says-11794801634286.html"
-    },
-    {
-     "date": "2026-11-16",
-     "source": "Mint",
-     "title": "Goldman Sachs Predicts ‘Sizeable Surplus’ for Oil Market in 2027",
-     "url": "https://www.livemint.com/market/goldman-sachs-predicts-sizeable-surplus-for-oil-market-in-2027-11794801634263.html"
     }
    ]
   },
   "https://www.thehindubusinessline.com/markets/feeder/default.rss": {
-   "fetched": "2026-11-17T05:15+05:30",
+   "fetched": "2026-11-17T06:45+05:30",
    "items": [
+    {
+     "date": "2026-11-17",
+     "source": "BusinessLine",
+     "title": "Sensex today | Stock Market Live Updates: Stock to buy today: CAMS",
+     "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-17th-november-2026/article71708442.ece"
+    },
     {
      "date": "2026-11-17",
      "source": "BusinessLine",
@@ -1803,17 +1755,11 @@
      "source": "BusinessLine",
      "title": "Bullion Cues: Bears hold sway",
      "url": "https://www.thehindubusinessline.com/portfolio/commodity-analysis/bullion-cues-bears-hold-sway/article71701377.ece"
-    },
-    {
-     "date": "2026-11-14",
-     "source": "BusinessLine",
-     "title": "Index Outlook: Staying firmly bullish",
-     "url": "https://www.thehindubusinessline.com/portfolio/technical-analysis/index-outlook-staying-firmly-bullish/article71701225.ece"
     }
    ]
   },
   "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss": {
-   "fetched": "2026-11-17T05:15+05:30",
+   "fetched": "2026-11-17T06:45+05:30",
    "items": [
     {
      "date": "2026-10-26",
@@ -1939,7 +1885,7 @@
   }
  },
  "crystalcp": {
-  "checked": "2026-11-17T06:31+05:30",
+  "checked": "2026-11-17T06:45+05:30",
   "items": [
    {
     "date": "2026-11-16",
@@ -1962,7 +1908,7 @@
   ]
  },
  "mahanadi-coalfields": {
-  "checked": "2026-11-17T06:31+05:30",
+  "checked": "2026-11-17T06:45+05:30",
   "items": [
    {
     "date": "2026-11-16",
