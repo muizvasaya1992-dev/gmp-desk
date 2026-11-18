@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T15:45+05:30",
+  "generated_at": "2026-11-18T16:01+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-18T11:34+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-18T15:45+05:30",
+    "nse_ok_at": "2026-11-18T16:01+05:30",
     "bse_ok_at": "2026-11-18T11:36+05:30"
   },
   "ipos": [
@@ -2848,15 +2848,15 @@
       "segment": "SME",
       "sub": {
         "qib": 2.46,
-        "nii": 0.8,
-        "bnii": 0.57,
-        "snii": 1.24,
-        "retail": 1.77,
-        "employee": 4.05,
-        "total": 1.77
+        "nii": 0.81,
+        "bnii": 0.58,
+        "snii": 1.28,
+        "retail": 1.8,
+        "employee": 4.09,
+        "total": 1.79
       },
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-11-18T15:42",
+      "sub_asof": "2026-11-18T15:57",
       "registrar": "MUFG Intime India Private Limited",
       "lead_managers": [
         "IIFL Capital Services Limited, DAM Capital Advisors Limited, Motilal Oswal Investment Advisors Limited"
@@ -3061,12 +3061,22 @@
           "retail": 1.77,
           "employee": 4.05,
           "total": 1.77
+        },
+        {
+          "at": "2026-11-18T16:01+05:30",
+          "qib": 2.46,
+          "nii": 0.81,
+          "bnii": 0.58,
+          "snii": 1.28,
+          "retail": 1.8,
+          "employee": 4.09,
+          "total": 1.79
         }
       ],
       "series": "Equity",
       "nse_status": "Active",
       "shares_offered": 12170076.0,
-      "updated_on": "2026-11-18T15:45+05:30",
+      "updated_on": "2026-11-18T16:01+05:30",
       "bse_ipo_no": "8089",
       "drhp_url": "https://www.sebi.gov.in/filings/public-issues/dec-2025/crystal-crop-protection-limited-drhp_98530.html",
       "sector": "Chemicals",
@@ -3098,8 +3108,8 @@
         },
         {
           "source": "Tracker D",
-          "gmp": 18,
-          "at": "2026-11-18T14:45"
+          "gmp": 19,
+          "at": "2026-11-18T16:01"
         },
         {
           "source": "Tracker B",
@@ -3137,16 +3147,16 @@
       "gmp_low": 13,
       "gmp_high": 45,
       "exchange": "SME",
-      "gmp": 18,
-      "gmp_asof": "2026-11-18T14:45",
+      "gmp": 19,
+      "gmp_asof": "2026-11-18T16:01",
       "gmp_source_latest": "Tracker D",
-      "gmp_pct": 6.62,
+      "gmp_pct": 6.99,
       "gmp_spread": {
-        "min": 18,
+        "min": 19,
         "max": 19,
-        "diff": 1,
+        "diff": 0,
         "n": 4,
-        "diff_pct_of_price": 0.37
+        "diff_pct_of_price": 0.0
       },
       "gmp_trend": {
         "dir": "rising",
@@ -3221,7 +3231,7 @@
       "series": "SME",
       "nse_status": "Forthcoming",
       "shares_offered": 4902000.0,
-      "updated_on": "2026-11-18T15:45+05:30",
+      "updated_on": "2026-11-18T16:01+05:30",
       "tracker_rating": 3,
       "reservation_detail": {
         "nii": {
@@ -3397,8 +3407,8 @@
         },
         {
           "source": "Tracker D",
-          "gmp": 3.1,
-          "at": "2026-11-18T14:31"
+          "gmp": 3.4,
+          "at": "2026-11-18T16:01"
         }
       ],
       "gmp_history": [
@@ -3416,27 +3426,27 @@
         },
         {
           "date": "2026-11-18",
-          "gmp": 3.1
+          "gmp": 3.4
         }
       ],
       "history_source": "Tracker D",
       "gmp_low": 3,
       "gmp_high": 13,
       "exchange": "SME",
-      "gmp": 3.1,
-      "gmp_asof": "2026-11-18T14:31",
+      "gmp": 3.4,
+      "gmp_asof": "2026-11-18T16:01",
       "gmp_source_latest": "Tracker D",
-      "gmp_pct": 2.28,
+      "gmp_pct": 2.5,
       "gmp_spread": {
         "min": 3,
-        "max": 3.1,
-        "diff": 0.10000000000000009,
+        "max": 3.4,
+        "diff": 0.3999999999999999,
         "n": 3,
-        "diff_pct_of_price": 0.07
+        "diff_pct_of_price": 0.29
       },
       "gmp_trend": {
         "dir": "falling",
-        "change": -2.4,
+        "change": -2.1,
         "days": 3,
         "since": "2026-11-16"
       },
