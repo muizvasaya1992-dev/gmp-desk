@@ -1,7 +1,7 @@
 {
  "_feeds": {
   "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms": {
-   "fetched": "2026-11-18T04:15+05:30",
+   "fetched": "2026-11-18T05:45+05:30",
    "items": [
     {
      "date": "2026-11-17",
@@ -306,7 +306,7 @@
    ]
   },
   "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms": {
-   "fetched": "2026-11-18T04:15+05:30",
+   "fetched": "2026-11-18T05:45+05:30",
    "items": [
     {
      "date": "2026-11-17",
@@ -611,8 +611,20 @@
    ]
   },
   "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml": {
-   "fetched": "2026-11-18T04:15+05:30",
+   "fetched": "2026-11-18T05:45+05:30",
    "items": [
+    {
+     "date": "2026-11-18",
+     "source": "cnbctv18.com",
+     "title": "Dow Jones falls 1,600 points in two sessions, but futures rebound after Nvidia results",
+     "url": "https://www.cnbctv18.com/market/dow-jones-snp-500-nasdaq-sell-off-futures-rebound-nvidia-results-anthropic-ipo-pricing-bearish-banks-20036341.htm"
+    },
+    {
+     "date": "2026-11-18",
+     "source": "cnbctv18.com",
+     "title": "Nvidia shares jump nearly 6% after strong Q3 results, guidance increase, management commentary",
+     "url": "https://www.cnbctv18.com/market/nvidia-q3-results-beat-estimates-fy28-guidance-increased-data-center-surge-jensen-huang-removal-share-price-surge-20036338.htm"
+    },
     {
      "date": "2026-11-18",
      "source": "cnbctv18.com",
@@ -1080,24 +1092,48 @@
      "source": "cnbctv18.com",
      "title": "Suggestions on LTCG under review, you’ll come to know on February 1: CBDT Chairman",
      "url": "https://www.cnbctv18.com/economy/suggestions-on-ltcg-long-term-capital-gains-under-review-youll-come-to-know-on-february-1-cbdt-chairman-20035293.htm"
-    },
-    {
-     "date": "2026-11-16",
-     "source": "cnbctv18.com",
-     "title": "Indian AI infra provider Meganet files for $78.6 million IPO",
-     "url": "https://www.cnbctv18.com/market/indian-ai-infra-provider-meganet-files-for-usd78-6-million-ipo-20035323.htm"
-    },
-    {
-     "date": "2026-11-16",
-     "source": "cnbctv18.com",
-     "title": "Exclusive: RBI tells Tata Sons to comply with listing norms",
-     "url": "https://www.cnbctv18.com/business/companies/exclusive-rbi-tells-tata-sons-to-comply-with-listing-norms-20035318.htm"
     }
    ]
   },
   "https://www.freepressjournal.in/stories.rss?section=business": {
-   "fetched": "2026-11-18T04:15+05:30",
+   "fetched": "2026-11-18T05:45+05:30",
    "items": [
+    {
+     "date": "2026-11-17",
+     "source": "freepressjournal.in",
+     "title": "Indore Ayyappa Temple Begins 60-Day Mandala-Makaravilakku Festival With Special Pujas And Traditional Rituals",
+     "url": "https://www.freepressjournal.in/indore/indore-ayyappa-temple-begins-60-day-mandala-makaravilakku-festival-with-special-pujas-and-traditional-rituals"
+    },
+    {
+     "date": "2026-11-17",
+     "source": "freepressjournal.in",
+     "title": "Madhya Pradesh Forest Department To Train Snake Catchers As State Records Up To 3,000 Snakebite Deaths Annually",
+     "url": "https://www.freepressjournal.in/bhopal/madhya-pradesh-forest-department-to-train-snake-catchers-as-state-records-up-to-3000-snakebite-deaths-annually"
+    },
+    {
+     "date": "2026-11-17",
+     "source": "freepressjournal.in",
+     "title": "Madhya Pradesh Sports Roundup 2026: Pankaj Advani Shines In Indore, Dhar Veteran Wins Gold, Young Athletes Impress",
+     "url": "https://www.freepressjournal.in/indore/madhya-pradesh-sports-roundup-2026-pankaj-advani-shines-in-indore-dhar-veteran-wins-gold-young-athletes-impress"
+    },
+    {
+     "date": "2026-11-17",
+     "source": "freepressjournal.in",
+     "title": "'Flat Purchase Advances Cannot Be Treated As Deposits Under MPID Act': Bombay HC",
+     "url": "https://www.freepressjournal.in/mumbai/flat-purchase-advances-cannot-be-treated-as-deposits-under-mpid-act-bombay-hc"
+    },
+    {
+     "date": "2026-11-17",
+     "source": "freepressjournal.in",
+     "title": "Mumbai Air Pollution: High Power Committee Orders Time-Bound, Officer-Specific Action Ahead Of Winter",
+     "url": "https://www.freepressjournal.in/mumbai/mumbai-air-pollution-high-power-committee-orders-time-bound-officer-specific-action-ahead-of-winter"
+    },
+    {
+     "date": "2026-11-17",
+     "source": "freepressjournal.in",
+     "title": "Mumbai–Varanasi Vande Bharat Sleeper Proposal Promises 16–18-Hour Journey, Cutting Travel Time By Upto 12 Hours",
+     "url": "https://www.freepressjournal.in/mumbai/mumbaivaranasi-vande-bharat-sleeper-proposal-promises-1618-hour-journey-cutting-travel-time-by-upto-12-hours"
+    },
     {
      "date": "2026-11-17",
      "source": "freepressjournal.in",
@@ -1235,108 +1271,18 @@
      "source": "freepressjournal.in",
      "title": "Thane Gears Up For ‘Mini Olympics’ As 75,000 Athletes Set To Compete In MP Sports Carnival | VIDEO",
      "url": "https://www.freepressjournal.in/mumbai/thane-gears-up-for-mini-olympics-as-75000-athletes-set-to-compete-in-mp-sports-carnival-video"
-    },
-    {
-     "date": "2026-11-17",
-     "source": "freepressjournal.in",
-     "title": "Maharashtra Cabinet Clears Ordinance To Amend Universities Act; Chancellor Gets Power To Remove Pro-Vice-Chancellors",
-     "url": "https://www.freepressjournal.in/mumbai/maharashtra-cabinet-clears-ordinance-to-amend-universities-act-chancellor-gets-power-to-remove-pro-vice-chancellors"
-    },
-    {
-     "date": "2026-11-17",
-     "source": "freepressjournal.in",
-     "title": "Panvel Residents Troubled By Mosquito Menace; Citizens Demand Action To Eliminate Breeding Sites",
-     "url": "https://www.freepressjournal.in/mumbai/panvel-residents-troubled-by-mosquito-menace-citizens-demand-action-to-eliminate-breeding-sites"
-    },
-    {
-     "date": "2026-11-17",
-     "source": "freepressjournal.in",
-     "title": "Thane Police Commissioner Ashutosh Dumbre’s WhatsApp Account Hacked; Obscene Videos Uploaded On Status",
-     "url": "https://www.freepressjournal.in/mumbai/thane-police-commissioner-ashutosh-dumbres-whatsapp-account-hacked-obscene-videos-uploaded-on-status"
-    },
-    {
-     "date": "2026-11-17",
-     "source": "freepressjournal.in",
-     "title": "Hindu Outfits Accuse ‘Ramayana’ Film Of Distorting Valmiki’s Epic, Urge Boycott",
-     "url": "https://www.freepressjournal.in/mumbai/hindu-outfits-accuse-ramayana-film-of-distorting-valmikis-epic-urge-boycott"
-    },
-    {
-     "date": "2026-11-17",
-     "source": "freepressjournal.in",
-     "title": "Maharashtra FDA Seizes Dietary Supplements Worth ₹5.59 Lakh In Mumbai Over Prohibited Ingredients",
-     "url": "https://www.freepressjournal.in/mumbai/maharashtra-fda-seizes-dietary-supplements-worth-559-lakh-in-mumbai-over-prohibited-ingredients"
-    },
-    {
-     "date": "2026-11-17",
-     "source": "freepressjournal.in",
-     "title": "Maharashtra Orders District-Wide Drought Assessment; 4 More Talukas Declared Drought-Hit",
-     "url": "https://www.freepressjournal.in/mumbai/maharashtra-orders-district-wide-drought-assessment-4-more-talukas-declared-drought-hit"
-    },
-    {
-     "date": "2026-11-17",
-     "source": "freepressjournal.in",
-     "title": "MP Warehousing Corporation Chairman Sanjay Nagaich Caught In Heated Argument At Rewa Toll Plaza, Video Goes Viral",
-     "url": "https://www.freepressjournal.in/bhopal/mp-warehousing-corporation-chairman-sanjay-nagaich-caught-in-heated-argument-at-rewa-toll-plaza-video-goes-viral"
-    },
-    {
-     "date": "2026-11-17",
-     "source": "freepressjournal.in",
-     "title": "Mumbai: BMC Faces ₹54.80 Crore Streetlight Bill Dues, Proposes Fund Diversion From 20 Departments",
-     "url": "https://www.freepressjournal.in/mumbai/mumbai-bmc-faces-5480-crore-streetlight-bill-dues-proposes-fund-diversion-from-20-departments"
-    },
-    {
-     "date": "2026-11-17",
-     "source": "freepressjournal.in",
-     "title": "Udhna Railway Station Gets India's Largest Passenger Holding Facility; 10,224-Sq-Metre Centre Can Accommodate 15,000 Travellers",
-     "url": "https://www.freepressjournal.in/press-release/udhna-railway-station-gets-indias-largest-passenger-holding-facility-10224-sq-metre-centre-can-accommodate-15000-travellers"
-    },
-    {
-     "date": "2026-11-17",
-     "source": "freepressjournal.in",
-     "title": "Maharashtra Turns To MGNREGS To Tackle Fodder Shortage; Seven More Crops Added Under VB-G RAM G",
-     "url": "https://www.freepressjournal.in/mumbai/maharashtra-turns-to-mgnregs-to-tackle-fodder-shortage-seven-more-crops-added-under-vb-g-ram-g"
-    },
-    {
-     "date": "2026-11-17",
-     "source": "freepressjournal.in",
-     "title": "BMC Plans WhatsApp, Google Messages Property Tax Reminders For 11.19 Lakh Mumbai Properties",
-     "url": "https://www.freepressjournal.in/mumbai/bmc-plans-whatsapp-google-messages-property-tax-reminders-for-1119-lakh-mumbai-properties"
-    },
-    {
-     "date": "2026-11-17",
-     "source": "freepressjournal.in",
-     "title": "Gold Worth ₹2.26 Crore Seized At Mumbai Airport; Two Arrested, Bullion Found Concealed In Speaker, Electric Iron",
-     "url": "https://www.freepressjournal.in/mumbai/gold-worth-226-crore-seized-at-mumbai-airport-two-arrested-bullion-found-concealed-in-speaker-electric-iron"
-    },
-    {
-     "date": "2026-11-17",
-     "source": "freepressjournal.in",
-     "title": "Raigad NGO To Organise Mountaineering Rescue Training Camp In Roha On November 22",
-     "url": "https://www.freepressjournal.in/mumbai/raigad-ngo-to-organise-mountaineering-rescue-training-camp-in-roha-on-november-22"
-    },
-    {
-     "date": "2026-11-17",
-     "source": "freepressjournal.in",
-     "title": "BNCMC Proposes ₹600–₹2,400 Monthly Garbage Collection Charges For Commercial Establishments, Faces Opposition",
-     "url": "https://www.freepressjournal.in/mumbai/bncmc-proposes-6002400-monthly-garbage-collection-charges-for-commercial-establishments-faces-opposition"
-    },
-    {
-     "date": "2026-11-17",
-     "source": "freepressjournal.in",
-     "title": "Maharashtra Cabinet Approves Palghar's Reclassification From Zone 4 To Zone 1 Under Textile Policy, Boosting Industrial Incentives",
-     "url": "https://www.freepressjournal.in/mumbai/maharashtra-cabinet-approves-palghars-reclassification-from-zone-4-to-zone-1-under-textile-policy-boosting-industrial-incentives"
-    },
-    {
-     "date": "2026-11-17",
-     "source": "freepressjournal.in",
-     "title": "5 Arrested For Stealing Metals Worth ₹14.44 Lakh From Rahanal Warehouse; Property Worth ₹24.87 Lakh Seized",
-     "url": "https://www.freepressjournal.in/mumbai/5-arrested-for-stealing-metals-worth-1444-lakh-from-rahanal-warehouse-property-worth-2487-lakh-seized"
     }
    ]
   },
   "https://www.livemint.com/rss/markets": {
-   "fetched": "2026-11-18T04:15+05:30",
+   "fetched": "2026-11-18T05:45+05:30",
    "items": [
+    {
+     "date": "2026-11-18",
+     "source": "Mint",
+     "title": "Emerging-Market Currencies Halt Three-Day Slump, Stocks Slide",
+     "url": "https://www.livemint.com/market/emergingmarket-currencies-halt-three-day-slump-stocks-slide-11794955884837.html"
+    },
     {
      "date": "2026-11-18",
      "source": "Mint",
@@ -1540,17 +1486,11 @@
      "source": "Mint",
      "title": "Why JLR remains the albatross around Tata Motors’ neck",
      "url": "https://www.livemint.com/market/mark-to-market/tata-motors-share-price-jlr-recovery-delayed-fy28-cash-flow-11794892499084.html"
-    },
-    {
-     "date": "2026-11-17",
-     "source": "Mint",
-     "title": "FirstCry-parent Brainbees Solutions shares rally 13%: Q2 net loss narrows 75%, revenue jumps - Should you buy?",
-     "url": "https://www.livemint.com/market/stock-market-news/firstcryparent-brainbees-solutions-shares-rally-13-q2-net-loss-narrows-75-revenue-jumps-should-you-buy-11794895128954.html"
     }
    ]
   },
   "https://www.thehindubusinessline.com/markets/feeder/default.rss": {
-   "fetched": "2026-11-18T04:15+05:30",
+   "fetched": "2026-11-18T05:45+05:30",
    "items": [
     {
      "date": "2026-11-17",
@@ -1915,7 +1855,7 @@
    ]
   },
   "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss": {
-   "fetched": "2026-11-18T04:15+05:30",
+   "fetched": "2026-11-18T05:45+05:30",
    "items": [
     {
      "date": "2026-11-17",
@@ -2041,7 +1981,7 @@
   }
  },
  "crystalcp": {
-  "checked": "2026-11-18T05:31+05:30",
+  "checked": "2026-11-18T05:45+05:30",
   "items": [
    {
     "date": "2026-11-17",
@@ -2064,7 +2004,7 @@
   ]
  },
  "mahacoal": {
-  "checked": "2026-11-18T05:31+05:30",
+  "checked": "2026-11-18T05:45+05:30",
   "items": [
    {
     "date": "2026-11-17",
