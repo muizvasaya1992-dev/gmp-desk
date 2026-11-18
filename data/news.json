@@ -1,7 +1,7 @@
 {
  "_feeds": {
   "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms": {
-   "fetched": "2026-11-18T22:15+05:30",
+   "fetched": "2026-11-18T23:45+05:30",
    "items": [
     {
      "date": "2026-11-18",
@@ -306,7 +306,7 @@
    ]
   },
   "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms": {
-   "fetched": "2026-11-18T22:15+05:30",
+   "fetched": "2026-11-18T23:45+05:30",
    "items": [
     {
      "date": "2026-11-18",
@@ -611,8 +611,20 @@
    ]
   },
   "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml": {
-   "fetched": "2026-11-18T22:15+05:30",
+   "fetched": "2026-11-18T23:45+05:30",
    "items": [
+    {
+     "date": "2026-11-18",
+     "source": "cnbctv18.com",
+     "title": "City Union Bank shuts NEFT, RTGS gateways after unauthorised customer account transaction",
+     "url": "https://www.cnbctv18.com/market/stocks/city-union-bank-share-price-shuts-neft-rtgs-gateways-after-unauthorised-customer-account-transaction-20037220.htm"
+    },
+    {
+     "date": "2026-11-18",
+     "source": "cnbctv18.com",
+     "title": "Market Pulse: Key triggers to watch before the November 19 trading session",
+     "url": "https://www.cnbctv18.com/photos/market/market-pulse-key-triggers-to-watch-before-the-november-19-trading-session-20037216.htm"
+    },
     {
      "date": "2026-11-18",
      "source": "cnbctv18.com",
@@ -1080,24 +1092,138 @@
      "source": "cnbctv18.com",
      "title": "FPIs extend buying streak to 12 sessions, November inflows cross $10 billion",
      "url": "https://www.cnbctv18.com/market/fpis-extend-buying-streak-to-12-sessions-november-inflows-cross-usd-10-billion-20036086.htm"
-    },
-    {
-     "date": "2026-11-17",
-     "source": "cnbctv18.com",
-     "title": "Hollywood actor Ashton Kutcher to earn $7 billion from Anthropic IPO? Here’s the truth",
-     "url": "https://www.cnbctv18.com/market/hollywood-actor-ashton-kutcher-to-earn-7-billion-from-anthropic-ipo-the-truth-20036019.htm"
-    },
-    {
-     "date": "2026-11-17",
-     "source": "cnbctv18.com",
-     "title": "HCLTech partners with Cohere to develop sovereign AI solutions in Canada, Germany",
-     "url": "https://www.cnbctv18.com/market/hcltech-cohere-partnership-sovereign-artificial-intelligence-ai-solutions-20036047.htm"
     }
    ]
   },
   "https://www.freepressjournal.in/stories.rss?section=business": {
-   "fetched": "2026-11-18T22:15+05:30",
+   "fetched": "2026-11-18T23:45+05:30",
    "items": [
+    {
+     "date": "2026-11-18",
+     "source": "freepressjournal.in",
+     "title": "India Eye Crucial Test Victory Against New Zealand As Gill Weighs Four-Pacer Strategy In Wellington",
+     "url": "https://www.freepressjournal.in/sports/india-eye-crucial-test-victory-against-new-zealand-as-gill-weighs-four-pacer-strategy-in-wellington"
+    },
+    {
+     "date": "2026-11-18",
+     "source": "freepressjournal.in",
+     "title": "Maha Minister Chandrashekhar Bawankule Urges Legislators To Use MLA, MP Funds For Drought Relief, Water Conservation & Fodder Development",
+     "url": "https://www.freepressjournal.in/mumbai/maha-minister-chandrashekhar-bawankule-urges-legislators-to-use-mla-mp-funds-for-drought-relief-water-conservation-fodder-development"
+    },
+    {
+     "date": "2026-11-18",
+     "source": "freepressjournal.in",
+     "title": "'Ananya Birla Was So Out Of Place': Netizens Accuse Ananya Panday & Shanaya Kapoor Of 'Mean Girl' Behaviour After Group Hug On Koffee With Karan 9",
+     "url": "https://www.freepressjournal.in/entertainment/ananya-birla-was-so-out-of-place-netizens-accuse-ananya-panday-shanaya-kapoor-of-mean-girl-behaviour-after-group-hug-on-koffee-with-karan-9"
+    },
+    {
+     "date": "2026-11-18",
+     "source": "freepressjournal.in",
+     "title": "Soon, Waste Interceptors On Mithi River As The Ocean Cleanup Sign MoU With BMC For Nine New Sites",
+     "url": "https://www.freepressjournal.in/mumbai/soon-waste-interceptors-on-mithi-river-as-the-ocean-cleanup-sign-mou-with-bmc-for-nine-new-sites"
+    },
+    {
+     "date": "2026-11-18",
+     "source": "freepressjournal.in",
+     "title": "Trump, Putin To Hold Bilateral Talks On November 19 Ahead Of First-Ever Trilateral Summit With China's Xi",
+     "url": "https://www.freepressjournal.in/world/trump-putin-to-hold-bilateral-talks-on-november-19-ahead-of-first-ever-trilateral-summit-with-chinas-xi"
+    },
+    {
+     "date": "2026-11-18",
+     "source": "freepressjournal.in",
+     "title": "Maharashtra Legislature's Winter Session To Begin In Nagpur On December 7, Key Bills & Debates Expected",
+     "url": "https://www.freepressjournal.in/mumbai/maharashtra-legislatures-winter-session-to-begin-in-nagpur-on-december-7-key-bills-debates-expected"
+    },
+    {
+     "date": "2026-11-18",
+     "source": "freepressjournal.in",
+     "title": "MP CM Mohan Yadav Inaugurates Unit Of ₹11,500 Crore Gandhi Sagar Pumped Hydro Project In Neemuch, 2,000 MW Peak Power Supply Targeted",
+     "url": "https://www.freepressjournal.in/indore/mp-cm-mohan-yadav-inaugurates-unit-of-11500-crore-gandhi-sagar-pumped-hydro-project-in-neemuch-2000-mw-peak-power-supply-targeted"
+    },
+    {
+     "date": "2026-11-18",
+     "source": "freepressjournal.in",
+     "title": "Bhopal Shopkeeper Allegedly Slaps Minor 12 Times, Threatens Him With Knife Over Theft Suspicion; Police Take Cognisance",
+     "url": "https://www.freepressjournal.in/bhopal/bhopal-shopkeeper-allegedly-slaps-minor-12-times-threatens-him-with-knife-over-theft-suspicion-police-take-cognisance"
+    },
+    {
+     "date": "2026-11-18",
+     "source": "freepressjournal.in",
+     "title": "Mumbai's Prabhadevi Housing Society Placed Under Administrator Following Removal Of Managing Committee",
+     "url": "https://www.freepressjournal.in/mumbai/mumbais-prabhadevi-housing-society-placed-under-administrator-following-removal-of-managing-committee"
+    },
+    {
+     "date": "2026-11-18",
+     "source": "freepressjournal.in",
+     "title": "'Sonia Had Rejected Alliance With Shiv Sena In 2014'",
+     "url": "https://www.freepressjournal.in/mumbai/sonia-had-rejected-alliance-with-shiv-sena-in-2014"
+    },
+    {
+     "date": "2026-11-18",
+     "source": "freepressjournal.in",
+     "title": "MSEDCL Suspends Wada Deputy Executive Engineer In Maharashtra's Palghar Over Alleged Administrative Lapses",
+     "url": "https://www.freepressjournal.in/mumbai/msedcl-suspends-wada-deputy-executive-engineer-in-maharashtras-palghar-over-alleged-administrative-lapses"
+    },
+    {
+     "date": "2026-11-18",
+     "source": "freepressjournal.in",
+     "title": "Torres Jewellery Fraud: ED Arrests Extradited Ukrainian National Oleksandr Zapichenko In Mumbai",
+     "url": "https://www.freepressjournal.in/mumbai/torres-jewellery-fraud-ed-arrests-extradited-ukrainian-national-oleksandr-zapichenko-in-mumbai"
+    },
+    {
+     "date": "2026-11-18",
+     "source": "freepressjournal.in",
+     "title": "Princess Of Wales Kate Middleton Visits Mumbai's Wadia Hospital Ahead Of Its Centenary Celebrations, Interacts With Mothers & Medical Staff",
+     "url": "https://www.freepressjournal.in/mumbai/princess-of-wales-kate-middleton-visits-mumbais-wadia-hospital-ahead-of-its-centenary-celebrations-interacts-with-mothers-medical-staff"
+    },
+    {
+     "date": "2026-11-18",
+     "source": "freepressjournal.in",
+     "title": "Mumbai Prabhadevi Housing Society Taken Over By Administrator With Police Help After 6 Committee Members Disqualified Over Denial Of Records",
+     "url": "https://www.freepressjournal.in/mumbai/mumbai-prabhadevi-housing-society-taken-over-by-administrator-with-police-help-after-6-committee-members-disqualified-over-denial-of-records"
+    },
+    {
+     "date": "2026-11-18",
+     "source": "freepressjournal.in",
+     "title": "Mumbai PWD Eyes 256 MMRDA-Held Flats At Powai's Hill Grange For Staff Housing, Final Transfer Hinges On Deputy CM-Chaired Authority Meeting",
+     "url": "https://www.freepressjournal.in/mumbai/mumbai-pwd-eyes-256-mmrda-held-flats-at-powais-hill-grange-for-staff-housing-final-transfer-hinges-on-deputy-cm-chaired-authority-meeting"
+    },
+    {
+     "date": "2026-11-18",
+     "source": "freepressjournal.in",
+     "title": "Mumbai's HBT Trauma Centre Launches Dedicated OPD Services Twice A Week To Improve Patient Care",
+     "url": "https://www.freepressjournal.in/mumbai/mumbais-hbt-trauma-centre-launches-dedicated-opd-services-twice-a-week-to-improve-patient-care"
+    },
+    {
+     "date": "2026-11-18",
+     "source": "freepressjournal.in",
+     "title": "Mumbai Actress Loses Bag Containing Makeup Products & Valuables Worth ₹43,500 During Instagram Reel Shoot In Bandra",
+     "url": "https://www.freepressjournal.in/mumbai/mumbai-actress-loses-bag-containing-makeup-products-valuables-worth-43500-during-instagram-reel-shoot-in-bandra"
+    },
+    {
+     "date": "2026-11-18",
+     "source": "freepressjournal.in",
+     "title": "Relief For MP's Nepanagar As Coal-Starved Nepa Mill Prepares To Restart Paper Production After Temporary Shutdown",
+     "url": "https://www.freepressjournal.in/indore/relief-for-mps-nepanagar-as-coal-starved-nepa-mill-prepares-to-restart-paper-production-after-temporary-shutdown"
+    },
+    {
+     "date": "2026-11-18",
+     "source": "freepressjournal.in",
+     "title": "Bhopal Police Arrest Three For Allegedly Transporting Nine Cattle In Cramped Pickup Vehicle, One Animal Found Dead",
+     "url": "https://www.freepressjournal.in/bhopal/bhopal-police-arrest-three-for-allegedly-transporting-nine-cattle-in-cramped-pickup-vehicle-one-animal-found-dead"
+    },
+    {
+     "date": "2026-11-18",
+     "source": "freepressjournal.in",
+     "title": "'You've Called All Of Your Exes': Ananya Panday Calls Aditya Roy Kapur, Ishaan Khatter And Kartik Aaryan, Leaves Karan Johar Speechless - VIDEO",
+     "url": "https://www.freepressjournal.in/entertainment/youve-called-all-of-your-exes-ananya-panday-calls-aditya-roy-kapur-ishaan-khatter-and-kartik-aaryan-leaves-karan-johar-speechless-video"
+    },
+    {
+     "date": "2026-11-18",
+     "source": "freepressjournal.in",
+     "title": "Arpit & Ranjit Display Remarkable Fighting Spirit In Gritty Performances",
+     "url": "https://www.freepressjournal.in/sports/arpit-ranjit-display-remarkable-fighting-spirit-in-gritty-performances"
+    },
     {
      "date": "2026-11-18",
      "source": "freepressjournal.in",
@@ -1451,138 +1577,18 @@
      "source": "freepressjournal.in",
      "title": "Maharashtra's Alibag To Get New 5 Lakh-Litre Water Tank At ₹1.05 Crore To Boost Water Supply",
      "url": "https://www.freepressjournal.in/mumbai/maharashtras-alibag-to-get-new-5-lakh-litre-water-tank-at-105-crore-to-boost-water-supply"
-    },
-    {
-     "date": "2026-11-18",
-     "source": "freepressjournal.in",
-     "title": "‘Leave The Kid Alone’: Aakash Chopra Defends Akash Singh After Netizens Troll Ex-CSK Player Amid MS Dhoni Abuse Row",
-     "url": "https://www.freepressjournal.in/sports/leave-the-kid-alone-aakash-chopra-defends-akash-singh-after-netizens-troll-ex-csk-player-amid-ms-dhoni-abuse-row"
-    },
-    {
-     "date": "2026-11-18",
-     "source": "freepressjournal.in",
-     "title": "Maharashtra Andhashraddha Nirmoolan Samiti To Organise State-Level Women's Conference Against Fraudulent Godmen & Superstitious Practices",
-     "url": "https://www.freepressjournal.in/mumbai/maharashtra-andhashraddha-nirmoolan-samiti-to-organise-state-level-womens-conference-against-fraudulent-godmen-superstitious-practices"
-    },
-    {
-     "date": "2026-11-18",
-     "source": "freepressjournal.in",
-     "title": "India's Got Latent Winner Subhash Ahirwar Accuses Samay Raina Of Playing With His Dreams As Winning Episode Remains Unreleased - VIDEO",
-     "url": "https://www.freepressjournal.in/entertainment/indias-got-latent-winner-subhash-ahirwar-accuses-samay-raina-of-playing-with-his-dreams-as-winning-episode-remains-unreleased-video"
-    },
-    {
-     "date": "2026-11-18",
-     "source": "freepressjournal.in",
-     "title": "Maharashtra SIR 2026: ECI Gives Over 2 Crore Excluded Voters Another Chance To Submit Forms, Extends Final Electoral Roll Deadline To December 22",
-     "url": "https://www.freepressjournal.in/pune/maharashtra-sir-2026-eci-gives-over-2-crore-excluded-voters-another-chance-to-submit-forms-extends-final-electoral-roll-deadline-to-december-22"
-    },
-    {
-     "date": "2026-11-18",
-     "source": "freepressjournal.in",
-     "title": "Jackie Shroff Plants Tree In Pune, Urges Citizens To Leave A Green Legacy",
-     "url": "https://www.freepressjournal.in/pune/jackie-shroff-plants-tree-in-pune-urges-citizens-to-leave-a-green-legacy"
-    },
-    {
-     "date": "2026-11-18",
-     "source": "freepressjournal.in",
-     "title": "₹15.53 Crore Residential Deal Sets New Benchmark In Vile Parle West",
-     "url": "https://www.freepressjournal.in/focused-view/1553-crore-residential-deal-sets-new-benchmark-in-vile-parle-west"
-    },
-    {
-     "date": "2026-11-18",
-     "source": "freepressjournal.in",
-     "title": "GST Reforms 2026 CBIC Announces 'Trust First, Verify Later' Approach, Faster Refunds, ₹5 Crore Prosecution Threshold & MSME Relief",
-     "url": "https://www.freepressjournal.in/business/gst-reforms-2026-cbic-announces-trust-first-verify-later-approach-faster-refunds-5-crore-prosecution-threshold-msme-relief"
-    },
-    {
-     "date": "2026-11-18",
-     "source": "freepressjournal.in",
-     "title": "Kerala: 62 Students Hospitalised After Complaining Of Breathing Difficulties, Nausea; Tar-Mixing Plant Shut Down After Incident",
-     "url": "https://www.freepressjournal.in/education/kerala-62-students-hospitalised-after-complaining-of-breathing-difficulties-nausea-tar-mixing-plant-shut-down-after-incident"
-    },
-    {
-     "date": "2026-11-18",
-     "source": "freepressjournal.in",
-     "title": "'Aap Ko Aur Kaam Nahi Hai': Richa Chadha Slams BMC Over Proposed Cutting Of 80 Trees At Versova Park For Coastal Road",
-     "url": "https://www.freepressjournal.in/mumbai/aap-ko-aur-kaam-nahi-hai-actor-richa-chadha-slams-bmc-over-proposed-cutting-of-80-trees-at-versova-park-for-coastal-road-mumbai-news"
-    },
-    {
-     "date": "2026-11-18",
-     "source": "freepressjournal.in",
-     "title": "Delhi SIR: Petitioners Flag Alleged Misuse Of Form 7, Seek Supreme Court Intervention",
-     "url": "https://www.freepressjournal.in/india/delhi-sir-petitioners-flag-alleged-misuse-of-form-7-seek-supreme-court-intervention"
-    },
-    {
-     "date": "2026-11-18",
-     "source": "freepressjournal.in",
-     "title": "Congress Leader Prashant Jagtap Warns Pune Could Face Water Supply Once In 7-10 Days By Summer",
-     "url": "https://www.freepressjournal.in/pune/congress-leader-prashant-jagtap-warns-pune-could-face-water-supply-once-in-7-10-days-by-summer"
-    },
-    {
-     "date": "2026-11-18",
-     "source": "freepressjournal.in",
-     "title": "Yeh Prem Mol Liya Trailer: Ayushmann Khurrana Moves Into Sharvari's Home With His Family After Marriage As Sooraj Barjatya Challenges Traditional Norms",
-     "url": "https://www.freepressjournal.in/entertainment/yeh-prem-mol-liya-trailer-ayushmann-khurrana-moves-into-sharvaris-home-with-his-family-after-marriage-as-sooraj-barjatya-challenges-traditional-norms"
-    },
-    {
-     "date": "2026-11-18",
-     "source": "freepressjournal.in",
-     "title": "SpiceJet Board Approves ₹5,500 Crore Fundraise To Revive Airline Amid Financial Crisis, Operational Challenges",
-     "url": "https://www.freepressjournal.in/business/spicejet-board-approves-5500-crore-fundraise-to-revive-airline-amid-financial-crisis-operational-challenges"
-    },
-    {
-     "date": "2026-11-18",
-     "source": "freepressjournal.in",
-     "title": "Pune: PMC To Spend ₹34.64 Crore On Model School Upgrades Across 4 Zones",
-     "url": "https://www.freepressjournal.in/pune/pune-pmc-to-spend-3464-crore-on-model-school-upgrades-across-4-zones"
-    },
-    {
-     "date": "2026-11-18",
-     "source": "freepressjournal.in",
-     "title": "Kate Middleton Holds New Mother's Hand During Mumbai Hospital Visit, Video Goes Viral - WATCH",
-     "url": "https://www.freepressjournal.in/viral/kate-middleton-holds-new-mothers-hand-during-mumbai-hospital-visit-video-goes-viral-watch"
-    },
-    {
-     "date": "2026-11-18",
-     "source": "freepressjournal.in",
-     "title": "What Makes Nimso Kerung Special? Over 15,000 Dancers Set Guinness World Record With Traditional Karbi Folk Dance In Assam",
-     "url": "https://www.freepressjournal.in/lifestyle/what-makes-nimso-kerung-special-over-15000-dancers-set-guinness-world-record-with-traditional-karbi-folk-dance-in-assam"
-    },
-    {
-     "date": "2026-11-18",
-     "source": "freepressjournal.in",
-     "title": "Bhopal Police Use Water Cannons To Stop Samajwadi Party Workers From Gheraoing CM House; Several Injured | VIDEO",
-     "url": "https://www.freepressjournal.in/bhopal/bhopal-police-use-water-cannons-to-stop-samajwadi-party-workers-from-gheraoing-cm-house-several-injured-video"
-    },
-    {
-     "date": "2026-11-18",
-     "source": "freepressjournal.in",
-     "title": "UP: SP Leader Azam Khan Walks Out Of Dasna Jail After Allahabad HC Relief - VIDEO",
-     "url": "https://www.freepressjournal.in/india/up-sp-leader-azam-khan-walks-out-of-dasna-jail-after-allahabad-hc-relief-video"
-    },
-    {
-     "date": "2026-11-18",
-     "source": "freepressjournal.in",
-     "title": "Pune: PMC Flags Water Shortfall, Plans To Stretch Dam Reserves Till August 2027",
-     "url": "https://www.freepressjournal.in/pune/pune-pmc-flags-water-shortfall-plans-to-stretch-dam-reserves-till-august-2027"
-    },
-    {
-     "date": "2026-11-18",
-     "source": "freepressjournal.in",
-     "title": "Pune FDA Shuts 6 Eateries On Sinhagad Road, Seizes ₹50 Lakh Edible Oil",
-     "url": "https://www.freepressjournal.in/pune/pune-fda-shuts-6-eateries-on-sinhagad-road-seizes-50-lakh-edible-oil"
-    },
-    {
-     "date": "2026-11-18",
-     "source": "freepressjournal.in",
-     "title": "‘Heavens Won’t Fall’: Supreme Court Refuses To Stay Azam Khan’s Interim Bail, To Hear ED’s Plea On Thursday",
-     "url": "https://www.freepressjournal.in/india/heavens-wont-fall-supreme-court-refuses-to-stay-azam-khans-interim-bail-to-hear-eds-plea-on-thursday"
     }
    ]
   },
   "https://www.livemint.com/rss/markets": {
-   "fetched": "2026-11-18T22:15+05:30",
+   "fetched": "2026-11-18T23:45+05:30",
    "items": [
+    {
+     "date": "2026-11-18",
+     "source": "Mint",
+     "title": "US Stock Market: Nasdaq preparing to roll out 23-hour-a-day trading from this date – Key facts for investors",
+     "url": "https://www.livemint.com/market/us-stock-market-nasdaq-preparing-to-roll-out-23-hour-a-day-trading-from-this-date-key-facts-for-investors-11795019875609.html"
+    },
     {
      "date": "2026-11-18",
      "source": "Mint",
@@ -1786,17 +1792,11 @@
      "source": "Mint",
      "title": "JPMorgan Warns Leveraged-Loan Defaults Set to Double in 2027",
      "url": "https://www.livemint.com/market/jpmorgan-warns-leveraged-loan-defaults-set-to-double-in-2027-11794949833068.html"
-    },
-    {
-     "date": "2026-11-18",
-     "source": "Mint",
-     "title": "Treasuries’ Big Short Sets Up ‘Pain Trade’ as Haven Bid Ramps Up",
-     "url": "https://www.livemint.com/market/treasuries-big-short-sets-up-pain-trade-as-haven-bid-ramps-up-11794949277259.html"
     }
    ]
   },
   "https://www.thehindubusinessline.com/markets/feeder/default.rss": {
-   "fetched": "2026-11-18T22:15+05:30",
+   "fetched": "2026-11-18T23:45+05:30",
    "items": [
     {
      "date": "2026-11-18",
@@ -2161,7 +2161,7 @@
    ]
   },
   "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss": {
-   "fetched": "2026-11-18T22:15+05:30",
+   "fetched": "2026-11-18T23:45+05:30",
    "items": [
     {
      "date": "2026-11-18",
@@ -2287,7 +2287,7 @@
   }
  },
  "crystalcp": {
-  "checked": "2026-11-18T23:31+05:30",
+  "checked": "2026-11-18T23:45+05:30",
   "items": [
    {
     "date": "2026-11-18",
@@ -2328,7 +2328,7 @@
   ]
  },
  "mahacoal": {
-  "checked": "2026-11-18T23:31+05:30",
+  "checked": "2026-11-18T23:45+05:30",
   "items": [
    {
     "date": "2026-11-18",
