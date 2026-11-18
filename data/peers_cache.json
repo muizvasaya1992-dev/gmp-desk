@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-18T09:45+05:30",
+  "fetched_at": "2026-11-18T10:01+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,10 +16,10 @@
     "price_low": 259.0,
     "size_cr": 455.72,
     "gmp": 19.0,
-    "gmp_at": "2026-11-18T09:41",
+    "gmp_at": "2026-11-18T09:56",
     "sub_total": 0.0,
     "sub_retail": 0.0,
-    "sub_at": "2026-11-18T09:41",
+    "sub_at": "2026-11-18T09:56",
     "sub_cats": null,
     "gmp_days": [
      [
@@ -73,7 +73,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-18T09:45+05:30",
+  "fetched_at": "2026-11-18T10:01+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -88,8 +88,8 @@
     "price": 136.0,
     "price_low": null,
     "size_cr": 8981.12,
-    "gmp": 3.75,
-    "gmp_at": "2026-11-18T08:37",
+    "gmp": 3.65,
+    "gmp_at": "2026-11-17T23:37",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -111,7 +111,7 @@
     "price_low": null,
     "size_cr": 120.1,
     "gmp": 25.0,
-    "gmp_at": "2026-11-18T08:37",
+    "gmp_at": "2026-11-17T23:37",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -133,7 +133,7 @@
     "price_low": null,
     "size_cr": 455.49,
     "gmp": 19.0,
-    "gmp_at": "2026-11-18T08:37",
+    "gmp_at": "2026-11-17T23:37",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -628,7 +628,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-18T09:45+05:30",
+  "fetched_at": "2026-11-18T10:01+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -777,6 +777,57 @@
        "roce": 19.06,
        "roe": 41.08,
        "y": "FY26"
+      }
+     ]
+    }
+   },
+   {
+    "src": "Tracker D",
+    "slug": "foodlink-fb-holdings-india",
+    "name": "Foodlink F&B Holdings (India)",
+    "segment": "MAIN",
+    "exchange": null,
+    "open": null,
+    "close": null,
+    "boa": null,
+    "listing": null,
+    "price": 180.0,
+    "price_low": null,
+    "size_cr": null,
+    "gmp": 15.0,
+    "gmp_at": null,
+    "sub_total": null,
+    "sub_retail": null,
+    "sub_at": null,
+    "lot": 78.0,
+    "sector": "Luxury Food Services / Hospitality",
+    "detail_url": "https://ipoindex.in/ipo/foodlink-fb-holdings-india-ipo/",
+    "live": true,
+    "detail": {
+     "gmp_history": [
+      [
+       "2026-11-18",
+       15.0
+      ]
+     ],
+     "sub": {
+      "total": 0.0,
+      "qib": 0.0,
+      "nii": 0.0,
+      "retail": 0.0
+     },
+     "uses": [
+      {
+       "use": "Growth",
+       "cr": 40.89
+      },
+      {
+       "use": "Growth",
+       "cr": 45.4
+      },
+      {
+       "use": "Debt",
+       "cr": 28.45
       }
      ]
     }

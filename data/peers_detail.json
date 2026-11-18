@@ -34,6 +34,37 @@
    ]
   }
  },
+ "foodlink-fb-holdings-india": {
+  "at": "2026-11-18T10:01+05:30",
+  "detail": {
+   "gmp_history": [
+    [
+     "2026-11-18",
+     15.0
+    ]
+   ],
+   "sub": {
+    "nii": 0.0,
+    "qib": 0.0,
+    "retail": 0.0,
+    "total": 0.0
+   },
+   "uses": [
+    {
+     "cr": 40.89,
+     "use": "Growth"
+    },
+    {
+     "cr": 45.4,
+     "use": "Growth"
+    },
+    {
+     "cr": 28.45,
+     "use": "Debt"
+    }
+   ]
+  }
+ },
  "mahanadi-coalfields": {
   "at": "2026-11-18T05:45+05:30",
   "detail": {
