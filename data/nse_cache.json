@@ -1653,7 +1653,7 @@
   "series": "Equity",
   "nse_status": "Active",
   "shares_offered": 12170076.0,
-  "last_seen": "2026-11-18T22:01+05:30",
+  "last_seen": "2026-11-19T00:01+05:30",
   "segment": "SME",
   "lot": 55,
   "registrar": "MUFG Intime India Private Limited",
@@ -1663,7 +1663,7 @@
   "retail_max": 200000,
   "cutoff_time": "5:00 PM",
   "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_CRYSTALCP.zip",
-  "details_at": "2026-11-18T11:34+05:30",
+  "details_at": "2026-11-19T00:01+05:30",
   "sub": {
    "qib": 2.07,
    "nii": 0.75,
@@ -1953,9 +1953,9 @@
   "price": 245,
   "price_low": 232,
   "series": "SME",
-  "nse_status": "Forthcoming",
+  "nse_status": "Active",
   "shares_offered": 3516000.0,
-  "last_seen": "2026-11-18T22:01+05:30",
+  "last_seen": "2026-11-19T00:01+05:30",
   "segment": "SME",
   "registrar": "Maashitla Securities Private Limited",
   "lead_managers": [
@@ -1963,7 +1963,18 @@
   ],
   "cutoff_time": "5:00 PM",
   "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_WATRANA.zip",
-  "details_at": "2026-11-18T11:34+05:30"
+  "details_at": "2026-11-19T00:01+05:30",
+  "sub": {
+   "total": 0.0
+  },
+  "sub_basis": "NSE+BSE",
+  "sub_asof": null,
+  "sub_hist": [
+   {
+    "at": "2026-11-19T00:01+05:30",
+    "total": 0.0
+   }
+  ]
  },
  "MAHACOAL": {
   "symbol": "MAHACOAL",
@@ -1974,9 +1985,9 @@
   "price": 136,
   "price_low": 129,
   "series": "Equity",
-  "nse_status": "Forthcoming",
+  "nse_status": "Active",
   "shares_offered": 493068045.0,
-  "last_seen": "2026-11-18T22:01+05:30",
+  "last_seen": "2026-11-19T00:01+05:30",
   "segment": "SME",
   "lot": 110,
   "registrar": "KFin Technologies Limited",
@@ -1986,6 +1997,17 @@
   "retail_max": 200000,
   "cutoff_time": "5:00 PM",
   "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_MAHACOAL.zip",
-  "details_at": "2026-11-18T11:45+05:30"
+  "details_at": "2026-11-19T00:01+05:30",
+  "sub": {
+   "total": 0.0
+  },
+  "sub_basis": "NSE+BSE",
+  "sub_asof": null,
+  "sub_hist": [
+   {
+    "at": "2026-11-19T00:01+05:30",
+    "total": 0.0
+   }
+  ]
  }
 }

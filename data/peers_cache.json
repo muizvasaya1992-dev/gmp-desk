@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-18T23:46+05:30",
+  "fetched_at": "2026-11-19T00:01+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,10 +16,10 @@
     "price_low": 259.0,
     "size_cr": 455.72,
     "gmp": 18.0,
-    "gmp_at": "2026-11-18T23:41",
+    "gmp_at": "2026-11-18T23:56",
     "sub_total": 1.4,
     "sub_retail": 1.283,
-    "sub_at": "2026-11-18T23:42",
+    "sub_at": "2026-11-18T23:59",
     "sub_cats": null,
     "gmp_days": [
      [
@@ -73,7 +73,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-18T23:31+05:30",
+  "fetched_at": "2026-11-19T00:01+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -89,7 +89,7 @@
     "price_low": null,
     "size_cr": 8981.12,
     "gmp": 3.1,
-    "gmp_at": "2026-11-18T19:37",
+    "gmp_at": "2026-11-18T22:37",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -110,13 +110,13 @@
     "price": 245.0,
     "price_low": null,
     "size_cr": 120.1,
-    "gmp": 37.0,
-    "gmp_at": "2026-11-18T19:37",
+    "gmp": 60.0,
+    "gmp_at": "2026-11-18T22:37",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
     "lot": 600.0,
-    "rating": 3,
+    "rating": 4,
     "live": true
    },
    {
@@ -132,8 +132,8 @@
     "price": 272.0,
     "price_low": null,
     "size_cr": 455.49,
-    "gmp": 19.0,
-    "gmp_at": "2026-11-18T19:37",
+    "gmp": 18.0,
+    "gmp_at": "2026-11-18T22:37",
     "sub_total": 1.48,
     "sub_retail": null,
     "sub_at": null,
@@ -628,7 +628,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-18T23:46+05:30",
+  "fetched_at": "2026-11-19T00:01+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -672,21 +672,21 @@
       ]
      ],
      "sub": {
-      "total": 1.48,
-      "qib": 2.11,
+      "employee": 3.1,
       "nii": 0.79,
+      "qib": 2.11,
       "retail": 1.38,
-      "employee": 3.1
+      "total": 1.48
      },
      "sub_at": "2026-11-18T18:01",
      "uses": [
       {
-       "use": "Borrowings",
-       "cr": 247.94
+       "cr": 247.94,
+       "use": "Borrowings"
       },
       {
-       "use": "Subsidiary",
-       "cr": 22.06
+       "cr": 22.06,
+       "use": "Subsidiary"
       }
      ]
     }
@@ -728,65 +728,65 @@
        22.0
       ]
      ],
-     "sub": {
-      "total": 0.0,
-      "qib": 0.0,
-      "nii": 0.0,
-      "retail": 0.0
-     },
      "reservation": {
-      "qib": {
-       "shares": 2322000,
-       "pct": 49.94
-      },
       "nii": {
-       "shares": 698400,
-       "pct": 15.02
+       "pct": 15.02,
+       "shares": 698400
+      },
+      "qib": {
+       "pct": 49.94,
+       "shares": 2322000
       },
       "retail": {
-       "shares": 1629600,
-       "pct": 35.05
+       "pct": 35.05,
+       "shares": 1629600
       }
+     },
+     "sub": {
+      "nii": 0.0,
+      "qib": 0.0,
+      "retail": 0.0,
+      "total": 0.0
      },
      "uses": [
       {
-       "use": "Purchase",
-       "cr": 98.13
+       "cr": 98.13,
+       "use": "Purchase"
       }
      ],
      "years": [
       {
-       "y": "FY24",
-       "income": 130.23,
-       "pat": 18.05,
-       "ebitda": 37.98,
-       "net_worth": 31.96,
-       "debt": 93.12,
        "assets": 147.69,
+       "debt": 93.12,
+       "ebitda": 37.98,
+       "income": 130.23,
+       "net_worth": 31.96,
+       "pat": 18.05,
+       "roce": 24.11,
        "roe": 78.65,
-       "roce": 24.11
+       "y": "FY24"
       },
       {
-       "y": "FY25",
-       "income": 179.66,
-       "pat": 24.43,
-       "ebitda": 51.77,
-       "net_worth": 56.39,
-       "debt": 110.14,
        "assets": 201.82,
+       "debt": 110.14,
+       "ebitda": 51.77,
+       "income": 179.66,
+       "net_worth": 56.39,
+       "pat": 24.43,
+       "roce": 23.85,
        "roe": 55.3,
-       "roce": 23.85
+       "y": "FY25"
       },
       {
-       "y": "FY26",
-       "income": 211.69,
-       "pat": 29.16,
-       "ebitda": 65.01,
-       "net_worth": 85.55,
-       "debt": 164.08,
        "assets": 287.07,
+       "debt": 164.08,
+       "ebitda": 65.01,
+       "income": 211.69,
+       "net_worth": 85.55,
+       "pat": 29.16,
+       "roce": 19.06,
        "roe": 41.08,
-       "roce": 19.06
+       "y": "FY26"
       }
      ]
     }
@@ -821,23 +821,23 @@
       ]
      ],
      "sub": {
-      "total": 0.0,
-      "qib": 0.0,
       "nii": 0.0,
-      "retail": 0.0
+      "qib": 0.0,
+      "retail": 0.0,
+      "total": 0.0
      },
      "uses": [
       {
-       "use": "Growth",
-       "cr": 40.89
+       "cr": 40.89,
+       "use": "Growth"
       },
       {
-       "use": "Growth",
-       "cr": 45.4
+       "cr": 45.4,
+       "use": "Growth"
       },
       {
-       "use": "Debt",
-       "cr": 28.45
+       "cr": 28.45,
+       "use": "Debt"
       }
      ]
     }
@@ -884,15 +884,15 @@
       ]
      ],
      "sub": {
-      "total": 0.0,
-      "qib": 0.0,
       "nii": 0.0,
-      "retail": 0.0
+      "qib": 0.0,
+      "retail": 0.0,
+      "total": 0.0
      },
      "uses": [
       {
-       "use": "Offer for Sale Proceeds",
-       "cr": 8981.12
+       "cr": 8981.12,
+       "use": "Offer for Sale Proceeds"
       }
      ]
     }
