@@ -19,12 +19,12 @@
   },
   {
    "name": "Mahanadi Coalfields",
-   "segment": "SME",
-   "symbol": "MAHACOAL",
+   "segment": "MAIN",
+   "symbol": null,
    "listing": "2026-11-27",
-   "exchange": "SME",
+   "exchange": "NSE · BSE",
    "live": true,
-   "id": "mahacoal",
+   "id": "mahanadi-coalfields",
    "status": "upcoming",
    "open": "2026-11-19",
    "close": "2026-11-23",
@@ -1499,6 +1499,19 @@
    "status": "listed"
   },
   {
+   "name": "SpectraA Technology Solutions",
+   "segment": "SME",
+   "symbol": "SPECTRAA",
+   "open": "2026-09-17",
+   "close": "2026-09-21",
+   "listing": "2026-09-24",
+   "price": 118,
+   "price_low": 112,
+   "exchange": "NSE Emerge",
+   "id": "spectraa-technology-solutions",
+   "status": "listed"
+  },
+  {
    "name": "Sonaselection India",
    "segment": "MAIN",
    "symbol": null,
@@ -2414,6 +2427,19 @@
    "price_low": 96,
    "exchange": "NSE Emerge",
    "id": "abh-healthcare",
+   "status": "listed"
+  },
+  {
+   "name": "Madhur Knit Crafts",
+   "segment": "SME",
+   "symbol": "MADHURKNIT",
+   "open": "2026-08-24",
+   "close": "2026-08-27",
+   "listing": "2026-09-01",
+   "price": 100,
+   "price_low": 95,
+   "exchange": "NSE Emerge",
+   "id": "madhur-knit-crafts",
    "status": "listed"
   },
   {
@@ -5636,5 +5662,5 @@
    "status": "listed"
   }
  ],
- "generated_at": "2026-11-18T11:34+05:30"
+ "generated_at": "2026-11-18T11:36+05:30"
 }
