@@ -1653,7 +1653,7 @@
   "series": "Equity",
   "nse_status": "Active",
   "shares_offered": 12170076.0,
-  "last_seen": "2026-11-18T12:01+05:30",
+  "last_seen": "2026-11-18T12:15+05:30",
   "segment": "SME",
   "lot": 55,
   "registrar": "MUFG Intime India Private Limited",
@@ -1666,15 +1666,15 @@
   "details_at": "2026-11-18T11:34+05:30",
   "sub": {
    "qib": 0.22,
-   "nii": 0.23,
-   "bnii": 0.16,
-   "snii": 0.37,
-   "retail": 0.64,
-   "employee": 1.68,
-   "total": 0.44
+   "nii": 0.25,
+   "bnii": 0.17,
+   "snii": 0.42,
+   "retail": 0.7,
+   "employee": 1.81,
+   "total": 0.48
   },
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-11-18T11:57",
+  "sub_asof": "2026-11-18T12:12",
   "reservation": {
    "qib": 27.99,
    "nii": 21.34,
@@ -1721,6 +1721,16 @@
     "retail": 0.64,
     "employee": 1.68,
     "total": 0.44
+   },
+   {
+    "at": "2026-11-18T12:15+05:30",
+    "qib": 0.22,
+    "nii": 0.25,
+    "bnii": 0.17,
+    "snii": 0.42,
+    "retail": 0.7,
+    "employee": 1.81,
+    "total": 0.48
    }
   ]
  },
@@ -1735,7 +1745,7 @@
   "series": "SME",
   "nse_status": "Forthcoming",
   "shares_offered": 4902000.0,
-  "last_seen": "2026-11-18T12:01+05:30",
+  "last_seen": "2026-11-18T12:15+05:30",
   "segment": "SME",
   "registrar": "Maashitla Securities Private Limited",
   "lead_managers": [
