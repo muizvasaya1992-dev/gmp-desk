@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-18T14:01+05:30",
+  "fetched_at": "2026-11-18T14:15+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,10 +16,10 @@
     "price_low": 259.0,
     "size_cr": 455.72,
     "gmp": 19.0,
-    "gmp_at": "2026-11-18T13:56",
-    "sub_total": 0.99,
-    "sub_retail": 0.955,
-    "sub_at": "2026-11-18T13:59",
+    "gmp_at": "2026-11-18T14:11",
+    "sub_total": 1.0,
+    "sub_retail": 0.978,
+    "sub_at": "2026-11-18T14:07",
     "sub_cats": null,
     "gmp_days": [
      [
@@ -73,7 +73,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-18T14:01+05:30",
+  "fetched_at": "2026-11-18T14:15+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -628,7 +628,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-18T14:01+05:30",
+  "fetched_at": "2026-11-18T14:15+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -645,7 +645,7 @@
     "size_cr": 455.49,
     "gmp": 18.0,
     "gmp_at": null,
-    "sub_total": 0.55,
+    "sub_total": 1.05,
     "sub_retail": null,
     "sub_at": null,
     "lot": 55.0,
@@ -855,7 +855,7 @@
     "price": 129.0,
     "price_low": null,
     "size_cr": 8981.12,
-    "gmp": 3.0,
+    "gmp": 3.4,
     "gmp_at": null,
     "sub_total": null,
     "sub_retail": null,
