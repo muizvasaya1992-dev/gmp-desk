@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T19:31+05:30",
+  "generated_at": "2026-11-18T19:45+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-18T11:34+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-18T19:31+05:30",
+    "nse_ok_at": "2026-11-18T19:45+05:30",
     "bse_ok_at": "2026-11-18T11:36+05:30"
   },
   "ipos": [
@@ -3136,7 +3136,7 @@
       "series": "Equity",
       "nse_status": "Active",
       "shares_offered": 12170076.0,
-      "updated_on": "2026-11-18T17:15+05:30",
+      "updated_on": "2026-11-18T19:45+05:30",
       "bse_ipo_no": "8089",
       "drhp_url": "https://www.sebi.gov.in/filings/public-issues/dec-2025/crystal-crop-protection-limited-drhp_98530.html",
       "sector": "Chemicals",
@@ -3290,8 +3290,8 @@
       "sub_history": null,
       "series": "SME",
       "nse_status": "Forthcoming",
-      "shares_offered": 4902000.0,
-      "updated_on": "2026-11-18T17:15+05:30",
+      "shares_offered": 3516000.0,
+      "updated_on": "2026-11-18T19:45+05:30",
       "tracker_rating": 3,
       "reservation_detail": {
         "nii": {
@@ -3444,7 +3444,7 @@
       "series": "Equity",
       "nse_status": "Forthcoming",
       "shares_offered": 661836300.0,
-      "updated_on": "2026-11-18T15:45+05:30",
+      "updated_on": "2026-11-18T19:45+05:30",
       "bse_ipo_no": "8092",
       "tracker_rating": 1,
       "uses": [
