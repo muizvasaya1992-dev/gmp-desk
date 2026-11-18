@@ -15,13 +15,13 @@
  "mahanadi-coalfields": {
   "boa": "2026-11-25",
   "close": "2026-11-23",
-  "from_peers": true,
   "id": "mahanadi-coalfields",
   "listing": "2026-11-27",
   "lot": 110,
   "name": "Mahanadi Coalfields",
   "open": "2026-11-19",
   "price": 136,
+  "price_low": 129,
   "segment": "MAIN",
   "size_cr": 8981.12
  },

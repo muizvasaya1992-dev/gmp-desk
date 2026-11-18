@@ -1653,7 +1653,7 @@
   "series": "Equity",
   "nse_status": "Active",
   "shares_offered": 12170076.0,
-  "last_seen": "2026-11-18T11:31+05:30",
+  "last_seen": "2026-11-18T11:34+05:30",
   "segment": "SME",
   "lot": 55,
   "registrar": "MUFG Intime India Private Limited",
@@ -1663,82 +1663,34 @@
   "retail_max": 200000,
   "cutoff_time": "5:00 PM",
   "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_CRYSTALCP.zip",
-  "details_at": "2026-11-18T00:01+05:30",
+  "details_at": "2026-11-18T11:34+05:30",
   "sub": {
    "qib": 0.22,
    "nii": 0.18,
-   "bnii": 0.12,
-   "snii": 0.28,
+   "bnii": 0.13,
+   "snii": 0.29,
    "retail": 0.51,
-   "employee": 1.44,
-   "total": 0.36
+   "employee": 1.45,
+   "total": 0.37
   },
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-11-18T11:27",
+  "sub_asof": "2026-11-18T11:30",
+  "reservation": {
+   "qib": 27.99,
+   "nii": 21.34,
+   "retail": 49.79,
+   "employee": 0.88
+  },
   "sub_hist": [
    {
-    "at": "2026-11-18T00:01+05:30",
-    "total": 0.0
-   },
-   {
-    "at": "2026-11-18T10:15+05:30",
-    "qib": 0.0,
-    "nii": 0.04,
-    "bnii": 0.03,
-    "snii": 0.05,
-    "retail": 0.06,
-    "employee": 0.12,
-    "total": 0.04
-   },
-   {
-    "at": "2026-11-18T10:31+05:30",
-    "qib": 0.0,
-    "nii": 0.08,
-    "bnii": 0.06,
-    "snii": 0.12,
-    "retail": 0.23,
-    "employee": 0.62,
-    "total": 0.14
-   },
-   {
-    "at": "2026-11-18T10:45+05:30",
-    "qib": 0.0,
-    "nii": 0.11,
-    "bnii": 0.08,
-    "snii": 0.18,
-    "retail": 0.33,
-    "employee": 0.94,
-    "total": 0.2
-   },
-   {
-    "at": "2026-11-18T11:01+05:30",
-    "qib": 0.0,
-    "nii": 0.14,
-    "bnii": 0.11,
-    "snii": 0.21,
-    "retail": 0.39,
-    "employee": 1.15,
-    "total": 0.23
-   },
-   {
-    "at": "2026-11-18T11:15+05:30",
-    "qib": 0.22,
-    "nii": 0.15,
-    "bnii": 0.11,
-    "snii": 0.24,
-    "retail": 0.45,
-    "employee": 1.31,
-    "total": 0.33
-   },
-   {
-    "at": "2026-11-18T11:31+05:30",
+    "at": "2026-11-18T11:34+05:30",
     "qib": 0.22,
     "nii": 0.18,
-    "bnii": 0.12,
-    "snii": 0.28,
+    "bnii": 0.13,
+    "snii": 0.29,
     "retail": 0.51,
-    "employee": 1.44,
-    "total": 0.36
+    "employee": 1.45,
+    "total": 0.37
    }
   ]
  },
@@ -1753,7 +1705,7 @@
   "series": "SME",
   "nse_status": "Forthcoming",
   "shares_offered": 4902000.0,
-  "last_seen": "2026-11-18T11:31+05:30",
+  "last_seen": "2026-11-18T11:34+05:30",
   "segment": "SME",
   "registrar": "Maashitla Securities Private Limited",
   "lead_managers": [
@@ -1761,29 +1713,6 @@
   ],
   "cutoff_time": "5:00 PM",
   "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_WATRANA.zip",
-  "details_at": "2026-11-18T00:01+05:30"
- },
- "MAHACOAL": {
-  "symbol": "MAHACOAL",
-  "first_seen": "2026-11-17T18:45+05:30",
-  "name": "Mahanadi Coalfields",
-  "open": "2026-11-19",
-  "close": "2026-11-23",
-  "price": 136,
-  "price_low": 129,
-  "series": "Equity",
-  "nse_status": "Forthcoming",
-  "shares_offered": 661836300.0,
-  "last_seen": "2026-11-18T11:15+05:30",
-  "segment": "SME",
-  "lot": 110,
-  "registrar": "KFin Technologies Limited",
-  "lead_managers": [
-   "SBI Capital Markets Limited, Axis Capital Limited, BOB Capital Markets Limited, IDBI Capital Markets and Securities Limited and IIFL Capital Services Limited"
-  ],
-  "retail_max": 200000,
-  "cutoff_time": "5:00 PM",
-  "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_MAHACOAL.zip",
-  "details_at": "2026-11-18T07:15+05:30"
+  "details_at": "2026-11-18T11:34+05:30"
  }
 }
