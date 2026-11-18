@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-18T08:01+05:30",
+  "fetched_at": "2026-11-18T08:15+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -15,8 +15,8 @@
     "price": 272.0,
     "price_low": 259.0,
     "size_cr": 455.72,
-    "gmp": 13.0,
-    "gmp_at": "2026-11-18T07:56",
+    "gmp": 19.0,
+    "gmp_at": "2026-11-18T08:11",
     "sub_total": 0.0,
     "sub_retail": null,
     "sub_at": null,
@@ -49,6 +49,10 @@
      [
       "2026-11-17",
       13.0
+     ],
+     [
+      "2026-11-18",
+      19.0
      ]
     ],
     "rhp_url": "https://www.iiflcapital.com/institutional-equities/upload/investmentbanking/prospects/crystal_crop_protection_limited_-_red_herring_prospectus.pdf",
@@ -69,7 +73,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-18T08:01+05:30",
+  "fetched_at": "2026-11-18T08:15+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -624,7 +628,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-18T08:01+05:30",
+  "fetched_at": "2026-11-18T08:15+05:30",
   "records": [
    {
     "src": "Tracker D",
