@@ -1653,7 +1653,7 @@
   "series": "Equity",
   "nse_status": "Active",
   "shares_offered": 12170076.0,
-  "last_seen": "2026-11-18T16:15+05:30",
+  "last_seen": "2026-11-18T16:31+05:30",
   "segment": "SME",
   "lot": 55,
   "registrar": "MUFG Intime India Private Limited",
@@ -1665,16 +1665,16 @@
   "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_CRYSTALCP.zip",
   "details_at": "2026-11-18T11:34+05:30",
   "sub": {
-   "qib": 1.47,
-   "nii": 0.58,
-   "bnii": 0.41,
-   "snii": 0.92,
-   "retail": 1.21,
-   "employee": 2.73,
-   "total": 1.16
+   "qib": 2.07,
+   "nii": 0.71,
+   "bnii": 0.57,
+   "snii": 0.99,
+   "retail": 1.24,
+   "employee": 2.85,
+   "total": 1.37
   },
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-11-18T16:12",
+  "sub_asof": "2026-11-18T16:27",
   "reservation": {
    "qib": 27.99,
    "nii": 21.34,
@@ -1891,6 +1891,16 @@
     "retail": 1.21,
     "employee": 2.73,
     "total": 1.16
+   },
+   {
+    "at": "2026-11-18T16:31+05:30",
+    "qib": 2.07,
+    "nii": 0.71,
+    "bnii": 0.57,
+    "snii": 0.99,
+    "retail": 1.24,
+    "employee": 2.85,
+    "total": 1.37
    }
   ]
  },
@@ -1905,7 +1915,7 @@
   "series": "SME",
   "nse_status": "Forthcoming",
   "shares_offered": 4902000.0,
-  "last_seen": "2026-11-18T16:15+05:30",
+  "last_seen": "2026-11-18T16:31+05:30",
   "segment": "SME",
   "registrar": "Maashitla Securities Private Limited",
   "lead_managers": [
