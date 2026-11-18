@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T13:15+05:30",
+  "generated_at": "2026-11-18T13:31+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-18T11:34+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-18T13:15+05:30",
+    "nse_ok_at": "2026-11-18T13:31+05:30",
     "bse_ok_at": "2026-11-18T11:36+05:30"
   },
   "ipos": [
@@ -2847,16 +2847,16 @@
       "price": 272,
       "segment": "SME",
       "sub": {
-        "qib": 0.22,
-        "nii": 0.35,
-        "bnii": 0.23,
-        "snii": 0.57,
-        "retail": 0.85,
-        "employee": 2.11,
-        "total": 0.58
+        "qib": 1.2,
+        "nii": 0.36,
+        "bnii": 0.25,
+        "snii": 0.6,
+        "retail": 0.9,
+        "employee": 2.18,
+        "total": 0.88
       },
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-11-18T13:09",
+      "sub_asof": "2026-11-18T13:27",
       "registrar": "MUFG Intime India Private Limited",
       "lead_managers": [
         "IIFL Capital Services Limited, DAM Capital Advisors Limited, Motilal Oswal Investment Advisors Limited"
@@ -2961,12 +2961,22 @@
           "retail": 0.85,
           "employee": 2.11,
           "total": 0.58
+        },
+        {
+          "at": "2026-11-18T13:31+05:30",
+          "qib": 1.2,
+          "nii": 0.36,
+          "bnii": 0.25,
+          "snii": 0.6,
+          "retail": 0.9,
+          "employee": 2.18,
+          "total": 0.88
         }
       ],
       "series": "Equity",
       "nse_status": "Active",
       "shares_offered": 12170076.0,
-      "updated_on": "2026-11-18T13:15+05:30",
+      "updated_on": "2026-11-18T13:31+05:30",
       "bse_ipo_no": "8089",
       "drhp_url": "https://www.sebi.gov.in/filings/public-issues/dec-2025/crystal-crop-protection-limited-drhp_98530.html",
       "sector": "Chemicals",
@@ -2993,8 +3003,8 @@
         },
         {
           "source": "Tracker C",
-          "gmp": 19,
-          "at": "2026-11-18T07:37"
+          "gmp": 18,
+          "at": "2026-11-18T11:37"
         },
         {
           "source": "Tracker D",
@@ -3057,40 +3067,40 @@
       "status": "open",
       "news": [
         {
+          "date": "2026-11-18",
+          "source": "Economic Times",
           "title": "Crystal Crop Protection IPO opens: GMP signals 5% listing premium; should you subscribe?",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-ipo-opens-today-gmp-signals-5-listing-premium-should-you-subscribe/articleshow/135945842.cms",
-          "source": "Economic Times",
-          "date": "2026-11-18"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-ipo-opens-today-gmp-signals-5-listing-premium-should-you-subscribe/articleshow/135945842.cms"
         },
         {
-          "title": "Crystal Crop Protection IPO opens on November 18; GMP at ₹19. Check price band, lot size",
-          "url": "https://www.cnbctv18.com/market/crystal-crop-protection-ipo-subscription-opens-today-november-18-gmp-latest-check-price-band-lot-size-20036380.htm",
+          "date": "2026-11-18",
           "source": "cnbctv18.com",
-          "date": "2026-11-18"
+          "title": "Crystal Crop Protection IPO opens on November 18; GMP at ₹19. Check price band, lot size",
+          "url": "https://www.cnbctv18.com/market/crystal-crop-protection-ipo-subscription-opens-today-november-18-gmp-latest-check-price-band-lot-size-20036380.htm"
         },
         {
-          "title": "Crystal Crop Protection IPO: margins up, returns waiting",
-          "url": "https://www.valueresearchonline.com/stories/230242/crystal-crop-protection-ipo-review/",
+          "date": "2026-11-18",
           "source": "valueresearchonline.com",
-          "date": "2026-11-18"
+          "title": "Crystal Crop Protection IPO: margins up, returns waiting",
+          "url": "https://www.valueresearchonline.com/stories/230242/crystal-crop-protection-ipo-review/"
         },
         {
+          "date": "2026-11-17",
+          "source": "Economic Times",
           "title": "Crystal Crop Protection raises Rs 136 crore from anchor investors including Citi ahead of IPO",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-raises-rs-136-crore-from-anchor-investors-including-citi-ahead-of-ipo/articleshow/135931428.cms",
-          "source": "Economic Times",
-          "date": "2026-11-17"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-raises-rs-136-crore-from-anchor-investors-including-citi-ahead-of-ipo/articleshow/135931428.cms"
         },
         {
+          "date": "2026-11-13",
+          "source": "Economic Times",
           "title": "Crystal Crop Protection IPO GMP signals 18% potential listing gains. Key things to know before issue opens on Nov 18",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystalcropprotectionipogmpsignals18-potentiallistinggains-keythings-to-knowbeforeissueopens-on-nov18/articleshow/135799630.cms",
-          "source": "Economic Times",
-          "date": "2026-11-13"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystalcropprotectionipogmpsignals18-potentiallistinggains-keythings-to-knowbeforeissueopens-on-nov18/articleshow/135799630.cms"
         },
         {
-          "title": "Crystal Crop Protection sets price band for Rs 455.49 crore IPO, issue opens on November 18",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-sets-price-band-for-rs-455-49-crore-ipo-issue-opens-on-november-18/articleshow/135790747.cms",
+          "date": "2026-11-13",
           "source": "Economic Times",
-          "date": "2026-11-13"
+          "title": "Crystal Crop Protection sets price band for Rs 455.49 crore IPO, issue opens on November 18",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-sets-price-band-for-rs-455-49-crore-ipo-issue-opens-on-november-18/articleshow/135790747.cms"
         }
       ],
       "unconfirmed": false
@@ -3121,7 +3131,7 @@
       "series": "SME",
       "nse_status": "Forthcoming",
       "shares_offered": 4902000.0,
-      "updated_on": "2026-11-18T13:15+05:30",
+      "updated_on": "2026-11-18T13:31+05:30",
       "tracker_rating": 3,
       "reservation_detail": {
         "nii": {
@@ -3196,8 +3206,8 @@
         },
         {
           "source": "Tracker C",
-          "gmp": 25,
-          "at": "2026-11-18T07:37"
+          "gmp": 37,
+          "at": "2026-11-18T11:37"
         },
         {
           "source": "Tracker D",
@@ -3292,8 +3302,8 @@
         },
         {
           "source": "Tracker C",
-          "gmp": 3.5,
-          "at": "2026-11-18T10:02"
+          "gmp": 3,
+          "at": "2026-11-18T11:37"
         },
         {
           "source": "Tracker D",
@@ -3343,40 +3353,40 @@
       "status": "upcoming",
       "news": [
         {
+          "date": "2026-11-18",
+          "source": "Economic Times",
           "title": "Mahanadi Coalfields’ Rs 8,981 crore IPO: GMP at 3% as issue set to open on November 19. Check key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-rs-8981-crore-ipo-gmp-at-3-as-issue-set-to-open-on-november-19-check-key-details/articleshow/135953095.cms",
-          "source": "Economic Times",
-          "date": "2026-11-18"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-rs-8981-crore-ipo-gmp-at-3-as-issue-set-to-open-on-november-19-check-key-details/articleshow/135953095.cms"
         },
         {
+          "date": "2026-11-18",
+          "source": "Economic Times",
           "title": "Mahanadi Coalfields IPO: 5 things you should know about Coal India's BCCL and CMPDI listings",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-5-things-you-should-know-about-coal-indias-bccl-and-cmpdi-listings/articleshow/135947880.cms",
-          "source": "Economic Times",
-          "date": "2026-11-18"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-5-things-you-should-know-about-coal-indias-bccl-and-cmpdi-listings/articleshow/135947880.cms"
         },
         {
+          "date": "2026-11-17",
+          "source": "Economic Times",
           "title": "Mahanadi Coalfields Rs 8,981 crore IPO to open on November 19; GMP at 3%, check key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-rs-8981-crore-ipo-to-open-on-november-19-gmp-at-3-check-key-details/articleshow/135916428.cms",
-          "source": "Economic Times",
-          "date": "2026-11-17"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-rs-8981-crore-ipo-to-open-on-november-19-gmp-at-3-check-key-details/articleshow/135916428.cms"
         },
         {
+          "date": "2026-11-17",
+          "source": "Economic Times",
           "title": "Mahanadi Coalfields sets Rs 8,981 crore IPO price band at Rs 129-136",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-sets-rs-8981-crore-ipo-price-band-at-rs-129-136/articleshow/135907281.cms",
-          "source": "Economic Times",
-          "date": "2026-11-17"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-sets-rs-8981-crore-ipo-price-band-at-rs-129-136/articleshow/135907281.cms"
         },
         {
+          "date": "2026-11-16",
+          "source": "Economic Times",
           "title": "Coal India's 3rd big windfall in a year? How Mahanadi Coalfields IPO could unlock Rs 8,964 crore",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/coal-indias-3rd-big-windfall-in-a-year-how-mahanadi-coalfields-ipo-could-unlock-rs-8964-crore/articleshow/135887433.cms",
-          "source": "Economic Times",
-          "date": "2026-11-16"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/coal-indias-3rd-big-windfall-in-a-year-how-mahanadi-coalfields-ipo-could-unlock-rs-8964-crore/articleshow/135887433.cms"
         },
         {
-          "title": "Mahanadi Coalfields IPO price band set at Rs 129–136; Rs 8,981 crore issue to open on November 19",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-price-band-set-at-rs-129136-rs-8981-crore-issue-to-open-on-november-19/articleshow/135870181.cms",
+          "date": "2026-11-16",
           "source": "Economic Times",
-          "date": "2026-11-16"
+          "title": "Mahanadi Coalfields IPO price band set at Rs 129–136; Rs 8,981 crore issue to open on November 19",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-price-band-set-at-rs-129136-rs-8981-crore-issue-to-open-on-november-19/articleshow/135870181.cms"
         }
       ],
       "unconfirmed": false
