@@ -45,8 +45,8 @@
    "segment": "SME"
   },
   "crystalcp": {
-   "at": "2026-11-18T11:36",
-   "gmp": 19,
+   "at": "2026-11-18T11:45",
+   "gmp": 18,
    "listing": "2026-11-26",
    "name": "Crystal Crop Protection",
    "price": 272,
@@ -80,6 +80,14 @@
    "listing": "2026-11-06",
    "name": "Johnsoncab Electricals",
    "price": 200,
+   "segment": "SME"
+  },
+  "mahacoal": {
+   "at": "2026-11-18T11:45",
+   "gmp": 3.1,
+   "listing": "2026-11-27",
+   "name": "Mahanadi Coalfields",
+   "price": 136,
    "segment": "SME"
   },
   "mahanadi-coalfields": {
@@ -129,8 +137,8 @@
    "segment": "SME"
   },
   "watrana": {
-   "at": "2026-11-18T11:34",
-   "gmp": 36,
+   "at": "2026-11-18T11:45",
+   "gmp": 37,
    "listing": "2026-11-27",
    "name": "Watrana Rentals",
    "price": 245,
