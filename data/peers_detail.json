@@ -1,8 +1,12 @@
 {
  "crystal-crop-protection": {
-  "at": "2026-11-19T06:01+05:30",
+  "at": "2026-11-19T12:01+05:30",
   "detail": {
    "gmp_history": [
+    [
+     "2026-11-19",
+     18.0
+    ],
     [
      "2026-11-18",
      18.0
@@ -21,13 +25,13 @@
     ]
    ],
    "sub": {
-    "employee": 3.1,
-    "nii": 0.79,
+    "employee": 4.15,
+    "nii": 1.77,
     "qib": 2.11,
-    "retail": 1.38,
-    "total": 1.48
+    "retail": 2.21,
+    "total": 2.11
    },
-   "sub_at": "2026-11-18T18:01",
+   "sub_at": "2026-11-19T11:48",
    "uses": [
     {
      "cr": 247.94,
@@ -41,9 +45,13 @@
   }
  },
  "foodlink-fb-holdings-india": {
-  "at": "2026-11-19T06:01+05:30",
+  "at": "2026-11-19T12:01+05:30",
   "detail": {
    "gmp_history": [
+    [
+     "2026-11-19",
+     12.0
+    ],
     [
      "2026-11-18",
      15.0
@@ -72,9 +80,13 @@
   }
  },
  "mahanadi-coalfields": {
-  "at": "2026-11-19T06:01+05:30",
+  "at": "2026-11-19T12:01+05:30",
   "detail": {
    "gmp_history": [
+    [
+     "2026-11-19",
+     3.0
+    ],
     [
      "2026-11-18",
      3.0
@@ -92,12 +104,53 @@
      13.0
     ]
    ],
-   "sub": {
-    "nii": 0.0,
-    "qib": 0.0,
-    "retail": 0.0,
-    "total": 0.0
+   "reservation": {
+    "anchor": {
+     "pct": 25.5,
+     "shares": 168768255
+    },
+    "bnii": {
+     "pct": 8.5,
+     "shares": 56256086
+    },
+    "employee": {
+     "pct": 29.75,
+     "shares": 33091815
+    },
+    "nii": {
+     "pct": 12.75,
+     "shares": 84384129
+    },
+    "qib": {
+     "pct": 42.5,
+     "shares": 281280428
+    },
+    "qib_ex_anchor": {
+     "pct": 17.0,
+     "shares": 112512173
+    },
+    "retail": {
+     "pct": 29.75,
+     "shares": 196896299
+    },
+    "shareholders": {
+     "pct": 10.0,
+     "shares": 66183630
+    },
+    "snii": {
+     "pct": 4.25,
+     "shares": 28128043
+    }
    },
+   "sub": {
+    "employee": 0.03,
+    "nii": 0.03,
+    "qib": 0.0,
+    "retail": 0.07,
+    "shareholders": 0.07,
+    "total": 0.05
+   },
+   "sub_at": "2026-11-19T11:48",
    "uses": [
     {
      "cr": 8981.12,
@@ -138,9 +191,13 @@
   }
  },
  "watrana-rentals": {
-  "at": "2026-11-19T06:01+05:30",
+  "at": "2026-11-19T12:01+05:30",
   "detail": {
    "gmp_history": [
+    [
+     "2026-11-19",
+     62.0
+    ],
     [
      "2026-11-18",
      37.0
@@ -155,25 +212,46 @@
     ]
    ],
    "reservation": {
+    "anchor": {
+     "pct": 28.27,
+     "shares": 1386000
+    },
+    "bnii": {
+     "pct": 9.5,
+     "shares": 465600
+    },
+    "market_maker": {
+     "pct": 5.14,
+     "shares": 252000
+    },
     "nii": {
-     "pct": 15.02,
+     "pct": 14.25,
      "shares": 698400
     },
     "qib": {
-     "pct": 49.94,
+     "pct": 47.37,
      "shares": 2322000
     },
+    "qib_ex_anchor": {
+     "pct": 19.09,
+     "shares": 936000
+    },
     "retail": {
-     "pct": 35.05,
+     "pct": 33.24,
      "shares": 1629600
+    },
+    "snii": {
+     "pct": 4.75,
+     "shares": 232800
     }
    },
    "sub": {
-    "nii": 0.0,
+    "nii": 1.26,
     "qib": 0.0,
-    "retail": 0.0,
-    "total": 0.0
+    "retail": 1.62,
+    "total": 1.08
    },
+   "sub_at": "2026-11-19T11:47",
    "uses": [
     {
      "cr": 98.13,
