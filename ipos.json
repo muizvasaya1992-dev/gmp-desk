@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T17:31+05:30",
+  "generated_at": "2026-11-19T17:45+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-18T11:34+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-19T17:31+05:30",
+    "nse_ok_at": "2026-11-19T17:45+05:30",
     "bse_ok_at": "2026-11-18T11:36+05:30"
   },
   "ipos": [
@@ -3468,13 +3468,13 @@
         },
         {
           "source": "Tracker D",
-          "gmp": 17,
-          "at": "2026-11-19T15:15"
+          "gmp": 16,
+          "at": "2026-11-19T17:45"
         },
         {
           "source": "Tracker B",
           "gmp": 17,
-          "at": "2026-11-19T13:56"
+          "at": "2026-11-19T17:45"
         }
       ],
       "gmp_history": [
@@ -3512,15 +3512,15 @@
       "gmp_high": 45,
       "exchange": "SME",
       "gmp": 17,
-      "gmp_asof": "2026-11-19T16:00",
-      "gmp_source_latest": "Public trackers",
+      "gmp_asof": "2026-11-19T17:45",
+      "gmp_source_latest": "Tracker B",
       "gmp_pct": 6.25,
       "gmp_spread": {
-        "min": 17,
+        "min": 16,
         "max": 17,
-        "diff": 0,
+        "diff": 1,
         "n": 4,
-        "diff_pct_of_price": 0.0
+        "diff_pct_of_price": 0.37
       },
       "gmp_trend": {
         "dir": "rising",
@@ -3531,40 +3531,40 @@
       "status": "open",
       "news": [
         {
-          "date": "2026-11-19",
-          "source": "Economic Times",
           "title": "Crystal Crop Protection IPO Day 2: Issue subscribed 2x so far, GMP signals 6% listing premium. Should you apply?",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-ipo-day-2-issue-subscribed-2x-so-far-gmp-signals-6-listing-premium-should-you-apply/articleshow/135984176.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-ipo-day-2-issue-subscribed-2x-so-far-gmp-signals-6-listing-premium-should-you-apply/articleshow/135984176.cms",
+          "source": "Economic Times",
+          "date": "2026-11-19"
         },
         {
-          "date": "2026-11-18",
-          "source": "Economic Times",
           "title": "Crystal Crop Protection IPO subscribed 55% so far; GMP signals 7% listing premium",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-ipo-subscribed-55-so-far-gmp-signals-7-listing-premium/articleshow/135957040.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-ipo-subscribed-55-so-far-gmp-signals-7-listing-premium/articleshow/135957040.cms",
+          "source": "Economic Times",
+          "date": "2026-11-18"
         },
         {
-          "date": "2026-11-18",
-          "source": "Economic Times",
           "title": "Crystal Crop Protection IPO opens: GMP signals 5% listing premium; should you subscribe?",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-ipo-opens-today-gmp-signals-5-listing-premium-should-you-subscribe/articleshow/135945842.cms"
-        },
-        {
-          "date": "2026-11-18",
-          "source": "cnbctv18.com",
-          "title": "Crystal Crop cuts China dependence to 42% from 65%, plans further reduction",
-          "url": "https://www.cnbctv18.com/market/crystal-crop-cuts-china-dependence-ankur-aggarwal-ipo-20036877.htm"
-        },
-        {
-          "date": "2026-11-18",
-          "source": "valueresearchonline.com",
-          "title": "Crystal Crop Protection IPO: margins up, returns waiting",
-          "url": "https://www.valueresearchonline.com/stories/230242/crystal-crop-protection-ipo-review/"
-        },
-        {
-          "date": "2026-11-17",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-ipo-opens-today-gmp-signals-5-listing-premium-should-you-subscribe/articleshow/135945842.cms",
           "source": "Economic Times",
+          "date": "2026-11-18"
+        },
+        {
+          "title": "Crystal Crop cuts China dependence to 42% from 65%, plans further reduction",
+          "url": "https://www.cnbctv18.com/market/crystal-crop-cuts-china-dependence-ankur-aggarwal-ipo-20036877.htm",
+          "source": "cnbctv18.com",
+          "date": "2026-11-18"
+        },
+        {
+          "title": "Crystal Crop Protection IPO: margins up, returns waiting",
+          "url": "https://www.valueresearchonline.com/stories/230242/crystal-crop-protection-ipo-review/",
+          "source": "valueresearchonline.com",
+          "date": "2026-11-18"
+        },
+        {
           "title": "Crystal Crop Protection raises Rs 136 crore from anchor investors including Citi ahead of IPO",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-raises-rs-136-crore-from-anchor-investors-including-citi-ahead-of-ipo/articleshow/135931428.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-raises-rs-136-crore-from-anchor-investors-including-citi-ahead-of-ipo/articleshow/135931428.cms",
+          "source": "Economic Times",
+          "date": "2026-11-17"
         }
       ],
       "unconfirmed": false
@@ -3785,10 +3785,10 @@
       "status": "open",
       "news": [
         {
-          "date": "2026-11-19",
-          "source": "Economic Times",
           "title": "Watrana Rentals SME IPO opens today; GMP at 25%, check key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/watrana-rentals-sme-ipo-opens-today-gmp-at-25-check-key-details/articleshow/135977017.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/watrana-rentals-sme-ipo-opens-today-gmp-at-25-check-key-details/articleshow/135977017.cms",
+          "source": "Economic Times",
+          "date": "2026-11-19"
         }
       ],
       "unconfirmed": false
@@ -4219,13 +4219,13 @@
         },
         {
           "source": "Tracker D",
-          "gmp": 2.4,
-          "at": "2026-11-19T16:45"
+          "gmp": 2,
+          "at": "2026-11-19T17:45"
         },
         {
           "source": "Tracker B",
-          "gmp": 1.7,
-          "at": "2026-11-19T15:10"
+          "gmp": 2.4,
+          "at": "2026-11-19T17:45"
         }
       ],
       "gmp_history": [
@@ -4251,7 +4251,7 @@
         },
         {
           "date": "2026-11-19",
-          "gmp": 1.7
+          "gmp": 2.4
         }
       ],
       "history_source": "Tracker B",
@@ -4259,59 +4259,59 @@
       "gmp_high": 13,
       "exchange": "SME",
       "gmp": 2.4,
-      "gmp_asof": "2026-11-19T16:45",
-      "gmp_source_latest": "Tracker D",
+      "gmp_asof": "2026-11-19T17:45",
+      "gmp_source_latest": "Tracker B",
       "gmp_pct": 1.76,
       "gmp_spread": {
-        "min": 1.7,
+        "min": 2,
         "max": 3,
-        "diff": 1.3,
+        "diff": 1,
         "n": 4,
-        "diff_pct_of_price": 0.96
+        "diff_pct_of_price": 0.74
       },
       "gmp_trend": {
-        "dir": "falling",
-        "change": -1.95,
+        "dir": "steady",
+        "change": -1.25,
         "days": 3,
         "since": "2026-11-17"
       },
       "status": "open",
       "news": [
         {
-          "date": "2026-11-19",
-          "source": "Economic Times",
           "title": "Mahanadi Coalfields IPO Day 1: Check subscription status, GMP and issue details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-day-1-check-subscription-status-gmp-and-issue-details/articleshow/135982165.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-day-1-check-subscription-status-gmp-and-issue-details/articleshow/135982165.cms",
+          "source": "Economic Times",
+          "date": "2026-11-19"
         },
         {
-          "date": "2026-11-19",
-          "source": "Economic Times",
           "title": "Mahanadi Coalfields IPO opens: Should you subscribe to the Rs 8,981 crore issue?",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-opens-today-check-gmp-and-key-details-should-you-subscribe/articleshow/135975182.cms"
-        },
-        {
-          "date": "2026-11-19",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-opens-today-check-gmp-and-key-details-should-you-subscribe/articleshow/135975182.cms",
           "source": "Economic Times",
+          "date": "2026-11-19"
+        },
+        {
           "title": "Goldman Sachs, Citigroup, Morgan Stanley help Mahanadi Coalfields mop up Rs 2,295 crore from anchor investors ahead of IPO",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/goldman-sachs-citigroup-morgan-stanley-help-mahanadi-coalfields-mop-up-rs-2295-crore-from-anchor-investors-ahead-of-ipo/articleshow/135969520.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/goldman-sachs-citigroup-morgan-stanley-help-mahanadi-coalfields-mop-up-rs-2295-crore-from-anchor-investors-ahead-of-ipo/articleshow/135969520.cms",
+          "source": "Economic Times",
+          "date": "2026-11-19"
         },
         {
-          "date": "2026-11-19",
-          "source": "cnbctv18.com",
           "title": "Mahanadi Coalfields IPO opens today: Should you subscribe to the ₹8,981 crore issue?",
-          "url": "https://www.cnbctv18.com/market/mahanadi-coalfields-ipo-subscription-opens-today-should-you-bid-gmp-latest-price-band-brokerages-view-20037294.htm"
+          "url": "https://www.cnbctv18.com/market/mahanadi-coalfields-ipo-subscription-opens-today-should-you-bid-gmp-latest-price-band-brokerages-view-20037294.htm",
+          "source": "cnbctv18.com",
+          "date": "2026-11-19"
         },
         {
-          "date": "2026-11-19",
-          "source": "Mint",
           "title": "Mahanadi Coalfields IPO latest GMP: Listing gain or long-term wealth? 5 reasons to bid despite weak subscription; review",
-          "url": "https://www.livemint.com/market/ipo/mahanadi-coalfields-ipo-latest-gmp-listing-gain-or-long-term-wealth-5-reasons-to-bid-despite-weak-subscription-review-11795080232975.html"
+          "url": "https://www.livemint.com/market/ipo/mahanadi-coalfields-ipo-latest-gmp-listing-gain-or-long-term-wealth-5-reasons-to-bid-despite-weak-subscription-review-11795080232975.html",
+          "source": "Mint",
+          "date": "2026-11-19"
         },
         {
-          "date": "2026-11-19",
-          "source": "Mint",
           "title": "Mahanadi Coalfields IPO GMP today at ₹3 vs ₹136 price band - Should you apply for Coal India arm's shares or not?",
-          "url": "https://www.livemint.com/market/ipo/mahanadi-coalfields-ipo-gmp-today-at-rs-3-vs-rs-136-price-band-should-you-apply-for-coal-india-arms-shares-or-not-11795054572842.html"
+          "url": "https://www.livemint.com/market/ipo/mahanadi-coalfields-ipo-gmp-today-at-rs-3-vs-rs-136-price-band-should-you-apply-for-coal-india-arms-shares-or-not-11795054572842.html",
+          "source": "Mint",
+          "date": "2026-11-19"
         }
       ],
       "unconfirmed": false
@@ -4532,7 +4532,7 @@
       "sector": "Sugar",
       "gmp_watch": {
         "sources": 2,
-        "at": "2026-11-19T17:31"
+        "at": "2026-11-19T17:45"
       },
       "gmp_sources": [],
       "gmp_history": [],

@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-19T15:15+05:30",
+  "fetched_at": "2026-11-19T17:46+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,10 +16,10 @@
     "price_low": 259.0,
     "size_cr": 455.72,
     "gmp": 17.0,
-    "gmp_at": "2026-11-19T15:10",
-    "sub_total": 2.58,
-    "sub_retail": 2.793,
-    "sub_at": "2026-11-19T15:12",
+    "gmp_at": "2026-11-19T17:45",
+    "sub_total": 2.94,
+    "sub_retail": 3.121,
+    "sub_at": "2026-11-19T17:45",
     "sub_cats": null,
     "gmp_days": [
      [
@@ -87,11 +87,11 @@
     "price": 136.0,
     "price_low": 129.0,
     "size_cr": 8981.12,
-    "gmp": 1.7,
-    "gmp_at": "2026-11-19T15:10",
-    "sub_total": 0.37,
-    "sub_retail": 0.118,
-    "sub_at": "2026-11-19T15:11",
+    "gmp": 2.4,
+    "gmp_at": "2026-11-19T17:45",
+    "sub_total": 0.38,
+    "sub_retail": 0.135,
+    "sub_at": "2026-11-19T17:45",
     "sub_cats": null,
     "gmp_days": [
      [
@@ -120,7 +120,7 @@
      ],
      [
       "2026-11-19",
-      1.7
+      2.4
      ]
     ],
     "rhp_url": "https://media.ipoji.com/rhp/MCL_RHP_Filing_Version_13112026.pdf",
@@ -154,7 +154,7 @@
     "price_low": 232.0,
     "size_cr": 120.1,
     "gmp": 67.0,
-    "gmp_at": "2026-11-19T15:10",
+    "gmp_at": "2026-11-19T17:45",
     "sub_total": 0.0,
     "sub_retail": null,
     "sub_at": null,
@@ -207,7 +207,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-19T17:31+05:30",
+  "fetched_at": "2026-11-19T17:46+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -762,7 +762,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-19T17:31+05:30",
+  "fetched_at": "2026-11-19T17:46+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -779,7 +779,7 @@
     "size_cr": 120.1,
     "gmp": 67.0,
     "gmp_at": null,
-    "sub_total": 3.1,
+    "sub_total": 3.76,
     "sub_retail": null,
     "sub_at": null,
     "lot": 600.0,
@@ -902,9 +902,9 @@
     "price": 259.0,
     "price_low": null,
     "size_cr": 455.49,
-    "gmp": 17.0,
+    "gmp": 16.0,
     "gmp_at": null,
-    "sub_total": 2.9,
+    "sub_total": 3.07,
     "sub_retail": null,
     "sub_at": null,
     "lot": 55.0,
@@ -967,7 +967,7 @@
     "price": 129.0,
     "price_low": null,
     "size_cr": 8981.12,
-    "gmp": 2.4,
+    "gmp": 2.0,
     "gmp_at": null,
     "sub_total": 0.38,
     "sub_retail": null,
