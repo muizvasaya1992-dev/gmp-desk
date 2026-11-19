@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T13:01+05:30",
+  "generated_at": "2026-11-19T13:15+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-18T11:34+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-19T13:01+05:30",
+    "nse_ok_at": "2026-11-19T13:15+05:30",
     "bse_ok_at": "2026-11-18T11:36+05:30"
   },
   "ipos": [
@@ -2848,15 +2848,15 @@
       "segment": "SME",
       "sub": {
         "qib": 2.18,
-        "nii": 2.01,
-        "bnii": 1.76,
-        "snii": 2.5,
-        "retail": 2.38,
-        "employee": 4.28,
-        "total": 2.26
+        "nii": 2.04,
+        "bnii": 1.78,
+        "snii": 2.56,
+        "retail": 2.42,
+        "employee": 4.31,
+        "total": 2.29
       },
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-11-19T12:57",
+      "sub_asof": "2026-11-19T13:09",
       "registrar": "MUFG Intime India Private Limited",
       "lead_managers": [
         "IIFL Capital Services Limited, DAM Capital Advisors Limited, Motilal Oswal Investment Advisors Limited"
@@ -3251,12 +3251,22 @@
           "retail": 2.38,
           "employee": 4.28,
           "total": 2.26
+        },
+        {
+          "at": "2026-11-19T13:15+05:30",
+          "qib": 2.18,
+          "nii": 2.04,
+          "bnii": 1.78,
+          "snii": 2.56,
+          "retail": 2.42,
+          "employee": 4.31,
+          "total": 2.29
         }
       ],
       "series": "Equity",
       "nse_status": "Active",
       "shares_offered": 12170076.0,
-      "updated_on": "2026-11-19T13:01+05:30",
+      "updated_on": "2026-11-19T13:15+05:30",
       "bse_ipo_no": "8089",
       "drhp_url": "https://www.sebi.gov.in/filings/public-issues/dec-2025/crystal-crop-protection-limited-drhp_98530.html",
       "sector": "Chemicals",
@@ -3351,40 +3361,40 @@
       "status": "open",
       "news": [
         {
-          "date": "2026-11-18",
-          "source": "Economic Times",
           "title": "Crystal Crop Protection IPO subscribed 55% so far; GMP signals 7% listing premium",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-ipo-subscribed-55-so-far-gmp-signals-7-listing-premium/articleshow/135957040.cms"
-        },
-        {
-          "date": "2026-11-18",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-ipo-subscribed-55-so-far-gmp-signals-7-listing-premium/articleshow/135957040.cms",
           "source": "Economic Times",
+          "date": "2026-11-18"
+        },
+        {
           "title": "Crystal Crop Protection IPO opens: GMP signals 5% listing premium; should you subscribe?",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-ipo-opens-today-gmp-signals-5-listing-premium-should-you-subscribe/articleshow/135945842.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-ipo-opens-today-gmp-signals-5-listing-premium-should-you-subscribe/articleshow/135945842.cms",
+          "source": "Economic Times",
+          "date": "2026-11-18"
         },
         {
-          "date": "2026-11-18",
-          "source": "cnbctv18.com",
           "title": "Crystal Crop cuts China dependence to 42% from 65%, plans further reduction",
-          "url": "https://www.cnbctv18.com/market/crystal-crop-cuts-china-dependence-ankur-aggarwal-ipo-20036877.htm"
-        },
-        {
-          "date": "2026-11-18",
+          "url": "https://www.cnbctv18.com/market/crystal-crop-cuts-china-dependence-ankur-aggarwal-ipo-20036877.htm",
           "source": "cnbctv18.com",
-          "title": "Crystal Crop Protection IPO opens on November 18; GMP at ₹19. Check price band, lot size",
-          "url": "https://www.cnbctv18.com/market/crystal-crop-protection-ipo-subscription-opens-today-november-18-gmp-latest-check-price-band-lot-size-20036380.htm"
+          "date": "2026-11-18"
         },
         {
-          "date": "2026-11-18",
-          "source": "Mint",
           "title": "Crystal Crop Protection IPO 1-lot profit calculator basis GMP: What will the listing gains be if you get an allotment",
-          "url": "https://www.livemint.com/market/stock-market-news/crystal-crop-protection-ipo-1-lot-profit-calculator-basis-gmp-what-will-the-listing-gains-be-if-you-get-an-allotment-11794994698224.html"
+          "url": "https://www.livemint.com/market/stock-market-news/crystal-crop-protection-ipo-1-lot-profit-calculator-basis-gmp-what-will-the-listing-gains-be-if-you-get-an-allotment-11794994698224.html",
+          "source": "Mint",
+          "date": "2026-11-18"
         },
         {
-          "date": "2026-11-18",
-          "source": "valueresearchonline.com",
           "title": "Crystal Crop Protection IPO: margins up, returns waiting",
-          "url": "https://www.valueresearchonline.com/stories/230242/crystal-crop-protection-ipo-review/"
+          "url": "https://www.valueresearchonline.com/stories/230242/crystal-crop-protection-ipo-review/",
+          "source": "valueresearchonline.com",
+          "date": "2026-11-18"
+        },
+        {
+          "title": "Crystal Crop Protection raises Rs 136 crore from anchor investors including Citi ahead of IPO",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-raises-rs-136-crore-from-anchor-investors-including-citi-ahead-of-ipo/articleshow/135931428.cms",
+          "source": "Economic Times",
+          "date": "2026-11-17"
         }
       ],
       "unconfirmed": false
@@ -3436,7 +3446,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": 3516000.0,
-      "updated_on": "2026-11-19T13:01+05:30",
+      "updated_on": "2026-11-19T13:15+05:30",
       "reservation": {
         "qib": 47.37,
         "nii": 14.25,
@@ -3605,16 +3615,16 @@
       "status": "open",
       "news": [
         {
-          "date": "2026-11-19",
-          "source": "Economic Times",
           "title": "Watrana Rentals SME IPO opens today; GMP at 25%, check key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/watrana-rentals-sme-ipo-opens-today-gmp-at-25-check-key-details/articleshow/135977017.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/watrana-rentals-sme-ipo-opens-today-gmp-at-25-check-key-details/articleshow/135977017.cms",
+          "source": "Economic Times",
+          "date": "2026-11-19"
         },
         {
-          "date": "2026-11-19",
-          "source": "freepressjournal.in",
           "title": "Watrana Rentals IPO Opens Today With ₹120 Crore Target, Check Price Band, Lot Size And Key Details",
-          "url": "https://www.freepressjournal.in/business/watrana-rentals-ipo-opens-today-with-120-crore-target-check-price-band-lot-size-and-key-details"
+          "url": "https://www.freepressjournal.in/business/watrana-rentals-ipo-opens-today-with-120-crore-target-check-price-band-lot-size-and-key-details",
+          "source": "freepressjournal.in",
+          "date": "2026-11-19"
         }
       ],
       "unconfirmed": false
@@ -3641,11 +3651,11 @@
         "snii": 0.08,
         "retail": 0.09,
         "employee": 0.04,
-        "shareholders": 0.09,
-        "total": 0.13
+        "shareholders": 0.1,
+        "total": 0.14
       },
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-11-19T12:57",
+      "sub_asof": "2026-11-19T13:09",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "SBI Capital Markets Limited, Axis Capital Limited, BOB Capital Markets Limited, IDBI Capital Markets and Securities Limited and IIFL Capital Services Limited"
@@ -3790,12 +3800,23 @@
           "employee": 0.04,
           "shareholders": 0.09,
           "total": 0.13
+        },
+        {
+          "at": "2026-11-19T13:15+05:30",
+          "qib": 0.33,
+          "nii": 0.04,
+          "bnii": 0.03,
+          "snii": 0.08,
+          "retail": 0.09,
+          "employee": 0.04,
+          "shareholders": 0.1,
+          "total": 0.14
         }
       ],
       "series": "Equity",
       "nse_status": "Active",
       "shares_offered": 493068045.0,
-      "updated_on": "2026-11-19T13:01+05:30",
+      "updated_on": "2026-11-19T13:15+05:30",
       "bse_ipo_no": "8092",
       "drhp_url": "https://nsearchives.nseindia.com/corporate/Registration_01092026212900_MCLDRHP.pdf",
       "reservation": {
@@ -3928,40 +3949,40 @@
       "status": "open",
       "news": [
         {
-          "date": "2026-11-19",
-          "source": "Economic Times",
           "title": "Mahanadi Coalfields IPO opens: Should you subscribe to the Rs 8,981 crore issue?",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-opens-today-check-gmp-and-key-details-should-you-subscribe/articleshow/135975182.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-opens-today-check-gmp-and-key-details-should-you-subscribe/articleshow/135975182.cms",
+          "source": "Economic Times",
+          "date": "2026-11-19"
         },
         {
-          "date": "2026-11-19",
-          "source": "Economic Times",
           "title": "Goldman Sachs, Citigroup, Morgan Stanley help Mahanadi Coalfields mop up Rs 2,295 crore from anchor investors ahead of IPO",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/goldman-sachs-citigroup-morgan-stanley-help-mahanadi-coalfields-mop-up-rs-2295-crore-from-anchor-investors-ahead-of-ipo/articleshow/135969520.cms"
-        },
-        {
-          "date": "2026-11-19",
-          "source": "cnbctv18.com",
-          "title": "Mahanadi Coalfields IPO opens today: Should you subscribe to the ₹8,981 crore issue?",
-          "url": "https://www.cnbctv18.com/market/mahanadi-coalfields-ipo-subscription-opens-today-should-you-bid-gmp-latest-price-band-brokerages-view-20037294.htm"
-        },
-        {
-          "date": "2026-11-19",
-          "source": "Mint",
-          "title": "Mahanadi Coalfields IPO GMP today at ₹3 vs ₹136 price band - Should you apply for Coal India arm's shares or not?",
-          "url": "https://www.livemint.com/market/ipo/mahanadi-coalfields-ipo-gmp-today-at-rs-3-vs-rs-136-price-band-should-you-apply-for-coal-india-arms-shares-or-not-11795054572842.html"
-        },
-        {
-          "date": "2026-11-19",
-          "source": "BusinessLine",
-          "title": "Mahanadi Coalfields raises ₹2,295 crore from anchor investors ahead of IPO",
-          "url": "https://www.thehindubusinessline.com/markets/mahanadi-coalfields-raises-2295-crore-from-anchor-investors-ahead-of-ipo/article71718344.ece"
-        },
-        {
-          "date": "2026-11-18",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/goldman-sachs-citigroup-morgan-stanley-help-mahanadi-coalfields-mop-up-rs-2295-crore-from-anchor-investors-ahead-of-ipo/articleshow/135969520.cms",
           "source": "Economic Times",
+          "date": "2026-11-19"
+        },
+        {
+          "title": "Mahanadi Coalfields IPO opens today: Should you subscribe to the ₹8,981 crore issue?",
+          "url": "https://www.cnbctv18.com/market/mahanadi-coalfields-ipo-subscription-opens-today-should-you-bid-gmp-latest-price-band-brokerages-view-20037294.htm",
+          "source": "cnbctv18.com",
+          "date": "2026-11-19"
+        },
+        {
+          "title": "Mahanadi Coalfields IPO GMP today at ₹3 vs ₹136 price band - Should you apply for Coal India arm's shares or not?",
+          "url": "https://www.livemint.com/market/ipo/mahanadi-coalfields-ipo-gmp-today-at-rs-3-vs-rs-136-price-band-should-you-apply-for-coal-india-arms-shares-or-not-11795054572842.html",
+          "source": "Mint",
+          "date": "2026-11-19"
+        },
+        {
+          "title": "Mahanadi Coalfields raises ₹2,295 crore from anchor investors ahead of IPO",
+          "url": "https://www.thehindubusinessline.com/markets/mahanadi-coalfields-raises-2295-crore-from-anchor-investors-ahead-of-ipo/article71718344.ece",
+          "source": "BusinessLine",
+          "date": "2026-11-19"
+        },
+        {
           "title": "Mahanadi Coalfields’ Rs 8,981 crore IPO: GMP at 3% as issue set to open on November 19. Check key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-rs-8981-crore-ipo-gmp-at-3-as-issue-set-to-open-on-november-19-check-key-details/articleshow/135953095.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-rs-8981-crore-ipo-gmp-at-3-as-issue-set-to-open-on-november-19-check-key-details/articleshow/135953095.cms",
+          "source": "Economic Times",
+          "date": "2026-11-18"
         }
       ],
       "unconfirmed": false
@@ -4182,7 +4203,7 @@
       "sector": "Sugar",
       "gmp_watch": {
         "sources": 2,
-        "at": "2026-11-19T13:01"
+        "at": "2026-11-19T13:15"
       },
       "gmp_sources": [],
       "gmp_history": [],

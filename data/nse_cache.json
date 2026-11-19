@@ -1653,7 +1653,7 @@
   "series": "Equity",
   "nse_status": "Active",
   "shares_offered": 12170076.0,
-  "last_seen": "2026-11-19T13:01+05:30",
+  "last_seen": "2026-11-19T13:15+05:30",
   "segment": "SME",
   "lot": 55,
   "registrar": "MUFG Intime India Private Limited",
@@ -1666,15 +1666,15 @@
   "details_at": "2026-11-19T00:01+05:30",
   "sub": {
    "qib": 2.18,
-   "nii": 2.01,
-   "bnii": 1.76,
-   "snii": 2.5,
-   "retail": 2.38,
-   "employee": 4.28,
-   "total": 2.26
+   "nii": 2.04,
+   "bnii": 1.78,
+   "snii": 2.56,
+   "retail": 2.42,
+   "employee": 4.31,
+   "total": 2.29
   },
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-11-19T12:57",
+  "sub_asof": "2026-11-19T13:09",
   "reservation": {
    "qib": 27.99,
    "nii": 21.34,
@@ -2061,6 +2061,16 @@
     "retail": 2.38,
     "employee": 4.28,
     "total": 2.26
+   },
+   {
+    "at": "2026-11-19T13:15+05:30",
+    "qib": 2.18,
+    "nii": 2.04,
+    "bnii": 1.78,
+    "snii": 2.56,
+    "retail": 2.42,
+    "employee": 4.31,
+    "total": 2.29
    }
   ]
  },
@@ -2075,7 +2085,7 @@
   "series": "SME",
   "nse_status": "Active",
   "shares_offered": 3516000.0,
-  "last_seen": "2026-11-19T13:01+05:30",
+  "last_seen": "2026-11-19T13:15+05:30",
   "segment": "SME",
   "registrar": "Maashitla Securities Private Limited",
   "lead_managers": [
@@ -2092,7 +2102,7 @@
    "total": 0.0
   },
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-11-19T12:57",
+  "sub_asof": "2026-11-19T13:12",
   "sub_hist": [
    {
     "at": "2026-11-19T00:01+05:30",
@@ -2119,7 +2129,7 @@
   "series": "Equity",
   "nse_status": "Active",
   "shares_offered": 493068045.0,
-  "last_seen": "2026-11-19T13:01+05:30",
+  "last_seen": "2026-11-19T13:15+05:30",
   "segment": "SME",
   "lot": 110,
   "registrar": "KFin Technologies Limited",
@@ -2137,11 +2147,11 @@
    "snii": 0.08,
    "retail": 0.09,
    "employee": 0.04,
-   "shareholders": 0.09,
-   "total": 0.13
+   "shareholders": 0.1,
+   "total": 0.14
   },
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-11-19T12:57",
+  "sub_asof": "2026-11-19T13:09",
   "sub_hist": [
    {
     "at": "2026-11-19T00:01+05:30",
@@ -2278,6 +2288,17 @@
     "employee": 0.04,
     "shareholders": 0.09,
     "total": 0.13
+   },
+   {
+    "at": "2026-11-19T13:15+05:30",
+    "qib": 0.33,
+    "nii": 0.04,
+    "bnii": 0.03,
+    "snii": 0.08,
+    "retail": 0.09,
+    "employee": 0.04,
+    "shareholders": 0.1,
+    "total": 0.14
    }
   ]
  }
