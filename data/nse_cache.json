@@ -1653,7 +1653,7 @@
   "series": "Equity",
   "nse_status": "Active",
   "shares_offered": 12170076.0,
-  "last_seen": "2026-11-19T17:15+05:30",
+  "last_seen": "2026-11-20T00:01+05:30",
   "segment": "SME",
   "lot": 55,
   "registrar": "MUFG Intime India Private Limited",
@@ -1663,7 +1663,7 @@
   "retail_max": 200000,
   "cutoff_time": "5:00 PM",
   "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_CRYSTALCP.zip",
-  "details_at": "2026-11-19T00:01+05:30",
+  "details_at": "2026-11-20T00:01+05:30",
   "sub": {
    "qib": 2.18,
    "nii": 3.43,
@@ -2255,7 +2255,7 @@
   "series": "SME",
   "nse_status": "Active",
   "shares_offered": 3516000.0,
-  "last_seen": "2026-11-19T17:15+05:30",
+  "last_seen": "2026-11-20T00:01+05:30",
   "segment": "SME",
   "registrar": "Maashitla Securities Private Limited",
   "lead_managers": [
@@ -2263,7 +2263,7 @@
   ],
   "cutoff_time": "5:00 PM",
   "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_WATRANA.zip",
-  "details_at": "2026-11-19T00:01+05:30",
+  "details_at": "2026-11-20T00:01+05:30",
   "sub": {
    "qib": 0.0,
    "nii": 0.0,
@@ -2299,7 +2299,7 @@
   "series": "Equity",
   "nse_status": "Active",
   "shares_offered": 493068045.0,
-  "last_seen": "2026-11-19T17:15+05:30",
+  "last_seen": "2026-11-20T00:01+05:30",
   "segment": "SME",
   "lot": 110,
   "registrar": "KFin Technologies Limited",
@@ -2309,7 +2309,7 @@
   "retail_max": 200000,
   "cutoff_time": "5:00 PM",
   "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_MAHACOAL.zip",
-  "details_at": "2026-11-19T00:01+05:30",
+  "details_at": "2026-11-20T00:01+05:30",
   "sub": {
    "qib": 1.26,
    "nii": 0.08,
@@ -2635,6 +2635,13 @@
     "shareholders": 0.15,
     "total": 0.38
    }
-  ]
+  ],
+  "reservation": {
+   "qib": 22.82,
+   "nii": 17.11,
+   "retail": 39.93,
+   "employee": 6.71,
+   "shareholders": 13.42
+  }
  }
 }
