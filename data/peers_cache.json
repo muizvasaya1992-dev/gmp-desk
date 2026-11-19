@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-19T11:31+05:30",
+  "fetched_at": "2026-11-19T11:45+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,10 +16,10 @@
     "price_low": 259.0,
     "size_cr": 455.72,
     "gmp": 18.0,
-    "gmp_at": "2026-11-19T11:26",
-    "sub_total": 1.97,
-    "sub_retail": 2.019,
-    "sub_at": "2026-11-19T11:28",
+    "gmp_at": "2026-11-19T11:41",
+    "sub_total": 2.02,
+    "sub_retail": 2.087,
+    "sub_at": "2026-11-19T11:45",
     "sub_cats": null,
     "gmp_days": [
      [
@@ -84,10 +84,10 @@
     "price_low": 129.0,
     "size_cr": 8981.12,
     "gmp": 2.6,
-    "gmp_at": "2026-11-19T11:26",
+    "gmp_at": "2026-11-19T11:41",
     "sub_total": 0.04,
-    "sub_retail": 0.066,
-    "sub_at": "2026-11-19T11:29",
+    "sub_retail": 0.07,
+    "sub_at": "2026-11-19T11:43",
     "sub_cats": null,
     "gmp_days": [
      [
@@ -150,7 +150,7 @@
     "price_low": 232.0,
     "size_cr": 120.1,
     "gmp": 62.0,
-    "gmp_at": "2026-11-19T11:26",
+    "gmp_at": "2026-11-19T11:41",
     "sub_total": 0.0,
     "sub_retail": null,
     "sub_at": null,
@@ -203,7 +203,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-19T11:31+05:30",
+  "fetched_at": "2026-11-19T11:45+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -758,7 +758,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-19T11:31+05:30",
+  "fetched_at": "2026-11-19T11:45+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -773,9 +773,9 @@
     "price": 245.0,
     "price_low": 232.0,
     "size_cr": 120.1,
-    "gmp": 67.0,
+    "gmp": 62.0,
     "gmp_at": null,
-    "sub_total": 0.91,
+    "sub_total": 1.04,
     "sub_retail": null,
     "sub_at": null,
     "lot": 600.0,
@@ -873,9 +873,9 @@
     "price": 259.0,
     "price_low": null,
     "size_cr": 455.49,
-    "gmp": 17.0,
+    "gmp": 18.0,
     "gmp_at": null,
-    "sub_total": 1.99,
+    "sub_total": 2.09,
     "sub_retail": null,
     "sub_at": null,
     "lot": 55.0,
@@ -934,9 +934,9 @@
     "price": 129.0,
     "price_low": null,
     "size_cr": 8981.12,
-    "gmp": 1.9,
+    "gmp": 3.1,
     "gmp_at": null,
-    "sub_total": 0.04,
+    "sub_total": 0.05,
     "sub_retail": null,
     "sub_at": null,
     "lot": 110.0,
