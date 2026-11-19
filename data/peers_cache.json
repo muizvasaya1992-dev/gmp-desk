@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-19T12:31+05:30",
+  "fetched_at": "2026-11-19T12:45+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,10 +16,10 @@
     "price_low": 259.0,
     "size_cr": 455.72,
     "gmp": 18.0,
-    "gmp_at": "2026-11-19T12:26",
-    "sub_total": 2.17,
-    "sub_retail": 2.25,
-    "sub_at": "2026-11-19T12:28",
+    "gmp_at": "2026-11-19T12:41",
+    "sub_total": 2.21,
+    "sub_retail": 2.312,
+    "sub_at": "2026-11-19T12:44",
     "sub_cats": null,
     "gmp_days": [
      [
@@ -88,10 +88,10 @@
     "price_low": 129.0,
     "size_cr": 8981.12,
     "gmp": 1.65,
-    "gmp_at": "2026-11-19T12:26",
-    "sub_total": 0.05,
-    "sub_retail": 0.082,
-    "sub_at": "2026-11-19T12:28",
+    "gmp_at": "2026-11-19T12:41",
+    "sub_total": 0.13,
+    "sub_retail": 0.087,
+    "sub_at": "2026-11-19T12:44",
     "sub_cats": null,
     "gmp_days": [
      [
@@ -154,7 +154,7 @@
     "price_low": 232.0,
     "size_cr": 120.1,
     "gmp": 67.0,
-    "gmp_at": "2026-11-19T12:26",
+    "gmp_at": "2026-11-19T12:41",
     "sub_total": 0.0,
     "sub_retail": null,
     "sub_at": null,
@@ -207,7 +207,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-19T12:31+05:30",
+  "fetched_at": "2026-11-19T12:45+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -762,7 +762,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-19T12:31+05:30",
+  "fetched_at": "2026-11-19T12:45+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -777,9 +777,9 @@
     "price": 245.0,
     "price_low": 232.0,
     "size_cr": 120.1,
-    "gmp": 67.0,
+    "gmp": 65.0,
     "gmp_at": null,
-    "sub_total": 1.17,
+    "sub_total": 1.52,
     "sub_retail": null,
     "sub_at": null,
     "lot": 600.0,
@@ -904,7 +904,7 @@
     "size_cr": 455.49,
     "gmp": 17.0,
     "gmp_at": null,
-    "sub_total": 1.87,
+    "sub_total": 2.28,
     "sub_retail": null,
     "sub_at": null,
     "lot": 55.0,
@@ -967,9 +967,9 @@
     "price": 129.0,
     "price_low": null,
     "size_cr": 8981.12,
-    "gmp": 1.45,
+    "gmp": 2.0,
     "gmp_at": null,
-    "sub_total": 0.05,
+    "sub_total": 0.13,
     "sub_retail": null,
     "sub_at": null,
     "lot": 110.0,
