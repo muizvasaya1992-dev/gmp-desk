@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-19T10:16+05:30",
+  "fetched_at": "2026-11-19T10:31+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,10 +16,10 @@
     "price_low": 259.0,
     "size_cr": 455.72,
     "gmp": 18.0,
-    "gmp_at": "2026-11-19T10:11",
-    "sub_total": 1.65,
-    "sub_retail": 1.555,
-    "sub_at": "2026-11-19T10:14",
+    "gmp_at": "2026-11-19T10:31",
+    "sub_total": 1.72,
+    "sub_retail": 1.665,
+    "sub_at": "2026-11-19T10:31",
     "sub_cats": null,
     "gmp_days": [
      [
@@ -84,10 +84,10 @@
     "price_low": 129.0,
     "size_cr": 8981.12,
     "gmp": 3.1,
-    "gmp_at": "2026-11-19T10:11",
-    "sub_total": 0.01,
-    "sub_retail": 0.018,
-    "sub_at": "2026-11-19T10:14",
+    "gmp_at": "2026-11-19T10:31",
+    "sub_total": 0.02,
+    "sub_retail": 0.033,
+    "sub_at": "2026-11-19T10:31",
     "sub_cats": null,
     "gmp_days": [
      [
@@ -146,7 +146,7 @@
     "price_low": 232.0,
     "size_cr": 120.1,
     "gmp": 62.0,
-    "gmp_at": "2026-11-19T10:11",
+    "gmp_at": "2026-11-19T10:31",
     "sub_total": 0.0,
     "sub_retail": null,
     "sub_at": null,
@@ -199,7 +199,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-19T10:16+05:30",
+  "fetched_at": "2026-11-19T10:31+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -215,7 +215,7 @@
     "price_low": null,
     "size_cr": 8981.12,
     "gmp": 3.1,
-    "gmp_at": "2026-11-18T23:37",
+    "gmp_at": "2026-11-19T06:37",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -237,7 +237,7 @@
     "price_low": null,
     "size_cr": 120.1,
     "gmp": 62.0,
-    "gmp_at": "2026-11-18T23:37",
+    "gmp_at": "2026-11-19T06:37",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -259,7 +259,7 @@
     "price_low": null,
     "size_cr": 455.49,
     "gmp": 18.0,
-    "gmp_at": "2026-11-18T23:37",
+    "gmp_at": "2026-11-19T06:37",
     "sub_total": 1.48,
     "sub_retail": null,
     "sub_at": null,
@@ -754,7 +754,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-19T10:16+05:30",
+  "fetched_at": "2026-11-19T10:31+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -771,7 +771,7 @@
     "size_cr": 120.1,
     "gmp": 62.0,
     "gmp_at": null,
-    "sub_total": null,
+    "sub_total": 0.31,
     "sub_retail": null,
     "sub_at": null,
     "lot": 600.0,
@@ -932,7 +932,7 @@
     "size_cr": 8981.12,
     "gmp": 3.1,
     "gmp_at": null,
-    "sub_total": null,
+    "sub_total": 0.18,
     "sub_retail": null,
     "sub_at": null,
     "lot": 110.0,
@@ -968,6 +968,57 @@
       {
        "cr": 8981.12,
        "use": "Offer for Sale Proceeds"
+      }
+     ]
+    }
+   },
+   {
+    "src": "Tracker D",
+    "slug": "shree-siddhivinayak-greentech-industries",
+    "name": "Shree Siddhivinayak Greentech Industries",
+    "segment": "SME",
+    "exchange": null,
+    "open": null,
+    "close": null,
+    "boa": null,
+    "listing": null,
+    "price": 142.0,
+    "price_low": 130.0,
+    "size_cr": 93.66,
+    "gmp": 0.0,
+    "gmp_at": null,
+    "sub_total": null,
+    "sub_retail": null,
+    "sub_at": null,
+    "lot": 1000.0,
+    "sector": "Sugar",
+    "detail_url": "https://ipoindex.in/ipo/shree-siddhivinayak-greentech-industries-sme-ipo/",
+    "live": true,
+    "detail": {
+     "sub": {
+      "total": 0.0,
+      "qib": 0.0,
+      "nii": 0.0,
+      "retail": 0.0
+     },
+     "reservation": {
+      "nii": {
+       "shares": 3100000,
+       "pct": 49.47
+      },
+      "retail": {
+       "shares": 3100000,
+       "pct": 49.47
+      }
+     },
+     "uses": [
+      {
+       "use": "Capital Expense",
+       "cr": 23.54
+      },
+      {
+       "use": "Debt",
+       "cr": 48.5
       }
      ]
     }
