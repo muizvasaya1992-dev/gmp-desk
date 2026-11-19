@@ -207,7 +207,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-19T16:54+05:30",
+  "fetched_at": "2026-11-19T17:01+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -762,7 +762,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-19T16:54+05:30",
+  "fetched_at": "2026-11-19T17:01+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -1053,6 +1053,29 @@
       }
      ]
     }
+   },
+   {
+    "src": "Tracker D",
+    "slug": "assetz-limited",
+    "name": "Assetz Limited",
+    "segment": "MAIN",
+    "exchange": null,
+    "open": null,
+    "close": null,
+    "boa": null,
+    "listing": null,
+    "price": null,
+    "price_low": null,
+    "size_cr": null,
+    "gmp": 0.0,
+    "gmp_at": null,
+    "sub_total": null,
+    "sub_retail": null,
+    "sub_at": null,
+    "lot": null,
+    "sector": "Real Estate Development",
+    "detail_url": "https://ipoindex.in/ipo/assetz-limited-ipo/",
+    "live": true
    },
    {
     "src": "Tracker D",
