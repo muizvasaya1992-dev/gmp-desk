@@ -207,7 +207,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-19T16:31+05:30",
+  "fetched_at": "2026-11-19T16:45+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -762,7 +762,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-19T16:31+05:30",
+  "fetched_at": "2026-11-19T16:45+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -777,7 +777,7 @@
     "price": 245.0,
     "price_low": 232.0,
     "size_cr": 120.1,
-    "gmp": 65.0,
+    "gmp": 67.0,
     "gmp_at": null,
     "sub_total": 3.1,
     "sub_retail": null,
@@ -904,7 +904,7 @@
     "size_cr": 455.49,
     "gmp": 17.0,
     "gmp_at": null,
-    "sub_total": 2.86,
+    "sub_total": 2.9,
     "sub_retail": null,
     "sub_at": null,
     "lot": 55.0,
@@ -967,9 +967,9 @@
     "price": 129.0,
     "price_low": null,
     "size_cr": 8981.12,
-    "gmp": 1.9,
+    "gmp": 2.4,
     "gmp_at": null,
-    "sub_total": 0.37,
+    "sub_total": 0.38,
     "sub_retail": null,
     "sub_at": null,
     "lot": 110.0,
@@ -1079,22 +1079,22 @@
     "detail": {
      "reservation": {
       "nii": {
-       "shares": 3100000,
-       "pct": 49.47
+       "pct": 49.47,
+       "shares": 3100000
       },
       "retail": {
-       "shares": 3100000,
-       "pct": 49.47
+       "pct": 49.47,
+       "shares": 3100000
       }
      },
      "uses": [
       {
-       "use": "Capital Expense",
-       "cr": 23.54
+       "cr": 23.54,
+       "use": "Capital Expense"
       },
       {
-       "use": "Debt",
-       "cr": 48.5
+       "cr": 48.5,
+       "use": "Debt"
       }
      ]
     }

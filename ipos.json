@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T16:31+05:30",
+  "generated_at": "2026-11-19T16:45+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-18T11:34+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-19T16:31+05:30",
+    "nse_ok_at": "2026-11-19T16:45+05:30",
     "bse_ok_at": "2026-11-18T11:36+05:30"
   },
   "ipos": [
@@ -2848,15 +2848,15 @@
       "segment": "SME",
       "sub": {
         "qib": 2.18,
-        "nii": 3.22,
-        "bnii": 2.93,
-        "snii": 3.81,
-        "retail": 3.04,
+        "nii": 3.38,
+        "bnii": 3.06,
+        "snii": 4.02,
+        "retail": 3.08,
         "employee": 4.78,
-        "total": 2.85
+        "total": 2.91
       },
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-11-19T16:27",
+      "sub_asof": "2026-11-19T16:42",
       "registrar": "MUFG Intime India Private Limited",
       "lead_managers": [
         "IIFL Capital Services Limited, DAM Capital Advisors Limited, Motilal Oswal Investment Advisors Limited"
@@ -3391,12 +3391,22 @@
           "retail": 3.04,
           "employee": 4.78,
           "total": 2.85
+        },
+        {
+          "at": "2026-11-19T16:45+05:30",
+          "qib": 2.18,
+          "nii": 3.38,
+          "bnii": 3.06,
+          "snii": 4.02,
+          "retail": 3.08,
+          "employee": 4.78,
+          "total": 2.91
         }
       ],
       "series": "Equity",
       "nse_status": "Active",
       "shares_offered": 12170076.0,
-      "updated_on": "2026-11-19T16:31+05:30",
+      "updated_on": "2026-11-19T16:45+05:30",
       "bse_ipo_no": "8089",
       "drhp_url": "https://www.sebi.gov.in/filings/public-issues/dec-2025/crystal-crop-protection-limited-drhp_98530.html",
       "sector": "Chemicals",
@@ -3576,7 +3586,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": 3516000.0,
-      "updated_on": "2026-11-19T16:31+05:30",
+      "updated_on": "2026-11-19T16:45+05:30",
       "reservation": {
         "qib": 47.37,
         "nii": 14.25,
@@ -3682,8 +3692,8 @@
         },
         {
           "source": "Tracker D",
-          "gmp": 65,
-          "at": "2026-11-19T16:15"
+          "gmp": 67,
+          "at": "2026-11-19T16:45"
         },
         {
           "source": "Tracker B",
@@ -3725,10 +3735,10 @@
       "gmp_low": 15,
       "gmp_high": 67,
       "exchange": "SME",
-      "gmp": 65,
-      "gmp_asof": "2026-11-19T16:15",
+      "gmp": 67,
+      "gmp_asof": "2026-11-19T16:45",
       "gmp_source_latest": "Tracker D",
-      "gmp_pct": 26.53,
+      "gmp_pct": 27.35,
       "gmp_spread": {
         "min": 40,
         "max": 67,
@@ -3775,11 +3785,11 @@
         "snii": 0.12,
         "retail": 0.13,
         "employee": 0.05,
-        "shareholders": 0.14,
+        "shareholders": 0.15,
         "total": 0.38
       },
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-11-19T16:27",
+      "sub_asof": "2026-11-19T16:42",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "SBI Capital Markets Limited, Axis Capital Limited, BOB Capital Markets Limited, IDBI Capital Markets and Securities Limited and IIFL Capital Services Limited"
@@ -4078,12 +4088,23 @@
           "employee": 0.05,
           "shareholders": 0.14,
           "total": 0.38
+        },
+        {
+          "at": "2026-11-19T16:45+05:30",
+          "qib": 1.26,
+          "nii": 0.08,
+          "bnii": 0.05,
+          "snii": 0.12,
+          "retail": 0.13,
+          "employee": 0.05,
+          "shareholders": 0.15,
+          "total": 0.38
         }
       ],
       "series": "Equity",
       "nse_status": "Active",
       "shares_offered": 493068045.0,
-      "updated_on": "2026-11-19T16:31+05:30",
+      "updated_on": "2026-11-19T16:45+05:30",
       "bse_ipo_no": "8092",
       "drhp_url": "https://nsearchives.nseindia.com/corporate/Registration_01092026212900_MCLDRHP.pdf",
       "reservation": {
@@ -4157,8 +4178,8 @@
         },
         {
           "source": "Tracker D",
-          "gmp": 1.9,
-          "at": "2026-11-19T16:01"
+          "gmp": 2.4,
+          "at": "2026-11-19T16:45"
         },
         {
           "source": "Tracker B",
@@ -4196,10 +4217,10 @@
       "gmp_low": 1.4,
       "gmp_high": 13,
       "exchange": "SME",
-      "gmp": 1.9,
-      "gmp_asof": "2026-11-19T16:01",
+      "gmp": 2.4,
+      "gmp_asof": "2026-11-19T16:45",
       "gmp_source_latest": "Tracker D",
-      "gmp_pct": 1.4,
+      "gmp_pct": 1.76,
       "gmp_spread": {
         "min": 1.7,
         "max": 3,
@@ -4445,12 +4466,12 @@
       "tracker_rating": 1,
       "reservation_detail": {
         "nii": {
-          "shares": 3100000,
-          "pct": 49.47
+          "pct": 49.47,
+          "shares": 3100000
         },
         "retail": {
-          "shares": 3100000,
-          "pct": 49.47
+          "pct": 49.47,
+          "shares": 3100000
         }
       },
       "reservation": {
@@ -4459,18 +4480,18 @@
       },
       "uses": [
         {
-          "use": "Capital Expense",
-          "cr": 23.54
+          "cr": 23.54,
+          "use": "Capital Expense"
         },
         {
-          "use": "Debt",
-          "cr": 48.5
+          "cr": 48.5,
+          "use": "Debt"
         }
       ],
       "sector": "Sugar",
       "gmp_watch": {
         "sources": 2,
-        "at": "2026-11-19T16:31"
+        "at": "2026-11-19T16:45"
       },
       "gmp_sources": [],
       "gmp_history": [],
