@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-19T12:45+05:30",
+  "fetched_at": "2026-11-19T13:01+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,10 +16,10 @@
     "price_low": 259.0,
     "size_cr": 455.72,
     "gmp": 18.0,
-    "gmp_at": "2026-11-19T12:41",
-    "sub_total": 2.21,
-    "sub_retail": 2.312,
-    "sub_at": "2026-11-19T12:44",
+    "gmp_at": "2026-11-19T13:01",
+    "sub_total": 2.26,
+    "sub_retail": 2.38,
+    "sub_at": "2026-11-19T13:01",
     "sub_cats": null,
     "gmp_days": [
      [
@@ -87,11 +87,11 @@
     "price": 136.0,
     "price_low": 129.0,
     "size_cr": 8981.12,
-    "gmp": 1.65,
-    "gmp_at": "2026-11-19T12:41",
+    "gmp": 1.4,
+    "gmp_at": "2026-11-19T13:01",
     "sub_total": 0.13,
-    "sub_retail": 0.087,
-    "sub_at": "2026-11-19T12:44",
+    "sub_retail": 0.092,
+    "sub_at": "2026-11-19T12:59",
     "sub_cats": null,
     "gmp_days": [
      [
@@ -120,7 +120,7 @@
      ],
      [
       "2026-11-19",
-      1.65
+      1.4
      ]
     ],
     "rhp_url": "https://media.ipoji.com/rhp/MCL_RHP_Filing_Version_13112026.pdf",
@@ -154,7 +154,7 @@
     "price_low": 232.0,
     "size_cr": 120.1,
     "gmp": 67.0,
-    "gmp_at": "2026-11-19T12:41",
+    "gmp_at": "2026-11-19T13:01",
     "sub_total": 0.0,
     "sub_retail": null,
     "sub_at": null,
@@ -207,7 +207,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-19T12:45+05:30",
+  "fetched_at": "2026-11-19T13:01+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -223,7 +223,7 @@
     "price_low": null,
     "size_cr": 93.66,
     "gmp": null,
-    "gmp_at": "2026-11-19T11:35",
+    "gmp_at": "2026-11-19T10:55",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -244,9 +244,9 @@
     "price": 136.0,
     "price_low": null,
     "size_cr": 8981.12,
-    "gmp": 1.7,
-    "gmp_at": "2026-11-19T11:37",
-    "sub_total": 0.05,
+    "gmp": 1.65,
+    "gmp_at": "2026-11-19T11:02",
+    "sub_total": 0.04,
     "sub_retail": null,
     "sub_at": null,
     "lot": 110.0,
@@ -267,8 +267,8 @@
     "price_low": null,
     "size_cr": 120.1,
     "gmp": 67.0,
-    "gmp_at": "2026-11-19T11:37",
-    "sub_total": 1.04,
+    "gmp_at": "2026-11-19T11:02",
+    "sub_total": 0.78,
     "sub_retail": null,
     "sub_at": null,
     "lot": 600.0,
@@ -289,8 +289,8 @@
     "price_low": null,
     "size_cr": 455.49,
     "gmp": 17.0,
-    "gmp_at": "2026-11-19T11:37",
-    "sub_total": 2.09,
+    "gmp_at": "2026-11-19T11:02",
+    "sub_total": 1.99,
     "sub_retail": null,
     "sub_at": null,
     "lot": 55.0,
@@ -762,7 +762,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-19T12:45+05:30",
+  "fetched_at": "2026-11-19T13:01+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -779,7 +779,7 @@
     "size_cr": 120.1,
     "gmp": 65.0,
     "gmp_at": null,
-    "sub_total": 1.52,
+    "sub_total": 1.69,
     "sub_retail": null,
     "sub_at": null,
     "lot": 600.0,
@@ -904,7 +904,7 @@
     "size_cr": 455.49,
     "gmp": 17.0,
     "gmp_at": null,
-    "sub_total": 2.28,
+    "sub_total": 2.35,
     "sub_retail": null,
     "sub_at": null,
     "lot": 55.0,
