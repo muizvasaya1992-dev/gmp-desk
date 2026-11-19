@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T21:01+05:30",
+  "generated_at": "2026-11-19T21:15+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-18T11:34+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-19T21:01+05:30",
+    "nse_ok_at": "2026-11-19T21:15+05:30",
     "bse_ok_at": "2026-11-18T11:36+05:30"
   },
   "ipos": [
@@ -3469,7 +3469,7 @@
         {
           "source": "Tracker D",
           "gmp": 17,
-          "at": "2026-11-19T18:15"
+          "at": "2026-11-19T21:15"
         },
         {
           "source": "Tracker B",
@@ -3512,8 +3512,8 @@
       "gmp_high": 45,
       "exchange": "SME",
       "gmp": 17,
-      "gmp_asof": "2026-11-19T20:55",
-      "gmp_source_latest": "Tracker B",
+      "gmp_asof": "2026-11-19T21:15",
+      "gmp_source_latest": "Tracker D",
       "gmp_pct": 6.25,
       "gmp_spread": {
         "min": 17,
@@ -3727,7 +3727,7 @@
         {
           "source": "Tracker B",
           "gmp": 67,
-          "at": "2026-11-19T18:10"
+          "at": "2026-11-19T21:15"
         }
       ],
       "gmp_history": [
@@ -3765,8 +3765,8 @@
       "gmp_high": 67,
       "exchange": "SME",
       "gmp": 67,
-      "gmp_asof": "2026-11-19T19:45",
-      "gmp_source_latest": "Tracker D",
+      "gmp_asof": "2026-11-19T21:15",
+      "gmp_source_latest": "Tracker B",
       "gmp_pct": 27.35,
       "gmp_spread": {
         "min": 40,
@@ -4531,7 +4531,7 @@
       "sector": "Sugar",
       "gmp_watch": {
         "sources": 2,
-        "at": "2026-11-19T21:01"
+        "at": "2026-11-19T21:15"
       },
       "gmp_sources": [],
       "gmp_history": [],
