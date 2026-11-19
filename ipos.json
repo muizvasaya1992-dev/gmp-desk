@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T12:01+05:30",
+  "generated_at": "2026-11-19T12:15+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-18T11:34+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-19T12:01+05:30",
+    "nse_ok_at": "2026-11-19T12:15+05:30",
     "bse_ok_at": "2026-11-18T11:36+05:30"
   },
   "ipos": [
@@ -2848,15 +2848,15 @@
       "segment": "SME",
       "sub": {
         "qib": 2.07,
-        "nii": 1.74,
-        "bnii": 1.54,
-        "snii": 2.13,
-        "retail": 2.14,
-        "employee": 4.02,
-        "total": 2.05
+        "nii": 1.8,
+        "bnii": 1.57,
+        "snii": 2.25,
+        "retail": 2.2,
+        "employee": 4.1,
+        "total": 2.09
       },
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-11-19T11:57",
+      "sub_asof": "2026-11-19T12:12",
       "registrar": "MUFG Intime India Private Limited",
       "lead_managers": [
         "IIFL Capital Services Limited, DAM Capital Advisors Limited, Motilal Oswal Investment Advisors Limited"
@@ -3211,12 +3211,22 @@
           "retail": 2.14,
           "employee": 4.02,
           "total": 2.05
+        },
+        {
+          "at": "2026-11-19T12:15+05:30",
+          "qib": 2.07,
+          "nii": 1.8,
+          "bnii": 1.57,
+          "snii": 2.25,
+          "retail": 2.2,
+          "employee": 4.1,
+          "total": 2.09
         }
       ],
       "series": "Equity",
       "nse_status": "Active",
       "shares_offered": 12170076.0,
-      "updated_on": "2026-11-19T12:01+05:30",
+      "updated_on": "2026-11-19T12:15+05:30",
       "bse_ipo_no": "8089",
       "drhp_url": "https://www.sebi.gov.in/filings/public-issues/dec-2025/crystal-crop-protection-limited-drhp_98530.html",
       "sector": "Chemicals",
@@ -3227,12 +3237,12 @@
       "tracker_rating": 2,
       "uses": [
         {
-          "use": "Borrowings",
-          "cr": 247.94
+          "cr": 247.94,
+          "use": "Borrowings"
         },
         {
-          "use": "Subsidiary",
-          "cr": 22.06
+          "cr": 22.06,
+          "use": "Subsidiary"
         }
       ],
       "gmp_sources": [
@@ -3248,13 +3258,13 @@
         },
         {
           "source": "Tracker D",
-          "gmp": 18,
-          "at": "2026-11-19T11:45"
+          "gmp": 17,
+          "at": "2026-11-19T12:15"
         },
         {
           "source": "Tracker B",
           "gmp": 18,
-          "at": "2026-11-19T09:06"
+          "at": "2026-11-19T12:11"
         }
       ],
       "gmp_history": [
@@ -3291,16 +3301,16 @@
       "gmp_low": 13,
       "gmp_high": 45,
       "exchange": "SME",
-      "gmp": 18,
-      "gmp_asof": "2026-11-19T11:45",
+      "gmp": 17,
+      "gmp_asof": "2026-11-19T12:15",
       "gmp_source_latest": "Tracker D",
-      "gmp_pct": 6.62,
+      "gmp_pct": 6.25,
       "gmp_spread": {
-        "min": 18,
+        "min": 17,
         "max": 18,
-        "diff": 0,
+        "diff": 1,
         "n": 4,
-        "diff_pct_of_price": 0.0
+        "diff_pct_of_price": 0.37
       },
       "gmp_trend": {
         "dir": "rising",
@@ -3365,10 +3375,10 @@
       "price": 245,
       "segment": "SME",
       "sub": {
-        "total": 1.08,
-        "qib": 0.0,
         "nii": 1.26,
-        "retail": 1.62
+        "qib": 0.0,
+        "retail": 1.62,
+        "total": 1.08
       },
       "sub_basis": "Tracker D",
       "sub_asof": "2026-11-19T11:47",
@@ -3396,7 +3406,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": 3516000.0,
-      "updated_on": "2026-11-19T12:01+05:30",
+      "updated_on": "2026-11-19T12:15+05:30",
       "reservation": {
         "qib": 47.37,
         "nii": 14.25,
@@ -3410,80 +3420,80 @@
       },
       "tracker_rating": 4,
       "reservation_detail": {
-        "qib": {
-          "shares": 2322000,
-          "pct": 47.37
-        },
         "anchor": {
-          "shares": 1386000,
-          "pct": 28.27
-        },
-        "qib_ex_anchor": {
-          "shares": 936000,
-          "pct": 19.09
-        },
-        "nii": {
-          "shares": 698400,
-          "pct": 14.25
+          "pct": 28.27,
+          "shares": 1386000
         },
         "bnii": {
-          "shares": 465600,
-          "pct": 9.5
-        },
-        "snii": {
-          "shares": 232800,
-          "pct": 4.75
-        },
-        "retail": {
-          "shares": 1629600,
-          "pct": 33.24
+          "pct": 9.5,
+          "shares": 465600
         },
         "market_maker": {
-          "shares": 252000,
-          "pct": 5.14
+          "pct": 5.14,
+          "shares": 252000
+        },
+        "nii": {
+          "pct": 14.25,
+          "shares": 698400
+        },
+        "qib": {
+          "pct": 47.37,
+          "shares": 2322000
+        },
+        "qib_ex_anchor": {
+          "pct": 19.09,
+          "shares": 936000
+        },
+        "retail": {
+          "pct": 33.24,
+          "shares": 1629600
+        },
+        "snii": {
+          "pct": 4.75,
+          "shares": 232800
         }
       },
       "anchor_shares": 1386000,
       "uses": [
         {
-          "use": "Purchase",
-          "cr": 98.13
+          "cr": 98.13,
+          "use": "Purchase"
         }
       ],
       "fin": {
         "years": [
           {
-            "y": "FY24",
-            "income": 130.23,
-            "pat": 18.05,
-            "ebitda": 37.98,
-            "net_worth": 31.96,
-            "debt": 93.12,
             "assets": 147.69,
+            "debt": 93.12,
+            "ebitda": 37.98,
+            "income": 130.23,
+            "net_worth": 31.96,
+            "pat": 18.05,
+            "roce": 24.11,
             "roe": 78.65,
-            "roce": 24.11
+            "y": "FY24"
           },
           {
-            "y": "FY25",
-            "income": 179.66,
-            "pat": 24.43,
-            "ebitda": 51.77,
-            "net_worth": 56.39,
-            "debt": 110.14,
             "assets": 201.82,
+            "debt": 110.14,
+            "ebitda": 51.77,
+            "income": 179.66,
+            "net_worth": 56.39,
+            "pat": 24.43,
+            "roce": 23.85,
             "roe": 55.3,
-            "roce": 23.85
+            "y": "FY25"
           },
           {
-            "y": "FY26",
-            "income": 211.69,
-            "pat": 29.16,
-            "ebitda": 65.01,
-            "net_worth": 85.55,
-            "debt": 164.08,
             "assets": 287.07,
+            "debt": 164.08,
+            "ebitda": 65.01,
+            "income": 211.69,
+            "net_worth": 85.55,
+            "pat": 29.16,
+            "roce": 19.06,
             "roe": 41.08,
-            "roce": 19.06
+            "y": "FY26"
           }
         ],
         "ratios": {}
@@ -3502,8 +3512,8 @@
         },
         {
           "source": "Tracker D",
-          "gmp": 62,
-          "at": "2026-11-19T11:45"
+          "gmp": 67,
+          "at": "2026-11-19T12:15"
         },
         {
           "source": "Tracker B",
@@ -3546,8 +3556,8 @@
       "gmp_high": 67,
       "exchange": "SME",
       "gmp": 67,
-      "gmp_asof": "2026-11-19T11:56",
-      "gmp_source_latest": "Tracker B",
+      "gmp_asof": "2026-11-19T12:15",
+      "gmp_source_latest": "Tracker D",
       "gmp_pct": 27.35,
       "gmp_spread": {
         "min": 32,
@@ -3596,16 +3606,16 @@
       "segment": "SME",
       "sub": {
         "qib": 0.0,
-        "nii": 0.03,
+        "nii": 0.04,
         "bnii": 0.02,
-        "snii": 0.06,
+        "snii": 0.07,
         "retail": 0.08,
         "employee": 0.03,
-        "shareholders": 0.07,
+        "shareholders": 0.08,
         "total": 0.05
       },
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-11-19T11:57",
+      "sub_asof": "2026-11-19T12:12",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "SBI Capital Markets Limited, Axis Capital Limited, BOB Capital Markets Limited, IDBI Capital Markets and Securities Limited and IIFL Capital Services Limited"
@@ -3706,12 +3716,23 @@
           "employee": 0.03,
           "shareholders": 0.07,
           "total": 0.05
+        },
+        {
+          "at": "2026-11-19T12:15+05:30",
+          "qib": 0.0,
+          "nii": 0.04,
+          "bnii": 0.02,
+          "snii": 0.07,
+          "retail": 0.08,
+          "employee": 0.03,
+          "shareholders": 0.08,
+          "total": 0.05
         }
       ],
       "series": "Equity",
       "nse_status": "Active",
       "shares_offered": 493068045.0,
-      "updated_on": "2026-11-19T12:01+05:30",
+      "updated_on": "2026-11-19T12:15+05:30",
       "bse_ipo_no": "8092",
       "drhp_url": "https://nsearchives.nseindia.com/corporate/Registration_01092026212900_MCLDRHP.pdf",
       "reservation": {
@@ -3728,48 +3749,48 @@
       },
       "tracker_rating": 1,
       "reservation_detail": {
-        "qib": {
-          "shares": 281280428,
-          "pct": 42.5
-        },
         "anchor": {
-          "shares": 168768255,
-          "pct": 25.5
-        },
-        "qib_ex_anchor": {
-          "shares": 112512173,
-          "pct": 17.0
-        },
-        "nii": {
-          "shares": 84384129,
-          "pct": 12.75
+          "pct": 25.5,
+          "shares": 168768255
         },
         "bnii": {
-          "shares": 56256086,
-          "pct": 8.5
-        },
-        "snii": {
-          "shares": 28128043,
-          "pct": 4.25
-        },
-        "retail": {
-          "shares": 196896299,
-          "pct": 29.75
+          "pct": 8.5,
+          "shares": 56256086
         },
         "employee": {
-          "shares": 33091815,
-          "pct": 29.75
+          "pct": 29.75,
+          "shares": 33091815
+        },
+        "nii": {
+          "pct": 12.75,
+          "shares": 84384129
+        },
+        "qib": {
+          "pct": 42.5,
+          "shares": 281280428
+        },
+        "qib_ex_anchor": {
+          "pct": 17.0,
+          "shares": 112512173
+        },
+        "retail": {
+          "pct": 29.75,
+          "shares": 196896299
         },
         "shareholders": {
-          "shares": 66183630,
-          "pct": 10.0
+          "pct": 10.0,
+          "shares": 66183630
+        },
+        "snii": {
+          "pct": 4.25,
+          "shares": 28128043
         }
       },
       "anchor_shares": 168768255,
       "uses": [
         {
-          "use": "Offer for Sale Proceeds",
-          "cr": 8981.12
+          "cr": 8981.12,
+          "use": "Offer for Sale Proceeds"
         }
       ],
       "gmp_sources": [
@@ -3785,8 +3806,8 @@
         },
         {
           "source": "Tracker D",
-          "gmp": 3.1,
-          "at": "2026-11-19T11:45"
+          "gmp": 1.4,
+          "at": "2026-11-19T12:15"
         },
         {
           "source": "Tracker B",
@@ -3821,19 +3842,19 @@
         }
       ],
       "history_source": "Tracker B",
-      "gmp_low": 1.65,
+      "gmp_low": 1.4,
       "gmp_high": 13,
       "exchange": "SME",
-      "gmp": 1.65,
-      "gmp_asof": "2026-11-19T11:56",
-      "gmp_source_latest": "Tracker B",
-      "gmp_pct": 1.21,
+      "gmp": 1.4,
+      "gmp_asof": "2026-11-19T12:15",
+      "gmp_source_latest": "Tracker D",
+      "gmp_pct": 1.03,
       "gmp_spread": {
-        "min": 1.65,
-        "max": 3.1,
-        "diff": 1.4500000000000002,
+        "min": 1.4,
+        "max": 3,
+        "diff": 1.6,
         "n": 4,
-        "diff_pct_of_price": 1.07
+        "diff_pct_of_price": 1.18
       },
       "gmp_trend": {
         "dir": "falling",
@@ -4058,23 +4079,18 @@
       "unconfirmed": false
     },
     {
-      "id": "shree-siddhivinayak-greentech-industries",
-      "name": "Shree Siddhivinayak Greentech Industries",
-      "segment": "SME",
-      "price": 142,
-      "price_low": null,
-      "lot": 1000,
-      "size_cr": 93.66,
-      "open": "2026-11-25",
-      "close": "2026-11-27",
       "boa": "2026-11-30",
-      "listing": "2026-12-02",
-      "anchor": null,
-      "rating": null,
-      "sub": null,
-      "updated_on": "2026-11-19T12:01+05:30",
-      "from_peers": true,
+      "close": "2026-11-27",
       "exchange": "NSE Emerge",
+      "from_peers": true,
+      "id": "shree-siddhivinayak-greentech-industries",
+      "listing": "2026-12-02",
+      "lot": 1000,
+      "name": "Shree Siddhivinayak Greentech Industries",
+      "open": "2026-11-25",
+      "price": 142,
+      "segment": "SME",
+      "size_cr": 93.66,
       "tracker_rating": 1,
       "reservation_detail": {
         "nii": {
@@ -4103,9 +4119,8 @@
       "sector": "Sugar",
       "gmp_watch": {
         "sources": 2,
-        "at": "2026-11-19T12:01"
+        "at": "2026-11-19T12:15"
       },
-      "lot_basis": "tracker",
       "gmp_sources": [],
       "gmp_history": [],
       "gmp": null,
