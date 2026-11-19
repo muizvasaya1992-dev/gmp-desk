@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T04:31+05:30",
+  "generated_at": "2026-11-20T04:45+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-18T11:34+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-20T04:31+05:30",
+    "nse_ok_at": "2026-11-20T04:45+05:30",
     "bse_ok_at": "2026-11-18T11:36+05:30"
   },
   "ipos": [
@@ -4505,12 +4505,12 @@
       "tracker_rating": 1,
       "reservation_detail": {
         "nii": {
-          "shares": 3100000,
-          "pct": 49.47
+          "pct": 49.47,
+          "shares": 3100000
         },
         "retail": {
-          "shares": 3100000,
-          "pct": 49.47
+          "pct": 49.47,
+          "shares": 3100000
         }
       },
       "reservation": {
@@ -4519,18 +4519,18 @@
       },
       "uses": [
         {
-          "use": "Capital Expense",
-          "cr": 23.54
+          "cr": 23.54,
+          "use": "Capital Expense"
         },
         {
-          "use": "Debt",
-          "cr": 48.5
+          "cr": 48.5,
+          "use": "Debt"
         }
       ],
       "sector": "Sugar",
       "gmp_watch": {
         "sources": 2,
-        "at": "2026-11-20T04:31"
+        "at": "2026-11-20T04:45"
       },
       "gmp_sources": [],
       "gmp_history": [],
