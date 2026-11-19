@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-19T06:01+05:30",
+  "fetched_at": "2026-11-19T06:15+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,10 +16,10 @@
     "price_low": 259.0,
     "size_cr": 455.72,
     "gmp": 18.0,
-    "gmp_at": "2026-11-18T23:56",
+    "gmp_at": "2026-11-19T06:06",
     "sub_total": 1.4,
     "sub_retail": 1.283,
-    "sub_at": "2026-11-19T05:57",
+    "sub_at": "2026-11-19T06:08",
     "sub_cats": null,
     "gmp_days": [
      [
@@ -69,11 +69,137 @@
     "registrar": "MUFG Intime India Pvt Ltd",
     "lead_manager": "IIFL Capital Services Ltd; DAM Capital Advisors Ltd; Motilal Oswal Investment Advisors Ltd",
     "live": true
+   },
+   {
+    "src": "Tracker B",
+    "slug": "mahanadi-coalfields",
+    "name": "Mahanadi Coalfields (Confirmed)",
+    "segment": "MAIN",
+    "exchange": null,
+    "open": "2026-11-19",
+    "close": "2026-11-23",
+    "boa": "2026-11-25",
+    "listing": "2026-11-27",
+    "price": 136.0,
+    "price_low": 129.0,
+    "size_cr": 8981.12,
+    "gmp": 3.1,
+    "gmp_at": "2026-11-19T06:06",
+    "sub_total": 0.0,
+    "sub_retail": null,
+    "sub_at": null,
+    "sub_cats": null,
+    "gmp_days": [
+     [
+      "2026-11-13",
+      0.0
+     ],
+     [
+      "2026-11-14",
+      9.25
+     ],
+     [
+      "2026-11-15",
+      7.0
+     ],
+     [
+      "2026-11-16",
+      5.5
+     ],
+     [
+      "2026-11-17",
+      3.65
+     ],
+     [
+      "2026-11-18",
+      3.1
+     ]
+    ],
+    "rhp_url": "https://media.ipoji.com/rhp/MCL_RHP_Filing_Version_13112026.pdf",
+    "drhp_url": "https://nsearchives.nseindia.com/corporate/Registration_01092026212900_MCLDRHP.pdf",
+    "lot_raw": 110.0,
+    "sector": "Coal Mining",
+    "quota": {
+     "qib": 50.0,
+     "nii": 15.0,
+     "retail": 35.0,
+     "employee": 5.0,
+     "shareholders": 10.0
+    },
+    "fresh_cr": 0.0,
+    "ofs_cr": 8981.12,
+    "registrar": "KFin Technologies Limited",
+    "lead_manager": "SBI Capital Markets Limited; Axis Capital Limited; BOB Capital Markets Limited; IDBI Capital Markets and Securities Limited; IIFL Capital Services Limited",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
+    "slug": "watrana-rentals",
+    "name": "Watrana Rentals",
+    "segment": "SME",
+    "exchange": "NSE SME",
+    "open": "2026-11-19",
+    "close": "2026-11-23",
+    "boa": "2026-11-25",
+    "listing": "2026-11-27",
+    "price": 245.0,
+    "price_low": 232.0,
+    "size_cr": 120.1,
+    "gmp": 62.0,
+    "gmp_at": "2026-11-19T06:06",
+    "sub_total": 0.0,
+    "sub_retail": null,
+    "sub_at": null,
+    "sub_cats": null,
+    "gmp_days": [
+     [
+      "2026-11-13",
+      15.0
+     ],
+     [
+      "2026-11-14",
+      22.0
+     ],
+     [
+      "2026-11-15",
+      22.0
+     ],
+     [
+      "2026-11-16",
+      22.0
+     ],
+     [
+      "2026-11-17",
+      25.0
+     ],
+     [
+      "2026-11-18",
+      48.0
+     ],
+     [
+      "2026-11-19",
+      62.0
+     ]
+    ],
+    "rhp_url": null,
+    "drhp_url": null,
+    "lot_raw": 600.0,
+    "sector": "Material Handling Equipment Rental",
+    "quota": {
+     "qib": 50.0,
+     "nii": 15.0,
+     "retail": 35.0
+    },
+    "fresh_cr": 120.1,
+    "ofs_cr": 0.0,
+    "registrar": "Maashitla Securities Private Limited",
+    "lead_manager": "Oneview Corporate Advisors Private Limited",
+    "live": true
    }
   ]
  },
  "c": {
-  "fetched_at": "2026-11-19T06:01+05:30",
+  "fetched_at": "2026-11-19T06:15+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -628,7 +754,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-19T06:01+05:30",
+  "fetched_at": "2026-11-19T06:15+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -672,21 +798,21 @@
       ]
      ],
      "sub": {
-      "total": 1.48,
-      "qib": 2.11,
+      "employee": 3.1,
       "nii": 0.79,
+      "qib": 2.11,
       "retail": 1.38,
-      "employee": 3.1
+      "total": 1.48
      },
      "sub_at": "2026-11-18T18:01",
      "uses": [
       {
-       "use": "Borrowings",
-       "cr": 247.94
+       "cr": 247.94,
+       "use": "Borrowings"
       },
       {
-       "use": "Subsidiary",
-       "cr": 22.06
+       "cr": 22.06,
+       "use": "Subsidiary"
       }
      ]
     }
@@ -728,65 +854,65 @@
        22.0
       ]
      ],
-     "sub": {
-      "total": 0.0,
-      "qib": 0.0,
-      "nii": 0.0,
-      "retail": 0.0
-     },
      "reservation": {
-      "qib": {
-       "shares": 2322000,
-       "pct": 49.94
-      },
       "nii": {
-       "shares": 698400,
-       "pct": 15.02
+       "pct": 15.02,
+       "shares": 698400
+      },
+      "qib": {
+       "pct": 49.94,
+       "shares": 2322000
       },
       "retail": {
-       "shares": 1629600,
-       "pct": 35.05
+       "pct": 35.05,
+       "shares": 1629600
       }
+     },
+     "sub": {
+      "nii": 0.0,
+      "qib": 0.0,
+      "retail": 0.0,
+      "total": 0.0
      },
      "uses": [
       {
-       "use": "Purchase",
-       "cr": 98.13
+       "cr": 98.13,
+       "use": "Purchase"
       }
      ],
      "years": [
       {
-       "y": "FY24",
-       "income": 130.23,
-       "pat": 18.05,
-       "ebitda": 37.98,
-       "net_worth": 31.96,
-       "debt": 93.12,
        "assets": 147.69,
+       "debt": 93.12,
+       "ebitda": 37.98,
+       "income": 130.23,
+       "net_worth": 31.96,
+       "pat": 18.05,
+       "roce": 24.11,
        "roe": 78.65,
-       "roce": 24.11
+       "y": "FY24"
       },
       {
-       "y": "FY25",
-       "income": 179.66,
-       "pat": 24.43,
-       "ebitda": 51.77,
-       "net_worth": 56.39,
-       "debt": 110.14,
        "assets": 201.82,
+       "debt": 110.14,
+       "ebitda": 51.77,
+       "income": 179.66,
+       "net_worth": 56.39,
+       "pat": 24.43,
+       "roce": 23.85,
        "roe": 55.3,
-       "roce": 23.85
+       "y": "FY25"
       },
       {
-       "y": "FY26",
-       "income": 211.69,
-       "pat": 29.16,
-       "ebitda": 65.01,
-       "net_worth": 85.55,
-       "debt": 164.08,
        "assets": 287.07,
+       "debt": 164.08,
+       "ebitda": 65.01,
+       "income": 211.69,
+       "net_worth": 85.55,
+       "pat": 29.16,
+       "roce": 19.06,
        "roe": 41.08,
-       "roce": 19.06
+       "y": "FY26"
       }
      ]
     }
@@ -821,23 +947,23 @@
       ]
      ],
      "sub": {
-      "total": 0.0,
-      "qib": 0.0,
       "nii": 0.0,
-      "retail": 0.0
+      "qib": 0.0,
+      "retail": 0.0,
+      "total": 0.0
      },
      "uses": [
       {
-       "use": "Growth",
-       "cr": 40.89
+       "cr": 40.89,
+       "use": "Growth"
       },
       {
-       "use": "Growth",
-       "cr": 45.4
+       "cr": 45.4,
+       "use": "Growth"
       },
       {
-       "use": "Debt",
-       "cr": 28.45
+       "cr": 28.45,
+       "use": "Debt"
       }
      ]
     }
@@ -884,15 +1010,15 @@
       ]
      ],
      "sub": {
-      "total": 0.0,
-      "qib": 0.0,
       "nii": 0.0,
-      "retail": 0.0
+      "qib": 0.0,
+      "retail": 0.0,
+      "total": 0.0
      },
      "uses": [
       {
-       "use": "Offer for Sale Proceeds",
-       "cr": 8981.12
+       "cr": 8981.12,
+       "use": "Offer for Sale Proceeds"
       }
      ]
     }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T05:31+05:30",
+  "generated_at": "2026-11-19T06:15+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-18T11:34+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-19T05:31+05:30",
+    "nse_ok_at": "2026-11-19T06:15+05:30",
     "bse_ok_at": "2026-11-18T11:36+05:30"
   },
   "ipos": [
@@ -3169,12 +3169,12 @@
         {
           "source": "Tracker D",
           "gmp": 18,
-          "at": "2026-11-19T03:15"
+          "at": "2026-11-19T06:15"
         },
         {
           "source": "Tracker B",
           "gmp": 18,
-          "at": "2026-11-18T23:56"
+          "at": "2026-11-19T06:06"
         }
       ],
       "gmp_history": [
@@ -3201,6 +3201,10 @@
         {
           "date": "2026-11-18",
           "gmp": 18
+        },
+        {
+          "date": "2026-11-19",
+          "gmp": 18
         }
       ],
       "history_source": "Tracker B",
@@ -3208,7 +3212,7 @@
       "gmp_high": 45,
       "exchange": "SME",
       "gmp": 18,
-      "gmp_asof": "2026-11-19T03:15",
+      "gmp_asof": "2026-11-19T06:15",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 6.62,
       "gmp_spread": {
@@ -3220,9 +3224,9 @@
       },
       "gmp_trend": {
         "dir": "rising",
-        "change": 3,
+        "change": 5,
         "days": 3,
-        "since": "2026-11-16"
+        "since": "2026-11-17"
       },
       "status": "open",
       "news": [
@@ -3302,6 +3306,16 @@
       "nse_status": "Active",
       "shares_offered": 3516000.0,
       "updated_on": "2026-11-19T00:01+05:30",
+      "reservation": {
+        "qib": 49.94,
+        "nii": 15.02,
+        "retail": 35.05
+      },
+      "sector": "Material Handling Equipment Rental",
+      "issue_split": {
+        "fresh_cr": 120.1,
+        "ofs_cr": 0.0
+      },
       "tracker_rating": 4,
       "reservation_detail": {
         "nii": {
@@ -3317,18 +3331,12 @@
           "shares": 1629600
         }
       },
-      "reservation": {
-        "qib": 49.94,
-        "nii": 15.02,
-        "retail": 35.05
-      },
       "uses": [
         {
           "cr": 98.13,
           "use": "Purchase"
         }
       ],
-      "sector": "Diversified Commercial Services",
       "fin": {
         "years": [
           {
@@ -3382,12 +3390,25 @@
         {
           "source": "Tracker D",
           "gmp": 37,
-          "at": "2026-11-19T03:15"
+          "at": "2026-11-19T06:15"
+        },
+        {
+          "source": "Tracker B",
+          "gmp": 62,
+          "at": "2026-11-19T06:06"
         }
       ],
       "gmp_history": [
         {
+          "date": "2026-11-13",
+          "gmp": 15
+        },
+        {
           "date": "2026-11-14",
+          "gmp": 22
+        },
+        {
+          "date": "2026-11-15",
           "gmp": 22
         },
         {
@@ -3400,31 +3421,31 @@
         },
         {
           "date": "2026-11-18",
-          "gmp": 37
+          "gmp": 48
         },
         {
           "date": "2026-11-19",
-          "gmp": 37
+          "gmp": 62
         }
       ],
-      "history_source": "Tracker D",
-      "gmp_low": 20,
+      "history_source": "Tracker B",
+      "gmp_low": 15,
       "gmp_high": 62,
       "exchange": "SME",
       "gmp": 37,
-      "gmp_asof": "2026-11-19T03:15",
+      "gmp_asof": "2026-11-19T06:15",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 15.1,
       "gmp_spread": {
         "min": 32,
         "max": 62,
         "diff": 30,
-        "n": 3,
+        "n": 4,
         "diff_pct_of_price": 12.24
       },
       "gmp_trend": {
         "dir": "rising",
-        "change": 12,
+        "change": 37,
         "days": 3,
         "since": "2026-11-17"
       },
@@ -3470,6 +3491,19 @@
       "shares_offered": 493068045.0,
       "updated_on": "2026-11-19T00:01+05:30",
       "bse_ipo_no": "8092",
+      "drhp_url": "https://nsearchives.nseindia.com/corporate/Registration_01092026212900_MCLDRHP.pdf",
+      "reservation": {
+        "qib": 50.0,
+        "nii": 15.0,
+        "retail": 35.0,
+        "employee": 5.0,
+        "shareholders": 10.0
+      },
+      "sector": "Coal Mining",
+      "issue_split": {
+        "fresh_cr": 0.0,
+        "ofs_cr": 8981.12
+      },
       "tracker_rating": 1,
       "uses": [
         {
@@ -3477,7 +3511,6 @@
           "use": "Offer for Sale Proceeds"
         }
       ],
-      "sector": "Coal",
       "gmp_sources": [
         {
           "source": "Public trackers",
@@ -3492,13 +3525,22 @@
         {
           "source": "Tracker D",
           "gmp": 3.1,
-          "at": "2026-11-19T03:15"
+          "at": "2026-11-19T06:15"
+        },
+        {
+          "source": "Tracker B",
+          "gmp": 3.1,
+          "at": "2026-11-19T06:06"
         }
       ],
       "gmp_history": [
         {
           "date": "2026-11-14",
-          "gmp": 13
+          "gmp": 9.25
+        },
+        {
+          "date": "2026-11-15",
+          "gmp": 7
         },
         {
           "date": "2026-11-16",
@@ -3506,7 +3548,7 @@
         },
         {
           "date": "2026-11-17",
-          "gmp": 3.75
+          "gmp": 3.65
         },
         {
           "date": "2026-11-18",
@@ -3517,24 +3559,24 @@
           "gmp": 3.1
         }
       ],
-      "history_source": "Tracker D",
+      "history_source": "Tracker B",
       "gmp_low": 3,
       "gmp_high": 13,
       "exchange": "SME",
       "gmp": 3.1,
-      "gmp_asof": "2026-11-19T03:15",
+      "gmp_asof": "2026-11-19T06:15",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 2.28,
       "gmp_spread": {
         "min": 3,
         "max": 3.1,
         "diff": 0.10000000000000009,
-        "n": 3,
+        "n": 4,
         "diff_pct_of_price": 0.07
       },
       "gmp_trend": {
         "dir": "steady",
-        "change": -0.65,
+        "change": -0.55,
         "days": 3,
         "since": "2026-11-17"
       },
