@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-19T10:31+05:30",
+  "fetched_at": "2026-11-19T10:45+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,10 +16,10 @@
     "price_low": 259.0,
     "size_cr": 455.72,
     "gmp": 18.0,
-    "gmp_at": "2026-11-19T10:31",
-    "sub_total": 1.72,
-    "sub_retail": 1.665,
-    "sub_at": "2026-11-19T10:31",
+    "gmp_at": "2026-11-19T10:41",
+    "sub_total": 1.8,
+    "sub_retail": 1.763,
+    "sub_at": "2026-11-19T10:42",
     "sub_cats": null,
     "gmp_days": [
      [
@@ -84,10 +84,10 @@
     "price_low": 129.0,
     "size_cr": 8981.12,
     "gmp": 3.1,
-    "gmp_at": "2026-11-19T10:31",
-    "sub_total": 0.02,
-    "sub_retail": 0.033,
-    "sub_at": "2026-11-19T10:31",
+    "gmp_at": "2026-11-19T10:41",
+    "sub_total": 0.03,
+    "sub_retail": 0.043,
+    "sub_at": "2026-11-19T10:44",
     "sub_cats": null,
     "gmp_days": [
      [
@@ -146,7 +146,7 @@
     "price_low": 232.0,
     "size_cr": 120.1,
     "gmp": 62.0,
-    "gmp_at": "2026-11-19T10:31",
+    "gmp_at": "2026-11-19T10:41",
     "sub_total": 0.0,
     "sub_retail": null,
     "sub_at": null,
@@ -199,7 +199,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-19T10:31+05:30",
+  "fetched_at": "2026-11-19T10:45+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -754,7 +754,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-19T10:31+05:30",
+  "fetched_at": "2026-11-19T10:45+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -995,30 +995,30 @@
     "detail_url": "https://ipoindex.in/ipo/shree-siddhivinayak-greentech-industries-sme-ipo/",
     "live": true,
     "detail": {
-     "sub": {
-      "total": 0.0,
-      "qib": 0.0,
-      "nii": 0.0,
-      "retail": 0.0
-     },
      "reservation": {
       "nii": {
-       "shares": 3100000,
-       "pct": 49.47
+       "pct": 49.47,
+       "shares": 3100000
       },
       "retail": {
-       "shares": 3100000,
-       "pct": 49.47
+       "pct": 49.47,
+       "shares": 3100000
       }
+     },
+     "sub": {
+      "nii": 0.0,
+      "qib": 0.0,
+      "retail": 0.0,
+      "total": 0.0
      },
      "uses": [
       {
-       "use": "Capital Expense",
-       "cr": 23.54
+       "cr": 23.54,
+       "use": "Capital Expense"
       },
       {
-       "use": "Debt",
-       "cr": 48.5
+       "cr": 48.5,
+       "use": "Debt"
       }
      ]
     }

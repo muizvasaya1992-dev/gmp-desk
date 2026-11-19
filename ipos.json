@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T10:31+05:30",
+  "generated_at": "2026-11-19T10:45+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-18T11:34+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-19T10:31+05:30",
+    "nse_ok_at": "2026-11-19T10:45+05:30",
     "bse_ok_at": "2026-11-18T11:36+05:30"
   },
   "ipos": [
@@ -2848,15 +2848,15 @@
       "segment": "SME",
       "sub": {
         "qib": 2.07,
-        "nii": 1.32,
-        "bnii": 1.25,
-        "snii": 1.45,
-        "retail": 1.67,
-        "employee": 3.42,
-        "total": 1.72
+        "nii": 1.46,
+        "bnii": 1.4,
+        "snii": 1.58,
+        "retail": 1.77,
+        "employee": 3.52,
+        "total": 1.8
       },
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-11-19T10:27",
+      "sub_asof": "2026-11-19T10:42",
       "registrar": "MUFG Intime India Private Limited",
       "lead_managers": [
         "IIFL Capital Services Limited, DAM Capital Advisors Limited, Motilal Oswal Investment Advisors Limited"
@@ -3151,12 +3151,22 @@
           "retail": 1.67,
           "employee": 3.42,
           "total": 1.72
+        },
+        {
+          "at": "2026-11-19T10:45+05:30",
+          "qib": 2.07,
+          "nii": 1.46,
+          "bnii": 1.4,
+          "snii": 1.58,
+          "retail": 1.77,
+          "employee": 3.52,
+          "total": 1.8
         }
       ],
       "series": "Equity",
       "nse_status": "Active",
       "shares_offered": 12170076.0,
-      "updated_on": "2026-11-19T10:31+05:30",
+      "updated_on": "2026-11-19T10:45+05:30",
       "bse_ipo_no": "8089",
       "drhp_url": "https://www.sebi.gov.in/filings/public-issues/dec-2025/crystal-crop-protection-limited-drhp_98530.html",
       "sector": "Chemicals",
@@ -3312,7 +3322,7 @@
         "total": 0.0
       },
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-11-19T10:27",
+      "sub_asof": "2026-11-19T10:42",
       "registrar": "Maashitla Securities Private Limited",
       "lead_managers": [
         "Oneview Corporate Advisors Private Limited"
@@ -3337,7 +3347,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": 3516000.0,
-      "updated_on": "2026-11-19T10:31+05:30",
+      "updated_on": "2026-11-19T10:45+05:30",
       "reservation": {
         "qib": 49.94,
         "nii": 15.02,
@@ -3512,13 +3522,13 @@
         "nii": 0.02,
         "bnii": 0.01,
         "snii": 0.03,
-        "retail": 0.03,
-        "employee": 0.01,
-        "shareholders": 0.03,
-        "total": 0.02
+        "retail": 0.04,
+        "employee": 0.02,
+        "shareholders": 0.04,
+        "total": 0.03
       },
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-11-19T10:27",
+      "sub_asof": "2026-11-19T10:42",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "SBI Capital Markets Limited, Axis Capital Limited, BOB Capital Markets Limited, IDBI Capital Markets and Securities Limited and IIFL Capital Services Limited"
@@ -3553,12 +3563,23 @@
           "employee": 0.01,
           "shareholders": 0.03,
           "total": 0.02
+        },
+        {
+          "at": "2026-11-19T10:45+05:30",
+          "qib": 0.0,
+          "nii": 0.02,
+          "bnii": 0.01,
+          "snii": 0.03,
+          "retail": 0.04,
+          "employee": 0.02,
+          "shareholders": 0.04,
+          "total": 0.03
         }
       ],
       "series": "Equity",
       "nse_status": "Active",
       "shares_offered": 493068045.0,
-      "updated_on": "2026-11-19T10:31+05:30",
+      "updated_on": "2026-11-19T10:45+05:30",
       "bse_ipo_no": "8092",
       "drhp_url": "https://nsearchives.nseindia.com/corporate/Registration_01092026212900_MCLDRHP.pdf",
       "reservation": {
