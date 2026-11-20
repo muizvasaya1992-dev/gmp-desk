@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-20T10:49+05:30",
+  "fetched_at": "2026-11-20T11:01+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,10 +16,10 @@
     "price_low": 259.0,
     "size_cr": 455.72,
     "gmp": 17.0,
-    "gmp_at": "2026-11-20T10:45",
-    "sub_total": 3.86,
-    "sub_retail": 3.985,
-    "sub_at": "2026-11-20T10:47",
+    "gmp_at": "2026-11-20T11:00",
+    "sub_total": 4.01,
+    "sub_retail": 4.159,
+    "sub_at": "2026-11-20T11:00",
     "sub_cats": null,
     "gmp_days": [
      [
@@ -87,11 +87,11 @@
     "price": 136.0,
     "price_low": 129.0,
     "size_cr": 8981.12,
-    "gmp": 1.8,
-    "gmp_at": "2026-11-20T10:45",
-    "sub_total": 0.4,
-    "sub_retail": 0.173,
-    "sub_at": "2026-11-20T10:46",
+    "gmp": 1.7,
+    "gmp_at": "2026-11-20T11:00",
+    "sub_total": 0.41,
+    "sub_retail": 0.178,
+    "sub_at": "2026-11-20T11:00",
     "sub_cats": null,
     "gmp_days": [
      [
@@ -121,6 +121,10 @@
      [
       "2026-11-19",
       1.8
+     ],
+     [
+      "2026-11-20",
+      1.7
      ]
     ],
     "rhp_url": "https://media.ipoji.com/rhp/MCL_RHP_Filing_Version_13112026.pdf",
@@ -154,7 +158,7 @@
     "price_low": 232.0,
     "size_cr": 120.1,
     "gmp": 67.0,
-    "gmp_at": "2026-11-20T10:45",
+    "gmp_at": "2026-11-20T11:00",
     "sub_total": 0.0,
     "sub_retail": null,
     "sub_at": null,
@@ -207,7 +211,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-20T10:49+05:30",
+  "fetched_at": "2026-11-20T11:01+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -762,7 +766,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-20T10:49+05:30",
+  "fetched_at": "2026-11-20T11:01+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -882,7 +886,7 @@
     "size_cr": 120.1,
     "gmp": 67.0,
     "gmp_at": null,
-    "sub_total": 4.99,
+    "sub_total": 5.25,
     "sub_retail": null,
     "sub_at": null,
     "lot": 600.0,
@@ -1004,9 +1008,9 @@
     "price": 129.0,
     "price_low": null,
     "size_cr": 8981.12,
-    "gmp": 1.7,
+    "gmp": 1.5,
     "gmp_at": null,
-    "sub_total": 0.4,
+    "sub_total": 0.41,
     "sub_retail": null,
     "sub_at": null,
     "lot": 110.0,
