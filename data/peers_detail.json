@@ -155,19 +155,19 @@
   }
  },
  "integris-medtech": {
-  "at": "2026-11-20T18:16+05:30",
+  "at": "2026-11-21T00:31+05:30",
   "detail": {
    "uses": [
     {
-     "cr": 696.39,
+     "cr": 509.85,
      "use": "Debt"
     },
     {
-     "cr": 125.4,
+     "cr": 93.87,
      "use": "Subsidiaries"
     },
     {
-     "cr": 571.0,
+     "cr": 415.98,
      "use": "Subsidiaries"
     }
    ]
@@ -258,8 +258,14 @@
   }
  },
  "monomark-engineering": {
-  "at": "2026-11-20T18:16+05:30",
+  "at": "2026-11-21T00:31+05:30",
   "detail": {
+   "uses": [
+    {
+     "cr": 111.0,
+     "use": "Working Capital"
+    }
+   ],
    "years": [
     {
      "assets": 0,

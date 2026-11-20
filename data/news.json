@@ -1,7 +1,7 @@
 {
  "_feeds": {
   "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms": {
-   "fetched": "2026-11-20T23:01+05:30",
+   "fetched": "2026-11-21T00:31+05:30",
    "items": [
     {
      "date": "2026-11-20",
@@ -306,7 +306,7 @@
    ]
   },
   "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms": {
-   "fetched": "2026-11-20T23:01+05:30",
+   "fetched": "2026-11-21T00:31+05:30",
    "items": [
     {
      "date": "2026-11-20",
@@ -611,8 +611,14 @@
    ]
   },
   "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml": {
-   "fetched": "2026-11-20T23:01+05:30",
+   "fetched": "2026-11-21T00:31+05:30",
    "items": [
+    {
+     "date": "2026-11-20",
+     "source": "cnbctv18.com",
+     "title": "Anthropic's IPO bank closed position meant to stabilize stock, removing source of support",
+     "url": "https://www.cnbctv18.com/technology/anthropics-ipo-bank-closed-position-meant-to-stabilize-stock-removing-source-of-support-20038934.htm"
+    },
     {
      "date": "2026-11-20",
      "source": "cnbctv18.com",
@@ -1086,18 +1092,90 @@
      "source": "cnbctv18.com",
      "title": "Manappuram Finance targets 25-30% AUM growth in FY27, plans to add 500 branches by March",
      "url": "https://www.cnbctv18.com/market/stocks/manappuram-finance-share-price-targets-25-30-aum-growth-in-fy27-plans-to-add-500-branches-by-march-20037925.htm"
-    },
-    {
-     "date": "2026-11-19",
-     "source": "cnbctv18.com",
-     "title": "Indian lender Yes Bank's AT-1 bond investors urge RBI to focus on investor protection",
-     "url": "https://www.cnbctv18.com/market/indian-lender-yes-banks-at-1-bond-investors-urge-rbi-to-focus-on-investor-protection-20037897.htm"
     }
    ]
   },
   "https://www.freepressjournal.in/stories.rss?section=business": {
-   "fetched": "2026-11-20T23:01+05:30",
+   "fetched": "2026-11-21T00:31+05:30",
    "items": [
+    {
+     "date": "2026-11-20",
+     "source": "freepressjournal.in",
+     "title": "Khasdar Krida Sangram 2026 Begins With Target Of Over 75,000 Participants Across 32 Sports And More Than 35 Venues",
+     "url": "https://www.freepressjournal.in/mumbai/khasdar-krida-sangram-2026-begins-with-target-of-over-75000-participants-across-32-sports-and-more-than-35-venues"
+    },
+    {
+     "date": "2026-11-20",
+     "source": "freepressjournal.in",
+     "title": "Bhopal BMC Claims 639 Properties Sealed, But Ground Reality Raises Questions Ahead Of November 23 Supreme Court Hearing",
+     "url": "https://www.freepressjournal.in/bhopal/bhopal-bmc-claims-639-properties-sealed-but-ground-reality-raises-questions-ahead-of-november-23-supreme-court-hearing"
+    },
+    {
+     "date": "2026-11-20",
+     "source": "freepressjournal.in",
+     "title": "MP’s Jhabua MLA Vikrant Bhuria Leads 20-Km Protest March, Demands Narmada Lift Irrigation Project Benefits For Four Excluded Areas",
+     "url": "https://www.freepressjournal.in/indore/mps-jhabua-mla-vikrant-bhuria-leads-20-km-protest-march-demands-narmada-lift-irrigation-project-benefits-for-four-excluded-areas"
+    },
+    {
+     "date": "2026-11-20",
+     "source": "freepressjournal.in",
+     "title": "'Our Shops Are Our Livelihood': Traders Protest As Pune Municipal Corporation Clears 1.17 Lakh Sq Ft Of Encroachments On Day 4 Of Drive",
+     "url": "https://www.freepressjournal.in/pune/our-shops-are-our-livelihood-traders-protest-as-pune-municipal-corporation-clears-117-lakh-sq-ft-of-encroachments-on-day-4-of-drive"
+    },
+    {
+     "date": "2026-11-20",
+     "source": "freepressjournal.in",
+     "title": "Anthropic Shares Plunge Over 9% After Record IPO Debut As AI Stocks Slide; Nvidia, Meta, AMD & Intel Face Selling Pressure",
+     "url": "https://www.freepressjournal.in/tech/anthropic-shares-plunge-over-9-after-record-ipo-debut-as-ai-stocks-slide-nvidia-meta-amd-intel-face-selling-pressure"
+    },
+    {
+     "date": "2026-11-20",
+     "source": "freepressjournal.in",
+     "title": "New RBI Guidelines Simplify Services Import-Export Declarations, Clarify Exemptions & Reporting Deadlines",
+     "url": "https://www.freepressjournal.in/business/new-rbi-guidelines-simplify-services-import-export-declarations-clarify-exemptions-reporting-deadlines"
+    },
+    {
+     "date": "2026-11-20",
+     "source": "freepressjournal.in",
+     "title": "UP Fake Medicine Racket Exposed, ₹7.57 Crore Drugs Seized, 24 FIRs Filed; Illegal Manufacturing Units Traced To Himachal Pradesh",
+     "url": "https://www.freepressjournal.in/uttar-pradesh/up-fake-medicine-racket-exposed-757-crore-drugs-seized-24-firs-filed-illegal-manufacturing-units-traced-to-himachal-pradesh"
+    },
+    {
+     "date": "2026-11-20",
+     "source": "freepressjournal.in",
+     "title": "MP CM Mohan Yadav To Review Ministers’ Performance At December 21-22 Chintan Shivir, Government Plans Two-Year Vision Document",
+     "url": "https://www.freepressjournal.in/bhopal/mp-cm-mohan-yadav-to-review-ministers-performance-at-december-21-22-chintan-shivir-government-plans-two-year-vision-document"
+    },
+    {
+     "date": "2026-11-20",
+     "source": "freepressjournal.in",
+     "title": "MP’s Khargone Collector’s Mission Benchmark Boosts Government School Infrastructure, 120 Students Benefit From 60 New Desk-Bench Sets",
+     "url": "https://www.freepressjournal.in/indore/mps-khargone-collectors-mission-benchmark-boosts-government-school-infrastructure-120-students-benefit-from-60-new-desk-bench-sets"
+    },
+    {
+     "date": "2026-11-20",
+     "source": "freepressjournal.in",
+     "title": "Lucknow To Host National Skills Convocation 2026 For First Time On November 21; PM Modi To Honour 52 Toppers",
+     "url": "https://www.freepressjournal.in/uttar-pradesh/lucknow-to-host-national-skills-convocation-2026-for-first-time-on-november-21-pm-modi-to-honour-52-toppers"
+    },
+    {
+     "date": "2026-11-20",
+     "source": "freepressjournal.in",
+     "title": "UP CM Yogi Adityanath's Mother Dies, PM Modi & Leaders Express Condolences",
+     "url": "https://www.freepressjournal.in/uttar-pradesh/up-cm-yogi-adityanaths-mother-dies-pm-modi-leaders-express-condolences"
+    },
+    {
+     "date": "2026-11-20",
+     "source": "freepressjournal.in",
+     "title": "Youth Congress Protests Outside Meta's Hyderabad Office Over Suspension Of National Leaders' Social Media Accounts",
+     "url": "https://www.freepressjournal.in/tech/youth-congress-protests-outside-metas-hyderabad-office-over-suspension-of-national-leaders-social-media-accounts"
+    },
+    {
+     "date": "2026-11-20",
+     "source": "freepressjournal.in",
+     "title": "‘Even With Full Security, We’re Still Scared’: Salman Khan Reflects On Constant Safety Concerns At Maatrubhumi Event",
+     "url": "https://www.freepressjournal.in/entertainment/even-with-full-security-were-still-scared-salman-khan-reflects-on-constant-safety-concerns-at-maatrubhumi-event"
+    },
     {
      "date": "2026-11-20",
      "source": "freepressjournal.in",
@@ -1321,268 +1399,22 @@
      "url": "https://www.freepressjournal.in/sports/kumar-kushagra-celebrates-century-with-jadeja-like-sword-celebration-during-rising-stars-asia-cup-video"
     },
     {
-     "date": "2026-11-20",
+     "date": "2026-11-19",
      "source": "freepressjournal.in",
-     "title": "All Smoke No Fire At The ‘Historic’ Shenzhen Meet",
-     "url": "https://www.freepressjournal.in/analysis/all-smoke-no-fire-at-the-historic-shenzhen-meet"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "The Government Must Look In The Mirror",
-     "url": "https://www.freepressjournal.in/analysis/the-government-must-look-in-the-mirror"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "Maha CM Devendra Fadnavis Calls For Long-Term Water Security Plans For Mumbai, Pune; 8 TMC Water From Mulshi Dam Under Consideration",
-     "url": "https://www.freepressjournal.in/pune/maha-cm-devendra-fadnavis-calls-for-long-term-water-security-plans-for-mumbai-pune-8-tmc-water-from-mulshi-dam-under-consideration"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "How Shere Hite Started A Revolution And Why She Should Get Her Due",
-     "url": "https://www.freepressjournal.in/analysis/how-shere-hite-started-a-revolution-and-why-she-should-get-her-due"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "MP’s Sendhwa Farmers Protest Frequent Power Cuts, MLA Montu Solanki Gives Electricity Department Two-Day Ultimatum",
-     "url": "https://www.freepressjournal.in/indore/mps-sendhwa-farmers-protest-frequent-power-cuts-mla-montu-solanki-gives-electricity-department-two-day-ultimatum"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "Understanding The Business Journey Of MGM Maran: Leadership, Corporate Governance, And Accountability",
-     "url": "https://www.freepressjournal.in/focused-view/understanding-the-business-journey-of-mgm-maran-leadership-corporate-governance-and-accountability"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "World Children’s Day 2026: Bhopal Meet Highlights Children’s Rights And Youth Participation",
-     "url": "https://www.freepressjournal.in/bhopal/world-childrens-day-2026-bhopal-meet-highlights-childrens-rights-and-youth-participation"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "PMC Approves ₹2,634 Crore Land Acquisition Proposal For 43.6-Km High-Capacity Mass Transit Route (HCMTR)",
-     "url": "https://www.freepressjournal.in/pune/pmc-approves-2634-crore-land-acquisition-proposal-for-436-km-high-capacity-mass-transit-route-hcmtr"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "Central Bank Of India Disburses ₹70 Crore In Loans To Entrepreneurs In Chhatrapati Sambhajinagar",
-     "url": "https://www.freepressjournal.in/pune/central-bank-of-india-disburses-70-crore-in-loans-to-entrepreneurs-in-chhatrapati-sambhajinagar"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "Sharvari Brings Royal Elegance In Multi-Toned Lehenga, Maximalist Jewels At Yeh Prem Mol Liya Event",
-     "url": "https://www.freepressjournal.in/ampstories/lifestyle/sharvari-brings-royal-elegance-in-multi-toned-lehenga-maximalist-jewels-at-yeh-prem-mol-liya-event"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "Indian Emulsifiers Limited Reports 79% Revenue Growth In H1 FY27 As Capacity Expansion And Diversification Gather Pace",
-     "url": "https://www.freepressjournal.in/focused-view/indian-emulsifiers-limited-reports-79-revenue-growth-in-h1-fy27-as-capacity-expansion-and-diversification-gather-pace"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "Panvel Mayor Nitin Patil Warns Civic Officials Of 15-Day Suspension For Ignoring Letters And Complaints From Corporators",
-     "url": "https://www.freepressjournal.in/mumbai/panvel-mayor-nitin-patil-warns-civic-officials-of-15-day-suspension-for-ignoring-letters-and-complaints-from-corporators"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "‘Only I Can Say That’: Farah Khan Confronts Cyrus Broacha Over Calling House Help Dilip ‘Overrated’; Here's What He Replied",
-     "url": "https://www.freepressjournal.in/entertainment/only-i-can-say-that-farah-khan-confronts-cyrus-broacha-over-calling-house-help-dilip-overrated-heres-what-he-replied"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "‘FSI Monster Could Consume Pune’: All-Party Corporators Demand Changes To UDCPR In PMC’s General Body Meeting",
-     "url": "https://www.freepressjournal.in/pune/fsi-monster-could-consume-pune-all-party-corporators-demand-changes-to-udcpr-in-pmcs-general-body-meeting"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "Panvel: Nearly 640 Cycles Purchased For Voters With Disabilities At Estimated Cost Of ₹32 Lakh Left In Dilapidated Condition",
-     "url": "https://www.freepressjournal.in/mumbai/panvel-nearly-640-cycles-purchased-for-voters-with-disabilities-at-estimated-cost-of-32-lakh-left-in-dilapidated-condition"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "Mumbai: Central Railway To Operate Two Special Local Trains For WNC Navy Half Marathon; Know Timings Here",
-     "url": "https://www.freepressjournal.in/mumbai/mumbai-central-railway-to-operate-two-special-local-trains-for-wnc-navy-half-marathon-know-timings-here"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "From Ancient Traditions To Cultural Diplomacy: PM Modi Inaugurates SCO Civilisational Dialogue Forum At Purana Qila",
-     "url": "https://www.freepressjournal.in/india/from-ancient-traditions-to-cultural-diplomacy-pm-modi-inaugurates-sco-civilisational-dialogue-forum-at-purana-qila"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "Pune To Intensify Traffic Enforcement At 22 Accident-Prone Black Spots Under Zero Fatality Corridor Project",
-     "url": "https://www.freepressjournal.in/pune/pune-to-intensify-traffic-enforcement-at-22-accident-prone-black-spots-under-zero-fatality-corridor-project"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "Charlie Puth To Make India Debut With Ellie Goulding At Mumbai Music Festival: Know Date, Venue And More",
-     "url": "https://www.freepressjournal.in/lifestyle/charlie-puth-to-make-india-debut-with-ellie-goulding-at-mumbai-music-festival-know-date-venue-and-more"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "3 Arrested For Hunting Blackbuck, Holding Meat Feast In Ashoknagar; 8 Accused Absconding",
-     "url": "https://www.freepressjournal.in/bhopal/3-arrested-for-hunting-blackbuck-holding-meat-feast-in-ashoknagar-8-accused-absconding"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "Massive Fire At Garage Opposite Mayor's Official Residence Destroys Four Vehicles And Shop; No Casualties Reported",
-     "url": "https://www.freepressjournal.in/mumbai/massive-fire-at-garage-opposite-mayors-official-residence-destroys-four-vehicles-and-shop-no-casualties-reported"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "Ulhasnagar Tragedy: 32-Year-Old Delivery Executive Killed On First Day At Work After Speeding Truck Runs Over Him Near Kene Chowk | VIDEO",
-     "url": "https://www.freepressjournal.in/mumbai/ulhasnagar-tragedy-32-year-old-delivery-executive-killed-on-first-day-at-work-after-speeding-truck-runs-over-him-near-kene-chowk-video"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "Chief Minister Pushkar Singh Dhami Meets PM Narendra Modi, Seeks Support For Key Development Projects In Uttarakhand",
-     "url": "https://www.freepressjournal.in/uttar-pradesh/chief-minister-pushkar-singh-dhami-meets-pm-narendra-modi-seeks-support-for-key-development-projects-in-uttarakhand"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "Dhindora 2 X Review: Bhuvan Bam's Comedy Series Gets Positive Response, Netizens Say '5-Year Wait Was Worth It'",
-     "url": "https://www.freepressjournal.in/entertainment/dhindora-2-x-review-bhuvan-bams-comedy-series-gets-positive-response-netizens-say-5-year-wait-was-worth-it"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "Angels Of Nashik: 165 Truckloads Of Concrete Removed In Devang Jani’s Fight To Revive Godavari",
-     "url": "https://www.freepressjournal.in/pune/angels-of-nashik-165-truckloads-of-concrete-removed-in-devang-janis-fight-to-revive-godavari"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "Pune Auto-Rickshaw Drivers Announce Indefinite Strike From November 23 Over E-Bike Taxis; 1.5 Lakh Drivers to Join",
-     "url": "https://www.freepressjournal.in/pune/pune-auto-rickshaw-drivers-announce-indefinite-strike-from-november-23-over-e-bike-taxis-15-lakh-drivers-to-join"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "Union Minister Shivraj Singh Chouhan Unveils India's First Indigenous H5N1 Vaccine To Protect Chickens From Bird Flu | VIDEO",
-     "url": "https://www.freepressjournal.in/bhopal/union-minister-shivraj-singh-chouhan-unveils-indias-first-indigenous-h5n1-vaccine-to-protect-chickens-from-bird-flu-video"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "UP CM Yogi Adityanath's Mother Savitri Devi Passes Away At 91",
-     "url": "https://www.freepressjournal.in/uttar-pradesh/up-cm-yogi-adityanaths-mother-savitri-devi-passes-away-at-91"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "CWPRS To Assess Mula-Mutha Flood Risks In Six Months Before Pune Riverfront Project Advances",
-     "url": "https://www.freepressjournal.in/pune/cwprs-to-assess-mula-mutha-flood-risks-in-six-months-before-pune-riverfront-project-advances"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "Delhi: Man Dies After Being Beaten Up For Proposing Instagram Influencer",
-     "url": "https://www.freepressjournal.in/india/delhi-man-dies-after-being-beaten-up-for-proposing-instagram-influencer"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "Kapil Dev Defends Selectors Amid Mohammed Siraj Exclusion Row, Kiren Rijiju Rejects Congress MP's Discrimination Claim",
-     "url": "https://www.freepressjournal.in/sports/kapil-dev-defends-selectors-amid-mohammed-siraj-exclusion-row-kiren-rijiju-rejects-congress-mps-discrimination-claim"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "Dombivli Gymnast Shanaya Bhavesh Kathowale Shines At International Gymnastics Meet, Clinches Two Gold And Two Silver Medals",
-     "url": "https://www.freepressjournal.in/mumbai/dombivli-gymnast-shanaya-bhavesh-kathowale-shines-at-international-gymnastics-meet-clinches-two-gold-and-two-silver-medals"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "Nashik: BJP Bags Six, Shinde Sena And UBT Get Two Seats Each As 10 Nominated Corporators Named",
-     "url": "https://www.freepressjournal.in/pune/nashik-bjp-bags-six-shinde-sena-and-ubt-get-two-seats-each-as-10-nominated-corporators-named"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "Blind Man, Physically Disabled Man Acquitted In Murder Case, Court Questions Police Investigation",
-     "url": "https://www.freepressjournal.in/india/blind-man-physically-disabled-man-acquitted-in-murder-case-court-questions-police-investigation"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "Forest Department Captures Adult Leopard Near Navali-Bhogolepada Amid Growing Concerns Over Fatal Attacks",
-     "url": "https://www.freepressjournal.in/mumbai/forest-department-captures-adult-leopard-near-navali-bhogolepada-amid-growing-concerns-over-fatal-attacks"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "Bihar Grain Market Porter's Sons Overcome Financial Struggles, One Set To Become Doctor And Other Engineer",
-     "url": "https://www.freepressjournal.in/viral/bihar-grain-market-porters-sons-overcome-financial-struggles-one-set-to-become-doctor-and-other-engineer"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "Bhiwandi: Dighashi Farmers To Receive Compensation For High-Tension Power Line Damage In December 2026",
-     "url": "https://www.freepressjournal.in/mumbai/bhiwandi-dighashi-farmers-to-receive-compensation-for-high-tension-power-line-damage-in-december-2026"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "Places To Visit In US: 5 Bucket-List Dining Experiences In America Every Food Lover Should Know About",
-     "url": "https://www.freepressjournal.in/lifestyle/places-to-visit-in-us-5-bucket-list-dining-experiences-in-america-every-food-lover-should-know-about"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "Nashik: Igatpuri Farmers Demand ₹6,000 Per Quintal For Paddy Amid Rising Cultivation Costs",
-     "url": "https://www.freepressjournal.in/pune/nashik-igatpuri-farmers-demand-6000-per-quintal-for-paddy-amid-rising-cultivation-costs"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "Thane To Host State-Level One-Act Play Competition For Balasaheb Thackeray's Birth Centenary; Winner To Get ₹3 Lakh",
-     "url": "https://www.freepressjournal.in/mumbai/thane-to-host-state-level-one-act-play-competition-for-balasaheb-thackerays-birth-centenary-winner-to-get-3-lakh"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "Pakistan Blind Cricket Team Mock India With Plane Crashing Celebrations After Controversial Asia Cup Win | VIDEO",
-     "url": "https://www.freepressjournal.in/sports/pakistan-blind-cricket-team-mock-india-with-plane-crashing-celebrations-after-controversial-asia-cup-win-video"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "Nashik: Senior RSS Functionary Rameshrao Gaydhani Passes Away At 77",
-     "url": "https://www.freepressjournal.in/pune/nashik-senior-rss-functionary-rameshrao-gaydhani-passes-away-at-77"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "Strait Of Hormuz Security Alert As India Monitors 9 Vessels, Sarbananda Sonowal Condemns Attacks On Commercial Ships",
-     "url": "https://www.freepressjournal.in/world/strait-of-hormuz-security-alert-as-india-monitors-9-vessels-sarbananda-sonowal-condemns-attacks-on-commercial-ships"
+     "title": "Maatrubhumi Song ‘Madirapan’ X Review: 'Beauty Plus Face Effects,' 'Unmatched Energy'; Netizens React To Salman Khan's New Track - Watch",
+     "url": "https://www.freepressjournal.in/entertainment/maatrubhumi-song-madirapan-x-review-beauty-plus-face-effects-patriotism-doesnt-need-bottles-netizens-react-to-salman-khans-new-track-watch"
     }
    ]
   },
   "https://www.livemint.com/rss/markets": {
-   "fetched": "2026-11-20T23:01+05:30",
+   "fetched": "2026-11-21T00:31+05:30",
    "items": [
+    {
+     "date": "2026-11-21",
+     "source": "Mint",
+     "title": "Wall Street banks set for banner year as Anthropic, SpaceX IPOs generate $1 billion in fees",
+     "url": "https://www.livemint.com/market/wall-street-banks-set-for-banner-year-as-anthropic-spacex-ipos-generate-1-billion-in-fees-11795201100809.html"
+    },
     {
      "date": "2026-11-20",
      "source": "Mint",
@@ -1786,17 +1618,11 @@
      "source": "Mint",
      "title": "This small cap stock has surged 100% in 2026; Brokerage sees 29% more upside - Do you own it? Check target price",
      "url": "https://www.livemint.com/market/stock-market-news/this-small-cap-stock-has-surged-100-in-2026-brokerage-sees-29-more-upside-do-you-own-it-check-target-price-11795112845421.html"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "Mint",
-     "title": "Indian stocks seen falling from nine-month highs; Asia market rout deepens",
-     "url": "https://www.livemint.com/market/indian-stocks-seen-falling-from-nine-month-highs-asia-market-rout-deepens-11795143190742.html"
     }
    ]
   },
   "https://www.thehindubusinessline.com/markets/feeder/default.rss": {
-   "fetched": "2026-11-20T23:01+05:30",
+   "fetched": "2026-11-21T00:31+05:30",
    "items": [
     {
      "date": "2026-11-20",
@@ -2161,7 +1987,7 @@
    ]
   },
   "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss": {
-   "fetched": "2026-11-20T23:01+05:30",
+   "fetched": "2026-11-21T00:31+05:30",
    "items": [
     {
      "date": "2026-11-18",
@@ -2287,7 +2113,7 @@
   }
  },
  "crystalcp": {
-  "checked": "2026-11-21T00:15+05:30",
+  "checked": "2026-11-21T00:31+05:30",
   "items": [
    {
     "date": "2026-11-20",
@@ -2328,7 +2154,7 @@
   ]
  },
  "mahacoal": {
-  "checked": "2026-11-21T00:15+05:30",
+  "checked": "2026-11-21T00:31+05:30",
   "items": [
    {
     "date": "2026-11-20",
@@ -2369,7 +2195,7 @@
   ]
  },
  "watrana": {
-  "checked": "2026-11-21T00:15+05:30",
+  "checked": "2026-11-21T00:31+05:30",
   "items": [
    {
     "date": "2026-11-20",
