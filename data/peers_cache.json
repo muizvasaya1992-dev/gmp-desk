@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-20T13:46+05:30",
+  "fetched_at": "2026-11-20T14:01+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,10 +16,10 @@
     "price_low": 259.0,
     "size_cr": 455.72,
     "gmp": 15.0,
-    "gmp_at": "2026-11-20T13:40",
-    "sub_total": 6.96,
-    "sub_retail": 5.919,
-    "sub_at": "2026-11-20T13:42",
+    "gmp_at": "2026-11-20T13:55",
+    "sub_total": 7.41,
+    "sub_retail": 6.138,
+    "sub_at": "2026-11-20T14:00",
     "sub_cats": null,
     "gmp_days": [
      [
@@ -92,10 +92,10 @@
     "price_low": 129.0,
     "size_cr": 8981.12,
     "gmp": 1.6,
-    "gmp_at": "2026-11-20T13:40",
+    "gmp_at": "2026-11-20T13:55",
     "sub_total": 0.46,
-    "sub_retail": 0.214,
-    "sub_at": "2026-11-20T13:41",
+    "sub_retail": 0.217,
+    "sub_at": "2026-11-20T13:58",
     "sub_cats": null,
     "gmp_days": [
      [
@@ -162,10 +162,10 @@
     "price_low": 232.0,
     "size_cr": 120.1,
     "gmp": 67.0,
-    "gmp_at": "2026-11-20T13:40",
+    "gmp_at": "2026-11-20T13:55",
     "sub_total": 7.62,
     "sub_retail": 10.21,
-    "sub_at": "2026-11-20T13:42",
+    "sub_at": "2026-11-20T13:59",
     "sub_cats": null,
     "gmp_days": [
      [
@@ -219,8 +219,30 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-20T13:46+05:30",
+  "fetched_at": "2026-11-20T14:01+05:30",
   "records": [
+   {
+    "src": "Tracker C",
+    "slug": "monomark-engineering",
+    "name": "Monomark Engineering",
+    "segment": "MAIN",
+    "exchange": null,
+    "open": null,
+    "close": null,
+    "boa": null,
+    "listing": null,
+    "price": null,
+    "price_low": null,
+    "size_cr": null,
+    "gmp": null,
+    "gmp_at": "2026-11-20T12:10",
+    "sub_total": null,
+    "sub_retail": null,
+    "sub_at": null,
+    "lot": null,
+    "rating": 1,
+    "live": true
+   },
    {
     "src": "Tracker C",
     "slug": "foodlink-fb",
@@ -235,7 +257,7 @@
     "price_low": null,
     "size_cr": null,
     "gmp": 12.0,
-    "gmp_at": "2026-11-20T09:37",
+    "gmp_at": "2026-11-20T12:37",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -257,7 +279,7 @@
     "price_low": null,
     "size_cr": 93.66,
     "gmp": null,
-    "gmp_at": "2026-11-20T09:33",
+    "gmp_at": "2026-11-20T12:29",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -279,8 +301,8 @@
     "price_low": null,
     "size_cr": 120.1,
     "gmp": 67.0,
-    "gmp_at": "2026-11-20T09:37",
-    "sub_total": 3.78,
+    "gmp_at": "2026-11-20T12:37",
+    "sub_total": 7.32,
     "sub_retail": null,
     "sub_at": null,
     "lot": 600.0,
@@ -300,9 +322,9 @@
     "price": 136.0,
     "price_low": null,
     "size_cr": 8981.12,
-    "gmp": 1.8,
-    "gmp_at": "2026-11-20T09:37",
-    "sub_total": 0.38,
+    "gmp": 1.5,
+    "gmp_at": "2026-11-20T12:37",
+    "sub_total": 0.43,
     "sub_retail": null,
     "sub_at": null,
     "lot": 110.0,
@@ -322,9 +344,9 @@
     "price": 272.0,
     "price_low": null,
     "size_cr": 455.49,
-    "gmp": 17.0,
-    "gmp_at": "2026-11-20T09:37",
-    "sub_total": 3.08,
+    "gmp": 15.0,
+    "gmp_at": "2026-11-20T12:37",
+    "sub_total": 5.87,
     "sub_retail": null,
     "sub_at": null,
     "lot": 55.0,
@@ -748,33 +770,11 @@
     "lot": 800.0,
     "rating": 1,
     "live": false
-   },
-   {
-    "src": "Tracker C",
-    "slug": "zetwerk",
-    "name": "Zetwerk",
-    "segment": "MAIN",
-    "exchange": null,
-    "open": "2026-10-15",
-    "close": "2026-10-19",
-    "boa": "2026-10-21",
-    "listing": "2026-10-23",
-    "price": 151.0,
-    "price_low": null,
-    "size_cr": 5012.33,
-    "gmp": 1.2,
-    "gmp_at": "2026-10-23T09:37",
-    "sub_total": 3.1,
-    "sub_retail": null,
-    "sub_at": null,
-    "lot": 99.0,
-    "rating": 1,
-    "live": false
    }
   ]
  },
  "d": {
-  "fetched_at": "2026-11-20T13:46+05:30",
+  "fetched_at": "2026-11-20T14:01+05:30",
   "records": [
    {
     "src": "Tracker D",
