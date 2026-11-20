@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T08:15+05:30",
+  "generated_at": "2026-11-20T08:31+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-18T11:34+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-20T08:15+05:30",
+    "nse_ok_at": "2026-11-20T08:31+05:30",
     "bse_ok_at": "2026-11-18T11:36+05:30"
   },
   "ipos": [
@@ -3463,7 +3463,7 @@
         {
           "source": "Tracker C",
           "gmp": 17,
-          "at": "2026-11-19T23:02"
+          "at": "2026-11-20T06:37"
         },
         {
           "source": "Tracker D",
@@ -3515,8 +3515,8 @@
       "gmp_high": 45,
       "exchange": "SME",
       "gmp": 17,
-      "gmp_asof": "2026-11-20T06:05",
-      "gmp_source_latest": "Tracker B",
+      "gmp_asof": "2026-11-20T06:37",
+      "gmp_source_latest": "Tracker C",
       "gmp_pct": 6.25,
       "gmp_spread": {
         "min": 17,
@@ -3720,7 +3720,7 @@
         {
           "source": "Tracker C",
           "gmp": 67,
-          "at": "2026-11-19T23:02"
+          "at": "2026-11-20T06:37"
         },
         {
           "source": "Tracker D",
@@ -3772,8 +3772,8 @@
       "gmp_high": 67,
       "exchange": "SME",
       "gmp": 67,
-      "gmp_asof": "2026-11-20T06:05",
-      "gmp_source_latest": "Tracker B",
+      "gmp_asof": "2026-11-20T06:37",
+      "gmp_source_latest": "Tracker C",
       "gmp_pct": 27.35,
       "gmp_spread": {
         "min": 40,
@@ -4221,7 +4221,7 @@
         {
           "source": "Tracker C",
           "gmp": 1.8,
-          "at": "2026-11-19T23:02"
+          "at": "2026-11-20T06:37"
         },
         {
           "source": "Tracker D",
@@ -4269,8 +4269,8 @@
       "gmp_high": 13,
       "exchange": "SME",
       "gmp": 1.8,
-      "gmp_asof": "2026-11-20T06:05",
-      "gmp_source_latest": "Tracker B",
+      "gmp_asof": "2026-11-20T06:37",
+      "gmp_source_latest": "Tracker C",
       "gmp_pct": 1.32,
       "gmp_spread": {
         "min": 1.8,
@@ -4542,7 +4542,7 @@
       "sector": "Sugar",
       "gmp_watch": {
         "sources": 2,
-        "at": "2026-11-20T08:15"
+        "at": "2026-11-20T08:31"
       },
       "gmp_sources": [],
       "gmp_history": [],
