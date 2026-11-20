@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-20T11:45+05:30",
+  "fetched_at": "2026-11-20T12:01+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,10 +16,10 @@
     "price_low": 259.0,
     "size_cr": 455.72,
     "gmp": 17.0,
-    "gmp_at": "2026-11-20T11:40",
-    "sub_total": 4.47,
-    "sub_retail": 4.608,
-    "sub_at": "2026-11-20T11:42",
+    "gmp_at": "2026-11-20T12:00",
+    "sub_total": 4.72,
+    "sub_retail": 4.804,
+    "sub_at": "2026-11-20T12:00",
     "sub_cats": null,
     "gmp_days": [
      [
@@ -57,6 +57,10 @@
      [
       "2026-11-19",
       17.0
+     ],
+     [
+      "2026-11-20",
+      17.0
      ]
     ],
     "rhp_url": "https://www.iiflcapital.com/institutional-equities/upload/investmentbanking/prospects/crystal_crop_protection_limited_-_red_herring_prospectus.pdf",
@@ -87,11 +91,11 @@
     "price": 136.0,
     "price_low": 129.0,
     "size_cr": 8981.12,
-    "gmp": 1.7,
-    "gmp_at": "2026-11-20T11:40",
+    "gmp": 1.5,
+    "gmp_at": "2026-11-20T12:00",
     "sub_total": 0.42,
-    "sub_retail": 0.189,
-    "sub_at": "2026-11-20T11:42",
+    "sub_retail": 0.193,
+    "sub_at": "2026-11-20T12:00",
     "sub_cats": null,
     "gmp_days": [
      [
@@ -124,7 +128,7 @@
      ],
      [
       "2026-11-20",
-      1.7
+      1.5
      ]
     ],
     "rhp_url": "https://media.ipoji.com/rhp/MCL_RHP_Filing_Version_13112026.pdf",
@@ -158,10 +162,10 @@
     "price_low": 232.0,
     "size_cr": 120.1,
     "gmp": 67.0,
-    "gmp_at": "2026-11-20T11:40",
+    "gmp_at": "2026-11-20T12:00",
     "sub_total": 5.34,
     "sub_retail": 7.54,
-    "sub_at": "2026-11-20T11:42",
+    "sub_at": "2026-11-20T12:00",
     "sub_cats": null,
     "gmp_days": [
      [
@@ -191,6 +195,10 @@
      [
       "2026-11-19",
       67.0
+     ],
+     [
+      "2026-11-20",
+      67.0
      ]
     ],
     "rhp_url": null,
@@ -211,7 +219,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-20T11:45+05:30",
+  "fetched_at": "2026-11-20T12:01+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -766,7 +774,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-20T11:45+05:30",
+  "fetched_at": "2026-11-20T12:01+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -781,9 +789,9 @@
     "price": 259.0,
     "price_low": null,
     "size_cr": 455.49,
-    "gmp": 16.5,
+    "gmp": 17.0,
     "gmp_at": null,
-    "sub_total": 4.35,
+    "sub_total": 4.86,
     "sub_retail": null,
     "sub_at": null,
     "lot": 55.0,
@@ -886,7 +894,7 @@
     "size_cr": 120.1,
     "gmp": 67.0,
     "gmp_at": null,
-    "sub_total": 6.21,
+    "sub_total": 6.37,
     "sub_retail": null,
     "sub_at": null,
     "lot": 600.0,
@@ -1008,9 +1016,9 @@
     "price": 129.0,
     "price_low": null,
     "size_cr": 8981.12,
-    "gmp": 1.6,
+    "gmp": 1.5,
     "gmp_at": null,
-    "sub_total": 0.4,
+    "sub_total": 0.42,
     "sub_retail": null,
     "sub_at": null,
     "lot": 110.0,
