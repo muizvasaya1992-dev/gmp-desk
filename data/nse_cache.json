@@ -1653,7 +1653,7 @@
   "series": "Equity",
   "nse_status": "Active",
   "shares_offered": 12170076.0,
-  "last_seen": "2026-11-20T10:45+05:30",
+  "last_seen": "2026-11-20T10:46+05:30",
   "segment": "SME",
   "lot": 55,
   "registrar": "MUFG Intime India Private Limited",
@@ -1663,18 +1663,18 @@
   "retail_max": 200000,
   "cutoff_time": "5:00 PM",
   "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_CRYSTALCP.zip",
-  "details_at": "2026-11-20T00:01+05:30",
+  "details_at": "2026-11-20T10:46+05:30",
   "sub": {
    "qib": 2.19,
-   "nii": 5.64,
-   "bnii": 5.5,
-   "snii": 5.93,
-   "retail": 3.97,
-   "employee": 5.69,
-   "total": 3.84
+   "nii": 5.7,
+   "bnii": 5.56,
+   "snii": 5.96,
+   "retail": 3.98,
+   "employee": 5.7,
+   "total": 3.86
   },
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-11-20T10:42",
+  "sub_asof": "2026-11-20T10:45",
   "reservation": {
    "qib": 27.99,
    "nii": 21.34,
@@ -1703,574 +1703,14 @@
     "total": 0.38
    },
    {
-    "at": "2026-11-18T11:45+05:30",
-    "qib": 0.22,
-    "nii": 0.21,
-    "bnii": 0.15,
-    "snii": 0.32,
-    "retail": 0.56,
-    "employee": 1.54,
-    "total": 0.4
-   },
-   {
-    "at": "2026-11-18T12:01+05:30",
-    "qib": 0.22,
-    "nii": 0.23,
-    "bnii": 0.16,
-    "snii": 0.37,
-    "retail": 0.64,
-    "employee": 1.68,
-    "total": 0.44
-   },
-   {
-    "at": "2026-11-18T12:15+05:30",
-    "qib": 0.22,
-    "nii": 0.25,
-    "bnii": 0.17,
-    "snii": 0.42,
-    "retail": 0.7,
-    "employee": 1.81,
-    "total": 0.48
-   },
-   {
-    "at": "2026-11-18T12:31+05:30",
-    "qib": 0.22,
-    "nii": 0.29,
-    "bnii": 0.19,
-    "snii": 0.48,
-    "retail": 0.76,
-    "employee": 1.91,
-    "total": 0.51
-   },
-   {
-    "at": "2026-11-18T12:45+05:30",
-    "qib": 0.22,
-    "nii": 0.31,
-    "bnii": 0.22,
-    "snii": 0.5,
-    "retail": 0.79,
-    "employee": 1.98,
-    "total": 0.54
-   },
-   {
-    "at": "2026-11-18T13:00+05:30",
-    "qib": 0.22,
-    "nii": 0.33,
-    "bnii": 0.22,
-    "snii": 0.54,
-    "retail": 0.83,
-    "employee": 2.05,
-    "total": 0.56
-   },
-   {
-    "at": "2026-11-18T13:15+05:30",
-    "qib": 0.22,
-    "nii": 0.35,
-    "bnii": 0.23,
-    "snii": 0.57,
-    "retail": 0.85,
-    "employee": 2.11,
-    "total": 0.58
-   },
-   {
-    "at": "2026-11-18T13:31+05:30",
-    "qib": 1.2,
-    "nii": 0.36,
-    "bnii": 0.25,
-    "snii": 0.6,
-    "retail": 0.9,
-    "employee": 2.18,
-    "total": 0.88
-   },
-   {
-    "at": "2026-11-18T13:45+05:30",
-    "qib": 1.2,
-    "nii": 0.37,
-    "bnii": 0.25,
-    "snii": 0.62,
-    "retail": 0.93,
-    "employee": 2.24,
-    "total": 0.9
-   },
-   {
-    "at": "2026-11-18T14:01+05:30",
-    "qib": 1.47,
-    "nii": 0.39,
-    "bnii": 0.25,
-    "snii": 0.66,
-    "retail": 0.96,
-    "employee": 2.3,
-    "total": 0.99
-   },
-   {
-    "at": "2026-11-18T14:15+05:30",
-    "qib": 1.47,
-    "nii": 0.4,
-    "bnii": 0.26,
-    "snii": 0.68,
-    "retail": 0.99,
-    "employee": 2.35,
-    "total": 1.01
-   },
-   {
-    "at": "2026-11-18T14:31+05:30",
-    "qib": 1.47,
-    "nii": 0.41,
-    "bnii": 0.27,
-    "snii": 0.71,
-    "retail": 1.02,
-    "employee": 2.4,
-    "total": 1.03
-   },
-   {
-    "at": "2026-11-18T14:45+05:30",
-    "qib": 2.45,
-    "nii": 0.62,
-    "bnii": 0.39,
-    "snii": 1.06,
-    "retail": 1.58,
-    "employee": 3.72,
-    "total": 1.64
-   },
-   {
-    "at": "2026-11-18T15:01+05:30",
-    "qib": 1.47,
-    "nii": 0.45,
-    "bnii": 0.3,
-    "snii": 0.76,
-    "retail": 1.08,
-    "employee": 2.48,
-    "total": 1.07
-   },
-   {
-    "at": "2026-11-18T15:15+05:30",
-    "qib": 1.47,
-    "nii": 0.47,
-    "bnii": 0.31,
-    "snii": 0.79,
-    "retail": 1.1,
-    "employee": 2.52,
-    "total": 1.08
-   },
-   {
-    "at": "2026-11-18T15:31+05:30",
-    "qib": 1.47,
-    "nii": 0.5,
-    "bnii": 0.33,
-    "snii": 0.83,
-    "retail": 1.14,
-    "employee": 2.63,
-    "total": 1.11
-   },
-   {
-    "at": "2026-11-18T15:45+05:30",
-    "qib": 2.46,
-    "nii": 0.8,
-    "bnii": 0.57,
-    "snii": 1.24,
-    "retail": 1.77,
-    "employee": 4.05,
-    "total": 1.77
-   },
-   {
-    "at": "2026-11-18T16:01+05:30",
-    "qib": 2.46,
-    "nii": 0.81,
-    "bnii": 0.58,
-    "snii": 1.28,
-    "retail": 1.8,
-    "employee": 4.09,
-    "total": 1.79
-   },
-   {
-    "at": "2026-11-18T16:15+05:30",
-    "qib": 1.47,
-    "nii": 0.58,
-    "bnii": 0.41,
-    "snii": 0.92,
-    "retail": 1.21,
-    "employee": 2.73,
-    "total": 1.16
-   },
-   {
-    "at": "2026-11-18T16:31+05:30",
-    "qib": 2.07,
-    "nii": 0.71,
-    "bnii": 0.57,
-    "snii": 0.99,
-    "retail": 1.24,
-    "employee": 2.85,
-    "total": 1.37
-   },
-   {
-    "at": "2026-11-18T16:45+05:30",
-    "qib": 3.05,
-    "nii": 1.02,
-    "bnii": 0.82,
-    "snii": 1.42,
-    "retail": 1.9,
-    "employee": 4.28,
-    "total": 2.05
-   },
-   {
-    "at": "2026-11-18T16:56+05:30",
-    "qib": 3.05,
-    "nii": 1.03,
-    "bnii": 0.83,
-    "snii": 1.44,
-    "retail": 1.92,
-    "employee": 4.32,
-    "total": 2.07
-   },
-   {
-    "at": "2026-11-18T17:01+05:30",
-    "qib": 3.05,
-    "nii": 1.04,
-    "bnii": 0.83,
-    "snii": 1.45,
-    "retail": 1.92,
-    "employee": 4.34,
-    "total": 2.07
-   },
-   {
-    "at": "2026-11-18T17:15+05:30",
-    "qib": 2.07,
-    "nii": 0.75,
-    "bnii": 0.62,
-    "snii": 1.03,
-    "retail": 1.28,
-    "employee": 2.91,
-    "total": 1.4
-   },
-   {
-    "at": "2026-11-19T10:15+05:30",
-    "qib": 2.07,
-    "nii": 1.24,
-    "bnii": 1.21,
-    "snii": 1.32,
-    "retail": 1.56,
-    "employee": 3.26,
-    "total": 1.65
-   },
-   {
-    "at": "2026-11-19T10:31+05:30",
-    "qib": 2.07,
-    "nii": 1.32,
-    "bnii": 1.25,
-    "snii": 1.45,
-    "retail": 1.67,
-    "employee": 3.42,
-    "total": 1.72
-   },
-   {
-    "at": "2026-11-19T10:45+05:30",
-    "qib": 2.07,
-    "nii": 1.46,
-    "bnii": 1.4,
-    "snii": 1.58,
-    "retail": 1.77,
-    "employee": 3.52,
-    "total": 1.8
-   },
-   {
-    "at": "2026-11-19T11:01+05:30",
-    "qib": 2.07,
-    "nii": 1.53,
-    "bnii": 1.43,
-    "snii": 1.71,
-    "retail": 1.87,
-    "employee": 3.64,
-    "total": 1.87
-   },
-   {
-    "at": "2026-11-19T11:15+05:30",
-    "qib": 2.07,
-    "nii": 1.59,
-    "bnii": 1.47,
-    "snii": 1.83,
-    "retail": 1.95,
-    "employee": 3.76,
-    "total": 1.92
-   },
-   {
-    "at": "2026-11-19T11:31+05:30",
-    "qib": 2.07,
-    "nii": 1.65,
-    "bnii": 1.5,
-    "snii": 1.94,
-    "retail": 2.03,
-    "employee": 3.85,
-    "total": 1.97
-   },
-   {
-    "at": "2026-11-19T11:45+05:30",
-    "qib": 2.07,
-    "nii": 1.69,
-    "bnii": 1.52,
-    "snii": 2.03,
-    "retail": 2.07,
-    "employee": 3.92,
-    "total": 2.01
-   },
-   {
-    "at": "2026-11-19T12:01+05:30",
-    "qib": 2.07,
-    "nii": 1.74,
-    "bnii": 1.54,
-    "snii": 2.13,
-    "retail": 2.14,
-    "employee": 4.02,
-    "total": 2.05
-   },
-   {
-    "at": "2026-11-19T12:15+05:30",
-    "qib": 2.07,
-    "nii": 1.8,
-    "bnii": 1.57,
-    "snii": 2.25,
-    "retail": 2.2,
-    "employee": 4.1,
-    "total": 2.09
-   },
-   {
-    "at": "2026-11-19T12:31+05:30",
-    "qib": 2.18,
-    "nii": 1.88,
-    "bnii": 1.65,
-    "snii": 2.33,
-    "retail": 2.26,
-    "employee": 4.15,
-    "total": 2.17
-   },
-   {
-    "at": "2026-11-19T12:45+05:30",
-    "qib": 2.18,
-    "nii": 1.94,
-    "bnii": 1.7,
-    "snii": 2.41,
-    "retail": 2.31,
-    "employee": 4.19,
-    "total": 2.21
-   },
-   {
-    "at": "2026-11-19T13:01+05:30",
-    "qib": 2.18,
-    "nii": 2.01,
-    "bnii": 1.76,
-    "snii": 2.5,
-    "retail": 2.38,
-    "employee": 4.28,
-    "total": 2.26
-   },
-   {
-    "at": "2026-11-19T13:15+05:30",
-    "qib": 2.18,
-    "nii": 2.04,
-    "bnii": 1.78,
-    "snii": 2.56,
-    "retail": 2.42,
-    "employee": 4.31,
-    "total": 2.29
-   },
-   {
-    "at": "2026-11-19T13:31+05:30",
-    "qib": 2.18,
-    "nii": 2.1,
-    "bnii": 1.83,
-    "snii": 2.64,
-    "retail": 2.48,
-    "employee": 4.36,
-    "total": 2.33
-   },
-   {
-    "at": "2026-11-19T13:45+05:30",
-    "qib": 2.18,
-    "nii": 2.18,
-    "bnii": 1.9,
-    "snii": 2.73,
-    "retail": 2.53,
-    "employee": 4.39,
-    "total": 2.37
-   },
-   {
-    "at": "2026-11-19T14:01+05:30",
-    "qib": 2.18,
-    "nii": 2.24,
-    "bnii": 1.96,
-    "snii": 2.81,
-    "retail": 2.57,
-    "employee": 4.44,
-    "total": 2.41
-   },
-   {
-    "at": "2026-11-19T14:15+05:30",
-    "qib": 2.18,
-    "nii": 2.3,
-    "bnii": 2.02,
-    "snii": 2.88,
-    "retail": 2.62,
-    "employee": 4.48,
-    "total": 2.44
-   },
-   {
-    "at": "2026-11-19T14:31+05:30",
-    "qib": 2.18,
-    "nii": 2.37,
-    "bnii": 2.08,
-    "snii": 2.94,
-    "retail": 2.66,
-    "employee": 4.52,
-    "total": 2.48
-   },
-   {
-    "at": "2026-11-19T14:45+05:30",
-    "qib": 2.18,
-    "nii": 2.43,
-    "bnii": 2.14,
-    "snii": 3.01,
-    "retail": 2.71,
-    "employee": 4.55,
-    "total": 2.52
-   },
-   {
-    "at": "2026-11-19T15:01+05:30",
-    "qib": 2.18,
-    "nii": 2.49,
-    "bnii": 2.2,
-    "snii": 3.07,
-    "retail": 2.75,
-    "employee": 4.58,
-    "total": 2.55
-   },
-   {
-    "at": "2026-11-19T15:15+05:30",
-    "qib": 2.18,
-    "nii": 2.55,
-    "bnii": 2.24,
-    "snii": 3.16,
-    "retail": 2.8,
-    "employee": 4.62,
-    "total": 2.59
-   },
-   {
-    "at": "2026-11-19T15:31+05:30",
-    "qib": 2.18,
-    "nii": 2.62,
-    "bnii": 2.3,
-    "snii": 3.28,
-    "retail": 2.85,
-    "employee": 4.65,
-    "total": 2.63
-   },
-   {
-    "at": "2026-11-19T15:45+05:30",
-    "qib": 2.18,
-    "nii": 2.79,
-    "bnii": 2.46,
-    "snii": 3.45,
-    "retail": 2.91,
-    "employee": 4.7,
-    "total": 2.7
-   },
-   {
-    "at": "2026-11-19T16:01+05:30",
-    "qib": 2.18,
-    "nii": 2.87,
-    "bnii": 2.53,
-    "snii": 3.53,
-    "retail": 2.95,
-    "employee": 4.72,
-    "total": 2.73
-   },
-   {
-    "at": "2026-11-19T16:15+05:30",
-    "qib": 2.18,
-    "nii": 2.89,
-    "bnii": 2.55,
-    "snii": 3.56,
-    "retail": 2.98,
-    "employee": 4.74,
-    "total": 2.75
-   },
-   {
-    "at": "2026-11-19T16:31+05:30",
-    "qib": 2.18,
-    "nii": 3.22,
-    "bnii": 2.93,
-    "snii": 3.81,
-    "retail": 3.04,
-    "employee": 4.78,
-    "total": 2.85
-   },
-   {
-    "at": "2026-11-19T16:45+05:30",
-    "qib": 2.18,
-    "nii": 3.38,
-    "bnii": 3.06,
-    "snii": 4.02,
-    "retail": 3.08,
-    "employee": 4.78,
-    "total": 2.91
-   },
-   {
-    "at": "2026-11-19T16:54+05:30",
-    "qib": 2.18,
-    "nii": 3.4,
-    "bnii": 3.08,
-    "snii": 4.04,
-    "retail": 3.09,
-    "employee": 4.8,
-    "total": 2.92
-   },
-   {
-    "at": "2026-11-19T17:01+05:30",
-    "qib": 2.18,
-    "nii": 3.43,
-    "bnii": 3.1,
-    "snii": 4.08,
-    "retail": 3.12,
-    "employee": 4.81,
-    "total": 2.94
-   },
-   {
-    "at": "2026-11-19T17:15+05:30",
-    "qib": 2.18,
-    "nii": 3.43,
-    "bnii": 3.11,
-    "snii": 4.08,
-    "retail": 3.12,
-    "employee": 4.83,
-    "total": 2.94
-   },
-   {
-    "at": "2026-11-20T10:15+05:30",
-    "qib": 2.18,
-    "nii": 4.15,
-    "bnii": 3.81,
-    "snii": 4.84,
-    "retail": 3.52,
-    "employee": 5.21,
-    "total": 3.3
-   },
-   {
-    "at": "2026-11-20T10:31+05:30",
+    "at": "2026-11-20T10:46+05:30",
     "qib": 2.19,
-    "nii": 4.72,
-    "bnii": 4.43,
-    "snii": 5.32,
-    "retail": 3.76,
-    "employee": 5.56,
-    "total": 3.54
-   },
-   {
-    "at": "2026-11-20T10:45+05:30",
-    "qib": 2.19,
-    "nii": 5.64,
-    "bnii": 5.5,
-    "snii": 5.93,
-    "retail": 3.97,
-    "employee": 5.69,
-    "total": 3.84
+    "nii": 5.7,
+    "bnii": 5.56,
+    "snii": 5.96,
+    "retail": 3.98,
+    "employee": 5.7,
+    "total": 3.86
    }
   ]
  },
@@ -2285,7 +1725,7 @@
   "series": "SME",
   "nse_status": "Active",
   "shares_offered": 3516000.0,
-  "last_seen": "2026-11-20T10:45+05:30",
+  "last_seen": "2026-11-20T10:46+05:30",
   "segment": "SME",
   "registrar": "Maashitla Securities Private Limited",
   "lead_managers": [
@@ -2293,7 +1733,7 @@
   ],
   "cutoff_time": "5:00 PM",
   "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_WATRANA.zip",
-  "details_at": "2026-11-20T00:01+05:30",
+  "details_at": "2026-11-20T10:46+05:30",
   "sub": {
    "qib": 0.0,
    "nii": 0.0,
@@ -2305,11 +1745,7 @@
   "sub_asof": "2026-11-20T10:42",
   "sub_hist": [
    {
-    "at": "2026-11-19T00:01+05:30",
-    "total": 0.0
-   },
-   {
-    "at": "2026-11-19T10:15+05:30",
+    "at": "2026-11-20T10:46+05:30",
     "qib": 0.0,
     "nii": 0.0,
     "bnii": 0.0,
@@ -2320,7 +1756,7 @@
  },
  "MAHACOAL": {
   "symbol": "MAHACOAL",
-  "first_seen": "2026-11-18T11:45+05:30",
+  "first_seen": "2026-11-20T10:46+05:30",
   "name": "Mahanadi Coalfields",
   "open": "2026-11-19",
   "close": "2026-11-23",
@@ -2329,17 +1765,8 @@
   "series": "Equity",
   "nse_status": "Active",
   "shares_offered": 493068045.0,
-  "last_seen": "2026-11-20T10:45+05:30",
+  "last_seen": "2026-11-20T10:46+05:30",
   "segment": "SME",
-  "lot": 110,
-  "registrar": "KFin Technologies Limited",
-  "lead_managers": [
-   "SBI Capital Markets Limited, Axis Capital Limited, BOB Capital Markets Limited, IDBI Capital Markets and Securities Limited and IIFL Capital Services Limited"
-  ],
-  "retail_max": 200000,
-  "cutoff_time": "5:00 PM",
-  "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_MAHACOAL.zip",
-  "details_at": "2026-11-20T00:01+05:30",
   "sub": {
    "qib": 1.26,
    "nii": 0.1,
@@ -2352,343 +1779,25 @@
   },
   "sub_basis": "NSE+BSE",
   "sub_asof": "2026-11-20T10:42",
+  "lot": 110,
+  "registrar": "KFin Technologies Limited",
+  "lead_managers": [
+   "SBI Capital Markets Limited, Axis Capital Limited, BOB Capital Markets Limited, IDBI Capital Markets and Securities Limited and IIFL Capital Services Limited"
+  ],
+  "retail_max": 200000,
+  "cutoff_time": "5:00 PM",
+  "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_MAHACOAL.zip",
+  "reservation": {
+   "qib": 22.82,
+   "nii": 17.11,
+   "retail": 39.93,
+   "employee": 6.71,
+   "shareholders": 13.42
+  },
+  "details_at": "2026-11-20T10:46+05:30",
   "sub_hist": [
    {
-    "at": "2026-11-19T00:01+05:30",
-    "total": 0.0
-   },
-   {
-    "at": "2026-11-19T10:15+05:30",
-    "qib": 0.0,
-    "nii": 0.01,
-    "bnii": 0.01,
-    "snii": 0.01,
-    "retail": 0.02,
-    "employee": 0.0,
-    "shareholders": 0.01,
-    "total": 0.01
-   },
-   {
-    "at": "2026-11-19T10:31+05:30",
-    "qib": 0.0,
-    "nii": 0.02,
-    "bnii": 0.01,
-    "snii": 0.03,
-    "retail": 0.03,
-    "employee": 0.01,
-    "shareholders": 0.03,
-    "total": 0.02
-   },
-   {
-    "at": "2026-11-19T10:45+05:30",
-    "qib": 0.0,
-    "nii": 0.02,
-    "bnii": 0.01,
-    "snii": 0.03,
-    "retail": 0.04,
-    "employee": 0.02,
-    "shareholders": 0.04,
-    "total": 0.03
-   },
-   {
-    "at": "2026-11-19T11:01+05:30",
-    "qib": 0.0,
-    "nii": 0.02,
-    "bnii": 0.02,
-    "snii": 0.04,
-    "retail": 0.05,
-    "employee": 0.02,
-    "shareholders": 0.05,
-    "total": 0.03
-   },
-   {
-    "at": "2026-11-19T11:15+05:30",
-    "qib": 0.0,
-    "nii": 0.03,
-    "bnii": 0.02,
-    "snii": 0.05,
-    "retail": 0.06,
-    "employee": 0.02,
-    "shareholders": 0.06,
-    "total": 0.04
-   },
-   {
-    "at": "2026-11-19T11:31+05:30",
-    "qib": 0.0,
-    "nii": 0.03,
-    "bnii": 0.02,
-    "snii": 0.05,
-    "retail": 0.07,
-    "employee": 0.03,
-    "shareholders": 0.06,
-    "total": 0.04
-   },
-   {
-    "at": "2026-11-19T11:45+05:30",
-    "qib": 0.0,
-    "nii": 0.03,
-    "bnii": 0.02,
-    "snii": 0.06,
-    "retail": 0.07,
-    "employee": 0.03,
-    "shareholders": 0.07,
-    "total": 0.05
-   },
-   {
-    "at": "2026-11-19T12:01+05:30",
-    "qib": 0.0,
-    "nii": 0.03,
-    "bnii": 0.02,
-    "snii": 0.06,
-    "retail": 0.08,
-    "employee": 0.03,
-    "shareholders": 0.07,
-    "total": 0.05
-   },
-   {
-    "at": "2026-11-19T12:15+05:30",
-    "qib": 0.0,
-    "nii": 0.04,
-    "bnii": 0.02,
-    "snii": 0.07,
-    "retail": 0.08,
-    "employee": 0.03,
-    "shareholders": 0.08,
-    "total": 0.05
-   },
-   {
-    "at": "2026-11-19T12:31+05:30",
-    "qib": 0.33,
-    "nii": 0.04,
-    "bnii": 0.02,
-    "snii": 0.07,
-    "retail": 0.08,
-    "employee": 0.03,
-    "shareholders": 0.08,
-    "total": 0.13
-   },
-   {
-    "at": "2026-11-19T12:45+05:30",
-    "qib": 0.33,
-    "nii": 0.04,
-    "bnii": 0.02,
-    "snii": 0.07,
-    "retail": 0.09,
-    "employee": 0.04,
-    "shareholders": 0.09,
-    "total": 0.13
-   },
-   {
-    "at": "2026-11-19T13:01+05:30",
-    "qib": 0.33,
-    "nii": 0.04,
-    "bnii": 0.03,
-    "snii": 0.08,
-    "retail": 0.09,
-    "employee": 0.04,
-    "shareholders": 0.09,
-    "total": 0.13
-   },
-   {
-    "at": "2026-11-19T13:15+05:30",
-    "qib": 0.33,
-    "nii": 0.04,
-    "bnii": 0.03,
-    "snii": 0.08,
-    "retail": 0.09,
-    "employee": 0.04,
-    "shareholders": 0.1,
-    "total": 0.14
-   },
-   {
-    "at": "2026-11-19T13:31+05:30",
-    "qib": 0.33,
-    "nii": 0.05,
-    "bnii": 0.03,
-    "snii": 0.08,
-    "retail": 0.1,
-    "employee": 0.04,
-    "shareholders": 0.1,
-    "total": 0.14
-   },
-   {
-    "at": "2026-11-19T13:45+05:30",
-    "qib": 0.33,
-    "nii": 0.05,
-    "bnii": 0.03,
-    "snii": 0.09,
-    "retail": 0.1,
-    "employee": 0.04,
-    "shareholders": 0.1,
-    "total": 0.14
-   },
-   {
-    "at": "2026-11-19T14:01+05:30",
-    "qib": 0.33,
-    "nii": 0.05,
-    "bnii": 0.03,
-    "snii": 0.09,
-    "retail": 0.1,
-    "employee": 0.04,
-    "shareholders": 0.11,
-    "total": 0.14
-   },
-   {
-    "at": "2026-11-19T14:15+05:30",
-    "qib": 0.33,
-    "nii": 0.05,
-    "bnii": 0.04,
-    "snii": 0.09,
-    "retail": 0.11,
-    "employee": 0.04,
-    "shareholders": 0.11,
-    "total": 0.14
-   },
-   {
-    "at": "2026-11-19T14:31+05:30",
-    "qib": 0.33,
-    "nii": 0.06,
-    "bnii": 0.04,
-    "snii": 0.1,
-    "retail": 0.11,
-    "employee": 0.04,
-    "shareholders": 0.11,
-    "total": 0.15
-   },
-   {
-    "at": "2026-11-19T14:45+05:30",
-    "qib": 0.33,
-    "nii": 0.06,
-    "bnii": 0.04,
-    "snii": 0.1,
-    "retail": 0.11,
-    "employee": 0.04,
-    "shareholders": 0.12,
-    "total": 0.15
-   },
-   {
-    "at": "2026-11-19T15:01+05:30",
-    "qib": 1.26,
-    "nii": 0.06,
-    "bnii": 0.04,
-    "snii": 0.1,
-    "retail": 0.12,
-    "employee": 0.05,
-    "shareholders": 0.12,
-    "total": 0.36
-   },
-   {
-    "at": "2026-11-19T15:15+05:30",
-    "qib": 1.26,
-    "nii": 0.06,
-    "bnii": 0.04,
-    "snii": 0.11,
-    "retail": 0.12,
-    "employee": 0.05,
-    "shareholders": 0.12,
-    "total": 0.37
-   },
-   {
-    "at": "2026-11-19T15:31+05:30",
-    "qib": 1.26,
-    "nii": 0.06,
-    "bnii": 0.04,
-    "snii": 0.11,
-    "retail": 0.12,
-    "employee": 0.05,
-    "shareholders": 0.13,
-    "total": 0.37
-   },
-   {
-    "at": "2026-11-19T15:45+05:30",
-    "qib": 1.26,
-    "nii": 0.07,
-    "bnii": 0.04,
-    "snii": 0.11,
-    "retail": 0.12,
-    "employee": 0.05,
-    "shareholders": 0.13,
-    "total": 0.37
-   },
-   {
-    "at": "2026-11-19T16:01+05:30",
-    "qib": 1.26,
-    "nii": 0.07,
-    "bnii": 0.04,
-    "snii": 0.11,
-    "retail": 0.13,
-    "employee": 0.05,
-    "shareholders": 0.13,
-    "total": 0.37
-   },
-   {
-    "at": "2026-11-19T16:15+05:30",
-    "qib": 1.26,
-    "nii": 0.07,
-    "bnii": 0.05,
-    "snii": 0.12,
-    "retail": 0.13,
-    "employee": 0.05,
-    "shareholders": 0.14,
-    "total": 0.37
-   },
-   {
-    "at": "2026-11-19T16:31+05:30",
-    "qib": 1.26,
-    "nii": 0.08,
-    "bnii": 0.05,
-    "snii": 0.12,
-    "retail": 0.13,
-    "employee": 0.05,
-    "shareholders": 0.14,
-    "total": 0.38
-   },
-   {
-    "at": "2026-11-19T16:45+05:30",
-    "qib": 1.26,
-    "nii": 0.08,
-    "bnii": 0.05,
-    "snii": 0.12,
-    "retail": 0.13,
-    "employee": 0.05,
-    "shareholders": 0.15,
-    "total": 0.38
-   },
-   {
-    "at": "2026-11-19T16:54+05:30",
-    "qib": 1.26,
-    "nii": 0.08,
-    "bnii": 0.05,
-    "snii": 0.13,
-    "retail": 0.13,
-    "employee": 0.05,
-    "shareholders": 0.15,
-    "total": 0.38
-   },
-   {
-    "at": "2026-11-20T10:15+05:30",
-    "qib": 1.26,
-    "nii": 0.09,
-    "bnii": 0.06,
-    "snii": 0.15,
-    "retail": 0.16,
-    "employee": 0.06,
-    "shareholders": 0.17,
-    "total": 0.39
-   },
-   {
-    "at": "2026-11-20T10:31+05:30",
-    "qib": 1.26,
-    "nii": 0.1,
-    "bnii": 0.07,
-    "snii": 0.16,
-    "retail": 0.17,
-    "employee": 0.06,
-    "shareholders": 0.18,
-    "total": 0.4
-   },
-   {
-    "at": "2026-11-20T10:45+05:30",
+    "at": "2026-11-20T10:46+05:30",
     "qib": 1.26,
     "nii": 0.1,
     "bnii": 0.07,
@@ -2698,13 +1807,6 @@
     "shareholders": 0.19,
     "total": 0.4
    }
-  ],
-  "reservation": {
-   "qib": 22.82,
-   "nii": 17.11,
-   "retail": 39.93,
-   "employee": 6.71,
-   "shareholders": 13.42
-  }
+  ]
  }
 }

@@ -1,8 +1,12 @@
 {
  "crystal-crop-protection": {
-  "at": "2026-11-20T06:01+05:30",
+  "at": "2026-11-20T10:47+05:30",
   "detail": {
    "gmp_history": [
+    [
+     "2026-11-20",
+     17.0
+    ],
     [
      "2026-11-19",
      17.0
@@ -24,14 +28,48 @@
      27.0
     ]
    ],
-   "sub": {
-    "employee": 5.12,
-    "nii": 3.58,
-    "qib": 2.23,
-    "retail": 3.31,
-    "total": 3.08
+   "reservation": {
+    "anchor": {
+     "pct": 29.82,
+     "shares": 4998708
+    },
+    "bnii": {
+     "pct": 9.94,
+     "shares": 1666236
+    },
+    "employee": {
+     "pct": 0.6,
+     "shares": 101215
+    },
+    "nii": {
+     "pct": 14.91,
+     "shares": 2499354
+    },
+    "qib": {
+     "pct": 49.7,
+     "shares": 4998708
+    },
+    "qib_ex_anchor": {
+     "pct": 19.88,
+     "shares": 3332473
+    },
+    "retail": {
+     "pct": 34.79,
+     "shares": 5831827
+    },
+    "snii": {
+     "pct": 4.97,
+     "shares": 833118
+    }
    },
-   "sub_at": "2026-11-19T18:02",
+   "sub": {
+    "employee": 5.9,
+    "nii": 5.33,
+    "qib": 2.23,
+    "retail": 4.03,
+    "total": 3.82
+   },
+   "sub_at": "2026-11-20T10:37",
    "uses": [
     {
      "cr": 247.94,
@@ -45,9 +83,13 @@
   }
  },
  "mahanadi-coalfields": {
-  "at": "2026-11-20T06:01+05:30",
+  "at": "2026-11-20T10:47+05:30",
   "detail": {
    "gmp_history": [
+    [
+     "2026-11-20",
+     2.0
+    ],
     [
      "2026-11-19",
      2.0
@@ -108,14 +150,14 @@
     }
    },
    "sub": {
-    "employee": 0.05,
-    "nii": 0.08,
+    "employee": 0.06,
+    "nii": 0.09,
     "qib": 1.26,
-    "retail": 0.14,
-    "shareholders": 0.15,
-    "total": 0.38
+    "retail": 0.16,
+    "shareholders": 0.17,
+    "total": 0.4
    },
-   "sub_at": "2026-11-19T18:01",
+   "sub_at": "2026-11-20T10:13",
    "uses": [
     {
      "cr": 8981.12,
@@ -125,7 +167,7 @@
   }
  },
  "shree-siddhivinayak-greentech-industries": {
-  "at": "2026-11-20T10:31+05:30",
+  "at": "2026-11-20T10:47+05:30",
   "detail": {
    "reservation": {
     "nii": {
@@ -150,7 +192,7 @@
   }
  },
  "watrana-rentals": {
-  "at": "2026-11-20T06:01+05:30",
+  "at": "2026-11-20T10:47+05:30",
   "detail": {
    "gmp_history": [
     [
@@ -205,11 +247,11 @@
     }
    },
    "sub": {
-    "nii": 5.67,
-    "retail": 5.14,
-    "total": 3.78
+    "nii": 7.02,
+    "retail": 6.99,
+    "total": 4.99
    },
-   "sub_at": "2026-11-19T18:01",
+   "sub_at": "2026-11-20T10:36",
    "uses": [
     {
      "cr": 98.13,
