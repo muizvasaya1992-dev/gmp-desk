@@ -82,6 +82,78 @@
    ]
   }
  },
+ "foodlink-fb-holdings-india": {
+  "at": "2026-11-20T16:01+05:30",
+  "detail": {
+   "gmp_history": [
+    [
+     "2026-11-20",
+     12.0
+    ],
+    [
+     "2026-11-19",
+     12.0
+    ],
+    [
+     "2026-11-18",
+     15.0
+    ]
+   ],
+   "uses": [
+    {
+     "cr": 21.4,
+     "use": "Capital Expense"
+    },
+    {
+     "cr": 41.5,
+     "use": "Capital Expense"
+    },
+    {
+     "cr": 50.81,
+     "use": "Investment"
+    },
+    {
+     "cr": 21.0,
+     "use": "Debt"
+    }
+   ],
+   "years": [
+    {
+     "assets": 268.13,
+     "debt": 125.41,
+     "ebitda": 30.63,
+     "income": 380.17,
+     "net_worth": 79.59,
+     "pat": -15.35,
+     "roce": null,
+     "roe": -17.88,
+     "y": "FY24"
+    },
+    {
+     "assets": 318.59,
+     "debt": 138.94,
+     "ebitda": 61.45,
+     "income": 455.4,
+     "net_worth": 106.22,
+     "pat": 14.26,
+     "roce": null,
+     "roe": 15.35,
+     "y": "FY25"
+    },
+    {
+     "assets": 454.32,
+     "debt": 127.97,
+     "ebitda": 78.43,
+     "income": 572.26,
+     "net_worth": 229.35,
+     "pat": 29.11,
+     "roce": null,
+     "roe": 17.35,
+     "y": "FY26"
+    }
+   ]
+  }
+ },
  "mahanadi-coalfields": {
   "at": "2026-11-20T10:47+05:30",
   "detail": {

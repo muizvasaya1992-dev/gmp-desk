@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-20T15:45+05:30",
+  "fetched_at": "2026-11-20T16:01+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -15,11 +15,11 @@
     "price": 272.0,
     "price_low": 259.0,
     "size_cr": 455.72,
-    "gmp": 15.0,
-    "gmp_at": "2026-11-20T15:40",
-    "sub_total": 15.88,
-    "sub_retail": 7.88,
-    "sub_at": "2026-11-20T15:44",
+    "gmp": 14.0,
+    "gmp_at": "2026-11-20T15:55",
+    "sub_total": 16.44,
+    "sub_retail": 8.224,
+    "sub_at": "2026-11-20T15:59",
     "sub_cats": null,
     "gmp_days": [
      [
@@ -60,7 +60,7 @@
      ],
      [
       "2026-11-20",
-      15.0
+      14.0
      ]
     ],
     "rhp_url": "https://www.iiflcapital.com/institutional-equities/upload/investmentbanking/prospects/crystal_crop_protection_limited_-_red_herring_prospectus.pdf",
@@ -91,11 +91,11 @@
     "price": 136.0,
     "price_low": 129.0,
     "size_cr": 8981.12,
-    "gmp": 1.35,
-    "gmp_at": "2026-11-20T15:40",
-    "sub_total": 0.47,
-    "sub_retail": 0.233,
-    "sub_at": "2026-11-20T15:45",
+    "gmp": 1.25,
+    "gmp_at": "2026-11-20T15:55",
+    "sub_total": 0.48,
+    "sub_retail": 0.236,
+    "sub_at": "2026-11-20T15:59",
     "sub_cats": null,
     "gmp_days": [
      [
@@ -128,7 +128,7 @@
      ],
      [
       "2026-11-20",
-      1.35
+      1.25
      ]
     ],
     "rhp_url": "https://media.ipoji.com/rhp/MCL_RHP_Filing_Version_13112026.pdf",
@@ -162,10 +162,10 @@
     "price_low": 232.0,
     "size_cr": 120.1,
     "gmp": 67.0,
-    "gmp_at": "2026-11-20T15:40",
-    "sub_total": 9.72,
-    "sub_retail": 12.76,
-    "sub_at": "2026-11-20T15:43",
+    "gmp_at": "2026-11-20T15:55",
+    "sub_total": 10.48,
+    "sub_retail": 13.72,
+    "sub_at": "2026-11-20T15:58",
     "sub_cats": null,
     "gmp_days": [
      [
@@ -219,30 +219,8 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-20T15:45+05:30",
+  "fetched_at": "2026-11-20T16:01+05:30",
   "records": [
-   {
-    "src": "Tracker C",
-    "slug": "monomark-engineering",
-    "name": "Monomark Engineering",
-    "segment": "MAIN",
-    "exchange": null,
-    "open": null,
-    "close": null,
-    "boa": null,
-    "listing": null,
-    "price": null,
-    "price_low": null,
-    "size_cr": null,
-    "gmp": null,
-    "gmp_at": "2026-11-20T12:10",
-    "sub_total": null,
-    "sub_retail": null,
-    "sub_at": null,
-    "lot": null,
-    "rating": 1,
-    "live": true
-   },
    {
     "src": "Tracker C",
     "slug": "foodlink-fb",
@@ -257,7 +235,7 @@
     "price_low": null,
     "size_cr": null,
     "gmp": 12.0,
-    "gmp_at": "2026-11-20T12:37",
+    "gmp_at": "2026-11-20T11:37",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -279,7 +257,7 @@
     "price_low": null,
     "size_cr": 93.66,
     "gmp": null,
-    "gmp_at": "2026-11-20T12:29",
+    "gmp_at": "2026-11-20T11:35",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -301,8 +279,8 @@
     "price_low": null,
     "size_cr": 120.1,
     "gmp": 67.0,
-    "gmp_at": "2026-11-20T12:37",
-    "sub_total": 7.32,
+    "gmp_at": "2026-11-20T11:37",
+    "sub_total": 6.15,
     "sub_retail": null,
     "sub_at": null,
     "lot": 600.0,
@@ -322,9 +300,9 @@
     "price": 136.0,
     "price_low": null,
     "size_cr": 8981.12,
-    "gmp": 1.5,
-    "gmp_at": "2026-11-20T12:37",
-    "sub_total": 0.43,
+    "gmp": 1.6,
+    "gmp_at": "2026-11-20T11:37",
+    "sub_total": 0.42,
     "sub_retail": null,
     "sub_at": null,
     "lot": 110.0,
@@ -344,9 +322,9 @@
     "price": 272.0,
     "price_low": null,
     "size_cr": 455.49,
-    "gmp": 15.0,
-    "gmp_at": "2026-11-20T12:37",
-    "sub_total": 5.87,
+    "gmp": 16.5,
+    "gmp_at": "2026-11-20T11:37",
+    "sub_total": 4.66,
     "sub_retail": null,
     "sub_at": null,
     "lot": 55.0,
@@ -770,11 +748,33 @@
     "lot": 800.0,
     "rating": 1,
     "live": false
+   },
+   {
+    "src": "Tracker C",
+    "slug": "zetwerk",
+    "name": "Zetwerk",
+    "segment": "MAIN",
+    "exchange": null,
+    "open": "2026-10-15",
+    "close": "2026-10-19",
+    "boa": "2026-10-21",
+    "listing": "2026-10-23",
+    "price": 151.0,
+    "price_low": null,
+    "size_cr": 5012.33,
+    "gmp": 1.2,
+    "gmp_at": "2026-10-23T09:37",
+    "sub_total": 3.1,
+    "sub_retail": null,
+    "sub_at": null,
+    "lot": 99.0,
+    "rating": 1,
+    "live": false
    }
   ]
  },
  "d": {
-  "fetched_at": "2026-11-20T15:45+05:30",
+  "fetched_at": "2026-11-20T16:01+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -789,9 +789,9 @@
     "price": 259.0,
     "price_low": null,
     "size_cr": 455.49,
-    "gmp": 14.25,
+    "gmp": 15.0,
     "gmp_at": null,
-    "sub_total": 16.31,
+    "sub_total": 17.02,
     "sub_retail": null,
     "sub_at": null,
     "lot": 55.0,
@@ -894,7 +894,7 @@
     "size_cr": 120.1,
     "gmp": 67.0,
     "gmp_at": null,
-    "sub_total": 10.3,
+    "sub_total": 10.6,
     "sub_retail": null,
     "sub_at": null,
     "lot": 600.0,
@@ -1173,7 +1173,76 @@
     "lot": 78.0,
     "sector": "Luxury Food Services / Hospitality",
     "detail_url": "https://ipoindex.in/ipo/foodlink-fb-holdings-india-ipo/",
-    "live": false
+    "live": true,
+    "detail": {
+     "gmp_history": [
+      [
+       "2026-11-20",
+       12.0
+      ],
+      [
+       "2026-11-19",
+       12.0
+      ],
+      [
+       "2026-11-18",
+       15.0
+      ]
+     ],
+     "uses": [
+      {
+       "use": "Capital Expense",
+       "cr": 21.4
+      },
+      {
+       "use": "Capital Expense",
+       "cr": 41.5
+      },
+      {
+       "use": "Investment",
+       "cr": 50.81
+      },
+      {
+       "use": "Debt",
+       "cr": 21.0
+      }
+     ],
+     "years": [
+      {
+       "y": "FY24",
+       "income": 380.17,
+       "pat": -15.35,
+       "ebitda": 30.63,
+       "net_worth": 79.59,
+       "debt": 125.41,
+       "assets": 268.13,
+       "roe": -17.88,
+       "roce": null
+      },
+      {
+       "y": "FY25",
+       "income": 455.4,
+       "pat": 14.26,
+       "ebitda": 61.45,
+       "net_worth": 106.22,
+       "debt": 138.94,
+       "assets": 318.59,
+       "roe": 15.35,
+       "roce": null
+      },
+      {
+       "y": "FY26",
+       "income": 572.26,
+       "pat": 29.11,
+       "ebitda": 78.43,
+       "net_worth": 229.35,
+       "debt": 127.97,
+       "assets": 454.32,
+       "roe": 17.35,
+       "roce": null
+      }
+     ]
+    }
    }
   ]
  }
