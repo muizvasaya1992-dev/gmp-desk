@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T09:04+05:30",
+  "generated_at": "2026-11-20T09:15+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-18T11:34+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-20T09:04+05:30",
+    "nse_ok_at": "2026-11-20T09:15+05:30",
     "bse_ok_at": "2026-11-18T11:36+05:30"
   },
   "ipos": [
@@ -3473,7 +3473,7 @@
         {
           "source": "Tracker B",
           "gmp": 17,
-          "at": "2026-11-20T06:05"
+          "at": "2026-11-20T09:10"
         }
       ],
       "gmp_history": [
@@ -3515,8 +3515,8 @@
       "gmp_high": 45,
       "exchange": "SME",
       "gmp": 17,
-      "gmp_asof": "2026-11-20T09:04",
-      "gmp_source_latest": "Tracker D",
+      "gmp_asof": "2026-11-20T09:10",
+      "gmp_source_latest": "Tracker B",
       "gmp_pct": 6.25,
       "gmp_spread": {
         "min": 17,
@@ -3730,7 +3730,7 @@
         {
           "source": "Tracker B",
           "gmp": 67,
-          "at": "2026-11-20T06:05"
+          "at": "2026-11-20T09:10"
         }
       ],
       "gmp_history": [
@@ -3772,8 +3772,8 @@
       "gmp_high": 67,
       "exchange": "SME",
       "gmp": 67,
-      "gmp_asof": "2026-11-20T09:04",
-      "gmp_source_latest": "Tracker D",
+      "gmp_asof": "2026-11-20T09:10",
+      "gmp_source_latest": "Tracker B",
       "gmp_pct": 27.35,
       "gmp_spread": {
         "min": 40,
@@ -4231,7 +4231,7 @@
         {
           "source": "Tracker B",
           "gmp": 1.8,
-          "at": "2026-11-20T06:05"
+          "at": "2026-11-20T09:10"
         }
       ],
       "gmp_history": [
@@ -4268,10 +4268,10 @@
       "gmp_low": 1.4,
       "gmp_high": 13,
       "exchange": "SME",
-      "gmp": 2,
-      "gmp_asof": "2026-11-20T09:04",
-      "gmp_source_latest": "Tracker D",
-      "gmp_pct": 1.47,
+      "gmp": 1.8,
+      "gmp_asof": "2026-11-20T09:10",
+      "gmp_source_latest": "Tracker B",
+      "gmp_pct": 1.32,
       "gmp_spread": {
         "min": 1.8,
         "max": 2,
@@ -4542,7 +4542,7 @@
       "sector": "Sugar",
       "gmp_watch": {
         "sources": 2,
-        "at": "2026-11-20T09:04"
+        "at": "2026-11-20T09:15"
       },
       "gmp_sources": [],
       "gmp_history": [],
