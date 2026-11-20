@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-20T10:31+05:30",
+  "fetched_at": "2026-11-20T10:45+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,10 +16,10 @@
     "price_low": 259.0,
     "size_cr": 455.72,
     "gmp": 17.0,
-    "gmp_at": "2026-11-20T10:30",
-    "sub_total": 3.54,
-    "sub_retail": 3.756,
-    "sub_at": "2026-11-20T10:30",
+    "gmp_at": "2026-11-20T10:45",
+    "sub_total": 3.84,
+    "sub_retail": 3.969,
+    "sub_at": "2026-11-20T10:45",
     "sub_cats": null,
     "gmp_days": [
      [
@@ -88,10 +88,10 @@
     "price_low": 129.0,
     "size_cr": 8981.12,
     "gmp": 1.8,
-    "gmp_at": "2026-11-20T10:30",
+    "gmp_at": "2026-11-20T10:45",
     "sub_total": 0.4,
-    "sub_retail": 0.168,
-    "sub_at": "2026-11-20T10:30",
+    "sub_retail": 0.172,
+    "sub_at": "2026-11-20T10:43",
     "sub_cats": null,
     "gmp_days": [
      [
@@ -154,7 +154,7 @@
     "price_low": 232.0,
     "size_cr": 120.1,
     "gmp": 67.0,
-    "gmp_at": "2026-11-20T10:30",
+    "gmp_at": "2026-11-20T10:40",
     "sub_total": 0.0,
     "sub_retail": null,
     "sub_at": null,
@@ -207,7 +207,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-20T10:31+05:30",
+  "fetched_at": "2026-11-20T10:45+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -762,7 +762,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-20T10:31+05:30",
+  "fetched_at": "2026-11-20T10:45+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -779,7 +779,7 @@
     "size_cr": 455.49,
     "gmp": 17.0,
     "gmp_at": null,
-    "sub_total": 3.41,
+    "sub_total": 3.82,
     "sub_retail": null,
     "sub_at": null,
     "lot": 55.0,
@@ -844,7 +844,7 @@
     "size_cr": 120.1,
     "gmp": 67.0,
     "gmp_at": null,
-    "sub_total": 4.79,
+    "sub_total": 4.99,
     "sub_retail": null,
     "sub_at": null,
     "lot": 600.0,
@@ -1078,22 +1078,22 @@
     "detail": {
      "reservation": {
       "nii": {
-       "shares": 3100000,
-       "pct": 49.47
+       "pct": 49.47,
+       "shares": 3100000
       },
       "retail": {
-       "shares": 3100000,
-       "pct": 49.47
+       "pct": 49.47,
+       "shares": 3100000
       }
      },
      "uses": [
       {
-       "use": "Capital Expense",
-       "cr": 23.54
+       "cr": 23.54,
+       "use": "Capital Expense"
       },
       {
-       "use": "Debt",
-       "cr": 48.5
+       "cr": 48.5,
+       "use": "Debt"
       }
      ]
     }
