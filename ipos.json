@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T22:15+05:30",
+  "generated_at": "2026-11-20T22:31+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-20T10:46+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-20T22:15+05:30",
+    "nse_ok_at": "2026-11-20T22:31+05:30",
     "bse_ok_at": "2026-11-20T10:49+05:30"
   },
   "ipos": [
@@ -3157,10 +3157,10 @@
           "total": 17.07
         }
       ],
-      "series": "Equity",
+      "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 12170076.0,
-      "updated_on": "2026-11-20T19:15+05:30",
+      "updated_on": "2026-11-20T22:31+05:30",
       "bse_ipo_no": "8089",
       "drhp_url": "https://www.sebi.gov.in/filings/public-issues/dec-2025/crystal-crop-protection-limited-drhp_98530.html",
       "sector": "Chemicals",
@@ -3374,7 +3374,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": 3516000.0,
-      "updated_on": "2026-11-20T19:15+05:30",
+      "updated_on": "2026-11-20T22:31+05:30",
       "reservation": {
         "qib": 47.37,
         "nii": 14.25,
@@ -3825,10 +3825,10 @@
           "total": 0.48
         }
       ],
-      "series": "Equity",
+      "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 493068045.0,
-      "updated_on": "2026-11-20T19:15+05:30",
+      "updated_on": "2026-11-20T22:31+05:30",
       "bse_ipo_no": "8092",
       "drhp_url": "https://nsearchives.nseindia.com/corporate/Registration_01092026212900_MCLDRHP.pdf",
       "sector": "Coal Mining",
@@ -4022,7 +4022,7 @@
       "series": "SME",
       "nse_status": "Forthcoming",
       "shares_offered": 6596000.0,
-      "updated_on": "2026-11-20T19:15+05:30",
+      "updated_on": "2026-11-20T22:31+05:30",
       "tracker_rating": 1,
       "reservation_detail": {
         "nii": {
@@ -4051,7 +4051,7 @@
       "sector": "Sugar",
       "gmp_watch": {
         "sources": 2,
-        "at": "2026-11-20T22:15"
+        "at": "2026-11-20T22:31"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
