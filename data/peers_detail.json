@@ -154,6 +154,25 @@
    ]
   }
  },
+ "integris-medtech": {
+  "at": "2026-11-20T18:16+05:30",
+  "detail": {
+   "uses": [
+    {
+     "cr": 696.39,
+     "use": "Debt"
+    },
+    {
+     "cr": 125.4,
+     "use": "Subsidiaries"
+    },
+    {
+     "cr": 571.0,
+     "use": "Subsidiaries"
+    }
+   ]
+  }
+ },
  "mahanadi-coalfields": {
   "at": "2026-11-20T17:01+05:30",
   "detail": {
@@ -234,6 +253,46 @@
     {
      "cr": 8981.12,
      "use": "Offer for Sale Proceeds"
+    }
+   ]
+  }
+ },
+ "monomark-engineering": {
+  "at": "2026-11-20T18:16+05:30",
+  "detail": {
+   "years": [
+    {
+     "assets": 0,
+     "debt": 0,
+     "ebitda": 0,
+     "income": 0,
+     "net_worth": 0,
+     "pat": 0,
+     "roce": 10.53,
+     "roe": 10.53,
+     "y": "FY23"
+    },
+    {
+     "assets": 240.81,
+     "debt": 0,
+     "ebitda": 31.89,
+     "income": 392.14,
+     "net_worth": 9.68,
+     "pat": 14.83,
+     "roce": 20.05,
+     "roe": 24.67,
+     "y": "FY24"
+    },
+    {
+     "assets": 294,
+     "debt": 0,
+     "ebitda": 39,
+     "income": 477.29,
+     "net_worth": 17,
+     "pat": 18,
+     "roce": 21.95,
+     "roe": 24.86,
+     "y": "FY25"
     }
    ]
   }
