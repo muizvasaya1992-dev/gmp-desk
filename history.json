@@ -6,17 +6,16 @@
   {
    "name": "Shree Siddhivinayak Greentech Industries",
    "segment": "SME",
-   "symbol": null,
+   "symbol": "SHREESIDHI",
    "listing": "2026-12-02",
-   "exchange": "NSE Emerge",
+   "exchange": "SME",
    "live": true,
-   "id": "shree-siddhivinayak-greentech-industries",
+   "id": "shreesidhi",
    "status": "upcoming",
    "open": "2026-11-25",
    "close": "2026-11-27",
    "price": 142,
-   "price_low": null,
-   "unconfirmed": true
+   "price_low": 130
   },
   {
    "name": "Watrana Rentals",
@@ -5677,5 +5676,5 @@
    "status": "listed"
   }
  ],
- "generated_at": "2026-11-20T10:46+05:30"
+ "generated_at": "2026-11-20T12:31+05:30"
 }
