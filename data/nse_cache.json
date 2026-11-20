@@ -1653,7 +1653,7 @@
   "series": "Equity",
   "nse_status": "Active",
   "shares_offered": 12170076.0,
-  "last_seen": "2026-11-20T16:45+05:30",
+  "last_seen": "2026-11-20T17:01+05:30",
   "segment": "SME",
   "lot": 55,
   "registrar": "MUFG Intime India Private Limited",
@@ -1666,15 +1666,15 @@
   "details_at": "2026-11-20T10:46+05:30",
   "sub": {
    "qib": 15.47,
-   "nii": 37.61,
+   "nii": 37.68,
    "bnii": 43.49,
-   "snii": 25.85,
-   "retail": 9.04,
-   "employee": 8.16,
-   "total": 16.93
+   "snii": 26.05,
+   "retail": 9.23,
+   "employee": 8.2,
+   "total": 17.04
   },
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-11-20T16:42",
+  "sub_asof": "2026-11-20T16:57",
   "reservation": {
    "qib": 27.99,
    "nii": 21.34,
@@ -1941,6 +1941,16 @@
     "retail": 9.04,
     "employee": 8.16,
     "total": 16.93
+   },
+   {
+    "at": "2026-11-20T17:01+05:30",
+    "qib": 15.47,
+    "nii": 37.68,
+    "bnii": 43.49,
+    "snii": 26.05,
+    "retail": 9.23,
+    "employee": 8.2,
+    "total": 17.04
    }
   ]
  },
@@ -1955,7 +1965,7 @@
   "series": "SME",
   "nse_status": "Active",
   "shares_offered": 3516000.0,
-  "last_seen": "2026-11-20T16:45+05:30",
+  "last_seen": "2026-11-20T17:01+05:30",
   "segment": "SME",
   "registrar": "Maashitla Securities Private Limited",
   "lead_managers": [
@@ -1972,7 +1982,7 @@
    "total": 0.0
   },
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-11-20T16:42",
+  "sub_asof": "2026-11-20T16:57",
   "sub_hist": [
    {
     "at": "2026-11-20T10:46+05:30",
@@ -1995,7 +2005,7 @@
   "series": "Equity",
   "nse_status": "Active",
   "shares_offered": 493068045.0,
-  "last_seen": "2026-11-20T16:45+05:30",
+  "last_seen": "2026-11-20T17:01+05:30",
   "segment": "SME",
   "sub": {
    "qib": 1.37,
@@ -2008,7 +2018,7 @@
    "total": 0.48
   },
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-11-20T16:42",
+  "sub_asof": "2026-11-20T16:57",
   "lot": 110,
   "registrar": "KFin Technologies Limited",
   "lead_managers": [
@@ -2259,7 +2269,7 @@
   "series": "SME",
   "nse_status": "Forthcoming",
   "shares_offered": 6596000.0,
-  "last_seen": "2026-11-20T16:45+05:30",
+  "last_seen": "2026-11-20T17:01+05:30",
   "segment": "SME",
   "registrar": "Mas Services Limited",
   "lead_managers": [

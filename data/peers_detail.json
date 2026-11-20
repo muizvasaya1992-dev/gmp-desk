@@ -1,11 +1,11 @@
 {
  "crystal-crop-protection": {
-  "at": "2026-11-20T10:47+05:30",
+  "at": "2026-11-20T17:01+05:30",
   "detail": {
    "gmp_history": [
     [
      "2026-11-20",
-     17.0
+     15.0
     ],
     [
      "2026-11-19",
@@ -63,13 +63,13 @@
     }
    },
    "sub": {
-    "employee": 5.9,
-    "nii": 5.33,
-    "qib": 2.23,
-    "retail": 4.03,
-    "total": 3.82
+    "employee": 8.64,
+    "nii": 39.11,
+    "qib": 15.81,
+    "retail": 9.57,
+    "total": 17.6
    },
-   "sub_at": "2026-11-20T10:37",
+   "sub_at": "2026-11-20T16:52",
    "uses": [
     {
      "cr": 247.94,
@@ -155,7 +155,7 @@
   }
  },
  "mahanadi-coalfields": {
-  "at": "2026-11-20T10:47+05:30",
+  "at": "2026-11-20T17:01+05:30",
   "detail": {
    "gmp_history": [
     [
@@ -222,14 +222,14 @@
     }
    },
    "sub": {
-    "employee": 0.06,
-    "nii": 0.09,
-    "qib": 1.26,
-    "retail": 0.16,
-    "shareholders": 0.17,
-    "total": 0.4
+    "employee": 0.09,
+    "nii": 0.18,
+    "qib": 1.37,
+    "retail": 0.25,
+    "shareholders": 0.28,
+    "total": 0.49
    },
-   "sub_at": "2026-11-20T10:13",
+   "sub_at": "2026-11-20T16:52",
    "uses": [
     {
      "cr": 8981.12,
@@ -239,7 +239,7 @@
   }
  },
  "shree-siddhivinayak-greentech-industries": {
-  "at": "2026-11-20T10:47+05:30",
+  "at": "2026-11-20T17:01+05:30",
   "detail": {
    "reservation": {
     "nii": {
@@ -264,7 +264,7 @@
   }
  },
  "watrana-rentals": {
-  "at": "2026-11-20T10:47+05:30",
+  "at": "2026-11-20T17:01+05:30",
   "detail": {
    "gmp_history": [
     [
@@ -319,11 +319,11 @@
     }
    },
    "sub": {
-    "nii": 7.02,
-    "retail": 6.99,
-    "total": 4.99
+    "nii": 19.63,
+    "retail": 15.02,
+    "total": 11.7
    },
-   "sub_at": "2026-11-20T10:36",
+   "sub_at": "2026-11-20T16:51",
    "uses": [
     {
      "cr": 98.13,
