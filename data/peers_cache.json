@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-20T10:15+05:30",
+  "fetched_at": "2026-11-20T10:31+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,10 +16,10 @@
     "price_low": 259.0,
     "size_cr": 455.72,
     "gmp": 17.0,
-    "gmp_at": "2026-11-20T10:10",
-    "sub_total": 3.3,
-    "sub_retail": 3.521,
-    "sub_at": "2026-11-20T10:14",
+    "gmp_at": "2026-11-20T10:30",
+    "sub_total": 3.54,
+    "sub_retail": 3.756,
+    "sub_at": "2026-11-20T10:30",
     "sub_cats": null,
     "gmp_days": [
      [
@@ -88,10 +88,10 @@
     "price_low": 129.0,
     "size_cr": 8981.12,
     "gmp": 1.8,
-    "gmp_at": "2026-11-20T10:10",
-    "sub_total": 0.39,
-    "sub_retail": 0.157,
-    "sub_at": "2026-11-20T10:14",
+    "gmp_at": "2026-11-20T10:30",
+    "sub_total": 0.4,
+    "sub_retail": 0.168,
+    "sub_at": "2026-11-20T10:30",
     "sub_cats": null,
     "gmp_days": [
      [
@@ -154,7 +154,7 @@
     "price_low": 232.0,
     "size_cr": 120.1,
     "gmp": 67.0,
-    "gmp_at": "2026-11-20T10:10",
+    "gmp_at": "2026-11-20T10:30",
     "sub_total": 0.0,
     "sub_retail": null,
     "sub_at": null,
@@ -207,7 +207,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-20T10:15+05:30",
+  "fetched_at": "2026-11-20T10:31+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -223,7 +223,7 @@
     "price_low": null,
     "size_cr": null,
     "gmp": 12.0,
-    "gmp_at": "2026-11-20T08:02",
+    "gmp_at": "2026-11-20T09:02",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -245,7 +245,7 @@
     "price_low": null,
     "size_cr": 93.66,
     "gmp": null,
-    "gmp_at": "2026-11-20T08:01",
+    "gmp_at": "2026-11-20T09:01",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -267,7 +267,7 @@
     "price_low": null,
     "size_cr": 120.1,
     "gmp": 67.0,
-    "gmp_at": "2026-11-20T08:02",
+    "gmp_at": "2026-11-20T09:02",
     "sub_total": 3.78,
     "sub_retail": null,
     "sub_at": null,
@@ -289,7 +289,7 @@
     "price_low": null,
     "size_cr": 8981.12,
     "gmp": 1.8,
-    "gmp_at": "2026-11-20T08:02",
+    "gmp_at": "2026-11-20T09:02",
     "sub_total": 0.38,
     "sub_retail": null,
     "sub_at": null,
@@ -311,7 +311,7 @@
     "price_low": null,
     "size_cr": 455.49,
     "gmp": 17.0,
-    "gmp_at": "2026-11-20T08:02",
+    "gmp_at": "2026-11-20T09:02",
     "sub_total": 3.08,
     "sub_retail": null,
     "sub_at": null,
@@ -762,7 +762,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-20T10:15+05:30",
+  "fetched_at": "2026-11-20T10:31+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -777,7 +777,7 @@
     "price": 259.0,
     "price_low": null,
     "size_cr": 455.49,
-    "gmp": 16.0,
+    "gmp": 17.0,
     "gmp_at": null,
     "sub_total": 3.41,
     "sub_retail": null,
@@ -844,7 +844,7 @@
     "size_cr": 120.1,
     "gmp": 67.0,
     "gmp_at": null,
-    "sub_total": 3.82,
+    "sub_total": 4.79,
     "sub_retail": null,
     "sub_at": null,
     "lot": 600.0,
@@ -966,7 +966,7 @@
     "price": 129.0,
     "price_low": null,
     "size_cr": 8981.12,
-    "gmp": 1.8,
+    "gmp": 1.5,
     "gmp_at": null,
     "sub_total": 0.4,
     "sub_retail": null,
@@ -1078,22 +1078,22 @@
     "detail": {
      "reservation": {
       "nii": {
-       "pct": 49.47,
-       "shares": 3100000
+       "shares": 3100000,
+       "pct": 49.47
       },
       "retail": {
-       "pct": 49.47,
-       "shares": 3100000
+       "shares": 3100000,
+       "pct": 49.47
       }
      },
      "uses": [
       {
-       "cr": 23.54,
-       "use": "Capital Expense"
+       "use": "Capital Expense",
+       "cr": 23.54
       },
       {
-       "cr": 48.5,
-       "use": "Debt"
+       "use": "Debt",
+       "cr": 48.5
       }
      ]
     }
@@ -1111,7 +1111,7 @@
     "price": 180.0,
     "price_low": null,
     "size_cr": null,
-    "gmp": 11.0,
+    "gmp": 12.0,
     "gmp_at": null,
     "sub_total": null,
     "sub_retail": null,
@@ -1119,33 +1119,7 @@
     "lot": 78.0,
     "sector": "Luxury Food Services / Hospitality",
     "detail_url": "https://ipoindex.in/ipo/foodlink-fb-holdings-india-ipo/",
-    "live": true,
-    "detail": {
-     "gmp_history": [
-      [
-       "2026-11-19",
-       12.0
-      ],
-      [
-       "2026-11-18",
-       15.0
-      ]
-     ],
-     "uses": [
-      {
-       "cr": 40.89,
-       "use": "Growth"
-      },
-      {
-       "cr": 45.4,
-       "use": "Growth"
-      },
-      {
-       "cr": 28.45,
-       "use": "Debt"
-      }
-     ]
-    }
+    "live": false
    }
   ]
  }
