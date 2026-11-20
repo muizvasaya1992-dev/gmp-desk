@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-20T10:47+05:30",
+  "fetched_at": "2026-11-20T10:49+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -17,9 +17,9 @@
     "size_cr": 455.72,
     "gmp": 17.0,
     "gmp_at": "2026-11-20T10:45",
-    "sub_total": 3.84,
-    "sub_retail": 3.969,
-    "sub_at": "2026-11-20T10:45",
+    "sub_total": 3.86,
+    "sub_retail": 3.985,
+    "sub_at": "2026-11-20T10:47",
     "sub_cats": null,
     "gmp_days": [
      [
@@ -90,8 +90,8 @@
     "gmp": 1.8,
     "gmp_at": "2026-11-20T10:45",
     "sub_total": 0.4,
-    "sub_retail": 0.172,
-    "sub_at": "2026-11-20T10:43",
+    "sub_retail": 0.173,
+    "sub_at": "2026-11-20T10:46",
     "sub_cats": null,
     "gmp_days": [
      [
@@ -154,7 +154,7 @@
     "price_low": 232.0,
     "size_cr": 120.1,
     "gmp": 67.0,
-    "gmp_at": "2026-11-20T10:40",
+    "gmp_at": "2026-11-20T10:45",
     "sub_total": 0.0,
     "sub_retail": null,
     "sub_at": null,
@@ -207,7 +207,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-20T10:47+05:30",
+  "fetched_at": "2026-11-20T10:49+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -223,7 +223,7 @@
     "price_low": null,
     "size_cr": null,
     "gmp": 12.0,
-    "gmp_at": "2026-11-20T09:02",
+    "gmp_at": "2026-11-20T08:02",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -245,7 +245,7 @@
     "price_low": null,
     "size_cr": 93.66,
     "gmp": null,
-    "gmp_at": "2026-11-20T09:01",
+    "gmp_at": "2026-11-20T08:01",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -267,7 +267,7 @@
     "price_low": null,
     "size_cr": 120.1,
     "gmp": 67.0,
-    "gmp_at": "2026-11-20T09:02",
+    "gmp_at": "2026-11-20T08:02",
     "sub_total": 3.78,
     "sub_retail": null,
     "sub_at": null,
@@ -289,7 +289,7 @@
     "price_low": null,
     "size_cr": 8981.12,
     "gmp": 1.8,
-    "gmp_at": "2026-11-20T09:02",
+    "gmp_at": "2026-11-20T08:02",
     "sub_total": 0.38,
     "sub_retail": null,
     "sub_at": null,
@@ -311,7 +311,7 @@
     "price_low": null,
     "size_cr": 455.49,
     "gmp": 17.0,
-    "gmp_at": "2026-11-20T09:02",
+    "gmp_at": "2026-11-20T08:02",
     "sub_total": 3.08,
     "sub_retail": null,
     "sub_at": null,
@@ -762,7 +762,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-20T10:47+05:30",
+  "fetched_at": "2026-11-20T10:49+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -813,56 +813,56 @@
        27.0
       ]
      ],
-     "sub": {
-      "total": 3.82,
-      "qib": 2.23,
-      "nii": 5.33,
-      "retail": 4.03,
-      "employee": 5.9
-     },
-     "sub_at": "2026-11-20T10:37",
      "reservation": {
-      "qib": {
-       "shares": 4998708,
-       "pct": 49.7
-      },
       "anchor": {
-       "shares": 4998708,
-       "pct": 29.82
-      },
-      "qib_ex_anchor": {
-       "shares": 3332473,
-       "pct": 19.88
-      },
-      "nii": {
-       "shares": 2499354,
-       "pct": 14.91
+       "pct": 29.82,
+       "shares": 4998708
       },
       "bnii": {
-       "shares": 1666236,
-       "pct": 9.94
-      },
-      "snii": {
-       "shares": 833118,
-       "pct": 4.97
-      },
-      "retail": {
-       "shares": 5831827,
-       "pct": 34.79
+       "pct": 9.94,
+       "shares": 1666236
       },
       "employee": {
-       "shares": 101215,
-       "pct": 0.6
+       "pct": 0.6,
+       "shares": 101215
+      },
+      "nii": {
+       "pct": 14.91,
+       "shares": 2499354
+      },
+      "qib": {
+       "pct": 49.7,
+       "shares": 4998708
+      },
+      "qib_ex_anchor": {
+       "pct": 19.88,
+       "shares": 3332473
+      },
+      "retail": {
+       "pct": 34.79,
+       "shares": 5831827
+      },
+      "snii": {
+       "pct": 4.97,
+       "shares": 833118
       }
      },
+     "sub": {
+      "employee": 5.9,
+      "nii": 5.33,
+      "qib": 2.23,
+      "retail": 4.03,
+      "total": 3.82
+     },
+     "sub_at": "2026-11-20T10:37",
      "uses": [
       {
-       "use": "Borrowings",
-       "cr": 247.94
+       "cr": 247.94,
+       "use": "Borrowings"
       },
       {
-       "use": "Subsidiary",
-       "cr": 22.06
+       "cr": 22.06,
+       "use": "Subsidiary"
       }
      ]
     }
@@ -908,89 +908,85 @@
        22.0
       ]
      ],
-     "sub": {
-      "total": 4.99,
-      "nii": 7.02,
-      "retail": 6.99
-     },
-     "sub_at": "2026-11-20T10:36",
      "reservation": {
-      "qib": {
-       "shares": 2322000,
-       "pct": 47.37
-      },
       "anchor": {
-       "shares": 1386000,
-       "pct": 28.27
-      },
-      "qib_ex_anchor": {
-       "shares": 936000,
-       "pct": 19.09
-      },
-      "nii": {
-       "shares": 698400,
-       "pct": 14.25
+       "pct": 28.27,
+       "shares": 1386000
       },
       "bnii": {
-       "shares": 465600,
-       "pct": 9.5
+       "pct": 9.5,
+       "shares": 465600
       },
-      "snii": {
-       "shares": 232800,
-       "pct": 4.75
+      "market_maker": {
+       "pct": 5.14,
+       "shares": 252000
+      },
+      "nii": {
+       "pct": 14.25,
+       "shares": 698400
+      },
+      "qib": {
+       "pct": 47.37,
+       "shares": 2322000
       },
       "qib_ex_anchor": {
        "pct": 19.09,
        "shares": 936000
       },
       "retail": {
-       "shares": 1629600,
-       "pct": 33.24
+       "pct": 33.24,
+       "shares": 1629600
       },
-      "market_maker": {
-       "shares": 252000,
-       "pct": 5.14
+      "snii": {
+       "pct": 4.75,
+       "shares": 232800
       }
      },
+     "sub": {
+      "nii": 7.02,
+      "retail": 6.99,
+      "total": 4.99
+     },
+     "sub_at": "2026-11-20T10:36",
      "uses": [
       {
-       "use": "Purchase",
-       "cr": 98.13
+       "cr": 98.13,
+       "use": "Purchase"
       }
      ],
      "years": [
       {
-       "y": "FY24",
-       "income": 130.23,
-       "pat": 18.05,
-       "ebitda": 37.98,
-       "net_worth": 31.96,
-       "debt": 93.12,
        "assets": 147.69,
+       "debt": 93.12,
+       "ebitda": 37.98,
+       "income": 130.23,
+       "net_worth": 31.96,
+       "pat": 18.05,
+       "roce": 24.11,
        "roe": 78.65,
-       "roce": 24.11
+       "y": "FY24"
       },
       {
-       "y": "FY25",
-       "income": 179.66,
-       "pat": 24.43,
-       "ebitda": 51.77,
-       "net_worth": 56.39,
-       "debt": 110.14,
        "assets": 201.82,
+       "debt": 110.14,
+       "ebitda": 51.77,
+       "income": 179.66,
+       "net_worth": 56.39,
+       "pat": 24.43,
+       "roce": 23.85,
        "roe": 55.3,
-       "roce": 23.85
+       "y": "FY25"
       },
       {
-       "y": "FY26",
-       "income": 211.69,
-       "pat": 29.16,
-       "ebitda": 65.01,
-       "net_worth": 85.55,
-       "debt": 164.08,
        "assets": 287.07,
+       "debt": 164.08,
+       "ebitda": 65.01,
+       "income": 211.69,
+       "net_worth": 85.55,
+       "pat": 29.16,
+       "roce": 19.06,
        "roe": 41.08,
-       "roce": 19.06
+       "y": "FY26"
       }
      ]
     }
@@ -1008,7 +1004,7 @@
     "price": 129.0,
     "price_low": null,
     "size_cr": 8981.12,
-    "gmp": 1.5,
+    "gmp": 1.7,
     "gmp_at": null,
     "sub_total": 0.4,
     "sub_retail": null,
@@ -1044,57 +1040,57 @@
        13.0
       ]
      ],
-     "sub": {
-      "total": 0.4,
-      "qib": 1.26,
-      "nii": 0.09,
-      "retail": 0.16,
-      "employee": 0.06,
-      "shareholders": 0.17
-     },
-     "sub_at": "2026-11-20T10:13",
      "reservation": {
-      "qib": {
-       "shares": 281280428,
-       "pct": 42.5
-      },
       "anchor": {
-       "shares": 168768255,
-       "pct": 25.5
-      },
-      "qib_ex_anchor": {
-       "shares": 112512173,
-       "pct": 17.0
-      },
-      "nii": {
-       "shares": 84384129,
-       "pct": 12.75
+       "pct": 25.5,
+       "shares": 168768255
       },
       "bnii": {
-       "shares": 56256086,
-       "pct": 8.5
-      },
-      "snii": {
-       "shares": 28128043,
-       "pct": 4.25
-      },
-      "retail": {
-       "shares": 196896299,
-       "pct": 29.75
+       "pct": 8.5,
+       "shares": 56256086
       },
       "employee": {
-       "shares": 33091815,
-       "pct": 5.0
+       "pct": 5.0,
+       "shares": 33091815
+      },
+      "nii": {
+       "pct": 12.75,
+       "shares": 84384129
+      },
+      "qib": {
+       "pct": 42.5,
+       "shares": 281280428
+      },
+      "qib_ex_anchor": {
+       "pct": 17.0,
+       "shares": 112512173
+      },
+      "retail": {
+       "pct": 29.75,
+       "shares": 196896299
       },
       "shareholders": {
-       "shares": 66183630,
-       "pct": 10.0
+       "pct": 10.0,
+       "shares": 66183630
+      },
+      "snii": {
+       "pct": 4.25,
+       "shares": 28128043
       }
      },
+     "sub": {
+      "employee": 0.06,
+      "nii": 0.09,
+      "qib": 1.26,
+      "retail": 0.16,
+      "shareholders": 0.17,
+      "total": 0.4
+     },
+     "sub_at": "2026-11-20T10:13",
      "uses": [
       {
-       "use": "Offer for Sale Proceeds",
-       "cr": 8981.12
+       "cr": 8981.12,
+       "use": "Offer for Sale Proceeds"
       }
      ]
     }
@@ -1124,22 +1120,22 @@
     "detail": {
      "reservation": {
       "nii": {
-       "shares": 3100000,
-       "pct": 49.47
+       "pct": 49.47,
+       "shares": 3100000
       },
       "retail": {
-       "shares": 3100000,
-       "pct": 49.47
+       "pct": 49.47,
+       "shares": 3100000
       }
      },
      "uses": [
       {
-       "use": "Capital Expense",
-       "cr": 23.54
+       "cr": 23.54,
+       "use": "Capital Expense"
       },
       {
-       "use": "Debt",
-       "cr": 48.5
+       "cr": 48.5,
+       "use": "Debt"
       }
      ]
     }
