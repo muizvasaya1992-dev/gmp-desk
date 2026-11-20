@@ -1,7 +1,7 @@
 {
  "_feeds": {
   "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms": {
-   "fetched": "2026-11-20T04:15+05:30",
+   "fetched": "2026-11-20T05:45+05:30",
    "items": [
     {
      "date": "2026-11-19",
@@ -306,7 +306,7 @@
    ]
   },
   "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms": {
-   "fetched": "2026-11-20T04:15+05:30",
+   "fetched": "2026-11-20T05:45+05:30",
    "items": [
     {
      "date": "2026-11-19",
@@ -611,8 +611,20 @@
    ]
   },
   "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml": {
-   "fetched": "2026-11-20T04:15+05:30",
+   "fetched": "2026-11-20T05:45+05:30",
    "items": [
+    {
+     "date": "2026-11-20",
+     "source": "cnbctv18.com",
+     "title": "Here's what India's mutual funds bought and sold in October",
+     "url": "https://www.cnbctv18.com/photos/market/what-mutual-funds-bought-and-sold-in-october-hdfc-kotak-sbi-axis-mf-itc-infosys-bharti-mm-jio-platforms-share-price-20037664.htm"
+    },
+    {
+     "date": "2026-11-20",
+     "source": "cnbctv18.com",
+     "title": "US Market Crash: Dow Jones tanks 1,100 points, nears technical correction - What is plaguing Wall Street?",
+     "url": "https://www.cnbctv18.com/market/us-market-crash-dow-jones-snp-500-nasdaq-technical-correction-nvidia-amd-anthropic-key-factors-behind-fall-20038166.htm"
+    },
     {
      "date": "2026-11-19",
      "source": "cnbctv18.com",
@@ -1080,24 +1092,102 @@
      "source": "cnbctv18.com",
      "title": "FPIs turn big buyers again as India emerges as top emerging-market draw",
      "url": "https://www.cnbctv18.com/market/fpis-turn-big-buyers-again-as-india-emerges-as-top-emerging-market-draw-20037135.htm"
-    },
-    {
-     "date": "2026-11-18",
-     "source": "cnbctv18.com",
-     "title": "Stocks to Watch for November 19: Jio Financial, LT Foods, NALCO and more",
-     "url": "https://www.cnbctv18.com/photos/market/stocks-to-watch-for-november-19-jio-financial-lt-foods-nalco-share-price-20037085.htm"
-    },
-    {
-     "date": "2026-11-18",
-     "source": "cnbctv18.com",
-     "title": "Dalmia Bharat to consider share buyback at November 23 board meeting",
-     "url": "https://www.cnbctv18.com/market/dalmia-bharat-to-consider-share-buyback-at-november-23-board-meeting-20037119.htm"
     }
    ]
   },
   "https://www.freepressjournal.in/stories.rss?section=business": {
-   "fetched": "2026-11-20T04:15+05:30",
+   "fetched": "2026-11-20T05:45+05:30",
    "items": [
+    {
+     "date": "2026-11-19",
+     "source": "freepressjournal.in",
+     "title": "Mumbai Crime: Television Actor Aayush Shah Allegedly Cheated Of ₹4.44 Crore In Investment Fraud; 5 Booked",
+     "url": "https://www.freepressjournal.in/mumbai/mumbai-crime-television-actor-aayush-shah-allegedly-cheated-of-444-crore-in-investment-fraud-5-booked"
+    },
+    {
+     "date": "2026-11-19",
+     "source": "freepressjournal.in",
+     "title": "BEST 2.0: Mumbai Undertaking To Hold Special Camps From November 23 To Address Inflated Smart Meter Bills",
+     "url": "https://www.freepressjournal.in/mumbai/best-20-mumbai-undertaking-to-hold-special-camps-from-november-23-to-address-inflated-smart-meter-bills"
+    },
+    {
+     "date": "2026-11-19",
+     "source": "freepressjournal.in",
+     "title": "Mumbai Traffic Congestion: MMRDA Unveils 31-Km Integrated Tunnel Plan, Revises Uttan-Bhayandar-Virar Sea Link Alignment",
+     "url": "https://www.freepressjournal.in/mumbai/mumbai-traffic-congestion-mmrda-unveils-31-km-integrated-tunnel-plan-revises-uttan-bhayandar-virar-sea-link-alignment"
+    },
+    {
+     "date": "2026-11-19",
+     "source": "freepressjournal.in",
+     "title": "Bhopal BMC Accused Of Cutting 20-Year-Old Trees For ₹40 Lakh Park Project In Naveen Nagar, Residents Question Permission",
+     "url": "https://www.freepressjournal.in/bhopal/bhopal-bmc-accused-of-cutting-20-year-old-trees-for-40-lakh-park-project-in-naveen-nagar-residents-question-permission"
+    },
+    {
+     "date": "2026-11-19",
+     "source": "freepressjournal.in",
+     "title": "Need An Electrician Or Plumber? MP's New 'Call Karigar' App Lets Citizens Book Skilled Workers From Home",
+     "url": "https://www.freepressjournal.in/indore/need-an-electrician-or-plumber-mps-new-call-karigar-app-lets-citizens-book-skilled-workers-from-home"
+    },
+    {
+     "date": "2026-11-19",
+     "source": "freepressjournal.in",
+     "title": "Mumbai: BMC Demolishes 74 Structures On Andheri-Kurla Road To Ease Traffic Congestion",
+     "url": "https://www.freepressjournal.in/mumbai/mumbai-bmc-demolishes-74-structures-on-andheri-kurla-road-to-ease-traffic-congestion"
+    },
+    {
+     "date": "2026-11-19",
+     "source": "freepressjournal.in",
+     "title": "Mumbai: Nearly 9,500 Of 10,447 Fire Hydrants Allegedly Non-Functional; BJP Corporator Nitesh Singh Seeks Technical Audit",
+     "url": "https://www.freepressjournal.in/mumbai/mumbai-nearly-9500-of-10447-fire-hydrants-allegedly-non-functional-bjp-corporator-nitesh-singh-seeks-technical-audit"
+    },
+    {
+     "date": "2026-11-19",
+     "source": "freepressjournal.in",
+     "title": "Mumbai Coastal Road BMW Crash: Police Suspect 4 Occupants Had Consumed Alcohol; FSL Reports Awaited After 2 Months",
+     "url": "https://www.freepressjournal.in/mumbai/mumbai-coastal-road-bmw-crash-police-suspect-4-occupants-had-consumed-alcohol-fsl-reports-awaited-after-2-months"
+    },
+    {
+     "date": "2026-11-19",
+     "source": "freepressjournal.in",
+     "title": "'Citizens’ Health Cannot Be Sacrificed For Celebrations': Bombay HC Considers Complete Ban On Firecracker Sales In Mumbai",
+     "url": "https://www.freepressjournal.in/mumbai/citizens-health-cannot-be-sacrificed-for-celebrations-bombay-hc-considers-complete-ban-on-firecracker-sales-in-mumbai"
+    },
+    {
+     "date": "2026-11-19",
+     "source": "freepressjournal.in",
+     "title": "MP High Court Grants Pre-Arrest Bail To Railway Employee, Examines Relationship History And Marriage Promise Allegations",
+     "url": "https://www.freepressjournal.in/bhopal/mp-high-court-grants-pre-arrest-bail-to-railway-employee-examines-relationship-history-and-marriage-promise-allegations"
+    },
+    {
+     "date": "2026-11-19",
+     "source": "freepressjournal.in",
+     "title": "Mumbai Water Metro Project Gains Momentum; Consultant Selected For ₹1,621-Crore Phase 1, Electric Ferry Trials Underway",
+     "url": "https://www.freepressjournal.in/mumbai/mumbai-water-metro-project-gains-momentum-consultant-selected-for-1621-crore-phase-1-electric-ferry-trials-underway"
+    },
+    {
+     "date": "2026-11-19",
+     "source": "freepressjournal.in",
+     "title": "IBSF World Snooker Championship 2026 In Indore Sees Kamal Chawla, Amee Kamani And Pankaj Advani Storm Into Knockouts",
+     "url": "https://www.freepressjournal.in/indore/ibsf-world-snooker-championship-2026-in-indore-sees-kamal-chawla-amee-kamani-and-pankaj-advani-storm-into-knockouts"
+    },
+    {
+     "date": "2026-11-19",
+     "source": "freepressjournal.in",
+     "title": "Indore Sports Roundup 2026 Sees Squash Clean Sweep, Badminton Glory, Tennis Wins, Cricket Thrillers And Taekwondo Selection",
+     "url": "https://www.freepressjournal.in/indore/indore-sports-roundup-2026-sees-squash-clean-sweep-badminton-glory-tennis-wins-cricket-thrillers-and-taekwondo-selection"
+    },
+    {
+     "date": "2026-11-19",
+     "source": "freepressjournal.in",
+     "title": "Indore Child Marriage Cases Exposed As Two Girls Become Mothers At 17, Hospitals Alert Police",
+     "url": "https://www.freepressjournal.in/indore/indore-child-marriage-cases-exposed-as-two-girls-become-mothers-at-17-hospitals-alert-police"
+    },
+    {
+     "date": "2026-11-19",
+     "source": "freepressjournal.in",
+     "title": "Madhya Pradesh Sand Ghats Used In Fake Transit Pass Scam, ED Attaches ₹16.23 Crore Assets In Illegal Mining Case",
+     "url": "https://www.freepressjournal.in/bhopal/madhya-pradesh-sand-ghats-used-in-fake-transit-pass-scam-ed-attaches-1623-crore-assets-in-illegal-mining-case"
+    },
     {
      "date": "2026-11-19",
      "source": "freepressjournal.in",
@@ -1121,29 +1211,11 @@
      "source": "freepressjournal.in",
      "title": "Last-Minute SpiceJet Cancellation Costs Mumbai Pilot Aspirant 3 Months Of His Career; Leaves Him Stranded Overnight At The Airport",
      "url": "https://www.freepressjournal.in/mumbai/last-minute-spicejet-cancellation-costs-mumbai-pilot-aspirant-3-months-of-his-career-leaves-him-stranded-overnight-at-the-airport"
-    },
-    {
-     "date": "2026-11-19",
-     "source": "freepressjournal.in",
-     "title": "Bhopal Water Safety Alert: BMC Shifts 22 Km Of Drinking Water Pipelines Away From Sewers To Prevent E. Coli Contamination",
-     "url": "https://www.freepressjournal.in/bhopal/bhopal-water-safety-alert-bmc-shifts-22-km-of-drinking-water-pipelines-away-from-sewers-to-prevent-e-coli-contamination"
-    },
-    {
-     "date": "2026-11-19",
-     "source": "freepressjournal.in",
-     "title": "Maheshwar Fort Needs Urgent Repairs, Says Yashwantrao Holkar As Over 20,000 Attend Social Kumbh In MP",
-     "url": "https://www.freepressjournal.in/indore/maheshwar-fort-needs-urgent-repairs-says-yashwantrao-holkar-as-over-20000-attend-social-kumbh-in-mp"
-    },
-    {
-     "date": "2026-11-19",
-     "source": "freepressjournal.in",
-     "title": "Madhya Pradesh's 139 Excellence Schools Next In Line For Sandipani Tag, Merger Proposal To Reach Assembly Winter Session",
-     "url": "https://www.freepressjournal.in/bhopal/madhya-pradeshs-139-excellence-schools-next-in-line-for-sandipani-tag-merger-proposal-to-reach-assembly-winter-session"
     }
    ]
   },
   "https://www.livemint.com/rss/markets": {
-   "fetched": "2026-11-20T04:15+05:30",
+   "fetched": "2026-11-20T05:45+05:30",
    "items": [
     {
      "date": "2026-11-20",
@@ -1358,8 +1430,32 @@
    ]
   },
   "https://www.thehindubusinessline.com/markets/feeder/default.rss": {
-   "fetched": "2026-11-20T04:15+05:30",
+   "fetched": "2026-11-20T05:45+05:30",
    "items": [
+    {
+     "date": "2026-11-20",
+     "source": "BusinessLine",
+     "title": "Anthropic IPO could mint thousands of employee millionaires, including junior staff",
+     "url": "https://www.thehindubusinessline.com/markets/anthropic-ipo-could-mint-thousands-of-employee-millionaires-including-junior-staff/article71722508.ece"
+    },
+    {
+     "date": "2026-11-20",
+     "source": "BusinessLine",
+     "title": "US stocks tumble 2% as Anthropic IPO fails to revive AI trade optimism",
+     "url": "https://www.thehindubusinessline.com/markets/stock-markets/us-stocks-tumble-2-as-anthropic-ipo-fails-to-revive-ai-trade-optimism/article71721999.ece"
+    },
+    {
+     "date": "2026-11-20",
+     "source": "BusinessLine",
+     "title": "Anthropic shares surge 17% after record $107.3 billion IPO, valuing AI firm at $1.8 trillion",
+     "url": "https://www.thehindubusinessline.com/markets/stock-markets/anthropic-shares-surge-17-after-record-1073-billion-ipo-valuing-ai-firm-at-18-trillion/article71721993.ece"
+    },
+    {
+     "date": "2026-11-20",
+     "source": "BusinessLine",
+     "title": "Who is Dario Amodei? The Anthropic chief who built an AI empire while championing safety",
+     "url": "https://www.thehindubusinessline.com/info-tech/who-is-dario-amodei-the-anthropic-chief-who-built-an-ai-empire-while-championing-safety/article71722002.ece"
+    },
     {
      "date": "2026-11-19",
      "source": "BusinessLine",
@@ -1695,35 +1791,11 @@
      "source": "BusinessLine",
      "title": "Profit-booking trims recent gains as SEBI margin rules rattle D-Street",
      "url": "https://www.thehindubusinessline.com/markets/profit-booking-trims-recent-gains-as-sebi-margin-rules-rattle-d-street/article71715919.ece"
-    },
-    {
-     "date": "2026-11-18",
-     "source": "BusinessLine",
-     "title": "Goldman Sachs upgrades India to overweight, sets Nifty target of 28,500",
-     "url": "https://www.thehindubusinessline.com/markets/goldman-sachs-upgrades-india-to-overweight-sets-nifty-target-of-28500/article71715754.ece"
-    },
-    {
-     "date": "2026-11-18",
-     "source": "BusinessLine",
-     "title": "SML Mahindra offers shares at 37% discount as M&M steps up CV expansion",
-     "url": "https://www.thehindubusinessline.com/markets/sml-mahindra-offers-shares-at-36-discount-as-mm-steps-up-cv-expansion/article71714724.ece"
-    },
-    {
-     "date": "2026-11-18",
-     "source": "BusinessLine",
-     "title": "Paytm public-market investors earn 1.7x returns in five years as shares hit record high",
-     "url": "https://www.thehindubusinessline.com/markets/stock-markets/paytm-public-market-investors-earn-17x-returns-in-five-years-as-shares-hit-record-high/article71715604.ece"
-    },
-    {
-     "date": "2026-11-18",
-     "source": "BusinessLine",
-     "title": "Markets rebound sharply after Diwali, but inflation clouds rate outlook",
-     "url": "https://www.thehindubusinessline.com/markets/markets-rebound-sharply-after-diwali-but-inflation-clouds-rate-outlook/article71715674.ece"
     }
    ]
   },
   "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss": {
-   "fetched": "2026-11-20T04:15+05:30",
+   "fetched": "2026-11-20T05:45+05:30",
    "items": [
     {
      "date": "2026-11-18",
@@ -1849,7 +1921,7 @@
   }
  },
  "crystalcp": {
-  "checked": "2026-11-20T05:31+05:30",
+  "checked": "2026-11-20T05:45+05:30",
   "items": [
    {
     "date": "2026-11-19",
@@ -1890,7 +1962,7 @@
   ]
  },
  "mahacoal": {
-  "checked": "2026-11-20T05:31+05:30",
+  "checked": "2026-11-20T05:45+05:30",
   "items": [
    {
     "date": "2026-11-19",
@@ -1931,7 +2003,7 @@
   ]
  },
  "watrana": {
-  "checked": "2026-11-20T05:31+05:30",
+  "checked": "2026-11-20T05:45+05:30",
   "items": [
    {
     "date": "2026-11-19",
