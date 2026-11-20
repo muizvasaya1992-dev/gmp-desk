@@ -1,8 +1,14 @@
 {
  "_feeds": {
   "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms": {
-   "fetched": "2026-11-20T05:45+05:30",
+   "fetched": "2026-11-20T07:15+05:30",
    "items": [
+    {
+     "date": "2026-11-20",
+     "source": "Economic Times",
+     "title": "Integris Medtech to launch Rs 3,000-crore IPO next week",
+     "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/integris-medtech-to-launch-rs-3000-crore-ipo-next-week/articleshow/136009497.cms"
+    },
     {
      "date": "2026-11-19",
      "source": "Economic Times",
@@ -296,17 +302,11 @@
      "source": "Economic Times",
      "title": "Vedant Poly Fabs SME IPO opens today; GMP at 16%, check key details",
      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/vedant-poly-fabs-sme-ipo-opens-today-gmp-at-16-check-key-details/articleshow/135446827.cms"
-    },
-    {
-     "date": "2026-11-02",
-     "source": "Economic Times",
-     "title": "EAAA India Alternatives shares list at less than 1% premium on BSE, NSE",
-     "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/eaaa-india-alternatives-shares-to-list-today-check-gmp-ahead-of-market-debut/articleshow/135444094.cms"
     }
    ]
   },
   "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms": {
-   "fetched": "2026-11-20T05:45+05:30",
+   "fetched": "2026-11-20T07:15+05:30",
    "items": [
     {
      "date": "2026-11-19",
@@ -611,8 +611,50 @@
    ]
   },
   "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml": {
-   "fetched": "2026-11-20T05:45+05:30",
+   "fetched": "2026-11-20T07:15+05:30",
    "items": [
+    {
+     "date": "2026-11-20",
+     "source": "cnbctv18.com",
+     "title": "Anthropic shares jump 17% on debut; Democrats call it 'Trojan Horse'",
+     "url": "https://www.cnbctv18.com/market/anthropic-share-price-jumps-on-debut-democrats-call-it-trojan-horse-20038217.htm"
+    },
+    {
+     "date": "2026-11-20",
+     "source": "cnbctv18.com",
+     "title": "Nikkei, Kospi fall over 4% each; Asian markets crash as AI sell-off deepens despite record Anthropic IPO",
+     "url": "https://www.cnbctv18.com/market/asian-markets-crash-nikkei-kospi-fall-ai-stocks-selloff-global-markets-anthropic-ipo-nasdaq-falls-20038181.htm"
+    },
+    {
+     "date": "2026-11-20",
+     "source": "cnbctv18.com",
+     "title": "Gold falls to lowest levels in 14 months as US dollar strengthens amid Fed rate hike worries",
+     "url": "https://www.cnbctv18.com/market/commodities/gold-falls-to-lowest-levels-in-14-months-as-us-dollar-strengthens-amid-fed-rate-hike-worries-20038187.htm"
+    },
+    {
+     "date": "2026-11-20",
+     "source": "cnbctv18.com",
+     "title": "Anthropic was supposed to save the AI trade. What went wrong?",
+     "url": "https://www.cnbctv18.com/access/anthropic-was-supposed-to-save-the-ai-trade-what-went-wrong-20038198.htm"
+    },
+    {
+     "date": "2026-11-20",
+     "source": "cnbctv18.com",
+     "title": "'More To Come' - IMF Managing Director warns the AI sell-off may not be over yet",
+     "url": "https://www.cnbctv18.com/market/imf-md-kristalina-georgieva-warns-ai-sell-off-may-not-be-over-yet-20038172.htm"
+    },
+    {
+     "date": "2026-11-20",
+     "source": "cnbctv18.com",
+     "title": "An analyst explains the ‘trigger’ that prompted him to sell every stock he owns on Anthropic IPO day",
+     "url": "https://www.cnbctv18.com/access/an-analyst-explains-the-trigger-that-prompted-him-to-sell-every-stock-he-owns-on-anthropic-ipo-day-20038195.htm"
+    },
+    {
+     "date": "2026-11-20",
+     "source": "cnbctv18.com",
+     "title": "Sensex Today | Stock Market Live Updates: GIFT Nifty hints at a 150-point gap-down start",
+     "url": "https://www.cnbctv18.com/market/stock-market-live-updates-sensex-nifty-50-ai-it-psu-banks-paytm-sbi-hdfc-ashoka-buildcon-gold-manappuram-nse-share-price-liveblog-20038184.htm"
+    },
     {
      "date": "2026-11-20",
      "source": "cnbctv18.com",
@@ -1050,54 +1092,30 @@
      "source": "cnbctv18.com",
      "title": "Dow Jones falls another 550 points, nears 'technical correction' - Here's what transpired",
      "url": "https://www.cnbctv18.com/market/dow-jones-snp-500-nasdaq-fall-nvidia-tech-ai-fed-minutes-rate-hike-dollar-metal-meltdown-anthropic-20037257.htm"
-    },
-    {
-     "date": "2026-11-19",
-     "source": "cnbctv18.com",
-     "title": "US Fed minutes signal further rate hikes, flag AI demand as inflation risk",
-     "url": "https://www.cnbctv18.com/market/us-fed-minutes-signal-further-rate-hikes-flag-ai-demand-as-inflation-risk-20037255.htm"
-    },
-    {
-     "date": "2026-11-18",
-     "source": "cnbctv18.com",
-     "title": "Infosys partners with NTT Docomo for AI-powered Metaverse ecosystem in Japan",
-     "url": "https://www.cnbctv18.com/market/stocks/infosys-share-price-partners-with-ntt-docomo-for-ai-powered-metaverse-ecosystem-in-japan-20037236.htm"
-    },
-    {
-     "date": "2026-11-18",
-     "source": "cnbctv18.com",
-     "title": "City Union Bank shuts NEFT, RTGS gateways after unauthorised customer account transaction",
-     "url": "https://www.cnbctv18.com/market/stocks/city-union-bank-share-price-shuts-neft-rtgs-gateways-after-unauthorised-customer-account-transaction-20037220.htm"
-    },
-    {
-     "date": "2026-11-18",
-     "source": "cnbctv18.com",
-     "title": "Market Pulse: Key triggers to watch before the November 19 trading session",
-     "url": "https://www.cnbctv18.com/photos/market/market-pulse-key-triggers-to-watch-before-the-november-19-trading-session-20037216.htm"
-    },
-    {
-     "date": "2026-11-18",
-     "source": "cnbctv18.com",
-     "title": "Public sector banks' business crosses ₹300 lakh crore for first time as H1 profit rises 16.9%",
-     "url": "https://www.cnbctv18.com/economy/public-sector-banks-business-crosses-rs-300-lakh-crore-for-first-time-as-h1-profit-rises-16-9-pc-20037058.htm"
-    },
-    {
-     "date": "2026-11-18",
-     "source": "cnbctv18.com",
-     "title": "Aye Finance approves ₹325 crore NCD issue with interest rates up to 9.75%",
-     "url": "https://www.cnbctv18.com/market/stocks/aye-finance-share-price-approves-rs-325-crore-ncd-issue-with-interest-rates-up-to-9-75-20037124.htm"
-    },
-    {
-     "date": "2026-11-18",
-     "source": "cnbctv18.com",
-     "title": "FPIs turn big buyers again as India emerges as top emerging-market draw",
-     "url": "https://www.cnbctv18.com/market/fpis-turn-big-buyers-again-as-india-emerges-as-top-emerging-market-draw-20037135.htm"
     }
    ]
   },
   "https://www.freepressjournal.in/stories.rss?section=business": {
-   "fetched": "2026-11-20T05:45+05:30",
+   "fetched": "2026-11-20T07:15+05:30",
    "items": [
+    {
+     "date": "2026-11-20",
+     "source": "freepressjournal.in",
+     "title": "Anecdotes by Kindness Unlimited: How 41 Students Fed Mumbai's Strays",
+     "url": "https://www.freepressjournal.in/angels-of-mumbai/anecdotes-by-kindness-unlimited-how-41-students-fed-mumbais-strays"
+    },
+    {
+     "date": "2026-11-20",
+     "source": "freepressjournal.in",
+     "title": "Indore Dhar Road Accident Leaves Six Policemen Injured While Returning From VIP Duty In Neemuch",
+     "url": "https://www.freepressjournal.in/indore/indore-dhar-road-accident-leaves-six-policemen-injured-while-returning-from-vip-duty-in-neemuch"
+    },
+    {
+     "date": "2026-11-20",
+     "source": "freepressjournal.in",
+     "title": "Bhopal Police Station Hit By Ransomware Attack, MP-CERT Recovers Encrypted Data Without Hackers' Help",
+     "url": "https://www.freepressjournal.in/bhopal/bhopal-police-station-hit-by-ransomware-attack-mp-cert-recovers-encrypted-data-without-hackers-help"
+    },
     {
      "date": "2026-11-19",
      "source": "freepressjournal.in",
@@ -1191,32 +1209,68 @@
     {
      "date": "2026-11-19",
      "source": "freepressjournal.in",
-     "title": "Twisha Sharma Death Case: CBI Seeks 60 More Days For Probe, Court Demands Details Of 90-Day Investigation",
-     "url": "https://www.freepressjournal.in/bhopal/twisha-sharma-death-case-cbi-seeks-60-more-days-for-probe-court-demands-details-of-90-day-investigation"
-    },
-    {
-     "date": "2026-11-19",
-     "source": "freepressjournal.in",
      "title": "Indore's Goma Ki Phel Gets 100 CCTV Cameras To Check Theft, Drug Abuse And Criminal Activities",
      "url": "https://www.freepressjournal.in/indore/indores-goma-ki-phel-gets-100-cctv-cameras-to-check-theft-drug-abuse-and-criminal-activities"
     },
     {
      "date": "2026-11-19",
      "source": "freepressjournal.in",
-     "title": "Bhopal BMC Carries Out 7 Demolitions In 12 Hours Ahead Of Supreme Court Hearing, Claims ₹60 Crore Land Freed",
-     "url": "https://www.freepressjournal.in/bhopal/bhopal-bmc-carries-out-7-demolitions-in-12-hours-ahead-of-supreme-court-hearing-claims-60-crore-land-freed"
-    },
-    {
-     "date": "2026-11-19",
-     "source": "freepressjournal.in",
-     "title": "Last-Minute SpiceJet Cancellation Costs Mumbai Pilot Aspirant 3 Months Of His Career; Leaves Him Stranded Overnight At The Airport",
-     "url": "https://www.freepressjournal.in/mumbai/last-minute-spicejet-cancellation-costs-mumbai-pilot-aspirant-3-months-of-his-career-leaves-him-stranded-overnight-at-the-airport"
+     "title": "Twisha Sharma Death Case: CBI Seeks 60 More Days For Probe, Court Demands Details Of 90-Day Investigation",
+     "url": "https://www.freepressjournal.in/bhopal/twisha-sharma-death-case-cbi-seeks-60-more-days-for-probe-court-demands-details-of-90-day-investigation"
     }
    ]
   },
   "https://www.livemint.com/rss/markets": {
-   "fetched": "2026-11-20T05:45+05:30",
+   "fetched": "2026-11-20T07:15+05:30",
    "items": [
+    {
+     "date": "2026-11-20",
+     "source": "Mint",
+     "title": "Stock market outlook today,20 Nov:Sensex, Nifty prediction-DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues",
+     "url": "https://www.livemint.com/market/stock-market-outlook-today-20-nov-sensex-nifty-prediction-djia-s-p-nasdaq-gift-nifty-kospi-nikkei-taiwan-cues-11795135137736.html"
+    },
+    {
+     "date": "2026-11-20",
+     "source": "Mint",
+     "title": "Raja Venkatraman recommends three stocks for 20 November",
+     "url": "https://www.livemint.com/market/stock-market-news/raja-venkatraman-recommends-three-stocks-for-20-november-11795135114570.html"
+    },
+    {
+     "date": "2026-11-20",
+     "source": "Mint",
+     "title": "M&M, Bank of Baroda shares: Top 2 stocks to buy; check expected returns, ratings, target price by Chandan Taparia",
+     "url": "https://www.livemint.com/market/stock-market-news/mm-bank-of-baroda-shares-top-2-stocks-to-buy-check-expected-returns-ratings-target-price-by-chandan-taparia-11795100891827.html"
+    },
+    {
+     "date": "2026-11-20",
+     "source": "Mint",
+     "title": "Record FPI buying returns, but foreign investors are still picking their spots",
+     "url": "https://www.livemint.com/market/record-fpi-buying-returns-but-foreign-investors-are-still-picking-their-spots-11795089128507.html"
+    },
+    {
+     "date": "2026-11-20",
+     "source": "Mint",
+     "title": "Stock recommendations for 20 November from MarketSmith India",
+     "url": "https://www.livemint.com/market/stock-market-news/stock-recommendations-for-20-november-from-marketsmith-india-11795099385083.html"
+    },
+    {
+     "date": "2026-11-20",
+     "source": "Mint",
+     "title": "Top three sectors to watch in 2027",
+     "url": "https://www.livemint.com/market/stock-market-news/top-three-sectors-to-watch-in-2027-11795089580568.html"
+    },
+    {
+     "date": "2026-11-20",
+     "source": "Mint",
+     "title": "After a stellar Q1, ace investors’ portfolio gains lose sheen by September",
+     "url": "https://www.livemint.com/market/stock-market-news/q1-september-marquee-investors-portfolio-gains-equity-markets-earnings-11795071354252.html"
+    },
+    {
+     "date": "2026-11-20",
+     "source": "Mint",
+     "title": "Over 70% of 2026 IPOs trade above issue price as companies leave more on the table",
+     "url": "https://www.livemint.com/market/ipo-2026-public-markets-nse-bse-dollar-11795075320884.html"
+    },
     {
      "date": "2026-11-20",
      "source": "Mint",
@@ -1378,60 +1432,24 @@
      "source": "Mint",
      "title": "Reliance Industries shares: After 13% surge in 1 month, JPMorgan sees another 23% upside in Mukesh Ambani stock | Target",
      "url": "https://www.livemint.com/market/stock-market-news/reliance-industries-shares-after-13-surge-in-1-month-jpmorgan-sees-another-23-upside-in-mukesh-ambani-stock-target-11795069231709.html"
-    },
-    {
-     "date": "2026-11-19",
-     "source": "Mint",
-     "title": "Why gold, silver prices are going down? What experts say about rate fall - More plunge ahead or bounce back expected?",
-     "url": "https://www.livemint.com/market/commodities/why-gold-silver-prices-are-going-down-what-experts-say-about-rate-fall-more-plunge-ahead-or-bounce-back-expected-11795069849268.html"
-    },
-    {
-     "date": "2026-11-19",
-     "source": "Mint",
-     "title": "S&P 500 index 2027 target: 8200 mark expected by UBS - here's why; but AI-related uncertainties may limit further upside",
-     "url": "https://www.livemint.com/market/stock-market-news/sp-500-index-2027-target-8200-mark-expected-by-ubs-heres-why-but-ai-related-uncertainties-may-limit-further-up-11795066877862.html"
-    },
-    {
-     "date": "2026-11-19",
-     "source": "Mint",
-     "title": "LT Foods shares rocket 10%, nears peak! Daawat rice-parent makes a big US acquisition, jumps 545% in 5 yrs | Details",
-     "url": "https://www.livemint.com/market/stock-market-news/lt-foods-shares-rocket-10-nears-peak-daawat-rice-parent-makes-a-big-us-acquisition-jumps-545-in-5-yrs-details-11795067814304.html"
-    },
-    {
-     "date": "2026-11-19",
-     "source": "Mint",
-     "title": "Dalmia Bharat buyback alert! Board to consider share repurchase proposal next week on Nov 23 - Key details | Buy or sell",
-     "url": "https://www.livemint.com/market/stock-market-news/dalmia-bharat-buyback-alert-board-to-consider-share-repurchase-proposal-next-week-on-nov-23-key-details-buy-or-sell-11795064602871.html"
-    },
-    {
-     "date": "2026-11-19",
-     "source": "Mint",
-     "title": "Paytm share price crash: Payment stock slides 7% on UPI MDR rollout delay; Pine Labs, One Mobikwik Systems also tumble",
-     "url": "https://www.livemint.com/market/stock-market-news/paytm-share-price-crash-payment-stock-slides-7-on-upi-mdr-rollout-delay-pine-labs-one-mobikwik-systems-also-tumble-11795062771594.html"
-    },
-    {
-     "date": "2026-11-19",
-     "source": "Mint",
-     "title": "Tanla Platforms share price falls 5%: Stock up 30% in 2026; should investors buy the dip? Key levels to watch",
-     "url": "https://www.livemint.com/market/stock-market-news/tanla-platforms-share-price-falls-5-stock-up-30-in-2026-should-investors-buy-the-dip-key-levels-to-watch-11795062211094.html"
-    },
-    {
-     "date": "2026-11-19",
-     "source": "Mint",
-     "title": "BLS Polymers shares hit record high! Up 106% from IPO price, recently-listed multibagger stock soars 8% today | Buy?",
-     "url": "https://www.livemint.com/market/stock-market-news/bls-polymers-shares-hit-record-high-up-106-from-ipo-price-recently-listed-multibagger-stock-soars-8-today-buy-11795023009361.html"
-    },
-    {
-     "date": "2026-11-19",
-     "source": "Mint",
-     "title": "227% rally in 6 months: Smallcap hits 4th upper circuit on business update - Stock split, bonus ahead - Do you own it?",
-     "url": "https://www.livemint.com/market/stock-market-news/190-rally-in-6-months-smallcap-hits-4th-upper-circuit-on-business-update-stock-split-bonus-ahead-do-you-own-it-11795060471139.html"
     }
    ]
   },
   "https://www.thehindubusinessline.com/markets/feeder/default.rss": {
-   "fetched": "2026-11-20T05:45+05:30",
+   "fetched": "2026-11-20T07:15+05:30",
    "items": [
+    {
+     "date": "2026-11-20",
+     "source": "BusinessLine",
+     "title": "Sensex today | Stock Market Live: Stock to buy today: United Breweries (₹1,270.45)",
+     "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-20th-november-2026/article71720685.ece"
+    },
+    {
+     "date": "2026-11-20",
+     "source": "BusinessLine",
+     "title": "Anthropic’s journey to a $2 trillion valuation: Key milestones from 2021 to 2026",
+     "url": "https://www.thehindubusinessline.com/markets/anthropics-journey-to-a-2-trillion-valuation-key-milestones-from-2021-to-2026/article71722679.ece"
+    },
     {
      "date": "2026-11-20",
      "source": "BusinessLine",
@@ -1779,23 +1797,11 @@
      "source": "BusinessLine",
      "title": "SAT stays SEBI direction to Avadhut Sathe Academy to publish refund notices",
      "url": "https://www.thehindubusinessline.com/markets/sat-stays-sebi-direction-to-avadhut-sathe-academy-to-publish-refund-notices/article71716227.ece"
-    },
-    {
-     "date": "2026-11-18",
-     "source": "BusinessLine",
-     "title": "SEBI weighs further safeguards for MTF, no decision yet: Tuhin Kanta Pandey",
-     "url": "https://www.thehindubusinessline.com/news/sebi-weighs-further-safeguards-for-mtf-no-decision-yet-tuhin-kanta-pandey/article71716160.ece"
-    },
-    {
-     "date": "2026-11-18",
-     "source": "BusinessLine",
-     "title": "Profit-booking trims recent gains as SEBI margin rules rattle D-Street",
-     "url": "https://www.thehindubusinessline.com/markets/profit-booking-trims-recent-gains-as-sebi-margin-rules-rattle-d-street/article71715919.ece"
     }
    ]
   },
   "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss": {
-   "fetched": "2026-11-20T05:45+05:30",
+   "fetched": "2026-11-20T07:15+05:30",
    "items": [
     {
      "date": "2026-11-18",
@@ -1921,7 +1927,7 @@
   }
  },
  "crystalcp": {
-  "checked": "2026-11-20T07:00+05:30",
+  "checked": "2026-11-20T07:15+05:30",
   "items": [
    {
     "date": "2026-11-19",
@@ -1962,7 +1968,7 @@
   ]
  },
  "mahacoal": {
-  "checked": "2026-11-20T07:00+05:30",
+  "checked": "2026-11-20T07:15+05:30",
   "items": [
    {
     "date": "2026-11-19",
@@ -2003,7 +2009,7 @@
   ]
  },
  "watrana": {
-  "checked": "2026-11-20T07:00+05:30",
+  "checked": "2026-11-20T07:15+05:30",
   "items": [
    {
     "date": "2026-11-19",
