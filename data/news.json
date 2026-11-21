@@ -1,7 +1,7 @@
 {
  "_feeds": {
   "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms": {
-   "fetched": "2026-11-21T08:07+05:30",
+   "fetched": "2026-11-21T09:45+05:30",
    "items": [
     {
      "date": "2026-11-20",
@@ -306,7 +306,7 @@
    ]
   },
   "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms": {
-   "fetched": "2026-11-21T08:07+05:30",
+   "fetched": "2026-11-21T09:45+05:30",
    "items": [
     {
      "date": "2026-11-20",
@@ -611,8 +611,14 @@
    ]
   },
   "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml": {
-   "fetched": "2026-11-21T08:07+05:30",
+   "fetched": "2026-11-21T09:45+05:30",
    "items": [
+    {
+     "date": "2026-11-21",
+     "source": "cnbctv18.com",
+     "title": "SEBI proposes easing disclosure norms for foreign portfolio investors, seeks public comments",
+     "url": "https://www.cnbctv18.com/market/sebi-proposes-easing-disclosure-norms-for-foreign-portfolio-investors-seeks-public-comments-20038956.htm"
+    },
     {
      "date": "2026-11-21",
      "source": "cnbctv18.com",
@@ -1086,18 +1092,126 @@
      "source": "cnbctv18.com",
      "title": "Stocks to Watch for November 20: Paytm, Ashoka Buildcon, Coal India, Dilip Buildcon and more",
      "url": "https://www.cnbctv18.com/photos/market/stocks-to-watch-for-november-20-ashoka-buildcon-dilip-buildcon-coal-india-hexaware-share-price-20037866.htm"
-    },
-    {
-     "date": "2026-11-19",
-     "source": "cnbctv18.com",
-     "title": "Anthropic IPO: Shares signal up to 26% listing-day gain after record $107 billion offering",
-     "url": "https://www.cnbctv18.com/market/anthropic-ipo-shares-signal-up-to-26-percent-listing-day-gain-after-record-usd-107-billion-offering-ai-spacex-20037942.htm"
     }
    ]
   },
   "https://www.freepressjournal.in/stories.rss?section=business": {
-   "fetched": "2026-11-21T08:07+05:30",
+   "fetched": "2026-11-21T09:45+05:30",
    "items": [
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "OM Operation Mole Box Office Collection Day 1: Dhanush And Mammootty's Film Gets Good Opening, Collects ₹17.70 Crore India Net",
+     "url": "https://www.freepressjournal.in/entertainment/om-operation-mole-box-office-collection-day-1-dhanush-and-mammoottys-film-gets-good-opening-collects-1770-crore-india-net"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "Global Crude Oil Prices May Cool To $70 By End Of 2027, JM Financial Flags Rising Supply And Weakening China Demand",
+     "url": "https://www.freepressjournal.in/business/global-crude-oil-prices-may-cool-to-70-by-end-of-2027-jm-financial-flags-rising-supply-and-weakening-china-demand"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "'He's A Great Leader': Josh Hazlewood Backs Pat Cummins Amid Ball-Tampering Row, Hints At Quitting Australia Test Team If Captaincy Is Taken Away",
+     "url": "https://www.freepressjournal.in/sports/hes-a-great-leader-josh-hazlewood-backs-pat-cummins-amid-ball-tampering-row-hints-at-quitting-australia-test-team-if-captaincy-is-taken-away"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "Kavya Maran-Anirudh Wedding Reception: Orange Army Reunion As Dale Steyn, Kane Williamson Arrive In India",
+     "url": "https://www.freepressjournal.in/sports/kavya-maran-anirudh-wedding-reception-orange-army-reunion-as-dale-steyn-kane-williamson-arrive-in-india"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "Ramayana Box Office Collection Day 16: Ranbir Kapoor's Film Sees 15.8 Percent Drop, Worldwide Total Nears ₹1,575 Crore",
+     "url": "https://www.freepressjournal.in/entertainment/ramayana-box-office-collection-day-16-ranbir-kapoors-film-sees-158-percent-drop-worldwide-total-nears-1575-crore"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "'A Glimmer Of Hope': Rohingya Refugees In Bangladesh Hope For Safe Return To Myanmar After ICJ Genocide Verdict",
+     "url": "https://www.freepressjournal.in/world/a-glimmer-of-hope-rohingya-refugees-in-bangladesh-hope-for-safe-return-to-myanmar-after-icj-genocide-verdict"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "Hema Chaudhary, Who Rescued Sharad Kapoor & His Dogs, Accused Of Fraud; Activist Alleges She Used Actor’s Condition For Personal Gain",
+     "url": "https://www.freepressjournal.in/mumbai/hema-chaudhary-who-rescued-sharad-kapoor-his-dogs-accused-of-fraud-activist-alleges-she-used-actors-condition-for-personal-gain"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "MPPSC Exam Calendar 2027 Out, Two State Service Exams Among 25 Recruitment Tests; Check Full Schedule",
+     "url": "https://www.freepressjournal.in/indore/mppsc-exam-calendar-2027-out-two-state-service-exams-among-25-recruitment-tests-check-full-schedule"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "MP’s Sagar Liquor Tragedy: Two Die After Consuming Alcohol In Banda, One Hospitalised; Excise Department Launches Probe",
+     "url": "https://www.freepressjournal.in/bhopal/mps-sagar-liquor-tragedy-two-die-after-consuming-alcohol-in-banda-one-hospitalised-excise-department-launches-probe"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "Did Claude AI Crack Mathematics' $1 Million Riemann Hypothesis? Anthropic Mathematician Makes Big Claim",
+     "url": "https://www.freepressjournal.in/tech/did-claude-ai-crack-mathematics-1-million-riemann-hypothesis-anthropic-mathematician-makes-big-claim"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "'Not Every Deal Is Worth Accepting': Iran's FM Abbas Araghchi Says Any US Agreement Must Protect National Interests, Prevent Renewed Conflict | Video",
+     "url": "https://www.freepressjournal.in/world/not-every-deal-is-worth-accepting-irans-fm-abbas-araghchi-says-any-us-agreement-must-protect-national-interests-prevent-renewed-conflict-video"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "India, Portugal Discuss Trade, Defence And Energy Cooperation, Reaffirm Commitment To Five-Year Roadmap For 2027–2032",
+     "url": "https://www.freepressjournal.in/world/india-portugal-discuss-trade-defence-and-energy-cooperation-reaffirm-commitment-to-five-year-roadmap-for-20272032"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "'Look At India': Trump Cites 7% GDP Growth, Says US Could Achieve 20% GDP With Lower Interest Rates, Calls Fed Policy 'A Sad Thing' | Video",
+     "url": "https://www.freepressjournal.in/world/look-at-india-trump-cites-7-gdp-growth-says-us-could-achieve-20-gdp-with-lower-interest-rates-calls-fed-policy-a-sad-thing-video"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "'So Sweet!': Sidharth Malhotra Can't Stop Smiling As Little Fan Kisses Him On Cheek After Dinner Date With Pregnant Kiara Advani – VIDEO",
+     "url": "https://www.freepressjournal.in/entertainment/so-sweet-sidharth-malhotra-cant-stop-smiling-as-little-fan-kisses-him-on-cheek-after-dinner-date-with-pregnant-kiara-advani-video"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "US Navy's USNS Wally Schirra Arrives At Chennai's Kattupalli Shipyard For Repairs, Marking Fifth Vessel Visit Under India-US Agreement",
+     "url": "https://www.freepressjournal.in/india/us-navys-usns-wally-schirra-arrives-at-chennais-kattupalli-shipyard-for-repairs-marking-fifth-vessel-visit-under-india-us-agreement"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "India, France Condemn Pahalgam Attack And Red Fort Terror Attacks, Pledge Stronger Cooperation Against Cross-Border Terrorism",
+     "url": "https://www.freepressjournal.in/world/india-france-condemn-pahalgam-attack-and-red-fort-terror-attacks-pledge-stronger-cooperation-against-cross-border-terrorism"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "Quote Of The Day By KL Rahul: ‘For Me, Aggression Means Not To Be Shy And To Do What Your Mind Tells You’",
+     "url": "https://www.freepressjournal.in/lifestyle/quote-of-the-day-by-kl-rahul-for-me-aggression-means-not-to-be-shy-and-to-do-what-your-mind-tells-you"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "Yamaha Launches E-RIDE BASE In Japan’s Yokohama, Offers E-Bike Experience With Popular Game Zenless Zone Zero",
+     "url": "https://www.freepressjournal.in/business/yamaha-launches-e-ride-base-in-japans-yokohama-offers-e-bike-experience-with-popular-game-zenless-zone-zero"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "US Court Sentences Nikhil Gupta To Over 19 Years In Prison For Foiled Gurpatwant Singh Pannun Assassination Plot In New York",
+     "url": "https://www.freepressjournal.in/world/us-court-sentences-nikhil-gupta-to-over-19-years-in-prison-for-foiled-gurpatwant-singh-pannun-assassination-plot-in-new-york"
+    },
     {
      "date": "2026-11-21",
      "source": "freepressjournal.in",
@@ -1323,19 +1437,13 @@
     {
      "date": "2026-11-20",
      "source": "freepressjournal.in",
-     "title": "MP School Winter Rules 2026: Students Can Wear Sweaters Of Any Colour, Schools Cannot Deny Classroom Entry Or Force Removal Of Footwear",
-     "url": "https://www.freepressjournal.in/bhopal/mp-school-winter-rules-2026-students-can-wear-sweaters-of-any-colour-schools-cannot-deny-classroom-entry-or-force-removal-of-footwear"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "MP’s Ujjain Bullfight Horror: 7-Year-Old Boy Trampled To Death As Bull Charges Into Crowd Despite Police Warning",
-     "url": "https://www.freepressjournal.in/indore/mps-ujjain-bullfight-horror-7-year-old-boy-trampled-to-death-as-bull-charges-into-crowd-despite-police-warning"
+     "title": "'Aag Laga Ke Chala Gaya': Hema Chaudhary Claims Someone Set Fire Near Malad's Bezubaan Shelter Housing Sharad Kapoor's 4 Dogs, Says Accused Mentioned Sanjay Dutt's Name - VIDEO",
+     "url": "https://www.freepressjournal.in/entertainment/aag-laga-ke-chala-gaya-hema-chaudhary-claims-someone-set-fire-near-malads-bezubaan-shelter-housing-sharad-kapoors-4-dogs-says-accused-mentioned-sanjay-dutts-name-video"
     }
    ]
   },
   "https://www.livemint.com/rss/markets": {
-   "fetched": "2026-11-21T08:07+05:30",
+   "fetched": "2026-11-21T09:45+05:30",
    "items": [
     {
      "date": "2026-11-21",
@@ -1550,7 +1658,7 @@
    ]
   },
   "https://www.thehindubusinessline.com/markets/feeder/default.rss": {
-   "fetched": "2026-11-21T08:07+05:30",
+   "fetched": "2026-11-21T09:45+05:30",
    "items": [
     {
      "date": "2026-11-20",
@@ -1915,7 +2023,7 @@
    ]
   },
   "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss": {
-   "fetched": "2026-11-21T08:07+05:30",
+   "fetched": "2026-11-21T09:45+05:30",
    "items": [
     {
      "date": "2026-11-18",
@@ -2041,7 +2149,7 @@
   }
  },
  "crystalcp": {
-  "checked": "2026-11-21T09:31+05:30",
+  "checked": "2026-11-21T09:45+05:30",
   "items": [
    {
     "date": "2026-11-20",
@@ -2082,7 +2190,7 @@
   ]
  },
  "mahacoal": {
-  "checked": "2026-11-21T09:31+05:30",
+  "checked": "2026-11-21T09:45+05:30",
   "items": [
    {
     "date": "2026-11-20",
@@ -2123,7 +2231,7 @@
   ]
  },
  "watrana": {
-  "checked": "2026-11-21T09:31+05:30",
+  "checked": "2026-11-21T09:45+05:30",
   "items": [
    {
     "date": "2026-11-20",
