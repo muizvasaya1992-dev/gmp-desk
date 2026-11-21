@@ -1,7 +1,7 @@
 {
  "_feeds": {
   "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms": {
-   "fetched": "2026-11-21T06:31+05:30",
+   "fetched": "2026-11-21T08:07+05:30",
    "items": [
     {
      "date": "2026-11-20",
@@ -306,7 +306,7 @@
    ]
   },
   "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms": {
-   "fetched": "2026-11-21T06:31+05:30",
+   "fetched": "2026-11-21T08:07+05:30",
    "items": [
     {
      "date": "2026-11-20",
@@ -611,8 +611,14 @@
    ]
   },
   "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml": {
-   "fetched": "2026-11-21T06:31+05:30",
+   "fetched": "2026-11-21T08:07+05:30",
    "items": [
+    {
+     "date": "2026-11-21",
+     "source": "cnbctv18.com",
+     "title": "US Market Crash: Nasdaq enters 'bear market' - 10 things for investors to know",
+     "url": "https://www.cnbctv18.com/photos/market/us-market-crash-dow-jones-snp-500-nasdaq-steep-sell-off-10-things-for-investors-to-know-gold-yields-levels-20038953.htm"
+    },
     {
      "date": "2026-11-20",
      "source": "cnbctv18.com",
@@ -1086,18 +1092,156 @@
      "source": "cnbctv18.com",
      "title": "Anthropic IPO: Shares signal up to 26% listing-day gain after record $107 billion offering",
      "url": "https://www.cnbctv18.com/market/anthropic-ipo-shares-signal-up-to-26-percent-listing-day-gain-after-record-usd-107-billion-offering-ai-spacex-20037942.htm"
-    },
-    {
-     "date": "2026-11-19",
-     "source": "cnbctv18.com",
-     "title": "Manappuram Finance targets 25-30% AUM growth in FY27, plans to add 500 branches by March",
-     "url": "https://www.cnbctv18.com/market/stocks/manappuram-finance-share-price-targets-25-30-aum-growth-in-fy27-plans-to-add-500-branches-by-march-20037925.htm"
     }
    ]
   },
   "https://www.freepressjournal.in/stories.rss?section=business": {
-   "fetched": "2026-11-21T06:31+05:30",
+   "fetched": "2026-11-21T08:07+05:30",
    "items": [
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "Indore Tops India In PM SVANidhi 2.0 Mega City Category, Disburses Over 48,000 Street Vendor Loans",
+     "url": "https://www.freepressjournal.in/indore/indore-tops-india-in-pm-svanidhi-20-mega-city-category-disburses-over-48000-street-vendor-loans"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "After Sagar Hooch Tragedy, MP Makes Quality Certificates Mandatory For Every Liquor Consignment From November 25",
+     "url": "https://www.freepressjournal.in/bhopal/after-sagar-hooch-tragedy-mp-makes-quality-certificates-mandatory-for-every-liquor-consignment-from-november-25"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "Coal Mine Auctions: Government Receives 85 Bids For 18 Blocks, 20 First-Time Bidders Join",
+     "url": "https://www.freepressjournal.in/business/coal-mine-auctions-government-receives-85-bids-for-18-blocks-20-first-time-bidders-join"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "Maharashtra Records 42 Road Deaths Daily, Plans New Ambulance Policy To Improve Emergency Response",
+     "url": "https://www.freepressjournal.in/mumbai/maharashtra-records-42-road-deaths-daily-plans-new-ambulance-policy-to-improve-emergency-response"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "Bihar Road Accident: 7 Killed In Car-Motorcycle Collision In Buxar, Groom's 4 Friends Among Dead",
+     "url": "https://www.freepressjournal.in/uttar-pradesh/bihar-road-accident-7-killed-in-car-motorcycle-collision-in-buxar-grooms-4-friends-among-dead"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "Uttar Pradesh: Ratnaafin Opens Lucknow Branch, Targets MSME, Business And Solar Financing",
+     "url": "https://www.freepressjournal.in/uttar-pradesh/uttar-pradesh-ratnaafin-opens-lucknow-branch-targets-msme-business-and-solar-financing"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "Uttar Pradesh Groundwater Alert: Nitrate, Fluoride And Uranium Exceed Safe Limits In Multiple Districts",
+     "url": "https://www.freepressjournal.in/uttar-pradesh/uttar-pradesh-groundwater-alert-nitrate-fluoride-and-uranium-exceed-safe-limits-in-multiple-districts"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "ED Seeks Non-Bailable Warrant Against Mehul Choksi's Wife Priti Kothari In Money Laundering Case",
+     "url": "https://www.freepressjournal.in/mumbai/ed-seeks-non-bailable-warrant-against-mehul-choksis-wife-priti-kothari-in-money-laundering-case"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "Mumbai Crime: 21-Year-Old Naval Dockyard Apprentice Arrested For Sharing Sensitive Photos, Videos; Pakistan Link Suspected",
+     "url": "https://www.freepressjournal.in/mumbai/mumbai-crime-21-year-old-naval-dockyard-apprentice-arrested-for-sharing-sensitive-photos-videos-pakistan-link-suspected"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "Mumbai: MACT Awards ₹79.50 Lakh To Family Of Income Tax Employee Killed In BEST Bus Accident",
+     "url": "https://www.freepressjournal.in/mumbai/mumbai-mact-awards-7950-lakh-to-family-of-income-tax-employee-killed-in-best-bus-accident"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "Maharashtra To Simplify Housing Society Polls; Societies With Upto 50 Members Can Hold Elections At AGM",
+     "url": "https://www.freepressjournal.in/mumbai/maharashtra-to-simplify-housing-society-polls-societies-with-upto-50-members-can-hold-elections-at-agm"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "Mumbai Sessions Court Grants Anticipatory Bail In First Case Under Maharashtra Freedom Of Religion Act 2026",
+     "url": "https://www.freepressjournal.in/mumbai/mumbai-sessions-court-grants-anticipatory-bail-in-first-case-under-maharashtra-freedom-of-religion-act-2026"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "Mumbai: Born At 24 Weeks Weighing 540 Grams, Baby Survives Multiple Complications After 4 Months In NICU",
+     "url": "https://www.freepressjournal.in/mumbai/mumbai-born-at-24-weeks-weighing-540-grams-baby-survives-multiple-complications-after-4-months-in-nicu"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "KL Rahul Becomes First Indian Opener To Score Test Hundreds In All Four SENA Countries",
+     "url": "https://www.freepressjournal.in/sports/kl-rahul-becomes-first-indian-opener-to-score-test-hundreds-in-all-four-sena-countries"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "Maharashtra To Give Women Candidates 5-6 Days' Extension For Police Physical Tests During Menstruation",
+     "url": "https://www.freepressjournal.in/mumbai/maharashtra-to-give-women-candidates-5-6-days-extension-for-police-physical-tests-during-menstruation"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "World Press Photo’s Down To Earth: Photographers Document Climate Change From Assam To Kenya At Mumbai Exhibition",
+     "url": "https://www.freepressjournal.in/mumbai/world-press-photos-down-to-earth-photographers-document-climate-change-from-assam-to-kenya-at-mumbai-exhibition"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "Chef Manish Mehrotra: Indian Food Does Not Need Labels",
+     "url": "https://www.freepressjournal.in/lifestyle/chef-manish-mehrotra-indian-food-does-not-need-labels"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "MP Anganwadi Meals Get Colourful Makeover, Children To Enjoy Beetroot, Spinach And Drumstick Rotis And Puris",
+     "url": "https://www.freepressjournal.in/bhopal/mp-anganwadi-meals-get-colourful-makeover-children-to-enjoy-beetroot-spinach-and-drumstick-rotis-and-puris"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "Diljit Dosanjh: A Masterclass For Luxury Brands",
+     "url": "https://www.freepressjournal.in/lifestyle/diljit-dosanjh-a-masterclass-for-luxury-brands"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "Her Passion Bears Fruit! Indore Woman Farmer Grows Exotic Passion Fruit In Mhow, Claims First Such Cultivation In MP",
+     "url": "https://www.freepressjournal.in/indore/her-passion-bears-fruit-indore-woman-farmer-grows-exotic-passion-fruit-in-mhow-claims-first-such-cultivation-in-mp"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "Angostura Bitters Is The Irreplaceable Cocktail Ingredient",
+     "url": "https://www.freepressjournal.in/lifestyle/angostura-bitters-is-the-irreplaceable-cocktail-ingredient"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "NITI Aayog Vice-Chairman Ashok Kumar Lahiri Urges Maharashtra To Acquire Land In Advance For Future Projects",
+     "url": "https://www.freepressjournal.in/mumbai/niti-aayog-vice-chairman-ashok-kumar-lahiri-urges-maharashtra-to-acquire-land-in-advance-for-future-projects"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "Indu Mill Ambedkar Memorial Faces 2-Year Delay As ₹350-Crore Cost Escalation Proposal Remains Pending",
+     "url": "https://www.freepressjournal.in/mumbai/indu-mill-ambedkar-memorial-faces-2-year-delay-as-350-crore-cost-escalation-proposal-remains-pending"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "freepressjournal.in",
+     "title": "Amsterdam Mayor Femke Halsema Calls Independent Journalists ‘Backbone Of Democracy’ At Mumbai Photo Exhibition",
+     "url": "https://www.freepressjournal.in/mumbai/amsterdam-mayor-femke-halsema-calls-independent-journalists-backbone-of-democracy-at-mumbai-photo-exhibition"
+    },
     {
      "date": "2026-11-21",
      "source": "freepressjournal.in",
@@ -1187,36 +1331,30 @@
      "source": "freepressjournal.in",
      "title": "MP’s Ujjain Bullfight Horror: 7-Year-Old Boy Trampled To Death As Bull Charges Into Crowd Despite Police Warning",
      "url": "https://www.freepressjournal.in/indore/mps-ujjain-bullfight-horror-7-year-old-boy-trampled-to-death-as-bull-charges-into-crowd-despite-police-warning"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "Indore Drug Crackdown: Six Arrested In Five Cases, 51.52 Grams Of Brown Sugar Seized; ₹10,000 Reward Fugitive Nabbed",
-     "url": "https://www.freepressjournal.in/indore/indore-drug-crackdown-six-arrested-in-five-cases-5152-grams-of-brown-sugar-seized-10000-reward-fugitive-nabbed"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "Bhopal Custodial Death: Family Carries 21-Year-Old Undertrial's Body Towards CM House, Blocks Road Demanding Justice",
-     "url": "https://www.freepressjournal.in/bhopal/bhopal-custodial-death-family-carries-21-year-old-undertrials-body-towards-cm-house-blocks-road-demanding-justice"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "Bhopal Master Plan 2047: Farmers In Five Villages Demand Removal Of Private Land From Submergence Zone, MP Alok Sharma Backs Protest",
-     "url": "https://www.freepressjournal.in/bhopal/bhopal-master-plan-2047-farmers-in-five-villages-demand-removal-of-private-land-from-submergence-zone-mp-alok-sharma-backs-protest"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "freepressjournal.in",
-     "title": "MP’s Ujjain Comes Alive As 33 Cultural Groups Join Grand Mangal Kalash Yatra Ahead Of 68th Kalidas Samaroh",
-     "url": "https://www.freepressjournal.in/indore/mps-ujjain-comes-alive-as-33-cultural-groups-join-grand-mangal-kalash-yatra-ahead-of-68th-kalidas-samaroh"
     }
    ]
   },
   "https://www.livemint.com/rss/markets": {
-   "fetched": "2026-11-21T06:31+05:30",
+   "fetched": "2026-11-21T08:07+05:30",
    "items": [
+    {
+     "date": "2026-11-21",
+     "source": "Mint",
+     "title": "Nasdaq 100 sinks 5.6% in worst week since Covid, S&P 500 corrects to 3.7% as investors sell off AI, tech stocks",
+     "url": "https://www.livemint.com/market/stock-market-news/us-stock-markets-nasdaq-100-5-6-pc-worst-week-since-covid-2020-s-p-500-3-7-pc-correction-investors-sell-off-ai-tech-11795223650589.html"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "Mint",
+     "title": "Five pharma CDMO stocks with robust revenue growth in Q2FY27",
+     "url": "https://www.livemint.com/market/stock-market-news/best-pharma-cdmo-stocks-china-plus-one-pharma-stocks-india-pharma-stocks-top-pharma-cdmo-stocks-11795178604521.html"
+    },
+    {
+     "date": "2026-11-21",
+     "source": "Mint",
+     "title": "Best 3 stocks to buy under ₹200: Jammu and Kashmir Bank, Canara Bank, Bank of India by Mehul Kothari of Anand Rathi",
+     "url": "https://www.livemint.com/market/stock-market-news/best-3-stocks-to-buy-under-rs-200-jammu-and-kashmir-bank-canara-bank-bank-of-india-by-mehul-kothari-of-anand-rathi-11795191036501.html"
+    },
     {
      "date": "2026-11-21",
      "source": "Mint",
@@ -1408,29 +1546,11 @@
      "source": "Mint",
      "title": "India’s ‘no AI play’ remains a bother for fund managers even as foreign investors return",
      "url": "https://www.livemint.com/market/mark-to-market/indias-no-ai-play-remains-a-bother-for-fund-managers-even-as-foreign-investors-return-11795149415163.html"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "Mint",
-     "title": "PC Jeweller, Kalyan Jewellers to Senco Gold: Jewellery stocks fall 5% as gold prices slips below ₹1.25 lakh;buy or sell?",
-     "url": "https://www.livemint.com/market/stock-market-news/pc-jeweller-kalyan-jewellers-to-senco-gold-jewellery-stocks-fall-5-as-gold-prices-slips-below-1-25-lakh-buy-or-sell-11795152566909.html"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "Mint",
-     "title": "Hindustan Zinc vs Tata Steel vs JSW Steel: Which metal stock to buy amid big fall in the metal stocks | Targets",
-     "url": "https://www.livemint.com/market/stock-market-news/hindustan-zinc-vs-tata-steel-vs-jsw-steel-which-metal-stock-to-buy-amid-big-fall-in-the-metal-stocks-targets-11795153441565.html"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "Mint",
-     "title": "Why Tips Films' shares jump 15% after the announcement of voluntary delisting? Experts's views, target price, stop-loss",
-     "url": "https://www.livemint.com/market/stock-market-news/why-tips-films-shares-jump-15-after-the-announcement-of-voluntary-delisting-expertss-views-target-price-stoploss-11795146325237.html"
     }
    ]
   },
   "https://www.thehindubusinessline.com/markets/feeder/default.rss": {
-   "fetched": "2026-11-21T06:31+05:30",
+   "fetched": "2026-11-21T08:07+05:30",
    "items": [
     {
      "date": "2026-11-20",
@@ -1795,7 +1915,7 @@
    ]
   },
   "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss": {
-   "fetched": "2026-11-21T06:31+05:30",
+   "fetched": "2026-11-21T08:07+05:30",
    "items": [
     {
      "date": "2026-11-18",
@@ -1921,7 +2041,7 @@
   }
  },
  "crystalcp": {
-  "checked": "2026-11-21T08:00+05:30",
+  "checked": "2026-11-21T08:07+05:30",
   "items": [
    {
     "date": "2026-11-20",
@@ -1962,7 +2082,7 @@
   ]
  },
  "mahacoal": {
-  "checked": "2026-11-21T08:00+05:30",
+  "checked": "2026-11-21T08:07+05:30",
   "items": [
    {
     "date": "2026-11-20",
@@ -2003,7 +2123,7 @@
   ]
  },
  "watrana": {
-  "checked": "2026-11-21T08:00+05:30",
+  "checked": "2026-11-21T08:07+05:30",
   "items": [
    {
     "date": "2026-11-20",
