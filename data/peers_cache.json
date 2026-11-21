@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-22T00:16+05:30",
+  "fetched_at": "2026-11-22T00:31+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -19,7 +19,7 @@
     "gmp_at": "2026-11-21T23:55",
     "sub_total": 0.48,
     "sub_retail": 0.244,
-    "sub_at": "2026-11-22T00:13",
+    "sub_at": "2026-11-22T00:27",
     "sub_cats": null,
     "gmp_days": [
      [
@@ -169,7 +169,7 @@
     "gmp_at": "2026-11-21T23:55",
     "sub_total": 11.98,
     "sub_retail": 15.42,
-    "sub_at": "2026-11-22T00:10",
+    "sub_at": "2026-11-22T00:26",
     "sub_cats": null,
     "gmp_days": [
      [
@@ -227,7 +227,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-22T00:16+05:30",
+  "fetched_at": "2026-11-22T00:31+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -782,7 +782,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-22T00:16+05:30",
+  "fetched_at": "2026-11-22T00:31+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -1281,16 +1281,16 @@
     "detail": {
      "uses": [
       {
-       "cr": 509.85,
-       "use": "Debt"
+       "use": "Debt",
+       "cr": 509.85
       },
       {
-       "cr": 93.87,
-       "use": "Subsidiaries"
+       "use": "Subsidiaries",
+       "cr": 93.87
       },
       {
-       "cr": 415.98,
-       "use": "Subsidiaries"
+       "use": "Subsidiaries",
+       "cr": 415.98
       }
      ]
     }
@@ -1320,43 +1320,43 @@
     "detail": {
      "uses": [
       {
-       "cr": 111.0,
-       "use": "Working Capital"
+       "use": "Working Capital",
+       "cr": 111.0
       }
      ],
      "years": [
       {
-       "assets": 0,
-       "debt": 0,
-       "ebitda": 0,
+       "y": "FY23",
        "income": 0,
-       "net_worth": 0,
        "pat": 0,
-       "roce": 10.53,
+       "ebitda": 0,
+       "net_worth": 0,
+       "debt": 0,
+       "assets": 0,
        "roe": 10.53,
-       "y": "FY23"
+       "roce": 10.53
       },
       {
-       "assets": 240.81,
-       "debt": 0,
-       "ebitda": 31.89,
+       "y": "FY24",
        "income": 392.14,
-       "net_worth": 9.68,
        "pat": 14.83,
-       "roce": 20.05,
+       "ebitda": 31.89,
+       "net_worth": 9.68,
+       "debt": 0,
+       "assets": 240.81,
        "roe": 24.67,
-       "y": "FY24"
+       "roce": 20.05
       },
       {
-       "assets": 294,
-       "debt": 0,
-       "ebitda": 39,
+       "y": "FY25",
        "income": 477.29,
-       "net_worth": 17,
        "pat": 18,
-       "roce": 21.95,
+       "ebitda": 39,
+       "net_worth": 17,
+       "debt": 0,
+       "assets": 294,
        "roe": 24.86,
-       "y": "FY25"
+       "roce": 21.95
       }
      ]
     }
