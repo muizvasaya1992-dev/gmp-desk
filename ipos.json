@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T17:31+05:30",
+  "generated_at": "2026-11-21T17:45+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-20T10:46+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-21T17:31+05:30",
+    "nse_ok_at": "2026-11-21T17:45+05:30",
     "bse_ok_at": "2026-11-20T10:49+05:30"
   },
   "ipos": [
@@ -4057,7 +4057,7 @@
       "sector": "Sugar",
       "gmp_watch": {
         "sources": 2,
-        "at": "2026-11-21T17:31"
+        "at": "2026-11-21T17:45"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
