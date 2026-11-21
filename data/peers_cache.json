@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-21T12:15+05:30",
+  "fetched_at": "2026-11-21T12:31+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -15,11 +15,11 @@
     "price": 136.0,
     "price_low": 129.0,
     "size_cr": 8981.12,
-    "gmp": 0.75,
-    "gmp_at": "2026-11-21T12:10",
+    "gmp": 0.7,
+    "gmp_at": "2026-11-21T12:30",
     "sub_total": 0.48,
     "sub_retail": 0.244,
-    "sub_at": "2026-11-21T12:12",
+    "sub_at": "2026-11-21T12:31",
     "sub_cats": null,
     "gmp_days": [
      [
@@ -56,7 +56,7 @@
      ],
      [
       "2026-11-21",
-      0.75
+      0.7
      ]
     ],
     "rhp_url": "https://media.ipoji.com/rhp/MCL_RHP_Filing_Version_13112026.pdf",
@@ -90,7 +90,7 @@
     "price_low": 259.0,
     "size_cr": 455.72,
     "gmp": 14.0,
-    "gmp_at": "2026-11-21T12:10",
+    "gmp_at": "2026-11-21T12:30",
     "sub_total": 17.07,
     "sub_retail": 9.281,
     "sub_at": "2026-11-20T19:05",
@@ -166,10 +166,10 @@
     "price_low": 232.0,
     "size_cr": 120.1,
     "gmp": 67.0,
-    "gmp_at": "2026-11-21T12:10",
+    "gmp_at": "2026-11-21T12:30",
     "sub_total": 11.98,
     "sub_retail": 15.42,
-    "sub_at": "2026-11-21T12:11",
+    "sub_at": "2026-11-21T12:29",
     "sub_cats": null,
     "gmp_days": [
      [
@@ -227,7 +227,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-21T12:15+05:30",
+  "fetched_at": "2026-11-21T12:31+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -287,7 +287,7 @@
     "price_low": null,
     "size_cr": null,
     "gmp": 12.0,
-    "gmp_at": "2026-11-21T07:37",
+    "gmp_at": "2026-11-21T11:37",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -309,7 +309,7 @@
     "price_low": null,
     "size_cr": 93.66,
     "gmp": null,
-    "gmp_at": "2026-11-21T07:31",
+    "gmp_at": "2026-11-21T11:33",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -331,7 +331,7 @@
     "price_low": null,
     "size_cr": 120.1,
     "gmp": 67.0,
-    "gmp_at": "2026-11-21T07:37",
+    "gmp_at": "2026-11-21T11:37",
     "sub_total": 11.98,
     "sub_retail": null,
     "sub_at": null,
@@ -352,8 +352,8 @@
     "price": 136.0,
     "price_low": null,
     "size_cr": 8981.12,
-    "gmp": 0.75,
-    "gmp_at": "2026-11-21T07:37",
+    "gmp": 0.7,
+    "gmp_at": "2026-11-21T11:37",
     "sub_total": 0.49,
     "sub_retail": null,
     "sub_at": null,
@@ -374,8 +374,8 @@
     "price": 272.0,
     "price_low": null,
     "size_cr": 455.49,
-    "gmp": 14.5,
-    "gmp_at": "2026-11-21T07:37",
+    "gmp": 14.0,
+    "gmp_at": "2026-11-21T11:37",
     "sub_total": 17.68,
     "sub_retail": null,
     "sub_at": null,
@@ -782,7 +782,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-21T12:15+05:30",
+  "fetched_at": "2026-11-21T12:31+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -1281,16 +1281,16 @@
     "detail": {
      "uses": [
       {
-       "cr": 509.85,
-       "use": "Debt"
+       "use": "Debt",
+       "cr": 509.85
       },
       {
-       "cr": 93.87,
-       "use": "Subsidiaries"
+       "use": "Subsidiaries",
+       "cr": 93.87
       },
       {
-       "cr": 415.98,
-       "use": "Subsidiaries"
+       "use": "Subsidiaries",
+       "cr": 415.98
       }
      ]
     }
@@ -1320,43 +1320,43 @@
     "detail": {
      "uses": [
       {
-       "cr": 111.0,
-       "use": "Working Capital"
+       "use": "Working Capital",
+       "cr": 111.0
       }
      ],
      "years": [
       {
-       "assets": 0,
-       "debt": 0,
-       "ebitda": 0,
+       "y": "FY23",
        "income": 0,
-       "net_worth": 0,
        "pat": 0,
-       "roce": 10.53,
+       "ebitda": 0,
+       "net_worth": 0,
+       "debt": 0,
+       "assets": 0,
        "roe": 10.53,
-       "y": "FY23"
+       "roce": 10.53
       },
       {
-       "assets": 240.81,
-       "debt": 0,
-       "ebitda": 31.89,
+       "y": "FY24",
        "income": 392.14,
-       "net_worth": 9.68,
        "pat": 14.83,
-       "roce": 20.05,
+       "ebitda": 31.89,
+       "net_worth": 9.68,
+       "debt": 0,
+       "assets": 240.81,
        "roe": 24.67,
-       "y": "FY24"
+       "roce": 20.05
       },
       {
-       "assets": 294,
-       "debt": 0,
-       "ebitda": 39,
+       "y": "FY25",
        "income": 477.29,
-       "net_worth": 17,
        "pat": 18,
-       "roce": 21.95,
+       "ebitda": 39,
+       "net_worth": 17,
+       "debt": 0,
+       "assets": 294,
        "roe": 24.86,
-       "y": "FY25"
+       "roce": 21.95
       }
      ]
     }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T12:15+05:30",
+  "generated_at": "2026-11-21T12:31+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-20T10:46+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-21T12:15+05:30",
+    "nse_ok_at": "2026-11-21T12:31+05:30",
     "bse_ok_at": "2026-11-20T10:49+05:30"
   },
   "ipos": [
@@ -3222,8 +3222,8 @@
         },
         {
           "source": "Tracker C",
-          "gmp": 14.5,
-          "at": "2026-11-21T07:37"
+          "gmp": 14,
+          "at": "2026-11-21T11:37"
         },
         {
           "source": "Tracker D",
@@ -3480,7 +3480,7 @@
         {
           "source": "Tracker C",
           "gmp": 67,
-          "at": "2026-11-21T07:37"
+          "at": "2026-11-21T11:37"
         },
         {
           "source": "Tracker D",
@@ -3892,8 +3892,8 @@
         },
         {
           "source": "Tracker C",
-          "gmp": 0.75,
-          "at": "2026-11-21T07:37"
+          "gmp": 0.7,
+          "at": "2026-11-21T11:37"
         },
         {
           "source": "Tracker D",
@@ -3902,8 +3902,8 @@
         },
         {
           "source": "Tracker B",
-          "gmp": 0.75,
-          "at": "2026-11-21T12:10"
+          "gmp": 0.7,
+          "at": "2026-11-21T12:30"
         }
       ],
       "gmp_history": [
@@ -3937,27 +3937,27 @@
         },
         {
           "date": "2026-11-21",
-          "gmp": 0.75
+          "gmp": 0.7
         }
       ],
       "history_source": "Tracker B",
       "gmp_low": 0.6,
       "gmp_high": 13,
       "exchange": "SME",
-      "gmp": 1.3,
-      "gmp_asof": "2026-11-21T12:15",
-      "gmp_source_latest": "Tracker D",
-      "gmp_pct": 0.96,
+      "gmp": 0.7,
+      "gmp_asof": "2026-11-21T12:30",
+      "gmp_source_latest": "Tracker B",
+      "gmp_pct": 0.51,
       "gmp_spread": {
-        "min": 0.75,
+        "min": 0.7,
         "max": 1.3,
-        "diff": 0.55,
+        "diff": 0.6000000000000001,
         "n": 4,
-        "diff_pct_of_price": 0.4
+        "diff_pct_of_price": 0.44
       },
       "gmp_trend": {
         "dir": "steady",
-        "change": -1.05,
+        "change": -1.1,
         "days": 3,
         "since": "2026-11-19"
       },
@@ -4057,7 +4057,7 @@
       "sector": "Sugar",
       "gmp_watch": {
         "sources": 2,
-        "at": "2026-11-21T12:15"
+        "at": "2026-11-21T12:31"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
