@@ -1,7 +1,7 @@
 {
  "year": 2026,
  "bse_as_of": "2026-11-20T10:46+05:30",
- "nse_as_of": "2026-11-22T00:01+05:30",
+ "nse_as_of": "2026-11-23T00:01+05:30",
  "rows": [
   {
    "name": "Shree Siddhivinayak Greentech Industries",
@@ -25,7 +25,7 @@
    "exchange": "SME",
    "live": true,
    "id": "watrana",
-   "status": "open",
+   "status": "closing_today",
    "open": "2026-11-19",
    "close": "2026-11-23",
    "price": 245,
@@ -39,7 +39,7 @@
    "exchange": "SME",
    "live": true,
    "id": "mahacoal",
-   "status": "open",
+   "status": "closing_today",
    "open": "2026-11-19",
    "close": "2026-11-23",
    "price": 136,
@@ -5676,5 +5676,5 @@
    "status": "listed"
   }
  ],
- "generated_at": "2026-11-22T00:01+05:30"
+ "generated_at": "2026-11-23T00:01+05:30"
 }
