@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T06:01+05:30",
+  "generated_at": "2026-11-22T06:15+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-20T10:46+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-22T06:01+05:30",
+    "nse_ok_at": "2026-11-22T06:15+05:30",
     "bse_ok_at": "2026-11-20T10:49+05:30"
   },
   "ipos": [
@@ -3228,12 +3228,12 @@
         {
           "source": "Tracker D",
           "gmp": 14.5,
-          "at": "2026-11-22T03:15"
+          "at": "2026-11-22T06:15"
         },
         {
           "source": "Tracker B",
           "gmp": 14,
-          "at": "2026-11-21T21:25"
+          "at": "2026-11-22T06:00"
         }
       ],
       "gmp_history": [
@@ -3272,6 +3272,10 @@
         {
           "date": "2026-11-21",
           "gmp": 14
+        },
+        {
+          "date": "2026-11-22",
+          "gmp": 14
         }
       ],
       "history_source": "Tracker B",
@@ -3279,7 +3283,7 @@
       "gmp_high": 45,
       "exchange": "SME",
       "gmp": 14.5,
-      "gmp_asof": "2026-11-22T03:15",
+      "gmp_asof": "2026-11-22T06:15",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 5.33,
       "gmp_spread": {
@@ -3290,10 +3294,10 @@
         "diff_pct_of_price": 0.18
       },
       "gmp_trend": {
-        "dir": "falling",
-        "change": -3,
+        "dir": "steady",
+        "change": 0,
         "days": 3,
-        "since": "2026-11-19"
+        "since": "2026-11-20"
       },
       "status": "closed",
       "news": [
@@ -3485,12 +3489,12 @@
         {
           "source": "Tracker D",
           "gmp": 67,
-          "at": "2026-11-22T03:15"
+          "at": "2026-11-22T06:15"
         },
         {
           "source": "Tracker B",
           "gmp": 65,
-          "at": "2026-11-21T23:55"
+          "at": "2026-11-22T06:00"
         }
       ],
       "gmp_history": [
@@ -3529,6 +3533,10 @@
         {
           "date": "2026-11-21",
           "gmp": 65
+        },
+        {
+          "date": "2026-11-22",
+          "gmp": 65
         }
       ],
       "history_source": "Tracker B",
@@ -3536,7 +3544,7 @@
       "gmp_high": 67,
       "exchange": "SME",
       "gmp": 67,
-      "gmp_asof": "2026-11-22T03:15",
+      "gmp_asof": "2026-11-22T06:15",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 27.35,
       "gmp_spread": {
@@ -3550,7 +3558,7 @@
         "dir": "steady",
         "change": -2,
         "days": 3,
-        "since": "2026-11-19"
+        "since": "2026-11-20"
       },
       "status": "open",
       "news": [
@@ -3898,18 +3906,22 @@
         {
           "source": "Tracker D",
           "gmp": 1.3,
-          "at": "2026-11-22T03:15"
+          "at": "2026-11-22T06:15"
         },
         {
           "source": "Tracker B",
           "gmp": 0.7,
-          "at": "2026-11-21T23:55"
+          "at": "2026-11-22T06:00"
         }
       ],
       "gmp_history": [
         {
           "date": "2026-11-14",
-          "gmp": 13
+          "gmp": 9.25
+        },
+        {
+          "date": "2026-11-15",
+          "gmp": 7
         },
         {
           "date": "2026-11-16",
@@ -3917,35 +3929,35 @@
         },
         {
           "date": "2026-11-17",
-          "gmp": 3.75
+          "gmp": 3.65
         },
         {
           "date": "2026-11-18",
-          "gmp": 3.5
+          "gmp": 3.1
         },
         {
           "date": "2026-11-19",
-          "gmp": 2
+          "gmp": 1.8
         },
         {
           "date": "2026-11-20",
-          "gmp": 1.3
+          "gmp": 0.75
         },
         {
           "date": "2026-11-21",
-          "gmp": 1.3
+          "gmp": 0.7
         },
         {
           "date": "2026-11-22",
-          "gmp": 1.3
+          "gmp": 0.7
         }
       ],
-      "history_source": "Tracker D",
+      "history_source": "Tracker B",
       "gmp_low": 0.6,
       "gmp_high": 13,
       "exchange": "SME",
       "gmp": 1.3,
-      "gmp_asof": "2026-11-22T03:15",
+      "gmp_asof": "2026-11-22T06:15",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 0.96,
       "gmp_spread": {
@@ -3957,7 +3969,7 @@
       },
       "gmp_trend": {
         "dir": "steady",
-        "change": 0.0,
+        "change": -0.05,
         "days": 3,
         "since": "2026-11-20"
       },
@@ -4057,7 +4069,7 @@
       "sector": "Sugar",
       "gmp_watch": {
         "sources": 2,
-        "at": "2026-11-22T06:01"
+        "at": "2026-11-22T06:15"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
