@@ -1,7 +1,7 @@
 {
  "_feeds": {
   "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms": {
-   "fetched": "2026-11-23T03:45+05:30",
+   "fetched": "2026-11-23T05:15+05:30",
    "items": [
     {
      "date": "2026-11-22",
@@ -306,7 +306,7 @@
    ]
   },
   "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms": {
-   "fetched": "2026-11-23T03:45+05:30",
+   "fetched": "2026-11-23T05:15+05:30",
    "items": [
     {
      "date": "2026-11-22",
@@ -611,8 +611,14 @@
    ]
   },
   "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml": {
-   "fetched": "2026-11-23T03:45+05:30",
+   "fetched": "2026-11-23T05:15+05:30",
    "items": [
+    {
+     "date": "2026-11-23",
+     "source": "cnbctv18.com",
+     "title": "APL Apollo Tubes shares in focus after mega ₹28,000 crore deal with Tata Steel",
+     "url": "https://www.cnbctv18.com/market/apl-apollo-tubes-share-price-tata-steel-strategic-acquisition-colors-tubes-biz-28000-crore-cash-financials-timeline-funding-20039457.htm"
+    },
     {
      "date": "2026-11-22",
      "source": "cnbctv18.com",
@@ -1086,18 +1092,54 @@
      "source": "cnbctv18.com",
      "title": "Japan core inflation picks up, makes case for BoJ rate hike stronger",
      "url": "https://www.cnbctv18.com/economy/japan-core-inflation-picks-up-makes-case-for-boj-rate-hike-stronger-20038221.htm"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "cnbctv18.com",
-     "title": "Anthropic shares jump 17% on debut; Democrats call it 'Trojan Horse'",
-     "url": "https://www.cnbctv18.com/market/anthropic-share-price-jumps-on-debut-democrats-call-it-trojan-horse-20038217.htm"
     }
    ]
   },
   "https://www.freepressjournal.in/stories.rss?section=business": {
-   "fetched": "2026-11-23T03:45+05:30",
+   "fetched": "2026-11-23T05:15+05:30",
    "items": [
+    {
+     "date": "2026-11-22",
+     "source": "freepressjournal.in",
+     "title": "Bhopal HC Refuses Stay On Janata Quarters Demolition, 599 Homes Face Bulldozers From Monday; 500 Cops Deployed",
+     "url": "https://www.freepressjournal.in/bhopal/bhopal-hc-refuses-stay-on-janata-quarters-demolition-599-homes-face-bulldozers-from-monday-500-cops-deployed"
+    },
+    {
+     "date": "2026-11-22",
+     "source": "freepressjournal.in",
+     "title": "Indore Congress Leaders Perform ‘Aarti’ Of IMC’s ‘Peeli Gang’ To Protest Footi Kothi Vegetable Market Eviction",
+     "url": "https://www.freepressjournal.in/indore/indore-congress-leaders-perform-aarti-of-imcs-peeli-gang-to-protest-footi-kothi-vegetable-market-eviction"
+    },
+    {
+     "date": "2026-11-22",
+     "source": "freepressjournal.in",
+     "title": "Bhopal Janata Quarters Demolition To Begin On November 23 As HC Clears Action Against 599 Homes, 500 Cops Deployed",
+     "url": "https://www.freepressjournal.in/bhopal/bhopal-janata-quarters-demolition-to-begin-on-november-23-as-hc-clears-action-against-599-homes-500-cops-deployed"
+    },
+    {
+     "date": "2026-11-22",
+     "source": "freepressjournal.in",
+     "title": "Catalysts for Social Action: Building Better Futures for Children in Institutional Care (VIDEO)",
+     "url": "https://www.freepressjournal.in/angels-of-mumbai/catalysts-for-social-action-building-better-futures-for-children-in-institutional-care-video"
+    },
+    {
+     "date": "2026-11-22",
+     "source": "freepressjournal.in",
+     "title": "Indore RTO Visits May Soon Be Unnecessary For 14 Services As Centre Plans Faceless Driving Licence, RC And Permit Processing",
+     "url": "https://www.freepressjournal.in/indore/indore-rto-visits-may-soon-be-unnecessary-for-14-services-as-centre-plans-faceless-driving-licence-rc-and-permit-processing"
+    },
+    {
+     "date": "2026-11-22",
+     "source": "freepressjournal.in",
+     "title": "Bhopal Water Contamination Scare As 6 Borewells Test Positive For Coliform Bacteria In Ashoka Colony, BMC Shuts All 12",
+     "url": "https://www.freepressjournal.in/bhopal/bhopal-water-contamination-scare-as-6-borewells-test-positive-for-coliform-bacteria-in-ashoka-colony-bmc-shuts-all-12"
+    },
+    {
+     "date": "2026-11-22",
+     "source": "freepressjournal.in",
+     "title": "MP Police Headquarters Begins Major Overhaul Of Colonial-Era Regulations, Cybercrime And SMART Policing In Focus",
+     "url": "https://www.freepressjournal.in/bhopal/mp-police-headquarters-begins-major-overhaul-of-colonial-era-regulations-cybercrime-and-smart-policing-in-focus"
+    },
     {
      "date": "2026-11-22",
      "source": "freepressjournal.in",
@@ -1133,114 +1175,30 @@
      "source": "freepressjournal.in",
      "title": "Indian Railways Trims Train Food Menu To 4 Dishes On Vande Bharat Sleeper Trains, Shifts Focus To Quality Over Variety",
      "url": "https://www.freepressjournal.in/india/indian-railways-trims-train-food-menu-to-4-dishes-on-vande-bharat-sleeper-trains-shifts-focus-to-quality-over-variety"
-    },
-    {
-     "date": "2026-11-22",
-     "source": "freepressjournal.in",
-     "title": "MP’s Sagar Liquor Tragedy Leaves 2 Dead, 1 Critical; Health Teams Launch Door-To-Door Screening In Banda",
-     "url": "https://www.freepressjournal.in/bhopal/mps-sagar-liquor-tragedy-leaves-2-dead-1-critical-health-teams-launch-door-to-door-screening-in-banda"
-    },
-    {
-     "date": "2026-11-22",
-     "source": "freepressjournal.in",
-     "title": "IND A vs PAK A, Rising Stars Asia Cup 2026, Live Updates: Pakistan Beat India By 48 Runs Despite Tilak Varma's Fighting Century",
-     "url": "https://www.freepressjournal.in/sports/ind-a-vs-pak-a-rising-stars-asia-cup-2026-live-updates-arch-rivals-lock-horns-in-blockbuster-clash"
-    },
-    {
-     "date": "2026-11-22",
-     "source": "freepressjournal.in",
-     "title": "IND A vs PAK A Men's Asia Cup Rising Stars 2026 Result: 'They Fought', Fans Rally Behind India A Despite 48-Run Defeat",
-     "url": "https://www.freepressjournal.in/sports/ind-a-vs-pak-a-mens-asia-cup-rising-stars-2026-result-they-fought-fans-rally-behind-india-a-despite-48-run-defeat"
-    },
-    {
-     "date": "2026-11-22",
-     "source": "freepressjournal.in",
-     "title": "IND A vs PAK A: Hasan Nawaz's All-Round Heroics Power Pakistan A To 48-Run Win; No Handshakes After Heated Clash",
-     "url": "https://www.freepressjournal.in/sports/ind-a-vs-pak-a-hasan-nawazs-all-round-heroics-power-pakistan-a-to-48-run-win-no-handshakes-after-heated-clash"
-    },
-    {
-     "date": "2026-11-22",
-     "source": "freepressjournal.in",
-     "title": "Traffic Police Constable Assaulted With Helmet At Mankhurd T-Junction, Four Unidentified Persons Booked",
-     "url": "https://www.freepressjournal.in/mumbai/traffic-police-constable-assaulted-with-helmet-at-mankhurd-t-junction-four-unidentified-persons-booked"
-    },
-    {
-     "date": "2026-11-22",
-     "source": "freepressjournal.in",
-     "title": "IND A vs PAK A: Tempers Flare As Sufyan Muqeem Mocks Harshit Rana Aggressively After Dismissal; Watch VIDEO",
-     "url": "https://www.freepressjournal.in/sports/ind-a-vs-pak-a-tempers-flare-as-sufyan-muqeem-mocks-harshit-rana-aggressively-after-dismissal-watch-video"
-    },
-    {
-     "date": "2026-11-22",
-     "source": "freepressjournal.in",
-     "title": "MP Govt Ropes In AIIMS To Fight Malnutrition, Launches Pilot Study In Khandwa And Narmadapuram",
-     "url": "https://www.freepressjournal.in/bhopal/mp-govt-ropes-in-aiims-to-fight-malnutrition-launches-pilot-study-in-khandwa-and-narmadapuram"
-    },
-    {
-     "date": "2026-11-22",
-     "source": "freepressjournal.in",
-     "title": "MP’s Dhar Chinese Manjha Strikes Again As 13-Year-Old Boy Suffers Deep Neck Cut, Gets Five Stitches",
-     "url": "https://www.freepressjournal.in/indore/mps-dhar-chinese-manjha-strikes-again-as-13-year-old-boy-suffers-deep-neck-cut-gets-five-stitches"
-    },
-    {
-     "date": "2026-11-22",
-     "source": "freepressjournal.in",
-     "title": "Babus, mantris & buzz: Chief Ministers of two poll-bound states join hands!",
-     "url": "https://www.freepressjournal.in/corporate-gallery/babus-mantris-buzz-chief-ministers-of-two-poll-bound-states-join-hands"
-    },
-    {
-     "date": "2026-11-22",
-     "source": "freepressjournal.in",
-     "title": "RECPDCL Hands Over Vikramshila Power Transmission to Adani Energy Solutions Limited",
-     "url": "https://www.freepressjournal.in/corporate-gallery/recpdcl-hands-over-vikramshila-power-transmission-to-adani-energy-solutions-limited"
-    },
-    {
-     "date": "2026-11-22",
-     "source": "freepressjournal.in",
-     "title": "Reforms Must Translate into Ease of Doing Business to Spur Investment and Jobs",
-     "url": "https://www.freepressjournal.in/corporate-gallery/reforms-must-translate-into-ease-of-doing-business-to-spur-investment-and-jobs"
-    },
-    {
-     "date": "2026-11-22",
-     "source": "freepressjournal.in",
-     "title": "RPF of NFR Rescues Eight Children and Seizes Contraband Worth Rs. 54 Lakh",
-     "url": "https://www.freepressjournal.in/corporate-gallery/rpf-of-nfr-rescues-eight-children-and-seizes-contraband-worth-rs-54-lakh"
-    },
-    {
-     "date": "2026-11-22",
-     "source": "freepressjournal.in",
-     "title": "SWRWWO, Bengaluru Division Extends Support to Children at Mathrushree Manovikasa Kendra",
-     "url": "https://www.freepressjournal.in/corporate-gallery/swrwwo-bengaluru-division-extends-support-to-children-at-mathrushree-manovikasa-kendra"
-    },
-    {
-     "date": "2026-11-22",
-     "source": "freepressjournal.in",
-     "title": "IIM Ranchi Hosts Space Conclave 2026: Charting a Shared Roadmap for India’s Space Economy",
-     "url": "https://www.freepressjournal.in/corporate-gallery/iim-ranchi-hosts-space-conclave-2026-charting-a-shared-roadmap-for-indias-space-economy"
-    },
-    {
-     "date": "2026-11-22",
-     "source": "freepressjournal.in",
-     "title": "Children Complete Four-Month Drama Workshop at F-TAM Centre; Performance Scheduled for Sunday",
-     "url": "https://www.freepressjournal.in/corporate-gallery/children-complete-four-month-drama-workshop-at-f-tam-centre-performance-scheduled-for-sunday"
-    },
-    {
-     "date": "2026-11-22",
-     "source": "freepressjournal.in",
-     "title": "CR creates Sporting History- Ace cueist Anupama Wins World Snooker Title",
-     "url": "https://www.freepressjournal.in/corporate-gallery/cr-creates-sporting-history-ace-cueist-anupama-wins-world-snooker-title"
-    },
-    {
-     "date": "2026-11-22",
-     "source": "freepressjournal.in",
-     "title": "21st Century Icon Awards Bring Global Leaders and Achievers Together in London",
-     "url": "https://www.freepressjournal.in/corporate-gallery/21st-century-icon-awards-bring-global-leaders-and-achievers-together-in-london"
     }
    ]
   },
   "https://www.livemint.com/rss/markets": {
-   "fetched": "2026-11-23T03:45+05:30",
+   "fetched": "2026-11-23T05:15+05:30",
    "items": [
+    {
+     "date": "2026-11-23",
+     "source": "Mint",
+     "title": "US futures bounce while Asia markets brace for AI wipeout",
+     "url": "https://www.livemint.com/market/us-futures-bounce-while-asia-markets-brace-for-ai-wipeout-11795390974416.html"
+    },
+    {
+     "date": "2026-11-23",
+     "source": "Mint",
+     "title": "Dollar edges off 19-month high after market rout; yen softens",
+     "url": "https://www.livemint.com/market/dollar-edges-off-19-month-high-after-market-rout-yen-softens-11795390913779.html"
+    },
+    {
+     "date": "2026-11-23",
+     "source": "Mint",
+     "title": "Beijing to bar young red-chip firms from listing outside mainland China, sources say",
+     "url": "https://www.livemint.com/market/beijing-to-bar-young-red-chip-firms-from-listing-outside-mainland-china-sources-say-11795389145365.html"
+    },
     {
      "date": "2026-11-22",
      "source": "Mint",
@@ -1432,29 +1390,11 @@
      "source": "Mint",
      "title": "Mahanadi CoalFields IPO GMP Check: Down 92% from ₹9.25 to ₹0.7, issue struggles to attract bids- Subscribe or avoid?",
      "url": "https://www.livemint.com/market/ipo/mahanadi-coalfields-ipo-gmp-check-down-92-from-rs-9-25-to-rs-0-7-issue-struggles-to-attract-bids-subscribe-or-avoid-11795252154826.html"
-    },
-    {
-     "date": "2026-11-21",
-     "source": "Mint",
-     "title": "Taiwan Widens Short Sale Curbs After Shares Plunge on AI Concern",
-     "url": "https://www.livemint.com/market/taiwan-widens-short-sale-curbs-after-shares-plunge-on-ai-concern-11795255471195.html"
-    },
-    {
-     "date": "2026-11-21",
-     "source": "Mint",
-     "title": "Hindalco vs NALCO vs Vedanta Aluminium vs Hindustan Zinc: Which metal stocks to buy for good returns? Target, SL",
-     "url": "https://www.livemint.com/market/stock-market-news/hindalco-vs-nalco-vs-vedanta-aluminium-vs-hindustan-zinc-which-metal-stocks-to-buy-for-good-returns-target-sl-11795248944730.html"
-    },
-    {
-     "date": "2026-11-21",
-     "source": "Mint",
-     "title": "Patanjali Foods dividend 2026 announcement news: Board to consider 2nd interim dividend on Nov 26 - Check history, yield",
-     "url": "https://www.livemint.com/market/stock-market-news/patanjali-foods-dividend-2026-announcement-news-board-to-consider-2nd-interim-dividend-on-nov-26-check-history-yield-11795248708675.html"
     }
    ]
   },
   "https://www.thehindubusinessline.com/markets/feeder/default.rss": {
-   "fetched": "2026-11-23T03:45+05:30",
+   "fetched": "2026-11-23T05:15+05:30",
    "items": [
     {
      "date": "2026-11-22",
@@ -1819,7 +1759,7 @@
    ]
   },
   "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss": {
-   "fetched": "2026-11-23T03:45+05:30",
+   "fetched": "2026-11-23T05:15+05:30",
    "items": [
     {
      "date": "2026-11-18",
@@ -1945,7 +1885,7 @@
   }
  },
  "crystalcp": {
-  "checked": "2026-11-23T05:01+05:30",
+  "checked": "2026-11-23T05:15+05:30",
   "items": [
    {
     "date": "2026-11-22",
@@ -1986,7 +1926,7 @@
   ]
  },
  "mahacoal": {
-  "checked": "2026-11-23T05:01+05:30",
+  "checked": "2026-11-23T05:15+05:30",
   "items": [
    {
     "date": "2026-11-22",
@@ -2027,7 +1967,7 @@
   ]
  },
  "watrana": {
-  "checked": "2026-11-23T05:01+05:30",
+  "checked": "2026-11-23T05:15+05:30",
   "items": [
    {
     "date": "2026-11-19",
