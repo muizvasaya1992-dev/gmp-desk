@@ -1,7 +1,7 @@
 {
  "_feeds": {
   "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms": {
-   "fetched": "2026-11-22T09:45+05:30",
+   "fetched": "2026-11-22T11:15+05:30",
    "items": [
     {
      "date": "2026-11-20",
@@ -306,7 +306,7 @@
    ]
   },
   "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms": {
-   "fetched": "2026-11-22T09:45+05:30",
+   "fetched": "2026-11-22T11:15+05:30",
    "items": [
     {
      "date": "2026-11-21",
@@ -611,8 +611,20 @@
    ]
   },
   "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml": {
-   "fetched": "2026-11-22T09:45+05:30",
+   "fetched": "2026-11-22T11:15+05:30",
    "items": [
+    {
+     "date": "2026-11-22",
+     "source": "cnbctv18.com",
+     "title": "Nifty Outlook for November 23: Can index cross 26,000 and move towards 26,500 in the week ahead?",
+     "url": "https://www.cnbctv18.com/market/nifty-outlook-monday-november-23-can-index-cross-26000-and-move-towards-26500-in-the-week-ahead-20039263.htm"
+    },
+    {
+     "date": "2026-11-22",
+     "source": "cnbctv18.com",
+     "title": "China's $1.7 trillion AI rout turns hot trade into losing bet",
+     "url": "https://www.cnbctv18.com/market/chinas-ai-rout-turns-hot-trade-into-losing-bet-us-stocks-20039243.htm"
+    },
     {
      "date": "2026-11-21",
      "source": "cnbctv18.com",
@@ -1080,24 +1092,114 @@
      "source": "cnbctv18.com",
      "title": "Urban Company raises ₹2,500 crore through QIP at ₹156 per share, allots 16 crore shares",
      "url": "https://www.cnbctv18.com/market/stocks/urban-company-share-price-raises-rs-2500-crore-through-qip-at-rs-156-per-share-allots-16-crore-shares-20038129.htm"
-    },
-    {
-     "date": "2026-11-19",
-     "source": "cnbctv18.com",
-     "title": "Anthropic IPO Listing: Claude maker debuts on Nasdaq at $111, up 33%, valuing it at over $2 trillion",
-     "url": "https://www.cnbctv18.com/market/anthropic-ipo-listing-claude-maker-debuts-on-nasdaq-at-111-up-33-from-issue-price-20038020.htm"
-    },
-    {
-     "date": "2026-11-19",
-     "source": "cnbctv18.com",
-     "title": "GIFT Nifty open interest hits record $22 billion, surpasses October peak",
-     "url": "https://www.cnbctv18.com/market/gift-nifty-open-interest-hits-record-22-billion-surpasses-october-peak-20038119.htm"
     }
    ]
   },
   "https://www.freepressjournal.in/stories.rss?section=business": {
-   "fetched": "2026-11-22T09:45+05:30",
+   "fetched": "2026-11-22T11:15+05:30",
    "items": [
+    {
+     "date": "2026-11-22",
+     "source": "freepressjournal.in",
+     "title": "'They’re Taking My Dad': Woman Screams As Masked ICE Agents Drag Father Away At Seattle-Tacoma International Airport | VIDEO",
+     "url": "https://www.freepressjournal.in/world/theyre-taking-my-dad-woman-screams-as-masked-ice-agents-drag-father-away-at-seattle-tacoma-international-airport-video"
+    },
+    {
+     "date": "2026-11-22",
+     "source": "freepressjournal.in",
+     "title": "PM Modi Unveils ₹34,470 Crore Projects In Bihar, Questions Congress's Commitment To Eradicating Poverty",
+     "url": "https://www.freepressjournal.in/bihar/pm-modi-unveils-34470-crore-projects-in-bihar-questions-congresss-commitment-to-eradicating-poverty"
+    },
+    {
+     "date": "2026-11-22",
+     "source": "freepressjournal.in",
+     "title": "Mumbai Crime: Thief Breaks Into Bandra's St Andrew's Church, Steals ₹55,000 In Cash & Silver Tabernacle; Masked Intruder Caught On CCTV",
+     "url": "https://www.freepressjournal.in/mumbai/mumbai-crime-thief-breaks-into-bandras-st-andrews-church-steals-55000-in-cash-silver-tabernacle-masked-intruder-caught-on-cctv"
+    },
+    {
+     "date": "2026-11-22",
+     "source": "freepressjournal.in",
+     "title": "Maruti Suzuki Cars Get Costlier From November 22, Check How Much Prices Have Increased & Why",
+     "url": "https://www.freepressjournal.in/business/maruti-suzuki-cars-get-costlier-from-november-22-check-how-much-prices-have-increased-why"
+    },
+    {
+     "date": "2026-11-22",
+     "source": "freepressjournal.in",
+     "title": "'Let's Take Steps Towards Peace': Shah Rukh Khan Remembers 26/11 & Pahalgam Attack Victims, Salutes Martyred Soldiers",
+     "url": "https://www.freepressjournal.in/entertainment/lets-take-steps-towards-peace-shah-rukh-khan-remembers-2611-pahalgam-attack-victims-salutes-martyred-soldiers"
+    },
+    {
+     "date": "2026-11-22",
+     "source": "freepressjournal.in",
+     "title": "'What A Catch!': Dhruv Jurel Stuns Everyone With Lightning-Fast Reflexes To Dismiss Henry Nicholls In IND vs NZ 1st Test | Video",
+     "url": "https://www.freepressjournal.in/sports/what-a-catch-dhruv-jurel-stuns-everyone-with-lightning-fast-reflexes-to-dismiss-henry-nicholls-in-ind-vs-nz-1st-test-video"
+    },
+    {
+     "date": "2026-11-22",
+     "source": "freepressjournal.in",
+     "title": "Madhya Pradesh Weather Update: Cold To Intensify From Second Week Of November, Rain Likely In Several Districts",
+     "url": "https://www.freepressjournal.in/bhopal/madhya-pradesh-weather-update-cold-to-intensify-from-second-week-of-november-rain-likely-in-several-districts"
+    },
+    {
+     "date": "2026-11-22",
+     "source": "freepressjournal.in",
+     "title": "Ramayana Box Office Collection Day 17: Ranbir Kapoor And Yash's Film Sees Massive Saturday Jump, Crosses ₹900 Crore Mark In India",
+     "url": "https://www.freepressjournal.in/entertainment/ramayana-box-office-collection-day-17-ranbir-kapoor-and-yashs-film-sees-massive-saturday-jump-crosses-900-crore-mark-in-india"
+    },
+    {
+     "date": "2026-11-22",
+     "source": "freepressjournal.in",
+     "title": "Gujarat Horror: Seven Of Family, Including 3-Month-Old Baby And Two Children, Killed In Car-Truck Collision In Kutch",
+     "url": "https://www.freepressjournal.in/india/gujarat-horror-seven-of-family-including-3-month-old-baby-and-two-children-killed-in-car-truck-collision-in-kutch"
+    },
+    {
+     "date": "2026-11-22",
+     "source": "freepressjournal.in",
+     "title": "From Script To Storybook: Mahesh Thakur's 2012 Idea Becomes His First Fantasy Novel | FPJ Exclusive",
+     "url": "https://www.freepressjournal.in/lifestyle/from-script-to-storybook-mahesh-thakurs-2012-idea-becomes-his-first-fantasy-novel-fpj-exclusive"
+    },
+    {
+     "date": "2026-11-22",
+     "source": "freepressjournal.in",
+     "title": "Lionel Messi Throws Ball At Gonzalo Tapia's Face, Gets Yellow Card As Inter Miami Suffer Humiliating 3-0 Defeat | Video",
+     "url": "https://www.freepressjournal.in/sports/lionel-messi-throws-ball-at-gonzalo-tapias-face-gets-yellow-card-as-inter-miami-suffer-humiliating-3-0-defeat-video"
+    },
+    {
+     "date": "2026-11-22",
+     "source": "freepressjournal.in",
+     "title": "Maharashtra: Man Sets Girlfriend's House On Fire In Dombivli After She Ends 8-Year Relationship, Arrested",
+     "url": "https://www.freepressjournal.in/mumbai/maharashtra-man-sets-girlfriends-house-on-fire-in-dombivli-after-she-ends-8-year-relationship-arrested"
+    },
+    {
+     "date": "2026-11-22",
+     "source": "freepressjournal.in",
+     "title": "'Stupid': Rapper Swae Lee Loses Cool After Fan Throws Beer At Him During Shillong Concert, Asks Security To Throw Him Out- VIDEO",
+     "url": "https://www.freepressjournal.in/entertainment/stupid-rapper-swae-lee-loses-cool-after-fan-throws-beer-at-him-during-shillong-concert-asks-security-to-throw-him-out-video"
+    },
+    {
+     "date": "2026-11-22",
+     "source": "freepressjournal.in",
+     "title": "Quote Of The Day By Kartik Aaryan: ‘I Am Always On The Lookout For Roles Which Will Help Me Better Myself’",
+     "url": "https://www.freepressjournal.in/lifestyle/quote-of-the-day-by-kartik-aaryan-i-am-always-on-the-lookout-for-roles-which-will-help-me-better-myself"
+    },
+    {
+     "date": "2026-11-22",
+     "source": "freepressjournal.in",
+     "title": "Indore MGM Medical College's Six-Day Nirvana 2026 Festival Begins With Sports, Dance, Fashion Shows And Cultural Events; Deputy CM Rajendra Shukla To Attend Grand Finale",
+     "url": "https://www.freepressjournal.in/indore/indore-mgm-medical-colleges-six-day-nirvana-2026-festival-begins-with-sports-dance-fashion-shows-and-cultural-events-deputy-cm-rajendra-shukla-to-attend-grand-finale"
+    },
+    {
+     "date": "2026-11-22",
+     "source": "freepressjournal.in",
+     "title": "Bhopal Society Caretaker, Three Others Accused Of Brutally Beating Stray Dog, Tying Its Legs And Mouth With Ropes",
+     "url": "https://www.freepressjournal.in/bhopal/bhopal-society-caretaker-three-others-accused-of-brutally-beating-stray-dog-tying-its-legs-and-mouth-with-ropes"
+    },
+    {
+     "date": "2026-11-22",
+     "source": "freepressjournal.in",
+     "title": "Australia's Sandpaper Scandal Resurfaces As Josh Hazlewood Opens Up On Usman Khawaja Relationship Amid Bancroft's Fresh Claims",
+     "url": "https://www.freepressjournal.in/sports/australias-sandpaper-scandal-resurfaces-as-josh-hazlewood-opens-up-on-usman-khawaja-relationship-amid-bancrofts-fresh-claims"
+    },
     {
      "date": "2026-11-22",
      "source": "freepressjournal.in",
@@ -1173,14 +1275,14 @@
     {
      "date": "2026-11-22",
      "source": "freepressjournal.in",
-     "title": "Madhya Pradesh Political Punch: Minister’s Money, Diwali Milan, Earning Bad Name, Book Revives Hope & More",
-     "url": "https://www.freepressjournal.in/bhopal/madhya-pradesh-political-punch-ministers-money-diwali-milan-earning-bad-name-book-revives-hope-more"
+     "title": "Theatre Review: Swanand Kirkire’s ‘Yo Brother, This Is 95’ Revisits India’s Post-Liberalisation Dreams And Changing Morality",
+     "url": "https://www.freepressjournal.in/lifestyle/theatre-review-swanand-kirkires-yo-brother-this-is-95-revisits-indias-post-liberalisation-dreams-and-changing-morality"
     },
     {
      "date": "2026-11-22",
      "source": "freepressjournal.in",
-     "title": "Theatre Review: Swanand Kirkire’s ‘Yo Brother, This Is 95’ Revisits India’s Post-Liberalisation Dreams And Changing Morality",
-     "url": "https://www.freepressjournal.in/lifestyle/theatre-review-swanand-kirkires-yo-brother-this-is-95-revisits-indias-post-liberalisation-dreams-and-changing-morality"
+     "title": "Madhya Pradesh Political Punch: Minister’s Money, Diwali Milan, Earning Bad Name, Book Revives Hope & More",
+     "url": "https://www.freepressjournal.in/bhopal/madhya-pradesh-political-punch-ministers-money-diwali-milan-earning-bad-name-book-revives-hope-more"
     },
     {
      "date": "2026-11-22",
@@ -1227,7 +1329,7 @@
     {
      "date": "2026-11-22",
      "source": "freepressjournal.in",
-     "title": "Rajasthan's Jodhpur Road Accident Kills 3, Injures 15 As Gujarat Family Returns From Ramdevra Pilgrimage",
+     "title": "9 Dead, 15 Injured As Car Collides With Tempo In Rajasthan's Jodhpur, Family Was Returning From Pilgrimage",
      "url": "https://www.freepressjournal.in/india/rajasthans-jodhpur-road-accident-kills-3-injures-15-as-gujarat-family-returns-from-ramdevra-pilgrimage"
     },
     {
@@ -1337,48 +1439,24 @@
      "source": "freepressjournal.in",
      "title": "Mumbai’s Green Cover Under Threat As BMC Faces Fresh Protests Over Tree Felling For Malabar Hill Reservoir And Coastal Road Projects",
      "url": "https://www.freepressjournal.in/mumbai/mumbais-green-cover-under-threat-as-bmc-faces-fresh-protests-over-tree-felling-for-malabar-hill-reservoir-and-coastal-road-projects"
-    },
-    {
-     "date": "2026-11-22",
-     "source": "freepressjournal.in",
-     "title": "Conscious Vaastu: Are Vaastu & Feng Shui Two Different And Opposite Philosophies?",
-     "url": "https://www.freepressjournal.in/horoscope/conscious-vaastu-are-vaastu-feng-shui-two-different-and-opposite-philosophies"
-    },
-    {
-     "date": "2026-11-22",
-     "source": "freepressjournal.in",
-     "title": "IND vs NZ 1st Test: Rishabh Pant Smashes Audacious Six Off Glenn Phillips To Bring Up Century In Style | Video",
-     "url": "https://www.freepressjournal.in/sports/ind-vs-nz-1st-test-rishabh-pant-smashes-audacious-six-off-glenn-phillips-to-bring-up-century-in-style-video"
-    },
-    {
-     "date": "2026-11-22",
-     "source": "freepressjournal.in",
-     "title": "MP To Have Five Cheetah Habitats As Project Cheetah Eyes Major Expansion; Two More Sanctuaries Identified, Leopard Threat Looms Over Kuno Cubs",
-     "url": "https://www.freepressjournal.in/bhopal/mp-to-have-five-cheetah-habitats-as-project-cheetah-eyes-major-expansion-two-more-sanctuaries-identified-leopard-threat-looms-over-kuno-cubs"
-    },
-    {
-     "date": "2026-11-22",
-     "source": "freepressjournal.in",
-     "title": "Indore Metro MD Orders Speedy Completion Of Shaheed Baghicha, Khajrana Works Ahead Of Simhastha; Reviews Airport Tunnelling And Safety Arrangements",
-     "url": "https://www.freepressjournal.in/indore/indore-metro-md-orders-speedy-completion-of-shaheed-baghicha-khajrana-works-ahead-of-simhastha-reviews-airport-tunnelling-and-safety-arrangements"
-    },
-    {
-     "date": "2026-11-22",
-     "source": "freepressjournal.in",
-     "title": "'He Found His Own Sugar Daddy': Shiv Sena UBT MP Priyanka Chaturvedi Takes Brutal Swipe At Yuzvendra Chahal After BJP Entry",
-     "url": "https://www.freepressjournal.in/sports/he-found-his-own-sugar-daddy-shiv-sena-ubt-mp-priyanka-chaturvedi-takes-brutal-swipe-at-yuzvendra-chahal-after-bjp-entry"
-    },
-    {
-     "date": "2025-07-19",
-     "source": "freepressjournal.in",
-     "title": "'Absolutely Shameless!': Sena UBT MP Priyanka Chaturvedi Blasts WCL 2025 India-Pakistan Game, Questions BCCI & ICC",
-     "url": "https://www.freepressjournal.in/sports/absolutely-shameless-sena-ubt-mp-priyanka-chaturvedi-blasts-wcl-2025-india-pakistan-game-questions-bcci-icc"
     }
    ]
   },
   "https://www.livemint.com/rss/markets": {
-   "fetched": "2026-11-22T09:45+05:30",
+   "fetched": "2026-11-22T11:15+05:30",
    "items": [
+    {
+     "date": "2026-11-22",
+     "source": "Mint",
+     "title": "Top 3 stocks to buy: Swiggy, Tata Chemicals, Amber Enterprises by Ganesh Dongre of Anand Rathi | Targets, stop-loss",
+     "url": "https://www.livemint.com/market/stock-market-news/top-3-stocks-to-buy-swiggy-tata-chemicals-amber-enterprises-by-ganesh-dongre-of-anand-rathi-targets-stoploss-11795312924053.html"
+    },
+    {
+     "date": "2026-11-22",
+     "source": "Mint",
+     "title": "31% returns in 2026 so far! This stock is giving 4 shares on every share - you too can get it; check record date",
+     "url": "https://www.livemint.com/market/stock-market-news/31-return-in-2026-so-far-smallcap-textile-stock-is-giving-4-shares-for-every-1-held-record-date-ahead-do-you-own-11795275604076.html"
+    },
     {
      "date": "2026-11-22",
      "source": "Mint",
@@ -1576,24 +1654,24 @@
      "source": "Mint",
      "title": "Anthropic shares tumble 10% after blockbuster IPO, erase debut gains; why are investors turning cautious on AI?",
      "url": "https://www.livemint.com/market/stock-market-news/anthropic-shares-tumble-10-after-blockbuster-ipo-erase-debut-gains-why-are-investors-turning-cautious-on-ai-11795184887970.html"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "Mint",
-     "title": "StockGro expert explains: WeWork India share price target - should investors buy, sell or hold?",
-     "url": "https://www.livemint.com/market/stock-market-news/stockgro-expert-explains-wework-india-share-price-target-should-investors-buy-sell-or-hold-11795184993421.html"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "Mint",
-     "title": "Sebi proposes easing disclosure rules for foreign funds",
-     "url": "https://www.livemint.com/market/sebi-proposes-easing-disclosure-rules-for-foreign-funds-11795183389431.html"
     }
    ]
   },
   "https://www.thehindubusinessline.com/markets/feeder/default.rss": {
-   "fetched": "2026-11-22T09:45+05:30",
+   "fetched": "2026-11-22T11:15+05:30",
    "items": [
+    {
+     "date": "2026-11-22",
+     "source": "BusinessLine",
+     "title": "India weighs curbs on non-Basmati rice exports to cool domestic prices",
+     "url": "https://www.thehindubusinessline.com/markets/commodities/india-weighs-curbs-on-non-basmati-rice-exports-to-cool-domestic-prices/article71728177.ece"
+    },
+    {
+     "date": "2026-11-22",
+     "source": "BusinessLine",
+     "title": "Gold, silver, and India’s coming of age as a bullion market",
+     "url": "https://www.thehindubusinessline.com/markets/gold/gold-silver-and-indias-coming-of-age-as-a-bullion-market/article71728935.ece"
+    },
     {
      "date": "2026-11-21",
      "source": "BusinessLine",
@@ -1941,23 +2019,11 @@
      "source": "BusinessLine",
      "title": "India back as favourite after 11 months: BofA fund manager survey",
      "url": "https://www.thehindubusinessline.com/markets/india-back-as-favourite-after-11-months-bofa-fund-manager-survey/article71720831.ece"
-    },
-    {
-     "date": "2026-11-19",
-     "source": "BusinessLine",
-     "title": "Anthropic’s record listing attracts Indian investors as bids surge on investment platforms",
-     "url": "https://www.thehindubusinessline.com/markets/anthropics-record-listing-attracts-indian-investors-as-bids-surge-on-investment-platforms/article71720857.ece"
-    },
-    {
-     "date": "2026-11-19",
-     "source": "BusinessLine",
-     "title": "15% fall in gold prices could trigger panic, warn lenders",
-     "url": "https://www.thehindubusinessline.com/markets/gold/15-fall-in-gold-prices-could-trigger-panic-warn-lenders/article71719017.ece"
     }
    ]
   },
   "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss": {
-   "fetched": "2026-11-22T09:45+05:30",
+   "fetched": "2026-11-22T11:15+05:30",
    "items": [
     {
      "date": "2026-11-18",
@@ -2083,7 +2149,7 @@
   }
  },
  "crystalcp": {
-  "checked": "2026-11-22T11:01+05:30",
+  "checked": "2026-11-22T11:15+05:30",
   "items": [
    {
     "date": "2026-11-20",
@@ -2124,7 +2190,7 @@
   ]
  },
  "mahacoal": {
-  "checked": "2026-11-22T11:01+05:30",
+  "checked": "2026-11-22T11:15+05:30",
   "items": [
    {
     "date": "2026-11-21",
@@ -2165,7 +2231,7 @@
   ]
  },
  "watrana": {
-  "checked": "2026-11-22T11:01+05:30",
+  "checked": "2026-11-22T11:15+05:30",
   "items": [
    {
     "date": "2026-11-19",
