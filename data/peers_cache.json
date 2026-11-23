@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-23T12:45+05:30",
+  "fetched_at": "2026-11-23T13:01+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,19 +16,19 @@
     "price_low": 129.0,
     "size_cr": 8981.12,
     "gmp": 0.6,
-    "gmp_at": "2026-11-23T12:40",
-    "sub_total": 0.6,
-    "sub_retail": 0.35,
-    "sub_at": "2026-11-23T12:41",
+    "gmp_at": "2026-11-23T12:55",
+    "sub_total": 0.85,
+    "sub_retail": 0.36,
+    "sub_at": "2026-11-23T12:57",
     "sub_cats": {
-     "retail": 0.35,
-     "nii": 0.34,
-     "bnii": 0.28,
-     "snii": 0.46,
-     "qib": 1.45,
+     "retail": 0.36,
+     "nii": 0.35,
+     "bnii": 0.29,
+     "snii": 0.47,
+     "qib": 2.53,
      "employee": 0.15,
-     "shareholders": 0.42,
-     "total": 0.6
+     "shareholders": 0.43,
+     "total": 0.85
     },
     "gmp_days": [
      [
@@ -107,7 +107,7 @@
     "price_low": 259.0,
     "size_cr": 455.72,
     "gmp": 14.0,
-    "gmp_at": "2026-11-23T12:40",
+    "gmp_at": "2026-11-23T12:56",
     "sub_total": 17.07,
     "sub_retail": 9.281,
     "sub_at": "2026-11-20T19:05",
@@ -187,10 +187,10 @@
     "price_low": 232.0,
     "size_cr": 120.1,
     "gmp": 45.0,
-    "gmp_at": "2026-11-23T12:40",
+    "gmp_at": "2026-11-23T12:55",
     "sub_total": 41.04,
     "sub_retail": 42.1,
-    "sub_at": "2026-11-23T12:41",
+    "sub_at": "2026-11-23T12:57",
     "sub_cats": {
      "retail": 42.1,
      "nii": 73.52,
@@ -261,7 +261,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-23T12:45+05:30",
+  "fetched_at": "2026-11-23T13:01+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -277,7 +277,7 @@
     "price_low": null,
     "size_cr": null,
     "gmp": 23.0,
-    "gmp_at": "2026-11-23T11:37",
+    "gmp_at": "2026-11-23T10:37",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -299,7 +299,7 @@
     "price_low": null,
     "size_cr": 54.0,
     "gmp": null,
-    "gmp_at": "2026-11-23T11:32",
+    "gmp_at": "2026-11-23T10:32",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -321,7 +321,7 @@
     "price_low": null,
     "size_cr": 125.16,
     "gmp": null,
-    "gmp_at": "2026-11-23T11:31",
+    "gmp_at": "2026-11-23T10:32",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -365,7 +365,7 @@
     "price_low": null,
     "size_cr": 360.76,
     "gmp": 12.0,
-    "gmp_at": "2026-11-23T11:37",
+    "gmp_at": "2026-11-23T10:37",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -387,7 +387,7 @@
     "price_low": null,
     "size_cr": 93.66,
     "gmp": null,
-    "gmp_at": "2026-11-23T11:32",
+    "gmp_at": "2026-11-23T10:33",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -408,13 +408,13 @@
     "price": 245.0,
     "price_low": null,
     "size_cr": 120.1,
-    "gmp": 45.0,
-    "gmp_at": "2026-11-23T11:37",
-    "sub_total": 37.77,
+    "gmp": 55.0,
+    "gmp_at": "2026-11-23T10:37",
+    "sub_total": 24.13,
     "sub_retail": null,
     "sub_at": null,
     "lot": 600.0,
-    "rating": 3,
+    "rating": 4,
     "live": true
    },
    {
@@ -431,8 +431,8 @@
     "price_low": null,
     "size_cr": 8981.12,
     "gmp": 0.5,
-    "gmp_at": "2026-11-23T11:37",
-    "sub_total": 0.58,
+    "gmp_at": "2026-11-23T10:37",
+    "sub_total": 0.54,
     "sub_retail": null,
     "sub_at": null,
     "lot": 110.0,
@@ -453,7 +453,7 @@
     "price_low": null,
     "size_cr": 455.49,
     "gmp": 14.5,
-    "gmp_at": "2026-11-23T11:37",
+    "gmp_at": "2026-11-23T10:37",
     "sub_total": 17.68,
     "sub_retail": null,
     "sub_at": null,
@@ -816,7 +816,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-23T12:45+05:30",
+  "fetched_at": "2026-11-23T13:01+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -833,7 +833,7 @@
     "size_cr": 120.1,
     "gmp": 55.0,
     "gmp_at": null,
-    "sub_total": 48.81,
+    "sub_total": 52.29,
     "sub_retail": null,
     "sub_at": null,
     "lot": 600.0,
@@ -966,7 +966,7 @@
     "size_cr": 8981.12,
     "gmp": 0.7,
     "gmp_at": null,
-    "sub_total": 0.59,
+    "sub_total": 0.85,
     "sub_retail": null,
     "sub_at": null,
     "lot": 110.0,
