@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-23T12:01+05:30",
+  "fetched_at": "2026-11-23T12:15+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,15 +16,15 @@
     "price_low": 129.0,
     "size_cr": 8981.12,
     "gmp": 0.45,
-    "gmp_at": "2026-11-23T11:55",
+    "gmp_at": "2026-11-23T12:10",
     "sub_total": 0.58,
     "sub_retail": 0.34,
-    "sub_at": "2026-11-23T11:57",
+    "sub_at": "2026-11-23T12:15",
     "sub_cats": {
      "retail": 0.34,
-     "nii": 0.3,
-     "bnii": 0.24,
-     "snii": 0.42,
+     "nii": 0.31,
+     "bnii": 0.25,
+     "snii": 0.43,
      "qib": 1.45,
      "employee": 0.14,
      "shareholders": 0.4,
@@ -107,7 +107,7 @@
     "price_low": 259.0,
     "size_cr": 455.72,
     "gmp": 14.0,
-    "gmp_at": "2026-11-23T11:55",
+    "gmp_at": "2026-11-23T12:11",
     "sub_total": 17.07,
     "sub_retail": 9.281,
     "sub_at": "2026-11-20T19:05",
@@ -152,6 +152,10 @@
      [
       "2026-11-20",
       14.0
+     ],
+     [
+      "2026-11-23",
+      14.0
      ]
     ],
     "rhp_url": "https://www.iiflcapital.com/institutional-equities/upload/investmentbanking/prospects/crystal_crop_protection_limited_-_red_herring_prospectus.pdf",
@@ -183,15 +187,15 @@
     "price_low": 232.0,
     "size_cr": 120.1,
     "gmp": 50.0,
-    "gmp_at": "2026-11-23T11:55",
-    "sub_total": 27.67,
-    "sub_retail": 31.47,
-    "sub_at": "2026-11-23T11:57",
+    "gmp_at": "2026-11-23T12:11",
+    "sub_total": 41.04,
+    "sub_retail": 42.1,
+    "sub_at": "2026-11-23T12:15",
     "sub_cats": {
-     "retail": 31.47,
-     "nii": 53.6,
-     "qib": 1.7,
-     "total": 27.67
+     "retail": 42.1,
+     "nii": 73.52,
+     "qib": 14.94,
+     "total": 41.04
     },
     "gmp_days": [
      [
@@ -257,7 +261,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-23T12:01+05:30",
+  "fetched_at": "2026-11-23T12:15+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -812,7 +816,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-23T12:01+05:30",
+  "fetched_at": "2026-11-23T12:15+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -827,9 +831,9 @@
     "price": 245.0,
     "price_low": 232.0,
     "size_cr": 120.1,
-    "gmp": 45.0,
+    "gmp": 55.0,
     "gmp_at": null,
-    "sub_total": 37.15,
+    "sub_total": 41.04,
     "sub_retail": null,
     "sub_at": null,
     "lot": 600.0,
@@ -960,9 +964,9 @@
     "price": 129.0,
     "price_low": null,
     "size_cr": 8981.12,
-    "gmp": 0.5,
+    "gmp": 0.7,
     "gmp_at": null,
-    "sub_total": 0.55,
+    "sub_total": 0.58,
     "sub_retail": null,
     "sub_at": null,
     "lot": 110.0,
