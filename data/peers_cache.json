@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-23T15:45+05:30",
+  "fetched_at": "2026-11-23T16:01+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,19 +16,19 @@
     "price_low": 129.0,
     "size_cr": 8981.12,
     "gmp": 0.45,
-    "gmp_at": "2026-11-23T15:40",
-    "sub_total": 1.47,
-    "sub_retail": 0.42,
-    "sub_at": "2026-11-23T15:42",
+    "gmp_at": "2026-11-23T15:55",
+    "sub_total": 1.5,
+    "sub_retail": 0.43,
+    "sub_at": "2026-11-23T15:57",
     "sub_cats": {
-     "retail": 0.42,
-     "nii": 0.64,
-     "bnii": 0.61,
-     "snii": 0.71,
-     "qib": 4.87,
-     "employee": 0.2,
-     "shareholders": 0.53,
-     "total": 1.47
+     "retail": 0.43,
+     "nii": 0.65,
+     "bnii": 0.62,
+     "snii": 0.73,
+     "qib": 4.95,
+     "employee": 0.21,
+     "shareholders": 0.54,
+     "total": 1.5
     },
     "gmp_days": [
      [
@@ -107,7 +107,7 @@
     "price_low": 259.0,
     "size_cr": 455.72,
     "gmp": 14.0,
-    "gmp_at": "2026-11-23T15:41",
+    "gmp_at": "2026-11-23T15:55",
     "sub_total": 17.07,
     "sub_retail": 9.281,
     "sub_at": "2026-11-20T19:05",
@@ -187,10 +187,10 @@
     "price_low": 232.0,
     "size_cr": 120.1,
     "gmp": 40.0,
-    "gmp_at": "2026-11-23T15:40",
+    "gmp_at": "2026-11-23T15:55",
     "sub_total": 102.12,
     "sub_retail": 82.27,
-    "sub_at": "2026-11-23T15:42",
+    "sub_at": "2026-11-23T15:58",
     "sub_cats": {
      "retail": 82.27,
      "nii": 180.56,
@@ -261,7 +261,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-23T15:45+05:30",
+  "fetched_at": "2026-11-23T16:01+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -816,7 +816,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-23T15:45+05:30",
+  "fetched_at": "2026-11-23T16:01+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -833,7 +833,7 @@
     "size_cr": 120.1,
     "gmp": 40.0,
     "gmp_at": null,
-    "sub_total": 135.8,
+    "sub_total": 146.38,
     "sub_retail": null,
     "sub_at": null,
     "lot": 600.0,
@@ -966,7 +966,7 @@
     "size_cr": 8981.12,
     "gmp": 0.5,
     "gmp_at": null,
-    "sub_total": 1.47,
+    "sub_total": 1.5,
     "sub_retail": null,
     "sub_at": null,
     "lot": 110.0,
