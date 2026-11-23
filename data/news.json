@@ -1,7 +1,7 @@
 {
  "_feeds": {
   "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms": {
-   "fetched": "2026-11-23T23:31+05:30",
+   "fetched": "2026-11-24T01:01+05:30",
    "items": [
     {
      "date": "2026-11-23",
@@ -306,7 +306,7 @@
    ]
   },
   "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms": {
-   "fetched": "2026-11-23T23:31+05:30",
+   "fetched": "2026-11-24T01:01+05:30",
    "items": [
     {
      "date": "2026-11-23",
@@ -611,8 +611,20 @@
    ]
   },
   "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml": {
-   "fetched": "2026-11-23T23:31+05:30",
+   "fetched": "2026-11-24T01:01+05:30",
    "items": [
+    {
+     "date": "2026-11-24",
+     "source": "cnbctv18.com",
+     "title": "Can Amazon ever go bankrupt and fail? Here's what founder Jeff Bezos told employees",
+     "url": "https://www.cnbctv18.com/business/jeff-bezos-amazon-bankruptcy-warning-30-year-company-lifespan-customer-focus-andy-jassy-20040124.htm"
+    },
+    {
+     "date": "2026-11-23",
+     "source": "cnbctv18.com",
+     "title": "RVNL bags ₹87 crore contract from NMDC to build super-speciality hospital in Chhattisgarh",
+     "url": "https://www.cnbctv18.com/market/stocks/rvnl-share-price-bags-rs-87-crore-contract-from-nmdc-to-build-super-speciality-hospital-in-chhattisgarh-20040303.htm"
+    },
     {
      "date": "2026-11-23",
      "source": "cnbctv18.com",
@@ -1080,24 +1092,72 @@
      "source": "cnbctv18.com",
      "title": "InvIT IPO rush gathers pace; 4-5 private trusts likely to go public by Mar 2027",
      "url": "https://www.cnbctv18.com/market/invit-ipo-rush-gathers-pace-4-5-private-trusts-likely-to-go-public-by-mar-2027-20039312.htm"
-    },
-    {
-     "date": "2026-11-22",
-     "source": "cnbctv18.com",
-     "title": "RVNL emerges as L1 bidder for ₹348 crore East Coast Railway project",
-     "url": "https://www.cnbctv18.com/market/rvnl-share-price-emerges-as-l1-bidder-for-348-crore-east-coast-railway-project-20039309.htm"
-    },
-    {
-     "date": "2026-11-22",
-     "source": "cnbctv18.com",
-     "title": "Stocks to Watch for November 23: Tata Steel, APL Apollo Tubes, Maruti Suzuki, Adani Energy and more",
-     "url": "https://www.cnbctv18.com/photos/market/stocks-to-watch-for-november-23-maruti-suzuki-welspun-living-ashoka-buildcon-adani-energy-share-price-20039268.htm"
     }
    ]
   },
   "https://www.freepressjournal.in/stories.rss?section=business": {
-   "fetched": "2026-11-23T23:31+05:30",
+   "fetched": "2026-11-24T01:01+05:30",
    "items": [
+    {
+     "date": "2026-11-23",
+     "source": "freepressjournal.in",
+     "title": "Mumbai Kurla Garden Assault Case: Ghatkopar Police Detain Two More Minors Over Attack On Couple, Total Number Reaches Eight",
+     "url": "https://www.freepressjournal.in/mumbai/mumbai-kurla-garden-assault-case-ghatkopar-police-detain-two-more-minors-over-attack-on-couple-total-number-reaches-eight"
+    },
+    {
+     "date": "2026-11-23",
+     "source": "freepressjournal.in",
+     "title": "MP CM Mohan Yadav To Set Two-Year Development Agenda Through Bhopal And Chitrakoot Chintan Shivirs In December",
+     "url": "https://www.freepressjournal.in/indore/mp-cm-mohan-yadav-to-set-two-year-development-agenda-through-bhopal-and-chitrakoot-chintan-shivirs-in-december"
+    },
+    {
+     "date": "2026-11-23",
+     "source": "freepressjournal.in",
+     "title": "MP’s Mandsaur Shocker! Woman’s Body Taken 1.5 Km On Handcart After Four-Hour Wait For Ambulance",
+     "url": "https://www.freepressjournal.in/indore/mps-mandsaur-shocker-womans-body-taken-15-km-on-handcart-after-four-hour-wait-for-ambulance"
+    },
+    {
+     "date": "2026-11-23",
+     "source": "freepressjournal.in",
+     "title": "Kalyan Railway Station: Only 3-4 Of 10 Reservation Counters Operational; Passengers Face Long Queues",
+     "url": "https://www.freepressjournal.in/mumbai/kalyan-railway-station-only-3-4-of-10-reservation-counters-operational-passengers-face-long-queues"
+    },
+    {
+     "date": "2026-11-23",
+     "source": "freepressjournal.in",
+     "title": "Mumbai Road Rage: Motorist Smashes Businessman's Car With Baseball Bat After Collision On Western Express Highway Near Vile Parle; Case Registered",
+     "url": "https://www.freepressjournal.in/mumbai/mumbai-road-rage-motorist-smashes-businessmans-car-with-baseball-bat-after-collision-on-western-express-highway-near-vile-parle-case-registered"
+    },
+    {
+     "date": "2026-11-23",
+     "source": "freepressjournal.in",
+     "title": "US President Donald Trump Says He 'Assured' Nvidia Board That Jensen Huang Wouldn't Be Prosecuted",
+     "url": "https://www.freepressjournal.in/tech/us-president-donald-trump-says-he-assured-nvidia-board-that-jensen-huang-wouldnt-be-prosecuted"
+    },
+    {
+     "date": "2026-11-23",
+     "source": "freepressjournal.in",
+     "title": "Rishita Kothari & Boyfriend Mridul Meena Unfollow Avinash Mishra Amid Alleged Cheating Controversy",
+     "url": "https://www.freepressjournal.in/entertainment/rishita-kothari-boyfriend-mridul-meena-unfollow-avinash-mishra-amid-alleged-cheating-controversy"
+    },
+    {
+     "date": "2026-11-23",
+     "source": "freepressjournal.in",
+     "title": "Jensen Huang, Nvidia General Counsel To Face US Congressional Questioning Over China Links During Week Of Nov 30",
+     "url": "https://www.freepressjournal.in/tech/jensen-huang-nvidia-general-counsel-to-face-us-congressional-questioning-over-china-links-during-week-of-nov-30"
+    },
+    {
+     "date": "2026-11-23",
+     "source": "freepressjournal.in",
+     "title": "Mumbai Crime: Dahisar Woman Alleges Theft Of Cosmetics And Medicines Worth ₹25,000 During Flight From Canada",
+     "url": "https://www.freepressjournal.in/mumbai/mumbai-crime-dahisar-woman-alleges-theft-of-cosmetics-and-medicines-worth-25000-during-flight-from-canada"
+    },
+    {
+     "date": "2026-11-23",
+     "source": "freepressjournal.in",
+     "title": "Nvidia Reinstates Jensen Huang As CEO With Trump's Backing, Shares Surge Nearly 30 Per Cent",
+     "url": "https://www.freepressjournal.in/business/nvidia-reinstates-jensen-huang-as-ceo-with-trumps-backing-shares-surge-nearly-30-per-cent"
+    },
     {
      "date": "2026-11-23",
      "source": "freepressjournal.in",
@@ -1375,214 +1435,46 @@
      "url": "https://www.freepressjournal.in/mumbai/fda-cracks-down-on-food-safety-violations-mumbai-university-canteen-fined-1-lakh-british-brewing-companys-licence-suspended"
     },
     {
-     "date": "2026-11-23",
+     "date": "2026-11-22",
      "source": "freepressjournal.in",
-     "title": "Mumbai: NSEL Disburses ₹1,950 Crore To 5,682 Investors Under OTS, Ending 13-Year Wait For Payouts",
-     "url": "https://www.freepressjournal.in/mumbai/mumbai-nsel-disburses-1950-crore-to-5682-investors-under-ots-ending-13-year-wait-for-payouts"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "freepressjournal.in",
-     "title": "Fire Breaks Out At 3 ATMs Near New Delhi Railway Station, 4 Fire Tenders Deployed",
-     "url": "https://www.freepressjournal.in/india/fire-breaks-out-at-3-atms-near-new-delhi-railway-station-4-fire-tenders-deployed"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "freepressjournal.in",
-     "title": "Mumbai Hit-And-Run: 22-Year-Old Biker Dies After Speeding Truck Rams Motorcycle On Eastern Express Highway; Driver Flees",
-     "url": "https://www.freepressjournal.in/mumbai/mumbai-hit-and-run-22-year-old-biker-dies-after-speeding-truck-rams-motorcycle-on-eastern-express-highway-driver-flees"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "freepressjournal.in",
-     "title": "Sachin Ahir Reviews Welfare Demands Of Five Communities, Assures Discussions During Nagpur Winter Session",
-     "url": "https://www.freepressjournal.in/mumbai/sachin-ahir-reviews-welfare-demands-of-five-communities-assures-discussions-during-nagpur-winter-session"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "freepressjournal.in",
-     "title": "Mumbai: BMC’s ‘Pedestrian First’ Drive Faces Setback As Hawkers And Encroachments Return To Footpaths",
-     "url": "https://www.freepressjournal.in/mumbai/mumbai-bmcs-pedestrian-first-drive-faces-setback-as-hawkers-and-encroachments-return-to-footpaths"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "freepressjournal.in",
-     "title": "Dombivli House Fire Case: Deepesh Rastogi Remanded In Three-Day Police Custody For Allegedly Setting Former Girlfriend's House Ablaze",
-     "url": "https://www.freepressjournal.in/mumbai/dombivli-house-fire-case-deepesh-rastogi-remanded-in-three-day-police-custody-for-allegedly-setting-former-girlfriends-house-ablaze"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "freepressjournal.in",
-     "title": "Panvel Municipal Corporation Announces Weekly Day-Long Water Cuts Across Areas From November 23 Amid Low Dam Reserves",
-     "url": "https://www.freepressjournal.in/mumbai/panvel-municipal-corporation-announces-weekly-day-long-water-cuts-across-areas-from-november-23-amid-low-dam-reserves"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "freepressjournal.in",
-     "title": "Delhi Police Constable Suspended After Allegedly Calling Off Wedding Over Demand For Maruti Brezza",
-     "url": "https://www.freepressjournal.in/india/delhi-police-constable-suspended-after-allegedly-calling-off-wedding-over-demand-for-maruti-brezza"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "freepressjournal.in",
-     "title": "Mumbai Police's New Rapid Drug Testing Van Catches 12 At Mahalaxmi Racecourse Concert On Day 1",
-     "url": "https://www.freepressjournal.in/mumbai/mumbai-polices-new-rapid-drug-testing-van-catches-12-at-mahalaxmi-racecourse-concert-on-day-1-mumbai-news"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "freepressjournal.in",
-     "title": "Nvidia Shares Jump 30% After Board Reinstates Jensen Huang As CEO With Immediate Effect",
-     "url": "https://www.freepressjournal.in/business/nvidia-shares-jump-30-after-board-reinstates-jensen-huang-as-ceo-with-immediate-effect"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "freepressjournal.in",
-     "title": "ALPA India Accuses DGCA Of Regulatory Double Standards Over SpiceJet's Operational Crisis; Demands Fast-Tracking Crew Exit From Financially Distressed Airlines",
-     "url": "https://www.freepressjournal.in/mumbai/alpa-india-accuses-dgca-of-regulatory-double-standards-over-spicejets-operational-crisis-demands-fast-tracking-crew-exit-from-financially-distressed-airlines"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "freepressjournal.in",
-     "title": "Maharashtra Transport Department Sanctions ₹18.40 Lakh For AI-Based Road Safety Audit Of Old Mumbai-Pune Highway",
-     "url": "https://www.freepressjournal.in/mumbai/maharashtra-transport-department-sanctions-1840-lakh-for-ai-based-road-safety-audit-of-old-mumbai-pune-highway"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "freepressjournal.in",
-     "title": "Maharashtra Govt Forms Seven-Member Committee To Frame SOPs For Air Ambulances And New Emergency Ambulance Services",
-     "url": "https://www.freepressjournal.in/mumbai/maharashtra-govt-forms-seven-member-committee-to-frame-sops-for-air-ambulances-and-new-emergency-ambulance-services"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "freepressjournal.in",
-     "title": "RBI Proposes 'Stop Switch' To Block Digital Banking Debits Instantly, Strengthen Protection Against Fraud",
-     "url": "https://www.freepressjournal.in/business/rbi-proposes-stop-switch-to-block-digital-banking-debits-instantly-strengthen-protection-against-fraud"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "freepressjournal.in",
-     "title": "'Great Patriot & National Treasure': US President Donald Trump Welcomes Jensen Huang's Return As NVIDIA CEO",
-     "url": "https://www.freepressjournal.in/world/great-patriot-national-treasure-us-president-donald-trump-welcomes-jensen-huangs-return-as-nvidia-ceo"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "freepressjournal.in",
-     "title": "Mumbai Police Arrest Fake Cops For Allegedly Robbing Two Foreign Nationals Of ₹97.5 Lakh Near Metro Cinema",
-     "url": "https://www.freepressjournal.in/mumbai/mumbai-police-arrest-fake-cops-for-allegedly-robbing-two-foreign-nationals-of-975-lakh-near-metro-cinema"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "freepressjournal.in",
-     "title": "Panvel Wildlife Filmmaker Aishwarya Sridhar Wins Rising Star Of The Year Award At Global Event In Estonia",
-     "url": "https://www.freepressjournal.in/mumbai/panvel-wildlife-filmmaker-aishwarya-sridhar-wins-rising-star-of-the-year-award-at-global-event-in-estonia"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "freepressjournal.in",
-     "title": "Happy Dev Deepawali 2026: 25+ Dev Diwali Wishes, Messages And More To Share On This Day",
-     "url": "https://www.freepressjournal.in/lifestyle/happy-dev-deepawali-2026-25-dev-diwali-wishes-messages-and-more-to-share-on-this-day"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "freepressjournal.in",
-     "title": "Maha Govt Forms 7-Member Panel To Frame SOP For Air Ambulances, New Ambulance Services Across State; Report Due In 2 Months",
-     "url": "https://www.freepressjournal.in/mumbai/maha-govt-forms-7-member-panel-to-frame-sop-for-air-ambulances-new-ambulance-services-across-state-report-due-in-2-months"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "freepressjournal.in",
-     "title": "'Mere Haath Mein Nahi Hai': Babar Azam On Handling High Expectations And Outside Scrutiny; VIDEO",
-     "url": "https://www.freepressjournal.in/sports/mere-haath-mein-nahi-hai-babar-azam-on-handling-high-expectations-and-outside-scrutiny-video"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "freepressjournal.in",
-     "title": "Jamnalal Bajaj Foundation Announces 48th Annual Award Winners For Gandhian Constructive Work In India And Abroad",
-     "url": "https://www.freepressjournal.in/mumbai/jamnalal-bajaj-foundation-announces-48th-annual-award-winners-for-gandhian-constructive-work-in-india-and-abroad"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "freepressjournal.in",
-     "title": "Palghar Crime: MBVV Police Arrest 2 In Three Daylight Gold Chain Snatchings Across Vasai, Nalasopara",
-     "url": "https://www.freepressjournal.in/mumbai/palghar-crime-mbvv-police-arrest-2-in-three-daylight-gold-chain-snatchings-across-vasai-nalasopara"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "freepressjournal.in",
-     "title": "Bhiwandi Fire Brigade Faces Acute Manpower Crisis With 121 Vacancies; Over 50,000 Warehouses Still Await Independent Fire Station",
-     "url": "https://www.freepressjournal.in/mumbai/bhiwandi-fire-brigade-faces-acute-manpower-crisis-with-121-vacancies-over-50000-warehouses-still-await-independent-fire-station"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "freepressjournal.in",
-     "title": "UP Assembly Elections 2027: SP, Congress Begin Seat-Sharing Talks; Congress Seeks 55 Seats In First List",
-     "url": "https://www.freepressjournal.in/uttar-pradesh/up-assembly-elections-2027-sp-congress-begin-seat-sharing-talks-congress-seeks-55-seats-in-first-list"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "freepressjournal.in",
-     "title": "Panchayat Season 5 Trailer X Reactions: 'Has Refreshing Vibe', 'Where Is Vidhayak Ji?' Netizens Share Mixed Reactions - VIDEO",
-     "url": "https://www.freepressjournal.in/entertainment/panchayat-season-5-trailer-x-reactions-has-refreshing-vibe-where-is-vidhayak-ji-netizens-share-mixed-reactions-video"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "freepressjournal.in",
-     "title": "Navi Mumbai Shocker: 34-Year-Old Convict Dies After Jumping From Fifth Floor Of Belapur Sessions Court Following Life Sentence | VIDEO",
-     "url": "https://www.freepressjournal.in/mumbai/navi-mumbai-shocker-34-year-old-convict-dies-after-jumping-from-fifth-floor-of-belapur-sessions-court-following-life-sentence-video"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "freepressjournal.in",
-     "title": "'Can't Wait To Get Back To Work': Jensen Huang After NVIDIA Board Reinstates Him As CEO Following Controversial Exit",
-     "url": "https://www.freepressjournal.in/world/cant-wait-to-get-back-to-work-jensen-huang-after-nvidia-board-reinstates-him-as-ceo-following-controversial-exit"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "freepressjournal.in",
-     "title": "Mumbai Pickleball Cup Returns For Season 3 On November 29, Set To Bring Exciting Pickleball Action",
-     "url": "https://www.freepressjournal.in/sports/mumbai-pickleball-cup-returns-for-season-3-on-november-29-set-to-bring-exciting-pickleball-action"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "freepressjournal.in",
-     "title": "Pune Shocker! Wipro Engineer Beaten To Death By Infosys Employee Boyfriend In Hinjawadi",
-     "url": "https://www.freepressjournal.in/pune/pune-shocker-wipro-engineer-beaten-to-death-by-infosys-employee-boyfriend-in-hinjawadi"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "freepressjournal.in",
-     "title": "'Maharashtra Govt Will Not Take Over Ordinary Farmers' Land,' Says Chandrashekhar Bawankule; Urges Large Landowners To Cultivate Fallow Fields",
-     "url": "https://www.freepressjournal.in/mumbai/maharashtra-govt-will-not-take-over-ordinary-farmers-land-says-chandrashekhar-bawankule-urges-large-landowners-to-cultivate-fallow-fields"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "freepressjournal.in",
-     "title": "Wellington's Lifeless Pitch Frustrates Indian Bowlers As Wickets Prove Hard To Come By",
-     "url": "https://www.freepressjournal.in/sports/wellingtons-lifeless-pitch-frustrates-indian-bowlers-as-wickets-prove-hard-to-come-by"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "freepressjournal.in",
-     "title": "Jensen Huang Returns As NVIDIA CEO 11 Days After Resignation; Board Rules Out National Security Risk",
-     "url": "https://www.freepressjournal.in/world/jensen-huang-returns-as-nvidia-ceo-11-days-after-resignation-board-rules-out-national-security-risk"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "freepressjournal.in",
-     "title": "Pakistan Announces U19 Squads For England Series; Farhan Yousaf To Lead In Both Formats After Match-Winning Fifty Against India A",
-     "url": "https://www.freepressjournal.in/sports/pakistan-announces-u19-squads-for-england-series-farhan-yousaf-to-lead-in-both-formats-after-match-winning-fifty-against-india-a"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "freepressjournal.in",
-     "title": "Maharashtra Records Nearly 96% Rise In Hepatitis B Cases In Four Years, Climbs To Second Position In National Rankings",
-     "url": "https://www.freepressjournal.in/mumbai/maharashtra-records-nearly-96-rise-in-hepatitis-b-cases-in-four-years-climbs-to-second-position-in-national-rankings"
+     "title": "Fake Cops Rob Chad National Of ₹12 Lakh Near Metro Cinema; 2 Held, ₹49 Lakh Seized",
+     "url": "https://www.freepressjournal.in/mumbai/fake-cops-rob-chad-national-of-12-lakh-near-metro-cinema-2-held-49-lakh-seized"
     }
    ]
   },
   "https://www.livemint.com/rss/markets": {
-   "fetched": "2026-11-23T23:31+05:30",
+   "fetched": "2026-11-24T01:01+05:30",
    "items": [
+    {
+     "date": "2026-11-24",
+     "source": "Mint",
+     "title": "Anthropic Shares Climb With AI Trade Rally on Huang’s Return",
+     "url": "https://www.livemint.com/market/anthropic-shares-climb-with-ai-trade-rally-on-huang-s-return-11795462011780.html"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "Mint",
+     "title": "Gold rises as bargain hunters step in after steep weekly drop",
+     "url": "https://www.livemint.com/market/gold-rises-as-bargain-hunters-step-in-after-steep-weekly-drop-11795461578266.html"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "Mint",
+     "title": "Oil falls around 3% on increased Middle East flows, Libyan pipeline restart",
+     "url": "https://www.livemint.com/market/oil-falls-around-3-on-increased-middle-east-flows-libyan-pipeline-restart-11795461389950.html"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "Mint",
+     "title": "Chicago soybeans higher on meal demand; wheat gains on supply concerns",
+     "url": "https://www.livemint.com/market/chicago-soybeans-higher-on-meal-demand-wheat-gains-on-supply-concerns-11795459844011.html"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "Mint",
+     "title": "Up to 5 InvITs expected to go public by March 2027? Which private trusts are likely to launch IPOs - Details here",
+     "url": "https://www.livemint.com/market/ipo/up-to-5-invits-expected-to-go-public-by-march-2027-which-private-trusts-are-likely-to-launch-ipos-details-here-11795455761951.html"
+    },
     {
      "date": "2026-11-23",
      "source": "Mint",
@@ -1762,41 +1654,11 @@
      "source": "Mint",
      "title": "Fund managers look to raise gold, silver exposure as price correction revives interest",
      "url": "https://www.livemint.com/market/gold-silver-prices-fall-mutual-funds-increase-precious-metal-allocations-11795408683158.html"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "Mint",
-     "title": "137% up in five years, ITI shares rally 11% today despite stock market crash | Check stock returns, buy target price",
-     "url": "https://www.livemint.com/market/stock-market-news/137-up-in-five-years-iti-shares-rally-11-today-despite-stock-market-crash-check-stock-returns-buy-target-price-11795414053977.html"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "Mint",
-     "title": "Bull vs Bear: Why is stock market down today? Sensex, Nifty succumb to profit-booking, plunge nearly 1% - Top 3 reasons",
-     "url": "https://www.livemint.com/market/stock-market-news/bull-vs-bear-why-is-stock-market-down-today-sensex-nifty-succumb-to-profit-booking-plunge-nearly-1-top-3-reasons-11795411485763.html"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "Mint",
-     "title": "Amid gold price crash and rebound, how Titan, PC Jeweller, Kalyan Jewellers are faring? Jewellery stocks price movement",
-     "url": "https://www.livemint.com/market/stock-market-news/amid-gold-price-crash-and-rebound-how-titan-pc-jeweller-kalyan-jewellers-are-faring-jewellery-stocks-price-movement-11795411290907.html"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "Mint",
-     "title": "MCX vs NSE vs BSE shares comparison: Which exchange stock to buy for a better return? Experts' views, targets, stop-loss",
-     "url": "https://www.livemint.com/market/stock-market-news/mcx-vs-nse-vs-bse-shares-comparison-which-exchange-stock-to-buy-for-a-better-return-experts-views-targets-stoploss-11795411226831.html"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "Mint",
-     "title": "Ashoka Buildcon share price jumps 8% on ₹4,223 crore project wins; stock up 17% in a month | What should investors do?",
-     "url": "https://www.livemint.com/market/stock-market-news/ashoka-buildcon-share-price-jumps-8-on-rs-4-223-crore-project-wins-stock-up-17-in-a-month-what-should-investors-do-11795409853245.html"
     }
    ]
   },
   "https://www.thehindubusinessline.com/markets/feeder/default.rss": {
-   "fetched": "2026-11-23T23:31+05:30",
+   "fetched": "2026-11-24T01:01+05:30",
    "items": [
     {
      "date": "2026-11-23",
@@ -2161,7 +2023,7 @@
    ]
   },
   "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss": {
-   "fetched": "2026-11-23T23:31+05:30",
+   "fetched": "2026-11-24T01:01+05:30",
    "items": [
     {
      "date": "2026-11-18",
@@ -2287,7 +2149,7 @@
   }
  },
  "crystalcp": {
-  "checked": "2026-11-24T00:45+05:30",
+  "checked": "2026-11-24T01:01+05:30",
   "items": [
    {
     "date": "2026-11-22",
@@ -2328,7 +2190,7 @@
   ]
  },
  "foodlink": {
-  "checked": "2026-11-24T00:45+05:30",
+  "checked": "2026-11-24T01:01+05:30",
   "items": [
    {
     "date": "2026-11-23",
@@ -2357,7 +2219,7 @@
   ]
  },
  "foodlink-f-b-holdings": {
-  "checked": "2026-11-24T00:45+05:30",
+  "checked": "2026-11-24T01:01+05:30",
   "items": [
    {
     "date": "2026-11-23",
@@ -2386,7 +2248,7 @@
   ]
  },
  "mahacoal": {
-  "checked": "2026-11-24T00:45+05:30",
+  "checked": "2026-11-24T01:01+05:30",
   "items": [
    {
     "date": "2026-11-23",
@@ -2427,7 +2289,7 @@
   ]
  },
  "matangi-rubber": {
-  "checked": "2026-11-24T00:45+05:30",
+  "checked": "2026-11-24T01:01+05:30",
   "items": [
    {
     "date": "2026-11-23",
@@ -2438,7 +2300,7 @@
   ]
  },
  "watrana": {
-  "checked": "2026-11-24T00:45+05:30",
+  "checked": "2026-11-24T01:01+05:30",
   "items": [
    {
     "date": "2026-11-19",
