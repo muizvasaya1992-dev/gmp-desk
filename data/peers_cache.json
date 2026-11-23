@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-23T15:31+05:30",
+  "fetched_at": "2026-11-23T15:45+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -15,20 +15,20 @@
     "price": 136.0,
     "price_low": 129.0,
     "size_cr": 8981.12,
-    "gmp": 0.4,
-    "gmp_at": "2026-11-23T15:25",
-    "sub_total": 1.45,
+    "gmp": 0.45,
+    "gmp_at": "2026-11-23T15:40",
+    "sub_total": 1.47,
     "sub_retail": 0.42,
-    "sub_at": "2026-11-23T15:29",
+    "sub_at": "2026-11-23T15:42",
     "sub_cats": {
      "retail": 0.42,
-     "nii": 0.63,
-     "bnii": 0.59,
-     "snii": 0.69,
-     "qib": 4.78,
+     "nii": 0.64,
+     "bnii": 0.61,
+     "snii": 0.71,
+     "qib": 4.87,
      "employee": 0.2,
-     "shareholders": 0.52,
-     "total": 1.45
+     "shareholders": 0.53,
+     "total": 1.47
     },
     "gmp_days": [
      [
@@ -73,7 +73,7 @@
      ],
      [
       "2026-11-23",
-      0.4
+      0.45
      ]
     ],
     "rhp_url": "https://media.ipoji.com/rhp/MCL_RHP_Filing_Version_13112026.pdf",
@@ -107,7 +107,7 @@
     "price_low": 259.0,
     "size_cr": 455.72,
     "gmp": 14.0,
-    "gmp_at": "2026-11-23T15:25",
+    "gmp_at": "2026-11-23T15:41",
     "sub_total": 17.07,
     "sub_retail": 9.281,
     "sub_at": "2026-11-20T19:05",
@@ -187,10 +187,10 @@
     "price_low": 232.0,
     "size_cr": 120.1,
     "gmp": 40.0,
-    "gmp_at": "2026-11-23T15:25",
+    "gmp_at": "2026-11-23T15:40",
     "sub_total": 102.12,
     "sub_retail": 82.27,
-    "sub_at": "2026-11-23T15:29",
+    "sub_at": "2026-11-23T15:42",
     "sub_cats": {
      "retail": 82.27,
      "nii": 180.56,
@@ -261,7 +261,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-23T15:31+05:30",
+  "fetched_at": "2026-11-23T15:45+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -816,7 +816,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-23T15:31+05:30",
+  "fetched_at": "2026-11-23T15:45+05:30",
   "records": [
    {
     "src": "Tracker D",
