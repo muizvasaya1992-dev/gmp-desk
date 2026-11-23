@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T14:45+05:30",
+  "generated_at": "2026-11-23T15:01+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-23T11:31+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-23T14:45+05:30",
+    "nse_ok_at": "2026-11-23T15:01+05:30",
     "bse_ok_at": "2026-11-23T11:36+05:30"
   },
   "ipos": [
@@ -3221,7 +3221,7 @@
         {
           "source": "Tracker C",
           "gmp": 14.5,
-          "at": "2026-11-23T10:37"
+          "at": "2026-11-23T13:37"
         },
         {
           "source": "Tracker D",
@@ -3356,7 +3356,7 @@
         "total": 72.04
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-23T14:44",
+      "sub_asof": "2026-11-23T14:57",
       "registrar": "Maashitla Securities Private Limited",
       "lead_managers": [
         "Oneview Corporate Advisors Private Limited"
@@ -3377,7 +3377,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": 3516000.0,
-      "updated_on": "2026-11-23T14:45+05:30",
+      "updated_on": "2026-11-23T15:01+05:30",
       "reservation": {
         "qib": 47.37,
         "nii": 14.25,
@@ -3389,7 +3389,7 @@
         "fresh_cr": 120.1,
         "ofs_cr": 0.0
       },
-      "tracker_rating": 4,
+      "tracker_rating": 3,
       "reservation_detail": {
         "anchor": {
           "pct": 28.27,
@@ -3478,8 +3478,8 @@
         },
         {
           "source": "Tracker C",
-          "gmp": 45,
-          "at": "2026-11-23T11:37"
+          "gmp": 40,
+          "at": "2026-11-23T13:37"
         },
         {
           "source": "Tracker D",
@@ -3548,10 +3548,10 @@
       "gmp_pct": 16.33,
       "gmp_spread": {
         "min": 34,
-        "max": 45,
-        "diff": 11,
+        "max": 40,
+        "diff": 6,
         "n": 4,
-        "diff_pct_of_price": 4.49
+        "diff_pct_of_price": 2.45
       },
       "gmp_trend": {
         "dir": "falling",
@@ -3586,17 +3586,17 @@
       "price": 136,
       "segment": "SME",
       "sub": {
-        "qib": 2.65,
-        "nii": 0.45,
-        "bnii": 0.39,
-        "snii": 0.56,
-        "retail": 0.39,
+        "qib": 3.62,
+        "nii": 0.51,
+        "bnii": 0.48,
+        "snii": 0.58,
+        "retail": 0.4,
         "employee": 0.18,
-        "shareholders": 0.48,
-        "total": 0.91
+        "shareholders": 0.49,
+        "total": 1.15
       },
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-11-23T14:42",
+      "sub_asof": "2026-11-23T14:57",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "SBI Capital Markets Limited, Axis Capital Limited, BOB Capital Markets Limited, IDBI Capital Markets and Securities Limited and IIFL Capital Services Limited"
@@ -3799,12 +3799,23 @@
           "employee": 0.18,
           "shareholders": 0.48,
           "total": 0.91
+        },
+        {
+          "at": "2026-11-23T15:01+05:30",
+          "qib": 3.62,
+          "nii": 0.51,
+          "bnii": 0.48,
+          "snii": 0.58,
+          "retail": 0.4,
+          "employee": 0.18,
+          "shareholders": 0.49,
+          "total": 1.15
         }
       ],
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 493068045.0,
-      "updated_on": "2026-11-23T14:45+05:30",
+      "updated_on": "2026-11-23T15:01+05:30",
       "bse_ipo_no": "8092",
       "drhp_url": "https://nsearchives.nseindia.com/corporate/Registration_01092026212900_MCLDRHP.pdf",
       "sector": "Coal Mining",
@@ -3866,13 +3877,13 @@
         },
         {
           "source": "Tracker C",
-          "gmp": 0.5,
-          "at": "2026-11-23T11:37"
+          "gmp": 0.4,
+          "at": "2026-11-23T13:37"
         },
         {
           "source": "Tracker D",
-          "gmp": 0.4,
-          "at": "2026-11-23T14:45"
+          "gmp": 0.5,
+          "at": "2026-11-23T15:01"
         },
         {
           "source": "Tracker B",
@@ -3926,10 +3937,10 @@
       "gmp_low": 0,
       "gmp_high": 13,
       "exchange": "SME",
-      "gmp": 0.4,
-      "gmp_asof": "2026-11-23T14:45",
+      "gmp": 0.5,
+      "gmp_asof": "2026-11-23T15:01",
       "gmp_source_latest": "Tracker D",
-      "gmp_pct": 0.29,
+      "gmp_pct": 0.37,
       "gmp_spread": {
         "min": 0,
         "max": 0.5,
@@ -4010,7 +4021,7 @@
       "series": "SME",
       "nse_status": "Forthcoming",
       "shares_offered": 6596000.0,
-      "updated_on": "2026-11-23T14:45+05:30",
+      "updated_on": "2026-11-23T15:01+05:30",
       "tracker_rating": 1,
       "reservation_detail": {
         "nii": {
@@ -4043,6 +4054,11 @@
           "source": "Tracker D",
           "gmp": 5,
           "at": "2026-11-23T14:45"
+        },
+        {
+          "source": "Tracker C",
+          "gmp": 5,
+          "at": "2026-11-23T13:37"
         }
       ],
       "gmp_history": [
@@ -4059,6 +4075,13 @@
       "gmp_asof": "2026-11-23T14:45",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 3.52,
+      "gmp_spread": {
+        "min": 5,
+        "max": 5,
+        "diff": 0,
+        "n": 2,
+        "diff_pct_of_price": 0.0
+      },
       "status": "upcoming",
       "ai_gmp_none": {
         "why": "we could not confirm it on the page (the site does not allow us to open that page)",
@@ -4254,7 +4277,7 @@
       "price": 180,
       "segment": "SME",
       "size_cr": 54.0,
-      "tracker_rating": 1,
+      "tracker_rating": 3,
       "reservation_detail": {
         "nii": {
           "pct": 15.16,
@@ -4290,6 +4313,11 @@
           "source": "Tracker D",
           "gmp": 20,
           "at": "2026-11-23T14:31"
+        },
+        {
+          "source": "Tracker C",
+          "gmp": 20,
+          "at": "2026-11-23T13:37"
         }
       ],
       "gmp_history": [
@@ -4305,6 +4333,13 @@
       "gmp_asof": "2026-11-23T14:31",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 11.11,
+      "gmp_spread": {
+        "min": 20,
+        "max": 20,
+        "diff": 0,
+        "n": 2,
+        "diff_pct_of_price": 0.0
+      },
       "status": "upcoming",
       "ai_gmp_none": {
         "why": "we could not confirm it on the page (the site does not allow us to open that page)",
@@ -4391,7 +4426,7 @@
         {
           "source": "Tracker C",
           "gmp": 12,
-          "at": "2026-11-23T10:37"
+          "at": "2026-11-23T13:37"
         },
         {
           "source": "Tracker D",
