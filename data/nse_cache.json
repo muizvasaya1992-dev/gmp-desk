@@ -1985,7 +1985,7 @@
   "series": "SME",
   "nse_status": "Active",
   "shares_offered": 3516000.0,
-  "last_seen": "2026-11-23T16:15+05:30",
+  "last_seen": "2026-11-23T16:31+05:30",
   "segment": "SME",
   "registrar": "Maashitla Securities Private Limited",
   "lead_managers": [
@@ -2002,7 +2002,7 @@
    "total": 0.0
   },
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-11-23T16:12",
+  "sub_asof": "2026-11-23T16:27",
   "sub_hist": [
    {
     "at": "2026-11-20T10:46+05:30",
@@ -2025,20 +2025,20 @@
   "series": "EQ",
   "nse_status": "Active",
   "shares_offered": 493068045.0,
-  "last_seen": "2026-11-23T16:15+05:30",
+  "last_seen": "2026-11-23T16:31+05:30",
   "segment": "SME",
   "sub": {
    "qib": 4.95,
    "nii": 0.66,
    "bnii": 0.62,
-   "snii": 0.73,
-   "retail": 0.44,
+   "snii": 0.74,
+   "retail": 0.45,
    "employee": 0.21,
    "shareholders": 0.55,
    "total": 1.51
   },
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-11-23T16:12",
+  "sub_asof": "2026-11-23T16:27",
   "lot": 110,
   "registrar": "KFin Technologies Limited",
   "lead_managers": [
@@ -2308,6 +2308,17 @@
     "employee": 0.21,
     "shareholders": 0.55,
     "total": 1.51
+   },
+   {
+    "at": "2026-11-23T16:31+05:30",
+    "qib": 4.95,
+    "nii": 0.66,
+    "bnii": 0.62,
+    "snii": 0.74,
+    "retail": 0.45,
+    "employee": 0.21,
+    "shareholders": 0.55,
+    "total": 1.51
    }
   ]
  },
@@ -2322,7 +2333,7 @@
   "series": "SME",
   "nse_status": "Forthcoming",
   "shares_offered": 6596000.0,
-  "last_seen": "2026-11-23T16:15+05:30",
+  "last_seen": "2026-11-23T16:31+05:30",
   "segment": "SME",
   "registrar": "Mas Services Limited",
   "lead_managers": [
@@ -2331,5 +2342,28 @@
   "cutoff_time": "5:00 PM",
   "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_SHREESIDHI.zip",
   "details_at": "2026-11-23T11:31+05:30"
+ },
+ "FOODLINK": {
+  "symbol": "FOODLINK",
+  "first_seen": "2026-11-23T16:31+05:30",
+  "name": "Foodlink F&B Holdings (India)",
+  "open": "2026-11-26",
+  "close": "2026-11-30",
+  "price": 191,
+  "price_low": 181,
+  "series": "Equity",
+  "nse_status": "Forthcoming",
+  "shares_offered": 19443116.0,
+  "last_seen": "2026-11-23T16:31+05:30",
+  "segment": "SME",
+  "lot": 78,
+  "registrar": "MUFG Intime India Private Limited",
+  "lead_managers": [
+   "Equirus Capital Limited (formerly known as Equirus Capital Private Limited) and JM Financial Limited"
+  ],
+  "retail_max": 200000,
+  "cutoff_time": "5:00 PM",
+  "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_FOODLINK.zip",
+  "details_at": "2026-11-23T16:31+05:30"
  }
 }
