@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-23T14:01+05:30",
+  "fetched_at": "2026-11-23T14:15+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,19 +16,19 @@
     "price_low": 129.0,
     "size_cr": 8981.12,
     "gmp": 0.4,
-    "gmp_at": "2026-11-23T13:55",
-    "sub_total": 0.89,
+    "gmp_at": "2026-11-23T14:11",
+    "sub_total": 0.9,
     "sub_retail": 0.38,
-    "sub_at": "2026-11-23T13:58",
+    "sub_at": "2026-11-23T14:13",
     "sub_cats": {
      "retail": 0.38,
-     "nii": 0.4,
-     "bnii": 0.35,
-     "snii": 0.51,
+     "nii": 0.41,
+     "bnii": 0.36,
+     "snii": 0.53,
      "qib": 2.64,
      "employee": 0.17,
      "shareholders": 0.46,
-     "total": 0.89
+     "total": 0.9
     },
     "gmp_days": [
      [
@@ -107,7 +107,7 @@
     "price_low": 259.0,
     "size_cr": 455.72,
     "gmp": 14.0,
-    "gmp_at": "2026-11-23T13:56",
+    "gmp_at": "2026-11-23T14:10",
     "sub_total": 17.07,
     "sub_retail": 9.281,
     "sub_at": "2026-11-20T19:05",
@@ -187,15 +187,15 @@
     "price_low": 232.0,
     "size_cr": 120.1,
     "gmp": 40.0,
-    "gmp_at": "2026-11-23T13:55",
-    "sub_total": 41.04,
-    "sub_retail": 42.1,
-    "sub_at": "2026-11-23T13:57",
+    "gmp_at": "2026-11-23T14:10",
+    "sub_total": 72.04,
+    "sub_retail": 64.71,
+    "sub_at": "2026-11-23T14:13",
     "sub_cats": {
-     "retail": 42.1,
-     "nii": 73.52,
-     "qib": 14.94,
-     "total": 41.04
+     "retail": 64.71,
+     "nii": 129.26,
+     "qib": 42.08,
+     "total": 72.04
     },
     "gmp_days": [
      [
@@ -261,7 +261,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-23T14:01+05:30",
+  "fetched_at": "2026-11-23T14:15+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -816,7 +816,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-23T14:01+05:30",
+  "fetched_at": "2026-11-23T14:15+05:30",
   "records": [
    {
     "src": "Tracker D",
