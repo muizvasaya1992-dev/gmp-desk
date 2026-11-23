@@ -1985,7 +1985,7 @@
   "series": "SME",
   "nse_status": "Active",
   "shares_offered": 3516000.0,
-  "last_seen": "2026-11-23T00:01+05:30",
+  "last_seen": "2026-11-23T10:15+05:30",
   "segment": "SME",
   "registrar": "Maashitla Securities Private Limited",
   "lead_managers": [
@@ -2002,7 +2002,7 @@
    "total": 0.0
   },
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-11-20T17:03",
+  "sub_asof": "2026-11-23T10:15",
   "sub_hist": [
    {
     "at": "2026-11-20T10:46+05:30",
@@ -2025,20 +2025,20 @@
   "series": "EQ",
   "nse_status": "Active",
   "shares_offered": 493068045.0,
-  "last_seen": "2026-11-23T00:01+05:30",
+  "last_seen": "2026-11-23T10:15+05:30",
   "segment": "SME",
   "sub": {
    "qib": 1.37,
-   "nii": 0.18,
-   "bnii": 0.13,
-   "snii": 0.27,
-   "retail": 0.24,
-   "employee": 0.09,
-   "shareholders": 0.28,
-   "total": 0.48
+   "nii": 0.23,
+   "bnii": 0.18,
+   "snii": 0.33,
+   "retail": 0.28,
+   "employee": 0.1,
+   "shareholders": 0.32,
+   "total": 0.51
   },
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-11-20T17:03",
+  "sub_asof": "2026-11-23T10:12",
   "lot": 110,
   "registrar": "KFin Technologies Limited",
   "lead_managers": [
@@ -2275,6 +2275,17 @@
     "employee": 0.09,
     "shareholders": 0.28,
     "total": 0.48
+   },
+   {
+    "at": "2026-11-23T10:15+05:30",
+    "qib": 1.37,
+    "nii": 0.23,
+    "bnii": 0.18,
+    "snii": 0.33,
+    "retail": 0.28,
+    "employee": 0.1,
+    "shareholders": 0.32,
+    "total": 0.51
    }
   ]
  },
@@ -2289,7 +2300,7 @@
   "series": "SME",
   "nse_status": "Forthcoming",
   "shares_offered": 6596000.0,
-  "last_seen": "2026-11-23T00:01+05:30",
+  "last_seen": "2026-11-23T10:15+05:30",
   "segment": "SME",
   "registrar": "Mas Services Limited",
   "lead_managers": [
