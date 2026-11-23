@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T10:15+05:30",
+  "generated_at": "2026-11-23T10:31+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-20T10:46+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-23T10:15+05:30",
+    "nse_ok_at": "2026-11-23T10:31+05:30",
     "bse_ok_at": "2026-11-20T10:49+05:30"
   },
   "ipos": [
@@ -3386,7 +3386,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": 3516000.0,
-      "updated_on": "2026-11-23T10:15+05:30",
+      "updated_on": "2026-11-23T10:31+05:30",
       "reservation": {
         "qib": 47.37,
         "nii": 14.25,
@@ -3596,16 +3596,16 @@
       "segment": "SME",
       "sub": {
         "qib": 1.37,
-        "nii": 0.23,
-        "bnii": 0.18,
-        "snii": 0.33,
-        "retail": 0.28,
-        "employee": 0.1,
-        "shareholders": 0.32,
-        "total": 0.51
+        "nii": 0.24,
+        "bnii": 0.19,
+        "snii": 0.35,
+        "retail": 0.29,
+        "employee": 0.11,
+        "shareholders": 0.34,
+        "total": 0.52
       },
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-11-23T10:12",
+      "sub_asof": "2026-11-23T10:27",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "SBI Capital Markets Limited, Axis Capital Limited, BOB Capital Markets Limited, IDBI Capital Markets and Securities Limited and IIFL Capital Services Limited"
@@ -3852,12 +3852,23 @@
           "employee": 0.1,
           "shareholders": 0.32,
           "total": 0.51
+        },
+        {
+          "at": "2026-11-23T10:31+05:30",
+          "qib": 1.37,
+          "nii": 0.24,
+          "bnii": 0.19,
+          "snii": 0.35,
+          "retail": 0.29,
+          "employee": 0.11,
+          "shareholders": 0.34,
+          "total": 0.52
         }
       ],
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 493068045.0,
-      "updated_on": "2026-11-23T10:15+05:30",
+      "updated_on": "2026-11-23T10:31+05:30",
       "bse_ipo_no": "8092",
       "drhp_url": "https://nsearchives.nseindia.com/corporate/Registration_01092026212900_MCLDRHP.pdf",
       "sector": "Coal Mining",
@@ -4063,7 +4074,7 @@
       "series": "SME",
       "nse_status": "Forthcoming",
       "shares_offered": 6596000.0,
-      "updated_on": "2026-11-23T10:15+05:30",
+      "updated_on": "2026-11-23T10:31+05:30",
       "tracker_rating": 1,
       "reservation_detail": {
         "nii": {
@@ -4092,7 +4103,7 @@
       "sector": "Sugar",
       "gmp_watch": {
         "sources": 2,
-        "at": "2026-11-23T10:15"
+        "at": "2026-11-23T10:31"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],
