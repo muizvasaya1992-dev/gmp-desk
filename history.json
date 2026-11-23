@@ -4,6 +4,51 @@
  "nse_as_of": "2026-11-23T00:01+05:30",
  "rows": [
   {
+   "name": "Matangi Rubber",
+   "segment": "MAIN",
+   "symbol": null,
+   "listing": "2026-12-08",
+   "exchange": "NSE · BSE",
+   "live": true,
+   "id": "matangi-rubber",
+   "status": "upcoming",
+   "open": "2026-12-01",
+   "close": "2026-12-03",
+   "price": 172,
+   "price_low": null,
+   "unconfirmed": true
+  },
+  {
+   "name": "A J Packaging",
+   "segment": "SME",
+   "symbol": null,
+   "listing": "2026-12-08",
+   "exchange": "NSE Emerge",
+   "live": true,
+   "id": "a-j-packaging",
+   "status": "upcoming",
+   "open": "2026-12-01",
+   "close": "2026-12-03",
+   "price": 180,
+   "price_low": null,
+   "unconfirmed": true
+  },
+  {
+   "name": "Foodlink F&B Holdings",
+   "segment": "MAIN",
+   "symbol": null,
+   "listing": "2026-12-03",
+   "exchange": "NSE · BSE",
+   "live": true,
+   "id": "foodlink-f-b-holdings",
+   "status": "upcoming",
+   "open": "2026-11-26",
+   "close": "2026-11-30",
+   "price": 191,
+   "price_low": null,
+   "unconfirmed": true
+  },
+  {
    "name": "Shree Siddhivinayak Greentech Industries",
    "segment": "SME",
    "symbol": "SHREESIDHI",
@@ -5676,5 +5721,5 @@
    "status": "listed"
   }
  ],
- "generated_at": "2026-11-23T00:01+05:30"
+ "generated_at": "2026-11-23T11:01+05:30"
 }

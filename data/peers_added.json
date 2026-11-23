@@ -1,4 +1,18 @@
 {
+ "a-j-packaging": {
+  "boa": "2026-12-04",
+  "close": "2026-12-03",
+  "exchange": "NSE Emerge",
+  "from_peers": true,
+  "id": "a-j-packaging",
+  "listing": "2026-12-08",
+  "lot": 800,
+  "name": "A J Packaging",
+  "open": "2026-12-01",
+  "price": 180,
+  "segment": "SME",
+  "size_cr": 54.0
+ },
  "crystal-crop-protection": {
   "boa": "2026-11-23",
   "close": "2026-11-20",
@@ -12,6 +26,19 @@
   "segment": "MAIN",
   "size_cr": 455.49
  },
+ "foodlink-f-b-holdings": {
+  "boa": "2026-12-01",
+  "close": "2026-11-30",
+  "from_peers": true,
+  "id": "foodlink-f-b-holdings",
+  "listing": "2026-12-03",
+  "lot": 78,
+  "name": "Foodlink F&B Holdings",
+  "open": "2026-11-26",
+  "price": 191,
+  "segment": "MAIN",
+  "size_cr": 360.76
+ },
  "mahanadi-coalfields": {
   "boa": "2026-11-25",
   "close": "2026-11-23",
@@ -24,6 +51,19 @@
   "price_low": 129,
   "segment": "MAIN",
   "size_cr": 8981.12
+ },
+ "matangi-rubber": {
+  "boa": "2026-12-04",
+  "close": "2026-12-03",
+  "from_peers": true,
+  "id": "matangi-rubber",
+  "listing": "2026-12-08",
+  "lot": 87,
+  "name": "Matangi Rubber",
+  "open": "2026-12-01",
+  "price": 172,
+  "segment": "MAIN",
+  "size_cr": 125.16
  },
  "shree-siddhivinayak-greentech-industries": {
   "boa": "2026-11-30",
