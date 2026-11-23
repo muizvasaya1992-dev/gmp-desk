@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-23T14:31+05:30",
+  "fetched_at": "2026-11-23T14:45+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,19 +16,19 @@
     "price_low": 129.0,
     "size_cr": 8981.12,
     "gmp": 0.4,
-    "gmp_at": "2026-11-23T14:26",
-    "sub_total": 0.9,
+    "gmp_at": "2026-11-23T14:40",
+    "sub_total": 0.91,
     "sub_retail": 0.39,
-    "sub_at": "2026-11-23T14:28",
+    "sub_at": "2026-11-23T14:44",
     "sub_cats": {
      "retail": 0.39,
-     "nii": 0.43,
-     "bnii": 0.38,
-     "snii": 0.54,
-     "qib": 2.64,
+     "nii": 0.44,
+     "bnii": 0.39,
+     "snii": 0.56,
+     "qib": 2.65,
      "employee": 0.17,
-     "shareholders": 0.47,
-     "total": 0.9
+     "shareholders": 0.48,
+     "total": 0.91
     },
     "gmp_days": [
      [
@@ -107,7 +107,7 @@
     "price_low": 259.0,
     "size_cr": 455.72,
     "gmp": 14.0,
-    "gmp_at": "2026-11-23T14:25",
+    "gmp_at": "2026-11-23T14:41",
     "sub_total": 17.07,
     "sub_retail": 9.281,
     "sub_at": "2026-11-20T19:05",
@@ -187,10 +187,10 @@
     "price_low": 232.0,
     "size_cr": 120.1,
     "gmp": 40.0,
-    "gmp_at": "2026-11-23T14:25",
+    "gmp_at": "2026-11-23T14:40",
     "sub_total": 72.04,
     "sub_retail": 64.71,
-    "sub_at": "2026-11-23T14:27",
+    "sub_at": "2026-11-23T14:44",
     "sub_cats": {
      "retail": 64.71,
      "nii": 129.26,
@@ -261,7 +261,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-23T14:31+05:30",
+  "fetched_at": "2026-11-23T14:45+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -816,7 +816,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-23T14:31+05:30",
+  "fetched_at": "2026-11-23T14:45+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -831,9 +831,9 @@
     "price": 245.0,
     "price_low": 232.0,
     "size_cr": 120.1,
-    "gmp": 55.0,
+    "gmp": 40.0,
     "gmp_at": null,
-    "sub_total": 59.07,
+    "sub_total": 82.74,
     "sub_retail": null,
     "sub_at": null,
     "lot": 600.0,
@@ -964,9 +964,9 @@
     "price": 129.0,
     "price_low": null,
     "size_cr": 8981.12,
-    "gmp": 0.7,
+    "gmp": 0.4,
     "gmp_at": null,
-    "sub_total": 0.87,
+    "sub_total": 0.91,
     "sub_retail": null,
     "sub_at": null,
     "lot": 110.0,
@@ -1127,7 +1127,7 @@
     "price": 142.0,
     "price_low": 130.0,
     "size_cr": 93.66,
-    "gmp": 0.0,
+    "gmp": 5.0,
     "gmp_at": null,
     "sub_total": null,
     "sub_retail": null,

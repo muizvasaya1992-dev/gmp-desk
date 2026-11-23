@@ -45,8 +45,8 @@
    "segment": "SME"
   },
   "crystalcp": {
-   "at": "2026-11-23T14:15",
-   "gmp": 14,
+   "at": "2026-11-23T14:45",
+   "gmp": 14.5,
    "listing": "2026-11-26",
    "name": "Crystal Crop Protection",
    "price": 272,
@@ -83,8 +83,8 @@
    "segment": "SME"
   },
   "mahacoal": {
-   "at": "2026-11-23T14:30",
-   "gmp": 0,
+   "at": "2026-11-23T14:45",
+   "gmp": 0.4,
    "listing": "2026-11-27",
    "name": "Mahanadi Coalfields",
    "price": 136,
@@ -128,6 +128,14 @@
    "price": 330,
    "segment": "MAIN"
   },
+  "shreesidhi": {
+   "at": "2026-11-23T14:45",
+   "gmp": 5,
+   "listing": "2026-12-02",
+   "name": "Shree Siddhivinayak Greentech Industries",
+   "price": 142,
+   "segment": "SME"
+  },
   "vpfl": {
    "at": "2026-11-08T22:15",
    "gmp": 1,
@@ -137,7 +145,7 @@
    "segment": "SME"
   },
   "watrana": {
-   "at": "2026-11-23T13:40",
+   "at": "2026-11-23T14:45",
    "gmp": 40,
    "listing": "2026-11-27",
    "name": "Watrana Rentals",
