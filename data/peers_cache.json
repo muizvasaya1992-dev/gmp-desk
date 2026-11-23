@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-23T09:31+05:30",
+  "fetched_at": "2026-11-23T09:45+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,10 +16,10 @@
     "price_low": 129.0,
     "size_cr": 8981.12,
     "gmp": 0.7,
-    "gmp_at": "2026-11-23T09:25",
+    "gmp_at": "2026-11-23T09:40",
     "sub_total": 0.48,
     "sub_retail": 0.244,
-    "sub_at": "2026-11-23T09:30",
+    "sub_at": "2026-11-23T09:42",
     "sub_cats": null,
     "gmp_days": [
      [
@@ -94,7 +94,7 @@
     "price_low": 0.0,
     "size_cr": 1100.0,
     "gmp": 0.0,
-    "gmp_at": "2026-11-23T09:25",
+    "gmp_at": "2026-11-23T09:40",
     "sub_total": 0.0,
     "sub_retail": null,
     "sub_at": null,
@@ -174,7 +174,7 @@
     "price_low": 259.0,
     "size_cr": 455.72,
     "gmp": 14.0,
-    "gmp_at": "2026-11-23T09:25",
+    "gmp_at": "2026-11-23T09:41",
     "sub_total": 17.07,
     "sub_retail": 9.281,
     "sub_at": "2026-11-20T19:05",
@@ -250,10 +250,10 @@
     "price_low": 232.0,
     "size_cr": 120.1,
     "gmp": 55.0,
-    "gmp_at": "2026-11-23T09:25",
+    "gmp_at": "2026-11-23T09:40",
     "sub_total": 11.98,
     "sub_retail": 15.42,
-    "sub_at": "2026-11-23T09:29",
+    "sub_at": "2026-11-23T09:42",
     "sub_cats": null,
     "gmp_days": [
      [
@@ -315,7 +315,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-23T09:31+05:30",
+  "fetched_at": "2026-11-23T09:45+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -870,111 +870,8 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-23T09:31+05:30",
+  "fetched_at": "2026-11-23T09:45+05:30",
   "records": [
-   {
-    "src": "Tracker D",
-    "slug": "crystal-crop-protection",
-    "name": "Crystal Crop Protection",
-    "segment": "MAIN",
-    "exchange": null,
-    "open": "2026-11-18",
-    "close": "2026-11-20",
-    "boa": null,
-    "listing": "2026-11-26",
-    "price": 259.0,
-    "price_low": null,
-    "size_cr": 455.49,
-    "gmp": 14.5,
-    "gmp_at": null,
-    "sub_total": 17.68,
-    "sub_retail": null,
-    "sub_at": null,
-    "lot": 55.0,
-    "sector": "Other Agricultural Products",
-    "detail_url": "https://ipoindex.in/ipo/crystal-crop-protection-ipo/",
-    "live": true,
-    "detail": {
-     "gmp_history": [
-      [
-       "2026-11-20",
-       15.0
-      ],
-      [
-       "2026-11-19",
-       17.0
-      ],
-      [
-       "2026-11-18",
-       18.0
-      ],
-      [
-       "2026-11-17",
-       17.0
-      ],
-      [
-       "2026-11-16",
-       13.0
-      ],
-      [
-       "2026-11-14",
-       27.0
-      ]
-     ],
-     "reservation": {
-      "anchor": {
-       "pct": 29.82,
-       "shares": 4998708
-      },
-      "bnii": {
-       "pct": 9.94,
-       "shares": 1666236
-      },
-      "employee": {
-       "pct": 0.6,
-       "shares": 101215
-      },
-      "nii": {
-       "pct": 14.91,
-       "shares": 2499354
-      },
-      "qib": {
-       "pct": 49.7,
-       "shares": 4998708
-      },
-      "qib_ex_anchor": {
-       "pct": 19.88,
-       "shares": 3332473
-      },
-      "retail": {
-       "pct": 34.79,
-       "shares": 5831827
-      },
-      "snii": {
-       "pct": 4.97,
-       "shares": 833118
-      }
-     },
-     "sub": {
-      "employee": 8.67,
-      "nii": 39.16,
-      "qib": 15.81,
-      "retail": 9.71,
-      "total": 17.68
-     },
-     "sub_at": "2026-11-20T17:52",
-     "uses": [
-      {
-       "cr": 247.94,
-       "use": "Borrowings"
-      },
-      {
-       "cr": 22.06,
-       "use": "Subsidiary"
-      }
-     ]
-    }
-   },
    {
     "src": "Tracker D",
     "slug": "watrana-rentals",
@@ -988,7 +885,7 @@
     "price": 245.0,
     "price_low": 232.0,
     "size_cr": 120.1,
-    "gmp": 67.0,
+    "gmp": 55.0,
     "gmp_at": null,
     "sub_total": 11.98,
     "sub_retail": null,
@@ -1116,7 +1013,7 @@
     "price": 129.0,
     "price_low": null,
     "size_cr": 8981.12,
-    "gmp": 1.3,
+    "gmp": 0.7,
     "gmp_at": null,
     "sub_total": 0.49,
     "sub_retail": null,
@@ -1396,7 +1293,7 @@
     "price": null,
     "price_low": null,
     "size_cr": null,
-    "gmp": 0.0,
+    "gmp": 23.0,
     "gmp_at": null,
     "sub_total": null,
     "sub_retail": null,
@@ -1445,6 +1342,109 @@
        "roce": 21.95,
        "roe": 24.86,
        "y": "FY25"
+      }
+     ]
+    }
+   },
+   {
+    "src": "Tracker D",
+    "slug": "crystal-crop-protection",
+    "name": "Crystal Crop Protection",
+    "segment": "MAIN",
+    "exchange": null,
+    "open": null,
+    "close": null,
+    "boa": null,
+    "listing": "2026-11-26",
+    "price": 259.0,
+    "price_low": null,
+    "size_cr": 455.49,
+    "gmp": 14.0,
+    "gmp_at": null,
+    "sub_total": null,
+    "sub_retail": null,
+    "sub_at": null,
+    "lot": 55.0,
+    "sector": "Other Agricultural Products",
+    "detail_url": "https://ipoindex.in/ipo/crystal-crop-protection-ipo/",
+    "live": true,
+    "detail": {
+     "gmp_history": [
+      [
+       "2026-11-20",
+       15.0
+      ],
+      [
+       "2026-11-19",
+       17.0
+      ],
+      [
+       "2026-11-18",
+       18.0
+      ],
+      [
+       "2026-11-17",
+       17.0
+      ],
+      [
+       "2026-11-16",
+       13.0
+      ],
+      [
+       "2026-11-14",
+       27.0
+      ]
+     ],
+     "reservation": {
+      "anchor": {
+       "pct": 29.82,
+       "shares": 4998708
+      },
+      "bnii": {
+       "pct": 9.94,
+       "shares": 1666236
+      },
+      "employee": {
+       "pct": 0.6,
+       "shares": 101215
+      },
+      "nii": {
+       "pct": 14.91,
+       "shares": 2499354
+      },
+      "qib": {
+       "pct": 49.7,
+       "shares": 4998708
+      },
+      "qib_ex_anchor": {
+       "pct": 19.88,
+       "shares": 3332473
+      },
+      "retail": {
+       "pct": 34.79,
+       "shares": 5831827
+      },
+      "snii": {
+       "pct": 4.97,
+       "shares": 833118
+      }
+     },
+     "sub": {
+      "employee": 8.67,
+      "nii": 39.16,
+      "qib": 15.81,
+      "retail": 9.71,
+      "total": 17.68
+     },
+     "sub_at": "2026-11-20T17:52",
+     "uses": [
+      {
+       "cr": 247.94,
+       "use": "Borrowings"
+      },
+      {
+       "cr": 22.06,
+       "use": "Subsidiary"
       }
      ]
     }
