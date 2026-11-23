@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-23T13:31+05:30",
+  "fetched_at": "2026-11-23T13:45+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -15,20 +15,20 @@
     "price": 136.0,
     "price_low": 129.0,
     "size_cr": 8981.12,
-    "gmp": 0.6,
-    "gmp_at": "2026-11-23T13:25",
-    "sub_total": 0.88,
+    "gmp": 0.4,
+    "gmp_at": "2026-11-23T13:40",
+    "sub_total": 0.89,
     "sub_retail": 0.37,
-    "sub_at": "2026-11-23T13:29",
+    "sub_at": "2026-11-23T13:43",
     "sub_cats": {
      "retail": 0.37,
-     "nii": 0.37,
-     "bnii": 0.31,
+     "nii": 0.38,
+     "bnii": 0.32,
      "snii": 0.5,
      "qib": 2.64,
      "employee": 0.16,
-     "shareholders": 0.44,
-     "total": 0.88
+     "shareholders": 0.45,
+     "total": 0.89
     },
     "gmp_days": [
      [
@@ -73,7 +73,7 @@
      ],
      [
       "2026-11-23",
-      0.6
+      0.4
      ]
     ],
     "rhp_url": "https://media.ipoji.com/rhp/MCL_RHP_Filing_Version_13112026.pdf",
@@ -107,7 +107,7 @@
     "price_low": 259.0,
     "size_cr": 455.72,
     "gmp": 14.0,
-    "gmp_at": "2026-11-23T13:25",
+    "gmp_at": "2026-11-23T13:40",
     "sub_total": 17.07,
     "sub_retail": 9.281,
     "sub_at": "2026-11-20T19:05",
@@ -186,11 +186,11 @@
     "price": 245.0,
     "price_low": 232.0,
     "size_cr": 120.1,
-    "gmp": 45.0,
-    "gmp_at": "2026-11-23T13:25",
+    "gmp": 40.0,
+    "gmp_at": "2026-11-23T13:40",
     "sub_total": 41.04,
     "sub_retail": 42.1,
-    "sub_at": "2026-11-23T13:29",
+    "sub_at": "2026-11-23T13:43",
     "sub_cats": {
      "retail": 42.1,
      "nii": 73.52,
@@ -240,7 +240,7 @@
      ],
      [
       "2026-11-23",
-      45.0
+      40.0
      ]
     ],
     "rhp_url": null,
@@ -261,7 +261,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-23T13:31+05:30",
+  "fetched_at": "2026-11-23T13:45+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -816,7 +816,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-23T13:31+05:30",
+  "fetched_at": "2026-11-23T13:45+05:30",
   "records": [
    {
     "src": "Tracker D",
