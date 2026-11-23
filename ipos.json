@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T10:31+05:30",
+  "generated_at": "2026-11-23T10:45+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-20T10:46+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-23T10:31+05:30",
+    "nse_ok_at": "2026-11-23T10:45+05:30",
     "bse_ok_at": "2026-11-20T10:49+05:30"
   },
   "ipos": [
@@ -3227,8 +3227,8 @@
         },
         {
           "source": "Tracker D",
-          "gmp": 14,
-          "at": "2026-11-23T09:45"
+          "gmp": 14.5,
+          "at": "2026-11-23T10:45"
         },
         {
           "source": "Tracker B",
@@ -3286,10 +3286,10 @@
       "gmp_low": 13,
       "gmp_high": 45,
       "exchange": "SME",
-      "gmp": 14,
-      "gmp_asof": "2026-11-23T10:00",
-      "gmp_source_latest": "Public trackers",
-      "gmp_pct": 5.15,
+      "gmp": 14.5,
+      "gmp_asof": "2026-11-23T10:45",
+      "gmp_source_latest": "Tracker D",
+      "gmp_pct": 5.33,
       "gmp_spread": {
         "min": 14,
         "max": 14.5,
@@ -3360,12 +3360,12 @@
       "price": 245,
       "segment": "SME",
       "sub": {
-        "nii": 20.0,
-        "retail": 15.42,
-        "total": 11.98
+        "retail": 16.58,
+        "nii": 20.14,
+        "total": 12.59
       },
-      "sub_basis": "Tracker D",
-      "sub_asof": "2026-11-20T18:17",
+      "sub_basis": "Tracker B",
+      "sub_asof": "2026-11-23T10:43",
       "registrar": "Maashitla Securities Private Limited",
       "lead_managers": [
         "Oneview Corporate Advisors Private Limited"
@@ -3386,7 +3386,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": 3516000.0,
-      "updated_on": "2026-11-23T10:31+05:30",
+      "updated_on": "2026-11-23T10:45+05:30",
       "reservation": {
         "qib": 47.37,
         "nii": 14.25,
@@ -3596,16 +3596,16 @@
       "segment": "SME",
       "sub": {
         "qib": 1.37,
-        "nii": 0.24,
-        "bnii": 0.19,
-        "snii": 0.35,
-        "retail": 0.29,
-        "employee": 0.11,
-        "shareholders": 0.34,
-        "total": 0.52
+        "nii": 0.26,
+        "bnii": 0.2,
+        "snii": 0.37,
+        "retail": 0.31,
+        "employee": 0.12,
+        "shareholders": 0.36,
+        "total": 0.54
       },
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-11-23T10:27",
+      "sub_asof": "2026-11-23T10:42",
       "registrar": "KFin Technologies Limited",
       "lead_managers": [
         "SBI Capital Markets Limited, Axis Capital Limited, BOB Capital Markets Limited, IDBI Capital Markets and Securities Limited and IIFL Capital Services Limited"
@@ -3863,12 +3863,23 @@
           "employee": 0.11,
           "shareholders": 0.34,
           "total": 0.52
+        },
+        {
+          "at": "2026-11-23T10:45+05:30",
+          "qib": 1.37,
+          "nii": 0.26,
+          "bnii": 0.2,
+          "snii": 0.37,
+          "retail": 0.31,
+          "employee": 0.12,
+          "shareholders": 0.36,
+          "total": 0.54
         }
       ],
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 493068045.0,
-      "updated_on": "2026-11-23T10:31+05:30",
+      "updated_on": "2026-11-23T10:45+05:30",
       "bse_ipo_no": "8092",
       "drhp_url": "https://nsearchives.nseindia.com/corporate/Registration_01092026212900_MCLDRHP.pdf",
       "sector": "Coal Mining",
@@ -4074,7 +4085,7 @@
       "series": "SME",
       "nse_status": "Forthcoming",
       "shares_offered": 6596000.0,
-      "updated_on": "2026-11-23T10:31+05:30",
+      "updated_on": "2026-11-23T10:45+05:30",
       "tracker_rating": 1,
       "reservation_detail": {
         "nii": {
@@ -4103,7 +4114,7 @@
       "sector": "Sugar",
       "gmp_watch": {
         "sources": 2,
-        "at": "2026-11-23T10:31"
+        "at": "2026-11-23T10:45"
       },
       "lot_basis": "tracker",
       "gmp_sources": [],

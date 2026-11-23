@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-23T10:31+05:30",
+  "fetched_at": "2026-11-23T10:45+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,11 +16,20 @@
     "price_low": 129.0,
     "size_cr": 8981.12,
     "gmp": 0.7,
-    "gmp_at": "2026-11-23T10:25",
+    "gmp_at": "2026-11-23T10:40",
     "sub_total": 0.53,
-    "sub_retail": 0.293,
-    "sub_at": "2026-11-23T10:28",
-    "sub_cats": null,
+    "sub_retail": 0.3,
+    "sub_at": "2026-11-23T10:42",
+    "sub_cats": {
+     "retail": 0.3,
+     "nii": 0.26,
+     "bnii": 0.2,
+     "snii": 0.37,
+     "qib": 1.37,
+     "employee": 0.12,
+     "shareholders": 0.36,
+     "total": 0.53
+    },
     "gmp_days": [
      [
       "2026-11-13",
@@ -82,86 +91,6 @@
    },
    {
     "src": "Tracker B",
-    "slug": "milestone-gears",
-    "name": "Milestone Gears (*Tentative)",
-    "segment": "MAIN",
-    "exchange": null,
-    "open": "2026-11-23",
-    "close": "2026-11-26",
-    "boa": "2026-11-27",
-    "listing": "2026-12-01",
-    "price": 0.0,
-    "price_low": 0.0,
-    "size_cr": 1100.0,
-    "gmp": 0.0,
-    "gmp_at": "2026-11-23T10:25",
-    "sub_total": 0.0,
-    "sub_retail": null,
-    "sub_at": null,
-    "sub_cats": null,
-    "gmp_days": [
-     [
-      "2026-11-12",
-      0.0
-     ],
-     [
-      "2026-11-13",
-      0.0
-     ],
-     [
-      "2026-11-14",
-      0.0
-     ],
-     [
-      "2026-11-15",
-      0.0
-     ],
-     [
-      "2026-11-16",
-      0.0
-     ],
-     [
-      "2026-11-17",
-      0.0
-     ],
-     [
-      "2026-11-18",
-      0.0
-     ],
-     [
-      "2026-11-19",
-      0.0
-     ],
-     [
-      "2026-11-20",
-      0.0
-     ],
-     [
-      "2026-11-21",
-      0.0
-     ],
-     [
-      "2026-11-22",
-      0.0
-     ]
-    ],
-    "rhp_url": null,
-    "drhp_url": "https://www.sebi.gov.in/filings/public-issues/nov-2025/milestone-gears-limited-drhp_97973.html",
-    "lot_raw": 1.0,
-    "sector": "Auto Components",
-    "quota": {
-     "qib": 50.0,
-     "nii": 15.0,
-     "retail": 35.0
-    },
-    "fresh_cr": 800.0,
-    "ofs_cr": 300.0,
-    "registrar": "KFin Technologies Limited",
-    "lead_manager": "JM Financial Limited; Axis Capital Limited; Motilal Oswal Investment Advisors Limited",
-    "live": true
-   },
-   {
-    "src": "Tracker B",
     "slug": "crystal-crop-protection",
     "name": "Crystal Crop Protection",
     "segment": "MAIN",
@@ -174,7 +103,7 @@
     "price_low": 259.0,
     "size_cr": 455.72,
     "gmp": 14.0,
-    "gmp_at": "2026-11-23T10:25",
+    "gmp_at": "2026-11-23T10:41",
     "sub_total": 17.07,
     "sub_retail": 9.281,
     "sub_at": "2026-11-20T19:05",
@@ -250,11 +179,15 @@
     "price_low": 232.0,
     "size_cr": 120.1,
     "gmp": 55.0,
-    "gmp_at": "2026-11-23T10:25",
+    "gmp_at": "2026-11-23T10:40",
     "sub_total": 12.59,
     "sub_retail": 16.58,
-    "sub_at": "2026-11-23T10:28",
-    "sub_cats": null,
+    "sub_at": "2026-11-23T10:43",
+    "sub_cats": {
+     "retail": 16.58,
+     "nii": 20.14,
+     "total": 12.59
+    },
     "gmp_days": [
      [
       "2026-11-13",
@@ -315,7 +248,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-23T10:31+05:30",
+  "fetched_at": "2026-11-23T10:45+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -870,7 +803,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-23T10:31+05:30",
+  "fetched_at": "2026-11-23T10:45+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -887,7 +820,7 @@
     "size_cr": 120.1,
     "gmp": 55.0,
     "gmp_at": null,
-    "sub_total": 21.02,
+    "sub_total": 24.13,
     "sub_retail": null,
     "sub_at": null,
     "lot": 600.0,
@@ -1015,7 +948,7 @@
     "size_cr": 8981.12,
     "gmp": 0.7,
     "gmp_at": null,
-    "sub_total": 0.52,
+    "sub_total": 0.81,
     "sub_retail": null,
     "sub_at": null,
     "lot": 110.0,
@@ -1128,27 +1061,27 @@
     "live": true,
     "detail": {
      "reservation": {
-      "qib": {
-       "shares": 1406400,
-       "pct": 49.35
-      },
       "nii": {
-       "shares": 432000,
-       "pct": 15.16
+       "pct": 15.16,
+       "shares": 432000
+      },
+      "qib": {
+       "pct": 49.35,
+       "shares": 1406400
       },
       "retail": {
-       "shares": 1011200,
-       "pct": 35.49
+       "pct": 35.49,
+       "shares": 1011200
       }
      },
      "uses": [
       {
-       "use": "Working Capital",
-       "cr": 29.3
+       "cr": 29.3,
+       "use": "Working Capital"
       },
       {
-       "use": "Debt",
-       "cr": 7.0
+       "cr": 7.0,
+       "use": "Debt"
       }
      ]
     }
@@ -1447,7 +1380,7 @@
     "price": 259.0,
     "price_low": null,
     "size_cr": 455.49,
-    "gmp": 14.0,
+    "gmp": 14.5,
     "gmp_at": null,
     "sub_total": null,
     "sub_retail": null,
