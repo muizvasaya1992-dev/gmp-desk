@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T23:45+05:30",
+  "generated_at": "2026-11-24T00:01+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-23T11:31+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-23T23:45+05:30",
+    "nse_ok_at": "2026-11-24T00:01+05:30",
     "bse_ok_at": "2026-11-23T11:36+05:30"
   },
   "ipos": [
@@ -3168,48 +3168,48 @@
       },
       "tracker_rating": 2,
       "reservation_detail": {
-        "qib": {
-          "shares": 4998708,
-          "pct": 49.7
-        },
         "anchor": {
-          "shares": 4998708,
-          "pct": 29.82
-        },
-        "qib_ex_anchor": {
-          "shares": 3332473,
-          "pct": 19.88
-        },
-        "nii": {
-          "shares": 2499354,
-          "pct": 14.91
+          "pct": 29.82,
+          "shares": 4998708
         },
         "bnii": {
-          "shares": 1666236,
-          "pct": 9.94
-        },
-        "snii": {
-          "shares": 833118,
-          "pct": 4.97
-        },
-        "retail": {
-          "shares": 5831827,
-          "pct": 34.79
+          "pct": 9.94,
+          "shares": 1666236
         },
         "employee": {
-          "shares": 101215,
-          "pct": 0.6
+          "pct": 0.6,
+          "shares": 101215
+        },
+        "nii": {
+          "pct": 14.91,
+          "shares": 2499354
+        },
+        "qib": {
+          "pct": 49.7,
+          "shares": 4998708
+        },
+        "qib_ex_anchor": {
+          "pct": 19.88,
+          "shares": 3332473
+        },
+        "retail": {
+          "pct": 34.79,
+          "shares": 5831827
+        },
+        "snii": {
+          "pct": 4.97,
+          "shares": 833118
         }
       },
       "anchor_shares": 4998708,
       "uses": [
         {
-          "use": "Borrowings",
-          "cr": 247.94
+          "cr": 247.94,
+          "use": "Borrowings"
         },
         {
-          "use": "Subsidiary",
-          "cr": 22.06
+          "cr": 22.06,
+          "use": "Subsidiary"
         }
       ],
       "gmp_sources": [
@@ -3226,12 +3226,12 @@
         {
           "source": "Tracker D",
           "gmp": 14.5,
-          "at": "2026-11-23T23:45"
+          "at": "2026-11-24T00:01"
         },
         {
           "source": "Tracker B",
           "gmp": 14,
-          "at": "2026-11-23T20:56"
+          "at": "2026-11-23T23:56"
         }
       ],
       "gmp_history": [
@@ -3277,7 +3277,7 @@
       "gmp_high": 45,
       "exchange": "SME",
       "gmp": 14.5,
-      "gmp_asof": "2026-11-23T23:45",
+      "gmp_asof": "2026-11-24T00:01",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 5.33,
       "gmp_spread": {
@@ -3391,80 +3391,80 @@
       },
       "tracker_rating": 3,
       "reservation_detail": {
-        "qib": {
-          "shares": 2322000,
-          "pct": 47.37
-        },
         "anchor": {
-          "shares": 1386000,
-          "pct": 28.27
-        },
-        "qib_ex_anchor": {
-          "shares": 936000,
-          "pct": 19.09
-        },
-        "nii": {
-          "shares": 698400,
-          "pct": 14.25
+          "pct": 28.27,
+          "shares": 1386000
         },
         "bnii": {
-          "shares": 465600,
-          "pct": 9.5
-        },
-        "snii": {
-          "shares": 232800,
-          "pct": 4.75
-        },
-        "retail": {
-          "shares": 1629600,
-          "pct": 33.24
+          "pct": 9.5,
+          "shares": 465600
         },
         "market_maker": {
-          "shares": 252000,
-          "pct": 5.14
+          "pct": 5.14,
+          "shares": 252000
+        },
+        "nii": {
+          "pct": 14.25,
+          "shares": 698400
+        },
+        "qib": {
+          "pct": 47.37,
+          "shares": 2322000
+        },
+        "qib_ex_anchor": {
+          "pct": 19.09,
+          "shares": 936000
+        },
+        "retail": {
+          "pct": 33.24,
+          "shares": 1629600
+        },
+        "snii": {
+          "pct": 4.75,
+          "shares": 232800
         }
       },
       "anchor_shares": 1386000,
       "uses": [
         {
-          "use": "Purchase",
-          "cr": 98.13
+          "cr": 98.13,
+          "use": "Purchase"
         }
       ],
       "fin": {
         "years": [
           {
-            "y": "FY24",
-            "income": 130.23,
-            "pat": 18.05,
-            "ebitda": 37.98,
-            "net_worth": 31.96,
-            "debt": 93.12,
             "assets": 147.69,
+            "debt": 93.12,
+            "ebitda": 37.98,
+            "income": 130.23,
+            "net_worth": 31.96,
+            "pat": 18.05,
+            "roce": 24.11,
             "roe": 78.65,
-            "roce": 24.11
+            "y": "FY24"
           },
           {
-            "y": "FY25",
-            "income": 179.66,
-            "pat": 24.43,
-            "ebitda": 51.77,
-            "net_worth": 56.39,
-            "debt": 110.14,
             "assets": 201.82,
+            "debt": 110.14,
+            "ebitda": 51.77,
+            "income": 179.66,
+            "net_worth": 56.39,
+            "pat": 24.43,
+            "roce": 23.85,
             "roe": 55.3,
-            "roce": 23.85
+            "y": "FY25"
           },
           {
-            "y": "FY26",
-            "income": 211.69,
-            "pat": 29.16,
-            "ebitda": 65.01,
-            "net_worth": 85.55,
-            "debt": 164.08,
             "assets": 287.07,
+            "debt": 164.08,
+            "ebitda": 65.01,
+            "income": 211.69,
+            "net_worth": 85.55,
+            "pat": 29.16,
+            "roce": 19.06,
             "roe": 41.08,
-            "roce": 19.06
+            "y": "FY26"
           }
         ],
         "ratios": {}
@@ -3484,7 +3484,7 @@
         {
           "source": "Tracker D",
           "gmp": 40,
-          "at": "2026-11-23T23:45"
+          "at": "2026-11-24T00:01"
         },
         {
           "source": "Tracker B",
@@ -3543,7 +3543,7 @@
       "gmp_high": 67,
       "exchange": "SME",
       "gmp": 40,
-      "gmp_asof": "2026-11-23T23:45",
+      "gmp_asof": "2026-11-24T00:01",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 16.33,
       "gmp_spread": {
@@ -3559,7 +3559,7 @@
         "days": 3,
         "since": "2026-11-21"
       },
-      "status": "closing_today",
+      "status": "closed",
       "news": [
         {
           "date": "2026-11-19",
@@ -3924,48 +3924,48 @@
       },
       "tracker_rating": 1,
       "reservation_detail": {
-        "qib": {
-          "shares": 281280428,
-          "pct": 42.5
-        },
         "anchor": {
-          "shares": 168768255,
-          "pct": 25.5
-        },
-        "qib_ex_anchor": {
-          "shares": 112512173,
-          "pct": 17.0
-        },
-        "nii": {
-          "shares": 84384129,
-          "pct": 12.75
+          "pct": 25.5,
+          "shares": 168768255
         },
         "bnii": {
-          "shares": 56256086,
-          "pct": 8.5
-        },
-        "snii": {
-          "shares": 28128043,
-          "pct": 4.25
-        },
-        "retail": {
-          "shares": 196896299,
-          "pct": 29.75
+          "pct": 8.5,
+          "shares": 56256086
         },
         "employee": {
-          "shares": 33091815,
-          "pct": 5.0
+          "pct": 5.0,
+          "shares": 33091815
+        },
+        "nii": {
+          "pct": 12.75,
+          "shares": 84384129
+        },
+        "qib": {
+          "pct": 42.5,
+          "shares": 281280428
+        },
+        "qib_ex_anchor": {
+          "pct": 17.0,
+          "shares": 112512173
+        },
+        "retail": {
+          "pct": 29.75,
+          "shares": 196896299
         },
         "shareholders": {
-          "shares": 66183630,
-          "pct": 10.0
+          "pct": 10.0,
+          "shares": 66183630
+        },
+        "snii": {
+          "pct": 4.25,
+          "shares": 28128043
         }
       },
       "anchor_shares": 168768255,
       "uses": [
         {
-          "use": "Offer for Sale Proceeds",
-          "cr": 8981.12
+          "cr": 8981.12,
+          "use": "Offer for Sale Proceeds"
         }
       ],
       "gmp_sources": [
@@ -3982,7 +3982,7 @@
         {
           "source": "Tracker D",
           "gmp": 0.4,
-          "at": "2026-11-23T23:45"
+          "at": "2026-11-24T00:01"
         },
         {
           "source": "Tracker B",
@@ -4037,7 +4037,7 @@
       "gmp_high": 13,
       "exchange": "SME",
       "gmp": 0.4,
-      "gmp_asof": "2026-11-23T23:45",
+      "gmp_asof": "2026-11-24T00:01",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 0.29,
       "gmp_spread": {
@@ -4053,7 +4053,7 @@
         "days": 3,
         "since": "2026-11-21"
       },
-      "status": "closing_today",
+      "status": "closed",
       "news": [
         {
           "date": "2026-11-23",
@@ -4120,16 +4120,16 @@
       "series": "SME",
       "nse_status": "Forthcoming",
       "shares_offered": 6596000.0,
-      "updated_on": "2026-11-23T23:31+05:30",
+      "updated_on": "2026-11-24T00:01+05:30",
       "tracker_rating": 2,
       "reservation_detail": {
         "nii": {
-          "shares": 3100000,
-          "pct": 49.47
+          "pct": 49.47,
+          "shares": 3100000
         },
         "retail": {
-          "shares": 3100000,
-          "pct": 49.47
+          "pct": 49.47,
+          "shares": 3100000
         }
       },
       "reservation": {
@@ -4138,12 +4138,12 @@
       },
       "uses": [
         {
-          "use": "Capital Expense",
-          "cr": 23.54
+          "cr": 23.54,
+          "use": "Capital Expense"
         },
         {
-          "use": "Debt",
-          "cr": 48.5
+          "cr": 48.5,
+          "use": "Debt"
         }
       ],
       "sector": "Sugar",
@@ -4152,7 +4152,7 @@
         {
           "source": "Tracker D",
           "gmp": 5,
-          "at": "2026-11-23T23:45"
+          "at": "2026-11-24T00:01"
         },
         {
           "source": "Tracker C",
@@ -4164,6 +4164,10 @@
         {
           "date": "2026-11-23",
           "gmp": 5
+        },
+        {
+          "date": "2026-11-24",
+          "gmp": 5
         }
       ],
       "history_source": "Tracker D",
@@ -4171,7 +4175,7 @@
       "gmp_high": 10,
       "exchange": "SME",
       "gmp": 5,
-      "gmp_asof": "2026-11-23T23:45",
+      "gmp_asof": "2026-11-24T00:01",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 3.52,
       "gmp_spread": {
@@ -4180,6 +4184,12 @@
         "diff": 5,
         "n": 2,
         "diff_pct_of_price": 3.52
+      },
+      "gmp_trend": {
+        "dir": "steady",
+        "change": 0,
+        "days": 2,
+        "since": "2026-11-23"
       },
       "status": "upcoming",
       "ai_gmp_none": {
@@ -4215,60 +4225,60 @@
       "series": "Equity",
       "nse_status": "Forthcoming",
       "shares_offered": 19443116.0,
-      "updated_on": "2026-11-23T23:31+05:30",
+      "updated_on": "2026-11-24T00:01+05:30",
       "uses": [
         {
-          "use": "Capital Expense",
-          "cr": 21.4
+          "cr": 21.4,
+          "use": "Capital Expense"
         },
         {
-          "use": "Capital Expense",
-          "cr": 41.5
+          "cr": 41.5,
+          "use": "Capital Expense"
         },
         {
-          "use": "Investment",
-          "cr": 50.81
+          "cr": 50.81,
+          "use": "Investment"
         },
         {
-          "use": "Debt",
-          "cr": 21.0
+          "cr": 21.0,
+          "use": "Debt"
         }
       ],
       "sector": "Luxury Food Services / Hospitality",
       "fin": {
         "years": [
           {
-            "y": "FY24",
-            "income": 380.17,
-            "pat": -15.35,
-            "ebitda": 30.63,
-            "net_worth": 79.59,
-            "debt": 125.41,
             "assets": 268.13,
+            "debt": 125.41,
+            "ebitda": 30.63,
+            "income": 380.17,
+            "net_worth": 79.59,
+            "pat": -15.35,
+            "roce": null,
             "roe": -17.88,
-            "roce": null
+            "y": "FY24"
           },
           {
-            "y": "FY25",
-            "income": 455.4,
-            "pat": 14.26,
-            "ebitda": 61.45,
-            "net_worth": 106.22,
-            "debt": 138.94,
             "assets": 318.59,
+            "debt": 138.94,
+            "ebitda": 61.45,
+            "income": 455.4,
+            "net_worth": 106.22,
+            "pat": 14.26,
+            "roce": null,
             "roe": 15.35,
-            "roce": null
+            "y": "FY25"
           },
           {
-            "y": "FY26",
-            "income": 572.26,
-            "pat": 29.11,
-            "ebitda": 78.43,
-            "net_worth": 229.35,
-            "debt": 127.97,
             "assets": 454.32,
+            "debt": 127.97,
+            "ebitda": 78.43,
+            "income": 572.26,
+            "net_worth": 229.35,
+            "pat": 29.11,
+            "roce": null,
             "roe": 17.35,
-            "roce": null
+            "y": "FY26"
           }
         ],
         "ratios": {}
@@ -4277,7 +4287,7 @@
         {
           "source": "Tracker D",
           "gmp": 12,
-          "at": "2026-11-23T22:45"
+          "at": "2026-11-24T00:01"
         }
       ],
       "gmp_history": [
@@ -4296,6 +4306,10 @@
         {
           "date": "2026-11-23",
           "gmp": 12
+        },
+        {
+          "date": "2026-11-24",
+          "gmp": 12
         }
       ],
       "history_source": "Tracker D",
@@ -4303,14 +4317,14 @@
       "gmp_high": 15,
       "exchange": "SME",
       "gmp": 12,
-      "gmp_asof": "2026-11-23T22:45",
+      "gmp_asof": "2026-11-24T00:01",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 6.28,
       "gmp_trend": {
         "dir": "steady",
         "change": 0,
         "days": 3,
-        "since": "2026-11-19"
+        "since": "2026-11-20"
       },
       "status": "upcoming",
       "news": [
@@ -4531,17 +4545,17 @@
       "size_cr": 54.0,
       "tracker_rating": 3,
       "reservation_detail": {
-        "qib": {
-          "shares": 1406400,
-          "pct": 49.35
-        },
         "nii": {
-          "shares": 432000,
-          "pct": 15.16
+          "pct": 15.16,
+          "shares": 432000
+        },
+        "qib": {
+          "pct": 49.35,
+          "shares": 1406400
         },
         "retail": {
-          "shares": 1011200,
-          "pct": 35.49
+          "pct": 35.49,
+          "shares": 1011200
         }
       },
       "reservation": {
@@ -4551,12 +4565,12 @@
       },
       "uses": [
         {
-          "use": "Working Capital",
-          "cr": 29.3
+          "cr": 29.3,
+          "use": "Working Capital"
         },
         {
-          "use": "Debt",
-          "cr": 7.0
+          "cr": 7.0,
+          "use": "Debt"
         }
       ],
       "sector": "Packaging",
@@ -4564,7 +4578,7 @@
         {
           "source": "Tracker D",
           "gmp": 20,
-          "at": "2026-11-23T23:31"
+          "at": "2026-11-24T00:01"
         },
         {
           "source": "Tracker C",
@@ -4576,13 +4590,17 @@
         {
           "date": "2026-11-23",
           "gmp": 20
+        },
+        {
+          "date": "2026-11-24",
+          "gmp": 20
         }
       ],
       "history_source": "Tracker D",
       "gmp_low": 20,
       "gmp_high": 20,
       "gmp": 20,
-      "gmp_asof": "2026-11-23T23:31",
+      "gmp_asof": "2026-11-24T00:01",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 11.11,
       "gmp_spread": {
@@ -4591,6 +4609,12 @@
         "diff": 0,
         "n": 2,
         "diff_pct_of_price": 0.0
+      },
+      "gmp_trend": {
+        "dir": "steady",
+        "change": 0,
+        "days": 2,
+        "since": "2026-11-23"
       },
       "status": "upcoming",
       "ai_gmp_none": {
@@ -4706,16 +4730,16 @@
       "tracker_rating": 3,
       "uses": [
         {
-          "use": "Debt",
-          "cr": 45.0
+          "cr": 45.0,
+          "use": "Debt"
         },
         {
-          "use": "Facility",
-          "cr": 19.06
+          "cr": 19.06,
+          "use": "Facility"
         },
         {
-          "use": "Facility",
-          "cr": 8.44
+          "cr": 8.44,
+          "use": "Facility"
         }
       ],
       "sector": "Tyres & Rubber Products",

@@ -1,7 +1,7 @@
 {
  "year": 2026,
  "bse_as_of": "2026-11-23T11:31+05:30",
- "nse_as_of": "2026-11-23T11:31+05:30",
+ "nse_as_of": "2026-11-24T00:01+05:30",
  "rows": [
   {
    "name": "A J Packaging",
@@ -84,7 +84,7 @@
    "exchange": "SME",
    "live": true,
    "id": "watrana",
-   "status": "closing_today",
+   "status": "closed",
    "open": "2026-11-19",
    "close": "2026-11-23",
    "price": 245,
@@ -98,7 +98,7 @@
    "exchange": "SME",
    "live": true,
    "id": "mahacoal",
-   "status": "closing_today",
+   "status": "closed",
    "open": "2026-11-19",
    "close": "2026-11-23",
    "price": 136,
@@ -154,20 +154,6 @@
    "status": "listed"
   },
   {
-   "name": "Maxwell Engineering Solutions",
-   "segment": "SME",
-   "symbol": "MAXENGS",
-   "open": "2026-10-30",
-   "close": "2026-11-03",
-   "listing": "2026-11-06",
-   "price": 158,
-   "price_low": 150,
-   "exchange": "NSE Emerge",
-   "live": true,
-   "id": "maxengs",
-   "status": "listed"
-  },
-  {
    "name": "HGS (India)",
    "segment": "SME",
    "symbol": "HGSINDIALT",
@@ -179,6 +165,20 @@
    "exchange": "NSE Emerge",
    "live": true,
    "id": "hgsindialt",
+   "status": "listed"
+  },
+  {
+   "name": "Maxwell Engineering Solutions",
+   "segment": "SME",
+   "symbol": "MAXENGS",
+   "open": "2026-10-30",
+   "close": "2026-11-03",
+   "listing": "2026-11-06",
+   "price": 158,
+   "price_low": 150,
+   "exchange": "NSE Emerge",
+   "live": true,
+   "id": "maxengs",
    "status": "listed"
   },
   {
@@ -1260,19 +1260,6 @@
    "status": "listed"
   },
   {
-   "name": "Pooja Logistics",
-   "segment": "SME",
-   "symbol": "POOJALOGIS",
-   "open": "2026-09-23",
-   "close": "2026-09-25",
-   "listing": "2026-09-30",
-   "price": 115,
-   "price_low": 109,
-   "exchange": "NSE Emerge",
-   "id": "pooja-logistics",
-   "status": "listed"
-  },
-  {
    "name": "Coreintegra Consulting Services",
    "segment": "SME",
    "symbol": "COREIN",
@@ -1283,6 +1270,19 @@
    "price_low": 74,
    "exchange": "NSE Emerge",
    "id": "coreintegra-consulting-services",
+   "status": "listed"
+  },
+  {
+   "name": "Pooja Logistics",
+   "segment": "SME",
+   "symbol": "POOJALOGIS",
+   "open": "2026-09-23",
+   "close": "2026-09-25",
+   "listing": "2026-09-30",
+   "price": 115,
+   "price_low": 109,
+   "exchange": "NSE Emerge",
+   "id": "pooja-logistics",
    "status": "listed"
   },
   {
@@ -1559,19 +1559,6 @@
    "status": "listed"
   },
   {
-   "name": "Kheria Autocomp",
-   "segment": "SME",
-   "symbol": "KHERIAAUTO",
-   "open": "2026-09-17",
-   "close": "2026-09-21",
-   "listing": "2026-09-24",
-   "price": 101,
-   "price_low": 96,
-   "exchange": "NSE Emerge",
-   "id": "kheria-autocomp",
-   "status": "listed"
-  },
-  {
    "name": "SpectraA Technology Solutions",
    "segment": "SME",
    "symbol": "SPECTRAA",
@@ -1582,6 +1569,19 @@
    "price_low": 112,
    "exchange": "NSE Emerge",
    "id": "spectraa-technology-solutions",
+   "status": "listed"
+  },
+  {
+   "name": "Kheria Autocomp",
+   "segment": "SME",
+   "symbol": "KHERIAAUTO",
+   "open": "2026-09-17",
+   "close": "2026-09-21",
+   "listing": "2026-09-24",
+   "price": 101,
+   "price_low": 96,
+   "exchange": "NSE Emerge",
+   "id": "kheria-autocomp",
    "status": "listed"
   },
   {
@@ -2271,19 +2271,6 @@
    "status": "listed"
   },
   {
-   "name": "Ashutosh Fibre",
-   "segment": "SME",
-   "symbol": "ASHUTOSH",
-   "open": "2026-08-31",
-   "close": "2026-09-02",
-   "listing": "2026-09-07",
-   "price": 92,
-   "price_low": 87,
-   "exchange": "NSE Emerge",
-   "id": "ashutosh-fibre",
-   "status": "listed"
-  },
-  {
    "name": "Shanti Inorganics",
    "segment": "SME",
    "symbol": "SHANTIINOR",
@@ -2294,6 +2281,19 @@
    "price_low": 79,
    "exchange": "NSE Emerge",
    "id": "shanti-inorganics",
+   "status": "listed"
+  },
+  {
+   "name": "Ashutosh Fibre",
+   "segment": "SME",
+   "symbol": "ASHUTOSH",
+   "open": "2026-08-31",
+   "close": "2026-09-02",
+   "listing": "2026-09-07",
+   "price": 92,
+   "price_low": 87,
+   "exchange": "NSE Emerge",
+   "id": "ashutosh-fibre",
    "status": "listed"
   },
   {
@@ -4357,19 +4357,6 @@
    "status": "listed"
   },
   {
-   "name": "Q-Line Biotech",
-   "segment": "SME",
-   "symbol": "QLINE",
-   "open": "2026-05-21",
-   "close": "2026-05-25",
-   "listing": "2026-05-29",
-   "price": 343,
-   "price_low": 326,
-   "exchange": "NSE Emerge",
-   "id": "q-line-biotech",
-   "status": "listed"
-  },
-  {
    "name": "Bio Medica Laboratories",
    "segment": "SME",
    "symbol": "BMLL",
@@ -4380,6 +4367,19 @@
    "price_low": 132,
    "exchange": "NSE Emerge",
    "id": "bio-medica-laboratories",
+   "status": "listed"
+  },
+  {
+   "name": "Q-Line Biotech",
+   "segment": "SME",
+   "symbol": "QLINE",
+   "open": "2026-05-21",
+   "close": "2026-05-25",
+   "listing": "2026-05-29",
+   "price": 343,
+   "price_low": 326,
+   "exchange": "NSE Emerge",
+   "id": "q-line-biotech",
    "status": "listed"
   },
   {
@@ -5735,5 +5735,5 @@
    "status": "listed"
   }
  ],
- "generated_at": "2026-11-23T16:31+05:30"
+ "generated_at": "2026-11-24T00:01+05:30"
 }
