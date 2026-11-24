@@ -1,7 +1,7 @@
 {
  "_feeds": {
   "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms": {
-   "fetched": "2026-11-24T08:31+05:30",
+   "fetched": "2026-11-24T10:01+05:30",
    "items": [
     {
      "date": "2026-11-23",
@@ -306,7 +306,7 @@
    ]
   },
   "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms": {
-   "fetched": "2026-11-24T08:31+05:30",
+   "fetched": "2026-11-24T10:01+05:30",
    "items": [
     {
      "date": "2026-11-24",
@@ -611,8 +611,14 @@
    ]
   },
   "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml": {
-   "fetched": "2026-11-24T08:31+05:30",
+   "fetched": "2026-11-24T10:01+05:30",
    "items": [
+    {
+     "date": "2026-11-24",
+     "source": "cnbctv18.com",
+     "title": "Jensen Huang returns to Nvidia headquarters as CEO, pledges a fresh start",
+     "url": "https://www.cnbctv18.com/business/jensen-huang-returns-to-nvidia-headquarters-as-ceo-pledges-a-fresh-start-20040349.htm"
+    },
     {
      "date": "2026-11-24",
      "source": "cnbctv18.com",
@@ -1086,18 +1092,120 @@
      "source": "cnbctv18.com",
      "title": "South Korea, China, Taiwan regulators step in to rescue stock markets - Here are the steps they are taking",
      "url": "https://www.cnbctv18.com/market/south-korea-china-taiwan-regulators-step-in-to-curb-market-sell-off-announce-measures-20039468.htm"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "cnbctv18.com",
-     "title": "Stock Market Highlights: Nifty Slips Below 25,400, Sensex Sheds 1,484 Points; Metals, Banks Drag, IT Gains",
-     "url": "https://www.cnbctv18.com/market/stock-market-live-updates-sensex-nifty-50-expiry-today-nifty-bank-usd-metals-it-ai-tata-steel-apl-apollo-railway-share-price-liveblog-20039466.htm"
     }
    ]
   },
   "https://www.freepressjournal.in/stories.rss?section=business": {
-   "fetched": "2026-11-24T08:31+05:30",
+   "fetched": "2026-11-24T10:01+05:30",
    "items": [
+    {
+     "date": "2026-11-24",
+     "source": "freepressjournal.in",
+     "title": "MP AYUSH NEET UG Counselling 2026: 1,290 Seats Available In Stray Round 2 After Supreme Court Intervention",
+     "url": "https://www.freepressjournal.in/bhopal/mp-ayush-neet-ug-counselling-2026-1290-seats-available-in-stray-round-2-after-supreme-court-intervention"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "freepressjournal.in",
+     "title": "Indore's DAVV Among 8 MP Universities To Get Permanent Exam Controllers After Years, Applications Open Till December 15",
+     "url": "https://www.freepressjournal.in/indore/indores-davv-among-8-mp-universities-to-get-permanent-exam-controllers-after-years-applications-open-till-december-15"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "freepressjournal.in",
+     "title": "Ras Purnima 2026: Know Why It Is Celebrated And What Is Its Connection With Lord Krishna's Ras Leela",
+     "url": "https://www.freepressjournal.in/lifestyle/ras-purnima-2026-know-why-it-is-celebrated-and-what-is-its-connection-with-lord-krishnas-ras-leela"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "freepressjournal.in",
+     "title": "Stock Markets Hit Pause After Monday's Bloodbath, Check NSE, BSE And MCX Trading Schedule Today",
+     "url": "https://www.freepressjournal.in/business/stock-markets-hit-pause-after-mondays-bloodbath-check-nse-bse-and-mcx-trading-schedule-today"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "freepressjournal.in",
+     "title": "Russian Military Aircraft Trigger Alert In South Korea, Fighter Jets Scrambled As Ulleung Island Residents Ordered To Take Shelter",
+     "url": "https://www.freepressjournal.in/world/russian-military-aircraft-trigger-alert-in-south-korea-fighter-jets-scrambled-as-ulleung-island-residents-ordered-to-take-shelter"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "freepressjournal.in",
+     "title": "'My Silence Should Never Be Mistaken For Weakness': Prithvi Shaw Hits Back At Yograj Singh, Warns Of Legal Action After Recent Claims",
+     "url": "https://www.freepressjournal.in/sports/my-silence-should-never-be-mistaken-for-weakness-prithvi-shaw-hits-back-at-yograj-singh-warns-of-legal-action-after-recent-claims"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "freepressjournal.in",
+     "title": "PM Modi Likely To Attend BJP's Two-Day National Office Bearers Meeting In New Delhi On November 27-28 Alongside Top Party Leaders",
+     "url": "https://www.freepressjournal.in/india/pm-modi-likely-to-attend-bjps-two-day-national-office-bearers-meeting-in-new-delhi-on-november-27-28-alongside-top-party-leaders"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "freepressjournal.in",
+     "title": "Donald Trump Gained $15 Million From Nvidia Rally After Jensen Huang’s Return As CEO: Report",
+     "url": "https://www.freepressjournal.in/world/donald-trump-gained-15-million-from-nvidia-rally-after-jensen-huangs-return-as-ceo-report"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "freepressjournal.in",
+     "title": "'May This Sacred Festival Bring Faith And Positivity': PM Modi Extends Kartik Purnima Wishes As Devotees Take Holy Dips Across India | Video",
+     "url": "https://www.freepressjournal.in/india/may-this-sacred-festival-bring-faith-and-positivity-pm-modi-extends-kartik-purnima-wishes-as-devotees-take-holy-dips-across-india-video"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "freepressjournal.in",
+     "title": "Emmy Awards 2026: Vir Das Misses Second Win As Fool Volume Loses To Argentina's Division Palermo In Comedy Category",
+     "url": "https://www.freepressjournal.in/entertainment/emmy-awards-2026-vir-das-fool-volume-loses-in-comedy-category-misses-out-on-second-win-as-argentinas-division-palermo-takes-home-award"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "freepressjournal.in",
+     "title": "Supreme Court Questions How Homes Turn Into Hotels And Malls, Slams Civic Bodies Over Illegal Constructions",
+     "url": "https://www.freepressjournal.in/bhopal/supreme-court-questions-how-homes-turn-into-hotels-and-malls-slams-civic-bodies-over-illegal-constructions"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "freepressjournal.in",
+     "title": "Indore Seeks ₹110 Crore To Tackle Summer Water Crisis, CM Mohan Yadav Gives In-Principle Nod To Fill Yashwant Sagar With Narmada Water",
+     "url": "https://www.freepressjournal.in/indore/indore-seeks-110-crore-to-tackle-summer-water-crisis-cm-mohan-yadav-gives-in-principle-nod-to-fill-yashwant-sagar-with-narmada-water"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "freepressjournal.in",
+     "title": "Happy Guru Nanak Jayanti 2026: 25+ Gurpurab Wishes, Messages, WhatsApp Status And More To Share",
+     "url": "https://www.freepressjournal.in/lifestyle/happy-guru-nanak-jayanti-2026-25-gurpurab-wishes-messages-whatsapp-status-and-more-to-share"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "freepressjournal.in",
+     "title": "Nasscom Proposes 3-Year Government-Backed AI Scheme To Accelerate India's Tech Industry Growth Ahead Of Budget 2027-28",
+     "url": "https://www.freepressjournal.in/tech/nasscom-proposes-3-year-government-backed-ai-scheme-to-accelerate-indias-tech-industry-growth-ahead-of-budget-2027-28"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "freepressjournal.in",
+     "title": "India Invokes 1943 Bengal Famine At UN, Urges Measures To Prevent Ukraine War-Driven Food Crisis In Global South | Video",
+     "url": "https://www.freepressjournal.in/world/india-invokes-1943-bengal-famine-at-un-urges-measures-to-prevent-ukraine-war-driven-food-crisis-in-global-south-video"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "freepressjournal.in",
+     "title": "Iranian Singer Parastoo Ahmadi And Four Crew Members Face 74 Lashes Over Hijab-Free Performance As Authorities Reject Lawyers' Plea For Delay",
+     "url": "https://www.freepressjournal.in/entertainment/iranian-singer-parastoo-ahmadi-and-four-crew-members-face-74-lashes-over-hijab-free-performance-as-authorities-reject-lawyers-plea-for-delay"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "freepressjournal.in",
+     "title": "Trump Claims Credit For Jensen Huang’s Nvidia Return; US Lawmakers Continue Probe Into China Chip Smuggling Concerns | Video",
+     "url": "https://www.freepressjournal.in/tech/trump-claims-credit-for-jensen-huangs-nvidia-return-us-lawmakers-continue-probe-into-china-chip-smuggling-concerns-video"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "freepressjournal.in",
+     "title": "Pune Shocker: Techie Allegedly Murders Girlfriend At Hinjewadi PG, Stays Beside Her Body Overnight Before Calling Police",
+     "url": "https://www.freepressjournal.in/pune/pune-shocker-techie-allegedly-murders-girlfriend-at-hinjewadi-pg-stays-beside-her-body-overnight-before-calling-police"
+    },
     {
      "date": "2026-11-24",
      "source": "freepressjournal.in",
@@ -1167,26 +1275,38 @@
     {
      "date": "2026-11-23",
      "source": "freepressjournal.in",
-     "title": "Indore Food Safety Team Inspects Three Eateries, Flags Hygiene Lapses And Collects Nine Samples For Testing",
-     "url": "https://www.freepressjournal.in/indore/indore-food-safety-team-inspects-three-eateries-flags-hygiene-lapses-and-collects-nine-samples-for-testing"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "freepressjournal.in",
-     "title": "MP DGP Appointment Takes Surprise Turn As Centre Seeks Kailash Makwana’s Extension After UPSC Clears Three Names",
-     "url": "https://www.freepressjournal.in/bhopal/mp-dgp-appointment-takes-surprise-turn-as-centre-seeks-kailash-makwanas-extension-after-upsc-clears-three-names"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "freepressjournal.in",
      "title": "Mumbai Kurla Garden Assault Case: Ghatkopar Police Detain Two More Minors Over Attack On Couple, Total Number Reaches Eight",
      "url": "https://www.freepressjournal.in/mumbai/mumbai-kurla-garden-assault-case-ghatkopar-police-detain-two-more-minors-over-attack-on-couple-total-number-reaches-eight"
     }
    ]
   },
   "https://www.livemint.com/rss/markets": {
-   "fetched": "2026-11-24T08:31+05:30",
+   "fetched": "2026-11-24T10:01+05:30",
    "items": [
+    {
+     "date": "2026-11-24",
+     "source": "Mint",
+     "title": "Only a handful of stocks near 52-week highs despite November's rebound",
+     "url": "https://www.livemint.com/market/stock-market-news/indian-stock-market-rally-november-sensex-bse-500-11795489292786.html"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "Mint",
+     "title": "Dividend, Buyback, rights issue record date Nov 25: Zee, Vraj Iron, Bonlon, and more: 5 stocks to turn ex-date tomorrow",
+     "url": "https://www.livemint.com/market/stock-market-news/dividend-buyback-rights-issue-record-date-nov-25-zee-vraj-iron-bonlon-and-more-5-stocks-to-turn-ex-date-tomorrow-11795491976798.html"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "Mint",
+     "title": "Dividend vs fixed deposits: 5 high yield stocks generating better income than FDs - CyberTech, Majestic Auto, to Premco",
+     "url": "https://www.livemint.com/market/stock-market-news/dividend-vs-fixed-deposits-5-high-yield-stocks-generating-better-income-than-fds-cybertech-majestic-auto-to-premco-11795463444218.html"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "Mint",
+     "title": "Persistent Systems, Ather Energy shares: Top 2 stocks to buy on 25 Nov; check expected returns, stop loss, target price",
+     "url": "https://www.livemint.com/market/stock-market-news/persistent-systems-ather-energy-shares-top-2-stocks-to-buy-on-25-nov-check-expected-returns-stop-loss-target-price-11795486721247.html"
+    },
     {
      "date": "2026-11-24",
      "source": "Mint",
@@ -1372,36 +1492,30 @@
      "source": "Mint",
      "title": "Manic Monday for Bank Nifty as index crashes over 2000 points — Check worst hit shares and reasons behind mega plunge",
      "url": "https://www.livemint.com/market/stock-market-news/manic-monday-for-bank-nifty-as-index-crashes-over-2000-points-check-worst-hit-shares-and-reasons-behind-mega-plunge-11795430223849.html"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "Mint",
-     "title": "ITC, SAMHI Hotels to Lemon Tree: Top 6 hospitality stocks to buy | Up to 75% listing gain predicted by Ambit Capital",
-     "url": "https://www.livemint.com/market/stock-market-news/itc-samhi-hotels-to-lemon-tree-top-6-hospitality-stocks-to-buy-up-to-75-listing-gain-predicted-by-ambit-capital-11795431513673.html"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "Mint",
-     "title": "Stock market crash today wipes out ₹6 lakh cr: Red! Sensex down 1,484 points, Nifty below 25,350 - What went wrong?",
-     "url": "https://www.livemint.com/market/stock-market-news/stock-market-crash-today-wipes-out-rs-6-lakh-cr-red-sensex-down-1-484-points-nifty-below-25-350-what-went-wrong-11795424234403.html"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "Mint",
-     "title": "PSU bank stocks tumble up to 5% after five-day rally, Nifty PSU Bank index crashes 3.2%; what's behind the sell-off?",
-     "url": "https://www.livemint.com/market/stock-market-news/psu-bank-stocks-tumble-up-to-5-after-five-day-rally-nifty-psu-bank-index-crashes-3-2-whats-behind-the-selloff-11795427367855.html"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "Mint",
-     "title": "Crypto investment amid fall: As Bitcoin hovers near $60K levels, experts answer if investors can expect recovery",
-     "url": "https://www.livemint.com/market/cryptocurrency/crypto-investment-amid-fall-as-bitcoin-hovers-near-60000-levels-experts-answer-if-investors-can-expect-recovery-markets-11795426061415.html"
     }
    ]
   },
   "https://www.thehindubusinessline.com/markets/feeder/default.rss": {
-   "fetched": "2026-11-24T08:31+05:30",
+   "fetched": "2026-11-24T10:01+05:30",
    "items": [
+    {
+     "date": "2026-11-24",
+     "source": "BusinessLine",
+     "title": "SEBI warns investors against fraudsters impersonating registered intermediaries on WhatsApp groups",
+     "url": "https://www.thehindubusinessline.com/markets/sebi-warns-investors-against-fraudsters-impersonating-registered-intermediaries-on-whatsapp-groups/article71737121.ece"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "BusinessLine",
+     "title": "Gold ticks up on bargain buying; US inflation data awaited",
+     "url": "https://www.thehindubusinessline.com/markets/gold/gold-ticks-up-on-bargain-buying-us-inflation-data-awaited/article71737088.ece"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "BusinessLine",
+     "title": "Domestic stock markets closed for Guru Nanak Jayanti; MCX to resume trading in evening session",
+     "url": "https://www.thehindubusinessline.com/markets/domestic-stock-markets-closed-for-guru-nanak-jayanti-mcx-to-resume-trading-in-evening-session/article71737090.ece"
+    },
     {
      "date": "2026-11-24",
      "source": "BusinessLine",
@@ -1743,29 +1857,11 @@
      "source": "BusinessLine",
      "title": "After mega listing, Anthropic emerges among the most traded stocks by Indian retail investors",
      "url": "https://www.thehindubusinessline.com/markets/after-mega-listing-anthropic-emerges-among-the-most-traded-stocks-by-indian-retail-investors/article71724811.ece"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "BusinessLine",
-     "title": "SEBI proposes 12-year tenure cap for heads of stock exchanges and other market institutions",
-     "url": "https://www.thehindubusinessline.com/markets/sebi-proposes-12-year-tenure-cap-for-heads-of-stock-exchanges-and-other-market-institutions/article71725598.ece"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "BusinessLine",
-     "title": "Nifty hit 9-month high as Rupee logs best weekly rally in 5 weeks; Bond yields ease",
-     "url": "https://www.thehindubusinessline.com/markets/nifty-hit-9-month-high-as-rupee-logs-best-weekly-rally-in-5-weeks-bond-yields-ease/article71725535.ece"
-    },
-    {
-     "date": "2026-11-20",
-     "source": "BusinessLine",
-     "title": "SEBI proposes scrapping additional disclosure framework for foreign investors",
-     "url": "https://www.thehindubusinessline.com/markets/sebi-proposes-scrapping-additional-disclosure-framework-for-foreign-investors/article71725278.ece"
     }
    ]
   },
   "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss": {
-   "fetched": "2026-11-24T08:31+05:30",
+   "fetched": "2026-11-24T10:01+05:30",
    "items": [
     {
      "date": "2026-11-18",
@@ -1891,7 +1987,7 @@
   }
  },
  "crystalcp": {
-  "checked": "2026-11-24T09:45+05:30",
+  "checked": "2026-11-24T10:01+05:30",
   "items": [
    {
     "date": "2026-11-22",
@@ -1932,7 +2028,7 @@
   ]
  },
  "foodlink": {
-  "checked": "2026-11-24T09:45+05:30",
+  "checked": "2026-11-24T10:01+05:30",
   "items": [
    {
     "date": "2026-11-23",
@@ -1961,7 +2057,7 @@
   ]
  },
  "foodlink-f-b-holdings": {
-  "checked": "2026-11-24T09:45+05:30",
+  "checked": "2026-11-24T10:01+05:30",
   "items": [
    {
     "date": "2026-11-23",
@@ -1990,7 +2086,7 @@
   ]
  },
  "mahacoal": {
-  "checked": "2026-11-24T09:45+05:30",
+  "checked": "2026-11-24T10:01+05:30",
   "items": [
    {
     "date": "2026-11-23",
@@ -2031,7 +2127,7 @@
   ]
  },
  "matangi-rubber": {
-  "checked": "2026-11-24T09:45+05:30",
+  "checked": "2026-11-24T10:01+05:30",
   "items": [
    {
     "date": "2026-11-23",
@@ -2042,7 +2138,7 @@
   ]
  },
  "watrana": {
-  "checked": "2026-11-24T09:45+05:30",
+  "checked": "2026-11-24T10:01+05:30",
   "items": [
    {
     "date": "2026-11-19",
