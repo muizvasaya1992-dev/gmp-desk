@@ -1,7 +1,7 @@
 {
  "_feeds": {
   "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms": {
-   "fetched": "2026-11-25T03:45+05:30",
+   "fetched": "2026-11-25T05:15+05:30",
    "items": [
     {
      "date": "2026-11-24",
@@ -306,7 +306,7 @@
    ]
   },
   "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms": {
-   "fetched": "2026-11-25T03:45+05:30",
+   "fetched": "2026-11-25T05:15+05:30",
    "items": [
     {
      "date": "2026-11-24",
@@ -611,8 +611,14 @@
    ]
   },
   "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml": {
-   "fetched": "2026-11-25T03:45+05:30",
+   "fetched": "2026-11-25T05:15+05:30",
    "items": [
+    {
+     "date": "2026-11-25",
+     "source": "cnbctv18.com",
+     "title": "Dow Jones extends two-day recovery to nearly 2,000 points but Nvidia, Anthropic drag Nasdaq",
+     "url": "https://www.cnbctv18.com/market/dow-jones-snp-500-nasdaq-tech-selling-nvidia-anthropic-pce-inflation-prices-fed-20040626.htm"
+    },
     {
      "date": "2026-11-24",
      "source": "cnbctv18.com",
@@ -1086,18 +1092,42 @@
      "source": "cnbctv18.com",
      "title": "India could gain from Nvidia's weakening competitive edge in AI: William Lee",
      "url": "https://www.cnbctv18.com/market/india-trusted-chip-destination-nvidia-decline-william-lee-alpha-article-20039567.htm"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "cnbctv18.com",
-     "title": "China's government-backed funds ramp up ETF buying to record as rout deepens",
-     "url": "https://www.cnbctv18.com/market/chinas-government-backed-funds-ramp-up-etf-buying-to-record-as-rout-deepens-20039572.htm"
     }
    ]
   },
   "https://www.freepressjournal.in/stories.rss?section=business": {
-   "fetched": "2026-11-25T03:45+05:30",
+   "fetched": "2026-11-25T05:15+05:30",
    "items": [
+    {
+     "date": "2026-11-24",
+     "source": "freepressjournal.in",
+     "title": "Indore Sets Inspiring Example Of Humanity With Two Body Donations In A Single Day; Police Accord Guard Of Honour To Donors",
+     "url": "https://www.freepressjournal.in/indore/indore-sets-inspiring-example-of-humanity-with-two-body-donations-in-a-single-day-police-accord-guard-of-honour-to-donors"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "freepressjournal.in",
+     "title": "Bhopal Master Plan Set To Move Forward Despite Political Opposition, Government Keen On Implementation After Two Previous Cancellations",
+     "url": "https://www.freepressjournal.in/bhopal/bhopal-master-plan-set-to-move-forward-despite-political-opposition-government-keen-on-implementation-after-two-previous-cancellations"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "freepressjournal.in",
+     "title": "Indore Sports Roundup 2026: Tennis Duo Ends Nine-Year Gold Drought, City Athletes Shine In Judo, Wrestling And Snooker",
+     "url": "https://www.freepressjournal.in/indore/indore-sports-roundup-2026-tennis-duo-ends-nine-year-gold-drought-city-athletes-shine-in-judo-wrestling-and-snooker"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "freepressjournal.in",
+     "title": "Bhopal Government Schools Fare Poorly In Child Safety And Protection, Score Just 13 Out Of 35 In Centre’s Education Report",
+     "url": "https://www.freepressjournal.in/bhopal/bhopal-government-schools-fare-poorly-in-child-safety-and-protection-score-just-13-out-of-35-in-centres-education-report"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "freepressjournal.in",
+     "title": "Indore’s Krishna Bagh Colony Demolition Row: Congress Assures Legal Support Up To Supreme Court, To Bear Expenses Of Affected Families",
+     "url": "https://www.freepressjournal.in/indore/indores-krishna-bagh-colony-demolition-row-congress-assures-legal-support-up-to-supreme-court-to-bear-expenses-of-affected-families"
+    },
     {
      "date": "2026-11-24",
      "source": "freepressjournal.in",
@@ -1107,14 +1137,14 @@
     {
      "date": "2026-11-24",
      "source": "freepressjournal.in",
-     "title": "IMC Seals Meat Shop In Indore Over Unpaid Waste Transportation Charges, Recovers ₹56,400 In Outstanding Fees During Inspection Drive",
-     "url": "https://www.freepressjournal.in/indore/imc-seals-meat-shop-in-indore-over-unpaid-waste-transportation-charges-recovers-56400-in-outstanding-fees-during-inspection-drive"
+     "title": "Mumbai: BMC Plans ₹1.33-Crore Maintenance Contract, Security Guards For 18.6-Km Tansa Pipeline Cycle Tracks",
+     "url": "https://www.freepressjournal.in/mumbai/mumbai-bmc-plans-133-crore-maintenance-contract-security-guards-for-186-km-tansa-pipeline-cycle-tracks"
     },
     {
      "date": "2026-11-24",
      "source": "freepressjournal.in",
-     "title": "Mumbai: BMC Plans ₹1.33-Crore Maintenance Contract, Security Guards For 18.6-Km Tansa Pipeline Cycle Tracks",
-     "url": "https://www.freepressjournal.in/mumbai/mumbai-bmc-plans-133-crore-maintenance-contract-security-guards-for-186-km-tansa-pipeline-cycle-tracks"
+     "title": "IMC Seals Meat Shop In Indore Over Unpaid Waste Transportation Charges, Recovers ₹56,400 In Outstanding Fees During Inspection Drive",
+     "url": "https://www.freepressjournal.in/indore/imc-seals-meat-shop-in-indore-over-unpaid-waste-transportation-charges-recovers-56400-in-outstanding-fees-during-inspection-drive"
     },
     {
      "date": "2026-11-24",
@@ -1133,90 +1163,18 @@
      "source": "freepressjournal.in",
      "title": "MP School Enrolment Irregularities Surface As Institutions Allegedly Inflate Student Numbers To Secure Higher Government Grants",
      "url": "https://www.freepressjournal.in/bhopal/mp-school-enrolment-irregularities-surface-as-institutions-allegedly-inflate-student-numbers-to-secure-higher-government-grants"
-    },
-    {
-     "date": "2026-11-24",
-     "source": "freepressjournal.in",
-     "title": "Around 10,000 LPG Connections Remain Blocked In Bhopal Despite High Court Stay, Next Hearing On November 27",
-     "url": "https://www.freepressjournal.in/bhopal/around-10000-lpg-connections-remain-blocked-in-bhopal-despite-high-court-stay-next-hearing-on-november-27"
-    },
-    {
-     "date": "2026-11-24",
-     "source": "freepressjournal.in",
-     "title": "Iran Says Two Oil Tankers Hit Naval Mines Near Strait Of Hormuz, Vows To Keep Waterway Closed Until Seven Conditions Are Met",
-     "url": "https://www.freepressjournal.in/world/iran-says-two-oil-tankers-hit-naval-mines-near-strait-of-hormuz-vows-to-keep-waterway-closed-until-seven-conditions-are-met"
-    },
-    {
-     "date": "2026-11-24",
-     "source": "freepressjournal.in",
-     "title": "Turkish Air Force AS-532 Cougar Helicopter Crashes During Training Flight, 5 Crew Members Killed | Video",
-     "url": "https://www.freepressjournal.in/world/turkish-air-force-as-532-cougar-helicopter-crashes-during-training-flight-5-crew-members-killed-video"
-    },
-    {
-     "date": "2026-11-24",
-     "source": "freepressjournal.in",
-     "title": "Delhi: 3 Arrested After 22-Year-Old Woman Alleges Gang Rape At Cafe In Preet Vihar",
-     "url": "https://www.freepressjournal.in/india/delhi-3-arrested-after-22-year-old-woman-alleges-gang-rape-at-cafe-in-preet-vihar"
-    },
-    {
-     "date": "2026-11-24",
-     "source": "freepressjournal.in",
-     "title": "Rajasthan: 50 Streetlights Removed After BJP-Backed Candidate Loses Panchayat Polls, Probe Ordered",
-     "url": "https://www.freepressjournal.in/india/rajasthan-50-streetlights-removed-after-bjp-backed-candidate-loses-panchayat-polls-probe-ordered"
-    },
-    {
-     "date": "2026-11-24",
-     "source": "freepressjournal.in",
-     "title": "India U19 Asia Cup Heroes Aaryavir Sehwag, Mohit Ulva Enter IPL 2027 Auction",
-     "url": "https://www.freepressjournal.in/sports/india-u19-asia-cup-heroes-aaryavir-sehwag-mohit-ulva-enter-ipl-2027-auction"
-    },
-    {
-     "date": "2026-11-24",
-     "source": "freepressjournal.in",
-     "title": "UP Politics: Samajwadi Party Chief Akhilesh Yadav Alleges EC Plans To Add 3 Crore Voters, Calls Owaisi Guard Of Honour An ‘Insult’",
-     "url": "https://www.freepressjournal.in/uttar-pradesh/up-politics-samajwadi-party-chief-akhilesh-yadav-alleges-ec-plans-to-add-3-crore-voters-calls-owaisi-guard-of-honour-an-insult"
-    },
-    {
-     "date": "2026-11-24",
-     "source": "freepressjournal.in",
-     "title": "UP Politics: ‘Lotus Is BJP’s CM Face’, Says Deputy Chief Minister Keshav Maurya Ahead Of 2027 Assembly Elections",
-     "url": "https://www.freepressjournal.in/uttar-pradesh/up-politics-lotus-is-bjps-cm-face-says-deputy-chief-minister-keshav-maurya-ahead-of-2027-assembly-elections"
-    },
-    {
-     "date": "2026-11-24",
-     "source": "freepressjournal.in",
-     "title": "Sugarcane Farmers Detained In Bhopal After Insisting On Meeting CM Mohan Yadav, Demand ₹600 Per Quintal And ₹50 Bonus",
-     "url": "https://www.freepressjournal.in/bhopal/sugarcane-farmers-detained-in-bhopal-after-insisting-on-meeting-cm-mohan-yadav-demand-600-per-quintal-and-50-bonus"
-    },
-    {
-     "date": "2026-11-24",
-     "source": "freepressjournal.in",
-     "title": "Madhya Pradesh Celebrates Guru Nanak Dev’s 557th Prakash Parv With Illuminated Gurudwaras, Devotional Kirtans And Grand Langars",
-     "url": "https://www.freepressjournal.in/indore/madhya-pradesh-celebrates-guru-nanak-devs-557th-prakash-parv-with-illuminated-gurudwaras-devotional-kirtans-and-grand-langars"
-    },
-    {
-     "date": "2026-11-24",
-     "source": "freepressjournal.in",
-     "title": "Two Indian Nationals Injured In Riyadh Attack, Indian Embassy Assures All Possible Assistance To Families",
-     "url": "https://www.freepressjournal.in/world/two-indian-nationals-injured-in-riyadh-attack-indian-embassy-assures-all-possible-assistance-to-families"
-    },
-    {
-     "date": "2026-11-24",
-     "source": "freepressjournal.in",
-     "title": "Mumbai Road Accident: Unauthorised U-Turn Allegedly Triggers Fatal Chain Collision On SCLR; Rider Crushed By BEST Bus",
-     "url": "https://www.freepressjournal.in/mumbai/mumbai-road-accident-unauthorised-u-turn-allegedly-triggers-fatal-chain-collision-on-sclr-rider-crushed-by-best-bus"
-    },
-    {
-     "date": "2026-11-24",
-     "source": "freepressjournal.in",
-     "title": "Khar Gymkhana Hosts Inaugural Padel League; Net Ninjas Win Title After 90 Matches",
-     "url": "https://www.freepressjournal.in/sports/khar-gymkhana-hosts-inaugural-padel-league-net-ninjas-win-title-after-90-matches"
     }
    ]
   },
   "https://www.livemint.com/rss/markets": {
-   "fetched": "2026-11-25T03:45+05:30",
+   "fetched": "2026-11-25T05:15+05:30",
    "items": [
+    {
+     "date": "2026-11-25",
+     "source": "Mint",
+     "title": "US stocks slide as Nvidia rally fizzles out, dollar falls",
+     "url": "https://www.livemint.com/market/us-stocks-slide-as-nvidia-rally-fizzles-out-dollar-falls-11795561223195.html"
+    },
     {
      "date": "2026-11-25",
      "source": "Mint",
@@ -1420,17 +1378,11 @@
      "source": "Mint",
      "title": "Asian markets follow Wall Street: Nikkei, Kospi jump up to 8% as Jensen Huang’s return sparks rally in AI stocks",
      "url": "https://www.livemint.com/market/stock-market-news/asian-markets-follow-wall-street-nikkei-kospi-jump-up-to-8-as-jensen-huang-s-return-sparks-rally-in-ai-stocks-11795485047635.html"
-    },
-    {
-     "date": "2026-11-24",
-     "source": "Mint",
-     "title": "AI Trade Resurgence Drives 9% Rally in Taiwanese Stock Index",
-     "url": "https://www.livemint.com/market/ai-trade-resurgence-drives-9-rally-in-taiwanese-stock-index-11795484279756.html"
     }
    ]
   },
   "https://www.thehindubusinessline.com/markets/feeder/default.rss": {
-   "fetched": "2026-11-25T03:45+05:30",
+   "fetched": "2026-11-25T05:15+05:30",
    "items": [
     {
      "date": "2026-11-24",
@@ -1795,7 +1747,7 @@
    ]
   },
   "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss": {
-   "fetched": "2026-11-25T03:45+05:30",
+   "fetched": "2026-11-25T05:15+05:30",
    "items": [
     {
      "date": "2026-11-18",
@@ -1921,7 +1873,7 @@
   }
  },
  "crystalcp": {
-  "checked": "2026-11-25T05:02+05:30",
+  "checked": "2026-11-25T05:15+05:30",
   "items": [
    {
     "date": "2026-11-22",
@@ -1962,7 +1914,7 @@
   ]
  },
  "foodlink": {
-  "checked": "2026-11-25T05:02+05:30",
+  "checked": "2026-11-25T05:15+05:30",
   "items": [
    {
     "date": "2026-11-23",
@@ -1985,7 +1937,7 @@
   ]
  },
  "foodlink-f-b-holdings": {
-  "checked": "2026-11-25T05:02+05:30",
+  "checked": "2026-11-25T05:15+05:30",
   "items": [
    {
     "date": "2026-11-23",
@@ -2008,7 +1960,7 @@
   ]
  },
  "mahacoal": {
-  "checked": "2026-11-25T05:02+05:30",
+  "checked": "2026-11-25T05:15+05:30",
   "items": [
    {
     "date": "2026-11-24",
@@ -2049,7 +2001,7 @@
   ]
  },
  "matangi-rubber": {
-  "checked": "2026-11-25T05:02+05:30",
+  "checked": "2026-11-25T05:15+05:30",
   "items": [
    {
     "date": "2026-11-24",
@@ -2066,7 +2018,7 @@
   ]
  },
  "watrana": {
-  "checked": "2026-11-25T05:02+05:30",
+  "checked": "2026-11-25T05:15+05:30",
   "items": [
    {
     "date": "2026-11-19",
