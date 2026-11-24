@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-24T10:15+05:30",
+  "fetched_at": "2026-11-24T10:31+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,7 +16,7 @@
     "price_low": 129.0,
     "size_cr": 8981.12,
     "gmp": 0.0,
-    "gmp_at": "2026-11-24T10:10",
+    "gmp_at": "2026-11-24T10:25",
     "sub_total": 1.52,
     "sub_retail": 0.46,
     "sub_at": "2026-11-23T19:05",
@@ -107,7 +107,7 @@
     "price_low": 259.0,
     "size_cr": 455.72,
     "gmp": 14.0,
-    "gmp_at": "2026-11-24T10:11",
+    "gmp_at": "2026-11-24T10:26",
     "sub_total": 17.07,
     "sub_retail": 9.281,
     "sub_at": "2026-11-20T19:05",
@@ -187,7 +187,7 @@
     "price_low": 232.0,
     "size_cr": 120.1,
     "gmp": 40.0,
-    "gmp_at": "2026-11-24T10:10",
+    "gmp_at": "2026-11-24T10:25",
     "sub_total": 150.48,
     "sub_retail": 108.71,
     "sub_at": "2026-11-23T19:05",
@@ -261,7 +261,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-24T10:15+05:30",
+  "fetched_at": "2026-11-24T10:31+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -277,7 +277,7 @@
     "price_low": null,
     "size_cr": null,
     "gmp": 23.0,
-    "gmp_at": "2026-11-24T06:02",
+    "gmp_at": "2026-11-24T06:37",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -299,7 +299,7 @@
     "price_low": null,
     "size_cr": 54.0,
     "gmp": 20.0,
-    "gmp_at": "2026-11-24T06:02",
+    "gmp_at": "2026-11-24T06:37",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -321,7 +321,7 @@
     "price_low": null,
     "size_cr": 125.16,
     "gmp": 21.5,
-    "gmp_at": "2026-11-24T06:02",
+    "gmp_at": "2026-11-24T06:37",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -365,7 +365,7 @@
     "price_low": null,
     "size_cr": 360.76,
     "gmp": 15.0,
-    "gmp_at": "2026-11-24T06:02",
+    "gmp_at": "2026-11-24T06:37",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -387,7 +387,7 @@
     "price_low": null,
     "size_cr": 93.66,
     "gmp": 10.0,
-    "gmp_at": "2026-11-24T06:02",
+    "gmp_at": "2026-11-24T06:37",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -409,7 +409,7 @@
     "price_low": null,
     "size_cr": 120.1,
     "gmp": 40.0,
-    "gmp_at": "2026-11-24T06:02",
+    "gmp_at": "2026-11-24T06:37",
     "sub_total": 150.48,
     "sub_retail": null,
     "sub_at": null,
@@ -431,7 +431,7 @@
     "price_low": null,
     "size_cr": 8981.12,
     "gmp": null,
-    "gmp_at": "2026-11-24T06:02",
+    "gmp_at": "2026-11-24T06:37",
     "sub_total": 1.52,
     "sub_retail": null,
     "sub_at": null,
@@ -453,7 +453,7 @@
     "price_low": null,
     "size_cr": 455.49,
     "gmp": 14.0,
-    "gmp_at": "2026-11-24T06:02",
+    "gmp_at": "2026-11-24T06:37",
     "sub_total": 17.68,
     "sub_retail": null,
     "sub_at": null,
@@ -816,8 +816,51 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-24T10:15+05:30",
+  "fetched_at": "2026-11-24T10:31+05:30",
   "records": [
+   {
+    "src": "Tracker D",
+    "slug": "airpro-technology-india",
+    "name": "Airpro Technology India",
+    "segment": "SME",
+    "exchange": null,
+    "open": null,
+    "close": null,
+    "boa": null,
+    "listing": null,
+    "price": 99.0,
+    "price_low": null,
+    "size_cr": 35.64,
+    "gmp": 0.0,
+    "gmp_at": null,
+    "sub_total": null,
+    "sub_retail": null,
+    "sub_at": null,
+    "lot": 1200.0,
+    "sector": "Industrial Products",
+    "detail_url": "https://ipoindex.in/ipo/airpro-technology-india-sme-ipo/",
+    "live": true,
+    "detail": {
+     "uses": [
+      {
+       "use": "Asset",
+       "cr": 2.0
+      },
+      {
+       "use": "Asset",
+       "cr": 0.6
+      },
+      {
+       "use": "Factory",
+       "cr": 3.97
+      },
+      {
+       "use": "Working Capital",
+       "cr": 13.0
+      }
+     ]
+    }
+   },
    {
     "src": "Tracker D",
     "slug": "a-j-packaging",
