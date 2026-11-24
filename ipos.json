@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T21:15+05:30",
+  "generated_at": "2026-11-24T21:31+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-24T12:33+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-24T21:15+05:30",
+    "nse_ok_at": "2026-11-24T21:31+05:30",
     "bse_ok_at": "2026-11-24T12:35+05:30"
   },
   "ipos": [
@@ -4637,7 +4637,7 @@
       "sector": "Industrial Products",
       "gmp_watch": {
         "sources": 2,
-        "at": "2026-11-24T21:15"
+        "at": "2026-11-24T21:31"
       },
       "gmp_sources": [],
       "gmp_history": [],
@@ -4667,7 +4667,7 @@
         {
           "source": "Tracker C",
           "gmp": 17,
-          "at": "2026-11-24T18:02"
+          "at": "2026-11-24T18:37"
         },
         {
           "source": "Tracker D",
@@ -4697,7 +4697,7 @@
       "gmp_low": 12,
       "gmp_high": 17,
       "gmp": 17,
-      "gmp_asof": "2026-11-24T18:02",
+      "gmp_asof": "2026-11-24T18:37",
       "gmp_source_latest": "Tracker C",
       "gmp_pct": 8.9,
       "gmp_spread": {
