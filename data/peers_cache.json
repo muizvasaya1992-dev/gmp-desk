@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-25T02:46+05:30",
+  "fetched_at": "2026-11-25T03:01+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -265,7 +265,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-25T02:46+05:30",
+  "fetched_at": "2026-11-25T03:01+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -281,7 +281,7 @@
     "price_low": null,
     "size_cr": null,
     "gmp": 23.0,
-    "gmp_at": "2026-11-24T23:37",
+    "gmp_at": "2026-11-24T22:02",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -302,8 +302,8 @@
     "price": 180.0,
     "price_low": null,
     "size_cr": 54.0,
-    "gmp": 18.0,
-    "gmp_at": "2026-11-24T23:37",
+    "gmp": 20.0,
+    "gmp_at": "2026-11-24T22:02",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -325,7 +325,7 @@
     "price_low": null,
     "size_cr": 125.16,
     "gmp": 21.5,
-    "gmp_at": "2026-11-24T23:37",
+    "gmp_at": "2026-11-24T22:02",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -369,7 +369,7 @@
     "price_low": null,
     "size_cr": 35.64,
     "gmp": null,
-    "gmp_at": "2026-11-24T23:30",
+    "gmp_at": "2026-11-24T22:02",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -391,7 +391,7 @@
     "price_low": null,
     "size_cr": 360.76,
     "gmp": 21.0,
-    "gmp_at": "2026-11-24T23:37",
+    "gmp_at": "2026-11-24T22:02",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -413,7 +413,7 @@
     "price_low": null,
     "size_cr": 93.66,
     "gmp": 20.0,
-    "gmp_at": "2026-11-24T23:37",
+    "gmp_at": "2026-11-24T22:02",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -435,7 +435,7 @@
     "price_low": null,
     "size_cr": 120.1,
     "gmp": 40.0,
-    "gmp_at": "2026-11-24T23:37",
+    "gmp_at": "2026-11-24T22:02",
     "sub_total": 150.48,
     "sub_retail": null,
     "sub_at": null,
@@ -457,7 +457,7 @@
     "price_low": null,
     "size_cr": 8981.12,
     "gmp": null,
-    "gmp_at": "2026-11-24T23:37",
+    "gmp_at": "2026-11-24T22:02",
     "sub_total": 1.52,
     "sub_retail": null,
     "sub_at": null,
@@ -479,7 +479,7 @@
     "price_low": null,
     "size_cr": 455.49,
     "gmp": 19.0,
-    "gmp_at": "2026-11-24T23:37",
+    "gmp_at": "2026-11-24T22:02",
     "sub_total": 17.68,
     "sub_retail": null,
     "sub_at": null,
@@ -820,7 +820,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-25T02:46+05:30",
+  "fetched_at": "2026-11-25T03:01+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -1171,12 +1171,12 @@
     "detail": {
      "uses": [
       {
-       "cr": 356.85,
-       "use": "Debt"
+       "use": "Debt",
+       "cr": 356.85
       },
       {
-       "cr": 296.41,
-       "use": "Facility"
+       "use": "Facility",
+       "cr": 296.41
       }
      ]
     }
