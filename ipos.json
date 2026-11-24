@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T19:15+05:30",
+  "generated_at": "2026-11-24T19:28+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-24T12:33+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-24T19:15+05:30",
+    "nse_ok_at": "2026-11-24T19:28+05:30",
     "bse_ok_at": "2026-11-24T12:35+05:30"
   },
   "ipos": [
@@ -4637,7 +4637,7 @@
       "sector": "Industrial Products",
       "gmp_watch": {
         "sources": 2,
-        "at": "2026-11-24T19:15"
+        "at": "2026-11-24T19:28"
       },
       "gmp_sources": [],
       "gmp_history": [],
@@ -4666,8 +4666,8 @@
       "gmp_sources": [
         {
           "source": "Tracker C",
-          "gmp": 16,
-          "at": "2026-11-24T17:02"
+          "gmp": 17,
+          "at": "2026-11-24T18:02"
         },
         {
           "source": "Tracker D",
@@ -4695,17 +4695,17 @@
       ],
       "history_source": "Tracker D",
       "gmp_low": 12,
-      "gmp_high": 16,
-      "gmp": 16,
-      "gmp_asof": "2026-11-24T17:02",
+      "gmp_high": 17,
+      "gmp": 17,
+      "gmp_asof": "2026-11-24T18:02",
       "gmp_source_latest": "Tracker C",
-      "gmp_pct": 8.38,
+      "gmp_pct": 8.9,
       "gmp_spread": {
         "min": 12,
-        "max": 16,
-        "diff": 4,
+        "max": 17,
+        "diff": 5,
         "n": 2,
-        "diff_pct_of_price": 2.09
+        "diff_pct_of_price": 2.62
       },
       "gmp_trend": {
         "dir": "steady",
