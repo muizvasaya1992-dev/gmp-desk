@@ -1,7 +1,7 @@
 {
  "_feeds": {
   "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms": {
-   "fetched": "2026-11-24T07:01+05:30",
+   "fetched": "2026-11-24T08:31+05:30",
    "items": [
     {
      "date": "2026-11-23",
@@ -306,8 +306,14 @@
    ]
   },
   "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms": {
-   "fetched": "2026-11-24T07:01+05:30",
+   "fetched": "2026-11-24T08:31+05:30",
    "items": [
+    {
+     "date": "2026-11-24",
+     "source": "Economic Times",
+     "title": "India’s rupee has become an accidental carry star",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/indias-rupee-has-become-an-accidental-carry-star/articleshow/136117132.cms"
+    },
     {
      "date": "2026-11-23",
      "source": "Economic Times",
@@ -601,18 +607,36 @@
      "source": "Economic Times",
      "title": "UPL Share Price Highlights: UPL Stock Price History",
      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/upl-stock-price-today-live-23-nov-2026/liveblog/136089434.cms"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "Economic Times",
-     "title": "Bajaj Auto Share Price Highlights: Bajaj Auto Stock Price History",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bajaj-auto-share-price-live-23-nov-2026/liveblog/136089426.cms"
     }
    ]
   },
   "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml": {
-   "fetched": "2026-11-24T07:01+05:30",
+   "fetched": "2026-11-24T08:31+05:30",
    "items": [
+    {
+     "date": "2026-11-24",
+     "source": "cnbctv18.com",
+     "title": "Stock market holiday on November 24: NSE, BSE shut for Guru Nanak Jayanti; MCX evening trade open",
+     "url": "https://www.cnbctv18.com/market/stock-market-holiday-on-november-24-nse-bse-shut-for-guru-nanak-jayanti-mcx-evening-trade-open-20040330.htm"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "cnbctv18.com",
+     "title": "Gold extends gain after Jensen Huang's return to Nvidia helm sparks rally",
+     "url": "https://www.cnbctv18.com/market/commodities/gold-extends-gain-after-jensen-huang-return-to-nvidia-helm-sparks-rally-20040328.htm"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "cnbctv18.com",
+     "title": "Oil prices hold decline amid cautious optimism over West Asia peace efforts",
+     "url": "https://www.cnbctv18.com/market/oil-prices-hold-decline-amid-cautious-optimism-over-west-asia-peace-efforts-20040324.htm"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "cnbctv18.com",
+     "title": "Kospi rises 7%, Nikkei up nearly 5% post Wall Street gains sparked by Nvidia surge",
+     "url": "https://www.cnbctv18.com/market/kospi-rises-nikkei-up-asian-markets-post-wall-street-gains-sparked-by-nvidia-surge-20040320.htm"
+    },
     {
      "date": "2026-11-24",
      "source": "cnbctv18.com",
@@ -1068,47 +1092,77 @@
      "source": "cnbctv18.com",
      "title": "Stock Market Highlights: Nifty Slips Below 25,400, Sensex Sheds 1,484 Points; Metals, Banks Drag, IT Gains",
      "url": "https://www.cnbctv18.com/market/stock-market-live-updates-sensex-nifty-50-expiry-today-nifty-bank-usd-metals-it-ai-tata-steel-apl-apollo-railway-share-price-liveblog-20039466.htm"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "cnbctv18.com",
-     "title": "Dow Jones, Nasdaq futures rebound up to 750 points - This is the most important trigger of the week",
-     "url": "https://www.cnbctv18.com/market/dow-jones-snp-500-nasdaq-futures-rebound-biggest-trigger-this-week-nvidia-dell-anthropic-hpe-yields-metals-dollar-20039464.htm"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "cnbctv18.com",
-     "title": "APL Apollo Tubes shares fall 15% after equity worth ₹5,825 crore changes hands as part of Tata Steel deal",
-     "url": "https://www.cnbctv18.com/market/apl-apollo-tubes-share-price-tata-steel-strategic-acquisition-colors-tubes-biz-28000-crore-cash-financials-timeline-funding-20039457.htm"
-    },
-    {
-     "date": "2026-11-22",
-     "source": "cnbctv18.com",
-     "title": "NSE tightens retail algo trading compliance, restricts static IP access to self-coding investors",
-     "url": "https://www.cnbctv18.com/market/nse-tightens-retail-algo-trading-compliance-restricts-static-ip-access-to-self-coding-investors-20039395.htm"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "cnbctv18.com",
-     "title": "Tata Steel's ₹28,000 crore deal: All you need to know",
-     "url": "https://www.cnbctv18.com/business/companies/tata-steel-to-sell-tubes-colour-coated-steel-businesses-to-apl-apollo-in-deals-worth-up-to-rs-28000-crore-20039425.htm"
     }
    ]
   },
   "https://www.freepressjournal.in/stories.rss?section=business": {
-   "fetched": "2026-11-24T07:01+05:30",
+   "fetched": "2026-11-24T08:31+05:30",
    "items": [
     {
      "date": "2026-11-24",
      "source": "freepressjournal.in",
-     "title": "MP’s Ujjain Simhastha 2028 Gets ₹2,801 Crore Boost As CM Mohan Yadav Clears 33 Works, Sets 2027 Deadline",
-     "url": "https://www.freepressjournal.in/bhopal/mps-ujjain-simhastha-2028-gets-2801-crore-boost-as-cm-mohan-yadav-clears-33-works-sets-2027-deadline"
+     "title": "Jensen Huang Is Back! First Visuals Show Nvidia CEO Getting Hero's Welcome On Return To Headquarters",
+     "url": "https://www.freepressjournal.in/tech/jensen-huang-is-back-first-visuals-show-nvidia-ceo-getting-heros-welcome-on-return-to-headquarters"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "freepressjournal.in",
+     "title": "Kolhapur Tragedy: Two Killed As Rash-Driving Four-Wheeler Hits Activa Scooter Near Shivaji University, Driver Arrested",
+     "url": "https://www.freepressjournal.in/mumbai/kolhapur-tragedy-two-killed-as-rash-driving-four-wheeler-hits-activa-scooter-near-shivaji-university-driver-arrested"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "freepressjournal.in",
+     "title": "NZ vs Ind 2nd Test: Blair Tickner Ruled Out With Right Hamstring Injury, Matt Fisher Gets Test Call-Up As Replacement",
+     "url": "https://www.freepressjournal.in/sports/nz-vs-ind-2nd-test-blair-tickner-ruled-out-with-right-hamstring-injury-matt-fisher-gets-test-call-up-as-replacement"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "freepressjournal.in",
+     "title": "FPJ Exclusive: ED Arrests Lawyer Accused Of Collecting ₹15 Crore From Mahadev Betting Promoter Sourabh Chandrakar To Influence Judges, Lawyers & Central Agencies",
+     "url": "https://www.freepressjournal.in/mumbai/fpj-exclusive-ed-arrests-lawyer-accused-of-collecting-15-crore-from-mahadev-betting-promoter-sourabh-chandrakar-to-influence-judges-lawyers-central-agencies"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "freepressjournal.in",
+     "title": "Quote Of The Day By Salim Khan On His 91st Birthday: ‘Jab Beta Aage Nikal Jata Hain, Tab...’",
+     "url": "https://www.freepressjournal.in/lifestyle/quote-of-the-day-by-salim-khan-on-his-91st-birthday-jab-beta-aage-nikal-jata-hain-tab"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "freepressjournal.in",
+     "title": "Indore Adds 615 Vehicles Daily, 65 More Than Last Year; Registrations Cross 2 Lakh As Traffic Pressure Mounts",
+     "url": "https://www.freepressjournal.in/indore/indore-adds-615-vehicles-daily-65-more-than-last-year-registrations-cross-2-lakh-as-traffic-pressure-mounts"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "freepressjournal.in",
+     "title": "MP Cabinet Defers Cooperative Elections By One Year, Clears ₹2,279 Crore For Advaita Lok And Rural Electrification",
+     "url": "https://www.freepressjournal.in/bhopal/mp-cabinet-defers-cooperative-elections-by-one-year-clears-2279-crore-for-advaita-lok-and-rural-electrification"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "freepressjournal.in",
+     "title": "Bhopal Master Plan 2047 Hearing Sees Retired IAS Officer Fall Ill, 162 Objectors Raise Land-Use And Bypass Concerns",
+     "url": "https://www.freepressjournal.in/bhopal/bhopal-master-plan-2047-hearing-sees-retired-ias-officer-fall-ill-162-objectors-raise-land-use-and-bypass-concerns"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "freepressjournal.in",
+     "title": "Indore-Khandwa Road Gridlocked For Three Hours As Two Trucks Break Down, Hundreds Of Vehicles Stranded",
+     "url": "https://www.freepressjournal.in/indore/indore-khandwa-road-gridlocked-for-three-hours-as-two-trucks-break-down-hundreds-of-vehicles-stranded"
     },
     {
      "date": "2026-11-24",
      "source": "freepressjournal.in",
      "title": "Indore's Gramin Haat Comes Alive With Tribal Art, Culture And Handicrafts As Seven-Day Aadi Bazaar Begins",
      "url": "https://www.freepressjournal.in/indore/indores-gramin-haat-comes-alive-with-tribal-art-culture-and-handicrafts-as-seven-day-aadi-bazaar-begins"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "freepressjournal.in",
+     "title": "MP’s Ujjain Simhastha 2028 Gets ₹2,801 Crore Boost As CM Mohan Yadav Clears 33 Works, Sets 2027 Deadline",
+     "url": "https://www.freepressjournal.in/bhopal/mps-ujjain-simhastha-2028-gets-2801-crore-boost-as-cm-mohan-yadav-clears-33-works-sets-2027-deadline"
     },
     {
      "date": "2026-11-23",
@@ -1125,44 +1179,32 @@
     {
      "date": "2026-11-23",
      "source": "freepressjournal.in",
-     "title": "Indore Sports Roundup: Triple Tons Power Cricket Rout, Golf Duo Triumph, Young Champions Shine, Wrestling Showdown Awaits",
-     "url": "https://www.freepressjournal.in/indore/indore-sports-roundup-triple-tons-power-cricket-rout-golf-duo-triumph-young-champions-shine-wrestling-showdown-awaits"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "freepressjournal.in",
-     "title": "MP Cyber Police Secure No. 1 Rank Nationwide In Operation FAST 2.0, Earn DoT Appreciation",
-     "url": "https://www.freepressjournal.in/bhopal/mp-cyber-police-secure-no-1-rank-nationwide-in-operation-fast-20-earn-dot-appreciation"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "freepressjournal.in",
-     "title": "Indore Lokayukta Traps West Discom Meter Reader Taking ₹5,000 Bribe Allegedly For Junior Engineer, Both Booked",
-     "url": "https://www.freepressjournal.in/indore/indore-lokayukta-traps-west-discom-meter-reader-taking-5000-bribe-allegedly-for-junior-engineer-both-booked"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "freepressjournal.in",
-     "title": "MP's Ujjain To Get Sringeri Shankaracharya Math After 60-Year Wait, CM Mohan Yadav To Inaugurate On November 26",
-     "url": "https://www.freepressjournal.in/indore/mps-ujjain-to-get-sringeri-shankaracharya-math-after-60-year-wait-cm-mohan-yadav-to-inaugurate-on-november-26"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "freepressjournal.in",
-     "title": "Bhopal Police Step Up Dark Web Surveillance To Bust Drug Syndicates, Track Crypto Transactions And Encrypted Chats",
-     "url": "https://www.freepressjournal.in/bhopal/bhopal-police-step-up-dark-web-surveillance-to-bust-drug-syndicates-track-crypto-transactions-and-encrypted-chats"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "freepressjournal.in",
-     "title": "Mahadev Betting App Case: Bombay HC Allows ED To Re-Arrest Delhi-Based Lawyer Himanshu Shekhar, Quashes Release Order",
-     "url": "https://www.freepressjournal.in/mumbai/mahadev-betting-app-case-bombay-hc-allows-ed-to-re-arrest-delhi-based-lawyer-himanshu-shekhar-quashes-release-order"
+     "title": "Mumbai Kurla Garden Assault Case: Ghatkopar Police Detain Two More Minors Over Attack On Couple, Total Number Reaches Eight",
+     "url": "https://www.freepressjournal.in/mumbai/mumbai-kurla-garden-assault-case-ghatkopar-police-detain-two-more-minors-over-attack-on-couple-total-number-reaches-eight"
     }
    ]
   },
   "https://www.livemint.com/rss/markets": {
-   "fetched": "2026-11-24T07:01+05:30",
+   "fetched": "2026-11-24T08:31+05:30",
    "items": [
+    {
+     "date": "2026-11-24",
+     "source": "Mint",
+     "title": "SEBI issues upcoming IPOs GMP advisory - ‘publication of such pre-listing premium figures may be detrimental’",
+     "url": "https://www.livemint.com/market/ipo/sebi-issues-upcoming-ipos-gmp-advisory-publication-of-such-pre-listing-premium-figures-may-be-detrimental-11795482712234.html"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "Mint",
+     "title": "Asian markets follow Wall Street: Nikkei, Kospi jump up to 8% as Jensen Huang’s return sparks rally in AI stocks",
+     "url": "https://www.livemint.com/market/stock-market-news/asian-markets-follow-wall-street-nikkei-kospi-jump-up-to-8-as-jensen-huang-s-return-sparks-rally-in-ai-stocks-11795485047635.html"
+    },
+    {
+     "date": "2026-11-24",
+     "source": "Mint",
+     "title": "AI Trade Resurgence Drives 9% Rally in Taiwanese Stock Index",
+     "url": "https://www.livemint.com/market/ai-trade-resurgence-drives-9-rally-in-taiwanese-stock-index-11795484279756.html"
+    },
     {
      "date": "2026-11-24",
      "source": "Mint",
@@ -1354,29 +1396,11 @@
      "source": "Mint",
      "title": "Crypto investment amid fall: As Bitcoin hovers near $60K levels, experts answer if investors can expect recovery",
      "url": "https://www.livemint.com/market/cryptocurrency/crypto-investment-amid-fall-as-bitcoin-hovers-near-60000-levels-experts-answer-if-investors-can-expect-recovery-markets-11795426061415.html"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "Mint",
-     "title": "Up 114% YTD! Multibagger circuit-to-circuit stock hits 5% upper circuit for 19th straight session; do you own it?",
-     "url": "https://www.livemint.com/market/stock-market-news/up-114-in-ytd-multibagger-circuit-to-circuit-stock-hits-5-upper-circuit-for-19th-straight-session-do-you-own-11795427956174.html"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "Mint",
-     "title": "Multibagger defence stock to buy: Experts see 35% gain on MSCI index rebalancing despite 55% YTD return | Target, SL",
-     "url": "https://www.livemint.com/market/stock-market-news/multibagger-defence-stock-to-buy-experts-see-35-gain-on-msci-index-rebalancing-despite-55-ytd-return-target-sl-11795425473171.html"
-    },
-    {
-     "date": "2026-11-23",
-     "source": "Mint",
-     "title": "Up 32% in one month! Small-cap stock under ₹50 hits 5% upper circuit despite weak trends on Dalal Street; do you have?",
-     "url": "https://www.livemint.com/market/stock-market-news/up-32-in-one-month-small-cap-stock-under-rs-50-hits-5-upper-circuit-despite-weak-trends-on-dalal-street-do-you-have-11795422451498.html"
     }
    ]
   },
   "https://www.thehindubusinessline.com/markets/feeder/default.rss": {
-   "fetched": "2026-11-24T07:01+05:30",
+   "fetched": "2026-11-24T08:31+05:30",
    "items": [
     {
      "date": "2026-11-24",
@@ -1741,7 +1765,7 @@
    ]
   },
   "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss": {
-   "fetched": "2026-11-24T07:01+05:30",
+   "fetched": "2026-11-24T08:31+05:30",
    "items": [
     {
      "date": "2026-11-18",
@@ -1867,7 +1891,7 @@
   }
  },
  "crystalcp": {
-  "checked": "2026-11-24T08:15+05:30",
+  "checked": "2026-11-24T08:31+05:30",
   "items": [
    {
     "date": "2026-11-22",
@@ -1908,7 +1932,7 @@
   ]
  },
  "foodlink": {
-  "checked": "2026-11-24T08:15+05:30",
+  "checked": "2026-11-24T08:31+05:30",
   "items": [
    {
     "date": "2026-11-23",
@@ -1937,7 +1961,7 @@
   ]
  },
  "foodlink-f-b-holdings": {
-  "checked": "2026-11-24T08:15+05:30",
+  "checked": "2026-11-24T08:31+05:30",
   "items": [
    {
     "date": "2026-11-23",
@@ -1966,7 +1990,7 @@
   ]
  },
  "mahacoal": {
-  "checked": "2026-11-24T08:15+05:30",
+  "checked": "2026-11-24T08:31+05:30",
   "items": [
    {
     "date": "2026-11-23",
@@ -2007,7 +2031,7 @@
   ]
  },
  "matangi-rubber": {
-  "checked": "2026-11-24T08:15+05:30",
+  "checked": "2026-11-24T08:31+05:30",
   "items": [
    {
     "date": "2026-11-23",
@@ -2018,7 +2042,7 @@
   ]
  },
  "watrana": {
-  "checked": "2026-11-24T08:15+05:30",
+  "checked": "2026-11-24T08:31+05:30",
   "items": [
    {
     "date": "2026-11-19",
