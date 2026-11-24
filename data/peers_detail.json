@@ -1,6 +1,6 @@
 {
  "a-j-packaging": {
-  "at": "2026-11-24T12:33+05:30",
+  "at": "2026-11-24T18:46+05:30",
   "detail": {
    "gmp_history": [
     [
@@ -39,8 +39,18 @@
   }
  },
  "airpro-technology-india": {
-  "at": "2026-11-24T12:33+05:30",
+  "at": "2026-11-24T18:46+05:30",
   "detail": {
+   "reservation": {
+    "nii": {
+     "pct": 50.04,
+     "shares": 1711200
+    },
+    "retail": {
+     "pct": 49.96,
+     "shares": 1708800
+    }
+   },
    "uses": [
     {
      "cr": 2.0,
@@ -57,12 +67,20 @@
     {
      "cr": 13.0,
      "use": "Working Capital"
+    },
+    {
+     "cr": 4.34,
+     "use": "Other"
+    },
+    {
+     "cr": 4.0,
+     "use": "Expenditure"
     }
    ]
   }
  },
  "foodlink-fb-holdings-india": {
-  "at": "2026-11-24T12:33+05:30",
+  "at": "2026-11-24T18:46+05:30",
   "detail": {
    "gmp_history": [
     [
@@ -142,7 +160,7 @@
   }
  },
  "integris-medtech": {
-  "at": "2026-11-24T12:33+05:30",
+  "at": "2026-11-24T18:46+05:30",
   "detail": {
    "gmp_history": [
     [
@@ -171,7 +189,7 @@
   }
  },
  "mahanadi-coalfields": {
-  "at": "2026-11-24T12:33+05:30",
+  "at": "2026-11-24T18:46+05:30",
   "detail": {
    "gmp_history": [
     [
@@ -263,7 +281,7 @@
   }
  },
  "matangi-rubber": {
-  "at": "2026-11-24T12:33+05:30",
+  "at": "2026-11-24T18:46+05:30",
   "detail": {
    "gmp_history": [
     [
@@ -307,7 +325,7 @@
   }
  },
  "monomark-engineering": {
-  "at": "2026-11-24T12:33+05:30",
+  "at": "2026-11-24T18:46+05:30",
   "detail": {
    "gmp_history": [
     [
@@ -363,7 +381,7 @@
   }
  },
  "shree-siddhivinayak-greentech-industries": {
-  "at": "2026-11-24T12:33+05:30",
+  "at": "2026-11-24T18:46+05:30",
   "detail": {
    "gmp_history": [
     [
@@ -398,7 +416,7 @@
   }
  },
  "watrana-rentals": {
-  "at": "2026-11-24T12:33+05:30",
+  "at": "2026-11-24T18:46+05:30",
   "detail": {
    "gmp_history": [
     [
