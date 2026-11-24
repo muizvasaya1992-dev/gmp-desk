@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T11:00+05:30",
+  "generated_at": "2026-11-24T11:15+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-23T11:31+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-24T11:00+05:30",
+    "nse_ok_at": "2026-11-24T11:15+05:30",
     "bse_ok_at": "2026-11-23T11:36+05:30"
   },
   "ipos": [
@@ -4586,6 +4586,50 @@
       "unconfirmed": true
     },
     {
+      "boa": "2026-12-02",
+      "close": "2026-12-01",
+      "exchange": "NSE Emerge",
+      "from_peers": true,
+      "id": "airpro-technology",
+      "listing": "2026-12-04",
+      "lot": 1200,
+      "name": "Airpro Technology",
+      "open": "2026-11-27",
+      "price": 99,
+      "segment": "SME",
+      "size_cr": 35.64,
+      "tracker_rating": 1,
+      "uses": [
+        {
+          "cr": 2.0,
+          "use": "Asset"
+        },
+        {
+          "cr": 0.6,
+          "use": "Asset"
+        },
+        {
+          "cr": 3.97,
+          "use": "Factory"
+        },
+        {
+          "cr": 13.0,
+          "use": "Working Capital"
+        }
+      ],
+      "sector": "Industrial Products",
+      "gmp_watch": {
+        "sources": 2,
+        "at": "2026-11-24T11:15"
+      },
+      "gmp_sources": [],
+      "gmp_history": [],
+      "gmp": null,
+      "gmp_pct": null,
+      "status": "upcoming",
+      "unconfirmed": true
+    },
+    {
       "boa": "2026-12-01",
       "close": "2026-11-30",
       "from_peers": true,
@@ -4765,56 +4809,6 @@
           "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/matangi-rubbers-rs-125-16-cr-ipo-opens-dec-1-check-price-band-lot-size-and-other-key-details/articleshow/136101832.cms"
         }
       ],
-      "unconfirmed": true
-    },
-    {
-      "id": "airpro-technology",
-      "name": "Airpro Technology",
-      "segment": "SME",
-      "price": 99,
-      "price_low": null,
-      "lot": 1200,
-      "size_cr": 35.64,
-      "open": "2026-11-27",
-      "close": "2026-12-01",
-      "boa": "2026-12-02",
-      "listing": "2026-12-04",
-      "anchor": null,
-      "rating": null,
-      "sub": null,
-      "updated_on": "2026-11-24T11:00+05:30",
-      "from_peers": true,
-      "exchange": "NSE Emerge",
-      "tracker_rating": 1,
-      "uses": [
-        {
-          "cr": 2.0,
-          "use": "Asset"
-        },
-        {
-          "cr": 0.6,
-          "use": "Asset"
-        },
-        {
-          "cr": 3.97,
-          "use": "Factory"
-        },
-        {
-          "cr": 13.0,
-          "use": "Working Capital"
-        }
-      ],
-      "sector": "Industrial Products",
-      "gmp_watch": {
-        "sources": 2,
-        "at": "2026-11-24T11:00"
-      },
-      "lot_basis": "tracker",
-      "gmp_sources": [],
-      "gmp_history": [],
-      "gmp": null,
-      "gmp_pct": null,
-      "status": "upcoming",
       "unconfirmed": true
     }
   ]
