@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T12:35+05:30",
+  "generated_at": "2026-11-24T12:45+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-24T12:33+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-24T12:35+05:30",
+    "nse_ok_at": "2026-11-24T12:45+05:30",
     "bse_ok_at": "2026-11-24T12:35+05:30"
   },
   "ipos": [
@@ -3185,8 +3185,8 @@
         },
         {
           "source": "Tracker B",
-          "gmp": 14,
-          "at": "2026-11-24T12:31"
+          "gmp": 9.83,
+          "at": "2026-11-24T12:41"
         }
       ],
       "gmp_history": [
@@ -3228,27 +3228,27 @@
         },
         {
           "date": "2026-11-24",
-          "gmp": 14
+          "gmp": 9.83
         }
       ],
       "history_source": "Tracker B",
-      "gmp_low": 13,
+      "gmp_low": 9.83,
       "gmp_high": 45,
       "exchange": "SME",
-      "gmp": 15.5,
-      "gmp_asof": "2026-11-24T12:33",
-      "gmp_source_latest": "Tracker D",
-      "gmp_pct": 5.7,
+      "gmp": 9.83,
+      "gmp_asof": "2026-11-24T12:41",
+      "gmp_source_latest": "Tracker B",
+      "gmp_pct": 3.61,
       "gmp_spread": {
-        "min": 14,
+        "min": 9.83,
         "max": 15.5,
-        "diff": 1.5,
+        "diff": 5.67,
         "n": 4,
-        "diff_pct_of_price": 0.55
+        "diff_pct_of_price": 2.08
       },
       "gmp_trend": {
         "dir": "falling",
-        "change": -3,
+        "change": -7.17,
         "days": 3,
         "since": "2026-11-20"
       },
@@ -3448,7 +3448,7 @@
         {
           "source": "Tracker B",
           "gmp": 40,
-          "at": "2026-11-24T12:31"
+          "at": "2026-11-24T12:40"
         }
       ],
       "gmp_history": [
@@ -3506,8 +3506,8 @@
       "gmp_high": 67,
       "exchange": "SME",
       "gmp": 40,
-      "gmp_asof": "2026-11-24T12:35",
-      "gmp_source_latest": "Tracker D",
+      "gmp_asof": "2026-11-24T12:40",
+      "gmp_source_latest": "Tracker B",
       "gmp_pct": 16.33,
       "gmp_spread": {
         "min": 35,
@@ -4621,7 +4621,7 @@
       "sector": "Industrial Products",
       "gmp_watch": {
         "sources": 1,
-        "at": "2026-11-24T12:35"
+        "at": "2026-11-24T12:45"
       },
       "gmp_sources": [],
       "gmp_history": [],
