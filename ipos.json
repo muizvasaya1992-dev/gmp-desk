@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T09:45+05:30",
+  "generated_at": "2026-11-24T10:45+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-23T11:31+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-24T09:45+05:30",
+    "nse_ok_at": "2026-11-24T10:45+05:30",
     "bse_ok_at": "2026-11-23T11:36+05:30"
   },
   "ipos": [
@@ -4114,8 +4114,8 @@
       "gmp_sources": [
         {
           "source": "Tracker D",
-          "gmp": 5,
-          "at": "2026-11-24T09:15"
+          "gmp": 10,
+          "at": "2026-11-24T10:45"
         },
         {
           "source": "Tracker C",
@@ -4130,27 +4130,27 @@
         },
         {
           "date": "2026-11-24",
-          "gmp": 5
+          "gmp": 10
         }
       ],
       "history_source": "Tracker D",
       "gmp_low": 5,
       "gmp_high": 10,
       "exchange": "SME",
-      "gmp": 5,
-      "gmp_asof": "2026-11-24T09:15",
+      "gmp": 10,
+      "gmp_asof": "2026-11-24T10:45",
       "gmp_source_latest": "Tracker D",
-      "gmp_pct": 3.52,
+      "gmp_pct": 7.04,
       "gmp_spread": {
-        "min": 5,
+        "min": 10,
         "max": 10,
-        "diff": 5,
+        "diff": 0,
         "n": 2,
-        "diff_pct_of_price": 3.52
+        "diff_pct_of_price": 0.0
       },
       "gmp_trend": {
-        "dir": "steady",
-        "change": 0,
+        "dir": "rising",
+        "change": 5,
         "days": 2,
         "since": "2026-11-23"
       },
@@ -4249,8 +4249,8 @@
       "gmp_sources": [
         {
           "source": "Tracker D",
-          "gmp": 12,
-          "at": "2026-11-24T09:15"
+          "gmp": 15,
+          "at": "2026-11-24T10:45"
         }
       ],
       "gmp_history": [
@@ -4272,20 +4272,20 @@
         },
         {
           "date": "2026-11-24",
-          "gmp": 12
+          "gmp": 15
         }
       ],
       "history_source": "Tracker D",
       "gmp_low": 12,
       "gmp_high": 15,
       "exchange": "SME",
-      "gmp": 12,
-      "gmp_asof": "2026-11-24T09:15",
+      "gmp": 15,
+      "gmp_asof": "2026-11-24T10:45",
       "gmp_source_latest": "Tracker D",
-      "gmp_pct": 6.28,
+      "gmp_pct": 7.85,
       "gmp_trend": {
-        "dir": "steady",
-        "change": 0,
+        "dir": "rising",
+        "change": 3,
         "days": 3,
         "since": "2026-11-20"
       },
