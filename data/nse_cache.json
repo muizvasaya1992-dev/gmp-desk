@@ -2364,9 +2364,9 @@
   "price": 142,
   "price_low": 130,
   "series": "SME",
-  "nse_status": "Forthcoming",
+  "nse_status": "Active",
   "shares_offered": 6596000.0,
-  "last_seen": "2026-11-24T12:33+05:30",
+  "last_seen": "2026-11-25T00:01+05:30",
   "segment": "SME",
   "registrar": "Mas Services Limited",
   "lead_managers": [
@@ -2374,7 +2374,18 @@
   ],
   "cutoff_time": "5:00 PM",
   "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_SHREESIDHI.zip",
-  "details_at": "2026-11-24T12:33+05:30"
+  "details_at": "2026-11-25T00:01+05:30",
+  "sub": {
+   "total": 0.0
+  },
+  "sub_basis": "NSE+BSE",
+  "sub_asof": null,
+  "sub_hist": [
+   {
+    "at": "2026-11-25T00:01+05:30",
+    "total": 0.0
+   }
+  ]
  },
  "FOODLINK": {
   "symbol": "FOODLINK",
@@ -2387,7 +2398,7 @@
   "series": "Equity",
   "nse_status": "Forthcoming",
   "shares_offered": 19443116.0,
-  "last_seen": "2026-11-24T12:33+05:30",
+  "last_seen": "2026-11-25T00:01+05:30",
   "segment": "SME",
   "lot": 78,
   "registrar": "MUFG Intime India Private Limited",
@@ -2397,6 +2408,6 @@
   "retail_max": 200000,
   "cutoff_time": "5:00 PM",
   "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_FOODLINK.zip",
-  "details_at": "2026-11-24T12:33+05:30"
+  "details_at": "2026-11-25T00:01+05:30"
  }
 }
