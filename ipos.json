@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T20:01+05:30",
+  "generated_at": "2026-11-24T20:15+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-24T12:33+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-24T20:01+05:30",
+    "nse_ok_at": "2026-11-24T20:15+05:30",
     "bse_ok_at": "2026-11-24T12:35+05:30"
   },
   "ipos": [
@@ -3180,7 +3180,7 @@
         {
           "source": "Tracker D",
           "gmp": 18,
-          "at": "2026-11-24T17:15"
+          "at": "2026-11-24T20:15"
         },
         {
           "source": "Tracker B",
@@ -3235,8 +3235,8 @@
       "gmp_high": 45,
       "exchange": "SME",
       "gmp": 18,
-      "gmp_asof": "2026-11-24T19:11",
-      "gmp_source_latest": "Tracker B",
+      "gmp_asof": "2026-11-24T20:15",
+      "gmp_source_latest": "Tracker D",
       "gmp_pct": 6.62,
       "gmp_spread": {
         "min": 14,
@@ -3254,40 +3254,40 @@
       "status": "closed",
       "news": [
         {
-          "date": "2026-11-22",
-          "source": "Economic Times",
           "title": "Crystal Crop Protection IPO allotment likely tomorrow; GMP hints at 5% listing gain. How to check status",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-ipo-allotment-likely-tomorrow-gmp-hints-at-5-listing-gain-how-to-check-status/articleshow/136068912.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-ipo-allotment-likely-tomorrow-gmp-hints-at-5-listing-gain-how-to-check-status/articleshow/136068912.cms",
+          "source": "Economic Times",
+          "date": "2026-11-22"
         },
         {
-          "date": "2026-11-20",
-          "source": "Economic Times",
           "title": "Crystal Crop Protection IPO Day 3: Issue booked 17.06 times on the last day; GMP signals 5% listing gain",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-ipo-day-3-issue-booked-7-41-times-on-the-last-day-gmp-signals-6-listing-gain/articleshow/136022280.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-ipo-day-3-issue-booked-7-41-times-on-the-last-day-gmp-signals-6-listing-gain/articleshow/136022280.cms",
+          "source": "Economic Times",
+          "date": "2026-11-20"
         },
         {
-          "date": "2026-11-19",
-          "source": "Economic Times",
           "title": "Crystal Crop Protection IPO Day 2: Issue subscribed 2x so far, GMP signals 6% listing premium. Should you apply?",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-ipo-day-2-issue-subscribed-2x-so-far-gmp-signals-6-listing-premium-should-you-apply/articleshow/135984176.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-ipo-day-2-issue-subscribed-2x-so-far-gmp-signals-6-listing-premium-should-you-apply/articleshow/135984176.cms",
+          "source": "Economic Times",
+          "date": "2026-11-19"
         },
         {
-          "date": "2026-11-18",
-          "source": "Economic Times",
           "title": "Crystal Crop Protection IPO subscribed 55% so far; GMP signals 7% listing premium",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-ipo-subscribed-55-so-far-gmp-signals-7-listing-premium/articleshow/135957040.cms"
-        },
-        {
-          "date": "2026-11-18",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-ipo-subscribed-55-so-far-gmp-signals-7-listing-premium/articleshow/135957040.cms",
           "source": "Economic Times",
-          "title": "Crystal Crop Protection IPO opens: GMP signals 5% listing premium; should you subscribe?",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-ipo-opens-today-gmp-signals-5-listing-premium-should-you-subscribe/articleshow/135945842.cms"
+          "date": "2026-11-18"
         },
         {
-          "date": "2026-11-18",
-          "source": "valueresearchonline.com",
+          "title": "Crystal Crop Protection IPO opens: GMP signals 5% listing premium; should you subscribe?",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-ipo-opens-today-gmp-signals-5-listing-premium-should-you-subscribe/articleshow/135945842.cms",
+          "source": "Economic Times",
+          "date": "2026-11-18"
+        },
+        {
           "title": "Crystal Crop Protection IPO: margins up, returns waiting",
-          "url": "https://www.valueresearchonline.com/stories/230242/crystal-crop-protection-ipo-review/"
+          "url": "https://www.valueresearchonline.com/stories/230242/crystal-crop-protection-ipo-review/",
+          "source": "valueresearchonline.com",
+          "date": "2026-11-18"
         }
       ],
       "unconfirmed": false
@@ -3524,10 +3524,10 @@
       "status": "closed",
       "news": [
         {
-          "date": "2026-11-19",
-          "source": "Economic Times",
           "title": "Watrana Rentals SME IPO opens today; GMP at 25%, check key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/watrana-rentals-sme-ipo-opens-today-gmp-at-25-check-key-details/articleshow/135977017.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/watrana-rentals-sme-ipo-opens-today-gmp-at-25-check-key-details/articleshow/135977017.cms",
+          "source": "Economic Times",
+          "date": "2026-11-19"
         }
       ],
       "unconfirmed": false
@@ -4018,40 +4018,40 @@
       "status": "closed",
       "news": [
         {
-          "date": "2026-11-24",
-          "source": "Mint",
           "title": "Mahanadi Coalfields IPO: Allotment date, status check online by PAN number on BSE, NSE, Kfin Tech websites; listing date",
-          "url": "https://www.livemint.com/market/ipo/coal-indias-mahanadi-coalfields-ipo-allotment-likely-nov-25-heres-how-to-check-status-online-on-bse-nse-kfin-tech-11795494163132.html"
+          "url": "https://www.livemint.com/market/ipo/coal-indias-mahanadi-coalfields-ipo-allotment-likely-nov-25-heres-how-to-check-status-online-on-bse-nse-kfin-tech-11795494163132.html",
+          "source": "Mint",
+          "date": "2026-11-24"
         },
         {
-          "date": "2026-11-23",
-          "source": "Economic Times",
           "title": "Mahanadi Coalfields IPO subscribed over 1.5 times on strong QIB push. Here's what the GMP indicates",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-gets-fully-subscribed-on-day-3-gmp-hints-at-muted-debut/articleshow/136098484.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-gets-fully-subscribed-on-day-3-gmp-hints-at-muted-debut/articleshow/136098484.cms",
+          "source": "Economic Times",
+          "date": "2026-11-23"
         },
         {
-          "date": "2026-11-23",
-          "source": "Economic Times",
           "title": "Mahanadi Coalfields IPO: GMP hints at muted debut. Which mutual fund schemes bought the Coal India subsidiary’s shares during anchor allocation?",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-gmp-hints-at-muted-debut-which-mutual-fund-schemes-bought-the-coal-india-subsidiarys-shares-during-anchor-allocation/articleshow/136088230.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-gmp-hints-at-muted-debut-which-mutual-fund-schemes-bought-the-coal-india-subsidiarys-shares-during-anchor-allocation/articleshow/136088230.cms",
+          "source": "Economic Times",
+          "date": "2026-11-23"
         },
         {
-          "date": "2026-11-23",
-          "source": "BusinessLine",
           "title": "Mahanadi Coalfields IPO subscribed 1.52 times on final day",
-          "url": "https://www.thehindubusinessline.com/markets/mahanadi-coalfields-ipo-subscribed-152-times-on-final-day/article71735552.ece"
+          "url": "https://www.thehindubusinessline.com/markets/mahanadi-coalfields-ipo-subscribed-152-times-on-final-day/article71735552.ece",
+          "source": "BusinessLine",
+          "date": "2026-11-23"
         },
         {
-          "date": "2026-11-22",
-          "source": "Economic Times",
           "title": "IPO Calendar: Issues worth Rs 3,300 crore lined up this week; Mahanadi Coalfields set for listing",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-calendar-issues-worth-rs-3300-crore-lined-up-this-week-mahanadi-coalfields-set-for-listing/articleshow/136070713.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-calendar-issues-worth-rs-3300-crore-lined-up-this-week-mahanadi-coalfields-set-for-listing/articleshow/136070713.cms",
+          "source": "Economic Times",
+          "date": "2026-11-22"
         },
         {
-          "date": "2026-11-20",
-          "source": "Economic Times",
           "title": "Mahanadi Coalfields IPO Day 2: Subscription below 50%; check latest GMP, listing date and key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-day-2-subscription-below-50-check-latest-gmp-listing-date-and-key-details/articleshow/136021334.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-day-2-subscription-below-50-check-latest-gmp-listing-date-and-key-details/articleshow/136021334.cms",
+          "source": "Economic Times",
+          "date": "2026-11-20"
         }
       ],
       "unconfirmed": false
@@ -4292,22 +4292,22 @@
       "status": "upcoming",
       "news": [
         {
-          "date": "2026-11-23",
-          "source": "Economic Times",
           "title": "Foodlink F&B Holdings announces price band for Rs 361-crore IPO. Check key dates & other details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-announces-price-band-for-rs-361-crore-ipo-check-key-dates-other-details/articleshow/136091391.cms"
-        },
-        {
-          "date": "2026-11-23",
-          "source": "BusinessLine",
-          "title": "Foodlink F&B Holdings' ₹361-crore IPO to open on Nov 26; price band set at ₹181-191",
-          "url": "https://www.thehindubusinessline.com/markets/foodlink-fb-holdings-361-crore-ipo-to-open-on-nov-26-price-band-set-at-181-191/article71733345.ece"
-        },
-        {
-          "date": "2026-11-22",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-announces-price-band-for-rs-361-crore-ipo-check-key-dates-other-details/articleshow/136091391.cms",
           "source": "Economic Times",
+          "date": "2026-11-23"
+        },
+        {
+          "title": "Foodlink F&B Holdings' ₹361-crore IPO to open on Nov 26; price band set at ₹181-191",
+          "url": "https://www.thehindubusinessline.com/markets/foodlink-fb-holdings-361-crore-ipo-to-open-on-nov-26-price-band-set-at-181-191/article71733345.ece",
+          "source": "BusinessLine",
+          "date": "2026-11-23"
+        },
+        {
           "title": "IPO watch: Foodlink F&B Holdings, Integris Medtech among three new issues to open for subscriptions this week; check details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-watch-foodlink-fb-holdings-integris-medtech-among-three-new-issues-to-open-for-subscriptions-this-week-check-details/articleshow/136070288.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-watch-foodlink-fb-holdings-integris-medtech-among-three-new-issues-to-open-for-subscriptions-this-week-check-details/articleshow/136070288.cms",
+          "source": "Economic Times",
+          "date": "2026-11-22"
         }
       ],
       "unconfirmed": false
@@ -4637,7 +4637,7 @@
       "sector": "Industrial Products",
       "gmp_watch": {
         "sources": 2,
-        "at": "2026-11-24T20:01"
+        "at": "2026-11-24T20:15"
       },
       "gmp_sources": [],
       "gmp_history": [],
@@ -4716,22 +4716,22 @@
       "status": "upcoming",
       "news": [
         {
-          "date": "2026-11-23",
-          "source": "Economic Times",
           "title": "Foodlink F&B Holdings announces price band for Rs 361-crore IPO. Check key dates & other details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-announces-price-band-for-rs-361-crore-ipo-check-key-dates-other-details/articleshow/136091391.cms"
-        },
-        {
-          "date": "2026-11-23",
-          "source": "BusinessLine",
-          "title": "Foodlink F&B Holdings' ₹361-crore IPO to open on Nov 26; price band set at ₹181-191",
-          "url": "https://www.thehindubusinessline.com/markets/foodlink-fb-holdings-361-crore-ipo-to-open-on-nov-26-price-band-set-at-181-191/article71733345.ece"
-        },
-        {
-          "date": "2026-11-22",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-announces-price-band-for-rs-361-crore-ipo-check-key-dates-other-details/articleshow/136091391.cms",
           "source": "Economic Times",
+          "date": "2026-11-23"
+        },
+        {
+          "title": "Foodlink F&B Holdings' ₹361-crore IPO to open on Nov 26; price band set at ₹181-191",
+          "url": "https://www.thehindubusinessline.com/markets/foodlink-fb-holdings-361-crore-ipo-to-open-on-nov-26-price-band-set-at-181-191/article71733345.ece",
+          "source": "BusinessLine",
+          "date": "2026-11-23"
+        },
+        {
           "title": "IPO watch: Foodlink F&B Holdings, Integris Medtech among three new issues to open for subscriptions this week; check details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-watch-foodlink-fb-holdings-integris-medtech-among-three-new-issues-to-open-for-subscriptions-this-week-check-details/articleshow/136070288.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-watch-foodlink-fb-holdings-integris-medtech-among-three-new-issues-to-open-for-subscriptions-this-week-check-details/articleshow/136070288.cms",
+          "source": "Economic Times",
+          "date": "2026-11-22"
         }
       ],
       "unconfirmed": true
@@ -4808,16 +4808,16 @@
       },
       "news": [
         {
-          "date": "2026-11-24",
-          "source": "BusinessLine",
           "title": "Two IPOs to hit market in Dec; Monomark Engineering, Matangi Rubber to raise funds via public issues",
-          "url": "https://www.thehindubusinessline.com/markets/two-ipos-to-hit-market-in-dec-monomark-engineering-matangi-rubber-to-raise-funds-via-public-issues/article71737316.ece"
+          "url": "https://www.thehindubusinessline.com/markets/two-ipos-to-hit-market-in-dec-monomark-engineering-matangi-rubber-to-raise-funds-via-public-issues/article71737316.ece",
+          "source": "BusinessLine",
+          "date": "2026-11-24"
         },
         {
-          "date": "2026-11-23",
-          "source": "Economic Times",
           "title": "Matangi Rubber’s Rs 125.16 cr IPO opens Dec 1: Check price band, lot size and other key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/matangi-rubbers-rs-125-16-cr-ipo-opens-dec-1-check-price-band-lot-size-and-other-key-details/articleshow/136101832.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/matangi-rubbers-rs-125-16-cr-ipo-opens-dec-1-check-price-band-lot-size-and-other-key-details/articleshow/136101832.cms",
+          "source": "Economic Times",
+          "date": "2026-11-23"
         }
       ],
       "unconfirmed": true
