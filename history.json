@@ -34,6 +34,21 @@
    "unconfirmed": true
   },
   {
+   "name": "Airpro Technology",
+   "segment": "SME",
+   "symbol": null,
+   "listing": "2026-12-04",
+   "exchange": "NSE Emerge",
+   "live": true,
+   "id": "airpro-technology",
+   "status": "upcoming",
+   "open": "2026-11-27",
+   "close": "2026-12-01",
+   "price": 99,
+   "price_low": null,
+   "unconfirmed": true
+  },
+  {
    "name": "Foodlink F&B Holdings",
    "segment": "MAIN",
    "symbol": null,
@@ -5735,5 +5750,5 @@
    "status": "listed"
   }
  ],
- "generated_at": "2026-11-24T00:01+05:30"
+ "generated_at": "2026-11-24T11:00+05:30"
 }
