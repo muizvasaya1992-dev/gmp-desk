@@ -291,6 +291,21 @@
    ]
   }
  },
+ "milestone-gears": {
+  "at": "2026-11-24T14:15+05:30",
+  "detail": {
+   "uses": [
+    {
+     "cr": 356.8,
+     "use": "Debt"
+    },
+    {
+     "cr": 296.4,
+     "use": "Facility"
+    }
+   ]
+  }
+ },
  "monomark-engineering": {
   "at": "2026-11-24T12:33+05:30",
   "detail": {
