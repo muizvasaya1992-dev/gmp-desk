@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T22:45+05:30",
+  "generated_at": "2026-11-25T23:01+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-25T15:54+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-25T22:31+05:30",
+    "nse_ok_at": "2026-11-25T23:01+05:30",
     "bse_ok_at": "2026-11-25T15:58+05:30"
   },
   "ipos": [
@@ -3185,7 +3185,7 @@
         {
           "source": "Tracker B",
           "gmp": 17,
-          "at": "2026-11-25T19:55"
+          "at": "2026-11-25T22:55"
         }
       ],
       "gmp_history": [
@@ -3238,10 +3238,10 @@
       "gmp_low": 13,
       "gmp_high": 45,
       "exchange": "SME",
-      "gmp": 18,
-      "gmp_asof": "2026-11-25T22:15",
-      "gmp_source_latest": "Tracker D",
-      "gmp_pct": 6.62,
+      "gmp": 17,
+      "gmp_asof": "2026-11-25T22:55",
+      "gmp_source_latest": "Tracker B",
+      "gmp_pct": 6.25,
       "gmp_spread": {
         "min": 14,
         "max": 18,
@@ -3450,8 +3450,8 @@
         },
         {
           "source": "Tracker B",
-          "gmp": 20,
-          "at": "2026-11-25T21:55"
+          "gmp": 23,
+          "at": "2026-11-25T22:55"
         }
       ],
       "gmp_history": [
@@ -3505,27 +3505,27 @@
         },
         {
           "date": "2026-11-25",
-          "gmp": 20
+          "gmp": 23
         }
       ],
       "history_source": "Tracker B",
       "gmp_low": 15,
       "gmp_high": 67,
       "exchange": "SME",
-      "gmp": 41,
-      "gmp_asof": "2026-11-25T22:15",
-      "gmp_source_latest": "Tracker D",
-      "gmp_pct": 16.73,
+      "gmp": 23,
+      "gmp_asof": "2026-11-25T22:55",
+      "gmp_source_latest": "Tracker B",
+      "gmp_pct": 9.39,
       "gmp_spread": {
-        "min": 20,
+        "min": 23,
         "max": 41,
-        "diff": 21,
+        "diff": 18,
         "n": 4,
-        "diff_pct_of_price": 8.57
+        "diff_pct_of_price": 7.35
       },
       "gmp_trend": {
         "dir": "falling",
-        "change": -35,
+        "change": -32,
         "days": 3,
         "since": "2026-11-23"
       },
