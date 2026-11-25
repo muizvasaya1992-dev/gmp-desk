@@ -1,7 +1,7 @@
 {
  "year": 2026,
  "bse_as_of": "2026-11-25T15:54+05:30",
- "nse_as_of": "2026-11-25T15:54+05:30",
+ "nse_as_of": "2026-11-26T00:01+05:30",
  "rows": [
   {
    "name": "Monomark Engineering",
@@ -84,7 +84,7 @@
    "exchange": "NSE · BSE",
    "live": true,
    "id": "foodlink-f-b-holdings",
-   "status": "upcoming",
+   "status": "open",
    "open": "2026-11-26",
    "close": "2026-11-30",
    "price": 191,
@@ -127,7 +127,7 @@
    "exchange": "SME",
    "live": true,
    "id": "foodlink",
-   "status": "upcoming",
+   "status": "open",
    "open": "2026-11-26",
    "close": "2026-11-30",
    "price": 191,
@@ -169,7 +169,7 @@
    "exchange": "SME",
    "live": true,
    "id": "crystalcp",
-   "status": "closed",
+   "status": "listed",
    "open": "2026-11-18",
    "close": "2026-11-20",
    "price": 272,
@@ -5792,5 +5792,5 @@
    "status": "listed"
   }
  ],
- "generated_at": "2026-11-25T17:01+05:30"
+ "generated_at": "2026-11-26T00:01+05:30"
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T23:45+05:30",
+  "generated_at": "2026-11-26T00:01+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-25T15:54+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-25T23:45+05:30",
+    "nse_ok_at": "2026-11-26T00:01+05:30",
     "bse_ok_at": "2026-11-25T15:58+05:30"
   },
   "ipos": [
@@ -3175,12 +3175,12 @@
         {
           "source": "Tracker C",
           "gmp": 17,
-          "at": "2026-11-25T19:02"
+          "at": "2026-11-25T23:37"
         },
         {
           "source": "Tracker D",
           "gmp": 18,
-          "at": "2026-11-25T22:15"
+          "at": "2026-11-26T00:01"
         },
         {
           "source": "Tracker B",
@@ -3238,10 +3238,10 @@
       "gmp_low": 13,
       "gmp_high": 45,
       "exchange": "SME",
-      "gmp": 17,
-      "gmp_asof": "2026-11-25T22:55",
-      "gmp_source_latest": "Tracker B",
-      "gmp_pct": 6.25,
+      "gmp": 18,
+      "gmp_asof": "2026-11-26T00:01",
+      "gmp_source_latest": "Tracker D",
+      "gmp_pct": 6.62,
       "gmp_spread": {
         "min": 14,
         "max": 18,
@@ -3255,45 +3255,7 @@
         "days": 3,
         "since": "2026-11-23"
       },
-      "status": "closed",
-      "news": [
-        {
-          "date": "2026-11-22",
-          "source": "Economic Times",
-          "title": "Crystal Crop Protection IPO allotment likely tomorrow; GMP hints at 5% listing gain. How to check status",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-ipo-allotment-likely-tomorrow-gmp-hints-at-5-listing-gain-how-to-check-status/articleshow/136068912.cms"
-        },
-        {
-          "date": "2026-11-20",
-          "source": "Economic Times",
-          "title": "Crystal Crop Protection IPO Day 3: Issue booked 17.06 times on the last day; GMP signals 5% listing gain",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-ipo-day-3-issue-booked-7-41-times-on-the-last-day-gmp-signals-6-listing-gain/articleshow/136022280.cms"
-        },
-        {
-          "date": "2026-11-19",
-          "source": "Economic Times",
-          "title": "Crystal Crop Protection IPO Day 2: Issue subscribed 2x so far, GMP signals 6% listing premium. Should you apply?",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-ipo-day-2-issue-subscribed-2x-so-far-gmp-signals-6-listing-premium-should-you-apply/articleshow/135984176.cms"
-        },
-        {
-          "date": "2026-11-18",
-          "source": "Economic Times",
-          "title": "Crystal Crop Protection IPO subscribed 55% so far; GMP signals 7% listing premium",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-ipo-subscribed-55-so-far-gmp-signals-7-listing-premium/articleshow/135957040.cms"
-        },
-        {
-          "date": "2026-11-18",
-          "source": "Economic Times",
-          "title": "Crystal Crop Protection IPO opens: GMP signals 5% listing premium; should you subscribe?",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-ipo-opens-today-gmp-signals-5-listing-premium-should-you-subscribe/articleshow/135945842.cms"
-        },
-        {
-          "date": "2026-11-18",
-          "source": "valueresearchonline.com",
-          "title": "Crystal Crop Protection IPO: margins up, returns waiting",
-          "url": "https://www.valueresearchonline.com/stories/230242/crystal-crop-protection-ipo-review/"
-        }
-      ],
+      "status": "listed",
       "unconfirmed": false
     },
     {
@@ -3440,18 +3402,18 @@
         },
         {
           "source": "Tracker C",
-          "gmp": 23,
-          "at": "2026-11-25T21:37"
+          "gmp": 22,
+          "at": "2026-11-25T23:37"
         },
         {
           "source": "Tracker D",
           "gmp": 41,
-          "at": "2026-11-25T22:15"
+          "at": "2026-11-26T00:01"
         },
         {
           "source": "Tracker B",
-          "gmp": 23,
-          "at": "2026-11-25T22:55"
+          "gmp": 22,
+          "at": "2026-11-25T23:55"
         }
       ],
       "gmp_history": [
@@ -3505,27 +3467,27 @@
         },
         {
           "date": "2026-11-25",
-          "gmp": 23
+          "gmp": 22
         }
       ],
       "history_source": "Tracker B",
       "gmp_low": 15,
       "gmp_high": 67,
       "exchange": "SME",
-      "gmp": 23,
-      "gmp_asof": "2026-11-25T22:55",
-      "gmp_source_latest": "Tracker B",
-      "gmp_pct": 9.39,
+      "gmp": 41,
+      "gmp_asof": "2026-11-26T00:01",
+      "gmp_source_latest": "Tracker D",
+      "gmp_pct": 16.73,
       "gmp_spread": {
-        "min": 23,
+        "min": 22,
         "max": 41,
-        "diff": 18,
+        "diff": 19,
         "n": 4,
-        "diff_pct_of_price": 7.35
+        "diff_pct_of_price": 7.76
       },
       "gmp_trend": {
         "dir": "falling",
-        "change": -32,
+        "change": -33,
         "days": 3,
         "since": "2026-11-23"
       },
@@ -4103,7 +4065,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": 6596000.0,
-      "updated_on": "2026-11-25T19:15+05:30",
+      "updated_on": "2026-11-26T00:01+05:30",
       "reservation": {
         "qib": 1.0,
         "nii": 47.0,
@@ -4194,13 +4156,13 @@
       "gmp_sources": [
         {
           "source": "Tracker C",
-          "gmp": 20,
-          "at": "2026-11-25T19:02"
+          "gmp": 25,
+          "at": "2026-11-25T23:37"
         },
         {
           "source": "Tracker D",
           "gmp": 20,
-          "at": "2026-11-25T22:31"
+          "at": "2026-11-26T00:01"
         },
         {
           "source": "Tracker B",
@@ -4211,25 +4173,29 @@
       "gmp_history": [
         {
           "date": "2026-11-23",
-          "gmp": 10
+          "gmp": 5
         },
         {
           "date": "2026-11-24",
-          "gmp": 20
+          "gmp": 10
         },
         {
           "date": "2026-11-25",
-          "gmp": 25
+          "gmp": 20
+        },
+        {
+          "date": "2026-11-26",
+          "gmp": 20
         }
       ],
-      "history_source": "Tracker B",
+      "history_source": "Tracker D",
       "gmp_low": 5,
       "gmp_high": 25,
       "exchange": "SME",
-      "gmp": 25,
-      "gmp_asof": "2026-11-25T23:40",
-      "gmp_source_latest": "Tracker B",
-      "gmp_pct": 17.61,
+      "gmp": 20,
+      "gmp_asof": "2026-11-26T00:01",
+      "gmp_source_latest": "Tracker D",
+      "gmp_pct": 14.08,
       "gmp_spread": {
         "min": 20,
         "max": 25,
@@ -4239,9 +4205,9 @@
       },
       "gmp_trend": {
         "dir": "rising",
-        "change": 15,
+        "change": 10,
         "days": 3,
-        "since": "2026-11-23"
+        "since": "2026-11-24"
       },
       "status": "open",
       "ai_gmp_none": {
@@ -4265,6 +4231,11 @@
       "close": "2026-11-30",
       "price": 191,
       "segment": "SME",
+      "sub": {
+        "total": 0.0
+      },
+      "sub_basis": "NSE+BSE",
+      "sub_asof": null,
       "registrar": "MUFG Intime India Private Limited",
       "lead_managers": [
         "Equirus Capital Limited (formerly known as Equirus Capital Private Limited) and JM Financial Limited"
@@ -4273,11 +4244,16 @@
       "retail_max": 200000,
       "cutoff_time": "5:00 PM",
       "price_low": 181,
-      "sub_history": null,
-      "series": "Equity",
-      "nse_status": "Forthcoming",
+      "sub_history": [
+        {
+          "at": "2026-11-26T00:01+05:30",
+          "total": 0.0
+        }
+      ],
+      "series": "EQ",
+      "nse_status": "Active",
       "shares_offered": 10474048.0,
-      "updated_on": "2026-11-25T19:15+05:30",
+      "updated_on": "2026-11-26T00:01+05:30",
       "bse_ipo_no": "8097",
       "uses": [
         {
@@ -4302,7 +4278,7 @@
         {
           "source": "Tracker D",
           "gmp": 27,
-          "at": "2026-11-25T22:31"
+          "at": "2026-11-26T00:01"
         }
       ],
       "gmp_history": [
@@ -4329,6 +4305,10 @@
         {
           "date": "2026-11-25",
           "gmp": 27
+        },
+        {
+          "date": "2026-11-26",
+          "gmp": 27
         }
       ],
       "history_source": "Tracker D",
@@ -4336,16 +4316,16 @@
       "gmp_high": 27,
       "exchange": "SME",
       "gmp": 27,
-      "gmp_asof": "2026-11-25T22:31",
+      "gmp_asof": "2026-11-26T00:01",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 14.14,
       "gmp_trend": {
         "dir": "rising",
-        "change": 15,
+        "change": 11,
         "days": 3,
-        "since": "2026-11-23"
+        "since": "2026-11-24"
       },
-      "status": "upcoming",
+      "status": "open",
       "news": [
         {
           "date": "2026-11-23",
@@ -4387,7 +4367,7 @@
       "series": "SME",
       "nse_status": "Forthcoming",
       "shares_offered": 3600000.0,
-      "updated_on": "2026-11-25T19:15+05:30",
+      "updated_on": "2026-11-26T00:01+05:30",
       "reservation_detail": {
         "nii": {
           "pct": 50.04,
@@ -4434,12 +4414,16 @@
         {
           "source": "Tracker D",
           "gmp": 4,
-          "at": "2026-11-25T22:15"
+          "at": "2026-11-26T00:01"
         }
       ],
       "gmp_history": [
         {
           "date": "2026-11-25",
+          "gmp": 4
+        },
+        {
+          "date": "2026-11-26",
           "gmp": 4
         }
       ],
@@ -4448,9 +4432,15 @@
       "gmp_high": 4,
       "exchange": "SME",
       "gmp": 4,
-      "gmp_asof": "2026-11-25T22:15",
+      "gmp_asof": "2026-11-26T00:01",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 4.04,
+      "gmp_trend": {
+        "dir": "steady",
+        "change": 0,
+        "days": 2,
+        "since": "2026-11-25"
+      },
       "status": "upcoming",
       "ai_gmp_none": {
         "why": "we could not confirm it on the page (the site does not allow us to open that page)",
@@ -4484,7 +4474,7 @@
       "series": "SME",
       "nse_status": "Forthcoming",
       "shares_offered": 3000000.0,
-      "updated_on": "2026-11-25T19:15+05:30",
+      "updated_on": "2026-11-26T00:01+05:30",
       "tracker_rating": 3,
       "reservation_detail": {
         "nii": {
@@ -4521,12 +4511,12 @@
         {
           "source": "Tracker C",
           "gmp": 24,
-          "at": "2026-11-25T19:02"
+          "at": "2026-11-25T23:37"
         },
         {
           "source": "Tracker D",
           "gmp": 24,
-          "at": "2026-11-25T22:31"
+          "at": "2026-11-26T00:01"
         }
       ],
       "gmp_history": [
@@ -4541,6 +4531,10 @@
         {
           "date": "2026-11-25",
           "gmp": 24
+        },
+        {
+          "date": "2026-11-26",
+          "gmp": 24
         }
       ],
       "history_source": "Tracker D",
@@ -4548,7 +4542,7 @@
       "gmp_high": 24,
       "exchange": "SME",
       "gmp": 24,
-      "gmp_asof": "2026-11-25T22:31",
+      "gmp_asof": "2026-11-26T00:01",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 13.33,
       "gmp_spread": {
@@ -4562,7 +4556,7 @@
         "dir": "rising",
         "change": 4,
         "days": 3,
-        "since": "2026-11-23"
+        "since": "2026-11-24"
       },
       "status": "upcoming",
       "unconfirmed": false
@@ -4594,7 +4588,7 @@
       "series": "Equity",
       "nse_status": "Forthcoming",
       "shares_offered": 27000000.0,
-      "updated_on": "2026-11-25T19:15+05:30",
+      "updated_on": "2026-11-26T00:01+05:30",
       "gmp_sources": [],
       "gmp_history": [],
       "exchange": "SME",
@@ -4804,7 +4798,7 @@
         {
           "source": "Tracker C",
           "gmp": 4,
-          "at": "2026-11-25T19:02"
+          "at": "2026-11-25T23:37"
         }
       ],
       "gmp_history": [
@@ -4817,7 +4811,7 @@
       "gmp_low": 4,
       "gmp_high": 4,
       "gmp": 4,
-      "gmp_asof": "2026-11-25T19:02",
+      "gmp_asof": "2026-11-25T23:37",
       "gmp_source_latest": "Tracker C",
       "gmp_pct": 4.04,
       "status": "upcoming",
@@ -4890,7 +4884,7 @@
         "days": 3,
         "since": "2026-11-19"
       },
-      "status": "upcoming",
+      "status": "open",
       "news": [
         {
           "date": "2026-11-23",
@@ -4944,12 +4938,12 @@
         {
           "source": "Tracker C",
           "gmp": 27,
-          "at": "2026-11-25T19:37"
+          "at": "2026-11-25T23:37"
         },
         {
           "source": "Tracker D",
           "gmp": 21.5,
-          "at": "2026-11-25T22:31"
+          "at": "2026-11-26T00:01"
         }
       ],
       "gmp_history": [
@@ -4960,13 +4954,17 @@
         {
           "date": "2026-11-25",
           "gmp": 21.5
+        },
+        {
+          "date": "2026-11-26",
+          "gmp": 21.5
         }
       ],
       "history_source": "Tracker D",
       "gmp_low": 20,
       "gmp_high": 27,
       "gmp": 21.5,
-      "gmp_asof": "2026-11-25T22:31",
+      "gmp_asof": "2026-11-26T00:01",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 12.5,
       "gmp_spread": {
@@ -4979,7 +4977,7 @@
       "gmp_trend": {
         "dir": "steady",
         "change": 0.0,
-        "days": 2,
+        "days": 3,
         "since": "2026-11-24"
       },
       "status": "upcoming",
@@ -5059,12 +5057,12 @@
         {
           "source": "Tracker C",
           "gmp": 21,
-          "at": "2026-11-25T19:02"
+          "at": "2026-11-25T23:37"
         },
         {
           "source": "Tracker D",
           "gmp": 21,
-          "at": "2026-11-25T22:31"
+          "at": "2026-11-26T00:01"
         }
       ],
       "gmp_history": [
@@ -5079,13 +5077,17 @@
         {
           "date": "2026-11-25",
           "gmp": 21
+        },
+        {
+          "date": "2026-11-26",
+          "gmp": 21
         }
       ],
       "history_source": "Tracker D",
       "gmp_low": 21,
       "gmp_high": 23,
       "gmp": 21,
-      "gmp_asof": "2026-11-25T22:31",
+      "gmp_asof": "2026-11-26T00:01",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 32.31,
       "gmp_spread": {
@@ -5099,7 +5101,7 @@
         "dir": "falling",
         "change": -2,
         "days": 3,
-        "since": "2026-11-23"
+        "since": "2026-11-24"
       },
       "status": "upcoming",
       "news": [
