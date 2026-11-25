@@ -1,6 +1,6 @@
 {
  "a-j-packaging": {
-  "at": "2026-11-25T13:01+05:30",
+  "at": "2026-11-25T19:01+05:30",
   "detail": {
    "gmp_history": [
     [
@@ -43,8 +43,14 @@
   }
  },
  "airpro-technology-india": {
-  "at": "2026-11-25T13:01+05:30",
+  "at": "2026-11-25T19:01+05:30",
   "detail": {
+   "gmp_history": [
+    [
+     "2026-11-25",
+     4.0
+    ]
+   ],
    "reservation": {
     "nii": {
      "pct": 50.04,
@@ -99,7 +105,7 @@
   }
  },
  "foodlink-fb-holdings-india": {
-  "at": "2026-11-25T13:01+05:30",
+  "at": "2026-11-25T19:01+05:30",
   "detail": {
    "gmp_history": [
     [
@@ -144,46 +150,11 @@
      "cr": 21.0,
      "use": "Debt"
     }
-   ],
-   "years": [
-    {
-     "assets": 268.13,
-     "debt": 125.41,
-     "ebitda": 30.63,
-     "income": 380.17,
-     "net_worth": 79.59,
-     "pat": -15.35,
-     "roce": null,
-     "roe": -17.88,
-     "y": "FY24"
-    },
-    {
-     "assets": 318.59,
-     "debt": 138.94,
-     "ebitda": 61.45,
-     "income": 455.4,
-     "net_worth": 106.22,
-     "pat": 14.26,
-     "roce": null,
-     "roe": 15.35,
-     "y": "FY25"
-    },
-    {
-     "assets": 454.32,
-     "debt": 127.97,
-     "ebitda": 78.43,
-     "income": 572.26,
-     "net_worth": 229.35,
-     "pat": 29.11,
-     "roce": null,
-     "roe": 17.35,
-     "y": "FY26"
-    }
    ]
   }
  },
  "integris-medtech": {
-  "at": "2026-11-25T13:01+05:30",
+  "at": "2026-11-25T19:01+05:30",
   "detail": {
    "gmp_history": [
     [
@@ -212,7 +183,7 @@
   }
  },
  "mahanadi-coalfields": {
-  "at": "2026-11-25T13:01+05:30",
+  "at": "2026-11-25T19:01+05:30",
   "detail": {
    "gmp_history": [
     [
@@ -304,7 +275,7 @@
   }
  },
  "matangi-rubber": {
-  "at": "2026-11-25T13:01+05:30",
+  "at": "2026-11-25T19:01+05:30",
   "detail": {
    "gmp_history": [
     [
@@ -352,7 +323,7 @@
   }
  },
  "monomark-engineering": {
-  "at": "2026-11-25T13:01+05:30",
+  "at": "2026-11-25T19:01+05:30",
   "detail": {
    "gmp_history": [
     [
@@ -412,12 +383,12 @@
   }
  },
  "shree-siddhivinayak-greentech-industries": {
-  "at": "2026-11-25T13:01+05:30",
+  "at": "2026-11-25T19:01+05:30",
   "detail": {
    "gmp_history": [
     [
      "2026-11-25",
-     19.0
+     20.0
     ],
     [
      "2026-11-24",
@@ -455,12 +426,12 @@
     }
    },
    "sub": {
-    "nii": 0.43,
+    "nii": 0.51,
     "qib": 4.27,
-    "retail": 0.1,
-    "total": 0.31
+    "retail": 0.22,
+    "total": 0.41
    },
-   "sub_at": "2026-11-25T12:44",
+   "sub_at": "2026-11-25T17:19",
    "uses": [
     {
      "cr": 23.54,
@@ -509,7 +480,7 @@
   }
  },
  "watrana-rentals": {
-  "at": "2026-11-25T13:01+05:30",
+  "at": "2026-11-25T19:01+05:30",
   "detail": {
    "gmp_history": [
     [
