@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T12:01+05:30",
+  "generated_at": "2026-11-25T12:15+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-24T12:33+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-25T12:01+05:30",
+    "nse_ok_at": "2026-11-25T12:15+05:30",
     "bse_ok_at": "2026-11-24T12:35+05:30"
   },
   "ipos": [
@@ -3185,7 +3185,7 @@
         {
           "source": "Tracker B",
           "gmp": 19,
-          "at": "2026-11-25T09:10"
+          "at": "2026-11-25T12:10"
         }
       ],
       "gmp_history": [
@@ -3238,10 +3238,10 @@
       "gmp_low": 9.83,
       "gmp_high": 45,
       "exchange": "SME",
-      "gmp": 20,
-      "gmp_asof": "2026-11-25T10:31",
-      "gmp_source_latest": "Tracker D",
-      "gmp_pct": 7.35,
+      "gmp": 19,
+      "gmp_asof": "2026-11-25T12:10",
+      "gmp_source_latest": "Tracker B",
+      "gmp_pct": 6.99,
       "gmp_spread": {
         "min": 14,
         "max": 20,
@@ -3446,7 +3446,7 @@
         {
           "source": "Tracker D",
           "gmp": 40,
-          "at": "2026-11-25T09:15"
+          "at": "2026-11-25T12:15"
         },
         {
           "source": "Tracker B",
@@ -3512,10 +3512,10 @@
       "gmp_low": 15,
       "gmp_high": 67,
       "exchange": "SME",
-      "gmp": 41,
-      "gmp_asof": "2026-11-25T11:55",
-      "gmp_source_latest": "Tracker B",
-      "gmp_pct": 16.73,
+      "gmp": 40,
+      "gmp_asof": "2026-11-25T12:15",
+      "gmp_source_latest": "Tracker D",
+      "gmp_pct": 16.33,
       "gmp_spread": {
         "min": 35,
         "max": 41,
@@ -4085,7 +4085,7 @@
         "total": 0.04
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-25T11:58",
+      "sub_asof": "2026-11-25T12:10",
       "registrar": "Mas Services Limited",
       "lead_managers": [
         "Erudore Capital Private Limited"
@@ -4678,7 +4678,7 @@
       "sector": "Industrial Products",
       "gmp_watch": {
         "sources": 2,
-        "at": "2026-11-25T12:01"
+        "at": "2026-11-25T12:15"
       },
       "gmp_sources": [],
       "gmp_history": [],
