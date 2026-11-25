@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-25T09:31+05:30",
+  "fetched_at": "2026-11-25T09:45+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,7 +16,7 @@
     "price_low": 259.0,
     "size_cr": 455.72,
     "gmp": 19.0,
-    "gmp_at": "2026-11-25T09:25",
+    "gmp_at": "2026-11-25T09:41",
     "sub_total": 17.07,
     "sub_retail": 9.281,
     "sub_at": "2026-11-20T19:05",
@@ -100,7 +100,7 @@
     "price_low": 129.0,
     "size_cr": 8981.12,
     "gmp": 0.0,
-    "gmp_at": "2026-11-25T09:25",
+    "gmp_at": "2026-11-25T09:40",
     "sub_total": 1.52,
     "sub_retail": 0.46,
     "sub_at": "2026-11-23T19:05",
@@ -191,7 +191,7 @@
     "price_low": 130.0,
     "size_cr": 93.66,
     "gmp": 20.0,
-    "gmp_at": "2026-11-25T09:25",
+    "gmp_at": "2026-11-25T09:41",
     "sub_total": 0.0,
     "sub_retail": null,
     "sub_at": null,
@@ -247,7 +247,7 @@
     "price_low": 232.0,
     "size_cr": 120.1,
     "gmp": 40.0,
-    "gmp_at": "2026-11-25T09:25",
+    "gmp_at": "2026-11-25T09:40",
     "sub_total": 150.48,
     "sub_retail": 108.71,
     "sub_at": "2026-11-23T19:05",
@@ -321,7 +321,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-25T09:31+05:30",
+  "fetched_at": "2026-11-25T09:45+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -876,8 +876,63 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-25T09:31+05:30",
+  "fetched_at": "2026-11-25T09:45+05:30",
   "records": [
+   {
+    "src": "Tracker D",
+    "slug": "shree-siddhivinayak-greentech-industries",
+    "name": "Shree Siddhivinayak Greentech Industries",
+    "segment": "SME",
+    "exchange": null,
+    "open": "2026-11-25",
+    "close": "2026-11-27",
+    "boa": null,
+    "listing": "2026-12-02",
+    "price": 142.0,
+    "price_low": 130.0,
+    "size_cr": 93.66,
+    "gmp": 20.0,
+    "gmp_at": null,
+    "sub_total": null,
+    "sub_retail": null,
+    "sub_at": null,
+    "lot": 1000.0,
+    "sector": "Sugar",
+    "detail_url": "https://ipoindex.in/ipo/shree-siddhivinayak-greentech-industries-sme-ipo/",
+    "live": true,
+    "detail": {
+     "gmp_history": [
+      [
+       "2026-11-24",
+       10.0
+      ],
+      [
+       "2026-11-23",
+       5.0
+      ]
+     ],
+     "reservation": {
+      "nii": {
+       "pct": 49.47,
+       "shares": 3100000
+      },
+      "retail": {
+       "pct": 49.47,
+       "shares": 3100000
+      }
+     },
+     "uses": [
+      {
+       "cr": 23.54,
+       "use": "Capital Expense"
+      },
+      {
+       "cr": 48.5,
+       "use": "Debt"
+      }
+     ]
+    }
+   },
    {
     "src": "Tracker D",
     "slug": "airpro-technology-india",
@@ -952,7 +1007,7 @@
     "price": 175.0,
     "price_low": null,
     "size_cr": 54.0,
-    "gmp": 20.0,
+    "gmp": 18.0,
     "gmp_at": null,
     "sub_total": null,
     "sub_retail": null,
@@ -1000,61 +1055,6 @@
    },
    {
     "src": "Tracker D",
-    "slug": "shree-siddhivinayak-greentech-industries",
-    "name": "Shree Siddhivinayak Greentech Industries",
-    "segment": "SME",
-    "exchange": null,
-    "open": null,
-    "close": null,
-    "boa": null,
-    "listing": null,
-    "price": 142.0,
-    "price_low": 130.0,
-    "size_cr": 93.66,
-    "gmp": 10.0,
-    "gmp_at": null,
-    "sub_total": null,
-    "sub_retail": null,
-    "sub_at": null,
-    "lot": 1000.0,
-    "sector": "Sugar",
-    "detail_url": "https://ipoindex.in/ipo/shree-siddhivinayak-greentech-industries-sme-ipo/",
-    "live": true,
-    "detail": {
-     "gmp_history": [
-      [
-       "2026-11-24",
-       10.0
-      ],
-      [
-       "2026-11-23",
-       5.0
-      ]
-     ],
-     "reservation": {
-      "nii": {
-       "pct": 49.47,
-       "shares": 3100000
-      },
-      "retail": {
-       "pct": 49.47,
-       "shares": 3100000
-      }
-     },
-     "uses": [
-      {
-       "cr": 23.54,
-       "use": "Capital Expense"
-      },
-      {
-       "cr": 48.5,
-       "use": "Debt"
-      }
-     ]
-    }
-   },
-   {
-    "src": "Tracker D",
     "slug": "foodlink-fb-holdings-india",
     "name": "Foodlink F&B Holdings (India)",
     "segment": "MAIN",
@@ -1066,7 +1066,7 @@
     "price": 181.0,
     "price_low": null,
     "size_cr": 360.76,
-    "gmp": 16.0,
+    "gmp": 21.0,
     "gmp_at": null,
     "sub_total": null,
     "sub_retail": null,
@@ -1296,15 +1296,15 @@
     "close": null,
     "boa": null,
     "listing": null,
-    "price": null,
+    "price": 60.0,
     "price_low": null,
-    "size_cr": null,
-    "gmp": 23.0,
+    "size_cr": 175.5,
+    "gmp": 17.0,
     "gmp_at": null,
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
-    "lot": null,
+    "lot": 225.0,
     "sector": "Industrial Engineering",
     "detail_url": "https://ipoindex.in/ipo/monomark-engineering-ipo/",
     "live": true,
@@ -1620,7 +1620,7 @@
     "price": 259.0,
     "price_low": null,
     "size_cr": 455.49,
-    "gmp": 18.0,
+    "gmp": 19.0,
     "gmp_at": null,
     "sub_total": null,
     "sub_retail": null,
