@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-25T11:45+05:30",
+  "fetched_at": "2026-11-25T12:01+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,7 +16,7 @@
     "price_low": 259.0,
     "size_cr": 455.72,
     "gmp": 19.0,
-    "gmp_at": "2026-11-25T11:41",
+    "gmp_at": "2026-11-25T11:55",
     "sub_total": 17.07,
     "sub_retail": 9.281,
     "sub_at": "2026-11-20T19:05",
@@ -100,7 +100,7 @@
     "price_low": 129.0,
     "size_cr": 8981.12,
     "gmp": 0.0,
-    "gmp_at": "2026-11-25T11:40",
+    "gmp_at": "2026-11-25T11:55",
     "sub_total": 1.52,
     "sub_retail": 0.46,
     "sub_at": "2026-11-23T19:05",
@@ -191,10 +191,10 @@
     "price_low": 130.0,
     "size_cr": 93.66,
     "gmp": 20.0,
-    "gmp_at": "2026-11-25T11:40",
+    "gmp_at": "2026-11-25T11:55",
     "sub_total": 0.04,
     "sub_retail": 0.07,
-    "sub_at": "2026-11-25T11:42",
+    "sub_at": "2026-11-25T11:58",
     "sub_cats": {
      "retail": 0.07,
      "nii": 0.01,
@@ -250,8 +250,8 @@
     "price": 245.0,
     "price_low": 232.0,
     "size_cr": 120.1,
-    "gmp": 40.0,
-    "gmp_at": "2026-11-25T11:41",
+    "gmp": 41.0,
+    "gmp_at": "2026-11-25T11:55",
     "sub_total": 150.48,
     "sub_retail": 108.71,
     "sub_at": "2026-11-23T19:05",
@@ -305,6 +305,10 @@
      [
       "2026-11-23",
       40.0
+     ],
+     [
+      "2026-11-25",
+      41.0
      ]
     ],
     "rhp_url": null,
@@ -325,7 +329,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-25T11:45+05:30",
+  "fetched_at": "2026-11-25T12:01+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -337,16 +341,16 @@
     "close": "2026-12-04",
     "boa": "2026-12-07",
     "listing": "2026-12-09",
-    "price": 0.0,
+    "price": 65.0,
     "price_low": null,
-    "size_cr": null,
-    "gmp": 23.0,
-    "gmp_at": "2026-11-25T07:37",
+    "size_cr": 175.5,
+    "gmp": 17.0,
+    "gmp_at": "2026-11-25T08:37",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
-    "lot": null,
-    "rating": 1,
+    "lot": 225.0,
+    "rating": 4,
     "live": true
    },
    {
@@ -363,7 +367,7 @@
     "price_low": null,
     "size_cr": 54.0,
     "gmp": 18.0,
-    "gmp_at": "2026-11-25T07:37",
+    "gmp_at": "2026-11-25T08:37",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -385,7 +389,7 @@
     "price_low": null,
     "size_cr": 125.16,
     "gmp": 21.5,
-    "gmp_at": "2026-11-25T07:37",
+    "gmp_at": "2026-11-25T08:37",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -429,7 +433,7 @@
     "price_low": null,
     "size_cr": 35.64,
     "gmp": null,
-    "gmp_at": "2026-11-25T07:32",
+    "gmp_at": "2026-11-25T08:36",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -451,7 +455,7 @@
     "price_low": null,
     "size_cr": 360.76,
     "gmp": 21.0,
-    "gmp_at": "2026-11-25T07:37",
+    "gmp_at": "2026-11-25T08:37",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -473,7 +477,7 @@
     "price_low": null,
     "size_cr": 93.66,
     "gmp": 20.0,
-    "gmp_at": "2026-11-25T07:37",
+    "gmp_at": "2026-11-25T08:37",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -495,7 +499,7 @@
     "price_low": null,
     "size_cr": 120.1,
     "gmp": 40.0,
-    "gmp_at": "2026-11-25T07:37",
+    "gmp_at": "2026-11-25T08:37",
     "sub_total": 150.48,
     "sub_retail": null,
     "sub_at": null,
@@ -517,7 +521,7 @@
     "price_low": null,
     "size_cr": 8981.12,
     "gmp": null,
-    "gmp_at": "2026-11-25T07:37",
+    "gmp_at": "2026-11-25T08:37",
     "sub_total": 1.52,
     "sub_retail": null,
     "sub_at": null,
@@ -539,7 +543,7 @@
     "price_low": null,
     "size_cr": 455.49,
     "gmp": 19.0,
-    "gmp_at": "2026-11-25T07:37",
+    "gmp_at": "2026-11-25T08:37",
     "sub_total": 17.68,
     "sub_retail": null,
     "sub_at": null,
@@ -880,7 +884,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-25T11:45+05:30",
+  "fetched_at": "2026-11-25T12:01+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -897,7 +901,7 @@
     "size_cr": 93.66,
     "gmp": 20.0,
     "gmp_at": null,
-    "sub_total": 0.15,
+    "sub_total": 0.31,
     "sub_retail": null,
     "sub_at": null,
     "lot": 1000.0,
@@ -933,6 +937,41 @@
       {
        "cr": 48.5,
        "use": "Debt"
+      }
+     ]
+    }
+   },
+   {
+    "src": "Tracker D",
+    "slug": "encube-ethicals",
+    "name": "Encube Ethicals",
+    "segment": "MAIN",
+    "exchange": null,
+    "open": null,
+    "close": null,
+    "boa": null,
+    "listing": null,
+    "price": null,
+    "price_low": null,
+    "size_cr": 3000.0,
+    "gmp": 0.0,
+    "gmp_at": null,
+    "sub_total": null,
+    "sub_retail": null,
+    "sub_at": null,
+    "lot": null,
+    "sector": "Pharmaceutical formulations",
+    "detail_url": "https://ipoindex.in/ipo/encube-ethicals-ipo/",
+    "live": true,
+    "detail": {
+     "uses": [
+      {
+       "use": "OFS",
+       "cr": 2000.0
+      },
+      {
+       "use": "OFS",
+       "cr": 1000.0
       }
      ]
     }
