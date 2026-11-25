@@ -2366,7 +2366,7 @@
   "series": "SME",
   "nse_status": "Active",
   "shares_offered": 6596000.0,
-  "last_seen": "2026-11-25T13:00+05:30",
+  "last_seen": "2026-11-25T15:54+05:30",
   "segment": "SME",
   "registrar": "Mas Services Limited",
   "lead_managers": [
@@ -2374,7 +2374,7 @@
   ],
   "cutoff_time": "5:00 PM",
   "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_SHREESIDHI.zip",
-  "details_at": "2026-11-25T00:01+05:30",
+  "details_at": "2026-11-25T15:54+05:30",
   "sub": {
    "total": 0.0
   },
@@ -2382,7 +2382,7 @@
   "sub_asof": null,
   "sub_hist": [
    {
-    "at": "2026-11-25T00:01+05:30",
+    "at": "2026-11-25T15:54+05:30",
     "total": 0.0
    }
   ]
@@ -2398,7 +2398,7 @@
   "series": "Equity",
   "nse_status": "Forthcoming",
   "shares_offered": 19443116.0,
-  "last_seen": "2026-11-25T13:00+05:30",
+  "last_seen": "2026-11-25T15:54+05:30",
   "segment": "SME",
   "lot": 78,
   "registrar": "MUFG Intime India Private Limited",
@@ -2408,11 +2408,11 @@
   "retail_max": 200000,
   "cutoff_time": "5:00 PM",
   "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_FOODLINK.zip",
-  "details_at": "2026-11-25T00:01+05:30"
+  "details_at": "2026-11-25T15:54+05:30"
  },
  "AIRPRO": {
   "symbol": "AIRPRO",
-  "first_seen": "2026-11-25T13:00+05:30",
+  "first_seen": "2026-11-25T15:54+05:30",
   "name": "Airpro Technology India",
   "open": "2026-11-27",
   "close": "2026-12-01",
@@ -2421,13 +2421,34 @@
   "series": "SME",
   "nse_status": "Forthcoming",
   "shares_offered": 3600000.0,
-  "last_seen": "2026-11-25T13:00+05:30",
+  "last_seen": "2026-11-25T15:54+05:30",
   "segment": "SME",
   "registrar": "MUFG Intime India Private Limited",
   "lead_managers": [
    "Horizon Management Private Limited"
   ],
   "cutoff_time": "5:00 PM",
-  "details_at": "2026-11-25T13:00+05:30"
+  "details_at": "2026-11-25T15:54+05:30"
+ },
+ "AJPACK": {
+  "symbol": "AJPACK",
+  "first_seen": "2026-11-25T15:54+05:30",
+  "name": "A J Packaging",
+  "open": "2026-12-01",
+  "close": "2026-12-03",
+  "price": 180,
+  "price_low": 175,
+  "series": "SME",
+  "nse_status": "Forthcoming",
+  "shares_offered": 3000000.0,
+  "last_seen": "2026-11-25T15:54+05:30",
+  "segment": "SME",
+  "registrar": "Mufg Intime India Private Limited",
+  "lead_managers": [
+   "D & A Financial Service Private Limited"
+  ],
+  "cutoff_time": "5:00 PM",
+  "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_AJPACK.zip",
+  "details_at": "2026-11-25T15:54+05:30"
  }
 }

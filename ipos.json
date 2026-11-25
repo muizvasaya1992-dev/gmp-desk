@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T15:45+05:30",
+  "generated_at": "2026-11-25T15:54+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -20,11 +20,11 @@
     "listing_loss": 60,
     "day_gain": 152,
     "day_loss": 85,
-    "fetched_at": "2026-11-24T12:33+05:30"
+    "fetched_at": "2026-11-25T15:54+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-25T15:45+05:30",
-    "bse_ok_at": "2026-11-24T12:35+05:30"
+    "nse_ok_at": "2026-11-25T15:54+05:30",
+    "bse_ok_at": "2026-11-25T15:54+05:30"
   },
   "ipos": [
     {
@@ -3185,7 +3185,7 @@
         {
           "source": "Tracker B",
           "gmp": 18,
-          "at": "2026-11-25T15:11"
+          "at": "2026-11-25T15:51"
         }
       ],
       "gmp_history": [
@@ -3227,7 +3227,7 @@
         },
         {
           "date": "2026-11-24",
-          "gmp": 19
+          "gmp": 14
         },
         {
           "date": "2026-11-25",
@@ -3239,8 +3239,8 @@
       "gmp_high": 45,
       "exchange": "SME",
       "gmp": 18,
-      "gmp_asof": "2026-11-25T15:31",
-      "gmp_source_latest": "Tracker D",
+      "gmp_asof": "2026-11-25T15:51",
+      "gmp_source_latest": "Tracker B",
       "gmp_pct": 6.62,
       "gmp_spread": {
         "min": 14,
@@ -3371,7 +3371,7 @@
         {
           "source": "Tracker B",
           "gmp": 41,
-          "at": "2026-11-25T14:55"
+          "at": "2026-11-25T15:50"
         }
       ],
       "gmp_history": [
@@ -3433,8 +3433,8 @@
       "gmp_high": 67,
       "exchange": "SME",
       "gmp": 41,
-      "gmp_asof": "2026-11-25T15:31",
-      "gmp_source_latest": "Tracker D",
+      "gmp_asof": "2026-11-25T15:50",
+      "gmp_source_latest": "Tracker B",
       "gmp_pct": 16.73,
       "gmp_spread": {
         "min": 35,
@@ -3961,7 +3961,7 @@
         "total": 0.38
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-25T15:40",
+      "sub_asof": "2026-11-25T15:52",
       "registrar": "Mas Services Limited",
       "lead_managers": [
         "Erudore Capital Private Limited"
@@ -3971,14 +3971,14 @@
       "price_low": 130,
       "sub_history": [
         {
-          "at": "2026-11-25T00:01+05:30",
+          "at": "2026-11-25T15:54+05:30",
           "total": 0.0
         }
       ],
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": 6596000.0,
-      "updated_on": "2026-11-25T13:00+05:30",
+      "updated_on": "2026-11-25T15:54+05:30",
       "reservation": {
         "qib": 1.05,
         "nii": 49.47,
@@ -3999,13 +3999,13 @@
         },
         {
           "source": "Tracker D",
-          "gmp": 20,
-          "at": "2026-11-25T13:15"
+          "gmp": 10,
+          "at": "2026-11-24T12:35"
         },
         {
           "source": "Tracker B",
           "gmp": 20,
-          "at": "2026-11-25T15:40"
+          "at": "2026-11-25T15:50"
         }
       ],
       "gmp_history": [
@@ -4027,15 +4027,15 @@
       "gmp_high": 20,
       "exchange": "SME",
       "gmp": 20,
-      "gmp_asof": "2026-11-25T15:40",
+      "gmp_asof": "2026-11-25T15:50",
       "gmp_source_latest": "Tracker B",
       "gmp_pct": 14.08,
       "gmp_spread": {
-        "min": 20,
+        "min": 10,
         "max": 20,
-        "diff": 0,
+        "diff": 10,
         "n": 3,
-        "diff_pct_of_price": 0.0
+        "diff_pct_of_price": 7.04
       },
       "gmp_trend": {
         "dir": "rising",
@@ -4077,7 +4077,7 @@
       "series": "Equity",
       "nse_status": "Forthcoming",
       "shares_offered": 19443116.0,
-      "updated_on": "2026-11-25T13:00+05:30",
+      "updated_on": "2026-11-25T15:54+05:30",
       "bse_ipo_no": "8097",
       "gmp_sources": [
         {
@@ -4168,28 +4168,91 @@
       "series": "SME",
       "nse_status": "Forthcoming",
       "shares_offered": 3600000.0,
-      "updated_on": "2026-11-25T13:00+05:30",
+      "updated_on": "2026-11-25T15:54+05:30",
+      "gmp_sources": [],
+      "gmp_history": [],
+      "exchange": "SME",
+      "gmp": null,
+      "gmp_pct": null,
+      "status": "upcoming",
+      "ai_gmp_none": {
+        "why": "we could not confirm it on the page (the site does not allow us to open that page)",
+        "checked": "2026-11-25T15:54+05:30"
+      },
+      "unconfirmed": false
+    },
+    {
+      "id": "ajpack",
+      "name": "A J Packaging",
+      "lot": 800,
+      "size_cr": 54.0,
+      "boa": "2026-12-04",
+      "listing": "2026-12-08",
+      "anchor": null,
+      "rating": null,
+      "symbol": "AJPACK",
+      "official": true,
+      "open": "2026-12-01",
+      "close": "2026-12-03",
+      "price": 180,
+      "segment": "SME",
+      "registrar": "Mufg Intime India Private Limited",
+      "lead_managers": [
+        "D & A Financial Service Private Limited"
+      ],
+      "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_AJPACK.zip",
+      "cutoff_time": "5:00 PM",
+      "price_low": 175,
+      "sub_history": null,
+      "series": "SME",
+      "nse_status": "Forthcoming",
+      "shares_offered": 3000000.0,
+      "updated_on": "2026-11-25T15:54+05:30",
+      "tracker_rating": 3,
+      "lot_basis": "tracker",
       "gmp_sources": [
         {
+          "source": "Tracker C",
+          "gmp": 24,
+          "at": "2026-11-25T15:02"
+        },
+        {
           "source": "Tracker D",
-          "gmp": 4,
-          "at": "2026-11-25T14:15"
+          "gmp": 20,
+          "at": "2026-11-24T12:35"
         }
       ],
       "gmp_history": [
         {
+          "date": "2026-11-24",
+          "gmp": 20
+        },
+        {
           "date": "2026-11-25",
-          "gmp": 4
+          "gmp": 24
         }
       ],
-      "history_source": "Tracker D",
-      "gmp_low": 4,
-      "gmp_high": 4,
+      "history_source": "Tracker C",
+      "gmp_low": 20,
+      "gmp_high": 24,
       "exchange": "SME",
-      "gmp": 4,
-      "gmp_asof": "2026-11-25T14:15",
-      "gmp_source_latest": "Tracker D",
-      "gmp_pct": 4.04,
+      "gmp": 24,
+      "gmp_asof": "2026-11-25T15:02",
+      "gmp_source_latest": "Tracker C",
+      "gmp_pct": 13.33,
+      "gmp_spread": {
+        "min": 20,
+        "max": 24,
+        "diff": 4,
+        "n": 2,
+        "diff_pct_of_price": 2.22
+      },
+      "gmp_trend": {
+        "dir": "rising",
+        "change": 4,
+        "days": 2,
+        "since": "2026-11-24"
+      },
       "status": "upcoming",
       "unconfirmed": false
     },
@@ -4367,73 +4430,6 @@
       "gmp_pct": null,
       "status": "listed",
       "unconfirmed": false
-    },
-    {
-      "boa": "2026-12-04",
-      "close": "2026-12-03",
-      "exchange": "NSE Emerge",
-      "from_peers": true,
-      "id": "a-j-packaging",
-      "listing": "2026-12-08",
-      "lot": 800,
-      "name": "A J Packaging",
-      "open": "2026-12-01",
-      "price": 180,
-      "segment": "SME",
-      "size_cr": 54.0,
-      "tracker_rating": 3,
-      "gmp_sources": [
-        {
-          "source": "Tracker C",
-          "gmp": 24,
-          "at": "2026-11-25T15:02"
-        },
-        {
-          "source": "Tracker D",
-          "gmp": 24,
-          "at": "2026-11-25T15:31"
-        }
-      ],
-      "gmp_history": [
-        {
-          "date": "2026-11-23",
-          "gmp": 20
-        },
-        {
-          "date": "2026-11-24",
-          "gmp": 20
-        },
-        {
-          "date": "2026-11-25",
-          "gmp": 24
-        }
-      ],
-      "history_source": "Tracker D",
-      "gmp_low": 18,
-      "gmp_high": 24,
-      "gmp": 24,
-      "gmp_asof": "2026-11-25T15:31",
-      "gmp_source_latest": "Tracker D",
-      "gmp_pct": 13.33,
-      "gmp_spread": {
-        "min": 24,
-        "max": 24,
-        "diff": 0,
-        "n": 2,
-        "diff_pct_of_price": 0.0
-      },
-      "gmp_trend": {
-        "dir": "rising",
-        "change": 4,
-        "days": 3,
-        "since": "2026-11-23"
-      },
-      "status": "upcoming",
-      "ai_gmp_none": {
-        "why": "we could not confirm it on the page (the site does not allow us to open that page)",
-        "checked": "2026-11-23T11:31+05:30"
-      },
-      "unconfirmed": true
     },
     {
       "boa": "2026-12-02",
@@ -4638,64 +4634,44 @@
       "unconfirmed": true
     },
     {
-      "boa": "2026-12-07",
-      "close": "2026-12-04",
-      "from_peers": true,
       "id": "monomark-engineering",
-      "listing": "2026-12-09",
-      "lot": 225,
       "name": "Monomark Engineering",
-      "open": "2026-12-02",
-      "price": 65,
       "segment": "MAIN",
+      "price": 65,
+      "price_low": null,
+      "lot": 225,
       "size_cr": 175.5,
+      "open": "2026-12-02",
+      "close": "2026-12-04",
+      "boa": "2026-12-07",
+      "listing": "2026-12-09",
+      "anchor": null,
+      "rating": null,
+      "sub": null,
+      "updated_on": "2026-11-25T15:54+05:30",
+      "from_peers": true,
       "tracker_rating": 4,
+      "lot_basis": "tracker",
       "gmp_sources": [
         {
           "source": "Tracker C",
           "gmp": 21,
           "at": "2026-11-25T15:02"
-        },
-        {
-          "source": "Tracker D",
-          "gmp": 21,
-          "at": "2026-11-25T14:15"
         }
       ],
       "gmp_history": [
-        {
-          "date": "2026-11-23",
-          "gmp": 23
-        },
-        {
-          "date": "2026-11-24",
-          "gmp": 23
-        },
         {
           "date": "2026-11-25",
           "gmp": 21
         }
       ],
-      "history_source": "Tracker D",
-      "gmp_low": 17,
-      "gmp_high": 23,
+      "history_source": "Tracker C",
+      "gmp_low": 21,
+      "gmp_high": 21,
       "gmp": 21,
       "gmp_asof": "2026-11-25T15:02",
       "gmp_source_latest": "Tracker C",
       "gmp_pct": 32.31,
-      "gmp_spread": {
-        "min": 21,
-        "max": 21,
-        "diff": 0,
-        "n": 2,
-        "diff_pct_of_price": 0.0
-      },
-      "gmp_trend": {
-        "dir": "falling",
-        "change": -2,
-        "days": 3,
-        "since": "2026-11-23"
-      },
       "status": "upcoming",
       "news": [
         {
