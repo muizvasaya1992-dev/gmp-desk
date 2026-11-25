@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T19:01+05:30",
+  "generated_at": "2026-11-25T19:15+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-25T15:54+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-25T19:01+05:30",
+    "nse_ok_at": "2026-11-25T19:15+05:30",
     "bse_ok_at": "2026-11-25T15:58+05:30"
   },
   "ipos": [
@@ -3180,7 +3180,7 @@
         {
           "source": "Tracker D",
           "gmp": 18,
-          "at": "2026-11-25T16:15"
+          "at": "2026-11-25T19:15"
         },
         {
           "source": "Tracker B",
@@ -3239,8 +3239,8 @@
       "gmp_high": 45,
       "exchange": "SME",
       "gmp": 18,
-      "gmp_asof": "2026-11-25T18:55",
-      "gmp_source_latest": "Tracker B",
+      "gmp_asof": "2026-11-25T19:15",
+      "gmp_source_latest": "Tracker D",
       "gmp_pct": 6.62,
       "gmp_spread": {
         "min": 14,
@@ -3258,40 +3258,40 @@
       "status": "closed",
       "news": [
         {
+          "date": "2026-11-22",
+          "source": "Economic Times",
           "title": "Crystal Crop Protection IPO allotment likely tomorrow; GMP hints at 5% listing gain. How to check status",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-ipo-allotment-likely-tomorrow-gmp-hints-at-5-listing-gain-how-to-check-status/articleshow/136068912.cms",
-          "source": "Economic Times",
-          "date": "2026-11-22"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-ipo-allotment-likely-tomorrow-gmp-hints-at-5-listing-gain-how-to-check-status/articleshow/136068912.cms"
         },
         {
+          "date": "2026-11-20",
+          "source": "Economic Times",
           "title": "Crystal Crop Protection IPO Day 3: Issue booked 17.06 times on the last day; GMP signals 5% listing gain",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-ipo-day-3-issue-booked-7-41-times-on-the-last-day-gmp-signals-6-listing-gain/articleshow/136022280.cms",
-          "source": "Economic Times",
-          "date": "2026-11-20"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-ipo-day-3-issue-booked-7-41-times-on-the-last-day-gmp-signals-6-listing-gain/articleshow/136022280.cms"
         },
         {
+          "date": "2026-11-19",
+          "source": "Economic Times",
           "title": "Crystal Crop Protection IPO Day 2: Issue subscribed 2x so far, GMP signals 6% listing premium. Should you apply?",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-ipo-day-2-issue-subscribed-2x-so-far-gmp-signals-6-listing-premium-should-you-apply/articleshow/135984176.cms",
-          "source": "Economic Times",
-          "date": "2026-11-19"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-ipo-day-2-issue-subscribed-2x-so-far-gmp-signals-6-listing-premium-should-you-apply/articleshow/135984176.cms"
         },
         {
+          "date": "2026-11-18",
+          "source": "Economic Times",
           "title": "Crystal Crop Protection IPO subscribed 55% so far; GMP signals 7% listing premium",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-ipo-subscribed-55-so-far-gmp-signals-7-listing-premium/articleshow/135957040.cms",
-          "source": "Economic Times",
-          "date": "2026-11-18"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-ipo-subscribed-55-so-far-gmp-signals-7-listing-premium/articleshow/135957040.cms"
         },
         {
+          "date": "2026-11-18",
+          "source": "Economic Times",
           "title": "Crystal Crop Protection IPO opens: GMP signals 5% listing premium; should you subscribe?",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-ipo-opens-today-gmp-signals-5-listing-premium-should-you-subscribe/articleshow/135945842.cms",
-          "source": "Economic Times",
-          "date": "2026-11-18"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/crystal-crop-protection-ipo-opens-today-gmp-signals-5-listing-premium-should-you-subscribe/articleshow/135945842.cms"
         },
         {
-          "title": "Crystal Crop Protection IPO: margins up, returns waiting",
-          "url": "https://www.valueresearchonline.com/stories/230242/crystal-crop-protection-ipo-review/",
+          "date": "2026-11-18",
           "source": "valueresearchonline.com",
-          "date": "2026-11-18"
+          "title": "Crystal Crop Protection IPO: margins up, returns waiting",
+          "url": "https://www.valueresearchonline.com/stories/230242/crystal-crop-protection-ipo-review/"
         }
       ],
       "unconfirmed": false
@@ -3353,80 +3353,80 @@
       },
       "tracker_rating": 3,
       "reservation_detail": {
-        "qib": {
-          "shares": 2322000,
-          "pct": 47.37
-        },
         "anchor": {
-          "shares": 1386000,
-          "pct": 28.27
-        },
-        "qib_ex_anchor": {
-          "shares": 936000,
-          "pct": 19.09
-        },
-        "nii": {
-          "shares": 698400,
-          "pct": 14.25
+          "pct": 28.27,
+          "shares": 1386000
         },
         "bnii": {
-          "shares": 465600,
-          "pct": 9.5
-        },
-        "snii": {
-          "shares": 232800,
-          "pct": 4.75
-        },
-        "retail": {
-          "shares": 1629600,
-          "pct": 33.24
+          "pct": 9.5,
+          "shares": 465600
         },
         "market_maker": {
-          "shares": 252000,
-          "pct": 5.14
+          "pct": 5.14,
+          "shares": 252000
+        },
+        "nii": {
+          "pct": 14.25,
+          "shares": 698400
+        },
+        "qib": {
+          "pct": 47.37,
+          "shares": 2322000
+        },
+        "qib_ex_anchor": {
+          "pct": 19.09,
+          "shares": 936000
+        },
+        "retail": {
+          "pct": 33.24,
+          "shares": 1629600
+        },
+        "snii": {
+          "pct": 4.75,
+          "shares": 232800
         }
       },
       "anchor_shares": 1386000,
       "uses": [
         {
-          "use": "Purchase",
-          "cr": 98.13
+          "cr": 98.13,
+          "use": "Purchase"
         }
       ],
       "fin": {
         "years": [
           {
-            "y": "FY24",
-            "income": 130.23,
-            "pat": 18.05,
-            "ebitda": 37.98,
-            "net_worth": 31.96,
-            "debt": 93.12,
             "assets": 147.69,
+            "debt": 93.12,
+            "ebitda": 37.98,
+            "income": 130.23,
+            "net_worth": 31.96,
+            "pat": 18.05,
+            "roce": 24.11,
             "roe": 78.65,
-            "roce": 24.11
+            "y": "FY24"
           },
           {
-            "y": "FY25",
-            "income": 179.66,
-            "pat": 24.43,
-            "ebitda": 51.77,
-            "net_worth": 56.39,
-            "debt": 110.14,
             "assets": 201.82,
+            "debt": 110.14,
+            "ebitda": 51.77,
+            "income": 179.66,
+            "net_worth": 56.39,
+            "pat": 24.43,
+            "roce": 23.85,
             "roe": 55.3,
-            "roce": 23.85
+            "y": "FY25"
           },
           {
-            "y": "FY26",
-            "income": 211.69,
-            "pat": 29.16,
-            "ebitda": 65.01,
-            "net_worth": 85.55,
-            "debt": 164.08,
             "assets": 287.07,
+            "debt": 164.08,
+            "ebitda": 65.01,
+            "income": 211.69,
+            "net_worth": 85.55,
+            "pat": 29.16,
+            "roce": 19.06,
             "roe": 41.08,
-            "roce": 19.06
+            "y": "FY26"
           }
         ],
         "ratios": {}
@@ -3446,7 +3446,7 @@
         {
           "source": "Tracker D",
           "gmp": 41,
-          "at": "2026-11-25T16:15"
+          "at": "2026-11-25T19:15"
         },
         {
           "source": "Tracker B",
@@ -3513,8 +3513,8 @@
       "gmp_high": 67,
       "exchange": "SME",
       "gmp": 41,
-      "gmp_asof": "2026-11-25T18:55",
-      "gmp_source_latest": "Tracker B",
+      "gmp_asof": "2026-11-25T19:15",
+      "gmp_source_latest": "Tracker D",
       "gmp_pct": 16.73,
       "gmp_spread": {
         "min": 35,
@@ -3532,10 +3532,10 @@
       "status": "closed",
       "news": [
         {
-          "title": "Watrana Rentals SME IPO opens today; GMP at 25%, check key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/watrana-rentals-sme-ipo-opens-today-gmp-at-25-check-key-details/articleshow/135977017.cms",
+          "date": "2026-11-19",
           "source": "Economic Times",
-          "date": "2026-11-19"
+          "title": "Watrana Rentals SME IPO opens today; GMP at 25%, check key details",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/watrana-rentals-sme-ipo-opens-today-gmp-at-25-check-key-details/articleshow/135977017.cms"
         }
       ],
       "unconfirmed": false
@@ -3894,48 +3894,48 @@
       },
       "tracker_rating": 1,
       "reservation_detail": {
-        "qib": {
-          "shares": 281280428,
-          "pct": 42.5
-        },
         "anchor": {
-          "shares": 168768255,
-          "pct": 25.5
-        },
-        "qib_ex_anchor": {
-          "shares": 112512173,
-          "pct": 17.0
-        },
-        "nii": {
-          "shares": 84384129,
-          "pct": 12.75
+          "pct": 25.5,
+          "shares": 168768255
         },
         "bnii": {
-          "shares": 56256086,
-          "pct": 8.5
-        },
-        "snii": {
-          "shares": 28128043,
-          "pct": 4.25
-        },
-        "retail": {
-          "shares": 196896299,
-          "pct": 29.75
+          "pct": 8.5,
+          "shares": 56256086
         },
         "employee": {
-          "shares": 33091815,
-          "pct": 5.0
+          "pct": 5.0,
+          "shares": 33091815
+        },
+        "nii": {
+          "pct": 12.75,
+          "shares": 84384129
+        },
+        "qib": {
+          "pct": 42.5,
+          "shares": 281280428
+        },
+        "qib_ex_anchor": {
+          "pct": 17.0,
+          "shares": 112512173
+        },
+        "retail": {
+          "pct": 29.75,
+          "shares": 196896299
         },
         "shareholders": {
-          "shares": 66183630,
-          "pct": 10.0
+          "pct": 10.0,
+          "shares": 66183630
+        },
+        "snii": {
+          "pct": 4.25,
+          "shares": 28128043
         }
       },
       "anchor_shares": 168768255,
       "uses": [
         {
-          "use": "Offer for Sale Proceeds",
-          "cr": 8981.12
+          "cr": 8981.12,
+          "use": "Offer for Sale Proceeds"
         }
       ],
       "gmp_sources": [
@@ -4026,40 +4026,40 @@
       "status": "closed",
       "news": [
         {
+          "date": "2026-11-25",
+          "source": "Economic Times",
           "title": "Mahanadi Coalfields IPO allotment today: How to check status on KFin Technologies, BSE, NSE",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-allotment-today-how-to-check-status-on-kfin-technologies-bse-nse/articleshow/136150576.cms",
-          "source": "Economic Times",
-          "date": "2026-11-25"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-allotment-today-how-to-check-status-on-kfin-technologies-bse-nse/articleshow/136150576.cms"
         },
         {
-          "title": "Mahanadi Coalfields IPO allotment today: How to check status online on KFin Technologies, BSE, NSE",
-          "url": "https://www.cnbctv18.com/market/mahanadi-coalfields-ipo-allotment-today-how-to-check-status-online-on-kfin-technologies-bse-nse-listing-date-20040665.htm",
+          "date": "2026-11-25",
           "source": "cnbctv18.com",
-          "date": "2026-11-25"
+          "title": "Mahanadi Coalfields IPO allotment today: How to check status online on KFin Technologies, BSE, NSE",
+          "url": "https://www.cnbctv18.com/market/mahanadi-coalfields-ipo-allotment-today-how-to-check-status-online-on-kfin-technologies-bse-nse-listing-date-20040665.htm"
         },
         {
-          "title": "Mahanadi Coalfields IPO allotment to be out today; How to check status on KFin Tech, BSE, NSE | Step-by-step guide",
-          "url": "https://www.livemint.com/market/ipo/mahanadi-coalfields-ipo-allotment-to-be-out-today-how-to-check-status-on-kfin-tech-bse-nse-step-by-step-guide-11795571152208.html",
+          "date": "2026-11-25",
           "source": "Mint",
-          "date": "2026-11-25"
+          "title": "Mahanadi Coalfields IPO allotment to be out today; How to check status on KFin Tech, BSE, NSE | Step-by-step guide",
+          "url": "https://www.livemint.com/market/ipo/mahanadi-coalfields-ipo-allotment-to-be-out-today-how-to-check-status-on-kfin-tech-bse-nse-step-by-step-guide-11795571152208.html"
         },
         {
+          "date": "2026-11-23",
+          "source": "Economic Times",
           "title": "Mahanadi Coalfields IPO subscribed over 1.5 times on strong QIB push. Here's what the GMP indicates",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-gets-fully-subscribed-on-day-3-gmp-hints-at-muted-debut/articleshow/136098484.cms",
-          "source": "Economic Times",
-          "date": "2026-11-23"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-gets-fully-subscribed-on-day-3-gmp-hints-at-muted-debut/articleshow/136098484.cms"
         },
         {
+          "date": "2026-11-23",
+          "source": "Economic Times",
           "title": "Mahanadi Coalfields IPO: GMP hints at muted debut. Which mutual fund schemes bought the Coal India subsidiary’s shares during anchor allocation?",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-gmp-hints-at-muted-debut-which-mutual-fund-schemes-bought-the-coal-india-subsidiarys-shares-during-anchor-allocation/articleshow/136088230.cms",
-          "source": "Economic Times",
-          "date": "2026-11-23"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-gmp-hints-at-muted-debut-which-mutual-fund-schemes-bought-the-coal-india-subsidiarys-shares-during-anchor-allocation/articleshow/136088230.cms"
         },
         {
-          "title": "Mahanadi Coalfields IPO subscribed 1.52 times on final day",
-          "url": "https://www.thehindubusinessline.com/markets/mahanadi-coalfields-ipo-subscribed-152-times-on-final-day/article71735552.ece",
+          "date": "2026-11-23",
           "source": "BusinessLine",
-          "date": "2026-11-23"
+          "title": "Mahanadi Coalfields IPO subscribed 1.52 times on final day",
+          "url": "https://www.thehindubusinessline.com/markets/mahanadi-coalfields-ipo-subscribed-152-times-on-final-day/article71735552.ece"
         }
       ],
       "unconfirmed": false
@@ -4086,7 +4086,7 @@
         "total": 0.41
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-25T18:57",
+      "sub_asof": "2026-11-25T19:11",
       "registrar": "Mas Services Limited",
       "lead_managers": [
         "Erudore Capital Private Limited"
@@ -4103,7 +4103,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": 6596000.0,
-      "updated_on": "2026-11-25T17:01+05:30",
+      "updated_on": "2026-11-25T19:15+05:30",
       "reservation": {
         "qib": 1.0,
         "nii": 47.0,
@@ -4117,75 +4117,75 @@
       },
       "tracker_rating": 3,
       "reservation_detail": {
-        "qib": {
-          "shares": 66000,
-          "pct": 1.0
-        },
-        "nii": {
-          "shares": 3100000,
-          "pct": 47.0
-        },
         "bnii": {
-          "shares": 2067000,
-          "pct": 31.34
-        },
-        "snii": {
-          "shares": 1033000,
-          "pct": 15.66
-        },
-        "retail": {
-          "shares": 3100000,
-          "pct": 47.0
+          "pct": 31.34,
+          "shares": 2067000
         },
         "market_maker": {
-          "shares": 330000,
-          "pct": 100.0
+          "pct": 100.0,
+          "shares": 330000
+        },
+        "nii": {
+          "pct": 47.0,
+          "shares": 3100000
+        },
+        "qib": {
+          "pct": 1.0,
+          "shares": 66000
+        },
+        "retail": {
+          "pct": 47.0,
+          "shares": 3100000
+        },
+        "snii": {
+          "pct": 15.66,
+          "shares": 1033000
         }
       },
       "uses": [
         {
-          "use": "Capital Expense",
-          "cr": 23.54
+          "cr": 23.54,
+          "use": "Capital Expense"
         },
         {
-          "use": "Debt",
-          "cr": 48.5
+          "cr": 48.5,
+          "use": "Debt"
         }
       ],
       "fin": {
         "years": [
           {
-            "y": "FY24",
-            "income": 36.9,
-            "pat": 3.08,
-            "ebitda": 8.61,
-            "net_worth": 12.98,
-            "debt": 76.45,
             "assets": 114.78,
+            "debt": 76.45,
+            "ebitda": 8.61,
+            "income": 36.9,
+            "net_worth": 12.98,
+            "pat": 3.08,
+            "roce": 9.22,
             "roe": 47.11,
-            "roce": 9.22
+            "y": "FY24"
           },
           {
-            "y": "FY25",
-            "income": 61.13,
-            "pat": 5.5,
-            "ebitda": 14.54,
-            "net_worth": 18.48,
-            "debt": 72.76,
             "assets": 115.22,
+            "debt": 72.76,
+            "ebitda": 14.54,
+            "income": 61.13,
+            "net_worth": 18.48,
+            "pat": 5.5,
+            "roce": 17.2,
             "roe": 34.94,
-            "roce": 17.2
+            "y": "FY25"
           },
           {
-            "y": "FY26",
-            "income": 78.32,
-            "pat": 11.59,
-            "ebitda": 20.46,
-            "net_worth": 25.07,
-            "debt": 89.95,
             "assets": 145.86,
+            "debt": 89.95,
+            "ebitda": 20.46,
+            "income": 78.32,
+            "net_worth": 25.07,
+            "pat": 11.59,
+            "roce": 19.76,
             "roe": 53.24,
-            "roce": 19.76
+            "y": "FY26"
           }
         ],
         "ratios": {}
@@ -4276,25 +4276,25 @@
       "sub_history": null,
       "series": "Equity",
       "nse_status": "Forthcoming",
-      "shares_offered": 19443116.0,
-      "updated_on": "2026-11-25T17:01+05:30",
+      "shares_offered": 10474048.0,
+      "updated_on": "2026-11-25T19:15+05:30",
       "bse_ipo_no": "8097",
       "uses": [
         {
-          "use": "Capital Expense",
-          "cr": 21.4
+          "cr": 21.4,
+          "use": "Capital Expense"
         },
         {
-          "use": "Capital Expense",
-          "cr": 41.5
+          "cr": 41.5,
+          "use": "Capital Expense"
         },
         {
-          "use": "Investment",
-          "cr": 50.81
+          "cr": 50.81,
+          "use": "Investment"
         },
         {
-          "use": "Debt",
-          "cr": 21.0
+          "cr": 21.0,
+          "use": "Debt"
         }
       ],
       "sector": "Luxury Food Services / Hospitality",
@@ -4348,16 +4348,16 @@
       "status": "upcoming",
       "news": [
         {
-          "title": "Foodlink F&B Holdings announces price band for Rs 361-crore IPO. Check key dates & other details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-announces-price-band-for-rs-361-crore-ipo-check-key-dates-other-details/articleshow/136091391.cms",
+          "date": "2026-11-23",
           "source": "Economic Times",
-          "date": "2026-11-23"
+          "title": "Foodlink F&B Holdings announces price band for Rs 361-crore IPO. Check key dates & other details",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-announces-price-band-for-rs-361-crore-ipo-check-key-dates-other-details/articleshow/136091391.cms"
         },
         {
-          "title": "IPO watch: Foodlink F&B Holdings, Integris Medtech among three new issues to open for subscriptions this week; check details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-watch-foodlink-fb-holdings-integris-medtech-among-three-new-issues-to-open-for-subscriptions-this-week-check-details/articleshow/136070288.cms",
+          "date": "2026-11-22",
           "source": "Economic Times",
-          "date": "2026-11-22"
+          "title": "IPO watch: Foodlink F&B Holdings, Integris Medtech among three new issues to open for subscriptions this week; check details",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-watch-foodlink-fb-holdings-integris-medtech-among-three-new-issues-to-open-for-subscriptions-this-week-check-details/articleshow/136070288.cms"
         }
       ],
       "unconfirmed": false
@@ -4387,15 +4387,15 @@
       "series": "SME",
       "nse_status": "Forthcoming",
       "shares_offered": 3600000.0,
-      "updated_on": "2026-11-25T17:01+05:30",
+      "updated_on": "2026-11-25T19:15+05:30",
       "reservation_detail": {
         "nii": {
-          "shares": 1711200,
-          "pct": 50.04
+          "pct": 50.04,
+          "shares": 1711200
         },
         "retail": {
-          "shares": 1708800,
-          "pct": 49.96
+          "pct": 49.96,
+          "shares": 1708800
         }
       },
       "reservation": {
@@ -4404,28 +4404,28 @@
       },
       "uses": [
         {
-          "use": "Asset",
-          "cr": 2.0
+          "cr": 2.0,
+          "use": "Asset"
         },
         {
-          "use": "Asset",
-          "cr": 0.6
+          "cr": 0.6,
+          "use": "Asset"
         },
         {
-          "use": "Factory",
-          "cr": 3.97
+          "cr": 3.97,
+          "use": "Factory"
         },
         {
-          "use": "Working Capital",
-          "cr": 13.0
+          "cr": 13.0,
+          "use": "Working Capital"
         },
         {
-          "use": "Other",
-          "cr": 4.34
+          "cr": 4.34,
+          "use": "Other"
         },
         {
-          "use": "Expenditure",
-          "cr": 4.0
+          "cr": 4.0,
+          "use": "Expenditure"
         }
       ],
       "sector": "Industrial Products",
@@ -4434,7 +4434,7 @@
         {
           "source": "Tracker D",
           "gmp": 4,
-          "at": "2026-11-25T16:15"
+          "at": "2026-11-25T19:15"
         }
       ],
       "gmp_history": [
@@ -4448,7 +4448,7 @@
       "gmp_high": 4,
       "exchange": "SME",
       "gmp": 4,
-      "gmp_asof": "2026-11-25T16:15",
+      "gmp_asof": "2026-11-25T19:15",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 4.04,
       "status": "upcoming",
@@ -4484,20 +4484,20 @@
       "series": "SME",
       "nse_status": "Forthcoming",
       "shares_offered": 3000000.0,
-      "updated_on": "2026-11-25T17:01+05:30",
+      "updated_on": "2026-11-25T19:15+05:30",
       "tracker_rating": 3,
       "reservation_detail": {
-        "qib": {
-          "shares": 1406400,
-          "pct": 49.35
-        },
         "nii": {
-          "shares": 432000,
-          "pct": 15.16
+          "pct": 15.16,
+          "shares": 432000
+        },
+        "qib": {
+          "pct": 49.35,
+          "shares": 1406400
         },
         "retail": {
-          "shares": 1011200,
-          "pct": 35.49
+          "pct": 35.49,
+          "shares": 1011200
         }
       },
       "reservation": {
@@ -4507,12 +4507,12 @@
       },
       "uses": [
         {
-          "use": "Working Capital",
-          "cr": 29.3
+          "cr": 29.3,
+          "use": "Working Capital"
         },
         {
-          "use": "Debt",
-          "cr": 7.0
+          "cr": 7.0,
+          "use": "Debt"
         }
       ],
       "sector": "Packaging",
@@ -4594,7 +4594,7 @@
       "series": "Equity",
       "nse_status": "Forthcoming",
       "shares_offered": 27000000.0,
-      "updated_on": "2026-11-25T17:01+05:30",
+      "updated_on": "2026-11-25T19:15+05:30",
       "gmp_sources": [],
       "gmp_history": [],
       "exchange": "SME",
@@ -4603,10 +4603,10 @@
       "status": "upcoming",
       "news": [
         {
-          "title": "Two IPOs to hit market in Dec; Monomark Engineering, Matangi Rubber to raise funds via public issues",
-          "url": "https://www.thehindubusinessline.com/markets/two-ipos-to-hit-market-in-dec-monomark-engineering-matangi-rubber-to-raise-funds-via-public-issues/article71737316.ece",
+          "date": "2026-11-24",
           "source": "BusinessLine",
-          "date": "2026-11-24"
+          "title": "Two IPOs to hit market in Dec; Monomark Engineering, Matangi Rubber to raise funds via public issues",
+          "url": "https://www.thehindubusinessline.com/markets/two-ipos-to-hit-market-in-dec-monomark-engineering-matangi-rubber-to-raise-funds-via-public-issues/article71737316.ece"
         }
       ],
       "unconfirmed": false
@@ -4893,16 +4893,16 @@
       "status": "upcoming",
       "news": [
         {
-          "title": "Foodlink F&B Holdings announces price band for Rs 361-crore IPO. Check key dates & other details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-announces-price-band-for-rs-361-crore-ipo-check-key-dates-other-details/articleshow/136091391.cms",
+          "date": "2026-11-23",
           "source": "Economic Times",
-          "date": "2026-11-23"
+          "title": "Foodlink F&B Holdings announces price band for Rs 361-crore IPO. Check key dates & other details",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-announces-price-band-for-rs-361-crore-ipo-check-key-dates-other-details/articleshow/136091391.cms"
         },
         {
-          "title": "IPO watch: Foodlink F&B Holdings, Integris Medtech among three new issues to open for subscriptions this week; check details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-watch-foodlink-fb-holdings-integris-medtech-among-three-new-issues-to-open-for-subscriptions-this-week-check-details/articleshow/136070288.cms",
+          "date": "2026-11-22",
           "source": "Economic Times",
-          "date": "2026-11-22"
+          "title": "IPO watch: Foodlink F&B Holdings, Integris Medtech among three new issues to open for subscriptions this week; check details",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-watch-foodlink-fb-holdings-integris-medtech-among-three-new-issues-to-open-for-subscriptions-this-week-check-details/articleshow/136070288.cms"
         }
       ],
       "unconfirmed": true
@@ -4922,16 +4922,16 @@
       "tracker_rating": 3,
       "uses": [
         {
-          "use": "Debt",
-          "cr": 45.0
+          "cr": 45.0,
+          "use": "Debt"
         },
         {
-          "use": "Facility",
-          "cr": 19.06
+          "cr": 19.06,
+          "use": "Facility"
         },
         {
-          "use": "Facility",
-          "cr": 8.44
+          "cr": 8.44,
+          "use": "Facility"
         }
       ],
       "sector": "Tyres & Rubber Products",
@@ -4989,16 +4989,16 @@
       },
       "news": [
         {
-          "title": "Two IPOs to hit market in Dec; Monomark Engineering, Matangi Rubber to raise funds via public issues",
-          "url": "https://www.thehindubusinessline.com/markets/two-ipos-to-hit-market-in-dec-monomark-engineering-matangi-rubber-to-raise-funds-via-public-issues/article71737316.ece",
+          "date": "2026-11-24",
           "source": "BusinessLine",
-          "date": "2026-11-24"
+          "title": "Two IPOs to hit market in Dec; Monomark Engineering, Matangi Rubber to raise funds via public issues",
+          "url": "https://www.thehindubusinessline.com/markets/two-ipos-to-hit-market-in-dec-monomark-engineering-matangi-rubber-to-raise-funds-via-public-issues/article71737316.ece"
         },
         {
-          "title": "Matangi Rubber’s Rs 125.16 cr IPO opens Dec 1: Check price band, lot size and other key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/matangi-rubbers-rs-125-16-cr-ipo-opens-dec-1-check-price-band-lot-size-and-other-key-details/articleshow/136101832.cms",
+          "date": "2026-11-23",
           "source": "Economic Times",
-          "date": "2026-11-23"
+          "title": "Matangi Rubber’s Rs 125.16 cr IPO opens Dec 1: Check price band, lot size and other key details",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/matangi-rubbers-rs-125-16-cr-ipo-opens-dec-1-check-price-band-lot-size-and-other-key-details/articleshow/136101832.cms"
         }
       ],
       "unconfirmed": true
@@ -5018,45 +5018,45 @@
       "tracker_rating": 4,
       "uses": [
         {
-          "use": "Working Capital",
-          "cr": 120.0
+          "cr": 120.0,
+          "use": "Working Capital"
         }
       ],
       "sector": "Civil Construction",
       "fin": {
         "years": [
           {
-            "y": "FY23",
-            "income": 0,
-            "pat": 0,
-            "ebitda": 0,
-            "net_worth": 0,
-            "debt": 0,
             "assets": 0,
+            "debt": 0,
+            "ebitda": 0,
+            "income": 0,
+            "net_worth": 0,
+            "pat": 0,
+            "roce": 10.53,
             "roe": 10.53,
-            "roce": 10.53
+            "y": "FY23"
           },
           {
-            "y": "FY24",
-            "income": 392.14,
-            "pat": 14.83,
-            "ebitda": 31.89,
-            "net_worth": 9.68,
-            "debt": 0,
             "assets": 240.81,
+            "debt": 0,
+            "ebitda": 31.89,
+            "income": 392.14,
+            "net_worth": 9.68,
+            "pat": 14.83,
+            "roce": 20.05,
             "roe": 24.67,
-            "roce": 20.05
+            "y": "FY24"
           },
           {
-            "y": "FY25",
-            "income": 477.29,
-            "pat": 18,
-            "ebitda": 39,
-            "net_worth": 17,
-            "debt": 0,
             "assets": 294,
+            "debt": 0,
+            "ebitda": 39,
+            "income": 477.29,
+            "net_worth": 17,
+            "pat": 18,
+            "roce": 21.95,
             "roe": 24.86,
-            "roce": 21.95
+            "y": "FY25"
           }
         ],
         "ratios": {}
@@ -5110,10 +5110,10 @@
       "status": "upcoming",
       "news": [
         {
-          "title": "Two IPOs to hit market in Dec; Monomark Engineering, Matangi Rubber to raise funds via public issues",
-          "url": "https://www.thehindubusinessline.com/markets/two-ipos-to-hit-market-in-dec-monomark-engineering-matangi-rubber-to-raise-funds-via-public-issues/article71737316.ece",
+          "date": "2026-11-24",
           "source": "BusinessLine",
-          "date": "2026-11-24"
+          "title": "Two IPOs to hit market in Dec; Monomark Engineering, Matangi Rubber to raise funds via public issues",
+          "url": "https://www.thehindubusinessline.com/markets/two-ipos-to-hit-market-in-dec-monomark-engineering-matangi-rubber-to-raise-funds-via-public-issues/article71737316.ece"
         }
       ],
       "unconfirmed": true
