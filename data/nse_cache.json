@@ -2366,7 +2366,7 @@
   "series": "SME",
   "nse_status": "Active",
   "shares_offered": 6596000.0,
-  "last_seen": "2026-11-25T00:01+05:30",
+  "last_seen": "2026-11-25T13:00+05:30",
   "segment": "SME",
   "registrar": "Mas Services Limited",
   "lead_managers": [
@@ -2398,7 +2398,7 @@
   "series": "Equity",
   "nse_status": "Forthcoming",
   "shares_offered": 19443116.0,
-  "last_seen": "2026-11-25T00:01+05:30",
+  "last_seen": "2026-11-25T13:00+05:30",
   "segment": "SME",
   "lot": 78,
   "registrar": "MUFG Intime India Private Limited",
@@ -2409,5 +2409,25 @@
   "cutoff_time": "5:00 PM",
   "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_FOODLINK.zip",
   "details_at": "2026-11-25T00:01+05:30"
+ },
+ "AIRPRO": {
+  "symbol": "AIRPRO",
+  "first_seen": "2026-11-25T13:00+05:30",
+  "name": "Airpro Technology India",
+  "open": "2026-11-27",
+  "close": "2026-12-01",
+  "price": 99,
+  "price_low": 99,
+  "series": "SME",
+  "nse_status": "Forthcoming",
+  "shares_offered": 3600000.0,
+  "last_seen": "2026-11-25T13:00+05:30",
+  "segment": "SME",
+  "registrar": "MUFG Intime India Private Limited",
+  "lead_managers": [
+   "Horizon Management Private Limited"
+  ],
+  "cutoff_time": "5:00 PM",
+  "details_at": "2026-11-25T13:00+05:30"
  }
 }

@@ -93,6 +93,20 @@
    "price_low": 130
   },
   {
+   "name": "Airpro Technology India",
+   "segment": "SME",
+   "symbol": "AIRPRO",
+   "listing": null,
+   "exchange": "SME",
+   "live": true,
+   "id": "airpro",
+   "status": "upcoming",
+   "open": "2026-11-27",
+   "close": "2026-12-01",
+   "price": 99,
+   "price_low": 99
+  },
+  {
    "name": "Foodlink F&B Holdings (India)",
    "segment": "SME",
    "symbol": "FOODLINK",
@@ -5765,5 +5779,5 @@
    "status": "listed"
   }
  ],
- "generated_at": "2026-11-25T11:00+05:30"
+ "generated_at": "2026-11-25T13:00+05:30"
 }
