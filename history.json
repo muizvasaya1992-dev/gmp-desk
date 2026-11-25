@@ -48,6 +48,20 @@
    "unconfirmed": true
   },
   {
+   "name": "Monomark Engineering (India)",
+   "segment": "SME",
+   "symbol": "MONOMARK",
+   "listing": null,
+   "exchange": "SME",
+   "live": true,
+   "id": "monomark",
+   "status": "upcoming",
+   "open": "2026-12-02",
+   "close": "2026-12-04",
+   "price": 65,
+   "price_low": 60
+  },
+  {
    "name": "Airpro Technology",
    "segment": "SME",
    "symbol": null,
@@ -5778,5 +5792,5 @@
    "status": "listed"
   }
  ],
- "generated_at": "2026-11-25T15:54+05:30"
+ "generated_at": "2026-11-25T17:01+05:30"
 }

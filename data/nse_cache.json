@@ -2366,7 +2366,7 @@
   "series": "SME",
   "nse_status": "Active",
   "shares_offered": 6596000.0,
-  "last_seen": "2026-11-25T15:54+05:30",
+  "last_seen": "2026-11-25T17:01+05:30",
   "segment": "SME",
   "registrar": "Mas Services Limited",
   "lead_managers": [
@@ -2398,7 +2398,7 @@
   "series": "Equity",
   "nse_status": "Forthcoming",
   "shares_offered": 19443116.0,
-  "last_seen": "2026-11-25T15:54+05:30",
+  "last_seen": "2026-11-25T17:01+05:30",
   "segment": "SME",
   "lot": 78,
   "registrar": "MUFG Intime India Private Limited",
@@ -2421,7 +2421,7 @@
   "series": "SME",
   "nse_status": "Forthcoming",
   "shares_offered": 3600000.0,
-  "last_seen": "2026-11-25T15:54+05:30",
+  "last_seen": "2026-11-25T17:01+05:30",
   "segment": "SME",
   "registrar": "MUFG Intime India Private Limited",
   "lead_managers": [
@@ -2441,7 +2441,7 @@
   "series": "SME",
   "nse_status": "Forthcoming",
   "shares_offered": 3000000.0,
-  "last_seen": "2026-11-25T15:54+05:30",
+  "last_seen": "2026-11-25T17:01+05:30",
   "segment": "SME",
   "registrar": "Mufg Intime India Private Limited",
   "lead_managers": [
@@ -2450,5 +2450,28 @@
   "cutoff_time": "5:00 PM",
   "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_AJPACK.zip",
   "details_at": "2026-11-25T15:54+05:30"
+ },
+ "MONOMARK": {
+  "symbol": "MONOMARK",
+  "first_seen": "2026-11-25T17:01+05:30",
+  "name": "Monomark Engineering (India)",
+  "open": "2026-12-02",
+  "close": "2026-12-04",
+  "price": 65,
+  "price_low": 60,
+  "series": "Equity",
+  "nse_status": "Forthcoming",
+  "shares_offered": 27000000.0,
+  "last_seen": "2026-11-25T17:01+05:30",
+  "segment": "SME",
+  "lot": 225,
+  "registrar": "Bigshare Services Private Limited",
+  "lead_managers": [
+   "Holani Consultants Private Limited"
+  ],
+  "retail_max": 200000,
+  "cutoff_time": "5:00 PM",
+  "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_MONOMARK.zip",
+  "details_at": "2026-11-25T17:01+05:30"
  }
 }
