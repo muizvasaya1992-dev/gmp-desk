@@ -1,7 +1,91 @@
 {
  "b": {
-  "fetched_at": "2026-11-25T06:01+05:30",
+  "fetched_at": "2026-11-25T06:15+05:30",
   "records": [
+   {
+    "src": "Tracker B",
+    "slug": "crystal-crop-protection",
+    "name": "Crystal Crop Protection",
+    "segment": "MAIN",
+    "exchange": null,
+    "open": "2026-11-18",
+    "close": "2026-11-20",
+    "boa": "2026-11-23",
+    "listing": "2026-11-26",
+    "price": 272.0,
+    "price_low": 259.0,
+    "size_cr": 455.72,
+    "gmp": 19.0,
+    "gmp_at": "2026-11-25T06:05",
+    "sub_total": 17.07,
+    "sub_retail": 9.281,
+    "sub_at": "2026-11-20T19:05",
+    "sub_cats": null,
+    "gmp_days": [
+     [
+      "2026-11-11",
+      0.0
+     ],
+     [
+      "2026-11-12",
+      0.0
+     ],
+     [
+      "2026-11-13",
+      45.0
+     ],
+     [
+      "2026-11-14",
+      30.0
+     ],
+     [
+      "2026-11-15",
+      15.0
+     ],
+     [
+      "2026-11-16",
+      15.0
+     ],
+     [
+      "2026-11-17",
+      13.0
+     ],
+     [
+      "2026-11-18",
+      18.0
+     ],
+     [
+      "2026-11-19",
+      17.0
+     ],
+     [
+      "2026-11-20",
+      14.0
+     ],
+     [
+      "2026-11-23",
+      14.0
+     ],
+     [
+      "2026-11-24",
+      19.0
+     ]
+    ],
+    "rhp_url": "https://www.iiflcapital.com/institutional-equities/upload/investmentbanking/prospects/crystal_crop_protection_limited_-_red_herring_prospectus.pdf",
+    "drhp_url": "https://www.sebi.gov.in/filings/public-issues/dec-2025/crystal-crop-protection-limited-drhp_98530.html",
+    "lot_raw": 55.0,
+    "sector": "Chemicals",
+    "quota": {
+     "qib": 50.0,
+     "nii": 15.0,
+     "retail": 35.0
+    },
+    "fresh_cr": 354.77,
+    "ofs_cr": 100.71,
+    "registrar": "MUFG Intime India Pvt Ltd",
+    "lead_manager": "IIFL Capital Services Ltd; DAM Capital Advisors Ltd; Motilal Oswal Investment Advisors Ltd",
+    "live": true
+   },
    {
     "src": "Tracker B",
     "slug": "mahanadi-coalfields",
@@ -16,7 +100,7 @@
     "price_low": 129.0,
     "size_cr": 8981.12,
     "gmp": 0.0,
-    "gmp_at": "2026-11-24T23:55",
+    "gmp_at": "2026-11-25T06:05",
     "sub_total": 1.52,
     "sub_retail": 0.46,
     "sub_at": "2026-11-23T19:05",
@@ -95,86 +179,58 @@
    },
    {
     "src": "Tracker B",
-    "slug": "crystal-crop-protection",
-    "name": "Crystal Crop Protection",
-    "segment": "MAIN",
-    "exchange": null,
-    "open": "2026-11-18",
-    "close": "2026-11-20",
-    "boa": "2026-11-23",
-    "listing": "2026-11-26",
-    "price": 272.0,
-    "price_low": 259.0,
-    "size_cr": 455.72,
-    "gmp": 19.0,
-    "gmp_at": "2026-11-24T23:56",
-    "sub_total": 17.07,
-    "sub_retail": 9.281,
-    "sub_at": "2026-11-20T19:05",
+    "slug": "shree-siddhivinayak-greentech-industries",
+    "name": "Shree Siddhivinayak Greentech Industries",
+    "segment": "SME",
+    "exchange": "NSE SME",
+    "open": "2026-11-25",
+    "close": "2026-11-27",
+    "boa": "2026-11-30",
+    "listing": "2026-12-02",
+    "price": 142.0,
+    "price_low": 130.0,
+    "size_cr": 93.66,
+    "gmp": 20.0,
+    "gmp_at": "2026-11-25T06:06",
+    "sub_total": 0.0,
+    "sub_retail": null,
+    "sub_at": null,
     "sub_cats": null,
     "gmp_days": [
      [
-      "2026-11-11",
-      0.0
-     ],
-     [
-      "2026-11-12",
-      0.0
-     ],
-     [
-      "2026-11-13",
-      45.0
-     ],
-     [
-      "2026-11-14",
-      30.0
-     ],
-     [
-      "2026-11-15",
-      15.0
-     ],
-     [
-      "2026-11-16",
-      15.0
-     ],
-     [
-      "2026-11-17",
-      13.0
-     ],
-     [
-      "2026-11-18",
-      18.0
-     ],
-     [
-      "2026-11-19",
-      17.0
-     ],
-     [
       "2026-11-20",
-      14.0
+      0.0
+     ],
+     [
+      "2026-11-21",
+      0.0
+     ],
+     [
+      "2026-11-22",
+      0.0
      ],
      [
       "2026-11-23",
-      14.0
+      10.0
      ],
      [
       "2026-11-24",
-      19.0
+      20.0
      ]
     ],
-    "rhp_url": "https://www.iiflcapital.com/institutional-equities/upload/investmentbanking/prospects/crystal_crop_protection_limited_-_red_herring_prospectus.pdf",
-    "drhp_url": "https://www.sebi.gov.in/filings/public-issues/dec-2025/crystal-crop-protection-limited-drhp_98530.html",
-    "lot_raw": 55.0,
-    "sector": "Chemicals",
+    "rhp_url": null,
+    "drhp_url": null,
+    "lot_raw": 2000.0,
+    "sector": "FMCG / Jaggery and Sugar Processing",
     "quota": {
-     "qib": 50.0,
-     "nii": 15.0,
-     "retail": 35.0
+     "qib": 1.05,
+     "nii": 49.47,
+     "retail": 49.47
     },
-    "fresh_cr": 354.77,
-    "ofs_cr": 100.71,
-    "registrar": "MUFG Intime India Pvt Ltd",
-    "lead_manager": "IIFL Capital Services Ltd; DAM Capital Advisors Ltd; Motilal Oswal Investment Advisors Ltd",
+    "fresh_cr": 93.66,
+    "ofs_cr": 0.0,
+    "registrar": "MAS Services Limited",
+    "lead_manager": "Erudore Capital Private Limited",
     "live": true
    },
    {
@@ -191,7 +247,7 @@
     "price_low": 232.0,
     "size_cr": 120.1,
     "gmp": 40.0,
-    "gmp_at": "2026-11-24T23:55",
+    "gmp_at": "2026-11-25T06:05",
     "sub_total": 150.48,
     "sub_retail": 108.71,
     "sub_at": "2026-11-23T19:05",
@@ -265,7 +321,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-25T06:01+05:30",
+  "fetched_at": "2026-11-25T06:15+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -820,7 +876,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-25T06:01+05:30",
+  "fetched_at": "2026-11-25T06:15+05:30",
   "records": [
    {
     "src": "Tracker D",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T06:00+05:30",
+  "generated_at": "2026-11-25T06:15+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-24T12:33+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-25T06:00+05:30",
+    "nse_ok_at": "2026-11-25T06:15+05:30",
     "bse_ok_at": "2026-11-24T12:35+05:30"
   },
   "ipos": [
@@ -3180,12 +3180,12 @@
         {
           "source": "Tracker D",
           "gmp": 18,
-          "at": "2026-11-25T03:01"
+          "at": "2026-11-25T06:15"
         },
         {
           "source": "Tracker B",
           "gmp": 19,
-          "at": "2026-11-24T23:56"
+          "at": "2026-11-25T06:05"
         }
       ],
       "gmp_history": [
@@ -3228,6 +3228,10 @@
         {
           "date": "2026-11-24",
           "gmp": 19
+        },
+        {
+          "date": "2026-11-25",
+          "gmp": 19
         }
       ],
       "history_source": "Tracker B",
@@ -3235,7 +3239,7 @@
       "gmp_high": 45,
       "exchange": "SME",
       "gmp": 18,
-      "gmp_asof": "2026-11-25T03:01",
+      "gmp_asof": "2026-11-25T06:15",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 6.62,
       "gmp_spread": {
@@ -3246,10 +3250,10 @@
         "diff_pct_of_price": 1.84
       },
       "gmp_trend": {
-        "dir": "steady",
-        "change": 2,
+        "dir": "rising",
+        "change": 5,
         "days": 3,
-        "since": "2026-11-20"
+        "since": "2026-11-23"
       },
       "status": "closed",
       "news": [
@@ -3442,12 +3446,12 @@
         {
           "source": "Tracker D",
           "gmp": 40,
-          "at": "2026-11-25T03:01"
+          "at": "2026-11-25T06:15"
         },
         {
           "source": "Tracker B",
           "gmp": 40,
-          "at": "2026-11-24T21:55"
+          "at": "2026-11-25T06:05"
         }
       ],
       "gmp_history": [
@@ -3498,6 +3502,10 @@
         {
           "date": "2026-11-24",
           "gmp": 40
+        },
+        {
+          "date": "2026-11-25",
+          "gmp": 40
         }
       ],
       "history_source": "Tracker B",
@@ -3505,7 +3513,7 @@
       "gmp_high": 67,
       "exchange": "SME",
       "gmp": 40,
-      "gmp_asof": "2026-11-25T03:01",
+      "gmp_asof": "2026-11-25T06:15",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 16.33,
       "gmp_spread": {
@@ -3519,7 +3527,7 @@
         "dir": "falling",
         "change": -15,
         "days": 3,
-        "since": "2026-11-22"
+        "since": "2026-11-23"
       },
       "status": "closed",
       "news": [
@@ -4093,6 +4101,15 @@
       "nse_status": "Active",
       "shares_offered": 6596000.0,
       "updated_on": "2026-11-25T00:01+05:30",
+      "reservation": {
+        "nii": 49.47,
+        "retail": 49.47
+      },
+      "sector": "FMCG / Jaggery and Sugar Processing",
+      "issue_split": {
+        "fresh_cr": 93.66,
+        "ofs_cr": 0.0
+      },
       "tracker_rating": 3,
       "reservation_detail": {
         "nii": {
@@ -4104,10 +4121,6 @@
           "shares": 3100000
         }
       },
-      "reservation": {
-        "nii": 49.47,
-        "retail": 49.47
-      },
       "uses": [
         {
           "cr": 23.54,
@@ -4118,7 +4131,6 @@
           "use": "Debt"
         }
       ],
-      "sector": "Sugar",
       "lot_basis": "tracker",
       "gmp_sources": [
         {
@@ -4129,7 +4141,12 @@
         {
           "source": "Tracker D",
           "gmp": 10,
-          "at": "2026-11-25T03:15"
+          "at": "2026-11-25T06:15"
+        },
+        {
+          "source": "Tracker B",
+          "gmp": 20,
+          "at": "2026-11-25T06:06"
         }
       ],
       "gmp_history": [
@@ -4151,14 +4168,14 @@
       "gmp_high": 20,
       "exchange": "SME",
       "gmp": 10,
-      "gmp_asof": "2026-11-25T03:15",
+      "gmp_asof": "2026-11-25T06:15",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 7.04,
       "gmp_spread": {
         "min": 10,
         "max": 20,
         "diff": 10,
-        "n": 2,
+        "n": 3,
         "diff_pct_of_price": 7.04
       },
       "gmp_trend": {
@@ -4264,7 +4281,7 @@
         {
           "source": "Tracker D",
           "gmp": 16,
-          "at": "2026-11-25T03:15"
+          "at": "2026-11-25T06:15"
         }
       ],
       "gmp_history": [
@@ -4298,7 +4315,7 @@
       "gmp_high": 16,
       "exchange": "SME",
       "gmp": 16,
-      "gmp_asof": "2026-11-25T03:15",
+      "gmp_asof": "2026-11-25T06:15",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 8.38,
       "gmp_trend": {
@@ -4558,7 +4575,7 @@
         {
           "source": "Tracker D",
           "gmp": 20,
-          "at": "2026-11-25T03:15"
+          "at": "2026-11-25T06:15"
         }
       ],
       "gmp_history": [
@@ -4579,7 +4596,7 @@
       "gmp_low": 18,
       "gmp_high": 20,
       "gmp": 20,
-      "gmp_asof": "2026-11-25T03:15",
+      "gmp_asof": "2026-11-25T06:15",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 11.11,
       "gmp_spread": {
@@ -4659,7 +4676,7 @@
       "sector": "Industrial Products",
       "gmp_watch": {
         "sources": 2,
-        "at": "2026-11-25T06:00"
+        "at": "2026-11-25T06:15"
       },
       "gmp_sources": [],
       "gmp_history": [],
@@ -4800,7 +4817,7 @@
         {
           "source": "Tracker D",
           "gmp": 21.5,
-          "at": "2026-11-25T03:15"
+          "at": "2026-11-25T06:15"
         }
       ],
       "gmp_history": [
@@ -4817,7 +4834,7 @@
       "gmp_low": 20,
       "gmp_high": 22,
       "gmp": 21.5,
-      "gmp_asof": "2026-11-25T03:15",
+      "gmp_asof": "2026-11-25T06:15",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 12.5,
       "gmp_spread": {
