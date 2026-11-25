@@ -4,6 +4,21 @@
  "nse_as_of": "2026-11-25T00:01+05:30",
  "rows": [
   {
+   "name": "Monomark Engineering",
+   "segment": "MAIN",
+   "symbol": null,
+   "listing": "2026-12-09",
+   "exchange": "NSE · BSE",
+   "live": true,
+   "id": "monomark-engineering",
+   "status": "upcoming",
+   "open": "2026-12-02",
+   "close": "2026-12-04",
+   "price": 65,
+   "price_low": null,
+   "unconfirmed": true
+  },
+  {
    "name": "A J Packaging",
    "segment": "SME",
    "symbol": null,
@@ -5750,5 +5765,5 @@
    "status": "listed"
   }
  ],
- "generated_at": "2026-11-25T00:01+05:30"
+ "generated_at": "2026-11-25T11:00+05:30"
 }
