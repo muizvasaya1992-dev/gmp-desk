@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T10:45+05:30",
+  "generated_at": "2026-11-26T11:01+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-25T15:54+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-26T10:45+05:30",
+    "nse_ok_at": "2026-11-26T11:01+05:30",
     "bse_ok_at": "2026-11-25T15:58+05:30"
   },
   "ipos": [
@@ -3796,8 +3796,8 @@
         },
         {
           "source": "Tracker D",
-          "gmp": 0.7,
-          "at": "2026-11-23T11:36"
+          "gmp": 0.25,
+          "at": "2026-11-26T11:01"
         },
         {
           "source": "Tracker B",
@@ -3851,16 +3851,16 @@
       "gmp_low": 0,
       "gmp_high": 13,
       "exchange": "SME",
-      "gmp": 0,
-      "gmp_asof": "2026-11-23T17:00",
-      "gmp_source_latest": "Public trackers",
-      "gmp_pct": 0.0,
+      "gmp": 0.25,
+      "gmp_asof": "2026-11-26T11:01",
+      "gmp_source_latest": "Tracker D",
+      "gmp_pct": 0.18,
       "gmp_spread": {
         "min": 0,
-        "max": 0.7,
-        "diff": 0.7,
+        "max": 0.5,
+        "diff": 0.5,
         "n": 4,
-        "diff_pct_of_price": 0.51
+        "diff_pct_of_price": 0.37
       },
       "gmp_trend": {
         "dir": "steady",
@@ -3931,7 +3931,7 @@
         "total": 0.41
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-26T10:43",
+      "sub_asof": "2026-11-26T10:58",
       "registrar": "Mas Services Limited",
       "lead_managers": [
         "Erudore Capital Private Limited"
@@ -3956,7 +3956,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": 6596000.0,
-      "updated_on": "2026-11-26T10:45+05:30",
+      "updated_on": "2026-11-26T11:01+05:30",
       "reservation": {
         "qib": 1.0,
         "nii": 47.0,
@@ -4124,14 +4124,14 @@
       "segment": "SME",
       "sub": {
         "qib": 0.0,
-        "nii": 0.08,
-        "bnii": 0.05,
-        "snii": 0.14,
-        "retail": 0.67,
-        "total": 0.15
+        "nii": 0.11,
+        "bnii": 0.09,
+        "snii": 0.16,
+        "retail": 0.84,
+        "total": 0.19
       },
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-11-26T10:42",
+      "sub_asof": "2026-11-26T10:57",
       "registrar": "MUFG Intime India Private Limited",
       "lead_managers": [
         "Equirus Capital Limited (formerly known as Equirus Capital Private Limited) and JM Financial Limited"
@@ -4171,12 +4171,21 @@
           "snii": 0.14,
           "retail": 0.67,
           "total": 0.15
+        },
+        {
+          "at": "2026-11-26T11:01+05:30",
+          "qib": 0.0,
+          "nii": 0.11,
+          "bnii": 0.09,
+          "snii": 0.16,
+          "retail": 0.84,
+          "total": 0.19
         }
       ],
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 10474048.0,
-      "updated_on": "2026-11-26T10:45+05:30",
+      "updated_on": "2026-11-26T11:01+05:30",
       "bse_ipo_no": "8097",
       "uses": [
         {
@@ -4296,7 +4305,7 @@
       "series": "SME",
       "nse_status": "Forthcoming",
       "shares_offered": 3600000.0,
-      "updated_on": "2026-11-26T10:45+05:30",
+      "updated_on": "2026-11-26T11:01+05:30",
       "reservation_detail": {
         "nii": {
           "pct": 50.04,
@@ -4403,7 +4412,7 @@
       "series": "SME",
       "nse_status": "Forthcoming",
       "shares_offered": 3000000.0,
-      "updated_on": "2026-11-26T10:45+05:30",
+      "updated_on": "2026-11-26T11:01+05:30",
       "tracker_rating": 3,
       "reservation_detail": {
         "nii": {
@@ -4517,7 +4526,7 @@
       "series": "Equity",
       "nse_status": "Forthcoming",
       "shares_offered": 27000000.0,
-      "updated_on": "2026-11-26T10:45+05:30",
+      "updated_on": "2026-11-26T11:01+05:30",
       "gmp_sources": [],
       "gmp_history": [],
       "exchange": "SME",
@@ -4790,15 +4799,15 @@
       },
       "tracker_rating": 2,
       "sub": {
-        "retail": 0.67,
-        "nii": 0.08,
-        "bnii": 0.05,
-        "snii": 0.14,
+        "retail": 0.82,
+        "nii": 0.11,
+        "bnii": 0.09,
+        "snii": 0.15,
         "qib": 0.0,
-        "total": 0.15
+        "total": 0.18
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-26T10:44",
+      "sub_asof": "2026-11-26T10:59",
       "gmp_sources": [
         {
           "source": "Tracker C",
