@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T18:31+05:30",
+  "generated_at": "2026-11-26T18:45+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-26T11:37+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-26T18:31+05:30",
+    "nse_ok_at": "2026-11-26T18:45+05:30",
     "bse_ok_at": "2026-11-26T11:41+05:30"
   },
   "ipos": [
@@ -3926,7 +3926,7 @@
         "total": 1.27
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-26T18:25",
+      "sub_asof": "2026-11-26T18:42",
       "registrar": "Mas Services Limited",
       "lead_managers": [
         "Erudore Capital Private Limited"
@@ -4052,18 +4052,18 @@
         },
         {
           "source": "Tracker B",
-          "gmp": 7,
-          "at": "2026-11-26T18:00"
+          "gmp": 6,
+          "at": "2026-11-26T18:40"
         }
       ],
       "gmp_history": [
         {
           "date": "2026-11-23",
-          "gmp": 5
+          "gmp": 10
         },
         {
           "date": "2026-11-24",
-          "gmp": 10
+          "gmp": 20
         },
         {
           "date": "2026-11-25",
@@ -4074,24 +4074,24 @@
           "gmp": 6
         }
       ],
-      "history_source": "Tracker D",
+      "history_source": "Tracker B",
       "gmp_low": 5,
       "gmp_high": 25,
       "exchange": "SME",
       "gmp": 6,
-      "gmp_asof": "2026-11-26T18:15",
-      "gmp_source_latest": "Tracker D",
+      "gmp_asof": "2026-11-26T18:40",
+      "gmp_source_latest": "Tracker B",
       "gmp_pct": 4.23,
       "gmp_spread": {
         "min": 6,
-        "max": 7,
-        "diff": 1,
+        "max": 6,
+        "diff": 0,
         "n": 3,
-        "diff_pct_of_price": 0.7
+        "diff_pct_of_price": 0.0
       },
       "gmp_trend": {
         "dir": "falling",
-        "change": -4,
+        "change": -14,
         "days": 3,
         "since": "2026-11-24"
       },
@@ -5109,7 +5109,7 @@
         "total": 1.08
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-26T18:27",
+      "sub_asof": "2026-11-26T18:43",
       "gmp_sources": [
         {
           "source": "Tracker C",
