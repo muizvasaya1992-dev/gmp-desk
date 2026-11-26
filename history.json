@@ -1,7 +1,7 @@
 {
  "year": 2026,
  "bse_as_of": "2026-11-26T11:37+05:30",
- "nse_as_of": "2026-11-26T11:37+05:30",
+ "nse_as_of": "2026-11-27T00:01+05:30",
  "rows": [
   {
    "name": "Monomark Engineering",
@@ -68,7 +68,7 @@
    "exchange": "NSE Emerge",
    "live": true,
    "id": "airpro-technology",
-   "status": "upcoming",
+   "status": "open",
    "open": "2026-11-27",
    "close": "2026-12-01",
    "price": 99,
@@ -112,7 +112,7 @@
    "exchange": "SME",
    "live": true,
    "id": "shreesidhi",
-   "status": "open",
+   "status": "closing_today",
    "open": "2026-11-25",
    "close": "2026-11-27",
    "price": 142,
@@ -126,7 +126,7 @@
    "exchange": "SME",
    "live": true,
    "id": "airpro",
-   "status": "upcoming",
+   "status": "open",
    "open": "2026-11-27",
    "close": "2026-12-01",
    "price": 99,
@@ -140,7 +140,7 @@
    "exchange": "SME",
    "live": true,
    "id": "watrana",
-   "status": "closed",
+   "status": "listed",
    "open": "2026-11-19",
    "close": "2026-11-23",
    "price": 245,
@@ -154,7 +154,7 @@
    "exchange": "SME",
    "live": true,
    "id": "mahacoal",
-   "status": "closed",
+   "status": "listed",
    "open": "2026-11-19",
    "close": "2026-11-23",
    "price": 136,
@@ -230,20 +230,6 @@
    "status": "listed"
   },
   {
-   "name": "Maxwell Engineering Solutions",
-   "segment": "SME",
-   "symbol": "MAXENGS",
-   "open": "2026-10-30",
-   "close": "2026-11-03",
-   "listing": "2026-11-06",
-   "price": 158,
-   "price_low": 150,
-   "exchange": "NSE Emerge",
-   "live": true,
-   "id": "maxengs",
-   "status": "listed"
-  },
-  {
    "name": "HGS (India)",
    "segment": "SME",
    "symbol": "HGSINDIALT",
@@ -255,6 +241,20 @@
    "exchange": "NSE Emerge",
    "live": true,
    "id": "hgsindialt",
+   "status": "listed"
+  },
+  {
+   "name": "Maxwell Engineering Solutions",
+   "segment": "SME",
+   "symbol": "MAXENGS",
+   "open": "2026-10-30",
+   "close": "2026-11-03",
+   "listing": "2026-11-06",
+   "price": 158,
+   "price_low": 150,
+   "exchange": "NSE Emerge",
+   "live": true,
+   "id": "maxengs",
    "status": "listed"
   },
   {
@@ -1110,19 +1110,6 @@
    "status": "listed"
   },
   {
-   "name": "Bench Mark Infotech Services",
-   "segment": "SME",
-   "symbol": "BMISL",
-   "open": "2026-09-25",
-   "close": "2026-09-29",
-   "listing": "2026-10-05",
-   "price": 110,
-   "price_low": 104,
-   "exchange": "NSE Emerge",
-   "id": "bench-mark-infotech-services",
-   "status": "listed"
-  },
-  {
    "name": "Himalayan Solar",
    "segment": "SME",
    "symbol": "HIMALAYAN",
@@ -1133,6 +1120,19 @@
    "price_low": 98,
    "exchange": "NSE Emerge",
    "id": "himalayan-solar",
+   "status": "listed"
+  },
+  {
+   "name": "Bench Mark Infotech Services",
+   "segment": "SME",
+   "symbol": "BMISL",
+   "open": "2026-09-25",
+   "close": "2026-09-29",
+   "listing": "2026-10-05",
+   "price": 110,
+   "price_low": 104,
+   "exchange": "NSE Emerge",
+   "id": "bench-mark-infotech-services",
    "status": "listed"
   },
   {
@@ -1336,19 +1336,6 @@
    "status": "listed"
   },
   {
-   "name": "Pooja Logistics",
-   "segment": "SME",
-   "symbol": "POOJALOGIS",
-   "open": "2026-09-23",
-   "close": "2026-09-25",
-   "listing": "2026-09-30",
-   "price": 115,
-   "price_low": 109,
-   "exchange": "NSE Emerge",
-   "id": "pooja-logistics",
-   "status": "listed"
-  },
-  {
    "name": "Coreintegra Consulting Services",
    "segment": "SME",
    "symbol": "COREIN",
@@ -1359,6 +1346,19 @@
    "price_low": 74,
    "exchange": "NSE Emerge",
    "id": "coreintegra-consulting-services",
+   "status": "listed"
+  },
+  {
+   "name": "Pooja Logistics",
+   "segment": "SME",
+   "symbol": "POOJALOGIS",
+   "open": "2026-09-23",
+   "close": "2026-09-25",
+   "listing": "2026-09-30",
+   "price": 115,
+   "price_low": 109,
+   "exchange": "NSE Emerge",
+   "id": "pooja-logistics",
    "status": "listed"
   },
   {
@@ -2347,19 +2347,6 @@
    "status": "listed"
   },
   {
-   "name": "Ashutosh Fibre",
-   "segment": "SME",
-   "symbol": "ASHUTOSH",
-   "open": "2026-08-31",
-   "close": "2026-09-02",
-   "listing": "2026-09-07",
-   "price": 92,
-   "price_low": 87,
-   "exchange": "NSE Emerge",
-   "id": "ashutosh-fibre",
-   "status": "listed"
-  },
-  {
    "name": "Shanti Inorganics",
    "segment": "SME",
    "symbol": "SHANTIINOR",
@@ -2370,6 +2357,19 @@
    "price_low": 79,
    "exchange": "NSE Emerge",
    "id": "shanti-inorganics",
+   "status": "listed"
+  },
+  {
+   "name": "Ashutosh Fibre",
+   "segment": "SME",
+   "symbol": "ASHUTOSH",
+   "open": "2026-08-31",
+   "close": "2026-09-02",
+   "listing": "2026-09-07",
+   "price": 92,
+   "price_low": 87,
+   "exchange": "NSE Emerge",
+   "id": "ashutosh-fibre",
    "status": "listed"
   },
   {
@@ -2566,19 +2566,6 @@
    "status": "listed"
   },
   {
-   "name": "Madhur Knit Crafts",
-   "segment": "SME",
-   "symbol": "MADHURKNIT",
-   "open": "2026-08-24",
-   "close": "2026-08-27",
-   "listing": "2026-09-01",
-   "price": 100,
-   "price_low": 95,
-   "exchange": "NSE Emerge",
-   "id": "madhur-knit-crafts",
-   "status": "listed"
-  },
-  {
    "name": "ABH Healthcare",
    "segment": "SME",
    "symbol": "ABH",
@@ -2589,6 +2576,19 @@
    "price_low": 96,
    "exchange": "NSE Emerge",
    "id": "abh-healthcare",
+   "status": "listed"
+  },
+  {
+   "name": "Madhur Knit Crafts",
+   "segment": "SME",
+   "symbol": "MADHURKNIT",
+   "open": "2026-08-24",
+   "close": "2026-08-27",
+   "listing": "2026-09-01",
+   "price": 100,
+   "price_low": 95,
+   "exchange": "NSE Emerge",
+   "id": "madhur-knit-crafts",
    "status": "listed"
   },
   {
@@ -5360,19 +5360,6 @@
    "status": "listed"
   },
   {
-   "name": "Brandman Retail",
-   "segment": "SME",
-   "symbol": "BRANDMAN",
-   "open": "2026-02-04",
-   "close": "2026-02-06",
-   "listing": "2026-02-11",
-   "price": 176,
-   "price_low": 167,
-   "exchange": "NSE Emerge",
-   "id": "brandman-retail",
-   "status": "listed"
-  },
-  {
    "name": "Grover Jewells",
    "segment": "SME",
    "symbol": "GJL",
@@ -5383,6 +5370,19 @@
    "price_low": 83,
    "exchange": "NSE Emerge",
    "id": "grover-jewells",
+   "status": "listed"
+  },
+  {
+   "name": "Brandman Retail",
+   "segment": "SME",
+   "symbol": "BRANDMAN",
+   "open": "2026-02-04",
+   "close": "2026-02-06",
+   "listing": "2026-02-11",
+   "price": 176,
+   "price_low": 167,
+   "exchange": "NSE Emerge",
+   "id": "brandman-retail",
    "status": "listed"
   },
   {
@@ -5811,5 +5811,5 @@
    "status": "listed"
   }
  ],
- "generated_at": "2026-11-26T13:15+05:30"
+ "generated_at": "2026-11-27T00:01+05:30"
 }
