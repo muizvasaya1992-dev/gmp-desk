@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T18:24+05:30",
+  "generated_at": "2026-11-26T18:31+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-26T11:37+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-26T18:24+05:30",
+    "nse_ok_at": "2026-11-26T18:31+05:30",
     "bse_ok_at": "2026-11-26T11:41+05:30"
   },
   "ipos": [
@@ -3926,7 +3926,7 @@
         "total": 1.27
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-26T18:20",
+      "sub_asof": "2026-11-26T18:25",
       "registrar": "Mas Services Limited",
       "lead_managers": [
         "Erudore Capital Private Limited"
@@ -4394,8 +4394,8 @@
       "gmp_sources": [
         {
           "source": "Tracker D",
-          "gmp": 12,
-          "at": "2026-11-26T18:15"
+          "gmp": 10,
+          "at": "2026-11-26T18:31"
         }
       ],
       "gmp_history": [
@@ -4425,20 +4425,20 @@
         },
         {
           "date": "2026-11-26",
-          "gmp": 12
+          "gmp": 10
         }
       ],
       "history_source": "Tracker D",
-      "gmp_low": 12,
+      "gmp_low": 10,
       "gmp_high": 27,
       "exchange": "SME",
-      "gmp": 12,
-      "gmp_asof": "2026-11-26T18:15",
+      "gmp": 10,
+      "gmp_asof": "2026-11-26T18:31",
       "gmp_source_latest": "Tracker D",
-      "gmp_pct": 6.28,
+      "gmp_pct": 5.24,
       "gmp_trend": {
         "dir": "falling",
-        "change": -4,
+        "change": -6,
         "days": 3,
         "since": "2026-11-24"
       },
@@ -5109,7 +5109,7 @@
         "total": 1.08
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-26T18:22",
+      "sub_asof": "2026-11-26T18:27",
       "gmp_sources": [
         {
           "source": "Tracker C",
