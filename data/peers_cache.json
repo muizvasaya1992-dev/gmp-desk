@@ -1,93 +1,65 @@
 {
  "b": {
-  "fetched_at": "2026-11-26T06:01+05:30",
+  "fetched_at": "2026-11-26T06:15+05:30",
   "records": [
    {
     "src": "Tracker B",
-    "slug": "crystal-crop-protection",
-    "name": "Crystal Crop Protection",
+    "slug": "foodlink-fb-holdings",
+    "name": "Foodlink F&B Holdings",
     "segment": "MAIN",
     "exchange": null,
-    "open": "2026-11-18",
-    "close": "2026-11-20",
-    "boa": "2026-11-23",
-    "listing": "2026-11-26",
-    "price": 272.0,
-    "price_low": 259.0,
-    "size_cr": 455.72,
-    "gmp": 17.0,
-    "gmp_at": "2026-11-25T23:55",
-    "sub_total": 17.07,
-    "sub_retail": 9.281,
-    "sub_at": "2026-11-20T19:05",
+    "open": "2026-11-26",
+    "close": "2026-11-30",
+    "boa": "2026-12-01",
+    "listing": "2026-12-03",
+    "price": 191.0,
+    "price_low": 181.0,
+    "size_cr": 360.76,
+    "gmp": 18.0,
+    "gmp_at": "2026-11-26T06:00",
+    "sub_total": 0.0,
+    "sub_retail": null,
+    "sub_at": null,
     "sub_cats": null,
     "gmp_days": [
      [
-      "2026-11-11",
-      0.0
-     ],
-     [
-      "2026-11-12",
-      0.0
-     ],
-     [
-      "2026-11-13",
-      45.0
-     ],
-     [
-      "2026-11-14",
-      30.0
-     ],
-     [
-      "2026-11-15",
-      15.0
-     ],
-     [
-      "2026-11-16",
-      15.0
-     ],
-     [
-      "2026-11-17",
-      13.0
-     ],
-     [
-      "2026-11-18",
-      18.0
-     ],
-     [
-      "2026-11-19",
-      17.0
-     ],
-     [
       "2026-11-20",
-      14.0
+      12.0
+     ],
+     [
+      "2026-11-21",
+      12.0
+     ],
+     [
+      "2026-11-22",
+      12.0
      ],
      [
       "2026-11-23",
-      14.0
+      15.0
      ],
      [
       "2026-11-24",
-      19.0
+      20.0
      ],
      [
       "2026-11-25",
-      17.0
+      18.0
      ]
     ],
-    "rhp_url": "https://www.iiflcapital.com/institutional-equities/upload/investmentbanking/prospects/crystal_crop_protection_limited_-_red_herring_prospectus.pdf",
-    "drhp_url": "https://www.sebi.gov.in/filings/public-issues/dec-2025/crystal-crop-protection-limited-drhp_98530.html",
-    "lot_raw": 55.0,
-    "sector": "Chemicals",
+    "rhp_url": "https://s3.ap-south-1.amazonaws.com/cms.equirus.tech/Foodlink_F_and_B_Holdings_India_Limited_Red_Herring_Prospectus_95e7e3e3b7.pdf",
+    "drhp_url": "https://www.sebi.gov.in/filings/public-issues/jul-2025/foodlink-fandb-holdings-india-limited_94988.html",
+    "lot_raw": 78.0,
+    "sector": "Food & Beverage / Hospitality",
     "quota": {
-     "qib": 50.0,
+     "qib": 75.0,
      "nii": 15.0,
-     "retail": 35.0
+     "retail": 10.0
     },
-    "fresh_cr": 354.77,
-    "ofs_cr": 100.71,
-    "registrar": "MUFG Intime India Pvt Ltd",
-    "lead_manager": "IIFL Capital Services Ltd; DAM Capital Advisors Ltd; Motilal Oswal Investment Advisors Ltd",
+    "fresh_cr": 192.0,
+    "ofs_cr": 168.76,
+    "registrar": "MUFG Intime India Pvt. Ltd.",
+    "lead_manager": "Equirus Capital Ltd. and JM Financial Ltd.",
     "live": true
    },
    {
@@ -104,7 +76,7 @@
     "price_low": 129.0,
     "size_cr": 8981.12,
     "gmp": 0.0,
-    "gmp_at": "2026-11-25T23:55",
+    "gmp_at": "2026-11-26T06:00",
     "sub_total": 1.52,
     "sub_retail": 0.46,
     "sub_at": "2026-11-23T19:05",
@@ -187,6 +159,98 @@
    },
    {
     "src": "Tracker B",
+    "slug": "crystal-crop-protection",
+    "name": "Crystal Crop Protection",
+    "segment": "MAIN",
+    "exchange": null,
+    "open": "2026-11-18",
+    "close": "2026-11-20",
+    "boa": "2026-11-23",
+    "listing": "2026-11-26",
+    "price": 272.0,
+    "price_low": 259.0,
+    "size_cr": 455.72,
+    "gmp": 0.0,
+    "gmp_at": "2026-11-26T06:01",
+    "sub_total": 17.07,
+    "sub_retail": 9.281,
+    "sub_at": "2026-11-20T19:05",
+    "sub_cats": null,
+    "gmp_days": [
+     [
+      "2026-11-11",
+      0.0
+     ],
+     [
+      "2026-11-12",
+      0.0
+     ],
+     [
+      "2026-11-13",
+      45.0
+     ],
+     [
+      "2026-11-14",
+      30.0
+     ],
+     [
+      "2026-11-15",
+      15.0
+     ],
+     [
+      "2026-11-16",
+      15.0
+     ],
+     [
+      "2026-11-17",
+      13.0
+     ],
+     [
+      "2026-11-18",
+      18.0
+     ],
+     [
+      "2026-11-19",
+      17.0
+     ],
+     [
+      "2026-11-20",
+      14.0
+     ],
+     [
+      "2026-11-23",
+      14.0
+     ],
+     [
+      "2026-11-24",
+      19.0
+     ],
+     [
+      "2026-11-25",
+      17.0
+     ],
+     [
+      "2026-11-26",
+      0.0
+     ]
+    ],
+    "rhp_url": "https://www.iiflcapital.com/institutional-equities/upload/investmentbanking/prospects/crystal_crop_protection_limited_-_red_herring_prospectus.pdf",
+    "drhp_url": "https://www.sebi.gov.in/filings/public-issues/dec-2025/crystal-crop-protection-limited-drhp_98530.html",
+    "lot_raw": 55.0,
+    "sector": "Chemicals",
+    "quota": {
+     "qib": 50.0,
+     "nii": 15.0,
+     "retail": 35.0
+    },
+    "fresh_cr": 354.77,
+    "ofs_cr": 100.71,
+    "registrar": "MUFG Intime India Pvt Ltd",
+    "lead_manager": "IIFL Capital Services Ltd; DAM Capital Advisors Ltd; Motilal Oswal Investment Advisors Ltd",
+    "live": true
+   },
+   {
+    "src": "Tracker B",
     "slug": "shree-siddhivinayak-greentech-industries",
     "name": "Shree Siddhivinayak Greentech Industries",
     "segment": "SME",
@@ -199,7 +263,7 @@
     "price_low": 130.0,
     "size_cr": 93.66,
     "gmp": 25.0,
-    "gmp_at": "2026-11-25T23:55",
+    "gmp_at": "2026-11-26T06:00",
     "sub_total": 0.41,
     "sub_retail": 0.23,
     "sub_at": "2026-11-26T05:31",
@@ -264,7 +328,7 @@
     "price_low": 232.0,
     "size_cr": 120.1,
     "gmp": 22.0,
-    "gmp_at": "2026-11-25T23:55",
+    "gmp_at": "2026-11-26T06:00",
     "sub_total": 150.48,
     "sub_retail": 108.71,
     "sub_at": "2026-11-23T19:05",
@@ -342,7 +406,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-26T06:01+05:30",
+  "fetched_at": "2026-11-26T06:15+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -897,7 +961,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-26T06:01+05:30",
+  "fetched_at": "2026-11-26T06:15+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -1041,12 +1105,12 @@
     "detail": {
      "uses": [
       {
-       "use": "OFS",
-       "cr": 2000.0
+       "cr": 2000.0,
+       "use": "OFS"
       },
       {
-       "use": "OFS",
-       "cr": 1000.0
+       "cr": 1000.0,
+       "use": "OFS"
       }
      ]
     }
