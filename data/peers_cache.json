@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-26T11:38+05:30",
+  "fetched_at": "2026-11-26T14:01+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -15,18 +15,18 @@
     "price": 191.0,
     "price_low": 181.0,
     "size_cr": 360.76,
-    "gmp": 16.5,
-    "gmp_at": "2026-11-26T11:35",
-    "sub_total": 0.25,
-    "sub_retail": 1.13,
-    "sub_at": "2026-11-26T11:36",
+    "gmp": 14.0,
+    "gmp_at": "2026-11-26T14:00",
+    "sub_total": 0.41,
+    "sub_retail": 1.8,
+    "sub_at": "2026-11-26T14:00",
     "sub_cats": {
-     "retail": 1.13,
-     "nii": 0.15,
-     "bnii": 0.13,
-     "snii": 0.2,
+     "retail": 1.8,
+     "nii": 0.26,
+     "bnii": 0.22,
+     "snii": 0.34,
      "qib": 0.0,
-     "total": 0.25
+     "total": 0.41
     },
     "gmp_days": [
      [
@@ -55,7 +55,7 @@
      ],
      [
       "2026-11-26",
-      16.5
+      14.0
      ]
     ],
     "rhp_url": "https://s3.ap-south-1.amazonaws.com/cms.equirus.tech/Foodlink_F_and_B_Holdings_India_Limited_Red_Herring_Prospectus_95e7e3e3b7.pdf",
@@ -86,8 +86,8 @@
     "price": 136.0,
     "price_low": 129.0,
     "size_cr": 8981.12,
-    "gmp": 1.5,
-    "gmp_at": "2026-11-26T11:35",
+    "gmp": 1.25,
+    "gmp_at": "2026-11-26T14:00",
     "sub_total": 1.52,
     "sub_retail": 0.46,
     "sub_at": "2026-11-23T19:05",
@@ -152,7 +152,7 @@
      ],
      [
       "2026-11-26",
-      1.5
+      1.25
      ]
     ],
     "rhp_url": "https://media.ipoji.com/rhp/MCL_RHP_Filing_Version_13112026.pdf",
@@ -186,7 +186,7 @@
     "price_low": 259.0,
     "size_cr": 455.72,
     "gmp": 17.0,
-    "gmp_at": "2026-11-26T11:36",
+    "gmp_at": "2026-11-26T14:00",
     "sub_total": 17.07,
     "sub_retail": 9.281,
     "sub_at": "2026-11-20T19:05",
@@ -277,11 +277,11 @@
     "price": 142.0,
     "price_low": 130.0,
     "size_cr": 93.66,
-    "gmp": 25.0,
-    "gmp_at": "2026-11-26T11:35",
+    "gmp": 21.5,
+    "gmp_at": "2026-11-26T14:00",
     "sub_total": 0.59,
     "sub_retail": 0.63,
-    "sub_at": "2026-11-26T11:35",
+    "sub_at": "2026-11-26T14:01",
     "sub_cats": {
      "retail": 0.63,
      "nii": 0.47,
@@ -312,6 +312,10 @@
      [
       "2026-11-25",
       25.0
+     ],
+     [
+      "2026-11-26",
+      21.5
      ]
     ],
     "rhp_url": null,
@@ -343,7 +347,7 @@
     "price_low": 232.0,
     "size_cr": 120.1,
     "gmp": 22.0,
-    "gmp_at": "2026-11-26T11:35",
+    "gmp_at": "2026-11-26T14:00",
     "sub_total": 150.48,
     "sub_retail": 108.71,
     "sub_at": "2026-11-23T19:05",
@@ -421,7 +425,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-26T13:46+05:30",
+  "fetched_at": "2026-11-26T14:01+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -976,7 +980,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-26T13:46+05:30",
+  "fetched_at": "2026-11-26T14:01+05:30",
   "records": [
    {
     "src": "Tracker D",
