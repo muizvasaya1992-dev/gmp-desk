@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-26T09:01+05:30",
+  "fetched_at": "2026-11-26T09:16+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,7 +16,7 @@
     "price_low": 181.0,
     "size_cr": 360.76,
     "gmp": 18.0,
-    "gmp_at": "2026-11-26T08:55",
+    "gmp_at": "2026-11-26T09:10",
     "sub_total": 0.0,
     "sub_retail": null,
     "sub_at": null,
@@ -76,7 +76,7 @@
     "price_low": 129.0,
     "size_cr": 8981.12,
     "gmp": 0.0,
-    "gmp_at": "2026-11-26T09:00",
+    "gmp_at": "2026-11-26T09:10",
     "sub_total": 1.52,
     "sub_retail": 0.46,
     "sub_at": "2026-11-23T19:05",
@@ -170,8 +170,8 @@
     "price": 272.0,
     "price_low": 259.0,
     "size_cr": 455.72,
-    "gmp": 0.0,
-    "gmp_at": "2026-11-26T08:55",
+    "gmp": 17.0,
+    "gmp_at": "2026-11-26T09:10",
     "sub_total": 17.07,
     "sub_retail": 9.281,
     "sub_at": "2026-11-20T19:05",
@@ -231,7 +231,7 @@
      ],
      [
       "2026-11-26",
-      0.0
+      17.0
      ]
     ],
     "rhp_url": "https://www.iiflcapital.com/institutional-equities/upload/investmentbanking/prospects/crystal_crop_protection_limited_-_red_herring_prospectus.pdf",
@@ -263,15 +263,15 @@
     "price_low": 130.0,
     "size_cr": 93.66,
     "gmp": 25.0,
-    "gmp_at": "2026-11-26T08:55",
-    "sub_total": 0.41,
-    "sub_retail": 0.23,
-    "sub_at": "2026-11-26T08:57",
+    "gmp_at": "2026-11-26T09:10",
+    "sub_total": 0.42,
+    "sub_retail": 0.24,
+    "sub_at": "2026-11-26T09:12",
     "sub_cats": {
-     "retail": 0.23,
+     "retail": 0.24,
      "nii": 0.51,
      "qib": 4.27,
-     "total": 0.41
+     "total": 0.42
     },
     "gmp_days": [
      [
@@ -328,7 +328,7 @@
     "price_low": 232.0,
     "size_cr": 120.1,
     "gmp": 22.0,
-    "gmp_at": "2026-11-26T08:55",
+    "gmp_at": "2026-11-26T09:10",
     "sub_total": 150.48,
     "sub_retail": 108.71,
     "sub_at": "2026-11-23T19:05",
@@ -406,7 +406,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-26T09:01+05:30",
+  "fetched_at": "2026-11-26T09:16+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -961,7 +961,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-26T09:01+05:30",
+  "fetched_at": "2026-11-26T09:16+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -1388,12 +1388,12 @@
     "detail": {
      "uses": [
       {
-       "use": "Debt",
-       "cr": 356.85
+       "cr": 356.85,
+       "use": "Debt"
       },
       {
-       "use": "Facility",
-       "cr": 296.41
+       "cr": 296.41,
+       "use": "Facility"
       }
      ]
     }
