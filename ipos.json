@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T21:15+05:30",
+  "generated_at": "2026-11-26T21:31+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-26T11:37+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-26T21:15+05:30",
+    "nse_ok_at": "2026-11-26T21:31+05:30",
     "bse_ok_at": "2026-11-26T11:41+05:30"
   },
   "ipos": [
@@ -1973,13 +1973,11 @@
       "size_cr": 54.82,
       "open": "2026-10-23",
       "close": "2026-10-27",
-      "boa": "2026-10-28",
+      "boa": null,
       "listing": "2026-10-30",
       "anchor": null,
       "rating": null,
-      "sub": {
-        "total": 5.44
-      },
+      "sub": null,
       "updated_on": "2026-10-22T17:54",
       "exchange": "BSE SME",
       "registrar": null,
@@ -1989,13 +1987,6 @@
       "bse_ipo_no": "8055",
       "official": true,
       "price_low": 88,
-      "tracker_rating": 1,
-      "sub_basis": "Tracker C",
-      "sub_asof": null,
-      "gmp_watch": {
-        "sources": 1,
-        "at": "2026-10-30T09:28"
-      },
       "gmp_sources": [],
       "gmp_history": [],
       "gmp": null,
@@ -3326,8 +3317,8 @@
         },
         {
           "source": "Tracker C",
-          "gmp": 19,
-          "at": "2026-11-26T17:02"
+          "gmp": 23,
+          "at": "2026-11-26T20:37"
         },
         {
           "source": "Tracker D",
@@ -3791,8 +3782,8 @@
         },
         {
           "source": "Tracker C",
-          "gmp": 0.5,
-          "at": "2026-11-26T17:02"
+          "gmp": 0.75,
+          "at": "2026-11-26T20:37"
         },
         {
           "source": "Tracker D",
@@ -3935,7 +3926,7 @@
         "total": 1.27
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-26T21:12",
+      "sub_asof": "2026-11-26T21:28",
       "registrar": "Mas Services Limited",
       "lead_managers": [
         "Erudore Capital Private Limited"
@@ -4051,8 +4042,8 @@
       "gmp_sources": [
         {
           "source": "Tracker C",
-          "gmp": 6,
-          "at": "2026-11-26T17:02"
+          "gmp": 3,
+          "at": "2026-11-26T20:37"
         },
         {
           "source": "Tracker D",
@@ -4061,18 +4052,18 @@
         },
         {
           "source": "Tracker B",
-          "gmp": 6,
-          "at": "2026-11-26T18:40"
+          "gmp": 5.5,
+          "at": "2026-11-26T21:30"
         }
       ],
       "gmp_history": [
         {
           "date": "2026-11-23",
-          "gmp": 5
+          "gmp": 10
         },
         {
           "date": "2026-11-24",
-          "gmp": 10
+          "gmp": 20
         },
         {
           "date": "2026-11-25",
@@ -4080,27 +4071,27 @@
         },
         {
           "date": "2026-11-26",
-          "gmp": 6
+          "gmp": 5.5
         }
       ],
-      "history_source": "Tracker D",
-      "gmp_low": 5,
+      "history_source": "Tracker B",
+      "gmp_low": 3,
       "gmp_high": 25,
       "exchange": "SME",
-      "gmp": 6,
-      "gmp_asof": "2026-11-26T21:15",
-      "gmp_source_latest": "Tracker D",
-      "gmp_pct": 4.23,
+      "gmp": 5.5,
+      "gmp_asof": "2026-11-26T21:30",
+      "gmp_source_latest": "Tracker B",
+      "gmp_pct": 3.87,
       "gmp_spread": {
-        "min": 6,
+        "min": 3,
         "max": 6,
-        "diff": 0,
+        "diff": 3,
         "n": 3,
-        "diff_pct_of_price": 0.0
+        "diff_pct_of_price": 2.11
       },
       "gmp_trend": {
         "dir": "falling",
-        "change": -4,
+        "change": -14.5,
         "days": 3,
         "since": "2026-11-24"
       },
@@ -4404,7 +4395,7 @@
         {
           "source": "Tracker D",
           "gmp": 10,
-          "at": "2026-11-26T18:31"
+          "at": "2026-11-26T21:31"
         }
       ],
       "gmp_history": [
@@ -4442,7 +4433,7 @@
       "gmp_high": 27,
       "exchange": "SME",
       "gmp": 10,
-      "gmp_asof": "2026-11-26T18:31",
+      "gmp_asof": "2026-11-26T21:31",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 5.24,
       "gmp_trend": {
@@ -4649,7 +4640,7 @@
         {
           "source": "Tracker C",
           "gmp": 24,
-          "at": "2026-11-26T15:02"
+          "at": "2026-11-26T20:37"
         },
         {
           "source": "Tracker D",
@@ -4800,7 +4791,7 @@
         {
           "source": "Tracker C",
           "gmp": 27,
-          "at": "2026-11-26T15:02"
+          "at": "2026-11-26T20:37"
         },
         {
           "source": "Tracker D",
@@ -4815,20 +4806,20 @@
         },
         {
           "date": "2026-11-25",
-          "gmp": 22
+          "gmp": 21.5
         },
         {
           "date": "2026-11-26",
           "gmp": 27
         }
       ],
-      "history_source": "Tracker D",
+      "history_source": "Tracker C",
       "gmp_low": 20,
       "gmp_high": 27,
       "exchange": "SME",
       "gmp": 27,
-      "gmp_asof": "2026-11-26T19:31",
-      "gmp_source_latest": "Tracker D",
+      "gmp_asof": "2026-11-26T20:37",
+      "gmp_source_latest": "Tracker C",
       "gmp_pct": 15.7,
       "gmp_spread": {
         "min": 20,
@@ -5047,7 +5038,7 @@
         {
           "source": "Tracker C",
           "gmp": 3,
-          "at": "2026-11-26T17:02"
+          "at": "2026-11-26T20:37"
         }
       ],
       "gmp_history": [
@@ -5064,7 +5055,7 @@
       "gmp_low": 2,
       "gmp_high": 4,
       "gmp": 3,
-      "gmp_asof": "2026-11-26T17:02",
+      "gmp_asof": "2026-11-26T20:37",
       "gmp_source_latest": "Tracker C",
       "gmp_pct": 3.03,
       "gmp_trend": {
@@ -5108,7 +5099,7 @@
         "fresh_cr": 192.0,
         "ofs_cr": 168.76
       },
-      "tracker_rating": 2,
+      "tracker_rating": 1,
       "sub": {
         "retail": 2.33,
         "nii": 0.4,
@@ -5118,12 +5109,12 @@
         "total": 1.08
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-26T21:12",
+      "sub_asof": "2026-11-26T21:30",
       "gmp_sources": [
         {
           "source": "Tracker C",
-          "gmp": 12,
-          "at": "2026-11-26T17:02"
+          "gmp": 7,
+          "at": "2026-11-26T20:37"
         },
         {
           "source": "Tracker D",
@@ -5167,18 +5158,18 @@
         }
       ],
       "history_source": "Tracker B",
-      "gmp_low": 9.5,
+      "gmp_low": 7,
       "gmp_high": 27,
       "gmp": 9.5,
       "gmp_asof": "2026-11-26T21:10",
       "gmp_source_latest": "Tracker B",
       "gmp_pct": 4.97,
       "gmp_spread": {
-        "min": 9.5,
+        "min": 7,
         "max": 12,
-        "diff": 2.5,
+        "diff": 5,
         "n": 3,
-        "diff_pct_of_price": 1.31
+        "diff_pct_of_price": 2.62
       },
       "gmp_trend": {
         "dir": "falling",
@@ -5277,7 +5268,7 @@
         {
           "source": "Tracker C",
           "gmp": 24,
-          "at": "2026-11-26T15:02"
+          "at": "2026-11-26T20:37"
         },
         {
           "source": "Tracker D",
