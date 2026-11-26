@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-26T16:45+05:30",
+  "fetched_at": "2026-11-26T17:01+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,17 +16,17 @@
     "price_low": 181.0,
     "size_cr": 360.76,
     "gmp": 13.25,
-    "gmp_at": "2026-11-26T16:40",
-    "sub_total": 1.07,
-    "sub_retail": 2.29,
-    "sub_at": "2026-11-26T16:44",
+    "gmp_at": "2026-11-26T16:55",
+    "sub_total": 1.08,
+    "sub_retail": 2.31,
+    "sub_at": "2026-11-26T16:59",
     "sub_cats": {
-     "retail": 2.29,
+     "retail": 2.31,
      "nii": 0.39,
-     "bnii": 0.32,
+     "bnii": 0.33,
      "snii": 0.52,
      "qib": 1.01,
-     "total": 1.07
+     "total": 1.08
     },
     "gmp_days": [
      [
@@ -87,7 +87,7 @@
     "price_low": 129.0,
     "size_cr": 8981.12,
     "gmp": 0.75,
-    "gmp_at": "2026-11-26T16:40",
+    "gmp_at": "2026-11-26T16:55",
     "sub_total": 1.52,
     "sub_retail": 0.46,
     "sub_at": "2026-11-23T19:05",
@@ -186,7 +186,7 @@
     "price_low": 259.0,
     "size_cr": 455.72,
     "gmp": 17.0,
-    "gmp_at": "2026-11-26T16:40",
+    "gmp_at": "2026-11-26T16:56",
     "sub_total": 17.07,
     "sub_retail": 9.281,
     "sub_at": "2026-11-20T19:05",
@@ -278,10 +278,10 @@
     "price_low": 130.0,
     "size_cr": 93.66,
     "gmp": 16.5,
-    "gmp_at": "2026-11-26T16:40",
+    "gmp_at": "2026-11-26T16:55",
     "sub_total": 1.17,
     "sub_retail": 1.48,
-    "sub_at": "2026-11-26T16:43",
+    "sub_at": "2026-11-26T16:57",
     "sub_cats": {
      "retail": 1.48,
      "nii": 0.79,
@@ -347,7 +347,7 @@
     "price_low": 232.0,
     "size_cr": 120.1,
     "gmp": 22.0,
-    "gmp_at": "2026-11-26T16:40",
+    "gmp_at": "2026-11-26T16:55",
     "sub_total": 150.48,
     "sub_retail": 108.71,
     "sub_at": "2026-11-23T19:05",
@@ -425,7 +425,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-26T16:45+05:30",
+  "fetched_at": "2026-11-26T17:01+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -980,7 +980,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-26T16:45+05:30",
+  "fetched_at": "2026-11-26T17:01+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -997,7 +997,7 @@
     "size_cr": 93.66,
     "gmp": 8.0,
     "gmp_at": null,
-    "sub_total": 1.24,
+    "sub_total": 1.25,
     "sub_retail": null,
     "sub_at": null,
     "lot": 1000.0,
@@ -1118,7 +1118,7 @@
     "size_cr": 360.76,
     "gmp": 12.0,
     "gmp_at": null,
-    "sub_total": 1.08,
+    "sub_total": 1.09,
     "sub_retail": null,
     "sub_at": null,
     "lot": 78.0,
@@ -1366,7 +1366,7 @@
     "sub_retail": null,
     "sub_at": null,
     "lot": null,
-    "sector": "Medical Devices and Healthcare Technology",
+    "sector": "Medical Equipment & Supplies",
     "detail_url": "https://ipoindex.in/ipo/integris-medtech-ipo/",
     "live": true,
     "detail": {
