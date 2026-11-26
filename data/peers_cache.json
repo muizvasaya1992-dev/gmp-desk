@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-26T09:31+05:30",
+  "fetched_at": "2026-11-26T09:45+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,10 +16,10 @@
     "price_low": 181.0,
     "size_cr": 360.76,
     "gmp": 18.0,
-    "gmp_at": "2026-11-26T09:25",
+    "gmp_at": "2026-11-26T09:40",
     "sub_total": 0.0,
     "sub_retail": null,
-    "sub_at": "2026-11-26T09:25",
+    "sub_at": "2026-11-26T09:40",
     "sub_cats": {
      "total": 0.0
     },
@@ -78,7 +78,7 @@
     "price_low": 129.0,
     "size_cr": 8981.12,
     "gmp": 0.0,
-    "gmp_at": "2026-11-26T09:30",
+    "gmp_at": "2026-11-26T09:40",
     "sub_total": 1.52,
     "sub_retail": 0.46,
     "sub_at": "2026-11-23T19:05",
@@ -173,7 +173,7 @@
     "price_low": 259.0,
     "size_cr": 455.72,
     "gmp": 17.0,
-    "gmp_at": "2026-11-26T09:25",
+    "gmp_at": "2026-11-26T09:41",
     "sub_total": 17.07,
     "sub_retail": 9.281,
     "sub_at": "2026-11-20T19:05",
@@ -265,10 +265,10 @@
     "price_low": 130.0,
     "size_cr": 93.66,
     "gmp": 25.0,
-    "gmp_at": "2026-11-26T09:30",
+    "gmp_at": "2026-11-26T09:40",
     "sub_total": 0.42,
     "sub_retail": 0.24,
-    "sub_at": "2026-11-26T09:30",
+    "sub_at": "2026-11-26T09:40",
     "sub_cats": {
      "retail": 0.24,
      "nii": 0.51,
@@ -330,7 +330,7 @@
     "price_low": 232.0,
     "size_cr": 120.1,
     "gmp": 22.0,
-    "gmp_at": "2026-11-26T09:25",
+    "gmp_at": "2026-11-26T09:40",
     "sub_total": 150.48,
     "sub_retail": 108.71,
     "sub_at": "2026-11-23T19:05",
@@ -408,7 +408,7 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-26T09:31+05:30",
+  "fetched_at": "2026-11-26T09:45+05:30",
   "records": [
    {
     "src": "Tracker C",
@@ -963,7 +963,7 @@
   ]
  },
  "d": {
-  "fetched_at": "2026-11-26T09:31+05:30",
+  "fetched_at": "2026-11-26T09:45+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -978,7 +978,7 @@
     "price": 142.0,
     "price_low": 130.0,
     "size_cr": 93.66,
-    "gmp": 20.0,
+    "gmp": 25.0,
     "gmp_at": null,
     "sub_total": 0.41,
     "sub_retail": null,
@@ -1078,6 +1078,75 @@
        "roce": 19.76,
        "roe": 53.24,
        "y": "FY26"
+      }
+     ]
+    }
+   },
+   {
+    "src": "Tracker D",
+    "slug": "foodlink-fb-holdings-india",
+    "name": "Foodlink F&B Holdings (India)",
+    "segment": "MAIN",
+    "exchange": null,
+    "open": "2026-11-26",
+    "close": "2026-11-30",
+    "boa": null,
+    "listing": "2026-12-03",
+    "price": 181.0,
+    "price_low": null,
+    "size_cr": 360.76,
+    "gmp": 18.0,
+    "gmp_at": null,
+    "sub_total": null,
+    "sub_retail": null,
+    "sub_at": null,
+    "lot": 78.0,
+    "sector": "Luxury Food Services / Hospitality",
+    "detail_url": "https://ipoindex.in/ipo/foodlink-fb-holdings-india-ipo/",
+    "live": true,
+    "detail": {
+     "gmp_history": [
+      [
+       "2026-11-25",
+       27.0
+      ],
+      [
+       "2026-11-24",
+       16.0
+      ],
+      [
+       "2026-11-23",
+       12.0
+      ],
+      [
+       "2026-11-20",
+       12.0
+      ],
+      [
+       "2026-11-19",
+       12.0
+      ],
+      [
+       "2026-11-18",
+       15.0
+      ]
+     ],
+     "uses": [
+      {
+       "cr": 21.4,
+       "use": "Capital Expense"
+      },
+      {
+       "cr": 41.5,
+       "use": "Capital Expense"
+      },
+      {
+       "cr": 50.81,
+       "use": "Investment"
+      },
+      {
+       "cr": 21.0,
+       "use": "Debt"
       }
      ]
     }
@@ -1249,75 +1318,6 @@
    },
    {
     "src": "Tracker D",
-    "slug": "foodlink-fb-holdings-india",
-    "name": "Foodlink F&B Holdings (India)",
-    "segment": "MAIN",
-    "exchange": null,
-    "open": null,
-    "close": null,
-    "boa": null,
-    "listing": null,
-    "price": 181.0,
-    "price_low": null,
-    "size_cr": 360.76,
-    "gmp": 27.0,
-    "gmp_at": null,
-    "sub_total": null,
-    "sub_retail": null,
-    "sub_at": null,
-    "lot": 78.0,
-    "sector": "Luxury Food Services / Hospitality",
-    "detail_url": "https://ipoindex.in/ipo/foodlink-fb-holdings-india-ipo/",
-    "live": true,
-    "detail": {
-     "gmp_history": [
-      [
-       "2026-11-25",
-       27.0
-      ],
-      [
-       "2026-11-24",
-       16.0
-      ],
-      [
-       "2026-11-23",
-       12.0
-      ],
-      [
-       "2026-11-20",
-       12.0
-      ],
-      [
-       "2026-11-19",
-       12.0
-      ],
-      [
-       "2026-11-18",
-       15.0
-      ]
-     ],
-     "uses": [
-      {
-       "cr": 21.4,
-       "use": "Capital Expense"
-      },
-      {
-       "cr": 41.5,
-       "use": "Capital Expense"
-      },
-      {
-       "cr": 50.81,
-       "use": "Investment"
-      },
-      {
-       "cr": 21.0,
-       "use": "Debt"
-      }
-     ]
-    }
-   },
-   {
-    "src": "Tracker D",
     "slug": "integris-medtech",
     "name": "Integris Medtech",
     "segment": "MAIN",
@@ -1413,7 +1413,7 @@
     "price": 172.0,
     "price_low": 163.0,
     "size_cr": 125.16,
-    "gmp": 21.5,
+    "gmp": 27.0,
     "gmp_at": null,
     "sub_total": null,
     "sub_retail": null,
@@ -1542,11 +1542,11 @@
     "open": null,
     "close": null,
     "boa": null,
-    "listing": "2026-11-27",
+    "listing": null,
     "price": 245.0,
     "price_low": 232.0,
     "size_cr": 120.1,
-    "gmp": 41.0,
+    "gmp": 22.0,
     "gmp_at": null,
     "sub_total": null,
     "sub_retail": null,
@@ -1554,233 +1554,7 @@
     "lot": 600.0,
     "sector": "Diversified Commercial Services",
     "detail_url": "https://ipoindex.in/ipo/watrana-rentals-sme-ipo/",
-    "live": true,
-    "detail": {
-     "gmp_history": [
-      [
-       "2026-11-25",
-       41.0
-      ],
-      [
-       "2026-11-23",
-       40.0
-      ],
-      [
-       "2026-11-20",
-       67.0
-      ],
-      [
-       "2026-11-19",
-       67.0
-      ],
-      [
-       "2026-11-18",
-       37.0
-      ],
-      [
-       "2026-11-16",
-       25.0
-      ],
-      [
-       "2026-11-14",
-       22.0
-      ]
-     ],
-     "reservation": {
-      "anchor": {
-       "pct": 28.27,
-       "shares": 1386000
-      },
-      "bnii": {
-       "pct": 9.5,
-       "shares": 465600
-      },
-      "market_maker": {
-       "pct": 5.14,
-       "shares": 252000
-      },
-      "nii": {
-       "pct": 14.25,
-       "shares": 698400
-      },
-      "qib": {
-       "pct": 47.37,
-       "shares": 2322000
-      },
-      "qib_ex_anchor": {
-       "pct": 19.09,
-       "shares": 936000
-      },
-      "retail": {
-       "pct": 33.24,
-       "shares": 1629600
-      },
-      "snii": {
-       "pct": 4.75,
-       "shares": 232800
-      }
-     },
-     "sub": {
-      "nii": 233.67,
-      "qib": 161.11,
-      "retail": 108.71,
-      "total": 150.48
-     },
-     "sub_at": "2026-11-23T17:33",
-     "uses": [
-      {
-       "cr": 98.13,
-       "use": "Purchase"
-      }
-     ],
-     "years": [
-      {
-       "assets": 147.69,
-       "debt": 93.12,
-       "ebitda": 37.98,
-       "income": 130.23,
-       "net_worth": 31.96,
-       "pat": 18.05,
-       "roce": 24.11,
-       "roe": 78.65,
-       "y": "FY24"
-      },
-      {
-       "assets": 201.82,
-       "debt": 110.14,
-       "ebitda": 51.77,
-       "income": 179.66,
-       "net_worth": 56.39,
-       "pat": 24.43,
-       "roce": 23.85,
-       "roe": 55.3,
-       "y": "FY25"
-      },
-      {
-       "assets": 287.07,
-       "debt": 164.08,
-       "ebitda": 65.01,
-       "income": 211.69,
-       "net_worth": 85.55,
-       "pat": 29.16,
-       "roce": 19.06,
-       "roe": 41.08,
-       "y": "FY26"
-      }
-     ]
-    }
-   },
-   {
-    "src": "Tracker D",
-    "slug": "mahanadi-coalfields",
-    "name": "Mahanadi Coalfields",
-    "segment": "MAIN",
-    "exchange": null,
-    "open": null,
-    "close": null,
-    "boa": null,
-    "listing": "2026-11-27",
-    "price": 129.0,
-    "price_low": null,
-    "size_cr": 8981.12,
-    "gmp": 0.0,
-    "gmp_at": null,
-    "sub_total": null,
-    "sub_retail": null,
-    "sub_at": null,
-    "lot": 110.0,
-    "sector": "Coal",
-    "detail_url": "https://ipoindex.in/ipo/mahanadi-coalfields-ipo/",
-    "live": true,
-    "detail": {
-     "gmp_history": [
-      [
-       "2026-11-24",
-       0.0
-      ],
-      [
-       "2026-11-23",
-       0.0
-      ],
-      [
-       "2026-11-20",
-       1.0
-      ],
-      [
-       "2026-11-19",
-       2.0
-      ],
-      [
-       "2026-11-18",
-       3.0
-      ],
-      [
-       "2026-11-17",
-       4.0
-      ],
-      [
-       "2026-11-16",
-       5.0
-      ],
-      [
-       "2026-11-14",
-       13.0
-      ]
-     ],
-     "reservation": {
-      "anchor": {
-       "pct": 25.5,
-       "shares": 168768255
-      },
-      "bnii": {
-       "pct": 8.5,
-       "shares": 56256086
-      },
-      "employee": {
-       "pct": 5.0,
-       "shares": 33091815
-      },
-      "nii": {
-       "pct": 12.75,
-       "shares": 84384129
-      },
-      "qib": {
-       "pct": 42.5,
-       "shares": 281280428
-      },
-      "qib_ex_anchor": {
-       "pct": 17.0,
-       "shares": 112512173
-      },
-      "retail": {
-       "pct": 29.75,
-       "shares": 196896299
-      },
-      "shareholders": {
-       "pct": 10.0,
-       "shares": 66183630
-      },
-      "snii": {
-       "pct": 4.25,
-       "shares": 28128043
-      }
-     },
-     "sub": {
-      "employee": 0.22,
-      "nii": 0.66,
-      "qib": 4.95,
-      "retail": 0.48,
-      "shareholders": 0.56,
-      "total": 1.52
-     },
-     "sub_at": "2026-11-23T17:34",
-     "uses": [
-      {
-       "cr": 8981.12,
-       "use": "Offer for Sale Proceeds"
-      }
-     ]
-    }
+    "live": false
    },
    {
     "src": "Tracker D",
@@ -1795,7 +1569,7 @@
     "price": 259.0,
     "price_low": null,
     "size_cr": 455.49,
-    "gmp": 18.0,
+    "gmp": 17.0,
     "gmp_at": null,
     "sub_total": null,
     "sub_retail": null,
@@ -1803,6 +1577,29 @@
     "lot": 55.0,
     "sector": "Other Agricultural Products",
     "detail_url": "https://ipoindex.in/ipo/crystal-crop-protection-ipo/",
+    "live": false
+   },
+   {
+    "src": "Tracker D",
+    "slug": "mahanadi-coalfields",
+    "name": "Mahanadi Coalfields",
+    "segment": "MAIN",
+    "exchange": null,
+    "open": null,
+    "close": null,
+    "boa": null,
+    "listing": null,
+    "price": 129.0,
+    "price_low": null,
+    "size_cr": 8981.12,
+    "gmp": 0.0,
+    "gmp_at": null,
+    "sub_total": null,
+    "sub_retail": null,
+    "sub_at": null,
+    "lot": 110.0,
+    "sector": "Coal",
+    "detail_url": "https://ipoindex.in/ipo/mahanadi-coalfields-ipo/",
     "live": false
    }
   ]

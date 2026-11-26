@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T09:31+05:30",
+  "generated_at": "2026-11-26T09:45+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-25T15:54+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-26T09:31+05:30",
+    "nse_ok_at": "2026-11-26T09:45+05:30",
     "bse_ok_at": "2026-11-25T15:58+05:30"
   },
   "ipos": [
@@ -3179,8 +3179,8 @@
         },
         {
           "source": "Tracker D",
-          "gmp": 18,
-          "at": "2026-11-26T09:15"
+          "gmp": 17,
+          "at": "2026-11-26T09:45"
         },
         {
           "source": "Tracker B",
@@ -3242,16 +3242,16 @@
       "gmp_low": 13,
       "gmp_high": 45,
       "exchange": "SME",
-      "gmp": 18,
-      "gmp_asof": "2026-11-26T09:15",
+      "gmp": 17,
+      "gmp_asof": "2026-11-26T09:45",
       "gmp_source_latest": "Tracker D",
-      "gmp_pct": 6.62,
+      "gmp_pct": 6.25,
       "gmp_spread": {
         "min": 14,
-        "max": 18,
-        "diff": 4,
+        "max": 17,
+        "diff": 3,
         "n": 4,
-        "diff_pct_of_price": 1.47
+        "diff_pct_of_price": 1.1
       },
       "gmp_trend": {
         "dir": "rising",
@@ -3307,10 +3307,9 @@
       "shares_offered": 3516000.0,
       "updated_on": "2026-11-23T23:31+05:30",
       "reservation": {
-        "qib": 47.37,
-        "nii": 14.25,
-        "retail": 33.24,
-        "market_maker": 5.14
+        "qib": 50.0,
+        "nii": 15.0,
+        "retail": 35.0
       },
       "sector": "Material Handling Equipment Rental",
       "issue_split": {
@@ -3318,85 +3317,6 @@
         "ofs_cr": 0.0
       },
       "tracker_rating": 2,
-      "reservation_detail": {
-        "anchor": {
-          "pct": 28.27,
-          "shares": 1386000
-        },
-        "bnii": {
-          "pct": 9.5,
-          "shares": 465600
-        },
-        "market_maker": {
-          "pct": 5.14,
-          "shares": 252000
-        },
-        "nii": {
-          "pct": 14.25,
-          "shares": 698400
-        },
-        "qib": {
-          "pct": 47.37,
-          "shares": 2322000
-        },
-        "qib_ex_anchor": {
-          "pct": 19.09,
-          "shares": 936000
-        },
-        "retail": {
-          "pct": 33.24,
-          "shares": 1629600
-        },
-        "snii": {
-          "pct": 4.75,
-          "shares": 232800
-        }
-      },
-      "anchor_shares": 1386000,
-      "uses": [
-        {
-          "cr": 98.13,
-          "use": "Purchase"
-        }
-      ],
-      "fin": {
-        "years": [
-          {
-            "assets": 147.69,
-            "debt": 93.12,
-            "ebitda": 37.98,
-            "income": 130.23,
-            "net_worth": 31.96,
-            "pat": 18.05,
-            "roce": 24.11,
-            "roe": 78.65,
-            "y": "FY24"
-          },
-          {
-            "assets": 201.82,
-            "debt": 110.14,
-            "ebitda": 51.77,
-            "income": 179.66,
-            "net_worth": 56.39,
-            "pat": 24.43,
-            "roce": 23.85,
-            "roe": 55.3,
-            "y": "FY25"
-          },
-          {
-            "assets": 287.07,
-            "debt": 164.08,
-            "ebitda": 65.01,
-            "income": 211.69,
-            "net_worth": 85.55,
-            "pat": 29.16,
-            "roce": 19.06,
-            "roe": 41.08,
-            "y": "FY26"
-          }
-        ],
-        "ratios": {}
-      },
       "lot_basis": "tracker",
       "gmp_sources": [
         {
@@ -3411,8 +3331,8 @@
         },
         {
           "source": "Tracker D",
-          "gmp": 41,
-          "at": "2026-11-26T09:15"
+          "gmp": 22,
+          "at": "2026-11-26T09:45"
         },
         {
           "source": "Tracker B",
@@ -3482,16 +3402,16 @@
       "gmp_low": 15,
       "gmp_high": 67,
       "exchange": "SME",
-      "gmp": 41,
-      "gmp_asof": "2026-11-26T09:15",
+      "gmp": 22,
+      "gmp_asof": "2026-11-26T09:45",
       "gmp_source_latest": "Tracker D",
-      "gmp_pct": 16.73,
+      "gmp_pct": 8.98,
       "gmp_spread": {
         "min": 22,
-        "max": 41,
-        "diff": 19,
+        "max": 35,
+        "diff": 13,
         "n": 4,
-        "diff_pct_of_price": 7.76
+        "diff_pct_of_price": 5.31
       },
       "gmp_trend": {
         "dir": "falling",
@@ -3542,11 +3462,11 @@
         "SBI Capital Markets Limited, Axis Capital Limited, BOB Capital Markets Limited, IDBI Capital Markets and Securities Limited and IIFL Capital Services Limited"
       ],
       "reservation": {
-        "qib": 42.5,
-        "nii": 12.75,
-        "retail": 29.75,
-        "employee": 5.0,
-        "shareholders": 10.0
+        "qib": 22.82,
+        "nii": 17.11,
+        "retail": 39.93,
+        "employee": 6.71,
+        "shareholders": 13.42
       },
       "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_MAHACOAL.zip",
       "retail_max": 200000,
@@ -3863,51 +3783,6 @@
         "ofs_cr": 8981.12
       },
       "tracker_rating": 1,
-      "reservation_detail": {
-        "anchor": {
-          "pct": 25.5,
-          "shares": 168768255
-        },
-        "bnii": {
-          "pct": 8.5,
-          "shares": 56256086
-        },
-        "employee": {
-          "pct": 5.0,
-          "shares": 33091815
-        },
-        "nii": {
-          "pct": 12.75,
-          "shares": 84384129
-        },
-        "qib": {
-          "pct": 42.5,
-          "shares": 281280428
-        },
-        "qib_ex_anchor": {
-          "pct": 17.0,
-          "shares": 112512173
-        },
-        "retail": {
-          "pct": 29.75,
-          "shares": 196896299
-        },
-        "shareholders": {
-          "pct": 10.0,
-          "shares": 66183630
-        },
-        "snii": {
-          "pct": 4.25,
-          "shares": 28128043
-        }
-      },
-      "anchor_shares": 168768255,
-      "uses": [
-        {
-          "cr": 8981.12,
-          "use": "Offer for Sale Proceeds"
-        }
-      ],
       "gmp_sources": [
         {
           "source": "Public trackers",
@@ -4056,7 +3931,7 @@
         "total": 0.42
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-26T09:30",
+      "sub_asof": "2026-11-26T09:40",
       "registrar": "Mas Services Limited",
       "lead_managers": [
         "Erudore Capital Private Limited"
@@ -4169,8 +4044,8 @@
         },
         {
           "source": "Tracker D",
-          "gmp": 20,
-          "at": "2026-11-26T09:15"
+          "gmp": 25,
+          "at": "2026-11-26T09:45"
         },
         {
           "source": "Tracker B",
@@ -4193,27 +4068,27 @@
         },
         {
           "date": "2026-11-26",
-          "gmp": 20
+          "gmp": 25
         }
       ],
       "history_source": "Tracker D",
       "gmp_low": 5,
       "gmp_high": 25,
       "exchange": "SME",
-      "gmp": 20,
-      "gmp_asof": "2026-11-26T09:15",
+      "gmp": 25,
+      "gmp_asof": "2026-11-26T09:45",
       "gmp_source_latest": "Tracker D",
-      "gmp_pct": 14.08,
+      "gmp_pct": 17.61,
       "gmp_spread": {
-        "min": 20,
+        "min": 25,
         "max": 25,
-        "diff": 5,
+        "diff": 0,
         "n": 3,
-        "diff_pct_of_price": 3.52
+        "diff_pct_of_price": 0.0
       },
       "gmp_trend": {
         "dir": "rising",
-        "change": 10,
+        "change": 15,
         "days": 3,
         "since": "2026-11-24"
       },
@@ -4230,7 +4105,7 @@
       "lot": 78,
       "size_cr": 360.76,
       "boa": null,
-      "listing": null,
+      "listing": "2026-12-03",
       "anchor": null,
       "rating": null,
       "symbol": "FOODLINK",
@@ -4285,8 +4160,8 @@
       "gmp_sources": [
         {
           "source": "Tracker D",
-          "gmp": 27,
-          "at": "2026-11-26T09:15"
+          "gmp": 18,
+          "at": "2026-11-26T09:45"
         }
       ],
       "gmp_history": [
@@ -4316,20 +4191,20 @@
         },
         {
           "date": "2026-11-26",
-          "gmp": 27
+          "gmp": 18
         }
       ],
       "history_source": "Tracker D",
       "gmp_low": 12,
       "gmp_high": 27,
       "exchange": "SME",
-      "gmp": 27,
-      "gmp_asof": "2026-11-26T09:15",
+      "gmp": 18,
+      "gmp_asof": "2026-11-26T09:45",
       "gmp_source_latest": "Tracker D",
-      "gmp_pct": 14.14,
+      "gmp_pct": 9.42,
       "gmp_trend": {
         "dir": "rising",
-        "change": 11,
+        "change": 2,
         "days": 3,
         "since": "2026-11-24"
       },
@@ -5005,8 +4880,8 @@
         },
         {
           "source": "Tracker D",
-          "gmp": 21.5,
-          "at": "2026-11-26T09:15"
+          "gmp": 27,
+          "at": "2026-11-26T09:45"
         }
       ],
       "gmp_history": [
@@ -5020,16 +4895,16 @@
         },
         {
           "date": "2026-11-26",
-          "gmp": 21.5
+          "gmp": 27
         }
       ],
       "history_source": "Tracker D",
       "gmp_low": 20,
       "gmp_high": 27,
-      "gmp": 21.5,
-      "gmp_asof": "2026-11-26T09:15",
+      "gmp": 27,
+      "gmp_asof": "2026-11-26T09:45",
       "gmp_source_latest": "Tracker D",
-      "gmp_pct": 12.5,
+      "gmp_pct": 15.7,
       "gmp_spread": {
         "min": 20,
         "max": 27,
@@ -5038,8 +4913,8 @@
         "diff_pct_of_price": 4.07
       },
       "gmp_trend": {
-        "dir": "steady",
-        "change": 0.0,
+        "dir": "rising",
+        "change": 5.5,
         "days": 3,
         "since": "2026-11-24"
       },
