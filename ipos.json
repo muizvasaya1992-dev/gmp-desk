@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T15:31+05:30",
+  "generated_at": "2026-11-26T15:45+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-26T11:37+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-26T15:31+05:30",
+    "nse_ok_at": "2026-11-26T15:45+05:30",
     "bse_ok_at": "2026-11-26T11:41+05:30"
   },
   "ipos": [
@@ -3935,7 +3935,7 @@
         "total": 0.72
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-26T15:25",
+      "sub_asof": "2026-11-26T15:44",
       "registrar": "Mas Services Limited",
       "lead_managers": [
         "Erudore Capital Private Limited"
@@ -3960,7 +3960,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": 6596000.0,
-      "updated_on": "2026-11-26T15:31+05:30",
+      "updated_on": "2026-11-26T15:45+05:30",
       "reservation": {
         "qib": 1.0,
         "nii": 47.0,
@@ -4061,18 +4061,18 @@
         },
         {
           "source": "Tracker B",
-          "gmp": 21.5,
-          "at": "2026-11-26T14:00"
+          "gmp": 19.5,
+          "at": "2026-11-26T15:40"
         }
       ],
       "gmp_history": [
         {
           "date": "2026-11-23",
-          "gmp": 5
+          "gmp": 10
         },
         {
           "date": "2026-11-24",
-          "gmp": 10
+          "gmp": 20
         },
         {
           "date": "2026-11-25",
@@ -4080,17 +4080,17 @@
         },
         {
           "date": "2026-11-26",
-          "gmp": 18
+          "gmp": 19.5
         }
       ],
-      "history_source": "Tracker D",
+      "history_source": "Tracker B",
       "gmp_low": 5,
       "gmp_high": 25,
       "exchange": "SME",
-      "gmp": 18,
-      "gmp_asof": "2026-11-26T14:45",
-      "gmp_source_latest": "Tracker D",
-      "gmp_pct": 12.68,
+      "gmp": 19.5,
+      "gmp_asof": "2026-11-26T15:40",
+      "gmp_source_latest": "Tracker B",
+      "gmp_pct": 13.73,
       "gmp_spread": {
         "min": 18,
         "max": 25,
@@ -4099,8 +4099,8 @@
         "diff_pct_of_price": 4.93
       },
       "gmp_trend": {
-        "dir": "rising",
-        "change": 8,
+        "dir": "steady",
+        "change": -0.5,
         "days": 3,
         "since": "2026-11-24"
       },
@@ -4127,15 +4127,15 @@
       "price": 191,
       "segment": "SME",
       "sub": {
-        "qib": 0.0,
-        "nii": 0.3,
-        "bnii": 0.24,
-        "snii": 0.43,
-        "retail": 2.09,
-        "total": 0.47
+        "qib": 1.01,
+        "nii": 0.32,
+        "bnii": 0.26,
+        "snii": 0.45,
+        "retail": 2.12,
+        "total": 1.02
       },
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-11-26T15:27",
+      "sub_asof": "2026-11-26T15:42",
       "registrar": "MUFG Intime India Private Limited",
       "lead_managers": [
         "Equirus Capital Limited (formerly known as Equirus Capital Private Limited) and JM Financial Limited"
@@ -4311,12 +4311,21 @@
           "snii": 0.43,
           "retail": 2.09,
           "total": 0.47
+        },
+        {
+          "at": "2026-11-26T15:45+05:30",
+          "qib": 1.01,
+          "nii": 0.32,
+          "bnii": 0.26,
+          "snii": 0.45,
+          "retail": 2.12,
+          "total": 1.02
         }
       ],
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 10474048.0,
-      "updated_on": "2026-11-26T15:31+05:30",
+      "updated_on": "2026-11-26T15:45+05:30",
       "bse_ipo_no": "8097",
       "uses": [
         {
@@ -4442,7 +4451,7 @@
       "series": "SME",
       "nse_status": "Forthcoming",
       "shares_offered": 3600000.0,
-      "updated_on": "2026-11-26T15:31+05:30",
+      "updated_on": "2026-11-26T15:45+05:30",
       "reservation_detail": {
         "nii": {
           "pct": 50.04,
@@ -4549,7 +4558,7 @@
       "series": "SME",
       "nse_status": "Forthcoming",
       "shares_offered": 3000000.0,
-      "updated_on": "2026-11-26T15:31+05:30",
+      "updated_on": "2026-11-26T15:45+05:30",
       "tracker_rating": 3,
       "reservation_detail": {
         "nii": {
@@ -4663,7 +4672,7 @@
       "series": "Equity",
       "nse_status": "Forthcoming",
       "shares_offered": 27000000.0,
-      "updated_on": "2026-11-26T15:31+05:30",
+      "updated_on": "2026-11-26T15:45+05:30",
       "gmp_sources": [],
       "gmp_history": [],
       "exchange": "SME",
@@ -4711,7 +4720,7 @@
       "series": "Equity",
       "nse_status": "Forthcoming",
       "shares_offered": 7276981.0,
-      "updated_on": "2026-11-26T15:31+05:30",
+      "updated_on": "2026-11-26T15:45+05:30",
       "tracker_rating": 3,
       "uses": [
         {
@@ -5047,15 +5056,15 @@
       },
       "tracker_rating": 2,
       "sub": {
-        "retail": 2.08,
-        "nii": 0.3,
-        "bnii": 0.24,
-        "snii": 0.43,
-        "qib": 0.0,
-        "total": 0.47
+        "retail": 2.11,
+        "nii": 0.32,
+        "bnii": 0.26,
+        "snii": 0.44,
+        "qib": 1.01,
+        "total": 1.02
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-26T15:28",
+      "sub_asof": "2026-11-26T15:43",
       "gmp_sources": [
         {
           "source": "Tracker C",
