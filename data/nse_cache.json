@@ -2366,7 +2366,7 @@
   "series": "SME",
   "nse_status": "Active",
   "shares_offered": 6596000.0,
-  "last_seen": "2026-11-26T11:15+05:30",
+  "last_seen": "2026-11-26T11:31+05:30",
   "segment": "SME",
   "registrar": "Mas Services Limited",
   "lead_managers": [
@@ -2383,7 +2383,7 @@
    "total": 0.0
   },
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-11-26T11:12",
+  "sub_asof": "2026-11-26T11:27",
   "sub_hist": [
    {
     "at": "2026-11-25T15:54+05:30",
@@ -2410,7 +2410,7 @@
   "series": "EQ",
   "nse_status": "Active",
   "shares_offered": 10474048.0,
-  "last_seen": "2026-11-26T11:15+05:30",
+  "last_seen": "2026-11-26T11:31+05:30",
   "segment": "SME",
   "lot": 78,
   "registrar": "MUFG Intime India Private Limited",
@@ -2423,14 +2423,14 @@
   "details_at": "2026-11-26T00:01+05:30",
   "sub": {
    "qib": 0.0,
-   "nii": 0.13,
-   "bnii": 0.11,
-   "snii": 0.18,
-   "retail": 0.99,
-   "total": 0.22
+   "nii": 0.15,
+   "bnii": 0.12,
+   "snii": 0.2,
+   "retail": 1.1,
+   "total": 0.24
   },
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-11-26T11:12",
+  "sub_asof": "2026-11-26T11:27",
   "sub_hist": [
    {
     "at": "2026-11-26T00:01+05:30",
@@ -2480,6 +2480,15 @@
     "snii": 0.18,
     "retail": 0.99,
     "total": 0.22
+   },
+   {
+    "at": "2026-11-26T11:31+05:30",
+    "qib": 0.0,
+    "nii": 0.15,
+    "bnii": 0.12,
+    "snii": 0.2,
+    "retail": 1.1,
+    "total": 0.24
    }
   ]
  },
@@ -2494,7 +2503,7 @@
   "series": "SME",
   "nse_status": "Forthcoming",
   "shares_offered": 3600000.0,
-  "last_seen": "2026-11-26T11:15+05:30",
+  "last_seen": "2026-11-26T11:31+05:30",
   "segment": "SME",
   "registrar": "MUFG Intime India Private Limited",
   "lead_managers": [
@@ -2514,7 +2523,7 @@
   "series": "SME",
   "nse_status": "Forthcoming",
   "shares_offered": 3000000.0,
-  "last_seen": "2026-11-26T11:15+05:30",
+  "last_seen": "2026-11-26T11:31+05:30",
   "segment": "SME",
   "registrar": "Mufg Intime India Private Limited",
   "lead_managers": [
@@ -2535,7 +2544,7 @@
   "series": "Equity",
   "nse_status": "Forthcoming",
   "shares_offered": 27000000.0,
-  "last_seen": "2026-11-26T11:15+05:30",
+  "last_seen": "2026-11-26T11:31+05:30",
   "segment": "SME",
   "lot": 225,
   "registrar": "Bigshare Services Private Limited",
