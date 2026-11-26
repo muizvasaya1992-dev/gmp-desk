@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T20:15+05:30",
+  "generated_at": "2026-11-26T20:31+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-26T11:37+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-26T20:15+05:30",
+    "nse_ok_at": "2026-11-26T20:31+05:30",
     "bse_ok_at": "2026-11-26T11:41+05:30"
   },
   "ipos": [
@@ -1973,11 +1973,13 @@
       "size_cr": 54.82,
       "open": "2026-10-23",
       "close": "2026-10-27",
-      "boa": null,
+      "boa": "2026-10-28",
       "listing": "2026-10-30",
       "anchor": null,
       "rating": null,
-      "sub": null,
+      "sub": {
+        "total": 5.44
+      },
       "updated_on": "2026-10-22T17:54",
       "exchange": "BSE SME",
       "registrar": null,
@@ -1987,6 +1989,13 @@
       "bse_ipo_no": "8055",
       "official": true,
       "price_low": 88,
+      "tracker_rating": 1,
+      "sub_basis": "Tracker C",
+      "sub_asof": null,
+      "gmp_watch": {
+        "sources": 1,
+        "at": "2026-10-30T09:28"
+      },
       "gmp_sources": [],
       "gmp_history": [],
       "gmp": null,
@@ -3176,7 +3185,7 @@
         {
           "source": "Tracker B",
           "gmp": 17,
-          "at": "2026-11-26T17:11"
+          "at": "2026-11-26T20:25"
         }
       ],
       "gmp_history": [
@@ -3234,8 +3243,8 @@
       "gmp_high": 45,
       "exchange": "SME",
       "gmp": 17,
-      "gmp_asof": "2026-11-26T17:45",
-      "gmp_source_latest": "Tracker D",
+      "gmp_asof": "2026-11-26T20:25",
+      "gmp_source_latest": "Tracker B",
       "gmp_pct": 6.25,
       "gmp_spread": {
         "min": 14,
@@ -3926,7 +3935,7 @@
         "total": 1.27
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-26T19:43",
+      "sub_asof": "2026-11-26T20:25",
       "registrar": "Mas Services Limited",
       "lead_managers": [
         "Erudore Capital Private Limited"
@@ -3963,7 +3972,7 @@
         "fresh_cr": 93.66,
         "ofs_cr": 0.0
       },
-      "tracker_rating": 1,
+      "tracker_rating": 2,
       "reservation_detail": {
         "bnii": {
           "pct": 31.34,
@@ -5109,7 +5118,7 @@
         "total": 1.08
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-26T20:11",
+      "sub_asof": "2026-11-26T20:29",
       "gmp_sources": [
         {
           "source": "Tracker C",
