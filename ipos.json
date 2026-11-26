@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T11:31+05:30",
+  "generated_at": "2026-11-26T11:37+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -13,18 +13,18 @@
   ],
   "market_stats": {
     "year": 2026,
-    "total": 237,
-    "mainboard": 109,
+    "total": 238,
+    "mainboard": 110,
     "sme": 128,
     "listing_gain": 177,
     "listing_loss": 60,
     "day_gain": 152,
     "day_loss": 85,
-    "fetched_at": "2026-11-25T15:54+05:30"
+    "fetched_at": "2026-11-26T11:37+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-26T11:31+05:30",
-    "bse_ok_at": "2026-11-25T15:58+05:30"
+    "nse_ok_at": "2026-11-26T11:37+05:30",
+    "bse_ok_at": "2026-11-26T11:37+05:30"
   },
   "ipos": [
     {
@@ -3175,17 +3175,17 @@
         {
           "source": "Tracker C",
           "gmp": 17,
-          "at": "2026-11-26T07:37"
+          "at": "2026-11-26T08:37"
         },
         {
           "source": "Tracker D",
           "gmp": 17,
-          "at": "2026-11-26T09:45"
+          "at": "2026-11-26T11:37"
         },
         {
           "source": "Tracker B",
           "gmp": 17,
-          "at": "2026-11-26T09:10"
+          "at": "2026-11-26T11:36"
         }
       ],
       "gmp_history": [
@@ -3231,7 +3231,7 @@
         },
         {
           "date": "2026-11-25",
-          "gmp": 17
+          "gmp": 18
         },
         {
           "date": "2026-11-26",
@@ -3243,7 +3243,7 @@
       "gmp_high": 45,
       "exchange": "SME",
       "gmp": 17,
-      "gmp_asof": "2026-11-26T09:45",
+      "gmp_asof": "2026-11-26T11:37",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 6.25,
       "gmp_spread": {
@@ -3327,17 +3327,17 @@
         {
           "source": "Tracker C",
           "gmp": 22,
-          "at": "2026-11-26T07:37"
+          "at": "2026-11-26T08:37"
         },
         {
           "source": "Tracker D",
           "gmp": 22,
-          "at": "2026-11-26T09:45"
+          "at": "2026-11-26T11:37"
         },
         {
           "source": "Tracker B",
           "gmp": 22,
-          "at": "2026-11-26T09:10"
+          "at": "2026-11-26T11:35"
         }
       ],
       "gmp_history": [
@@ -3391,7 +3391,7 @@
         },
         {
           "date": "2026-11-25",
-          "gmp": 22
+          "gmp": 41
         },
         {
           "date": "2026-11-26",
@@ -3403,7 +3403,7 @@
       "gmp_high": 67,
       "exchange": "SME",
       "gmp": 22,
-      "gmp_asof": "2026-11-26T09:45",
+      "gmp_asof": "2026-11-26T11:37",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 8.98,
       "gmp_spread": {
@@ -3422,10 +3422,10 @@
       "status": "closed",
       "news": [
         {
-          "date": "2026-11-19",
-          "source": "Economic Times",
           "title": "Watrana Rentals SME IPO opens today; GMP at 25%, check key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/watrana-rentals-sme-ipo-opens-today-gmp-at-25-check-key-details/articleshow/135977017.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/watrana-rentals-sme-ipo-opens-today-gmp-at-25-check-key-details/articleshow/135977017.cms",
+          "source": "Economic Times",
+          "date": "2026-11-19"
         }
       ],
       "unconfirmed": false
@@ -3796,13 +3796,13 @@
         },
         {
           "source": "Tracker D",
-          "gmp": 0.25,
-          "at": "2026-11-26T11:01"
+          "gmp": 1.35,
+          "at": "2026-11-26T11:37"
         },
         {
           "source": "Tracker B",
           "gmp": 1.5,
-          "at": "2026-11-26T11:15"
+          "at": "2026-11-26T11:35"
         }
       ],
       "gmp_history": [
@@ -3855,10 +3855,10 @@
       "gmp_low": 0,
       "gmp_high": 13,
       "exchange": "SME",
-      "gmp": 1.5,
-      "gmp_asof": "2026-11-26T11:15",
-      "gmp_source_latest": "Tracker B",
-      "gmp_pct": 1.1,
+      "gmp": 1.35,
+      "gmp_asof": "2026-11-26T11:37",
+      "gmp_source_latest": "Tracker D",
+      "gmp_pct": 0.99,
       "gmp_spread": {
         "min": 0,
         "max": 1.5,
@@ -3875,40 +3875,40 @@
       "status": "closed",
       "news": [
         {
-          "date": "2026-11-25",
-          "source": "Economic Times",
           "title": "Mahanadi Coalfields IPO allotment today: How to check status on KFin Technologies, BSE, NSE",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-allotment-today-how-to-check-status-on-kfin-technologies-bse-nse/articleshow/136150576.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-allotment-today-how-to-check-status-on-kfin-technologies-bse-nse/articleshow/136150576.cms",
+          "source": "Economic Times",
+          "date": "2026-11-25"
         },
         {
-          "date": "2026-11-23",
-          "source": "Economic Times",
           "title": "Mahanadi Coalfields IPO subscribed over 1.5 times on strong QIB push. Here's what the GMP indicates",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-gets-fully-subscribed-on-day-3-gmp-hints-at-muted-debut/articleshow/136098484.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-gets-fully-subscribed-on-day-3-gmp-hints-at-muted-debut/articleshow/136098484.cms",
+          "source": "Economic Times",
+          "date": "2026-11-23"
         },
         {
-          "date": "2026-11-23",
-          "source": "Economic Times",
           "title": "Mahanadi Coalfields IPO: GMP hints at muted debut. Which mutual fund schemes bought the Coal India subsidiary’s shares during anchor allocation?",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-gmp-hints-at-muted-debut-which-mutual-fund-schemes-bought-the-coal-india-subsidiarys-shares-during-anchor-allocation/articleshow/136088230.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-gmp-hints-at-muted-debut-which-mutual-fund-schemes-bought-the-coal-india-subsidiarys-shares-during-anchor-allocation/articleshow/136088230.cms",
+          "source": "Economic Times",
+          "date": "2026-11-23"
         },
         {
-          "date": "2026-11-22",
-          "source": "Economic Times",
           "title": "IPO Calendar: Issues worth Rs 3,300 crore lined up this week; Mahanadi Coalfields set for listing",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-calendar-issues-worth-rs-3300-crore-lined-up-this-week-mahanadi-coalfields-set-for-listing/articleshow/136070713.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-calendar-issues-worth-rs-3300-crore-lined-up-this-week-mahanadi-coalfields-set-for-listing/articleshow/136070713.cms",
+          "source": "Economic Times",
+          "date": "2026-11-22"
         },
         {
-          "date": "2026-11-20",
-          "source": "Economic Times",
           "title": "Mahanadi Coalfields IPO Day 2: Subscription below 50%; check latest GMP, listing date and key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-day-2-subscription-below-50-check-latest-gmp-listing-date-and-key-details/articleshow/136021334.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-day-2-subscription-below-50-check-latest-gmp-listing-date-and-key-details/articleshow/136021334.cms",
+          "source": "Economic Times",
+          "date": "2026-11-20"
         },
         {
-          "date": "2026-11-20",
-          "source": "Economic Times",
           "title": "Mahanadi Coalfields IPO: Subscribe or buy Coal India, BCCL, CMPDI shares instead? Where is the value for investors?",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-subscribe-or-buy-coal-india-bccl-cmpdi-shares-instead-where-is-the-value-for-investors/articleshow/136011583.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-subscribe-or-buy-coal-india-bccl-cmpdi-shares-instead-where-is-the-value-for-investors/articleshow/136011583.cms",
+          "source": "Economic Times",
+          "date": "2026-11-20"
         }
       ],
       "unconfirmed": false
@@ -3929,13 +3929,13 @@
       "price": 142,
       "segment": "SME",
       "sub": {
-        "retail": 0.63,
-        "nii": 0.47,
+        "total": 0.68,
         "qib": 4.27,
-        "total": 0.59
+        "nii": 0.5,
+        "retail": 0.77
       },
-      "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-26T11:30",
+      "sub_basis": "Tracker D",
+      "sub_asof": "2026-11-26T11:39",
       "registrar": "Mas Services Limited",
       "lead_managers": [
         "Erudore Capital Private Limited"
@@ -3949,7 +3949,7 @@
           "total": 0.0
         },
         {
-          "at": "2026-11-26T10:15+05:30",
+          "at": "2026-11-26T11:37+05:30",
           "qib": 0.0,
           "nii": 0.0,
           "bnii": 0.0,
@@ -3960,7 +3960,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": 6596000.0,
-      "updated_on": "2026-11-26T11:31+05:30",
+      "updated_on": "2026-11-26T11:37+05:30",
       "reservation": {
         "qib": 1.0,
         "nii": 47.0,
@@ -3974,75 +3974,75 @@
       },
       "tracker_rating": 3,
       "reservation_detail": {
-        "bnii": {
-          "pct": 31.34,
-          "shares": 2067000
-        },
-        "market_maker": {
-          "pct": 100.0,
-          "shares": 330000
+        "qib": {
+          "shares": 66000,
+          "pct": 1.0
         },
         "nii": {
-          "pct": 47.0,
-          "shares": 3100000
+          "shares": 3100000,
+          "pct": 47.0
         },
-        "qib": {
-          "pct": 1.0,
-          "shares": 66000
-        },
-        "retail": {
-          "pct": 47.0,
-          "shares": 3100000
+        "bnii": {
+          "shares": 2067000,
+          "pct": 31.34
         },
         "snii": {
-          "pct": 15.66,
-          "shares": 1033000
+          "shares": 1033000,
+          "pct": 15.66
+        },
+        "retail": {
+          "shares": 3100000,
+          "pct": 47.0
+        },
+        "market_maker": {
+          "shares": 330000,
+          "pct": 100.0
         }
       },
       "uses": [
         {
-          "cr": 23.54,
-          "use": "Capital Expense"
+          "use": "Capital Expense",
+          "cr": 23.54
         },
         {
-          "cr": 48.5,
-          "use": "Debt"
+          "use": "Debt",
+          "cr": 48.5
         }
       ],
       "fin": {
         "years": [
           {
-            "assets": 114.78,
-            "debt": 76.45,
-            "ebitda": 8.61,
+            "y": "FY24",
             "income": 36.9,
-            "net_worth": 12.98,
             "pat": 3.08,
-            "roce": 9.22,
+            "ebitda": 8.61,
+            "net_worth": 12.98,
+            "debt": 76.45,
+            "assets": 114.78,
             "roe": 47.11,
-            "y": "FY24"
+            "roce": 9.22
           },
           {
-            "assets": 115.22,
-            "debt": 72.76,
-            "ebitda": 14.54,
+            "y": "FY25",
             "income": 61.13,
-            "net_worth": 18.48,
             "pat": 5.5,
-            "roce": 17.2,
+            "ebitda": 14.54,
+            "net_worth": 18.48,
+            "debt": 72.76,
+            "assets": 115.22,
             "roe": 34.94,
-            "y": "FY25"
+            "roce": 17.2
           },
           {
-            "assets": 145.86,
-            "debt": 89.95,
-            "ebitda": 20.46,
+            "y": "FY26",
             "income": 78.32,
-            "net_worth": 25.07,
             "pat": 11.59,
-            "roce": 19.76,
+            "ebitda": 20.46,
+            "net_worth": 25.07,
+            "debt": 89.95,
+            "assets": 145.86,
             "roe": 53.24,
-            "y": "FY26"
+            "roce": 19.76
           }
         ],
         "ratios": {}
@@ -4052,17 +4052,17 @@
         {
           "source": "Tracker C",
           "gmp": 25,
-          "at": "2026-11-26T07:37"
+          "at": "2026-11-26T08:37"
         },
         {
           "source": "Tracker D",
           "gmp": 25,
-          "at": "2026-11-26T09:45"
+          "at": "2026-11-26T11:37"
         },
         {
           "source": "Tracker B",
           "gmp": 25,
-          "at": "2026-11-26T09:10"
+          "at": "2026-11-26T11:35"
         }
       ],
       "gmp_history": [
@@ -4088,7 +4088,7 @@
       "gmp_high": 25,
       "exchange": "SME",
       "gmp": 25,
-      "gmp_asof": "2026-11-26T09:45",
+      "gmp_asof": "2026-11-26T11:37",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 17.61,
       "gmp_spread": {
@@ -4129,102 +4129,58 @@
       "sub": {
         "qib": 0.0,
         "nii": 0.15,
-        "bnii": 0.12,
+        "bnii": 0.13,
         "snii": 0.2,
-        "retail": 1.1,
-        "total": 0.24
+        "retail": 1.13,
+        "total": 0.25
       },
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-11-26T11:27",
+      "sub_asof": "2026-11-26T11:33",
       "registrar": "MUFG Intime India Private Limited",
       "lead_managers": [
         "Equirus Capital Limited (formerly known as Equirus Capital Private Limited) and JM Financial Limited"
       ],
+      "reservation": {
+        "qib": 53.59,
+        "nii": 27.84,
+        "retail": 18.56
+      },
       "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_FOODLINK.zip",
       "retail_max": 200000,
       "cutoff_time": "5:00 PM",
       "price_low": 181,
       "sub_history": [
         {
-          "at": "2026-11-26T00:01+05:30",
-          "total": 0.0
-        },
-        {
-          "at": "2026-11-26T10:15+05:30",
-          "qib": 0.0,
-          "nii": 0.02,
-          "bnii": 0.0,
-          "snii": 0.04,
-          "retail": 0.15,
-          "total": 0.03
-        },
-        {
-          "at": "2026-11-26T10:31+05:30",
-          "qib": 0.0,
-          "nii": 0.05,
-          "bnii": 0.02,
-          "snii": 0.1,
-          "retail": 0.49,
-          "total": 0.1
-        },
-        {
-          "at": "2026-11-26T10:45+05:30",
-          "qib": 0.0,
-          "nii": 0.08,
-          "bnii": 0.05,
-          "snii": 0.14,
-          "retail": 0.67,
-          "total": 0.15
-        },
-        {
-          "at": "2026-11-26T11:01+05:30",
-          "qib": 0.0,
-          "nii": 0.11,
-          "bnii": 0.09,
-          "snii": 0.16,
-          "retail": 0.84,
-          "total": 0.19
-        },
-        {
-          "at": "2026-11-26T11:15+05:30",
-          "qib": 0.0,
-          "nii": 0.13,
-          "bnii": 0.11,
-          "snii": 0.18,
-          "retail": 0.99,
-          "total": 0.22
-        },
-        {
-          "at": "2026-11-26T11:31+05:30",
+          "at": "2026-11-26T11:37+05:30",
           "qib": 0.0,
           "nii": 0.15,
-          "bnii": 0.12,
+          "bnii": 0.13,
           "snii": 0.2,
-          "retail": 1.1,
-          "total": 0.24
+          "retail": 1.13,
+          "total": 0.25
         }
       ],
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 10474048.0,
-      "updated_on": "2026-11-26T11:31+05:30",
+      "updated_on": "2026-11-26T11:37+05:30",
       "bse_ipo_no": "8097",
       "uses": [
         {
-          "cr": 21.4,
-          "use": "Capital Expense"
+          "use": "Capital Expense",
+          "cr": 21.4
         },
         {
-          "cr": 41.5,
-          "use": "Capital Expense"
+          "use": "Capital Expense",
+          "cr": 41.5
         },
         {
-          "cr": 50.81,
-          "use": "Investment"
+          "use": "Investment",
+          "cr": 50.81
         },
         {
-          "cr": 21.0,
-          "use": "Debt"
+          "use": "Debt",
+          "cr": 21.0
         }
       ],
       "sector": "Luxury Food Services / Hospitality",
@@ -4232,7 +4188,7 @@
         {
           "source": "Tracker D",
           "gmp": 16.5,
-          "at": "2026-11-26T10:15"
+          "at": "2026-11-26T11:37"
         }
       ],
       "gmp_history": [
@@ -4270,7 +4226,7 @@
       "gmp_high": 27,
       "exchange": "SME",
       "gmp": 16.5,
-      "gmp_asof": "2026-11-26T10:15",
+      "gmp_asof": "2026-11-26T11:37",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 8.64,
       "gmp_trend": {
@@ -4282,22 +4238,22 @@
       "status": "open",
       "news": [
         {
-          "date": "2026-11-26",
-          "source": "Economic Times",
           "title": "Foodlink F&B Holdings IPO opens for subscription. Should you apply or skip?",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-ipo-opens-today-check-price-band-lot-size-how-to-apply-and-whether-you-should-subscribe/articleshow/136176395.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-ipo-opens-today-check-price-band-lot-size-how-to-apply-and-whether-you-should-subscribe/articleshow/136176395.cms",
+          "source": "Economic Times",
+          "date": "2026-11-26"
         },
         {
-          "date": "2026-11-23",
-          "source": "Economic Times",
           "title": "Foodlink F&B Holdings announces price band for Rs 361-crore IPO. Check key dates & other details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-announces-price-band-for-rs-361-crore-ipo-check-key-dates-other-details/articleshow/136091391.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-announces-price-band-for-rs-361-crore-ipo-check-key-dates-other-details/articleshow/136091391.cms",
+          "source": "Economic Times",
+          "date": "2026-11-23"
         },
         {
-          "date": "2026-11-22",
-          "source": "Economic Times",
           "title": "IPO watch: Foodlink F&B Holdings, Integris Medtech among three new issues to open for subscriptions this week; check details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-watch-foodlink-fb-holdings-integris-medtech-among-three-new-issues-to-open-for-subscriptions-this-week-check-details/articleshow/136070288.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-watch-foodlink-fb-holdings-integris-medtech-among-three-new-issues-to-open-for-subscriptions-this-week-check-details/articleshow/136070288.cms",
+          "source": "Economic Times",
+          "date": "2026-11-22"
         }
       ],
       "unconfirmed": false
@@ -4327,15 +4283,15 @@
       "series": "SME",
       "nse_status": "Forthcoming",
       "shares_offered": 3600000.0,
-      "updated_on": "2026-11-26T11:31+05:30",
+      "updated_on": "2026-11-26T11:37+05:30",
       "reservation_detail": {
         "nii": {
-          "pct": 50.04,
-          "shares": 1711200
+          "shares": 1711200,
+          "pct": 50.04
         },
         "retail": {
-          "pct": 49.96,
-          "shares": 1708800
+          "shares": 1708800,
+          "pct": 49.96
         }
       },
       "reservation": {
@@ -4344,28 +4300,28 @@
       },
       "uses": [
         {
-          "cr": 2.0,
-          "use": "Asset"
+          "use": "Asset",
+          "cr": 2.0
         },
         {
-          "cr": 0.6,
-          "use": "Asset"
+          "use": "Asset",
+          "cr": 0.6
         },
         {
-          "cr": 3.97,
-          "use": "Factory"
+          "use": "Factory",
+          "cr": 3.97
         },
         {
-          "cr": 13.0,
-          "use": "Working Capital"
+          "use": "Working Capital",
+          "cr": 13.0
         },
         {
-          "cr": 4.34,
-          "use": "Other"
+          "use": "Other",
+          "cr": 4.34
         },
         {
-          "cr": 4.0,
-          "use": "Expenditure"
+          "use": "Expenditure",
+          "cr": 4.0
         }
       ],
       "sector": "Industrial Products",
@@ -4374,7 +4330,7 @@
         {
           "source": "Tracker D",
           "gmp": 4,
-          "at": "2026-11-26T09:15"
+          "at": "2026-11-26T11:37"
         }
       ],
       "gmp_history": [
@@ -4392,7 +4348,7 @@
       "gmp_high": 4,
       "exchange": "SME",
       "gmp": 4,
-      "gmp_asof": "2026-11-26T09:15",
+      "gmp_asof": "2026-11-26T11:37",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 4.04,
       "gmp_trend": {
@@ -4434,20 +4390,20 @@
       "series": "SME",
       "nse_status": "Forthcoming",
       "shares_offered": 3000000.0,
-      "updated_on": "2026-11-26T11:31+05:30",
+      "updated_on": "2026-11-26T11:37+05:30",
       "tracker_rating": 3,
       "reservation_detail": {
-        "nii": {
-          "pct": 15.16,
-          "shares": 432000
-        },
         "qib": {
-          "pct": 49.35,
-          "shares": 1406400
+          "shares": 1406400,
+          "pct": 49.35
+        },
+        "nii": {
+          "shares": 432000,
+          "pct": 15.16
         },
         "retail": {
-          "pct": 35.49,
-          "shares": 1011200
+          "shares": 1011200,
+          "pct": 35.49
         }
       },
       "reservation": {
@@ -4457,12 +4413,12 @@
       },
       "uses": [
         {
-          "cr": 29.3,
-          "use": "Working Capital"
+          "use": "Working Capital",
+          "cr": 29.3
         },
         {
-          "cr": 7.0,
-          "use": "Debt"
+          "use": "Debt",
+          "cr": 7.0
         }
       ],
       "sector": "Packaging",
@@ -4471,12 +4427,12 @@
         {
           "source": "Tracker C",
           "gmp": 24,
-          "at": "2026-11-26T07:37"
+          "at": "2026-11-26T08:37"
         },
         {
           "source": "Tracker D",
           "gmp": 24,
-          "at": "2026-11-26T09:15"
+          "at": "2026-11-26T11:37"
         }
       ],
       "gmp_history": [
@@ -4502,7 +4458,7 @@
       "gmp_high": 24,
       "exchange": "SME",
       "gmp": 24,
-      "gmp_asof": "2026-11-26T09:15",
+      "gmp_asof": "2026-11-26T11:37",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 13.33,
       "gmp_spread": {
@@ -4548,21 +4504,17 @@
       "series": "Equity",
       "nse_status": "Forthcoming",
       "shares_offered": 27000000.0,
-      "updated_on": "2026-11-26T11:31+05:30",
+      "updated_on": "2026-11-26T11:37+05:30",
       "gmp_sources": [],
       "gmp_history": [],
       "exchange": "SME",
       "gmp": null,
       "gmp_pct": null,
       "status": "upcoming",
-      "news": [
-        {
-          "date": "2026-11-24",
-          "source": "BusinessLine",
-          "title": "Two IPOs to hit market in Dec; Monomark Engineering, Matangi Rubber to raise funds via public issues",
-          "url": "https://www.thehindubusinessline.com/markets/two-ipos-to-hit-market-in-dec-monomark-engineering-matangi-rubber-to-raise-funds-via-public-issues/article71737316.ece"
-        }
-      ],
+      "ai_gmp_none": {
+        "why": "we could not confirm it on the page (the site does not allow us to open that page)",
+        "checked": "2026-11-26T11:37+05:30"
+      },
       "unconfirmed": false
     },
     {
@@ -4758,7 +4710,7 @@
         {
           "source": "Tracker C",
           "gmp": 4,
-          "at": "2026-11-26T07:37"
+          "at": "2026-11-26T08:37"
         }
       ],
       "gmp_history": [
@@ -4775,7 +4727,7 @@
       "gmp_low": 4,
       "gmp_high": 4,
       "gmp": 4,
-      "gmp_asof": "2026-11-26T07:37",
+      "gmp_asof": "2026-11-26T08:37",
       "gmp_source_latest": "Tracker C",
       "gmp_pct": 4.04,
       "gmp_trend": {
@@ -4821,20 +4773,20 @@
       },
       "tracker_rating": 2,
       "sub": {
-        "retail": 1.1,
+        "retail": 1.13,
         "nii": 0.15,
-        "bnii": 0.12,
+        "bnii": 0.13,
         "snii": 0.2,
         "qib": 0.0,
-        "total": 0.24
+        "total": 0.25
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-26T11:30",
+      "sub_asof": "2026-11-26T11:36",
       "gmp_sources": [
         {
           "source": "Tracker C",
           "gmp": 18,
-          "at": "2026-11-26T07:37"
+          "at": "2026-11-26T08:37"
         },
         {
           "source": "Tracker D",
@@ -4844,7 +4796,7 @@
         {
           "source": "Tracker B",
           "gmp": 16.5,
-          "at": "2026-11-26T11:15"
+          "at": "2026-11-26T11:35"
         }
       ],
       "gmp_history": [
@@ -4881,7 +4833,7 @@
       "gmp_low": 12,
       "gmp_high": 27,
       "gmp": 16.5,
-      "gmp_asof": "2026-11-26T11:15",
+      "gmp_asof": "2026-11-26T11:35",
       "gmp_source_latest": "Tracker B",
       "gmp_pct": 8.64,
       "gmp_spread": {
@@ -4900,22 +4852,22 @@
       "status": "open",
       "news": [
         {
-          "date": "2026-11-26",
-          "source": "Economic Times",
           "title": "Foodlink F&B Holdings IPO opens for subscription. Should you apply or skip?",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-ipo-opens-today-check-price-band-lot-size-how-to-apply-and-whether-you-should-subscribe/articleshow/136176395.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-ipo-opens-today-check-price-band-lot-size-how-to-apply-and-whether-you-should-subscribe/articleshow/136176395.cms",
+          "source": "Economic Times",
+          "date": "2026-11-26"
         },
         {
-          "date": "2026-11-23",
-          "source": "Economic Times",
           "title": "Foodlink F&B Holdings announces price band for Rs 361-crore IPO. Check key dates & other details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-announces-price-band-for-rs-361-crore-ipo-check-key-dates-other-details/articleshow/136091391.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-announces-price-band-for-rs-361-crore-ipo-check-key-dates-other-details/articleshow/136091391.cms",
+          "source": "Economic Times",
+          "date": "2026-11-23"
         },
         {
-          "date": "2026-11-22",
-          "source": "Economic Times",
           "title": "IPO watch: Foodlink F&B Holdings, Integris Medtech among three new issues to open for subscriptions this week; check details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-watch-foodlink-fb-holdings-integris-medtech-among-three-new-issues-to-open-for-subscriptions-this-week-check-details/articleshow/136070288.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-watch-foodlink-fb-holdings-integris-medtech-among-three-new-issues-to-open-for-subscriptions-this-week-check-details/articleshow/136070288.cms",
+          "source": "Economic Times",
+          "date": "2026-11-22"
         }
       ],
       "unconfirmed": true
@@ -4935,16 +4887,16 @@
       "tracker_rating": 3,
       "uses": [
         {
-          "cr": 45.0,
-          "use": "Debt"
+          "use": "Debt",
+          "cr": 45.0
         },
         {
-          "cr": 19.06,
-          "use": "Facility"
+          "use": "Facility",
+          "cr": 19.06
         },
         {
-          "cr": 8.44,
-          "use": "Facility"
+          "use": "Facility",
+          "cr": 8.44
         }
       ],
       "sector": "Tyres & Rubber Products",
@@ -4957,12 +4909,12 @@
         {
           "source": "Tracker C",
           "gmp": 27,
-          "at": "2026-11-26T07:37"
+          "at": "2026-11-26T08:37"
         },
         {
           "source": "Tracker D",
           "gmp": 27,
-          "at": "2026-11-26T09:45"
+          "at": "2026-11-26T11:37"
         }
       ],
       "gmp_history": [
@@ -4972,7 +4924,7 @@
         },
         {
           "date": "2026-11-25",
-          "gmp": 21.5
+          "gmp": 22
         },
         {
           "date": "2026-11-26",
@@ -4983,7 +4935,7 @@
       "gmp_low": 20,
       "gmp_high": 27,
       "gmp": 27,
-      "gmp_asof": "2026-11-26T09:45",
+      "gmp_asof": "2026-11-26T11:37",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 15.7,
       "gmp_spread": {
@@ -5006,10 +4958,10 @@
       },
       "news": [
         {
-          "date": "2026-11-23",
-          "source": "Economic Times",
           "title": "Matangi Rubber’s Rs 125.16 cr IPO opens Dec 1: Check price band, lot size and other key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/matangi-rubbers-rs-125-16-cr-ipo-opens-dec-1-check-price-band-lot-size-and-other-key-details/articleshow/136101832.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/matangi-rubbers-rs-125-16-cr-ipo-opens-dec-1-check-price-band-lot-size-and-other-key-details/articleshow/136101832.cms",
+          "source": "Economic Times",
+          "date": "2026-11-23"
         }
       ],
       "unconfirmed": true
@@ -5029,45 +4981,45 @@
       "tracker_rating": 4,
       "uses": [
         {
-          "cr": 120.0,
-          "use": "Working Capital"
+          "use": "Working Capital",
+          "cr": 120.0
         }
       ],
       "sector": "Civil Construction",
       "fin": {
         "years": [
           {
-            "assets": 0,
-            "debt": 0,
-            "ebitda": 0,
+            "y": "FY23",
             "income": 0,
-            "net_worth": 0,
             "pat": 0,
-            "roce": 10.53,
+            "ebitda": 0,
+            "net_worth": 0,
+            "debt": 0,
+            "assets": 0,
             "roe": 10.53,
-            "y": "FY23"
+            "roce": 10.53
           },
           {
-            "assets": 240.81,
-            "debt": 0,
-            "ebitda": 31.89,
+            "y": "FY24",
             "income": 392.14,
-            "net_worth": 9.68,
             "pat": 14.83,
-            "roce": 20.05,
+            "ebitda": 31.89,
+            "net_worth": 9.68,
+            "debt": 0,
+            "assets": 240.81,
             "roe": 24.67,
-            "y": "FY24"
+            "roce": 20.05
           },
           {
-            "assets": 294,
-            "debt": 0,
-            "ebitda": 39,
+            "y": "FY25",
             "income": 477.29,
-            "net_worth": 17,
             "pat": 18,
-            "roce": 21.95,
+            "ebitda": 39,
+            "net_worth": 17,
+            "debt": 0,
+            "assets": 294,
             "roe": 24.86,
-            "y": "FY25"
+            "roce": 21.95
           }
         ],
         "ratios": {}
@@ -5076,12 +5028,12 @@
         {
           "source": "Tracker C",
           "gmp": 21,
-          "at": "2026-11-26T07:37"
+          "at": "2026-11-26T08:37"
         },
         {
           "source": "Tracker D",
           "gmp": 21,
-          "at": "2026-11-26T09:15"
+          "at": "2026-11-26T11:37"
         }
       ],
       "gmp_history": [
@@ -5106,7 +5058,7 @@
       "gmp_low": 21,
       "gmp_high": 23,
       "gmp": 21,
-      "gmp_asof": "2026-11-26T09:15",
+      "gmp_asof": "2026-11-26T11:37",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 32.31,
       "gmp_spread": {
