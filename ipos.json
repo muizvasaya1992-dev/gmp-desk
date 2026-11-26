@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T13:01+05:30",
+  "generated_at": "2026-11-26T13:15+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-26T11:37+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-26T13:01+05:30",
+    "nse_ok_at": "2026-11-26T13:15+05:30",
     "bse_ok_at": "2026-11-26T11:41+05:30"
   },
   "ipos": [
@@ -3422,10 +3422,10 @@
       "status": "closed",
       "news": [
         {
-          "date": "2026-11-19",
-          "source": "Economic Times",
           "title": "Watrana Rentals SME IPO opens today; GMP at 25%, check key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/watrana-rentals-sme-ipo-opens-today-gmp-at-25-check-key-details/articleshow/135977017.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/watrana-rentals-sme-ipo-opens-today-gmp-at-25-check-key-details/articleshow/135977017.cms",
+          "source": "Economic Times",
+          "date": "2026-11-19"
         }
       ],
       "unconfirmed": false
@@ -3875,40 +3875,40 @@
       "status": "closed",
       "news": [
         {
-          "date": "2026-11-25",
-          "source": "Economic Times",
+          "title": "KFin Technologies shares jump 7% as Mahanadi Coalfields IPO buzz lifts registrar;experts see further upside | Here's why",
+          "url": "https://www.livemint.com/market/stock-market-news/kfin-technologies-shares-jump-7-as-mahanadi-coalfields-ipo-buzz-lifts-registrar-experts-see-further-upside-heres-why-11795674765502.html",
+          "source": "Mint",
+          "date": "2026-11-26"
+        },
+        {
           "title": "Mahanadi Coalfields IPO allotment today: How to check status on KFin Technologies, BSE, NSE",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-allotment-today-how-to-check-status-on-kfin-technologies-bse-nse/articleshow/136150576.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-allotment-today-how-to-check-status-on-kfin-technologies-bse-nse/articleshow/136150576.cms",
+          "source": "Economic Times",
+          "date": "2026-11-25"
         },
         {
-          "date": "2026-11-23",
-          "source": "Economic Times",
           "title": "Mahanadi Coalfields IPO subscribed over 1.5 times on strong QIB push. Here's what the GMP indicates",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-gets-fully-subscribed-on-day-3-gmp-hints-at-muted-debut/articleshow/136098484.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-gets-fully-subscribed-on-day-3-gmp-hints-at-muted-debut/articleshow/136098484.cms",
+          "source": "Economic Times",
+          "date": "2026-11-23"
         },
         {
-          "date": "2026-11-23",
-          "source": "Economic Times",
           "title": "Mahanadi Coalfields IPO: GMP hints at muted debut. Which mutual fund schemes bought the Coal India subsidiary’s shares during anchor allocation?",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-gmp-hints-at-muted-debut-which-mutual-fund-schemes-bought-the-coal-india-subsidiarys-shares-during-anchor-allocation/articleshow/136088230.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-gmp-hints-at-muted-debut-which-mutual-fund-schemes-bought-the-coal-india-subsidiarys-shares-during-anchor-allocation/articleshow/136088230.cms",
+          "source": "Economic Times",
+          "date": "2026-11-23"
         },
         {
-          "date": "2026-11-22",
-          "source": "Economic Times",
           "title": "IPO Calendar: Issues worth Rs 3,300 crore lined up this week; Mahanadi Coalfields set for listing",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-calendar-issues-worth-rs-3300-crore-lined-up-this-week-mahanadi-coalfields-set-for-listing/articleshow/136070713.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-calendar-issues-worth-rs-3300-crore-lined-up-this-week-mahanadi-coalfields-set-for-listing/articleshow/136070713.cms",
+          "source": "Economic Times",
+          "date": "2026-11-22"
         },
         {
-          "date": "2026-11-20",
-          "source": "Economic Times",
           "title": "Mahanadi Coalfields IPO Day 2: Subscription below 50%; check latest GMP, listing date and key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-day-2-subscription-below-50-check-latest-gmp-listing-date-and-key-details/articleshow/136021334.cms"
-        },
-        {
-          "date": "2026-11-20",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-day-2-subscription-below-50-check-latest-gmp-listing-date-and-key-details/articleshow/136021334.cms",
           "source": "Economic Times",
-          "title": "Mahanadi Coalfields IPO: Subscribe or buy Coal India, BCCL, CMPDI shares instead? Where is the value for investors?",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-ipo-subscribe-or-buy-coal-india-bccl-cmpdi-shares-instead-where-is-the-value-for-investors/articleshow/136011583.cms"
+          "date": "2026-11-20"
         }
       ],
       "unconfirmed": false
@@ -3960,7 +3960,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": 6596000.0,
-      "updated_on": "2026-11-26T13:01+05:30",
+      "updated_on": "2026-11-26T13:15+05:30",
       "reservation": {
         "qib": 1.0,
         "nii": 47.0,
@@ -4129,13 +4129,13 @@
       "sub": {
         "qib": 0.0,
         "nii": 0.22,
-        "bnii": 0.18,
-        "snii": 0.28,
-        "retail": 1.57,
-        "total": 0.35
+        "bnii": 0.19,
+        "snii": 0.3,
+        "retail": 1.63,
+        "total": 0.37
       },
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-11-26T12:57",
+      "sub_asof": "2026-11-26T13:12",
       "registrar": "MUFG Intime India Private Limited",
       "lead_managers": [
         "Equirus Capital Limited (formerly known as Equirus Capital Private Limited) and JM Financial Limited"
@@ -4221,12 +4221,21 @@
           "snii": 0.28,
           "retail": 1.57,
           "total": 0.35
+        },
+        {
+          "at": "2026-11-26T13:15+05:30",
+          "qib": 0.0,
+          "nii": 0.22,
+          "bnii": 0.19,
+          "snii": 0.3,
+          "retail": 1.63,
+          "total": 0.37
         }
       ],
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 10474048.0,
-      "updated_on": "2026-11-26T13:01+05:30",
+      "updated_on": "2026-11-26T13:15+05:30",
       "bse_ipo_no": "8097",
       "uses": [
         {
@@ -4250,8 +4259,8 @@
       "gmp_sources": [
         {
           "source": "Tracker D",
-          "gmp": 16.5,
-          "at": "2026-11-26T11:41"
+          "gmp": 14,
+          "at": "2026-11-26T13:15"
         }
       ],
       "gmp_history": [
@@ -4281,42 +4290,42 @@
         },
         {
           "date": "2026-11-26",
-          "gmp": 16.5
+          "gmp": 14
         }
       ],
       "history_source": "Tracker D",
       "gmp_low": 12,
       "gmp_high": 27,
       "exchange": "SME",
-      "gmp": 16.5,
-      "gmp_asof": "2026-11-26T11:41",
+      "gmp": 14,
+      "gmp_asof": "2026-11-26T13:15",
       "gmp_source_latest": "Tracker D",
-      "gmp_pct": 8.64,
+      "gmp_pct": 7.33,
       "gmp_trend": {
-        "dir": "steady",
-        "change": 0.5,
+        "dir": "falling",
+        "change": -2,
         "days": 3,
         "since": "2026-11-24"
       },
       "status": "open",
       "news": [
         {
-          "date": "2026-11-26",
-          "source": "Economic Times",
           "title": "Foodlink F&B Holdings IPO opens for subscription. Should you apply or skip?",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-ipo-opens-today-check-price-band-lot-size-how-to-apply-and-whether-you-should-subscribe/articleshow/136176395.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-ipo-opens-today-check-price-band-lot-size-how-to-apply-and-whether-you-should-subscribe/articleshow/136176395.cms",
+          "source": "Economic Times",
+          "date": "2026-11-26"
         },
         {
-          "date": "2026-11-23",
-          "source": "Economic Times",
           "title": "Foodlink F&B Holdings announces price band for Rs 361-crore IPO. Check key dates & other details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-announces-price-band-for-rs-361-crore-ipo-check-key-dates-other-details/articleshow/136091391.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-announces-price-band-for-rs-361-crore-ipo-check-key-dates-other-details/articleshow/136091391.cms",
+          "source": "Economic Times",
+          "date": "2026-11-23"
         },
         {
-          "date": "2026-11-22",
-          "source": "Economic Times",
           "title": "IPO watch: Foodlink F&B Holdings, Integris Medtech among three new issues to open for subscriptions this week; check details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-watch-foodlink-fb-holdings-integris-medtech-among-three-new-issues-to-open-for-subscriptions-this-week-check-details/articleshow/136070288.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-watch-foodlink-fb-holdings-integris-medtech-among-three-new-issues-to-open-for-subscriptions-this-week-check-details/articleshow/136070288.cms",
+          "source": "Economic Times",
+          "date": "2026-11-22"
         }
       ],
       "unconfirmed": false
@@ -4346,7 +4355,7 @@
       "series": "SME",
       "nse_status": "Forthcoming",
       "shares_offered": 3600000.0,
-      "updated_on": "2026-11-26T13:01+05:30",
+      "updated_on": "2026-11-26T13:15+05:30",
       "reservation_detail": {
         "nii": {
           "pct": 50.04,
@@ -4453,7 +4462,7 @@
       "series": "SME",
       "nse_status": "Forthcoming",
       "shares_offered": 3000000.0,
-      "updated_on": "2026-11-26T13:01+05:30",
+      "updated_on": "2026-11-26T13:15+05:30",
       "tracker_rating": 3,
       "reservation_detail": {
         "nii": {
@@ -4567,7 +4576,7 @@
       "series": "Equity",
       "nse_status": "Forthcoming",
       "shares_offered": 27000000.0,
-      "updated_on": "2026-11-26T13:01+05:30",
+      "updated_on": "2026-11-26T13:15+05:30",
       "gmp_sources": [],
       "gmp_history": [],
       "exchange": "SME",
@@ -4584,6 +4593,113 @@
           "source": "BusinessLine",
           "title": "Two IPOs to hit market in Dec; Monomark Engineering, Matangi Rubber to raise funds via public issues",
           "url": "https://www.thehindubusinessline.com/markets/two-ipos-to-hit-market-in-dec-monomark-engineering-matangi-rubber-to-raise-funds-via-public-issues/article71737316.ece"
+        }
+      ],
+      "unconfirmed": false
+    },
+    {
+      "id": "matangi",
+      "name": "Matangi Rubber",
+      "lot": 87,
+      "size_cr": 125.16,
+      "boa": "2026-12-04",
+      "listing": "2026-12-08",
+      "anchor": null,
+      "rating": null,
+      "symbol": "MATANGI",
+      "official": true,
+      "open": "2026-12-01",
+      "close": "2026-12-03",
+      "price": 172,
+      "segment": "SME",
+      "registrar": "Bigshare Services Private Limited",
+      "lead_managers": [
+        "Sarthi Capital Advisors Private Limited"
+      ],
+      "rhp_url": "https://nsearchives.nseindia.com/content/ipo/RHP_MATANGI.zip",
+      "retail_max": 200000,
+      "cutoff_time": "5:00 PM",
+      "price_low": 163,
+      "sub_history": null,
+      "series": "Equity",
+      "nse_status": "Forthcoming",
+      "shares_offered": 7276981.0,
+      "updated_on": "2026-11-26T13:15+05:30",
+      "tracker_rating": 3,
+      "uses": [
+        {
+          "cr": 45.0,
+          "use": "Debt"
+        },
+        {
+          "cr": 19.06,
+          "use": "Facility"
+        },
+        {
+          "cr": 8.44,
+          "use": "Facility"
+        }
+      ],
+      "sector": "Tyres & Rubber Products",
+      "gmp_sources": [
+        {
+          "source": "Public trackers",
+          "gmp": 20,
+          "at": "2026-11-23T14:00"
+        },
+        {
+          "source": "Tracker C",
+          "gmp": 27,
+          "at": "2026-11-26T11:37"
+        },
+        {
+          "source": "Tracker D",
+          "gmp": 27,
+          "at": "2026-11-26T13:15"
+        }
+      ],
+      "gmp_history": [
+        {
+          "date": "2026-11-24",
+          "gmp": 21.5
+        },
+        {
+          "date": "2026-11-25",
+          "gmp": 22
+        },
+        {
+          "date": "2026-11-26",
+          "gmp": 27
+        }
+      ],
+      "history_source": "Tracker D",
+      "gmp_low": 20,
+      "gmp_high": 27,
+      "exchange": "SME",
+      "gmp": 27,
+      "gmp_asof": "2026-11-26T13:15",
+      "gmp_source_latest": "Tracker D",
+      "gmp_pct": 15.7,
+      "gmp_spread": {
+        "min": 20,
+        "max": 27,
+        "diff": 7,
+        "n": 3,
+        "diff_pct_of_price": 4.07
+      },
+      "gmp_trend": {
+        "dir": "rising",
+        "change": 5.5,
+        "days": 3,
+        "since": "2026-11-24"
+      },
+      "status": "upcoming",
+      "news": [
+        {
+          "title": "Matangi Rubber’s Rs 125.16 cr IPO opens Dec 1: Check price band, lot size and other key details",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/matangi-rubbers-rs-125-16-cr-ipo-opens-dec-1-check-price-band-lot-size-and-other-key-details/articleshow/136101832.cms",
+          "source": "Economic Times",
+          "date": "2026-11-23"
         }
       ],
       "unconfirmed": false
@@ -4923,116 +5039,22 @@
       "status": "open",
       "news": [
         {
-          "date": "2026-11-26",
-          "source": "Economic Times",
           "title": "Foodlink F&B Holdings IPO opens for subscription. Should you apply or skip?",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-ipo-opens-today-check-price-band-lot-size-how-to-apply-and-whether-you-should-subscribe/articleshow/136176395.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-ipo-opens-today-check-price-band-lot-size-how-to-apply-and-whether-you-should-subscribe/articleshow/136176395.cms",
+          "source": "Economic Times",
+          "date": "2026-11-26"
         },
         {
-          "date": "2026-11-23",
-          "source": "Economic Times",
           "title": "Foodlink F&B Holdings announces price band for Rs 361-crore IPO. Check key dates & other details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-announces-price-band-for-rs-361-crore-ipo-check-key-dates-other-details/articleshow/136091391.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-announces-price-band-for-rs-361-crore-ipo-check-key-dates-other-details/articleshow/136091391.cms",
+          "source": "Economic Times",
+          "date": "2026-11-23"
         },
         {
-          "date": "2026-11-22",
-          "source": "Economic Times",
           "title": "IPO watch: Foodlink F&B Holdings, Integris Medtech among three new issues to open for subscriptions this week; check details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-watch-foodlink-fb-holdings-integris-medtech-among-three-new-issues-to-open-for-subscriptions-this-week-check-details/articleshow/136070288.cms"
-        }
-      ],
-      "unconfirmed": true
-    },
-    {
-      "boa": "2026-12-04",
-      "close": "2026-12-03",
-      "from_peers": true,
-      "id": "matangi-rubber",
-      "listing": "2026-12-08",
-      "lot": 87,
-      "name": "Matangi Rubber",
-      "open": "2026-12-01",
-      "price": 172,
-      "segment": "MAIN",
-      "size_cr": 125.16,
-      "tracker_rating": 3,
-      "uses": [
-        {
-          "cr": 45.0,
-          "use": "Debt"
-        },
-        {
-          "cr": 19.06,
-          "use": "Facility"
-        },
-        {
-          "cr": 8.44,
-          "use": "Facility"
-        }
-      ],
-      "sector": "Tyres & Rubber Products",
-      "gmp_sources": [
-        {
-          "source": "Public trackers",
-          "gmp": 20,
-          "at": "2026-11-23T14:00"
-        },
-        {
-          "source": "Tracker C",
-          "gmp": 27,
-          "at": "2026-11-26T11:37"
-        },
-        {
-          "source": "Tracker D",
-          "gmp": 27,
-          "at": "2026-11-26T11:41"
-        }
-      ],
-      "gmp_history": [
-        {
-          "date": "2026-11-24",
-          "gmp": 21.5
-        },
-        {
-          "date": "2026-11-25",
-          "gmp": 22
-        },
-        {
-          "date": "2026-11-26",
-          "gmp": 27
-        }
-      ],
-      "history_source": "Tracker D",
-      "gmp_low": 20,
-      "gmp_high": 27,
-      "gmp": 27,
-      "gmp_asof": "2026-11-26T11:41",
-      "gmp_source_latest": "Tracker D",
-      "gmp_pct": 15.7,
-      "gmp_spread": {
-        "min": 20,
-        "max": 27,
-        "diff": 7,
-        "n": 3,
-        "diff_pct_of_price": 4.07
-      },
-      "gmp_trend": {
-        "dir": "rising",
-        "change": 5.5,
-        "days": 3,
-        "since": "2026-11-24"
-      },
-      "status": "upcoming",
-      "ai_gmp_none": {
-        "why": "we could not confirm it on the page (the site does not allow us to open that page)",
-        "checked": "2026-11-23T11:31+05:30"
-      },
-      "news": [
-        {
-          "date": "2026-11-23",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-watch-foodlink-fb-holdings-integris-medtech-among-three-new-issues-to-open-for-subscriptions-this-week-check-details/articleshow/136070288.cms",
           "source": "Economic Times",
-          "title": "Matangi Rubber’s Rs 125.16 cr IPO opens Dec 1: Check price band, lot size and other key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/matangi-rubbers-rs-125-16-cr-ipo-opens-dec-1-check-price-band-lot-size-and-other-key-details/articleshow/136101832.cms"
+          "date": "2026-11-22"
         }
       ],
       "unconfirmed": true

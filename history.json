@@ -34,18 +34,17 @@
   },
   {
    "name": "Matangi Rubber",
-   "segment": "MAIN",
-   "symbol": null,
+   "segment": "SME",
+   "symbol": "MATANGI",
    "listing": "2026-12-08",
-   "exchange": "NSE · BSE",
+   "exchange": "SME",
    "live": true,
-   "id": "matangi-rubber",
+   "id": "matangi",
    "status": "upcoming",
    "open": "2026-12-01",
    "close": "2026-12-03",
    "price": 172,
-   "price_low": null,
-   "unconfirmed": true
+   "price_low": 163
   },
   {
    "name": "Monomark Engineering (India)",
@@ -5812,5 +5811,5 @@
    "status": "listed"
   }
  ],
- "generated_at": "2026-11-26T11:37+05:30"
+ "generated_at": "2026-11-26T13:15+05:30"
 }
