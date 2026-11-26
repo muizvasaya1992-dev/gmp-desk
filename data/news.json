@@ -1,7 +1,7 @@
 {
  "_feeds": {
   "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms": {
-   "fetched": "2026-11-26T05:45+05:30",
+   "fetched": "2026-11-26T07:15+05:30",
    "items": [
     {
      "date": "2026-11-25",
@@ -306,7 +306,7 @@
    ]
   },
   "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms": {
-   "fetched": "2026-11-26T05:45+05:30",
+   "fetched": "2026-11-26T07:15+05:30",
    "items": [
     {
      "date": "2026-11-25",
@@ -611,8 +611,38 @@
    ]
   },
   "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml": {
-   "fetched": "2026-11-26T05:45+05:30",
+   "fetched": "2026-11-26T07:15+05:30",
    "items": [
+    {
+     "date": "2026-11-26",
+     "source": "cnbctv18.com",
+     "title": "Long-term bet or Immediate Dump? Anthropic leaves a Wall Street firm divided within itself",
+     "url": "https://www.cnbctv18.com/market/anthropic-share-price-wall-street-firm-rates-stock-long-term-bet-and-sell-two-views-targets-20041601.htm"
+    },
+    {
+     "date": "2026-11-26",
+     "source": "cnbctv18.com",
+     "title": "Anthropic teeters at $1 trillion market cap. Why it may stabilize from here",
+     "url": "https://www.cnbctv18.com/access/anthropic-teeters-at-1-trillion-market-cap-why-it-may-stabilize-from-here-20041613.htm"
+    },
+    {
+     "date": "2026-11-26",
+     "source": "cnbctv18.com",
+     "title": "JPMorgan says the S&P 500 will rise to 8,200 next year because of the AI supercycle",
+     "url": "https://www.cnbctv18.com/access/jpmorgan-says-the-sp-500-will-rise-to-8200-next-year-because-of-the-ai-supercycle-20041615.htm"
+    },
+    {
+     "date": "2026-11-26",
+     "source": "cnbctv18.com",
+     "title": "Foodlink F&B IPO opens today: What investors should know before subscribing",
+     "url": "https://www.cnbctv18.com/market/foodlink-f-b-ipo-subscription-opens-today-know-gmp-what-investors-should-know-before-subscribing-20041542.htm"
+    },
+    {
+     "date": "2026-11-26",
+     "source": "cnbctv18.com",
+     "title": "Sensex Today | Stock Market LIVE Updates: GIFT Nifty trades 120 pts higher; Brent above $94",
+     "url": "https://www.cnbctv18.com/market/stock-market-live-updates-nifty-50-sensex-expiry-today-tariffs-textiles-lg-schaeffler-gokaldas-lupin-avanti-share-price-liveblog-20041603.htm"
+    },
     {
      "date": "2026-11-26",
      "source": "cnbctv18.com",
@@ -644,7 +674,7 @@
      "url": "https://www.cnbctv18.com/market/medanta-block-deal-dunearn-investments-sells-2-4-per-cent-stake-for-rs-930-crore-hdfc-mf-among-buyers-20041549.htm"
     },
     {
-     "date": "2026-11-25",
+     "date": "2026-11-26",
      "source": "cnbctv18.com",
      "title": "Nifty Outlook for November 26: Index reacts to multiple triggers, tariffs included",
      "url": "https://www.cnbctv18.com/market/nifty-outlook-thursday-november-26-index-eyes-26000-as-analysts-favour-buy-on-dips-strategy-20041567.htm"
@@ -1062,42 +1092,48 @@
      "source": "cnbctv18.com",
      "title": "CrowdStrike will continue surging thanks to strong hyperscaler demand, says Guggenheim",
      "url": "https://www.cnbctv18.com/access/crowdstrike-will-continue-surging-thanks-to-strong-hyperscaler-demand-says-guggenheim-20040655.htm"
-    },
-    {
-     "date": "2026-11-25",
-     "source": "cnbctv18.com",
-     "title": "Stock Market Highlights: Nifty trades more than 420 points; HUL jumps 5%",
-     "url": "https://www.cnbctv18.com/market/stock-market-live-updates-sensex-nifty-50-ai-tariffs-it-nifty-bank-tata-steel-apl-apollo-zee-ril-adani-share-price-liveblog-20040632.htm"
-    },
-    {
-     "date": "2026-11-25",
-     "source": "cnbctv18.com",
-     "title": "Nvidia options trader bets on Jensen Huang's return as CEO, makes a 1,984% gain",
-     "url": "https://www.cnbctv18.com/market/nvidia-options-trade-one-makes-1984-percent-profit-after-jensen-huang-returns-as-ceo-outlook-hedge-funds-institutions-20040628.htm"
-    },
-    {
-     "date": "2026-11-25",
-     "source": "cnbctv18.com",
-     "title": "Dow Jones extends two-day recovery to nearly 2,000 points but Nvidia, Anthropic drag Nasdaq",
-     "url": "https://www.cnbctv18.com/market/dow-jones-snp-500-nasdaq-tech-selling-nvidia-anthropic-pce-inflation-prices-fed-20040626.htm"
-    },
-    {
-     "date": "2026-11-25",
-     "source": "cnbctv18.com",
-     "title": "Nifty Outlook for November 25: Will the AI rebound cause further profit booking?",
-     "url": "https://www.cnbctv18.com/market/nifty-outlook-wednesday-november-25-will-ai-rebound-cause-further-profit-booking-banking-index-20040566.htm"
-    },
-    {
-     "date": "2026-11-24",
-     "source": "cnbctv18.com",
-     "title": "Nvidia slips as investors assess risks surrounding Huang's return as CEO",
-     "url": "https://www.cnbctv18.com/market/stocks/nvidia-slips-as-investors-assess-risks-surrounding-huangs-return-as-ceo-20040507.htm"
     }
    ]
   },
   "https://www.freepressjournal.in/stories.rss?section=business": {
-   "fetched": "2026-11-26T05:45+05:30",
+   "fetched": "2026-11-26T07:15+05:30",
    "items": [
+    {
+     "date": "2026-11-26",
+     "source": "freepressjournal.in",
+     "title": "When Did You Last Say What You Really Felt?",
+     "url": "https://www.freepressjournal.in/analysis/when-did-you-last-say-what-you-really-felt"
+    },
+    {
+     "date": "2026-11-26",
+     "source": "freepressjournal.in",
+     "title": "‘NSA Would Have Wanted A Common Plan To Deter Cyber-Attacks’: Defence Analyst Captain Sarabjeet S Parmar On Ajit Doval’s Maldives Visit",
+     "url": "https://www.freepressjournal.in/india/nsa-would-have-wanted-a-common-plan-to-deter-cyber-attacks-defence-analyst-captain-sarabjeet-s-parmar-on-ajit-dovals-maldives-visit"
+    },
+    {
+     "date": "2026-11-26",
+     "source": "freepressjournal.in",
+     "title": "Fake IAS Officer Arrested In ₹42 Lakh Fraud Case In Bhopal, Cash-Counting Videos And BJP Membership Card Surface During Investigation",
+     "url": "https://www.freepressjournal.in/bhopal/fake-ias-officer-arrested-in-42-lakh-fraud-case-in-bhopal-cash-counting-videos-and-bjp-membership-card-surface-during-investigation"
+    },
+    {
+     "date": "2026-11-26",
+     "source": "freepressjournal.in",
+     "title": "E-Rickshaws Banned On AB Road, MG Road, Super Corridor In Indore",
+     "url": "https://www.freepressjournal.in/indore/e-rickshaws-banned-on-ab-road-mg-road-super-corridor-in-indore"
+    },
+    {
+     "date": "2026-11-26",
+     "source": "freepressjournal.in",
+     "title": "Bhopal Police Crack Blind Murder Case Within 24 Hours, Arrest Wife And Two Others For Allegedly Killing Husband, Dumping Body",
+     "url": "https://www.freepressjournal.in/bhopal/bhopal-police-crack-blind-murder-case-within-24-hours-arrest-wife-and-two-others-for-allegedly-killing-husband-dumping-body"
+    },
+    {
+     "date": "2026-11-26",
+     "source": "freepressjournal.in",
+     "title": "50-Bed Ward Among Four New Facilities At PC Sethi Hospital In Indore",
+     "url": "https://www.freepressjournal.in/indore/50-bed-ward-among-four-new-facilities-at-pc-sethi-hospital-in-indore"
+    },
     {
      "date": "2026-11-25",
      "source": "freepressjournal.in",
@@ -1127,78 +1163,42 @@
      "source": "freepressjournal.in",
      "title": "Bombay HC Seeks Infrastructure Plan From Railways, State To Curb Deaths On Mumbai Suburban Tracks",
      "url": "https://www.freepressjournal.in/mumbai/bombay-hc-seeks-infrastructure-plan-from-railways-state-to-curb-deaths-on-mumbai-suburban-tracks"
-    },
-    {
-     "date": "2026-11-25",
-     "source": "freepressjournal.in",
-     "title": "Three-Day Exhibition Starts On Nov 26 — Rare Coins To Offer Glimpse Into India's Monetary History In Indore",
-     "url": "https://www.freepressjournal.in/indore/three-day-exhibition-starts-on-nov-26-rare-coins-to-offer-glimpse-into-indias-monetary-history-in-indore"
-    },
-    {
-     "date": "2026-11-25",
-     "source": "freepressjournal.in",
-     "title": "Bombay HC Raps MUHS, Medical Regulators For Failing To Protect Sinhgad College Students",
-     "url": "https://www.freepressjournal.in/mumbai/bombay-hc-raps-muhs-medical-regulators-for-failing-to-protect-sinhgad-college-students"
-    },
-    {
-     "date": "2026-11-25",
-     "source": "freepressjournal.in",
-     "title": "₹80 Crore Aishbagh Janata Quarters Redevelopment Planned Even As Master Plan Awaits Approval",
-     "url": "https://www.freepressjournal.in/bhopal/80-crore-aishbagh-janata-quarters-redevelopment-planned-even-as-master-plan-awaits-approval"
-    },
-    {
-     "date": "2026-11-25",
-     "source": "freepressjournal.in",
-     "title": "Mumbai: Kurla’s Pramod Mahajan Garden Inspection Reveals Civic Neglect; BMC Moves To Blacklist Contractor",
-     "url": "https://www.freepressjournal.in/mumbai/mumbai-kurlas-pramod-mahajan-garden-inspection-reveals-civic-neglect-bmc-moves-to-blacklist-contractor"
-    },
-    {
-     "date": "2026-11-25",
-     "source": "freepressjournal.in",
-     "title": "CBI Initiates Probe Into ₹27.11-Crore Canara Bank Fraud Involving 420 Loans; 6 Officials Among 8 Accused",
-     "url": "https://www.freepressjournal.in/mumbai/cbi-initiates-probe-into-2711-crore-canara-bank-fraud-involving-420-loans-6-officials-among-8-accused"
-    },
-    {
-     "date": "2026-11-25",
-     "source": "freepressjournal.in",
-     "title": "Farmers To Stage Protest At Sanchi Dairy HQ On Nov 26 In Indore",
-     "url": "https://www.freepressjournal.in/indore/farmers-to-stage-protest-at-sanchi-dairy-hq-on-nov-26-in-indore"
-    },
-    {
-     "date": "2026-11-25",
-     "source": "freepressjournal.in",
-     "title": "E-Attendance: Deos Warn Of Salary Cuts Despite DPI Assurance Against Withholding Pay In Bhopal",
-     "url": "https://www.freepressjournal.in/bhopal/e-attendance-deos-warn-of-salary-cuts-despite-dpi-assurance-against-withholding-pay-in-bhopal"
-    },
-    {
-     "date": "2026-11-25",
-     "source": "freepressjournal.in",
-     "title": "Mumbai Crime Branch Busts Alleged Cyber Fraud Bank Account Racket In Dharavi; 2 Arrested",
-     "url": "https://www.freepressjournal.in/mumbai/mumbai-crime-branch-busts-alleged-cyber-fraud-bank-account-racket-in-dharavi-2-arrested"
-    },
-    {
-     "date": "2026-11-25",
-     "source": "freepressjournal.in",
-     "title": "Indore Sports Update – Prisha, Anvi Clinch Fourth Consecutive Cross-Country Titles, City Announces State Table Tennis Championship Teams",
-     "url": "https://www.freepressjournal.in/indore/indore-sports-update-prisha-anvi-clinch-fourth-consecutive-cross-country-titles-city-announces-state-table-tennis-championship-teams"
-    },
-    {
-     "date": "2026-11-25",
-     "source": "freepressjournal.in",
-     "title": "Western Railway To Build ₹98-Crore Coaching Depot At Currey Road To Boost Long-Distance Train Capacity",
-     "url": "https://www.freepressjournal.in/mumbai/western-railway-to-build-98-crore-coaching-depot-at-currey-road-to-boost-long-distance-train-capacity"
-    },
-    {
-     "date": "2026-11-25",
-     "source": "freepressjournal.in",
-     "title": "MP Women’s Asian Champions Trophy 2026 Deepika Doubles Up, Japan Bow Down",
-     "url": "https://www.freepressjournal.in/bhopal/mp-womens-asian-champions-trophy-2026-deepika-doubles-up-japan-bow-down"
     }
    ]
   },
   "https://www.livemint.com/rss/markets": {
-   "fetched": "2026-11-26T05:45+05:30",
+   "fetched": "2026-11-26T07:15+05:30",
    "items": [
+    {
+     "date": "2026-11-26",
+     "source": "Mint",
+     "title": "Situational Awareness Lost 65% in Wild Third Quarter, Report Says",
+     "url": "https://www.livemint.com/market/situational-awareness-lost-65-in-wild-third-quarter-report-says-11795656909412.html"
+    },
+    {
+     "date": "2026-11-26",
+     "source": "Mint",
+     "title": "Stock market outlook today,26 Nov:Sensex, Nifty prediction-DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues",
+     "url": "https://www.livemint.com/market/stock-market-news/stock-market-outlook-today-26-nov-sensex-nifty-prediction-djia-s-p-nasdaq-gift-nifty-kospi-nikkei-taiwan-cues-11795653478079.html"
+    },
+    {
+     "date": "2026-11-26",
+     "source": "Mint",
+     "title": "Raja Venkatraman recommends three stocks for 26 November",
+     "url": "https://www.livemint.com/market/stock-market-news/raja-venkatraman-recommends-three-stocks-for-26-november-11795653478298.html"
+    },
+    {
+     "date": "2026-11-26",
+     "source": "Mint",
+     "title": "Devyani Intl, DOMS Industries shares: Top 2 stocks to buy in near term; check target price, stop loss by Nagaraj Shetti",
+     "url": "https://www.livemint.com/market/stock-market-news/devyani-intl-doms-industries-shares-top-2-stocks-to-buy-in-near-term-check-target-price-stop-loss-by-nagaraj-shetti-11795622752268.html"
+    },
+    {
+     "date": "2026-11-26",
+     "source": "Mint",
+     "title": "Stock recommendations for 26 November from MarketSmith India",
+     "url": "https://www.livemint.com/market/stock-market-news/stock-recommendations-for-26-november-from-marketsmith-india-11795605050085.html"
+    },
     {
      "date": "2026-11-26",
      "source": "Mint",
@@ -1378,42 +1378,24 @@
      "source": "Mint",
      "title": "HFCL vs Sterlite Technologies: Both multibagger stocks hit 5% lower circuit again - Which one should you buy?",
      "url": "https://www.livemint.com/market/stock-market-news/hfcl-vs-sterlite-technologies-both-multibagger-stocks-hit-5-lower-circuit-again-which-one-should-you-buy-11795587553516.html"
-    },
-    {
-     "date": "2026-11-25",
-     "source": "Mint",
-     "title": "Despite stock market up today, why SG Mart shares hit 20% lower circuit; up 117% in 2026 | What lies ahead? Key levels",
-     "url": "https://www.livemint.com/market/stock-market-news/despite-stock-market-up-today-why-sg-mart-shares-hit-20-lower-circuit-up-117-in-2026-what-lies-ahead-key-levels-11795584028110.html"
-    },
-    {
-     "date": "2026-11-25",
-     "source": "Mint",
-     "title": "Tata Steel share price: What should investors do after APL Apollo Tubes ₹5,825 crore deal; buy, sell or hold?",
-     "url": "https://www.livemint.com/market/stock-market-news/tata-steel-share-price-what-should-investors-do-after-apl-apollo-tubes-rs-5-825-crore-deal-buy-sell-or-hold-11795585659415.html"
-    },
-    {
-     "date": "2026-11-25",
-     "source": "Mint",
-     "title": "HDFC Bank vs ICICI Bank vs Axis Bank shares: Best banking stock to buy amid Bank Nifty bull run? What market experts say",
-     "url": "https://www.livemint.com/market/stock-market-news/hdfc-bank-vs-icici-bank-vs-axis-bank-shares-best-banking-stock-to-buy-amid-bank-nifty-bull-run-what-market-experts-say-11795581019827.html"
-    },
-    {
-     "date": "2026-11-25",
-     "source": "Mint",
-     "title": "Top Nifty Bank gainer today: HDFC Bank shares jump 4% as index soars 2%— Should you buy or book profit? Experts advice",
-     "url": "https://www.livemint.com/market/stock-market-news/top-nifty-bank-gainer-today-hdfc-bank-shares-jump-4-as-index-soars-2-should-you-buy-or-book-profit-experts-advice-11795580304968.html"
-    },
-    {
-     "date": "2026-11-25",
-     "source": "Mint",
-     "title": "Why APL Apollo Tubes shares crashed 15% today to plunge at 52-week low; downgrade from brokerages after Tata Steel deal",
-     "url": "https://www.livemint.com/market/stock-market-news/why-apl-apollo-tubes-shares-crashed-15-today-to-plunge-at-52-week-low-downgrade-from-brokerages-after-tata-steel-deal-11795579639211.html"
     }
    ]
   },
   "https://www.thehindubusinessline.com/markets/feeder/default.rss": {
-   "fetched": "2026-11-26T05:45+05:30",
+   "fetched": "2026-11-26T07:15+05:30",
    "items": [
+    {
+     "date": "2026-11-26",
+     "source": "BusinessLine",
+     "title": "Sensex today | Stock Market Live: Stocks to watch, November 26: LG Electronics, Tata Steel, SG Mart, APL Apollo Tubes, Fino Payments, PNB, Lupin",
+     "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-26-november-2026/article71742218.ece"
+    },
+    {
+     "date": "2026-11-26",
+     "source": "BusinessLine",
+     "title": "Stocks to watch, November 26: LG Electronics, Tata Steel, SG Mart, APL Apollo Tubes, Fino Payments, PNB, Lupin, Cryogenic OGS, Lotus Chocolates",
+     "url": "https://www.thehindubusinessline.com/markets/stocks-to-watch-november-26-lg-electronics-tata-steel-sg-mart-apl-apollo-tubes-fino-payments-pnb-lupin-cryogenic-ogs-lotus-chocolates/article71745029.ece"
+    },
     {
      "date": "2026-11-26",
      "source": "BusinessLine",
@@ -1761,23 +1743,11 @@
      "source": "BusinessLine",
      "title": "Vidyakul raises ₹10 cr from Dell Foundation to expand vernacular learning platform",
      "url": "https://www.thehindubusinessline.com/markets/vidyakul-raises-10-cr-from-dell-foundation-to-expand-vernacular-learning-platform/article71737740.ece"
-    },
-    {
-     "date": "2026-11-24",
-     "source": "BusinessLine",
-     "title": "Investors get richer by ₹34.61 lakh crore this month as Sensex posts 11% rally",
-     "url": "https://www.thehindubusinessline.com/markets/investors-get-richer-by-3461-lakh-crore-this-month-as-sensex-posts-11-rally/article71737692.ece"
-    },
-    {
-     "date": "2026-11-24",
-     "source": "BusinessLine",
-     "title": "Stock market holiday today: Are BSE, NSE closed on November 24? What to expect when markets reopen?",
-     "url": "https://www.thehindubusinessline.com/markets/stock-market-holiday-today-are-bse-nse-closed-on-november-24-what-to-expect-when-markets-reopen/article71737549.ece"
     }
    ]
   },
   "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss": {
-   "fetched": "2026-11-26T05:45+05:30",
+   "fetched": "2026-11-26T07:15+05:30",
    "items": [
     {
      "date": "2026-11-18",
@@ -1903,7 +1873,7 @@
   }
  },
  "foodlink": {
-  "checked": "2026-11-26T07:00+05:30",
+  "checked": "2026-11-26T07:15+05:30",
   "items": [
    {
     "date": "2026-11-23",
@@ -1920,7 +1890,7 @@
   ]
  },
  "foodlink-f-b-holdings": {
-  "checked": "2026-11-26T07:00+05:30",
+  "checked": "2026-11-26T07:15+05:30",
   "items": [
    {
     "date": "2026-11-23",
@@ -1937,7 +1907,7 @@
   ]
  },
  "mahacoal": {
-  "checked": "2026-11-26T07:00+05:30",
+  "checked": "2026-11-26T07:15+05:30",
   "items": [
    {
     "date": "2026-11-25",
@@ -1978,7 +1948,7 @@
   ]
  },
  "matangi-rubber": {
-  "checked": "2026-11-26T07:00+05:30",
+  "checked": "2026-11-26T07:15+05:30",
   "items": [
    {
     "date": "2026-11-23",
@@ -2011,7 +1981,7 @@
   ]
  },
  "watrana": {
-  "checked": "2026-11-26T07:00+05:30",
+  "checked": "2026-11-26T07:15+05:30",
   "items": [
    {
     "date": "2026-11-19",
