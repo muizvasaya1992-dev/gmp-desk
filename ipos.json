@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T11:01+05:30",
+  "generated_at": "2026-11-27T11:15+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-27T10:44+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-27T11:01+05:30",
+    "nse_ok_at": "2026-11-27T11:15+05:30",
     "bse_ok_at": "2026-11-27T10:48+05:30"
   },
   "ipos": [
@@ -3881,7 +3881,7 @@
         "total": 2.93
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-27T11:00",
+      "sub_asof": "2026-11-27T11:14",
       "registrar": "Mas Services Limited",
       "lead_managers": [
         "Erudore Capital Private Limited"
@@ -3906,7 +3906,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": 6596000.0,
-      "updated_on": "2026-11-27T11:01+05:30",
+      "updated_on": "2026-11-27T11:15+05:30",
       "reservation": {
         "qib": 1.0,
         "nii": 47.0,
@@ -4078,14 +4078,14 @@
       "segment": "SME",
       "sub": {
         "qib": 1.01,
-        "nii": 0.51,
-        "bnii": 0.42,
-        "snii": 0.68,
-        "retail": 3.03,
-        "total": 1.25
+        "nii": 0.53,
+        "bnii": 0.44,
+        "snii": 0.7,
+        "retail": 3.11,
+        "total": 1.26
       },
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-11-27T10:57",
+      "sub_asof": "2026-11-27T11:12",
       "registrar": "MUFG Intime India Private Limited",
       "lead_managers": [
         "Equirus Capital Limited (formerly known as Equirus Capital Private Limited) and JM Financial Limited"
@@ -4144,12 +4144,21 @@
           "snii": 0.68,
           "retail": 3.03,
           "total": 1.25
+        },
+        {
+          "at": "2026-11-27T11:15+05:30",
+          "qib": 1.01,
+          "nii": 0.53,
+          "bnii": 0.44,
+          "snii": 0.7,
+          "retail": 3.11,
+          "total": 1.26
         }
       ],
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 10474048.0,
-      "updated_on": "2026-11-27T11:01+05:30",
+      "updated_on": "2026-11-27T11:15+05:30",
       "bse_ipo_no": "8097",
       "reservation_detail": {
         "anchor": {
@@ -4324,7 +4333,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": 3600000.0,
-      "updated_on": "2026-11-27T11:01+05:30",
+      "updated_on": "2026-11-27T11:15+05:30",
       "reservation": {
         "nii": 50.04,
         "retail": 49.96
@@ -4459,7 +4468,7 @@
       "series": "SME",
       "nse_status": "Forthcoming",
       "shares_offered": 3000000.0,
-      "updated_on": "2026-11-27T11:01+05:30",
+      "updated_on": "2026-11-27T11:15+05:30",
       "tracker_rating": 3,
       "reservation_detail": {
         "nii": {
@@ -4577,7 +4586,7 @@
       "series": "Equity",
       "nse_status": "Forthcoming",
       "shares_offered": 27000000.0,
-      "updated_on": "2026-11-27T11:01+05:30",
+      "updated_on": "2026-11-27T11:15+05:30",
       "bse_ipo_no": "8102",
       "gmp_sources": [],
       "gmp_history": [],
@@ -4626,7 +4635,7 @@
       "series": "Equity",
       "nse_status": "Forthcoming",
       "shares_offered": 7276981.0,
-      "updated_on": "2026-11-27T11:01+05:30",
+      "updated_on": "2026-11-27T11:15+05:30",
       "bse_ipo_no": "8100",
       "tracker_rating": 3,
       "uses": [
@@ -4979,15 +4988,15 @@
       },
       "tracker_rating": 1,
       "sub": {
-        "retail": 3.03,
-        "nii": 0.51,
-        "bnii": 0.42,
-        "snii": 0.68,
+        "retail": 3.09,
+        "nii": 0.53,
+        "bnii": 0.44,
+        "snii": 0.7,
         "qib": 1.01,
-        "total": 1.25
+        "total": 1.26
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-27T11:00",
+      "sub_asof": "2026-11-27T11:13",
       "gmp_sources": [
         {
           "source": "Tracker C",
@@ -5279,7 +5288,7 @@
       },
       "gmp_watch": {
         "sources": 2,
-        "at": "2026-11-27T11:01"
+        "at": "2026-11-27T11:15"
       },
       "gmp_sources": [],
       "gmp_history": [],
@@ -5313,36 +5322,31 @@
       "unconfirmed": true
     },
     {
-      "id": "vishwas-refoils-consumer",
-      "name": "Vishwas Refoils & Consumer",
-      "segment": "SME",
-      "price": 90,
-      "price_low": null,
-      "lot": 1600,
-      "size_cr": 25.78,
-      "open": "2026-12-03",
-      "close": "2026-12-07",
       "boa": "2026-12-08",
-      "listing": "2026-12-10",
-      "anchor": null,
-      "rating": null,
-      "sub": null,
-      "updated_on": "2026-11-27T11:01+05:30",
-      "from_peers": true,
+      "close": "2026-12-07",
       "exchange": "BSE SME",
+      "from_peers": true,
+      "id": "vishwas-refoils-consumer",
+      "listing": "2026-12-10",
+      "lot": 1600,
+      "name": "Vishwas Refoils & Consumer",
+      "open": "2026-12-03",
+      "price": 90,
+      "segment": "SME",
+      "size_cr": 25.78,
       "tracker_rating": 1,
       "reservation_detail": {
-        "qib": {
-          "shares": 1331200,
-          "pct": 48.94
-        },
         "nii": {
-          "shares": 432000,
-          "pct": 15.88
+          "pct": 15.88,
+          "shares": 432000
+        },
+        "qib": {
+          "pct": 48.94,
+          "shares": 1331200
         },
         "retail": {
-          "shares": 956800,
-          "pct": 35.18
+          "pct": 35.18,
+          "shares": 956800
         }
       },
       "reservation": {
@@ -5352,54 +5356,53 @@
       },
       "uses": [
         {
-          "use": "Capital Expense",
-          "cr": 19.3
+          "cr": 19.3,
+          "use": "Capital Expense"
         }
       ],
       "sector": "Edible Oil",
       "fin": {
         "years": [
           {
-            "y": "FY24",
-            "income": 79.79,
-            "pat": 0.73,
-            "ebitda": 1.3,
-            "net_worth": 3.88,
-            "debt": 8.47,
             "assets": 15.02,
+            "debt": 8.47,
+            "ebitda": 1.3,
+            "income": 79.79,
+            "net_worth": 3.88,
+            "pat": 0.73,
+            "roce": 9.71,
             "roe": 36.63,
-            "roce": 9.71
+            "y": "FY24"
           },
           {
-            "y": "FY25",
-            "income": 237.3,
-            "pat": 2.74,
-            "ebitda": 4.55,
-            "net_worth": 6.96,
-            "debt": 9.95,
             "assets": 20.06,
+            "debt": 9.95,
+            "ebitda": 4.55,
+            "income": 237.3,
+            "net_worth": 6.96,
+            "pat": 2.74,
+            "roce": 25.6,
             "roe": 50.49,
-            "roce": 25.6
+            "y": "FY25"
           },
           {
-            "y": "FY26",
-            "income": 310.27,
-            "pat": 5.06,
-            "ebitda": 7.74,
-            "net_worth": 15.06,
-            "debt": 10.79,
             "assets": 28.56,
+            "debt": 10.79,
+            "ebitda": 7.74,
+            "income": 310.27,
+            "net_worth": 15.06,
+            "pat": 5.06,
+            "roce": 28.04,
             "roe": 45.91,
-            "roce": 28.04
+            "y": "FY26"
           }
         ],
         "ratios": {}
       },
       "gmp_watch": {
         "sources": 2,
-        "at": "2026-11-27T11:01"
+        "at": "2026-11-27T11:15"
       },
-      "lot_basis": "tracker",
       "gmp_sources": [],
       "gmp_history": [],
       "gmp": null,
