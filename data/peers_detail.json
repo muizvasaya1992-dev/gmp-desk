@@ -527,5 +527,65 @@
     }
    ]
   }
+ },
+ "vishwas-refoils-consumer": {
+  "at": "2026-11-27T11:01+05:30",
+  "detail": {
+   "reservation": {
+    "nii": {
+     "pct": 15.88,
+     "shares": 432000
+    },
+    "qib": {
+     "pct": 48.94,
+     "shares": 1331200
+    },
+    "retail": {
+     "pct": 35.18,
+     "shares": 956800
+    }
+   },
+   "uses": [
+    {
+     "cr": 19.3,
+     "use": "Capital Expense"
+    }
+   ],
+   "years": [
+    {
+     "assets": 15.02,
+     "debt": 8.47,
+     "ebitda": 1.3,
+     "income": 79.79,
+     "net_worth": 3.88,
+     "pat": 0.73,
+     "roce": 9.71,
+     "roe": 36.63,
+     "y": "FY24"
+    },
+    {
+     "assets": 20.06,
+     "debt": 9.95,
+     "ebitda": 4.55,
+     "income": 237.3,
+     "net_worth": 6.96,
+     "pat": 2.74,
+     "roce": 25.6,
+     "roe": 50.49,
+     "y": "FY25"
+    },
+    {
+     "assets": 28.56,
+     "debt": 10.79,
+     "ebitda": 7.74,
+     "income": 310.27,
+     "net_worth": 15.06,
+     "pat": 5.06,
+     "roce": 28.04,
+     "roe": 45.91,
+     "y": "FY26"
+    }
+   ]
+  }
  }
 }

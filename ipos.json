@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T10:48+05:30",
+  "generated_at": "2026-11-27T11:01+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-27T10:44+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-27T10:48+05:30",
+    "nse_ok_at": "2026-11-27T11:01+05:30",
     "bse_ok_at": "2026-11-27T10:48+05:30"
   },
   "ipos": [
@@ -1215,7 +1215,7 @@
       "name": "EAAA India Alternatives",
       "lot": 9,
       "size_cr": 1200.0,
-      "boa": "2026-10-29",
+      "boa": null,
       "listing": "2026-11-02",
       "anchor": null,
       "rating": null,
@@ -1427,7 +1427,6 @@
       "shares_offered": 5299684.0,
       "updated_on": "2026-10-29T19:15+05:30",
       "bse_ipo_no": "8054",
-      "tracker_rating": 1,
       "gmp_sources": [
         {
           "source": "Public trackers",
@@ -3312,7 +3311,7 @@
         {
           "source": "Tracker C",
           "gmp": 23,
-          "at": "2026-11-27T06:37"
+          "at": "2026-11-27T09:37"
         },
         {
           "source": "Tracker D",
@@ -3322,7 +3321,7 @@
         {
           "source": "Tracker B",
           "gmp": 23,
-          "at": "2026-11-27T10:45"
+          "at": "2026-11-27T11:00"
         }
       ],
       "gmp_history": [
@@ -3392,7 +3391,7 @@
       "gmp_high": 67,
       "exchange": "SME",
       "gmp": 23,
-      "gmp_asof": "2026-11-27T10:45",
+      "gmp_asof": "2026-11-27T11:00",
       "gmp_source_latest": "Tracker B",
       "gmp_pct": 9.39,
       "gmp_spread": {
@@ -3773,7 +3772,7 @@
         {
           "source": "Tracker C",
           "gmp": 0.7,
-          "at": "2026-11-27T06:37"
+          "at": "2026-11-27T09:37"
         },
         {
           "source": "Tracker D",
@@ -3783,7 +3782,7 @@
         {
           "source": "Tracker B",
           "gmp": 0.7,
-          "at": "2026-11-27T10:45"
+          "at": "2026-11-27T11:00"
         }
       ],
       "gmp_history": [
@@ -3841,7 +3840,7 @@
       "gmp_high": 13,
       "exchange": "SME",
       "gmp": 0.7,
-      "gmp_asof": "2026-11-27T10:45",
+      "gmp_asof": "2026-11-27T11:00",
       "gmp_source_latest": "Tracker B",
       "gmp_pct": 0.51,
       "gmp_spread": {
@@ -3876,13 +3875,13 @@
       "price": 142,
       "segment": "SME",
       "sub": {
-        "retail": 1.7,
-        "nii": 0.83,
-        "qib": 4.27,
-        "total": 1.3
+        "retail": 3.86,
+        "nii": 1.88,
+        "qib": 8.55,
+        "total": 2.93
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-27T10:46",
+      "sub_asof": "2026-11-27T11:00",
       "registrar": "Mas Services Limited",
       "lead_managers": [
         "Erudore Capital Private Limited"
@@ -3907,7 +3906,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": 6596000.0,
-      "updated_on": "2026-11-27T10:48+05:30",
+      "updated_on": "2026-11-27T11:01+05:30",
       "reservation": {
         "qib": 1.0,
         "nii": 47.0,
@@ -3999,7 +3998,7 @@
         {
           "source": "Tracker C",
           "gmp": 2,
-          "at": "2026-11-27T06:37"
+          "at": "2026-11-27T10:02"
         },
         {
           "source": "Tracker D",
@@ -4009,17 +4008,17 @@
         {
           "source": "Tracker B",
           "gmp": 3,
-          "at": "2026-11-27T10:45"
+          "at": "2026-11-27T11:00"
         }
       ],
       "gmp_history": [
         {
           "date": "2026-11-23",
-          "gmp": 5
+          "gmp": 10
         },
         {
           "date": "2026-11-24",
-          "gmp": 10
+          "gmp": 20
         },
         {
           "date": "2026-11-25",
@@ -4031,17 +4030,17 @@
         },
         {
           "date": "2026-11-27",
-          "gmp": 2
+          "gmp": 3
         }
       ],
-      "history_source": "Tracker D",
+      "history_source": "Tracker B",
       "gmp_low": 2,
       "gmp_high": 25,
       "exchange": "SME",
-      "gmp": 2,
-      "gmp_asof": "2026-11-27T10:48",
-      "gmp_source_latest": "Tracker D",
-      "gmp_pct": 1.41,
+      "gmp": 3,
+      "gmp_asof": "2026-11-27T11:00",
+      "gmp_source_latest": "Tracker B",
+      "gmp_pct": 2.11,
       "gmp_spread": {
         "min": 2,
         "max": 3,
@@ -4051,7 +4050,7 @@
       },
       "gmp_trend": {
         "dir": "falling",
-        "change": -18,
+        "change": -17,
         "days": 3,
         "since": "2026-11-25"
       },
@@ -4079,14 +4078,14 @@
       "segment": "SME",
       "sub": {
         "qib": 1.01,
-        "nii": 0.5,
+        "nii": 0.51,
         "bnii": 0.42,
-        "snii": 0.67,
-        "retail": 2.97,
-        "total": 1.23
+        "snii": 0.68,
+        "retail": 3.03,
+        "total": 1.25
       },
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-11-27T10:45",
+      "sub_asof": "2026-11-27T10:57",
       "registrar": "MUFG Intime India Private Limited",
       "lead_managers": [
         "Equirus Capital Limited (formerly known as Equirus Capital Private Limited) and JM Financial Limited"
@@ -4136,12 +4135,21 @@
           "snii": 0.67,
           "retail": 2.97,
           "total": 1.23
+        },
+        {
+          "at": "2026-11-27T11:01+05:30",
+          "qib": 1.01,
+          "nii": 0.51,
+          "bnii": 0.42,
+          "snii": 0.68,
+          "retail": 3.03,
+          "total": 1.25
         }
       ],
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 10474048.0,
-      "updated_on": "2026-11-27T10:48+05:30",
+      "updated_on": "2026-11-27T11:01+05:30",
       "bse_ipo_no": "8097",
       "reservation_detail": {
         "anchor": {
@@ -4282,7 +4290,7 @@
       "name": "Airpro Technology India",
       "lot": 1200,
       "size_cr": 35.64,
-      "boa": null,
+      "boa": "2026-12-02",
       "listing": "2026-12-04",
       "anchor": null,
       "rating": null,
@@ -4316,7 +4324,16 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": 3600000.0,
-      "updated_on": "2026-11-27T10:48+05:30",
+      "updated_on": "2026-11-27T11:01+05:30",
+      "reservation": {
+        "nii": 50.04,
+        "retail": 49.96
+      },
+      "sector": "Networking and IT Equipment",
+      "issue_split": {
+        "fresh_cr": 28.91,
+        "ofs_cr": 6.73
+      },
       "reservation_detail": {
         "nii": {
           "pct": 50.04,
@@ -4326,10 +4343,6 @@
           "pct": 49.96,
           "shares": 1708800
         }
-      },
-      "reservation": {
-        "nii": 50.04,
-        "retail": 49.96
       },
       "uses": [
         {
@@ -4357,13 +4370,17 @@
           "use": "Expenditure"
         }
       ],
-      "sector": "Industrial Products",
       "lot_basis": "tracker",
       "gmp_sources": [
         {
           "source": "Tracker D",
           "gmp": 3,
           "at": "2026-11-27T10:48"
+        },
+        {
+          "source": "Tracker B",
+          "gmp": 3,
+          "at": "2026-11-27T11:00"
         }
       ],
       "gmp_history": [
@@ -4385,9 +4402,16 @@
       "gmp_high": 4,
       "exchange": "SME",
       "gmp": 3,
-      "gmp_asof": "2026-11-27T10:48",
-      "gmp_source_latest": "Tracker D",
+      "gmp_asof": "2026-11-27T11:00",
+      "gmp_source_latest": "Tracker B",
       "gmp_pct": 3.03,
+      "gmp_spread": {
+        "min": 3,
+        "max": 3,
+        "diff": 0,
+        "n": 2,
+        "diff_pct_of_price": 0.0
+      },
       "gmp_trend": {
         "dir": "falling",
         "change": -1,
@@ -4435,7 +4459,7 @@
       "series": "SME",
       "nse_status": "Forthcoming",
       "shares_offered": 3000000.0,
-      "updated_on": "2026-11-27T10:48+05:30",
+      "updated_on": "2026-11-27T11:01+05:30",
       "tracker_rating": 3,
       "reservation_detail": {
         "nii": {
@@ -4472,7 +4496,7 @@
         {
           "source": "Tracker C",
           "gmp": 24,
-          "at": "2026-11-27T06:37"
+          "at": "2026-11-27T10:02"
         },
         {
           "source": "Tracker D",
@@ -4553,7 +4577,7 @@
       "series": "Equity",
       "nse_status": "Forthcoming",
       "shares_offered": 27000000.0,
-      "updated_on": "2026-11-27T10:48+05:30",
+      "updated_on": "2026-11-27T11:01+05:30",
       "bse_ipo_no": "8102",
       "gmp_sources": [],
       "gmp_history": [],
@@ -4602,7 +4626,7 @@
       "series": "Equity",
       "nse_status": "Forthcoming",
       "shares_offered": 7276981.0,
-      "updated_on": "2026-11-27T10:48+05:30",
+      "updated_on": "2026-11-27T11:01+05:30",
       "bse_ipo_no": "8100",
       "tracker_rating": 3,
       "uses": [
@@ -4629,7 +4653,7 @@
         {
           "source": "Tracker C",
           "gmp": 27,
-          "at": "2026-11-27T06:37"
+          "at": "2026-11-27T10:02"
         },
         {
           "source": "Tracker D",
@@ -4880,7 +4904,7 @@
         {
           "source": "Tracker C",
           "gmp": 3,
-          "at": "2026-11-27T06:37"
+          "at": "2026-11-27T10:02"
         }
       ],
       "gmp_history": [
@@ -4901,7 +4925,7 @@
       "gmp_low": 3,
       "gmp_high": 4,
       "gmp": 3,
-      "gmp_asof": "2026-11-27T06:37",
+      "gmp_asof": "2026-11-27T10:02",
       "gmp_source_latest": "Tracker C",
       "gmp_pct": 3.03,
       "gmp_trend": {
@@ -4955,20 +4979,20 @@
       },
       "tracker_rating": 1,
       "sub": {
-        "retail": 2.96,
-        "nii": 0.5,
+        "retail": 3.03,
+        "nii": 0.51,
         "bnii": 0.42,
-        "snii": 0.66,
+        "snii": 0.68,
         "qib": 1.01,
-        "total": 1.23
+        "total": 1.25
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-27T10:46",
+      "sub_asof": "2026-11-27T11:00",
       "gmp_sources": [
         {
           "source": "Tracker C",
           "gmp": 7,
-          "at": "2026-11-27T06:37"
+          "at": "2026-11-27T10:02"
         },
         {
           "source": "Tracker D",
@@ -4978,7 +5002,7 @@
         {
           "source": "Tracker B",
           "gmp": 7,
-          "at": "2026-11-27T10:45"
+          "at": "2026-11-27T11:00"
         }
       ],
       "gmp_history": [
@@ -5019,7 +5043,7 @@
       "gmp_low": 7,
       "gmp_high": 27,
       "gmp": 7,
-      "gmp_asof": "2026-11-27T10:45",
+      "gmp_asof": "2026-11-27T11:00",
       "gmp_source_latest": "Tracker B",
       "gmp_pct": 3.66,
       "gmp_spread": {
@@ -5126,7 +5150,7 @@
         {
           "source": "Tracker C",
           "gmp": 24,
-          "at": "2026-11-27T06:37"
+          "at": "2026-11-27T10:02"
         },
         {
           "source": "Tracker D",
@@ -5255,7 +5279,7 @@
       },
       "gmp_watch": {
         "sources": 2,
-        "at": "2026-11-27T10:48"
+        "at": "2026-11-27T11:01"
       },
       "gmp_sources": [],
       "gmp_history": [],
@@ -5286,6 +5310,101 @@
           "url": "https://www.thehindubusinessline.com/markets/swara-baby-products-cuts-ipo-size-to-800-cr-sets-price-band-at-105-111/article71749297.ece"
         }
       ],
+      "unconfirmed": true
+    },
+    {
+      "id": "vishwas-refoils-consumer",
+      "name": "Vishwas Refoils & Consumer",
+      "segment": "SME",
+      "price": 90,
+      "price_low": null,
+      "lot": 1600,
+      "size_cr": 25.78,
+      "open": "2026-12-03",
+      "close": "2026-12-07",
+      "boa": "2026-12-08",
+      "listing": "2026-12-10",
+      "anchor": null,
+      "rating": null,
+      "sub": null,
+      "updated_on": "2026-11-27T11:01+05:30",
+      "from_peers": true,
+      "exchange": "BSE SME",
+      "tracker_rating": 1,
+      "reservation_detail": {
+        "qib": {
+          "shares": 1331200,
+          "pct": 48.94
+        },
+        "nii": {
+          "shares": 432000,
+          "pct": 15.88
+        },
+        "retail": {
+          "shares": 956800,
+          "pct": 35.18
+        }
+      },
+      "reservation": {
+        "qib": 48.94,
+        "nii": 15.88,
+        "retail": 35.18
+      },
+      "uses": [
+        {
+          "use": "Capital Expense",
+          "cr": 19.3
+        }
+      ],
+      "sector": "Edible Oil",
+      "fin": {
+        "years": [
+          {
+            "y": "FY24",
+            "income": 79.79,
+            "pat": 0.73,
+            "ebitda": 1.3,
+            "net_worth": 3.88,
+            "debt": 8.47,
+            "assets": 15.02,
+            "roe": 36.63,
+            "roce": 9.71
+          },
+          {
+            "y": "FY25",
+            "income": 237.3,
+            "pat": 2.74,
+            "ebitda": 4.55,
+            "net_worth": 6.96,
+            "debt": 9.95,
+            "assets": 20.06,
+            "roe": 50.49,
+            "roce": 25.6
+          },
+          {
+            "y": "FY26",
+            "income": 310.27,
+            "pat": 5.06,
+            "ebitda": 7.74,
+            "net_worth": 15.06,
+            "debt": 10.79,
+            "assets": 28.56,
+            "roe": 45.91,
+            "roce": 28.04
+          }
+        ],
+        "ratios": {}
+      },
+      "gmp_watch": {
+        "sources": 2,
+        "at": "2026-11-27T11:01"
+      },
+      "lot_basis": "tracker",
+      "gmp_sources": [],
+      "gmp_history": [],
+      "gmp": null,
+      "gmp_pct": null,
+      "status": "upcoming",
       "unconfirmed": true
     }
   ]

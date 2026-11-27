@@ -4,6 +4,21 @@
  "nse_as_of": "2026-11-27T10:44+05:30",
  "rows": [
   {
+   "name": "Vishwas Refoils & Consumer",
+   "segment": "SME",
+   "symbol": null,
+   "listing": "2026-12-10",
+   "exchange": "BSE SME",
+   "live": true,
+   "id": "vishwas-refoils-consumer",
+   "status": "upcoming",
+   "open": "2026-12-03",
+   "close": "2026-12-07",
+   "price": 90,
+   "price_low": null,
+   "unconfirmed": true
+  },
+  {
    "name": "Monomark Engineering",
    "segment": "MAIN",
    "symbol": null,
@@ -5846,5 +5861,5 @@
    "status": "listed"
   }
  ],
- "generated_at": "2026-11-27T10:48+05:30"
+ "generated_at": "2026-11-27T11:01+05:30"
 }
