@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T18:45+05:30",
+  "generated_at": "2026-11-27T19:01+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-27T10:44+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-27T18:45+05:30",
+    "nse_ok_at": "2026-11-27T19:01+05:30",
     "bse_ok_at": "2026-11-27T10:48+05:30"
   },
   "ipos": [
@@ -3881,7 +3881,7 @@
         "total": 1.68
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-27T18:40",
+      "sub_asof": "2026-11-27T18:55",
       "registrar": "Mas Services Limited",
       "lead_managers": [
         "Erudore Capital Private Limited"
@@ -4008,17 +4008,17 @@
         {
           "source": "Tracker B",
           "gmp": 1,
-          "at": "2026-11-27T15:45"
+          "at": "2026-11-27T18:55"
         }
       ],
       "gmp_history": [
         {
           "date": "2026-11-23",
-          "gmp": 5
+          "gmp": 10
         },
         {
           "date": "2026-11-24",
-          "gmp": 10
+          "gmp": 20
         },
         {
           "date": "2026-11-25",
@@ -4033,13 +4033,13 @@
           "gmp": 1
         }
       ],
-      "history_source": "Tracker D",
+      "history_source": "Tracker B",
       "gmp_low": 1,
       "gmp_high": 25,
       "exchange": "SME",
       "gmp": 1,
-      "gmp_asof": "2026-11-27T17:01",
-      "gmp_source_latest": "Tracker D",
+      "gmp_asof": "2026-11-27T18:55",
+      "gmp_source_latest": "Tracker B",
       "gmp_pct": 0.7,
       "gmp_spread": {
         "min": 1,
@@ -4712,7 +4712,7 @@
         {
           "source": "Tracker C",
           "gmp": 24,
-          "at": "2026-11-27T13:02"
+          "at": "2026-11-27T17:02"
         },
         {
           "source": "Tracker D",
@@ -4869,7 +4869,7 @@
         {
           "source": "Tracker C",
           "gmp": 31,
-          "at": "2026-11-27T14:02"
+          "at": "2026-11-27T17:02"
         },
         {
           "source": "Tracker D",
@@ -4955,7 +4955,7 @@
       "nse_status": "Forthcoming",
       "shares_offered": 76203006.0,
       "updated_on": "2026-11-27T18:45+05:30",
-      "tracker_rating": 2,
+      "tracker_rating": 1,
       "uses": [
         {
           "cr": 198.2,
@@ -5018,7 +5018,7 @@
         {
           "source": "Tracker C",
           "gmp": 3,
-          "at": "2026-11-27T15:37"
+          "at": "2026-11-27T17:02"
         }
       ],
       "gmp_history": [
@@ -5255,7 +5255,7 @@
       "size_cr": 35.64,
       "tracker_rating": 1,
       "sub": {
-        "total": 0.55
+        "total": 0.79
       },
       "sub_basis": "Tracker C",
       "sub_asof": null,
@@ -5263,7 +5263,7 @@
         {
           "source": "Tracker C",
           "gmp": 3,
-          "at": "2026-11-27T13:02"
+          "at": "2026-11-27T17:02"
         }
       ],
       "gmp_history": [
@@ -5284,7 +5284,7 @@
       "gmp_low": 3,
       "gmp_high": 4,
       "gmp": 3,
-      "gmp_asof": "2026-11-27T13:02",
+      "gmp_asof": "2026-11-27T17:02",
       "gmp_source_latest": "Tracker C",
       "gmp_pct": 3.03,
       "gmp_trend": {
@@ -5346,12 +5346,12 @@
         "total": 1.47
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-27T18:43",
+      "sub_asof": "2026-11-27T18:58",
       "gmp_sources": [
         {
           "source": "Tracker C",
           "gmp": 4,
-          "at": "2026-11-27T13:02"
+          "at": "2026-11-27T17:02"
         },
         {
           "source": "Tracker D",
@@ -5509,7 +5509,7 @@
         {
           "source": "Tracker C",
           "gmp": 20,
-          "at": "2026-11-27T14:02"
+          "at": "2026-11-27T17:02"
         },
         {
           "source": "Tracker D",
@@ -5650,7 +5650,7 @@
       },
       "gmp_watch": {
         "sources": 2,
-        "at": "2026-11-27T18:45"
+        "at": "2026-11-27T19:01"
       },
       "gmp_sources": [],
       "gmp_history": [],
