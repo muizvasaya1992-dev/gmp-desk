@@ -19,6 +19,21 @@
    "unconfirmed": true
   },
   {
+   "name": "Swara Baby Products",
+   "segment": "MAIN",
+   "symbol": null,
+   "listing": "2026-12-09",
+   "exchange": "NSE · BSE",
+   "live": true,
+   "id": "swara-baby-products",
+   "status": "upcoming",
+   "open": "2026-12-02",
+   "close": "2026-12-04",
+   "price": 111,
+   "price_low": null,
+   "unconfirmed": true
+  },
+  {
    "name": "A J Packaging",
    "segment": "SME",
    "symbol": "AJPACK",
@@ -45,6 +60,20 @@
    "close": "2026-12-03",
    "price": 172,
    "price_low": 163
+  },
+  {
+   "name": "Airpro Technology India",
+   "segment": "SME",
+   "symbol": "AIRPRO",
+   "listing": "2026-12-04",
+   "exchange": "SME",
+   "live": true,
+   "id": "airpro",
+   "status": "open",
+   "open": "2026-11-27",
+   "close": "2026-12-01",
+   "price": 99,
+   "price_low": 99
   },
   {
    "name": "Monomark Engineering (India)",
@@ -117,20 +146,6 @@
    "close": "2026-11-27",
    "price": 142,
    "price_low": 130
-  },
-  {
-   "name": "Airpro Technology India",
-   "segment": "SME",
-   "symbol": "AIRPRO",
-   "listing": null,
-   "exchange": "SME",
-   "live": true,
-   "id": "airpro",
-   "status": "open",
-   "open": "2026-11-27",
-   "close": "2026-12-01",
-   "price": 99,
-   "price_low": 99
   },
   {
    "name": "Watrana Rentals",
@@ -5811,5 +5826,5 @@
    "status": "listed"
   }
  ],
- "generated_at": "2026-11-27T00:01+05:30"
+ "generated_at": "2026-11-27T09:31+05:30"
 }

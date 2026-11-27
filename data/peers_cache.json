@@ -1,6 +1,6 @@
 {
  "b": {
-  "fetched_at": "2026-11-27T09:15+05:30",
+  "fetched_at": "2026-11-27T09:31+05:30",
   "records": [
    {
     "src": "Tracker B",
@@ -16,10 +16,10 @@
     "price_low": 181.0,
     "size_cr": 360.76,
     "gmp": 7.0,
-    "gmp_at": "2026-11-27T09:10",
+    "gmp_at": "2026-11-27T09:30",
     "sub_total": 1.08,
     "sub_retail": 2.33,
-    "sub_at": "2026-11-27T09:13",
+    "sub_at": "2026-11-27T09:30",
     "sub_cats": {
      "retail": 2.33,
      "nii": 0.4,
@@ -91,7 +91,7 @@
     "price_low": 0.0,
     "size_cr": 92521674531.0,
     "gmp": 0.0,
-    "gmp_at": "2026-11-27T09:10",
+    "gmp_at": "2026-11-27T09:30",
     "sub_total": 0.0,
     "sub_retail": null,
     "sub_at": null,
@@ -151,7 +151,7 @@
     "price_low": 129.0,
     "size_cr": 8981.12,
     "gmp": 0.7,
-    "gmp_at": "2026-11-27T09:10",
+    "gmp_at": "2026-11-27T09:30",
     "sub_total": 1.52,
     "sub_retail": 0.46,
     "sub_at": "2026-11-23T19:05",
@@ -254,10 +254,10 @@
     "price_low": 130.0,
     "size_cr": 93.66,
     "gmp": 3.0,
-    "gmp_at": "2026-11-27T09:10",
+    "gmp_at": "2026-11-27T09:30",
     "sub_total": 1.29,
     "sub_retail": 1.69,
-    "sub_at": "2026-11-27T09:12",
+    "sub_at": "2026-11-27T09:30",
     "sub_cats": {
      "retail": 1.69,
      "nii": 0.83,
@@ -327,7 +327,7 @@
     "price_low": 232.0,
     "size_cr": 120.1,
     "gmp": 23.0,
-    "gmp_at": "2026-11-27T09:10",
+    "gmp_at": "2026-11-27T09:30",
     "sub_total": 150.48,
     "sub_retail": 108.71,
     "sub_at": "2026-11-23T19:05",
@@ -409,27 +409,49 @@
   ]
  },
  "c": {
-  "fetched_at": "2026-11-27T09:15+05:30",
+  "fetched_at": "2026-11-27T09:31+05:30",
   "records": [
    {
     "src": "Tracker C",
-    "slug": "swara-baby-products",
-    "name": "Swara Baby Products",
-    "segment": "MAIN",
-    "exchange": null,
+    "slug": "vishwas-refoils-consumer",
+    "name": "Vishwas Refoils & Consumer",
+    "segment": "SME",
+    "exchange": "BSE SME",
     "open": null,
     "close": null,
     "boa": null,
     "listing": null,
     "price": null,
     "price_low": null,
-    "size_cr": 1000.0,
+    "size_cr": null,
     "gmp": null,
-    "gmp_at": "2026-11-26T17:00",
+    "gmp_at": "2026-11-27T09:00",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
     "lot": null,
+    "rating": 1,
+    "live": true
+   },
+   {
+    "src": "Tracker C",
+    "slug": "swara-baby-products",
+    "name": "Swara Baby Products",
+    "segment": "MAIN",
+    "exchange": null,
+    "open": "2026-12-02",
+    "close": "2026-12-04",
+    "boa": "2026-12-07",
+    "listing": "2026-12-09",
+    "price": 111.0,
+    "price_low": null,
+    "size_cr": 799.88,
+    "gmp": null,
+    "gmp_at": "2026-11-27T08:56",
+    "sub_total": null,
+    "sub_retail": null,
+    "sub_at": null,
+    "lot": 135.0,
     "rating": 1,
     "live": true
    },
@@ -447,7 +469,7 @@
     "price_low": null,
     "size_cr": null,
     "gmp": null,
-    "gmp_at": "2026-11-26T05:55",
+    "gmp_at": "2026-11-27T05:55",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -469,7 +491,7 @@
     "price_low": null,
     "size_cr": 175.5,
     "gmp": 24.0,
-    "gmp_at": "2026-11-26T23:37",
+    "gmp_at": "2026-11-27T09:02",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -491,7 +513,7 @@
     "price_low": null,
     "size_cr": 125.16,
     "gmp": 27.0,
-    "gmp_at": "2026-11-26T23:37",
+    "gmp_at": "2026-11-27T09:02",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -513,7 +535,7 @@
     "price_low": null,
     "size_cr": 54.0,
     "gmp": 24.0,
-    "gmp_at": "2026-11-26T23:37",
+    "gmp_at": "2026-11-27T09:02",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -535,7 +557,7 @@
     "price_low": null,
     "size_cr": 35.64,
     "gmp": 3.0,
-    "gmp_at": "2026-11-26T23:37",
+    "gmp_at": "2026-11-27T09:02",
     "sub_total": null,
     "sub_retail": null,
     "sub_at": null,
@@ -557,7 +579,7 @@
     "price_low": null,
     "size_cr": 360.76,
     "gmp": 7.0,
-    "gmp_at": "2026-11-26T23:37",
+    "gmp_at": "2026-11-27T09:02",
     "sub_total": 1.1,
     "sub_retail": null,
     "sub_at": null,
@@ -579,7 +601,7 @@
     "price_low": null,
     "size_cr": 93.66,
     "gmp": 2.0,
-    "gmp_at": "2026-11-26T23:37",
+    "gmp_at": "2026-11-27T09:02",
     "sub_total": 1.27,
     "sub_retail": null,
     "sub_at": null,
@@ -601,13 +623,13 @@
     "price_low": null,
     "size_cr": 8981.12,
     "gmp": 0.7,
-    "gmp_at": "2026-11-26T23:37",
+    "gmp_at": "2026-11-27T09:02",
     "sub_total": 1.52,
     "sub_retail": null,
     "sub_at": null,
     "lot": 110.0,
     "rating": 1,
-    "live": true
+    "live": false
    },
    {
     "src": "Tracker C",
@@ -623,13 +645,13 @@
     "price_low": null,
     "size_cr": 120.1,
     "gmp": 23.0,
-    "gmp_at": "2026-11-26T23:37",
+    "gmp_at": "2026-11-27T09:02",
     "sub_total": 150.48,
     "sub_retail": null,
     "sub_at": null,
     "lot": 600.0,
     "rating": 2,
-    "live": true
+    "live": false
    },
    {
     "src": "Tracker C",
@@ -938,33 +960,11 @@
     "lot": 600.0,
     "rating": 1,
     "live": false
-   },
-   {
-    "src": "Tracker C",
-    "slug": "eaaa-india-alternatives",
-    "name": "EAAA India Alternatives",
-    "segment": "MAIN",
-    "exchange": null,
-    "open": "2026-10-26",
-    "close": "2026-10-28",
-    "boa": "2026-10-29",
-    "listing": "2026-11-02",
-    "price": 1665.0,
-    "price_low": null,
-    "size_cr": 1200.0,
-    "gmp": 54.0,
-    "gmp_at": "2026-11-02T09:37",
-    "sub_total": 5.51,
-    "sub_retail": null,
-    "sub_at": null,
-    "lot": 9.0,
-    "rating": 1,
-    "live": false
    }
   ]
  },
  "d": {
-  "fetched_at": "2026-11-27T09:15+05:30",
+  "fetched_at": "2026-11-27T09:31+05:30",
   "records": [
    {
     "src": "Tracker D",
@@ -1089,6 +1089,77 @@
    },
    {
     "src": "Tracker D",
+    "slug": "airpro-technology-india",
+    "name": "Airpro Technology India",
+    "segment": "SME",
+    "exchange": null,
+    "open": "2026-11-27",
+    "close": "2026-12-01",
+    "boa": null,
+    "listing": "2026-12-04",
+    "price": 99.0,
+    "price_low": null,
+    "size_cr": 35.64,
+    "gmp": 3.0,
+    "gmp_at": null,
+    "sub_total": null,
+    "sub_retail": null,
+    "sub_at": null,
+    "lot": 1200.0,
+    "sector": "Industrial Products",
+    "detail_url": "https://ipoindex.in/ipo/airpro-technology-india-sme-ipo/",
+    "live": true,
+    "detail": {
+     "gmp_history": [
+      [
+       "2026-11-26",
+       3.0
+      ],
+      [
+       "2026-11-25",
+       4.0
+      ]
+     ],
+     "reservation": {
+      "nii": {
+       "pct": 50.04,
+       "shares": 1711200
+      },
+      "retail": {
+       "pct": 49.96,
+       "shares": 1708800
+      }
+     },
+     "uses": [
+      {
+       "cr": 2.0,
+       "use": "Asset"
+      },
+      {
+       "cr": 0.6,
+       "use": "Asset"
+      },
+      {
+       "cr": 3.97,
+       "use": "Factory"
+      },
+      {
+       "cr": 13.0,
+       "use": "Working Capital"
+      },
+      {
+       "cr": 4.34,
+       "use": "Other"
+      },
+      {
+       "cr": 4.0,
+       "use": "Expenditure"
+      }
+     ]
+    }
+   },
+   {
+    "src": "Tracker D",
     "slug": "foodlink-fb-holdings-india",
     "name": "Foodlink F&B Holdings (India)",
     "segment": "MAIN",
@@ -1198,77 +1269,6 @@
       {
        "cr": 1000.0,
        "use": "OFS"
-      }
-     ]
-    }
-   },
-   {
-    "src": "Tracker D",
-    "slug": "airpro-technology-india",
-    "name": "Airpro Technology India",
-    "segment": "SME",
-    "exchange": null,
-    "open": null,
-    "close": null,
-    "boa": null,
-    "listing": null,
-    "price": 99.0,
-    "price_low": null,
-    "size_cr": 35.64,
-    "gmp": 3.0,
-    "gmp_at": null,
-    "sub_total": null,
-    "sub_retail": null,
-    "sub_at": null,
-    "lot": 1200.0,
-    "sector": "Industrial Products",
-    "detail_url": "https://ipoindex.in/ipo/airpro-technology-india-sme-ipo/",
-    "live": true,
-    "detail": {
-     "gmp_history": [
-      [
-       "2026-11-26",
-       3.0
-      ],
-      [
-       "2026-11-25",
-       4.0
-      ]
-     ],
-     "reservation": {
-      "nii": {
-       "pct": 50.04,
-       "shares": 1711200
-      },
-      "retail": {
-       "pct": 49.96,
-       "shares": 1708800
-      }
-     },
-     "uses": [
-      {
-       "cr": 2.0,
-       "use": "Asset"
-      },
-      {
-       "cr": 0.6,
-       "use": "Asset"
-      },
-      {
-       "cr": 3.97,
-       "use": "Factory"
-      },
-      {
-       "cr": 13.0,
-       "use": "Working Capital"
-      },
-      {
-       "cr": 4.34,
-       "use": "Other"
-      },
-      {
-       "cr": 4.0,
-       "use": "Expenditure"
       }
      ]
     }
@@ -1479,6 +1479,45 @@
    },
    {
     "src": "Tracker D",
+    "slug": "swara-baby-products",
+    "name": "Swara Baby Products",
+    "segment": "MAIN",
+    "exchange": null,
+    "open": null,
+    "close": null,
+    "boa": null,
+    "listing": null,
+    "price": 111.0,
+    "price_low": 105.0,
+    "size_cr": 799.88,
+    "gmp": 0.0,
+    "gmp_at": null,
+    "sub_total": null,
+    "sub_retail": null,
+    "sub_at": null,
+    "lot": 135.0,
+    "sector": "Consumer Non-Durables / Personal Care & Hygiene",
+    "detail_url": "https://ipoindex.in/ipo/swara-baby-products-ipo/",
+    "live": true,
+    "detail": {
+     "uses": [
+      {
+       "use": "New Facility",
+       "cr": 198.2
+      },
+      {
+       "use": "Debt Payment",
+       "cr": 100.0
+      },
+      {
+       "use": "Debt Payment",
+       "cr": 27.5
+      }
+     ]
+    }
+   },
+   {
+    "src": "Tracker D",
     "slug": "monomark-engineering",
     "name": "Monomark Engineering",
     "segment": "MAIN",
@@ -1605,29 +1644,6 @@
     "lot": 110.0,
     "sector": "Coal",
     "detail_url": "https://ipoindex.in/ipo/mahanadi-coalfields-ipo/",
-    "live": false
-   },
-   {
-    "src": "Tracker D",
-    "slug": "crystal-crop-protection",
-    "name": "Crystal Crop Protection",
-    "segment": "MAIN",
-    "exchange": null,
-    "open": null,
-    "close": null,
-    "boa": null,
-    "listing": null,
-    "price": 259.0,
-    "price_low": null,
-    "size_cr": 455.49,
-    "gmp": 17.0,
-    "gmp_at": null,
-    "sub_total": null,
-    "sub_retail": null,
-    "sub_at": null,
-    "lot": 55.0,
-    "sector": "Other Agricultural Products",
-    "detail_url": "https://ipoindex.in/ipo/crystal-crop-protection-ipo/",
     "live": false
    }
   ]
