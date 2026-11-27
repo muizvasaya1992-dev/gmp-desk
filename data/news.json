@@ -1,7 +1,7 @@
 {
  "_feeds": {
   "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms": {
-   "fetched": "2026-11-27T04:15+05:30",
+   "fetched": "2026-11-27T05:45+05:30",
    "items": [
     {
      "date": "2026-11-26",
@@ -306,7 +306,7 @@
    ]
   },
   "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms": {
-   "fetched": "2026-11-27T04:15+05:30",
+   "fetched": "2026-11-27T05:45+05:30",
    "items": [
     {
      "date": "2026-11-26",
@@ -611,8 +611,20 @@
    ]
   },
   "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml": {
-   "fetched": "2026-11-27T04:15+05:30",
+   "fetched": "2026-11-27T05:45+05:30",
    "items": [
+    {
+     "date": "2026-11-27",
+     "source": "cnbctv18.com",
+     "title": "HEG, formerly known as HEG Graphite set to list today - All you need to know",
+     "url": "https://www.cnbctv18.com/market/heg-share-price-graphite-unit-lists-today-valuations-business-ebitda-outlook-20042530.htm"
+    },
+    {
+     "date": "2026-11-27",
+     "source": "cnbctv18.com",
+     "title": "Brent crude crosses $96 a barrel mark after Houthis attack key Saudi refinery",
+     "url": "https://www.cnbctv18.com/market/commodities/crude-oil-prices-today-rise-brent-wti-saudi-aramco-key-facility-attack-jazan-ras-tanura-houthis-strait-of-hormuz-iran-20042528.htm"
+    },
     {
      "date": "2026-11-26",
      "source": "cnbctv18.com",
@@ -1080,24 +1092,36 @@
      "source": "cnbctv18.com",
      "title": "Foodlink F&B IPO opens today: What investors should know before subscribing",
      "url": "https://www.cnbctv18.com/market/foodlink-f-b-ipo-subscription-opens-today-know-gmp-what-investors-should-know-before-subscribing-20041542.htm"
-    },
-    {
-     "date": "2026-11-26",
-     "source": "cnbctv18.com",
-     "title": "Stock Market Highlights: Sensex rises 390 points, Nifty nears 25,900; IT, realty stocks gain up to 3%, HDFC Bank leads",
-     "url": "https://www.cnbctv18.com/market/stock-market-live-updates-nifty-50-sensex-expiry-today-tariffs-textiles-lg-schaeffler-gokaldas-lupin-avanti-share-price-liveblog-20041603.htm"
-    },
-    {
-     "date": "2026-11-26",
-     "source": "cnbctv18.com",
-     "title": "How should investors play the current Indian stock market moves? Kotak's Sanjeev Prasad advises",
-     "url": "https://www.cnbctv18.com/market/indian-market-nifty-50-sensex-how-should-investors-play-the-situaton-kotak-three-key-factors-risks-returns-top-picks-20040860.htm"
     }
    ]
   },
   "https://www.freepressjournal.in/stories.rss?section=business": {
-   "fetched": "2026-11-27T04:15+05:30",
+   "fetched": "2026-11-27T05:45+05:30",
    "items": [
+    {
+     "date": "2026-11-26",
+     "source": "freepressjournal.in",
+     "title": "Supreme Court Defers Hearing On MP Reservation In Promotions, High Court Hearing December 1",
+     "url": "https://www.freepressjournal.in/indore/supreme-court-defers-hearing-on-mp-reservation-in-promotions-high-court-hearing-december-1"
+    },
+    {
+     "date": "2026-11-26",
+     "source": "freepressjournal.in",
+     "title": "IMC Inspects Lifts In 29 Indore Buildings, Orders Mandatory Safety Audits To Prevent Potential Accidents",
+     "url": "https://www.freepressjournal.in/indore/imc-inspects-lifts-in-29-indore-buildings-orders-mandatory-safety-audits-to-prevent-potential-accidents"
+    },
+    {
+     "date": "2026-11-26",
+     "source": "freepressjournal.in",
+     "title": "Mystery Deepens Over 150 Missing Injections Worth ₹20 Lakh At Indore District Hospital As Inquiry Report Remains Undisclosed",
+     "url": "https://www.freepressjournal.in/indore/mystery-deepens-over-150-missing-injections-worth-20-lakh-at-indore-district-hospital-as-inquiry-report-remains-undisclosed"
+    },
+    {
+     "date": "2026-11-26",
+     "source": "freepressjournal.in",
+     "title": "Chaitanya Kashyap Becomes First Minister To Hold Charge Of Both Bhopal And Indore Districts",
+     "url": "https://www.freepressjournal.in/bhopal/chaitanya-kashyap-becomes-first-minister-to-hold-charge-of-both-bhopal-and-indore-districts"
+    },
     {
      "date": "2026-11-26",
      "source": "freepressjournal.in",
@@ -1143,68 +1167,32 @@
     {
      "date": "2026-11-26",
      "source": "freepressjournal.in",
-     "title": "MP Extends Financial Grants For Domestic Flights To Four Years, International Services To Two",
-     "url": "https://www.freepressjournal.in/bhopal/mp-extends-financial-grants-for-domestic-flights-to-four-years-international-services-to-two"
-    },
-    {
-     "date": "2026-11-26",
-     "source": "freepressjournal.in",
      "title": "Businessman Allegedly Duped Of ₹3.90 Crore In Indore Land Deal, Accused Refuses To Execute Registry Despite Receiving Payment",
      "url": "https://www.freepressjournal.in/indore/businessman-allegedly-duped-of-390-crore-in-indore-land-deal-accused-refuses-to-execute-registry-despite-receiving-payment"
     },
     {
      "date": "2026-11-26",
      "source": "freepressjournal.in",
+     "title": "MP Extends Financial Grants For Domestic Flights To Four Years, International Services To Two",
+     "url": "https://www.freepressjournal.in/bhopal/mp-extends-financial-grants-for-domestic-flights-to-four-years-international-services-to-two"
+    },
+    {
+     "date": "2026-11-26",
+     "source": "freepressjournal.in",
      "title": "From Tragedy To Demolition: Mumbai's Army-Built ₹10 Crore Footbridge To Make Way For Sixth Line",
      "url": "https://www.freepressjournal.in/mumbai/from-tragedy-to-demolition-mumbais-army-built-10-crore-footbridge-to-make-way-for-sixth-line"
-    },
-    {
-     "date": "2026-11-26",
-     "source": "freepressjournal.in",
-     "title": "Bhopal Gas Tragedy Victims Face Healthcare Crisis As 92.85% Super-Specialist Posts Remain Vacant",
-     "url": "https://www.freepressjournal.in/bhopal/bhopal-gas-tragedy-victims-face-healthcare-crisis-as-9285-super-specialist-posts-remain-vacant"
-    },
-    {
-     "date": "2026-11-26",
-     "source": "freepressjournal.in",
-     "title": "Two Men Dupe 55-Year-Old Woman Of Gold Earrings And Silver Ring In Indore By Offering Fake Bundles Of Currency Notes",
-     "url": "https://www.freepressjournal.in/indore/two-men-dupe-55-year-old-woman-of-gold-earrings-and-silver-ring-in-indore-by-offering-fake-bundles-of-currency-notes"
-    },
-    {
-     "date": "2026-11-26",
-     "source": "freepressjournal.in",
-     "title": "Mahadev Betting Probe: ED Tracks Betting Proceeds To Dubai Real Estate, Indian Hospitality Ventures; Searches Delhi Premises",
-     "url": "https://www.freepressjournal.in/mumbai/mahadev-betting-probe-ed-tracks-betting-proceeds-to-dubai-real-estate-indian-hospitality-ventures-searches-delhi-premises"
-    },
-    {
-     "date": "2026-11-26",
-     "source": "freepressjournal.in",
-     "title": "Bhopal’s Barkatullah University Faces Scrutiny As 65 Students Score Zero, Another Marked Absent",
-     "url": "https://www.freepressjournal.in/bhopal/bhopals-barkatullah-university-faces-scrutiny-as-65-students-score-zero-another-marked-absent"
-    },
-    {
-     "date": "2026-11-26",
-     "source": "freepressjournal.in",
-     "title": "MP High Court Clears Way For NEET-PG Counselling Resumption, Upholds 30% Reservation And Additional Incentive Marks For In-Service Doctors",
-     "url": "https://www.freepressjournal.in/bhopal/mp-high-court-clears-way-for-neet-pg-counselling-resumption-upholds-30-reservation-and-additional-incentive-marks-for-in-service-doctors"
-    },
-    {
-     "date": "2026-11-26",
-     "source": "freepressjournal.in",
-     "title": "Indore-Bangkok Direct Flight Launch Remains Uncertain As Air India Express Yet To Open Ticket Bookings Ahead Of December 2",
-     "url": "https://www.freepressjournal.in/indore/indore-bangkok-direct-flight-launch-remains-uncertain-as-air-india-express-yet-to-open-ticket-bookings-ahead-of-december-2"
-    },
-    {
-     "date": "2026-11-26",
-     "source": "freepressjournal.in",
-     "title": "'Going After Gen Z': Aaditya Thackeray Targets CM Devendra Fadnavis Over LoCs Against CJP Leaders | Video",
-     "url": "https://www.freepressjournal.in/mumbai/going-after-gen-z-aaditya-thackeray-targets-cm-devendra-fadnavis-over-locs-against-cjp-leaders-video"
     }
    ]
   },
   "https://www.livemint.com/rss/markets": {
-   "fetched": "2026-11-27T04:15+05:30",
+   "fetched": "2026-11-27T05:45+05:30",
    "items": [
+    {
+     "date": "2026-11-27",
+     "source": "Mint",
+     "title": "AI Rout Makes Kioxia Japan’s Cheapest Blue Chip, Backing Bulls",
+     "url": "https://www.livemint.com/market/ai-rout-makes-kioxia-japan-s-cheapest-blue-chip-backing-bulls-11795734114734.html"
+    },
     {
      "date": "2026-11-27",
      "source": "Mint",
@@ -1408,17 +1396,11 @@
      "source": "Mint",
      "title": "Multibagger small-cap stock announces 5:9 bonus issue; shares jump over 800% in 1 year | Record date, key details",
      "url": "https://www.livemint.com/market/stock-market-news/multibagger-small-cap-stock-announces-5-9-bonus-issue-shares-jump-over-800-in-1-year-record-date-key-details-11795671667814.html"
-    },
-    {
-     "date": "2026-11-26",
-     "source": "Mint",
-     "title": "Dividend, rights issue, Stock Split: Last chance to buy ahead of record date Nov 27 - Varvee, JTL Defence, Fusion CX",
-     "url": "https://www.livemint.com/market/stock-market-news/dividend-rights-issue-stock-split-last-chance-to-buy-ahead-of-record-date-nov-27-varvee-jtl-defence-fusion-cx-11795670998297.html"
     }
    ]
   },
   "https://www.thehindubusinessline.com/markets/feeder/default.rss": {
-   "fetched": "2026-11-27T04:15+05:30",
+   "fetched": "2026-11-27T05:45+05:30",
    "items": [
     {
      "date": "2026-11-26",
@@ -1783,7 +1765,7 @@
    ]
   },
   "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss": {
-   "fetched": "2026-11-27T04:15+05:30",
+   "fetched": "2026-11-27T05:45+05:30",
    "items": [
     {
      "date": "2026-11-18",
@@ -1909,7 +1891,7 @@
   }
  },
  "foodlink": {
-  "checked": "2026-11-27T05:31+05:30",
+  "checked": "2026-11-27T05:45+05:30",
   "items": [
    {
     "date": "2026-11-26",
@@ -1938,7 +1920,7 @@
   ]
  },
  "foodlink-f-b-holdings": {
-  "checked": "2026-11-27T05:31+05:30",
+  "checked": "2026-11-27T05:45+05:30",
   "items": [
    {
     "date": "2026-11-26",
@@ -1967,7 +1949,7 @@
   ]
  },
  "matangi": {
-  "checked": "2026-11-27T05:31+05:30",
+  "checked": "2026-11-27T05:45+05:30",
   "items": [
    {
     "date": "2026-11-23",
