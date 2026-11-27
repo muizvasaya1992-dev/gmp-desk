@@ -222,19 +222,47 @@
    "face_value": 2.0,
    "scrip": 4943,
    "bse_status": "L",
-   "last_seen": "2026-11-26T11:37+05:30"
+   "last_seen": "2026-11-27T10:44+05:30"
+  },
+  "8100": {
+   "ipo_no": "8100",
+   "first_seen": "2026-11-27T10:44+05:30",
+   "name": "Matangi Rubber",
+   "segment": "MAIN",
+   "open": "2026-12-01",
+   "close": "2026-12-03",
+   "price": 172,
+   "price_low": 163,
+   "face_value": 10.0,
+   "scrip": 4947,
+   "bse_status": "F",
+   "last_seen": "2026-11-27T10:44+05:30"
+  },
+  "8102": {
+   "ipo_no": "8102",
+   "first_seen": "2026-11-27T10:44+05:30",
+   "name": "Monomark Engineering India",
+   "segment": "MAIN",
+   "open": "2026-12-02",
+   "close": "2026-12-04",
+   "price": 65,
+   "price_low": 60,
+   "face_value": 10.0,
+   "scrip": 4949,
+   "bse_status": "F",
+   "last_seen": "2026-11-27T10:44+05:30"
   }
  },
  "tracker": {
   "year": 2026,
-  "total": 238,
-  "mainboard": 110,
+  "total": 239,
+  "mainboard": 111,
   "sme": 128,
-  "listing_gain": 177,
+  "listing_gain": 178,
   "listing_loss": 60,
-  "day_gain": 152,
+  "day_gain": 153,
   "day_loss": 85,
-  "fetched_at": "2026-11-26T11:37+05:30"
+  "fetched_at": "2026-11-27T10:44+05:30"
  },
- "fetched_at": "2026-11-26T11:37+05:30"
+ "fetched_at": "2026-11-27T10:44+05:30"
 }

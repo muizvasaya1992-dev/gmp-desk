@@ -1,9 +1,4 @@
 {
- "_cooled": {
-  "000b72b3ed": "2026-11-27T13:45+05:30",
-  "45d2f6251f": "2026-11-27T13:45+05:30",
-  "71d1e3c65d": "2026-11-27T13:45+05:30"
- },
  "airpro": {
   "checked": "2026-11-25T15:54+05:30",
   "model": "gemini-2.5-flash",
@@ -15,9 +10,9 @@
   "none": "we could not confirm it on the page (the site does not allow us to open that page)"
  },
  "monomark": {
-  "checked": "2026-11-26T11:37+05:30",
+  "checked": "2026-11-27T10:44+05:30",
   "model": "gemini-2.5-flash",
-  "none": "we could not confirm it on the page (the site does not allow us to open that page)"
+  "none": "only one of the two checks found a figure, so it is not confirmed"
  },
  "shreesidhi": {
   "checked": "2026-11-23T11:31+05:30",

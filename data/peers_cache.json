@@ -931,6 +931,10 @@
     "detail": {
      "gmp_history": [
       [
+       "2026-11-27",
+       2.0
+      ],
+      [
        "2026-11-26",
        6.0
       ],
@@ -947,82 +951,159 @@
        5.0
       ]
      ],
+     "sub": {
+      "total": 1.4,
+      "qib": 4.27,
+      "nii": 0.87,
+      "retail": 1.88
+     },
+     "sub_at": "2026-11-27T10:41",
      "reservation": {
-      "bnii": {
-       "pct": 31.34,
-       "shares": 2067000
-      },
-      "market_maker": {
-       "pct": 100.0,
-       "shares": 330000
+      "qib": {
+       "shares": 66000,
+       "pct": 1.0
       },
       "nii": {
-       "pct": 47.0,
-       "shares": 3100000
+       "shares": 3100000,
+       "pct": 47.0
       },
-      "qib": {
-       "pct": 1.0,
-       "shares": 66000
-      },
-      "retail": {
-       "pct": 47.0,
-       "shares": 3100000
+      "bnii": {
+       "shares": 2067000,
+       "pct": 31.34
       },
       "snii": {
-       "pct": 15.66,
-       "shares": 1033000
+       "shares": 1033000,
+       "pct": 15.66
+      },
+      "retail": {
+       "shares": 3100000,
+       "pct": 47.0
+      },
+      "market_maker": {
+       "shares": 330000,
+       "pct": 100.0
       }
      },
-     "sub": {
-      "nii": 0.83,
-      "qib": 4.27,
-      "retail": 1.63,
-      "total": 1.26
-     },
-     "sub_at": "2026-11-26T17:25",
      "uses": [
       {
-       "cr": 23.54,
-       "use": "Capital Expense"
+       "use": "Capital Expense",
+       "cr": 23.54
       },
       {
-       "cr": 48.5,
-       "use": "Debt"
+       "use": "Debt",
+       "cr": 48.5
       }
      ],
      "years": [
       {
-       "assets": 114.78,
-       "debt": 76.45,
-       "ebitda": 8.61,
+       "y": "FY24",
        "income": 36.9,
-       "net_worth": 12.98,
        "pat": 3.08,
-       "roce": 9.22,
+       "ebitda": 8.61,
+       "net_worth": 12.98,
+       "debt": 76.45,
+       "assets": 114.78,
        "roe": 47.11,
-       "y": "FY24"
+       "roce": 9.22
       },
       {
-       "assets": 115.22,
-       "debt": 72.76,
-       "ebitda": 14.54,
+       "y": "FY25",
        "income": 61.13,
-       "net_worth": 18.48,
        "pat": 5.5,
-       "roce": 17.2,
+       "ebitda": 14.54,
+       "net_worth": 18.48,
+       "debt": 72.76,
+       "assets": 115.22,
        "roe": 34.94,
-       "y": "FY25"
+       "roce": 17.2
       },
       {
-       "assets": 145.86,
-       "debt": 89.95,
-       "ebitda": 20.46,
+       "y": "FY26",
        "income": 78.32,
-       "net_worth": 25.07,
        "pat": 11.59,
-       "roce": 19.76,
+       "ebitda": 20.46,
+       "net_worth": 25.07,
+       "debt": 89.95,
+       "assets": 145.86,
        "roe": 53.24,
-       "y": "FY26"
+       "roce": 19.76
+      }
+     ]
+    }
+   },
+   {
+    "src": "Tracker D",
+    "slug": "airpro-technology-india",
+    "name": "Airpro Technology India",
+    "segment": "SME",
+    "exchange": null,
+    "open": "2026-11-27",
+    "close": "2026-12-01",
+    "boa": null,
+    "listing": "2026-12-04",
+    "price": 99.0,
+    "price_low": null,
+    "size_cr": 35.64,
+    "gmp": 3.0,
+    "gmp_at": null,
+    "sub_total": 0.11,
+    "sub_retail": null,
+    "sub_at": null,
+    "lot": 1200.0,
+    "sector": "Industrial Products",
+    "detail_url": "https://ipoindex.in/ipo/airpro-technology-india-sme-ipo/",
+    "live": true,
+    "detail": {
+     "gmp_history": [
+      [
+       "2026-11-26",
+       3.0
+      ],
+      [
+       "2026-11-25",
+       4.0
+      ]
+     ],
+     "sub": {
+      "total": 0.11,
+      "nii": 0.13,
+      "retail": 0.1
+     },
+     "sub_at": "2026-11-27T10:40",
+     "reservation": {
+      "nii": {
+       "shares": 1711200,
+       "pct": 50.04
+      },
+      "retail": {
+       "shares": 1708800,
+       "pct": 49.96
+      }
+     },
+     "uses": [
+      {
+       "use": "Asset",
+       "cr": 2.0
+      },
+      {
+       "use": "Asset",
+       "cr": 0.6
+      },
+      {
+       "use": "Factory",
+       "cr": 3.97
+      },
+      {
+       "use": "Working Capital",
+       "cr": 13.0
+      },
+      {
+       "use": "Other",
+       "cr": 4.34
+      },
+      {
+       "use": "Expenditure",
+       "cr": 4.0
       }
      ]
     }
@@ -1123,6 +1204,10 @@
     "detail": {
      "gmp_history": [
       [
+       "2026-11-27",
+       7.0
+      ],
+      [
        "2026-11-26",
        10.0
       ],
@@ -1152,28 +1237,58 @@
       ]
      ],
      "sub": {
-      "nii": 0.41,
+      "total": 1.23,
       "qib": 1.0,
-      "retail": 2.42,
-      "total": 1.1
+      "nii": 0.51,
+      "retail": 3.01
      },
-     "sub_at": "2026-11-26T17:25",
+     "sub_at": "2026-11-27T10:41",
+     "reservation": {
+      "qib": {
+       "shares": 14165804,
+       "pct": 75.0
+      },
+      "anchor": {
+       "shares": 8499483,
+       "pct": 45.0
+      },
+      "qib_ex_anchor": {
+       "shares": 5666321,
+       "pct": 30.0
+      },
+      "nii": {
+       "shares": 2833161,
+       "pct": 15.0
+      },
+      "bnii": {
+       "shares": 1888774,
+       "pct": 10.0
+      },
+      "snii": {
+       "shares": 944387,
+       "pct": 5.0
+      },
+      "retail": {
+       "shares": 1888774,
+       "pct": 10.0
+      }
+     },
      "uses": [
       {
-       "cr": 21.4,
-       "use": "Capital Expense"
+       "use": "Capital Expense",
+       "cr": 21.4
       },
       {
-       "cr": 41.5,
-       "use": "Capital Expense"
+       "use": "Capital Expense",
+       "cr": 41.5
       },
       {
-       "cr": 50.81,
-       "use": "Investment"
+       "use": "Investment",
+       "cr": 50.81
       },
       {
-       "cr": 21.0,
-       "use": "Debt"
+       "use": "Debt",
+       "cr": 21.0
       }
      ]
     }
@@ -1203,12 +1318,12 @@
     "detail": {
      "uses": [
       {
-       "cr": 2000.0,
-       "use": "OFS"
+       "use": "OFS",
+       "cr": 2000.0
       },
       {
-       "cr": 1000.0,
-       "use": "OFS"
+       "use": "OFS",
+       "cr": 1000.0
       }
      ]
     }
@@ -1238,6 +1353,10 @@
     "detail": {
      "gmp_history": [
       [
+       "2026-11-27",
+       23.0
+      ],
+      [
        "2026-11-25",
        24.0
       ],
@@ -1251,27 +1370,27 @@
       ]
      ],
      "reservation": {
-      "nii": {
-       "pct": 15.16,
-       "shares": 432000
-      },
       "qib": {
-       "pct": 49.35,
-       "shares": 1406400
+       "shares": 1406400,
+       "pct": 49.35
+      },
+      "nii": {
+       "shares": 432000,
+       "pct": 15.16
       },
       "retail": {
-       "pct": 35.49,
-       "shares": 1011200
+       "shares": 1011200,
+       "pct": 35.49
       }
      },
      "uses": [
       {
-       "cr": 29.3,
-       "use": "Working Capital"
+       "use": "Working Capital",
+       "cr": 29.3
       },
       {
-       "cr": 7.0,
-       "use": "Debt"
+       "use": "Debt",
+       "cr": 7.0
       }
      ]
     }
@@ -1301,6 +1420,10 @@
     "detail": {
      "gmp_history": [
       [
+       "2026-11-27",
+       1.0
+      ],
+      [
        "2026-11-24",
        0.0
       ],
@@ -1311,16 +1434,16 @@
      ],
      "uses": [
       {
-       "cr": 509.85,
-       "use": "Debt"
+       "use": "Debt",
+       "cr": 509.85
       },
       {
-       "cr": 93.87,
-       "use": "Subsidiaries"
+       "use": "Subsidiaries",
+       "cr": 93.87
       },
       {
-       "cr": 415.98,
-       "use": "Subsidiaries"
+       "use": "Subsidiaries",
+       "cr": 415.98
       }
      ]
     }
@@ -1350,12 +1473,12 @@
     "detail": {
      "uses": [
       {
-       "cr": 356.85,
-       "use": "Debt"
+       "use": "Debt",
+       "cr": 356.85
       },
       {
-       "cr": 296.41,
-       "use": "Facility"
+       "use": "Facility",
+       "cr": 296.41
       }
      ]
     }
@@ -1385,6 +1508,10 @@
     "detail": {
      "gmp_history": [
       [
+       "2026-11-27",
+       26.0
+      ],
+      [
        "2026-11-26",
        27.0
       ],
@@ -1403,16 +1530,90 @@
      ],
      "uses": [
       {
-       "cr": 45.0,
-       "use": "Debt"
+       "use": "Debt",
+       "cr": 45.0
       },
       {
-       "cr": 19.06,
-       "use": "Facility"
+       "use": "Facility",
+       "cr": 19.06
       },
       {
-       "cr": 8.44,
-       "use": "Facility"
+       "use": "Facility",
+       "cr": 8.44
+      }
+     ]
+    }
+   },
+   {
+    "src": "Tracker D",
+    "slug": "swara-baby-products",
+    "name": "Swara Baby Products",
+    "segment": "MAIN",
+    "exchange": null,
+    "open": null,
+    "close": null,
+    "boa": null,
+    "listing": null,
+    "price": 111.0,
+    "price_low": 105.0,
+    "size_cr": 799.88,
+    "gmp": 0.0,
+    "gmp_at": null,
+    "sub_total": null,
+    "sub_retail": null,
+    "sub_at": null,
+    "lot": 135.0,
+    "sector": "Consumer Non-Durables / Personal Care & Hygiene",
+    "detail_url": "https://ipoindex.in/ipo/swara-baby-products-ipo/",
+    "live": true,
+    "detail": {
+     "uses": [
+      {
+       "use": "New Facility",
+       "cr": 198.2
+      },
+      {
+       "use": "Debt Payment",
+       "cr": 100.0
+      },
+      {
+       "use": "Debt Payment",
+       "cr": 27.5
+      }
+     ],
+     "years": [
+      {
+       "y": "FY24",
+       "income": 766.61,
+       "pat": 93.97,
+       "ebitda": 153.59,
+       "net_worth": 319.36,
+       "debt": 260.08,
+       "assets": 780.15,
+       "roe": 34.5,
+       "roce": 21.9
+      },
+      {
+       "y": "FY25",
+       "income": 959.67,
+       "pat": 80.67,
+       "ebitda": 162.72,
+       "net_worth": 399.92,
+       "debt": 354.82,
+       "assets": 1002.31,
+       "roe": 20.17,
+       "roce": 17.65
+      },
+      {
+       "y": "FY26",
+       "income": 1212.44,
+       "pat": 95.59,
+       "ebitda": 192.77,
+       "net_worth": 553.22,
+       "debt": 443.06,
+       "assets": 1368.2,
+       "roe": 20.06,
+       "roce": 14.48
       }
      ]
     }
@@ -1481,6 +1682,10 @@
     "detail": {
      "gmp_history": [
       [
+       "2026-11-27",
+       23.0
+      ],
+      [
        "2026-11-26",
        24.0
       ],
@@ -1499,43 +1704,43 @@
      ],
      "uses": [
       {
-       "cr": 120.0,
-       "use": "Working Capital"
+       "use": "Working Capital",
+       "cr": 120.0
       }
      ],
      "years": [
       {
-       "assets": 0,
-       "debt": 0,
-       "ebitda": 0,
+       "y": "FY23",
        "income": 0,
-       "net_worth": 0,
        "pat": 0,
-       "roce": 10.53,
+       "ebitda": 0,
+       "net_worth": 0,
+       "debt": 0,
+       "assets": 0,
        "roe": 10.53,
-       "y": "FY23"
+       "roce": 10.53
       },
       {
-       "assets": 240.81,
-       "debt": 0,
-       "ebitda": 31.89,
+       "y": "FY24",
        "income": 392.14,
-       "net_worth": 9.68,
        "pat": 14.83,
-       "roce": 20.05,
+       "ebitda": 31.89,
+       "net_worth": 9.68,
+       "debt": 0,
+       "assets": 240.81,
        "roe": 24.67,
-       "y": "FY24"
+       "roce": 20.05
       },
       {
-       "assets": 294,
-       "debt": 0,
-       "ebitda": 39,
+       "y": "FY25",
        "income": 477.29,
-       "net_worth": 17,
        "pat": 18,
-       "roce": 21.95,
+       "ebitda": 39,
+       "net_worth": 17,
+       "debt": 0,
+       "assets": 294,
        "roe": 24.86,
-       "y": "FY25"
+       "roce": 21.95
       }
      ]
     }
