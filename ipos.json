@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T11:15+05:30",
+  "generated_at": "2026-11-27T11:31+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-27T10:44+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-27T11:15+05:30",
+    "nse_ok_at": "2026-11-27T11:31+05:30",
     "bse_ok_at": "2026-11-27T10:48+05:30"
   },
   "ipos": [
@@ -3881,7 +3881,7 @@
         "total": 2.93
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-27T11:14",
+      "sub_asof": "2026-11-27T11:28",
       "registrar": "Mas Services Limited",
       "lead_managers": [
         "Erudore Capital Private Limited"
@@ -3906,7 +3906,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": 6596000.0,
-      "updated_on": "2026-11-27T11:15+05:30",
+      "updated_on": "2026-11-27T11:31+05:30",
       "reservation": {
         "qib": 1.0,
         "nii": 47.0,
@@ -4080,12 +4080,12 @@
         "qib": 1.01,
         "nii": 0.53,
         "bnii": 0.44,
-        "snii": 0.7,
-        "retail": 3.11,
-        "total": 1.26
+        "snii": 0.71,
+        "retail": 3.17,
+        "total": 1.28
       },
       "sub_basis": "NSE+BSE",
-      "sub_asof": "2026-11-27T11:12",
+      "sub_asof": "2026-11-27T11:27",
       "registrar": "MUFG Intime India Private Limited",
       "lead_managers": [
         "Equirus Capital Limited (formerly known as Equirus Capital Private Limited) and JM Financial Limited"
@@ -4153,12 +4153,21 @@
           "snii": 0.7,
           "retail": 3.11,
           "total": 1.26
+        },
+        {
+          "at": "2026-11-27T11:31+05:30",
+          "qib": 1.01,
+          "nii": 0.53,
+          "bnii": 0.44,
+          "snii": 0.71,
+          "retail": 3.17,
+          "total": 1.28
         }
       ],
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 10474048.0,
-      "updated_on": "2026-11-27T11:15+05:30",
+      "updated_on": "2026-11-27T11:31+05:30",
       "bse_ipo_no": "8097",
       "reservation_detail": {
         "anchor": {
@@ -4333,7 +4342,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": 3600000.0,
-      "updated_on": "2026-11-27T11:15+05:30",
+      "updated_on": "2026-11-27T11:31+05:30",
       "reservation": {
         "nii": 50.04,
         "retail": 49.96
@@ -4468,7 +4477,7 @@
       "series": "SME",
       "nse_status": "Forthcoming",
       "shares_offered": 3000000.0,
-      "updated_on": "2026-11-27T11:15+05:30",
+      "updated_on": "2026-11-27T11:31+05:30",
       "tracker_rating": 3,
       "reservation_detail": {
         "nii": {
@@ -4509,8 +4518,8 @@
         },
         {
           "source": "Tracker D",
-          "gmp": 23,
-          "at": "2026-11-27T10:44"
+          "gmp": 24,
+          "at": "2026-11-27T11:31"
         }
       ],
       "gmp_history": [
@@ -4532,27 +4541,27 @@
         },
         {
           "date": "2026-11-27",
-          "gmp": 23
+          "gmp": 24
         }
       ],
       "history_source": "Tracker D",
       "gmp_low": 20,
       "gmp_high": 24,
       "exchange": "SME",
-      "gmp": 23,
-      "gmp_asof": "2026-11-27T10:44",
+      "gmp": 24,
+      "gmp_asof": "2026-11-27T11:31",
       "gmp_source_latest": "Tracker D",
-      "gmp_pct": 12.78,
+      "gmp_pct": 13.33,
       "gmp_spread": {
-        "min": 23,
+        "min": 24,
         "max": 24,
-        "diff": 1,
+        "diff": 0,
         "n": 2,
-        "diff_pct_of_price": 0.56
+        "diff_pct_of_price": 0.0
       },
       "gmp_trend": {
         "dir": "steady",
-        "change": -1,
+        "change": 0,
         "days": 3,
         "since": "2026-11-25"
       },
@@ -4586,7 +4595,7 @@
       "series": "Equity",
       "nse_status": "Forthcoming",
       "shares_offered": 27000000.0,
-      "updated_on": "2026-11-27T11:15+05:30",
+      "updated_on": "2026-11-27T11:31+05:30",
       "bse_ipo_no": "8102",
       "gmp_sources": [],
       "gmp_history": [],
@@ -4635,7 +4644,7 @@
       "series": "Equity",
       "nse_status": "Forthcoming",
       "shares_offered": 7276981.0,
-      "updated_on": "2026-11-27T11:15+05:30",
+      "updated_on": "2026-11-27T11:31+05:30",
       "bse_ipo_no": "8100",
       "tracker_rating": 3,
       "uses": [
@@ -4666,8 +4675,8 @@
         },
         {
           "source": "Tracker D",
-          "gmp": 26,
-          "at": "2026-11-27T10:48"
+          "gmp": 27,
+          "at": "2026-11-27T11:31"
         }
       ],
       "gmp_history": [
@@ -4685,17 +4694,17 @@
         },
         {
           "date": "2026-11-27",
-          "gmp": 26
+          "gmp": 27
         }
       ],
       "history_source": "Tracker D",
       "gmp_low": 20,
       "gmp_high": 27,
       "exchange": "SME",
-      "gmp": 26,
-      "gmp_asof": "2026-11-27T10:48",
+      "gmp": 27,
+      "gmp_asof": "2026-11-27T11:31",
       "gmp_source_latest": "Tracker D",
-      "gmp_pct": 15.12,
+      "gmp_pct": 15.7,
       "gmp_spread": {
         "min": 20,
         "max": 27,
@@ -4705,7 +4714,7 @@
       },
       "gmp_trend": {
         "dir": "rising",
-        "change": 4,
+        "change": 5,
         "days": 3,
         "since": "2026-11-25"
       },
@@ -4988,15 +4997,15 @@
       },
       "tracker_rating": 1,
       "sub": {
-        "retail": 3.09,
+        "retail": 3.17,
         "nii": 0.53,
         "bnii": 0.44,
-        "snii": 0.7,
+        "snii": 0.71,
         "qib": 1.01,
-        "total": 1.26
+        "total": 1.28
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-27T11:13",
+      "sub_asof": "2026-11-27T11:30",
       "gmp_sources": [
         {
           "source": "Tracker C",
@@ -5163,8 +5172,8 @@
         },
         {
           "source": "Tracker D",
-          "gmp": 23,
-          "at": "2026-11-27T10:48"
+          "gmp": 20,
+          "at": "2026-11-27T11:31"
         }
       ],
       "gmp_history": [
@@ -5186,26 +5195,26 @@
         },
         {
           "date": "2026-11-27",
-          "gmp": 23
+          "gmp": 20
         }
       ],
       "history_source": "Tracker D",
-      "gmp_low": 21,
+      "gmp_low": 20,
       "gmp_high": 24,
-      "gmp": 23,
-      "gmp_asof": "2026-11-27T10:48",
+      "gmp": 20,
+      "gmp_asof": "2026-11-27T11:31",
       "gmp_source_latest": "Tracker D",
-      "gmp_pct": 35.38,
+      "gmp_pct": 30.77,
       "gmp_spread": {
-        "min": 23,
+        "min": 20,
         "max": 24,
-        "diff": 1,
+        "diff": 4,
         "n": 2,
-        "diff_pct_of_price": 1.54
+        "diff_pct_of_price": 6.15
       },
       "gmp_trend": {
-        "dir": "rising",
-        "change": 2,
+        "dir": "falling",
+        "change": -1,
         "days": 3,
         "since": "2026-11-25"
       },
@@ -5247,7 +5256,7 @@
           "use": "Debt Payment"
         }
       ],
-      "sector": "Consumer Non-Durables / Personal Care & Hygiene",
+      "sector": "Personal Care",
       "fin": {
         "years": [
           {
@@ -5286,14 +5295,26 @@
         ],
         "ratios": {}
       },
-      "gmp_watch": {
-        "sources": 2,
-        "at": "2026-11-27T11:15"
-      },
-      "gmp_sources": [],
-      "gmp_history": [],
-      "gmp": null,
-      "gmp_pct": null,
+      "gmp_sources": [
+        {
+          "source": "Tracker D",
+          "gmp": 15,
+          "at": "2026-11-27T11:31"
+        }
+      ],
+      "gmp_history": [
+        {
+          "date": "2026-11-27",
+          "gmp": 15
+        }
+      ],
+      "history_source": "Tracker D",
+      "gmp_low": 15,
+      "gmp_high": 15,
+      "gmp": 15,
+      "gmp_asof": "2026-11-27T11:31",
+      "gmp_source_latest": "Tracker D",
+      "gmp_pct": 13.51,
       "status": "upcoming",
       "ai_gmp_none": {
         "why": "we could not confirm it on the page (the site does not allow us to open that page)",
@@ -5401,7 +5422,7 @@
       },
       "gmp_watch": {
         "sources": 2,
-        "at": "2026-11-27T11:15"
+        "at": "2026-11-27T11:31"
       },
       "gmp_sources": [],
       "gmp_history": [],
