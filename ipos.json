@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T08:45+05:30",
+  "generated_at": "2026-11-27T09:01+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-26T11:37+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-27T08:31+05:30",
+    "nse_ok_at": "2026-11-27T09:01+05:30",
     "bse_ok_at": "2026-11-26T11:41+05:30"
   },
   "ipos": [
@@ -3166,7 +3166,7 @@
         {
           "source": "Tracker D",
           "gmp": 17,
-          "at": "2026-11-27T06:01"
+          "at": "2026-11-27T09:01"
         },
         {
           "source": "Tracker B",
@@ -3229,7 +3229,7 @@
       "gmp_high": 45,
       "exchange": "SME",
       "gmp": 17,
-      "gmp_asof": "2026-11-27T06:01",
+      "gmp_asof": "2026-11-27T09:01",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 6.25,
       "gmp_spread": {
@@ -3318,7 +3318,7 @@
         {
           "source": "Tracker D",
           "gmp": 19,
-          "at": "2026-11-27T06:01"
+          "at": "2026-11-27T09:01"
         },
         {
           "source": "Tracker B",
@@ -3392,10 +3392,10 @@
       "gmp_low": 15,
       "gmp_high": 67,
       "exchange": "SME",
-      "gmp": 23,
-      "gmp_asof": "2026-11-27T06:10",
-      "gmp_source_latest": "Tracker B",
-      "gmp_pct": 9.39,
+      "gmp": 19,
+      "gmp_asof": "2026-11-27T09:01",
+      "gmp_source_latest": "Tracker D",
+      "gmp_pct": 7.76,
       "gmp_spread": {
         "min": 19,
         "max": 35,
@@ -3779,7 +3779,7 @@
         {
           "source": "Tracker D",
           "gmp": 0.5,
-          "at": "2026-11-27T06:01"
+          "at": "2026-11-27T09:01"
         },
         {
           "source": "Tracker B",
@@ -3841,10 +3841,10 @@
       "gmp_low": 0,
       "gmp_high": 13,
       "exchange": "SME",
-      "gmp": 0.7,
-      "gmp_asof": "2026-11-27T06:10",
-      "gmp_source_latest": "Tracker B",
-      "gmp_pct": 0.51,
+      "gmp": 0.5,
+      "gmp_asof": "2026-11-27T09:01",
+      "gmp_source_latest": "Tracker D",
+      "gmp_pct": 0.37,
       "gmp_spread": {
         "min": 0,
         "max": 0.7,
@@ -3883,7 +3883,7 @@
         "total": 1.27
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-27T08:40",
+      "sub_asof": "2026-11-27T08:56",
       "registrar": "Mas Services Limited",
       "lead_managers": [
         "Erudore Capital Private Limited"
@@ -4410,28 +4410,28 @@
       "status": "open",
       "news": [
         {
+          "date": "2026-11-26",
+          "source": "Economic Times",
           "title": "Foodlink F&B Holdings IPO Day 1: Issue fully subscribed on strong retail push",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-ipo-day-1-issue-subscribed-29-retail-portion-fully-booked/articleshow/136184706.cms",
-          "source": "Economic Times",
-          "date": "2026-11-26"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-ipo-day-1-issue-subscribed-29-retail-portion-fully-booked/articleshow/136184706.cms"
         },
         {
+          "date": "2026-11-26",
+          "source": "Economic Times",
           "title": "Foodlink F&B Holdings IPO opens for subscription. Should you apply or skip?",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-ipo-opens-today-check-price-band-lot-size-how-to-apply-and-whether-you-should-subscribe/articleshow/136176395.cms",
-          "source": "Economic Times",
-          "date": "2026-11-26"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-ipo-opens-today-check-price-band-lot-size-how-to-apply-and-whether-you-should-subscribe/articleshow/136176395.cms"
         },
         {
+          "date": "2026-11-23",
+          "source": "Economic Times",
           "title": "Foodlink F&B Holdings announces price band for Rs 361-crore IPO. Check key dates & other details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-announces-price-band-for-rs-361-crore-ipo-check-key-dates-other-details/articleshow/136091391.cms",
-          "source": "Economic Times",
-          "date": "2026-11-23"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-announces-price-band-for-rs-361-crore-ipo-check-key-dates-other-details/articleshow/136091391.cms"
         },
         {
-          "title": "IPO watch: Foodlink F&B Holdings, Integris Medtech among three new issues to open for subscriptions this week; check details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-watch-foodlink-fb-holdings-integris-medtech-among-three-new-issues-to-open-for-subscriptions-this-week-check-details/articleshow/136070288.cms",
+          "date": "2026-11-22",
           "source": "Economic Times",
-          "date": "2026-11-22"
+          "title": "IPO watch: Foodlink F&B Holdings, Integris Medtech among three new issues to open for subscriptions this week; check details",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-watch-foodlink-fb-holdings-integris-medtech-among-three-new-issues-to-open-for-subscriptions-this-week-check-details/articleshow/136070288.cms"
         }
       ],
       "unconfirmed": false
@@ -4556,10 +4556,10 @@
       },
       "news": [
         {
-          "title": "Airpro Technology IPO opens today; check issue details, objectives and key dates",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/airpro-technology-ipo-opens-today-check-issue-details-objectives-and-key-dates/articleshow/136207302.cms",
+          "date": "2026-11-27",
           "source": "Economic Times",
-          "date": "2026-11-27"
+          "title": "Airpro Technology IPO opens today; check issue details, objectives and key dates",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/airpro-technology-ipo-opens-today-check-issue-details-objectives-and-key-dates/articleshow/136207302.cms"
         }
       ],
       "unconfirmed": false
@@ -4632,7 +4632,7 @@
         {
           "source": "Tracker D",
           "gmp": 24,
-          "at": "2026-11-27T06:01"
+          "at": "2026-11-27T09:01"
         }
       ],
       "gmp_history": [
@@ -4662,8 +4662,8 @@
       "gmp_high": 24,
       "exchange": "SME",
       "gmp": 24,
-      "gmp_asof": "2026-11-27T06:02",
-      "gmp_source_latest": "Tracker C",
+      "gmp_asof": "2026-11-27T09:01",
+      "gmp_source_latest": "Tracker D",
       "gmp_pct": 13.33,
       "gmp_spread": {
         "min": 24,
@@ -4832,10 +4832,10 @@
       "status": "upcoming",
       "news": [
         {
-          "title": "Matangi Rubber’s Rs 125.16 cr IPO opens Dec 1: Check price band, lot size and other key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/matangi-rubbers-rs-125-16-cr-ipo-opens-dec-1-check-price-band-lot-size-and-other-key-details/articleshow/136101832.cms",
+          "date": "2026-11-23",
           "source": "Economic Times",
-          "date": "2026-11-23"
+          "title": "Matangi Rubber’s Rs 125.16 cr IPO opens Dec 1: Check price band, lot size and other key details",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/matangi-rubbers-rs-125-16-cr-ipo-opens-dec-1-check-price-band-lot-size-and-other-key-details/articleshow/136101832.cms"
         }
       ],
       "unconfirmed": false
@@ -5070,10 +5070,10 @@
       },
       "news": [
         {
-          "title": "Airpro Technology IPO opens today; check issue details, objectives and key dates",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/airpro-technology-ipo-opens-today-check-issue-details-objectives-and-key-dates/articleshow/136207302.cms",
+          "date": "2026-11-27",
           "source": "Economic Times",
-          "date": "2026-11-27"
+          "title": "Airpro Technology IPO opens today; check issue details, objectives and key dates",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/airpro-technology-ipo-opens-today-check-issue-details-objectives-and-key-dates/articleshow/136207302.cms"
         }
       ],
       "unconfirmed": true
@@ -5116,7 +5116,7 @@
         "total": 1.08
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-27T08:43",
+      "sub_asof": "2026-11-27T08:57",
       "gmp_sources": [
         {
           "source": "Tracker C",
@@ -5191,28 +5191,28 @@
       "status": "open",
       "news": [
         {
+          "date": "2026-11-26",
+          "source": "Economic Times",
           "title": "Foodlink F&B Holdings IPO Day 1: Issue fully subscribed on strong retail push",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-ipo-day-1-issue-subscribed-29-retail-portion-fully-booked/articleshow/136184706.cms",
-          "source": "Economic Times",
-          "date": "2026-11-26"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-ipo-day-1-issue-subscribed-29-retail-portion-fully-booked/articleshow/136184706.cms"
         },
         {
+          "date": "2026-11-26",
+          "source": "Economic Times",
           "title": "Foodlink F&B Holdings IPO opens for subscription. Should you apply or skip?",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-ipo-opens-today-check-price-band-lot-size-how-to-apply-and-whether-you-should-subscribe/articleshow/136176395.cms",
-          "source": "Economic Times",
-          "date": "2026-11-26"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-ipo-opens-today-check-price-band-lot-size-how-to-apply-and-whether-you-should-subscribe/articleshow/136176395.cms"
         },
         {
+          "date": "2026-11-23",
+          "source": "Economic Times",
           "title": "Foodlink F&B Holdings announces price band for Rs 361-crore IPO. Check key dates & other details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-announces-price-band-for-rs-361-crore-ipo-check-key-dates-other-details/articleshow/136091391.cms",
-          "source": "Economic Times",
-          "date": "2026-11-23"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-announces-price-band-for-rs-361-crore-ipo-check-key-dates-other-details/articleshow/136091391.cms"
         },
         {
-          "title": "IPO watch: Foodlink F&B Holdings, Integris Medtech among three new issues to open for subscriptions this week; check details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-watch-foodlink-fb-holdings-integris-medtech-among-three-new-issues-to-open-for-subscriptions-this-week-check-details/articleshow/136070288.cms",
+          "date": "2026-11-22",
           "source": "Economic Times",
-          "date": "2026-11-22"
+          "title": "IPO watch: Foodlink F&B Holdings, Integris Medtech among three new issues to open for subscriptions this week; check details",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-watch-foodlink-fb-holdings-integris-medtech-among-three-new-issues-to-open-for-subscriptions-this-week-check-details/articleshow/136070288.cms"
         }
       ],
       "unconfirmed": true
