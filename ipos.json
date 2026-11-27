@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T06:01+05:30",
+  "generated_at": "2026-11-27T06:15+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-26T11:37+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-27T06:01+05:30",
+    "nse_ok_at": "2026-11-27T06:15+05:30",
     "bse_ok_at": "2026-11-26T11:41+05:30"
   },
   "ipos": [
@@ -3323,7 +3323,7 @@
         {
           "source": "Tracker B",
           "gmp": 23,
-          "at": "2026-11-26T23:55"
+          "at": "2026-11-27T06:10"
         }
       ],
       "gmp_history": [
@@ -3382,16 +3382,20 @@
         {
           "date": "2026-11-26",
           "gmp": 23
+        },
+        {
+          "date": "2026-11-27",
+          "gmp": 23
         }
       ],
       "history_source": "Tracker B",
       "gmp_low": 15,
       "gmp_high": 67,
       "exchange": "SME",
-      "gmp": 19,
-      "gmp_asof": "2026-11-27T06:01",
-      "gmp_source_latest": "Tracker D",
-      "gmp_pct": 7.76,
+      "gmp": 23,
+      "gmp_asof": "2026-11-27T06:10",
+      "gmp_source_latest": "Tracker B",
+      "gmp_pct": 9.39,
       "gmp_spread": {
         "min": 19,
         "max": 35,
@@ -3401,9 +3405,9 @@
       },
       "gmp_trend": {
         "dir": "falling",
-        "change": -17,
+        "change": -18,
         "days": 3,
-        "since": "2026-11-24"
+        "since": "2026-11-25"
       },
       "status": "listed",
       "unconfirmed": false
@@ -3779,8 +3783,8 @@
         },
         {
           "source": "Tracker B",
-          "gmp": 0.65,
-          "at": "2026-11-26T23:55"
+          "gmp": 0.7,
+          "at": "2026-11-27T06:10"
         }
       ],
       "gmp_history": [
@@ -3827,16 +3831,20 @@
         {
           "date": "2026-11-26",
           "gmp": 0.65
+        },
+        {
+          "date": "2026-11-27",
+          "gmp": 0.7
         }
       ],
       "history_source": "Tracker B",
       "gmp_low": 0,
       "gmp_high": 13,
       "exchange": "SME",
-      "gmp": 0.5,
-      "gmp_asof": "2026-11-27T06:01",
-      "gmp_source_latest": "Tracker D",
-      "gmp_pct": 0.37,
+      "gmp": 0.7,
+      "gmp_asof": "2026-11-27T06:10",
+      "gmp_source_latest": "Tracker B",
+      "gmp_pct": 0.51,
       "gmp_spread": {
         "min": 0,
         "max": 0.7,
@@ -3846,9 +3854,9 @@
       },
       "gmp_trend": {
         "dir": "steady",
-        "change": -0.05,
+        "change": 0.25,
         "days": 3,
-        "since": "2026-11-22"
+        "since": "2026-11-23"
       },
       "status": "listed",
       "unconfirmed": false
@@ -3875,7 +3883,7 @@
         "total": 1.27
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-27T05:54",
+      "sub_asof": "2026-11-27T06:10",
       "registrar": "Mas Services Limited",
       "lead_managers": [
         "Erudore Capital Private Limited"
@@ -3914,75 +3922,75 @@
       },
       "tracker_rating": 1,
       "reservation_detail": {
-        "qib": {
-          "shares": 66000,
-          "pct": 1.0
-        },
-        "nii": {
-          "shares": 3100000,
-          "pct": 47.0
-        },
         "bnii": {
-          "shares": 2067000,
-          "pct": 31.34
-        },
-        "snii": {
-          "shares": 1033000,
-          "pct": 15.66
-        },
-        "retail": {
-          "shares": 3100000,
-          "pct": 47.0
+          "pct": 31.34,
+          "shares": 2067000
         },
         "market_maker": {
-          "shares": 330000,
-          "pct": 100.0
+          "pct": 100.0,
+          "shares": 330000
+        },
+        "nii": {
+          "pct": 47.0,
+          "shares": 3100000
+        },
+        "qib": {
+          "pct": 1.0,
+          "shares": 66000
+        },
+        "retail": {
+          "pct": 47.0,
+          "shares": 3100000
+        },
+        "snii": {
+          "pct": 15.66,
+          "shares": 1033000
         }
       },
       "uses": [
         {
-          "use": "Capital Expense",
-          "cr": 23.54
+          "cr": 23.54,
+          "use": "Capital Expense"
         },
         {
-          "use": "Debt",
-          "cr": 48.5
+          "cr": 48.5,
+          "use": "Debt"
         }
       ],
       "fin": {
         "years": [
           {
-            "y": "FY24",
-            "income": 36.9,
-            "pat": 3.08,
-            "ebitda": 8.61,
-            "net_worth": 12.98,
-            "debt": 76.45,
             "assets": 114.78,
+            "debt": 76.45,
+            "ebitda": 8.61,
+            "income": 36.9,
+            "net_worth": 12.98,
+            "pat": 3.08,
+            "roce": 9.22,
             "roe": 47.11,
-            "roce": 9.22
+            "y": "FY24"
           },
           {
-            "y": "FY25",
-            "income": 61.13,
-            "pat": 5.5,
-            "ebitda": 14.54,
-            "net_worth": 18.48,
-            "debt": 72.76,
             "assets": 115.22,
+            "debt": 72.76,
+            "ebitda": 14.54,
+            "income": 61.13,
+            "net_worth": 18.48,
+            "pat": 5.5,
+            "roce": 17.2,
             "roe": 34.94,
-            "roce": 17.2
+            "y": "FY25"
           },
           {
-            "y": "FY26",
-            "income": 78.32,
-            "pat": 11.59,
-            "ebitda": 20.46,
-            "net_worth": 25.07,
-            "debt": 89.95,
             "assets": 145.86,
+            "debt": 89.95,
+            "ebitda": 20.46,
+            "income": 78.32,
+            "net_worth": 25.07,
+            "pat": 11.59,
+            "roce": 19.76,
             "roe": 53.24,
-            "roce": 19.76
+            "y": "FY26"
           }
         ],
         "ratios": {}
@@ -3997,12 +4005,12 @@
         {
           "source": "Tracker D",
           "gmp": 6,
-          "at": "2026-11-27T03:15"
+          "at": "2026-11-27T06:15"
         },
         {
           "source": "Tracker B",
           "gmp": 5,
-          "at": "2026-11-26T23:55"
+          "at": "2026-11-27T06:10"
         }
       ],
       "gmp_history": [
@@ -4032,7 +4040,7 @@
       "gmp_high": 25,
       "exchange": "SME",
       "gmp": 6,
-      "gmp_asof": "2026-11-27T03:15",
+      "gmp_asof": "2026-11-27T06:15",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 4.23,
       "gmp_spread": {
@@ -4327,20 +4335,20 @@
       "bse_ipo_no": "8097",
       "uses": [
         {
-          "use": "Capital Expense",
-          "cr": 21.4
+          "cr": 21.4,
+          "use": "Capital Expense"
         },
         {
-          "use": "Capital Expense",
-          "cr": 41.5
+          "cr": 41.5,
+          "use": "Capital Expense"
         },
         {
-          "use": "Investment",
-          "cr": 50.81
+          "cr": 50.81,
+          "use": "Investment"
         },
         {
-          "use": "Debt",
-          "cr": 21.0
+          "cr": 21.0,
+          "use": "Debt"
         }
       ],
       "sector": "Luxury Food Services / Hospitality",
@@ -4348,7 +4356,7 @@
         {
           "source": "Tracker D",
           "gmp": 10,
-          "at": "2026-11-27T03:15"
+          "at": "2026-11-27T06:15"
         }
       ],
       "gmp_history": [
@@ -4390,7 +4398,7 @@
       "gmp_high": 27,
       "exchange": "SME",
       "gmp": 10,
-      "gmp_asof": "2026-11-27T03:15",
+      "gmp_asof": "2026-11-27T06:15",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 5.24,
       "gmp_trend": {
@@ -4466,12 +4474,12 @@
       "updated_on": "2026-11-27T00:01+05:30",
       "reservation_detail": {
         "nii": {
-          "shares": 1711200,
-          "pct": 50.04
+          "pct": 50.04,
+          "shares": 1711200
         },
         "retail": {
-          "shares": 1708800,
-          "pct": 49.96
+          "pct": 49.96,
+          "shares": 1708800
         }
       },
       "reservation": {
@@ -4480,28 +4488,28 @@
       },
       "uses": [
         {
-          "use": "Asset",
-          "cr": 2.0
+          "cr": 2.0,
+          "use": "Asset"
         },
         {
-          "use": "Asset",
-          "cr": 0.6
+          "cr": 0.6,
+          "use": "Asset"
         },
         {
-          "use": "Factory",
-          "cr": 3.97
+          "cr": 3.97,
+          "use": "Factory"
         },
         {
-          "use": "Working Capital",
-          "cr": 13.0
+          "cr": 13.0,
+          "use": "Working Capital"
         },
         {
-          "use": "Other",
-          "cr": 4.34
+          "cr": 4.34,
+          "use": "Other"
         },
         {
-          "use": "Expenditure",
-          "cr": 4.0
+          "cr": 4.0,
+          "use": "Expenditure"
         }
       ],
       "sector": "Industrial Products",
@@ -4510,7 +4518,7 @@
         {
           "source": "Tracker D",
           "gmp": 3,
-          "at": "2026-11-27T03:15"
+          "at": "2026-11-27T06:15"
         }
       ],
       "gmp_history": [
@@ -4532,7 +4540,7 @@
       "gmp_high": 4,
       "exchange": "SME",
       "gmp": 3,
-      "gmp_asof": "2026-11-27T03:15",
+      "gmp_asof": "2026-11-27T06:15",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 3.03,
       "gmp_trend": {
@@ -4577,17 +4585,17 @@
       "updated_on": "2026-11-27T00:01+05:30",
       "tracker_rating": 3,
       "reservation_detail": {
-        "qib": {
-          "shares": 1406400,
-          "pct": 49.35
-        },
         "nii": {
-          "shares": 432000,
-          "pct": 15.16
+          "pct": 15.16,
+          "shares": 432000
+        },
+        "qib": {
+          "pct": 49.35,
+          "shares": 1406400
         },
         "retail": {
-          "shares": 1011200,
-          "pct": 35.49
+          "pct": 35.49,
+          "shares": 1011200
         }
       },
       "reservation": {
@@ -4597,12 +4605,12 @@
       },
       "uses": [
         {
-          "use": "Working Capital",
-          "cr": 29.3
+          "cr": 29.3,
+          "use": "Working Capital"
         },
         {
-          "use": "Debt",
-          "cr": 7.0
+          "cr": 7.0,
+          "use": "Debt"
         }
       ],
       "sector": "Packaging",
@@ -4744,16 +4752,16 @@
       "tracker_rating": 3,
       "uses": [
         {
-          "use": "Debt",
-          "cr": 45.0
+          "cr": 45.0,
+          "use": "Debt"
         },
         {
-          "use": "Facility",
-          "cr": 19.06
+          "cr": 19.06,
+          "use": "Facility"
         },
         {
-          "use": "Facility",
-          "cr": 8.44
+          "cr": 8.44,
+          "use": "Facility"
         }
       ],
       "sector": "Tyres & Rubber Products",
@@ -4771,7 +4779,7 @@
         {
           "source": "Tracker D",
           "gmp": 27,
-          "at": "2026-11-27T03:15"
+          "at": "2026-11-27T06:15"
         }
       ],
       "gmp_history": [
@@ -4797,7 +4805,7 @@
       "gmp_high": 27,
       "exchange": "SME",
       "gmp": 27,
-      "gmp_asof": "2026-11-27T03:15",
+      "gmp_asof": "2026-11-27T06:15",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 15.7,
       "gmp_spread": {
@@ -5088,7 +5096,7 @@
         "total": 1.08
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-27T05:50",
+      "sub_asof": "2026-11-27T05:59",
       "gmp_sources": [
         {
           "source": "Tracker C",
@@ -5103,7 +5111,7 @@
         {
           "source": "Tracker B",
           "gmp": 9.5,
-          "at": "2026-11-26T23:55"
+          "at": "2026-11-27T06:10"
         }
       ],
       "gmp_history": [
@@ -5134,13 +5142,17 @@
         {
           "date": "2026-11-26",
           "gmp": 9.5
+        },
+        {
+          "date": "2026-11-27",
+          "gmp": 9.5
         }
       ],
       "history_source": "Tracker B",
       "gmp_low": 7,
       "gmp_high": 27,
       "gmp": 9.5,
-      "gmp_asof": "2026-11-26T23:55",
+      "gmp_asof": "2026-11-27T06:10",
       "gmp_source_latest": "Tracker B",
       "gmp_pct": 4.97,
       "gmp_spread": {
@@ -5152,9 +5164,9 @@
       },
       "gmp_trend": {
         "dir": "falling",
-        "change": -10.5,
+        "change": -8.5,
         "days": 3,
-        "since": "2026-11-24"
+        "since": "2026-11-25"
       },
       "status": "open",
       "news": [
@@ -5200,45 +5212,45 @@
       "tracker_rating": 4,
       "uses": [
         {
-          "use": "Working Capital",
-          "cr": 120.0
+          "cr": 120.0,
+          "use": "Working Capital"
         }
       ],
       "sector": "Civil Construction",
       "fin": {
         "years": [
           {
-            "y": "FY23",
-            "income": 0,
-            "pat": 0,
-            "ebitda": 0,
-            "net_worth": 0,
-            "debt": 0,
             "assets": 0,
+            "debt": 0,
+            "ebitda": 0,
+            "income": 0,
+            "net_worth": 0,
+            "pat": 0,
+            "roce": 10.53,
             "roe": 10.53,
-            "roce": 10.53
+            "y": "FY23"
           },
           {
-            "y": "FY24",
-            "income": 392.14,
-            "pat": 14.83,
-            "ebitda": 31.89,
-            "net_worth": 9.68,
-            "debt": 0,
             "assets": 240.81,
+            "debt": 0,
+            "ebitda": 31.89,
+            "income": 392.14,
+            "net_worth": 9.68,
+            "pat": 14.83,
+            "roce": 20.05,
             "roe": 24.67,
-            "roce": 20.05
+            "y": "FY24"
           },
           {
-            "y": "FY25",
-            "income": 477.29,
-            "pat": 18,
-            "ebitda": 39,
-            "net_worth": 17,
-            "debt": 0,
             "assets": 294,
+            "debt": 0,
+            "ebitda": 39,
+            "income": 477.29,
+            "net_worth": 17,
+            "pat": 18,
+            "roce": 21.95,
             "roe": 24.86,
-            "roce": 21.95
+            "y": "FY25"
           }
         ],
         "ratios": {}
@@ -5252,7 +5264,7 @@
         {
           "source": "Tracker D",
           "gmp": 24,
-          "at": "2026-11-27T03:15"
+          "at": "2026-11-27T06:15"
         }
       ],
       "gmp_history": [
@@ -5281,7 +5293,7 @@
       "gmp_low": 21,
       "gmp_high": 24,
       "gmp": 24,
-      "gmp_asof": "2026-11-27T03:15",
+      "gmp_asof": "2026-11-27T06:15",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 36.92,
       "gmp_spread": {
