@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T23:15+05:30",
+  "generated_at": "2026-11-27T23:31+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-27T10:44+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-27T23:15+05:30",
+    "nse_ok_at": "2026-11-27T23:31+05:30",
     "bse_ok_at": "2026-11-27T10:48+05:30"
   },
   "ipos": [
@@ -3321,7 +3321,7 @@
         {
           "source": "Tracker B",
           "gmp": 23,
-          "at": "2026-11-27T20:25"
+          "at": "2026-11-27T23:30"
         }
       ],
       "gmp_history": [
@@ -3391,8 +3391,8 @@
       "gmp_high": 67,
       "exchange": "SME",
       "gmp": 23,
-      "gmp_asof": "2026-11-27T21:01",
-      "gmp_source_latest": "Tracker D",
+      "gmp_asof": "2026-11-27T23:30",
+      "gmp_source_latest": "Tracker B",
       "gmp_pct": 9.39,
       "gmp_spread": {
         "min": 23,
@@ -3782,7 +3782,7 @@
         {
           "source": "Tracker B",
           "gmp": 0.7,
-          "at": "2026-11-27T20:25"
+          "at": "2026-11-27T23:30"
         }
       ],
       "gmp_history": [
@@ -3840,8 +3840,8 @@
       "gmp_high": 13,
       "exchange": "SME",
       "gmp": 0.7,
-      "gmp_asof": "2026-11-27T22:45",
-      "gmp_source_latest": "Tracker D",
+      "gmp_asof": "2026-11-27T23:30",
+      "gmp_source_latest": "Tracker B",
       "gmp_pct": 0.51,
       "gmp_spread": {
         "min": 0,
@@ -3904,9 +3904,9 @@
         }
       ],
       "series": "SME",
-      "nse_status": "Active",
+      "nse_status": "Closed",
       "shares_offered": 6596000.0,
-      "updated_on": "2026-11-27T18:45+05:30",
+      "updated_on": "2026-11-27T23:31+05:30",
       "reservation": {
         "qib": 1.0,
         "nii": 47.0,
@@ -3998,7 +3998,7 @@
         {
           "source": "Tracker C",
           "gmp": 1,
-          "at": "2026-11-27T19:37"
+          "at": "2026-11-27T22:37"
         },
         {
           "source": "Tracker D",
@@ -4365,7 +4365,7 @@
       "series": "EQ",
       "nse_status": "Active",
       "shares_offered": 10474048.0,
-      "updated_on": "2026-11-27T18:45+05:30",
+      "updated_on": "2026-11-27T23:31+05:30",
       "bse_ipo_no": "8097",
       "reservation_detail": {
         "anchor": {
@@ -4540,7 +4540,7 @@
       "series": "SME",
       "nse_status": "Active",
       "shares_offered": 3600000.0,
-      "updated_on": "2026-11-27T18:45+05:30",
+      "updated_on": "2026-11-27T23:31+05:30",
       "reservation": {
         "nii": 50.04,
         "retail": 49.96
@@ -4596,7 +4596,7 @@
         {
           "source": "Tracker B",
           "gmp": 3,
-          "at": "2026-11-27T20:25"
+          "at": "2026-11-27T23:30"
         }
       ],
       "gmp_history": [
@@ -4618,8 +4618,8 @@
       "gmp_high": 4,
       "exchange": "SME",
       "gmp": 3,
-      "gmp_asof": "2026-11-27T23:01",
-      "gmp_source_latest": "Tracker D",
+      "gmp_asof": "2026-11-27T23:30",
+      "gmp_source_latest": "Tracker B",
       "gmp_pct": 3.03,
       "gmp_spread": {
         "min": 3,
@@ -4675,7 +4675,7 @@
       "series": "SME",
       "nse_status": "Forthcoming",
       "shares_offered": 3000000.0,
-      "updated_on": "2026-11-27T18:45+05:30",
+      "updated_on": "2026-11-27T23:31+05:30",
       "tracker_rating": 3,
       "reservation_detail": {
         "nii": {
@@ -4793,7 +4793,7 @@
       "series": "Equity",
       "nse_status": "Forthcoming",
       "shares_offered": 27000000.0,
-      "updated_on": "2026-11-27T18:45+05:30",
+      "updated_on": "2026-11-27T23:31+05:30",
       "bse_ipo_no": "8102",
       "gmp_sources": [],
       "gmp_history": [],
@@ -4842,7 +4842,7 @@
       "series": "Equity",
       "nse_status": "Forthcoming",
       "shares_offered": 7276981.0,
-      "updated_on": "2026-11-27T18:45+05:30",
+      "updated_on": "2026-11-27T23:31+05:30",
       "bse_ipo_no": "8100",
       "tracker_rating": 3,
       "uses": [
@@ -4954,7 +4954,7 @@
       "series": "Equity",
       "nse_status": "Forthcoming",
       "shares_offered": 76203006.0,
-      "updated_on": "2026-11-27T18:45+05:30",
+      "updated_on": "2026-11-27T23:31+05:30",
       "tracker_rating": 1,
       "uses": [
         {
@@ -5340,7 +5340,7 @@
         "total": 1.47
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-27T23:12",
+      "sub_asof": "2026-11-27T23:30",
       "gmp_sources": [
         {
           "source": "Tracker C",
@@ -5355,7 +5355,7 @@
         {
           "source": "Tracker B",
           "gmp": 4,
-          "at": "2026-11-27T20:25"
+          "at": "2026-11-27T23:30"
         }
       ],
       "gmp_history": [
@@ -5396,7 +5396,7 @@
       "gmp_low": 4,
       "gmp_high": 27,
       "gmp": 4,
-      "gmp_asof": "2026-11-27T20:25",
+      "gmp_asof": "2026-11-27T23:30",
       "gmp_source_latest": "Tracker B",
       "gmp_pct": 2.09,
       "gmp_spread": {
@@ -5644,7 +5644,7 @@
       },
       "gmp_watch": {
         "sources": 2,
-        "at": "2026-11-27T23:15"
+        "at": "2026-11-27T23:31"
       },
       "gmp_sources": [],
       "gmp_history": [],
