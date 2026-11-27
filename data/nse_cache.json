@@ -2366,7 +2366,7 @@
   "series": "SME",
   "nse_status": "Active",
   "shares_offered": 6596000.0,
-  "last_seen": "2026-11-27T15:31+05:30",
+  "last_seen": "2026-11-27T15:45+05:30",
   "segment": "SME",
   "registrar": "Mas Services Limited",
   "lead_managers": [
@@ -2383,7 +2383,7 @@
    "total": 0.0
   },
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-11-27T15:27",
+  "sub_asof": "2026-11-27T15:42",
   "sub_hist": [
    {
     "at": "2026-11-25T15:54+05:30",
@@ -2410,7 +2410,7 @@
   "series": "EQ",
   "nse_status": "Active",
   "shares_offered": 10474048.0,
-  "last_seen": "2026-11-27T15:31+05:30",
+  "last_seen": "2026-11-27T15:45+05:30",
   "segment": "SME",
   "lot": 78,
   "registrar": "MUFG Intime India Private Limited",
@@ -2425,12 +2425,12 @@
    "qib": 1.01,
    "nii": 0.65,
    "bnii": 0.52,
-   "snii": 0.89,
-   "retail": 3.8,
+   "snii": 0.9,
+   "retail": 3.83,
    "total": 1.43
   },
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-11-27T15:27",
+  "sub_asof": "2026-11-27T15:42",
   "reservation": {
    "qib": 53.59,
    "nii": 27.84,
@@ -2643,6 +2643,15 @@
     "snii": 0.89,
     "retail": 3.8,
     "total": 1.43
+   },
+   {
+    "at": "2026-11-27T15:45+05:30",
+    "qib": 1.01,
+    "nii": 0.65,
+    "bnii": 0.52,
+    "snii": 0.9,
+    "retail": 3.83,
+    "total": 1.43
    }
   ]
  },
@@ -2657,7 +2666,7 @@
   "series": "SME",
   "nse_status": "Active",
   "shares_offered": 3600000.0,
-  "last_seen": "2026-11-27T15:31+05:30",
+  "last_seen": "2026-11-27T15:45+05:30",
   "segment": "SME",
   "registrar": "MUFG Intime India Private Limited",
   "lead_managers": [
@@ -2671,7 +2680,7 @@
    "total": 0.0
   },
   "sub_basis": "NSE+BSE",
-  "sub_asof": "2026-11-27T15:27",
+  "sub_asof": "2026-11-27T15:42",
   "sub_hist": [
    {
     "at": "2026-11-27T10:44+05:30",
@@ -2692,7 +2701,7 @@
   "series": "SME",
   "nse_status": "Forthcoming",
   "shares_offered": 3000000.0,
-  "last_seen": "2026-11-27T15:31+05:30",
+  "last_seen": "2026-11-27T15:45+05:30",
   "segment": "SME",
   "registrar": "Mufg Intime India Private Limited",
   "lead_managers": [
@@ -2713,7 +2722,7 @@
   "series": "Equity",
   "nse_status": "Forthcoming",
   "shares_offered": 27000000.0,
-  "last_seen": "2026-11-27T15:31+05:30",
+  "last_seen": "2026-11-27T15:45+05:30",
   "segment": "SME",
   "lot": 225,
   "registrar": "Bigshare Services Private Limited",
@@ -2736,7 +2745,7 @@
   "series": "Equity",
   "nse_status": "Forthcoming",
   "shares_offered": 7276981.0,
-  "last_seen": "2026-11-27T15:31+05:30",
+  "last_seen": "2026-11-27T15:45+05:30",
   "segment": "SME",
   "lot": 87,
   "registrar": "Bigshare Services Private Limited",
