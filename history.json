@@ -19,6 +19,20 @@
    "unconfirmed": true
   },
   {
+   "name": "Swara Baby Products",
+   "segment": "SME",
+   "symbol": "SWARA",
+   "listing": "2026-12-09",
+   "exchange": "SME",
+   "live": true,
+   "id": "swara",
+   "status": "upcoming",
+   "open": "2026-12-02",
+   "close": "2026-12-04",
+   "price": 111,
+   "price_low": 105
+  },
+  {
    "name": "Monomark Engineering",
    "segment": "MAIN",
    "symbol": null,
@@ -30,21 +44,6 @@
    "open": "2026-12-02",
    "close": "2026-12-04",
    "price": 65,
-   "price_low": null,
-   "unconfirmed": true
-  },
-  {
-   "name": "Swara Baby Products",
-   "segment": "MAIN",
-   "symbol": null,
-   "listing": "2026-12-09",
-   "exchange": "NSE · BSE",
-   "live": true,
-   "id": "swara-baby-products",
-   "status": "upcoming",
-   "open": "2026-12-02",
-   "close": "2026-12-04",
-   "price": 111,
    "price_low": null,
    "unconfirmed": true
   },
@@ -5861,5 +5860,5 @@
    "status": "listed"
   }
  ],
- "generated_at": "2026-11-27T11:01+05:30"
+ "generated_at": "2026-11-27T18:45+05:30"
 }
