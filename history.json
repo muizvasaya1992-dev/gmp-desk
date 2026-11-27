@@ -279,6 +279,20 @@
    "status": "listed"
   },
   {
+   "name": "Maxwell Engineering Solutions",
+   "segment": "SME",
+   "symbol": "MAXENGS",
+   "open": "2026-10-30",
+   "close": "2026-11-03",
+   "listing": "2026-11-06",
+   "price": 158,
+   "price_low": 150,
+   "exchange": "NSE Emerge",
+   "live": true,
+   "id": "maxengs",
+   "status": "listed"
+  },
+  {
    "name": "Vectras Enprocon",
    "segment": "SME",
    "symbol": null,
@@ -1131,19 +1145,6 @@
    "status": "listed"
   },
   {
-   "name": "Bench Mark Infotech Services",
-   "segment": "SME",
-   "symbol": "BMISL",
-   "open": "2026-09-25",
-   "close": "2026-09-29",
-   "listing": "2026-10-05",
-   "price": 110,
-   "price_low": 104,
-   "exchange": "NSE Emerge",
-   "id": "bench-mark-infotech-services",
-   "status": "listed"
-  },
-  {
    "name": "Himalayan Solar",
    "segment": "SME",
    "symbol": "HIMALAYAN",
@@ -1367,19 +1368,6 @@
    "gain": 34.75,
    "bse_url": "https://www.bseindia.com/stock-share-price/roopa-screen-ltd/roopa/544954/",
    "id": "roopa-screen",
-   "status": "listed"
-  },
-  {
-   "name": "Pooja Logistics",
-   "segment": "SME",
-   "symbol": "POOJALOGIS",
-   "open": "2026-09-23",
-   "close": "2026-09-25",
-   "listing": "2026-09-30",
-   "price": 115,
-   "price_low": 109,
-   "exchange": "NSE Emerge",
-   "id": "pooja-logistics",
    "status": "listed"
   },
   {
@@ -2623,6 +2611,19 @@
    "price_low": 96,
    "exchange": "NSE Emerge",
    "id": "abh-healthcare",
+   "status": "listed"
+  },
+  {
+   "name": "Madhur Knit Crafts",
+   "segment": "SME",
+   "symbol": "MADHURKNIT",
+   "open": "2026-08-24",
+   "close": "2026-08-27",
+   "listing": "2026-09-01",
+   "price": 100,
+   "price_low": 95,
+   "exchange": "NSE Emerge",
+   "id": "madhur-knit-crafts",
    "status": "listed"
   },
   {
@@ -5845,5 +5846,5 @@
    "status": "listed"
   }
  ],
- "generated_at": "2026-11-27T10:44+05:30"
+ "generated_at": "2026-11-27T10:48+05:30"
 }
