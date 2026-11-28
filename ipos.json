@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T09:00+05:30",
+  "generated_at": "2026-11-28T09:15+05:30",
   "dataset": "live",
   "sources": [
     {
@@ -23,7 +23,7 @@
     "fetched_at": "2026-11-27T10:44+05:30"
   },
   "feeds": {
-    "nse_ok_at": "2026-11-28T09:00+05:30",
+    "nse_ok_at": "2026-11-28T09:15+05:30",
     "bse_ok_at": "2026-11-27T10:48+05:30"
   },
   "ipos": [
@@ -3316,7 +3316,7 @@
         {
           "source": "Tracker D",
           "gmp": 23,
-          "at": "2026-11-28T06:01"
+          "at": "2026-11-28T09:15"
         },
         {
           "source": "Tracker B",
@@ -3391,7 +3391,7 @@
       "gmp_high": 67,
       "exchange": "SME",
       "gmp": 23,
-      "gmp_asof": "2026-11-28T06:01",
+      "gmp_asof": "2026-11-28T09:15",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 9.39,
       "gmp_spread": {
@@ -3777,7 +3777,7 @@
         {
           "source": "Tracker D",
           "gmp": 0.7,
-          "at": "2026-11-28T06:01"
+          "at": "2026-11-28T09:15"
         },
         {
           "source": "Tracker B",
@@ -3840,7 +3840,7 @@
       "gmp_high": 13,
       "exchange": "SME",
       "gmp": 0.7,
-      "gmp_asof": "2026-11-28T06:01",
+      "gmp_asof": "2026-11-28T09:15",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 0.51,
       "gmp_spread": {
@@ -4003,12 +4003,12 @@
         {
           "source": "Tracker D",
           "gmp": 1,
-          "at": "2026-11-28T06:15"
+          "at": "2026-11-28T09:15"
         },
         {
           "source": "Tracker B",
           "gmp": 1,
-          "at": "2026-11-28T06:01"
+          "at": "2026-11-28T09:11"
         }
       ],
       "gmp_history": [
@@ -4042,8 +4042,8 @@
       "gmp_high": 25,
       "exchange": "SME",
       "gmp": 1,
-      "gmp_asof": "2026-11-28T07:37",
-      "gmp_source_latest": "Tracker C",
+      "gmp_asof": "2026-11-28T09:15",
+      "gmp_source_latest": "Tracker D",
       "gmp_pct": 0.7,
       "gmp_spread": {
         "min": 1,
@@ -4425,7 +4425,7 @@
         {
           "source": "Tracker D",
           "gmp": 4,
-          "at": "2026-11-28T06:15"
+          "at": "2026-11-28T09:15"
         }
       ],
       "gmp_history": [
@@ -4471,7 +4471,7 @@
       "gmp_high": 27,
       "exchange": "SME",
       "gmp": 4,
-      "gmp_asof": "2026-11-28T06:15",
+      "gmp_asof": "2026-11-28T09:15",
       "gmp_source_latest": "Tracker D",
       "gmp_pct": 2.09,
       "gmp_trend": {
@@ -4483,28 +4483,28 @@
       "status": "open",
       "news": [
         {
-          "date": "2026-11-26",
-          "source": "Economic Times",
           "title": "Foodlink F&B Holdings IPO Day 1: Issue fully subscribed on strong retail push",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-ipo-day-1-issue-subscribed-29-retail-portion-fully-booked/articleshow/136184706.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-ipo-day-1-issue-subscribed-29-retail-portion-fully-booked/articleshow/136184706.cms",
+          "source": "Economic Times",
+          "date": "2026-11-26"
         },
         {
-          "date": "2026-11-26",
-          "source": "Economic Times",
           "title": "Foodlink F&B Holdings IPO opens for subscription. Should you apply or skip?",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-ipo-opens-today-check-price-band-lot-size-how-to-apply-and-whether-you-should-subscribe/articleshow/136176395.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-ipo-opens-today-check-price-band-lot-size-how-to-apply-and-whether-you-should-subscribe/articleshow/136176395.cms",
+          "source": "Economic Times",
+          "date": "2026-11-26"
         },
         {
-          "date": "2026-11-23",
-          "source": "Economic Times",
           "title": "Foodlink F&B Holdings announces price band for Rs 361-crore IPO. Check key dates & other details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-announces-price-band-for-rs-361-crore-ipo-check-key-dates-other-details/articleshow/136091391.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-announces-price-band-for-rs-361-crore-ipo-check-key-dates-other-details/articleshow/136091391.cms",
+          "source": "Economic Times",
+          "date": "2026-11-23"
         },
         {
-          "date": "2026-11-22",
-          "source": "Economic Times",
           "title": "IPO watch: Foodlink F&B Holdings, Integris Medtech among three new issues to open for subscriptions this week; check details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-watch-foodlink-fb-holdings-integris-medtech-among-three-new-issues-to-open-for-subscriptions-this-week-check-details/articleshow/136070288.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-watch-foodlink-fb-holdings-integris-medtech-among-three-new-issues-to-open-for-subscriptions-this-week-check-details/articleshow/136070288.cms",
+          "source": "Economic Times",
+          "date": "2026-11-22"
         }
       ],
       "unconfirmed": false
@@ -4599,12 +4599,12 @@
         {
           "source": "Tracker D",
           "gmp": 3,
-          "at": "2026-11-28T06:01"
+          "at": "2026-11-28T09:15"
         },
         {
           "source": "Tracker B",
           "gmp": 3,
-          "at": "2026-11-28T06:01"
+          "at": "2026-11-28T09:10"
         }
       ],
       "gmp_history": [
@@ -4630,8 +4630,8 @@
       "gmp_high": 4,
       "exchange": "SME",
       "gmp": 3,
-      "gmp_asof": "2026-11-28T06:01",
-      "gmp_source_latest": "Tracker B",
+      "gmp_asof": "2026-11-28T09:15",
+      "gmp_source_latest": "Tracker D",
       "gmp_pct": 3.03,
       "gmp_spread": {
         "min": 3,
@@ -4653,10 +4653,10 @@
       },
       "news": [
         {
-          "date": "2026-11-27",
-          "source": "Economic Times",
           "title": "Airpro Technology IPO receives 80% bids on Day 1; check issue details, objectives and key dates",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/airpro-technology-ipo-opens-today-check-issue-details-objectives-and-key-dates/articleshow/136207302.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/airpro-technology-ipo-opens-today-check-issue-details-objectives-and-key-dates/articleshow/136207302.cms",
+          "source": "Economic Times",
+          "date": "2026-11-27"
         }
       ],
       "unconfirmed": false
@@ -4729,7 +4729,7 @@
         {
           "source": "Tracker D",
           "gmp": 24,
-          "at": "2026-11-28T06:15"
+          "at": "2026-11-28T09:15"
         }
       ],
       "gmp_history": [
@@ -4763,8 +4763,8 @@
       "gmp_high": 24,
       "exchange": "SME",
       "gmp": 24,
-      "gmp_asof": "2026-11-28T07:37",
-      "gmp_source_latest": "Tracker C",
+      "gmp_asof": "2026-11-28T09:15",
+      "gmp_source_latest": "Tracker D",
       "gmp_pct": 13.33,
       "gmp_spread": {
         "min": 24,
@@ -4890,7 +4890,7 @@
         {
           "source": "Tracker D",
           "gmp": 31,
-          "at": "2026-11-28T06:15"
+          "at": "2026-11-28T09:15"
         }
       ],
       "gmp_history": [
@@ -4900,7 +4900,7 @@
         },
         {
           "date": "2026-11-25",
-          "gmp": 21.5
+          "gmp": 22
         },
         {
           "date": "2026-11-26",
@@ -4915,13 +4915,13 @@
           "gmp": 31
         }
       ],
-      "history_source": "Tracker C",
+      "history_source": "Tracker D",
       "gmp_low": 20,
       "gmp_high": 31,
       "exchange": "SME",
       "gmp": 31,
-      "gmp_asof": "2026-11-28T07:37",
-      "gmp_source_latest": "Tracker C",
+      "gmp_asof": "2026-11-28T09:15",
+      "gmp_source_latest": "Tracker D",
       "gmp_pct": 18.02,
       "gmp_spread": {
         "min": 20,
@@ -4939,10 +4939,10 @@
       "status": "upcoming",
       "news": [
         {
-          "date": "2026-11-23",
-          "source": "Economic Times",
           "title": "Matangi Rubber’s Rs 125.16 cr IPO opens Dec 1: Check price band, lot size and other key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/matangi-rubbers-rs-125-16-cr-ipo-opens-dec-1-check-price-band-lot-size-and-other-key-details/articleshow/136101832.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/matangi-rubbers-rs-125-16-cr-ipo-opens-dec-1-check-price-band-lot-size-and-other-key-details/articleshow/136101832.cms",
+          "source": "Economic Times",
+          "date": "2026-11-23"
         }
       ],
       "unconfirmed": false
@@ -5033,7 +5033,7 @@
         {
           "source": "Tracker D",
           "gmp": 3,
-          "at": "2026-11-28T06:15"
+          "at": "2026-11-28T09:15"
         },
         {
           "source": "Tracker C",
@@ -5051,13 +5051,13 @@
           "gmp": 3
         }
       ],
-      "history_source": "Tracker C",
+      "history_source": "Tracker D",
       "gmp_low": 3,
       "gmp_high": 20,
       "exchange": "SME",
       "gmp": 3,
-      "gmp_asof": "2026-11-28T07:37",
-      "gmp_source_latest": "Tracker C",
+      "gmp_asof": "2026-11-28T09:15",
+      "gmp_source_latest": "Tracker D",
       "gmp_pct": 2.7,
       "gmp_spread": {
         "min": 3,
@@ -5075,22 +5075,22 @@
       "status": "upcoming",
       "news": [
         {
-          "date": "2026-11-27",
-          "source": "cnbctv18.com",
           "title": "Swara Baby Products fixes price band for ₹800 crore IPO - Details here",
-          "url": "https://www.cnbctv18.com/market/swara-baby-products-ipo-price-band-fixed-lot-size-discount-retail-investment-gmp-listing-timeline-20042535.htm"
+          "url": "https://www.cnbctv18.com/market/swara-baby-products-ipo-price-band-fixed-lot-size-discount-retail-investment-gmp-listing-timeline-20042535.htm",
+          "source": "cnbctv18.com",
+          "date": "2026-11-27"
         },
         {
-          "date": "2026-11-27",
-          "source": "Mint",
           "title": "Upcoming IPO: Swara Baby Products’ public offering date, price band, fundraising and other key things to know",
-          "url": "https://www.livemint.com/market/ipo/upcoming-ipo-swara-baby-products-public-offering-date-price-band-fundraising-and-other-key-things-to-know-11795801446389.html"
+          "url": "https://www.livemint.com/market/ipo/upcoming-ipo-swara-baby-products-public-offering-date-price-band-fundraising-and-other-key-things-to-know-11795801446389.html",
+          "source": "Mint",
+          "date": "2026-11-27"
         },
         {
-          "date": "2026-11-27",
-          "source": "BusinessLine",
           "title": "Swara Baby Products cuts IPO size to ₹800 cr, sets price band at ₹105 ​- ₹111",
-          "url": "https://www.thehindubusinessline.com/markets/swara-baby-products-cuts-ipo-size-to-800-cr-sets-price-band-at-105-111/article71749297.ece"
+          "url": "https://www.thehindubusinessline.com/markets/swara-baby-products-cuts-ipo-size-to-800-cr-sets-price-band-at-105-111/article71749297.ece",
+          "source": "BusinessLine",
+          "date": "2026-11-27"
         }
       ],
       "unconfirmed": false
@@ -5334,10 +5334,10 @@
       },
       "news": [
         {
-          "date": "2026-11-27",
-          "source": "Economic Times",
           "title": "Airpro Technology IPO receives 80% bids on Day 1; check issue details, objectives and key dates",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/airpro-technology-ipo-opens-today-check-issue-details-objectives-and-key-dates/articleshow/136207302.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/airpro-technology-ipo-opens-today-check-issue-details-objectives-and-key-dates/articleshow/136207302.cms",
+          "source": "Economic Times",
+          "date": "2026-11-27"
         }
       ],
       "unconfirmed": true
@@ -5380,7 +5380,7 @@
         "total": 1.47
       },
       "sub_basis": "Tracker B",
-      "sub_asof": "2026-11-28T09:00",
+      "sub_asof": "2026-11-28T09:11",
       "gmp_sources": [
         {
           "source": "Tracker C",
@@ -5395,7 +5395,7 @@
         {
           "source": "Tracker B",
           "gmp": 4,
-          "at": "2026-11-28T06:11"
+          "at": "2026-11-28T09:11"
         }
       ],
       "gmp_history": [
@@ -5440,8 +5440,8 @@
       "gmp_low": 4,
       "gmp_high": 27,
       "gmp": 4,
-      "gmp_asof": "2026-11-28T07:37",
-      "gmp_source_latest": "Tracker C",
+      "gmp_asof": "2026-11-28T09:11",
+      "gmp_source_latest": "Tracker B",
       "gmp_pct": 2.09,
       "gmp_spread": {
         "min": 4,
@@ -5459,28 +5459,28 @@
       "status": "open",
       "news": [
         {
-          "date": "2026-11-26",
-          "source": "Economic Times",
           "title": "Foodlink F&B Holdings IPO Day 1: Issue fully subscribed on strong retail push",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-ipo-day-1-issue-subscribed-29-retail-portion-fully-booked/articleshow/136184706.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-ipo-day-1-issue-subscribed-29-retail-portion-fully-booked/articleshow/136184706.cms",
+          "source": "Economic Times",
+          "date": "2026-11-26"
         },
         {
-          "date": "2026-11-26",
-          "source": "Economic Times",
           "title": "Foodlink F&B Holdings IPO opens for subscription. Should you apply or skip?",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-ipo-opens-today-check-price-band-lot-size-how-to-apply-and-whether-you-should-subscribe/articleshow/136176395.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-ipo-opens-today-check-price-band-lot-size-how-to-apply-and-whether-you-should-subscribe/articleshow/136176395.cms",
+          "source": "Economic Times",
+          "date": "2026-11-26"
         },
         {
-          "date": "2026-11-23",
-          "source": "Economic Times",
           "title": "Foodlink F&B Holdings announces price band for Rs 361-crore IPO. Check key dates & other details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-announces-price-band-for-rs-361-crore-ipo-check-key-dates-other-details/articleshow/136091391.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/foodlink-fb-holdings-announces-price-band-for-rs-361-crore-ipo-check-key-dates-other-details/articleshow/136091391.cms",
+          "source": "Economic Times",
+          "date": "2026-11-23"
         },
         {
-          "date": "2026-11-22",
-          "source": "Economic Times",
           "title": "IPO watch: Foodlink F&B Holdings, Integris Medtech among three new issues to open for subscriptions this week; check details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-watch-foodlink-fb-holdings-integris-medtech-among-three-new-issues-to-open-for-subscriptions-this-week-check-details/articleshow/136070288.cms"
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-watch-foodlink-fb-holdings-integris-medtech-among-three-new-issues-to-open-for-subscriptions-this-week-check-details/articleshow/136070288.cms",
+          "source": "Economic Times",
+          "date": "2026-11-22"
         }
       ],
       "unconfirmed": true
@@ -5552,7 +5552,7 @@
         {
           "source": "Tracker D",
           "gmp": 20,
-          "at": "2026-11-28T06:15"
+          "at": "2026-11-28T09:15"
         }
       ],
       "gmp_history": [
@@ -5585,8 +5585,8 @@
       "gmp_low": 20,
       "gmp_high": 24,
       "gmp": 20,
-      "gmp_asof": "2026-11-28T07:37",
-      "gmp_source_latest": "Tracker C",
+      "gmp_asof": "2026-11-28T09:15",
+      "gmp_source_latest": "Tracker D",
       "gmp_pct": 30.77,
       "gmp_spread": {
         "min": 20,
@@ -5692,7 +5692,7 @@
       },
       "gmp_watch": {
         "sources": 2,
-        "at": "2026-11-28T09:00"
+        "at": "2026-11-28T09:15"
       },
       "gmp_sources": [],
       "gmp_history": [],

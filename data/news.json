@@ -1,7 +1,7 @@
 {
  "_feeds": {
   "https://economictimes.indiatimes.com/markets/ipos/fpos/rssfeeds/14655708.cms": {
-   "fetched": "2026-11-28T07:45+05:30",
+   "fetched": "2026-11-28T09:15+05:30",
    "items": [
     {
      "date": "2026-11-27",
@@ -306,7 +306,7 @@
    ]
   },
   "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms": {
-   "fetched": "2026-11-28T07:45+05:30",
+   "fetched": "2026-11-28T09:15+05:30",
    "items": [
     {
      "date": "2026-11-27",
@@ -611,8 +611,14 @@
    ]
   },
   "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml": {
-   "fetched": "2026-11-28T07:45+05:30",
+   "fetched": "2026-11-28T09:15+05:30",
    "items": [
+    {
+     "date": "2026-11-28",
+     "source": "cnbctv18.com",
+     "title": "Wall Street ends a chaotic week on high as AI remains in focus",
+     "url": "https://www.cnbctv18.com/market/wall-street-ends-a-chaotic-week-on-high-as-ai-remains-in-focus-nasdaq-dow-jones-sp-500-20043465.htm"
+    },
     {
      "date": "2026-11-27",
      "source": "cnbctv18.com",
@@ -1086,18 +1092,90 @@
      "source": "cnbctv18.com",
      "title": "Tata Motors’ ACGL stake rises to over 50% without buying a single additional share",
      "url": "https://www.cnbctv18.com/market/tata-motors-acgl-stake-rises-to-over-50-without-buying-a-single-additional-share-20042469.htm"
-    },
-    {
-     "date": "2026-11-26",
-     "source": "cnbctv18.com",
-     "title": "S&P downgrades Tata Motors-owned JLR to ‘BB+’ on weaker cash flow, flags rising debt",
-     "url": "https://www.cnbctv18.com/market/sp-downgrades-tata-motors-owned-jlr-to-bb-on-weaker-cash-flow-flags-rising-debt-20042455.htm"
     }
    ]
   },
   "https://www.freepressjournal.in/stories.rss?section=business": {
-   "fetched": "2026-11-28T07:45+05:30",
+   "fetched": "2026-11-28T09:15+05:30",
    "items": [
+    {
+     "date": "2026-11-28",
+     "source": "freepressjournal.in",
+     "title": "'Atif Aslam X Dhurandhar': Pakistani Singer Sings Jaan Se Guzarte From Ranveer Singh's Film At Dubai Concert, VIDEO Goes Viral",
+     "url": "https://www.freepressjournal.in/entertainment/atif-aslam-x-dhurandhar-pakistani-singer-sings-jaan-se-guzarte-from-ranveer-singhs-film-at-dubai-concert-video-goes-viral"
+    },
+    {
+     "date": "2026-11-28",
+     "source": "freepressjournal.in",
+     "title": "'90 Rupees' Instead Of '90 Grams': Pakistan Woman PERA Official’s Roti Weight Inspection Video Turns Into Meme Fest",
+     "url": "https://www.freepressjournal.in/viral/90-rupees-instead-of-90-grams-pakistan-woman-pera-officials-roti-weight-inspection-video-turns-into-meme-fest"
+    },
+    {
+     "date": "2026-11-28",
+     "source": "freepressjournal.in",
+     "title": "US-Iran Tensions Escalate As CENTCOM Disables Commercial Vessel In Gulf Of Oman After Alleged Attempt To Breach Naval Blockade Against Tehran | Video",
+     "url": "https://www.freepressjournal.in/world/us-iran-tensions-escalate-as-centcom-disables-commercial-vessel-in-gulf-of-oman-after-alleged-attempt-to-breach-naval-blockade-against-tehran-video"
+    },
+    {
+     "date": "2026-11-28",
+     "source": "freepressjournal.in",
+     "title": "IND vs NZ 2nd Test: Yashasvi Jaiswal Breaks Virat Kohli's Unwanted WTC Record After Christchurch Duck | Watch",
+     "url": "https://www.freepressjournal.in/sports/ind-vs-nz-2nd-test-yashasvi-jaiswal-breaks-virat-kohlis-unwanted-wtc-record-after-christchurch-duck-watch"
+    },
+    {
+     "date": "2026-11-28",
+     "source": "freepressjournal.in",
+     "title": "CBI Holds National Conference On Human Trafficking, Focuses On Cyber Slavery, Organised Networks And Victim Rehabilitation",
+     "url": "https://www.freepressjournal.in/india/cbi-holds-national-conference-on-human-trafficking-focuses-on-cyber-slavery-organised-networks-and-victim-rehabilitation"
+    },
+    {
+     "date": "2026-11-28",
+     "source": "freepressjournal.in",
+     "title": "Israel Political Crisis: Netanyahu Offers Gadi Eisenkot Rotational Premiership, Proposes Serving As Second PM To Form Unity Government",
+     "url": "https://www.freepressjournal.in/world/israel-political-crisis-netanyahu-offers-gadi-eisenkot-rotational-premiership-proposes-serving-as-second-pm-to-form-unity-government"
+    },
+    {
+     "date": "2026-11-28",
+     "source": "freepressjournal.in",
+     "title": "CRPF Deployed At Tamil Nadu's Thiruparankundram Hill As Supreme Court Orders Karthigai Deepam Lighting At Deepathoon Today | Watch",
+     "url": "https://www.freepressjournal.in/india/crpf-deployed-at-tamil-nadus-thiruparankundram-hill-as-supreme-court-orders-karthigai-deepam-lighting-at-deepathoon-today-watch"
+    },
+    {
+     "date": "2026-11-28",
+     "source": "freepressjournal.in",
+     "title": "'Breaking The Enemy Blockade Is Underway': Iran Navy Chief Claims Uninterrupted Port Operations Amid US Naval Siege | Video",
+     "url": "https://www.freepressjournal.in/world/breaking-the-enemy-blockade-is-underway-iran-navy-chief-claims-uninterrupted-port-operations-amid-us-naval-siege-video"
+    },
+    {
+     "date": "2026-11-28",
+     "source": "freepressjournal.in",
+     "title": "Saudi Arabia Joins 23 IORA Member Nations At 25th Council Of Ministers Meeting In Delhi As Jaishankar Announces Maritime Cooperation Initiatives",
+     "url": "https://www.freepressjournal.in/india/saudi-arabia-joins-23-iora-member-nations-at-25th-council-of-ministers-meeting-in-delhi-as-jaishankar-announces-maritime-cooperation-initiatives"
+    },
+    {
+     "date": "2026-11-28",
+     "source": "freepressjournal.in",
+     "title": "MP High Court Dismisses Petition Challenging Supreme Court Collegium’s Recommendations Over SC, ST, OBC Representation",
+     "url": "https://www.freepressjournal.in/bhopal/mp-high-court-dismisses-petition-challenging-supreme-court-collegiums-recommendations-over-sc-st-obc-representation"
+    },
+    {
+     "date": "2026-11-28",
+     "source": "freepressjournal.in",
+     "title": "VAHAN Portal Glitch Disrupts Vehicle Fitness Tests In Indore, Transport Association Demands Permanent Solution",
+     "url": "https://www.freepressjournal.in/indore/vahan-portal-glitch-disrupts-vehicle-fitness-tests-in-indore-transport-association-demands-permanent-solution"
+    },
+    {
+     "date": "2026-11-28",
+     "source": "freepressjournal.in",
+     "title": "Hackers Reportedly Breach US Air Force's Flagship Cloud Platform Amid Cyberattacks Targeting CIA, ODNI And FBI",
+     "url": "https://www.freepressjournal.in/tech/hackers-reportedly-breach-us-air-forces-flagship-cloud-platform-amid-cyberattacks-targeting-cia-odni-and-fbi"
+    },
+    {
+     "date": "2026-11-28",
+     "source": "freepressjournal.in",
+     "title": "WWE Superstar Bronson Reed Dies At 38 Due To Medical Complications Weeks After Crown Jewel Injury",
+     "url": "https://www.freepressjournal.in/sports/wwe-superstar-bronson-reed-dies-at-38-due-to-medical-complications-weeks-after-crown-jewel-injury"
+    },
     {
      "date": "2026-11-28",
      "source": "freepressjournal.in",
@@ -1119,14 +1197,14 @@
     {
      "date": "2026-11-28",
      "source": "freepressjournal.in",
-     "title": "FP Impact: Bhopal Civic Body Clears 503 PMAY House Allotments, Ends Year-Long Wait For Over 100 EWS Families",
-     "url": "https://www.freepressjournal.in/bhopal/fp-impact-bhopal-civic-body-clears-503-pmay-house-allotments-ends-year-long-wait-for-over-100-ews-families"
+     "title": "Luxe Dining: 5 Most Talked-About Restaurant Launches In India",
+     "url": "https://www.freepressjournal.in/lifestyle/luxe-dining-5-most-talked-about-restaurant-launches-in-india"
     },
     {
      "date": "2026-11-28",
      "source": "freepressjournal.in",
-     "title": "Luxe Dining: 5 Most Talked-About Restaurant Launches In India",
-     "url": "https://www.freepressjournal.in/lifestyle/luxe-dining-5-most-talked-about-restaurant-launches-in-india"
+     "title": "FP Impact: Bhopal Civic Body Clears 503 PMAY House Allotments, Ends Year-Long Wait For Over 100 EWS Families",
+     "url": "https://www.freepressjournal.in/bhopal/fp-impact-bhopal-civic-body-clears-503-pmay-house-allotments-ends-year-long-wait-for-over-100-ews-families"
     },
     {
      "date": "2026-11-28",
@@ -1151,24 +1229,18 @@
      "source": "freepressjournal.in",
      "title": "Bhopal Crime Branch Arrests 26-Year-Old With 3.10 Grams Of MD In MP Nagar",
      "url": "https://www.freepressjournal.in/bhopal/bhopal-crime-branch-arrests-26-year-old-with-310-grams-of-md-in-mp-nagar"
-    },
-    {
-     "date": "2026-11-27",
-     "source": "freepressjournal.in",
-     "title": "Premature Twins Recover After 41 Days Of Intensive Treatment At Bhopal’s KNK Hospital",
-     "url": "https://www.freepressjournal.in/bhopal/premature-twins-recover-after-41-days-of-intensive-treatment-at-bhopals-knk-hospital"
-    },
-    {
-     "date": "2026-11-27",
-     "source": "freepressjournal.in",
-     "title": "Rare Holkar Dynasty Coins Take Centre Stage At Second Malwa Mudra Mahotsav In Indore",
-     "url": "https://www.freepressjournal.in/indore/rare-holkar-dynasty-coins-take-centre-stage-at-second-malwa-mudra-mahotsav-in-indore"
     }
    ]
   },
   "https://www.livemint.com/rss/markets": {
-   "fetched": "2026-11-28T07:45+05:30",
+   "fetched": "2026-11-28T09:15+05:30",
    "items": [
+    {
+     "date": "2026-11-28",
+     "source": "Mint",
+     "title": "Best 3 stocks to buy: Manappuram Finance, BEL, SBI Life by Sumeet Bagadia | Targets, stoploss, Nifty, Bank Nifty outlook",
+     "url": "https://www.livemint.com/market/stock-market-news/best-3-stocks-to-buy-manappuram-finance-bel-sbi-life-by-sumeet-bagadia-targets-stoploss-nifty-bank-nifty-outlook-11795833212780.html"
+    },
     {
      "date": "2026-11-28",
      "source": "Mint",
@@ -1372,17 +1444,11 @@
      "source": "Mint",
      "title": "Banking stocks hit the accelerator! Nifty Bank index up 18% in 1 month; HDFC Bank, SBI, ICICI Bank- 9 best stocks to buy",
      "url": "https://www.livemint.com/market/stock-market-news/banking-stocks-hit-the-accelerator-nifty-bank-index-up-18-in-1-month-hdfc-bank-sbi-icici-bank-9-best-stocks-to-buy-11795758901361.html"
-    },
-    {
-     "date": "2026-11-27",
-     "source": "Mint",
-     "title": "BEML, BEL, HAL, Cochin Shipyard, Bharat Dynamics shares: Defence stocks rise up to 14%; here's why | Top 5 stocks to buy",
-     "url": "https://www.livemint.com/market/stock-market-news/beml-bel-hal-cochin-shipyard-bharat-dynamics-shares-defence-stocks-rise-up-to-14-heres-why-top-5-stocks-to-buy-11795757838194.html"
     }
    ]
   },
   "https://www.thehindubusinessline.com/markets/feeder/default.rss": {
-   "fetched": "2026-11-28T07:45+05:30",
+   "fetched": "2026-11-28T09:15+05:30",
    "items": [
     {
      "date": "2026-11-27",
@@ -1747,7 +1813,7 @@
    ]
   },
   "https://www.valueresearchonline.com/stories/type/22/ipo-analysis/rss": {
-   "fetched": "2026-11-28T07:45+05:30",
+   "fetched": "2026-11-28T09:15+05:30",
    "items": [
     {
      "date": "2026-11-18",
@@ -1873,7 +1939,7 @@
   }
  },
  "airpro": {
-  "checked": "2026-11-28T09:00+05:30",
+  "checked": "2026-11-28T09:15+05:30",
   "items": [
    {
     "date": "2026-11-27",
@@ -1884,7 +1950,7 @@
   ]
  },
  "airpro-technology": {
-  "checked": "2026-11-28T09:00+05:30",
+  "checked": "2026-11-28T09:15+05:30",
   "items": [
    {
     "date": "2026-11-27",
@@ -1895,7 +1961,7 @@
   ]
  },
  "foodlink": {
-  "checked": "2026-11-28T09:00+05:30",
+  "checked": "2026-11-28T09:15+05:30",
   "items": [
    {
     "date": "2026-11-26",
@@ -1924,7 +1990,7 @@
   ]
  },
  "foodlink-f-b-holdings": {
-  "checked": "2026-11-28T09:00+05:30",
+  "checked": "2026-11-28T09:15+05:30",
   "items": [
    {
     "date": "2026-11-26",
@@ -1953,7 +2019,7 @@
   ]
  },
  "matangi": {
-  "checked": "2026-11-28T09:00+05:30",
+  "checked": "2026-11-28T09:15+05:30",
   "items": [
    {
     "date": "2026-11-23",
@@ -1986,7 +2052,7 @@
   ]
  },
  "swara": {
-  "checked": "2026-11-28T09:00+05:30",
+  "checked": "2026-11-28T09:15+05:30",
   "items": [
    {
     "date": "2026-11-27",
